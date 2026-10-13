@@ -23,7 +23,7 @@ const h = React.createElement;
 const STORAGE_KEY = 'rapid-nursing-review-v1';
 const WEB_ROOT = `${FileSystem.documentDirectory}web/`;
 const WEB_DIR = `${WEB_ROOT}${WEB_VERSION}/`;
-const COLORS = { ink: '#23352f', green: '#284e3e', paper: '#f7f8f5', muted: '#7b847e' };
+const COLORS = { ink: '#eef1fa', green: '#22d3ee', paper: '#080b16', muted: '#9aa3bd' };   // dark NurseBound theme, so loading matches the app
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
@@ -65,6 +65,7 @@ function Study() {
   const [ready, setReady] = useState(false);
   const [error, setError] = useState(null);
   const [paywall, setPaywall] = useState(null);   // { reason } while the native paywall is open
+  const [ui, setUi] = useState({ light: false, bg: COLORS.paper });   // page theme: status bar text and edge color
   const { isPro } = usePro();
 
   const load = useCallback(async () => {
@@ -105,6 +106,8 @@ function Study() {
       saveTimer.current = setTimeout(() => { AsyncStorage.setItem(STORAGE_KEY, data).catch(() => {}); }, 250);
     } else if (msg.type === 'paywall') {
       setPaywall({ reason: typeof msg.reason === 'string' ? msg.reason.slice(0, 160) : '' });
+    } else if (msg.type === 'ui') {
+      setUi({ light: !!msg.light, bg: typeof msg.bg === 'string' && /^(#|rgb)/.test(msg.bg) ? msg.bg : COLORS.paper });
     } else if (msg.type === 'export' && typeof msg.data === 'string') {
       shareExport(msg.filename || 'rapid-nursing-review.json', msg.data).catch(() => {});
     }
@@ -133,8 +136,13 @@ function Study() {
 
   // Runs before the page script: hands the web app its native copy of saved progress.
   const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};window.__RNR_PRO__=${isPro ? 'true' : 'false'};true;`;
-  return h(View, { style: [styles.fill, pad] },
+  // Edge to edge: the page fills the whole screen, under the status bar and home indicator, so its colors follow the
+  // phone's rounded corners. The page pads its own top bar and tab bar with env(safe-area-inset-*).
+  return h(View, { style: [styles.fill, { backgroundColor: ui.bg }] },
+    h(StatusBar, { style: ui.light ? 'dark' : 'light' }),
     h(WebView, {
+      contentInsetAdjustmentBehavior: 'never',
+      automaticallyAdjustContentInsets: false,
       ref: webRef,
       source: { uri: `${WEB_DIR}index.html` },
       originWhitelist: ['*'],
@@ -151,7 +159,7 @@ function Study() {
       allowsBackForwardNavigationGestures: true,
       textZoom: 100,
       overScrollMode: 'never',
-      style: styles.fill,
+      style: [styles.fill, { backgroundColor: ui.bg }],
       onContentProcessDidTerminate: () => webRef.current?.reload(),
       onRenderProcessGone: () => { webRef.current?.reload(); return true; },
     }),
@@ -160,7 +168,7 @@ function Study() {
 }
 
 export default function App() {
-  return h(SafeAreaProvider, null, h(ProProvider, null, h(StatusBar, { style: 'dark' }), h(Study)));
+  return h(SafeAreaProvider, null, h(ProProvider, null, h(StatusBar, { style: 'light' }), h(Study)));
 }
 
 const styles = StyleSheet.create({

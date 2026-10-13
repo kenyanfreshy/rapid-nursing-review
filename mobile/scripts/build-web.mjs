@@ -58,7 +58,9 @@ fs.mkdirSync(path.join(out, 'pages'), { recursive: true });
 fs.writeFileSync(path.join(out, 'index.html'), shell);
 const files = ['index.html'];
 const copy = name => { fs.copyFileSync(path.join(dist, 'pages', name), path.join(out, 'pages', name)); files.push(`pages/${name}`); };
-copy('cover.webp');
+// App images (cover, top-bar logos, tutor photo): every file in dist/pages that isn't a book page. The top-bar logo was
+// missing from the first TestFlight build because only the cover was copied.
+for (const name of fs.readdirSync(path.join(dist, 'pages')).sort()) if (!/^p\d{3}\.webp$/.test(name)) copy(name);
 for (const p of pages) copy(`p${String(p).padStart(3, '0')}.webp`);
 
 // Version = hash of everything shipped, so the app re-copies files after an update.

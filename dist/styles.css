@@ -863,3 +863,14 @@ html body .qb-card .topic-tile .name{overflow:hidden;overflow-wrap:normal;word-b
 .picker-controls .field.mode-field .segmented.mode{width:100%;justify-content:center}
 .picker-controls .field.mode-field .segmented.mode button{flex:1;justify-content:center;text-align:center}
 .pw-badge{white-space:nowrap;letter-spacing:1.2px}
+
+/* ---- Edge to edge on iPhone and iPad: the app's colors run under the status bar and home indicator and follow the
+   screen's rounded corners (needs viewport-fit=cover; env() is 0 in a normal browser). ---- */
+.tutor-avatar.photo{object-fit:cover;padding:0;display:block;background:transparent;border:0;box-shadow:0 0 0 3px #ffffff40}
+.topbar{box-sizing:content-box;padding-top:env(safe-area-inset-top,0px)}
+body::before{content:'';position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);z-index:45;background:#0b1020e6;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);pointer-events:none}
+html[data-ui="daylight"] body::before{background:#ffffffe6}
+.sidebar{padding-top:calc(30px + env(safe-area-inset-top,0px));padding-bottom:calc(18px + env(safe-area-inset-bottom,0px))}
+.book-panel{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+dialog{max-height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px) - 24px)}
+@media (orientation:landscape){body{padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}}

@@ -70,7 +70,7 @@ const freshState=()=>({schema:2,ui:'vivid',caseSession:null,caseHistory:[],previ
 const SCHEMA=2;
 // App color themes. Vivid, Ocean and Sunrise are NurseBound's palettes (dark); Daylight is the bright light theme.
 const UI_THEMES=[['vivid','Vivid',[['#0891b2','#10b981'],['#ea580c','#e11d48'],['#9333ea','#db2777'],['#059669','#0284c7']],1],['ocean','Ocean',[['#0e7490','#0891b2'],['#0f766e','#0284c7'],['#4338ca','#0369a1'],['#047857','#0e7490']],1],['sunrise','Sunrise',[['#d97706','#ea580c'],['#dc2626','#ea580c'],['#be185d','#9333ea'],['#b45309','#dc2626']],1],['daylight','Daylight',[['#0891b2','#10b981'],['#ea580c','#e11d48'],['#9333ea','#db2777'],['#059669','#0284c7']],0]];
-function applyUi(){const ui=state.ui||'vivid',light=ui==='daylight';document.documentElement.dataset.ui=ui;const el=document.getElementById('nb-theme');if(el){el.disabled=light;if(el.sheet)el.sheet.disabled=light;}document.querySelector('meta[name=theme-color]')?.setAttribute('content',light?'#ffffff':'#080b16');}
+function applyUi(){const ui=state.ui||'vivid',light=ui==='daylight';document.documentElement.dataset.ui=ui;const el=document.getElementById('nb-theme');if(el){el.disabled=light;if(el.sheet)el.sheet.disabled=light;}document.querySelector('meta[name=theme-color]')?.setAttribute('content',light?'#ffffff':'#080b16');;try{const bg=getComputedStyle(document.documentElement).backgroundColor;window.ReactNativeWebView?.postMessage(JSON.stringify({type:'ui',light,bg}));}catch{}}
 const isObj=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
 const isStr=v=>typeof v==='string';
 const isDay=v=>isStr(v)&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&!isNaN(parseDay(v));
@@ -813,11 +813,11 @@ function sourcesBlock(q) {
 // Tutor card (dashboard) and the tutor intro shown at the start of a tutor session.
 let tutorCred = null;
 function tutorCard() {
-  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><span class="tutor-avatar">${TUTOR.initials}</span><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0]).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p>${TUTOR.bio}</p></section>`;
+  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0]).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p>${TUTOR.bio}</p></section>`;
 }
 function tutorIntro(s) {
   const topic = String(s.label || '').replace(/\s*practice$/i, '').replace(/^Mixed NCLEX$/i, 'a mix of NCLEX topics');
-  return `<div class="tutor-intro"><span class="tutor-avatar sm">${TUTOR.initials}</span><div><strong>Meet your tutor, ${TUTOR.name}${firstName() ? `. Hi ${escape(firstName())}!` : '.'}</strong><p>Today we will learn: <b>${escape(topic || 'NCLEX essentials')}</b>. Answer, check, and read the why. I’ll highlight the key points for you.</p></div></div>`;
+  return `<div class="tutor-intro"><img class="tutor-avatar sm photo" src="pages/tutor.webp" alt="" width="42" height="42"><div><strong>Meet your tutor, ${TUTOR.name}${firstName() ? `. Hi ${escape(firstName())}!` : '.'}</strong><p>Today we will learn: <b>${escape(topic || 'NCLEX essentials')}</b>. Answer, check, and read the why. I’ll highlight the key points for you.</p></div></div>`;
 }
 function motivationCard() {
   const st = streak(), p = state.plan, days = p ? dayDistance(new Date(), parseDay(p.date)) : null;
