@@ -1052,3 +1052,13 @@ html body .bp-head p:first-line{color:inherit}
   html body dialog .modal-body{padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
   html body dialog .modal-footer{flex-wrap:wrap}
 }
+
+/* Phones and iPads: the book (Contents and Reader) fills the screen like a full page, with no dimmed app layer behind it. */
+@media (max-width: 1366px), (pointer: coarse) {
+  html body .book-panel{left:0;right:0;width:100vw;max-width:none;border-left:0;box-shadow:none;
+    padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+  html body .book-backdrop{display:none!important}
+  html body.book-open .app-shell{margin-right:0}
+  html body.book-open{overflow:hidden}
+  html body .book-panel .bp-head,html body .book-panel .bp-tabs,html body .book-panel .bp-body{padding-left:max(18px,calc((100% - 820px) / 2));padding-right:max(18px,calc((100% - 820px) / 2))}
+}
