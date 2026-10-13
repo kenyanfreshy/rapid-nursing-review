@@ -1,0 +1,1569 @@
+{
+ "topic": "msk",
+ "questions": [
+  {
+   "id": "rnr:msk-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with a closed tibial fracture in a long-leg splint is being monitored for acute compartment syndrome. For each finding, indicate whether it is an early sign or a late sign of compartment syndrome.",
+   "rows": [
+    "Pain when the nurse gently stretches the toes",
+    "Tingling (\"pins and needles\") in the foot",
+    "Absent dorsalis pedis pulse",
+    "Inability to move the toes",
+    "Calf that feels tense and firm to the touch"
+   ],
+   "columns": [
+    "Early sign",
+    "Late sign"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Pain out of proportion to the injury and pain with passive stretch of the muscles in the compartment are the earliest and most reliable signs.",
+    "Paresthesia (tingling) appears early because nerves are very sensitive to rising pressure and reduced perfusion; loss of sensation (numbness) develops later.",
+    "Loss of a distal pulse is a late sign; compartment pressure can destroy muscle and nerve while a pulse is still present, so waiting for pulselessness delays treatment.",
+    "Paralysis is a late sign that suggests prolonged nerve and muscle ischemia and possible permanent damage.",
+    "A tense, firm, swollen compartment reflects the rising pressure itself and is found early."
+   ],
+   "takeaway": "Do not wait for pulselessness or paralysis: escalating pain, pain on passive stretch and paresthesia are the early warnings of compartment syndrome.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with a forearm fracture has a splint secured with an elastic bandage and the arm elevated on two pillows above the heart. The client reports deep pain that has increased over the past hour, and the fingers are swollen and tingling. Capillary refill is 3 seconds. What should the nurse do first?",
+   "options": [
+    "Loosen the elastic bandage and lower the arm to heart level",
+    "Apply an ice pack to the forearm over the splint",
+    "Raise the arm on a third pillow to reduce swelling",
+    "Give the prescribed as-needed oral analgesic and reassess in 1 hour"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Removing any constriction and placing the limb at heart level keeps arterial inflow without raising compartment pressure; the nurse then notifies the provider at once.",
+    "Cold can further reduce blood flow to an already ischemic compartment and does not relieve the pressure.",
+    "Elevating above the heart lowers arterial pressure into the limb and can worsen ischemia when compartment syndrome is suspected.",
+    "Increasing pain with paresthesia suggests compartment syndrome; treating the pain and waiting delays care that may save the limb."
+   ],
+   "takeaway": "When compartment syndrome is suspected, release any constriction, keep the limb at heart level and notify the provider immediately.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 22-year-old client with a closed femoral shaft fracture is awaiting surgery tomorrow. Which nursing measure best reduces the risk of fat embolism syndrome?",
+   "options": [
+    "Encourage active range of motion of the injured leg every 2 hours",
+    "Keep the fractured leg immobilized and move it as little as possible",
+    "Restrict oral and IV fluids until after surgery",
+    "Place the client in a chair for meals to improve lung expansion"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Moving the fractured leg increases movement of bone fragments and marrow fat into the circulation.",
+    "Correct. Fat globules are released from the marrow when a long-bone fracture moves; early immobilization and minimal manipulation reduce that release.",
+    "Adequate hydration is part of supportive care; fluid restriction does not prevent fat embolism.",
+    "Getting up before the femur is stabilized moves the fracture; lung expansion can be supported with deep breathing in bed."
+   ],
+   "takeaway": "Stabilizing a long-bone fracture early and handling it gently is the main nursing measure to prevent fat embolism syndrome.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An 81-year-old client is brought to the emergency department after slipping on a bathroom floor. Which assessment finding most strongly suggests a fracture of the proximal femur?",
+   "options": [
+    "The affected knee is swollen and cannot be fully straightened",
+    "The client has pain in the lower back that radiates to the buttock",
+    "The affected leg is shorter than the other and turned outward",
+    "Bruising is present over the lateral aspect of the ankle"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Knee swelling and limited extension point to a knee injury rather than the proximal femur.",
+    "Back pain radiating to the buttock suggests a spinal or soft-tissue problem rather than a hip fracture.",
+    "Correct. Shortening and external rotation of the leg, with pain in the hip or groin, are classic signs of a hip fracture.",
+    "Ankle bruising suggests an ankle injury and does not explain a proximal femur fracture."
+   ],
+   "takeaway": "A shortened, externally rotated leg after a fall in an older adult is a hip fracture until proven otherwise.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "An 84-year-old client is 1 day after surgical repair of a hip fracture. During the night, the client becomes newly confused and tries to climb out of bed. What should the nurse do first?",
+   "options": [
+    "Apply soft wrist restraints to protect the surgical site",
+    "Administer the as-needed antipsychotic medication",
+    "Turn on the television to help the client reorient",
+    "Check the client's oxygen saturation and vital signs"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Restraints increase agitation and injury risk and do nothing to find the cause of the acute change.",
+    "Medication may sedate the client but masks a possibly life-threatening cause such as hypoxemia.",
+    "Reorientation strategies help with delirium, but assessing for a physiologic cause comes first.",
+    "Correct. Sudden confusion after hip surgery can signal hypoxemia from fat embolism, pulmonary embolism or pneumonia, as well as infection or bleeding; physiologic causes must be checked first."
+   ],
+   "takeaway": "New confusion after orthopedic surgery is a change in condition: assess oxygenation and vital signs before treating it as delirium.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is going home after a total hip arthroplasty performed through a posterior approach. Which equipment or arrangements should the nurse recommend for the first weeks at home? Select all that apply.",
+   "options": [
+    "A raised toilet seat",
+    "A low, soft recliner for resting",
+    "A long-handled reacher for picking up objects",
+    "A sock aid and long-handled shoehorn",
+    "A firm chair with armrests",
+    "A footstool for tying shoes"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. A raised toilet seat keeps the hip from flexing beyond 90 degrees when sitting down.",
+    "A low, soft chair forces the hip into deep flexion and increases the risk of posterior dislocation.",
+    "Correct. A reacher lets the client pick objects up without bending at the hip.",
+    "Correct. These devices let the client dress the feet without bending forward past 90 degrees.",
+    "Correct. A firm chair of adequate height with arms allows the client to rise without excessive hip flexion.",
+    "Bending forward to tie shoes on a footstool flexes the hip beyond 90 degrees."
+   ],
+   "takeaway": "After a posterior-approach hip replacement, adaptive equipment helps the client avoid hip flexion past 90 degrees, adduction and internal rotation.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client 3 days after a total hip arthroplasty twists while reaching for the bedside table, hears a popping sound and reports severe hip pain. The operative leg appears shorter and is internally rotated. What should the nurse do first?",
+   "options": [
+    "Gently pull the leg back into alignment with an abduction pillow",
+    "Help the client stand to see whether the leg can bear weight",
+    "Keep the client still in the current position and notify the surgeon",
+    "Apply heat to the hip to relax muscle spasm"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Reducing a dislocated hip is a provider procedure; manipulation by the nurse can injure nerves and vessels.",
+    "Weight bearing on a dislocated prosthesis can cause further damage and severe pain.",
+    "Correct. These findings suggest prosthetic hip dislocation; the nurse immobilizes the leg, checks neurovascular status and notifies the surgeon for prompt reduction.",
+    "Heat does not address dislocation and delays notification."
+   ],
+   "takeaway": "A pop, sudden pain, leg shortening and rotation after hip arthroplasty mean dislocation: immobilize, assess neurovascular status and call the surgeon.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is using a continuous passive motion (CPM) machine after a total knee arthroplasty. Which action by the nurse is correct?",
+   "options": [
+    "Position the leg so the knee joint lines up with the hinge of the machine",
+    "Increase the flexion setting each hour as the client tolerates",
+    "Keep the machine running while the client eats meals in a chair",
+    "Place a pillow under the knee between CPM sessions"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Aligning the knee with the device's hinge lets the machine flex and extend the joint safely without twisting it.",
+    "The range of motion and progression are set by prescription or protocol, not increased hourly by the nurse.",
+    "The CPM is used in bed and is turned off for meals and transfers; it is not used while the client sits in a chair.",
+    "A pillow under the knee promotes a flexion contracture; the knee should rest in extension between sessions."
+   ],
+   "takeaway": "With a CPM device, align the knee with the hinge, follow the prescribed settings and avoid pillows under the knee between sessions.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is caring for a client on the first day after a total knee arthroplasty. Which actions are appropriate? Select all that apply.",
+   "options": [
+    "Place a pillow under the knee to keep it flexed during sleep",
+    "Apply cold therapy to the knee as prescribed",
+    "Teach ankle pumps several times each hour while awake",
+    "Teach quadriceps-setting exercises with the leg straight",
+    "Massage the calf of the operative leg to reduce swelling"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Keeping the knee flexed on a pillow leads to a flexion contracture; full extension is a key goal.",
+    "Correct. Cold therapy reduces swelling and pain after knee replacement.",
+    "Correct. Ankle pumps promote venous return and help prevent venous thromboembolism.",
+    "Correct. Quadriceps sets strengthen the muscle that straightens the knee and help the client regain full extension.",
+    "Massaging the calf after surgery could dislodge an undetected clot and is not used to manage swelling."
+   ],
+   "takeaway": "After knee replacement, work toward full extension and quadriceps strength: no pillow under the knee, cold therapy, ankle pumps and quad sets.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 38-year-old client with an acute low back muscle spasm is prescribed cyclobenzaprine for short-term use. Which instruction should the nurse include?",
+   "options": [
+    "Take an extra dose whenever the spasm returns before the next dose is due",
+    "Plan to keep taking the drug for several months for the best effect",
+    "Take it with an over-the-counter sleep aid if it is hard to fall asleep",
+    "Avoid alcohol and do not drive until you know how the drug affects you"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Extra doses increase drowsiness and anticholinergic effects; the drug is taken only as prescribed.",
+    "Cyclobenzaprine is intended for short-term use of about 2 to 3 weeks for acute muscle spasm.",
+    "Many sleep aids contain diphenhydramine, which adds to sedation and anticholinergic effects.",
+    "Correct. Cyclobenzaprine causes drowsiness and dizziness; alcohol and other CNS depressants add to these effects, so the client avoids alcohol and driving until the response is known."
+   ],
+   "takeaway": "Cyclobenzaprine is a short-term, sedating muscle relaxant: no alcohol or other CNS depressants and no driving until the effect is known.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is planning care to prevent venous thromboembolism in a client after hip fracture repair. Which measures should the nurse include? Select all that apply.",
+   "options": [
+    "Massage the calves when they feel tight",
+    "Apply intermittent pneumatic compression devices while the client is in bed",
+    "Encourage ankle pumps and leg exercises",
+    "Place pillows under both knees for comfort",
+    "Get the client out of bed and walking as soon as prescribed",
+    "Encourage adequate oral fluid intake unless restricted"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Massaging the calves could dislodge an existing clot; calf tightness should be assessed, not rubbed.",
+    "Correct. Pneumatic compression improves venous return in the legs.",
+    "Correct. Muscle contraction pumps venous blood and reduces stasis.",
+    "Pillows under the knees compress the popliteal veins and slow venous return.",
+    "Correct. Early mobilization is one of the most effective ways to reduce venous stasis.",
+    "Correct. Hydration helps prevent the hemoconcentration that promotes clotting."
+   ],
+   "takeaway": "Prevent VTE after orthopedic surgery with early mobility, leg exercises, mechanical compression, hydration and prescribed anticoagulants; never massage calves.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Four hours after a posterior lumbar spinal fusion, a client who could move both legs normally on arrival from the postanesthesia unit now reports numbness in both legs and cannot lift either foot off the bed. Vital signs are stable. What should the nurse do first?",
+   "options": [
+    "Log-roll the client to the side and reassess leg strength in 1 hour",
+    "Notify the surgeon immediately about the new neurologic deficit",
+    "Give the prescribed as-needed opioid and reassess pain in 30 minutes",
+    "Help the client stand at the bedside to test leg strength"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Repositioning and waiting delays treatment of a possible compressive cause; the deficit must be reported now.",
+    "Correct. A new motor and sensory deficit after spinal surgery suggests compression of the cord or nerve roots, such as an epidural hematoma, which may need emergency surgery to prevent permanent loss of function.",
+    "The problem is a neurologic change, not pain; an opioid does not treat compression and delays reporting.",
+    "A client who cannot lift the feet is at high risk of falling, and testing strength by standing does not change the need to call the surgeon."
+   ],
+   "takeaway": "Any new or worsening motor or sensory deficit after spinal surgery is an emergency to report at once.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a postmenopausal client who is starting raloxifene to prevent osteoporosis. Which statement by the client shows correct understanding?",
+   "options": [
+    "\"I only need to take this medicine on days when my bones ache.\"",
+    "\"I will call my provider if one of my calves becomes swollen, red or painful.\"",
+    "\"This medicine should also stop the hot flashes I have been having.\"",
+    "\"I should spend more time resting in bed to protect my bones while I take it.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Raloxifene is taken daily to reduce bone loss; it is not a pain reliever.",
+    "Correct. Raloxifene increases the risk of venous thromboembolism, so calf pain, swelling or redness, chest pain or sudden shortness of breath must be reported.",
+    "Raloxifene does not treat hot flashes and can cause or worsen them.",
+    "Immobility increases the risk of blood clots with raloxifene and worsens bone loss; regular weight-bearing activity is encouraged."
+   ],
+   "takeaway": "Raloxifene raises the risk of blood clots: teach the client to report leg or chest symptoms and to avoid prolonged immobility.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client has taken an oral bisphosphonate for osteoporosis for several years. Which findings should the nurse instruct the client to report? Select all that apply.",
+   "options": [
+    "New pain or burning when swallowing",
+    "Jaw pain or a sore in the mouth that does not heal",
+    "Dull, aching pain in the thigh or groin",
+    "Mild nausea for an hour after the dose",
+    "Darkening of the urine after meals"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Correct. Painful swallowing or heartburn can indicate esophagitis or an esophageal ulcer.",
+    "Correct. Jaw pain or exposed bone can indicate osteonecrosis of the jaw.",
+    "Correct. New thigh or groin pain can precede an atypical femur fracture with long-term use.",
+    "Mild, brief GI upset is a common minor effect; the client can be taught to take the dose correctly.",
+    "Bisphosphonates do not change urine color; this finding is not linked to the drug."
+   ],
+   "takeaway": "Teach clients on long-term bisphosphonates to report swallowing pain, jaw problems and new thigh or groin pain.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 58-year-old postmenopausal client with low bone density brings a 1-day food record to the clinic. Which foods in the record are good sources of calcium? Select all that apply.",
+   "options": [
+    "One cup of plain low-fat yogurt",
+    "One cup of cooked white rice",
+    "Canned sardines eaten with the bones",
+    "One medium apple",
+    "One cup of calcium-fortified soy beverage",
+    "A grilled chicken breast"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Yogurt and other dairy foods are among the richest dietary sources of calcium.",
+    "White rice contains very little calcium.",
+    "Correct. The soft, edible bones in canned sardines or salmon provide a large amount of calcium.",
+    "Fruits such as apples provide little calcium.",
+    "Correct. Fortified plant-based beverages contain calcium comparable to milk and are useful for clients who avoid dairy.",
+    "Chicken is a good protein source but contains little calcium."
+   ],
+   "takeaway": "Dairy foods, canned fish with bones and calcium-fortified beverages are the most reliable food sources of calcium.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is comparing findings in clients with arthritis. For each finding, indicate whether it is more typical of osteoarthritis or rheumatoid arthritis.",
+   "rows": [
+    "Morning stiffness that lasts more than 1 hour",
+    "Bony enlargement of the distal finger joints (Heberden nodes)",
+    "Swelling of the same small joints on both hands",
+    "Joint pain that worsens with use and eases with rest",
+    "Fatigue, low-grade fever and weight loss"
+   ],
+   "columns": [
+    "Osteoarthritis",
+    "Rheumatoid arthritis"
+   ],
+   "correct": [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Prolonged morning stiffness reflects inflammatory synovitis in rheumatoid arthritis; osteoarthritis stiffness usually lasts less than 30 minutes.",
+    "Heberden nodes are bony overgrowths typical of degenerative osteoarthritis.",
+    "Symmetric involvement of small joints is a hallmark of rheumatoid arthritis.",
+    "Mechanical pain that increases with activity is typical of osteoarthritis cartilage loss.",
+    "Systemic symptoms reflect the autoimmune inflammatory nature of rheumatoid arthritis."
+   ],
+   "takeaway": "Rheumatoid arthritis is systemic, symmetric and inflammatory with long morning stiffness; osteoarthritis is degenerative pain that worsens with use.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with rheumatoid arthritis has painful, swollen finger joints and asks how to do household tasks with less strain on the hands. Which recommendation should the nurse make?",
+   "options": [
+    "Carry grocery bags by looping the handles over the fingers",
+    "Open tight jar lids by gripping them hard with the fingertips",
+    "Stop using the hands for household tasks until the swelling is gone",
+    "Slide bags over the forearm and use utensils with built-up handles"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Hanging weight from the fingers stresses the small, inflamed finger joints and promotes deformity.",
+    "A tight pinch grip places high force on the finger joints; jar openers and the palms are used instead.",
+    "Complete disuse leads to stiffness and weakness; the goal is to protect joints while staying active.",
+    "Correct. Joint protection shifts the load to larger, stronger joints and reduces grip force, which eases pain and lowers stress on the small joints of the hands."
+   ],
+   "takeaway": "Joint protection in rheumatoid arthritis: use the largest joints available, avoid tight pinch grips and use adaptive aids.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse has taught a client with knee osteoarthritis and a body mass index of 33 about self-management. Which statement by the client indicates understanding?",
+   "options": [
+    "\"Losing some weight will lessen the stress on my knees and may reduce my pain.\"",
+    "\"I should stop all exercise so I do not wear out my knee joints faster.\"",
+    "\"Once my knees stop hurting, my arthritis will be cured.\"",
+    "\"I should rest in bed for several days whenever my knees ache.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Weight loss reduces the load on weight-bearing joints and is one of the most effective self-management strategies for knee osteoarthritis.",
+    "Regular low-impact exercise such as walking, swimming or cycling strengthens muscles and improves function.",
+    "Osteoarthritis is a chronic degenerative condition; symptoms can be managed but joint changes persist.",
+    "Bed rest leads to stiffness and weakness; activity with pacing is recommended."
+   ],
+   "takeaway": "For knee osteoarthritis, weight loss and regular low-impact exercise are first-line self-management.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is admitted with an acute gout attack. The great toe is red, hot and so tender that the bed sheet touching it causes severe pain. Which nursing action is most appropriate?",
+   "options": [
+    "Wrap the toe snugly with an elastic bandage",
+    "Encourage the client to walk to keep the joint from stiffening",
+    "Place a bed cradle to keep linens off the foot and elevate the foot",
+    "Massage the joint gently to improve circulation"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Compression of an acutely inflamed joint increases pain.",
+    "Weight bearing on an acutely inflamed joint worsens pain; the joint is rested during the attack.",
+    "Correct. A bed cradle prevents painful pressure from linens, and rest with elevation (with a cold pack as prescribed) reduces inflammation and swelling.",
+    "Rubbing an inflamed, exquisitely tender joint increases pain and does not reduce inflammation."
+   ],
+   "takeaway": "During acute gout, rest and elevate the joint, use a bed cradle and apply cold as prescribed.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is taking colchicine for an acute gout flare. Which finding should the nurse tell the client to report right away?",
+   "options": [
+    "Mild redness that remains around the toe",
+    "Increased thirst and urine output",
+    "A metallic taste in the mouth",
+    "Frequent watery diarrhea"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Some residual redness is expected as a flare resolves.",
+    "Increased thirst and urination are not typical colchicine effects.",
+    "A metallic taste is not a recognized sign of colchicine toxicity.",
+    "Correct. Diarrhea, nausea and vomiting are early signs of colchicine toxicity; the drug may need to be stopped."
+   ],
+   "takeaway": "GI symptoms, especially diarrhea, are the first signs of colchicine toxicity.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An office worker who types for most of the day asks how to lower the risk of developing carpal tunnel syndrome. Which recommendations should the nurse include? Select all that apply.",
+   "options": [
+    "Keep the wrists straight, in a neutral position, while typing",
+    "Rest the wrists on the hard edge of the desk while typing",
+    "Take short breaks to stretch the hands and change position",
+    "Set the keyboard height so the elbows are bent about 90 degrees with relaxed shoulders",
+    "Grip the computer mouse tightly to control it better",
+    "Alternate repetitive hand tasks with other tasks when possible"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. A neutral wrist keeps pressure in the carpal tunnel low; sustained flexion or extension raises it.",
+    "Pressing the wrist on a hard edge compresses the median nerve area.",
+    "Correct. Breaks and stretching reduce sustained pressure and repetitive strain.",
+    "Correct. A keyboard at elbow height lets the wrists stay straight and the shoulders relax.",
+    "A forceful grip increases tendon and nerve strain in the wrist.",
+    "Correct. Varying tasks limits repetitive motion of the same tendons."
+   ],
+   "takeaway": "To reduce carpal tunnel strain: neutral wrists, keyboard at elbow height, a light grip, frequent breaks and varied tasks.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is wrapping a client's below-the-knee residual limb with an elastic bandage to shape it for a prosthesis. Which technique is correct?",
+   "options": [
+    "Wrap in circular turns from the knee down toward the end of the limb",
+    "Wrap tightly enough that the client feels throbbing",
+    "Wrap in a figure-eight pattern from the distal end toward the knee",
+    "Apply the wrap once a day and leave it in place until the next day"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Circular turns can act like a tourniquet, and wrapping proximal to distal traps fluid at the end of the limb.",
+    "Throbbing means the wrap is too tight and is impairing circulation.",
+    "Correct. Figure-eight turns starting distally apply even pressure that decreases toward the body, reducing edema and shaping a conical limb.",
+    "The bandage is rewrapped several times a day because it loosens; the limb is inspected each time."
+   ],
+   "takeaway": "Wrap a residual limb distal to proximal in a figure-eight, never circular, and rewrap several times daily.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "Eight weeks after a below-the-knee amputation, a client who has started wearing a prosthesis says the socket feels loose and slips by the end of the day. The nurse finds a red area at the end of the residual limb that is still present after the prosthesis has been off for some time. Which interpretation is most accurate?",
+   "options": [
+    "These are expected findings that will go away once the client is used to the prosthesis",
+    "The residual limb is still shrinking, so the socket fit must be adjusted to stop the pressure",
+    "The client is describing phantom sensation that makes the socket feel loose",
+    "The redness shows a wound infection that needs antibiotics before further walking"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Persistent redness means the skin is under too much pressure; ignoring it can lead to skin breakdown.",
+    "Correct. The residual limb continues to lose volume for months, so a socket loosens and rubs; persistent redness signals excess pressure, and the prosthetist adjusts the fit (for example, with socks or a new socket).",
+    "Phantom sensation does not explain a loose socket or a red area on the skin.",
+    "There are no signs of infection such as warmth, drainage, wound opening or fever; the redness is from pressure."
+   ],
+   "takeaway": "A residual limb keeps shrinking for months: a loose socket and redness that does not fade mean the fit must be adjusted before the skin breaks down.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Six hours after a below-the-knee amputation, the nurse finds bright red blood soaking through the residual limb dressing and pooling on the bed. What should the nurse do first?",
+   "options": [
+    "Apply firm direct pressure to the residual limb",
+    "Remove the dressing to look for the bleeding vessel",
+    "Elevate the foot of the bed and reassess in 15 minutes",
+    "Mark the edge of the drainage and call the surgeon"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Direct pressure is the immediate way to control hemorrhage; the nurse then calls for help, notifies the surgeon and uses a tourniquet only if pressure fails.",
+    "Removing the dressing delays control of bleeding and can disrupt clot formation.",
+    "Active hemorrhage needs immediate control, not observation.",
+    "Marking drainage suits slow oozing; active bleeding requires pressure first."
+   ],
+   "takeaway": "Active hemorrhage from a residual limb: apply direct pressure first, then escalate.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching a client with a weak right leg to walk with a standard walker. Place the steps in the correct order, starting with the first.",
+   "options": [
+    "Make sure all four legs of the walker are flat on the floor",
+    "Bring the left leg forward to meet the right leg",
+    "Stand upright with both hands on the walker grips",
+    "Step forward into the walker with the right leg",
+    "Lift the walker and move it forward about one step's length"
+   ],
+   "rationales": [
+    "All four legs must be stable on the floor before the client puts weight through it.",
+    "The stronger leg then completes the step, and the cycle repeats.",
+    "The client starts balanced, upright and holding both grips.",
+    "The weaker leg steps first so the walker can support its weight.",
+    "The walker is moved a short distance; moving it too far forward causes leaning and loss of balance."
+   ],
+   "correct": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "takeaway": "Walker sequence: move the walker, set all legs down, step with the weak leg, then the strong leg.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with right knee weakness holds a cane in the left hand and needs to go down a flight of stairs at home. Which step should the client take first?",
+   "options": [
+    "Move the cane and the right leg down to the next step",
+    "Move the left leg down to the next step",
+    "Move the cane down, then the left leg, then the right leg",
+    "Switch the cane to the right hand before starting"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Going down, the cane and weaker leg lead while the stronger leg supports the body on the step above.",
+    "Leading with the strong leg down leaves the weak leg to hold all the body weight on the upper step.",
+    "The weak leg should move with the cane, not last.",
+    "The cane is held on the side opposite the weak leg to widen the base of support."
+   ],
+   "takeaway": "On stairs: up with the good leg, down with the cane and the affected leg.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is preparing a 79-year-old client who had a hip fracture for discharge home. Which home changes should the nurse recommend to prevent falls? Select all that apply.",
+   "options": [
+    "Remove loose throw rugs",
+    "Install grab bars beside the toilet and in the shower",
+    "Wax floors so they are easier to clean",
+    "Use night-lights between the bedroom and bathroom",
+    "Store everyday items on high shelves",
+    "Wear well-fitting shoes with nonskid soles"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Throw rugs are a common tripping hazard.",
+    "Correct. Grab bars provide support during transfers in the bathroom, where many falls occur.",
+    "Waxed floors are slippery and increase fall risk.",
+    "Correct. Lighting the path reduces falls during nighttime toileting.",
+    "Reaching overhead or using a step stool increases fall risk; items should be within easy reach.",
+    "Correct. Nonskid, supportive footwear improves stability."
+   ],
+   "takeaway": "Home fall prevention: clear tripping hazards, add grab bars and lighting, keep items in reach and wear nonskid shoes.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with osteoporosis is at high risk for falls on a medical unit. For each action, indicate whether it is indicated or not indicated.",
+   "rows": [
+    "Use a bed-exit alarm",
+    "Have the client wear nonskid footwear when walking",
+    "Keep the client in a reclining chair with a locked lap tray to prevent standing",
+    "Ask the pharmacist to review medications that increase fall risk",
+    "Encourage the client to stay in bed rather than walk on the unit"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "A bed-exit alarm alerts staff when a high-risk client gets up so they can respond and assist.",
+    "Nonskid footwear improves traction and stability.",
+    "A chair or tray the client cannot remove is a restraint; it does not prevent falls and can cause injury.",
+    "Sedatives, opioids, antihypertensives and similar drugs add to fall risk; a review can lower it.",
+    "Bed rest causes deconditioning and weakness, which increase fall risk; supervised walking is encouraged."
+   ],
+   "takeaway": "Prevent falls with alarms, safe footwear, medication review and supervised mobility, not restraints or enforced bed rest.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with osteomyelitis of the tibia is in week 3 of IV antibiotic therapy through a PICC line. Which laboratory trend best indicates the treatment is working?",
+   "options": [
+    "White blood cell count has increased from 11,000 to 14,000/mm³",
+    "Serum calcium has decreased from 9.5 to 8.4 mg/dL",
+    "C-reactive protein and erythrocyte sedimentation rate are decreasing",
+    "Hemoglobin has increased from 11.8 to 12.2 g/dL"
+   ],
+   "correct": 2,
+   "rationales": [
+    "A rising WBC count suggests the infection is not controlled.",
+    "Serum calcium is not a marker of bone infection activity.",
+    "Correct. CRP and ESR are inflammatory markers used to track the response of osteomyelitis to antibiotics; a falling trend suggests improvement.",
+    "A small hemoglobin change does not reflect control of the bone infection."
+   ],
+   "takeaway": "Falling CRP and ESR, along with resolving pain and fever, show that osteomyelitis is responding to therapy.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Three weeks after an open fracture of the lower leg was repaired, a client returns to the clinic. Which findings suggest osteomyelitis? Select all that apply.",
+   "options": [
+    "Constant, deep bone pain at the fracture site that is not relieved by rest",
+    "Temperature of 38.4°C (101.1°F)",
+    "Mild itching around the healed incision",
+    "Warmth, swelling and tenderness over the area",
+    "Drainage from a small opening in the skin near the site",
+    "Slight stiffness of the knee after a long car ride"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Osteomyelitis causes constant, localized bone pain that does not ease with rest.",
+    "Correct. Fever reflects the systemic response to bone infection.",
+    "Mild itching is common with a healing incision and does not suggest infection.",
+    "Correct. Local warmth, swelling and tenderness are signs of inflammation and infection over the bone.",
+    "Correct. A draining sinus tract can develop from infected bone.",
+    "Joint stiffness after immobility is common and not a sign of infection."
+   ],
+   "takeaway": "Constant bone pain, fever and local warmth or drainage after an open fracture should prompt evaluation for osteomyelitis.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with acute low back strain asks about the best position for sleeping. Which recommendation should the nurse give?",
+   "options": [
+    "Lie on your stomach on a soft mattress",
+    "Lie on your side with your knees bent and a pillow between your knees",
+    "Sleep sitting up in a recliner with your legs straight",
+    "Lie flat on your back with your legs straight and no pillow"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Lying prone increases the lumbar curve and strain on the low back, especially on a soft surface.",
+    "Correct. Side-lying with knees flexed reduces lumbar strain, and a pillow between the knees keeps the spine aligned.",
+    "Sitting with straight legs places tension on the low back and hamstrings.",
+    "Lying flat with legs straight increases lumbar curvature; a pillow under the knees is preferred when supine."
+   ],
+   "takeaway": "For low back pain, sleep side-lying with knees bent or supine with the knees supported on a firm surface.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is triaging calls at a clinic. A client with chronic low back pain calls with each of the following concerns. Which concern requires immediate emergency evaluation?",
+   "options": [
+    "Back pain that worsens after sitting at a desk all day",
+    "Muscle spasm in the low back after lifting a heavy box yesterday",
+    "Aching pain that improves after a warm shower and walking",
+    "New numbness in the inner thighs and buttocks with difficulty starting urination"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Pain with prolonged sitting is a common mechanical pattern and is not an emergency.",
+    "Acute strain after lifting is common and is usually managed with activity as tolerated.",
+    "Pain relieved by warmth and movement suggests a mechanical cause without red flags.",
+    "Correct. Saddle numbness with new bladder dysfunction suggests cauda equina syndrome, a surgical emergency that can cause permanent deficits."
+   ],
+   "takeaway": "Saddle numbness, bladder or bowel changes, or leg weakness with back pain are red flags that need emergency evaluation.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is checking a client in balanced skeletal traction for a femur fracture. Which findings require the nurse to take action? Select all that apply.",
+   "options": [
+    "The weights hang freely off the end of the bed",
+    "A rope knot is caught against a pulley",
+    "The client has slid down so the foot presses against the bed frame",
+    "The ropes run in the grooves of the pulleys",
+    "The traction weights were removed so the client could be repositioned"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Free-hanging weights are correct and maintain the line of pull.",
+    "Correct. A knot against a pulley stops the rope from moving and changes the traction force.",
+    "Correct. When the foot rests against the frame, counter-traction is lost; the client is repositioned up in bed.",
+    "Ropes sitting in the pulley grooves are correct.",
+    "Correct. Skeletal traction is continuous; weights are not removed for repositioning unless prescribed."
+   ],
+   "takeaway": "Effective traction needs free-hanging weights, unobstructed ropes, correct alignment and counter-traction; skeletal traction is never interrupted without an order.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse assesses the pin sites of a client with an external fixator on the tibia. For each finding, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "Small amount of clear, thin drainage at one pin",
+    "Thick yellow drainage with a foul odor",
+    "Redness spreading 3 cm out from a pin",
+    "A pin that moves when touched",
+    "Light crusting around the pins on the second day"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "A small amount of clear serous drainage is common at pin sites.",
+    "Purulent, malodorous drainage suggests pin-site infection.",
+    "Spreading erythema suggests cellulitis around the pin.",
+    "A loose pin can indicate bone infection or loss of fixation and must be reported.",
+    "Some crusting from dried serous drainage is expected and is managed with routine pin care."
+   ],
+   "takeaway": "At pin sites, a little clear drainage is expected; purulent drainage, spreading redness or a loose pin needs follow-up.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client has worn a fiberglass short-leg cast for 10 days. The nurse notes a musty odor from the cast and an area over the heel that feels warmer than the rest of the cast. What should the nurse do?",
+   "options": [
+    "Sprinkle powder into the cast to absorb moisture and odor",
+    "Reassure the client that odor is normal after a week in a cast",
+    "Report the findings to the provider because they suggest infection or skin breakdown under the cast",
+    "Teach the client to cool the area with an ice pack"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Powder can cake and irritate the skin and does not address the cause.",
+    "A musty odor and hot spot are not normal and should not be dismissed.",
+    "Correct. A warm spot and odor can indicate a pressure injury or infection beneath the cast; the provider may window or remove the cast.",
+    "Cooling the cast hides a sign of a possible infection and does not treat it."
+   ],
+   "takeaway": "Odor, drainage or a warm spot on a cast suggests infection or pressure injury underneath and must be reported.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "A client with a new fiberglass short-arm cast says the edge of the cast near the thumb is rough and rubbing the skin. The skin is red but intact, and circulation to the fingers is normal. Which action should the nurse take?",
+   "options": [
+    "Trim the rough edge of the cast with bandage scissors",
+    "Tuck cotton balls under the edge of the cast to cushion it",
+    "Apply lotion under the cast edge to soften the skin",
+    "Cover the rough edge with petals of tape or moleskin"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Fiberglass cannot be safely cut with scissors; changing the cast shape is done with proper equipment by the provider or cast technician.",
+    "Objects placed under a cast can slip inside, cause pressure and lead to skin breakdown.",
+    "Lotion under the cast keeps the skin moist and can soften it, which increases the risk of breakdown.",
+    "Correct. Smoothing rough cast edges with tape petals or moleskin protects the skin from friction while keeping the cast intact."
+   ],
+   "takeaway": "Protect the skin at cast edges by petaling with tape or moleskin; never put objects or lotion under a cast.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching a warehouse worker how to lift a box from the floor safely to prevent back injury. Place the steps in the correct order, starting with the first.",
+   "options": [
+    "Grasp the box and hold it close to the body",
+    "Stand close to the box with the feet shoulder-width apart",
+    "Straighten the legs to lift, without twisting the trunk",
+    "Squat by bending at the hips and knees, keeping the back in a neutral position",
+    "Turn toward the shelf by pivoting the feet rather than twisting the back"
+   ],
+   "rationales": [
+    "Holding the load close to the body before lifting reduces strain on the low back.",
+    "Standing close with a wide base of support comes first; it improves balance and keeps the load near the center of gravity.",
+    "The legs perform the lift; twisting while lifting is a major cause of back injury.",
+    "Bending at the hips and knees lets the strong leg muscles do the work instead of the back.",
+    "Once the load is up, the client turns by moving the feet so the spine is not twisted under load."
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "takeaway": "Safe lifting: wide base close to the load, squat, hold the load close, lift with the legs and pivot with the feet instead of twisting.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client arrives at the emergency department with an open fracture of the forearm; bone is visible through the wound. Which actions should the nurse take? Select all that apply.",
+   "options": [
+    "Cover the wound with a sterile dressing",
+    "Push the bone end back under the skin",
+    "Splint the arm in the position in which it was found",
+    "Assess pulses, color, sensation and movement distal to the injury",
+    "Ask about the date of the client's last tetanus immunization",
+    "Rinse the wound with tap water and close it with adhesive strips"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. A sterile dressing reduces contamination of the wound and bone.",
+    "Pushing the bone back pulls contamination deep into the tissue and can damage nerves and vessels.",
+    "Correct. Splinting as found prevents further soft-tissue, nerve and vessel injury.",
+    "Correct. Distal neurovascular status must be checked before and after any splinting.",
+    "Correct. Open fractures are tetanus-prone wounds, so immunization status guides prophylaxis.",
+    "Open fractures need surgical debridement and IV antibiotics; the nurse does not close the wound."
+   ],
+   "takeaway": "Open fracture: sterile cover, splint as found, check distal neurovascular status and tetanus status; never reduce the bone.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with rheumatoid arthritis is starting oral methotrexate. Which statement by the client indicates correct understanding of the dosing schedule?",
+   "options": [
+    "\"I will take my dose once a week on the same day each week.\"",
+    "\"I will take one dose every morning with breakfast.\"",
+    "\"I will take a dose whenever my joints are flaring.\"",
+    "\"If I miss a dose, I will take a double dose the next day.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. For rheumatoid arthritis, oral methotrexate is taken once weekly; mistaken daily dosing has caused fatal toxicity.",
+    "Daily dosing of a weekly methotrexate regimen is a well-known cause of severe toxicity and death.",
+    "Methotrexate is a scheduled disease-modifying drug, not an as-needed medication for flares.",
+    "Doubling doses increases the risk of bone marrow suppression and other toxicity."
+   ],
+   "takeaway": "Methotrexate for rheumatoid arthritis is a once-weekly high-alert drug; confirm the weekly schedule at every teaching session.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse at a primary care clinic is reviewing which clients should be offered bone density (DXA) screening for osteoporosis. Which client should the nurse identify?",
+   "options": [
+    "A 35-year-old man who lifts weights three times a week",
+    "A 66-year-old woman who has never had a bone density test",
+    "A 28-year-old woman who takes a daily multivitamin",
+    "A 45-year-old premenopausal woman with no risk factors"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A young man without risk factors is not a candidate for routine screening.",
+    "Correct. Bone density screening is recommended for all women 65 years and older, and for younger postmenopausal women with increased risk.",
+    "Routine screening is not recommended for young women without risk factors.",
+    "A premenopausal woman without risk factors does not meet screening criteria."
+   ],
+   "takeaway": "Screen all women 65 and older for osteoporosis with DXA, and younger postmenopausal women at increased risk.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client recovering from a knee replacement is learning to stand up from an armchair using a walker. Place the steps in the correct order, starting with the first.",
+   "options": [
+    "Scoot forward to the edge of the seat",
+    "Check balance, then move the walker forward to begin walking",
+    "Place the walker directly in front of the chair",
+    "Move the hands one at a time to the walker grips",
+    "Push up from the armrests with both hands"
+   ],
+   "rationales": [
+    "Moving to the edge of the seat brings the feet under the body and makes standing easier.",
+    "Only after standing steady with both hands on the grips does the client begin to walk; checking balance first helps detect dizziness.",
+    "The walker is positioned first so it is ready and stable once the client stands.",
+    "Transferring the hands one at a time keeps the client supported throughout.",
+    "The client pushes up from the stable armrests; pulling up on the walker can tip it over."
+   ],
+   "correct": [
+    2,
+    0,
+    4,
+    3,
+    1
+   ],
+   "takeaway": "To stand with a walker, push up from the chair's armrests, not the walker, then grasp the grips and check balance before walking.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chronic low back pain plans to use an electric heating pad at home. Which instructions should the nurse give to prevent burns? Select all that apply.",
+   "options": [
+    "Place a cloth layer between the pad and the skin",
+    "Lie on top of the heating pad so it stays in place",
+    "Limit each use to about 20 to 30 minutes",
+    "Turn off the heating pad before falling asleep",
+    "Use the highest setting for faster relief",
+    "Rub a menthol cream on the back before applying the pad"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. A barrier protects the skin from direct contact with the heat source.",
+    "Lying on the pad traps heat and presses the skin against it, raising the risk of burns.",
+    "Correct. Limiting the time prevents tissue injury and rebound vasoconstriction.",
+    "Correct. Falling asleep with the pad on is a common cause of burns.",
+    "High settings increase burn risk without added benefit.",
+    "Topical counterirritants combined with heat can cause chemical burns."
+   ],
+   "takeaway": "Safe heat therapy: barrier, low setting, 20 to 30 minutes, never while sleeping, never lying on the pad and no topical rubs underneath.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "Two days after a right above-the-knee amputation, an alert client woke during the night and fell while trying to stand to go to the bathroom. What most likely contributed to the fall?",
+   "options": [
+    "Loss of balance caused by a fluid overload",
+    "Phantom sensation that made the missing leg feel present",
+    "Orthostatic hypotension from the surgical drain",
+    "Weakness in the hip flexors of the left leg"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Nothing in the scenario suggests fluid overload, and it does not explain trying to stand on the missing leg.",
+    "Correct. Clients often feel the amputated limb is still there, especially on waking, and may try to stand on it; teaching and fall precautions address this risk.",
+    "A surgical drain does not cause orthostatic hypotension by itself.",
+    "There is no evidence of weakness in the remaining leg."
+   ],
+   "takeaway": "Phantom sensation puts new amputees at risk of falling when they try to stand on the missing limb; teach them to call for help.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is planning fall precautions on an orthopedic unit. Which client is at greatest risk for falling?",
+   "options": [
+    "An 82-year-old client 1 day after hip fracture repair who is receiving opioids, has nocturia and fell at home last month",
+    "A 30-year-old client with a forearm cast who walks independently, takes ibuprofen for pain and is going home today",
+    "A 55-year-old client with a stable wrist sprain who uses reading glasses and is waiting for discharge teaching",
+    "A 40-year-old client with low back strain who walks the hallway alone, takes acetaminophen and sleeps through the night"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Advanced age, a recent fall, opioids, frequent nighttime toileting and a new lower-limb surgery each add to fall risk.",
+    "An upper-extremity cast in a young, independent client taking a nonsedating analgesic carries little fall risk.",
+    "A wrist sprain does not affect gait, and corrected vision is not a major risk factor.",
+    "An independent client who takes a nonsedating analgesic and does not get up at night has a lower fall risk."
+   ],
+   "takeaway": "Fall risk accumulates: age, prior falls, sedating drugs, urgency or nocturia and lower-limb surgery together signal the highest risk.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:msk-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Musculoskeletal",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse observes a client with an external fixator on the lower leg. Which action by the client requires the nurse to intervene?",
+   "options": [
+    "Supporting the leg under the calf and heel when moving it",
+    "Asking for help before getting up to the chair",
+    "Checking the pin sites for redness during morning care",
+    "Grabbing the fixator frame to lift the leg onto the bed"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Supporting the limb under the calf and heel is the correct way to move it.",
+    "Asking for help with transfers is a safe behavior.",
+    "Inspecting pin sites is appropriate self-care.",
+    "Correct. The frame is not a handle; lifting by it can loosen pins and disrupt bone alignment."
+   ],
+   "takeaway": "Never use an external fixator frame as a handle; support the limb itself when moving it.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

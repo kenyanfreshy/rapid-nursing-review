@@ -1,0 +1,114 @@
+{
+ "file": "content/nclex/v4/leadership.json",
+ "reviewed": 50,
+ "ok": 29,
+ "fixed": 20,
+ "rewritten": 1,
+ "items": [
+  {
+   "id": "rnr:leadership-009",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-010",
+   "status": "fixed",
+   "note": "Rationale A called the trailing zero an \"abbreviation\"; it is a prohibited dose expression. Reworded rationale."
+  },
+  {
+   "id": "rnr:leadership-011",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-012",
+   "status": "fixed",
+   "note": "Tested the same fact (absent radial pulse = red) as row 4 of item 046. Changed the scenario to the mental-status criterion (cannot follow commands = red) and updated rationales and takeaway."
+  },
+  {
+   "id": "rnr:leadership-014",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-016",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-017",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-018",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-019",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-021",
+   "status": "fixed",
+   "note": "Two wet diapers in 8 hours is close to normal infant output, so the distractor did not show the \"reduced output\" its rationale claimed. Changed to one wet diaper in 8 hours."
+  },
+  {
+   "id": "rnr:leadership-022",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-024",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-025",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-026",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-027",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-028",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-029",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-030",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning and rationales unchanged."
+  },
+  {
+   "id": "rnr:leadership-034",
+   "status": "rewritten",
+   "note": "Was a third START item (walking = green) that repeated row 1 of item 046, and every keyed option began \"walks to the treatment area\" (a cue-word giveaway). Rewrote on the same disaster topic as a SATA on choosing inpatients for early discharge during surge (reverse triage)."
+  },
+  {
+   "id": "rnr:leadership-043",
+   "status": "fixed",
+   "note": "Rows 2-3 repeated item 042 almost word for word (thin-liquid dysphagia after stroke, help with dressing). Replaced them with a post-radiation dysphagia finding and a one-handed meal-preparation need."
+  },
+  {
+   "id": "rnr:leadership-044",
+   "status": "fixed",
+   "note": "Rows repeated item 004 (RN does the admission assessment; LPN gives oral medications; LPN reinforces teaching). Replaced the five rows with new delegation facts (specimen, sterile dressing, new chest pain, first 15 min of transfusion, SC enoxaparin); key now UAP/LPN/RN/RN/LPN."
+  }
+ ]
+}

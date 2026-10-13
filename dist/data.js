@@ -1,8 +1,8 @@
 // Course structure follows the book "Rapid Nursing Review: All Body Systems at a Glance".
 // Each book chapter is a course; each book section is a topic with its own reading pages and quiz.
 import { chapters, bookQuestions } from './book.js';
-import { nclexTopics, nclexBank, ngnCases } from './nclex.js';
-export { nclexTopics, ngnCases } from './nclex.js';
+import { nclexTopics, nclexBank, ngnCases, nclexRefs } from './nclex.js';
+export { nclexTopics, ngnCases, nclexRefs } from './nclex.js';
 export { book, BOOK_ACCESS, chapters, pageText, clientNeeds } from './book.js';
 
 const icons={nclex:'shield',resp:'lungs',cardio:'heart',gi:'stomach',endo:'gland',gu:'kidney',neuro:'brain',heme:'drop',integ:'skin',msk:'bone',fluids:'beaker'};

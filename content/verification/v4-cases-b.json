@@ -1,0 +1,34 @@
+{
+ "file": "content/nclex/v4cases/b.json",
+ "reviewed": 5,
+ "ok": 0,
+ "fixed": 5,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "ngn:rnr-anaphylaxis",
+   "status": "fixed",
+   "note": "Order item x5 (stop infusion -> IM epinephrine 0.5 mg thigh -> O2 -> NS bolus via new tubing -> diphenhydramine) confirmed as one best sequence per current AHA/allergy guidance (remove trigger, epinephrine without delay, antihistamines adjunct only); rationale rewritten to cite that guidance and explain O2 before fluids. Refs -> aha-resuscitation, openstax-medsurg, openstax-pharm (dropped dailymed). EHR timing (2 g started 10:00, 40% at 10:12) and pre-existing fever/WBC consistent."
+  },
+  {
+   "id": "ngn:rnr-opioid-overdose",
+   "status": "fixed",
+   "note": "o1 asked for findings 'requiring immediate follow-up' but keyed 2 mm pupils, an expected opioid effect that is not itself an emergency (arguable key); stem changed to 'consistent with opioid toxicity' and rationale adjusted. Refs -> ismp-highalert, aha-resuscitation, openstax-pharm. PCA math verified (18 x 0.2 mg = 3.6 mg; max 27 doses in 4.5 h at 10-min lockout); naloxone 0.04 mg titration order and 0.12 mg total consistent."
+  },
+  {
+   "id": "ngn:rnr-delirium",
+   "status": "fixed",
+   "note": "Refs -> ags-beers, openstax-fund, openstax-medsurg; d5 rationale now cites Beers for avoiding benzodiazepines (diphenhydramine already framed as Beers). d4 r4 'treat her pain on a regular schedule' exceeded the PRN-only orders; reworded to 'assess with PAINAD, give analgesia as prescribed, and ask about scheduled acetaminophen'."
+  },
+  {
+   "id": "ngn:rnr-alcohol-withdrawal",
+   "status": "fixed",
+   "note": "w2 keyed CIWA-Ar 18 as 'severe' but severity cutoffs vary (>15 vs >20); key changed to 'significant withdrawal that needs medication' and rationale explains the varying cutoffs. w3 rationale said seizures are most likely 24-48 h; corrected to 6-48 h with DTs at 48-96 h. Timeline (last drink 09:00 yesterday -> ~36 h), Mg, MCV, AST:ALT >2 consistent."
+  },
+  {
+   "id": "ngn:rnr-lithium-toxicity",
+   "status": "fixed",
+   "note": "l4 r5 'measure I&O every hour' did not match the order (strict I&O); reworded to 'Keep strict intake and output records'. Level 2.4 (moderate toxicity), creatinine doubling, NSAID/volume mechanism, no charcoal, normal sodium teaching all verified."
+  }
+ ]
+}

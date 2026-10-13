@@ -1,0 +1,114 @@
+{
+ "file": "content/nclex/v4/maternal.json",
+ "reviewed": 80,
+ "ok": 59,
+ "fixed": 20,
+ "rewritten": 1,
+ "items": [
+  {
+   "id": "rnr:maternal-001",
+   "status": "fixed",
+   "note": "Ref cdc-isolation (isolation precautions) does not support GBS intrapartum prophylaxis; replaced with medline-pregnancy."
+  },
+  {
+   "id": "rnr:maternal-010",
+   "status": "fixed",
+   "note": "Distractor \"massage the calf firmly\" is listed as a cramp relief measure in many texts, so it was arguably right. Replaced with quinine, which is clearly wrong (FDA warning; avoided in pregnancy)."
+  },
+  {
+   "id": "rnr:maternal-015",
+   "status": "fixed",
+   "note": "Key was the longest option by a wide margin (length cue); shortened."
+  },
+  {
+   "id": "rnr:maternal-016",
+   "status": "fixed",
+   "note": "Rationale and takeaway used \"infants of diabetic mothers\"; changed to person-first, client-centered wording."
+  },
+  {
+   "id": "rnr:maternal-021",
+   "status": "fixed",
+   "note": "Key was noticeably longer than the distractors; shortened."
+  },
+  {
+   "id": "rnr:maternal-022",
+   "status": "fixed",
+   "note": "Takeaway read as if aspirin is taken only \"from 12 to 28 weeks\"; clarified that this is the start window and it continues until birth."
+  },
+  {
+   "id": "rnr:maternal-025",
+   "status": "fixed",
+   "note": "Key was a long compound option (length cue) and included routine maternal oxygen, which current ACOG guidance does not support for fetal resuscitation without maternal hypoxemia (a debated point should not be in the key). Rewrote options to similar length, key now \"notify the provider immediately and prepare for possible emergency birth\"; rationale and takeaway updated."
+  },
+  {
+   "id": "rnr:maternal-030",
+   "status": "fixed",
+   "note": "cjmm was evaluateOutcomes, but the item asks the student to interpret an NST tracing; changed to analyzeCues."
+  },
+  {
+   "id": "rnr:maternal-037",
+   "status": "rewritten",
+   "note": "Cord prolapse management (elevate presenting part, knee-chest, prepare for cesarean) repeats bank item on cord prolapse first action (\"umbilical cord at the vaginal opening, FHR 70/min\"). Rewritten as a SATA on risk factors for cord prolapse; clientNeed pa kept."
+  },
+  {
+   "id": "rnr:maternal-039",
+   "status": "fixed",
+   "note": "cjmm was evaluateOutcomes, but no intervention is being evaluated; the student sorts expected vs abnormal findings. Changed to analyzeCues."
+  },
+  {
+   "id": "rnr:maternal-044",
+   "status": "fixed",
+   "note": "Key was much longer than the distractors (length cue); options rebalanced, content unchanged."
+  },
+  {
+   "id": "rnr:maternal-050",
+   "status": "fixed",
+   "note": "Key was the only long option (length cue); shortened key and lengthened distractors. Content unchanged."
+  },
+  {
+   "id": "rnr:maternal-051",
+   "status": "fixed",
+   "note": "Key was much longer than the distractors (length cue); distractors lengthened."
+  },
+  {
+   "id": "rnr:maternal-052",
+   "status": "fixed",
+   "note": "Key was the only long option (length cue); distractors lengthened. cjmm changed from recognizeCues to takeAction because the item asks for a therapeutic response."
+  },
+  {
+   "id": "rnr:maternal-054",
+   "status": "fixed",
+   "note": "Key was much longer than the distractors (length cue); distractors lengthened."
+  },
+  {
+   "id": "rnr:maternal-063",
+   "status": "fixed",
+   "note": "Key was much longer than the distractors (length cue); options rebalanced."
+  },
+  {
+   "id": "rnr:maternal-067",
+   "status": "fixed",
+   "note": "Ref aap-safesleep (safe sleep) does not support car seat content; replaced with openstax-maternal."
+  },
+  {
+   "id": "rnr:maternal-070",
+   "status": "fixed",
+   "note": "Key was the longest option (length cue); options rebalanced."
+  },
+  {
+   "id": "rnr:maternal-071",
+   "status": "fixed",
+   "note": "cjmm prioritizeHypotheses did not fit (the item asks for the action); changed to takeAction. Removed cdc-isolation ref, which does not address HSV and mode of birth."
+  },
+  {
+   "id": "rnr:maternal-073",
+   "status": "fixed",
+   "note": "Key was much longer than the distractors (length cue); distractors lengthened."
+  },
+  {
+   "id": "rnr:maternal-078",
+   "status": "fixed",
+   "note": "Key was much longer than the distractors (length cue); options rebalanced, content unchanged."
+  }
+ ]
+}

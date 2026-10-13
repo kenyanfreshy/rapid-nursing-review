@@ -1,0 +1,709 @@
+{
+ "topic": "heme",
+ "questions": [
+  {
+   "id": "rnr:heme-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is being discharged with an oral chemotherapy drug in tablet form. A family member will help give the doses at home. Which instruction is most important for the nurse to include?",
+   "options": [
+    "Wear disposable gloves to handle the tablets, and do not crush or split them",
+    "Crush the tablets and mix them into applesauce if they are hard to swallow",
+    "Store the tablets in a weekly pill organizer with the client's other medicines",
+    "Give a missed dose together with the next dose so no medicine is lost"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Oral antineoplastic drugs are hazardous drugs. Caregivers wear gloves when touching tablets, and tablets are not crushed or split because the dust can be inhaled or absorbed through the skin.",
+    "Crushing releases hazardous drug particles into the air and onto surfaces. The client's team should be asked about other options if swallowing is hard.",
+    "Hazardous drugs are kept in their original labeled container, apart from other medicines, to prevent mix-ups and contamination.",
+    "Doubling a dose of a chemotherapy drug can cause serious toxicity. The family should follow the missed-dose instructions or call the oncology team."
+   ],
+   "takeaway": "Oral chemotherapy is still a hazardous drug at home: wear gloves, never crush or split tablets, keep them in the original container and never double a missed dose.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "The nurse is preparing to transfuse a unit of packed red blood cells through a Y-type blood administration set. Which IV solution should the nurse hang on the other side of the Y-set?",
+   "options": [
+    "5% dextrose in water",
+    "Lactated Ringer's solution",
+    "0.9% sodium chloride",
+    "5% dextrose in 0.45% sodium chloride"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Dextrose solutions can cause red blood cells to clump and hemolyze, so they are not used with blood.",
+    "Lactated Ringer's contains calcium, which can start clotting of the citrated blood in the tubing.",
+    "Correct. Normal saline is the only solution that should run with red blood cells. It is isotonic and contains no glucose or calcium.",
+    "This solution contains dextrose, which can damage red blood cells in the line."
+   ],
+   "takeaway": "Prime and flush blood tubing with 0.9% sodium chloride only; no dextrose, no lactated Ringer's, and no medications in the blood line.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "order",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is preparing to give a unit of packed red blood cells to a client with symptomatic anemia. Place the nurse's actions in the correct order.",
+   "options": [
+    "Begin the infusion slowly and stay with the client for the first 15 minutes",
+    "Verify the prescription and signed transfusion consent, and confirm a patent IV line",
+    "Pick up the unit from the blood bank",
+    "Take and record baseline vital signs, including temperature",
+    "Verify the client and the unit at the bedside with a second qualified licensed person"
+   ],
+   "correct": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "rationales": [
+    "Fifth: most severe reactions appear early, so the first 15 minutes run slowly with the nurse at the bedside.",
+    "First: the transfusion cannot proceed without a valid prescription and informed consent, and a working IV line must be ready before blood leaves the blood bank.",
+    "Third: the unit is picked up only when the client is ready, because the transfusion should start within the time limit set by policy (often 30 minutes).",
+    "Second: baseline vital signs are needed to recognize a reaction later, and a new fever is reported before the blood is picked up.",
+    "Fourth: the two-person bedside check against the client's identification band is the final safeguard before the infusion starts."
+   ],
+   "takeaway": "Starting blood: prescription, consent and IV access, then baseline vital signs, then pick up the unit, do the bedside two-person check and start slowly while staying with the client for 15 minutes.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with breast cancer is scheduled to begin a chemotherapy regimen that includes doxorubicin. Which baseline test result is most important for the nurse to confirm before the first dose?",
+   "options": [
+    "Pulmonary function tests",
+    "Left ventricular ejection fraction from an echocardiogram or MUGA scan",
+    "An audiogram",
+    "A nerve conduction study"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Pulmonary function testing is the key baseline for bleomycin, which can cause pulmonary fibrosis.",
+    "Correct. Doxorubicin can cause dose-related cardiomyopathy and heart failure, so cardiac function is measured before treatment and monitored as the total dose builds.",
+    "Hearing tests are the key baseline for cisplatin, which is ototoxic.",
+    "Peripheral neuropathy is a hallmark of drugs such as vincristine; nerve conduction studies are not a routine baseline for doxorubicin."
+   ],
+   "takeaway": "Doxorubicin is cardiotoxic: check a baseline ejection fraction and monitor for heart failure as the cumulative dose rises.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is scheduled to receive highly emetogenic chemotherapy at 1000. The prescriptions include IV ondansetron and IV dexamethasone as premedications. When should the nurse give these medications?",
+   "options": [
+    "Only after the client first reports feeling nauseated",
+    "Once the chemotherapy infusion has been completed",
+    "Mixed into the chemotherapy bag so they infuse together",
+    "About 30 minutes before the chemotherapy infusion starts"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Chemotherapy-induced nausea is much easier to prevent than to stop once it starts, so preventive antiemetics are not held until symptoms appear.",
+    "Giving the antiemetics after the infusion misses the period when the drug triggers acute nausea and vomiting.",
+    "Medications are not added to a chemotherapy bag; this risks incompatibility and dosing errors.",
+    "Correct. Premedication about 30 minutes before chemotherapy lets the antiemetics reach effective levels before the emetogenic drug is given, which prevents acute nausea and vomiting."
+   ],
+   "takeaway": "Give prescribed antiemetic premedications before emetogenic chemotherapy starts; prevention works far better than treating nausea once it begins.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "matrix",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is reviewing reversal agents for clients with serious bleeding. For each anticoagulant, indicate the agent the nurse should anticipate.",
+   "rows": [
+    "Unfractionated heparin infusion",
+    "Enoxaparin given 3 hours ago",
+    "Warfarin with an INR of 6.2",
+    "Dabigatran"
+   ],
+   "columns": [
+    "Protamine sulfate",
+    "IV vitamin K and 4-factor prothrombin complex concentrate",
+    "Idarucizumab"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Protamine binds heparin and reverses it within minutes.",
+    "Protamine also partly reverses low-molecular-weight heparin when given within hours of the dose.",
+    "Warfarin blocks vitamin K-dependent clotting factors; 4-factor PCC replaces them quickly and IV vitamin K keeps the reversal going.",
+    "Idarucizumab is a specific antibody fragment that reverses dabigatran, a direct thrombin inhibitor."
+   ],
+   "takeaway": "Match the reversal agent to the drug: protamine for heparins, vitamin K plus 4-factor PCC for warfarin, idarucizumab for dabigatran.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a client with iron-deficiency anemia who is starting oral ferrous sulfate. Which statements by the client indicate correct understanding? Select all that apply.",
+   "options": [
+    "\"I'll take it with a glass of orange juice.\"",
+    "\"I'll take it with milk so it won't upset my stomach.\"",
+    "\"My stools may turn dark green or black.\"",
+    "\"I can stop taking it once I feel less tired.\"",
+    "\"I'll eat more fiber and drink more fluids to prevent constipation.\"",
+    "\"I'll take my antacid at the same time to protect my stomach.\""
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Vitamin C increases iron absorption.",
+    "Calcium in milk reduces iron absorption. Iron should be taken apart from dairy.",
+    "Correct. Dark stools are an expected, harmless effect of oral iron.",
+    "Iron stores take months to refill. The client should keep taking it for as long as prescribed, even after symptoms improve.",
+    "Correct. Constipation is common with oral iron, and fiber and fluids help prevent it.",
+    "Antacids reduce iron absorption. Take them at least 1 to 2 hours apart from iron."
+   ],
+   "takeaway": "Oral iron: take with vitamin C, apart from dairy and antacids, expect dark stools, prevent constipation, and finish the full course to refill stores.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "sata",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a client who will have a low neutrophil count at home after chemotherapy. Which statements by the client indicate understanding? Select all that apply.",
+   "options": [
+    "\"I'll call the oncology team right away if my temperature is 100.4 °F (38 °C) or higher.\"",
+    "\"I'll take my temperature rectally because it is the most accurate.\"",
+    "\"I'll wash my hands often and ask visitors to do the same.\"",
+    "\"I'll stay away from crowds and people who are sick.\"",
+    "\"If I get a fever, I'll take acetaminophen and wait a day before calling.\"",
+    "\"My partner will clean the cat's litter box for now.\""
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Fever may be the only sign of infection when neutrophils are low and needs prompt evaluation and antibiotics.",
+    "Rectal thermometers can injure the mucosa and allow bacteria into the blood. Use oral or other non-rectal routes.",
+    "Correct. Hand hygiene is the most important way to prevent infection.",
+    "Correct. Avoiding crowds and sick contacts lowers exposure to infection.",
+    "Waiting can let a serious infection progress quickly. Neutropenic fever is an emergency.",
+    "Correct. Cat litter can carry organisms such as Toxoplasma, so someone else should clean it."
+   ],
+   "takeaway": "Neutropenia at home: hand hygiene, avoid sick contacts and litter boxes, no rectal temperatures, and treat a fever of 100.4 °F (38 °C) or higher as an emergency.",
+   "refs": [
+    "openstax-medsurg",
+    "cdc-handhygiene"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client receiving chemotherapy has a platelet count of 32,000/mm³. Which instructions should the nurse include in teaching about bleeding precautions? Select all that apply.",
+   "options": [
+    "Use a soft-bristled toothbrush.",
+    "Use a rectal suppository if you become constipated.",
+    "Shave with an electric razor.",
+    "Take ibuprofen for headaches.",
+    "Report blood in your urine or black, tarry stools.",
+    "Floss firmly between teeth every day to prevent gum disease."
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. A soft toothbrush lowers the chance of gum bleeding.",
+    "Rectal suppositories, enemas and rectal temperatures can tear the rectal mucosa and cause bleeding.",
+    "Correct. An electric razor is much less likely to cause cuts than a blade.",
+    "NSAIDs and aspirin impair platelet function and add to bleeding risk. Acetaminophen is usually preferred.",
+    "Correct. These are signs of internal bleeding that need prompt evaluation.",
+    "Vigorous flossing can cause gum bleeding when platelets are low. Follow the oncology team's mouth-care plan."
+   ],
+   "takeaway": "Low platelets: soft toothbrush, electric razor, no NSAIDs or aspirin, nothing in the rectum, and report any signs of bleeding.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chemotherapy-induced neutropenia has received daily filgrastim injections for 5 days. Which finding best indicates that the medication is having the intended effect?",
+   "options": [
+    "The hemoglobin has risen from 9.8 to 10.4 g/dL",
+    "The platelet count has risen from 90,000 to 110,000/mm³",
+    "The client no longer reports aching in the bones",
+    "The absolute neutrophil count has risen from 400 to 2,100/mm³"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Filgrastim does not target red blood cell production; a hemoglobin change does not show its effect.",
+    "Filgrastim stimulates neutrophil production, not platelet production.",
+    "Bone pain is a common side effect of filgrastim as the marrow expands; its absence does not show the drug is working.",
+    "Correct. Filgrastim is a granulocyte colony-stimulating factor. A rising absolute neutrophil count, here above 1,500/mm³, shows recovery and lower infection risk."
+   ],
+   "takeaway": "Filgrastim works by raising neutrophils: evaluate it by the absolute neutrophil count, and expect bone pain as a common side effect.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is receiving enoxaparin subcutaneously to prevent deep vein thrombosis after hip surgery. Which laboratory value should the nurse monitor periodically during therapy?",
+   "options": [
+    "Activated partial thromboplastin time (aPTT)",
+    "Platelet count",
+    "International normalized ratio (INR)",
+    "Serum fibrinogen"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Enoxaparin has little effect on the aPTT at usual doses, so the aPTT is not used to monitor it.",
+    "Correct. Low-molecular-weight heparins can cause heparin-induced thrombocytopenia and bleeding, so the platelet count (and the CBC) is checked during therapy.",
+    "The INR is used to monitor warfarin, not enoxaparin.",
+    "Fibrinogen is not a routine monitoring test for enoxaparin."
+   ],
+   "takeaway": "Enoxaparin does not need routine aPTT checks, but monitor the platelet count for heparin-induced thrombocytopenia and watch for bleeding.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client had the first cycle of a myelosuppressive chemotherapy regimen today and asks when the risk of infection will be highest. Which response by the nurse is accurate?",
+   "options": [
+    "\"Usually about 7 to 14 days after treatment, when your blood counts are at their lowest.\"",
+    "\"During the first 24 hours, while the drug is still in your bloodstream.\"",
+    "\"During the infusion itself, so we will watch you closely today.\"",
+    "\"About 6 weeks from now, after several cycles have built up.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. For many myelosuppressive regimens, the white cell nadir occurs about 7 to 14 days after the dose. Infection risk is highest then, so precautions and fever teaching matter most during this window.",
+    "Blood counts do not drop right away, because the cells already circulating live for several days.",
+    "Infusion reactions can happen during the infusion, but infection risk from low counts comes later.",
+    "The nadir follows each cycle within about 2 weeks, so the client needs precautions in the first cycle."
+   ],
+   "takeaway": "Expect the white count nadir about 7 to 14 days after most myelosuppressive chemotherapy; teach fever and infection precautions for that window.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with a new deep vein thrombosis has received a continuous heparin infusion for 6 days. Warfarin was started 2 days ago. The heparin protocol goal aPTT is 60 to 80 seconds. For each item in the record, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "aPTT is 72 seconds",
+    "INR is 1.4",
+    "A new prescription to stop the heparin infusion today",
+    "Client reports a black, tarry stool"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "The aPTT is within the protocol goal, so the infusion is continued at the current rate.",
+    "Warfarin takes several days to reach a therapeutic INR, which is why heparin overlaps with it until the INR is in range.",
+    "With an INR of 1.4, warfarin is not yet therapeutic. Heparin is continued until the INR has been in range for at least 24 hours with at least 5 days of overlap, so stopping it today needs clarification with the provider.",
+    "Black, tarry stool suggests upper GI bleeding, a serious complication of anticoagulation."
+   ],
+   "takeaway": "During heparin-to-warfarin overlap, a low INR in the first days is expected; heparin continues until the INR is therapeutic for 24 hours, and any sign of bleeding needs follow-up.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with metastatic breast cancer has a serum calcium of 13.4 mg/dL. Which findings should the nurse expect? Select all that apply.",
+   "options": [
+    "New confusion and drowsiness",
+    "Constipation",
+    "Positive Chvostek sign",
+    "Increased thirst and urination",
+    "Muscle weakness",
+    "Carpopedal spasm"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. High calcium depresses the nervous system and causes confusion and lethargy.",
+    "Correct. Hypercalcemia slows GI motility.",
+    "Chvostek sign reflects nerve irritability from low calcium, not high calcium.",
+    "Correct. High calcium impairs the kidney's ability to concentrate urine, causing polyuria, dehydration and thirst.",
+    "Correct. High calcium reduces neuromuscular excitability and causes weakness.",
+    "Carpopedal spasm (tetany) is a sign of low calcium."
+   ],
+   "takeaway": "Hypercalcemia of malignancy slows everything down: confusion, weakness, constipation, polyuria and dehydration; IV fluids are the first treatment.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse on an oncology unit receives report on four clients. Which client should the nurse see first?",
+   "options": [
+    "A client 10 days after chemotherapy with an absolute neutrophil count of 900/mm³ and a temperature of 37.2 °C (99.0 °F)",
+    "A client with oral mucositis who rates mouth pain 6 out of 10 and has an analgesic due in 30 minutes",
+    "A client with leukemia and a platelet count of 8,000/mm³ who reports a sudden severe headache and blurred vision",
+    "A client with lymphoma who is tearful about hair loss and asks to talk about wigs"
+   ],
+   "correct": 2,
+   "rationales": [
+    "This client is neutropenic and needs infection precautions, but is afebrile and stable.",
+    "Mucositis pain needs attention, but the client is stable and an analgesic is due soon.",
+    "Correct. A platelet count below 10,000/mm³ carries a high risk of spontaneous bleeding. A sudden severe headache with vision changes suggests intracranial hemorrhage, a neurologic emergency that needs immediate assessment and provider notification.",
+    "Body-image distress is real and needs follow-up, but it is not a physiologic threat."
+   ],
+   "takeaway": "With severe thrombocytopenia, a new headache or change in vision or mental status signals possible intracranial bleeding and is the top priority.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with prostate cancer that has spread to the spine reports back pain that has gotten worse over 3 days and is worse when lying down. Today the client has trouble lifting both legs and difficulty starting urination. Which action should the nurse take?",
+   "options": [
+    "Give a PRN opioid and reassess the pain in 1 hour",
+    "Report the findings to the provider immediately as a possible spinal cord compression",
+    "Apply a warm pack to the back and help the client walk",
+    "Insert a straight catheter and document the urinary retention"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Pain control is needed, but treating the pain alone misses an emergency that can cause permanent loss of function.",
+    "Correct. New or worsening back pain with leg weakness and bladder changes in a client with spinal metastases suggests spinal cord compression. Quick treatment (often corticosteroids, imaging and radiation or surgery) is needed to prevent permanent paralysis.",
+    "Walking a client with new leg weakness raises fall risk, and heat does not treat cord compression.",
+    "Urinary retention may need relief, but it is one sign of the compression, which must be reported first."
+   ],
+   "takeaway": "In a client with cancer, new back pain plus leg weakness or bowel or bladder changes is spinal cord compression until proven otherwise: report it immediately.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with lung cancer has new swelling of the face and neck, distended neck veins and shortness of breath that is worse when lying flat. Which action should the nurse take first?",
+   "options": [
+    "Place the client supine with the legs elevated",
+    "Start a new IV in the right arm for fluids",
+    "Apply cold compresses to the face and reassess in an hour",
+    "Raise the head of the bed and notify the provider"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Lying flat with the legs raised increases venous return to the blocked upper body and worsens breathing.",
+    "Blood flow from the arms is blocked, so IVs in the upper extremities should be avoided when possible.",
+    "Cold compresses do not treat the obstruction, and waiting an hour delays care for a possible airway problem.",
+    "Correct. These signs suggest superior vena cava syndrome, which can compromise the airway. Sitting the client up eases breathing and venous drainage, and the provider needs to know right away."
+   ],
+   "takeaway": "Superior vena cava syndrome: facial and neck swelling, distended neck veins and dyspnea; sit the client up, avoid upper-arm IVs and report it immediately.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client was told yesterday that a biopsy shows colon cancer. Today the client says, \"The lab must have mixed up the samples. I feel fine, so I'm not going to see the oncologist.\" Which response by the nurse is most therapeutic?",
+   "options": [
+    "\"The lab is very careful, so the results are almost certainly correct.\"",
+    "\"If you don't see the oncologist, the cancer could spread.\"",
+    "\"This is a lot to take in. What have you been thinking about since you heard the results?\"",
+    "\"Lots of people feel fine with cancer, so feeling well doesn't mean much.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Arguing with denial tends to make the client defend it more and closes off the conversation.",
+    "A warning based on fear can increase anxiety and is not a therapeutic first response.",
+    "Correct. The client is using denial, a common early response to bad news. An open-ended, accepting response lets the client talk and helps the nurse learn what the client understands without forcing them to give up the defense too soon.",
+    "This response dismisses the client's feelings and argues with the defense instead of exploring it."
+   ],
+   "takeaway": "Denial is a normal early reaction to a cancer diagnosis; respond with acceptance and open-ended questions rather than arguing with it.",
+   "refs": [
+    "openstax-psych",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client starting chemotherapy that commonly causes hair loss says, \"I don't want my kids to see me bald. I'll look like a different person.\" Which response by the nurse is most helpful?",
+   "options": [
+    "\"Many people choose a wig, scarf or hat before hair loss starts. Would you like to talk about some options?\"",
+    "\"Your hair will grow back, so this is only temporary.\"",
+    "\"Your health is more important than how you look right now.\"",
+    "\"Children usually don't notice changes like that.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. This response accepts the client's body-image concern and offers a way to keep some control. Choosing a wig or head covering before hair falls out helps match the client's usual look.",
+    "Hair does usually grow back, but this reassurance brushes past what the client is feeling now.",
+    "This response minimizes the client's concern and can make the client feel judged.",
+    "This is false reassurance and dismisses the client's worry about the children."
+   ],
+   "takeaway": "For chemotherapy-related hair loss, acknowledge the body-image concern and help the client plan a wig or head covering before the hair falls out.",
+   "refs": [
+    "openstax-psych",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:heme-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Hematology & Oncology",
+   "type": "sata",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who is about to begin chemotherapy for leukemia says, \"I'm terrified. I don't know if I can handle this.\" Which responses by the nurse are therapeutic? Select all that apply.",
+   "options": [
+    "\"You sound really frightened. What worries you most?\"",
+    "\"Don't worry. Everyone gets through it just fine.\"",
+    "\"Would it help to go over what will happen during your first treatment?\"",
+    "\"Who do you usually lean on when things get hard?\"",
+    "\"You need to stay positive for the treatment to work.\"",
+    "\"I'll sit with you for a while if you'd like to talk.\""
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Naming the feeling and asking an open question invites the client to share specific fears.",
+    "This is false reassurance. It dismisses the fear and is not true for every client.",
+    "Correct. Clear information about what to expect reduces anxiety about the unknown.",
+    "Correct. Asking about support systems helps the client identify coping resources.",
+    "Telling the client how to feel is judgmental and adds pressure; outcomes do not depend on a positive attitude.",
+    "Correct. Offering presence shows caring and gives the client time to express feelings."
+   ],
+   "takeaway": "With a frightened client, name the feeling, ask open questions, offer presence and accurate information, and explore support systems; avoid false reassurance.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

@@ -38,6 +38,7 @@ const ICONS = {
   check: 'M5 12l4 4L19 6', spark: 'M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z', target: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z',
   clock: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z M12 7v5l3 2', book: 'M3 4c3-1 6-1 9 1 3-2 6-2 9-1v16c-3-1-6-1-9 1-3-2-6-2-9-1V4z M12 5v16',
   link: 'M10 14a4 4 0 0 0 6 0l3-3a4 4 0 0 0-6-6l-1 1 M14 10a4 4 0 0 0-6 0l-3 3a4 4 0 0 0 6 6l1-1', close: 'M6 6l12 12 M18 6L6 18',
+  layers: 'M12 3l9 5-9 5-9-5 9-5z M3 13l9 5 9-5 M3 17l9 5 9-5',
   badge: 'M12 2l3 3h4v4l3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z M8 12l3 3 5-6', store: 'M3 9l2-5h14l2 5 M4 9v11h16V9 M9 20v-6h6v6',
 };
 function Icon({ name, size = 16, color = C.cyan }) {

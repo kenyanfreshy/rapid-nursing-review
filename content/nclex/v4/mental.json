@@ -1,0 +1,2281 @@
+{
+ "topic": "mental",
+ "questions": [
+  {
+   "id": "rnr:mental-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client admitted yesterday for major depressive disorder sits alone in the dayroom. When the nurse approaches, the client looks down and says, \"I don't want to talk.\" Which response by the nurse is best?",
+   "takeaway": "With a withdrawn client, offering self through brief, quiet presence builds trust without demanding conversation.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"That's all right. I'll sit here with you for a few minutes.\"",
+    "\"Why don't you want to talk with me today?\"",
+    "\"You will feel better once you start talking about it.\"",
+    "\"I'll come back later when you're ready to cooperate.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Offering self (quiet presence) shows acceptance and interest without pressuring the client, which builds trust with a withdrawn, depressed client.",
+    "\"Why\" questions demand an explanation the client may not have and can feel judgmental, which increases withdrawal.",
+    "This is false reassurance and pressures the client; it dismisses how the client feels right now.",
+    "Labeling silence as not cooperating is judgmental and leaves the client alone, reinforcing isolation."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A client with generalized anxiety disorder is talking with the nurse about stress at home. For each nurse statement, indicate whether it is therapeutic or nontherapeutic.",
+   "takeaway": "Observations, broad openings and exploring are therapeutic; reassurance, \"why\" questions and advice block communication.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "rows": [
+    "\"You seem tense. Tell me what's on your mind.\"",
+    "\"Don't worry. Everything will work out fine.\"",
+    "\"You said you feel trapped at home. Tell me more about that.\"",
+    "\"Why did you stop going to your therapy appointments?\"",
+    "\"If I were you, I would move out of that house.\""
+   ],
+   "columns": [
+    "Therapeutic",
+    "Nontherapeutic"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Therapeutic: making an observation and using a broad opening invites the client to share at their own pace.",
+    "Nontherapeutic: false reassurance dismisses the client's feelings and closes off discussion.",
+    "Therapeutic: exploring (and restating the client's own words) helps the client examine the problem more deeply.",
+    "Nontherapeutic: \"why\" questions ask the client to justify behavior and can feel accusatory.",
+    "Nontherapeutic: giving advice takes over problem-solving and implies the nurse knows best."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "During the final one-to-one session before discharge, a client says to the nurse, \"You've helped me so much. Can I have your phone number so we can keep in touch?\" Which response by the nurse is best?",
+   "takeaway": "In the termination phase, keep the relationship professional and shift the client toward community supports.",
+   "refs": [
+    "openstax-psych",
+    "ncsbn-boundaries"
+   ],
+   "options": [
+    "\"Hospital rules don't allow it, or I would give it to you.\"",
+    "\"Let's wait until you're feeling better, and then we can meet for coffee.\"",
+    "\"Our work together is a professional relationship that ends at discharge. Let's talk about the supports you'll have at home.\"",
+    "\"Sure, but only call me if it's an emergency.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Blaming rules implies the nurse would otherwise agree to a personal relationship and misses the chance to plan for support.",
+    "Planning to meet socially after discharge is a boundary violation.",
+    "Correct. In the termination phase the nurse keeps the boundary clear and redirects the client to ongoing supports, which promotes independence.",
+    "Giving a personal number crosses a professional boundary and creates a dependent, social relationship."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 52-year-old client with depression answers \"Yes\" when the nurse asks, \"Are you thinking about killing yourself?\" Which question should the nurse ask next?",
+   "takeaway": "Once suicidal ideation is confirmed, ask directly about a plan, the means and intent to judge the level of risk.",
+   "refs": [
+    "openstax-psych",
+    "lifeline-988"
+   ],
+   "options": [
+    "\"Can you promise to tell me before you hurt yourself?\"",
+    "\"Have you thought about how you would do it?\"",
+    "\"Why would you want to end your life?\"",
+    "\"Don't you think your family needs you?\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "A promise does not reduce risk and does not replace a direct assessment of plan and means.",
+    "Correct. After suicidal thoughts are confirmed, the nurse assesses for a specific plan, means and intent, which determines the level of risk and the precautions needed.",
+    "A \"why\" question puts the client on the defensive and does not assess the level of risk.",
+    "This induces guilt and can shut down disclosure; it does not assess the plan."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client on suicide precautions says, \"I'll sign a no-suicide contract if that gets me off precautions today.\" Which response by the nurse is best?",
+   "takeaway": "No-suicide contracts do not prevent suicide; use ongoing risk assessment and a collaborative safety plan instead.",
+   "refs": [
+    "openstax-psych",
+    "lifeline-988"
+   ],
+   "options": [
+    "\"Good idea. I'll get the form so you can sign it now.\"",
+    "\"If you sign it, I can reduce your checks to once an hour.\"",
+    "\"Contracts are only for clients who have attempted suicide before.\"",
+    "\"A signed agreement won't change your precautions. Let's keep talking about how you're feeling and build a safety plan together.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "A no-suicide contract can give staff false reassurance and does not lower risk.",
+    "Observation levels are changed only after a reassessment of risk by the team, not because a form is signed.",
+    "This is inaccurate; no-suicide contracts are not recommended as a safety tool for any client.",
+    "Correct. No-suicide contracts have not been shown to prevent suicide; precautions depend on ongoing risk assessment, and a collaborative safety plan is the recommended tool."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A 19-year-old college student is being screened at the campus health center. For each finding, indicate whether it is a suicide risk factor or a protective factor.",
+   "takeaway": "Prior attempts, recent losses and alcohol misuse raise suicide risk; engagement in care and social connection protect.",
+   "refs": [
+    "openstax-psych",
+    "lifeline-988"
+   ],
+   "rows": [
+    "Made a suicide attempt by overdose at age 16",
+    "Recently ended a long-term romantic relationship",
+    "Meets weekly with a counselor and has kept every appointment",
+    "Has been drinking heavily on weekends for the past month",
+    "Feels close to teammates on a college sports team"
+   ],
+   "columns": [
+    "Risk factor",
+    "Protective factor"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Risk factor: a previous suicide attempt is one of the strongest predictors of a future attempt.",
+    "Risk factor: a recent loss, such as the end of a close relationship, is a common trigger for suicidal crises in young adults.",
+    "Protective factor: ongoing engagement with mental health care lowers suicide risk.",
+    "Risk factor: alcohol misuse increases impulsivity and is linked to higher suicide risk.",
+    "Protective factor: strong social connection and a sense of belonging protect against suicide."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A 74-year-old client is brought to the clinic by her son, who says she has been \"forgetful\" for 2 months since moving into his home. The client speaks slowly, has lost weight, complains that her memory is poor and answers many questions with \"I don't know\" without trying. She is alert and oriented. Which explanation should the nurse consider first?",
+   "takeaway": "In older adults, depression can look like dementia: watch for recent onset, memory complaints and \"I don't know\" answers.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Depression presenting with cognitive symptoms",
+    "Early Alzheimer's disease",
+    "Delirium from an acute medical illness",
+    "Normal age-related memory change"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Recent onset after a loss or major change, psychomotor slowing, weight loss, complaints about memory and \"I don't know\" answers point to depression with cognitive symptoms; a depression screen is warranted.",
+    "People with early Alzheimer's disease usually try to answer, may cover up or minimize memory loss, and decline gradually over years.",
+    "Delirium causes fluctuating attention and level of consciousness; this client is alert and oriented.",
+    "Normal aging does not cause weight loss, slowing and a sudden change in function over 2 months."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A client with severe depression is scheduled for a first electroconvulsive therapy (ECT) treatment tomorrow morning. For each action, indicate whether it is indicated or not indicated.",
+   "takeaway": "Before ECT: consent, NPO, honest teaching that anesthesia is used and that temporary confusion and memory loss are expected.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "rows": [
+    "Confirm that a signed informed consent is in the record",
+    "Keep the client NPO for several hours before the treatment as prescribed",
+    "Tell the client he will be awake and feel the electrical current",
+    "Encourage a large breakfast the morning of the treatment",
+    "Explain that brief confusion and short-term memory loss after treatment are common and usually improve"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Indicated: ECT requires informed consent, just like other procedures done under anesthesia.",
+    "Indicated: the client receives general anesthesia and a muscle relaxant, so fasting lowers the risk of aspiration.",
+    "Not indicated: the client is under brief general anesthesia and does not feel the stimulus; this inaccurate statement would increase fear.",
+    "Not indicated: the client must stay NPO before anesthesia.",
+    "Indicated: honest teaching about expected temporary confusion and memory loss prepares the client and family."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with schizophrenia who still hears voices despite taking medication asks the nurse for ways to cope when the voices get loud. Which strategies should the nurse suggest? Select all that apply.",
+   "takeaway": "Teach active coping for persistent voices: humming, music, talking to someone and activity, plus steady medication use.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Hum or sing quietly to yourself",
+    "Listen to music through headphones",
+    "Stay alone in a dark room until the voices stop",
+    "Talk with a trusted person about what you are hearing",
+    "Go for a walk or start an activity you enjoy",
+    "Skip your medication on days the voices are quiet"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Humming or subvocal singing competes with the voices and can reduce how intrusive they feel.",
+    "Correct. Music through headphones is a well-supported distraction technique for persistent hallucinations.",
+    "Isolation and low stimulation tend to increase attention to voices and raise the risk of acting on them.",
+    "Correct. Talking with a trusted person provides reality testing and support, and lets staff check for command content.",
+    "Correct. Engaging in an activity shifts attention away from the voices.",
+    "Stopping medication increases the risk of relapse; antipsychotics must be taken consistently."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with schizophrenia says to the nurse, \"I'm late, the gate, the plate, I hate to wait.\" The nurse should document this speech pattern as which finding?",
+   "takeaway": "Clang associations link words by sound or rhyme rather than meaning and reflect disorganized thinking.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Neologism",
+    "Echolalia",
+    "Clang association",
+    "Word salad"
+   ],
+   "correct": 2,
+   "rationales": [
+    "A neologism is a made-up word that has meaning only to the client.",
+    "Echolalia is repeating another person's words or phrases.",
+    "Correct. Clang association is choosing words for their sound (here, rhyming) rather than their meaning.",
+    "Word salad is a jumble of unrelated words with no rhyming pattern or meaning."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with a history of childhood trauma is admitted to a medical unit. Which nursing actions reflect trauma-informed care? Select all that apply.",
+   "takeaway": "Trauma-informed care emphasizes safety, choice, control and transparency, and avoids retraumatizing the client.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Ask permission before touching the client",
+    "Explain each step of a procedure before doing it",
+    "Ask the client to describe the trauma in detail at each shift assessment",
+    "Offer choices when possible, such as the gender of the caregiver for intimate care",
+    "Use firm physical guidance to finish procedures quickly",
+    "Let the client know they can ask to pause a procedure"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Asking before touching restores a sense of control and safety.",
+    "Correct. Predictability reduces fear and the chance of retraumatization.",
+    "Requiring repeated retelling can retraumatize the client and is not needed for care.",
+    "Correct. Offering choices supports autonomy and empowerment, core trauma-informed principles.",
+    "Physical force can trigger trauma memories and should be avoided.",
+    "Correct. Being able to pause gives the client control and builds trust."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 22-year-old client in the emergency department after a sexual assault says, \"It's my fault. I shouldn't have walked home alone.\" Which response by the nurse is best?",
+   "takeaway": "Respond to survivor self-blame by stating clearly that the assault is the perpetrator's responsibility.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"Let's not focus on that now. We need to finish collecting evidence.\"",
+    "\"What happened is not your fault. The person who assaulted you is responsible.\"",
+    "\"Walking alone at night was risky, but you couldn't have known this would happen.\"",
+    "\"Why did you decide to walk home by yourself?\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Dismissing the client's feelings ignores an important emotional need; evidence collection can wait for the client's consent and readiness.",
+    "Correct. Clearly placing responsibility on the perpetrator counters self-blame and supports the survivor's recovery.",
+    "This still implies the client's choice contributed to the assault, reinforcing self-blame.",
+    "A \"why\" question sounds blaming and can increase guilt and shame."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A 19-year-old client with anorexia nervosa says to the nurse before the morning weigh-in, \"I'll eat everything on my tray today if you skip my weigh-in.\" Which response by the nurse is best?",
+   "takeaway": "With eating disorders, keep the treatment plan consistent and don't bargain, while offering support.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"All right, as long as you finish every meal today.\"",
+    "\"Why are you so afraid of getting on the scale?\"",
+    "\"Your weight doesn't matter as much as how you feel.\"",
+    "\"Weigh-ins are part of your treatment plan and happen as scheduled. I'll stay with you during it.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Bargaining away part of the plan rewards manipulation and undermines consistent treatment.",
+    "A \"why\" question puts the client on the defensive and avoids the limit that must be kept.",
+    "Weight is a key measure of medical safety and progress in anorexia nervosa; this minimizes it.",
+    "Correct. Consistent limits that every staff member follows prevent manipulation of the plan, and the nurse offers support during an anxious moment."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is using motivational interviewing with a client who says, \"I know drinking is hurting my health, but it's the only way I can relax.\" Which techniques are consistent with this approach? Select all that apply.",
+   "takeaway": "Motivational interviewing uses open questions, affirmations, reflections and change talk, not confrontation.",
+   "refs": [
+    "openstax-psych",
+    "samhsa"
+   ],
+   "options": [
+    "Ask open-ended questions about the client's goals",
+    "Reflect both sides of the client's mixed feelings about drinking",
+    "Tell the client firmly that they are an alcoholic and must quit",
+    "Affirm the client's strengths and past successes",
+    "Warn the client that they will die if they keep drinking",
+    "Ask the client what reasons they have for wanting to change"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Open-ended questions invite the client to explore their own goals and values.",
+    "Correct. Reflecting ambivalence (\"You want to relax, and you also worry about your health\") helps the client hear the discrepancy.",
+    "Confrontation and labeling increase resistance and go against the spirit of motivational interviewing.",
+    "Correct. Affirmations build self-efficacy, which supports change.",
+    "Scare tactics provoke defensiveness rather than change talk.",
+    "Correct. Eliciting the client's own reasons for change (change talk) is central to motivational interviewing."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with alcohol use disorder tells the nurse, \"I only drink because my job is so stressful. Everyone in my office drinks after work.\" Which defense mechanism is the client using?",
+   "takeaway": "Rationalization offers acceptable-sounding excuses for a behavior and is common in substance use disorders.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Rationalization",
+    "Projection",
+    "Displacement",
+    "Sublimation"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Rationalization is offering socially acceptable reasons to justify a behavior, here the drinking.",
+    "Projection is attributing one's own unacceptable feelings to someone else.",
+    "Displacement is redirecting feelings from their source to a safer target.",
+    "Sublimation is channeling unacceptable impulses into socially valued activities."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The wife of a client with alcohol use disorder tells the nurse, \"When he's too hungover to work, I call his boss and say he has the flu. I'm so tired of covering for him.\" Which response by the nurse is most helpful?",
+   "takeaway": "Covering for a person's substance use is enabling; refer family members to support groups such as Al-Anon.",
+   "refs": [
+    "openstax-psych",
+    "samhsa"
+   ],
+   "options": [
+    "\"He needs to hit rock bottom before he will change.\"",
+    "\"You should leave him if he won't stop drinking.\"",
+    "\"Al-Anon is a support group for family members that can help you look at how covering for him affects you both.\"",
+    "\"You're being a good wife by protecting his job.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "This is a myth; people can engage in treatment at any point, and waiting can be dangerous.",
+    "Giving advice about leaving is not the nurse's role and does not address the family's need for support.",
+    "Correct. The wife describes enabling; Al-Anon supports family members, helps them stop enabling and attends to their own needs.",
+    "Praising the behavior reinforces enabling, which shields the client from consequences of drinking."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with obsessive-compulsive disorder asks the nurse, \"Why does my therapist want me to touch the trash can and then not wash my hands?\" Which response by the nurse is most accurate?",
+   "takeaway": "Exposure and response prevention reduces OCD symptoms by facing the trigger without performing the ritual.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"It is a consequence for spending too much time washing.\"",
+    "\"Facing the feared situation without doing the ritual lets your anxiety drop on its own, and the urge gets weaker over time.\"",
+    "\"Touching germs builds up your immune system.\"",
+    "\"It's a way to show you that your fears are silly.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "The therapy is not a punishment; framing it that way is inaccurate and damaging.",
+    "Correct. Exposure and response prevention works by letting anxiety peak and fall without the ritual, which weakens the link between the obsession and the compulsion.",
+    "The goal is behavioral, not immune-related.",
+    "Calling the fears silly is belittling; clients with OCD often recognize their fears as excessive and still feel driven to act."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse has taught a client with panic disorder about managing panic attacks. Which statements indicate that the teaching was effective? Select all that apply.",
+   "takeaway": "Panic disorder teaching: breathing skills, attacks are time-limited, limit stimulants and avoid avoidance.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"I'll use slow breathing when I notice my heart starting to race.\"",
+    "\"A panic attack peaks within minutes and then passes.\"",
+    "\"I'll stop going to the grocery store so I won't have an attack there.\"",
+    "\"Cutting back on caffeine may help reduce my attacks.\"",
+    "\"I'll take an extra alprazolam whenever I feel a little nervous.\"",
+    "\"I'll keep going to places even when I feel anxious.\""
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Slow diaphragmatic breathing counters the physical symptoms of panic.",
+    "Correct. Knowing that attacks are time-limited reduces fear of the attack itself.",
+    "Avoiding places where attacks occurred reinforces fear and can lead to agoraphobia.",
+    "Correct. Caffeine and other stimulants can trigger panic symptoms.",
+    "Taking extra benzodiazepine doses without a prescription risks dependence and oversedation.",
+    "Correct. Continuing to face situations prevents avoidance from taking hold."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client admitted in an acute manic episode 10 days ago has been receiving lithium. Which finding best indicates that the client's condition is improving?",
+   "takeaway": "Improvement in mania shows as more sleep, calmer activity, completed meals and less grandiosity.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Has started three new art projects since yesterday",
+    "Talks rapidly but agrees to wait for a turn in group",
+    "Says he plans to buy a sports team after discharge",
+    "Sleeps about 6 hours a night and sits through a 20-minute meal"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Starting many projects without finishing them reflects ongoing mania.",
+    "Pressured speech shows that manic symptoms are still present.",
+    "Grandiose plans indicate ongoing mania.",
+    "Correct. Restored sleep and the ability to stay seated through a meal show reduced hyperactivity and better self-care."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An 84-year-old client with Alzheimer's disease in a memory care unit says, \"I need to go pick up my children from school.\" Her children are in their fifties. Which response by the nurse is best?",
+   "takeaway": "In dementia, validate the emotion and redirect rather than arguing with or correcting mistaken beliefs.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"You're thinking about your children. Tell me about them.\"",
+    "\"Your children are grown, and you live in a nursing home now.\"",
+    "\"All right, let me get your coat and we'll go.\"",
+    "\"You can't leave the unit, so please sit down.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Validating the feeling behind the statement and redirecting to a pleasant conversation reduces distress without arguing.",
+    "Blunt reorientation in moderate to severe dementia often causes distress and doesn't help the client remember.",
+    "Agreeing to a false plan sets up frustration when nothing happens and is dishonest.",
+    "Simply refusing ignores the emotional need and can increase agitation."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is teaching a family about cognitive changes in older adults. For each feature, indicate whether it is more typical of delirium or dementia.",
+   "takeaway": "Delirium is acute, fluctuating and usually reversible; dementia is gradual, progressive, with intact alertness early.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "rows": [
+    "Develops over hours to days",
+    "Attention fluctuates during the day",
+    "Gradual decline over several years",
+    "Level of consciousness is normal in early stages",
+    "Often reverses when the underlying cause is treated"
+   ],
+   "columns": [
+    "Delirium",
+    "Dementia"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Delirium: onset is acute, over hours to days.",
+    "Delirium: inattention and fluctuating course are hallmark features.",
+    "Dementia: decline is slow and progressive.",
+    "Dementia: alertness is usually preserved early, whereas delirium alters consciousness.",
+    "Delirium: it is usually reversible when the cause (infection, drugs, metabolic problem) is treated."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is teaching the daughter of a client with moderate Alzheimer's disease how to manage care at home. Which suggestions should the nurse include? Select all that apply.",
+   "takeaway": "Dementia caregiving: routine, simple steps, no arguing, good lighting and a stable environment.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Keep a consistent daily routine",
+    "Give one simple instruction at a time",
+    "Ask your mother the date several times a day to keep her memory sharp",
+    "Avoid arguing when she has a mistaken belief",
+    "Turn on more lights in the late afternoon",
+    "Rearrange the furniture often to keep the home stimulating"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Routine lowers confusion and anxiety.",
+    "Correct. One-step directions match reduced memory and processing ability.",
+    "Repeated quizzing highlights deficits and causes frustration.",
+    "Correct. Arguing increases agitation; validation and redirection work better.",
+    "Correct. Good lighting at dusk may reduce sundowning and misperceptions.",
+    "Changing the environment increases disorientation and fall risk."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The parent of a 5-year-old asks the nurse how to talk to the child about the recent death of the child's grandmother. The child keeps asking when Grandma is coming back. Which advice by the nurse is best?",
+   "takeaway": "Use simple, concrete, honest words such as \"died\" with young children, who often think death is reversible.",
+   "refs": [
+    "openstax-psych",
+    "medline-children"
+   ],
+   "options": [
+    "\"Keep your child away from the funeral to avoid upsetting them.\"",
+    "\"Say that Grandma went on a long trip so your child isn't scared.\"",
+    "\"Use the word 'died' and explain simply that her body stopped working and she can't come back.\"",
+    "\"Tell your child that Grandma went to sleep and won't wake up.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Children can attend if prepared and supported; excluding them may increase confusion and isolation.",
+    "This false explanation leaves the child waiting for a return and can damage trust.",
+    "Correct. Preschoolers often see death as temporary; simple, concrete, honest words help them understand that death is permanent.",
+    "Linking death to sleep can cause fear of going to sleep."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 58-year-old client's same-sex partner of 20 years died last month. The partner's family did not include the client in planning the funeral. The client tells the nurse, \"It's like I'm not even allowed to grieve.\" Which response by the nurse is best?",
+   "takeaway": "Disenfranchised grief needs acknowledgment: validate the loss and invite the client to talk about the person who died.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"Next time, make sure you have legal papers in place.\"",
+    "\"Your loss is real, and your grief matters. Tell me about your partner.\"",
+    "\"Give his family some time. They are grieving too.\"",
+    "\"At least you have friends who can support you.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "This is advice that implies blame and ignores the client's current grief.",
+    "Correct. The client is experiencing disenfranchised grief; acknowledging the loss and inviting the client to talk about the partner validates the grief.",
+    "This shifts the focus to the family and dismisses the client's feelings.",
+    "\"At least\" statements minimize the loss."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 41-year-old client comes to a crisis clinic 3 days after her spouse unexpectedly asked for a divorce. She has not slept or eaten much and says, \"I can't function.\" Which goal is most appropriate for crisis intervention?",
+   "takeaway": "The goal of crisis intervention is a return to at least the pre-crisis level of functioning.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "The client will gain insight into conflicts from her childhood.",
+    "The client will no longer feel any anxiety about the divorce.",
+    "The client will complete a year of weekly psychotherapy.",
+    "The client will return to her previous level of functioning."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Exploring childhood conflicts is a goal of long-term therapy, not crisis intervention.",
+    "Some anxiety about a major loss is expected; eliminating it is unrealistic.",
+    "Crisis intervention is brief, usually lasting a few weeks; long-term therapy may follow but is not the crisis goal.",
+    "Correct. Crisis intervention is short-term and focuses on restoring the client to at least the pre-crisis level of functioning."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is orienting a new staff member to milieu therapy on an inpatient psychiatric unit. Which features describe a therapeutic milieu? Select all that apply.",
+   "takeaway": "A therapeutic milieu is safe, structured and consistent, and gives clients a role and responsibility.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "A consistent, structured daily schedule",
+    "Community meetings where clients help set unit expectations",
+    "Staff make all decisions for clients without their input",
+    "An environment kept free of items that could cause harm",
+    "Clients are expected to take responsibility for their own behavior",
+    "Each staff member enforces their own set of rules"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Structure and predictability reduce anxiety and support daily functioning.",
+    "Correct. Client participation in community meetings builds social skills and shared responsibility.",
+    "Excluding clients from decisions undermines autonomy, a key goal of the milieu.",
+    "Correct. Physical safety is a basic element of the therapeutic environment.",
+    "Correct. The milieu encourages accountability and practicing new behaviors.",
+    "Inconsistent rules allow manipulation and increase anxiety; limits must be consistent across staff."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with major depressive disorder has refused to attend any group sessions for 3 days and stays in bed. Which action by the nurse is best?",
+   "takeaway": "With depression, offer concrete support to engage in activities rather than waiting for motivation to return.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Say, \"I'll walk with you to group and sit with you for the first part.\"",
+    "Tell the client that privileges will be lost if groups are missed.",
+    "Let the client rest until the client feels ready to attend.",
+    "Ask the client, \"Why don't you like going to group?\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Clients with depression have low energy and motivation; gentle, structured encouragement with the nurse's support helps them engage.",
+    "Threats are punitive and increase hopelessness.",
+    "Allowing ongoing withdrawal reinforces isolation and inactivity.",
+    "A \"why\" question requires the client to justify the behavior and may not lead to participation."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 24-year-old client with borderline personality disorder is in dialectical behavior therapy (DBT). Which statement by the client indicates progress?",
+   "takeaway": "In DBT, progress means using skills such as distress tolerance in place of self-harm.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"I didn't cut, but I took a few extra sleeping pills to calm down.\"",
+    "\"I stopped using my skills because I felt fine this week.\"",
+    "\"When I wanted to cut last night, I held ice cubes and used my distress tolerance skills instead.\"",
+    "\"My therapist is the only person who really understands me.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Substituting misuse of medication is another unsafe coping behavior.",
+    "DBT skills are meant to be practiced regularly, not only during a crisis.",
+    "Correct. Replacing self-harm with a distress tolerance skill is a central DBT goal.",
+    "Idealizing one person reflects splitting, a pattern DBT aims to reduce."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with paranoid personality disorder watches the staff closely and asks why the nurse is writing things down. Which approach by the nurse is best?",
+   "takeaway": "With suspicious clients, be direct, honest, businesslike and consistent; avoid touch, humor and whispering.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Discuss the client's behavior quietly with other staff near the client.",
+    "Explain clearly and honestly what is being done and why, and keep all promises.",
+    "Use humor to help the client relax and trust the staff.",
+    "Give the client a reassuring hug when the client seems tense."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Whispering near the client feeds suspicion and mistrust.",
+    "Correct. Clients with paranoid traits need a straightforward, honest, consistent approach; keeping commitments builds trust.",
+    "Humor can be misread as mockery by a suspicious client.",
+    "Unexpected touch can be perceived as threatening."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with dependent personality disorder asks the nurse every morning to decide which shirt to wear and which group to attend. Which response by the nurse is best?",
+   "takeaway": "For dependent personality traits, guide the client to make their own decisions rather than deciding for them.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"Wear the blue shirt and go to the art group.\"",
+    "\"I'm too busy to help with that today.\"",
+    "\"You need to learn to make decisions on your own.\"",
+    "\"What would you like to choose? Let's look at the options together.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Deciding for the client reinforces dependence.",
+    "Refusing abruptly can increase anxiety and feelings of rejection.",
+    "This is a lecture that does not help the client practice making decisions.",
+    "Correct. Supporting the client in making their own choices builds decision-making skills and self-confidence."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is teaching the family of a client with schizophrenia about early warning signs of relapse. Which changes should the family report? Select all that apply.",
+   "takeaway": "Teach families to watch for sleep changes, withdrawal, suspiciousness and missed medication as early relapse signs.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Sleeping much less than usual",
+    "Withdrawing from friends and family",
+    "Going to work every day as scheduled",
+    "Becoming more suspicious of others",
+    "Skipping doses of medication",
+    "Following a regular bedtime routine"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Sleep disturbance is a common early sign of relapse.",
+    "Correct. New social withdrawal can signal returning symptoms.",
+    "Keeping a regular work schedule reflects stable functioning.",
+    "Correct. Rising suspiciousness can be an early sign of returning psychosis.",
+    "Correct. Nonadherence is a leading cause of relapse.",
+    "A regular sleep routine is a healthy, stable behavior."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with illness anxiety disorder calls the clinic several times a week with new concerns about having cancer. Diagnostic tests have been normal. Which approach by the nurse is best?",
+   "takeaway": "In illness anxiety, assess new symptoms briefly, then shift the focus to feelings and use scheduled contacts.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Briefly assess each new symptom, then schedule regular check-ins that focus on the client's feelings and stressors.",
+    "Tell the client the symptoms are imaginary and stop returning calls.",
+    "Arrange more diagnostic tests each time the client calls.",
+    "Tell the client to go to the emergency department for every concern."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. New physical complaints still need a brief assessment, while scheduled contacts and a focus on feelings reduce reassurance-seeking.",
+    "The client's distress is real; dismissing it damages trust and could miss a new problem.",
+    "Repeated testing reinforces the focus on illness; ordering tests is not a nursing decision.",
+    "This reinforces illness behavior and uses emergency care unnecessarily."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A 30-year-old client suddenly could not move her legs after witnessing a serious car crash. Neurologic tests show no structural cause, and she seems calm about the weakness. A diagnosis of functional neurological symptom (conversion) disorder is made. Which nursing approach is best?",
+   "takeaway": "Conversion symptoms are real and involuntary: avoid focusing on the symptom and help the client express feelings about the stressor.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Keep the client on bed rest until the weakness resolves.",
+    "Insist that the client walk to prove she is able to.",
+    "Focus on the client's feelings about the stressful event rather than on the leg weakness.",
+    "Tell the client there is nothing physically wrong with her legs."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Bed rest promotes deconditioning; activity is encouraged within the treatment plan.",
+    "Confrontation increases anxiety and is not therapeutic.",
+    "Correct. The symptom is real and not under voluntary control; helping the client express feelings about the stressor addresses the underlying anxiety.",
+    "Telling the client nothing is wrong is dismissive and inaccurate; the symptoms are genuine."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with major depressive disorder has been in the hospital for 2 weeks. Which findings indicate improvement? Select all that apply.",
+   "takeaway": "Depression is improving when self-care, appetite, social participation and future plans return.",
+   "refs": [
+    "openstax-psych",
+    "lifeline-988"
+   ],
+   "options": [
+    "Showers and dresses without prompting",
+    "Eats most of each meal",
+    "Sleeps 14 hours a day",
+    "Attends two group sessions a day",
+    "Talks about plans to visit a sister next weekend",
+    "Gave away a favorite watch to another client"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Independent self-care shows returning energy and motivation.",
+    "Correct. Improved appetite is a sign of recovery.",
+    "Hypersomnia is a symptom of depression, not improvement.",
+    "Correct. Participating in groups shows less withdrawal.",
+    "Correct. Making future plans reflects returning hope.",
+    "Giving away belongings is a warning sign of suicide risk that needs immediate assessment."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A 34-year-old veteran is being screened in a primary care clinic. Which findings are consistent with posttraumatic stress disorder (PTSD)? Select all that apply.",
+   "takeaway": "PTSD symptoms cluster as intrusion, avoidance, negative mood and thinking, and hyperarousal.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Unwanted, intrusive memories of the event",
+    "Avoiding places and people that bring back the event",
+    "Grandiose belief of having special powers",
+    "Being easily startled and always on guard",
+    "Feeling emotionally numb and detached from others",
+    "Racing thoughts with little need for sleep"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Intrusion symptoms such as memories, nightmares and flashbacks are core PTSD features.",
+    "Correct. Avoidance of reminders is a core symptom cluster.",
+    "Grandiosity suggests mania or psychosis, not PTSD.",
+    "Correct. Hypervigilance and an exaggerated startle response reflect hyperarousal.",
+    "Correct. Negative changes in mood and feeling detached are part of PTSD.",
+    "Racing thoughts with little need for sleep suggest mania."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with depression and low self-esteem shows the nurse a drawing completed in art group and says, \"It's not very good.\" Which response by the nurse is best?",
+   "takeaway": "Build self-esteem with genuine, specific feedback about real accomplishments, not exaggerated praise.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"Why do you think it isn't good?\"",
+    "\"You chose bright colors and finished the whole drawing today.\"",
+    "\"That's the best drawing I've ever seen.\"",
+    "\"You should enter it in an art show.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "A \"why\" question invites more negative self-talk.",
+    "Correct. Specific, honest feedback about real accomplishments supports self-esteem.",
+    "Exaggerated praise feels insincere and is hard for a client with low self-esteem to believe.",
+    "This sets an expectation the client may feel unable to meet."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse on an inpatient psychiatric unit is observing a client who was upset during a family visit. Which behaviors are early cues that the client may be escalating toward aggression? Select all that apply.",
+   "takeaway": "Early escalation cues include pacing, clenched fists, a rising voice and staring; intervene early with de-escalation.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Pacing in the hallway",
+    "Clenching the fists",
+    "Sitting quietly reading a magazine",
+    "Speaking in a louder voice",
+    "Staring intently at a staff member",
+    "Laughing with peers during a game"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Increased motor activity such as pacing is an early sign of rising agitation.",
+    "Correct. Clenched fists signal anger and possible escalation.",
+    "Quiet reading suggests the client is calm.",
+    "Correct. A raised voice is a common verbal cue of escalation.",
+    "Correct. A prolonged, intense stare can signal hostility.",
+    "Relaxed social interaction does not suggest escalation."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "order",
+   "stem": "During a routine clinic visit, a 45-year-old client tells the nurse, \"I've been thinking about ending my life.\" Place the nurse's actions in the order they should be performed.",
+   "takeaway": "When a client discloses suicidal thoughts, stay with them, assess plan and means, get the provider involved, decide next steps, then document.",
+   "refs": [
+    "openstax-psych",
+    "lifeline-988"
+   ],
+   "options": [
+    "Work with the provider and client on next steps, such as an emergency evaluation or a safety plan with crisis resources like 988",
+    "Stay with the client and ask directly about a plan, intent and access to means",
+    "Document the client's statements, the risk assessment and the actions taken",
+    "Notify the provider of the findings while another staff member stays with the client"
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Third: the disposition depends on the risk level and is decided collaboratively with the client.",
+    "First: the nurse must not leave the client alone and needs to know the plan, intent and means to judge the level of risk.",
+    "Last: documentation records the assessment and interventions after the client's safety has been addressed.",
+    "Second: the provider needs the assessment findings to complete a full risk evaluation; the client is not left alone."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "A client with adjustment disorder feels overwhelmed by unpaid bills after losing a job. The nurse is teaching the client a structured problem-solving approach. Place the steps in the order the client should use them.",
+   "takeaway": "Structured problem solving: define the problem, brainstorm options, weigh them, act, then evaluate the result.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Choose the option that seems most workable and try it",
+    "Define the problem in specific terms, such as \"I owe $600 on my electric bill.\"",
+    "Review the result and decide whether to keep the plan or try another option",
+    "List several possible solutions without judging them yet",
+    "Weigh the pros and cons of each possible solution"
+   ],
+   "correct": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "rationales": [
+    "Fourth: after weighing options, the client picks one and puts it into action.",
+    "First: a specific, concrete problem statement makes an overwhelming situation manageable and guides the rest of the process.",
+    "Last: evaluating the result shows whether the problem is solved or another option is needed.",
+    "Second: brainstorming without judging produces more options and reduces the feeling of being stuck.",
+    "Third: weighing the pros and cons helps the client choose the most realistic option."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 26-year-old client who was just diagnosed with bipolar I disorder says, \"I'll never have a normal life now.\" Which response by the nurse is best?",
+   "takeaway": "Respond to distress about a new psychiatric diagnosis by acknowledging feelings and exploring specific concerns.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "\"Don't think that way. You'll be fine.\"",
+    "\"As long as you take your lithium, nothing will change.\"",
+    "\"Everyone has problems to deal with.\"",
+    "\"This diagnosis feels overwhelming. What worries you most about the future?\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "False reassurance dismisses the client's concerns.",
+    "This oversimplifies a chronic illness and makes a promise the nurse can't keep.",
+    "This minimizes the client's distress.",
+    "Correct. Acknowledging the feeling and exploring specific worries opens discussion and allows the nurse to support realistic hope."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client who takes lithium for bipolar disorder comes to the clinic with vomiting, diarrhea, a coarse hand tremor and slurred speech. The serum lithium level drawn this morning is 2.1 mEq/L. Which action should the nurse take first?",
+   "takeaway": "Lithium toxicity (GI upset, coarse tremor, confusion, level above about 1.5 mEq/L): hold the dose and notify the provider.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Hold the next lithium dose and notify the provider immediately",
+    "Give the next dose with food to reduce stomach upset",
+    "Encourage the client to drink a sports drink and recheck the level next week",
+    "Teach the client to reduce salt intake to lower the lithium level"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A level above about 1.5 mEq/L with GI symptoms, coarse tremor and neurologic changes indicates lithium toxicity; the drug must be held and the provider notified for urgent treatment.",
+    "Giving more lithium worsens toxicity.",
+    "Toxicity with neurologic signs needs urgent evaluation, not delayed follow-up.",
+    "Lowering sodium intake increases lithium reabsorption and raises the level further."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is teaching a client who is starting lithium therapy. Which instructions should the nurse include? Select all that apply.",
+   "takeaway": "Lithium safety: steady sodium, 2-3 L fluid daily, avoid NSAIDs, report fluid loss and draw trough levels.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Keep your salt intake consistent from day to day",
+    "Drink about 2 to 3 liters of fluid a day",
+    "Use ibuprofen when you need something for pain",
+    "Call your provider if you have vomiting, diarrhea or heavy sweating",
+    "Follow a low-sodium diet to prevent fluid retention",
+    "Have blood drawn for lithium levels about 12 hours after your last dose"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Lithium and sodium are handled the same way by the kidneys; changes in sodium intake change lithium levels.",
+    "Correct. Adequate fluid intake helps prevent dehydration, which raises lithium levels.",
+    "NSAIDs such as ibuprofen reduce lithium clearance and can cause toxicity.",
+    "Correct. Fluid and sodium loss from vomiting, diarrhea or sweating can quickly raise lithium levels.",
+    "Sodium restriction causes the kidneys to retain lithium, leading to toxicity.",
+    "Correct. Trough levels are drawn about 12 hours after the last dose for accurate monitoring."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A 38-year-old client has taken clozapine for 6 months. The client tells the nurse, \"I haven't had a bowel movement in 4 days, and my stomach feels swollen.\" The abdomen is distended. Which action by the nurse is best?",
+   "takeaway": "Clozapine can cause severe gastrointestinal hypomotility; report constipation with distension promptly.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Advise the client to add more fiber and recheck in 2 days",
+    "Hold the client's fluids until bowel sounds return",
+    "Report the findings to the provider promptly",
+    "Reassure the client that constipation is a common side effect"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Delaying evaluation risks progression to obstruction; fiber alone without adequate fluids may also worsen it.",
+    "Withholding fluids worsens constipation and is not indicated.",
+    "Correct. Clozapine can slow gut motility enough to cause ileus or bowel obstruction, which can be fatal; constipation with distension needs prompt evaluation.",
+    "Constipation is common, but distension after 4 days may signal serious hypomotility and should not be dismissed."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A client with schizophrenia started oral haloperidol 1 week ago. For each finding, indicate whether it is expected or requires follow-up.",
+   "takeaway": "Dry mouth and mild sedation are expected with antipsychotics; fever with rigidity, dystonia and akathisia need follow-up.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "rows": [
+    "Dry mouth",
+    "Mild drowsiness during the day",
+    "Temperature of 39.4°C (103°F) with stiff muscles",
+    "Eyes fixed in an upward gaze",
+    "Restlessness and inability to sit still"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "rationales": [
+    "Expected: dry mouth is a common, mild side effect and is managed with sips of water or sugar-free gum.",
+    "Expected: sedation is common early in therapy; the client is taught to avoid driving until the effect is known.",
+    "Requires follow-up: fever with rigidity suggests neuroleptic malignant syndrome, a medical emergency.",
+    "Requires follow-up: an oculogyric crisis is an acute dystonic reaction that needs prompt treatment, such as an anticholinergic.",
+    "Requires follow-up: akathisia is distressing, raises the risk of nonadherence and needs treatment."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "matrix",
+   "stem": "The nurse is reviewing features of two drug-related emergencies seen in psychiatric clients. For each finding, indicate whether it is more typical of serotonin syndrome or neuroleptic malignant syndrome (NMS).",
+   "takeaway": "Serotonin syndrome is rapid with clonus and hyperreflexia; NMS is slower with lead-pipe rigidity after antipsychotics.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "rows": [
+    "Starts within hours of adding a second serotonergic drug",
+    "Severe \"lead-pipe\" rigidity throughout the body",
+    "Hyperreflexia and clonus, most marked in the legs",
+    "Develops over several days after an antipsychotic is started or increased"
+   ],
+   "columns": [
+    "Serotonin syndrome",
+    "Neuroleptic malignant syndrome"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Serotonin syndrome: onset is rapid, usually within 24 hours of starting or combining serotonergic drugs.",
+    "NMS: generalized lead-pipe rigidity is a hallmark of NMS.",
+    "Serotonin syndrome: neuromuscular hyperactivity (hyperreflexia, clonus) is characteristic, whereas NMS causes slowed, rigid movement.",
+    "NMS: it usually develops over days after starting or raising an antipsychotic (dopamine blocker)."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-046",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A 46-year-old client is prescribed lorazepam for short-term management of severe anxiety. Which instructions should the nurse include? Select all that apply.",
+   "takeaway": "Benzodiazepine safety: no alcohol or opioids, no driving until effects are known, fall precautions and no abrupt stopping.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Avoid drinking alcohol while taking this medication",
+    "Do not stop taking the drug suddenly",
+    "Take an extra dose whenever you feel anxious",
+    "Avoid driving until you know how the drug affects you",
+    "It is safe to take with an opioid cough syrup",
+    "Get up slowly to reduce the risk of falls"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Alcohol adds to central nervous system and respiratory depression.",
+    "Correct. Abrupt withdrawal after regular use can cause rebound anxiety and seizures; the drug is tapered.",
+    "Taking extra doses risks oversedation and dependence; doses follow the prescription.",
+    "Correct. Drowsiness and slowed reactions impair driving.",
+    "Benzodiazepines with opioids carry a boxed warning for profound sedation, respiratory depression and death.",
+    "Correct. Sedation and dizziness increase fall risk, especially in older adults."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-047",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client who started phenelzine for depression lists foods they plan to eat this week. Which choices indicate a need for further teaching? Select all that apply.",
+   "takeaway": "With MAOIs, avoid aged, cured, fermented and tap-brewed foods high in tyramine to prevent hypertensive crisis.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Aged cheddar cheese",
+    "Salami and other cured meats",
+    "Fresh baked chicken",
+    "Soy sauce",
+    "Cottage cheese",
+    "Tap (draft) beer"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Aged cheeses are high in tyramine, which can trigger a hypertensive crisis with an MAOI; this choice needs more teaching.",
+    "Correct. Cured and fermented meats such as salami are high in tyramine.",
+    "Fresh meat and poultry are low in tyramine and are a safe choice when eaten fresh.",
+    "Correct. Soy sauce and other fermented soy products are high in tyramine.",
+    "Fresh, unaged cheeses such as cottage cheese are low in tyramine and are a safe choice.",
+    "Correct. Tap (draft) and unpasteurized beers can contain large amounts of tyramine."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-048",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client in alcohol withdrawal has a prescription for lorazepam by symptom-triggered protocol: give a dose for a CIWA-Ar score of 10 or higher and reassess 1 hour after each dose. The client's score is now 16, with tremor, sweating and anxiety. Which action should the nurse take?",
+   "takeaway": "In symptom-triggered alcohol withdrawal care, score the CIWA-Ar, give a benzodiazepine at the threshold and reassess.",
+   "refs": [
+    "openstax-pharm",
+    "samhsa"
+   ],
+   "options": [
+    "Apply wrist restraints to prevent injury from tremors",
+    "Give lorazepam per protocol and reassess the CIWA-Ar score in 1 hour",
+    "Wait until the score reaches 20 before giving a dose",
+    "Request a prescription for haloperidol to treat the withdrawal"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Tremor is not an indication for restraints, which can increase agitation and injury.",
+    "Correct. The score is above the protocol threshold, so the nurse gives the benzodiazepine and reassesses as the protocol directs.",
+    "Delaying treatment allows withdrawal to progress toward seizures or delirium tremens.",
+    "Antipsychotics do not treat alcohol withdrawal and can lower the seizure threshold; benzodiazepines are first-line."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-049",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "A client with tobacco use disorder is starting a 21-mg nicotine patch. Place the steps the nurse teaches for daily patch application in the correct order.",
+   "takeaway": "Nicotine patch: remove the old patch first, rotate to clean hairless skin, press firmly, then wash hands.",
+   "refs": [
+    "dailymed",
+    "samhsa"
+   ],
+   "options": [
+    "Peel off the protective liner and press the patch firmly in place with the palm for about 10 seconds",
+    "Remove yesterday's patch and fold the sticky sides together before discarding it",
+    "Wash hands after handling the patch",
+    "Choose a clean, dry, hairless area of skin that is different from yesterday's site"
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Third: firm pressure seals the edges so the patch stays on and delivers a steady dose.",
+    "First: removing the old patch before applying a new one prevents a double dose of nicotine, and folding it keeps leftover nicotine away from children and pets.",
+    "Last: washing removes nicotine left on the fingers, which can irritate the eyes and nose.",
+    "Second: rotating to clean, dry, hairless skin improves adhesion and limits skin irritation."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-050",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse is teaching a client with opioid use disorder who is starting oral naltrexone. Which statement by the client indicates understanding?",
+   "takeaway": "Naltrexone requires an opioid-free period first, blocks opioid analgesia and raises overdose risk if opioids are used to override it.",
+   "refs": [
+    "openstax-pharm",
+    "samhsa"
+   ],
+   "options": [
+    "\"I can start this the day after my last dose of oxycodone.\"",
+    "\"This medicine will make me very sick if I drink alcohol.\"",
+    "\"I can still use a small amount of heroin because this drug blocks it.\"",
+    "\"I'll tell any provider that I take this, because opioid pain medicine may not work for me.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "The client must be opioid-free for about 7 to 10 days first to avoid precipitated withdrawal.",
+    "This describes disulfiram; naltrexone does not cause a reaction with alcohol.",
+    "Trying to overcome the blockade with large doses can cause fatal overdose, and tolerance is lost after stopping.",
+    "Correct. Naltrexone blocks opioid receptors, so opioid analgesics may not relieve pain; clients should carry identification and tell all providers."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-051",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is visiting the home of a client with moderate Alzheimer's disease who lives with her spouse. Which safety measures should the nurse recommend? Select all that apply.",
+   "takeaway": "Home safety in moderate dementia: door alarms, ID, locked medications and firearms, a disabled stove, no driving and no anticholinergic sleep aids.",
+   "refs": [
+    "openstax-psych",
+    "ags-beers"
+   ],
+   "options": [
+    "Install alarms or chimes on the doors that lead outside",
+    "Let her keep driving as long as she stays on familiar roads",
+    "Lock up medications, cleaning products and any firearms",
+    "Enroll her in a wandering-response program and have her wear an ID bracelet",
+    "Give her diphenhydramine at bedtime so she sleeps through the night",
+    "Remove the stove knobs or shut off the stove when it is not in use"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Door alarms alert the spouse when the client tries to leave, which lowers the risk of wandering and getting lost.",
+    "Moderate dementia impairs judgment, attention and reaction time, so driving is unsafe even on familiar roads.",
+    "Correct. Locking up medications, chemicals and firearms prevents accidental poisoning and injury.",
+    "Correct. Identification and a wandering-response program help responders return the client home quickly if she wanders.",
+    "Diphenhydramine is strongly anticholinergic and can worsen confusion and raise fall risk in older adults (AGS Beers Criteria).",
+    "Correct. Disabling the stove prevents burns and fires from a forgotten burner."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-052",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "The parent of a 15-year-old who is being discharged after a suicide attempt tells the nurse, \"We keep a handgun in a locked drawer in our bedroom.\" Which recommendation by the nurse is best?",
+   "takeaway": "After a suicide attempt, counsel families to remove firearms from the home and lock up medications.",
+   "refs": [
+    "openstax-psych",
+    "lifeline-988"
+   ],
+   "options": [
+    "\"The safest option is to store the gun outside your home for now, such as with a relative or at a secure storage site.\"",
+    "\"A locked drawer is safe enough as long as your teen doesn't know where the key is.\"",
+    "\"Unload the gun and keep the ammunition in the same drawer.\"",
+    "\"Talk with your teen about gun safety rules before discharge.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Removing firearms from the home is the most effective way to reduce access to lethal means after a suicide attempt.",
+    "Teens often know where keys are kept; locked storage at home is less protective than removal.",
+    "Keeping ammunition with the gun provides little protection.",
+    "Teaching rules does not remove access during a period of high risk."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-053",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client on constant one-to-one observation for suicide risk asks to use the bathroom alone with the door closed. Which action by the nurse is best?",
+   "takeaway": "Constant observation continues during toileting and hygiene; protect dignity without breaking observation.",
+   "refs": [
+    "openstax-psych",
+    "tjc-npsg"
+   ],
+   "options": [
+    "Allow the client to close the door and check back in 5 minutes",
+    "Have the client use a bedside commode in the dayroom where staff can see",
+    "Tell the client that bathroom use must wait until observation is lowered",
+    "Stay with the client, keeping the client in view, and offer as much privacy as safety allows"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A client on one-to-one observation cannot be left unobserved; bathrooms are a common place for self-harm, including hanging.",
+    "Toileting in a common area violates dignity; observation can be kept up in the bathroom itself.",
+    "Delaying toileting is unsafe and punitive; basic needs must still be met.",
+    "Correct. Constant observation continues during toileting; the nurse protects dignity, for example with a staff member of the client's preferred gender and a partly open door, without losing sight of the client."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-054",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse needs to talk with an angry client who is standing in the client's room. Where should the nurse stand?",
+   "takeaway": "With an angry client, stand at an angle at a safe distance and keep a clear exit for both of you.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Between the client and the bed, with the door closed for privacy",
+    "Behind the client so the client does not feel confronted",
+    "Slightly to the side, about two arm's lengths away, with a clear path to the door",
+    "Directly in front of the client, close enough to touch the client's arm"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Closing the door traps the nurse and can increase the client's agitation.",
+    "Approaching from behind can startle a client and seem threatening.",
+    "Correct. An angled stance at a safe distance is less threatening and lets both the nurse and client avoid feeling trapped.",
+    "Standing close and face-to-face can feel confrontational and puts the nurse within reach."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-055",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with depression returns to the inpatient unit after a 4-hour pass with family and carries a shopping bag. Which action should the nurse take first?",
+   "takeaway": "Check belongings after passes and visits so that items that could cause harm do not reach the unit.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Document that the client returned on time",
+    "Inspect the bag and the client's belongings for items such as medications, sharps and cords",
+    "Allow the client to take the bag to the room to unpack",
+    "Ask the family whether they bought anything unsafe"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Documentation is needed, but checking for unsafe items comes first.",
+    "Correct. Searching belongings according to unit policy prevents unsafe items from entering the unit.",
+    "Letting the client unpack first could allow contraband onto the unit.",
+    "Family members may not recognize which items are unsafe; the nurse checks directly."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-056",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client in an acute manic episode has slept about 2 hours in the past 3 nights, has lost 3 kg (6.6 lb), and dances in the hallway for hours. Which concern is the nurse's priority?",
+   "takeaway": "In acute mania, physical safety comes first: exhaustion, poor nutrition and injury risk outrank psychosocial concerns.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Disturbed self-esteem related to grandiose thinking",
+    "Impaired social interaction related to intrusive behavior",
+    "Lack of knowledge about the bipolar disorder diagnosis",
+    "Risk for injury related to exhaustion and inadequate rest"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Self-esteem is important but is not an immediate physical threat.",
+    "Social problems matter but are less urgent than physical exhaustion.",
+    "The client cannot learn effectively during acute mania; teaching comes later.",
+    "Correct. Severe hyperactivity with little sleep and food can lead to exhaustion, dehydration and cardiovascular collapse; physical safety is the priority."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-057",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An 80-year-old client with Alzheimer's disease in a memory care unit tries to open the exit doors every afternoon. Which intervention is most appropriate?",
+   "takeaway": "Manage wandering with supervised walking, safe spaces and alarms rather than restraints or sedation.",
+   "refs": [
+    "openstax-psych"
+   ],
+   "options": [
+    "Provide supervised walks in a safe, enclosed area and use door alarms",
+    "Use a lap belt to keep the client in a chair during the afternoon",
+    "Give a PRN sedative every afternoon before the client becomes restless",
+    "Lock the client in their room until evening"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Safe outlets for walking plus environmental safeguards meet the need to move while preventing elopement.",
+    "A lap belt is a physical restraint that increases agitation and injury risk.",
+    "Routine sedation is a chemical restraint and raises fall risk.",
+    "Locking a client in a room is seclusion and is not appropriate for wandering."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-058",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is planning care to prevent delirium in a 79-year-old client admitted for pneumonia. Which interventions should the nurse include? Select all that apply.",
+   "takeaway": "Prevent delirium in older adults with sensory aids, reorientation, day-night cues and early mobility; avoid restraints and anticholinergics.",
+   "refs": [
+    "openstax-psych",
+    "openstax-medsurg"
+   ],
+   "options": [
+    "Make sure the client wears glasses and hearing aids",
+    "Reorient the client often and encourage family visits",
+    "Apply wrist restraints if the client seems confused",
+    "Keep lights on during the day and dim them at night",
+    "Help the client get out of bed and walk as soon as possible",
+    "Give diphenhydramine at bedtime to help the client sleep"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Correcting sensory deficits helps the client interpret surroundings accurately.",
+    "Correct. Frequent reorientation and familiar people reduce confusion.",
+    "Restraints increase the risk of delirium, agitation and injury.",
+    "Correct. Supporting a normal day-night cycle promotes sleep and orientation.",
+    "Correct. Early mobility reduces delirium and deconditioning.",
+    "Anticholinergic drugs such as diphenhydramine can cause or worsen delirium in older adults."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-059",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client who voluntarily admitted herself to a psychiatric unit 4 days ago gives the nurse a written request to be discharged. Which action by the nurse is appropriate?",
+   "takeaway": "A voluntary client may request discharge; notify the provider promptly so the client can be evaluated.",
+   "refs": [
+    "openstax-psych",
+    "ana-ethics"
+   ],
+   "options": [
+    "Have the client sign an against-medical-advice form and walk her out",
+    "Change the client's status to involuntary admission",
+    "Notify the provider of the request so the client can be evaluated within the time frame set by state law and facility policy",
+    "Tell the client she cannot leave until the treatment team agrees"
+   ],
+   "correct": 2,
+   "rationales": [
+    "The provider must be notified so the client can be evaluated for safety before discharge.",
+    "Only an authorized provider or court can begin involuntary commitment, and only if legal criteria are met.",
+    "Correct. A voluntary client may request discharge; the provider evaluates the client, and the client is released unless criteria for an involuntary hold are met.",
+    "Holding a voluntary client without legal grounds can be false imprisonment."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-060",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A nursing student asks about the rights of a client who is admitted involuntarily to a psychiatric hospital. Which statements by the nurse are accurate? Select all that apply.",
+   "takeaway": "Involuntary admission does not remove civil rights or legal competence; clients keep rights to counsel, refusal and privacy.",
+   "refs": [
+    "openstax-psych",
+    "ana-ethics"
+   ],
+   "options": [
+    "\"The client can communicate with an attorney.\"",
+    "\"The client generally keeps the right to refuse medication, except in an emergency or under a court order.\"",
+    "\"The client is now legally unable to manage money or sign contracts.\"",
+    "\"The client has the right to the least restrictive treatment setting.\"",
+    "\"Staff may read the client's mail whenever they choose.\"",
+    "\"The client's health information remains confidential.\""
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Clients who are committed keep the right to legal counsel.",
+    "Correct. In general, an involuntarily admitted client keeps the right to refuse treatment unless there is an emergency or a court order; the exact procedure varies by state.",
+    "Commitment does not mean the client is legally incompetent; that requires a separate legal process.",
+    "Correct. Care must be given in the least restrictive setting that keeps the client safe.",
+    "Clients keep the right to private communication; any limit requires documented reasons.",
+    "Correct. Confidentiality protections apply to all clients."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-061",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The RN on an inpatient psychiatric unit is making assignments. Which task is appropriate to assign to a trained mental health technician?",
+   "takeaway": "Delegate routine observation checks; keep assessment, teaching and evaluation with the RN.",
+   "refs": [
+    "openstax-psych",
+    "ncsbn-delegation"
+   ],
+   "options": [
+    "Evaluating whether a client in seclusion is ready to be released",
+    "Performing 15-minute observation checks on a client on precautions and recording the client's location",
+    "Assessing a client's response to a newly started antidepressant",
+    "Teaching a client coping skills for managing anger"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Deciding whether to end seclusion requires assessment and clinical judgment.",
+    "Correct. Routine observation and recording is a defined task that trained assistive staff can perform and report.",
+    "Assessing medication response requires RN judgment.",
+    "Teaching is an RN responsibility."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-062",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with bipolar disorder is admitted during a manic episode. The client has a psychiatric advance directive that names a health care agent and states a preference for one medication over another during a crisis. Which action by the nurse is appropriate?",
+   "takeaway": "Psychiatric advance directives communicate a client's treatment preferences for a crisis and should be shared with the team.",
+   "refs": [
+    "openstax-psych",
+    "ana-ethics"
+   ],
+   "options": [
+    "Disregard the directive because the client was ill when it was written",
+    "Ask the client to cancel the directive now so treatment is not delayed",
+    "Follow the directive only if the client's family agrees with it",
+    "Make sure the directive is in the record and share the client's preferences with the treatment team"
+   ],
+   "correct": 3,
+   "rationales": [
+    "There is no reason to assume the client lacked capacity when the directive was created.",
+    "Pressuring a client in acute mania to cancel a directive is inappropriate.",
+    "The client's own written preferences and named agent take priority over family opinion.",
+    "Correct. A psychiatric advance directive records the client's treatment preferences, made when the client had capacity, and should guide care as state law allows."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-063",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with schizophrenia is being discharged after a 2-week hospital stay. Which action by the nurse is most likely to reduce the risk of readmission?",
+   "takeaway": "Arrange timely outpatient follow-up with practical supports before psychiatric discharge to support continuity of care.",
+   "refs": [
+    "openstax-psych",
+    "samhsa"
+   ],
+   "options": [
+    "Schedule an outpatient appointment within 7 days of discharge and confirm the client has transportation",
+    "Give the client a list of community clinics to call after discharge",
+    "Tell the client to return to the emergency department if symptoms come back",
+    "Provide a 30-day supply of medication without a follow-up plan"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Arranging timely follow-up and removing barriers such as transportation supports continuity of care.",
+    "A list leaves the burden of setting up care on the client, who may not follow through.",
+    "Relying on emergency care does not provide continuous treatment.",
+    "Medication alone without follow-up does not provide monitoring or support."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-064",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "The nurse on a withdrawal management unit receives report on four clients. Which client should the nurse see first?",
+   "takeaway": "Alcohol withdrawal delirium is a medical emergency and takes priority over other withdrawal syndromes.",
+   "refs": [
+    "openstax-psych",
+    "samhsa"
+   ],
+   "options": [
+    "A client 2 days after stopping cocaine who has been sleeping most of the day",
+    "A client who stopped using cannabis 3 days ago who is irritable and having trouble sleeping",
+    "A client 60 hours after the last drink who is disoriented, picking at the air, with a heart rate of 128/min and a temperature of 38.6°C (101.5°F)",
+    "A client 10 hours after last using heroin who is yawning and has a runny nose and abdominal cramps"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Hypersomnia after stopping a stimulant is an expected crash; the client needs monitoring for depression but is not unstable.",
+    "Irritability and insomnia are expected in cannabis withdrawal and are not life-threatening.",
+    "Correct. Disorientation, hallucinations, tachycardia and fever 2 to 3 days after the last drink suggest alcohol withdrawal delirium, which can be fatal.",
+    "Opioid withdrawal is very uncomfortable but rarely life-threatening in healthy adults."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:mental-065",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Mental Health",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A caller who says she is the employer of a client on an inpatient substance use treatment unit asks the nurse whether the client has been admitted. The client has not signed a release of information. Which response by the nurse is correct?",
+   "takeaway": "Federal confidentiality rules for substance use disorder treatment (42 CFR Part 2) bar confirming or denying that a person is a client without written consent.",
+   "refs": [
+    "openstax-psych",
+    "samhsa"
+   ],
+   "options": [
+    "\"I can tell you the expected discharge date so you can plan the work schedule.\"",
+    "\"I'm not able to confirm or deny whether any person is a client here.\"",
+    "\"Yes, but I can't give you any details about the treatment.\"",
+    "\"Please hold, and I'll ask the client to come to the phone.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Sharing discharge information is a disclosure that requires the client's written consent.",
+    "Correct. Federal rules (42 CFR Part 2) protect the identity of people in substance use disorder treatment; without written consent, staff may not confirm or deny that a person is a client.",
+    "Even confirming admission discloses protected information.",
+    "Bringing the client to the phone also confirms the client is there."
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

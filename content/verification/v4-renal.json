@@ -1,0 +1,59 @@
+{
+ "file": "content/nclex/v4/renal.json",
+ "reviewed": 25,
+ "ok": 15,
+ "fixed": 6,
+ "rewritten": 4,
+ "items": [
+  {
+   "id": "rnr:renal-001",
+   "status": "fixed",
+   "note": "Thrill and bruit rows both tested the fistula-patency fact already in nb:nb-renal-02 and gu-overview-q8. Replaced the bruit row with an expected post-dialysis potassium change; updated takeaway."
+  },
+  {
+   "id": "rnr:renal-003",
+   "status": "fixed",
+   "note": "At eGFR 38, IV prophylactic hydration is individualized under the ACR-NKF 2020 consensus (routinely indicated below 30), so a debated point decided a keyed option. Changed the eGFR to 26 and stated the threshold in the rationale."
+  },
+  {
+   "id": "rnr:renal-006",
+   "status": "fixed",
+   "note": "Keyed option was much the longest (giveaway). Shortened; rationale unchanged."
+  },
+  {
+   "id": "rnr:renal-007",
+   "status": "fixed",
+   "note": "Distractor rationale said postoperative catheters are removed \"within 24 to 48 hours\"; CDC CAUTI guidance says as soon as possible, preferably within 24 hours. Corrected."
+  },
+  {
+   "id": "rnr:renal-014",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of gu-calculi-q8 (an obstructing kidney stone with fever is the priority among four stone clients). Rewrote as a renal-unit priority item: bleeding after percutaneous kidney biopsy vs expected findings of nephrotic syndrome, glomerulonephritis and the AKI diuretic phase; same id, type, key position and labels."
+  },
+  {
+   "id": "rnr:renal-016",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of nb:nb26-resp-015 (diphenhydramine anticholinergic effect causing retention in an older client with BPH). Rewrote as a bethanechol contraindication item (asthma); same id, type, key position and labels."
+  },
+  {
+   "id": "rnr:renal-018",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of rnr:fluids-026 (sevelamer is taken with meals, same \"bedtime on an empty stomach\" distractor). Rewrote as desmopressin teaching for nocturnal enuresis (fluid limits around the dose, hold during vomiting or diarrhea); same id, type, key position and labels."
+  },
+  {
+   "id": "rnr:renal-019",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of rnr:immuno-026 (tacrolimus and grapefruit juice). Rewrote on mycophenolate teaching (contraception for teratogenicity, antacid spacing, no live vaccines, report infection); same id, type, key position and labels."
+  },
+  {
+   "id": "rnr:renal-022",
+   "status": "fixed",
+   "note": "Keyed option said \"eat a moderate amount of protein\"; KDOQI 2020 recommends a supervised low-protein diet in CKD stages 3-5 not on dialysis. Reworded to limiting protein to the dietitian's prescribed amount."
+  },
+  {
+   "id": "rnr:renal-023",
+   "status": "fixed",
+   "note": "Keyed option was about twice as long as the distractors and was the only one with reassurance (giveaway). Shortened; the reassurance moved to the rationale."
+  }
+ ]
+}

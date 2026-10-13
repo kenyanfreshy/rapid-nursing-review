@@ -1,0 +1,118 @@
+{
+ "openstax-medsurg": [
+  "OpenStax. (2024). <i>Medical-surgical nursing</i>. Rice University.",
+  "https://openstax.org/details/books/medical-surgical-nursing"
+ ],
+ "openstax-pharm": [
+  "OpenStax. (2024). <i>Pharmacology for nurses</i>. Rice University.",
+  "https://openstax.org/details/books/pharmacology"
+ ],
+ "openstax-fund": [
+  "OpenStax. (2024). <i>Fundamentals of nursing</i>. Rice University.",
+  "https://openstax.org/details/books/fundamentals-nursing"
+ ],
+ "openstax-psych": [
+  "OpenStax. (2024). <i>Psychiatric-mental health nursing</i>. Rice University.",
+  "https://openstax.org/details/books/psychiatric-mental-health"
+ ],
+ "openstax-maternal": [
+  "OpenStax. (2024). <i>Maternal-newborn nursing</i>. Rice University.",
+  "https://openstax.org/details/books/maternal-newborn-nursing"
+ ],
+ "ncsbn-testplan": [
+  "National Council of State Boards of Nursing. (2025). <i>2026 NCLEX-RN test plan</i>.",
+  "https://www.nclex.com/test-plans.page"
+ ],
+ "ncsbn-delegation": [
+  "National Council of State Boards of Nursing & American Nurses Association. (2019). <i>National guidelines for nursing delegation</i>.",
+  "https://www.ncsbn.org"
+ ],
+ "ncsbn-boundaries": [
+  "National Council of State Boards of Nursing. (2018). <i>A nurse's guide to professional boundaries</i>.",
+  "https://www.ncsbn.org"
+ ],
+ "ana-ethics": [
+  "American Nurses Association. (2015). <i>Code of ethics for nurses with interpretive statements</i>.",
+  "https://www.nursingworld.org/coe"
+ ],
+ "cdc-isolation": [
+  "Siegel, J. D., Rhinehart, E., Jackson, M., Chiarello, L., & Healthcare Infection Control Practices Advisory Committee. (2007). <i>2007 guideline for isolation precautions: Preventing transmission of infectious agents in healthcare settings</i>. Centers for Disease Control and Prevention.",
+  "https://www.cdc.gov/infection-control/hcp/isolation-precautions/"
+ ],
+ "cdc-handhygiene": [
+  "Centers for Disease Control and Prevention. (n.d.). <i>Clean hands: Hand hygiene in healthcare settings</i>.",
+  "https://www.cdc.gov/clean-hands/"
+ ],
+ "cdc-immunization": [
+  "Centers for Disease Control and Prevention. (n.d.). <i>Immunization schedules</i>.",
+  "https://www.cdc.gov/vaccines/hcp/imz-schedules/"
+ ],
+ "cdc-tb": [
+  "Centers for Disease Control and Prevention. (n.d.). <i>Tuberculosis (TB)</i>.",
+  "https://www.cdc.gov/tb/"
+ ],
+ "sepsis-2021": [
+  "Evans, L., Rhodes, A., Alhazzani, W., Antonelli, M., Coopersmith, C. M., French, C., Machado, F. R., Mcintyre, L., Ostermann, M., Prescott, H. C., Schorr, C., Simpson, S., Wiersinga, W. J., Alshamsi, F., Angus, D. C., Arabi, Y., Azevedo, L., Beale, R., Beilman, G., … Levy, M. (2021). Surviving Sepsis Campaign: International guidelines for management of sepsis and septic shock 2021. <i>Critical Care Medicine, 49</i>(11), e1063–e1143.",
+  "https://doi.org/10.1097/CCM.0000000000005337"
+ ],
+ "npiap": [
+  "National Pressure Injury Advisory Panel. (2016). <i>NPIAP pressure injury stages</i>.",
+  "https://npiap.com/page/PressureInjuryStages"
+ ],
+ "aap-safesleep": [
+  "Moon, R. Y., Carlin, R. F., Hand, I., & Task Force on Sudden Infant Death Syndrome and the Committee on Fetus and Newborn. (2022). Sleep-related infant deaths: Updated 2022 recommendations for reducing infant deaths in the sleep environment. <i>Pediatrics, 150</i>(1), e2022057990.",
+  "https://doi.org/10.1542/peds.2022-057990"
+ ],
+ "medline-children": [
+  "National Library of Medicine. (n.d.). <i>Children's health</i>. MedlinePlus.",
+  "https://medlineplus.gov/childrenshealth.html"
+ ],
+ "medline-pregnancy": [
+  "National Library of Medicine. (n.d.). <i>Pregnancy</i>. MedlinePlus.",
+  "https://medlineplus.gov/pregnancy.html"
+ ],
+ "dailymed": [
+  "National Library of Medicine. (n.d.). <i>DailyMed</i>. U.S. Department of Health and Human Services.",
+  "https://dailymed.nlm.nih.gov"
+ ],
+ "ismp-highalert": [
+  "Institute for Safe Medication Practices. (n.d.). <i>ISMP list of high-alert medications in acute care settings</i>.",
+  "https://www.ismp.org/recommendations/high-alert-medications-acute-list"
+ ],
+ "tjc-npsg": [
+  "The Joint Commission. (n.d.). <i>National patient safety goals</i>.",
+  "https://www.jointcommission.org/standards/national-patient-safety-goals/"
+ ],
+ "lifeline-988": [
+  "Substance Abuse and Mental Health Services Administration. (n.d.). <i>988 Suicide & Crisis Lifeline</i>.",
+  "https://988lifeline.org"
+ ],
+ "samhsa": [
+  "Substance Abuse and Mental Health Services Administration. (n.d.). <i>Find help and treatment</i>.",
+  "https://www.samhsa.gov/find-help"
+ ],
+ "aap-bronchiolitis": [
+  "Ralston, S. L., Lieberthal, A. S., Meissner, H. C., Alverson, B. K., Baley, J. E., Gadomski, A. M., Johnson, D. W., Light, M. J., Maraqa, N. F., Mendonca, E. A., Phelan, K. J., Zorc, J. J., Stanko-Lopp, D., Brown, M. A., Nathanson, I., Rosenblum, E., Sayles, S., III, & Hernandez-Cancio, S. (2014). Clinical practice guideline: The diagnosis, management, and prevention of bronchiolitis. <i>Pediatrics, 134</i>(5), e1474–e1502.",
+  "https://doi.org/10.1542/peds.2014-2742"
+ ],
+ "acog-preeclampsia": [
+  "American College of Obstetricians and Gynecologists. (2020). Gestational hypertension and preeclampsia (ACOG Practice Bulletin No. 222). <i>Obstetrics & Gynecology, 135</i>(6), e237–e260.",
+  "https://doi.org/10.1097/AOG.0000000000003891"
+ ],
+ "aap-neonatal-glucose": [
+  "Adamkin, D. H., & Committee on Fetus and Newborn. (2011). Postnatal glucose homeostasis in late-preterm and term infants. <i>Pediatrics, 127</i>(3), 575–579.",
+  "https://doi.org/10.1542/peds.2010-3851"
+ ],
+ "aha-resuscitation": [
+  "Panchal, A. R., Bartos, J. A., Cabañas, J. G., Donnino, M. W., Drennan, I. R., Hirsch, K. G., Kudenchuk, P. J., Kurz, M. C., Lavonas, E. J., Morley, P. T., O'Neil, B. J., Peberdy, M. A., Rittenberger, J. C., Rodriguez, A. J., Sawyer, K. N., Berg, K. M., & Adult Basic and Advanced Life Support Writing Group. (2020). Part 3: Adult basic and advanced life support: 2020 American Heart Association guidelines for cardiopulmonary resuscitation and emergency cardiovascular care. <i>Circulation, 142</i>(16 Suppl. 2), S366–S468.",
+  "https://doi.org/10.1161/CIR.0000000000000916"
+ ],
+ "ags-beers": [
+  "2023 American Geriatrics Society Beers Criteria Update Expert Panel. (2023). American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. <i>Journal of the American Geriatrics Society, 71</i>(7), 2052–2081.",
+  "https://doi.org/10.1111/jgs.18372"
+ ],
+ "aba-abls": [
+  "American Burn Association. (2018). <i>Advanced burn life support course: Provider manual</i>. American Burn Association.",
+  "https://ameriburn.org"
+ ]
+}

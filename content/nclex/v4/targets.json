@@ -1,0 +1,243 @@
+{
+ "maternal": {
+  "topic": "Maternal & Newborn",
+  "count": 80,
+  "clientNeeds": {
+   "hpm": 22,
+   "pharm": 8,
+   "pa": 12,
+   "rrp": 12,
+   "safety": 8,
+   "psych": 7,
+   "bcc": 4,
+   "moc": 7
+  },
+  "types": {
+   "mcq": 48,
+   "sata": 19,
+   "matrix": 8,
+   "order": 5
+  }
+ },
+ "peds": {
+  "topic": "Pediatrics",
+  "count": 75,
+  "clientNeeds": {
+   "hpm": 16,
+   "safety": 12,
+   "pa": 12,
+   "pharm": 7,
+   "rrp": 8,
+   "bcc": 9,
+   "psych": 7,
+   "moc": 4
+  },
+  "types": {
+   "mcq": 45,
+   "sata": 18,
+   "matrix": 8,
+   "order": 4
+  }
+ },
+ "mental": {
+  "topic": "Mental Health",
+  "count": 65,
+  "clientNeeds": {
+   "psych": 40,
+   "pharm": 10,
+   "safety": 8,
+   "moc": 7
+  },
+  "types": {
+   "mcq": 39,
+   "sata": 16,
+   "matrix": 6,
+   "order": 4
+  }
+ },
+ "pharmacology": {
+  "topic": "Pharmacology",
+  "count": 60,
+  "clientNeeds": {
+   "pharm": 42,
+   "moc": 8,
+   "safety": 6,
+   "rrp": 4
+  },
+  "types": {
+   "mcq": 36,
+   "sata": 14,
+   "matrix": 6,
+   "order": 4
+  }
+ },
+ "integ": {
+  "topic": "Integumentary",
+  "count": 50,
+  "clientNeeds": {
+   "bcc": 14,
+   "pa": 11,
+   "safety": 5,
+   "hpm": 6,
+   "rrp": 6,
+   "pharm": 6,
+   "psych": 2
+  },
+  "types": {
+   "mcq": 30,
+   "sata": 12,
+   "matrix": 5,
+   "order": 3
+  }
+ },
+ "shock": {
+  "topic": "Multisystem & Shock",
+  "count": 50,
+  "clientNeeds": {
+   "pa": 23,
+   "rrp": 10,
+   "pharm": 8,
+   "moc": 7,
+   "safety": 2
+  },
+  "types": {
+   "mcq": 30,
+   "sata": 12,
+   "matrix": 5,
+   "order": 3
+  }
+ },
+ "msk": {
+  "topic": "Musculoskeletal",
+  "count": 45,
+  "clientNeeds": {
+   "bcc": 12,
+   "safety": 7,
+   "rrp": 8,
+   "pa": 8,
+   "pharm": 5,
+   "hpm": 5
+  },
+  "types": {
+   "mcq": 27,
+   "sata": 11,
+   "matrix": 4,
+   "order": 3
+  }
+ },
+ "fluids": {
+  "topic": "Fluids & Electrolytes",
+  "count": 45,
+  "clientNeeds": {
+   "pa": 16,
+   "pharm": 10,
+   "rrp": 12,
+   "safety": 3,
+   "bcc": 4
+  },
+  "types": {
+   "mcq": 27,
+   "sata": 11,
+   "matrix": 4,
+   "order": 3
+  }
+ },
+ "ethics": {
+  "topic": "Ethics & Professional Practice",
+  "count": 45,
+  "clientNeeds": {
+   "moc": 35,
+   "psych": 4,
+   "safety": 6
+  },
+  "types": {
+   "mcq": 27,
+   "sata": 11,
+   "matrix": 4,
+   "order": 3
+  }
+ },
+ "leadership": {
+  "topic": "Leadership & Delegation",
+  "count": 50,
+  "clientNeeds": {
+   "moc": 44,
+   "safety": 6
+  },
+  "types": {
+   "mcq": 30,
+   "sata": 12,
+   "matrix": 5,
+   "order": 3
+  }
+ },
+ "immuno": {
+  "topic": "Immunology & Infectious Disease",
+  "count": 45,
+  "clientNeeds": {
+   "safety": 14,
+   "hpm": 8,
+   "pharm": 8,
+   "rrp": 5,
+   "pa": 6,
+   "moc": 4
+  },
+  "types": {
+   "mcq": 27,
+   "sata": 11,
+   "matrix": 4,
+   "order": 3
+  }
+ },
+ "fundamentals": {
+  "topic": "Fundamentals & Safety",
+  "count": 45,
+  "clientNeeds": {
+   "safety": 14,
+   "bcc": 16,
+   "moc": 7,
+   "hpm": 4,
+   "rrp": 4
+  },
+  "types": {
+   "mcq": 27,
+   "sata": 11,
+   "matrix": 4,
+   "order": 3
+  }
+ },
+ "renal": {
+  "topic": "Renal & Genitourinary",
+  "count": 25,
+  "clientNeeds": {
+   "rrp": 9,
+   "pa": 6,
+   "pharm": 4,
+   "bcc": 4,
+   "hpm": 2
+  },
+  "types": {
+   "mcq": 15,
+   "sata": 6,
+   "matrix": 2,
+   "order": 2
+  }
+ },
+ "heme": {
+  "topic": "Hematology & Oncology",
+  "count": 20,
+  "clientNeeds": {
+   "rrp": 6,
+   "pharm": 5,
+   "pa": 4,
+   "safety": 2,
+   "psych": 3
+  },
+  "types": {
+   "mcq": 12,
+   "sata": 5,
+   "matrix": 2,
+   "order": 1
+  }
+ }
+}

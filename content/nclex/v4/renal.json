@@ -1,0 +1,875 @@
+{
+ "topic": "renal",
+ "questions": [
+  {
+   "id": "rnr:renal-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with end-stage kidney disease has just completed hemodialysis through a left forearm arteriovenous (AV) fistula. For each finding, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "A vibration (thrill) is felt when the fistula is palpated",
+    "Serum potassium is 4.2 mEq/L, down from 6.0 mEq/L before dialysis",
+    "The left hand is cool and pale, and the client reports aching fingers",
+    "Weight is 2 kg less than before dialysis",
+    "Blood pressure is 82/48 mm Hg, and the client is dizzy when sitting up"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "A palpable thrill shows that blood is flowing through the fistula, which means it is patent.",
+    "Dialysis removes excess potassium, so a fall into the normal range is the intended effect.",
+    "A cool, pale, painful hand on the access side suggests steal syndrome (blood diverted away from the hand) and must be reported.",
+    "Weight loss after dialysis reflects the planned removal of excess fluid.",
+    "Symptomatic hypotension after dialysis suggests too much fluid was removed and needs intervention."
+   ],
+   "takeaway": "A thrill confirms a patent AV fistula and a fall in potassium is expected after dialysis; a cool, painful hand (steal syndrome) or symptomatic hypotension needs follow-up.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client receiving peritoneal dialysis drained only 1,400 mL after 2,000 mL of dialysate was instilled. The tubing is not kinked, the effluent is clear, and the client had a bowel movement this morning. Which action should the nurse take next?",
+   "options": [
+    "Help the client turn from side to side and change position.",
+    "Instill another 2,000 mL of dialysate to flush the catheter.",
+    "Notify the provider that peritonitis is likely.",
+    "Clamp the catheter and wait until the next scheduled exchange."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Changing position often moves the catheter tip or fluid so drainage resumes, once kinks and constipation have been ruled out.",
+    "Adding more fluid before the previous fill is drained can cause abdominal distention and breathing difficulty.",
+    "Clear effluent without fever or pain does not suggest peritonitis.",
+    "Leaving the fluid in place does not solve the outflow problem and causes fluid retention."
+   ],
+   "takeaway": "Poor peritoneal dialysis outflow is usually from kinked tubing, constipation, or catheter position; check the tubing, ask about bowel movements, and reposition the client.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with type 2 diabetes and an estimated glomerular filtration rate (eGFR) of 26 mL/min/1.73 m² is scheduled for a CT angiogram with IV contrast. Which measures should the nurse anticipate to reduce the risk of contrast-associated kidney injury? Select all that apply.",
+   "options": [
+    "Restricting fluids the night before the scan",
+    "Holding nephrotoxic drugs such as NSAIDs as prescribed",
+    "IV isotonic sodium chloride before and after the procedure",
+    "Checking serum creatinine 48 to 72 hours after the procedure",
+    "Giving IV furosemide before the scan to flush the kidneys"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Dehydration increases the risk of contrast-associated kidney injury.",
+    "Correct. Avoiding other kidney-damaging drugs lowers the combined risk.",
+    "Correct. Isotonic IV hydration is the main measure for preventing contrast-associated kidney injury in high-risk clients, such as those with an eGFR below 30.",
+    "Correct. Contrast-associated kidney injury usually shows as a rise in creatinine within 2 to 3 days.",
+    "Diuretics can cause volume depletion and may increase the risk of kidney injury."
+   ],
+   "takeaway": "Isotonic IV hydration, stopping nephrotoxic drugs, and checking creatinine afterward help prevent contrast-associated kidney injury in high-risk clients.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews discharge teaching with a client who received a kidney transplant 1 week ago. Which statements by the client indicate correct understanding of signs of rejection to report? Select all that apply.",
+   "options": [
+    "\"I'll call if I'm making much less urine than usual.\"",
+    "\"I can skip my anti-rejection medicine on days I feel well.\"",
+    "\"I'll weigh myself every day and report a sudden weight gain.\"",
+    "\"I'll call if I have a fever or tenderness over my new kidney.\"",
+    "\"A bigger appetite is a sign of rejection that I need to report.\""
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Decreased urine output is a key sign of graft dysfunction.",
+    "Missing immunosuppressant doses is a leading cause of rejection; the drugs are taken every day for life.",
+    "Correct. Rapid weight gain can reflect fluid retention from declining kidney function.",
+    "Correct. Fever and graft tenderness can be signs of acute rejection.",
+    "Increased appetite is a common effect of prednisone, not a sign of rejection."
+   ],
+   "takeaway": "Teach transplant recipients to report fever, graft tenderness, decreased urine output, and sudden weight gain, and never to skip immunosuppressants.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with continuous bladder irrigation after a transurethral resection of the prostate (TURP) had 3,200 mL of irrigation solution infused during the shift. The total drainage in the collection bag is 3,850 mL. What is the client's actual urine output for the shift?",
+   "options": [
+    "3,850 mL",
+    "650 mL",
+    "3,200 mL",
+    "7,050 mL"
+   ],
+   "correct": 1,
+   "rationales": [
+    "This is the total drainage, which includes the irrigation solution.",
+    "Correct. True urine output = total drainage − irrigant infused: 3,850 − 3,200 = 650 mL.",
+    "This is the volume of irrigant infused, not urine.",
+    "This adds the two volumes instead of subtracting the irrigant."
+   ],
+   "takeaway": "With continuous bladder irrigation, true urine output equals total drainage minus the irrigant infused.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client who had a TURP 6 hours ago reports painful bladder spasms and a strong urge to void. The catheter drainage has slowed, and the urine is dark red with small clots. Which action should the nurse take first?",
+   "options": [
+    "Give the prescribed oxybutynin for the bladder spasms.",
+    "Encourage the client to try to void around the catheter.",
+    "Check the catheter for clots or kinks and irrigate it per protocol.",
+    "Slow the bladder irrigation to reduce bladder distention."
+   ],
+   "correct": 2,
+   "rationales": [
+    "An antispasmodic may help later, but it does not relieve an obstructed catheter.",
+    "Trying to void around the catheter increases spasms and can cause bleeding.",
+    "Correct. Spasms with slowed drainage and clots suggest an obstructed catheter; restoring patency treats the cause and prevents bladder distention.",
+    "Slowing the irrigation allows more clots to form; the rate is usually increased to keep the urine light pink."
+   ],
+   "takeaway": "Bladder spasms after TURP often come from clots blocking the catheter; restore patency first, then treat the spasms.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is reviewing clients with indwelling urinary catheters for removal under a nurse-driven protocol. For which clients does the catheter still have an appropriate indication? Select all that apply.",
+   "options": [
+    "A client with dementia and urinary incontinence, to reduce staff workload",
+    "A client with acute urinary retention from an enlarged prostate awaiting urology follow-up",
+    "A client receiving comfort care at the end of life who prefers the catheter",
+    "A client who needs a urine culture and can void on request",
+    "A critically ill client receiving vasopressors who needs hourly urine output measurement",
+    "A client 3 days after hip surgery who can use a bedside commode"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incontinence managed for convenience is not an appropriate indication and increases infection risk.",
+    "Correct. Urinary retention or bladder outlet obstruction is an appropriate indication.",
+    "Correct. Improving comfort at the end of life is an accepted indication.",
+    "A clean-catch specimen should be collected; a catheter is not placed for this reason.",
+    "Correct. Accurate hourly output in a critically ill client is an appropriate indication.",
+    "Catheters placed for surgery should be removed as soon as possible, preferably within 24 hours; this client can use a commode, so the catheter has no ongoing indication."
+   ],
+   "takeaway": "Indwelling catheters are appropriate only for clear indications such as retention, hourly output in critically ill clients, or end-of-life comfort; remove them promptly to prevent CAUTI.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The drainage tubing of a client's indwelling urinary catheter has been clamped below the sampling port for 15 minutes so that fresh urine can collect for a culture. Place the nurse's next steps in the correct order.",
+   "options": [
+    "Scrub the sampling port with an antiseptic swab",
+    "Transfer the urine into a sterile specimen container",
+    "Label the container in the client's presence and send it to the lab promptly",
+    "Aspirate urine from the port with a sterile syringe",
+    "Perform hand hygiene and put on clean gloves"
+   ],
+   "correct": [
+    4,
+    0,
+    3,
+    1,
+    2
+   ],
+   "rationales": [
+    "Second: cleaning the port prevents contaminating the specimen and the closed system.",
+    "Fourth: the specimen goes directly into a sterile container; the tubing is then unclamped so urine drains freely again.",
+    "Fifth: bedside labeling prevents mix-ups, and prompt delivery keeps bacteria from multiplying.",
+    "Third: urine is withdrawn through the cleaned port, never by opening the system.",
+    "First: hand hygiene and gloves come before touching the drainage system."
+   ],
+   "takeaway": "Collect catheter urine specimens from the cleaned sampling port with a sterile syringe; never open the closed drainage system or take urine from the bag, and unclamp the tubing afterward.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is learning to perform a continuous ambulatory peritoneal dialysis (CAPD) exchange at home. Place the steps in the correct order.",
+   "options": [
+    "Drain the used dialysate from the abdomen into the drainage bag",
+    "Infuse the warmed fresh dialysate into the abdomen",
+    "Connect the new dialysate bag system to the catheter transfer set",
+    "Put on a mask and perform thorough hand hygiene",
+    "Disconnect and cap the transfer set with a new sterile cap"
+   ],
+   "correct": [
+    3,
+    2,
+    0,
+    1,
+    4
+   ],
+   "rationales": [
+    "Third: the old fluid is drained first so the abdomen is empty.",
+    "Fourth: fresh dialysate is filled after drainage is complete.",
+    "Second: the new system is connected aseptically before any fluid moves.",
+    "First: a mask and hand hygiene reduce the risk of peritonitis before the system is opened.",
+    "Fifth: the catheter is closed with a new sterile cap for the dwell period."
+   ],
+   "takeaway": "In a CAPD exchange, mask and hand hygiene come first, then connect, drain, fill, and cap with a new sterile cap.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 28-year-old client reports urinary frequency and burning for 3 days. Today the client has a temperature of 39.2°C (102.6°F), chills, nausea, and right flank pain. Which finding most strongly supports pyelonephritis rather than cystitis?",
+   "options": [
+    "Urinary frequency and urgency",
+    "Burning on urination",
+    "Cloudy urine with a strong odor",
+    "Tenderness at the right costovertebral angle"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Frequency and urgency occur with bladder infection and do not show kidney involvement.",
+    "Dysuria is typical of cystitis.",
+    "Cloudy, odorous urine can occur with any urinary tract infection.",
+    "Correct. Costovertebral angle tenderness, with fever and flank pain, indicates infection of the kidney."
+   ],
+   "takeaway": "Fever, chills, flank pain, and costovertebral angle tenderness point to pyelonephritis; frequency, urgency, and dysuria alone suggest cystitis.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is assessing residents in a long-term care facility. Which finding should the nurse recognize as a possible sign of a urinary tract infection in an older adult?",
+   "options": [
+    "Getting up once each night to urinate for many years",
+    "New confusion and incontinence in a resident who was previously oriented and continent",
+    "Mild ankle swelling at the end of the day",
+    "Dry, flaky skin on the lower legs"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Long-standing single-episode nocturia is common with aging and is not a new change.",
+    "Correct. Older adults with a UTI often have no fever or dysuria; a sudden change in mental status or new incontinence may be the first sign.",
+    "Dependent ankle edema is not a sign of urinary infection.",
+    "Dry skin is common with aging and unrelated to UTI."
+   ],
+   "takeaway": "In older adults, a UTI may present only as new confusion, falls, or new incontinence rather than fever or dysuria.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is receiving a first hemodialysis treatment for a blood urea nitrogen (BUN) of 140 mg/dL. Near the end of the session, which findings should the nurse recognize as possible dialysis disequilibrium syndrome? Select all that apply.",
+   "options": [
+    "An increase in urine output",
+    "Fever and chills",
+    "Itching over the access site",
+    "Restlessness and confusion",
+    "Nausea and vomiting",
+    "Headache"
+   ],
+   "correct": [
+    3,
+    4,
+    5
+   ],
+   "rationales": [
+    "Disequilibrium does not increase urine output.",
+    "Fever and chills suggest infection or a pyrogen reaction, not disequilibrium.",
+    "Local itching is not a sign of disequilibrium syndrome.",
+    "Correct. Changes in mental status reflect cerebral edema and can progress to seizures.",
+    "Correct. Nausea and vomiting are common signs of the cerebral edema in disequilibrium syndrome.",
+    "Correct. Rapid removal of urea from the blood causes fluid to shift into brain cells, leading to headache."
+   ],
+   "takeaway": "Dialysis disequilibrium (cerebral edema from rapid urea removal) causes headache, nausea, restlessness, and confusion, especially in first treatments with very high BUN.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 76-year-old client admitted with pyelonephritis has a temperature of 38.9°C (102°F), heart rate of 118/min, respiratory rate of 26/min, blood pressure of 86/50 mm Hg, and new confusion. Which problem is the priority?",
+   "options": [
+    "Acute pain related to flank tenderness",
+    "Risk for fluid overload from IV fluids",
+    "Lack of knowledge about preventing urinary infections",
+    "Sepsis with poor tissue perfusion from the urinary infection"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Pain matters, but it is not the threat to life here.",
+    "This is a potential problem; the actual problem is poor perfusion that needs fluids.",
+    "Teaching is important later but is not the priority in an unstable client.",
+    "Correct. Hypotension, tachycardia, tachypnea, and confusion with a known infection indicate sepsis with hypoperfusion, which is life threatening."
+   ],
+   "takeaway": "A client with urinary infection plus hypotension, tachycardia, tachypnea, and new confusion has urosepsis; poor perfusion takes priority.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse on a renal unit receives report on four clients. Which client needs the most urgent intervention?",
+   "options": [
+    "A client 4 hours after a percutaneous kidney biopsy who has new back pain, a heart rate of 118/min, and a blood pressure of 92/58 mm Hg",
+    "A client with nephrotic syndrome who has periorbital edema, frothy urine, and a serum albumin of 2.4 g/dL",
+    "A client with acute glomerulonephritis who has tea-colored urine, mild facial edema, and a blood pressure of 146/90 mm Hg",
+    "A client in the diuretic phase of acute kidney injury who had 3 L of urine output yesterday and stable vital signs"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Hemorrhage is the main risk after a kidney biopsy; new back or flank pain with tachycardia and a falling blood pressure suggests bleeding and developing hypovolemic shock.",
+    "Edema, frothy urine, and low albumin are expected findings of nephrotic syndrome from heavy protein loss; they need monitoring, not emergency action.",
+    "Tea-colored urine, mild edema, and mild hypertension are expected in acute glomerulonephritis; the nurse monitors for rising blood pressure.",
+    "High urine output is expected in the diuretic phase; the nurse monitors fluid balance and electrolytes, and stable vital signs are reassuring."
+   ],
+   "takeaway": "After a kidney biopsy, new back or flank pain with tachycardia and a falling blood pressure signals hemorrhage and needs immediate action.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Two hours after a TURP with large-volume irrigation, a client becomes confused and nauseated. The blood pressure is 168/94 mm Hg, the heart rate is 54/min, and the serum sodium is 124 mEq/L. Which complication should the nurse suspect?",
+   "options": [
+    "Hemorrhage from the prostate surgical site",
+    "Urinary retention from an obstructed catheter",
+    "Transurethral resection (TUR) syndrome from absorbed irrigation fluid",
+    "Respiratory depression from opioids"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Hemorrhage causes hypotension and tachycardia, not hypertension with low sodium.",
+    "Retention would cause bladder distention and spasms, not hyponatremia.",
+    "Correct. Absorbed irrigation fluid causes fluid overload and dilutional hyponatremia, leading to confusion, nausea, hypertension, and bradycardia.",
+    "Opioid effects do not explain hyponatremia and hypertension."
+   ],
+   "takeaway": "TUR syndrome (dilutional hyponatremia and fluid overload from absorbed irrigant) causes confusion, nausea, hypertension, and bradycardia.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client has urinary retention after surgery, and no obstruction has been found. The provider prescribes oral bethanechol. Which finding in the client's history should the nurse report to the provider before giving the first dose?",
+   "options": [
+    "Spinal anesthesia for a knee replacement 2 days ago",
+    "Acetaminophen taken every 6 hours for pain",
+    "Asthma treated with a daily inhaled corticosteroid",
+    "A last bowel movement 2 days ago"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Retention after anesthesia, with no obstruction, is the reason bethanechol is prescribed.",
+    "Acetaminophen does not interact with bethanechol in a way that matters here.",
+    "Correct. Bethanechol is a cholinergic drug that can cause bronchoconstriction, so asthma is a contraindication and the prescription must be clarified first.",
+    "Two days without a bowel movement after surgery is common; mechanical bowel obstruction, not mild constipation, would be a contraindication."
+   ],
+   "takeaway": "Bethanechol (a cholinergic drug for nonobstructive urinary retention) is contraindicated with asthma, bradycardia, and mechanical urinary or bowel obstruction.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chronic kidney disease receives epoetin alfa weekly. Which finding should the nurse report to the provider before giving the next dose?",
+   "options": [
+    "Blood pressure of 176/104 mm Hg",
+    "Hemoglobin of 9.6 g/dL",
+    "Transferrin saturation of 30%",
+    "Fatigue that has improved since starting therapy"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Erythropoiesis-stimulating agents can raise blood pressure, and uncontrolled hypertension is a reason to hold the dose and notify the provider.",
+    "A hemoglobin below 10 g/dL is the range in which this therapy is used.",
+    "Adequate iron stores support a response to epoetin.",
+    "Improved fatigue shows that therapy is working."
+   ],
+   "takeaway": "Erythropoiesis-stimulating agents raise the risk of hypertension, clots, and stroke; report uncontrolled blood pressure or hemoglobin nearing 11 g/dL.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 9-year-old with primary nocturnal enuresis is prescribed desmopressin tablets at bedtime. Which instruction should the nurse give the parent?",
+   "options": [
+    "Give the tablet with a full glass of milk at bedtime.",
+    "Keep giving the tablet during an illness with vomiting or diarrhea.",
+    "Give a second tablet on nights after your child wets the bed.",
+    "Limit drinks from 1 hour before the dose until the next morning."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Extra fluid around the dose is retained and increases the risk of water intoxication and hyponatremia.",
+    "Desmopressin is held during illnesses that upset fluid and electrolyte balance, because the risk of hyponatremia rises.",
+    "Doses are never doubled; extra doses raise the risk of hyponatremia without a proven benefit.",
+    "Correct. Desmopressin makes the kidneys hold water, so fluids are limited from 1 hour before until 8 hours after the dose to prevent hyponatremia."
+   ],
+   "takeaway": "Children taking desmopressin for bedwetting limit fluids from 1 hour before to 8 hours after the dose and stop it during vomiting or diarrhea to prevent hyponatremia.",
+   "refs": [
+    "dailymed",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 29-year-old client who received a kidney transplant takes mycophenolate mofetil. Which statement by the client indicates understanding of the medication teaching?",
+   "options": [
+    "\"I'll take it with my antacid so it's easier on my stomach.\"",
+    "\"I'll use effective birth control and talk with my provider before trying to get pregnant.\"",
+    "\"I'll get the nasal spray flu vaccine every fall.\"",
+    "\"A sore throat with a fever is a minor side effect I can treat at home.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Antacids containing magnesium or aluminum reduce mycophenolate absorption, so the two are taken at separate times.",
+    "Correct. Mycophenolate can cause pregnancy loss and birth defects, so effective contraception is required during treatment and for a period after it is stopped.",
+    "The nasal spray flu vaccine is a live vaccine and is avoided during immunosuppression; the injectable inactivated vaccine is used.",
+    "Immunosuppression increases infection risk, so a sore throat with fever must be reported promptly."
+   ],
+   "takeaway": "Mycophenolate requires effective contraception because it causes birth defects; clients also avoid live vaccines, separate it from antacids, and report signs of infection promptly.",
+   "refs": [
+    "dailymed",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client receiving hemodialysis three times a week asks about food choices. For each food, indicate whether the nurse should encourage it or recommend limiting it.",
+   "rows": [
+    "Egg whites",
+    "Cola soft drinks",
+    "Oranges and orange juice",
+    "Deli meats and canned soups",
+    "Fresh apples or berries"
+   ],
+   "columns": [
+    "Encourage",
+    "Limit"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Egg whites are high-quality protein with little phosphorus; clients on dialysis need more protein because dialysis removes it.",
+    "Dark colas contain phosphoric acid, which adds phosphorus.",
+    "Oranges are high in potassium, which builds up between dialysis treatments.",
+    "Processed foods are high in sodium and often contain phosphorus additives.",
+    "Apples and berries are lower-potassium fruit choices."
+   ],
+   "takeaway": "Hemodialysis diets emphasize high-quality protein while limiting potassium, phosphorus (including colas and additives), sodium, and fluid.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client on hemodialysis with a fluid restriction of 1,000 mL per day says the thirst is hard to manage. Which statement shows that the client understood the teaching?",
+   "options": [
+    "\"I'll suck on sugar-free hard candy and count ice chips as part of my fluid allowance.\"",
+    "\"Ice chips don't count as fluid, so I can have as many as I want.\"",
+    "\"I'll drink extra on dialysis days because the machine removes it.\"",
+    "\"Salty snacks will help my body hold on to less water.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Sugar-free candy relieves thirst, and ice chips are counted because they melt into fluid.",
+    "Ice chips are fluid and must be counted in the daily allowance.",
+    "Extra intake leads to large weight gains, fluid overload, and harder fluid removal.",
+    "Sodium increases thirst and fluid retention."
+   ],
+   "takeaway": "Clients on hemodialysis count ice chips as fluid and manage thirst with sugar-free candy, gum, and limiting sodium.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with stage 4 chronic kidney disease who is not yet on dialysis is learning about diet. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Avoid salt substitutes, because most contain potassium",
+    "Limit protein to the amount the dietitian recommends",
+    "Drink at least 4 L of fluid daily to flush the kidneys",
+    "Limit dairy products and colas, which are high in phosphorus",
+    "Increase protein to build strength before dialysis starts",
+    "Limit high-sodium foods such as canned soups and frozen dinners"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Salt substitutes are usually potassium chloride and can cause dangerous hyperkalemia.",
+    "Correct. Before dialysis, protein is limited to a prescribed, usually lower-than-usual amount to slow the decline in kidney function while preventing malnutrition.",
+    "Damaged kidneys cannot excrete large fluid loads; this can cause fluid overload.",
+    "Correct. Phosphorus builds up as kidney function declines and contributes to bone disease.",
+    "A high-protein diet increases the workload on failing kidneys before dialysis.",
+    "Correct. Limiting sodium helps control blood pressure and fluid retention."
+   ],
+   "takeaway": "Before dialysis, CKD diets use moderate protein and limit sodium, phosphorus, and often potassium; salt substitutes contain potassium.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client going home 2 days after a TURP reports dribbling urine since the catheter was removed. Which instruction should the nurse give?",
+   "options": [
+    "\"Limit your fluids to 500 mL a day to reduce dribbling.\"",
+    "\"Do pelvic floor (Kegel) exercises several times a day.\"",
+    "\"Bear down to empty your bladder completely each time you void.\"",
+    "\"Start lifting weights to strengthen your abdominal muscles.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Clients need plenty of fluids after TURP to flush clots and prevent infection.",
+    "Correct. Temporary dribbling is common after TURP and usually improves over the next few weeks; pelvic floor exercises improve control.",
+    "Straining increases pressure and can cause bleeding at the surgical site.",
+    "Heavy lifting is avoided for several weeks because it can cause bleeding."
+   ],
+   "takeaway": "After TURP, temporary dribbling is common; pelvic floor exercises help, and clients keep fluids up while avoiding straining and heavy lifting.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is going home after passing a calcium oxalate kidney stone. Which statement by the client indicates understanding of the prevention teaching?",
+   "options": [
+    "\"I'll cut all dairy and calcium out of my diet.\"",
+    "\"I'll take vitamin C supplements every day.\"",
+    "\"I'll drink enough fluid to make at least 2.5 liters of urine a day.\"",
+    "\"I'll add more salt to my food so I want to drink more.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Normal dietary calcium binds oxalate in the gut; cutting calcium can increase stone formation.",
+    "High-dose vitamin C is converted to oxalate and can promote stones.",
+    "Correct. High fluid intake dilutes the urine and is the most important measure for preventing stones.",
+    "High sodium intake increases calcium in the urine and stone risk."
+   ],
+   "takeaway": "High fluid intake, normal dietary calcium, and limiting sodium help prevent calcium oxalate stones.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:renal-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Renal & Genitourinary",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 24-year-old client has had two episodes of cystitis this year. Which measures should the nurse teach to help prevent recurrence? Select all that apply.",
+   "options": [
+    "Use scented douches to keep the area clean",
+    "Wipe from front to back after using the toilet",
+    "Take bubble baths to relax the pelvic muscles",
+    "Urinate soon after sexual intercourse",
+    "Avoid holding urine for long periods",
+    "Drink enough fluid to urinate regularly throughout the day"
+   ],
+   "correct": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "rationales": [
+    "Douches and scented products irritate tissue and disrupt normal flora.",
+    "Correct. Wiping front to back reduces movement of bowel bacteria toward the urethra.",
+    "Bubble baths can irritate the urethra and increase UTI risk.",
+    "Correct. Voiding after intercourse flushes bacteria from the urethra.",
+    "Correct. Urinary stasis allows bacteria to multiply.",
+    "Correct. Regular urine flow flushes bacteria from the bladder."
+   ],
+   "takeaway": "UTI prevention: void after intercourse, wipe front to back, keep fluids up, avoid holding urine, and avoid douches and bubble baths.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

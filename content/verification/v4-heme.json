@@ -1,0 +1,44 @@
+{
+ "file": "content/nclex/v4/heme.json",
+ "reviewed": 20,
+ "ok": 13,
+ "fixed": 2,
+ "rewritten": 5,
+ "items": [
+  {
+   "id": "rnr:heme-001",
+   "status": "rewritten",
+   "note": "Same fact as rnr:fundamentals-011 (bedside two-person blood product check), and the key was the longest option. Rewritten as a safety item on caregiver handling of oral chemotherapy at home (gloves, no crushing, original container, no doubled doses). Key position 0 kept."
+  },
+  {
+   "id": "rnr:heme-003",
+   "status": "rewritten",
+   "note": "Near-copy of rnr:pharmacology-057 (same transfusion-reaction scenario and same ordered steps). Rewritten as an order item on starting a red blood cell transfusion (consent/IV access, baseline vitals, pickup, bedside check, slow start with nurse present)."
+  },
+  {
+   "id": "rnr:heme-005",
+   "status": "rewritten",
+   "note": "Same fact and same first action as rnr:pharmacology-055 (vesicant extravasation: stop the infusion). Rewritten as a pharm item on timing antiemetic premedication before highly emetogenic chemotherapy. Key position 3 kept."
+  },
+  {
+   "id": "rnr:heme-010",
+   "status": "rewritten",
+   "note": "Same fact as rnr:pharmacology-048 (warfarin with an in-range INR: give the dose). Rewritten as an evaluate-outcomes item on filgrastim effectiveness (ANC rise). clientNeed changed rrp -> pharm because it now tests expected drug effect (counts stay within targets: rrp 5/6, pharm 6/5)."
+  },
+  {
+   "id": "rnr:heme-013",
+   "status": "fixed",
+   "note": "The HIT row (platelets 240,000 to 105,000 on heparin day 6) repeated bank items nb:ccrnx-110 and nb:nb26-card-025. Replaced it with a premature prescription to stop heparin while the INR is 1.4, which tests the overlap rule; stem and takeaway updated."
+  },
+  {
+   "id": "rnr:heme-015",
+   "status": "rewritten",
+   "note": "Same fact as nb:nb26-gios-046 (tumor lysis syndrome with potassium 6.4 mEq/L: hyperkalemia is the priority). Rewritten as a four-client prioritization item where the key is possible intracranial hemorrhage with platelets 8,000/mm³. Key position 2 kept."
+  },
+  {
+   "id": "rnr:heme-018",
+   "status": "fixed",
+   "note": "cjmm was recognizeCues, but the item asks for the therapeutic response; changed to takeAction."
+  }
+ ]
+}

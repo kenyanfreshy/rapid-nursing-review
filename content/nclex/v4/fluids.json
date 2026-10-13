@@ -1,0 +1,1580 @@
+{
+ "topic": "fluids",
+ "questions": [
+  {
+   "id": "rnr:fluids-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 28-year-old client is brought to the medical tent after a marathon. The client drank water at every station and now has a headache, nausea and confusion. The client weighs 1 kg (2.2 lb) more than before the race. Serum sodium is 126 mEq/L. What is the most likely cause of these findings?",
+   "options": [
+    "Dilution of sodium from drinking more water than was lost",
+    "Excess sodium intake from salty snacks during the race",
+    "Hypernatremic dehydration from heavy sweating",
+    "High blood glucose pulling water out of the cells"
+   ],
+   "rationales": [
+    "Correct. Weight gain with a low sodium shows that excess water intake has diluted the sodium (exercise-associated hyponatremia).",
+    "Excess sodium intake would raise, not lower, the serum sodium.",
+    "Dehydration would cause weight loss and a high sodium.",
+    "Nothing suggests hyperglycemia, and the weight gain points to water excess."
+   ],
+   "correct": 0,
+   "takeaway": "Weight gain plus a low sodium after heavy water intake points to dilutional hyponatremia.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Two days after a traumatic brain injury, a client's urine output has been 350 mL/hr for 3 hours. Urine specific gravity is 1.002, and serum sodium has risen from 140 to 151 mEq/L. Which condition do these findings suggest?",
+   "options": [
+    "Syndrome of inappropriate antidiuretic hormone",
+    "Fluid volume excess",
+    "Oliguric acute kidney injury",
+    "Diabetes insipidus"
+   ],
+   "rationales": [
+    "SIADH causes concentrated urine, low output and hyponatremia, the opposite pattern.",
+    "Large dilute urine output with a rising sodium reflects water loss, not excess.",
+    "Oliguria means low urine output, which is not present.",
+    "Correct. Too little ADH causes large volumes of dilute urine, leading to water loss and a rising sodium."
+   ],
+   "correct": 3,
+   "takeaway": "Diabetes insipidus: high output of dilute urine (low specific gravity) with rising serum sodium.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse reviews four clients' records. Which client is at greatest risk for hypernatremia?",
+   "options": [
+    "A 45-year-old with syndrome of inappropriate antidiuretic hormone after lung surgery",
+    "An 86-year-old on continuous tube feedings who has a fever and receives no added free water",
+    "A 30-year-old receiving 0.45% sodium chloride for maintenance",
+    "A 60-year-old with heart failure on a 2-g sodium diet"
+   ],
+   "rationales": [
+    "SIADH causes water retention and low sodium.",
+    "Correct. Concentrated feedings, fever-related water loss, an older adult's weak thirst and no free water all promote water deficit and high sodium.",
+    "Hypotonic saline provides free water and tends to lower sodium.",
+    "Sodium restriction does not cause hypernatremia."
+   ],
+   "correct": 1,
+   "takeaway": "Older adults who cannot drink on their own, especially with fever or tube feedings, are at high risk for hypernatremia.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a serum sodium of 120 mEq/L is newly confused. Which actions should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Implement seizure precautions.",
+    "Encourage the client to drink plenty of plain water.",
+    "Keep the bed in the lowest position with the bed alarm on.",
+    "Perform frequent neurologic checks.",
+    "Let the client walk to the bathroom alone to promote independence.",
+    "Apply wrist restraints to prevent falls."
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Low sodium causes cerebral edema and can lead to seizures.",
+    "Free water would lower the sodium further.",
+    "Correct. A confused client is at high risk for falls.",
+    "Correct. Worsening neurologic status signals falling sodium or cerebral edema.",
+    "A confused client should not walk alone.",
+    "Restraints increase agitation and injury and are not a first-line fall measure."
+   ],
+   "takeaway": "Confusion from hyponatremia calls for seizure and fall precautions with frequent neuro checks.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with a serum sodium of 162 mEq/L has received 0.45% sodium chloride at 200 mL/hr. Eight hours later the sodium is 148 mEq/L, and the client has a new headache, vomiting and confusion. What is the most likely cause of the new findings?",
+   "options": [
+    "Worsening hypernatremia from the IV fluid",
+    "Hypokalemia caused by the IV fluid",
+    "Hyperglycemia from dextrose in the IV fluid",
+    "Cerebral edema from lowering the sodium too quickly"
+   ],
+   "rationales": [
+    "The sodium has fallen, not risen.",
+    "Hypokalemia causes weakness and dysrhythmias, not this pattern, and nothing suggests it.",
+    "0.45% sodium chloride contains no dextrose.",
+    "Correct. A drop of 14 mEq/L in 8 hours is too fast; water moves into brain cells and causes cerebral edema."
+   ],
+   "correct": 3,
+   "takeaway": "Correct chronic sodium imbalances slowly; rapid correction of hypernatremia can cause cerebral edema.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with a serum sodium of 116 mEq/L and confusion is receiving 3% sodium chloride. Which actions should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Give the infusion by gravity so it can run faster if needed.",
+    "Check serum sodium at the frequent intervals set by the protocol.",
+    "Perform frequent neurologic assessments.",
+    "Encourage the client to drink plenty of plain water.",
+    "Auscultate lung sounds for crackles.",
+    "Use an infusion pump."
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Hypertonic saline is never given by gravity; the rate must be controlled.",
+    "Correct. Frequent checks prevent overcorrection, which can cause osmotic demyelination.",
+    "Correct. Neuro checks show whether cerebral edema is improving or whether overcorrection is causing new deficits.",
+    "Free water would work against the treatment.",
+    "Correct. Hypertonic saline pulls fluid into the vascular space and can cause fluid overload.",
+    "Correct. A pump gives the precise rate needed for a hypertonic solution."
+   ],
+   "takeaway": "3% saline: infusion pump, frequent sodium and neuro checks, and watch for fluid overload and overcorrection.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with diabetes insipidus after pituitary surgery receives desmopressin. Which finding indicates that the medication is effective?",
+   "options": [
+    "Urine output increases to 300 mL/hr",
+    "Urine output decreases and urine specific gravity rises to 1.015",
+    "Serum sodium rises from 148 to 152 mEq/L",
+    "The client reports increasing thirst"
+   ],
+   "rationales": [
+    "Rising output means the drug is not working.",
+    "Correct. Desmopressin replaces ADH, so the kidneys keep water, urine output falls and urine becomes more concentrated.",
+    "A rising sodium shows ongoing water loss.",
+    "Increasing thirst reflects continued water loss."
+   ],
+   "correct": 1,
+   "takeaway": "Desmopressin is working when urine output falls, specific gravity rises and sodium normalizes.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews clients' records. Which clients are at increased risk for hyperkalemia? Select all that apply.",
+   "options": [
+    "A client with chronic kidney disease who uses a potassium-based salt substitute",
+    "A client with continuous nasogastric suction",
+    "A client taking lisinopril and spironolactone",
+    "A client with a crush injury and dark urine from rhabdomyolysis",
+    "A client taking furosemide twice daily"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Failing kidneys cannot excrete the extra potassium from salt substitutes.",
+    "Gastric suction causes potassium loss.",
+    "Correct. Both drugs reduce potassium excretion.",
+    "Correct. Damaged muscle cells release large amounts of potassium.",
+    "Loop diuretics cause potassium loss."
+   ],
+   "takeaway": "Hyperkalemia risk: kidney failure, potassium-sparing drugs, ACE inhibitors, extra potassium intake and cell destruction.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who has had a fever and been unable to drink for 3 days has a serum sodium of 154 mEq/L. Which group of findings should the nurse expect?",
+   "rationales": [
+    "Carpal spasm and cramps point to low calcium, not high sodium.",
+    "Flat T waves and weakness point to low potassium.",
+    "Correct. Hypernatremia from water loss pulls water out of cells: thirst, dry sticky mucous membranes, and restlessness or confusion from brain cell shrinkage.",
+    "Flushing, hypotension and absent reflexes point to high magnesium."
+   ],
+   "correct": 2,
+   "takeaway": "Hypernatremia from water deficit: thirst, dry sticky mucous membranes and neurologic changes such as restlessness or confusion.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "options": [
+    "Positive Trousseau sign and muscle cramps",
+    "Flattened T waves and leg weakness",
+    "Intense thirst, dry sticky mucous membranes and restlessness",
+    "Flushing, hypotension and absent reflexes"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who has been vomiting for several days has a serum potassium of 2.9 mEq/L. Which findings should the nurse expect? Select all that apply.",
+   "options": [
+    "Hyperactive bowel sounds with diarrhea",
+    "Muscle weakness and leg cramps",
+    "Decreased bowel sounds",
+    "Tall, peaked T waves",
+    "Shallow respirations",
+    "Irregular pulse"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Hyperactive bowel sounds and diarrhea are associated with hyperkalemia.",
+    "Correct. Low potassium impairs skeletal muscle function.",
+    "Correct. Smooth muscle slows, causing decreased motility and possible ileus.",
+    "Peaked T waves are a sign of hyperkalemia.",
+    "Correct. Weak respiratory muscles cause shallow breathing.",
+    "Correct. Hypokalemia causes dysrhythmias."
+   ],
+   "takeaway": "Hypokalemia slows all muscles: weakness, cramps, ileus, shallow breathing and dysrhythmias.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a serum potassium of 3.0 mEq/L is prescribed potassium chloride 20 mEq in 100 mL through a central line over 2 hours. Before starting the infusion, which finding is most important for the nurse to verify?",
+   "options": [
+    "Urine output of at least 30 mL/hr",
+    "Blood glucose below 180 mg/dL",
+    "Serum sodium within normal limits",
+    "Client has eaten in the last 2 hours"
+   ],
+   "rationales": [
+    "Correct. Potassium is cleared by the kidneys; giving IV potassium without adequate urine output can cause hyperkalemia.",
+    "Glucose does not determine whether IV potassium is safe.",
+    "Sodium level does not affect the safety of this infusion.",
+    "Food intake matters for oral potassium tablets, not for an IV infusion."
+   ],
+   "correct": 0,
+   "takeaway": "Confirm adequate urine output before giving potassium, especially IV.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a serum calcium of 6.9 mg/dL and a normal albumin has perioral tingling and muscle cramps. Calcium gluconate IV is prescribed. Which actions should the nurse take? Select all that apply.",
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. IV calcium affects cardiac conduction; monitoring detects bradycardia and dysrhythmias.",
+    "Rapid IV calcium can cause hypotension, bradycardia and dysrhythmias; it is given slowly.",
+    "Correct. Calcium leaking into tissue can cause irritation and necrosis, so the site is watched closely.",
+    "Calcium precipitates with bicarbonate (and phosphate), so they are not given in the same line.",
+    "Correct. A pump controls the rate and prevents a too-rapid infusion.",
+    "IM calcium causes tissue necrosis; a new IV line is needed instead."
+   ],
+   "takeaway": "IV calcium: cardiac monitor, slow controlled rate, watch the IV site, and never mix with bicarbonate or give IM.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "options": [
+    "Place the client on continuous cardiac monitoring.",
+    "Give the dose as a rapid IV push to relieve symptoms quickly.",
+    "Check the IV site often, because calcium irritates tissue if it leaks.",
+    "Infuse it through the same line as a sodium bicarbonate infusion.",
+    "Give it at the prescribed rate using an infusion pump.",
+    "Give the dose IM if the IV line stops working."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with a serum potassium of 7.0 mEq/L has peaked T waves and a widened QRS. Place the nurse's actions in the order they should be performed.",
+   "options": [
+    "Give the prescribed potassium binder or prepare for dialysis.",
+    "Place the client on continuous cardiac monitoring.",
+    "Recheck the serum potassium and blood glucose.",
+    "Give IV regular insulin with dextrose as prescribed.",
+    "Give IV calcium gluconate as prescribed."
+   ],
+   "correct": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Fourth: binders or dialysis remove potassium from the body.",
+    "First: monitoring shows dysrhythmias and the response to treatment.",
+    "Last: rechecks confirm the potassium is falling and catch hypoglycemia from the insulin.",
+    "Third: insulin with dextrose moves potassium into cells to lower the serum level.",
+    "Second: calcium protects the heart within minutes while other treatments start."
+   ],
+   "takeaway": "Severe hyperkalemia: monitor, protect the heart (calcium), shift (insulin, dextrose), remove, then recheck.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A healthy 35-year-old client's routine laboratory results show a serum potassium of 6.2 mEq/L. The lab notes that the specimen is hemolyzed. The client has no symptoms, takes no medications and has a normal ECG. What should the nurse anticipate?",
+   "options": [
+    "IV calcium gluconate",
+    "Emergency hemodialysis",
+    "A low-potassium diet starting today",
+    "A repeat blood sample drawn with careful technique"
+   ],
+   "rationales": [
+    "Calcium is for confirmed hyperkalemia with ECG changes.",
+    "Dialysis is for severe, confirmed hyperkalemia not responding to other treatment.",
+    "Diet changes are not needed for a likely false result.",
+    "Correct. Broken red cells release potassium into the sample, falsely raising the result; a careful redraw confirms the true value."
+   ],
+   "correct": 3,
+   "takeaway": "A hemolyzed specimen can falsely raise potassium; confirm with a redraw before treating a well client.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse sees a colleague about to inject potassium chloride 20 mEq into a 1,000 mL bag of 0.9% sodium chloride that is already hanging and infusing. What should the nurse do?",
+   "options": [
+    "Remind the colleague to invert the bag after injecting the potassium",
+    "Let the colleague continue, since the bag holds a large volume",
+    "Stop the colleague, because potassium added to a hanging bag can pool in a concentrated layer",
+    "Suggest giving the potassium as a slow IV push instead"
+   ],
+   "rationales": [
+    "Inverting a hanging bag does not reliably mix it, and the practice is unsafe.",
+    "Volume does not prevent the concentrated layer from reaching the client.",
+    "Correct. Potassium injected into a hanging bag may not mix and can flow to the client as a concentrated bolus, causing cardiac arrest; premixed solutions are used.",
+    "Potassium is never given by IV push."
+   ],
+   "correct": 2,
+   "takeaway": "Never add potassium to a hanging IV bag and never give it IV push; use premixed solutions on a pump.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with hypokalemia has been taught to increase dietary potassium. Which meal choice indicates that the teaching was effective?",
+   "options": [
+    "Plain white rice, a dinner roll and apple juice",
+    "Baked potato with skin, spinach salad and a banana",
+    "Cream of wheat cereal with blueberries",
+    "Grilled cheese sandwich and cranberry juice"
+   ],
+   "rationales": [
+    "These foods are low in potassium.",
+    "Correct. Potatoes with skin, spinach and bananas are all high in potassium.",
+    "This breakfast is low in potassium.",
+    "This meal is low in potassium."
+   ],
+   "correct": 1,
+   "takeaway": "High-potassium foods include potatoes, leafy greens, bananas, oranges, dried fruit and beans.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with trauma has received 10 units of packed red blood cells over 6 hours. The client now reports tingling around the mouth and has a prolonged QT interval on the monitor. Which explanation is most likely?",
+   "options": [
+    "Citrate in the stored blood has bound the client's calcium",
+    "The transfused blood has caused hyperkalemia",
+    "Sodium in the blood products has caused hypernatremia",
+    "The preservative has caused hypermagnesemia"
+   ],
+   "rationales": [
+    "Correct. Citrate, the anticoagulant in stored blood, binds calcium; massive transfusion can cause hypocalcemia with tingling and a long QT.",
+    "Hyperkalemia causes peaked T waves, not perioral tingling.",
+    "Hypernatremia causes thirst and confusion, not tingling and a long QT.",
+    "Hypermagnesemia causes weakness and low reflexes, not tingling."
+   ],
+   "correct": 0,
+   "takeaway": "Massive transfusion can cause hypocalcemia because citrate binds calcium.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is caring for clients with calcium imbalances. For each finding, indicate whether it is more consistent with hypocalcemia or hypercalcemia.",
+   "rows": [
+    "Positive Trousseau sign",
+    "Kidney stones and constipation",
+    "Laryngeal stridor",
+    "Decreased deep tendon reflexes and muscle weakness",
+    "Prolonged QT interval"
+   ],
+   "columns": [
+    "Hypocalcemia",
+    "Hypercalcemia"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Hypocalcemia. Low calcium makes nerves and muscles excitable, causing carpal spasm.",
+    "Hypercalcemia. Excess calcium forms stones and slows the gut.",
+    "Hypocalcemia. Laryngospasm is a dangerous sign of neuromuscular excitability.",
+    "Hypercalcemia. High calcium depresses nerve and muscle activity.",
+    "Hypocalcemia. Low calcium lengthens the QT; high calcium shortens it."
+   ],
+   "takeaway": "Low calcium = excitable (tetany, stridor, long QT); high calcium = sluggish (weakness, constipation, stones).",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is assessing for Trousseau sign in a client with chronic kidney disease and a low serum calcium. Place the steps in the correct order.",
+   "options": [
+    "Keep the cuff inflated for up to 3 minutes while watching the hand.",
+    "Place a blood pressure cuff on the upper arm.",
+    "Deflate the cuff and document whether carpal spasm occurred.",
+    "Inflate the cuff above the client's systolic pressure."
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Third: carpal spasm (flexed wrist and fingers) may take a few minutes to appear.",
+    "First: the cuff is applied to the upper arm.",
+    "Last: the cuff is released promptly and the result recorded.",
+    "Second: inflating above systolic pressure briefly blocks blood flow to the arm."
+   ],
+   "takeaway": "Trousseau sign: inflate a BP cuff above systolic for up to 3 minutes and watch for carpal spasm.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with hypocalcemia after parathyroid surgery receives IV calcium gluconate. Which finding best indicates that the treatment is effective?",
+   "options": [
+    "The QT interval has become longer than before treatment",
+    "Deep tendon reflexes are now hyperactive",
+    "The client reports new cramps in the hands",
+    "Tingling around the mouth has resolved, and the Trousseau sign is negative"
+   ],
+   "rationales": [
+    "A longer QT suggests worsening hypocalcemia.",
+    "Hyperactive reflexes are a sign of ongoing hypocalcemia.",
+    "New cramps suggest calcium is still low.",
+    "Correct. Resolution of tingling and a negative Trousseau sign show reduced neuromuscular irritability."
+   ],
+   "correct": 3,
+   "takeaway": "Calcium replacement is working when tingling, spasms and positive Chvostek or Trousseau signs resolve.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with cancer has a serum calcium of 13.4 mg/dL. Which prescription should the nurse question?",
+   "options": [
+    "Hydrochlorothiazide 25 mg orally daily",
+    "0.9% sodium chloride IV at 200 mL/hr",
+    "Zoledronic acid IV",
+    "Calcitonin subcutaneously"
+   ],
+   "rationales": [
+    "Correct. Thiazide diuretics reduce calcium excretion and can worsen hypercalcemia.",
+    "IV saline restores volume and increases calcium excretion; it is first-line therapy.",
+    "Bisphosphonates such as zoledronic acid reduce bone resorption and lower calcium.",
+    "Calcitonin lowers calcium quickly."
+   ],
+   "correct": 0,
+   "takeaway": "Hypercalcemia: IV saline, bisphosphonates and calcitonin; avoid thiazides, which retain calcium.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who has been immobile for several weeks after multiple fractures has a serum calcium of 11.0 mg/dL. Which intervention should the nurse include in the plan of care?",
+   "options": [
+    "Increase the client's intake of dairy products",
+    "Keep the client on strict bed rest",
+    "Encourage weight-bearing activity as allowed and adequate fluid intake",
+    "Restrict fluids to 1,000 mL per day"
+   ],
+   "rationales": [
+    "Extra dietary calcium can raise the level further.",
+    "Bed rest is a cause of the bone calcium loss.",
+    "Correct. Immobility releases calcium from bone; weight-bearing slows this, and fluids help the kidneys excrete calcium and prevent stones.",
+    "Restricting fluids concentrates calcium and raises the risk of kidney stones."
+   ],
+   "correct": 2,
+   "takeaway": "Immobility causes hypercalcemia; mobility and fluids help prevent it.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chronic kidney disease has taken a magnesium hydroxide laxative daily for 2 weeks. The serum magnesium is 10.4 mg/dL. Which assessment finding is most concerning?",
+   "options": [
+    "Hyperactive reflexes and hand tremors",
+    "Respiratory rate of 9/min with absent patellar reflexes",
+    "Blood pressure of 142/88 mm Hg",
+    "Positive Chvostek sign"
+   ],
+   "rationales": [
+    "Hyperactive reflexes and tremors suggest low magnesium.",
+    "Correct. High magnesium depresses nerves and muscles; loss of reflexes and slow breathing can progress to respiratory arrest.",
+    "Hypermagnesemia tends to cause hypotension, not hypertension.",
+    "Chvostek sign suggests low calcium or low magnesium."
+   ],
+   "correct": 1,
+   "takeaway": "Clients with kidney failure should avoid magnesium-containing laxatives and antacids; high magnesium causes lost reflexes and respiratory depression.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is caring for clients with magnesium imbalances. For each finding, indicate whether it is more consistent with hypomagnesemia or hypermagnesemia.",
+   "rows": [
+    "Hyperactive deep tendon reflexes and tremor",
+    "Flushing and hypotension",
+    "Torsades de pointes",
+    "Lethargy with a respiratory rate of 8/min"
+   ],
+   "columns": [
+    "Hypomagnesemia",
+    "Hypermagnesemia"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Hypomagnesemia. Low magnesium increases neuromuscular excitability.",
+    "Hypermagnesemia. Magnesium relaxes vascular smooth muscle, causing flushing and low blood pressure.",
+    "Hypomagnesemia. Low magnesium is a classic cause of torsades de pointes.",
+    "Hypermagnesemia. High magnesium depresses the central nervous system and breathing."
+   ],
+   "takeaway": "Low magnesium = excitable (tremor, hyperreflexia, torsades); high magnesium = depressed (lethargy, hypotension, slow breathing).",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a serum magnesium of 1.1 mg/dL is receiving IV magnesium sulfate replacement. Which assessments should the nurse perform during the infusion? Select all that apply.",
+   "options": [
+    "Pupil response to light",
+    "Deep tendon reflexes",
+    "Respiratory rate",
+    "Capillary blood glucose every hour",
+    "Urine output",
+    "Blood pressure"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Pupil checks are not a specific monitoring need for magnesium replacement.",
+    "Correct. Loss of reflexes is an early sign of magnesium excess.",
+    "Correct. Too much magnesium depresses breathing.",
+    "Magnesium does not affect blood glucose, so hourly checks are not needed.",
+    "Correct. Magnesium is cleared by the kidneys; low output raises the risk of toxicity.",
+    "Correct. Magnesium can cause vasodilation and hypotension."
+   ],
+   "takeaway": "During IV magnesium: monitor reflexes, respirations, blood pressure and urine output.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chronic kidney disease has a serum phosphorus of 6.8 mg/dL and is prescribed sevelamer. Which instruction should the nurse give?",
+   "options": [
+    "Take sevelamer at bedtime on an empty stomach",
+    "Take sevelamer 2 hours after each meal",
+    "Drink more milk and cola to help the medication work",
+    "Take sevelamer with meals"
+   ],
+   "rationales": [
+    "On an empty stomach there is no dietary phosphate to bind.",
+    "Taken after meals, much of the phosphate has already been absorbed.",
+    "Dairy and dark colas are high in phosphorus and should be limited.",
+    "Correct. Phosphate binders work in the gut by binding phosphate from food, so they are taken with meals."
+   ],
+   "correct": 3,
+   "takeaway": "Phosphate binders are taken with meals; limit high-phosphorus foods such as dairy and dark colas.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who is anxious about surgery is breathing rapidly and reports lightheadedness and tingling in the fingers. ABG: pH 7.50, PaCO₂ 29 mm Hg, HCO₃⁻ 24 mEq/L, PaO₂ 96 mm Hg. What should the nurse do?",
+   "options": [
+    "Prepare to give IV sodium bicarbonate",
+    "Stay with the client and coach slow, controlled breathing",
+    "Encourage the client to take deep, rapid breaths",
+    "Apply a non-rebreather mask at 15 L/min"
+   ],
+   "rationales": [
+    "Bicarbonate would worsen the alkalosis.",
+    "Correct. Anxiety-driven hyperventilation blows off CO₂ (respiratory alkalosis); calming the client and slowing the breathing corrects the cause.",
+    "Faster breathing would lower CO₂ further.",
+    "Oxygenation is normal; a high-flow mask does not address the cause."
+   ],
+   "correct": 1,
+   "takeaway": "Respiratory alkalosis from anxiety is treated by reducing anxiety and slowing the breathing.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse reviews arterial blood gas results for five clients. For each result, indicate the level of compensation.",
+   "rows": [
+    "pH 7.30, PaCO₂ 52 mm Hg, HCO₃⁻ 24 mEq/L",
+    "pH 7.33, PaCO₂ 56 mm Hg, HCO₃⁻ 30 mEq/L",
+    "pH 7.38, PaCO₂ 58 mm Hg, HCO₃⁻ 33 mEq/L",
+    "pH 7.52, PaCO₂ 41 mm Hg, HCO₃⁻ 33 mEq/L",
+    "pH 7.47, PaCO₂ 48 mm Hg, HCO₃⁻ 34 mEq/L"
+   ],
+   "columns": [
+    "Uncompensated",
+    "Partially compensated",
+    "Fully compensated"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    0,
+    1
+   ],
+   "rationales": [
+    "Uncompensated. Respiratory acidosis with a normal HCO₃⁻: the kidneys have not responded yet.",
+    "Partially compensated. Respiratory acidosis; HCO₃⁻ is rising but pH is still abnormal.",
+    "Fully compensated. pH is normal (on the acid side), with high PaCO₂ and matching high HCO₃⁻.",
+    "Uncompensated. Metabolic alkalosis with a normal PaCO₂.",
+    "Partially compensated. Metabolic alkalosis; PaCO₂ is rising to compensate but pH is still abnormal."
+   ],
+   "takeaway": "Compensation: uncompensated = other value normal; partial = other value moving but pH abnormal; full = pH back in 7.35 to 7.45.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a suspected pulmonary embolism has a respiratory rate of 30/min. ABG: pH 7.49, PaCO₂ 30 mm Hg, HCO₃⁻ 23 mEq/L, PaO₂ 68 mm Hg. How should the nurse interpret these results?",
+   "options": [
+    "Metabolic alkalosis, uncompensated",
+    "Respiratory acidosis, partially compensated",
+    "Respiratory alkalosis, uncompensated",
+    "Respiratory alkalosis, fully compensated"
+   ],
+   "rationales": [
+    "HCO₃⁻ is normal, so the cause is not metabolic.",
+    "The pH is alkalotic, not acidotic.",
+    "Correct. High pH with low PaCO₂ is respiratory alkalosis; HCO₃⁻ is normal, so there is no compensation yet.",
+    "pH is outside the normal range, so it is not fully compensated."
+   ],
+   "correct": 2,
+   "takeaway": "Rapid breathing from hypoxemia (such as PE) causes respiratory alkalosis: high pH, low PaCO₂.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chronic kidney disease has these ABG results: pH 7.29, PaCO₂ 30 mm Hg, HCO₃⁻ 15 mEq/L. How should the nurse interpret these results?",
+   "options": [
+    "Metabolic acidosis, partially compensated",
+    "Metabolic acidosis, uncompensated",
+    "Respiratory acidosis, partially compensated",
+    "Respiratory alkalosis, fully compensated"
+   ],
+   "rationales": [
+    "Correct. Low pH with low HCO₃⁻ is metabolic acidosis; the low PaCO₂ shows the lungs are compensating, but pH is still abnormal.",
+    "PaCO₂ is low, so the lungs are already compensating.",
+    "In respiratory acidosis the PaCO₂ would be high.",
+    "The pH is acidotic and outside the normal range."
+   ],
+   "correct": 0,
+   "takeaway": "Kidney failure causes metabolic acidosis; a falling PaCO₂ is the lungs' compensation.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with diabetic ketoacidosis had an admission ABG of pH 7.18, PaCO₂ 24 mm Hg, HCO₃⁻ 9 mEq/L. After 12 hours of IV fluids and insulin, which ABG result best indicates that treatment is effective?",
+   "options": [
+    "pH 7.15, PaCO₂ 22 mm Hg, HCO₃⁻ 8 mEq/L",
+    "pH 7.20, PaCO₂ 45 mm Hg, HCO₃⁻ 17 mEq/L",
+    "pH 7.22, PaCO₂ 26 mm Hg, HCO₃⁻ 10 mEq/L",
+    "pH 7.33, PaCO₂ 33 mm Hg, HCO₃⁻ 18 mEq/L"
+   ],
+   "rationales": [
+    "The acidosis has worsened.",
+    "The PaCO₂ is now high, showing a new respiratory problem, and pH is still very low.",
+    "This shows almost no improvement from admission.",
+    "Correct. pH and HCO₃⁻ are moving toward normal, and PaCO₂ is rising as less compensation is needed."
+   ],
+   "correct": 3,
+   "takeaway": "In DKA, improvement means rising pH and HCO₃⁻, with PaCO₂ returning toward normal.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client has had vomiting and poor oral intake for 3 days. Which laboratory findings support a fluid volume deficit? Select all that apply.",
+   "options": [
+    "Hematocrit 52%",
+    "Urine specific gravity 1.003",
+    "BUN 38 mg/dL with creatinine 1.0 mg/dL",
+    "Urine specific gravity 1.032",
+    "Serum albumin 2.4 g/dL"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Loss of plasma volume concentrates red cells (hemoconcentration).",
+    "Dilute urine suggests fluid excess or inability to concentrate, not deficit.",
+    "Correct. A BUN rise out of proportion to creatinine suggests dehydration.",
+    "Correct. Concentrated urine shows the kidneys are conserving water.",
+    "Low albumin suggests malnutrition or dilution, not concentration."
+   ],
+   "takeaway": "Fluid volume deficit concentrates the blood and urine: high hematocrit, high BUN-to-creatinine ratio, high specific gravity.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "An 82-year-old client with heart failure is receiving a 1,000 mL bolus of 0.9% sodium chloride for hypotension. Which finding should prompt the nurse to stop the bolus and notify the provider?",
+   "options": [
+    "Blood pressure rising from 88/50 to 102/60 mm Hg",
+    "Urine output increasing to 50 mL/hr",
+    "New crackles in both lung bases, with SpO₂ falling from 96% to 90%",
+    "Heart rate decreasing from 112 to 96/min"
+   ],
+   "rationales": [
+    "A rising blood pressure is the intended effect of the bolus.",
+    "Increasing urine output shows improved perfusion.",
+    "Correct. Crackles and falling oxygen saturation are signs of fluid overload and pulmonary congestion.",
+    "A falling heart rate suggests improved volume status."
+   ],
+   "correct": 2,
+   "takeaway": "Monitor older adults and clients with heart failure closely during fluid boluses for crackles, dyspnea and falling SpO₂.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with heart failure has crackles in both lungs, 3+ ankle edema and a weight gain of 3 kg (6.6 lb) over 4 days. The serum sodium is 128 mEq/L. Which prescription should the nurse question?",
+   "rationales": [
+    "A loop diuretic removes the excess fluid and is appropriate.",
+    "Correct. This low sodium is dilutional, caused by excess water in a client who is fluid overloaded; continuous saline adds sodium and volume and would worsen the pulmonary congestion.",
+    "Fluid restriction treats dilutional hyponatremia in heart failure and is appropriate.",
+    "Daily weights track fluid gain and loss and are appropriate."
+   ],
+   "correct": 1,
+   "takeaway": "Hyponatremia with fluid overload is dilutional: treat the extra water with diuretics and fluid restriction, not saline.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "options": [
+    "Furosemide 40 mg IV twice daily",
+    "0.9% sodium chloride IV at 125 mL/hr",
+    "Fluid restriction of 1,500 mL per day",
+    "Daily weight before breakfast on the same scale"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "For each client, indicate the type of IV solution the nurse should anticipate.",
+   "rows": [
+    "A client with burns over 30% of the body in the first hours after injury",
+    "A client with hypernatremia from water loss who cannot drink",
+    "A client with a serum sodium of 112 mEq/L who is having a seizure",
+    "A client with hypotension after 2 days of vomiting"
+   ],
+   "columns": [
+    "Isotonic",
+    "Hypotonic",
+    "Hypertonic"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Isotonic. Burn resuscitation uses isotonic crystalloid, usually lactated Ringer's, to restore intravascular volume.",
+    "Hypotonic. Free water from a hypotonic solution corrects water-loss hypernatremia, given slowly.",
+    "Hypertonic. Severe symptomatic hyponatremia is treated with carefully controlled hypertonic saline.",
+    "Isotonic. 0.9% sodium chloride or lactated Ringer's expands intravascular volume."
+   ],
+   "takeaway": "Isotonic fluids replace vascular volume; hypotonic fluids give free water to cells; hypertonic saline treats severe symptomatic hyponatremia.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse delegated daily weights for a client with heart failure to unlicensed assistive personnel (UAP). Which action by the UAP requires the nurse to intervene?",
+   "options": [
+    "Weighing the client after breakfast on a different scale than yesterday",
+    "Weighing the client before breakfast after the client voids",
+    "Using the same scale that was used the day before",
+    "Weighing the client in a hospital gown, as on the previous day"
+   ],
+   "rationales": [
+    "Correct. Changing the time, meal timing and scale makes the weights inaccurate for tracking fluid changes.",
+    "Weighing before breakfast after voiding is the correct method.",
+    "Using the same scale gives comparable results.",
+    "Similar clothing each day keeps weights comparable."
+   ],
+   "correct": 0,
+   "takeaway": "Daily weights: same time, same scale, similar clothing, before breakfast after voiding; 1 kg is about 1 L of fluid.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with cirrhosis has a total serum calcium of 7.6 mg/dL and a serum albumin of 2.0 g/dL. The client has no tingling, cramps or ECG changes. What should the nurse do?",
+   "options": [
+    "Prepare to give IV calcium chloride rapidly",
+    "Start seizure precautions for severe hypocalcemia",
+    "Restrict dietary calcium until the level rises",
+    "Recognize that low albumin lowers total calcium and anticipate an ionized calcium level"
+   ],
+   "rationales": [
+    "Rapid IV calcium is not indicated for a likely normal ionized calcium without symptoms.",
+    "The client has no signs of true hypocalcemia.",
+    "Restricting calcium would make no sense if calcium were truly low.",
+    "Correct. Much of calcium is bound to albumin, so low albumin lowers the total calcium; the ionized calcium shows the active level."
+   ],
+   "correct": 3,
+   "takeaway": "Low albumin falsely lowers total calcium; check ionized calcium before treating.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "In the first 24 hours after a major burn, which findings does the nurse expect because of the fluid shift? Select all that apply.",
+   "options": [
+    "Elevated hematocrit",
+    "Low serum potassium",
+    "Edema",
+    "Decreased urine output",
+    "Elevated serum potassium",
+    "Bounding pulses and distended neck veins"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Plasma leaks out of capillaries, concentrating red cells.",
+    "Potassium is typically high early, from damaged cells; low potassium is more likely later.",
+    "Correct. Fluid moves from the vascular space into the tissues.",
+    "Correct. Reduced circulating volume lowers kidney perfusion.",
+    "Correct. Damaged cells release potassium.",
+    "These are signs of fluid excess, which is more likely during the later remobilization phase."
+   ],
+   "takeaway": "Early burn phase: capillary leak, hypovolemia, hemoconcentration, hyperkalemia and low urine output.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Two days after a bowel resection, a client has gained 3 kg (6.6 lb) and has new generalized edema. Blood pressure is 92/58 mm Hg, heart rate is 118/min and urine output is 20 mL/hr. The lungs are clear, and the neck veins are flat. Which explanation is most likely?",
+   "rationales": [
+    "Correct. After major surgery, fluid can leak into the tissues (third spacing): weight and edema increase while the vascular space is depleted, causing hypotension, tachycardia, flat neck veins and low urine output.",
+    "Intravascular excess would cause high blood pressure, distended neck veins and crackles, not hypotension with flat neck veins.",
+    "SIADH retains water in the vascular space and does not cause hypotension, tachycardia and edema.",
+    "Urinary retention does not explain the hypotension, tachycardia and edema."
+   ],
+   "correct": 0,
+   "takeaway": "Third spacing: weight gain and edema can occur alongside intravascular hypovolemia (hypotension, tachycardia, flat neck veins, low urine output).",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "options": [
+    "Fluid has shifted into the interstitial space, leaving too little volume in the vessels",
+    "Excess IV fluid has caused intravascular fluid volume excess",
+    "Syndrome of inappropriate antidiuretic hormone has caused water retention",
+    "Urinary retention is causing the low urine output"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client admitted with fluid volume deficit after 3 days of vomiting has received 2 L of 0.9% sodium chloride. Which finding best indicates that fluid replacement is effective?",
+   "rationales": [
+    "A high specific gravity shows the kidneys are still conserving water.",
+    "A large rise in heart rate on standing shows ongoing volume depletion.",
+    "Correct. Adequate urine output and no orthostatic symptoms show that circulating volume and kidney perfusion have improved.",
+    "A rising BUN suggests continuing dehydration or reduced kidney perfusion."
+   ],
+   "correct": 2,
+   "takeaway": "Fluid replacement is working when urine output is adequate and orthostatic symptoms resolve.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "options": [
+    "Urine specific gravity of 1.034",
+    "Heart rate rising from 104 to 122/min when standing",
+    "Urine output of 60 mL/hr with no dizziness when standing",
+    "BUN rising from 30 to 36 mg/dL"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is planning care for residents of a long-term care facility. Which factors increase an older adult's risk for dehydration? Select all that apply.",
+   "options": [
+    "Diminished thirst sensation",
+    "Higher percentage of total body water than younger adults",
+    "Reduced ability of the kidneys to concentrate urine",
+    "Daily diuretic use",
+    "Cognitive impairment that limits asking for fluids",
+    "Increased muscle mass with aging"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Thirst declines with age, so older adults drink less even when low on fluid.",
+    "Older adults have a lower percentage of body water, which leaves less reserve.",
+    "Correct. Aging kidneys conserve water less effectively.",
+    "Correct. Diuretics increase fluid loss.",
+    "Correct. Clients who cannot express thirst or reach fluids depend on staff for intake.",
+    "Muscle mass, which holds water, decreases with aging."
+   ],
+   "takeaway": "Older adults dehydrate easily: less thirst, less body water, weaker urine concentration, diuretics and cognitive impairment.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is measuring orthostatic vital signs for an older adult with suspected dehydration. Place the steps in the correct order.",
+   "options": [
+    "Measure blood pressure and pulse again within 1 to 3 minutes of standing.",
+    "Measure blood pressure and pulse with the client supine.",
+    "Assist the client to stand, staying close to prevent a fall.",
+    "Have the client lie supine for at least 5 minutes."
+   ],
+   "correct": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Last: a drop in systolic pressure of 20 mm Hg or more, or a marked rise in pulse, suggests volume depletion.",
+    "Second: the supine readings are the comparison values.",
+    "Third: the client stands with assistance because dizziness or fainting can occur.",
+    "First: resting supine gives a stable baseline."
+   ],
+   "takeaway": "Orthostatic vital signs: supine rest, supine readings, stand with help, repeat within 1 to 3 minutes.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with multiple myeloma has a serum calcium of 12.6 mg/dL, bone pain and generalized weakness. Which action should the nurse take to keep the client safe?",
+   "rationales": [
+    "Walking alone with weakness and fragile bones risks a fall and fracture.",
+    "Fluids are encouraged, not restricted, in hypercalcemia to help the kidneys excrete calcium and prevent stones.",
+    "Correct. Bone destruction that releases calcium also weakens bones; gentle handling and fall precautions reduce the risk of pathologic fractures in a weak client.",
+    "Forceful resistance exercise can fracture weakened bone."
+   ],
+   "correct": 2,
+   "takeaway": "Hypercalcemia from bone destruction means fragile bones and weakness: handle gently and prevent falls.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "options": [
+    "Encourage the client to walk to the bathroom alone to build strength",
+    "Limit the client's fluid intake to 1,000 mL per day",
+    "Move the client gently with a lift sheet and keep fall precautions in place",
+    "Perform range-of-motion exercises against firm resistance"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is planning care to prevent dehydration in an 88-year-old resident with dementia in a long-term care facility. Which actions should the nurse include? Select all that apply.",
+   "options": [
+    "Offer preferred fluids at regular intervals throughout the day.",
+    "Wait for the resident to say they are thirsty before offering fluids.",
+    "Keep a filled cup within the resident's reach.",
+    "Help the resident drink when needed.",
+    "Offer fluids only at mealtimes.",
+    "Record intake to track daily totals."
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Scheduled offers of preferred drinks increase intake.",
+    "Older adults with dementia often do not sense or report thirst.",
+    "Correct. Fluids within reach make drinking easier.",
+    "Correct. Residents with cognitive or physical limits may need help to drink.",
+    "Mealtime-only fluids leave long gaps without intake.",
+    "Correct. Intake records show whether the resident is meeting fluid goals."
+   ],
+   "takeaway": "Prevent dehydration in older adults by offering preferred fluids on a schedule, keeping drinks in reach and tracking intake.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fluids-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fluids & Electrolytes",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with heart failure has a fluid restriction of 1,500 mL/day. Which measures help the client cope with thirst? Select all that apply.",
+   "options": [
+    "Provide frequent oral care.",
+    "Offer sugar-free hard candy or gum.",
+    "Use an alcohol-based mouthwash.",
+    "Offer ice chips and count them toward the daily intake.",
+    "Spread the allowed fluid across the day.",
+    "Save most of the fluid allowance for bedtime."
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Oral care keeps the mouth moist and comfortable.",
+    "Correct. Hard candy or gum stimulates saliva and eases dry mouth.",
+    "Alcohol dries the mouth and worsens thirst.",
+    "Correct. Ice chips relieve thirst with small volumes, and counting them keeps the restriction accurate.",
+    "Correct. Spacing fluids avoids long periods of thirst.",
+    "Saving fluid for night leaves the client thirsty during the day and can disturb sleep."
+   ],
+   "takeaway": "Fluid restriction comfort: oral care, sugar-free candy or gum, counted ice chips and fluids spread over the day.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

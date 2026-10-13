@@ -1,0 +1,104 @@
+{
+ "file": "content/nclex/v4/pharmacology.json",
+ "reviewed": 60,
+ "ok": 41,
+ "fixed": 6,
+ "rewritten": 13,
+ "items": [
+  {
+   "id": "rnr:pharmacology-002",
+   "status": "rewritten",
+   "note": "Duplicated an existing bank item (nb:nb26-card-002, ACE-inhibitor angioedema with lip/tongue swelling -> airway/emergency help). Rewritten on the same drug as first-dose hypotension in a diuretic-treated client."
+  },
+  {
+   "id": "rnr:pharmacology-009",
+   "status": "rewritten",
+   "note": "Duplicated rnr:msk-010 (enoxaparin prefilled syringe: leave the air bubble in). Rewritten on enoxaparin's boxed warning: recognizing and reporting a possible spinal/epidural hematoma after neuraxial anesthesia."
+  },
+  {
+   "id": "rnr:pharmacology-015",
+   "status": "fixed",
+   "note": "Row 3 (\"never mix glargine with another insulin\") repeated the same fact as nb:nb26-endo-002 (glargine must not be mixed with aspart). Replaced with a statement about consistent daily timing of basal insulin; key unchanged."
+  },
+  {
+   "id": "rnr:pharmacology-016",
+   "status": "rewritten",
+   "note": "Duplicated nb:nb26-endo-010 (hypoglycemia rule-of-15 ordered response, same steps). Rewritten as an ordered-response item on giving an IV push medication through a saline lock."
+  },
+  {
+   "id": "rnr:pharmacology-019",
+   "status": "rewritten",
+   "note": "Duplicated nb:nb26-resp-006 (client wants to stop a prednisone taper early; taper so the adrenals recover). Rewritten as an evaluate-outcomes teaching item on sucralfate timing and drug separation."
+  },
+  {
+   "id": "rnr:pharmacology-024",
+   "status": "rewritten",
+   "note": "Duplicated several existing C. difficile infection-control items (nb:nb26-infx-025, nb:u2-safe-003, nb:safe-03; not a pharmacology fact). Rewritten as a medication-safety SATA on preventing enteral/IV wrong-route errors; clientNeed kept safety."
+  },
+  {
+   "id": "rnr:pharmacology-025",
+   "status": "fixed",
+   "note": "Scenario was nearly identical to nb:nb-heme-02 (first dose of IV cefazolin, hives, throat tightness, BP 80s). Changed the drug to piperacillin-tazobactam so the item is a distinct situation; key (stop the infusion first) unchanged."
+  },
+  {
+   "id": "rnr:pharmacology-026",
+   "status": "rewritten",
+   "note": "Same fact as nb:nb26-pain-001 (client drifting off mid-sentence on hydromorphone: sedation precedes respiratory depression, hold the dose). Rewritten as a recognize-cues item distinguishing opioid pruritus from allergy; difficulty lowered to 2/Apply to match."
+  },
+  {
+   "id": "rnr:pharmacology-027",
+   "status": "rewritten",
+   "note": "Duplicated nb:pharm-08 (respiratory depression on opioids: dilute naloxone and titrate in small IV doses; same correct answer and 2-mg rapid-push distractor). Rewritten on home naloxone nasal spray teaching."
+  },
+  {
+   "id": "rnr:pharmacology-033",
+   "status": "fixed",
+   "note": "Added ags-beers reference (strong anticholinergics in older adults is a Beers Criteria recommendation)."
+  },
+  {
+   "id": "rnr:pharmacology-034",
+   "status": "fixed",
+   "note": "Added ags-beers reference (older adult on a strong anticholinergic)."
+  },
+  {
+   "id": "rnr:pharmacology-041",
+   "status": "rewritten",
+   "note": "Duplicated nb:nb26-core-049 (medication given to the wrong client: chart the facts, do not mention the incident report). Rewritten as a management-of-care item on witnessing controlled-substance waste; clientNeed kept moc."
+  },
+  {
+   "id": "rnr:pharmacology-044",
+   "status": "rewritten",
+   "note": "Duplicated rnr:ethics-036 and rnr:leadership-048 (write down and read back a verbal/telephone prescription; options nearly identical to ethics-036). Rewritten on confirming informed consent before an investigational drug; clientNeed kept moc."
+  },
+  {
+   "id": "rnr:pharmacology-048",
+   "status": "rewritten",
+   "note": "Duplicated rnr:heme-010 (warfarin for AF, INR in the 2-3 range, give the dose). Rewritten as an evaluate-outcomes lab item on statin effect (LDL) versus statin adverse effects; clientNeed kept rrp."
+  },
+  {
+   "id": "rnr:pharmacology-055",
+   "status": "rewritten",
+   "note": "Duplicated rnr:heme-005 (vesicant infusion with burning and swelling: stop the infusion first; same options). Rewritten on correct nitroglycerin transdermal patch application."
+  },
+  {
+   "id": "rnr:pharmacology-057",
+   "status": "rewritten",
+   "note": "Duplicated rnr:heme-003 (same transfusion-reaction scenario and same four ordered steps). Rewritten as an ordered-response item on giving eye drops and eye ointment; difficulty set to 2/Apply to match."
+  },
+  {
+   "id": "rnr:pharmacology-058",
+   "status": "rewritten",
+   "note": "Duplicated existing TACO-identification items (nb:ccrn-heme-02, nb:ccrnx-029, heme-transfusion-q8). Rewritten as a prioritize-hypotheses item on intracranial bleeding in an anticoagulated older adult after a fall."
+  },
+  {
+   "id": "rnr:pharmacology-059",
+   "status": "fixed",
+   "note": "Row 4 (potassium 2.9 -> hold) repeated the hypokalemia-digoxin toxicity fact already tested by rnr:pharmacology-001 and nb:u2-rrp-011. Replaced with an irregular rate of 70/min in atrial fibrillation (give); key and takeaway updated."
+  },
+  {
+   "id": "rnr:pharmacology-060",
+   "status": "fixed",
+   "note": "Takeaway said only \"overlap until the INR is therapeutic\"; added the standard minimum 5-day overlap for VTE."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "file": "content/nclex/v4/immuno.json",
+ "reviewed": 45,
+ "ok": 24,
+ "fixed": 10,
+ "rewritten": 11,
+ "items": [
+  {
+   "id": "rnr:immuno-001",
+   "status": "rewritten",
+   "note": "Same fact as existing nb:safe-01 (PPE donning sequence gown-mask-goggles-gloves). Rewritten as the sequence for putting on and seal-checking a disposable N95 respirator (CDC/NIOSH); same id, labels and type."
+  },
+  {
+   "id": "rnr:immuno-002",
+   "status": "rewritten",
+   "note": "Near-duplicate of existing nb:nb-integ-04 (client on chemotherapy with zoster on multiple dermatomes: airborne + contact). Rewritten as precautions for norovirus in an incontinent client (CDC 2007 Appendix A: contact precautions for incontinent/diapered clients and outbreaks); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-003",
+   "status": "fixed",
+   "note": "The keyed return-to-work rule (\"fever-free 24 hours\") is no longer the full CDC criterion: CDC's healthcare-personnel guidance for viral respiratory infections (updated 2025-2026) adds at least 3 days from symptom onset and improving symptoms. Since the criteria recently changed, the key now tests the stable concept (stay home and follow employee health return criteria) without numbers."
+  },
+  {
+   "id": "rnr:immuno-005",
+   "status": "rewritten",
+   "note": "Near-verbatim duplicate of existing nb:nb26-infx-024 (C. difficile room disinfection with a sporicidal product). Rewritten as preparing a client on contact precautions for transport (CDC 2007: cover/contain the site, remove used PPE before transport); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-007",
+   "status": "rewritten",
+   "note": "Same facts as existing nb:u2-safe-002 and nb:nb26-infx-038 (needlestick first aid and reporting). Rewritten as respiratory hygiene/cough etiquette measures in an outpatient waiting room (CDC 2007 standard precautions element); same id, labels and type."
+  },
+  {
+   "id": "rnr:immuno-009",
+   "status": "rewritten",
+   "note": "Same fact as existing nb:nb26-core-006 (banana/avocado/kiwi cross-reactivity with latex). Rewritten as recognizing the highest-risk client for latex allergy (spina bifida with repeated surgeries and catheterization); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-012",
+   "status": "rewritten",
+   "note": "Same facts as existing nb:nb26-sabc-005 (no two-handed recapping, activate safety device, point-of-use disposal, three-quarters-full container). Rewritten as evaluating a protective environment for an allogeneic stem cell transplant client (CDC 2007: no fresh or dried flowers or potted plants); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-014",
+   "status": "fixed",
+   "note": "cjmm label was prioritizeHypotheses, but the item sequences actions once TB is already suspected; relabeled takeAction."
+  },
+  {
+   "id": "rnr:immuno-018",
+   "status": "fixed",
+   "note": "Rationale for perinatal transmission said it is prevented by \"newborn vaccine and immune globulin\" generally; the CDC hepatitis B birth-dose recommendation for infants of HBsAg-negative mothers changed in 2025-2026, so the rationale now refers only to the stable recommendation for infants of mothers with hepatitis B. Takeaway reworded to testing and offering vaccine to susceptible contacts."
+  },
+  {
+   "id": "rnr:immuno-019",
+   "status": "fixed",
+   "note": "Rationale said influenza vaccine is recommended \"for everyone 6 months and older\"; CDC moved pediatric influenza vaccination to shared clinical decision-making in January 2026 (disputed by AAP), so wording now refers to adults only. Takeaway implied a complete list for age 50+, although pneumococcal (lowered to 50 in 2024) and hepatitis B (19-59) are also on the adult schedule; reworded so it does not claim completeness. Key unchanged and verified against the current CDC adult schedule (RZV at 50+, Td/Tdap every 10 years, LAIV only through 49, HPV not recommended after 45)."
+  },
+  {
+   "id": "rnr:immuno-020",
+   "status": "fixed",
+   "note": "Rationale and takeaway said influenza vaccine is recommended \"for everyone 6 months and older\"; CDC moved pediatric influenza vaccination to shared clinical decision-making in January 2026 (disputed), so wording now refers to adults, which is unchanged and is what the item tests."
+  },
+  {
+   "id": "rnr:immuno-023",
+   "status": "fixed",
+   "note": "Keyed option was much longer than the distractors (length cue). Shortened the key and lengthened the distractors to similar length."
+  },
+  {
+   "id": "rnr:immuno-025",
+   "status": "rewritten",
+   "note": "Same fact as existing nb:nb26-repr-003 (rifampin reduces combined oral contraceptive effectiveness; use a nonhormonal method). Rewritten as dolutegravir-antacid spacing (DailyMed: 2 hours before or 6 hours after polyvalent-cation antacids); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-026",
+   "status": "rewritten",
+   "note": "Same fact as existing rnr:renal-019 (tacrolimus teaching: avoid grapefruit). Rewritten as verifying a negative HLA-B*5701 result before abacavir (DailyMed boxed warning); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-029",
+   "status": "rewritten",
+   "note": "Same item as existing rnr:shock-042 (epinephrine auto-injector teaching SATA); its \"call emergency services after every use\" key is also no longer absolute under the 2023 AAAAI/ACAAI anaphylaxis practice parameter. Rewritten as IV immune globulin administration (DailyMed boxed warning: hydration, slow rate, monitoring); same id, labels and type."
+  },
+  {
+   "id": "rnr:immuno-032",
+   "status": "rewritten",
+   "note": "Same fact as existing nb:nb-resp-06 (BCG-vaccinated employee: IGRA preferred). Rewritten as the recommended initial laboratory HIV screening test (HIV-1/2 antigen/antibody combination immunoassay); same id, labels and key position."
+  },
+  {
+   "id": "rnr:immuno-037",
+   "status": "fixed",
+   "note": "Rationale said clients are \"observed for several hours\"; the 2023 anaphylaxis practice parameter allows a shorter observation for prompt, complete responders and extended observation for severe reactions. Reworded so the key rests on the undisputed point (30 minutes is too soon to go home; biphasic reactions occur)."
+  },
+  {
+   "id": "rnr:immuno-041",
+   "status": "rewritten",
+   "note": "Same item as existing rnr:shock-026 (septic shock reassessment matrix: MAP 70, urine output, mottling, lactate, mental status). Rewritten as evaluating response to treatment for Pneumocystis pneumonia; same id, labels and type."
+  },
+  {
+   "id": "rnr:immuno-042",
+   "status": "fixed",
+   "note": "Keyed option was much longer than the distractors (length cue). Shortened the key and lengthened the distractors to similar length and detail."
+  },
+  {
+   "id": "rnr:immuno-043",
+   "status": "fixed",
+   "note": "Reference ncsbn-delegation did not support a prioritization item with no delegation content; removed it."
+  },
+  {
+   "id": "rnr:immuno-045",
+   "status": "fixed",
+   "note": "Keyed option was much longer than the distractors (length cue). Shortened the key and lengthened the distractors to similar length."
+  }
+ ]
+}

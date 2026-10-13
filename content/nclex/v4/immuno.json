@@ -1,0 +1,1577 @@
+{
+ "topic": "immuno",
+ "questions": [
+  {
+   "id": "rnr:immuno-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is preparing to enter an airborne infection isolation room and is putting on a disposable N95 respirator. Place the steps in the correct order, starting with the first.",
+   "options": [
+    "Mold the metal nosepiece to the bridge of the nose with the fingertips of both hands",
+    "Perform hand hygiene",
+    "Cover the respirator with both hands and exhale gently to check for air leaks",
+    "Hold the respirator in the palm and place it over the nose and mouth with the nosepiece at the top",
+    "Position the straps, one high on the back of the head and one around the neck below the ears"
+   ],
+   "rationales": [
+    "The nosepiece is molded after the straps hold the respirator in place, so it seals over the bridge of the nose.",
+    "Hand hygiene comes first so clean hands handle the respirator.",
+    "A user seal check is the last step every time the respirator is put on; leaks mean the respirator is adjusted before entering.",
+    "The respirator is cupped over the nose and mouth before the straps are placed.",
+    "The straps secure the respirator before the nosepiece is shaped; both straps are used."
+   ],
+   "correct": [
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "takeaway": "N95 on: hand hygiene, cup it over nose and mouth, place both straps, mold the nosepiece, then do a user seal check every time.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client from a long-term care facility is admitted with vomiting and frequent watery stools. A stool test is positive for norovirus, and the client is incontinent of stool. Which precautions should the nurse implement in addition to standard precautions?",
+   "options": [
+    "Contact precautions with a gown and gloves for care",
+    "Airborne precautions in a negative-pressure room",
+    "Droplet precautions with a surgical mask for care",
+    "Protective environment with positive-pressure air flow"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Norovirus spreads by the fecal-oral route through hands and contaminated surfaces; contact precautions are used for incontinent clients and during outbreaks.",
+    "Norovirus is not an airborne pathogen that requires a negative-pressure room.",
+    "Droplet precautions alone do not address the main route, which is contact with stool, vomitus and contaminated surfaces.",
+    "A protective environment is for severely immunocompromised clients such as stem cell transplant recipients; it does not contain an infection."
+   ],
+   "takeaway": "Norovirus in an incontinent client calls for contact precautions; the main route is hands and surfaces contaminated with stool or vomitus.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A staff nurse calls the unit before a shift to report a temperature of 38.6°C (101.5°F), cough and body aches that started overnight. What should the charge nurse tell the nurse?",
+   "options": [
+    "Come to work wearing a surgical mask and avoid immunocompromised clients",
+    "Stay home and contact employee health about when it is safe to return",
+    "Take acetaminophen and come in if the temperature falls below 38°C",
+    "Come to work and be tested for influenza during the shift"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Working while febrile risks spreading a respiratory virus to clients and staff even with a mask.",
+    "Correct. Health care workers with fever and respiratory symptoms are excluded from work and return only when they meet employee health criteria, which include being fever-free without antipyretics and improving.",
+    "Masking a fever with medication does not reduce contagiousness.",
+    "Coming to work while febrile exposes clients and staff before results are available."
+   ],
+   "takeaway": "Staff with fever and respiratory symptoms stay home and return only when they meet employee health criteria.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with suspected pulmonary tuberculosis is in an airborne infection isolation room. For each nursing action, indicate whether it is indicated or not indicated.",
+   "rows": [
+    "Keep the room door closed except when entering or leaving",
+    "Wear a surgical mask when providing care",
+    "Perform a user seal check each time the N95 respirator is put on",
+    "Prop the door open so the client can be observed from the hallway",
+    "Teach the client to cover the mouth and nose when coughing"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "A closed door maintains negative pressure so air flows into the room, not out to the hallway.",
+    "Surgical masks do not filter airborne droplet nuclei; staff need a fit-tested N95 or higher-level respirator.",
+    "A seal check each time confirms the respirator fits closely before entering.",
+    "An open door defeats negative pressure and lets infectious particles escape.",
+    "Respiratory hygiene reduces the release of infectious particles."
+   ],
+   "takeaway": "Airborne isolation means negative pressure with the door closed and a fit-tested, seal-checked N95 for staff.",
+   "refs": [
+    "cdc-isolation",
+    "cdc-tb"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a draining abdominal wound infected with vancomycin-resistant Enterococcus (VRE) is on contact precautions and needs a CT scan. Which action should the nurse take before transport?",
+   "options": [
+    "Keep on the gown and gloves used in the room while pushing the stretcher through the halls",
+    "Ask the provider to postpone the CT scan until wound cultures are negative",
+    "Cover the wound with a clean dressing and notify radiology that the client is on contact precautions",
+    "Place an N95 respirator on the client to contain the organism during transport"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Used PPE is removed and hand hygiene performed before transport; contaminated gowns and gloves spread organisms to hallway surfaces.",
+    "Needed diagnostic tests are not delayed for colonization or infection; the organism is contained instead.",
+    "Correct. Containing and covering the infected site and alerting the receiving department lets the test proceed safely; staff at the destination put on clean PPE to handle the client.",
+    "VRE is spread by contact, not through the air; a respirator on the client does not contain a wound organism."
+   ],
+   "takeaway": "For transport on contact precautions: contain and cover the infected site, remove used PPE, perform hand hygiene and alert the receiving area.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is caring for a client with an MRSA wound infection on contact precautions. Which actions are correct? Select all that apply.",
+   "options": [
+    "Put on a gown and gloves before entering the room",
+    "Wear a fit-tested N95 respirator for all care",
+    "Use a dedicated stethoscope and blood pressure cuff for this client",
+    "Remove the gown and gloves in the hallway after leaving the room",
+    "Perform hand hygiene after removing gloves",
+    "Keep the door closed at all times"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Gown and gloves are put on at entry because the client and environment may be contaminated.",
+    "MRSA in a wound is spread by contact; a respirator is not required.",
+    "Correct. Dedicated equipment prevents carrying the organism to other clients.",
+    "PPE is removed before leaving the room, at the doorway, so contamination stays inside.",
+    "Correct. Hands can be contaminated during glove removal.",
+    "A closed door is required for airborne precautions, not contact precautions."
+   ],
+   "takeaway": "Contact precautions: gown and gloves on entry, dedicated equipment, remove PPE before exiting and perform hand hygiene.",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "During respiratory virus season, the nurse in an outpatient clinic is setting up the waiting room for respiratory hygiene and cough etiquette. Which measures should the nurse put in place? Select all that apply.",
+   "options": [
+    "Offer a surgical mask to clients who are coughing",
+    "Provide tissues and no-touch waste containers",
+    "Remove tissue boxes so the waiting room stays tidy",
+    "Place alcohol-based hand rub where clients can reach it",
+    "Seat coughing clients away from others when space allows",
+    "Ask clients to take off their masks while waiting so they breathe comfortably"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Masking a coughing client contains respiratory secretions at the source.",
+    "Correct. Tissues and hands-free disposal let clients cover coughs and discard tissues safely.",
+    "Tissues are a core part of respiratory hygiene and should be available.",
+    "Correct. Hand hygiene after coughing or touching tissues reduces spread by the hands.",
+    "Correct. Spatial separation reduces exposure of other clients to respiratory droplets.",
+    "Masks are kept on by coughing clients to protect others in the waiting area."
+   ],
+   "takeaway": "Respiratory hygiene: masks for coughing clients, tissues with no-touch disposal, hand rub within reach and seating separation.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse manager of an oncology unit is observing staff during hand hygiene audits. Which observation requires follow-up?",
+   "options": [
+    "A nurse uses alcohol-based hand rub before entering a room",
+    "A nurse washes with soap and water after caring for a client with diarrhea",
+    "A nurse rubs hand sanitizer until the hands are dry",
+    "A nurse caring for neutropenic clients has artificial acrylic nails"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Hand rub before entering a room is correct practice.",
+    "Soap and water is preferred when C. difficile or another spore-forming pathogen is possible.",
+    "Rubbing until dry is correct technique.",
+    "Correct. Artificial nails harbor bacteria and fungi and are not worn by staff caring for high-risk clients."
+   ],
+   "takeaway": "Staff caring for high-risk clients should keep natural nails short and avoid artificial nails.",
+   "refs": [
+    "cdc-handhygiene"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is reviewing the histories of clients scheduled for surgery. Which client has the greatest risk of a latex allergy?",
+   "options": [
+    "A 50-year-old client who had a tonsillectomy as a child",
+    "A 45-year-old client with lactose intolerance",
+    "A 24-year-old client with spina bifida who has had many surgeries and uses intermittent catheterization",
+    "A 62-year-old client with type 2 diabetes who checks blood glucose with a lancet"
+   ],
+   "correct": 2,
+   "rationales": [
+    "A single remote surgery carries little added latex exposure.",
+    "Lactose intolerance is a digestive enzyme problem and is not linked to latex allergy.",
+    "Correct. Repeated mucosal and surgical exposure to latex from early childhood, as in spina bifida, greatly increases the risk of latex sensitization.",
+    "Lancets are not a significant source of latex exposure."
+   ],
+   "takeaway": "Repeated latex exposure, as in spina bifida with many surgeries and catheterizations, or in health care work, is the main risk factor for latex allergy.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a known latex allergy is admitted for surgery. Which actions should the nurse take? Select all that apply.",
+   "options": [
+    "Use nonlatex gloves and supplies for all care",
+    "Place an allergy identification band on the client",
+    "Wear latex gloves with a cotton liner to protect the client",
+    "Remove latex-containing items such as some tourniquets and blood pressure cuffs from the room",
+    "Notify the surgical team so a latex-safe operating room is prepared",
+    "Use powdered latex gloves to reduce skin contact"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. A latex-safe environment requires nonlatex products.",
+    "Correct. Identification alerts all staff to the allergy.",
+    "A liner protects the wearer, not the client; latex proteins still contact the client.",
+    "Correct. Latex in common equipment can trigger a reaction.",
+    "Correct. The surgical team must plan latex-safe supplies and setup.",
+    "Powdered latex gloves release airborne latex proteins and are especially dangerous."
+   ],
+   "takeaway": "Latex allergy: label it, communicate it and keep every product near the client latex-free.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is about to enter the room of a hospitalized client with confirmed COVID-19. Which personal protective equipment should the nurse put on? Select all that apply.",
+   "options": [
+    "Shoe covers",
+    "A fit-tested N95 or higher-level respirator",
+    "Eye protection such as goggles or a face shield",
+    "A gown",
+    "Gloves",
+    "A surgical mask worn over the N95"
+   ],
+   "correct": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Shoe covers are not part of recommended PPE for COVID-19 care.",
+    "Correct. A NIOSH-approved N95 or higher-level respirator is recommended.",
+    "Correct. Eye protection prevents exposure of the conjunctiva.",
+    "Correct. A gown protects clothing and skin from contamination.",
+    "Correct. Gloves protect the hands during contact.",
+    "Layering a surgical mask over the respirator is not part of standard recommendations."
+   ],
+   "takeaway": "For confirmed COVID-19 care, wear an N95 or higher respirator, eye protection, gown and gloves.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who received an allogeneic hematopoietic stem cell transplant is in a protective environment room. Which observation requires the nurse to intervene?",
+   "options": [
+    "A visitor carrying a potted plant into the client's room",
+    "The door to the room kept closed between entries",
+    "Staff performing hand hygiene before entering the room",
+    "A nurse with an upper respiratory infection asking to be reassigned"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Fresh or dried flowers and potted plants can carry molds such as Aspergillus and are not allowed in a protective environment.",
+    "A closed door helps maintain the positive-pressure, filtered air of the room.",
+    "Hand hygiene before entering protects the severely immunocompromised client.",
+    "Staff with respiratory infections should avoid caring for highly immunocompromised clients, so this request is appropriate."
+   ],
+   "takeaway": "A protective environment keeps out plants and flowers, keeps the door closed and limits contact with anyone who is ill.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is admitting several clients. For each condition, indicate the transmission-based precautions needed in addition to standard precautions.",
+   "rows": [
+    "Scabies",
+    "Mumps",
+    "Pulmonary tuberculosis",
+    "Mycoplasma pneumoniae pneumonia",
+    "Respiratory syncytial virus (RSV) in an infant"
+   ],
+   "columns": [
+    "Contact",
+    "Droplet",
+    "Airborne"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    1,
+    0
+   ],
+   "rationales": [
+    "Scabies spreads by direct skin contact and contaminated items.",
+    "Mumps spreads by large respiratory droplets.",
+    "Tuberculosis spreads by airborne droplet nuclei and needs an airborne infection isolation room.",
+    "Mycoplasma pneumonia spreads by respiratory droplets.",
+    "RSV spreads mainly by contact with secretions and contaminated surfaces; hospitals use contact precautions."
+   ],
+   "takeaway": "Match the route: skin and surfaces need contact, large droplets need droplet and droplet nuclei need airborne precautions.",
+   "refs": [
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client arrives at the emergency department with a 3-week cough, night sweats and weight loss, and pulmonary tuberculosis is suspected. Place the nurse's actions in the correct order, starting with the first.",
+   "options": [
+    "Put on a fit-tested N95 respirator before entering the room",
+    "Give the client a surgical mask to wear",
+    "Collect the prescribed sputum specimen for acid-fast bacilli",
+    "Move the client to an airborne infection isolation room and close the door"
+   ],
+   "rationales": [
+    "Staff protect themselves with a respirator before entering for care.",
+    "Masking the client first contains respiratory particles right away, before anything else happens.",
+    "Diagnostic sputum collection follows once the client and staff are protected.",
+    "Placement in a negative-pressure room protects others in the department."
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "takeaway": "Suspected TB: mask the client, isolate in negative pressure, protect staff, then start the workup.",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A nursing student completed the hepatitis B vaccine series 6 weeks ago. Which test result indicates the student is protected?",
+   "options": [
+    "Positive hepatitis B surface antigen (HBsAg)",
+    "Positive antibody to hepatitis B core antigen (anti-HBc) IgM",
+    "Negative anti-HBs with negative HBsAg",
+    "Antibody to hepatitis B surface antigen (anti-HBs) of 10 mIU/mL or greater"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A positive HBsAg indicates current infection, not immunity.",
+    "IgM anti-HBc indicates recent acute infection; vaccination does not produce core antibodies.",
+    "A negative anti-HBs means the student did not respond and may need revaccination.",
+    "Correct. An anti-HBs level of at least 10 mIU/mL after vaccination indicates immunity."
+   ],
+   "takeaway": "Health care workers check anti-HBs after the hepatitis B series; 10 mIU/mL or more means protected.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A healthy 34-year-old client at a primary care visit has never been tested for hepatitis C and reports no risk factors. What should the nurse recommend?",
+   "options": [
+    "No testing unless the client develops jaundice",
+    "One-time hepatitis C screening, because it is recommended for all adults",
+    "Hepatitis C vaccination at this visit",
+    "Testing only if the client has ever injected drugs"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Most hepatitis C infections cause no symptoms for years; waiting for jaundice misses treatable disease.",
+    "Correct. Hepatitis C screening at least once is recommended for all adults 18 and older, regardless of risk factors.",
+    "There is no vaccine for hepatitis C.",
+    "Ongoing risk factors call for repeat testing, but one-time screening applies to every adult."
+   ],
+   "takeaway": "Every adult should be screened for hepatitis C at least once, even without risk factors.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 27-year-old client at an urgent care clinic for a sprained ankle has never been tested for HIV. Which approach by the nurse follows current screening recommendations?",
+   "options": [
+    "Ask the client to list high-risk behaviors before deciding whether to offer a test",
+    "Tell the client that HIV testing is routinely offered to all adults and will be done unless the client declines",
+    "Offer testing only if the client reports symptoms such as fever or weight loss",
+    "Advise the client to wait until age 30 for routine HIV screening"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Risk-based screening misses many infections; routine testing does not depend on disclosed behaviors.",
+    "Correct. Routine, opt-out HIV screening is recommended at least once for everyone 13 to 64 years old.",
+    "Many people with HIV have no symptoms for years.",
+    "Routine screening applies from adolescence; there is no reason to delay."
+   ],
+   "takeaway": "Offer routine opt-out HIV testing at least once to everyone ages 13 to 64.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with chronic hepatitis B asks how the virus could spread to family members. Which routes should the nurse include? Select all that apply.",
+   "options": [
+    "Sharing a razor or toothbrush",
+    "Sexual contact without a condom",
+    "Sharing drinking glasses and dishes",
+    "Hugging or holding hands",
+    "Contact with the client's blood on an open cut",
+    "From a pregnant person to the newborn at birth"
+   ],
+   "correct": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Razors and toothbrushes can carry small amounts of blood.",
+    "Correct. Hepatitis B is transmitted sexually.",
+    "Hepatitis B is not spread through casual sharing of dishes or utensils.",
+    "Casual contact does not spread hepatitis B.",
+    "Correct. Blood exposure to broken skin can transmit the virus.",
+    "Correct. Perinatal transmission is a major route; infants born to mothers with hepatitis B receive hepatitis B vaccine and hepatitis B immune globulin within 12 hours of birth."
+   ],
+   "takeaway": "Hepatitis B spreads through blood, sex and birth, not casual contact; susceptible household and sexual contacts should be tested and offered vaccination.",
+   "refs": [
+    "openstax-medsurg",
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A healthy 52-year-old client asks which vaccines are recommended. The client's last tetanus-containing vaccine was 11 years ago. Which vaccines should the nurse recommend? Select all that apply.",
+   "options": [
+    "Live attenuated influenza vaccine (nasal spray)",
+    "Inactivated or recombinant influenza vaccine each fall",
+    "A Td or Tdap booster",
+    "Recombinant zoster vaccine, two doses",
+    "Human papillomavirus (HPV) vaccine series"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "The nasal live vaccine is approved only through age 49.",
+    "Correct. Annual influenza vaccination is routinely recommended for adults.",
+    "Correct. A Td or Tdap booster is due every 10 years.",
+    "Correct. Two doses of recombinant zoster vaccine are recommended starting at age 50.",
+    "HPV vaccination is not recommended for adults older than 45."
+   ],
+   "takeaway": "Among the vaccines on the adult schedule at age 50: a yearly injectable influenza vaccine, a Td/Tdap booster every 10 years and the two-dose recombinant zoster series.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "The nurse is teaching a 40-year-old client about influenza vaccination. Which client statement shows understanding?",
+   "options": [
+    "\"Since I had the flu shot last year, I am protected for 5 years.\"",
+    "\"I only need the flu vaccine if I am over 65.\"",
+    "\"The flu shot can give me the flu, so I will skip it this year.\"",
+    "\"I need a flu vaccine every year because the strains change and protection fades.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Protection from one season's vaccine does not last for years.",
+    "Annual influenza vaccination is routinely recommended for adults of all ages, not only those 65 and older.",
+    "Inactivated and recombinant vaccines cannot cause influenza.",
+    "Correct. Influenza vaccine is updated yearly for circulating strains, and immunity wanes, so annual vaccination is recommended."
+   ],
+   "takeaway": "Adults need an influenza vaccine every year because circulating strains change and protection wanes.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who has taken antiretroviral therapy for 2 years has had an undetectable HIV viral load on every test for the past 18 months. The client asks about the risk of passing HIV to a sexual partner. Which response by the nurse is accurate?",
+   "options": [
+    "\"Keeping your viral load undetectable by taking every dose means you will not transmit HIV through sex.\"",
+    "\"Your risk is the same as when you were first diagnosed.\"",
+    "\"An undetectable viral load means the HIV has been cured.\"",
+    "\"You can stop taking your medicine now that the virus cannot be found.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. People with HIV who achieve and maintain an undetectable viral load do not transmit HIV sexually; this depends on continued adherence.",
+    "Viral suppression greatly changes transmission risk.",
+    "HIV remains in latent reservoirs; it is controlled, not cured.",
+    "Stopping therapy lets the virus rebound and restores transmission risk."
+   ],
+   "takeaway": "Undetectable equals untransmittable for sexual transmission, but only with ongoing ART adherence.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse at a community clinic is identifying adults who should be screened for latent tuberculosis infection. Which clients should be screened? Select all that apply.",
+   "options": [
+    "A client who moved to the United States from a country where TB is common",
+    "A client who has seasonal allergies",
+    "A client who lives in a homeless shelter",
+    "A client with HIV infection",
+    "A client who had chickenpox as a child",
+    "A household contact of a person with active pulmonary TB"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Birth in or residence in a high-prevalence country increases the risk of latent infection.",
+    "Seasonal allergies do not increase TB risk.",
+    "Correct. Congregate settings such as shelters increase exposure risk.",
+    "Correct. HIV greatly raises the risk that latent TB will become active.",
+    "A history of chickenpox does not affect TB risk.",
+    "Correct. Close contacts of active cases are at high risk of infection."
+   ],
+   "takeaway": "Screen for latent TB in people with high exposure risk or high risk of progression, such as close contacts, congregate settings, high-prevalence countries and HIV.",
+   "refs": [
+    "cdc-tb"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client comes to the emergency department 20 hours after a condomless sexual exposure to a partner known to have HIV with an unknown viral load. Which statement by the nurse about post-exposure prophylaxis (PEP) is accurate?",
+   "options": [
+    "\"It is too late to start PEP, because it must begin within 12 hours of exposure.\"",
+    "\"PEP is a single dose of medicine that you will take here today.\"",
+    "\"Start PEP as soon as possible today; it is taken daily for 28 days.\"",
+    "\"We will wait until your own HIV test turns positive before starting PEP.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Earlier is better, but PEP can still be started up to 72 hours after exposure.",
+    "PEP is a 28-day course of antiretroviral drugs.",
+    "Correct. PEP is started as soon as possible, no later than 72 hours after exposure, and continued for 28 days.",
+    "PEP is meant to prevent infection; a baseline test is drawn, but treatment does not wait for seroconversion."
+   ],
+   "takeaway": "HIV PEP: start as soon as possible, within 72 hours, and complete 28 days.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client starting antiretroviral therapy for HIV asks why the nurse keeps stressing that doses must not be missed. Which statement by the client shows understanding?",
+   "options": [
+    "\"Missing doses mostly matters for the first month of treatment.\"",
+    "\"If I miss a few doses, I can take extra the next week to catch up.\"",
+    "\"I can skip doses on days when I feel healthy.\"",
+    "\"Missing doses lets the virus multiply and become resistant to my medicines.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Adherence matters for as long as therapy continues, which is lifelong.",
+    "Extra doses later do not fix missed suppression and add toxicity.",
+    "HIV replicates whether or not the client feels well.",
+    "Correct. Low drug levels allow viral replication and the selection of drug-resistant virus, which can cause treatment failure."
+   ],
+   "takeaway": "Consistent ART adherence prevents viral rebound and drug resistance.",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with HIV takes a once-daily antiretroviral regimen that contains dolutegravir and has started using an aluminum-magnesium antacid for heartburn. Which instruction should the nurse give?",
+   "options": [
+    "Take the antacid together with dolutegravir so the stomach is protected",
+    "Skip the dolutegravir dose on days when heartburn requires the antacid",
+    "Take dolutegravir at least 2 hours before or 6 hours after the antacid",
+    "Take the antacid within 30 minutes after each dose of dolutegravir"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Aluminum and magnesium bind dolutegravir in the gut and sharply reduce its absorption when taken together.",
+    "Skipping antiretroviral doses allows viral replication and resistance.",
+    "Correct. Separating the doses avoids binding by polyvalent cations; dolutegravir is taken 2 hours before or 6 hours after aluminum- or magnesium-containing antacids.",
+    "An antacid taken shortly after the dose still binds the drug and lowers its level."
+   ],
+   "takeaway": "Integrase inhibitors such as dolutegravir are bound by antacids and mineral supplements: separate the doses as directed.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with HIV is scheduled to start an antiretroviral regimen that includes abacavir. Which result should the nurse verify before the first dose?",
+   "options": [
+    "A negative tuberculin skin test",
+    "A negative HLA-B*5701 test",
+    "A CD4 count above 500 cells/mm³",
+    "A normal serum amylase level"
+   ],
+   "correct": 1,
+   "rationales": [
+    "TB screening is part of HIV care, but a skin test result is not required before abacavir.",
+    "Correct. Clients who carry the HLA-B*5701 allele are at high risk of a serious, possibly fatal hypersensitivity reaction to abacavir, so screening is required before starting it.",
+    "Antiretroviral therapy is started at any CD4 count; a high count is not a prerequisite.",
+    "Amylase is not a prerequisite for abacavir."
+   ],
+   "takeaway": "Confirm a negative HLA-B*5701 screen before abacavir, and teach the client to stop it and seek care for symptoms of hypersensitivity.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching a client who is going home on immunosuppressive drugs after a liver transplant. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Report a temperature of 38°C (100.4°F) or higher",
+    "Stop the medicines if you feel well for several months",
+    "Avoid live vaccines unless your transplant team approves them",
+    "Wash your hands often and avoid people who are sick",
+    "Take a missed dose twice as large the next time"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Immunosuppression blunts signs of infection, so even a low-grade fever needs prompt evaluation.",
+    "Stopping immunosuppressants can cause rejection, even years after transplant.",
+    "Correct. Live vaccines can cause disease in immunosuppressed clients.",
+    "Correct. Infection prevention is essential while the immune system is suppressed.",
+    "Doubling doses can cause toxicity; missed-dose instructions come from the transplant team."
+   ],
+   "takeaway": "After transplant: take immunosuppressants exactly as prescribed for life, avoid live vaccines and report fever early.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with systemic lupus erythematosus is starting long-term hydroxychloroquine. Which instruction should the nurse include?",
+   "options": [
+    "Have a baseline eye examination and regular follow-up eye exams",
+    "Have hearing tested every month",
+    "Stop the drug when the rash fades",
+    "Take the drug only during flares"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Hydroxychloroquine can cause retinal toxicity, so baseline and periodic eye exams are needed.",
+    "Monthly hearing tests are not a standard part of monitoring.",
+    "Hydroxychloroquine is continued long term to reduce flares; stopping it can trigger a flare.",
+    "It is taken daily as maintenance therapy, not only during flares."
+   ],
+   "takeaway": "Hydroxychloroquine requires routine eye examinations for retinal toxicity.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is preparing to administer IV immune globulin (IVIG) to a client with an immune deficiency. Which actions should the nurse take? Select all that apply.",
+   "options": [
+    "Confirm that the client is adequately hydrated before the infusion",
+    "Shake the vial vigorously so the product mixes well",
+    "Start at the prescribed initial rate and increase it gradually per protocol",
+    "Monitor vital signs and for chills, headache or flushing, especially after each rate increase",
+    "Run the IVIG through the same line as the client's other IV medications",
+    "Stop the infusion and notify the provider if wheezing or hypotension develops"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. IVIG carries boxed warnings for thrombosis and kidney injury; adequate hydration lowers both risks.",
+    "Shaking causes foaming and can damage the protein; the product is swirled gently if needed.",
+    "Correct. Many infusion reactions are rate-related, so IVIG starts slowly and is increased in steps as tolerated.",
+    "Correct. Reactions are most likely early in the infusion and after rate increases.",
+    "IVIG is not mixed with other medications; it is given through its own line or as the product labeling directs.",
+    "Correct. Wheezing or hypotension can signal anaphylaxis; the infusion is stopped at once."
+   ],
+   "takeaway": "IVIG: hydrate first, start slow and increase gradually, monitor closely with each rate change and stop for signs of anaphylaxis.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with HIV has a CD4 count of 160 cells/mm³ and is prescribed daily sulfamethoxazole-trimethoprim. The client asks why the antibiotic is needed when there is no infection. What is the nurse's best response?",
+   "options": [
+    "\"It helps prevent Pneumocystis pneumonia, which is more likely when the CD4 count is below 200.\"",
+    "\"It lowers your HIV viral load.\"",
+    "\"It treats a urinary tract infection that is not causing symptoms yet.\"",
+    "\"It protects your kidneys from the antiretroviral drugs.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Prophylaxis against Pneumocystis jirovecii pneumonia is started when the CD4 count falls below 200 cells/mm³.",
+    "Sulfamethoxazole-trimethoprim has no effect on HIV replication.",
+    "There is no evidence of a urinary tract infection; the purpose is prophylaxis.",
+    "The drug does not protect the kidneys and can affect kidney function."
+   ],
+   "takeaway": "CD4 below 200 means risk of Pneumocystis pneumonia; sulfamethoxazole-trimethoprim is the usual prophylaxis.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client began antiretroviral therapy 6 months ago. Which laboratory result best shows that the therapy is effective?",
+   "options": [
+    "A positive HIV antibody test",
+    "A white blood cell count of 9,000/mm³",
+    "HIV viral load that is now undetectable",
+    "A negative tuberculin skin test"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Antibody tests stay positive for life and do not measure treatment response.",
+    "The total WBC count does not reflect viral control.",
+    "Correct. Viral load is the main measure of ART effectiveness; the goal is sustained suppression to undetectable levels.",
+    "A negative TB test does not measure HIV treatment response."
+   ],
+   "takeaway": "Viral load measures ART effectiveness; CD4 count shows immune status and opportunistic infection risk.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client asks to be tested for HIV at a primary care visit. Which laboratory test should the nurse expect to be used first to screen for HIV infection?",
+   "options": [
+    "An HIV-1 Western blot",
+    "An HIV-1/2 antigen/antibody combination immunoassay",
+    "A CD4 T-cell count",
+    "An HIV genotype drug-resistance test"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The Western blot is no longer part of the recommended HIV testing algorithm.",
+    "Correct. The antigen/antibody combination immunoassay detects HIV antibodies and the p24 antigen, so it finds infection earlier than antibody-only tests; reactive results are followed by a differentiation test.",
+    "A CD4 count measures immune status in a person with HIV; it does not diagnose infection.",
+    "Resistance testing guides drug selection after HIV is diagnosed."
+   ],
+   "takeaway": "HIV screening starts with an antigen/antibody combination test; a reactive result is confirmed with further testing.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is reviewing hepatitis B serology results for four clients. For each result, indicate the client's hepatitis B status.",
+   "rows": [
+    "HBsAg positive, anti-HBc positive, anti-HBs negative",
+    "HBsAg negative, anti-HBc negative, anti-HBs positive",
+    "HBsAg negative, anti-HBc negative, anti-HBs negative",
+    "HBsAg negative, anti-HBc positive, anti-HBs positive"
+   ],
+   "columns": [
+    "Infected",
+    "Immune",
+    "Susceptible"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    1
+   ],
+   "rationales": [
+    "A positive surface antigen indicates current hepatitis B infection.",
+    "Surface antibody alone, without core antibody, indicates immunity from vaccination.",
+    "All markers negative means the client has never been infected or vaccinated and should be offered the vaccine.",
+    "Core and surface antibodies without surface antigen indicate immunity from a past, resolved infection."
+   ],
+   "takeaway": "HBsAg = infected; anti-HBs alone = vaccinated; anti-HBs plus anti-HBc = recovered; all negative = susceptible.",
+   "refs": [
+    "openstax-medsurg",
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with systemic lupus erythematosus is seen for a routine visit. Which findings suggest kidney involvement and should be reported? Select all that apply.",
+   "options": [
+    "Foamy urine",
+    "Swelling around the eyes and ankles",
+    "Blood pressure of 158/96 mm Hg, up from a usual 118/74 mm Hg",
+    "Serum creatinine that rose from 0.8 to 1.6 mg/dL",
+    "Hair thinning",
+    "Painless mouth ulcers"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Foamy urine suggests proteinuria from glomerular damage.",
+    "Correct. Edema can result from protein loss and fluid retention in nephritis.",
+    "Correct. New hypertension is common with lupus nephritis.",
+    "Correct. Doubling of creatinine indicates a significant drop in kidney function.",
+    "Hair thinning is a lupus finding but does not indicate kidney involvement.",
+    "Oral ulcers are a lupus mucocutaneous finding, not a sign of nephritis."
+   ],
+   "takeaway": "In lupus, watch for proteinuria, edema, new hypertension and rising creatinine as signs of nephritis.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching a client how to collect an early-morning sputum specimen for acid-fast bacilli. Place the steps in the correct order, starting with the first.",
+   "options": [
+    "Close the lid tightly and give it to the nurse",
+    "Take several slow, deep breaths",
+    "Spit the sputum into the sterile container",
+    "Rinse the mouth with plain water",
+    "Cough deeply from the chest"
+   ],
+   "rationales": [
+    "Closing the container prevents contamination and exposure before transport.",
+    "Deep breaths loosen secretions and prepare for an effective cough.",
+    "The specimen goes directly into the sterile container without touching the inside.",
+    "Rinsing with water reduces mouth bacteria and food particles; mouthwash is avoided.",
+    "A deep cough brings up sputum from the lower airways instead of saliva."
+   ],
+   "correct": [
+    3,
+    1,
+    4,
+    2,
+    0
+   ],
+   "takeaway": "For an AFB sputum sample: rinse with water, breathe deeply, cough from deep in the chest, collect sterilely and seal.",
+   "refs": [
+    "cdc-tb",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is reviewing four clients on a medical unit. Which client is most likely developing sepsis?",
+   "options": [
+    "A client with influenza who has a temperature of 38.2°C (100.8°F) and myalgia, with a heart rate of 88/min",
+    "A client with cellulitis of the leg whose redness is receding on day 3 of antibiotics",
+    "A client with pneumonia who has a productive cough, heart rate 84/min and SpO₂ 96% on room air",
+    "A client 2 days after bowel surgery with temperature 38.7°C (101.7°F), heart rate 118/min, respiratory rate 26/min and new confusion"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Fever and aches with a normal heart rate are expected with influenza and do not suggest organ dysfunction.",
+    "Receding redness shows the infection is responding to treatment.",
+    "Normal heart rate and oxygenation suggest a stable pneumonia.",
+    "Correct. Fever, tachycardia, tachypnea and new altered mental status with a likely infection source suggest sepsis with organ dysfunction."
+   ],
+   "takeaway": "Suspected infection plus tachycardia, tachypnea and new confusion is sepsis until proven otherwise.",
+   "refs": [
+    "sepsis-2021"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pa",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client treated with IM epinephrine for anaphylaxis after eating peanuts feels much better 30 minutes later and asks to go home. What is the nurse's best response?",
+   "options": [
+    "\"You can leave now because the epinephrine has reversed the reaction.\"",
+    "\"You can leave if you take an antihistamine before you go.\"",
+    "\"Symptoms can return hours later even without new exposure, so you need to stay for monitoring.\"",
+    "\"You can leave if a family member drives you home.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Epinephrine is short-acting; symptoms can recur as it wears off.",
+    "Antihistamines relieve itching and hives but do not prevent life-threatening airway or circulatory symptoms.",
+    "Correct. A biphasic reaction can occur hours after recovery without new exposure, so the client is observed for a period before discharge, longer after a severe reaction, and goes home with an epinephrine auto-injector and a plan.",
+    "Having a driver does not address the risk of a recurrent reaction."
+   ],
+   "takeaway": "After anaphylaxis, observe for a biphasic reaction even when symptoms resolve quickly.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with systemic lupus erythematosus returns from a week-long beach vacation with fatigue, joint pain, a red rash across the cheeks and nose, and a temperature of 38.1°C (100.6°F). Which explanation is most likely?",
+   "options": [
+    "The client developed a sunburn unrelated to lupus",
+    "The rash is an allergic reaction to sunscreen",
+    "The joint pain is caused by walking on sand",
+    "Ultraviolet light exposure triggered a lupus flare"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A simple sunburn would not explain fever, joint pain and fatigue together.",
+    "A contact allergy would not cause the systemic symptoms seen here.",
+    "Mechanical strain would not explain the rash, fever and fatigue.",
+    "Correct. UV exposure is a well-known trigger of lupus flares, which cause fatigue, arthralgia, malar rash and fever."
+   ],
+   "takeaway": "Sun exposure is a common trigger of lupus flares; teach sun protection.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with HIV who stopped taking antiretroviral therapy a year ago reports 2 weeks of dry cough, fever and shortness of breath that worsens with walking. The CD4 count is 90 cells/mm³. SpO₂ is 95% at rest and 86% after walking in the hall. Which condition does the nurse suspect?",
+   "options": [
+    "Pneumocystis jirovecii pneumonia",
+    "Asthma exacerbation",
+    "Kaposi sarcoma of the skin",
+    "Acute bacterial sinusitis"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Gradual dry cough, fever and marked desaturation with exertion in a client with a CD4 count below 200 is classic for Pneumocystis pneumonia.",
+    "Asthma typically causes wheezing and episodic symptoms; it does not explain fever with exertional desaturation in this setting.",
+    "Skin Kaposi sarcoma causes purple lesions, not fever and hypoxemia.",
+    "Sinusitis causes facial pain and congestion, not exertional hypoxemia."
+   ],
+   "takeaway": "In advanced HIV, dry cough, fever and exertional desaturation suggest Pneumocystis pneumonia.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client who received a kidney transplant 3 months ago calls the transplant clinic. Which reported findings suggest possible rejection? Select all that apply.",
+   "options": [
+    "Urine output much lower than usual",
+    "Weight gain of 1.5 kg (3.3 lb) in 2 days",
+    "Tenderness over the transplanted kidney",
+    "A temperature of 38.2°C (100.8°F)",
+    "Improved appetite",
+    "Increased energy"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Decreased urine output reflects declining graft function.",
+    "Correct. Rapid weight gain suggests fluid retention from reduced kidney function.",
+    "Correct. Graft tenderness can indicate inflammation from rejection.",
+    "Correct. Fever can accompany rejection and also needs evaluation for infection.",
+    "Improved appetite is not a sign of rejection.",
+    "Increased energy suggests good graft function rather than rejection."
+   ],
+   "takeaway": "Report decreased urine output, rapid weight gain, graft tenderness or fever after kidney transplant; rejection is treatable when found early.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "pa",
+   "cjmm": "evaluateOutcomes",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with HIV is on day 5 of IV sulfamethoxazole-trimethoprim for Pneumocystis jirovecii pneumonia. For each finding, indicate whether it shows improvement or no improvement.",
+   "rows": [
+    "Temperature 37.3°C (99.1°F), down from 39.0°C (102.2°F) on admission",
+    "SpO₂ 94% while walking in the hall, up from 86% on admission",
+    "Respiratory rate 32/min with use of the neck muscles to breathe",
+    "Client can now shower without stopping to rest",
+    "Oxygen increased from 2 L/min to 5 L/min to keep SpO₂ at 92%"
+   ],
+   "columns": [
+    "Improvement",
+    "No improvement"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Resolving fever shows the infection is responding to treatment.",
+    "Less desaturation with exertion shows improving gas exchange, the key problem in Pneumocystis pneumonia.",
+    "Tachypnea with accessory muscle use shows ongoing respiratory distress.",
+    "Better activity tolerance reflects improved oxygenation.",
+    "A rising oxygen requirement shows worsening gas exchange and needs to be reported."
+   ],
+   "takeaway": "In Pneumocystis pneumonia, judge response by fever, exertional oxygen saturation, work of breathing, oxygen needs and activity tolerance.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client in the clinic has a sputum smear positive for acid-fast bacilli and a diagnosis of active pulmonary tuberculosis. The client asks the nurse not to tell anyone. What should the nurse do?",
+   "options": [
+    "Agree not to tell anyone, to protect the client's privacy and trust",
+    "Explain that TB must be reported to the health department, which keeps it confidential",
+    "Notify the client's employer so that coworkers can be tested right away",
+    "Wait to report until the client's sputum culture results return in a few weeks"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Reporting active TB is required by law and is permitted under privacy rules.",
+    "Correct. Active TB is a legally reportable disease; public health follows up confidentially to evaluate close contacts and support treatment.",
+    "The nurse does not notify employers; the health department manages the contact investigation confidentially.",
+    "Suspected or confirmed active TB is reported promptly, not delayed until cultures return."
+   ],
+   "takeaway": "Active TB is reportable; public health handles contact tracing confidentially.",
+   "refs": [
+    "cdc-tb",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse receives handoff on four clients. Which client should the nurse see first?",
+   "options": [
+    "A client with HIV and a CD4 count of 450 cells/mm³ who asks about diet",
+    "A client receiving chemotherapy with an absolute neutrophil count of 300/mm³ and a new temperature of 38.3°C (100.9°F)",
+    "A client with rheumatoid arthritis reporting hand pain of 5/10",
+    "A client with chronic hepatitis B waiting for discharge teaching"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A client with a CD4 count of 450 asking about diet is stable.",
+    "Correct. Fever with severe neutropenia is an emergency; cultures and IV antibiotics are needed quickly because sepsis can progress rapidly.",
+    "Moderate chronic joint pain is important but not life-threatening.",
+    "Discharge teaching for a stable client can wait."
+   ],
+   "takeaway": "Fever in a neutropenic client is a medical emergency that takes priority.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The charge nurse learns that an unlicensed assistive personnel (UAP) assigned to take vital signs on a client in airborne isolation for tuberculosis has not completed N95 fit testing. What should the charge nurse do?",
+   "options": [
+    "Reassign the client's care to a staff member who has been fit-tested",
+    "Have the UAP wear a surgical mask to take the vital signs",
+    "Have the UAP wear two N95 respirators for better protection",
+    "Have the UAP take vital signs from the doorway"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Staff must be fit-tested before using an N95 respirator; the task goes to someone who can enter safely while the UAP completes fit testing.",
+    "A surgical mask does not protect against airborne TB.",
+    "Doubling respirators does not replace a proper fit test.",
+    "Vital signs cannot be measured accurately from the doorway, and opening the door affects the isolation room."
+   ],
+   "takeaway": "Only fit-tested staff enter airborne isolation rooms with an N95; reassign until fit testing is done.",
+   "refs": [
+    "cdc-isolation",
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:immuno-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Immunology & Infectious Disease",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A nurse tells the charge nurse, \"I do not want to be assigned to the client with HIV. I am afraid of getting infected.\" Which response by the charge nurse is most appropriate?",
+   "options": [
+    "\"I will change the assignments so that you never care for clients with HIV.\"",
+    "\"You can wear an N95 respirator and a gown whenever you are in that room.\"",
+    "\"You can skip the parts of care that involve touching the client directly.\"",
+    "\"Standard precautions protect you. Let's review them together before you go in.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Avoiding clients based on diagnosis is discrimination and conflicts with the duty to care.",
+    "HIV is not airborne; unneeded PPE does not add protection and reinforces stigma.",
+    "Withholding care is unsafe and violates the duty to the client.",
+    "Correct. Nurses have an ethical duty to provide care without discrimination; standard precautions prevent bloodborne transmission, and reviewing them addresses the fear."
+   ],
+   "takeaway": "Diagnosis is not a reason to refuse care; standard precautions prevent bloodborne transmission.",
+   "refs": [
+    "ana-ethics",
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

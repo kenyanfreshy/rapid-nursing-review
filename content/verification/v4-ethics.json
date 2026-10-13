@@ -1,0 +1,79 @@
+{
+ "file": "content/nclex/v4/ethics.json",
+ "reviewed": 45,
+ "ok": 31,
+ "fixed": 3,
+ "rewritten": 11,
+ "items": [
+  {
+   "id": "rnr:ethics-001",
+   "status": "fixed",
+   "note": "Row 3 (court-emancipated 17-year-old needing surgery) repeated bank item nb:nb26-moca-022; changed it to a minor on active military duty. Tightened the STI rationale so it is accurate in every state (some states set a minimum age, all below 16)."
+  },
+  {
+   "id": "rnr:ethics-005",
+   "status": "rewritten",
+   "note": "Unsafe-dose chain-of-command sequence duplicated bank items nb:u2-mocb-025 and nb:lead-06. Rewrote as an ordered item on the CUS speaking-up script and escalation when a provider breaks maximal sterile barrier precautions during central line insertion."
+  },
+  {
+   "id": "rnr:ethics-007",
+   "status": "rewritten",
+   "note": "Ethical decision-making sequence duplicated bank item nb:nb26-mocb-039, and the order of 'gather facts' vs 'identify the problem' differs between textbook models (no single defensible sequence). Rewrote as an MCQ on refusing to co-sign an unwitnessed controlled-substance waste."
+  },
+  {
+   "id": "rnr:ethics-009",
+   "status": "rewritten",
+   "note": "Incident-report SATA duplicated bank items nb:nb26-sabc-013, nb:nb26-core-049 and nb:u2-moca-020 (fall incident report: objective facts, no blame, not in chart). Rewrote as a SATA on grounds for board of nursing discipline."
+  },
+  {
+   "id": "rnr:ethics-013",
+   "status": "rewritten",
+   "note": "Documentation SATA repeated bank items nb:nb26-moca-036 and nb:nb26-mocb-015 option for option (timely charting, client quotes, late entries, charting for a coworker, charting before giving, approved abbreviations). Rewrote as an evaluateOutcomes SATA on professional accountability under the ANA Code."
+  },
+  {
+   "id": "rnr:ethics-014",
+   "status": "fixed",
+   "note": "Keyed option 'IV morphine 20 minutes ago, form not yet signed' repeated bank item nb:u2-moca-010. Replaced it with a client who has a court-appointed health care guardian (legal authority problem); key count unchanged."
+  },
+  {
+   "id": "rnr:ethics-016",
+   "status": "rewritten",
+   "note": "Married 17-year-old consenting for herself repeated the emancipated-minor fact in bank item nb:nb26-moca-022 and in row 3 of ethics-001, and marriage-based emancipation depends on state law. Rewrote as an MCQ on recognizing defamation."
+  },
+  {
+   "id": "rnr:ethics-020",
+   "status": "rewritten",
+   "note": "Single-line correction of a paper charting error repeated an option of bank item nb:nb26-moca-036. Rewrote as an MCQ on honoring a client's choice of visitor and support person (same-sex partner) over family objection."
+  },
+  {
+   "id": "rnr:ethics-021",
+   "status": "rewritten",
+   "note": "Float nurse declining an untrained skill repeated bank item nb:nb26-moca-039 (float to NICU, accept tasks within competence). Rewrote as an MCQ on a nurse refusing to care for a client because of HIV status."
+  },
+  {
+   "id": "rnr:ethics-033",
+   "status": "fixed",
+   "note": "Distractors 2 and 4 tested the same idea (declining overtime vs declining an extra shift). Replaced distractor 4 with calling in sick per policy before the shift."
+  },
+  {
+   "id": "rnr:ethics-036",
+   "status": "rewritten",
+   "note": "Telephone prescription read-back repeated rnr:leadership-048 and bank nb:u2-mocb-034. Rewrote as a safety MCQ on holding and verifying a medication the client says is unfamiliar."
+  },
+  {
+   "id": "rnr:ethics-039",
+   "status": "rewritten",
+   "note": "Elder-neglect SATA repeated bank item nb:nb26-core-035 (stage 3 pressure injury, soiled clothing in an older adult with a caregiver child), and \"must report\" depends on state elder-abuse law. Rewrote as a safety SATA on recognizing do-not-use abbreviations and dose expressions."
+  },
+  {
+   "id": "rnr:ethics-040",
+   "status": "rewritten",
+   "note": "Time-out left/right knee discrepancy repeated bank item nb:nb26-mocb-024 almost word for word. Rewrote as a safety MCQ on unlabeled syringes on a sterile field (Joint Commission medication labeling goal)."
+  },
+  {
+   "id": "rnr:ethics-041",
+   "status": "rewritten",
+   "note": "Wrong-client metoprolol error repeated rnr:pharmacology-041 and bank nb:u2-moca-026. Rewrote as a safety prioritization MCQ for a charge nurse choosing among four safety concerns."
+  }
+ ]
+}

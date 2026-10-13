@@ -1,0 +1,34 @@
+{
+ "file": "content/nclex/v4cases/a.json",
+ "reviewed": 5,
+ "ok": 0,
+ "fixed": 5,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "ngn:rnr-burns",
+   "status": "fixed",
+   "note": "Orders and u2 used Parkland 4 mL/kg/%TBSA (11,520 mL) and keyed a 'catch-up' rate of 823 mL/hour, which is older teaching and a debated point. Order now reads ABLS adult thermal starting estimate 2 mL x kg x %TBSA, half in first 8 h from injury, titrated hourly to UOP 0.5 mL/kg/h. u2 rewritten: b2 key 5,760 mL (11,520 kept as the Parkland distractor, 2,880 as first-8-h share); b3 replaced the debated catch-up rate with 'half counted from the time of injury' (vs arrival / IV start). Rationale rewritten (fluid creep, titration to ~40 mL/h). Stem/blank wording no longer says Parkland. Refs -> aba-abls, openstax-medsurg. Other items verified (airway priority, IV opioids, Tdap, no prophylactic antibiotics, escharotomy cue, order sequence O2 -> IV/LR -> catheter -> wound care)."
+  },
+  {
+   "id": "ngn:rnr-preeclampsia",
+   "status": "fixed",
+   "note": "Content verified against ACOG severe-feature criteria (BP >=160/110 confirmed within 15 min, refractory headache, visual changes, RUQ/epigastric pain; platelets 136k, normal LFTs/creatinine not severe), Mg toxicity actions and BP goal. Refs changed to acog-preeclampsia, openstax-maternal, ismp-highalert (dropped dailymed)."
+  },
+  {
+   "id": "ngn:rnr-neonatal-hypoglycemia",
+   "status": "fixed",
+   "note": "Refs -> aap-neonatal-glucose, openstax-maternal. g5 keyed option was much the longest (giveaway) and implied a syringe pump is required; shortened to 'Give 8.9 mL of D10W IV as prescribed, then start the infusion' and adjusted the rationale. EHR timeline (birth 08:00, feed 08:30, POC 09:00 = 30 min after feed), D10W 2 mL/kg = 8.9 mL, AAP symptomatic <40 -> IV glucose all verified."
+  },
+  {
+   "id": "ngn:rnr-peds-dehydration",
+   "status": "fixed",
+   "note": "d3 rationale said 'BUN and creatinine are already rising' but there is no baseline and creatinine 0.5 is near normal; changed to 'the BUN is already elevated'. Verified 9% weight loss, compensated shock, 20 mL/kg = 220 mL, no KCl until voiding, order sequence."
+  },
+  {
+   "id": "ngn:rnr-bronchiolitis",
+   "status": "fixed",
+   "note": "Refs -> aap-bronchiolitis, cdc-isolation, medline-children. Content matches AAP 2014 (O2 for SpO2 <90%, no routine albuterol/steroids/CPT, superficial not deep suctioning)."
+  }
+ ]
+}

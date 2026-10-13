@@ -1,0 +1,49 @@
+{
+ "file": "content/nclex/v4/fluids.json",
+ "reviewed": 45,
+ "ok": 37,
+ "fixed": 2,
+ "rewritten": 6,
+ "items": [
+  {
+   "id": "rnr:fluids-009",
+   "status": "rewritten",
+   "note": "Duplicated nb:nb26-calc-032 (hypokalemia 2.8 mEq/L -> expect flat T waves/U waves). Rewritten as a recognize-cues item on the findings of hypernatremia from water deficit."
+  },
+  {
+   "id": "rnr:fluids-012",
+   "status": "rewritten",
+   "note": "Duplicated fluids-main-q5 and fluids-main-q1 (hyperkalemia with peaked T waves: calcium, insulin with dextrose, albuterol). Rewritten as a SATA on safe IV calcium gluconate administration; difficulty set to 2/Apply to match."
+  },
+  {
+   "id": "rnr:fluids-023",
+   "status": "fixed",
+   "note": "Magnesium of 4.8 mg/dL is too low to explain absent reflexes and a respiratory rate of 9/min (reflexes are typically lost around 7-10 mg/dL and respiratory depression occurs at higher levels). Changed the level to 10.4 mg/dL so the key is consistent."
+  },
+  {
+   "id": "rnr:fluids-034",
+   "status": "rewritten",
+   "note": "Duplicated fluids-main-q2 and nclex-highrisk-q3 (increased ICP: question a hypotonic/D5W fluid). Rewritten as an analyze-cues item on questioning IV saline in hypervolemic (dilutional) hyponatremia from heart failure."
+  },
+  {
+   "id": "rnr:fluids-036",
+   "status": "fixed",
+   "note": "Label: the item tests correct daily-weight technique (hydration monitoring, a Basic Care and Comfort task), not Reduction of Risk Potential. Relabeled rrp -> bcc (counts stay within target: rrp 11/12, bcc 5/4)."
+  },
+  {
+   "id": "rnr:fluids-039",
+   "status": "rewritten",
+   "note": "Duplicated rnr:integ-027 (day 3 after 40% burns, diuresis and crackles: fluid remobilization and overload). Rewritten as a prioritize-hypotheses item on postoperative third spacing."
+  },
+  {
+   "id": "rnr:fluids-040",
+   "status": "rewritten",
+   "note": "Duplicated nb:nb26-gios-035 (adult burns on LR titrated to urine output: which hourly output is adequate; same 0.5 mL/kg/hr fact). Rewritten as an evaluate-outcomes item on response to fluid replacement after vomiting."
+  },
+  {
+   "id": "rnr:fluids-043",
+   "status": "rewritten",
+   "note": "Duplicated nb:nb26-core-001 (older adult with orthostatic dizziness asking to walk to the bathroom: dangle, then assist). Rewritten as a safety item on preventing pathologic fractures and falls in hypercalcemia from multiple myeloma; clientNeed kept safety."
+  }
+ ]
+}

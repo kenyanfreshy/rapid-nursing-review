@@ -9,7 +9,7 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else '.'
 bank = json.load(open(os.path.join(ROOT, 'content/nclex/bank.json')))
 cases = json.load(open(os.path.join(ROOT, 'content/nclex/ngn.json')))
 import glob
-book_cases = [c for f in sorted(glob.glob(os.path.join(ROOT, 'content/cases/*.json'))) for c in json.load(open(f))]
+book_cases = [c for f in sorted(glob.glob(os.path.join(ROOT, 'content/cases/*.json'))) + sorted(glob.glob(os.path.join(ROOT, 'content/nclex/v4cases/*.json'))) for c in json.load(open(f))]
 book = {q['id']: q for f in os.listdir(os.path.join(ROOT, 'content/quizzes')) for q in json.load(open(os.path.join(ROOT, 'content/quizzes', f)))['questions']}
 res = []
 def check(n, ok, info=''): res.append(('PASS' if ok else 'FAIL', n, info))
@@ -46,18 +46,22 @@ with sync_playwright() as p:
     # 1. Every question type, right and wrong, with NCLEX partial credit
     samples = {'mcq': next(q for q in bank if q['type'] == 'mcq'), 'sata': next(q for q in bank if q['type'] == 'sata'),
                'order': next(q for q in bank if q['type'] == 'order'), 'matrix': next(v for v in book.values() if v.get('type') == 'matrix' and not v.get('retired'))}
+    v4 = [q for f in sorted(glob.glob(os.path.join(ROOT, 'content/nclex/v4/*.json'))) if not f.endswith('targets.json') for q in json.load(open(f))['questions']]
+    for t in ('mcq', 'sata', 'matrix', 'order'): samples['v4 ' + t] = next(q for q in v4 if q['type'] == t)
     for t, q in samples.items():
-        qid = q['id'] if q['id'].startswith('nb:') or t == 'matrix' else 'nb:' + q['id']
+        qid = q['id'] if q['id'].startswith(('nb:', 'rnr:')) or t == 'matrix' else 'nb:' + q['id']
         for right in (True, False):
             practice_one(pg, qid)
-            answer(pg, q, right)
+            answer(pg, q, right); t0 = t; t = t.split()[-1]
             enabled = pg.is_enabled('#modal [data-action=submit-answer]')
             pg.click('#modal [data-action=submit-answer]'); pg.wait_for_timeout(200)
             a = st(pg)['attempts'][-1]
             check(f'{t}: {"right" if right else "wrong"} answer scored', a['correct'] == right and enabled, a.get('score'))
             if t == 'order' and not right: check('order: partial credit is positional', a['score'][0] < a['score'][1], a['score'])
             if t == 'sata' and not right: check('sata: +/- scoring never below 0', a['score'][0] >= 0, a['score'])
-            check(f'{t}: rationale shown', pg.locator('#modal .rationale').count() == 1)
+            check(f'{t0}: rationale shown', pg.locator('#modal .rationale').count() == 1)
+            if t0.startswith('v4'): check(f'{t0}: APA sources listed', pg.locator('#modal .nb-sources li').count() == len(q['refs']))
+            t = t0
     check('quiz screen is plain white', pg.evaluate("getComputedStyle(document.querySelector('#modal')).backgroundColor") == 'rgb(255, 255, 255)')
     pg.screenshot(path=f'{OUT}/quiz-white.png')
 

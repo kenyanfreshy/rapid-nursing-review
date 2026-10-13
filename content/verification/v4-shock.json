@@ -1,0 +1,109 @@
+{
+ "file": "content/nclex/v4/shock.json",
+ "reviewed": 50,
+ "ok": 30,
+ "fixed": 8,
+ "rewritten": 12,
+ "items": [
+  {
+   "id": "rnr:shock-001",
+   "status": "rewritten",
+   "note": "Near-identical to existing bank item nb:nb26-core-057 (older adult with UTI; new confusion, tachypnea, hypothermia as early sepsis cues). Rewritten as a recognize-cues SATA on malignant hyperthermia, a multisystem emergency not otherwise covered in the bank."
+  },
+  {
+   "id": "rnr:shock-002",
+   "status": "fixed",
+   "note": "Stem now states the nurse is trained in blood culture collection, so the key (draw cultures now, then give the antibiotic) does not depend on an unstated local policy; separates it from bank item nb:nb26-infx-054 (cultures cannot be obtained)."
+  },
+  {
+   "id": "rnr:shock-005",
+   "status": "rewritten",
+   "note": "Near-identical to bank item nb:nb-heme-02 (IV antibiotic anaphylaxis; IM epinephrine first); anaphylaxis is also well covered in the heme quizzes. Rewritten as a pharm item on adding IV hydrocortisone for septic shock with an ongoing vasopressor requirement (SSC 2021); key stays at position 3."
+  },
+  {
+   "id": "rnr:shock-009",
+   "status": "fixed",
+   "note": "Distractor 'Start a dobutamine infusion' was arguably also questionable at a BP of 82/58 mm Hg (current cardiogenic shock guidance favors norepinephrine for hypotension; dobutamine can lower BP). Replaced with norepinephrine titrated to a MAP of 65 mm Hg so the fluid bolus is the only prescription to question."
+  },
+  {
+   "id": "rnr:shock-014",
+   "status": "rewritten",
+   "note": "Same fact as bank items nb:nb-heme-05 and nb:ccrn-heme-03 (DIC laboratory profile). Rewritten as a SATA on recognizing the trauma 'lethal triad' (hypothermia, acidosis, coagulopathy) during massive resuscitation."
+  },
+  {
+   "id": "rnr:shock-016",
+   "status": "rewritten",
+   "note": "Same fact as rnr:heme-009 (bleeding precautions at a platelet count of 32,000/mm³) and nb:u2-rrp-014. Rewritten as a safety SATA on preventing infusion errors when a client in shock has several high-alert continuous infusions."
+  },
+  {
+   "id": "rnr:shock-017",
+   "status": "rewritten",
+   "note": "Same fact as book quiz item resp-ards-q1 (sepsis, bilateral infiltrates, refractory hypoxemia = ARDS); ARDS is covered by 17 quiz items. Rewritten as an analyze-cues item on abdominal compartment syndrome after large-volume resuscitation; key stays at position 2."
+  },
+  {
+   "id": "rnr:shock-018",
+   "status": "rewritten",
+   "note": "Same fact as book quiz items resp-ards-q3 and resp-ards-q12 (low tidal volume by predicted body weight in ARDS). Rewritten as a generate-solutions item on urgent source control (decompression of an obstructed, infected kidney) in septic shock; key stays at position 3."
+  },
+  {
+   "id": "rnr:shock-030",
+   "status": "fixed",
+   "note": "Reference tjc-npsg did not support rapid response escalation (no current NPSG covers it); replaced with openstax-fund."
+  },
+  {
+   "id": "rnr:shock-032",
+   "status": "rewritten",
+   "note": "Same skill and format as bank item nb:u2-moca-007 (place nurse's statements in SBAR order for a deteriorating postoperative client). Rewritten as an ordered-response prioritization of four clients with shock-related problems."
+  },
+  {
+   "id": "rnr:shock-034",
+   "status": "rewritten",
+   "note": "Same fact as rnr:leadership-040 (SATA on rapid response activation criteria). Rewritten as a SATA on the essential content of a nurse-to-nurse handoff when a client with septic shock transfers to the ICU."
+  },
+  {
+   "id": "rnr:shock-035",
+   "status": "rewritten",
+   "note": "Same fact as bank item nb:nb26-moca-015 (closed-loop communication during a code). Rewritten as a management-of-care item on post-resuscitation team debriefing; key stays at position 0."
+  },
+  {
+   "id": "rnr:shock-036",
+   "status": "rewritten",
+   "note": "Same fact as bank item nb:ccrnb-ethics-25 (family presence during resuscitation with a support person). Rewritten as an item on the primary nurse's role when the rapid response team arrives; key stays at position 1."
+  },
+  {
+   "id": "rnr:shock-037",
+   "status": "fixed",
+   "note": "Added aha-resuscitation reference (AHA guidelines are the primary source for this content)."
+  },
+  {
+   "id": "rnr:shock-038",
+   "status": "fixed",
+   "note": "Added aha-resuscitation reference (AHA guidelines are the primary source for this content)."
+  },
+  {
+   "id": "rnr:shock-039",
+   "status": "fixed",
+   "note": "Added aha-resuscitation reference (pediatric shock recognition is PALS content)."
+  },
+  {
+   "id": "rnr:shock-041",
+   "status": "rewritten",
+   "note": "Near-identical to bank item nb:nb26-resp-035 and book item heme-anaphylaxis-q6 (glucagon for epinephrine-resistant anaphylaxis in a client on a beta blocker). Rewritten as an analyze-cues pharm item on recognizing dobutamine-induced tachydysrhythmia in cardiogenic shock; key stays at position 1."
+  },
+  {
+   "id": "rnr:shock-042",
+   "status": "rewritten",
+   "note": "Same fact as rnr:immuno-029 (epinephrine auto-injector teaching: outer thigh, through clothing, call EMS, carry two). Rewritten as a pharm SATA on safe norepinephrine titration and monitoring."
+  },
+  {
+   "id": "rnr:shock-045",
+   "status": "fixed",
+   "note": "Stem asks what the nurse should do, so the CJMM label was changed from recognizeCues to takeAction."
+  },
+  {
+   "id": "rnr:shock-050",
+   "status": "fixed",
+   "note": "Added aha-resuscitation reference (AHA guidelines are the primary source for this content)."
+  }
+ ]
+}

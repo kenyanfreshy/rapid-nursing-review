@@ -1,0 +1,1579 @@
+{
+ "topic": "fundamentals",
+ "questions": [
+  {
+   "id": "rnr:fundamentals-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The provider is about to perform a thoracentesis at the bedside of a client with a pleural effusion. The consent is signed and the site is marked. What should the nurse do immediately before the needle is inserted?",
+   "options": [
+    "Lead a time-out to confirm the client, procedure and site",
+    "Ask the client to sign a second consent form for the procedure",
+    "Confirm that the client has had nothing by mouth for at least 8 hours",
+    "Place the client flat in bed with the head of the bed lowered"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The Universal Protocol applies to invasive procedures done at the bedside as well as in the operating room. A time-out right before the procedure is the final check.",
+    "One valid signed consent is enough. A second form adds nothing to safety.",
+    "Fasting is not routinely required for a thoracentesis done with local anesthesia.",
+    "For thoracentesis the client usually sits upright and leans forward over a table to widen the spaces between the ribs."
+   ],
+   "takeaway": "Perform a time-out immediately before any invasive procedure, including bedside procedures, to confirm the right client, procedure and site.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An unconscious adult with no identification is brought to the emergency department after a motor vehicle crash and needs blood drawn for an emergency transfusion. How should the nurse identify the client?",
+   "options": [
+    "Use the client's treatment room number until a family member arrives",
+    "Use the temporary name and record number the hospital assigns",
+    "Wait to label the blood specimens until the client's name is known",
+    "Use the name on a driver's license found in the client's jacket"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A room number is never an acceptable identifier because clients move and rooms are reused.",
+    "Correct. Facilities use a unique temporary identifier for unidentified clients so specimens, blood and records can be matched safely right away.",
+    "Delaying labeling risks mix-ups and delays lifesaving blood.",
+    "An unverified document may belong to someone else. Using it could link the client to another person's records."
+   ],
+   "takeaway": "Unidentified clients receive a unique temporary identifier so that two-identifier checks can still be done for blood and specimens.",
+   "refs": [
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 70-year-old client is getting out of bed for the first time after 2 days of bed rest. What should the nurse do first?",
+   "options": [
+    "Help the client stand quickly before the client becomes tired",
+    "Ask the client to walk to the bathroom while the nurse follows behind",
+    "Have the client dangle at the bedside and ask about dizziness",
+    "Raise the bed to its highest position so the client can stand easily"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Standing quickly after bed rest can cause orthostatic hypotension and a fall.",
+    "Walking before checking tolerance, with the nurse not beside the client, increases fall risk.",
+    "Correct. Dangling lets blood pressure adjust and shows whether the client has orthostatic symptoms before standing, which lowers fall risk.",
+    "The bed should be low so the client's feet rest flat on the floor before standing."
+   ],
+   "takeaway": "After bed rest, have the client dangle at the bedside and check for dizziness before standing to prevent orthostatic falls.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An 82-year-old client with dementia keeps pulling at a peripheral IV catheter in the forearm. Which action should the nurse try first?",
+   "options": [
+    "Apply soft wrist restraints to both arms",
+    "Ask the provider for a sedative to give when the client pulls at the IV",
+    "Tie the client's arm board to the bed rail",
+    "Cover the IV site with a stretch sleeve so it is out of sight"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Restraints are a last resort after less-restrictive measures fail, and they need a prescription.",
+    "Using medication to control behavior is a chemical restraint and is not a first-line measure.",
+    "Tying an arm board to the bed restricts movement and is a physical restraint.",
+    "Correct. Hiding the device is a least-restrictive alternative that often stops pulling without the risks of restraint."
+   ],
+   "takeaway": "Try the least restrictive measures first, such as hiding tubes and lines, before considering restraints.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client receiving oxygen by nasal cannula reports dry, sore nostrils and asks for petroleum jelly. What should the nurse do?",
+   "options": [
+    "Offer a water-soluble lubricant instead",
+    "Apply a thin layer of petroleum jelly inside each nostril",
+    "Remove the cannula for an hour so the nose can heal",
+    "Switch the client to a nonrebreather mask"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Water-soluble products soothe the nares safely. Oil-based products such as petroleum jelly should not be used with oxygen.",
+    "Petroleum-based products are flammable and should be avoided with oxygen therapy.",
+    "Stopping prescribed oxygen can cause hypoxemia.",
+    "Changing the oxygen device needs a prescription and is not needed for dry nostrils."
+   ],
+   "takeaway": "Use water-soluble lubricants, not petroleum-based products, on the skin and nares of clients receiving oxygen.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "While setting up a client's enteral feeding pump, the nurse notices that the power cord is frayed near the plug. What should the nurse do?",
+   "options": [
+    "Wrap electrical tape around the frayed area and use the pump",
+    "Remove the pump from use, tag it as defective, and get another pump",
+    "Unplug the pump and run it on battery power for the rest of this shift",
+    "Plug the pump into a red emergency power outlet"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Tape is not a safe repair. Only biomedical engineering should repair equipment.",
+    "Correct. Damaged electrical equipment can cause shock or fire and must be taken out of service for repair.",
+    "The pump is still defective. Another staff member could plug it in later.",
+    "Emergency outlets supply power during outages. They do not make damaged equipment safe."
+   ],
+   "takeaway": "Take equipment with frayed cords or damaged plugs out of service, label it and send it for repair.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A fire alarm sounds because of a fire on the nurse's unit. Which actions by the nurse are appropriate? Select all that apply.",
+   "options": [
+    "Open the windows to let the smoke out",
+    "Use the elevator to move clients who are bedbound",
+    "Use the stairs rather than the elevators",
+    "Close the doors to client rooms and the fire doors",
+    "Prop the fire doors open so staff can move quickly",
+    "Move clients horizontally past the fire doors when directed"
+   ],
+   "correct": [
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Open windows feed oxygen to a fire and can spread smoke.",
+    "Elevators should not be used in a fire unless the fire department directs it.",
+    "Correct. Elevators can fail or open onto a fire floor during a fire.",
+    "Correct. Closed doors help contain smoke and fire.",
+    "Fire doors must stay closed to slow the spread of smoke and fire.",
+    "Correct. Horizontal evacuation to another smoke compartment on the same floor is the first step."
+   ],
+   "takeaway": "During a fire, keep doors closed, avoid elevators, and evacuate horizontally beyond fire doors first.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is planning care for several clients. For each procedure, indicate whether it requires surgical asepsis (sterile technique) or medical asepsis (clean technique).",
+   "rows": [
+    "Inserting an indwelling urinary catheter",
+    "Giving oral medications",
+    "Changing a central venous catheter dressing",
+    "Emptying a urinary drainage bag",
+    "Inserting a nasogastric tube"
+   ],
+   "columns": [
+    "Surgical asepsis",
+    "Medical asepsis"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Surgical asepsis: the bladder is a sterile body cavity.",
+    "Medical asepsis: the gastrointestinal tract is not sterile.",
+    "Surgical asepsis: the catheter enters the bloodstream, so sterile technique prevents bloodstream infection.",
+    "Medical asepsis: clean gloves and avoiding contact with the drain spout are enough.",
+    "Medical asepsis: the tube enters the gastrointestinal tract, which is not sterile."
+   ],
+   "takeaway": "Use surgical asepsis when entering sterile body areas (bladder, bloodstream, tissue); use medical asepsis for nonsterile areas such as the GI tract.",
+   "refs": [
+    "openstax-fund",
+    "cdc-isolation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "While inserting an indwelling urinary catheter in a female client, the nurse realizes the catheter has entered the vagina. What should the nurse do?",
+   "options": [
+    "Remove it, wipe it with an antiseptic swab, and insert it into the urethra",
+    "Remove it and reinsert the same catheter because the vagina is clean",
+    "Leave it in place and insert a new sterile catheter into the urethra",
+    "Inflate the balloon to hold the catheter in place while getting help"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Wiping does not make the catheter sterile. Using it could introduce bacteria into the bladder.",
+    "The vagina is not sterile. A contaminated catheter would raise the risk of urinary tract infection.",
+    "Correct. The misplaced catheter is contaminated. Leaving it briefly as a landmark helps the nurse find the urethra with a new sterile catheter.",
+    "Inflating the balloon in the vagina is unsafe and does not solve the problem."
+   ],
+   "takeaway": "A catheter that touches the vagina or any nonsterile area is contaminated; insert a new sterile catheter.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse plans to move a client who cannot bear weight from the bed to a chair. Which actions reduce the risk of injury to the client and staff? Select all that apply.",
+   "options": [
+    "Have the client hold on around the nurse's neck",
+    "Lock the wheels of the bed and the chair before the transfer",
+    "Check that the sling is the right size and is not damaged",
+    "Use a mechanical lift as the facility's safe-handling policy directs",
+    "Twist at the waist to swing the client into the chair",
+    "Lift the client by hand with two staff members using good body mechanics"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "This places strain on the nurse's neck and back and can injure both people.",
+    "Correct. Locked wheels keep surfaces from moving during the transfer.",
+    "Correct. A wrong-size or worn sling can cause the client to fall.",
+    "Correct. A mechanical lift moves dependent clients without placing the full load on staff.",
+    "Twisting while bearing a load is a major cause of back injury.",
+    "Good body mechanics alone cannot make lifting a dependent adult safe. Lift equipment is recommended."
+   ],
+   "takeaway": "Use mechanical lift equipment for clients who cannot bear weight; body mechanics alone do not prevent staff injury.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse is ready to hang a unit of packed red blood cells. Which action best prevents giving the blood to the wrong client?",
+   "options": [
+    "Check the name on the room door against the name on the blood bag label",
+    "Verify the blood unit with another nurse at the nurses' station before hanging it",
+    "Ask the client's roommate to confirm the client's name before starting",
+    "Check the client and the unit at the bedside with a second qualified staff member"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A door sign is not an acceptable client identifier.",
+    "Checking away from the bedside does not confirm that the blood is matched to the client in the bed.",
+    "A roommate is not a reliable or appropriate source of identification.",
+    "Correct. A two-person check at the bedside, using two client identifiers and matching the unit label, is the key step for preventing transfusion errors."
+   ],
+   "takeaway": "Before a transfusion, two qualified staff verify the client's identity and the blood unit together at the bedside.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse educator observes nursing students performing hand hygiene. Which observation shows correct use of alcohol-based hand rub?",
+   "options": [
+    "The student rubs the product over all surfaces of the hands and fingers until dry",
+    "The student rubs hands together for 5 seconds and dries them with a paper towel",
+    "The student uses hand rub after getting blood on the hands",
+    "The student applies the product only to the palms before putting on gloves"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Covering all surfaces and rubbing until the hands are dry gives the alcohol enough contact time to work.",
+    "Drying with a towel removes the product before it has worked.",
+    "Visibly soiled hands need soap and water because alcohol rub does not remove organic material.",
+    "The backs of the hands, fingertips and thumbs are often missed and must be covered."
+   ],
+   "takeaway": "Apply alcohol-based hand rub to all hand surfaces and rub until dry; use soap and water when hands are visibly soiled.",
+   "refs": [
+    "cdc-handhygiene"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "The nurse is completing a fall risk assessment for an 84-year-old client admitted with pneumonia. Which findings increase the client's risk for falls? Select all that apply.",
+   "options": [
+    "Uses a walker and has an unsteady gait",
+    "Is alert and oriented to person, place and time",
+    "Has an IV infusion and oxygen tubing",
+    "Wears glasses with a current prescription",
+    "Fell at home 2 months ago",
+    "Takes a diuretic and has urinary urgency"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Gait problems and need for an assistive device increase fall risk.",
+    "Intact orientation lowers risk because the client can follow safety instructions.",
+    "Correct. IV lines and tubing can tangle and limit safe movement.",
+    "Correct vision helps the client see hazards and lowers risk.",
+    "Correct. A recent fall is one of the strongest predictors of another fall.",
+    "Correct. Urgency and frequent toileting lead to rushed trips to the bathroom."
+   ],
+   "takeaway": "Previous falls, urgency, gait problems, assistive devices and attached tubing all raise fall risk.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "matrix",
+   "stem": "A 79-year-old client with delirium after surgery is restless and tries to climb out of bed. For each nursing action, indicate whether it is indicated or not indicated as an alternative to restraints.",
+   "rows": [
+    "Ask a family member to stay with the client",
+    "Raise all four side rails",
+    "Use a bed-exit alarm and keep the bed in its lowest position",
+    "Reorient the client often and keep a clock and calendar in view",
+    "Give an as-needed benzodiazepine each time the client is restless"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "rationales": [
+    "Indicated: a familiar person can calm and reorient the client.",
+    "Not indicated: four raised rails are a restraint and raise the risk of injury from climbing over them.",
+    "Indicated: these measures alert staff and reduce injury without restricting movement.",
+    "Indicated: reorientation helps manage delirium.",
+    "Not indicated: benzodiazepines can worsen delirium in older adults, and giving a drug to control behavior is a chemical restraint."
+   ],
+   "takeaway": "Alternatives to restraint include companionship, alarms, a low bed and reorientation; four side rails and sedating drugs are restraints.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse is preparing to give a cleansing enema to an adult client. How should the nurse position the client?",
+   "options": [
+    "On the right side with both legs straight",
+    "Left side-lying with the right knee flexed",
+    "Prone with a pillow placed under the hips",
+    "Sitting upright on the toilet"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Lying on the right side works against the shape of the descending colon.",
+    "Correct. The left Sims' position lets the solution flow by gravity into the rectum and sigmoid colon, which lie on the left side.",
+    "The prone position makes it hard to insert the tube and to hold the solution.",
+    "Sitting makes it hard to hold the solution, and the client will expel it too soon."
+   ],
+   "takeaway": "Give enemas with the client in the left Sims' position so the solution follows the path of the colon.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "During a cleansing enema, the client reports abdominal cramping and says, \"I need to stop.\" What should the nurse do first?",
+   "options": [
+    "Raise the container higher so the solution finishes faster",
+    "Remove the tubing and end the procedure",
+    "Pause the flow briefly and coach slow, deep breaths",
+    "Tell the client to bear down to hold the solution"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Raising the container increases flow and pressure, which worsens cramping.",
+    "Stopping right away may not be needed. Cramping usually eases when the flow is slowed.",
+    "Correct. Pausing or slowing the flow (clamping the tubing or lowering the container) and coaching slow, deep breathing relax the bowel and ease cramping, and the enema can often be finished.",
+    "Bearing down pushes the solution out."
+   ],
+   "takeaway": "If cramping occurs during an enema, slow or pause the flow and coach slow, deep breathing.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client 1 day after surgery reports new abdominal pain. Which question by the nurse best assesses the quality of the pain?",
+   "options": [
+    "\"Is the pain sharp?\"",
+    "\"On a scale of 0 to 10, how bad is the pain?\"",
+    "\"When did the pain start?\"",
+    "\"Can you describe what the pain feels like?\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "This leading, closed question suggests an answer and may give inaccurate data.",
+    "This measures intensity, not quality.",
+    "This assesses onset, not quality.",
+    "Correct. An open-ended question lets the client describe quality in their own words (for example, burning, cramping or stabbing)."
+   ],
+   "takeaway": "Use open-ended questions to assess pain quality; intensity, onset and location are separate parts of the assessment.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with dysphagia after a stroke has been cleared by speech-language pathology for a pureed diet with mildly thick liquids. Which actions should the nurse take during meals? Select all that apply.",
+   "options": [
+    "Have the client tuck the chin when swallowing",
+    "Seat the client fully upright, at or near 90 degrees",
+    "Give liquids only at the prescribed thickness",
+    "Offer sips of plain water between bites to help the food go down",
+    "Check the mouth for food pocketed on the weak side",
+    "Have the client lie down to rest right after the meal"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. A chin tuck helps protect the airway during the swallow.",
+    "Correct. An upright position helps food move safely toward the esophagus.",
+    "Correct. Thin liquids move quickly and are more likely to be aspirated.",
+    "Plain water is a thin liquid and is not part of this diet.",
+    "Correct. Food left in the cheek can be aspirated later.",
+    "The client should stay upright for 30 minutes or more after eating to reduce aspiration risk."
+   ],
+   "takeaway": "Dysphagia precautions: sit upright, chin tuck, prescribed liquid thickness, check for pocketed food, and stay upright after meals.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "recognizeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "The nurse assesses a client who has been on bed rest for 10 days. Which findings suggest complications of immobility? Select all that apply.",
+   "options": [
+    "Pale yellow urine totaling 1,500 mL in 24 hours",
+    "New swelling and warmth in the left calf",
+    "A reddened area over the sacrum that does not blanch",
+    "A regular heart rate of 76/min",
+    "Crackles in the posterior lung bases",
+    "Hard stool and no bowel movement for 4 days"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "This is normal urine output and color.",
+    "Correct. This suggests deep vein thrombosis from venous stasis.",
+    "Correct. Nonblanchable redness is a stage 1 pressure injury.",
+    "This is a normal finding.",
+    "Correct. Pooling of secretions during immobility can lead to atelectasis or pneumonia.",
+    "Correct. Reduced activity slows peristalsis and causes constipation."
+   ],
+   "takeaway": "Immobility affects every system: watch for DVT, pressure injury, constipation and pulmonary complications.",
+   "refs": [
+    "openstax-fund",
+    "npiap"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse teaches a client who sprained an ankle 2 hours ago about using cold therapy. Which statement by the client indicates understanding?",
+   "options": [
+    "\"I'll wrap the ice in a towel and use it 15 to 20 minutes at a time.\"",
+    "\"I'll put the ice right on my skin so it works faster.\"",
+    "\"I'll keep the ice pack on all night while I sleep to stop the swelling.\"",
+    "\"I'll switch between ice and a heating pad every 10 minutes today.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A cloth barrier protects the skin, and limiting each application prevents tissue injury while reducing swelling and pain.",
+    "Direct contact with ice can cause frostbite or skin injury.",
+    "Continuous cold can damage tissue and causes rebound vasodilation.",
+    "Heat in the first day after an injury increases swelling."
+   ],
+   "takeaway": "Apply cold to acute injuries with a cloth barrier for about 15 to 20 minutes at a time.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is teaching foot care to a client with type 2 diabetes who has reduced sensation in both feet. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Put lotion between your toes to prevent cracking",
+    "Dry well between your toes after washing",
+    "Wash your feet in lukewarm water after testing it with your elbow",
+    "Look at your feet every day, using a mirror for the bottoms",
+    "Walk barefoot at home so your feet can breathe",
+    "Soak your feet for 30 minutes every day"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Lotion between the toes keeps the area moist and promotes infection. Lotion goes on the tops and bottoms only.",
+    "Correct. Moisture between the toes promotes fungal infection and skin breakdown.",
+    "Correct. Reduced sensation means the client may not feel water that is hot enough to burn.",
+    "Correct. Daily inspection finds injuries the client cannot feel.",
+    "Going barefoot exposes numb feet to injuries the client may not notice.",
+    "Long soaks dry and macerate the skin, which raises the risk of cracks and infection."
+   ],
+   "takeaway": "With diabetic neuropathy: inspect daily, test water temperature, dry between toes, no soaking, no lotion between toes, never barefoot.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client receiving chemotherapy has painful mouth sores. Which oral care instruction should the nurse give?",
+   "options": [
+    "Use an alcohol-based mouthwash after each meal and at bedtime",
+    "Use a soft brush and rinse with salt water or a baking-soda solution",
+    "Brush with a firm toothbrush to remove all debris",
+    "Use lemon-glycerin swabs to keep the mouth moist"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Alcohol dries and irritates inflamed tissue.",
+    "Correct. Gentle cleaning and bland rinses keep the mouth clean without further injuring the mucosa.",
+    "Firm bristles can tear fragile tissue and cause bleeding.",
+    "Lemon-glycerin swabs dry and irritate the mucosa."
+   ],
+   "takeaway": "For mucositis, use soft brushes or swabs and bland rinses; avoid alcohol mouthwash and lemon-glycerin swabs.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The RN observes a UAP caring for a client with an indwelling urinary catheter. For each action, indicate whether it is appropriate or requires correction.",
+   "rows": [
+    "Hangs the drainage bag on the bed frame below the level of the bladder",
+    "Rests the drainage bag on the floor",
+    "Cleans the meatus and catheter with soap and water during daily hygiene",
+    "Disconnects the catheter from the tubing to empty the urine",
+    "Secures the catheter to the client's thigh"
+   ],
+   "columns": [
+    "Appropriate",
+    "Requires correction"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Appropriate: keeping the bag below the bladder prevents backflow of urine.",
+    "Requires correction: the floor is contaminated, and the bag can pick up microorganisms.",
+    "Appropriate: routine hygiene with soap and water is recommended.",
+    "Requires correction: the closed drainage system must stay intact to prevent infection.",
+    "Appropriate: securing the catheter prevents pulling and urethral injury."
+   ],
+   "takeaway": "Keep the urinary drainage system closed, the bag below the bladder and off the floor, and the catheter secured.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "Which measures should the nurse include to prevent constipation in an older adult client with limited mobility? Select all that apply.",
+   "options": [
+    "Offer fluids regularly unless the client is on a fluid restriction",
+    "Give an enema every morning",
+    "Offer the toilet or commode after breakfast",
+    "Include high-fiber foods such as fruits, vegetables and whole grains",
+    "Place the client flat on a bedpan for bowel movements",
+    "Help the client move or walk as much as tolerated"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Adequate fluid keeps stool soft.",
+    "Routine enemas can cause dependence and electrolyte problems.",
+    "Correct. The gastrocolic reflex is strongest after a meal, especially breakfast.",
+    "Correct. Fiber adds bulk and helps stool move.",
+    "A flat position makes defecation harder. Sitting upright, ideally on a commode, helps.",
+    "Correct. Activity stimulates peristalsis."
+   ],
+   "takeaway": "Prevent constipation with fluids, fiber, activity and a regular toileting time after meals.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is planning positioning for a client on bed rest who is at high risk for pressure injury. For each action, indicate whether it is appropriate or not appropriate.",
+   "rows": [
+    "Keep the head of the bed at 30 degrees or lower unless contraindicated",
+    "Float the heels by placing a pillow under the calves",
+    "Position the client fully on one side at 90 degrees, directly on the hip",
+    "Use a ring (donut) cushion under the sacrum",
+    "Reposition the client on an individualized schedule"
+   ],
+   "columns": [
+    "Appropriate",
+    "Not appropriate"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Appropriate: limiting head elevation reduces shear and sliding.",
+    "Appropriate: offloading the heels prevents heel pressure injury.",
+    "Not appropriate: a 30-degree tilted side-lying position avoids direct pressure on the trochanter.",
+    "Not appropriate: ring cushions reduce blood flow to surrounding tissue and can cause injury.",
+    "Appropriate: repositioning relieves pressure. Frequency depends on the client's risk and support surface."
+   ],
+   "takeaway": "Prevent pressure injury with 30-degree tilts, heels floated, head of bed at 30 degrees or lower and regular repositioning; avoid ring cushions.",
+   "refs": [
+    "npiap"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is giving an intermittent (bolus) feeding through a gastrostomy tube. Which actions are appropriate? Select all that apply.",
+   "options": [
+    "Raise the head of the bed at least 30 degrees during and after the feeding",
+    "Flush the tube with water before and after the feeding",
+    "Mix the client's crushed medications into the formula before giving it",
+    "Give the formula at room temperature",
+    "Check the external length marking on the tube before the feeding",
+    "Push the formula quickly with the syringe plunger to save time"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Elevating the head of the bed reduces the risk of aspiration.",
+    "Correct. Flushing keeps the tube patent.",
+    "Medications should not be mixed into formula. They can clog the tube, interact with the formula and leave part of the dose ungiven; each medication is given separately with water flushes.",
+    "Correct. Room-temperature formula is more comfortable; cold formula can cause cramping and discomfort.",
+    "Correct. A change in the external length can show that the tube has moved.",
+    "Rapid feeding can cause cramping, nausea and vomiting. Gravity flow at a slow rate is preferred."
+   ],
+   "takeaway": "For bolus tube feeding: confirm tube position, keep the head of the bed up, flush before and after, and give room-temperature formula slowly.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client admitted for surgery says, \"I can't sleep here. At home I read and drink warm milk before bed.\" Which action should the nurse take?",
+   "options": [
+    "Ask the provider for a sleep medication for tonight",
+    "Explain that poor sleep is expected and will improve at home",
+    "Help the client keep the usual bedtime routine",
+    "Encourage a long nap in the afternoon"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Medication is not the first choice when simple nondrug measures may work.",
+    "This dismisses the client's concern and offers no help.",
+    "Correct. Keeping familiar bedtime routines is a nondrug way to promote sleep in the hospital.",
+    "Long daytime naps make it harder to sleep at night."
+   ],
+   "takeaway": "Support sleep in the hospital by keeping the client's usual bedtime routines before considering medication.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with Alzheimer disease becomes agitated and strikes out during showers. Which approach should the nurse use for hygiene care?",
+   "options": [
+    "Have two staff members hold the client in the shower to finish quickly",
+    "Stop all bathing until the client asks for a bath",
+    "Bathe the client at the same time as the roommate to save time",
+    "Give a towel bath in a warm room and explain each step in simple words"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Holding the client by force is frightening and unsafe and may be a restraint.",
+    "Skipping hygiene risks skin breakdown and infection. The approach should change, not the care.",
+    "Rushing care and limiting privacy increase agitation.",
+    "Correct. A towel bath is less frightening than a shower, and a warm room with calm, simple cues reduces distress."
+   ],
+   "takeaway": "For clients with dementia who resist bathing, adapt the method (such as a towel bath), keep the room warm and give simple step-by-step cues.",
+   "refs": [
+    "openstax-fund",
+    "openstax-psych"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "The nurse is helping a client with left-sided weakness move from the bed to a wheelchair. Place the steps in the correct order.",
+   "options": [
+    "Place the wheelchair at a slight angle on the client's right side and lock the brakes",
+    "Help the client sit on the edge of the bed with both feet flat on the floor",
+    "Have the client pivot on the right foot and lower into the chair",
+    "Apply a gait belt and help the client stand"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "rationales": [
+    "First: the chair goes on the stronger side, with brakes locked, so the client can pivot toward it.",
+    "Second: sitting first lets the client adjust and lowers the risk of dizziness.",
+    "Last: the client pivots on the stronger leg and sits down with control.",
+    "Third: the gait belt gives the nurse a secure hold as the client stands."
+   ],
+   "takeaway": "For bed-to-chair transfers, place the chair on the client's stronger side, lock it, sit the client up, stand with a gait belt, then pivot.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "bcc",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "In which situation is placing a client in the Trendelenburg position appropriate?",
+   "options": [
+    "During insertion of a subclavian central venous catheter",
+    "For a client with a head injury and increased intracranial pressure",
+    "For a client with shortness of breath from heart failure",
+    "For a client who is receiving a continuous tube feeding"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Head-down positioning fills the upper central veins and helps prevent air embolism during insertion.",
+    "A head-down position raises intracranial pressure.",
+    "A head-down position pushes the abdominal organs against the diaphragm and worsens breathing. These clients need an upright position.",
+    "A head-down position increases the risk of aspiration during tube feeding."
+   ],
+   "takeaway": "Trendelenburg is used briefly for central line insertion; avoid it with increased intracranial pressure, breathing problems and tube feedings.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client being admitted to a medical unit brings a bag of home medications and herbal supplements. What should the nurse do?",
+   "options": [
+    "Send the bag home with family without reviewing what is in it",
+    "Reconcile the home list with admission prescriptions and report differences",
+    "Let the client take the home medications from the bag as needed",
+    "Record only the prescription drugs because supplements are not regulated medications"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Sending the medications home before reviewing them loses important information about what the client takes.",
+    "Correct. Medication reconciliation at admission finds omissions, duplicates and interactions, including supplements.",
+    "Self-administering unverified home medications can lead to duplicate doses and interactions.",
+    "Supplements can interact with prescribed drugs and must be included."
+   ],
+   "takeaway": "Reconcile all home medications, including over-the-counter drugs and supplements, at admission, transfer and discharge.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with a new prescription for an inhaled medication is about to be discharged and says, \"I don't have any way to pay for this medicine.\" What should the nurse do?",
+   "options": [
+    "Tell the client to buy it when they are able to afford it",
+    "Give the client the unit's supply of the inhaler to take home",
+    "Notify the case manager or social worker before discharge",
+    "Document the statement and complete the discharge as planned"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Delaying a needed medication puts the client at risk of getting worse and being readmitted.",
+    "Unit stock cannot be sent home with clients.",
+    "Correct. The case manager or social worker can look for financial help or other options so the client can follow the treatment plan after discharge.",
+    "Documenting without acting leaves a known barrier to safe discharge unaddressed."
+   ],
+   "takeaway": "Address barriers such as medication cost before discharge by involving case management or social work.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse is asked to witness a client's signature on a consent form for a procedure. The client received IV morphine 20 minutes ago and is drowsy. What should the nurse do?",
+   "options": [
+    "Have the client sign now because the provider already explained the procedure",
+    "Ask a family member to sign the form for the client",
+    "Sign as a witness and note that the client was drowsy",
+    "Notify the provider that consent should wait until the client is alert"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A client under the effects of an opioid may not be able to understand or remember, so the consent may not be valid.",
+    "A family member signs only when the client lacks capacity and is the legal surrogate. This client's impairment is temporary.",
+    "Witnessing a signature the nurse believes is not informed is not appropriate.",
+    "Correct. Informed consent requires the client to understand, so it cannot be obtained while the client is impaired by a sedating drug."
+   ],
+   "takeaway": "Consent must be obtained while the client is alert and able to understand; delay it if a sedating drug has just been given.",
+   "refs": [
+    "ncsbn-testplan",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "Which client's morning hygiene care is most appropriate for the RN to delegate to a UAP?",
+   "options": [
+    "A client with stable chronic kidney disease who needs help with a shower",
+    "A client admitted 2 hours ago with a stage 3 pressure injury who needs a skin assessment during the bath",
+    "A client with a new tracheostomy who needs tracheostomy and oral care",
+    "A client with a heart rate of 46/min who became dizzy during yesterday's shower"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. This client is stable, and helping with a shower is routine care with a predictable outcome.",
+    "A skin assessment is part of the bath for this client, and assessment cannot be delegated.",
+    "Care of a new tracheostomy requires RN assessment and skill.",
+    "This client may be unstable during activity and needs RN assessment."
+   ],
+   "takeaway": "Delegate hygiene for stable clients; keep hygiene care that includes assessment or involves unstable clients with the RN.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client refuses a morning bed bath and says, \"I'm too tired right now.\" What should the nurse do?",
+   "options": [
+    "Explain that unit policy requires all baths to be done before 1000",
+    "Respect the refusal and offer the bath at a time the client prefers",
+    "Ask the UAP to give the bath while the client rests",
+    "Document that the client is noncompliant with hygiene care"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Unit routines do not override a client's right to refuse care.",
+    "Correct. Clients have the right to refuse care. Offering another time supports autonomy and still meets hygiene needs.",
+    "Bathing a client who has refused violates the client's autonomy.",
+    "Labeling the client is judgmental and does not meet the need."
+   ],
+   "takeaway": "Respect a client's right to refuse care and plan flexible times that meet both the client's wishes and care needs.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "An RN is caring for a stable client with Parkinson disease. Which tasks can the RN delegate to the UAP? Select all that apply.",
+   "options": [
+    "Help the client walk with the walker the client already uses",
+    "Change the bed linens while the client sits in a chair",
+    "Evaluate whether the client's tremors improved with the new medication",
+    "Teach the client about side effects of a new medication",
+    "Assess the client's swallowing before lunch",
+    "Measure and record intake and output"
+   ],
+   "correct": [
+    0,
+    1,
+    5
+   ],
+   "rationales": [
+    "Correct. Assisting a stable client with a familiar device is routine care.",
+    "Correct. Making an occupied or unoccupied bed is within the UAP role.",
+    "Evaluation of a client's response to treatment requires RN judgment.",
+    "Teaching is an RN responsibility.",
+    "Assessment requires RN judgment.",
+    "Correct. Measuring and recording are routine. The RN interprets the data."
+   ],
+   "takeaway": "UAPs can perform routine mobility, hygiene and measurements; assessment, teaching and evaluation remain with the RN.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client admitted yesterday with an acute ischemic stroke has right-sided weakness, needs help with bathing, is worried about returning to work, and failed the bedside swallow screen this morning. Which client problem is the nurse's priority?",
+   "options": [
+    "Impaired physical mobility related to right-sided weakness",
+    "Self-care deficit for bathing related to weakness",
+    "Risk for aspiration related to impaired swallowing",
+    "Anxiety related to uncertainty about returning to work"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Mobility is important for preventing complications, but it ranks below a risk to the airway.",
+    "Hygiene needs can be met with assistance and do not threaten life.",
+    "Correct. A failed swallow screen means a high risk of aspiration, a threat to the airway. The nurse keeps the client NPO, including oral medications, and requests a speech-language pathology evaluation.",
+    "Psychosocial needs matter, but physiologic airway risks come first."
+   ],
+   "takeaway": "After a stroke, a failed swallow screen makes aspiration risk the priority: keep the client NPO, including oral medications, until speech-language pathology evaluates.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with limited health literacy is starting a new antihypertensive medication. Which teaching approach is best?",
+   "options": [
+    "Give a detailed handout written at a college reading level",
+    "Cover every possible side effect in one teaching session",
+    "Use medical terms so the client becomes familiar with them",
+    "Use plain language and focus on a few key actions"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Most health materials should be written at about a fifth- to sixth-grade level, especially for clients with limited literacy.",
+    "Too much information at once overwhelms the client and reduces recall.",
+    "Medical jargon makes teaching harder to understand.",
+    "Correct. Plain words and a short list of key actions help clients with limited health literacy understand and remember."
+   ],
+   "takeaway": "For limited health literacy, use plain language, limit content to key actions and confirm understanding.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "hpm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "The nurse is using the teach-back method to teach a client how to use a metered-dose inhaler. Place the nurse's actions in the correct order.",
+   "options": [
+    "Reteach any step the client missed and check understanding again",
+    "Ask the client to explain and show the steps in their own words",
+    "Assess what the client already knows and how the client prefers to learn",
+    "Explain and demonstrate the steps in plain language"
+   ],
+   "correct": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "rationales": [
+    "Last: the nurse closes gaps and repeats teach-back until the client is correct.",
+    "Third: teach-back checks whether the teaching was understood.",
+    "First: assessing knowledge and learning style guides what and how to teach.",
+    "Second: the nurse teaches in clear, simple steps."
+   ],
+   "takeaway": "Teach-back: assess, teach in plain language, have the client explain or show it back, then reteach and recheck as needed.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is teaching a client how to prevent tooth decay and gum disease. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Limit sugary drinks and snacks",
+    "Replace the toothbrush once a year",
+    "See a dentist regularly for checkups and cleanings",
+    "Use a hard-bristled toothbrush to remove more plaque",
+    "Brush twice a day with fluoride toothpaste",
+    "Clean between the teeth every day with floss or an interdental cleaner"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Sugar feeds the bacteria that cause decay.",
+    "Toothbrushes should be replaced about every 3 to 4 months or when the bristles are frayed.",
+    "Correct. Regular dental care finds problems early.",
+    "Hard bristles can damage gums and enamel. A soft brush is recommended.",
+    "Correct. Fluoride strengthens enamel and prevents decay.",
+    "Correct. This removes plaque where a toothbrush cannot reach."
+   ],
+   "takeaway": "Oral health basics: fluoride toothpaste twice daily, daily cleaning between teeth, less sugar and regular dental visits.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "Which client behaviors may indicate limited health literacy? Select all that apply.",
+   "options": [
+    "Identifies medications by color and shape instead of by name",
+    "Reads the medication label aloud and explains the dosing correctly",
+    "Often leaves intake forms incomplete",
+    "Says, \"I'll read this later when I have my glasses,\" each time written material is given",
+    "Asks specific questions about how a new drug interacts with current drugs"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Relying on appearance can mean the client cannot read the labels.",
+    "This shows the client can read and understand the label.",
+    "Correct. Incomplete forms can signal difficulty reading or understanding them.",
+    "Correct. Repeatedly putting off reading is a common way to hide reading difficulty.",
+    "Specific, informed questions suggest the client understands the material."
+   ],
+   "takeaway": "Watch for hidden signs of limited health literacy, such as excuses to avoid reading, identifying pills by appearance and incomplete forms.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with suspected sepsis has new prescriptions for blood cultures and an IV antibiotic. What should the nurse do?",
+   "options": [
+    "Draw two sets of blood cultures from separate sites, then start the antibiotic",
+    "Start the antibiotic first and draw the blood cultures after the first dose is in",
+    "Draw one culture from the existing IV line while fluids are running",
+    "Wait to draw cultures until the client's temperature is above 39 °C (102.2 °F)"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Cultures drawn before antibiotics give the most accurate results, and two sets from separate sites help rule out contamination. The antibiotic should follow promptly.",
+    "Antibiotics given first can sterilize the blood sample and cause false-negative cultures.",
+    "Drawing from a running IV line can dilute and contaminate the sample, and one set is not enough.",
+    "Waiting delays diagnosis and treatment of a life-threatening infection."
+   ],
+   "takeaway": "In suspected sepsis, draw two sets of blood cultures from separate sites before antibiotics, as long as this does not significantly delay treatment.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A small-bore feeding tube has just been inserted at the bedside for a client who will receive enteral nutrition. Which method confirms the tube is in the stomach before the first feeding?",
+   "options": [
+    "Listening over the stomach while injecting air through the tube",
+    "An x-ray that shows the tip of the tube in the stomach",
+    "Placing the end of the tube in water and watching for bubbles",
+    "Checking that the client can talk without coughing"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The sound of air can be heard even when the tube is in the lung or esophagus, so this method is unreliable.",
+    "Correct. Radiographic confirmation is the most reliable way to confirm initial placement of a blindly inserted feeding tube.",
+    "This method is unreliable and could cause aspiration if the tube is in the airway.",
+    "A tube can enter the airway without coughing, especially in clients with a reduced gag reflex."
+   ],
+   "takeaway": "Confirm initial placement of a blindly inserted feeding tube by x-ray before using it; auscultating injected air is unreliable.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "The nurse is teaching a female client how to collect a midstream clean-catch urine specimen. Place the steps in the correct order.",
+   "options": [
+    "Wash hands and clean the urethral area from front to back with the towelette",
+    "Begin urinating into the toilet",
+    "Cap the cup and give it to the nurse to label in the client's presence",
+    "Finish urinating into the toilet",
+    "Collect the middle part of the stream in the sterile cup without touching the inside"
+   ],
+   "correct": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "rationales": [
+    "First: hand hygiene and cleansing reduce contamination from the skin.",
+    "Second: the first part of the stream flushes bacteria from the urethra.",
+    "Last: capping keeps it clean, and labeling in front of the client prevents identification errors.",
+    "Fourth: the rest of the stream is not needed.",
+    "Third: the midstream portion best reflects urine in the bladder."
+   ],
+   "takeaway": "Clean-catch urine: cleanse front to back, start the stream in the toilet, collect midstream, finish in the toilet, then cap and label.",
+   "refs": [
+    "openstax-fund",
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:fundamentals-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Fundamentals & Safety",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 74-year-old client with heart failure is due for digoxin. The client's radial pulse is irregular. How should the nurse measure the heart rate?",
+   "options": [
+    "Count the radial pulse for 15 seconds and multiply by 4",
+    "Count the radial pulse for 30 seconds and multiply by 2",
+    "Count the apical pulse for a full 60 seconds",
+    "Use the heart rate shown on the pulse oximeter"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Short counts miss beats in an irregular rhythm and give an inaccurate rate.",
+    "A 30-second count is acceptable only for a regular rhythm.",
+    "Correct. An irregular rhythm requires a full-minute apical count for accuracy, and an apical rate is standard before giving digoxin.",
+    "A pulse oximeter may not detect weak beats in an irregular rhythm."
+   ],
+   "takeaway": "For an irregular pulse, and before giving digoxin, count the apical pulse for a full 60 seconds.",
+   "refs": [
+    "openstax-fund",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

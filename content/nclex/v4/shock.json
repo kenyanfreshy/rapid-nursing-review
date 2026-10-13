@@ -1,0 +1,1753 @@
+{
+ "topic": "shock",
+ "questions": [
+  {
+   "id": "rnr:shock-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client is having surgery under general anesthesia with sevoflurane, and succinylcholine was given for intubation. Which findings should the perioperative nurse recognize as possible signs of malignant hyperthermia? Select all that apply.",
+   "options": [
+    "Unexplained rise in end-tidal carbon dioxide despite increased ventilation",
+    "Rigidity of the jaw (masseter) muscles",
+    "Heart rate falling from 88/min to 52/min",
+    "Rapidly rising body temperature",
+    "Generalized muscle flaccidity",
+    "Serum potassium of 6.1 mEq/L"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Uncontrolled skeletal muscle metabolism produces large amounts of CO₂; an unexplained rise in end-tidal CO₂ is often the earliest sign.",
+    "Correct. Masseter rigidity after succinylcholine, or generalized muscle rigidity, is a classic early sign.",
+    "Malignant hyperthermia causes tachycardia and dysrhythmias from the hypermetabolic state, not bradycardia.",
+    "Correct. Temperature can climb quickly (by 1-2°C every 5 minutes), although it is often a later sign than the rise in end-tidal CO₂.",
+    "Muscles become rigid, not flaccid, because calcium is released uncontrollably inside the muscle cells.",
+    "Correct. Muscle breakdown (rhabdomyolysis) releases potassium, causing hyperkalemia that can trigger dysrhythmias."
+   ],
+   "takeaway": "Malignant hyperthermia: watch for an unexplained rise in end-tidal CO₂, masseter rigidity, tachycardia and hyperkalemia; fever may come later. Stop triggering agents and give dantrolene.",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with suspected sepsis has a prescription for blood cultures and a broad-spectrum IV antibiotic. The antibiotic has arrived from pharmacy. The nurse is trained in blood culture collection, but phlebotomy cannot come for 40 minutes. Which action by the nurse is best?",
+   "options": [
+    "Draw two sets of blood cultures now, then start the antibiotic right away",
+    "Start the antibiotic now and have phlebotomy draw the cultures when they arrive",
+    "Hold the antibiotic until phlebotomy draws the cultures",
+    "Draw one culture from the existing IV line, then start the antibiotic"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Cultures are obtained before antibiotics when this does not cause a significant delay. The nurse can draw the cultures now so the antibiotic can be given promptly, within the first hour.",
+    "Antibiotics given before cultures can sterilize the blood and prevent the organism from being identified.",
+    "A 40-minute wait delays antibiotics, and every hour of delay in septic shock raises the risk of death.",
+    "Two sets from separate sites are standard, and drawing from an existing peripheral IV line increases contamination."
+   ],
+   "takeaway": "In sepsis, draw blood cultures before antibiotics, but never let culture collection delay antibiotics beyond the first hour.",
+   "refs": [
+    "sepsis-2021"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with septic shock has a blood pressure of 84/48 mm Hg after the initial fluid bolus. How should the nurse interpret the mean arterial pressure (MAP)?",
+   "options": [
+    "MAP is 66 mm Hg, which meets the target",
+    "MAP is 60 mm Hg, below the target of 65 mm Hg",
+    "MAP is 72 mm Hg, which shows adequate perfusion",
+    "MAP is 54 mm Hg, which is too low to calculate reliably"
+   ],
+   "correct": 1,
+   "rationales": [
+    "66 mm Hg is the average of the systolic and diastolic values; MAP gives the diastolic pressure double weight.",
+    "Correct. MAP = (systolic + 2 × diastolic) ÷ 3 = (84 + 96) ÷ 3 = 60 mm Hg. The initial target in septic shock is a MAP of at least 65 mm Hg, so the client needs further treatment, such as a vasopressor.",
+    "72 mm Hg is not supported by the formula and would wrongly suggest the client is stable.",
+    "54 mm Hg is a miscalculation; MAP can be calculated at any blood pressure."
+   ],
+   "takeaway": "MAP = (SBP + 2 × DBP) ÷ 3; in septic shock, target a MAP of at least 65 mm Hg.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client in septic shock remains hypotensive after fluids. The provider prescribes norepinephrine to start through a large-bore IV in the antecubital vein while a central line is being placed. What should the nurse do?",
+   "options": [
+    "Refuse to start the infusion until the central line is in place",
+    "Give the first dose as a slow IV push to raise the pressure quickly",
+    "Start the infusion on a pump and check the IV site often for blanching, swelling or coolness",
+    "Start the infusion in a small vein on the back of the hand to save the antecubital site"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Delaying the vasopressor leaves the client hypotensive and hypoperfused; peripheral use for a short time is acceptable while a central line is placed.",
+    "Norepinephrine is given as a continuous, titrated infusion on a pump; an IV push can cause dangerous hypertension and arrhythmias.",
+    "Correct. Current sepsis guidelines support starting a vasopressor through a well-functioning proximal peripheral IV rather than delaying until central access is placed. Because norepinephrine is a vesicant, the nurse monitors the site closely for extravasation.",
+    "Small distal veins have a higher risk of extravasation and tissue damage; a large, proximal vein is preferred."
+   ],
+   "takeaway": "Do not delay a needed vasopressor: it can run briefly through a large proximal peripheral IV with frequent site checks until a central line is placed.",
+   "refs": [
+    "sepsis-2021",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with septic shock has received IV fluids and antibiotics. The client has needed norepinephrine at 0.3 mcg/kg/min for more than 4 hours to keep the mean arterial pressure at 65 mm Hg. Which medication should the nurse anticipate being added?",
+   "options": [
+    "Sodium bicarbonate infusion to correct the lactic acidosis",
+    "Furosemide IV to increase urine output",
+    "Metoprolol IV to slow the heart rate",
+    "Hydrocortisone IV"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Sepsis guidelines suggest against bicarbonate for hypoperfusion-related lactic acidosis unless acidosis is severe with acute kidney injury; it does not raise the blood pressure.",
+    "A diuretic would lower circulating volume in a client who is still hypotensive and does not treat the cause of low urine output.",
+    "A beta blocker would lower cardiac output and blood pressure further in a client who already needs a vasopressor.",
+    "Correct. For adults with septic shock who have an ongoing vasopressor requirement (norepinephrine 0.25 mcg/kg/min or more for at least 4 hours), Surviving Sepsis 2021 suggests adding IV hydrocortisone, which can shorten the time in shock. The nurse monitors glucose because steroids raise it."
+   ],
+   "takeaway": "Septic shock with an ongoing vasopressor requirement: anticipate IV hydrocortisone and monitor blood glucose.",
+   "refs": [
+    "sepsis-2021",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with anaphylaxis has received IM epinephrine. Which additional actions should the nurse anticipate? Select all that apply.",
+   "options": [
+    "Have the client stand up to check for dizziness",
+    "Give high-flow oxygen",
+    "Give a rapid bolus of IV isotonic fluid for hypotension",
+    "Give oral diphenhydramine instead of further epinephrine",
+    "Prepare to repeat the epinephrine dose in 5 to 15 minutes if symptoms persist",
+    "Monitor the client for a return of symptoms over the next several hours"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Sitting or standing up during anaphylaxis can cause sudden collapse; the client is kept lying down (or sitting up if breathing is difficult).",
+    "Correct. Oxygen supports oxygenation during airway swelling and bronchospasm.",
+    "Correct. Vasodilation and capillary leak cause hypotension that needs rapid IV fluid.",
+    "Oral antihistamines are too slow and do not treat the life-threatening features; repeat epinephrine is the treatment for persistent symptoms.",
+    "Correct. Epinephrine can be repeated every 5 to 15 minutes if symptoms continue.",
+    "Correct. A biphasic reaction can occur hours after the first reaction resolves, so observation is needed."
+   ],
+   "takeaway": "After IM epinephrine: oxygen, IV fluids, keep the client lying down, repeat epinephrine every 5-15 minutes as needed, and watch for a biphasic reaction.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with a C5 spinal cord injury 2 days ago is being suctioned through a tracheostomy. During suctioning, the heart rate drops from 66/min to 38/min and the client becomes pale. What should the nurse do first?",
+   "options": [
+    "Stop suctioning and give oxygen",
+    "Finish suctioning quickly to clear the airway",
+    "Place the client in high Fowler's position",
+    "Increase the suction pressure to shorten the procedure"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. In cervical cord injury, sympathetic tone is lost, so vagal stimulation from suctioning can cause severe bradycardia. Stopping the stimulus and oxygenating is the first step; atropine should be available.",
+    "Continuing the stimulus can deepen the bradycardia and lead to cardiac arrest.",
+    "Sitting the client up can worsen hypotension in neurogenic shock and does not stop the vagal response.",
+    "Higher suction pressure damages the mucosa and increases vagal stimulation."
+   ],
+   "takeaway": "Cervical cord injury removes sympathetic tone: suctioning can trigger severe bradycardia, so hyperoxygenate, keep passes brief and stop if the heart rate drops.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is caring for two trauma clients in shock: one with neurogenic shock from a T2 spinal cord injury and one with hypovolemic shock from a pelvic fracture. For each finding, indicate the type of shock it best fits.",
+   "rows": [
+    "Heart rate of 46/min",
+    "Cool, pale, clammy skin",
+    "Warm, dry skin below the level of injury",
+    "Heart rate of 132/min"
+   ],
+   "columns": [
+    "Neurogenic shock",
+    "Hypovolemic shock"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Loss of sympathetic tone leaves vagal activity unopposed, so neurogenic shock causes bradycardia.",
+    "Blood loss triggers sympathetic vasoconstriction, causing cool, clammy skin.",
+    "Loss of sympathetic tone causes vasodilation, so the skin stays warm and dry below the injury.",
+    "Tachycardia is the body's compensation for lost blood volume."
+   ],
+   "takeaway": "Neurogenic shock = hypotension with bradycardia and warm, dry skin; hypovolemic shock = hypotension with tachycardia and cool, clammy skin.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with an acute anterior myocardial infarction has a blood pressure of 82/58 mm Hg, heart rate of 118/min, crackles in both lungs, jugular venous distension and cool, clammy skin. Which prescription should the nurse question?",
+   "options": [
+    "Start a norepinephrine infusion titrated to a MAP of 65 mm Hg",
+    "Infuse 1 liter of normal saline over 30 minutes",
+    "Prepare the client for emergency cardiac catheterization",
+    "Give oxygen to keep the SpO₂ at 90% or higher"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A vasopressor such as norepinephrine is appropriate to restore perfusion pressure in cardiogenic shock with hypotension; an inotrope may be added once the blood pressure allows.",
+    "Correct. These findings show cardiogenic shock with fluid overload (crackles, JVD). The problem is pump failure, not low volume, so a large fluid bolus would worsen pulmonary edema.",
+    "Restoring blood flow to the heart muscle, often with PCI, is the definitive treatment for cardiogenic shock after MI.",
+    "Supplemental oxygen is appropriate for a client who is hypoxemic or at risk because of pulmonary congestion."
+   ],
+   "takeaway": "Cardiogenic shock is pump failure: crackles and JVD with hypotension mean large fluid boluses can worsen pulmonary edema.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "matrix",
+   "stem": "The nurse reviews hemodynamic and assessment data for several clients in shock. For each set of findings, indicate the type of shock it best represents.",
+   "rows": [
+    "Low central venous pressure (CVP), low cardiac output, high systemic vascular resistance (SVR)",
+    "High pulmonary artery occlusion pressure, low cardiac output, high SVR",
+    "Low SVR, normal or high cardiac output, warm and flushed skin",
+    "Flat neck veins, cool clammy skin and heart rate of 128/min after a GI bleed"
+   ],
+   "columns": [
+    "Hypovolemic",
+    "Cardiogenic",
+    "Distributive"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Low preload (CVP) with compensatory vasoconstriction (high SVR) is the hypovolemic pattern.",
+    "High filling pressures with low output mean the heart cannot pump the volume it has, which is cardiogenic shock.",
+    "Widespread vasodilation (low SVR) with a high-output state is the pattern of distributive shock, such as early septic shock.",
+    "Blood loss with flat neck veins and sympathetic compensation is hypovolemic shock."
+   ],
+   "takeaway": "Hypovolemic: low preload, high SVR. Cardiogenic: high filling pressures, low output. Distributive: low SVR, often high output.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client on a mechanical ventilator after chest trauma suddenly has a high peak-pressure alarm, absent breath sounds on the right, tracheal deviation to the left, distended neck veins and a blood pressure of 74/40 mm Hg. Which intervention should the nurse anticipate first?",
+   "options": [
+    "A stat portable chest x-ray to confirm the diagnosis",
+    "A 1-liter bolus of normal saline",
+    "Immediate needle decompression of the right chest",
+    "Suctioning the endotracheal tube to clear secretions"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Waiting for an x-ray delays life-saving treatment; tension pneumothorax is diagnosed by clinical signs.",
+    "Fluid does not relieve the obstruction to venous return caused by the trapped air.",
+    "Correct. These signs show tension pneumothorax causing obstructive shock. Trapped air compresses the heart and great vessels, so immediate decompression is needed; it is a clinical diagnosis and should not wait for imaging.",
+    "Secretions can raise peak pressures but would not cause tracheal deviation, absent breath sounds on one side and shock."
+   ],
+   "takeaway": "Tension pneumothorax causes obstructive shock: treat with immediate decompression based on clinical signs, without waiting for an x-ray.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "Four hours after cardiac surgery, a client's mediastinal chest tube drainage suddenly stops after being 150 mL/h. The blood pressure falls to 78/60 mm Hg, the neck veins are distended and the heart sounds are muffled. Which complication should the nurse suspect?",
+   "options": [
+    "Hypovolemic shock from ongoing bleeding",
+    "Heart failure from fluid overload",
+    "Septic shock from a sternal wound infection",
+    "Cardiac tamponade"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Hypovolemia would cause flat, not distended, neck veins, and the drainage would usually continue.",
+    "Fluid overload would not cause a sudden stop in chest tube drainage with muffled heart sounds and a narrowing pulse pressure.",
+    "Sternal infection develops over days, not hours, and does not cause this sudden picture.",
+    "Correct. Blood collecting around the heart (often when the chest tube clots) compresses the heart and limits filling. Hypotension, distended neck veins and muffled heart sounds (Beck's triad) point to tamponade, a form of obstructive shock that needs emergency treatment."
+   ],
+   "takeaway": "Sudden stop in chest tube drainage plus hypotension, JVD and muffled heart sounds after cardiac surgery = suspect tamponade.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "On day 3 after hip replacement, a client suddenly reports chest pain and severe shortness of breath. The SpO₂ is 84%, heart rate 132/min, blood pressure 76/44 mm Hg, and the neck veins are distended. Which type of shock is most likely developing?",
+   "options": [
+    "Obstructive shock from a massive pulmonary embolism",
+    "Hypovolemic shock from bleeding at the surgical site",
+    "Septic shock from a joint infection",
+    "Anaphylactic shock from a medication reaction"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A large clot blocking the pulmonary circulation prevents blood from reaching the left heart. Sudden dyspnea, hypoxemia, hypotension and JVD after orthopedic surgery suggest massive PE causing obstructive shock.",
+    "Bleeding would cause flat neck veins and would not explain the sudden severe hypoxemia.",
+    "Infection develops more gradually with fever; it would not cause this sudden collapse with JVD.",
+    "Anaphylaxis would usually include hives, wheezing or swelling after exposure to a trigger, and the neck veins would be flat."
+   ],
+   "takeaway": "Sudden dyspnea, hypoxemia, hypotension and JVD after surgery or immobility suggest massive pulmonary embolism, a form of obstructive shock.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "A client with multiple injuries from a motorcycle crash has received 6 units of packed red blood cells and 2 L of crystalloid in the emergency department. Which findings show that the 'lethal triad' of trauma is developing? Select all that apply.",
+   "options": [
+    "Core temperature of 34.6°C (94.3°F)",
+    "Arterial pH of 7.18",
+    "Serum sodium of 140 mEq/L",
+    "INR of 2.1 with oozing from puncture sites",
+    "Urine output of 60 mL/h",
+    "Hemoglobin rising from 7.2 to 9.0 g/dL after transfusion"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. Hypothermia from exposure, blood loss and cold fluids slows clotting enzymes and platelet function.",
+    "Correct. Poor perfusion causes lactic (metabolic) acidosis, which further impairs clotting and heart function.",
+    "A sodium of 140 mEq/L is normal and is not part of the lethal triad.",
+    "Correct. A prolonged INR with oozing shows coagulopathy from dilution and consumption of clotting factors, worsened by cold and acidosis.",
+    "Urine output of 60 mL/h shows adequate kidney perfusion.",
+    "A rising hemoglobin after transfusion is the intended response, not a sign of the triad."
+   ],
+   "takeaway": "The trauma lethal triad is hypothermia, acidosis and coagulopathy; each worsens the others, so warm the client and fluids, restore perfusion and replace clotting factors.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client is being treated for septic shock. Which new finding should make the nurse suspect disseminated intravascular coagulation (DIC)?",
+   "options": [
+    "Warm, flushed skin with bounding pulses",
+    "Oozing blood from the IV site and old venipuncture sites, with new petechiae",
+    "A single bruise on the forearm where the blood pressure cuff is",
+    "Pink-tinged sputum after deep suctioning"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Warm, flushed skin reflects vasodilation in early septic shock, not a clotting problem.",
+    "Correct. Bleeding from several sites at once, such as IV and puncture sites, along with petechiae, shows that clotting factors and platelets are being consumed.",
+    "A single bruise from cuff pressure can occur without a clotting disorder.",
+    "Small amounts of blood-tinged sputum after deep suctioning are usually from mucosal irritation."
+   ],
+   "takeaway": "Suspect DIC when a critically ill client starts oozing from several sites (IV, puncture sites, gums) or develops petechiae.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client in septic shock has five continuous IV infusions, including norepinephrine and insulin. Which actions help prevent infusion errors? Select all that apply.",
+   "options": [
+    "Program each infusion through the smart pump's drug library",
+    "Label each line with the drug name near the pump and near the connection to the client",
+    "Override the pump's dose-limit alert when the programmed rate seems close enough",
+    "Trace each line from the bag to the client at handoff and before changing a rate",
+    "Program the high-alert infusions in mL/h rather than dose units to save time",
+    "Have a second nurse independently check the insulin infusion setup when policy requires it"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Drug libraries set dose limits and catch programming errors such as a misplaced decimal point.",
+    "Correct. Labeling at both ends prevents giving a bolus or changing the rate on the wrong line.",
+    "A dose-limit alert signals a possible error; the nurse rechecks the prescription and programming instead of overriding it.",
+    "Correct. Tracing the line from the source to the client confirms which drug is running through which pump channel.",
+    "Bypassing the drug library and dose-based programming removes the safety checks; high-alert drugs are programmed in dose units through the library.",
+    "Correct. An independent double check of high-alert infusions such as insulin is a recommended error-reduction strategy when required by policy."
+   ],
+   "takeaway": "With multiple high-alert infusions, use the smart pump drug library, label and trace every line, heed dose alerts and use independent double checks.",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with severe acute pancreatitis has received 9 L of IV fluid over 24 hours. The abdomen is now tense and distended, urine output has fallen to 10 mL/h, peak airway pressures on the ventilator are rising, and the bladder pressure measured through the indwelling urinary catheter is 24 mm Hg. How should the nurse interpret these findings?",
+   "options": [
+    "Expected third spacing from pancreatitis that needs no change in care",
+    "Under-resuscitation that calls for a faster IV fluid rate",
+    "Abdominal compartment syndrome that needs to be reported right away",
+    "Urinary retention from a blocked urinary catheter"
+   ],
+   "correct": 2,
+   "rationales": [
+    "A tense abdomen with new organ dysfunction (falling urine output, rising airway pressures) is not an expected finding to accept.",
+    "More fluid would raise the abdominal pressure further; the low urine output here comes from pressure on the kidneys and vessels, not from low volume alone.",
+    "Correct. Bladder pressure reflects intra-abdominal pressure (normal about 5-7 mm Hg). A pressure above 20 mm Hg with new organ dysfunction is abdominal compartment syndrome: the pressure reduces venous return, kidney perfusion and lung expansion. It needs urgent reporting for decompression measures.",
+    "The bladder pressure was measured through a working catheter, and retention would not explain the rising airway pressures."
+   ],
+   "takeaway": "After large-volume resuscitation, a tense abdomen, falling urine output, rising airway pressures and bladder pressure above 20 mm Hg suggest abdominal compartment syndrome.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client is admitted with septic shock from an infection behind an obstructing kidney stone. IV fluids, norepinephrine and broad-spectrum antibiotics have been started. Which additional treatment should the nurse anticipate?",
+   "options": [
+    "Antibiotics alone for 48 hours before any procedure is considered",
+    "Encouraging large amounts of oral fluid to flush the stone out",
+    "Scheduling lithotripsy as an outpatient after discharge",
+    "Urgent drainage of the obstructed kidney, such as a nephrostomy tube or ureteral stent"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Antibiotics cannot clear infection trapped behind an obstruction; delaying drainage allows ongoing sepsis.",
+    "The client is in shock and the urine cannot pass the obstruction; oral fluids will not relieve it.",
+    "Definitive stone treatment can wait, but the infected, obstructed kidney must be drained now.",
+    "Correct. Sepsis guidelines call for source control as soon as medically and logistically practical. An infected, obstructed urinary tract is drained urgently (nephrostomy or ureteral stent) along with antibiotics and resuscitation."
+   ],
+   "takeaway": "Septic shock needs source control: drain, remove or debride the source (such as an obstructed infected kidney or an abscess) as soon as possible.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A trauma client is receiving many units of blood products through a massive transfusion protocol. Which complications should the nurse monitor for? Select all that apply.",
+   "options": [
+    "Hypocalcemia",
+    "Hypercalcemia",
+    "Hypothermia",
+    "Polycythemia",
+    "Hyperkalemia"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Citrate used to preserve blood binds calcium, so ionized calcium can fall during rapid transfusion.",
+    "Calcium falls, not rises, because citrate binds it.",
+    "Correct. Rapid infusion of cold blood products lowers body temperature, which worsens bleeding.",
+    "Polycythemia is not a complication of massive transfusion given for blood loss.",
+    "Correct. Stored red cells leak potassium, so large volumes can raise serum potassium."
+   ],
+   "takeaway": "Massive transfusion can cause hypocalcemia (citrate), hyperkalemia, hypothermia and dilutional coagulopathy.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with hemorrhagic shock is receiving rapid transfusion of several units of packed red blood cells. Which action by the nurse is correct?",
+   "options": [
+    "Infuse the blood through an approved blood and fluid warmer",
+    "Warm each unit in a basin of hot water before hanging it",
+    "Add calcium gluconate directly to the blood bag to prevent hypocalcemia",
+    "Use dextrose 5% in water to prime and flush the tubing"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Rapid infusion of cold blood causes hypothermia, which worsens coagulopathy and acidosis. Only approved warming devices with temperature control are used.",
+    "Uncontrolled heat from hot water or a microwave can damage red cells and cause hemolysis.",
+    "Medications are never added to blood products; calcium binds the citrate in the bag and can cause clotting. Calcium is given through a separate line if needed.",
+    "Dextrose causes red cells to clump and hemolyze; only 0.9% sodium chloride is used with blood."
+   ],
+   "takeaway": "During rapid transfusion, warm blood only with an approved warmer, use 0.9% sodium chloride, and never add medications to blood products.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with a pelvic fracture from a motor vehicle crash has a blood pressure of 72/40 mm Hg and heart rate of 140/min after 1 liter of crystalloid, and bleeding continues. Which treatment should the nurse anticipate?",
+   "options": [
+    "Infuse 3 more liters of normal saline before giving blood",
+    "Activate the massive transfusion protocol with plasma, platelets and red cells in a balanced ratio",
+    "Give albumin to raise oncotic pressure",
+    "Start a norepinephrine infusion as the main treatment"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Large amounts of crystalloid dilute clotting factors, worsen hypothermia and acidosis, and do not carry oxygen.",
+    "Correct. Ongoing hemorrhage with shock needs replacement of what was lost: blood. Giving plasma, platelets and red cells together in a balanced ratio limits coagulopathy, along with bleeding control.",
+    "Albumin does not carry oxygen or replace clotting factors.",
+    "Vasopressors do not replace lost volume; in hemorrhagic shock, blood products and bleeding control come first."
+   ],
+   "takeaway": "Hemorrhagic shock is treated with blood products in a balanced ratio and bleeding control, not large volumes of crystalloid.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "A client arrives in the emergency department after a fall from a roof. There is no major external bleeding. Place the steps of the primary survey in order.",
+   "options": [
+    "Assess circulation, including pulse, skin and signs of internal bleeding",
+    "Expose the client fully and prevent hypothermia",
+    "Assess the airway while protecting the cervical spine",
+    "Assess disability with a brief neurologic exam and pupil check",
+    "Assess breathing and ventilation"
+   ],
+   "correct": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "rationales": [
+    "Circulation comes third: identify shock and sources of bleeding.",
+    "Exposure finds hidden injuries, and warming prevents hypothermia, which worsens bleeding.",
+    "A blocked airway kills fastest, so it is assessed first, with spinal motion restricted after a fall.",
+    "Disability (level of consciousness, pupils) is assessed after the ABCs.",
+    "Breathing follows: look for chest injuries such as pneumothorax that impair ventilation."
+   ],
+   "takeaway": "Trauma primary survey: Airway (with C-spine protection), Breathing, Circulation, Disability, Exposure/Environment.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with septic shock had a lactate level of 4.6 mmol/L on arrival. After fluids and antibiotics, a repeat lactate 3 hours later is 2.1 mmol/L. How should the nurse interpret this result?",
+   "options": [
+    "The client is developing worsening anaerobic metabolism",
+    "The result is likely a lab error, because lactate does not change this quickly",
+    "Tissue perfusion is improving with treatment",
+    "The client now needs a vasopressor to treat the change"
+   ],
+   "correct": 2,
+   "rationales": [
+    "A falling lactate shows less anaerobic metabolism, not more.",
+    "Lactate can fall within hours as perfusion improves; this is why it is remeasured.",
+    "Correct. Lactate rises when tissues are poorly perfused. A falling lactate after resuscitation suggests better oxygen delivery to the tissues, and remeasuring an elevated lactate is part of the sepsis bundle.",
+    "A falling lactate is a sign of improvement and does not by itself call for adding a vasopressor."
+   ],
+   "takeaway": "Remeasure an elevated lactate; a falling level suggests that resuscitation is improving tissue perfusion.",
+   "refs": [
+    "sepsis-2021"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client who weighs 80 kg has sepsis with a blood pressure of 82/46 mm Hg and a lactate of 4.4 mmol/L. The provider prescribes 30 mL/kg of IV crystalloid. How much fluid should the nurse plan to give?",
+   "options": [
+    "1,600 mL",
+    "3,000 mL",
+    "800 mL",
+    "2,400 mL"
+   ],
+   "correct": 3,
+   "rationales": [
+    "1,600 mL is 20 mL/kg, which is less than the prescribed volume.",
+    "3,000 mL is about 37.5 mL/kg, more than prescribed.",
+    "800 mL is only 10 mL/kg and would under-resuscitate the client.",
+    "Correct. 30 mL × 80 kg = 2,400 mL. For sepsis with hypotension or a lactate of 4 mmol/L or higher, guidelines suggest at least 30 mL/kg of crystalloid within the first 3 hours, with frequent reassessment."
+   ],
+   "takeaway": "Sepsis-induced hypotension or lactate ≥ 4 mmol/L: give 30 mL/kg crystalloid early and reassess the client's response often.",
+   "refs": [
+    "sepsis-2021"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "A client with sepsis and a history of heart failure is receiving an IV fluid bolus. Which findings indicate that the nurse should stop the bolus and notify the provider? Select all that apply.",
+   "options": [
+    "New crackles in both lung bases",
+    "MAP rises from 60 to 68 mm Hg",
+    "SpO₂ falls from 95% to 88%",
+    "Heart rate falls from 122/min to 104/min",
+    "Jugular veins become distended while the head of the bed is at 45 degrees",
+    "Urine output increases to 50 mL/h"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. New crackles suggest fluid is moving into the lungs.",
+    "A rising MAP shows a good response to fluid.",
+    "Correct. A falling SpO₂ during a bolus suggests pulmonary edema.",
+    "A falling heart rate suggests improved volume status.",
+    "Correct. New JVD shows venous congestion and fluid overload.",
+    "Increased urine output shows better kidney perfusion."
+   ],
+   "takeaway": "Reassess often during fluid boluses; new crackles, falling SpO₂ or JVD mean stop and report, especially with heart failure.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "matrix",
+   "stem": "Six hours after treatment for septic shock was started, the nurse reassesses the client. For each finding, indicate whether it shows improvement or no improvement.",
+   "rows": [
+    "MAP of 70 mm Hg on norepinephrine",
+    "Urine output of 0.6 mL/kg/h for the past 2 hours",
+    "Capillary refill of 5 seconds with mottled knees",
+    "Lactate of 4.8 mmol/L, up from 3.9 mmol/L",
+    "Client is now alert and oriented after being confused"
+   ],
+   "columns": [
+    "Improving",
+    "Not improving"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "A MAP of 65 mm Hg or higher meets the target in septic shock.",
+    "Urine output of at least 0.5 mL/kg/h shows adequate kidney perfusion.",
+    "Slow capillary refill and mottling show that peripheral perfusion is still poor.",
+    "A rising lactate shows ongoing tissue hypoperfusion and needs to be reported.",
+    "Improved mental status reflects better brain perfusion."
+   ],
+   "takeaway": "Judge sepsis resuscitation by MAP ≥ 65, urine output ≥ 0.5 mL/kg/h, mental status, capillary refill and a falling lactate.",
+   "refs": [
+    "sepsis-2021"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "A client with pneumonia is being evaluated for sepsis. Which findings indicate organ dysfunction? Select all that apply.",
+   "options": [
+    "Platelet count of 90,000/mm³",
+    "White blood cell count of 13,000/mm³",
+    "Creatinine increased from 0.9 to 2.1 mg/dL",
+    "Temperature of 38.5°C (101.3°F)",
+    "Total bilirubin of 3.2 mg/dL",
+    "New confusion"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. A low platelet count shows coagulation system involvement.",
+    "Leukocytosis shows infection or inflammation, but not organ dysfunction.",
+    "Correct. A rising creatinine shows acute kidney injury.",
+    "Fever is a sign of infection, not organ dysfunction.",
+    "Correct. An elevated bilirubin shows liver dysfunction.",
+    "Correct. Acute change in mental status shows brain dysfunction."
+   ],
+   "takeaway": "Sepsis is infection plus organ dysfunction: look for low platelets, rising creatinine or bilirubin, new confusion, hypotension and high lactate.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client in septic shock without diabetes has two blood glucose readings of 236 mg/dL and 248 mg/dL. Which treatment should the nurse anticipate?",
+   "options": [
+    "IV insulin infusion with a target glucose of about 144 to 180 mg/dL",
+    "Insulin titrated to keep the glucose between 80 and 110 mg/dL",
+    "No treatment, because stress hyperglycemia is expected in sepsis",
+    "Oral metformin started today"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Sepsis guidelines recommend starting insulin when glucose is 180 mg/dL or higher, usually aiming for about 144 to 180 mg/dL.",
+    "Tight glucose control raises the risk of dangerous hypoglycemia and is not recommended in critical illness.",
+    "Persistent hyperglycemia above 180 mg/dL is linked with worse outcomes and is treated.",
+    "Oral agents are unreliable in critically ill clients, and metformin can cause lactic acidosis in shock."
+   ],
+   "takeaway": "In septic shock, start insulin at glucose ≥ 180 mg/dL and target about 144-180 mg/dL; avoid tight control and hypoglycemia.",
+   "refs": [
+    "sepsis-2021"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "On day 4 of treatment for septic shock, the nurse notes yellow sclerae, a total bilirubin of 4.1 mg/dL, a prolonged INR and new confusion. Urine output has dropped. How should the nurse interpret these findings?",
+   "options": [
+    "The client has an unrelated case of viral hepatitis",
+    "The client is developing multiple organ dysfunction syndrome",
+    "These are expected side effects of IV antibiotics that need no follow-up",
+    "The client is recovering and the liver is clearing the infection"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Several organs are failing at the same time in a septic client, which points to MODS rather than a separate infection.",
+    "Correct. Failure of more than one organ system (liver, brain, kidneys) during sepsis is multiple organ dysfunction syndrome (MODS), which raises the risk of death and needs to be reported promptly.",
+    "These changes need reporting; they are not expected and should not be dismissed as drug effects.",
+    "Jaundice, a prolonged INR and falling urine output show worsening, not recovery."
+   ],
+   "takeaway": "MODS is progressive failure of two or more organ systems in a critically ill client; watch liver, kidney, brain, lung and clotting function.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse calls the provider about a client with pneumonia whose blood pressure is now 84/46 mm Hg, heart rate 124/min, respiratory rate 30/min and SpO₂ 89% on 4 L/min oxygen. The provider says, \"I'll come by in 2 hours.\" What should the nurse do next?",
+   "options": [
+    "Recheck the vital signs in 1 hour and call back if they worsen",
+    "Increase the oxygen and wait for the provider to arrive",
+    "Activate the rapid response team",
+    "Document the call and continue routine care"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Waiting another hour allows further deterioration in a client who already shows signs of shock.",
+    "Increasing oxygen may help, but it does not address hypotension and does not get the client the timely evaluation needed.",
+    "Correct. The client meets rapid response criteria and is getting worse. When the response does not match the client's needs, the nurse escalates by activating the rapid response team and following the chain of command.",
+    "Documentation alone does not protect the client; the nurse is responsible for advocating for urgent care."
+   ],
+   "takeaway": "When a deteriorating client is not getting timely help, activate the rapid response team and use the chain of command.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "After handoff, the nurse reviews four clients. Which client should the nurse assess first?",
+   "options": [
+    "A client treated for anaphylaxis 3 hours ago whose hives are fading",
+    "A client with pneumonia whose SpO₂ is 93% on 2 L/min oxygen",
+    "A client on a heparin infusion whose aPTT is due in 30 minutes",
+    "A client with septic shock on norepinephrine whose MAP is now 58 mm Hg"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Fading hives show improvement; the client still needs monitoring for a biphasic reaction but is stable at this time.",
+    "An SpO₂ of 93% on low-flow oxygen is acceptable for most clients with pneumonia.",
+    "A scheduled lab draw can be done after the unstable client is assessed.",
+    "Correct. A MAP below 65 mm Hg on a vasopressor means organs are poorly perfused right now; this client is unstable and needs immediate assessment and titration."
+   ],
+   "takeaway": "See the unstable client first: a MAP below 65 mm Hg on a vasopressor signals active hypoperfusion.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "order",
+   "stem": "After handoff on a progressive care unit, the nurse must see four clients. Place the clients in the order the nurse should see them, from first to last.",
+   "options": [
+    "A client with pneumonia whose temperature is 38.4°C (101.1°F) and whose other vital signs are stable",
+    "A client with sepsis whose SpO₂ has dropped to 84% and who is using accessory muscles to breathe",
+    "A client recovering from sepsis who is waiting for discharge teaching",
+    "A client with an upper GI bleed whose heart rate has risen from 92/min to 124/min and whose blood pressure is now 92/58 mm Hg"
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Third: a fever with otherwise stable vital signs is an actual problem that needs follow-up, but it is not immediately life-threatening.",
+    "First: acute hypoxemia with increased work of breathing is a breathing emergency and comes first under the ABCs.",
+    "Last: a stable client waiting for teaching can be seen after the others.",
+    "Second: rising heart rate with falling blood pressure suggests ongoing bleeding and developing hypovolemic shock, a circulation problem that needs prompt assessment right after the breathing emergency."
+   ],
+   "takeaway": "Prioritize with the ABCs: airway and breathing problems first, then circulation (such as signs of ongoing bleeding), then stable actual problems, then routine needs.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is caring for a client with septic shock and is working with an assistive personnel (AP). For each task, indicate whether it is appropriate to delegate to the AP.",
+   "rows": [
+    "Measure and record the hourly urine output from the urine meter",
+    "Assess the skin for mottling and capillary refill",
+    "Turn and reposition the client every 2 hours",
+    "Titrate the norepinephrine infusion to the MAP goal",
+    "Evaluate the client's response to the fluid bolus"
+   ],
+   "columns": [
+    "Appropriate to delegate",
+    "Not appropriate to delegate"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Measuring and recording output is a routine task within the AP's role; the nurse interprets the results.",
+    "Assessment of perfusion requires nursing judgment and stays with the RN.",
+    "Repositioning is a routine care task that can be delegated.",
+    "Titrating a high-alert vasopressor requires RN assessment and judgment.",
+    "Evaluating a client's response to treatment is a nursing responsibility that cannot be delegated."
+   ],
+   "takeaway": "Delegate routine, predictable tasks (measuring output, repositioning); keep assessment, evaluation and high-alert drug titration with the RN.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is giving a handoff report to the ICU nurse for a client with septic shock who is being transferred. Which information should the nurse include? Select all that apply.",
+   "options": [
+    "The current norepinephrine dose, the MAP goal and recent titrations",
+    "Every vital sign recorded since admission 3 days ago, read in order",
+    "The times the antibiotics were given and when the next doses are due",
+    "The most recent lactate level and how it has changed",
+    "The nurse's opinion that the client's family is 'difficult'",
+    "The client's code status and the family member to contact"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. The receiving nurse needs the exact vasopressor dose, goal and trend to continue titration safely.",
+    "A complete readout of every value buries the important information; handoff summarizes key trends.",
+    "Correct. Timely antibiotic doses are critical in septic shock, so dose times and next due times are passed on.",
+    "Correct. The lactate trend shows whether resuscitation is improving tissue perfusion.",
+    "Subjective, judgmental labels are not appropriate in handoff and can bias care; objective information about family needs can be shared instead.",
+    "Correct. Code status and the contact person are essential for decisions if the client deteriorates."
+   ],
+   "takeaway": "A good handoff for a client in shock gives current drips and goals, antibiotic timing, key lab trends and code status, concisely and objectively.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "After a resuscitation on the unit, the team leader asks the nurses to stay for a few minutes to discuss the event. What should the nurse do?",
+   "options": [
+    "Take part in the structured debriefing about what went well and what could improve",
+    "Decline to discuss the event in order to protect the client's privacy",
+    "Use the discussion to identify which team member caused any delays",
+    "Save any concerns about the event for the next annual skills check"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Structured team debriefing after resuscitation is recommended to improve team performance and future outcomes and to support staff; it focuses on systems and teamwork, not blame.",
+    "Debriefing among the care team is an appropriate professional discussion; it does not breach confidentiality.",
+    "Debriefing is not meant to assign individual blame, which discourages honest reporting.",
+    "Waiting months loses details and delays improvements; issues are discussed soon after the event."
+   ],
+   "takeaway": "Take part in a prompt, blame-free debriefing after resuscitation events to improve team performance and support staff.",
+   "refs": [
+    "aha-resuscitation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse activates the rapid response team for a client with possible septic shock. When the team arrives, what should the primary nurse do?",
+   "options": [
+    "Return to the other assigned clients, because the team has taken over",
+    "Stay at the bedside, give a brief SBAR report and help carry out interventions",
+    "Leave to call the client's family before giving any report",
+    "Finish charting the earlier assessment before joining the team"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The rapid response team relies on the primary nurse, who knows the client; the nurse arranges coverage for other clients and stays.",
+    "Correct. The primary nurse knows the client's history and trends. Staying to give a concise SBAR report and to carry out and document interventions supports fast, safe care and continuity once the team leaves.",
+    "The family should be updated, but not before the team has the information it needs to treat the client.",
+    "Documentation can be completed after the client is stabilized; it does not come before giving the team needed information."
+   ],
+   "takeaway": "When the rapid response team arrives, the primary nurse stays, gives a concise SBAR report and helps carry out and document interventions.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client has return of spontaneous circulation after a cardiac arrest. The 12-lead ECG shows ST-segment elevation in leads V1 through V4. What should the nurse anticipate?",
+   "options": [
+    "Repeating the 12-lead ECG in 24 hours",
+    "Starting a high-dose IV potassium infusion",
+    "Preparing the client for emergency cardiac catheterization",
+    "Giving a fluid bolus of 3 liters to raise the blood pressure"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Waiting 24 hours delays reperfusion and allows more heart muscle to die.",
+    "Potassium is replaced only when low; high-dose potassium is not a treatment for ST elevation.",
+    "Correct. ST elevation after cardiac arrest suggests an acute coronary occlusion as the cause. Emergency coronary angiography and PCI restore blood flow and are recommended.",
+    "A large fluid bolus is not indicated for coronary occlusion and could cause heart failure."
+   ],
+   "takeaway": "After return of spontaneous circulation, get a 12-lead ECG; ST elevation calls for emergency coronary angiography.",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "A comatose client is admitted to the ICU after return of spontaneous circulation. Which actions should the nurse anticipate? Select all that apply.",
+   "options": [
+    "Titrate oxygen to an SpO₂ of 92% to 98%",
+    "Keep the FiO₂ at 100% so the SpO₂ stays at 100%",
+    "Maintain a MAP of at least 65 mm Hg",
+    "Hyperventilate the client to keep the PaCO₂ near 25 mm Hg",
+    "Use temperature control measures to prevent fever",
+    "Check blood glucose regularly"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Both low and high oxygen levels can harm the brain after arrest, so oxygen is titrated to an SpO₂ of 92% to 98%.",
+    "Excess oxygen (hyperoxia) can worsen injury after arrest.",
+    "Correct. Avoiding hypotension supports blood flow to the brain and heart.",
+    "Hyperventilation lowers the PaCO₂, which constricts cerebral blood vessels and reduces brain blood flow; normal PaCO₂ is the goal.",
+    "Correct. Fever worsens brain injury, so temperature is controlled and fever is prevented.",
+    "Correct. Both high and low glucose levels can harm the injured brain."
+   ],
+   "takeaway": "Post-arrest care: avoid hypoxia and hyperoxia (SpO₂ 92-98%), avoid hypotension, keep PaCO₂ normal, prevent fever and monitor glucose.",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 3-year-old with vomiting and diarrhea for 2 days has a heart rate of 168/min, capillary refill of 4 seconds, cool hands and feet, and a blood pressure of 94/58 mm Hg. The parent says, \"At least the blood pressure is normal.\" How should the nurse interpret these findings?",
+   "options": [
+    "The child is stable because the blood pressure is within normal limits",
+    "The tachycardia is caused by anxiety and fever",
+    "The child is in irreversible shock",
+    "The child is in compensated shock, and a normal blood pressure does not rule it out"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A normal blood pressure can hide significant volume loss in a child.",
+    "Anxiety or fever does not explain delayed capillary refill and cool extremities with a history of fluid loss.",
+    "Irreversible shock involves profound hypotension and organ failure; this child is still compensating.",
+    "Correct. Children maintain blood pressure through tachycardia and vasoconstriction until late in shock. Tachycardia, delayed capillary refill and cool extremities show compensated shock; hypotension is a late, ominous sign."
+   ],
+   "takeaway": "In children, hypotension is a late sign of shock; tachycardia, delayed capillary refill and cool extremities appear first.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg",
+    "aha-resuscitation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client is receiving norepinephrine through the distal lumen of a central line. An IV antibiotic is due, and the other lumens are in use. What should the nurse do?",
+   "options": [
+    "Avoid using the vasopressor lumen and get another line or lumen for the antibiotic",
+    "Piggyback the antibiotic into the norepinephrine line at the port closest to the client",
+    "Pause the norepinephrine for 30 minutes while the antibiotic runs through the lumen",
+    "Flush the norepinephrine lumen quickly with saline before giving the antibiotic"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Infusing another drug or flushing through a vasopressor line can push a bolus of the vasopressor into the client and change its delivery rate, causing dangerous swings in blood pressure. A separate line or lumen is needed.",
+    "Piggybacking into the vasopressor line changes the vasopressor's flow and can deliver a bolus.",
+    "Stopping norepinephrine can cause sudden severe hypotension because the drug acts for only a few minutes.",
+    "Flushing the line pushes the vasopressor left in the lumen into the client as a bolus."
+   ],
+   "takeaway": "Give vasopressors through a dedicated line or lumen; never flush, bolus or piggyback through it.",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client in cardiogenic shock is receiving a dobutamine infusion. One hour after the dose was increased, the heart rate has risen from 104/min to 138/min, frequent premature ventricular contractions appear, and the client reports palpitations. How should the nurse interpret these findings?",
+   "options": [
+    "The expected effect of improved cardiac contractility",
+    "An adverse effect of dobutamine that should be reported promptly",
+    "Signs of hypovolemia that call for a fluid bolus",
+    "An allergic reaction to the infusion"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Improved contractility is the goal, but a large rise in heart rate with new ectopy is not a therapeutic effect.",
+    "Correct. Dobutamine stimulates beta-1 receptors. Excess stimulation causes tachycardia and ventricular dysrhythmias, which raise myocardial oxygen demand in an already failing heart. The nurse reports promptly and anticipates a dose reduction.",
+    "The change followed a dose increase and comes with ectopy; nothing suggests new volume loss, and the client is in pump failure.",
+    "Allergic reactions cause rash, wheezing or swelling; tachycardia and PVCs after a dose increase are a dose-related adverse effect."
+   ],
+   "takeaway": "Dobutamine can cause tachycardia and ventricular dysrhythmias; report a marked rise in heart rate or new ectopy after a dose change.",
+   "refs": [
+    "dailymed",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with septic shock is receiving a norepinephrine infusion that the nurse titrates per protocol. Which actions should the nurse include? Select all that apply.",
+   "options": [
+    "Titrate in small increments to keep the MAP at 65 mm Hg or higher",
+    "Increase the dose until the MAP is above 90 mm Hg to build a safety margin",
+    "Monitor the blood pressure continuously or every few minutes during titration",
+    "Check the fingers and toes for coolness, pallor or mottling",
+    "Give the drug intramuscularly if IV access is lost",
+    "Wean the infusion gradually, rather than stopping it all at once, as the client improves"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Small, protocol-based changes reach the MAP goal (65 mm Hg or higher in septic shock) without overshooting.",
+    "Driving the MAP far above the goal adds vasoconstriction and the risk of tissue ischemia and dysrhythmias without proven benefit.",
+    "Correct. Norepinephrine acts within minutes, so the blood pressure is watched closely, ideally with an arterial line.",
+    "Correct. Strong vasoconstriction can cause digital and peripheral ischemia.",
+    "Norepinephrine is given only as a continuous IV infusion; another IV or intraosseous route is obtained if access is lost.",
+    "Correct. The drug's short half-life means abrupt stopping can cause rebound hypotension, so it is weaned while the MAP is monitored."
+   ],
+   "takeaway": "Titrate norepinephrine in small steps to a MAP of at least 65 mm Hg, monitor BP closely, check for peripheral ischemia and wean gradually.",
+   "refs": [
+    "ismp-highalert",
+    "sepsis-2021",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is setting up an arterial line to monitor a client in shock. Which actions help ensure accurate pressure readings? Select all that apply.",
+   "options": [
+    "Level the transducer at the phlebostatic axis (fourth intercostal space, mid-axillary line)",
+    "Level the transducer at the sternal notch",
+    "Zero the transducer to atmospheric pressure",
+    "Inflate the pressure bag to 150 mm Hg",
+    "Perform a square-wave (fast-flush) test to check for dampening"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. The phlebostatic axis approximates the level of the right atrium; a transducer that is too high or low gives falsely low or high readings.",
+    "The sternal notch is not the reference level for hemodynamic monitoring.",
+    "Correct. Zeroing removes the effect of atmospheric pressure so readings reflect only the client's pressure.",
+    "The pressure bag is kept at about 300 mm Hg to maintain a continuous flush and keep the line open.",
+    "Correct. The square-wave test checks whether the system is over- or under-dampened, which distorts readings."
+   ],
+   "takeaway": "Accurate arterial line readings require leveling at the phlebostatic axis, zeroing, a 300 mm Hg pressure bag and a square-wave test.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with severe vomiting has a central venous pressure (CVP) of 1 mm Hg, a heart rate of 118/min and a blood pressure of 94/60 mm Hg. How should the nurse interpret these findings?",
+   "options": [
+    "Fluid overload; anticipate a diuretic",
+    "Right ventricular failure; anticipate an inotrope",
+    "Low preload from hypovolemia; anticipate IV fluid replacement",
+    "Normal findings for a client with vomiting"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Fluid overload would raise the CVP, not lower it.",
+    "Right ventricular failure would raise the CVP because blood backs up into the venous system.",
+    "Correct. A CVP below the normal range (about 2 to 8 mm Hg) with tachycardia and soft blood pressure reflects low preload from fluid loss, so volume replacement is expected.",
+    "These findings are abnormal and need treatment."
+   ],
+   "takeaway": "A low CVP with tachycardia and soft blood pressure suggests hypovolemia; a high CVP suggests fluid overload or right heart failure.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 70-kg client being treated for sepsis has a urine output of 25 mL/h for the past 2 hours. What should the nurse do?",
+   "options": [
+    "Document the output as expected for a client with sepsis",
+    "Encourage oral fluids and recheck in 4 hours",
+    "Irrigate the indwelling catheter with 100 mL of saline",
+    "Report the low urine output to the provider"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Low urine output is a sign of hypoperfusion and is not an expected finding to accept.",
+    "Oral fluids may not be safe or enough in sepsis, and waiting 4 hours delays treatment.",
+    "Irrigating a catheter is not done without a prescription, and there is no sign of obstruction.",
+    "Correct. The minimum target is about 0.5 mL/kg/h, which is 35 mL/h for this client. Output below this for 2 hours suggests poor kidney perfusion or acute kidney injury and needs to be reported."
+   ],
+   "takeaway": "Urine output below 0.5 mL/kg/h for 2 hours in a septic client signals hypoperfusion and must be reported.",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-046",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A client is admitted with hypovolemia after 3 days of severe vomiting and diarrhea. For each finding, indicate whether it is consistent with hypovolemia.",
+   "rows": [
+    "Hematocrit of 52%",
+    "BUN of 38 mg/dL with a creatinine of 1.0 mg/dL",
+    "Urine specific gravity of 1.032",
+    "Urine output of 120 mL/h",
+    "Central venous pressure of 12 mm Hg"
+   ],
+   "columns": [
+    "Consistent",
+    "Not consistent"
+   ],
+   "correct": [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Loss of plasma water concentrates the blood and raises the hematocrit.",
+    "A high BUN with a normal creatinine (ratio greater than 20:1) is typical of dehydration.",
+    "The kidneys conserve water, so the urine becomes concentrated.",
+    "A high urine output does not fit with low circulating volume; the kidneys would be conserving fluid.",
+    "A CVP of 12 mm Hg is above normal and suggests fluid overload, not hypovolemia."
+   ],
+   "takeaway": "Dehydration-related hypovolemia shows hemoconcentration, a high BUN-to-creatinine ratio, concentrated urine and a low CVP.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-047",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The nurse is caring for a client 6 hours after an anterior myocardial infarction. Which finding should the nurse report immediately as a sign of cardiogenic shock?",
+   "options": [
+    "New restlessness with cool, clammy skin and urine output of 15 mL/h",
+    "Heart rate of 88/min with occasional premature ventricular contractions",
+    "Chest discomfort rated 2/10 that is relieved by the prescribed medication",
+    "Blood pressure of 112/70 mm Hg"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Restlessness, cool clammy skin and low urine output show poor perfusion of the brain, skin and kidneys from failing cardiac output, an early picture of cardiogenic shock.",
+    "Occasional PVCs are common after MI and should be monitored, but they do not indicate shock.",
+    "Mild discomfort relieved by medication is an expected, managed finding.",
+    "This blood pressure is adequate for perfusion."
+   ],
+   "takeaway": "After MI, new restlessness, cool clammy skin and falling urine output signal low cardiac output and possible cardiogenic shock.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-048",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client with an upper GI bleed is vomiting bright red blood. The blood pressure is 84/50 mm Hg and the heart rate is 128/min. Which actions should the nurse take? Select all that apply.",
+   "options": [
+    "Insert two large-bore IV catheters",
+    "Give oral fluids to replace lost volume",
+    "Send a blood sample for type and crossmatch",
+    "Place the client in steep head-down Trendelenburg position",
+    "Keep the client warm with blankets"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Large-bore access allows rapid infusion of fluids and blood products.",
+    "The client needs to be NPO because of active vomiting, aspiration risk and possible endoscopy.",
+    "Correct. Blood products will likely be needed, so type and crossmatch should be sent early.",
+    "Steep head-down positioning impairs breathing, raises aspiration risk in a vomiting client and is no longer recommended for shock.",
+    "Correct. Hypothermia worsens coagulopathy and acidosis in hemorrhagic shock."
+   ],
+   "takeaway": "Hemorrhagic shock: two large-bore IVs, type and crossmatch, keep the client warm and NPO, and prepare for blood products and bleeding control.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-049",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client with anaphylaxis received IM epinephrine 5 minutes ago. The blood pressure has improved to 100/64 mm Hg, but the client now has a hoarse voice, a swollen tongue and difficulty swallowing saliva. What is the nurse's priority?",
+   "options": [
+    "Give an oral antihistamine to reduce the tongue swelling",
+    "Prepare for emergency airway management while giving a repeat dose of epinephrine",
+    "Place the client flat with the legs raised",
+    "Recheck the blood pressure in 15 minutes"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The client cannot safely swallow, and antihistamines do not reverse airway swelling quickly.",
+    "Correct. Hoarseness, tongue swelling and drooling show progressing upper airway edema, which can close the airway. Airway takes priority: the team prepares for intubation or a surgical airway, and epinephrine is repeated.",
+    "Lying flat can worsen breathing in a client with airway swelling; the blood pressure has already improved.",
+    "Waiting 15 minutes ignores the immediate airway threat."
+   ],
+   "takeaway": "In anaphylaxis, hoarseness, stridor, tongue swelling or drooling mean the airway is at risk: repeat epinephrine and prepare for advanced airway management.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:shock-050",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Multisystem & Shock",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "A nurse finds a client unresponsive in bed. Place the nurse's actions in order.",
+   "options": [
+    "Begin chest compressions",
+    "Check for responsiveness by tapping the client and shouting",
+    "Attach the defibrillator pads as soon as the device arrives",
+    "Check for breathing and a carotid pulse for no more than 10 seconds",
+    "Shout for help and activate the emergency response system"
+   ],
+   "correct": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "With no pulse and no normal breathing, compressions start at once.",
+    "Confirming that the client is unresponsive comes first.",
+    "Early defibrillation of a shockable rhythm greatly improves survival, so pads go on as soon as the device arrives.",
+    "Breathing and pulse are checked together quickly to decide whether CPR is needed.",
+    "Getting help early brings the team and the defibrillator."
+   ],
+   "takeaway": "Unresponsive client: check responsiveness, call for help, check breathing and pulse (≤10 seconds), start compressions, defibrillate as soon as possible.",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

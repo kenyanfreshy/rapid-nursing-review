@@ -1,0 +1,2647 @@
+{
+ "topic": "peds",
+ "questions": [
+  {
+   "id": "rnr:peds-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "At a well-child visit, the nurse assesses a healthy 9-month-old. Which finding should the nurse expect at this age?",
+   "options": [
+    "Sits steadily without support and crawls",
+    "Walks alone across the room without holding on",
+    "Says several words and points to named body parts",
+    "Stacks a tower of six small blocks"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Most infants sit without support by about 6 to 8 months and crawl and pull to stand around 9 months.",
+    "Independent walking usually appears between 12 and 15 months, so it is not expected at 9 months.",
+    "Using several words and pointing to body parts are typical of about 15 to 18 months.",
+    "A six-block tower is a fine-motor skill of about 2 years."
+   ],
+   "takeaway": "By 9 months infants sit steadily and crawl; independent walking usually comes at 12 to 15 months.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is reviewing expected development with the parent of a healthy 2-year-old. Which skills should the nurse describe as typical at this age? Select all that apply.",
+   "options": [
+    "Kicks a ball forward",
+    "Copies a drawn square",
+    "Takes turns in a board game with simple rules",
+    "Pedals a tricycle",
+    "Speaks in two-word phrases such as \"more juice\"",
+    "Plays beside other children with similar toys rather than with them"
+   ],
+   "correct": [
+    0,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Kicking a ball forward is an expected gross-motor skill at about 2 years.",
+    "Copying a square is a preschool skill of about 4 to 5 years; a 2-year-old scribbles.",
+    "Cooperative play with rules develops in the late preschool and school-age years.",
+    "Pedaling a tricycle is usually achieved at about 3 years.",
+    "Correct. Two-word phrases are an expected language milestone at about 2 years.",
+    "Correct. Parallel play is the typical play pattern of toddlers."
+   ],
+   "takeaway": "Toddlers use two-word phrases and engage in parallel play; tricycles and rule-based games come in the preschool years.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 22-month-old has been hospitalized for 5 days, and the parents can visit only briefly. At first the child screamed and cried for the parents. Now the child lies quietly in the crib, shows little interest in toys, and eats poorly. How should the nurse interpret this behavior?",
+   "options": [
+    "The child has adjusted to the hospital and no longer misses the parents.",
+    "The child is in the despair stage of separation anxiety.",
+    "The child is in the protest stage of separation anxiety.",
+    "The child is showing the expected negativism of toddlers."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Quiet withdrawal is a sign of distress, not adjustment; the child still needs the parents.",
+    "Correct. After protest, toddlers enter despair: they become quiet, withdrawn, and uninterested in play or food.",
+    "Protest is the earlier stage, marked by crying, screaming, and searching for the parents.",
+    "Negativism is assertive (saying \"no\"), not withdrawn; this behavior reflects separation distress."
+   ],
+   "takeaway": "Separation anxiety in toddlers moves from protest to despair to detachment; quiet withdrawal is despair, not adjustment.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 4-year-old receives an intramuscular injection and cries, \"Is all my blood going to leak out?\" Which action by the nurse is best?",
+   "options": [
+    "Explain how platelets form a clot to stop bleeding.",
+    "Tell the child that big kids do not cry about small shots.",
+    "Place a colorful adhesive bandage over the injection site.",
+    "Redirect the child to a toy without responding to the question."
+   ],
+   "correct": 2,
+   "rationales": [
+    "A preschooler's preoperational thinking cannot use an abstract explanation of clotting.",
+    "Shaming the child dismisses a real fear and increases distress.",
+    "Correct. Preschoolers fear bodily injury and see the skin as a boundary that can leak; a bandage reassures them that the body is intact.",
+    "Ignoring the question leaves the fear unaddressed; distraction works better after the fear is acknowledged."
+   ],
+   "takeaway": "Preschoolers fear bodily mutilation; a bandage over a puncture site is a simple, effective reassurance.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "In October, the nurse reviews the records of four children at a well-child clinic. Which child should the nurse identify as due for an RSV monoclonal antibody, such as nirsevimab, this season?",
+   "options": [
+    "A 3-month-old whose mother received the RSV vaccine at 34 weeks' gestation, 6 weeks before birth",
+    "A healthy 14-month-old born at term who received nirsevimab last season",
+    "A healthy 4-year-old born at term who attends a child care center",
+    "A 2-month-old born at term whose mother did not receive an RSV vaccine during pregnancy"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Maternal RSV vaccination at 32 to 36 weeks given at least 14 days before birth protects the infant, so a monoclonal antibody is usually not needed.",
+    "A second-season dose is recommended only for children 8 to 19 months old at increased risk of severe RSV, such as those with chronic lung disease or severe immunocompromise; a healthy toddler born at term does not qualify.",
+    "RSV monoclonal antibodies are for infants and some high-risk toddlers, not healthy preschool children.",
+    "Correct. Infants younger than 8 months entering their first RSV season should receive an RSV monoclonal antibody unless the mother received the RSV vaccine at least 14 days before birth."
+   ],
+   "takeaway": "Infants younger than 8 months in their first RSV season need an RSV monoclonal antibody unless the mother was vaccinated at least 14 days before birth; second-season doses are only for high-risk children 8 to 19 months old.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 6-year-old receiving chemotherapy for acute lymphoblastic leukemia is seen in the clinic in October. The parent asks how to protect the child from influenza. Which vaccine should the nurse anticipate?",
+   "options": [
+    "Live attenuated influenza vaccine given as a nasal spray",
+    "Inactivated influenza vaccine given by injection",
+    "A varicella booster to strengthen the child's immunity",
+    "No influenza vaccine until chemotherapy is completed"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The nasal spray contains live virus and is contraindicated in immunosuppressed children.",
+    "Correct. Inactivated vaccines are safe for immunosuppressed children, and yearly influenza injection is recommended even if the response is reduced.",
+    "Varicella vaccine is a live vaccine and is contraindicated during chemotherapy.",
+    "Waiting leaves a high-risk child unprotected; the inactivated vaccine should be given now."
+   ],
+   "takeaway": "Immunosuppressed children must not receive live vaccines, but they should receive inactivated vaccines such as the influenza injection.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is reviewing immunization principles with a group of parents in a pediatric clinic. Which statements by the nurse are accurate? Select all that apply.",
+   "options": [
+    "Giving acetaminophen before every vaccine is recommended to prevent fever.",
+    "Several vaccines can safely be given at the same visit.",
+    "Two live injected vaccines not given on the same day should be separated by at least 28 days.",
+    "Vaccines should be postponed while a child is taking an antibiotic.",
+    "If a dose in a series is given late, the series continues without starting over.",
+    "A child who missed doses must wait until the next birthday to catch up."
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Routine pre-vaccination antipyretics are not recommended; they are used to treat fever or discomfort if it occurs.",
+    "Correct. Giving recommended vaccines together is safe and keeps children on schedule.",
+    "Correct. Live injected vaccines are given the same day or at least 4 weeks apart so the second still produces a full response.",
+    "Taking an antibiotic is not a reason to delay vaccination.",
+    "Correct. An interrupted vaccine series never needs to be restarted.",
+    "Catch-up doses are given at the next opportunity using the catch-up schedule."
+   ],
+   "takeaway": "Interrupted vaccine series are never restarted, and live injected vaccines are given the same day or at least 28 days apart.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "takeAction",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is preparing scheduled vaccines for several children at a clinic. For each situation, indicate whether the nurse should give the vaccine today or hold it and consult the provider.",
+   "rows": [
+    "A 12-month-old due for MMR whose mother is 20 weeks pregnant",
+    "A 15-month-old due for varicella vaccine who has taken prednisone 2 mg/kg/day for 3 weeks",
+    "A 2-month-old due for DTaP who has mild diarrhea and is feeding well",
+    "A 4-year-old due for DTaP who had anaphylaxis after the previous DTaP dose",
+    "A 6-month-old due for inactivated influenza vaccine who has an egg allergy with hives"
+   ],
+   "columns": [
+    "Give today",
+    "Hold and consult"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "MMR vaccine virus is not spread to household contacts, so a pregnant family member is not a reason to delay.",
+    "High-dose systemic steroids (2 mg/kg/day for 14 days or more) are immunosuppressive; live varicella vaccine should be held.",
+    "Mild illness is not a contraindication; the vaccine should be given on time.",
+    "A severe allergic reaction to a previous dose is a contraindication to that vaccine.",
+    "Egg allergy is not a contraindication to influenza vaccine, and no extra precautions are needed beyond routine ones."
+   ],
+   "takeaway": "Hold vaccines for a severe allergic reaction to a prior dose or for live vaccines in immunosuppressed children; mild illness, egg allergy, and a pregnant household member are not reasons to delay.",
+   "refs": [
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "Five minutes after receiving routine vaccines, a 4-year-old develops hives, wheezing, and swelling of the lips. Which action should the nurse take first?",
+   "options": [
+    "Give oral diphenhydramine and observe the child for 30 minutes.",
+    "Apply cold compresses to the injection sites.",
+    "Have the parent drive the child to the nearest emergency department.",
+    "Give intramuscular epinephrine into the anterolateral thigh per the emergency protocol."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Antihistamines relieve hives but do not reverse airway swelling or bronchospasm; they are second-line.",
+    "Cold compresses do nothing for a systemic reaction and delay treatment.",
+    "Sending the child by private car delays life-saving treatment; epinephrine is given now and EMS is called.",
+    "Correct. Hives with wheezing and lip swelling is anaphylaxis; IM epinephrine is the first and most important treatment."
+   ],
+   "takeaway": "Anaphylaxis after a vaccine is treated first with IM epinephrine in the thigh; antihistamines are only add-on therapy.",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is reviewing vital signs for several children on a pediatric unit. For each child, indicate whether the findings are within the normal range for age or require follow-up.",
+   "rows": [
+    "A 7-year-old who is awake and calm: heart rate 52/min, respiratory rate 20/min",
+    "A 6-month-old who is awake: heart rate 140/min, respiratory rate 40/min",
+    "A 3-year-old who is calm: heart rate 110/min, respiratory rate 26/min",
+    "A 4-month-old who is sleeping: heart rate 120/min, respiratory rate 68/min",
+    "A 15-year-old who is resting: heart rate 72/min, respiratory rate 16/min"
+   ],
+   "columns": [
+    "Within normal range",
+    "Requires follow-up"
+   ],
+   "correct": [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "An awake school-age child normally has a heart rate of roughly 75 to 120/min; 52/min is bradycardia and needs assessment.",
+    "These values are within the normal range for an awake infant.",
+    "These values are within the normal range for a calm toddler or preschooler.",
+    "A resting infant normally breathes about 30 to 53 times per minute; 68/min is tachypnea and needs assessment.",
+    "These values are normal for an adolescent at rest."
+   ],
+   "takeaway": "Pediatric heart and respiratory rates fall with age; know the normal ranges so bradycardia in a school-age child or tachypnea in a resting infant is recognized.",
+   "refs": [
+    "aha-resuscitation",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 10-month-old is assessed 4 hours after surgery using the FLACC scale. The infant has an occasional frown, kicks with legs drawn up, squirms and shifts back and forth, cries steadily, and calms briefly when the parent holds and talks to the infant. What is the FLACC score?",
+   "options": [
+    "7",
+    "5",
+    "9",
+    "3"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Face 1 (occasional frown) + Legs 2 (kicking, drawn up) + Activity 1 (squirming) + Cry 2 (steady crying) + Consolability 1 (reassured by holding and talking) = 7, which indicates severe pain.",
+    "This total undercounts the legs and cry categories, which each score 2.",
+    "This total overcounts the face, activity, and consolability categories, which each score 1 here.",
+    "This total ignores most of the behaviors described."
+   ],
+   "takeaway": "FLACC scores face, legs, activity, cry, and consolability from 0 to 2 each (0 to 10) for children who cannot self-report; 7 or more indicates severe pain.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 10-kg (22-lb) 11-month-old with gastroenteritis is lethargic, has a capillary refill time of 4 seconds, cool mottled extremities, and a heart rate of 190/min. Which prescription should the nurse anticipate first?",
+   "options": [
+    "Dextrose 5% in water 200 mL IV bolus",
+    "Oral rehydration solution 5 mL every 5 minutes",
+    "0.9% sodium chloride 200 mL IV bolus",
+    "0.45% sodium chloride with 20 mEq/L potassium chloride at maintenance rate"
+   ],
+   "correct": 2,
+   "rationales": [
+    "D5W is hypotonic once the dextrose is metabolized and does not stay in the vascular space; it is never used for fluid boluses.",
+    "Oral rehydration is for mild to moderate dehydration; a lethargic child in shock needs IV fluid.",
+    "Correct. Signs of shock call for a rapid isotonic crystalloid bolus of 20 mL/kg (200 mL for 10 kg), followed by reassessment.",
+    "A maintenance rate is too slow for shock, and potassium is not added until the child is voiding."
+   ],
+   "takeaway": "Severe dehydration with signs of shock needs a 20 mL/kg isotonic crystalloid bolus and reassessment; potassium is added only after urine output is confirmed.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches the parent of a 2-year-old with mild dehydration from viral gastroenteritis about home care. Which statement by the parent indicates a need for further teaching?",
+   "options": [
+    "\"I'll give small, frequent sips of oral rehydration solution, even after a vomiting episode.\"",
+    "\"I'll offer my child's usual foods once the vomiting settles down.\"",
+    "\"I'll give only bananas, rice, applesauce, and toast for the next several days.\"",
+    "\"I'll call if my child has no wet diaper for 8 hours or becomes hard to wake.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Small, frequent amounts of oral rehydration solution are tolerated even with vomiting and are the treatment of choice.",
+    "An early return to the usual age-appropriate diet shortens illness and supports nutrition.",
+    "Correct. This needs correction: a restrictive BRAT diet lacks protein, fat, and calories and is no longer recommended; children should return to their usual diet.",
+    "Very low urine output or lethargy suggests worsening dehydration and should be reported."
+   ],
+   "takeaway": "After rehydration, children with gastroenteritis should resume their usual age-appropriate diet; a restrictive BRAT diet is no longer recommended.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 6-week-old with suspected pyloric stenosis has had forceful vomiting after feedings for 4 days. Which set of laboratory results should the nurse expect?",
+   "options": [
+    "pH 7.52, chloride 88 mEq/L, bicarbonate 34 mEq/L",
+    "pH 7.28, chloride 112 mEq/L, bicarbonate 15 mEq/L",
+    "pH 7.30, chloride 104 mEq/L, bicarbonate 18 mEq/L",
+    "pH 7.40, chloride 102 mEq/L, bicarbonate 24 mEq/L"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Repeated loss of gastric hydrochloric acid causes hypochloremic metabolic alkalosis (high pH and bicarbonate, low chloride), often with hypokalemia.",
+    "This is hyperchloremic metabolic acidosis, which is seen with diarrhea, not gastric vomiting.",
+    "This shows metabolic acidosis, the opposite of the expected imbalance.",
+    "These values are normal and would not be expected after days of persistent vomiting."
+   ],
+   "takeaway": "Persistent vomiting in pyloric stenosis causes hypochloremic, hypokalemic metabolic alkalosis, which is corrected before surgery.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 9-month-old had an intussusception reduced with an air enema 6 hours ago and is now taking oral fluids. Which finding should the nurse report to the provider right away?",
+   "options": [
+    "Passage of a normal brown stool",
+    "Sleeping between feedings and waking to feed",
+    "A temperature of 37.4°C (99.3°F)",
+    "Sudden episodes of screaming with the knees drawn up to the abdomen"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A normal brown stool after reduction is a reassuring sign that the bowel is open.",
+    "Sleeping and waking to feed is normal infant behavior after the procedure.",
+    "This temperature is normal.",
+    "Correct. Return of colicky pain with knees drawn up suggests the bowel has telescoped again; recurrence is most likely in the first day or so after reduction."
+   ],
+   "takeaway": "After intussusception reduction, a normal stool is reassuring, while returning colicky pain, vomiting, or currant-jelly stool can signal recurrence.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is taking a history from the parent of a 3-week-old with suspected Hirschsprung disease. Which finding most supports this diagnosis?",
+   "options": [
+    "The infant has projectile vomiting right after feedings.",
+    "The newborn did not pass meconium until 3 days after birth.",
+    "The infant spits up small amounts after most feedings.",
+    "The infant's stools have been pale and clay colored."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Projectile vomiting after feedings suggests pyloric stenosis.",
+    "Correct. Failure to pass meconium within the first 24 to 48 hours is a classic early sign of aganglionic bowel.",
+    "Small spit-ups are common in healthy infants and are not specific to Hirschsprung disease.",
+    "Pale, clay-colored stools suggest biliary obstruction such as biliary atresia."
+   ],
+   "takeaway": "Delayed passage of meconium beyond 24 to 48 hours is a classic early sign of Hirschsprung disease.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 2-day-old with an unrepaired cleft lip and palate is having trouble feeding. Which technique should the nurse teach the parent?",
+   "options": [
+    "Feed the infant upright using a specialized cleft-palate bottle, and burp the infant often.",
+    "Feed the infant lying flat so milk flows away from the opening in the palate.",
+    "Withhold oral feedings and request a nasogastric tube until the repair.",
+    "Let each feeding continue as long as needed, even if it takes more than 45 minutes."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. An upright position reduces nasal regurgitation and aspiration, a specialized bottle compensates for weak suction, and frequent burping releases the extra air swallowed.",
+    "Lying flat increases the risk of milk entering the nose and airway.",
+    "Most infants with clefts can feed orally with the right equipment; tube feeding is not routine.",
+    "Long feedings tire the infant and burn calories; feedings are usually limited to about 30 minutes."
+   ],
+   "takeaway": "Infants with cleft lip and palate feed best upright with a specialized bottle, frequent burping, and feedings of about 30 minutes.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 3-month-old is recovering after surgical repair of a cleft lip. For each action, indicate whether it is indicated or not indicated to protect the repair.",
+   "rows": [
+    "Use elbow immobilizers, removing them one at a time to check the skin and allow movement",
+    "Position the infant on the back or side rather than on the abdomen",
+    "Offer a pacifier to soothe crying",
+    "Clean the suture line gently after feedings as prescribed"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Elbow immobilizers keep the infant's hands away from the suture line; releasing one at a time protects the repair while allowing skin checks and range of motion.",
+    "Lying on the abdomen lets the infant rub the face on the bedding and disrupt the suture line.",
+    "Sucking on a pacifier puts tension on the lip repair and is avoided until healing.",
+    "Gentle cleaning removes formula and crusts that could lead to infection and scarring."
+   ],
+   "takeaway": "After cleft lip repair, protect the suture line with elbow immobilizers, back or side positioning, and gentle cleaning; avoid pacifiers and anything that rubs the lip.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 12-month-old is going home after cleft palate repair. Which statement by the parent indicates a need for further teaching?",
+   "options": [
+    "\"I'll give fluids from a wide-rimmed open cup.\"",
+    "\"I'll let her drink juice through a straw so she doesn't have to suck hard on a bottle.\"",
+    "\"I'll keep spoons, forks, and hard toys away from her mouth until the surgeon says it has healed.\"",
+    "\"I'll offer soft, blended foods for the next few weeks.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "An open cup is the recommended way to give fluids after palate repair.",
+    "Correct. This needs correction: straws can poke the palate repair and create suction on the suture line.",
+    "Keeping utensils and hard objects out of the mouth protects the palate while it heals.",
+    "Soft foods are recommended while the palate heals."
+   ],
+   "takeaway": "After cleft palate repair, keep straws, utensils, pacifiers, and hard objects out of the mouth; use an open cup and soft foods.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 5-month-old is admitted with RSV bronchiolitis, a temperature of 38.3°C (101°F), and a respiratory rate of 64/min. For each intervention, indicate whether it is indicated or not indicated under current bronchiolitis guidelines.",
+   "rows": [
+    "Give IV or nasogastric fluids if the infant cannot take enough by mouth",
+    "Give oral dexamethasone to reduce airway inflammation",
+    "Give supplemental oxygen if SpO₂ stays below 90%",
+    "Start IV antibiotics because the infant has a fever",
+    "Obtain a chest x-ray to confirm the diagnosis"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Fast breathing and poor feeding cause dehydration; IV or nasogastric fluids are used when the infant cannot maintain hydration by mouth.",
+    "Systemic corticosteroids do not improve outcomes in bronchiolitis and are not recommended.",
+    "Oxygen is given when saturation stays below 90%; brief dips do not require it.",
+    "Bronchiolitis is viral, and fever is common; antibiotics are used only when a bacterial infection is confirmed or strongly suspected.",
+    "Bronchiolitis is diagnosed from the history and examination; routine chest x-rays are not recommended and often lead to unnecessary antibiotics."
+   ],
+   "takeaway": "Bronchiolitis care is supportive (oxygen when SpO₂ stays below 90% and fluids when oral intake is inadequate); routine steroids, antibiotics, and chest x-rays are not recommended.",
+   "refs": [
+    "aap-bronchiolitis",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching the parent of a 2-month-old with bronchiolitis how to clear the infant's nose with a bulb syringe before feedings. Place the steps in the correct order.",
+   "options": [
+    "Remove the bulb and squeeze the contents onto a tissue",
+    "Squeeze the bulb to push the air out",
+    "Place a few drops of saline in one nostril",
+    "Gently insert the tip just inside the nostril",
+    "Slowly release the bulb to draw out the mucus"
+   ],
+   "correct": [
+    2,
+    1,
+    3,
+    4,
+    0
+   ],
+   "rationales": [
+    "Fifth: the mucus is emptied away from the infant before the next nostril is cleared.",
+    "Second: the bulb is compressed before it goes into the nose so air is not blown into the nostril.",
+    "First: saline loosens thick mucus so it can be removed.",
+    "Third: the tip goes only slightly inside the nostril to avoid injury.",
+    "Fourth: releasing the bulb creates suction that removes the mucus."
+   ],
+   "takeaway": "For bulb suctioning, use saline first, compress the bulb before inserting it, release inside the nostril, and empty it away from the infant.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is comparing two 3-year-olds who come to the emergency department with stridor. For each finding, indicate whether it is more typical of viral croup (laryngotracheobronchitis) or of epiglottitis.",
+   "rows": [
+    "Barking, seal-like cough that worsens at night",
+    "Drooling and refusal to swallow",
+    "Low-grade fever after several days of cold symptoms",
+    "Sudden high fever and a toxic appearance",
+    "Sitting upright and leaning forward with the chin thrust out"
+   ],
+   "columns": [
+    "Croup",
+    "Epiglottitis"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "A barking cough with nighttime worsening is the hallmark of croup.",
+    "A swollen epiglottis makes swallowing painful, so saliva pools and the child drools.",
+    "Croup is viral and usually follows an upper respiratory infection with mild fever.",
+    "Epiglottitis is bacterial, with abrupt onset, high fever, and a very ill appearance.",
+    "The tripod or sniffing position helps keep the obstructed upper airway open in epiglottitis."
+   ],
+   "takeaway": "Croup is gradual, viral, with a barking cough; epiglottitis is sudden, bacterial, with high fever, drooling, and tripod positioning, and needs immediate airway support.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 10-year-old with asthma has a personal best peak expiratory flow of 300 L/min. The nurse reviews the written asthma action plan with the child and parent. Which statement shows correct understanding?",
+   "options": [
+    "\"If my peak flow is 260, I should go to the emergency department right away.\"",
+    "\"If my peak flow is below 150, I should wait an hour and recheck it before doing anything.\"",
+    "\"If my peak flow is 200, I'll use my quick-relief inhaler and follow my yellow-zone steps.\"",
+    "\"I only need to check my peak flow when I'm already having trouble breathing.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "A reading of 260 is about 87% of personal best, which is the green zone.",
+    "Below 50% (150 L/min) is the red zone: use quick-relief medicine and get medical help now, without waiting.",
+    "Correct. 200 L/min is about 67% of personal best, which is in the yellow zone (50% to 79%, or 150 to 239 L/min here) and calls for quick-relief medicine and the plan's yellow-zone steps.",
+    "Regular monitoring as directed in the plan helps detect worsening before symptoms become severe."
+   ],
+   "takeaway": "Asthma action plan zones: green 80% to 100% of personal best, yellow 50% to 79% (quick-relief medicine and follow the plan), red below 50% (get help now).",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An 11-year-old with persistent asthma has prescriptions for an albuterol metered-dose inhaler as needed and a fluticasone metered-dose inhaler twice daily. On a morning when both are needed, which instruction should the nurse give?",
+   "options": [
+    "Use the fluticasone first so the albuterol lasts longer.",
+    "Use the fluticasone only on days when you start wheezing.",
+    "Skip the spacer because it slows how fast the medicine reaches the lungs.",
+    "Use the albuterol first, then the fluticasone, and rinse your mouth afterward."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Giving the steroid first means it deposits in narrowed airways; the bronchodilator should come first.",
+    "Fluticasone is a daily controller medicine and must be used every day, not just with symptoms.",
+    "A spacer improves delivery to the lungs and reduces medicine left in the mouth.",
+    "Correct. The bronchodilator opens the airways so the inhaled corticosteroid reaches deeper; rinsing afterward reduces the risk of oral thrush."
+   ],
+   "takeaway": "Give the bronchodilator before an inhaled corticosteroid, and rinse the mouth after the steroid to prevent thrush.",
+   "refs": [
+    "openstax-pharm",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 10-year-old with cystic fibrosis is prescribed albuterol, nebulized hypertonic saline, nebulized dornase alfa, and a fat-soluble vitamin supplement. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Use the albuterol before the hypertonic saline treatment",
+    "Mix the dornase alfa with the hypertonic saline in one nebulizer cup",
+    "Do the airway clearance session after the hypertonic saline treatment",
+    "Give the vitamin supplement with a meal and the usual enzymes",
+    "Store the dornase alfa ampules at room temperature on a sunny windowsill",
+    "Stop the vitamin supplement once the child reaches a healthy weight"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Hypertonic saline can trigger bronchospasm; a bronchodilator given first prevents it and opens the airways.",
+    "Dornase alfa is not mixed with other drugs in the nebulizer because mixing can inactivate it; each is given separately.",
+    "Correct. Hydrating and thinning the mucus first makes airway clearance more effective.",
+    "Correct. Vitamins A, D, E, and K need dietary fat and pancreatic enzymes to be absorbed.",
+    "Dornase alfa is refrigerated and protected from light; heat and light inactivate it.",
+    "Malabsorption in cystic fibrosis is lifelong, so fat-soluble vitamin supplements continue."
+   ],
+   "takeaway": "In cystic fibrosis, give the bronchodilator before hypertonic saline, never mix dornase alfa with other nebulized drugs, follow with airway clearance, and give fat-soluble vitamins with food and enzymes.",
+   "refs": [
+    "dailymed",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The parent of a 9-month-old who has had three episodes of acute otitis media asks how to lower the risk of more ear infections. Which measures should the nurse recommend? Select all that apply.",
+   "options": [
+    "Put the infant to bed with a bottle so the infant swallows more often",
+    "Clean inside the ear canal daily with cotton-tipped swabs",
+    "Keep immunizations, including pneumococcal and influenza vaccines, up to date",
+    "Give leftover antibiotic at the first sign of a cold",
+    "Keep the infant away from tobacco smoke, including smoke on clothing",
+    "Hold the infant semi-upright for bottle feedings instead of propping the bottle"
+   ],
+   "correct": [
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Bedtime bottles increase otitis media and tooth decay.",
+    "Swabs can injure the canal and push wax inward; they do not prevent middle ear infections.",
+    "Correct. These vaccines reduce infections that commonly lead to otitis media.",
+    "Leftover antibiotics are inappropriate, promote resistance, and do not prevent otitis media.",
+    "Correct. Smoke exposure irritates the eustachian tubes and increases ear infections.",
+    "Correct. Feeding lying flat lets milk pool near the eustachian tubes and increases infection risk."
+   ],
+   "takeaway": "Avoiding smoke exposure and bottle propping and keeping vaccines current lower the risk of recurrent otitis media.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is giving prescribed antibiotic ear drops to a 2-year-old with an ear infection. Place the steps in the correct order.",
+   "options": [
+    "Position the child lying on the side with the affected ear up",
+    "Warm the bottle by holding it in the hands for a few minutes",
+    "Keep the child on the side for a few minutes",
+    "Gently pull the pinna down and back",
+    "Instill the prescribed number of drops along the side of the canal",
+    "Perform hand hygiene and verify the child's identity with two identifiers"
+   ],
+   "correct": [
+    5,
+    1,
+    0,
+    3,
+    4,
+    2
+   ],
+   "rationales": [
+    "Third: side-lying with the affected ear up lets the drops flow into the canal.",
+    "Second: cold drops can cause dizziness and discomfort, so they are warmed to about body temperature.",
+    "Sixth: staying in position lets the medicine reach the deeper canal before the child sits up.",
+    "Fourth: in children younger than 3, pulling the pinna down and back straightens the ear canal.",
+    "Fifth: drops are aimed along the canal wall so air is not trapped.",
+    "First: hand hygiene and two identifiers come before any medication is given."
+   ],
+   "takeaway": "For ear drops in children younger than 3, warm the drops, position affected ear up, and pull the pinna down and back.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 5-year-old is scheduled for a tonsillectomy tomorrow. Which preoperative finding should the nurse report to the surgeon?",
+   "options": [
+    "The child has had seven episodes of strep throat this year.",
+    "The child bruises easily, and an uncle has hemophilia.",
+    "The child snores loudly and has pauses in breathing during sleep.",
+    "The child's temperature is 37.1°C (98.8°F)."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Frequent strep throat is a common reason for tonsillectomy, not a reason to delay it.",
+    "Correct. Easy bruising and a family history of a bleeding disorder suggest a bleeding risk, and hemorrhage is the main danger after tonsillectomy.",
+    "Obstructive sleep-disordered breathing is a common indication for tonsillectomy.",
+    "This temperature is normal."
+   ],
+   "takeaway": "Before tonsillectomy, screen for bleeding risk such as easy bruising, a family bleeding disorder, or aspirin use, because hemorrhage is the main postoperative danger.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching the parent of a 6-year-old about eating and comfort at home after a tonsillectomy. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Offer cool fluids and ice pops that are not red or brown",
+    "Offer soft foods such as applesauce, mashed potatoes, and soft noodles",
+    "Offer orange juice or lemonade for extra vitamin C",
+    "Encourage frequent sips of fluid even when swallowing hurts",
+    "Apply an ice collar to the neck if the child finds it comforting",
+    "Offer crunchy foods such as chips and toast to clean the throat"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Cool fluids soothe the throat; avoiding red or brown colors keeps any blood in vomit easy to recognize.",
+    "Correct. Soft foods are easier to swallow and do not scrape the healing tonsil beds.",
+    "Citrus juices sting the raw throat and are avoided.",
+    "Correct. Good hydration prevents dehydration and helps reduce throat pain and bleeding risk.",
+    "Correct. An ice collar can reduce pain and swelling.",
+    "Rough, crunchy foods can scrape the surgical site and cause bleeding."
+   ],
+   "takeaway": "After tonsillectomy, cool fluids and soft foods keep the child hydrated and protect the surgical site; avoid red or brown colors, citrus, and rough foods.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 3-month-old with a large ventricular septal defect is seen in the cardiology clinic. Which findings should the nurse recognize as signs of heart failure? Select all that apply.",
+   "options": [
+    "Sweating on the forehead during feedings",
+    "Respiratory rate of 72/min at rest",
+    "Capillary refill time of 2 seconds",
+    "Heart rate of 130/min while asleep",
+    "Weight that has fallen from the 50th to the 10th percentile",
+    "Taking 45 minutes to finish 60 mL (2 oz) of formula"
+   ],
+   "correct": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Sweating with feeding reflects increased sympathetic activity and the work of feeding in infant heart failure.",
+    "Correct. Tachypnea from pulmonary congestion is an early sign of heart failure in infants.",
+    "A refill time of 2 seconds is normal.",
+    "This heart rate is within the normal range for a sleeping infant.",
+    "Correct. High energy use and poor intake lead to poor weight gain (failure to thrive).",
+    "Correct. Infants with heart failure tire quickly and feed slowly."
+   ],
+   "takeaway": "Infant heart failure appears as tachypnea, sweating and fatigue with feedings, and poor weight gain rather than the dependent edema seen in adults.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An 18-month-old with unrepaired tetralogy of Fallot squats often after walking a short distance. The parent asks why the child does this. Which explanation by the nurse is accurate?",
+   "options": [
+    "\"Squatting rests the leg muscles, which are weak because of the heart defect.\"",
+    "\"Squatting slows the heart rate so the heart can fill with more blood.\"",
+    "\"Squatting lowers the pressure in the lungs so your child can breathe more deeply.\"",
+    "\"Squatting squeezes the leg arteries, which sends more blood to the lungs to pick up oxygen.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Squatting is not about muscle weakness; it is a compensation for low oxygen levels.",
+    "Squatting does not work by slowing the heart rate.",
+    "The benefit comes from raising systemic resistance, not from lowering lung pressure.",
+    "Correct. Squatting compresses the leg arteries and raises systemic vascular resistance, which reduces right-to-left shunting and sends more blood through the lungs."
+   ],
+   "takeaway": "Squatting and the knee-chest position raise systemic vascular resistance, reducing the right-to-left shunt in tetralogy of Fallot and improving oxygenation.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 4-year-old returned from cardiac catheterization through the right femoral artery 2 hours ago. For each finding, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "The pressure dressing over the right groin is dry and intact",
+    "The right foot is cool and pale, with a weaker pedal pulse than the left",
+    "The child is sleepy but wakes easily and asks for a drink",
+    "Blood pressure 98/60 mm Hg and heart rate 110/min",
+    "Blood is spreading under the dressing, and the child keeps bending the right leg"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "rationales": [
+    "A dry, intact dressing shows no bleeding from the arterial site.",
+    "A cool, pale foot with a weaker pulse suggests reduced arterial flow, such as a clot, and must be reported.",
+    "Drowsiness from sedation is expected while the child remains easy to wake.",
+    "These values are within normal limits for a 4-year-old.",
+    "Spreading blood indicates bleeding; the leg should be kept straight and direct pressure applied above the site."
+   ],
+   "takeaway": "After pediatric cardiac catheterization, check the site for bleeding and the affected leg's pulses, color, and temperature, and keep the leg straight.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The parent of a 10-month-old asks which toys are appropriate for the infant's age. Which toys should the nurse suggest? Select all that apply.",
+   "options": [
+    "A bag of brightly colored marbles",
+    "A latex balloon tied to the high chair",
+    "A soft ball too large to fit in the mouth",
+    "A baby walker with wheels",
+    "Board books with thick pages",
+    "Large plastic stacking or nesting cups"
+   ],
+   "correct": [
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Marbles are a choking hazard; anything that fits through a toilet paper tube is too small for an infant.",
+    "Latex balloons are a leading cause of choking deaths in young children.",
+    "Correct. Large balls encourage reaching, crawling, and play with others safely.",
+    "Wheeled walkers cause falls, including down stairs, and do not help infants learn to walk.",
+    "Correct. Board books support language development and hold up to mouthing.",
+    "Correct. Stacking cups support fine-motor skills and object permanence and are too large to swallow."
+   ],
+   "takeaway": "Infant toys should support sensorimotor play and be too large to swallow; avoid small objects, latex balloons, and wheeled walkers.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 3-year-old with Kawasaki disease was treated with IV immune globulin (IVIG) and is taking aspirin. Which statement by the parent shows understanding of the discharge teaching?",
+   "options": [
+    "\"My child's measles-mumps-rubella and varicella vaccines will need to be delayed for about 11 months.\"",
+    "\"I can give ibuprofen along with the aspirin if my child runs a fever.\"",
+    "\"If my child is exposed to chickenpox or the flu, I don't need to call because the aspirin will help.\"",
+    "\"I can stop the aspirin as soon as the fever is gone.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Antibodies in IVIG can block the response to live vaccines, so MMR and varicella are delayed about 11 months.",
+    "Ibuprofen interferes with aspirin's antiplatelet effect and should be avoided.",
+    "Children on aspirin who get influenza or varicella are at risk for Reye syndrome; exposures must be reported.",
+    "Low-dose aspirin usually continues for several weeks until follow-up echocardiography, not just until the fever ends."
+   ],
+   "takeaway": "After IVIG, live vaccines such as MMR and varicella are delayed about 11 months; children on aspirin need flu vaccination and prompt reporting of flu or chickenpox exposure.",
+   "refs": [
+    "openstax-pharm",
+    "medline-children",
+    "cdc-immunization"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches the parent of a 6-month-old with heart failure how to give oral digoxin at home. Which statement shows correct understanding?",
+   "options": [
+    "\"If I miss a dose by more than 4 hours, I'll give two doses together next time.\"",
+    "\"I'll mix the medicine into a full bottle of formula so it's easier to give.\"",
+    "\"If my baby vomits after a dose, I won't repeat it, and I'll give the next dose at the usual time.\"",
+    "\"Vomiting and poor feeding are expected side effects that don't need to be reported.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Doubling a dose of a narrow-therapeutic-range drug can cause toxicity.",
+    "If the infant does not finish the bottle, the full dose is not received.",
+    "Correct. Repeating a dose after vomiting risks toxicity because the amount absorbed is unknown; the next dose is given on schedule.",
+    "Vomiting, poor feeding, and a slow heart rate can be signs of digoxin toxicity and should be reported."
+   ],
+   "takeaway": "Give pediatric digoxin at regular times, never double or repeat a dose, and report vomiting, poor feeding, or slow heart rate as possible toxicity.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 9-year-old with streptococcal pharyngitis is prescribed oral amoxicillin for 10 days. Which statement by the parent shows understanding of how to prevent rheumatic fever?",
+   "options": [
+    "\"I can stop the medicine once the sore throat and fever are gone.\"",
+    "\"Giving ibuprofen for the throat pain is what prevents rheumatic fever.\"",
+    "\"I'll give every dose for the full 10 days, even after my child feels better.\"",
+    "\"I'll save the leftover medicine in case my other child gets sick.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Stopping when symptoms resolve can leave bacteria behind and increases the risk of rheumatic fever.",
+    "Pain relief does not eliminate the bacteria and does not prevent rheumatic fever.",
+    "Correct. Completing the full course clears group A streptococcus and prevents the immune reaction that causes rheumatic fever.",
+    "Saving leftover medicine means this child does not finish the course, and sharing antibiotics is unsafe."
+   ],
+   "takeaway": "Completing the full antibiotic course for group A streptococcal pharyngitis is the key to preventing acute rheumatic fever.",
+   "refs": [
+    "medline-children",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "An 8-year-old with diabetic ketoacidosis has been receiving IV fluids and an insulin infusion for 5 hours. Blood glucose has dropped from 520 to 260 mg/dL. The child now reports a severe headache, is harder to wake, and the heart rate has fallen from 120/min to 64/min. Which complication should the nurse suspect?",
+   "options": [
+    "Cerebral edema",
+    "Hypoglycemia",
+    "Hypokalemia",
+    "Worsening fluid volume deficit"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Headache, decreasing level of consciousness, and a falling heart rate during DKA treatment are warning signs of cerebral edema, an emergency in children.",
+    "A glucose of 260 mg/dL is not hypoglycemia.",
+    "Hypokalemia causes weakness and dysrhythmias, not headache with declining consciousness.",
+    "A fluid deficit would cause tachycardia, not a falling heart rate with headache."
+   ],
+   "takeaway": "Headache, decreasing level of consciousness, and bradycardia during DKA treatment in a child signal cerebral edema.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews sick-day guidelines with a 13-year-old who has type 1 diabetes and the parent. Which statements indicate correct understanding? Select all that apply.",
+   "options": [
+    "\"I'll keep taking my long-acting insulin even if I'm not eating much.\"",
+    "\"I'll check my blood glucose and ketones more often, every few hours.\"",
+    "\"We'll call the provider if I keep vomiting or my ketones are moderate or large.\"",
+    "\"I'll exercise to bring my glucose down when ketones are present.\"",
+    "\"I'll drink plenty of sugar-free fluids, and switch to fluids with sugar if I can't eat.\"",
+    "\"I'll skip my insulin until I feel well enough to eat a full meal.\""
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Basal insulin is still needed during illness, when stress hormones raise glucose and ketones.",
+    "Correct. Frequent checks catch rising glucose and ketones early.",
+    "Correct. Persistent vomiting or significant ketones can signal developing DKA.",
+    "Exercise with ketones can raise glucose and ketones further and is avoided.",
+    "Correct. Fluids prevent dehydration, and carbohydrate-containing fluids replace food when the child cannot eat.",
+    "Stopping insulin during illness can quickly lead to diabetic ketoacidosis."
+   ],
+   "takeaway": "During illness, children with type 1 diabetes keep taking basal insulin, check glucose and ketones often, keep fluids up, and call for persistent vomiting or moderate to large ketones.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 15-year-old with type 1 diabetes has an A1C that rose from 7.2% to 9.8% over 6 months. The teen says, \"I skip my insulin at lunch so my friends don't see me.\" Which interpretation by the nurse is most accurate?",
+   "options": [
+    "The teen does not understand how insulin works and needs basic teaching again.",
+    "The teen's diabetes is progressing and needs a different type of insulin.",
+    "The teen is showing expected rebellion that will resolve without intervention.",
+    "The teen's need for peer acceptance is interfering with diabetes self-management."
+   ],
+   "correct": 3,
+   "rationales": [
+    "The teen's statement shows the problem is social, not a lack of knowledge.",
+    "The rising A1C is explained by missed doses, not a need for a different insulin.",
+    "Missed insulin is dangerous and needs active intervention, not waiting.",
+    "Correct. Adolescents strongly need to fit in with peers; skipping doses to avoid being seen is a developmental and psychosocial issue that needs problem-solving and support."
+   ],
+   "takeaway": "In adolescents, the need for peer acceptance often undermines chronic illness care; address it with discreet routines and peer support rather than repeating basic teaching.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "In the emergency department waiting area, an 18-month-old with a temperature of 39.4°C (103°F) begins having a generalized tonic-clonic seizure on the parent's lap. Which action should the nurse take first?",
+   "options": [
+    "Place a padded tongue blade between the child's teeth.",
+    "Place the child on the side on a flat surface and note the time the seizure started.",
+    "Hold the child's arms and legs to stop the jerking movements.",
+    "Give a dose of oral acetaminophen to lower the fever."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Objects in the mouth can break teeth or block the airway and are never used.",
+    "Correct. Side-lying on a flat surface protects the airway and prevents falls, and timing the seizure guides treatment.",
+    "Restraining movements can cause injury and does not stop the seizure.",
+    "Nothing is given by mouth during a seizure because of aspiration risk."
+   ],
+   "takeaway": "During any seizure, turn the child to the side, protect from injury, time it, and never restrain the child or put anything in the mouth.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The parent of a 4-month-old admitted for observation says the infant has started trying to roll from back to stomach. The infant has been sleeping swaddled with both arms wrapped. Which action should the nurse take?",
+   "options": [
+    "Stop swaddling and place the infant on the back in a sleep sack with the arms free",
+    "Keep swaddling and place the infant on the side, propped with a rolled towel",
+    "Swaddle the infant more snugly so the infant cannot roll over during sleep",
+    "Place the infant on the stomach to sleep now that the infant can roll over"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Swaddling should stop once an infant shows signs of trying to roll; a swaddled infant who rolls to the stomach cannot use the arms to lift or turn the head, which raises the risk of suffocation. The infant is still placed on the back to sleep.",
+    "Side-lying is unstable and lets the infant roll to the stomach, and positioning devices such as rolled towels are not recommended.",
+    "Tighter swaddling does not prevent rolling and can restrict breathing and hip movement; swaddling stops once rolling begins.",
+    "Infants are placed on the back for every sleep until 1 year of age; an infant who rolls both ways on their own may stay in that position, but is not placed on the stomach."
+   ],
+   "takeaway": "Stop swaddling as soon as an infant shows signs of rolling, and keep placing the infant on the back for every sleep until 1 year of age.",
+   "refs": [
+    "aap-safesleep"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 4-year-old admitted with fever and suspected bacterial meningitis develops new purple spots on the legs that do not blanch and are spreading quickly. The blood pressure is falling. What should the nurse suspect?",
+   "options": [
+    "An allergic reaction to the antibiotic",
+    "Meningococcal sepsis with possible disseminated intravascular coagulation",
+    "Bruising from positioning for the lumbar puncture",
+    "A viral rash that will fade without treatment"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Drug allergy usually causes blanching hives or a maculopapular rash, not spreading purpura.",
+    "Correct. A rapidly spreading nonblanching purpuric rash with hypotension suggests meningococcemia and DIC, which needs immediate intervention.",
+    "Positioning would not cause spreading purpura on the legs or falling blood pressure.",
+    "A nonblanching rash with hypotension is an emergency, not a benign viral rash."
+   ],
+   "takeaway": "A rapidly spreading nonblanching petechial or purpuric rash in a child with meningitis suggests meningococcemia and DIC; notify the provider immediately.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is assessing a 4-month-old with congenital hydrocephalus who is awaiting shunt placement. Which findings indicate increasing intracranial pressure? Select all that apply.",
+   "options": [
+    "Tense, bulging anterior fontanel while the infant is upright and calm",
+    "High-pitched, shrill cry",
+    "Sleeping 15 hours a day and waking to feed",
+    "Head circumference 2 cm larger than last week",
+    "Soft, flat fontanel that pulsates with the heartbeat",
+    "Eyes that look downward with sclera visible above the iris"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. A bulging fontanel in a calm, upright infant reflects raised intracranial pressure.",
+    "Correct. A high-pitched cry is a sign of increased intracranial pressure in infants.",
+    "This amount of sleep is normal for a 4-month-old who wakes easily to feed.",
+    "Correct. Rapid head growth shows fluid accumulating faster than expected.",
+    "A soft, flat fontanel with gentle pulsation is normal.",
+    "Correct. The sunset sign results from pressure on the upper brainstem."
+   ],
+   "takeaway": "In infants, increased ICP shows as a bulging fontanel, rapid head growth, sunsetting eyes, and a high-pitched cry.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 9-year-old with a ventriculoperitoneal shunt for hydrocephalus has headaches that are worse on waking, has been vomiting for 2 days, and is having new trouble staying awake in class. The parent thinks the child has a stomach virus. Which explanation should the nurse consider most urgent?",
+   "options": [
+    "Viral gastroenteritis with mild dehydration",
+    "Tension headaches from stress at school",
+    "Shunt malfunction with increased intracranial pressure",
+    "Constipation from reduced activity"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Gastroenteritis is possible, but it would not explain morning headaches and decreasing alertness; the dangerous cause must be ruled out first.",
+    "Stress headaches do not cause vomiting and decreased level of consciousness.",
+    "Correct. Morning headache, vomiting, and drowsiness in a child with a shunt suggest obstruction and rising intracranial pressure, which can be life threatening.",
+    "Constipation does not explain headaches and drowsiness."
+   ],
+   "takeaway": "In a child with a shunt, headache, vomiting, and lethargy point to shunt malfunction until proven otherwise.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A nurse is calling the provider about a 9-month-old with a ventriculoperitoneal shunt who is vomiting and has a bulging fontanel. Place the parts of the report in SBAR order.",
+   "options": [
+    "\"I'm calling about the 9-month-old in room 12 who has been vomiting and is difficult to wake.\"",
+    "\"The infant had a VP shunt placed 3 months ago for hydrocephalus and was admitted today with poor feeding.\"",
+    "\"Please come evaluate the infant now. Would you like a CT scan or a neurosurgery consult?\"",
+    "\"The fontanel is bulging, the head circumference is up 1.5 cm since last week's clinic visit, and I'm concerned about shunt malfunction.\""
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "rationales": [
+    "Situation: first, state who the client is and the immediate problem.",
+    "Background: second, give the relevant history.",
+    "Recommendation: last, state what the nurse needs from the provider.",
+    "Assessment: third, share findings and what the nurse thinks is happening."
+   ],
+   "takeaway": "SBAR (Situation, Background, Assessment, Recommendation) gives providers urgent information in a clear, predictable order.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-046",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 5-year-old with spastic cerebral palsy has trouble chewing and swallowing and is losing weight. Which feeding measures should the nurse recommend? Select all that apply.",
+   "options": [
+    "Seat the child upright with the head slightly flexed forward",
+    "Tilt the child's head back so food slides to the back of the throat",
+    "Offer sips of water with each bite to wash the food down",
+    "Offer small bites and allow time to chew and swallow each one",
+    "Use the liquid thickness recommended by the swallowing evaluation",
+    "Offer calorie-dense soft foods"
+   ],
+   "correct": [
+    0,
+    3,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. An upright position with a slight chin tuck helps protect the airway during swallowing.",
+    "Tilting the head back opens the airway to food and increases aspiration risk.",
+    "Thin liquids are the hardest to control and are easily aspirated.",
+    "Correct. Small, unhurried bites reduce the risk of choking and aspiration.",
+    "Correct. Thickened liquids are often easier to control than thin liquids when swallowing is impaired.",
+    "Correct. Spasticity and the effort of eating increase energy needs, and soft foods are easier to manage."
+   ],
+   "takeaway": "Children with cerebral palsy often need extra calories and are at risk for aspiration; feed upright with the chin slightly tucked, using small bites and recommended textures.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-047",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A newborn has just been diagnosed with Down syndrome (trisomy 21). Which screening test should the nurse anticipate before discharge?",
+   "options": [
+    "A sweat chloride test for cystic fibrosis",
+    "A cervical spine x-ray for atlantoaxial instability",
+    "A renal ultrasound to look for Wilms tumor",
+    "An echocardiogram to look for a congenital heart defect"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Down syndrome does not increase the risk of cystic fibrosis.",
+    "Routine neck x-rays are not recommended for children without symptoms; families are taught signs of spinal cord compression instead.",
+    "Down syndrome is not linked to Wilms tumor screening.",
+    "Correct. About half of newborns with Down syndrome have a congenital heart defect, so every newborn with Down syndrome needs an echocardiogram."
+   ],
+   "takeaway": "Every newborn with Down syndrome needs an echocardiogram because congenital heart defects are common; routine neck x-rays are not recommended without symptoms.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-048",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 2-year-old with sickle cell disease is brought in for sudden fatigue and pallor. The abdomen is distended with a large, firm spleen on the left, the heart rate is 170/min, and the blood pressure is 70/40 mm Hg. Which condition should the nurse recognize?",
+   "options": [
+    "Vaso-occlusive pain crisis",
+    "Acute splenic sequestration crisis",
+    "Acute chest syndrome",
+    "Hand-foot syndrome (dactylitis)"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Vaso-occlusive crisis causes pain but not sudden splenic enlargement and shock.",
+    "Correct. Blood pooling in the spleen causes a rapidly enlarging spleen, severe anemia, and shock; it needs emergency fluids and transfusion.",
+    "Acute chest syndrome presents with chest pain, fever, cough, and hypoxia.",
+    "Dactylitis causes painful swelling of the hands and feet in infants and toddlers."
+   ],
+   "takeaway": "Splenic sequestration causes a rapidly enlarging spleen, severe anemia, and shock in young children with sickle cell disease; it is an emergency.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-049",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 10-year-old with sickle cell disease is admitted with a vaso-occlusive pain crisis in the knees and lower back. Which comfort measures should the nurse include along with prescribed analgesics? Select all that apply.",
+   "options": [
+    "Apply warm compresses to painful joints",
+    "Encourage oral fluids as tolerated along with prescribed IV fluids",
+    "Apply ice packs to the painful joints for 20 minutes",
+    "Limit fluids to prevent fluid overload",
+    "Support painful joints with pillows in a position of comfort",
+    "Use distraction such as video games, music, or guided imagery"
+   ],
+   "correct": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Warmth promotes vasodilation and comfort.",
+    "Correct. Hydration reduces blood viscosity and sickling.",
+    "Cold causes vasoconstriction, which increases sickling and pain.",
+    "Fluid restriction worsens sickling; hydration is a main treatment.",
+    "Correct. Positioning and support reduce pain.",
+    "Correct. Distraction is an effective nonpharmacologic pain measure for school-age children."
+   ],
+   "takeaway": "In vaso-occlusive crisis, use warmth (never cold), hydration, positioning, and distraction alongside scheduled analgesia.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-050",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 7-year-old with sickle cell disease takes hydroxyurea daily. Which laboratory result is most important for the nurse to report to the provider?",
+   "options": [
+    "Fetal hemoglobin level higher than at the last visit",
+    "Mean corpuscular volume higher than baseline",
+    "Hemoglobin of 9.2 g/dL, up from 8.4 g/dL",
+    "Absolute neutrophil count of 700/mm³"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A rise in fetal hemoglobin is the intended therapeutic effect.",
+    "An increased MCV is an expected effect of hydroxyurea and helps show the child is taking it.",
+    "A rising hemoglobin shows improvement.",
+    "Correct. Hydroxyurea can suppress the bone marrow; a low neutrophil count raises infection risk and usually requires holding the drug."
+   ],
+   "takeaway": "Hydroxyurea raises fetal hemoglobin and MCV as expected, but bone marrow suppression, such as a low neutrophil count, must be reported.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-051",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 6-year-old with newly diagnosed acute lymphoblastic leukemia and a very high white blood cell count started induction chemotherapy 24 hours ago. For each laboratory result, indicate whether it is within the expected range or requires follow-up for possible tumor lysis syndrome.",
+   "rows": [
+    "Potassium 6.1 mEq/L",
+    "Uric acid 10.2 mg/dL",
+    "Sodium 139 mEq/L",
+    "Calcium 6.8 mg/dL",
+    "Glucose 92 mg/dL"
+   ],
+   "columns": [
+    "Within expected range",
+    "Requires follow-up"
+   ],
+   "correct": [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Hyperkalemia from released intracellular potassium can cause life-threatening dysrhythmias.",
+    "Hyperuricemia from breakdown of nucleic acids can crystallize in the kidneys and cause kidney injury.",
+    "This sodium level is normal and is not affected by tumor lysis.",
+    "Hypocalcemia occurs as released phosphate binds calcium and can cause tetany and seizures.",
+    "This glucose level is normal."
+   ],
+   "takeaway": "Tumor lysis syndrome causes hyperkalemia, hyperuricemia, hyperphosphatemia, and hypocalcemia, usually within 12 to 72 hours of starting chemotherapy.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-052",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The parents of a 5-year-old newly diagnosed with acute lymphoblastic leukemia tell the nurse, \"We should have noticed the bruises sooner. This is our fault.\" Which response by the nurse is most therapeutic?",
+   "options": [
+    "\"It sounds like you feel responsible. Early signs of leukemia are easy to miss.\"",
+    "\"You shouldn't feel guilty. Leukemia is very treatable now.\"",
+    "\"Let's focus on the treatment plan instead of the past.\"",
+    "\"Why do you think you should have noticed the bruises sooner?\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Reflecting the feeling and giving accurate information supports the family without dismissing their emotions.",
+    "Telling parents how not to feel dismisses their emotions and closes the conversation.",
+    "Changing the subject blocks expression of feelings the family needs to work through.",
+    "\"Why\" questions can sound accusatory and make parents defensive."
+   ],
+   "takeaway": "Parent guilt is common after a child's cancer diagnosis; acknowledge it, normalize it, and give accurate information as part of family-centered care.",
+   "refs": [
+    "medline-children",
+    "openstax-psych"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-053",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 3-year-old is admitted with a suspected Wilms tumor (nephroblastoma). Which actions should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Monitor blood pressure regularly",
+    "Teach the parent to massage the child's abdomen to relieve discomfort",
+    "Handle and bathe the child carefully to avoid pressure on the abdomen",
+    "Palpate the abdomen each shift to track the size of the mass",
+    "Post a sign on the bed stating that the abdomen must not be palpated"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Wilms tumor can increase renin production and cause hypertension.",
+    "Massage puts pressure on the tumor and could cause rupture.",
+    "Correct. Careful handling protects the tumor capsule.",
+    "Repeated palpation risks rupturing the tumor and is avoided.",
+    "Correct. Palpation can rupture the encapsulated tumor and spread cancer cells; a sign alerts all staff."
+   ],
+   "takeaway": "With a suspected Wilms tumor, avoid palpating or putting pressure on the abdomen because rupture can spread cancer cells; monitor blood pressure.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-054",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 7-year-old had a closed reduction and long-arm cast for a supracondylar humerus fracture 6 hours ago. The child cries that the pain is getting worse despite a dose of morphine and screams when the nurse gently extends the fingers. Which complication should the nurse suspect?",
+   "options": [
+    "Expected pain from the reduction",
+    "Fat embolism syndrome",
+    "Acute compartment syndrome",
+    "Osteomyelitis at the fracture site"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Expected postoperative pain improves with analgesics and does not sharply increase with passive stretch.",
+    "Fat embolism usually appears 24 to 72 hours after a long-bone or pelvic fracture with respiratory distress, confusion, and petechiae; it does not cause localized pain with passive finger stretch.",
+    "Correct. Pain out of proportion to the injury that is not relieved by opioids and pain with passive finger stretch are early signs of compartment syndrome.",
+    "Osteomyelitis develops over days, with fever and localized pain, not within 6 hours."
+   ],
+   "takeaway": "Pain out of proportion to the injury and pain with passive stretch are early signs of compartment syndrome; notify the provider immediately.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-055",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 10-year-old has a Salter-Harris type II fracture of the distal radius. The parent asks why the child needs follow-up visits for many months after the cast is removed. Which response by the nurse is best?",
+   "options": [
+    "\"Children's bones heal more slowly than adults' bones, so healing takes many months.\"",
+    "\"Fractures like this often become infected after the cast is removed.\"",
+    "\"The break involves the growth plate, so the provider needs to watch how that bone keeps growing.\"",
+    "\"Growth plate fractures need surgery once the cast comes off.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Children's bones usually heal faster than adults' bones.",
+    "A closed fracture does not commonly become infected after cast removal.",
+    "Correct. Salter-Harris fractures involve the physis, so follow-up watches for growth arrest, limb-length differences, or angular deformity.",
+    "Most Salter-Harris type II fractures heal well with closed reduction and casting alone."
+   ],
+   "takeaway": "Salter-Harris fractures involve the growth plate; follow-up monitors for growth disturbance such as limb-length difference or angular deformity.",
+   "refs": [
+    "medline-children",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-056",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching the parent of a 6-year-old with a new fiberglass long-leg cast. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Cover the cast with a plastic bag while bathing and keep it dry",
+    "Use a hair dryer on the hot setting to dry a damp cast",
+    "Pull out padding to smooth rough edges",
+    "Check the toes several times a day for color, warmth, movement, and feeling",
+    "Keep the leg raised on pillows above heart level for the first day or two",
+    "Slide a ruler or pencil under the cast to scratch an itch"
+   ],
+   "correct": [
+    0,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Wet padding can irritate and break down the skin.",
+    "Hot air can burn the skin under the cast; only a cool setting is used.",
+    "Removing padding exposes the skin to the hard edge; edges are covered (petaled) instead.",
+    "Correct. Regular neurovascular checks detect impaired circulation early.",
+    "Correct. Elevation reduces swelling and pain.",
+    "Objects under the cast can scratch the skin, cause infection, or get stuck."
+   ],
+   "takeaway": "Cast care: elevate, check circulation often, keep it dry, and never put objects inside the cast.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-057",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A school nurse screens a 12-year-old for scoliosis using the forward-bend test. Which finding should the nurse refer for further evaluation?",
+   "options": [
+    "A rib hump on one side of the back when the child bends forward",
+    "Level shoulders when the child stands upright",
+    "Equal spaces between each arm and the trunk",
+    "Level hips when viewed from behind"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A one-sided rib or flank hump during forward bending reflects vertebral rotation and suggests structural scoliosis.",
+    "Level shoulders are a normal finding.",
+    "Equal arm-to-trunk spaces are a normal finding.",
+    "Level hips are a normal finding."
+   ],
+   "takeaway": "In the forward-bend (Adams) test, a rib or flank hump suggests structural scoliosis and needs referral.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-058",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 14-year-old with idiopathic scoliosis has just been fitted for a thoracolumbosacral brace to be worn most of the day. The teen says, \"Everyone at school will stare at me. I'm not wearing this thing.\" Which response by the nurse is best?",
+   "options": [
+    "\"If you don't wear the brace, you'll need surgery, so you don't have a choice.\"",
+    "\"Your friends will understand once you explain it's for your health.\"",
+    "\"You can wear it only at night if it bothers you that much.\"",
+    "\"You're worried about how you'll look. Let's talk about clothes that fit over the brace.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Threats increase resistance and do not address the teen's feelings.",
+    "False reassurance dismisses the concern and may not be true.",
+    "Changing the prescribed wearing time is outside the nurse's role and reduces the brace's effectiveness.",
+    "Correct. Acknowledging body image concerns and problem-solving, such as choosing clothes that fit over the brace, respects the teen's developmental needs and promotes adherence."
+   ],
+   "takeaway": "Adolescents focus on body image and peer acceptance; acknowledge feelings and problem-solve to support adherence.",
+   "refs": [
+    "medline-children",
+    "openstax-psych"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-059",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse in an urgent care clinic assesses several children with injuries. For each finding, indicate whether it is consistent with a common accidental injury or is a red flag for possible maltreatment that needs further evaluation.",
+   "rows": [
+    "Bruises over both shins of an active 3-year-old",
+    "A bruise on the ear of a 3-month-old who cannot yet roll over",
+    "A bump on the forehead of a 13-month-old who is learning to walk",
+    "Loop-shaped marks across the back of a 5-year-old",
+    "A spiral fracture of the femur in a 4-month-old"
+   ],
+   "columns": [
+    "Consistent with accidental injury",
+    "Red flag for possible maltreatment"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Shins are a common site for accidental bruises in mobile children.",
+    "Any bruise on an infant who is not yet mobile, and bruising of the ear, are red flags.",
+    "Forehead bumps from falls are common in new walkers.",
+    "Patterned marks such as loops suggest being struck with a cord or belt.",
+    "Long-bone fractures in an infant who cannot walk are highly concerning for abuse."
+   ],
+   "takeaway": "Bruises in non-mobile infants, bruises on the ear, neck, or torso, patterned marks, and fractures in infants who cannot walk are red flags for maltreatment.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-060",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A nurse caring for a 4-year-old notices small round burns on the child's back the size of a cigarette tip. The parent says the child fell against a heater. A coworker suggests waiting for more proof before saying anything. What should the nurse do?",
+   "options": [
+    "Ask the parent directly whether someone at home burned the child.",
+    "Report the suspected abuse to child protective services as required by law and facility policy.",
+    "Document only the parent's explanation and continue to observe.",
+    "Tell the charge nurse and let the charge nurse decide whether to report."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Confronting the parent can put the child at risk and is not the nurse's role.",
+    "Correct. Nurses are mandated reporters; reasonable suspicion is enough, and the nurse must make sure the report is filed.",
+    "Waiting for proof delays protection, and the burns do not match the history given.",
+    "Notifying the charge nurse is appropriate, but the legal duty to report stays with the nurse who has the suspicion."
+   ],
+   "takeaway": "Mandated reporters must report reasonable suspicion of child maltreatment; proof is not required, and the duty cannot be handed off.",
+   "refs": [
+    "ana-ethics",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-061",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "During a well-child visit, the nurse screens the family of an 18-month-old for lead exposure. Which sources should the nurse identify as possible risks? Select all that apply.",
+   "options": [
+    "Living in a newly built home painted with latex paint",
+    "Drinking water from a home with old lead service pipes",
+    "Living in a house built before 1978 that is being renovated",
+    "Food stored in some imported glazed ceramic pottery",
+    "Cooking with stainless steel pots",
+    "A parent who works in battery recycling and wears work clothes home"
+   ],
+   "correct": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Lead paint was banned for homes in 1978; a new home with latex paint is not a risk.",
+    "Correct. Lead pipes can release lead into tap water.",
+    "Correct. Renovating older homes creates dust from lead-based paint.",
+    "Correct. Some glazes contain lead that can leach into food.",
+    "Stainless steel cookware is not a source of lead.",
+    "Correct. Lead dust can be carried home on clothing, shoes, and skin."
+   ],
+   "takeaway": "Lead exposure comes mainly from old paint dust (homes built before 1978), take-home work dust, some imported pottery and products, and old pipes.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-062",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A parent calls the pediatric clinic and says a 2-year-old swallowed a coin-sized button battery about 15 minutes ago. The child is breathing comfortably and playing. What should the nurse tell the parent?",
+   "options": [
+    "\"Take your child to the emergency department now for an x-ray, even though your child seems fine.\"",
+    "\"Make your child vomit to bring up the battery.\"",
+    "\"Watch the stools for the next few days to see if the battery passes.\"",
+    "\"Give a large glass of milk and call back if symptoms start.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A button battery lodged in the esophagus can burn through tissue within hours, so emergency imaging is needed even without symptoms.",
+    "Inducing vomiting is not recommended and can cause more injury.",
+    "Waiting could allow serious esophageal injury before the battery is located.",
+    "Waiting for symptoms delays treatment; injury can occur before any symptoms appear."
+   ],
+   "takeaway": "A swallowed button battery needs emergency evaluation and x-ray right away, even without symptoms; do not induce vomiting.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-063",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A parent calls the clinic and says a 3-year-old was found with an open bottle of a grandparent's blood pressure tablets. The child is awake and acting normally. What should the nurse tell the parent to do first?",
+   "options": [
+    "Give the child salt water to cause vomiting.",
+    "Call Poison Control at 1-800-222-1222 with the bottle in hand.",
+    "Watch the child at home and call back if the child becomes sleepy.",
+    "Buy activated charcoal at a pharmacy and give it to the child."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Inducing vomiting, especially with salt water, is dangerous and not recommended.",
+    "Correct. Poison Control gives expert, product-specific advice right away; having the bottle helps identify the drug and amount.",
+    "Some blood pressure drugs cause delayed, severe effects in small children; waiting for symptoms is unsafe.",
+    "Activated charcoal is given only when directed by Poison Control or a provider."
+   ],
+   "takeaway": "For a possible ingestion in an alert child, call Poison Control (1-800-222-1222) right away with the container; call 911 if the child is unresponsive, seizing, or not breathing.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-064",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 20-month-old is admitted to the pediatric unit with pneumonia. Which safety measures should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Move the child to an adult bed with the side rails raised",
+    "Check the identification band against the medication record before each dose",
+    "Let the child keep a latex balloon in the crib for comfort",
+    "Use a crib with a protective top if the child tries to climb out",
+    "Raise the crib side rails fully whenever stepping away, even briefly",
+    "Leave the side rail halfway down while turning to get supplies"
+   ],
+   "correct": [
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Toddlers can slip through or climb over adult bed rails; a crib is safer.",
+    "Correct. Two-identifier checks prevent medication errors, which is important because toddlers cannot state their names reliably.",
+    "Latex balloons are a leading cause of choking deaths in young children.",
+    "Correct. A crib top prevents falls in toddlers who climb.",
+    "Correct. Toddlers can fall from a crib in seconds if a rail is down.",
+    "A partly lowered rail is a fall risk; rails stay fully up when the nurse turns away."
+   ],
+   "takeaway": "Hospitalized toddlers need fully raised crib rails or a crib top, two-identifier checks, and no latex balloons or small objects.",
+   "refs": [
+    "tjc-npsg",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-065",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 5-year-old is being admitted for IV antibiotics. The parent says, \"He weighed 40 pounds at his last checkup.\" What should the nurse do before medications are prescribed?",
+   "options": [
+    "Record 40 lb in the chart because the parent's report is recent.",
+    "Convert 40 lb to kilograms and record it as the admission weight.",
+    "Weigh the child on a calibrated scale and record the weight in kilograms.",
+    "Estimate the weight from the child's age on a growth chart."
+   ],
+   "correct": 2,
+   "rationales": [
+    "A weight in pounds invites conversion errors, and a reported weight may be out of date.",
+    "Converting a reported weight still relies on an unverified number.",
+    "Correct. Weight-based dosing requires an actual measured weight recorded in kilograms only, which prevents pound-kilogram mix-ups.",
+    "An estimate is used only in emergencies when the child cannot be weighed."
+   ],
+   "takeaway": "Pediatric doses depend on an accurate measured weight recorded in kilograms only, which prevents twofold pound-kilogram dosing errors.",
+   "refs": [
+    "ismp-highalert",
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-066",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A child who weighs 18 kg (39.6 lb) has a fever. The prescription is acetaminophen 480 mg orally every 6 hours as needed. The pediatric drug reference lists 10 to 15 mg/kg/dose. What should the nurse do?",
+   "options": [
+    "Give the dose, because acetaminophen is safe for fever at this amount.",
+    "Give 270 mg, the highest safe dose, and document the change.",
+    "Give the dose and recheck the temperature in 1 hour.",
+    "Hold the dose and contact the prescriber to clarify the order."
+   ],
+   "correct": 3,
+   "rationales": [
+    "480 mg is nearly double the maximum dose and could cause liver injury with repeated doses.",
+    "The nurse cannot change a prescribed dose without a new order from the prescriber.",
+    "Giving an unsafe dose is a medication error regardless of the follow-up.",
+    "Correct. The safe range is 180 to 270 mg (18 kg × 10 to 15 mg/kg); 480 mg exceeds it, so the nurse holds the dose and clarifies the order."
+   ],
+   "takeaway": "Calculate the safe range for every pediatric dose; if the order is outside it, hold and clarify with the prescriber, and never change the dose yourself.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-067",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches the parent of a 2-year-old how to give liquid amoxicillin at home. Which statement by the parent shows correct understanding?",
+   "options": [
+    "\"I'll use a regular teaspoon from the kitchen drawer.\"",
+    "\"I'll measure each dose with the oral syringe from the pharmacy, using the mL markings.\"",
+    "\"I'll mix the whole day's medicine into a bottle of milk.\"",
+    "\"I'll use the measuring cup from my other child's cough medicine.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Kitchen spoons vary in size and cause dosing errors.",
+    "Correct. An oral syringe marked in milliliters gives an accurate dose.",
+    "If the child does not finish the bottle, the dose is incomplete.",
+    "Cups from other products may have different markings and lead to errors."
+   ],
+   "takeaway": "Measure children's liquid medicines in milliliters with an oral syringe or the device that comes with the medicine, never kitchen spoons.",
+   "refs": [
+    "ismp-highalert",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-068",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches the parent of a 7-year-old who weighs 23 kg (51 lb) and is 122 cm (4 ft) tall about car safety. Which statement by the parent shows understanding?",
+   "options": [
+    "\"My child can use the regular seat belt now because my child weighs more than 40 pounds.\"",
+    "\"My child can ride in the front seat if I move the seat all the way back.\"",
+    "\"The shoulder belt can go behind my child's back if it rubs the neck.\"",
+    "\"My child should ride in a booster seat in the back until the seat belt fits.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Weight alone does not decide when a seat belt fits; at 4 ft the belt will not fit correctly.",
+    "Children younger than 13 should ride in the back seat.",
+    "A shoulder belt behind the back gives no upper-body protection; a booster positions the belt properly.",
+    "Correct. School-age children use a booster until the lap belt fits across the upper thighs and the shoulder belt across the chest, usually at about 4 ft 9 in (145 cm)."
+   ],
+   "takeaway": "School-age children need a belt-positioning booster in the back seat until the seat belt fits, usually at about 4 ft 9 in tall, between 8 and 12 years.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-069",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches the parent of a 6-month-old about feeding during the first year. Which statements by the parent indicate understanding? Select all that apply.",
+   "options": [
+    "\"I'll put my baby to bed with a bottle of juice.\"",
+    "\"I'll offer iron-rich foods such as iron-fortified cereal or pureed meats.\"",
+    "\"Formula will stay my baby's main drink until 12 months.\"",
+    "\"I won't give honey until after my baby's first birthday.\"",
+    "\"I'll switch from formula to whole cow's milk when my baby turns 9 months old.\"",
+    "\"I'll mix rice cereal into the bottle so my baby sleeps longer.\""
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Bedtime bottles, especially juice, cause early childhood tooth decay.",
+    "Correct. Iron-rich foods are recommended starting around 6 months, when iron stores begin to fall.",
+    "Correct. Breast milk or formula remains the main drink through the first year.",
+    "Correct. Honey can contain botulism spores and is avoided before 12 months.",
+    "Cow's milk before 12 months is low in iron and can cause iron-deficiency anemia.",
+    "Cereal in a bottle increases choking risk and overfeeding and does not improve sleep; solids are spoon-fed."
+   ],
+   "takeaway": "Cow's milk should not replace breast milk or formula before 12 months, honey is avoided before 12 months, and solids are spoon-fed, never added to a bottle.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-070",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The parents of a 2-year-old admitted for IV antibiotics must leave for several hours each day. Which actions should the nurse take to reduce the child's separation distress? Select all that apply.",
+   "options": [
+    "Keep the child's home routines for naps, meals, and bedtime as much as possible",
+    "Encourage the parents to leave a favorite blanket or toy with the child",
+    "Advise the parents to leave while the child is asleep to avoid a scene",
+    "Suggest the parents say goodbye and tell the child when they'll be back, such as \"after your nap\"",
+    "Suggest the parents visit less often so the child gets used to being alone",
+    "Offer supervised play with familiar types of toys"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Routines and rituals give toddlers a sense of security.",
+    "Correct. Familiar objects comfort toddlers when parents are away.",
+    "Sneaking away damages trust and increases anxiety when the child wakes.",
+    "Correct. Honest goodbyes tied to familiar events build trust.",
+    "Less contact increases separation distress; family presence is encouraged.",
+    "Correct. Play helps toddlers cope and express feelings."
+   ],
+   "takeaway": "Reduce toddler separation anxiety with familiar objects, home routines, honest goodbyes, and play; never sneak away.",
+   "refs": [
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-071",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An 8-year-old is scheduled for elective surgery tomorrow. Which approaches should the nurse use to prepare the child? Select all that apply.",
+   "options": [
+    "Offer choices when possible, such as which arm to use for the blood pressure cuff",
+    "Let the child handle equipment such as an oxygen mask and blood pressure cuff",
+    "Explain in concrete, honest words what the child will see, hear, and feel",
+    "Tell the child that the surgery won't hurt at all",
+    "Avoid answering the child's questions so the child is not frightened",
+    "Use simple diagrams or a doll to show what will happen"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "rationales": [
+    "Correct. Choices support the school-age child's need for control.",
+    "Correct. Handling equipment makes it familiar and less frightening.",
+    "Correct. Accurate sensory information reduces fear of the unknown.",
+    "False promises damage trust when the child does feel pain.",
+    "Unanswered questions increase anxiety; honest answers at the child's level help.",
+    "Correct. School-age children think concretely and learn well from visual models."
+   ],
+   "takeaway": "Prepare school-age children with concrete explanations, hands-on equipment, and choices; never promise a procedure won't hurt.",
+   "refs": [
+    "medline-children",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-072",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "During a well-adolescent visit, a 15-year-old asks to speak with the nurse alone and says, \"Can you promise not to tell my parents what I'm about to say?\" Which response is best?",
+   "options": [
+    "\"I'll keep what you share private unless your safety or someone else's is at risk.\"",
+    "\"Yes, I promise everything you tell me stays between us.\"",
+    "\"No. Because you're a minor, your parents have a right to know everything about your health.\"",
+    "\"I can't talk with you alone. Let's wait until your parent comes back.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Adolescents should be offered confidential time, with the limits explained up front: safety concerns such as abuse or risk of harm must be shared.",
+    "An unconditional promise may have to be broken if the teen discloses abuse or a risk of harm.",
+    "Adolescents have a right to confidential care in many areas; this response discourages honest disclosure.",
+    "Private time with adolescents is recommended; refusing it blocks important disclosures."
+   ],
+   "takeaway": "Offer adolescents confidential time but explain its limits first: risk of harm to self or others or abuse must be shared.",
+   "refs": [
+    "medline-children",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-073",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse receives report on four children. Which child should the nurse assess first?",
+   "options": [
+    "A 6-year-old with sickle cell disease rating pain 6/10 who is due for an analgesic in 30 minutes",
+    "A 10-year-old with a new arm cast who reports itching under the cast",
+    "A 2-year-old with croup who has stridor at rest and suprasternal retractions",
+    "A 14-year-old with type 1 diabetes whose glucose is 240 mg/dL before lunch"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Pain needs attention soon, but the child is stable and the next dose is nearly due.",
+    "Itching under a cast is a comfort concern with no sign of circulatory compromise.",
+    "Correct. Stridor at rest with retractions shows significant upper airway obstruction, an airway problem that takes priority.",
+    "Mild hyperglycemia before a meal is managed with scheduled insulin and is not an emergency."
+   ],
+   "takeaway": "Stridor at rest with retractions signals significant upper airway obstruction and takes priority over stable pain, comfort, or glucose concerns.",
+   "refs": [
+    "ncsbn-testplan",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-074",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse on a pediatric unit is planning care with an unlicensed assistive personnel (UAP). Which task is appropriate to delegate to the UAP?",
+   "options": [
+    "Teaching the parents of a child newly diagnosed with diabetes how to give insulin",
+    "Assessing the neurovascular status of a child with a new cast",
+    "Weighing the diapers of an infant with gastroenteritis and recording the output",
+    "Performing the admission assessment of a child with suspected meningitis"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Teaching is a nursing responsibility that cannot be delegated to a UAP.",
+    "Assessment requires nursing judgment and cannot be delegated.",
+    "Correct. Measuring and recording output is a routine, standardized task within the UAP's role; the nurse interprets the results.",
+    "An admission assessment of an acutely ill child requires RN judgment."
+   ],
+   "takeaway": "UAPs can measure and record data such as diaper weights; assessment, teaching, and judgment remain with the RN.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:peds-075",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pediatrics",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "In a hospital playroom, a nurse finds a 10-month-old who is limp and not responding. Place the nurse's actions in the correct order.",
+   "options": [
+    "Give 2 breaths after every 30 compressions",
+    "Shout for help and activate the emergency response system",
+    "Check for breathing and a brachial pulse for no more than 10 seconds",
+    "Begin chest compressions at a rate of 100 to 120/min",
+    "Tap the infant's foot and shout to check for a response"
+   ],
+   "correct": [
+    4,
+    1,
+    2,
+    3,
+    0
+   ],
+   "rationales": [
+    "Fifth: a single rescuer uses a 30:2 compression-to-ventilation ratio for infants.",
+    "Second: call for help and resources, such as a code team and defibrillator, as soon as unresponsiveness is confirmed.",
+    "Third: decide whether CPR is needed, spending no more than 10 seconds.",
+    "Fourth: start high-quality compressions if there is no pulse or the infant is not breathing normally.",
+    "First: confirm that the infant is unresponsive."
+   ],
+   "takeaway": "Infant CPR: check responsiveness, call for help, check breathing and brachial pulse within 10 seconds, then begin compressions at 100 to 120/min.",
+   "refs": [
+    "aha-resuscitation",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

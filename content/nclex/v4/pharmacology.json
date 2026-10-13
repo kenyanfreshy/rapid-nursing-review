@@ -1,0 +1,2128 @@
+{
+ "topic": "pharmacology",
+ "questions": [
+  {
+   "id": "rnr:pharmacology-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with heart failure takes digoxin 0.125 mg and furosemide 40 mg daily. The client reports nausea, poor appetite and seeing yellow-green halos around lights. Which laboratory result best explains why this client is at increased risk for these findings?",
+   "options": [
+    "Serum potassium 3.0 mEq/L",
+    "Serum sodium 139 mEq/L",
+    "Blood glucose 104 mg/dL",
+    "Hemoglobin 13.2 g/dL"
+   ],
+   "rationales": [
+    "Correct. Low potassium, often caused by loop or thiazide diuretics, increases digoxin's effect on the heart and raises the risk of toxicity; nausea and visual halos are classic toxicity signs.",
+    "A sodium of 139 mEq/L is normal and does not increase the risk of digoxin toxicity.",
+    "A glucose of 104 mg/dL is close to normal and is not linked to digoxin toxicity.",
+    "This hemoglobin is within the normal range and does not affect digoxin action."
+   ],
+   "correct": 0,
+   "takeaway": "Hypokalemia from diuretics makes digoxin toxicity more likely, so check potassium whenever a client on digoxin has GI or visual changes.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with heart failure who has taken furosemide 40 mg twice daily for a week receives a first dose of lisinopril 5 mg at 0900. Which nursing action is most important during the next several hours?",
+   "rationales": [
+    "ACE inhibitors raise potassium; extra potassium-rich foods are not part of starting this drug and could add to hyperkalemia risk.",
+    "Correct. A first dose of an ACE inhibitor can cause marked hypotension, especially in a client who is volume-depleted from a diuretic; checking blood pressure and assisting with getting up prevents falls.",
+    "ACE-inhibitor cough develops over weeks to months and is not an acute safety concern after the first dose.",
+    "Severe fluid restriction would worsen volume depletion and the risk of first-dose hypotension."
+   ],
+   "correct": 1,
+   "takeaway": "First-dose hypotension is most likely when an ACE inhibitor is started in a client already taking a diuretic; monitor blood pressure and prevent falls.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Encourage bananas and orange juice with each meal",
+    "Check blood pressure regularly and assist the client when getting up",
+    "Monitor for a dry, nonproductive cough",
+    "Limit oral fluids to 500 mL for the rest of the day"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with heart failure takes lisinopril 20 mg and spironolactone 25 mg daily. For each finding at the follow-up visit, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "Blood pressure 118/74 mm Hg",
+    "Serum potassium 5.9 mEq/L",
+    "Serum creatinine 1.0 mg/dL, unchanged from baseline",
+    "New swelling of the tongue"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Expected. A controlled blood pressure is the intended effect of the ACE inhibitor.",
+    "Requires follow-up. Both drugs raise potassium; 5.9 mEq/L is high and can cause dangerous dysrhythmias.",
+    "Expected. Stable kidney function shows the drugs are being tolerated.",
+    "Requires follow-up. Tongue swelling suggests angioedema, an emergency."
+   ],
+   "takeaway": "An ACE inhibitor plus a potassium-sparing diuretic can cause hyperkalemia; monitor potassium and kidney function.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "Which client's new prescription for propranolol should the nurse question before giving the first dose?",
+   "options": [
+    "A client with asthma who used an albuterol inhaler twice this week for wheezing",
+    "A client with essential tremor whose heart rate is 82/min",
+    "A client with migraines whose blood pressure is 136/84 mm Hg",
+    "A client with hyperthyroidism whose heart rate is 112/min"
+   ],
+   "rationales": [
+    "Correct. Propranolol is a nonselective beta blocker; blocking beta-2 receptors in the airways can trigger bronchospasm in a client with active asthma.",
+    "Propranolol is used for essential tremor, and a heart rate of 82/min allows safe administration.",
+    "Propranolol is used to prevent migraines, and this blood pressure is not a reason to hold it.",
+    "Propranolol is used to control the rapid heart rate and tremor of hyperthyroidism."
+   ],
+   "correct": 0,
+   "takeaway": "Nonselective beta blockers such as propranolol can cause bronchospasm; question them for clients with asthma.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with heart failure with reduced ejection fraction is due for carvedilol 12.5 mg orally. Which findings should prompt the nurse to hold the dose and contact the provider? Select all that apply.",
+   "options": [
+    "Blood pressure 112/70 mm Hg",
+    "Apical heart rate 50/min",
+    "Serum potassium 4.2 mEq/L",
+    "Blood pressure 84/50 mm Hg with dizziness when sitting up",
+    "Apical heart rate 68/min",
+    "New wheezing and chest tightness"
+   ],
+   "correct": [
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "This blood pressure is adequate for giving a beta blocker.",
+    "Correct. Bradycardia below 60/min can worsen with another dose of a beta blocker.",
+    "A potassium of 4.2 mEq/L is normal and does not affect carvedilol administration.",
+    "Correct. Symptomatic hypotension can worsen because carvedilol also blocks alpha-1 receptors and lowers blood pressure.",
+    "A heart rate of 68/min is acceptable for giving the dose.",
+    "Correct. Carvedilol is nonselective; new bronchospasm needs to be reported before another dose."
+   ],
+   "takeaway": "Before a beta blocker, check apical pulse and blood pressure; hold for bradycardia, symptomatic hypotension or new bronchospasm.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is preparing discharge teaching for a client newly prescribed furosemide 40 mg orally once daily. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Take the dose at bedtime so it works overnight.",
+    "Take the dose in the morning.",
+    "Weigh yourself each morning on the same scale and record the weight.",
+    "Avoid foods high in potassium, such as bananas and potatoes.",
+    "Change positions slowly, especially when getting out of bed.",
+    "Report leg cramps or unusual muscle weakness."
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "A bedtime dose causes nighttime urination, broken sleep and a higher fall risk.",
+    "Correct. A morning dose lets the diuresis happen during the day.",
+    "Correct. Daily weights are the best home measure of fluid gain or loss.",
+    "Furosemide causes potassium loss; potassium-rich foods are usually encouraged, not avoided.",
+    "Correct. Volume loss can cause orthostatic hypotension and falls.",
+    "Correct. Cramps and weakness can signal hypokalemia from potassium loss."
+   ],
+   "takeaway": "Loop diuretics: morning dosing, daily weights, slow position changes, and watch for hypokalemia.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with heart failure is started on spironolactone 25 mg daily. Which statement by the client indicates a need for further teaching?",
+   "options": [
+    "\"I'll keep my appointment to have my potassium level checked.\"",
+    "\"I'll tell my provider if I notice breast tenderness or swelling.\"",
+    "\"I'll ask the pharmacist before taking any new over-the-counter product.\"",
+    "\"I'll switch to a salt substitute so my food still has flavor.\""
+   ],
+   "rationales": [
+    "Potassium monitoring is needed with spironolactone, so this shows understanding.",
+    "Gynecomastia and breast tenderness are known adverse effects to report, so this shows understanding.",
+    "Some OTC products (such as NSAIDs or potassium supplements) raise potassium or interact, so this shows understanding.",
+    "Correct. Most salt substitutes are potassium chloride; with a potassium-sparing diuretic they can cause dangerous hyperkalemia."
+   ],
+   "correct": 3,
+   "takeaway": "Clients on spironolactone should avoid potassium-based salt substitutes and potassium supplements unless prescribed.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who takes warfarin for atrial fibrillation has an INR of 8.9, bleeding gums and several new bruises. Vital signs are stable, and there is no sign of major bleeding. Which medication should the nurse anticipate?",
+   "options": [
+    "Phytonadione (vitamin K)",
+    "Protamine sulfate",
+    "Idarucizumab",
+    "Naloxone"
+   ],
+   "rationales": [
+    "Correct. Vitamin K restores production of the clotting factors that warfarin blocks and is used to lower a high INR.",
+    "Protamine reverses heparin, not warfarin.",
+    "Idarucizumab reverses dabigatran, a direct thrombin inhibitor.",
+    "Naloxone reverses opioids and has no effect on anticoagulation."
+   ],
+   "correct": 0,
+   "takeaway": "Warfarin is reversed with vitamin K (plus 4-factor PCC for major bleeding); protamine is for heparin.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client who had knee replacement surgery with spinal anesthesia and an epidural catheter is receiving enoxaparin 40 mg subcutaneously daily. Twelve hours after the epidural catheter was removed, the client reports new numbness and weakness in both legs and back pain. What should the nurse do?",
+   "rationales": [
+    "Waiting an hour can allow permanent cord damage; new neurologic deficits need immediate reporting.",
+    "Another anticoagulant dose could enlarge a bleed; the finding must be reported, not just documented.",
+    "Heat does not address the cause and delays urgent evaluation.",
+    "Correct. Low-molecular-weight heparins carry a boxed warning for spinal or epidural hematoma after neuraxial anesthesia or catheter removal; new leg numbness, weakness or back pain needs emergency evaluation to prevent permanent paralysis."
+   ],
+   "correct": 3,
+   "takeaway": "After neuraxial anesthesia, a client on enoxaparin with new back pain, leg weakness or numbness may have a spinal hematoma; report it immediately.",
+   "refs": [
+    "dailymed",
+    "openstax-pharm"
+   ],
+   "options": [
+    "Reposition the client and reassess leg sensation in 1 hour",
+    "Give the next enoxaparin dose on time and document the finding",
+    "Apply a warm pack to the lower back for comfort",
+    "Notify the provider immediately about a possible spinal hematoma"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching a client how to give insulin with a prefilled insulin pen. Place the steps in the correct order.",
+   "options": [
+    "Dial the prescribed dose.",
+    "Press the button fully and keep the needle in place for the count in the pen's instructions.",
+    "Wipe the pen's rubber seal with alcohol and attach a new pen needle.",
+    "Insert the needle at a 90-degree angle into clean skin of the abdomen.",
+    "Dial 2 units and press the button with the needle pointing up to prime the pen."
+   ],
+   "correct": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "rationales": [
+    "Third: the dose is dialed only after priming.",
+    "Last: holding the needle in place after pressing the button keeps insulin from leaking out.",
+    "First: a new needle on a clean seal prevents contamination.",
+    "Fourth: a 90-degree angle with a short pen needle reaches subcutaneous tissue.",
+    "Second: priming removes air and confirms insulin flows, so the full dose is given."
+   ],
+   "takeaway": "Insulin pen: new needle, prime 2 units, dial the dose, inject, then hold before removing the needle.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is being discharged on warfarin after a deep vein thrombosis. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Take ibuprofen for minor aches and pains.",
+    "Keep all scheduled INR blood tests.",
+    "Use a soft toothbrush and an electric razor.",
+    "If you miss a dose, take two doses the next day.",
+    "Check with your provider or pharmacist before starting any new medicine or supplement.",
+    "Report black or tarry stools, blood in the urine or unusual bruising."
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "NSAIDs such as ibuprofen increase bleeding risk with warfarin.",
+    "Correct. INR testing guides dosing and keeps the client in the therapeutic range.",
+    "Correct. These reduce the risk of bleeding from the gums and skin.",
+    "Doubling a dose can raise the INR and cause bleeding; the client should follow the provider's instructions for a missed dose.",
+    "Correct. Many drugs and supplements change warfarin's effect.",
+    "Correct. These are signs of bleeding that need prompt evaluation."
+   ],
+   "takeaway": "Warfarin teaching: regular INR checks, bleeding precautions, no NSAIDs or new supplements without checking, and report bleeding.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client tells the nurse that they drink a large glass of grapefruit juice every morning. Which medications on the client's list have a clinically important interaction with grapefruit that the nurse should report to the provider or pharmacist? Select all that apply.",
+   "options": [
+    "Simvastatin",
+    "Metformin",
+    "Felodipine",
+    "Amoxicillin",
+    "Amiodarone",
+    "Acetaminophen"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Grapefruit blocks the enzyme that breaks down simvastatin, raising levels and the risk of muscle injury.",
+    "Metformin is not metabolized by this enzyme and has no important grapefruit interaction.",
+    "Correct. Grapefruit raises felodipine levels and can cause hypotension, flushing and headache.",
+    "Amoxicillin does not have a clinically important grapefruit interaction.",
+    "Correct. Grapefruit raises amiodarone levels, increasing the risk of toxicity and dysrhythmias.",
+    "Acetaminophen does not have a clinically important grapefruit interaction."
+   ],
+   "takeaway": "Grapefruit inhibits intestinal CYP3A4 and can raise levels of drugs such as simvastatin, felodipine and amiodarone.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with diabetic ketoacidosis is to start a continuous IV insulin infusion. Which insulin should the nurse expect to be used in the infusion?",
+   "options": [
+    "Insulin glargine",
+    "Regular insulin",
+    "NPH insulin",
+    "Insulin detemir"
+   ],
+   "rationales": [
+    "Glargine is a long-acting basal insulin given only subcutaneously.",
+    "Correct. Regular insulin is the insulin used for continuous IV infusions.",
+    "NPH is an intermediate-acting suspension and must never be given IV.",
+    "Detemir is a long-acting basal insulin given only subcutaneously."
+   ],
+   "correct": 1,
+   "takeaway": "Regular insulin is the insulin used for IV infusions; cloudy and long-acting insulins are subcutaneous only.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client receives NPH insulin 18 units subcutaneously at 0730 and eats breakfast at 0800. At which time is the client at greatest risk for hypoglycemia from this dose?",
+   "options": [
+    "Around 0800, during breakfast",
+    "Around 2300, at bedtime",
+    "Midafternoon, around 1500",
+    "Around 0700 the next morning"
+   ],
+   "rationales": [
+    "NPH begins acting 1 to 2 hours after injection, so a low at 0800 would not come from this dose.",
+    "By 2300 (more than 15 hours later) the peak effect of the morning NPH dose has passed.",
+    "Correct. NPH peaks about 4 to 12 hours after injection, so the midafternoon is the highest-risk time for this dose.",
+    "The morning dose's effect is mostly gone by the next morning."
+   ],
+   "correct": 2,
+   "takeaway": "NPH insulin peaks 4 to 12 hours after injection; watch for hypoglycemia in the afternoon after a morning dose.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with type 1 diabetes uses insulin glargine at bedtime and insulin lispro with meals. For each client statement, indicate whether it shows understanding or needs further teaching.",
+   "rows": [
+    "\"I take my lispro when my meal is in front of me.\"",
+    "\"If I skip lunch, I still take my usual lunchtime lispro dose.\"",
+    "\"I take my glargine at about the same time every night.\"",
+    "\"If my glucose is low at bedtime, I'll skip the glargine without telling anyone.\""
+   ],
+   "columns": [
+    "Indicates understanding",
+    "Needs further teaching"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Indicates understanding. Rapid-acting lispro starts working within about 15 minutes, so it is given close to eating.",
+    "Needs further teaching. Mealtime insulin without the meal can cause hypoglycemia.",
+    "Indicates understanding. Basal insulin such as glargine is taken at a consistent time each day to give steady background coverage.",
+    "Needs further teaching. The low glucose should be treated, and the provider contacted about the basal dose; skipping basal insulin in type 1 diabetes risks ketoacidosis."
+   ],
+   "takeaway": "Rapid-acting insulin is matched to meals; basal insulin such as glargine is not mixed and not skipped without guidance.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is giving a compatible IV push medication through a client's peripheral saline lock. Place the steps in the correct order.",
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Third: the drug is given at the recommended rate, because pushing many IV drugs too fast can cause serious adverse effects.",
+    "First: scrubbing the connector and letting it dry prevents bacteria from entering the line.",
+    "Last: the final flush clears the drug from the catheter at the same rate, so the remaining dose is not pushed in as a bolus.",
+    "Second: a saline flush with no resistance, swelling or pain confirms the catheter is in the vein before the drug is given."
+   ],
+   "takeaway": "IV push through a saline lock: scrub the hub, flush to check patency, push the drug at the recommended rate, then flush at the same rate.",
+   "refs": [
+    "openstax-fund",
+    "openstax-pharm"
+   ],
+   "options": [
+    "Inject the medication at the rate recommended in the drug reference, timing it with a watch.",
+    "Scrub the needleless connector with an antiseptic pad and let it dry.",
+    "Flush with 0.9% sodium chloride at the same rate as the medication was given.",
+    "Flush with 0.9% sodium chloride to confirm the catheter is patent, watching the site for swelling or pain."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with type 2 diabetes and an eGFR of 42 mL/min/1.73 m² had metformin held for a CT scan with IV iodinated contrast. Before the next metformin dose is given 48 hours after the scan, which finding should the nurse confirm?",
+   "options": [
+    "Kidney function is stable compared with baseline",
+    "Hemoglobin A1c is below 7%",
+    "Serum amylase is within normal limits",
+    "The client has had a bowel movement"
+   ],
+   "rationales": [
+    "Correct. Contrast can cause acute kidney injury, and metformin builds up when kidneys fail, raising the risk of lactic acidosis; kidney function is rechecked before restarting.",
+    "A1c reflects 3 months of glucose control and does not show whether metformin is safe to restart.",
+    "Amylase reflects the pancreas, not the risk of metformin accumulation.",
+    "Bowel function does not affect the decision to restart metformin."
+   ],
+   "correct": 0,
+   "takeaway": "Metformin is restarted after contrast only when kidney function is confirmed stable, to prevent lactic acidosis.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 78-year-old client takes glipizide 10 mg every morning. The client is NPO after midnight for a colonoscopy at 1000 tomorrow. Which plan should the nurse expect for the morning glipizide dose?",
+   "options": [
+    "Give the full dose with a sip of water at 0600",
+    "Hold the dose until the client can eat after the procedure",
+    "Give half the dose at 0600 and half at noon",
+    "Give the dose and offer clear juice until the procedure"
+   ],
+   "rationales": [
+    "A full dose without food puts the client at risk for hypoglycemia.",
+    "Correct. Glipizide stimulates insulin release regardless of food intake, so giving it while NPO can cause hypoglycemia, especially in an older adult.",
+    "Splitting the dose still lowers glucose while the client is not eating.",
+    "Juice may not be allowed before the procedure and does not reliably prevent a sulfonylurea low."
+   ],
+   "correct": 1,
+   "takeaway": "Sulfonylureas cause hypoglycemia when clients are not eating; expect them to be held while NPO.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a duodenal ulcer is prescribed sucralfate 1 g four times daily. The client also takes levothyroxine and an antacid. Which statement by the client indicates understanding of the teaching?",
+   "rationales": [
+    "Sucralfate works best on an empty stomach, before food enters, so after-meal dosing is not recommended.",
+    "Antacids should be separated from sucralfate by about 30 minutes because they interfere with how it binds to the ulcer.",
+    "Correct. Sucralfate forms a protective barrier over the ulcer and works best on an empty stomach, 1 hour before meals and at bedtime.",
+    "Sucralfate binds many drugs, including levothyroxine, in the gut; other drugs are separated from it by about 2 hours."
+   ],
+   "correct": 2,
+   "takeaway": "Sucralfate: take on an empty stomach (1 hour before meals and at bedtime), separate antacids by 30 minutes and other drugs by about 2 hours.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "\"I'll take the sucralfate right after each meal so it coats my stomach.\"",
+    "\"I'll take my antacid at the same time as the sucralfate so I don't forget it.\"",
+    "\"I'll take the sucralfate 1 hour before meals and at bedtime.\"",
+    "\"I'll take my levothyroxine together with the sucralfate every morning.\""
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with rheumatoid arthritis will take prednisone 10 mg daily long term. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Expect to lose weight while taking this medication.",
+    "Take the dose in the morning with food.",
+    "Report fever, sore throat or other signs of infection, even if mild.",
+    "Stop the medication if you develop a cold.",
+    "Do weight-bearing exercise and get enough calcium and vitamin D.",
+    "Carry identification stating that you take a corticosteroid."
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Corticosteroids commonly cause increased appetite and weight gain, not loss.",
+    "Correct. Morning dosing matches the natural cortisol rhythm, and food reduces stomach irritation.",
+    "Correct. Steroids suppress immunity and can mask fever and inflammation, so mild signs matter.",
+    "Stopping abruptly can cause adrenal crisis; illness may even require a higher dose.",
+    "Correct. Long-term steroids cause bone loss; exercise, calcium and vitamin D help protect bone.",
+    "Correct. In an emergency, responders need to know the client may need stress-dose steroids."
+   ],
+   "takeaway": "Long-term corticosteroids: morning dose with food, infection watch, bone protection, ID card, never stop abruptly.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "Six weeks after a client's levothyroxine dose was increased, the client calls the clinic. Which reports suggest the dose may now be too high? Select all that apply.",
+   "options": [
+    "Racing heartbeat",
+    "Feeling cold all the time",
+    "Trouble sleeping",
+    "Constipation",
+    "Unplanned weight loss",
+    "Heat intolerance and sweating"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Tachycardia and palpitations are signs of excess thyroid hormone.",
+    "Cold intolerance suggests the dose is still too low.",
+    "Correct. Insomnia and nervousness suggest excess thyroid hormone.",
+    "Constipation is a sign of hypothyroidism, suggesting too little hormone.",
+    "Correct. Increased metabolism from excess hormone causes weight loss.",
+    "Correct. Heat intolerance and sweating reflect a hypermetabolic state."
+   ],
+   "takeaway": "Levothyroxine overdose looks like hyperthyroidism: tachycardia, insomnia, weight loss and heat intolerance.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client has taken levothyroxine 100 mcg each morning for a year with a normal TSH. Three months ago the client began taking calcium carbonate with the levothyroxine at breakfast. Today the TSH is elevated. What is the most likely explanation?",
+   "options": [
+    "Calcium is causing the client to develop hyperthyroidism",
+    "Morning dosing has lowered the drug's effect over time",
+    "The thyroid gland has recovered and needs less hormone",
+    "Calcium is reducing levothyroxine absorption from the gut"
+   ],
+   "rationales": [
+    "A rising TSH indicates too little thyroid hormone, not hyperthyroidism.",
+    "Taking levothyroxine in the morning on an empty stomach is the recommended timing.",
+    "If less hormone were needed, TSH would fall, not rise.",
+    "Correct. Calcium (and iron and antacids) binds levothyroxine in the gut; taking them together lowers absorption, so TSH rises. They should be separated by about 4 hours."
+   ],
+   "correct": 3,
+   "takeaway": "Separate levothyroxine from calcium, iron and antacids by about 4 hours; a rising TSH can signal poor absorption.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client has received IV tobramycin for 6 days for a Pseudomonas infection. Which finding should the nurse report to the provider promptly?",
+   "options": [
+    "Serum creatinine increased from 0.9 to 1.8 mg/dL",
+    "Urine output of 1,600 mL in 24 hours",
+    "White blood cell count fell from 16,000 to 9,000/mm³",
+    "Trough level reported within the target range"
+   ],
+   "rationales": [
+    "Correct. Aminoglycosides are nephrotoxic; a doubling of creatinine suggests kidney injury and the dose or drug may need to change.",
+    "This urine output is adequate and does not suggest kidney injury.",
+    "A falling WBC count toward normal suggests the infection is responding.",
+    "A trough in the target range is the desired result."
+   ],
+   "correct": 0,
+   "takeaway": "Aminoglycosides can injure the kidneys and inner ear; trend creatinine and report a rise promptly.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client has a nasogastric feeding tube and a peripheral IV line. The nurse is preparing a liquid medication to give through the feeding tube. Which actions reduce the risk of giving the drug by the wrong route? Select all that apply.",
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Enteral syringes have connectors that do not fit IV ports, which physically prevents an IV wrong-route error.",
+    "A syringe that fits IV ports makes it possible to inject an enteral liquid into the vein, which can be fatal.",
+    "Correct. A clear label identifies the drug and route for anyone who handles the syringe.",
+    "Correct. Tracing lines to their origin before every connection prevents tubing misconnections.",
+    "Unlabeled syringes left at the bedside can be confused with IV flushes or other drugs.",
+    "Connecting to whichever port is nearest is how tubing misconnections happen."
+   ],
+   "takeaway": "Prevent wrong-route errors: enteral-only syringes, labeled doses, and tracing every line to its source before connecting.",
+   "refs": [
+    "openstax-fund",
+    "openstax-pharm"
+   ],
+   "options": [
+    "Draw up the dose in an enteral (oral) syringe that cannot connect to IV ports.",
+    "Use a standard IV syringe, because its markings are more precise.",
+    "Label the prepared syringe with the drug, dose and \"for enteral use only.\"",
+    "Trace the tubing from the client back to its source before connecting the syringe.",
+    "Prepare all of the client's liquid doses early and leave them unlabeled at the bedside.",
+    "Connect the syringe to the first port that is within reach."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "Ten minutes after the first dose of IV piperacillin-tazobactam is started, a client reports throat tightness and itching. The client has hives on the chest, wheezing and a blood pressure of 84/50 mm Hg. What should the nurse do first?",
+   "options": [
+    "Slow the infusion rate by half and recheck vital signs",
+    "Give oral diphenhydramine and continue the infusion",
+    "Stop the piperacillin-tazobactam infusion",
+    "Call the pharmacy to report a possible allergic reaction"
+   ],
+   "rationales": [
+    "Any further drug worsens anaphylaxis, so slowing the rate is not enough.",
+    "Antihistamines do not treat airway swelling or shock, and the infusion must be stopped.",
+    "Correct. These are signs of anaphylaxis; stopping the drug that caused it comes first, followed by epinephrine, airway support and calling for help.",
+    "Reporting is done later; the client needs emergency care now."
+   ],
+   "correct": 2,
+   "takeaway": "Suspected anaphylaxis during an infusion: stop the drug first, then epinephrine IM and airway support.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client receiving IV morphine after surgery reports itching of the face and nose. The skin has no hives or rash, breathing is unlabored, SpO₂ is 97% on room air, and vital signs are unchanged from baseline. How should the nurse interpret these findings?",
+   "rationales": [
+    "Anaphylaxis involves hives, airway swelling, wheezing or hypotension, none of which are present.",
+    "Correct. Itching, often of the face and nose, is a common opioid side effect (partly from histamine release) and is not a true allergy; the nurse reports it so it can be treated.",
+    "Respiratory depression shows as sedation and slow, shallow breathing, not itching with normal breathing.",
+    "Itching does not reflect pain control."
+   ],
+   "correct": 1,
+   "takeaway": "Opioid itching without hives, wheezing or hypotension is a common side effect, not an allergy; report it for treatment.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "options": [
+    "An anaphylactic reaction that needs epinephrine",
+    "A common, nonallergic side effect of the opioid",
+    "Early opioid-induced respiratory depression",
+    "A sign that the dose is too low to control pain"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who takes high-dose opioids for chronic pain is prescribed naloxone 4 mg nasal spray to keep at home. The nurse is teaching the client's partner. Which instruction is correct?",
+   "rationales": [
+    "Naloxone should be given as soon as an overdose is suspected, such as when the client cannot be awakened or breathing is very slow; waiting risks brain injury.",
+    "Emergency help is still needed because naloxone can wear off before the opioid does, and breathing problems can return.",
+    "The nasal spray is a single-use device that is not primed; spraying it into the air wastes the dose.",
+    "Correct. If the client does not respond, or responds and then becomes sedated again, another dose is given every 2 to 3 minutes, alternating nostrils, while waiting for emergency help."
+   ],
+   "correct": 3,
+   "takeaway": "Home naloxone: give it when overdose is suspected, call 911, and repeat in the other nostril every 2 to 3 minutes if there is no response.",
+   "refs": [
+    "dailymed",
+    "openstax-pharm"
+   ],
+   "options": [
+    "Wait to give the spray until the client has completely stopped breathing",
+    "If the client wakes up after the spray, there is no need to call 911",
+    "Prime the device by spraying it once into the air before use",
+    "If there is no response in 2 to 3 minutes, give a second dose in the other nostril"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a client about over-the-counter acetaminophen for osteoarthritis pain. Which client statements indicate understanding? Select all that apply.",
+   "options": [
+    "\"I'll check cold and flu products for acetaminophen before I take them.\"",
+    "\"Extra-strength tablets are safe every 2 hours if my pain is bad.\"",
+    "\"I'll stay under the maximum daily amount my provider gave me.\"",
+    "\"I'll tell my provider that I usually have three or more alcoholic drinks a day.\"",
+    "\"Because it's sold without a prescription, I can't overdose on it.\""
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Many combination products contain acetaminophen, which can lead to accidental overdose.",
+    "Dosing every 2 hours can quickly exceed the safe daily maximum and injure the liver.",
+    "Correct. Staying under the daily limit (commonly no more than 4 g for healthy adults, often less) prevents liver injury.",
+    "Correct. Regular alcohol use raises the risk of liver injury, and the provider may set a lower limit.",
+    "Acetaminophen overdose is a leading cause of acute liver failure."
+   ],
+   "takeaway": "Acetaminophen: count every source, respect the daily maximum, and tell the provider about regular alcohol use.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews the records of clients who take ibuprofen regularly. Which factors increase a client's risk of gastrointestinal bleeding from this medication? Select all that apply.",
+   "options": [
+    "Age 72",
+    "Concurrent warfarin therapy",
+    "Taking acetaminophen as needed for headache",
+    "History of a peptic ulcer",
+    "Concurrent daily prednisone",
+    "Taking a daily multivitamin"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Older age is a major risk factor for NSAID-related ulcers and bleeding.",
+    "Correct. Anticoagulants make any NSAID-related bleeding more severe.",
+    "Acetaminophen does not irritate the stomach lining or affect platelets.",
+    "Correct. A prior ulcer greatly raises the risk of another bleed.",
+    "Correct. Corticosteroids with NSAIDs increase the risk of ulcers.",
+    "A multivitamin does not increase the risk of GI bleeding."
+   ],
+   "takeaway": "NSAID GI-bleed risk rises with older age, prior ulcer, anticoagulants and corticosteroids.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 16-year-old client has taken phenytoin for 1 year and has swollen gums that are growing over the teeth. Which instruction should the nurse give?",
+   "options": [
+    "Brush with a soft toothbrush, floss daily and keep regular dental visits",
+    "Stop taking phenytoin until the gums have healed",
+    "Use a firm-bristled toothbrush to toughen the gum tissue",
+    "Avoid brushing near the gumline to prevent bleeding"
+   ],
+   "rationales": [
+    "Correct. Good oral hygiene and professional dental care reduce gingival overgrowth caused by phenytoin.",
+    "Stopping an antiepileptic suddenly can cause seizures; the provider decides on any change.",
+    "Firm bristles injure overgrown gum tissue.",
+    "Avoiding the gumline lets plaque build up and worsens overgrowth."
+   ],
+   "correct": 0,
+   "takeaway": "Phenytoin causes gingival hyperplasia; teach careful oral hygiene and regular dental care.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who takes phenytoin 100 mg three times daily has had two seizures this week. The serum phenytoin level is 6 mcg/mL, and serum albumin is normal. Which action by the nurse is most appropriate?",
+   "options": [
+    "Hold the next dose because the level is in the toxic range",
+    "Tell the client the level is therapeutic and the seizures are unrelated",
+    "Advise the client to take an extra dose tonight to raise the level",
+    "Ask how the client has been taking the medication, including missed doses"
+   ],
+   "rationales": [
+    "Toxicity occurs above 20 mcg/mL; 6 mcg/mL is low.",
+    "The level is below the usual therapeutic range and likely explains the seizures.",
+    "The nurse does not change the dose; the provider decides how to adjust it.",
+    "Correct. The usual therapeutic range is 10 to 20 mcg/mL; a low level with breakthrough seizures often reflects missed doses, so the nurse assesses adherence and reports the result."
+   ],
+   "correct": 3,
+   "takeaway": "Phenytoin therapeutic range is about 10 to 20 mcg/mL; low levels with seizures prompt an adherence check.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is starting levetiracetam for a new seizure disorder. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Double the next dose if you miss one.",
+    "Do not stop the medication suddenly, even if you have no seizures.",
+    "Report new depression, anxiety or thoughts of self-harm right away.",
+    "Stop the medication once you have been seizure-free for 1 month.",
+    "Do not drive until your provider says it is safe and state rules allow it.",
+    "Wear a medical alert bracelet that lists your seizure disorder."
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Doubling doses increases adverse effects; the client follows the provider's missed-dose instructions.",
+    "Correct. Abrupt withdrawal can trigger seizures, including status epilepticus.",
+    "Correct. Antiepileptic drugs carry a warning about mood changes and suicidal thoughts.",
+    "Only the provider decides when to taper; stopping early risks seizures.",
+    "Correct. Driving restrictions protect the client and others until seizures are controlled.",
+    "Correct. A medical alert helps responders give the right care during a seizure."
+   ],
+   "takeaway": "Antiepileptic teaching: never stop abruptly, report mood changes, follow driving rules and wear medical ID.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An 84-year-old client is admitted with new confusion after a fall at home. The nurse reviews the home medication list. Which medications have strong anticholinergic effects that could contribute to these problems? Select all that apply.",
+   "options": [
+    "Diphenhydramine 50 mg at bedtime for sleep",
+    "Acetaminophen 650 mg every 6 hours as needed",
+    "Oxybutynin 5 mg twice daily for overactive bladder",
+    "Lisinopril 10 mg daily",
+    "Amitriptyline 25 mg at bedtime for nerve pain",
+    "Atorvastatin 20 mg daily"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Diphenhydramine is strongly anticholinergic and is a common cause of confusion and falls in older adults.",
+    "Acetaminophen has no anticholinergic effects.",
+    "Correct. Oxybutynin is anticholinergic and can cause confusion in older adults.",
+    "Lisinopril is not anticholinergic, although it can cause dizziness.",
+    "Correct. Tricyclic antidepressants such as amitriptyline are strongly anticholinergic and sedating.",
+    "Atorvastatin is not anticholinergic."
+   ],
+   "takeaway": "Anticholinergic drugs (diphenhydramine, oxybutynin, tricyclics) are a common, reversible cause of confusion and falls in older adults.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg",
+    "ags-beers"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 79-year-old client recently started a medication with strong anticholinergic effects. For each finding, indicate whether it is consistent with an anticholinergic effect.",
+   "rows": [
+    "Dry mouth",
+    "Urinary retention",
+    "Heart rate 52/min",
+    "Diarrhea",
+    "Blurred near vision"
+   ],
+   "columns": [
+    "Anticholinergic effect",
+    "Not an anticholinergic effect"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Anticholinergic effect. Blocking acetylcholine reduces saliva.",
+    "Anticholinergic effect. Reduced bladder contraction causes retention, especially with an enlarged prostate.",
+    "Not an anticholinergic effect. Anticholinergics tend to increase heart rate, not slow it.",
+    "Not an anticholinergic effect. Anticholinergics slow the gut and cause constipation.",
+    "Anticholinergic effect. Pupil dilation and loss of accommodation blur near vision."
+   ],
+   "takeaway": "Anticholinergic effects: dry mouth, retention, constipation, blurred vision, tachycardia and confusion.",
+   "refs": [
+    "openstax-pharm",
+    "ags-beers"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is starting a continuous IV insulin infusion for a client with hyperglycemia. Which action best reduces the risk of a dosing error?",
+   "options": [
+    "Program the pump outside the drug library so rates can be changed quickly",
+    "Have a second nurse independently verify the prescription, concentration and pump settings",
+    "Calculate the rate once and copy it forward for the next shift to reuse",
+    "Ask the unlicensed assistive personnel to watch the pump display"
+   ],
+   "rationales": [
+    "Bypassing the drug library removes dose-limit alerts that prevent errors.",
+    "Correct. IV insulin is a high-alert medication; an independent double-check of the drug, concentration, dose, rate and client catches errors before they reach the client.",
+    "Each rate change needs a fresh check against current glucose and the protocol.",
+    "UAP cannot verify medication settings; this is an RN responsibility."
+   ],
+   "correct": 1,
+   "takeaway": "High-alert IV infusions such as insulin need independent double-checks and smart-pump drug libraries.",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "While restocking the medication room, the nurse finds a vial of concentrated potassium chloride (2 mEq/mL) mixed in with vials of 0.9% sodium chloride flush. What should the nurse do?",
+   "options": [
+    "Move the vial to a separate shelf and add a warning label",
+    "Leave the vial in place because it may be needed for replacement",
+    "Remove the vial, return it to pharmacy and file a safety report",
+    "Discard the vial in the sharps container and tell no one"
+   ],
+   "rationales": [
+    "Concentrated potassium should not be kept in unit stock at all, even with a label.",
+    "Premixed potassium solutions from pharmacy are used instead of unit vials.",
+    "Correct. Concentrated potassium should not be stocked on patient-care units; mistaking it for a flush can cause fatal cardiac arrest. Reporting allows the system problem to be fixed.",
+    "Discarding without reporting hides a system problem that could recur."
+   ],
+   "correct": 2,
+   "takeaway": "Concentrated potassium chloride vials do not belong in unit stock; remove them and report the event.",
+   "refs": [
+    "ismp-highalert",
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "Before giving medications, which actions correctly verify the client's identity? Select all that apply.",
+   "options": [
+    "Ask the client to state their full name and date of birth.",
+    "Check the room and bed number on the assignment sheet.",
+    "Compare the name and medical record number on the wristband with the MAR.",
+    "Ask, \"Are you Mr. Lopez?\" and wait for a nod.",
+    "Scan the barcode on the client's wristband.",
+    "Confirm identity using the name card on the door."
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. An open-ended request for two identifiers is reliable.",
+    "Room and bed numbers are never acceptable identifiers; clients move.",
+    "Correct. Matching two identifiers on the band to the MAR confirms the right client.",
+    "A yes/no question can get a wrong answer from a client who is confused or hard of hearing.",
+    "Correct. Barcode scanning matches the band to the MAR and adds a check.",
+    "Door signs are location-based and not acceptable identifiers."
+   ],
+   "takeaway": "Use at least two client-specific identifiers (such as name and date of birth), never a room number.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is prescribed hydroxyzine 25 mg orally for itching. The automated dispensing cabinet drawer contains tablets labeled hydralazine 25 mg. What should the nurse do?",
+   "options": [
+    "Withhold the tablet and notify pharmacy of the look-alike name error",
+    "Give the tablet because the strength matches the prescription",
+    "Give the tablet because both drugs relieve itching",
+    "Ask the client which tablet they usually take at home"
+   ],
+   "rationales": [
+    "Correct. Hydralazine is an antihypertensive, not an antihistamine; the look-alike names caused a stocking error that must be fixed and reported.",
+    "A matching strength does not make it the right drug.",
+    "Hydralazine lowers blood pressure and does not treat itching.",
+    "The client cannot verify a drug that differs from the prescription; the nurse must resolve the error."
+   ],
+   "correct": 0,
+   "takeaway": "Compare the drug name on the label to the prescription every time; look-alike names cause serious errors.",
+   "refs": [
+    "ismp-highalert",
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client going home after surgery will have 10 leftover oxycodone tablets once the pain resolves. The client asks how to get rid of them. Which response is best?",
+   "options": [
+    "Keep them in the medicine cabinet in case the pain comes back next year",
+    "Take them to a drug take-back site, such as a pharmacy collection kiosk",
+    "Give them to a family member who has back pain",
+    "Throw the loose tablets into the household trash"
+   ],
+   "rationales": [
+    "Keeping leftover opioids increases the risk of misuse, theft and accidental ingestion.",
+    "Correct. Take-back programs are the preferred way to dispose of unused opioids and prevent misuse or accidental poisoning.",
+    "Sharing prescription opioids is unsafe and illegal.",
+    "Loose tablets in the trash can be found by children, pets or others."
+   ],
+   "correct": 1,
+   "takeaway": "Dispose of unused opioids promptly, preferably through a drug take-back site.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is completing medication reconciliation for a client being admitted from home. Which information should the nurse obtain? Select all that apply.",
+   "options": [
+    "Only the prescription drugs filled in the past 30 days",
+    "Over-the-counter medications, such as antacids and pain relievers",
+    "Herbal products and dietary supplements",
+    "Only the medications prescribed by the admitting provider",
+    "Eye drops, inhalers and skin patches",
+    "The dose, frequency and time of the last dose of each medication"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Drugs taken less often or filled earlier would be missed.",
+    "Correct. OTC drugs can interact with prescribed drugs and must be included.",
+    "Correct. Supplements such as St. John's wort or ginkgo can cause important interactions.",
+    "Reconciliation covers medications from all prescribers.",
+    "Correct. Non-oral forms are often forgotten but are active medications.",
+    "Correct. Dose details and last dose time prevent omissions and double dosing."
+   ],
+   "takeaway": "Medication reconciliation compares a complete list (prescription, OTC, supplements, non-oral forms, last dose) at every transition.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "At the end of the shift, a colleague asks the nurse to cosign the waste of 0.5 mg of hydromorphone. The colleague says the waste happened earlier while the nurse was on break. What should the nurse do?",
+   "rationales": [
+    "A witness signature means the nurse saw the drug being wasted; trust does not replace witnessing.",
+    "Signing as a witness for something not seen is false documentation, even with a note.",
+    "Correct. A cosigner must actually watch the controlled substance being wasted; an unwitnessed waste is handled and reported through facility policy, which also protects against diversion.",
+    "An empty syringe does not show how much drug was wasted or where it went."
+   ],
+   "correct": 2,
+   "takeaway": "Only cosign a controlled-substance waste you personally watched; report an unwitnessed waste through facility policy.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "Cosign, because the colleague is experienced and trustworthy",
+    "Cosign, and add a note that the nurse did not see the waste",
+    "Decline to cosign and follow facility policy for an unwitnessed waste",
+    "Ask to see the empty syringe, and then cosign the record"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse realizes that a client received a dose of morphine intended for a different client. Place the nurse's actions in the correct order.",
+   "options": [
+    "Complete an event report in the facility's safety reporting system.",
+    "Notify the provider of the error and the client's condition.",
+    "Assess the client's level of consciousness, respirations and SpO₂.",
+    "Carry out any new prescriptions and continue monitoring the client."
+   ],
+   "correct": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "rationales": [
+    "Last: the event report is completed once the client is safe.",
+    "Second: the provider needs the assessment findings to decide on treatment, such as naloxone.",
+    "First: client safety comes first; opioid effects on breathing must be assessed right away.",
+    "Third: the nurse carries out the treatment plan and keeps monitoring."
+   ],
+   "takeaway": "After a medication error: assess the client, notify the provider, treat and monitor, then report the event.",
+   "refs": [
+    "openstax-fund",
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A handwritten prescription reads: \"Regular insulin 10U subcut before breakfast.\" What is the nurse's best action?",
+   "options": [
+    "Give 10 units, since everyone understands that U means units",
+    "Give 100 units, because the prescription appears to read 100",
+    "Rewrite the prescription with \"units\" spelled out and give it",
+    "Contact the prescriber to clarify, because \"U\" can be misread as a zero"
+   ],
+   "rationales": [
+    "Assuming the meaning of a do-not-use abbreviation is unsafe.",
+    "Guessing could cause a fatal insulin overdose.",
+    "The nurse cannot change a prescription; only the prescriber can.",
+    "Correct. \"U\" is on The Joint Commission's do-not-use list because it can be read as 0 or 4, causing a tenfold insulin overdose; the prescriber must clarify."
+   ],
+   "correct": 3,
+   "takeaway": "Write \"units\" in full; clarify any prescription that uses a do-not-use abbreviation before giving the drug.",
+   "refs": [
+    "tjc-npsg",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client enrolled in a clinical research study is scheduled to receive the first dose of an investigational medication. What must the nurse confirm before giving the dose?",
+   "rationales": [
+    "Correct. A client must give voluntary, documented informed consent before receiving an investigational drug; the nurse confirms it and follows the study protocol.",
+    "A client who has decision-making capacity decides about research participation; family agreement is not required.",
+    "An investigational drug, by definition, is not yet approved for this use.",
+    "Study eligibility is set by the protocol, not by a universal rule that every approved treatment be tried first."
+   ],
+   "correct": 0,
+   "takeaway": "Before giving an investigational drug, confirm documented informed consent and follow the study protocol.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "A signed informed consent for the study is in the client's record",
+    "The client's family agrees with the client's decision to take part",
+    "The drug has full FDA approval for the client's condition",
+    "The client has already tried every approved treatment"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The RN is caring for a client who received IV furosemide 1 hour ago. Which task can the RN delegate to unlicensed assistive personnel (UAP)?",
+   "options": [
+    "Assess the client's lung sounds for crackles",
+    "Teach the client about potassium-rich foods",
+    "Measure and record the client's urine output",
+    "Evaluate whether the client's dyspnea has improved"
+   ],
+   "rationales": [
+    "Assessment requires RN judgment and cannot be delegated.",
+    "Teaching is an RN responsibility.",
+    "Correct. Measuring and recording output is a routine, standardized task within UAP scope; the RN interprets the result.",
+    "Evaluating the response to treatment requires RN judgment."
+   ],
+   "correct": 2,
+   "takeaway": "UAP can measure and record (such as I&O); assessment, teaching and evaluation stay with the RN.",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-046",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "On a medical unit, the nurse receives report on four clients who are receiving high-alert or monitored medications. Which client should the nurse see first?",
+   "options": [
+    "A client due for insulin glargine at 2100 whose glucose is 162 mg/dL",
+    "A client on a heparin infusion with a new black, tarry stool and a heart rate of 118/min",
+    "A client with a potassium of 3.6 mEq/L who is asking for acetaminophen for a headache",
+    "A client on IV vancomycin whose trough level is due in 1 hour"
+   ],
+   "rationales": [
+    "This glucose is acceptable, and the dose is not due yet.",
+    "Correct. A tarry stool with tachycardia in a client on heparin suggests active GI bleeding; this is an unstable, actual problem.",
+    "A normal potassium and a headache request are stable needs that can wait briefly.",
+    "The trough can be drawn on time after the unstable client is assessed."
+   ],
+   "correct": 1,
+   "takeaway": "Signs of bleeding with tachycardia in a client on an anticoagulant take priority over routine medication tasks.",
+   "refs": [
+    "ismp-highalert",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-047",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client with heart failure is being discharged. The home medication list includes metoprolol succinate 50 mg daily. The discharge prescriptions include carvedilol 6.25 mg twice daily, and the reconciliation form marks metoprolol \"continue.\" What should the nurse do?",
+   "options": [
+    "Teach the client to take both medications as listed",
+    "Tell the client to take metoprolol only on days the blood pressure is high",
+    "Remove metoprolol from the list before printing the instructions",
+    "Contact the provider to clarify, because both drugs are beta blockers"
+   ],
+   "rationales": [
+    "Teaching duplicate therapy could harm the client.",
+    "The nurse cannot create a new dosing plan.",
+    "The nurse cannot change prescriptions independently, even when the error seems clear.",
+    "Correct. Taking two beta blockers would cause duplicate therapy, with a risk of bradycardia and hypotension; the provider must resolve the discrepancy."
+   ],
+   "correct": 3,
+   "takeaway": "Discharge reconciliation looks for duplicate drug classes; clarify any duplication with the prescriber.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-048",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with coronary artery disease started atorvastatin 40 mg daily 3 months ago. Which laboratory result best indicates that the medication is having its intended effect?",
+   "rationales": [
+    "Correct. Statins lower LDL cholesterol; a large drop shows the intended therapeutic effect.",
+    "A rise in glucose is a possible adverse effect of statins, not the goal of therapy.",
+    "A marked ALT rise suggests liver injury and needs to be reported.",
+    "An elevated CK with muscle aches suggests statin-related muscle injury and needs prompt follow-up."
+   ],
+   "correct": 0,
+   "takeaway": "The intended effect of a statin is a lower LDL cholesterol; rising liver enzymes or CK with muscle pain are adverse effects to report.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "LDL cholesterol decreased from 162 to 88 mg/dL",
+    "Fasting glucose increased from 98 to 112 mg/dL",
+    "ALT is three times the upper limit of normal",
+    "Creatine kinase is elevated, with new muscle aches"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-049",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "An 18-month-old child who weighs 22 lb (10 kg) is prescribed ibuprofen 10 mg/kg orally every 6 hours as needed for fever. The suspension contains 100 mg/5 mL. How many milliliters should the nurse give?",
+   "options": [
+    "2.5 mL",
+    "5 mL",
+    "10 mL",
+    "11 mL"
+   ],
+   "rationales": [
+    "This gives only 50 mg, half the prescribed dose.",
+    "Correct. 10 kg × 10 mg/kg = 100 mg; 100 mg ÷ 100 mg × 5 mL = 5 mL.",
+    "This gives 200 mg, double the prescribed dose.",
+    "This results from using pounds instead of kilograms (22 × 10 = 220 mg = 11 mL), an overdose."
+   ],
+   "correct": 1,
+   "takeaway": "Weight-based doses use kilograms; convert pounds first (lb ÷ 2.2) to avoid overdosing.",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-050",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is prescribed cefazolin 1 g in 50 mL of 0.9% sodium chloride to infuse over 30 minutes by infusion pump. At what rate should the nurse set the pump?",
+   "options": [
+    "25 mL/hr",
+    "50 mL/hr",
+    "100 mL/hr",
+    "150 mL/hr"
+   ],
+   "rationales": [
+    "This would take 2 hours to infuse 50 mL.",
+    "This would take 1 hour to infuse 50 mL.",
+    "Correct. 50 mL ÷ 0.5 hr = 100 mL/hr.",
+    "This would infuse the bag in 20 minutes, faster than prescribed."
+   ],
+   "correct": 2,
+   "takeaway": "Pump rate (mL/hr) = volume (mL) ÷ time (hr); convert minutes to hours first.",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-051",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with diabetic ketoacidosis has an infusion of regular insulin 100 units in 100 mL of 0.9% sodium chloride. The prescribed dose is 7 units/hr. At what rate should the nurse set the pump?",
+   "options": [
+    "0.7 mL/hr",
+    "3.5 mL/hr",
+    "7 mL/hr",
+    "70 mL/hr"
+   ],
+   "rationales": [
+    "This would deliver 0.7 unit/hr, a tenth of the dose.",
+    "This would deliver 3.5 units/hr, half the dose.",
+    "Correct. The concentration is 1 unit/mL, so 7 units/hr = 7 mL/hr.",
+    "This would deliver 70 units/hr, a tenfold overdose."
+   ],
+   "correct": 2,
+   "takeaway": "Find the concentration first (units per mL), then divide the hourly dose by it to get mL/hr.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-052",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is prescribed levothyroxine 0.15 mg orally daily. The tablets available are levothyroxine 75 mcg. How many tablets should the nurse give?",
+   "options": [
+    "0.5 tablet",
+    "1 tablet",
+    "4 tablets",
+    "2 tablets"
+   ],
+   "rationales": [
+    "This gives 37.5 mcg, a quarter of the dose.",
+    "This gives 75 mcg, half the dose.",
+    "This gives 300 mcg, double the dose.",
+    "Correct. 0.15 mg = 150 mcg; 150 mcg ÷ 75 mcg per tablet = 2 tablets."
+   ],
+   "correct": 3,
+   "takeaway": "Convert to the same unit before calculating: 1 mg = 1,000 mcg.",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-053",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is prescribed heparin 5,000 units subcutaneously every 8 hours. The vial is labeled heparin 10,000 units/mL. How many milliliters should the nurse give?",
+   "options": [
+    "0.05 mL",
+    "0.2 mL",
+    "0.25 mL",
+    "0.5 mL"
+   ],
+   "rationales": [
+    "This is a decimal error and gives only 500 units.",
+    "This gives 2,000 units, less than prescribed.",
+    "This gives 2,500 units, half the dose.",
+    "Correct. 5,000 units ÷ 10,000 units/mL = 0.5 mL."
+   ],
+   "correct": 3,
+   "takeaway": "Heparin is a high-alert drug: check the vial concentration carefully, because several strengths look alike.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-054",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse assesses peripheral IV sites on four clients. For each finding, indicate the complication it most likely represents.",
+   "rows": [
+    "Site is cool, pale and swollen, and the 0.9% sodium chloride infusion is dripping slowly",
+    "A red, warm streak runs up the vein, which feels tender and cordlike",
+    "Burning pain, blanching and blisters around the site during a vesicant chemotherapy infusion",
+    "Swelling and tightness at the site of a lactated Ringer's infusion, with no redness"
+   ],
+   "columns": [
+    "Infiltration",
+    "Phlebitis",
+    "Extravasation"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Infiltration. A non-vesicant solution leaking into tissue causes cool, pale swelling and a slowed rate.",
+    "Phlebitis. Inflammation of the vein wall causes redness, warmth, tenderness and a palpable cord.",
+    "Extravasation. Leakage of a vesicant causes pain, blanching and blistering and can lead to tissue necrosis.",
+    "Infiltration. Lactated Ringer's is not a vesicant, so leakage is infiltration."
+   ],
+   "takeaway": "Infiltration = non-vesicant leaking (cool, pale); extravasation = vesicant leaking (pain, blisters); phlebitis = inflamed vein (red, warm, cordlike).",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-055",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "mcq",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is applying a new nitroglycerin transdermal patch for a client with stable angina. Which action is correct?",
+   "rationales": [
+    "Using the same site irritates the skin; sites are rotated.",
+    "Correct. Removing the old patch prevents a double dose and hypotension, and rotating to clean, hairless skin gives even absorption and limits irritation.",
+    "Cutting a patch changes the dose and may damage the delivery system; headache is reported, not self-treated by changing the dose.",
+    "The nurse wears gloves so the drug is not absorbed through the nurse's own skin."
+   ],
+   "correct": 1,
+   "takeaway": "Nitroglycerin patch: wear gloves, remove the old patch, rotate to clean hairless skin, and never cut the patch.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "options": [
+    "Place the new patch over the site of the old patch to keep absorption steady",
+    "Remove the old patch and apply the new one to a different clean, hairless site",
+    "Cut the patch in half if the client reports a headache",
+    "Apply the patch with bare hands so it sticks firmly"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-056",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "type": "sata",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is receiving parenteral nutrition (PN) through a central venous catheter. Which actions should the nurse take? Select all that apply.",
+   "options": [
+    "Check capillary blood glucose at the intervals in the PN protocol.",
+    "Give IV push antibiotics through the PN lumen when the other lumens are busy.",
+    "Infuse the PN through a dedicated lumen using an infusion pump.",
+    "Increase the rate if the infusion falls behind schedule.",
+    "Weigh the client daily at the same time.",
+    "Monitor for fever and redness at the catheter site."
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. The high dextrose load in PN commonly causes hyperglycemia.",
+    "Adding drugs to the PN line risks incompatibility and contamination.",
+    "Correct. A dedicated lumen and a pump give accurate, uncontaminated delivery.",
+    "Catching up can cause hyperglycemia and fluid overload.",
+    "Correct. Daily weights track fluid status and nutritional response.",
+    "Correct. PN is a rich medium for bacteria, so line infection is a major risk."
+   ],
+   "takeaway": "PN safety: dedicated lumen on a pump, glucose checks, daily weights, infection watch, and no catch-up rates.",
+   "refs": [
+    "openstax-fund",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-057",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "order",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is to give timolol eye drops and an antibiotic eye ointment to the same eye of a client. After checking the client's identity and the labels, place the remaining steps in the correct order.",
+   "correct": [
+    3,
+    1,
+    4,
+    0,
+    2
+   ],
+   "rationales": [
+    "Fourth: waiting lets the first drug absorb so it is not washed out or blocked by the second.",
+    "Second: placing the drop in the lower sac, without touching the eye, gives the dose and keeps the dropper clean.",
+    "Last: ointment goes after drops because it forms a film that would block drops given afterward.",
+    "First: tilting the head and looking up exposes the lower conjunctival sac and reduces blinking.",
+    "Third: pressure over the tear duct keeps the drug in the eye and reduces systemic absorption, which matters for a beta blocker such as timolol."
+   ],
+   "takeaway": "Eye medications: drops before ointment, press on the tear duct after drops, and wait about 5 minutes between medications.",
+   "refs": [
+    "openstax-fund",
+    "openstax-pharm"
+   ],
+   "options": [
+    "Wait at least 5 minutes before giving the second medication.",
+    "Instill the drop into the lower conjunctival sac without touching the eye with the dropper tip.",
+    "Apply a thin ribbon of ointment along the lower conjunctival sac.",
+    "Ask the client to tilt the head back slightly and look up.",
+    "Apply gentle pressure to the inner corner of the eye for 1 to 2 minutes."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-058",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "prioritizeHypotheses",
+   "type": "mcq",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A 77-year-old client who takes warfarin for atrial fibrillation fell and struck their head 2 days ago. Today the client has a new headache, has vomited twice and is increasingly drowsy. The INR is 3.6. Which problem is most likely?",
+   "rationales": [
+    "A new migraine does not explain increasing drowsiness after head trauma in an anticoagulated client.",
+    "Gastroenteritis does not explain the headache and falling level of consciousness after a fall.",
+    "Correct. An older adult on warfarin with a supratherapeutic INR and head trauma is at high risk for subdural or other intracranial bleeding, which can develop over days and cause headache, vomiting and declining consciousness.",
+    "Hypoglycemia can cause drowsiness, but it does not explain the headache and vomiting after head trauma, and there is no glucose finding to support it."
+   ],
+   "correct": 2,
+   "takeaway": "Headache, vomiting or drowsiness after a fall in a client on an anticoagulant suggests intracranial bleeding until proven otherwise.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-medsurg"
+   ],
+   "options": [
+    "Migraine headache triggered by the stress of the fall",
+    "Viral gastroenteritis with dehydration",
+    "Intracranial bleeding related to anticoagulation",
+    "Hypoglycemia from poor food intake"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-059",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "type": "matrix",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse is preparing to give digoxin 0.125 mg orally to clients on a cardiac unit. No other parameters are prescribed. For each finding, indicate whether the nurse should give the dose or hold it and notify the provider.",
+   "rows": [
+    "Apical pulse 72/min; serum potassium 4.1 mEq/L",
+    "Apical pulse 50/min",
+    "Nausea and new yellow-tinged vision",
+    "Irregular apical pulse of 70/min in a client with atrial fibrillation",
+    "Digoxin level 0.8 ng/mL; apical pulse 76/min"
+   ],
+   "columns": [
+    "Give the dose",
+    "Hold and notify the provider"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "rationales": [
+    "Give the dose. Heart rate and potassium are both normal.",
+    "Hold and notify the provider. An apical pulse below 60/min in an adult is a standard reason to hold digoxin.",
+    "Hold and notify the provider. GI upset and visual changes are signs of digoxin toxicity.",
+    "Give the dose. Digoxin is used for rate control in atrial fibrillation; an irregular rhythm at 70/min is expected and within parameters.",
+    "Give the dose. The level is in the therapeutic range and the heart rate is normal."
+   ],
+   "takeaway": "Before digoxin: count the apical pulse for a full minute, look for toxicity signs, and review potassium and digoxin levels.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:pharmacology-060",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Pharmacology",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "type": "matrix",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a pulmonary embolism is receiving a continuous heparin infusion and has just started warfarin. For each statement, indicate which anticoagulant it describes.",
+   "rows": [
+    "Monitored with aPTT or anti-factor Xa levels",
+    "Reversed with phytonadione (vitamin K)",
+    "Taken by mouth once daily",
+    "Reversed with protamine sulfate"
+   ],
+   "columns": [
+    "Heparin",
+    "Warfarin"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Heparin. Unfractionated heparin infusions are adjusted using aPTT or anti-factor Xa levels.",
+    "Warfarin. Vitamin K restores the clotting factors warfarin blocks.",
+    "Warfarin. Warfarin is an oral anticoagulant; heparin is given IV or subcutaneously.",
+    "Heparin. Protamine binds and neutralizes heparin."
+   ],
+   "takeaway": "Heparin: aPTT or anti-Xa, reversed with protamine. Warfarin: INR, reversed with vitamin K. For VTE, heparin overlaps warfarin for at least 5 days and until the INR is therapeutic.",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

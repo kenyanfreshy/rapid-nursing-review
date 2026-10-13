@@ -1,0 +1,59 @@
+{
+ "file": "content/nclex/v4/mental.json",
+ "reviewed": 65,
+ "ok": 55,
+ "fixed": 6,
+ "rewritten": 4,
+ "items": [
+  {
+   "id": "rnr:mental-006",
+   "status": "fixed",
+   "note": "Rows repeated the same fact as bank item nb:psy-03 (older widowed man, alcohol use, newly available handgun). Changed the client to a 19-year-old student with different risk and protective factors (prior attempt, recent breakup, alcohol misuse, counseling, team connection); same item type and key mix."
+  },
+  {
+   "id": "rnr:mental-039",
+   "status": "rewritten",
+   "note": "Duplicated bank item nb:nb26-psyc-042 (ordering the phases of the nurse-client relationship for one-to-one sessions). Rewrote as a new ordered-response item on teaching a structured problem-solving approach to a client with adjustment disorder."
+  },
+  {
+   "id": "rnr:mental-044",
+   "status": "fixed",
+   "note": "Row 1 rationale called dry mouth an anticholinergic effect that is common with haloperidol; high-potency haloperidol has weak anticholinergic activity. Reworded to a common, mild side effect without the mechanism claim."
+  },
+  {
+   "id": "rnr:mental-047",
+   "status": "fixed",
+   "note": "Labeled evaluateOutcomes but the stem only asked which foods to avoid (content recall, no evaluation). Reworded the stem to evaluate the client's planned food choices for a need for further teaching; key unchanged."
+  },
+  {
+   "id": "rnr:mental-049",
+   "status": "rewritten",
+   "note": "Opioid-induced respiratory depression sequence repeated rnr:pharmacology-027 and bank nb:pharm-08 (postoperative IV hydromorphone, RR 6, naloxone), and fit Mental Health poorly. Rewrote as a pharm ordered-response item on teaching nicotine patch application for tobacco use disorder."
+  },
+  {
+   "id": "rnr:mental-051",
+   "status": "rewritten",
+   "note": "Near-duplicate of bank item nb:nb26-sabc-022 (suicide-precaution environment SATA with the same room-near-station, end-of-hall and belts/cords options); options 2 and 5 were also mirror images. Rewrote as a safety SATA on home safety for a client with moderate Alzheimer's disease."
+  },
+  {
+   "id": "rnr:mental-053",
+   "status": "rewritten",
+   "note": "Ordered de-escalation sequence (calm approach, choices, team, restraint last) repeated bank item nb:nb26-psyc-036. Rewrote as a safety MCQ on keeping constant one-to-one observation while a client on suicide precautions uses the bathroom."
+  },
+  {
+   "id": "rnr:mental-059",
+   "status": "fixed",
+   "note": "State-law item: the key now says evaluation follows the time frame set by state law and facility policy, which is true everywhere. No change to the key."
+  },
+  {
+   "id": "rnr:mental-060",
+   "status": "fixed",
+   "note": "Keyed option on the right to refuse medication was stated as an absolute although the rule and procedures vary by state. Hedged the option (\"generally\") and rationale so the key is true across states."
+  },
+  {
+   "id": "rnr:mental-065",
+   "status": "fixed",
+   "note": "Takeaway extended the federal Part 2 rule to all psychiatric treatment, which is governed by HIPAA and facility policy. Limited the takeaway and rationale to substance use disorder treatment and named the rule."
+  }
+ ]
+}

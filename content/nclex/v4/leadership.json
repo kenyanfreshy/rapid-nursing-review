@@ -1,0 +1,1760 @@
+{
+ "topic": "leadership",
+ "questions": [
+  {
+   "id": "rnr:leadership-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "At the start of the evening shift, a nurse on a surgical unit reviews four clients. Which client needs the nurse's assessment first?",
+   "options": [
+    "A client 2 days after a colon resection who rates incisional pain 5 on a 0-10 scale",
+    "A client with type 2 diabetes whose blood glucose before lunch is 182 mg/dL",
+    "A client 12 hours after a total thyroidectomy who reports tingling around the mouth",
+    "A client 1 day after a laparoscopic cholecystectomy who reports right shoulder pain"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Moderate incisional pain 2 days after abdominal surgery is expected. The nurse should treat it soon, but it is not a threat to the airway.",
+    "This glucose is above target but is not an emergency. It can be managed with the client's prescribed insulin plan after the unstable client is seen.",
+    "Correct. Perioral tingling after thyroidectomy suggests hypocalcemia from parathyroid injury. It is unexpected and can progress to tetany and laryngospasm, so this client is the most at risk.",
+    "Shoulder pain after laparoscopy is usually referred pain from the carbon dioxide used to inflate the abdomen. It is expected and eases with walking."
+   ],
+   "takeaway": "Unexpected findings that can progress to airway compromise, such as perioral tingling after thyroidectomy, outrank expected postoperative findings.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "The nurse reviews data on four clients after report. Which client can the nurse safely see last?",
+   "options": [
+    "A client 1 day after surgery who is newly confused and pulling at the IV line",
+    "A client receiving a continuous heparin infusion who reports a black, tarry stool",
+    "A client 4 hours after a cardiac catheterization through the right femoral artery whose right foot is cool and pale",
+    "A client with a left chest tube whose water-seal chamber fluid rises and falls with breathing"
+   ],
+   "correct": 3,
+   "rationales": [
+    "New confusion after surgery is an unexpected change. It can signal hypoxia, sepsis, bleeding or delirium and needs prompt assessment.",
+    "Black, tarry stool suggests upper gastrointestinal bleeding, a serious complication of anticoagulation that needs prompt assessment.",
+    "A cool, pale foot on the side of the arterial puncture suggests impaired arterial blood flow and needs immediate assessment.",
+    "Correct. Tidaling (fluid moving up and down with respiration) in the water-seal chamber is expected and shows the tube is patent. This client is stable."
+   ],
+   "takeaway": "Tidaling in the water-seal chamber is expected; continuous bubbling in the water-seal chamber suggests an air leak.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The RN is working with an unlicensed assistive personnel (UAP) on a medical unit. Which task is most appropriate for the RN to delegate to the UAP?",
+   "options": [
+    "Feed lunch to a client with a new stroke who coughed when drinking water this morning",
+    "Walk a client in the hallway for the first time after abdominal surgery yesterday",
+    "Help a client with stable chronic heart failure to the bathroom and measure the urine",
+    "Check the IV site of a client who reports burning where the catheter is inserted"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Coughing with water suggests a swallowing problem and aspiration risk. The RN must assess the client and arrange a swallowing evaluation before oral intake.",
+    "The first time out of bed after surgery requires the RN to assess tolerance, including dizziness, pain and vital-sign changes.",
+    "Correct. Toileting and measuring output for a stable client is routine, has a predictable outcome and is within the UAP's role.",
+    "Burning at the IV site may mean infiltration or phlebitis. Assessing the site is an RN responsibility."
+   ],
+   "takeaway": "Delegate routine care for stable clients with predictable outcomes; keep new problems and first-time activities that need assessment with the RN.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The RN is caring for a newly admitted client with community-acquired pneumonia who is stable on oxygen 2 L/min by nasal cannula. Which task should the RN assign to the licensed practical nurse (LPN)?",
+   "options": [
+    "Complete the client's admission nursing assessment",
+    "Teach the client how to use a new incentive spirometer",
+    "Evaluate the client's response to the first dose of IV antibiotic",
+    "Give the client's scheduled oral medications"
+   ],
+   "correct": 3,
+   "rationales": [
+    "The initial (admission) assessment is an RN responsibility. The LPN can collect data that the RN then uses.",
+    "Initial teaching belongs to the RN. The LPN can reinforce teaching the RN has already given.",
+    "Evaluating a client's response to a new treatment requires RN judgment.",
+    "Correct. Giving routine oral medications to a stable client is within the LPN/LVN scope of practice."
+   ],
+   "takeaway": "LPN/LVNs can give routine medications and reinforce teaching for stable clients; initial assessment, initial teaching and evaluation stay with the RN.",
+   "refs": [
+    "ncsbn-delegation",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "On a surgical unit, trained UAPs routinely measure postvoid residual urine with a bladder scanner. The RN asks a newly hired UAP to do a bladder scan for a stable client. The UAP says, \"I haven't been shown how to use that machine yet.\" Which right of delegation is not met?",
+   "options": [
+    "Right person",
+    "Right task",
+    "Right circumstance",
+    "Right supervision and evaluation"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The right person is someone who has the training and competence to do the task. This UAP has not been trained on the device.",
+    "Bladder scanning is a task the unit allows trained UAPs to perform, so the task itself is appropriate.",
+    "The client is stable, so the setting and the client's condition are appropriate for delegation.",
+    "Supervision applies after the task is delegated. The problem here comes first: the UAP lacks the needed competence."
+   ],
+   "takeaway": "Before delegating, the RN confirms the delegatee has been trained and is competent to perform the specific task (right person).",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client receiving chemotherapy has an absolute neutrophil count of 400/mm³. The RN watches a UAP prepare to measure the client's temperature. Which action by the UAP requires the RN to intervene?",
+   "options": [
+    "Using the oral thermometer kept in the client's room",
+    "Inserting a lubricated rectal thermometer",
+    "Performing hand hygiene before entering the room",
+    "Cleaning the thermometer with a disinfectant wipe after use"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A dedicated thermometer used only for this client reduces the spread of infection and is appropriate.",
+    "Correct. Rectal temperatures are avoided in clients with neutropenia because they can injure the rectal mucosa and introduce bacteria.",
+    "Hand hygiene is the most important way to protect a client with neutropenia from infection.",
+    "Cleaning shared or reusable equipment after use is correct practice."
+   ],
+   "takeaway": "Avoid rectal temperatures, enemas and suppositories in clients with neutropenia because they can injure mucosa and cause infection.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse who usually works on the pediatric unit is floated to an adult medical-surgical unit. Which client should the charge nurse assign to the float nurse?",
+   "options": [
+    "A client with diabetic ketoacidosis whose insulin infusion is adjusted every hour",
+    "A client receiving continuous bladder irrigation after a transurethral prostate resection",
+    "A client 2 days after a laparoscopic appendectomy who is tolerating a regular diet",
+    "A client with an acute stroke who needs hourly neurological checks after thrombolytic therapy"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Frequent titration of a high-alert infusion in an unstable adult client should go to a nurse experienced with this care.",
+    "This adult-specific procedure is unlikely to be familiar to a pediatric nurse and needs close monitoring for bleeding and clots.",
+    "Correct. This client is stable and needs general postoperative care, a skill set the pediatric nurse already has.",
+    "This client is unstable and at risk for bleeding. A nurse experienced in adult stroke care should take this client."
+   ],
+   "takeaway": "Assign float nurses stable clients whose care matches skills they already have; keep unstable or specialty-specific clients with unit staff.",
+   "refs": [
+    "ncsbn-delegation",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An agency RN is working on a cardiac unit for the first time. Which action by the charge nurse is most appropriate?",
+   "options": [
+    "Assign the agency nurse the most complex clients because agency nurses are highly experienced",
+    "Limit the agency nurse to tasks usually delegated to assistive personnel",
+    "Have the agency nurse read the full policy manual before accepting any clients",
+    "Pair the agency nurse with a staff nurse resource and review where the emergency equipment is"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Experience elsewhere does not mean the nurse knows this unit's routines, equipment and policies. Complex clients should not be the default assignment.",
+    "The agency nurse is a licensed RN and can be assigned RN care that matches the nurse's verified competencies.",
+    "Reading the whole manual delays care and does not replace a focused orientation and a resource person.",
+    "Correct. A temporary nurse needs a resource person and an orientation to unit-specific equipment and procedures to give safe care."
+   ],
+   "takeaway": "Agency and float nurses need a unit resource person and a focused orientation to emergency equipment and unit procedures.",
+   "refs": [
+    "ncsbn-delegation",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse calls the provider about a client who had a right hip arthroplasty yesterday and now has sudden shortness of breath. Which statement by the nurse belongs in the Assessment part of SBAR?",
+   "options": [
+    "\"Her breathing changed suddenly, and I think she may have a pulmonary embolism.\"",
+    "\"This is the nurse on 4 West calling about Ms. Ruiz in room 8, who is short of breath.\"",
+    "\"She had a right hip replacement yesterday and takes estrogen at home.\"",
+    "\"Please come evaluate her now, and tell me if you want a CT angiogram.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Assessment is the nurse's interpretation of the data, stating what the nurse thinks the problem is.",
+    "This identifies the caller, the client and the current problem. It is the Situation.",
+    "This history explains the context and risk factors. It is the Background.",
+    "This states what the nurse wants done. It is the Recommendation (or Request)."
+   ],
+   "takeaway": "In SBAR, the Assessment is the nurse's own conclusion about the problem, given before the recommendation.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A provider's handwritten prescription for a client reads \"warfarin 5.0 mg PO daily.\" What should the nurse do?",
+   "options": [
+    "Give 5 mg because the decimal point is clearly visible on the form",
+    "Contact the prescriber to clarify the dose before giving the medication",
+    "Ask another nurse to read the prescription and give the dose they agree on",
+    "Hold the medication and wait until the provider makes rounds tomorrow"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A trailing zero is on The Joint Commission's \"Do Not Use\" list because the decimal point is easily missed and \"5.0 mg\" can be read as \"50 mg.\" The nurse should not rely on reading it correctly.",
+    "Correct. A trailing zero is on The Joint Commission's \"Do Not Use\" list because \"5.0 mg\" can be misread as \"50 mg.\" The nurse clarifies before acting.",
+    "Two nurses guessing does not replace clarification with the prescriber.",
+    "Waiting delays a scheduled anticoagulant without reason. The prescriber should be contacted now."
+   ],
+   "takeaway": "Never use or act on a trailing zero (5.0 mg) or a missing leading zero (.5 mg); clarify with the prescriber because a tenfold error can result.",
+   "refs": [
+    "tjc-npsg",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "At 0200 a client 6 hours after abdominal surgery has a blood pressure of 86/52 mm Hg (baseline 132/78 mm Hg) and a heart rate of 124/min. The nurse calls the on-call provider, who says, \"Recheck it in an hour,\" and gives no new prescriptions. What should the nurse do next?",
+   "options": [
+    "Recheck the vital signs in 1 hour as the provider instructed",
+    "Document the call and continue routine postoperative monitoring",
+    "Escalate the concern to the charge nurse or nursing supervisor now",
+    "Start an IV fluid bolus from floor stock before calling anyone else"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Waiting an hour with a client who may be bleeding could allow serious harm. The nurse is accountable for advocating for the client.",
+    "Documentation is needed, but it does not get the client the care required now.",
+    "Correct. The client shows signs of possible hemorrhage or shock and the provider's response is not adequate. The nurse must escalate through the chain of command right away.",
+    "Giving a fluid bolus without a prescription or protocol is outside the nurse's scope."
+   ],
+   "takeaway": "When a provider does not respond adequately to a client's deterioration, escalate through the chain of command (and activate the rapid response team when criteria are met).",
+   "refs": [
+    "ncsbn-testplan",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "At a mass-casualty scene, the nurse uses START triage. An adult victim cannot walk, has a respiratory rate of 24/min and a palpable radial pulse, and cannot follow a simple command to squeeze the nurse's hand. Which triage category should the nurse assign?",
+   "options": [
+    "Immediate (red)",
+    "Delayed (yellow)",
+    "Minor (green)",
+    "Expectant or deceased (black)"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. In START, a victim who cannot follow simple commands is tagged immediate (red) even when breathing and perfusion are adequate, because altered mental status signals a serious injury such as head trauma or shock.",
+    "Delayed is for victims who cannot walk but breathe 30/min or less, have a radial pulse and can follow simple commands. This victim cannot follow commands.",
+    "Minor is for victims who can walk. This victim cannot.",
+    "Black is for victims who do not breathe even after the airway is repositioned. This victim is breathing."
+   ],
+   "takeaway": "In START, a nonambulatory victim who cannot follow simple commands is tagged immediate (red), even with adequate breathing and perfusion.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 46-year-old client comes to the emergency department with right lower abdominal pain for 12 hours. BP 128/80 mm Hg, HR 92/min, RR 18/min, SpO₂ 98%, temperature 37.9 °C (100.2 °F), pain 6/10. The client will likely need laboratory tests, IV fluids and a CT scan. Which Emergency Severity Index (ESI) level should the triage nurse assign?",
+   "options": [
+    "ESI level 2",
+    "ESI level 3",
+    "ESI level 4",
+    "ESI level 5"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Level 2 is for high-risk situations, new confusion or lethargy, or severe pain or distress. This client is stable with moderate pain.",
+    "Correct. The client is stable, has vital signs outside the danger zone, and is expected to need two or more resources (labs, IV fluids, CT), which makes this ESI level 3.",
+    "Level 4 is for clients who need only one resource. This client will need several.",
+    "Level 5 is for clients who need no resources, such as a prescription refill."
+   ],
+   "takeaway": "For stable ED clients, ESI levels 3 to 5 are set by the number of resources expected: two or more = 3, one = 4, none = 5.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An off-duty nurse hears on the news that a large explosion has injured many people in the city where the nurse's hospital is located. What should the nurse do?",
+   "options": [
+    "Drive to the site of the explosion to help care for the injured",
+    "Go directly to the emergency department and begin caring for clients",
+    "Call the unit repeatedly until someone tells the nurse what to do",
+    "Follow the hospital disaster plan for calling in off-duty staff"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Self-dispatching to a scene adds to confusion and can put the nurse in danger. Scene care is coordinated by emergency services.",
+    "Arriving without being called can overwhelm the hospital and disrupt the staffing plan.",
+    "Repeated calls tie up phone lines that are needed during a disaster.",
+    "Correct. Disaster plans direct how off-duty staff are called in so that staffing is organized and the nurse is used where needed."
+   ],
+   "takeaway": "During a disaster, off-duty staff follow the facility's emergency operations plan rather than self-dispatching to the scene or hospital.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "Which client on a medical unit should the nurse prepare to transfer to a higher level of care?",
+   "options": [
+    "A client with new atrial fibrillation, HR 152/min and BP 84/50 mm Hg, who reports dizziness",
+    "A client with pneumonia whose temperature fell from 38.9 °C (102 °F) to 37.6 °C (99.7 °F) after acetaminophen",
+    "A client with heart failure who lost 1.2 kg (2.6 lb) after IV furosemide",
+    "A client with leg cellulitis whose redness has stayed inside the marked border"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A rapid ventricular rate with hypotension and dizziness shows hemodynamic instability that needs continuous monitoring and possibly urgent treatment.",
+    "A falling temperature after an antipyretic shows an expected response to treatment.",
+    "Weight loss after diuresis is the intended effect of treatment in heart failure.",
+    "Redness that has not spread beyond the marked border suggests the infection is not progressing."
+   ],
+   "takeaway": "Transfer to a higher level of care when a client shows new hemodynamic instability, not when expected treatment responses are seen.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse and a physical therapist begin to disagree at the bedside about whether a client should walk today. The client looks worried. What should the nurse do?",
+   "options": [
+    "Tell the physical therapist that nursing decides when the client can walk",
+    "Move the discussion away from the bedside and review the client's data together",
+    "Ask the client to decide whether to walk today to end the disagreement",
+    "Report the physical therapist to the nurse manager for unprofessional conduct at the bedside"
+   ],
+   "correct": 1,
+   "rationales": [
+    "This uses a power-based approach and damages interprofessional collaboration. Mobility decisions are shared.",
+    "Correct. Moving the conversation to a private space protects the client, and reviewing the data together supports a collaborative solution.",
+    "The client should have a say in care, but asking the client to settle a staff conflict is unfair and does not address the clinical question.",
+    "Escalation is not the first step. The two professionals should try to resolve the issue directly and respectfully."
+   ],
+   "takeaway": "Resolve interprofessional disagreements away from the client and focus on shared data and the client's goals.",
+   "refs": [
+    "ncsbn-testplan",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The unit's catheter-associated urinary tract infection (CAUTI) rate has risen over 3 months. A staff nurse joins the quality improvement team. Which action best supports this effort?",
+   "options": [
+    "Remind staff to clean around each catheter with an antiseptic every shift",
+    "Replace all indwelling urinary catheters on a fixed schedule every 3 days",
+    "Track catheter days and how often daily catheter-need reviews are done",
+    "Ask providers to order daily urine cultures for every client with a catheter"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Routine cleaning with antiseptics is not recommended. Daily hygiene with soap and water is enough.",
+    "Changing catheters at fixed intervals is not recommended and adds insertion risk. Catheters should be removed as soon as they are no longer needed.",
+    "Correct. Quality improvement starts with measuring the process and the outcome. Catheter days and adherence to daily necessity reviews are key CAUTI measures.",
+    "Routine cultures on clients without symptoms lead to overtreatment and do not prevent infection."
+   ],
+   "takeaway": "CAUTI prevention focuses on avoiding unnecessary catheters and removing them promptly; measuring catheter days and necessity reviews drives improvement.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An infusion pump delivered a client's IV fluid much faster than programmed. The nurse stopped the infusion and the client has no signs of harm. What should the nurse do with the pump?",
+   "options": [
+    "Reset the pump and keep using it while watching it closely",
+    "Return it to the equipment room so the next unit that needs it can check it",
+    "Turn it off and throw away the tubing to prevent further harm",
+    "Tag it as faulty and send it, with the tubing, to biomedical engineering"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A pump that has malfunctioned may fail again. Close watching does not make it safe.",
+    "Another staff member could use it before it is checked, putting another client at risk.",
+    "Discarding the tubing destroys evidence needed to find out why the pump failed.",
+    "Correct. Taking the device out of service prevents harm to other clients, and keeping the tubing and settings helps biomedical engineering find the cause. A safety event report is also filed."
+   ],
+   "takeaway": "Remove malfunctioning equipment from service, label it, keep the tubing and settings, notify biomedical engineering and file a safety report.",
+   "refs": [
+    "openstax-fund",
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "At 0900 the nurse has four tasks waiting. Which task should the nurse do first?",
+   "options": [
+    "Assess a client with diabetes who is newly confused and sweaty",
+    "Give a 0900 scheduled oral antihypertensive to a stable client",
+    "Complete discharge teaching for a client whose ride arrives at 1100",
+    "Call the pharmacy about a medication that has not arrived for a 1000 dose"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. New confusion with sweating suggests hypoglycemia, an acute and potentially dangerous change that needs immediate assessment and treatment.",
+    "Scheduled medications can be given within the facility's time window after the unstable client is assessed.",
+    "Discharge teaching is important but can be done later this morning.",
+    "This is a routine follow-up that can wait a few minutes."
+   ],
+   "takeaway": "When planning time, an acute change in a client's condition comes before scheduled or routine tasks.",
+   "refs": [
+    "ncsbn-testplan",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 72-year-old client has a new stage 3 pressure injury on the sacrum, eats about one-fourth of each meal, has no difficulty swallowing, and has lost 4 kg (8.8 lb) in the past month. Which referral is most important for the nurse to discuss with the provider?",
+   "options": [
+    "Occupational therapist",
+    "Registered dietitian",
+    "Speech-language pathologist",
+    "Respiratory therapist"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Occupational therapy helps with daily living activities. It does not address the client's nutrition problem.",
+    "Correct. Poor intake and weight loss slow wound healing. A dietitian can assess calorie and protein needs and plan nutrition support.",
+    "A swallowing evaluation is not needed because the client has no difficulty swallowing.",
+    "Nothing in this situation suggests a breathing problem."
+   ],
+   "takeaway": "Clients with pressure injuries and poor intake or weight loss need a nutrition referral, because protein and calories are essential for wound healing.",
+   "refs": [
+    "npiap",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "After morning report on a pediatric unit, the nurse plans rounds for four children. Which child needs to be seen first?",
+   "options": [
+    "A 10-year-old with sickle cell disease who rates pain 6/10 two hours after an analgesic",
+    "A 9-month-old with gastroenteritis who has had one wet diaper in the past 8 hours",
+    "A 6-year-old with asthma who has intercostal retractions and an SpO₂ of 90%",
+    "A 15-year-old 1 day after an appendectomy who asks when he can go home"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Pain needs attention soon, but it ranks after an airway and breathing problem.",
+    "Reduced urine output needs follow-up for dehydration, but breathing problems come first.",
+    "Correct. Retractions and low oxygen saturation show respiratory distress, an airway and breathing problem that comes first.",
+    "This adolescent is stable and can be seen last."
+   ],
+   "takeaway": "Use the ABCs: a child with signs of respiratory distress and hypoxemia is seen before pain, fluid or discharge needs.",
+   "refs": [
+    "medline-children",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A nurse in a long-term care facility receives reports about four residents. Which resident should the nurse assess first?",
+   "options": [
+    "A resident with dementia who is wandering in the hallway",
+    "A resident whose stage 2 pressure injury dressing is due to be changed",
+    "A resident with osteoarthritis who reports knee stiffness on waking",
+    "A resident whose face began drooping on one side during breakfast"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Wandering is a known behavior for this resident. Staff should redirect safely, but it is not an emergency.",
+    "A scheduled dressing change for a chronic wound can wait.",
+    "Morning stiffness is expected with osteoarthritis and is not urgent.",
+    "Correct. Sudden facial droop suggests an acute stroke. Treatment is time-sensitive, so this resident needs immediate assessment and emergency transfer."
+   ],
+   "takeaway": "Sudden neurologic changes such as facial droop are time-critical and come before chronic or expected problems.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The RN assigned a stable client with COPD to an LPN. The LPN reports that the client's SpO₂ has dropped from 92% to 85% on oxygen 2 L/min and the client is more short of breath. What should the RN do?",
+   "options": [
+    "Go to the client's room and assess the client",
+    "Tell the LPN to increase the oxygen to 6 L/min and recheck in an hour",
+    "Ask the LPN to document the finding and keep monitoring",
+    "Tell the LPN to call the provider and report back afterward"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The client is no longer stable. The RN must assess the client directly and decide on next steps.",
+    "Changing oxygen without assessment or a prescription and waiting an hour could miss a worsening condition.",
+    "Documentation alone does not address a client whose condition has changed.",
+    "The RN keeps accountability for an unstable client and must assess the client before deciding what to report."
+   ],
+   "takeaway": "When an assigned client becomes unstable, the RN assesses the client directly; the RN remains accountable for care given by the team.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A charge nurse is making assignments for a new graduate RN who is in the second week of orientation with a preceptor. Which client is most appropriate for the new graduate?",
+   "options": [
+    "A client being evaluated for sepsis whose serum lactate level is rising",
+    "A client with leg cellulitis and type 2 diabetes receiving IV antibiotics",
+    "A client with a GI bleed who has vomited bright red blood twice during this shift",
+    "A client who transferred from the ICU 1 hour ago with a new tracheostomy"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A rising lactate suggests worsening sepsis. This client needs an experienced nurse.",
+    "Correct. This client is stable with a predictable course, giving the new graduate safe practice with assessment, IV medications and diabetes care.",
+    "Active bleeding makes this client unstable and better suited to an experienced nurse.",
+    "A recent transfer with a new airway carries high risk and needs an experienced nurse."
+   ],
+   "takeaway": "Give nurses in orientation stable clients with predictable outcomes; assign unstable or complex clients to experienced staff.",
+   "refs": [
+    "ncsbn-delegation",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "During bedside handoff, which action by the oncoming nurse best helps prevent an error?",
+   "options": [
+    "Read the off-going nurse's notes after handoff is finished and that nurse has left",
+    "Receive report at the nurses' station first and visit the bedside later",
+    "Check pump rates and IV bags against prescriptions with the off-going nurse",
+    "Rely on the off-going nurse's verbal summary of the IV infusions"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Reading notes later removes the chance to ask questions while the off-going nurse is still available.",
+    "Report away from the bedside misses the chance to see the client and equipment together.",
+    "Correct. Verifying infusions together at the bedside lets both nurses catch discrepancies before the off-going nurse leaves.",
+    "A verbal summary alone can contain errors. Seeing the pump and bag confirms what is actually infusing."
+   ],
+   "takeaway": "Bedside handoff lets both nurses see the client and verify infusions and equipment together, which reduces errors.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A provider prescribes potassium chloride 20 mEq IV push for a client whose serum potassium is 3.1 mEq/L. What should the nurse do?",
+   "options": [
+    "Dilute the dose in 10 mL of saline and push it over 5 minutes",
+    "Give it as prescribed because low potassium needs to be corrected quickly",
+    "Ask the pharmacist to draw up the dose in a syringe for IV push",
+    "Hold the dose and contact the provider to clarify the route and rate"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Diluting it does not make an IV push safe. IV potassium must be given as a diluted infusion at a controlled rate.",
+    "Following an unsafe prescription makes the nurse responsible for the harm. Low potassium is corrected safely by infusion or by mouth.",
+    "Asking pharmacy to prepare the unsafe dose does not correct the error.",
+    "Correct. Potassium chloride is never given by IV push because it can cause fatal dysrhythmias and cardiac arrest. The nurse must clarify the prescription."
+   ],
+   "takeaway": "Never give potassium chloride by IV push; question any prescription that is unsafe before acting.",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A visitor becomes angry at the nurses' station, shouts that staff are ignoring his mother, and says, \"Someone is going to get hurt.\" What should the nurse do first?",
+   "options": [
+    "Call security per facility policy while keeping a safe distance",
+    "Tell him firmly to leave the unit immediately or he will be arrested",
+    "Invite him into the empty break room to talk privately",
+    "Ignore the comment because he is understandably upset about his mother"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A verbal threat is a warning sign of possible violence. Getting security help while staying safe protects staff, clients and the visitor.",
+    "Confronting an angry person with threats is likely to escalate the situation.",
+    "Being alone in a closed room with a person making threats puts the nurse at risk.",
+    "Threats of harm must be taken seriously and reported."
+   ],
+   "takeaway": "Take threats of violence seriously: keep a safe distance, avoid being alone with the person, and call security per policy.",
+   "refs": [
+    "openstax-fund",
+    "openstax-psych"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A medical unit started hourly purposeful rounding to reduce client falls. Which finding best shows that the change is effective?",
+   "options": [
+    "Nurses report that they like the new rounding schedule",
+    "Falls per 1,000 client-days drop below baseline over the next 3 months",
+    "The number of call-light activations has increased",
+    "All staff members completed the rounding education module"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Staff satisfaction matters, but it does not show that falls decreased.",
+    "Correct. An outcome measure compared with baseline over time shows whether the intervention achieved its goal.",
+    "Rounding usually reduces call lights. An increase does not show fewer falls.",
+    "Completing education is a process measure. It does not show that the outcome improved."
+   ],
+   "takeaway": "Evaluate a quality improvement change by comparing an outcome measure, such as falls per 1,000 client-days, with baseline over time.",
+   "refs": [
+    "ncsbn-testplan",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A charge nurse helps two nurses work through a disagreement about weekend coverage. Which statement by one of the nurses best shows that the conflict has been resolved?",
+   "options": [
+    "\"I'll just work all the weekends so we don't have to talk about it again.\"",
+    "\"The manager decided for us, so we have to live with it.\"",
+    "\"We agreed to alternate weekends and will check in with each other in 2 weeks.\"",
+    "\"We each gave up something we wanted, but neither of us is happy with the plan.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "This is accommodating or avoiding. The conflict is hidden, not resolved, and resentment may build.",
+    "A decision imposed from above (forcing) ends the discussion but does not resolve the underlying conflict.",
+    "Correct. Both nurses helped create the solution and planned a follow-up, which reflects collaboration (a win-win outcome).",
+    "This compromise leaves both nurses dissatisfied, so the conflict may return."
+   ],
+   "takeaway": "Collaboration, in which both parties shape a solution and plan follow-up, is the most effective way to resolve conflict.",
+   "refs": [
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "The RN reviewed safe ambulation with a UAP who will walk a client with left-sided weakness. Which observation shows that the UAP understood the teaching?",
+   "options": [
+    "The UAP walks in front of the client while holding both of the client's hands",
+    "The UAP holds the client's right arm while walking on the client's right side",
+    "The UAP fastens the gait belt loosely around the client's chest",
+    "The UAP walks slightly behind the client on the left, holding the gait belt"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Walking in front and holding hands gives poor control and can pull the client forward.",
+    "Support should be on the weaker (left) side, where the client is more likely to lose balance.",
+    "A gait belt goes snugly around the waist, not the chest, so it gives stable support.",
+    "Correct. Standing slightly behind on the weaker side with a hand on the gait belt lets the UAP support the client and guide a fall safely."
+   ],
+   "takeaway": "When assisting ambulation, stand slightly behind the client on the weaker side and hold a gait belt secured around the waist.",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client is 1 day after a total hip arthroplasty. Which tasks should the RN perform rather than delegate to the UAP? Select all that apply.",
+   "options": [
+    "Help the client with a partial bed bath",
+    "Keep the abduction pillow between the legs when turning",
+    "Assess the surgical incision for drainage",
+    "Record the client's intake and output",
+    "Teach the client hip precautions before the first walk",
+    "Evaluate the client's pain relief after an analgesic"
+   ],
+   "correct": [
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Hygiene care for a stable client can be delegated.",
+    "Positioning with an abduction device the RN has explained is a routine task the UAP can perform.",
+    "Correct. Assessment requires RN judgment and cannot be delegated.",
+    "Measuring and recording intake and output is routine and can be delegated.",
+    "Correct. Initial teaching is an RN responsibility.",
+    "Correct. Evaluating response to treatment requires RN judgment."
+   ],
+   "takeaway": "Assessment, initial teaching and evaluation cannot be delegated to UAPs; routine, predictable care can.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "Before delegating a task to a UAP, which factors should the RN consider? Select all that apply.",
+   "options": [
+    "Whether the RN will be available to supervise and follow up",
+    "Whether the UAP would prefer this task over others",
+    "Whether the RN would rather not do the task personally",
+    "Whether facility policy and the job description allow the task",
+    "Whether the UAP has been trained and is competent in the task",
+    "How stable the client is and how predictable the outcome is"
+   ],
+   "correct": [
+    0,
+    3,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. The RN remains accountable and must be able to supervise and evaluate.",
+    "The delegatee's preference does not decide whether delegation is safe.",
+    "The RN's convenience is not a criterion for delegation.",
+    "Correct. The task must be permitted by state law, facility policy and the job description.",
+    "Correct. The right person must have the training and skill to perform the task.",
+    "Correct. Delegation is appropriate only for stable clients with predictable outcomes."
+   ],
+   "takeaway": "Safe delegation weighs client stability, delegatee competence, legal and policy limits, and the RN's ability to supervise.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A nurse is about to call the provider about a client whose new serum potassium is 6.2 mEq/L. Which information should the nurse have ready? Select all that apply.",
+   "options": [
+    "The client's allergies",
+    "The current medication list, including any potassium supplements",
+    "The client's most recent BUN and creatinine results",
+    "The names of the client's visitors today",
+    "The client's most recent vital signs and cardiac rhythm",
+    "The client's health insurance information"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Allergies are needed before the provider prescribes new treatment.",
+    "Correct. Medications such as potassium supplements, ACE inhibitors or potassium-sparing diuretics may be the cause.",
+    "Correct. Kidney function affects potassium excretion and treatment choices.",
+    "Visitor names are not relevant to the call.",
+    "Correct. Hyperkalemia can cause dysrhythmias, so the provider needs current vital signs and rhythm.",
+    "Insurance information does not help with the clinical decision."
+   ],
+   "takeaway": "Before calling a provider, gather current vital signs, relevant labs, medications and allergies so the SBAR report is complete.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A hospital activates its emergency operations plan to receive many victims of a mass-casualty incident. The charge nurse is asked to identify inpatients who could be safely discharged early to free beds. Which clients should the charge nurse recommend to the provider for early discharge? Select all that apply.",
+   "options": [
+    "A client 2 days after an uncomplicated laparoscopic appendectomy who is eating a regular diet",
+    "A client admitted 6 hours ago with an acute myocardial infarction who is receiving a heparin infusion",
+    "A client with leg cellulitis who is afebrile, improving and has been switched to oral antibiotics",
+    "A client with diabetic ketoacidosis who is receiving a continuous IV insulin infusion",
+    "A client observed for 24 hours after a fall who has normal imaging and stable neurological checks",
+    "A client with a pneumothorax whose chest tube was placed this morning"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. This client is stable, recovering as expected and needs no further acute care, so early discharge with follow-up is reasonable.",
+    "An acute myocardial infarction treated with a heparin infusion is unstable and needs continued inpatient monitoring.",
+    "Correct. The infection is improving, the client is afebrile and treatment can continue by mouth at home.",
+    "Diabetic ketoacidosis on an insulin infusion needs hourly glucose and electrolyte monitoring and cannot be managed at home.",
+    "Correct. The observation period is complete with normal findings, so the client no longer needs a hospital bed.",
+    "A new chest tube needs inpatient monitoring for air leak, drainage and lung re-expansion."
+   ],
+   "takeaway": "During disaster surge planning, stable clients with predictable recovery who could finish care at home are identified for early discharge; unstable clients and those on high-alert infusions stay.",
+   "refs": [
+    "openstax-medsurg",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse reviews new prescriptions. Which prescriptions require clarification before the nurse acts? Select all that apply.",
+   "options": [
+    "Amoxicillin 500 mg PO every 8 hours for a client with a documented penicillin anaphylaxis",
+    "Morphine 4 mg IV",
+    "Metoprolol tartrate 25 mg PO twice daily; hold for apical pulse below 60/min",
+    "Acetaminophen 650 mg PO every 6 hours as needed for temperature above 38.3 °C (101 °F)",
+    "Insulin glargine 20 U subcutaneously at bedtime"
+   ],
+   "correct": [
+    0,
+    1,
+    4
+   ],
+   "rationales": [
+    "Correct. Amoxicillin is a penicillin. Giving it to a client with penicillin anaphylaxis could be fatal.",
+    "Correct. The prescription has no frequency or indication, so it is incomplete.",
+    "This prescription is complete and includes a clear hold parameter.",
+    "This prescription is complete and the dose is within the usual range.",
+    "Correct. \"U\" is on the \"Do Not Use\" list because it can be misread as 0 or 4. The prescription should say \"units.\""
+   ],
+   "takeaway": "Clarify prescriptions that are incomplete, use banned abbreviations, or conflict with the client's allergies before acting.",
+   "refs": [
+    "tjc-npsg",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "Which clients would benefit most from referral to a nurse case manager? Select all that apply.",
+   "options": [
+    "A client with a new spinal cord injury who needs rehabilitation placement and equipment",
+    "A client with diabetes and chronic kidney disease who has no stable housing",
+    "A healthy client going home after outpatient cataract surgery",
+    "A client with heart failure who has been readmitted three times in 2 months",
+    "A client with an uncomplicated urinary tract infection discharged on oral antibiotics"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. Complex care transitions and equipment needs benefit from case management.",
+    "Correct. Multiple chronic illnesses plus social barriers raise the risk of poor outcomes; case management links the client to resources.",
+    "This client has a short, uncomplicated course and does not need case management.",
+    "Correct. Frequent readmissions signal a need for coordinated follow-up, education and services.",
+    "Routine discharge instructions meet this client's needs."
+   ],
+   "takeaway": "Case management targets high-risk clients: frequent readmissions, complex transitions, multiple chronic conditions and social barriers.",
+   "refs": [
+    "ncsbn-testplan",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The RN observes a UAP giving care to several clients. Which actions by the UAP require the RN to intervene? Select all that apply.",
+   "options": [
+    "Raising the bed to waist height while giving a bed bath",
+    "Placing the call light within the client's reach before leaving",
+    "Lowering the head of the bed flat while a continuous tube feeding is running",
+    "Checking the client's name band before handing out a meal tray",
+    "Using the same washcloth to clean the perineum and then the face",
+    "Leaving the bed in the high position after finishing care"
+   ],
+   "correct": [
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Raising the bed to working height protects the UAP's back during care.",
+    "This is correct practice that helps prevent falls.",
+    "Correct. Lying flat during a tube feeding raises the risk of aspiration.",
+    "Confirming identity prevents diet errors and is appropriate.",
+    "Correct. Cleaning moves from clean to dirty areas. Reusing the cloth spreads microorganisms to the face.",
+    "Correct. The bed should be returned to the lowest position to prevent falls."
+   ],
+   "takeaway": "The RN supervises delegated care and intervenes for infection-control lapses, fall hazards and aspiration risks.",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "A medical-surgical RN is assigned a client who is scheduled to receive IV chemotherapy. The nurse has not completed the facility's chemotherapy competency. Which actions by the nurse are appropriate? Select all that apply.",
+   "options": [
+    "Give the chemotherapy while reading the policy step by step",
+    "Ask that a chemotherapy-competent nurse give the infusion",
+    "Tell the charge nurse right away that the nurse is not competent to give chemotherapy",
+    "Ask the UAP to watch the infusion while the nurse cares for other clients",
+    "Provide the client's other care that is within the nurse's competence",
+    "Refuse the whole assignment and leave the unit"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Performing a high-risk task without verified competence puts the client at risk.",
+    "Correct. A qualified nurse can give the drug while the assigned nurse provides other care.",
+    "Correct. The nurse must speak up before care begins so the charge nurse can adjust the plan.",
+    "Monitoring a chemotherapy infusion requires nursing assessment and cannot be delegated to a UAP.",
+    "Correct. The nurse accepts the parts of the assignment that the nurse can perform safely.",
+    "Leaving after accepting a client assignment could be client abandonment."
+   ],
+   "takeaway": "Nurses accept only assignments within their competence, speak up early, and accept the safe parts of an assignment rather than abandoning clients.",
+   "refs": [
+    "ncsbn-testplan",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A nurse manager reviews nurse-sensitive quality indicators to evaluate care on the unit. Which data are examples of these indicators? Select all that apply.",
+   "options": [
+    "Catheter-associated urinary tract infection rates",
+    "Hospital-acquired pressure injuries",
+    "The number of physicians on the medical staff",
+    "Client falls with injury",
+    "Nursing care hours per client day",
+    "Satisfaction with the hospital cafeteria"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Catheter care and timely removal are nursing-driven.",
+    "Correct. Pressure injury prevention depends heavily on nursing care.",
+    "Physician numbers do not measure nursing care quality.",
+    "Correct. Falls with injury are strongly influenced by nursing care and are a standard nurse-sensitive indicator.",
+    "Correct. Staffing measures are structural nurse-sensitive indicators.",
+    "Cafeteria satisfaction does not reflect nursing care."
+   ],
+   "takeaway": "Nurse-sensitive indicators include falls with injury, hospital-acquired pressure injuries, CAUTI rates and nursing hours per client day.",
+   "refs": [
+    "ncsbn-testplan",
+    "npiap"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "Which findings should prompt the nurse to activate the rapid response team? Select all that apply.",
+   "options": [
+    "A client's respiratory rate is 32/min and the client is newly confused",
+    "A client's heart rate is 104/min right after walking and 88/min at rest",
+    "A client's SpO₂ is 86% despite oxygen 4 L/min by nasal cannula",
+    "A client's systolic blood pressure has fallen from 132 to 84 mm Hg",
+    "A client with chronic hypertension has a BP of 152/90 mm Hg and feels well"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Rapid breathing with an acute change in mental status signals deterioration.",
+    "A brief rise with activity that settles at rest is expected.",
+    "Correct. Hypoxemia despite supplemental oxygen requires urgent evaluation.",
+    "Correct. A sudden drop to below 90 mm Hg suggests shock or bleeding.",
+    "This is elevated but not an acute deterioration. It can be reported routinely."
+   ],
+   "takeaway": "Activate the rapid response team for acute changes in breathing, blood pressure, oxygenation or mental status before a client arrests.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A home health RN is planning care for a client with stable heart failure and a healing leg wound. Which tasks can the RN delegate to the home health aide? Select all that apply.",
+   "options": [
+    "Weigh the client and record the weight",
+    "Change the sterile dressing on the leg wound",
+    "Teach the client about a low-sodium diet",
+    "Assess the leg wound for signs of infection",
+    "Help the client shower",
+    "Help the client walk safely around the home"
+   ],
+   "correct": [
+    0,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Measuring and recording weight is routine; the RN interprets the result.",
+    "Sterile wound care with assessment of the wound is not within the aide's role.",
+    "Teaching is an RN responsibility.",
+    "Assessment is an RN responsibility.",
+    "Correct. Hygiene care for a stable client is within the aide's role.",
+    "Correct. Assisting with ambulation for a stable client can be delegated."
+   ],
+   "takeaway": "In home care, aides can perform routine hygiene, mobility and measurements; assessment, sterile wound care and teaching stay with the RN.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A 68-year-old client is going home after an ischemic stroke. The client has right-sided weakness, has trouble swallowing thin liquids, has difficulty dressing, and lives alone in a second-floor apartment. Which referrals are appropriate? Select all that apply.",
+   "options": [
+    "Speech-language pathology",
+    "Respiratory therapy for home ventilator setup",
+    "Social work",
+    "Occupational therapy",
+    "Physical therapy",
+    "Wound care nursing"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. A speech-language pathologist evaluates and treats swallowing problems.",
+    "Nothing suggests the client needs ventilator support.",
+    "Correct. A social worker can arrange home support and services for a client who lives alone.",
+    "Correct. Occupational therapy helps with dressing and other activities of daily living, including adaptive equipment.",
+    "Correct. Physical therapy addresses walking, strength and safely managing stairs.",
+    "The client has no wound described."
+   ],
+   "takeaway": "Match referrals to needs: PT for mobility, OT for daily living, SLP for swallowing and speech, social work for home support.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is planning referrals for several clients. For each client need, indicate the discipline to which the nurse should request a referral.",
+   "rows": [
+    "Needs training to walk safely with a new walker",
+    "Coughs and has a wet voice when drinking after radiation to the neck",
+    "Needs to relearn how to prepare a simple meal safely using one hand",
+    "Has difficulty finding words when speaking (expressive aphasia)",
+    "Needs strengthening to climb the stairs at home"
+   ],
+   "columns": [
+    "Physical therapy",
+    "Occupational therapy",
+    "Speech-language pathology"
+   ],
+   "correct": [
+    0,
+    2,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Physical therapy: gait training and assistive devices for walking.",
+    "Speech-language pathology: coughing and a wet voice with drinking suggest dysphagia, which needs a swallowing evaluation.",
+    "Occupational therapy: retraining in daily living tasks such as meal preparation, including one-handed techniques and adaptive equipment.",
+    "Speech-language pathology: treatment of speech and language disorders.",
+    "Physical therapy: strength, balance and stair training."
+   ],
+   "takeaway": "PT works on walking and strength, OT on daily-living skills and adaptive equipment, and SLP on swallowing and communication.",
+   "refs": [
+    "openstax-medsurg",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "An RN is leading a team with an LPN and a UAP on a medical unit. For each task, indicate the most appropriate team member.",
+   "rows": [
+    "Collect a routine urine specimen from a stable client",
+    "Change a sterile dressing on a healing surgical incision in a stable client",
+    "Assess a client who has just reported new chest pain",
+    "Monitor a client during the first 15 minutes of a blood transfusion",
+    "Give a scheduled subcutaneous enoxaparin injection to a stable client"
+   ],
+   "columns": [
+    "Delegate to UAP",
+    "Assign to LPN",
+    "RN must perform"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    2,
+    1
+   ],
+   "rationales": [
+    "Delegate to UAP: collecting a routine specimen from a stable client is a standard, predictable task.",
+    "Assign to LPN: a sterile dressing change on a stable, healing wound is within LPN/LVN scope; the RN assesses any changes the LPN reports.",
+    "RN must perform: new chest pain is a change in condition that requires RN assessment.",
+    "RN must perform: the first 15 minutes carry the highest risk of a transfusion reaction, so the RN assesses the client during this period.",
+    "Assign to LPN: giving a scheduled subcutaneous medication to a stable client is within LPN/LVN scope."
+   ],
+   "takeaway": "Match tasks to scope: UAPs do routine tasks for stable clients, LPNs give routine medications and treatments to stable clients, and RNs assess changes and monitor high-risk care.",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A UAP reports findings for a client 1 day after a total knee arthroplasty. For each finding, indicate whether it is expected or requires follow-up by the RN.",
+   "rows": [
+    "Temperature 37.6 °C (99.7 °F)",
+    "Urine output of 60 mL over the past 4 hours",
+    "Pain rated 3/10 one hour after an oral analgesic",
+    "New pain and swelling in the calf of the operative leg",
+    "SpO₂ 95% on room air"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Expected: a low-grade temperature is common in the first day after surgery.",
+    "Requires follow-up: this is about 15 mL/hr, below the minimum of 30 mL/hr, and may signal hypovolemia.",
+    "Expected: mild pain after analgesia shows pain is controlled.",
+    "Requires follow-up: these are signs of possible deep vein thrombosis.",
+    "Expected: this oxygen saturation is within the normal range."
+   ],
+   "takeaway": "The RN interprets data the UAP collects; low urine output and calf pain after joint replacement need prompt RN follow-up.",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-046",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "At a train crash, the nurse uses START triage. For each adult victim, indicate the triage category.",
+   "rows": [
+    "Walks to the treatment area with scrapes on both arms",
+    "Cannot walk; RR 20/min; radial pulse present; follows commands",
+    "Cannot walk; RR 36/min",
+    "Cannot walk; RR 24/min; capillary refill 4 seconds"
+   ],
+   "columns": [
+    "Immediate (red)",
+    "Delayed (yellow)",
+    "Minor (green)"
+   ],
+   "correct": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "rationales": [
+    "Minor (green): victims who can walk are tagged green.",
+    "Delayed (yellow): breathing, perfusion and mental status are all adequate.",
+    "Immediate (red): a respiratory rate over 30/min is an immediate criterion.",
+    "Immediate (red): capillary refill over 2 seconds shows poor perfusion."
+   ],
+   "takeaway": "START: walking = green; RR over 30, poor perfusion or unable to follow commands = red; otherwise yellow.",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-047",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "matrix",
+   "stem": "A provider prescribes hydromorphone 10 mg IV every 2 hours as needed for pain for an opioid-naive older adult. For each action, indicate whether it is indicated or not indicated.",
+   "rows": [
+    "Hold the dose and contact the prescriber to clarify",
+    "Check the usual dose range with the pharmacist",
+    "Give half the dose until the prescriber can be reached",
+    "Have another nurse co-sign and give the dose as written",
+    "Use the chain of command if the prescriber will not change the dose without explanation"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Indicated: this dose is far above the usual starting IV dose and could cause fatal respiratory depression.",
+    "Indicated: the pharmacist is a resource for confirming safe dosing.",
+    "Not indicated: the nurse cannot change a dose without a prescription.",
+    "Not indicated: a second signature does not make an unsafe dose safe.",
+    "Indicated: the nurse escalates when an unsafe prescription is not resolved."
+   ],
+   "takeaway": "When a dose seems unsafe, hold it, clarify with the prescriber, use pharmacy as a resource, and escalate if it is not resolved.",
+   "refs": [
+    "ismp-highalert",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-048",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "The nurse receives a telephone prescription from a provider for a client's new medication. Place the nurse's actions in the correct order.",
+   "options": [
+    "Read the full prescription back to the provider",
+    "Receive the provider's confirmation that it is correct",
+    "Document the prescription with a note that it was read back and confirmed",
+    "Write down the complete prescription as the provider gives it"
+   ],
+   "correct": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Second: reading back lets the provider catch any misheard drug, dose or route.",
+    "Third: the provider confirms the read-back before the nurse acts.",
+    "Last: documentation shows the read-back process was completed.",
+    "First: the nurse records the full prescription while listening."
+   ],
+   "takeaway": "For verbal or telephone prescriptions, write it down, read it back, get confirmation, then document.",
+   "refs": [
+    "tjc-npsg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-049",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "order",
+   "stem": "Smoke is entering one client's room on the nurse's unit, and the fire department orders horizontal evacuation. Place the clients in the order they should be moved.",
+   "options": [
+    "Clients who can walk on their own with direction",
+    "The client in the room where smoke is entering",
+    "Clients who are bedbound and need several staff to move",
+    "Clients who need a wheelchair or one staff member to help"
+   ],
+   "correct": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "rationales": [
+    "Second: ambulatory clients can be moved quickly with little staff help.",
+    "First: clients in immediate danger are rescued before anyone else.",
+    "Last: bedbound clients need the most staff and time.",
+    "Third: these clients need some assistance to move."
+   ],
+   "takeaway": "In an evacuation, move clients in immediate danger first, then ambulatory, then assisted, then bedbound clients.",
+   "refs": [
+    "openstax-fund",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:leadership-050",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Leadership & Delegation",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "order",
+   "stem": "After report on a medical-surgical unit, the nurse must see four clients. Place the clients in the order the nurse should see them, from first to last.",
+   "options": [
+    "A client 8 hours after surgery with BP 86/50 mm Hg and HR 122/min",
+    "A client with diabetes who is alert and has a blood glucose of 64 mg/dL",
+    "A client 2 days after surgery who rates pain 7/10 and is due for an analgesic",
+    "A client receiving an IV antibiotic who now has wheezing and throat tightness"
+   ],
+   "correct": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Second: hypotension and tachycardia suggest bleeding or shock (circulation).",
+    "Third: hypoglycemia needs prompt treatment, but the client is alert and can take oral carbohydrates.",
+    "Last: pain needs attention but is not life-threatening.",
+    "First: these are signs of anaphylaxis, a threat to the airway."
+   ],
+   "takeaway": "Prioritize airway, then breathing and circulation, then other acute physiologic problems, then comfort needs.",
+   "refs": [
+    "ncsbn-testplan",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

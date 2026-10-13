@@ -38,8 +38,8 @@ the paywall shows it automatically, only to shoppers the store says are eligible
 
 | Free | Pro |
 |---|---|
-| NCLEX Must-Know chapter, the first section of every book chapter, 10 questions per NCLEX topic (about 400 questions) | All 2,500 questions |
-| 1 NGN case study | All 20 NGN case studies |
+| NCLEX Must-Know chapter, the first section of every book chapter, 10 questions per NCLEX topic (about 400 questions) | All 3,200 questions (982 in NGN formats) |
+| 1 NGN case study | All 30 NGN case studies |
 | Tutor mode | Tutor mode, timed exams and the 75-question NCLEX blueprint exam |
 | The book's opening pages and the first page of each chapter | The complete book reader |
 | Progress, study plan, bookmarks, missed-question review (of free questions) | Everything, across the full bank |

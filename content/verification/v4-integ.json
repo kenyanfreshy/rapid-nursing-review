@@ -1,0 +1,64 @@
+{
+ "file": "content/nclex/v4/integ.json",
+ "reviewed": 50,
+ "ok": 39,
+ "fixed": 8,
+ "rewritten": 3,
+ "items": [
+  {
+   "id": "rnr:integ-014",
+   "status": "rewritten",
+   "note": "The evisceration actions it tested duplicate two existing bank items (nb:nb-integ-06, nb:u2-rrp-018). Rewritten on the same topic area (complex wound care) as a matrix on negative pressure wound therapy safety: bleeding, interrupted therapy over 2 hours, seal leaks, continuous use, drainage monitoring."
+  },
+  {
+   "id": "rnr:integ-031",
+   "status": "rewritten",
+   "note": "Same fact as existing bank item nb:nb26-infx-046 (recombinant zoster vaccine, 2 doses, even after prior shingles, for a 62-year-old). Rewritten as a home-teaching item on zoster transmission to a nonimmune pregnant family member (cover the rash, avoid contact until crusted); key stays at position 1."
+  },
+  {
+   "id": "rnr:integ-043",
+   "status": "rewritten",
+   "note": "Same fact and near-identical options as existing bank item nb:nb26-gios-030 (topical steroid for eczema; plastic-wrap occlusion statement needs teaching). Rewritten as an oral terbinafine (onychomycosis) need-for-teaching item: full 12-week course, liver injury signs, taste disturbance; key stays at position 3."
+  },
+  {
+   "id": "rnr:integ-015",
+   "status": "fixed",
+   "note": "Added aba-abls reference (escharotomy and circumferential burn monitoring are ABLS content)."
+  },
+  {
+   "id": "rnr:integ-017",
+   "status": "fixed",
+   "note": "Added aba-abls reference (carbon monoxide and inhalation injury)."
+  },
+  {
+   "id": "rnr:integ-018",
+   "status": "fixed",
+   "note": "Added aba-abls reference and stated in the keyed rationale that the formula only sets the starting rate, which is then titrated to urine output (current ABLS teaching)."
+  },
+  {
+   "id": "rnr:integ-019",
+   "status": "fixed",
+   "note": "Added aba-abls reference (urine output target 0.5 mL/kg/h)."
+  },
+  {
+   "id": "rnr:integ-025",
+   "status": "fixed",
+   "note": "Added aba-abls reference (ABLS primary survey sequence)."
+  },
+  {
+   "id": "rnr:integ-027",
+   "status": "fixed",
+   "note": "Added aba-abls reference (fluid remobilization phase)."
+  },
+  {
+   "id": "rnr:integ-050",
+   "status": "fixed",
+   "note": "The stem asks what the nurse should do, so the CJMM label was changed from recognizeCues to takeAction."
+  },
+  {
+   "id": "rnr:integ-045",
+   "status": "fixed",
+   "note": "Choosing a therapeutic response is a nursing action, so the CJMM label was changed from analyzeCues to takeAction."
+  }
+ ]
+}

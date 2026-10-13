@@ -1,0 +1,1583 @@
+{
+ "topic": "ethics",
+ "questions": [
+  {
+   "id": "rnr:ethics-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A nurse in an outpatient clinic is reviewing which minors can consent to their own care. For each situation, indicate whether the minor may consent or whether parent or guardian consent is needed.",
+   "takeaway": "Emancipated minors (by court order, marriage or military service) and minors seeking certain services, such as STI care, can consent; otherwise a parent or guardian consents.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "rows": [
+    "A 16-year-old who requests testing and treatment for a sexually transmitted infection",
+    "A 15-year-old who wants elective cosmetic surgery on the nose",
+    "A 17-year-old on active duty in the U.S. military who needs knee surgery",
+    "A 14-year-old who is scheduled for a tonsillectomy"
+   ],
+   "columns": [
+    "Minor may consent",
+    "Parent or guardian consent needed"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Minor may consent: every U.S. state allows minors to consent to testing and treatment for sexually transmitted infections; the few states that set a minimum age set it below 16.",
+    "Parent or guardian consent needed: elective procedures for an unemancipated minor require parental consent.",
+    "Minor may consent: minors on active military duty are treated as emancipated and may consent to their own care.",
+    "Parent or guardian consent needed: routine surgery for an unemancipated minor requires parental consent."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "matrix",
+   "stem": "A 78-year-old client admitted with pneumonia has a do-not-resuscitate (DNR) and do-not-intubate (DNI) order but has asked for all other treatment. For each action, indicate whether it is consistent or not consistent with the client's orders.",
+   "takeaway": "DNR and DNI orders limit only CPR and intubation; all other wanted care continues.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "rows": [
+    "Give IV antibiotics for the pneumonia",
+    "Begin chest compressions if the client becomes pulseless",
+    "Apply oxygen by nasal cannula for an SpO₂ of 88%",
+    "Intubate the client for worsening respiratory failure",
+    "Give the prescribed opioid for pleuritic chest pain"
+   ],
+   "columns": [
+    "Consistent with the orders",
+    "Not consistent with the orders"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Consistent: a DNR/DNI order does not limit other treatments the client wants, such as antibiotics.",
+    "Not consistent: a DNR order means CPR, including chest compressions, is not performed.",
+    "Consistent: supplemental oxygen is not intubation and fits the client's wishes.",
+    "Not consistent: the DNI order means the client is not intubated.",
+    "Consistent: comfort and symptom treatment continue for every client."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "The nurse is reviewing ethical principles with nursing students. For each nursing action, indicate the principle it best demonstrates.",
+   "takeaway": "Autonomy is self-determination, beneficence is doing good, and justice is fair distribution of care.",
+   "refs": [
+    "ana-ethics"
+   ],
+   "rows": [
+    "Honoring an alert client's decision to stop dialysis",
+    "Assigning the last ICU bed by medical need rather than insurance status",
+    "Repositioning and medicating a client in pain to promote comfort",
+    "Supporting a client's choice to go home rather than to a rehabilitation facility"
+   ],
+   "columns": [
+    "Autonomy",
+    "Beneficence",
+    "Justice"
+   ],
+   "correct": [
+    0,
+    2,
+    1,
+    0
+   ],
+   "rationales": [
+    "Autonomy: a client with capacity has the right to make decisions about their own care, including stopping treatment.",
+    "Justice: fair distribution of limited resources is based on need, not on social or financial status.",
+    "Beneficence: actively doing good for the client, such as relieving pain.",
+    "Autonomy: respecting the client's self-determination about where to recover."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "matrix",
+   "stem": "A nurse educator is evaluating new nurses' understanding of professional boundaries using actions they describe from practice. For each action, indicate whether it is within professional boundaries or a boundary violation.",
+   "takeaway": "Professional boundaries keep the relationship focused on the client's needs; personal, secret or financial ties are violations.",
+   "refs": [
+    "ncsbn-boundaries",
+    "ana-ethics"
+   ],
+   "rows": [
+    "Accepting a handmade thank-you card from a client at discharge",
+    "Giving a client a personal cell phone number to text after discharge",
+    "Sharing a brief, relevant personal experience to support a client, then refocusing on the client",
+    "Agreeing to keep a client's secret from the rest of the care team",
+    "Lending money to a client who cannot afford a prescription"
+   ],
+   "columns": [
+    "Within professional boundaries",
+    "Boundary violation"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Within boundaries: a small, personal token of thanks is generally acceptable within agency policy.",
+    "Boundary violation: personal contact outside the professional role creates a social relationship.",
+    "Within boundaries: brief self-disclosure used for the client's benefit, followed by refocusing on the client, is acceptable.",
+    "Boundary violation: secrets from the team can harm the client and blur the nurse's role.",
+    "Boundary violation: a financial relationship with a client meets the nurse's or client's personal needs outside the therapeutic role; social services can help instead."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "order",
+   "stem": "During a central venous catheter insertion at the bedside, the nurse sees that the provider is not using a full-body sterile drape. Using the CUS method of speaking up, place the nurse's actions in the order they should occur.",
+   "takeaway": "Speak up with CUS (Concerned, Uncomfortable, Safety issue) and escalate through the chain of command if the risk is not corrected.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "options": [
+    "Say, \"This is a safety issue. We need to stop until a full sterile drape is in place.\"",
+    "Say, \"I'm concerned that a full sterile drape isn't being used.\"",
+    "If the concern is still not addressed, use the chain of command, such as calling the charge nurse or supervisor",
+    "Say, \"I'm uncomfortable continuing without a full sterile drape.\""
+   ],
+   "correct": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Third: stating that it is a safety issue and asking to stop is the strongest level of the CUS script.",
+    "First: \"I'm concerned\" opens the conversation by naming the specific problem.",
+    "Last: if the risk is still not corrected, the nurse escalates through the chain of command rather than letting an unsafe procedure continue.",
+    "Second: \"I'm uncomfortable\" signals that the concern is serious and has not been resolved."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "order",
+   "stem": "A client who speaks Vietnamese and has limited English proficiency is scheduled for surgery. Place the steps of the informed consent process in the correct order.",
+   "takeaway": "Informed consent: qualified interpreter, provider explanation, confirmed understanding, client signature, then nurse witness.",
+   "refs": [
+    "openstax-fund",
+    "tjc-npsg"
+   ],
+   "options": [
+    "The client explains the procedure back in their own words and has questions answered",
+    "The nurse signs the form as a witness to the client's signature",
+    "Confirm the client's identity with two identifiers and that a qualified medical interpreter is present",
+    "The client signs the consent form",
+    "The surgeon explains the procedure, risks, benefits and alternatives through the interpreter"
+   ],
+   "correct": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "rationales": [
+    "Third: teach-back confirms understanding before the client signs.",
+    "Last: the nurse's signature witnesses that the client signed voluntarily.",
+    "First: correct identification and a qualified interpreter are needed before any explanation begins.",
+    "Fourth: the client signs only after understanding the information.",
+    "Second: the provider performing the procedure is responsible for giving the information needed for consent."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "Near the end of the shift, a coworker asks the nurse to co-sign in the electronic record a hydromorphone waste that the coworker says was done 2 hours earlier. The nurse did not see the waste. Which response by the nurse is best?",
+   "takeaway": "Co-sign only what you personally witnessed; an unwitnessed controlled-substance waste is reported according to policy.",
+   "refs": [
+    "ana-ethics",
+    "ismp-highalert"
+   ],
+   "options": [
+    "\"I'll co-sign it since I trust you, but please find me next time.\"",
+    "\"I can't co-sign a waste I didn't see. Let's ask the charge nurse what policy requires now.\"",
+    "\"I'll co-sign it if you show me the empty syringe in the sharps container.\"",
+    "\"Ask a nurse who was here 2 hours ago to co-sign it instead.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Co-signing a waste that was not witnessed falsifies the record and can hide drug diversion.",
+    "Correct. A witness signature means the nurse saw the waste; the nurse declines and the discrepancy is handled through the charge nurse and policy, which may include a pharmacy review.",
+    "An empty syringe seen later does not verify the amount that was wasted.",
+    "Anyone who did not see the waste would also be falsifying the record."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The nurse is using a qualified medical interpreter to complete an admission assessment. Which actions by the nurse are appropriate? Select all that apply.",
+   "takeaway": "With interpreters: speak to the client, use short segments, require complete interpretation, allow time and document the interpreter.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "Speak directly to the client rather than to the interpreter",
+    "Use short sentences and pause so the interpreter can relay each part",
+    "Ask the client's 12-year-old daughter to interpret to save time",
+    "Document the interpreter's name or ID number",
+    "Ask the interpreter to summarize the client's answers briefly",
+    "Allow extra time for the assessment"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Addressing the client directly keeps the client at the center of the conversation.",
+    "Correct. Short segments improve accuracy.",
+    "Children and family members should not interpret clinical information because of errors, emotional burden and privacy concerns.",
+    "Correct. Documentation shows a qualified interpreter was used.",
+    "Interpreters should relay everything said, not summarize, so no information is lost.",
+    "Correct. Interpreted conversations take longer; rushing increases errors."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A nurse educator is reviewing the state nurse practice act with new graduates. Which actions are grounds for disciplinary action by a board of nursing? Select all that apply.",
+   "takeaway": "Boards of nursing discipline unlicensed practice, falsified records, drug diversion and sexual boundary violations; speaking up and practicing within competence are expected duties.",
+   "refs": [
+    "ncsbn-testplan",
+    "ncsbn-boundaries"
+   ],
+   "options": [
+    "Working as an RN after the nursing license has expired",
+    "Documenting an assessment that was not performed",
+    "Reporting a coworker's unsafe practice to the nurse manager",
+    "Taking a client's leftover opioid tablets home for personal use",
+    "Declining an assignment beyond the nurse's competence and notifying the charge nurse",
+    "Starting a dating relationship with a current client"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Practicing without a current, valid license is unlicensed practice.",
+    "Correct. Falsifying records is unprofessional conduct and grounds for discipline.",
+    "Reporting unsafe practice through the proper channel is an expected professional duty.",
+    "Correct. Diverting controlled substances is grounds for discipline and may also be a crime.",
+    "Stating limits of competence and working with the charge nurse is safe, expected practice.",
+    "Correct. A romantic or sexual relationship with a current client is a serious boundary violation."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "A nurse manager is concerned that a nurse may be diverting opioids. Which findings support this concern? Select all that apply.",
+   "takeaway": "Diversion signs include unwitnessed wastes, poor pain relief for the nurse's clients, volunteering to give opioids and unexplained absences.",
+   "refs": [
+    "ana-ethics",
+    "ncsbn-testplan"
+   ],
+   "options": [
+    "Frequent opioid wastes with no witness documented",
+    "Clients consistently report poor pain relief when this nurse is assigned",
+    "Documents pain reassessments promptly after each dose",
+    "Often volunteers to give opioids to other nurses' clients",
+    "Frequent, unexplained absences from the unit during shifts",
+    "Asks the pharmacist about a new drug's dosing"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Unwitnessed or frequent wasting is a common sign of diversion.",
+    "Correct. Poor pain relief may mean the client did not receive the full dose.",
+    "Prompt reassessment is good practice.",
+    "Correct. Volunteering to give others' opioids can be a diversion pattern.",
+    "Correct. Unexplained absences may indicate drug use during the shift.",
+    "Asking about dosing is appropriate, safe practice."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A nurse wants to practice cultural humility when caring for clients from different backgrounds. Which actions reflect this approach? Select all that apply.",
+   "takeaway": "Cultural humility means asking rather than assuming, reflecting on your own biases and adapting care to each person.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "Ask the client what they think caused their illness",
+    "Ask about food, religious or modesty preferences",
+    "Assume the client holds the beliefs typical of their ethnic group",
+    "Reflect on one's own biases and how they may affect care",
+    "Use a qualified interpreter for clients with limited English proficiency",
+    "Treat every client in the same way regardless of their preferences"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Asking about the client's own explanation of illness respects their perspective and guides care.",
+    "Correct. Asking about preferences avoids assumptions and supports individualized care.",
+    "Stereotyping ignores individual differences within any group.",
+    "Correct. Ongoing self-reflection is central to cultural humility.",
+    "Correct. Language access is necessary for safe, respectful care.",
+    "Identical care ignores individual needs and values; equitable care is individualized."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "The family of a client with advanced heart failure asks the nurse about palliative care. Which statements by the nurse are accurate? Select all that apply.",
+   "takeaway": "Palliative care relieves symptoms at any stage of serious illness and can go alongside curative treatment; hospice is for end of life.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "\"Palliative care can be given at the same time as treatment aimed at your illness.\"",
+    "\"Palliative care focuses on relieving symptoms such as breathlessness and pain.\"",
+    "\"Your father must have a do-not-resuscitate order to receive palliative care.\"",
+    "\"Palliative care also supports family members.\"",
+    "\"Palliative care is only for people expected to live 6 months or less.\"",
+    "\"Palliative care can start at any stage of a serious illness.\""
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Palliative care can accompany curative or life-prolonging treatment.",
+    "Correct. Symptom relief is a core focus.",
+    "A DNR order is not required for palliative care.",
+    "Correct. Palliative care addresses the needs of the family as well as the client.",
+    "The 6-month prognosis applies to hospice eligibility, not palliative care.",
+    "Correct. Palliative care can begin at diagnosis of a serious illness."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A nurse educator is evaluating new nurses' understanding of professional accountability as described in the ANA Code of Ethics. Which statements indicate correct understanding? Select all that apply.",
+   "takeaway": "Nurses are accountable for their own actions, must keep competence current, care for themselves and speak up about unsafe practice.",
+   "refs": [
+    "ana-ethics",
+    "ncsbn-testplan"
+   ],
+   "options": [
+    "\"I'm responsible for my own nursing actions, even when I'm carrying out a provider's order.\"",
+    "\"If the provider wrote the order, only the provider is liable if it causes harm.\"",
+    "\"Keeping my knowledge and skills current is part of my professional duty.\"",
+    "\"Getting enough rest between shifts is part of giving safe care.\"",
+    "\"I can perform a skill I've only read about if the unit is short-staffed.\"",
+    "\"Speaking up about unsafe practices on my unit is part of my duty to clients.\""
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Nurses are accountable for their own judgments and actions, including carrying out an order they should have questioned.",
+    "Nurses share responsibility; carrying out an unsafe order does not shift all liability to the provider.",
+    "Correct. Maintaining competence through continuing learning is a professional obligation.",
+    "Correct. The Code includes duties to self, such as rest and self-care, because fatigue threatens safe practice.",
+    "Performing a skill without supervised training is outside the nurse's competence and unsafe regardless of staffing.",
+    "Correct. Nurses must act to protect clients' safety, including reporting unsafe practice."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "sata",
+   "stem": "The nurse is preparing to witness consent forms for several clients. Which situations should the nurse report to the provider because the consent may not be valid? Select all that apply.",
+   "takeaway": "Valid consent requires capacity, legal authority and a voluntary decision based on understanding.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "An adult client who has a court-appointed guardian for health care decisions plans to sign the form himself",
+    "A 16-year-old who is not emancipated plans to sign for elective surgery",
+    "A client says, \"I'm only signing because my wife wants me to.\"",
+    "A client used a qualified interpreter and correctly explained the procedure back",
+    "A client asked the surgeon a question about recovery and was given a clear answer"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Correct. When a court has appointed a guardian for health care decisions, the guardian gives legal consent; the client is still included in the discussion.",
+    "Correct. An unemancipated minor generally cannot consent to elective surgery; a parent or guardian must consent.",
+    "Correct. Consent must be voluntary; signing under pressure from another person calls this into question.",
+    "Using a qualified interpreter and confirming understanding supports valid consent.",
+    "Asking questions and receiving answers is part of a valid consent process."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "An alert, oriented client refuses a prescribed blood transfusion after hearing the risks of refusing. Which information should the nurse document? Select all that apply.",
+   "takeaway": "Document an informed refusal with the client's words, the teaching given, provider notification and any required form.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "The client's own words explaining the refusal",
+    "The information given to the client about the risks of refusing",
+    "That the client is \"uncooperative and difficult\"",
+    "That the provider was notified of the refusal",
+    "The client's signature on a refusal-of-treatment form, per agency policy",
+    "Nothing, because the treatment was not given"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Quoting the client documents the decision accurately.",
+    "Correct. Recording the teaching shows the refusal was informed.",
+    "Judgmental labels are not objective and should never be charted.",
+    "Correct. The provider must know so the plan can be changed.",
+    "Correct. A signed refusal form confirms the informed decision when policy requires it.",
+    "Refusals must be documented to show the client was informed and the team was notified."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse who is angry with a coworker tells several visitors in the hospital cafeteria that the coworker \"comes to work high and steals clients' pain pills.\" The statement is false. Which legal wrong has the nurse committed?",
+   "takeaway": "Defamation is a false statement shared with others that harms someone's reputation: slander if spoken, libel if written.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Defamation",
+    "Assault",
+    "Invasion of privacy",
+    "Negligence"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A false statement shared with others that damages a person's reputation is defamation; spoken defamation is called slander.",
+    "Assault is a threat that makes a person fear harmful contact; no threat was made.",
+    "Invasion of privacy involves disclosing private information or intruding on privacy; here the problem is a false, damaging statement.",
+    "Negligence is a failure to meet a standard of care that harms a client; no client care is involved."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An unconscious adult client with internal bleeding after a car crash needs emergency surgery. No family can be reached, and there is no advance directive. Which action is appropriate?",
+   "takeaway": "In a true emergency with no available surrogate, implied consent allows lifesaving treatment; document the emergency.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "Obtain a court order before surgery",
+    "Ask two nurses to sign the consent form on the client's behalf",
+    "Proceed with surgery under the emergency exception, and document the circumstances",
+    "Delay surgery until a family member can be reached"
+   ],
+   "correct": 2,
+   "rationales": [
+    "A court order takes time and is not required in an emergency.",
+    "Nurses cannot consent for a client.",
+    "Correct. In a life-threatening emergency, consent is implied when the client cannot consent and no surrogate is available; the emergency must be documented.",
+    "Delaying lifesaving surgery could cause death."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A well-known musician is admitted to the cardiac unit. A nurse on the orthopedic unit tells a coworker, \"I just looked at her chart to see why she's here.\" Which action should the coworker take?",
+   "takeaway": "Accessing a record without a work-related need violates privacy and must be reported, even if nothing is shared.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "Ignore it because the nurse is a hospital employee",
+    "Report the access to the supervisor or privacy officer according to policy",
+    "Ask the nurse what the chart said",
+    "Remind the nurse not to share what she learned with anyone"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Employees may access records only when needed for their job.",
+    "Correct. Viewing a record without a work-related reason is a privacy violation that must be reported.",
+    "Asking for details adds to the breach.",
+    "A reminder does not address the breach, which still needs to be reported."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "Two weeks after discharge, a former client sends a nurse a friend request on a social media site. Which action by the nurse is appropriate?",
+   "takeaway": "Decline social media connections with clients and former clients to keep professional boundaries.",
+   "refs": [
+    "ncsbn-boundaries",
+    "ana-ethics"
+   ],
+   "options": [
+    "Accept the request because the client is no longer in the nurse's care",
+    "Accept the request but avoid posting about work",
+    "Send a message asking how the client is feeling",
+    "Decline the request and do not start a personal online relationship"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Discharge does not end the boundary concerns that come from the nurse-client relationship.",
+    "Accepting still creates a personal relationship.",
+    "Starting a personal conversation through social media is a boundary crossing.",
+    "Correct. Personal online relationships with clients or former clients blur professional boundaries."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client admitted with pneumonia tells the nurse she wants her partner of 12 years, a woman, to visit and to be her support person. The client's parents ask the nurse to keep the partner out because \"she isn't family.\" The client is alert and has decision-making capacity. Which action by the nurse is best?",
+   "takeaway": "A client with capacity chooses visitors and a support person; visitation may not be limited because of sexual orientation or relationship type.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "Ask the parents and the partner to agree on a visiting schedule first",
+    "Allow only the parents to visit because they are legal next of kin",
+    "Honor the client's choice and record the partner as her support person",
+    "Ask the provider to decide who may visit the client"
+   ],
+   "correct": 2,
+   "rationales": [
+    "The client, not her family, decides who visits; requiring the family's agreement overrides her choice.",
+    "Visitation is not limited to legal relatives; a client with capacity chooses her own visitors.",
+    "Correct. Clients have the right to choose their visitors and support person, and hospitals may not restrict visitation because of sex, gender identity or sexual orientation.",
+    "Visitation is not a medical decision; the client's own choice governs it."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A nurse tells the charge nurse, \"I don't want to take the client in room 12. He has HIV, and I'm afraid of catching it.\" Which response by the charge nurse is best?",
+   "takeaway": "Nurses may not refuse care because of a client's diagnosis; standard precautions protect against bloodborne pathogens such as HIV.",
+   "refs": [
+    "ana-ethics",
+    "cdc-isolation"
+   ],
+   "options": [
+    "\"Standard precautions protect you, and he deserves the same care as any client.\"",
+    "\"I'll reassign him so you feel more comfortable today.\"",
+    "\"Wear a gown, gloves and mask whenever you are in his room.\"",
+    "\"You can trade clients with another nurse if someone agrees.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The ANA Code calls for care of every person without prejudice; standard precautions prevent bloodborne transmission, and education addresses the nurse's fear.",
+    "Reassigning because of a diagnosis supports discrimination and leaves the nurse's misinformation uncorrected.",
+    "HIV requires only standard precautions; full PPE for every contact is unnecessary and stigmatizing.",
+    "Trading still allows a diagnosis-based refusal to stand."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A nurse gave a client 10 times the prescribed dose of a medication. The error was found right away, the client was monitored closely, and no harm occurred. The client later files a malpractice lawsuit. Which element of malpractice is most likely missing?",
+   "takeaway": "Malpractice requires duty, breach, causation and damages; without harm there are no damages.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Foreseeability",
+    "Damages",
+    "Duty",
+    "Breach of duty"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Harm from a large overdose is foreseeable, even though none occurred here.",
+    "Correct. Malpractice requires actual harm (damages); without injury, a claim is unlikely to succeed.",
+    "The nurse had a duty because she was caring for the client.",
+    "Giving the wrong dose is a breach of the standard of care."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A 70-year-old client who had surgery yesterday is disoriented, mistakes the nurse for her sister and drifts in and out of sleep. She is scheduled to sign consent for an elective procedure today. Which action by the nurse is best?",
+   "takeaway": "Capacity is assessed at the time of consent; report new confusion and delay elective consent.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "Have the client sign while she is awake, because she was alert yesterday",
+    "Ask the client's daughter to sign the form right away",
+    "Witness the signature and document the client's confusion",
+    "Hold off on the consent and notify the provider of the change in mental status"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Capacity is judged at the time of consent; earlier alertness does not make consent valid now.",
+    "A surrogate is used only after the provider determines that the client lacks capacity, and the change in status needs evaluation.",
+    "Witnessing a signature from a confused client allows invalid consent.",
+    "Correct. The client's current condition suggests she lacks capacity; the provider must be informed and the elective procedure delayed."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A discharge planning nurse's sister owns a home health agency. A client needs home health services after discharge. Which action by the nurse is appropriate?",
+   "takeaway": "Manage conflicts of interest by disclosing them and giving clients unbiased choices.",
+   "refs": [
+    "ana-ethics"
+   ],
+   "options": [
+    "Give the client a list of qualified agencies and disclose the family relationship",
+    "Refer the client to the sister's agency because the nurse knows its quality",
+    "Avoid mentioning home health so there is no conflict",
+    "Ask the sister to call the client directly"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Disclosing the conflict and letting the client choose from options protects the client's interests and autonomy.",
+    "Steering clients toward a business connected to the nurse is a conflict of interest.",
+    "Withholding needed services harms the client.",
+    "Arranging direct contact advances the nurse's personal interest."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A hospice client with lung cancer has severe breathlessness. The nurse gives the prescribed morphine titrated to relieve dyspnea, knowing it may cause some sedation. Which ethical principle supports this action?",
+   "takeaway": "Double effect supports titrating opioids to relieve suffering at end of life even if sedation is a foreseen effect.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "Utilitarianism",
+    "Veracity",
+    "Principle of double effect",
+    "Paternalism"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Utilitarianism seeks the greatest good for the greatest number, not individual symptom relief.",
+    "Veracity is truth-telling.",
+    "Correct. Double effect permits an action intended to relieve suffering even when an unintended effect, such as sedation, is foreseen, as long as the dose is proportionate to the symptom.",
+    "Paternalism overrides a person's choices for their supposed good, which is not the situation here."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client with a living will that refuses mechanical ventilation is now alert and oriented. She tells the nurse, \"I've changed my mind. If I can't breathe, I want to be put on a ventilator.\" Which action should the nurse take?",
+   "takeaway": "A client with capacity may change or revoke an advance directive at any time; current wishes guide care.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "Wait until the client has been discharged to discuss it",
+    "Notify the provider so the client's new wishes are documented and the orders updated",
+    "Explain that the living will is legally binding and cannot be changed",
+    "Ask the family whether they agree with the change"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The client's wishes must be documented now in case she needs urgent care.",
+    "Correct. A client with capacity can revoke or change an advance directive at any time, and current wishes guide care.",
+    "Advance directives can be revoked at any time by a client with capacity.",
+    "The client's own decision does not require family agreement."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A surgeon is running late and asks the nurse to explain the risks of the client's surgery and have the client sign the consent form. Which response by the nurse is best?",
+   "takeaway": "The provider explains the procedure and obtains informed consent; the nurse witnesses the signature.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "\"I'll explain the risks using the hospital's handout and get the signature.\"",
+    "\"I'll have the client sign now, and you can explain the risks after surgery.\"",
+    "\"I'll ask the anesthesia provider to explain the surgical risks.\"",
+    "\"Explaining the risks needs to come from you. I can witness the signature after you talk with the client.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "A handout does not replace the provider's explanation and the chance to ask questions.",
+    "Consent must be informed before the procedure, not after.",
+    "The surgeon, not the anesthesia provider, explains the risks of the surgery.",
+    "Correct. The provider performing the procedure is responsible for explaining it; the nurse witnesses the signature and confirms understanding."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A 9-year-old needs urgent surgery for a fractured arm. The child's mother is traveling and can be reached only by phone. Which action should the nurse take to obtain consent?",
+   "takeaway": "When a parent can't be present, telephone consent is witnessed by two licensed staff and documented per policy.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Have two licensed staff members listen to the mother's verbal consent and sign as witnesses, per policy",
+    "Have the child sign the consent form",
+    "Wait until the mother returns home",
+    "Ask the child's 16-year-old sibling to sign the form"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Telephone consent from a parent is acceptable when witnessed by two licensed staff and documented per agency policy.",
+    "A 9-year-old cannot legally consent to surgery.",
+    "Delaying urgent surgery could harm the child.",
+    "A minor sibling does not have legal authority to consent."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An 81-year-old client who now lacks capacity needs a decision about a feeding tube. Her son has a durable power of attorney for finances and says, \"I handle all of Mom's affairs, so I'll decide.\" Which response by the nurse is best?",
+   "takeaway": "A financial power of attorney does not grant authority to make health care decisions.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "options": [
+    "\"Only a judge can make this decision.\"",
+    "\"The provider will make the decision for her.\"",
+    "\"A financial power of attorney doesn't give authority for health care decisions. Let's check whether she named a health care agent.\"",
+    "\"Since you manage her affairs, you can make this decision.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "A court is not needed when a health care agent or legal surrogate is available.",
+    "Providers make recommendations; decisions belong to the client's authorized surrogate.",
+    "Correct. A financial power of attorney covers money matters only; health care decisions belong to a health care agent or a legal surrogate under state law.",
+    "Authority for finances does not extend to medical decisions."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An alert client refused an indwelling urinary catheter. The nurse inserts it anyway because the client \"needs accurate output.\" Which legal wrong has the nurse most likely committed?",
+   "takeaway": "Performing a procedure a competent client has refused is battery.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Defamation",
+    "Battery",
+    "Assault",
+    "False imprisonment"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Defamation is false statements that damage a person's reputation.",
+    "Correct. Battery is touching a person without consent, such as performing a procedure the client refused.",
+    "Assault is a threat that makes a person fear harmful contact; here the contact occurred.",
+    "False imprisonment is unjustified restriction of a person's freedom of movement."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "An alert, oriented client tells the nurse he wants to leave the hospital against medical advice. Which action by the nurse could be considered false imprisonment?",
+   "takeaway": "Restricting a competent client's freedom to leave without legal authority is false imprisonment.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Explaining the risks of leaving before treatment is complete",
+    "Asking the client to sign an against-medical-advice form",
+    "Notifying the provider that the client wants to leave",
+    "Hiding the client's clothes so he cannot leave"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Explaining risks is part of informed decision-making.",
+    "Asking for a signature is standard; the client may refuse to sign.",
+    "Notifying the provider is appropriate.",
+    "Correct. Preventing a competent client from leaving, without legal authority, is false imprisonment."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A client on a ventilator has no advance directive. His three adult children disagree with each other and with the team about continuing life support. Several family meetings have not resolved the conflict. Which action should the nurse take next?",
+   "takeaway": "Request an ethics consultation when conflict about care continues after good-faith family meetings.",
+   "refs": [
+    "ana-ethics"
+   ],
+   "options": [
+    "Request an ethics consultation",
+    "Follow the wishes of the oldest child",
+    "Continue current care without further discussion",
+    "Tell the family the team will make the decision"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. An ethics committee helps clarify values, the client's likely wishes and options when conflict remains.",
+    "Birth order does not determine decision-making authority.",
+    "Avoiding the conflict leaves the issue unresolved and the family unsupported.",
+    "Excluding the family ignores the client's values and the surrogate's role."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "Which action by a nurse is most likely to be considered client abandonment?",
+   "takeaway": "Abandonment is leaving clients after accepting responsibility without handing off care.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "Going on a scheduled break after handing off clients to another RN",
+    "Telling the manager that she cannot work overtime after a 12-hour shift",
+    "Leaving the unit in the middle of a shift without giving report after accepting the assignment",
+    "Calling the staffing office to report illness before the shift, per policy"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Handing off care to a qualified nurse is appropriate.",
+    "Declining overtime before accepting the assignment is not abandonment.",
+    "Correct. Abandonment occurs when a nurse accepts responsibility for clients and leaves without arranging for their care.",
+    "Calling in sick according to policy before accepting an assignment is not abandonment."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A provider prescribes a normal saline injection as a placebo for a client's pain and tells the nurse not to tell the client what it is. Which action by the nurse is best?",
+   "takeaway": "Deceptive placebo use violates truth-telling and consent; question the order and advocate for pain relief.",
+   "refs": [
+    "ana-ethics"
+   ],
+   "options": [
+    "Ask the client's family whether they agree with the plan",
+    "Contact the provider to question the order because giving a placebo without consent is deceptive",
+    "Give the injection as prescribed and document the client's response",
+    "Give the injection and tell the client it is a strong pain medicine"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The family cannot consent to deceiving a client who has capacity.",
+    "Correct. Using a deceptive placebo violates veracity and informed consent and can leave pain undertreated; the nurse questions the order.",
+    "Following the order participates in deception.",
+    "Lying to the client violates veracity and damages trust."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A client enrolled in a clinical drug trial tells the nurse, \"I want to quit the study, but I'm afraid they'll stop treating me.\" Which response by the nurse is accurate?",
+   "takeaway": "Research participation is voluntary, and clients may withdraw at any time without losing standard care.",
+   "refs": [
+    "ana-ethics"
+   ],
+   "options": [
+    "\"You signed a contract, so you need to finish the study.\"",
+    "\"If you leave, you will need to find a new provider.\"",
+    "\"You can leave, but only after the next scheduled dose.\"",
+    "\"You can leave the study at any time, and you will still receive your usual care.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Consent to research is not a binding contract; participation is voluntary.",
+    "Leaving a study does not affect access to the client's usual care.",
+    "There is no requirement to take another dose before withdrawing.",
+    "Correct. Research participants may withdraw at any time without penalty or loss of standard care."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "While the nurse is giving morning medications, the client says, \"That white pill is new. I've never taken it before.\" Which action should the nurse take?",
+   "takeaway": "When a client questions a medication, stop and verify it before giving it.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "options": [
+    "Explain that the pharmacy often switches to a different brand",
+    "Encourage the client to take it because the barcode scanned correctly",
+    "Give the other pills and document that the client refused this one",
+    "Hold the pill and recheck the prescription and medication record"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Assuming a brand change dismisses a possible error before it is checked.",
+    "Barcode scanning reduces errors but does not catch every one, such as a wrong prescription entry.",
+    "The client questioned the pill rather than refusing it, and the concern still needs to be checked.",
+    "Correct. A client's question about an unfamiliar medication is a safety cue; the nurse holds the dose and verifies it against the prescription before giving it."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A provider writes a prescription for \"soft wrist restraints PRN for agitation\" for a client who keeps pulling at an IV line. Which action by the nurse is appropriate?",
+   "takeaway": "Restraint orders must be specific and time-limited; PRN or standing restraint orders are not allowed.",
+   "refs": [
+    "openstax-fund",
+    "tjc-npsg"
+   ],
+   "options": [
+    "Ask the client's family to sign consent for the restraints",
+    "Apply the restraints for the whole shift to prevent problems",
+    "Contact the provider because restraint orders cannot be written as PRN",
+    "Apply the restraints whenever the client pulls at the line"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Family consent does not replace a valid, time-limited order.",
+    "Restraints must be removed as soon as possible and not used for convenience.",
+    "Correct. Federal rules do not allow restraint orders to be written as PRN or standing orders; each use requires a specific, time-limited order.",
+    "Applying restraints under a PRN order is not allowed."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client is in soft wrist restraints to protect an endotracheal tube after less restrictive measures failed. Which actions should the nurse take? Select all that apply.",
+   "takeaway": "Restrained clients need regular checks, basic care, quick-release ties to the frame and ongoing reassessment for removal.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Check circulation, sensation and skin at the restraint sites per policy",
+    "Offer fluids and toileting at regular intervals",
+    "Tie the restraints to the side rails",
+    "Assess whether the restraints are still needed and try alternatives",
+    "Fasten the restraints so that no fingers fit underneath",
+    "Secure the restraints with a quick-release knot to the bed frame"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Regular checks detect circulation problems and skin injury.",
+    "Correct. Basic needs such as hydration and toileting must still be met.",
+    "Tying to side rails can cause injury when the rail is lowered.",
+    "Correct. Restraints are removed as soon as they are no longer needed.",
+    "Restraints should allow about two fingers' space to avoid impairing circulation.",
+    "Correct. A quick-release knot on the frame allows rapid removal in an emergency."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "During downtime, the nurse is reviewing handwritten prescriptions. Which prescriptions should the nurse clarify with the prescriber because they contain error-prone abbreviations or dose expressions? Select all that apply.",
+   "takeaway": "Clarify prescriptions with do-not-use abbreviations: U, IU, QD, QOD, MS/MSO4/MgSO4, trailing zeros and missing leading zeros.",
+   "refs": [
+    "tjc-npsg",
+    "ismp-highalert"
+   ],
+   "options": [
+    "Regular insulin 6 U subcutaneously before breakfast",
+    "Furosemide 40 mg orally once daily",
+    "Digoxin .125 mg orally once daily",
+    "Acetaminophen 650 mg orally every 6 hours as needed for pain",
+    "Warfarin 5.0 mg orally at 1700",
+    "MSO4 2 mg IV every 4 hours as needed for severe pain"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. \"U\" is on the do-not-use list because it can be misread as 0 or 4, causing a tenfold insulin overdose; \"units\" must be written out.",
+    "The drug, dose, route and frequency are written clearly with no error-prone abbreviations.",
+    "Correct. A missing leading zero (.125) can be misread as 125 mg; it should be written 0.125 mg.",
+    "The prescription is complete and uses no error-prone abbreviations.",
+    "Correct. A trailing zero (5.0) can be misread as 50 mg; it should be written 5 mg.",
+    "Correct. \"MSO4\" can be confused with magnesium sulfate; the drug name must be written out as morphine sulfate."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "During a bedside procedure, the nurse finds two syringes of clear fluid on the sterile field. Neither syringe is labeled, and the person who drew them up has left the room. Which action should the nurse take?",
+   "takeaway": "Label every medication and solution on and off the sterile field; discard anything unlabeled.",
+   "refs": [
+    "tjc-npsg",
+    "ismp-highalert"
+   ],
+   "options": [
+    "Discard both syringes and prepare new, labeled ones",
+    "Ask the provider which syringe is which and label them",
+    "Use them because they were drawn up for this procedure",
+    "Label both syringes as normal saline, the most likely contents"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Every medication and solution on or off the sterile field must be labeled; an unlabeled one cannot be verified and is discarded.",
+    "A recollection of what was drawn up is not verification; the contents cannot be confirmed.",
+    "Using unverified contents risks giving the wrong drug or dose.",
+    "Labeling by guesswork creates a false label and a serious error risk."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "safety",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "The charge nurse notices four safety concerns while making rounds. Which concern should the charge nurse address first?",
+   "takeaway": "Address actual, immediate risk of physical harm before privacy, documentation or supply problems.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "options": [
+    "A computer at the nurses' station is left logged in to a client's record",
+    "An expired bottle of hand sanitizer is mounted outside a client's room",
+    "A nurse charted a dressing change 2 hours late without marking it as a late entry",
+    "A confused client at high risk for falls is standing alone at the bedside, swaying"
+   ],
+   "correct": 3,
+   "rationales": [
+    "An open record is a privacy risk that needs prompt correction, but it is not an immediate threat to physical safety.",
+    "An expired product should be replaced, but it poses little immediate risk.",
+    "The late entry needs correction and follow-up, but it does not threaten a client right now.",
+    "Correct. A confused client standing unsteadily alone is at immediate risk of a fall and injury; actual, imminent physical harm comes first."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "A 34-year-old client has been declared brain dead after a head injury. His wife says, \"His heart is still beating on the monitor. He's still alive, isn't he?\" Which response by the nurse is best?",
+   "takeaway": "Explain brain death honestly and gently: it is death, even though the ventilator keeps the heart beating.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "\"Brain death means all brain function has stopped permanently, and that is death. The ventilator is keeping oxygen flowing, so his heart beats for now.\"",
+    "\"He is in a deep coma, and there's still a small chance he could wake up.\"",
+    "\"Don't look at the monitor. It will only upset you.\"",
+    "\"You should ask the doctor about that.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Honest, gentle explanation helps the family understand that brain death is legal death, even though the heart is beating with ventilator support.",
+    "This is inaccurate and creates false hope; brain death is irreversible.",
+    "This avoids the question and dismisses the wife's need to understand.",
+    "The nurse can answer this question and support the family; deflecting leaves the wife without help."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "sata",
+   "stem": "A client has just died on a medical unit, and the family is at the bedside. Which actions by the nurse support the family? Select all that apply.",
+   "takeaway": "After a death, give the family time, honor rituals, offer participation and explain next steps.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Offer the family private time with the body",
+    "Ask whether there are cultural or religious practices they would like to follow",
+    "Ask the family to leave right away so the body can be prepared",
+    "Invite family members who wish to help with care, such as washing",
+    "Say, \"He's in a better place now.\"",
+    "Explain the next steps, such as contacting a funeral home"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Time with the body supports grieving.",
+    "Correct. Respecting rituals meets cultural and spiritual needs.",
+    "Rushing the family disrupts grieving.",
+    "Correct. Participation in care can be meaningful for some families.",
+    "Clichés can feel dismissive and may not match the family's beliefs.",
+    "Correct. Clear information reduces confusion during a stressful time."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "type": "mcq",
+   "stem": "A provider has just told a 61-year-old client that his cancer has spread to the liver and left the room. The client stares at the wall in silence. Which action by the nurse is best?",
+   "takeaway": "After bad news, offer presence and acknowledgment before giving more information.",
+   "refs": [
+    "openstax-fund"
+   ],
+   "options": [
+    "Explain the options for chemotherapy in detail",
+    "Say, \"Many people live a long time with this kind of cancer.\"",
+    "Sit with the client and say, \"This is a lot to take in. I'm here with you.\"",
+    "Leave the room so the client can be alone"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Detailed information is hard to absorb right after bad news.",
+    "This may be false reassurance and dismisses the client's response.",
+    "Correct. Quiet presence and acknowledgment support the client after bad news and invite him to share when ready.",
+    "Leaving may make the client feel abandoned."
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:ethics-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Ethics & Professional Practice",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "type": "mcq",
+   "stem": "The daughter of a client with end-stage dementia has agreed to a do-not-resuscitate order, which matches what her mother said she wanted. The daughter tells the nurse, \"I feel like I'm killing my mother.\" Which response by the nurse is best?",
+   "takeaway": "Help surrogates with guilt by reframing their decision as honoring the client's wishes.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "options": [
+    "\"Many families make this decision every day.\"",
+    "\"You are honoring what your mother told you she wanted. Her illness is what is ending her life.\"",
+    "\"Don't feel guilty. You did the right thing.\"",
+    "\"You can change the order back if you feel this way.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "This is a generalization that does not address her feelings.",
+    "Correct. Reframing the decision as respecting her mother's wishes and identifying the illness as the cause of death eases guilt.",
+    "Telling her not to feel guilty dismisses her feelings.",
+    "This suggests she made the wrong choice and adds to her distress."
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

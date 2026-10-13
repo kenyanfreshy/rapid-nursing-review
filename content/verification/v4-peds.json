@@ -1,0 +1,94 @@
+{
+ "file": "content/nclex/v4/peds.json",
+ "reviewed": 75,
+ "ok": 58,
+ "fixed": 13,
+ "rewritten": 4,
+ "items": [
+  {
+   "id": "rnr:peds-005",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of bank item nb:u2-hpm-004 (DTaP contraindicated after encephalopathy within 7 days, with the same distractors). Rewrote on current RSV infant immunization (nirsevimab eligibility vs maternal RSV vaccine timing, second-season criteria); same id, type, key position and labels."
+  },
+  {
+   "id": "rnr:peds-010",
+   "status": "fixed",
+   "note": "Refs: added aha-resuscitation (PALS normal heart and respiratory rates by age), replacing openstax-fund."
+  },
+  {
+   "id": "rnr:peds-020",
+   "status": "rewritten",
+   "note": "Rows on nasal suctioning, albuterol and chest physiotherapy repeated the facts of bank item nb:peds-11. Replaced with other AAP bronchiolitis recommendations (fluids when oral intake is inadequate, oxygen below 90%, no steroids, no antibiotics for fever alone, no routine chest x-ray). Refs changed to aap-bronchiolitis."
+  },
+  {
+   "id": "rnr:peds-023",
+   "status": "fixed",
+   "note": "Keyed option gave the yellow zone as 150 to 235 and the rationale as \"about 237\"; 80% of 300 is 240, so the zone is 150 to 239. Rewrote the keyed option around a single reading (200 L/min) and corrected the rationale. The keyed option was also much the longest; it is now similar in length to the distractors."
+  },
+  {
+   "id": "rnr:peds-025",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of bank item nb:nb26-gios-016 (pancrelipase: sprinkle on applesauce, not at bedtime, do not crush, greasy stools). Rewrote as a cystic fibrosis respiratory/vitamin medication SATA (albuterol before hypertonic saline, dornase alfa not mixed and refrigerated, airway clearance after saline, ADEK with food and enzymes); same id, type and labels."
+  },
+  {
+   "id": "rnr:peds-029",
+   "status": "fixed",
+   "note": "Keyed option listed yogurt and pudding; whether dairy should be avoided early after tonsillectomy is still taught both ways, so a debated point decided the key. Replaced with non-dairy soft foods."
+  },
+  {
+   "id": "rnr:peds-031",
+   "status": "fixed",
+   "note": "Keyed option was clearly the longest and most technical (giveaway). Shortened to match the distractors; rationale unchanged."
+  },
+  {
+   "id": "rnr:peds-041",
+   "status": "rewritten",
+   "note": "Same-fact duplicate of bank item nb:u2-safe-006 (pertussis requires droplet precautions); the other common pediatric isolation facts are also already in the bank. Rewrote as a safe-sleep item (stop swaddling once the infant starts to roll, keep back-to-sleep, no side-lying or positioners) citing aap-safesleep; same id, type, key position and labels."
+  },
+  {
+   "id": "rnr:peds-045",
+   "status": "fixed",
+   "note": "Assessment said head circumference was up 1.5 cm \"since admission,\" but the background says the infant was admitted today; that much growth in hours is implausible. Changed to \"since last week's clinic visit.\""
+  },
+  {
+   "id": "rnr:peds-052",
+   "status": "fixed",
+   "note": "Keyed option was about twice as long as any distractor (giveaway). Shortened it and adjusted the rationale."
+  },
+  {
+   "id": "rnr:peds-054",
+   "status": "fixed",
+   "note": "The fat embolism distractor rationale said it occurs \"usually after long-bone fractures,\" but the humerus is a long bone, which made the distractor sound plausible. The rationale now gives the 24 to 72 hour timing and the respiratory/neurologic picture."
+  },
+  {
+   "id": "rnr:peds-058",
+   "status": "fixed",
+   "note": "Keyed option was much longer than the distractors (giveaway). Shortened it and matched the rationale."
+  },
+  {
+   "id": "rnr:peds-059",
+   "status": "fixed",
+   "note": "Ref ana-ethics did not support recognizing maltreatment injury patterns; replaced with openstax-fund."
+  },
+  {
+   "id": "rnr:peds-066",
+   "status": "fixed",
+   "note": "Keyed option was the longest and restated the reason (\"because the prescribed dose is higher than the safe range\"), which gave the answer away. Shortened; the calculation stays in the rationale."
+  },
+  {
+   "id": "rnr:peds-068",
+   "status": "fixed",
+   "note": "Keyed option was much the longest (giveaway). Shortened to match the distractors; rationale unchanged."
+  },
+  {
+   "id": "rnr:peds-072",
+   "status": "fixed",
+   "note": "Keyed option was about twice as long as the distractors (giveaway). Shortened while keeping the limits of confidentiality."
+  },
+  {
+   "id": "rnr:peds-075",
+   "status": "fixed",
+   "note": "Refs: added aha-resuscitation (infant BLS sequence, 10-second pulse check, 100-120/min, 30:2 single rescuer), replacing openstax-fund."
+  }
+ ]
+}

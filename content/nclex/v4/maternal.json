@@ -1,0 +1,2827 @@
+{
+ "topic": "maternal",
+ "questions": [
+  {
+   "id": "rnr:maternal-001",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 36 weeks' gestation learns that her rectovaginal culture is positive for group B Streptococcus (GBS). She has no symptoms and asks what happens next. Which response by the nurse is accurate?",
+   "options": [
+    "\"You'll receive IV antibiotics once labor starts or your water breaks.\"",
+    "\"You'll take oral antibiotics now so the culture is negative before labor.\"",
+    "\"A positive culture means you will need a cesarean birth.\"",
+    "\"No treatment is needed because you have no symptoms.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. GBS colonization is treated with IV antibiotics during labor, ideally at least 4 hours before birth, to protect the newborn from early-onset GBS infection.",
+    "Antibiotics given before labor do not reliably clear colonization, because the bacteria often return before birth.",
+    "GBS colonization alone is not an indication for cesarean birth.",
+    "Colonization usually causes no symptoms in the pregnant client, but it can cause serious infection in the newborn, so intrapartum antibiotics are needed."
+   ],
+   "takeaway": "GBS-positive at term means IV antibiotics in labor, ideally 4 hours or more before birth; oral antibiotics before labor do not prevent newborn infection.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-002",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 28 weeks' gestation is Rh(D)-negative, and her antibody screen today is negative. The father of the baby is Rh(D)-positive. Which action should the nurse anticipate?",
+   "options": [
+    "Give Rho(D) immune globulin only if the newborn is Rh(D)-negative",
+    "Give Rho(D) immune globulin to the newborn after birth",
+    "Give Rho(D) immune globulin IM at this visit",
+    "Wait until after a second pregnancy to give Rho(D) immune globulin"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Postpartum Rho(D) immune globulin is given when the newborn is Rh(D)-positive, not Rh(D)-negative. The 28-week dose is given before the baby's type is known.",
+    "Rho(D) immune globulin is given to the Rh(D)-negative birth parent, not to the newborn.",
+    "Correct. An unsensitized Rh(D)-negative client receives Rho(D) immune globulin at about 28 weeks to prevent antibody formation in the third trimester, and again after birth if the newborn is Rh(D)-positive.",
+    "Sensitization can occur during this pregnancy and harm the next one. Prevention must start now."
+   ],
+   "takeaway": "Unsensitized Rh(D)-negative clients receive Rho(D) immune globulin at about 28 weeks and within 72 hours after birth of an Rh(D)-positive newborn.",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-003",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse reviews the records of several Rh(D)-negative pregnant and postpartum clients. Which clients should the nurse expect to receive Rho(D) immune globulin? Select all that apply.",
+   "options": [
+    "A client with a negative antibody screen who had an amniocentesis at 16 weeks",
+    "A client whose newborn's blood type is O Rh(D)-negative",
+    "A client with a negative antibody screen who fell and hit her abdomen at 30 weeks",
+    "A client whose antibody screen shows she already has anti-D antibodies",
+    "A client with a negative antibody screen who had a spontaneous pregnancy loss at 14 weeks",
+    "A client 24 hours after giving birth to an Rh(D)-positive newborn"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Invasive procedures such as amniocentesis can cause fetal blood to enter the client's circulation.",
+    "An Rh(D)-negative newborn cannot sensitize the client, so postpartum Rho(D) immune globulin is not needed.",
+    "Correct. Abdominal trauma can cause fetomaternal bleeding, so Rho(D) immune globulin is given.",
+    "Rho(D) immune globulin cannot reverse sensitization that has already happened. This pregnancy needs closer fetal monitoring instead.",
+    "Correct. Pregnancy loss in the second trimester can expose the client to fetal Rh(D)-positive cells.",
+    "Correct. Rho(D) immune globulin is given within 72 hours after birth of an Rh(D)-positive newborn."
+   ],
+   "takeaway": "Give Rho(D) immune globulin to an unsensitized Rh(D)-negative client after any event that can mix fetal and maternal blood, not to a client who is already sensitized.",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-004",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 26 weeks' gestation had a 1-hour 50-g glucose challenge test. The result is 152 mg/dL. Which next step should the nurse anticipate?",
+   "options": [
+    "Starting insulin at the next visit",
+    "A 3-hour 100-g oral glucose tolerance test",
+    "Repeating the 1-hour test at 36 weeks",
+    "No further testing because the result is normal"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A screening result alone does not diagnose gestational diabetes, and the first treatment is usually nutrition therapy, not insulin.",
+    "Correct. The 1-hour challenge is a screening test. A result above the cutoff (commonly 130 to 140 mg/dL) is followed by a diagnostic 3-hour 100-g glucose tolerance test.",
+    "Waiting until 36 weeks would delay diagnosis and treatment, which aim to reduce fetal overgrowth and complications.",
+    "A result of 152 mg/dL is above the usual screening cutoffs and needs follow-up testing."
+   ],
+   "takeaway": "An abnormal 1-hour glucose challenge is a screening result; the 3-hour 100-g oral glucose tolerance test confirms or rules out gestational diabetes.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-005",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is scheduled for a 3-hour 100-g oral glucose tolerance test. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Eat your usual diet, including carbohydrates, for the 3 days before the test.",
+    "Eat a low-carbohydrate diet for 3 days before the test.",
+    "Do not eat or drink anything except water for 8 to 14 hours before the test.",
+    "Stay seated and do not smoke during the test.",
+    "Walk around between blood draws to help your body use the glucose.",
+    "Sip the glucose drink slowly over the first hour."
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Cutting carbohydrates beforehand can cause a falsely abnormal result.",
+    "Restricting carbohydrates before the test can make glucose results falsely high.",
+    "Correct. An overnight fast is needed so the first sample is a true fasting value.",
+    "Correct. Activity and smoking change glucose levels and affect the results.",
+    "Exercise lowers blood glucose and would make the results unreliable.",
+    "The glucose drink is finished within about 5 minutes so the timed samples are accurate."
+   ],
+   "takeaway": "For a 3-hour glucose tolerance test: normal carbohydrate intake for 3 days, an overnight fast, drink the solution quickly, and stay seated without smoking during the test.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-006",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "A client at 8 weeks' gestation has a prepregnancy body mass index (BMI) of 22. She asks how much weight she should gain during this pregnancy. Which response by the nurse is accurate?",
+   "options": [
+    "\"About 11 to 20 pounds (5 to 9 kg).\"",
+    "\"About 15 to 25 pounds (7 to 11 kg).\"",
+    "\"About 28 to 40 pounds (13 to 18 kg).\"",
+    "\"About 25 to 35 pounds (11 to 16 kg).\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "This range is recommended for clients with a prepregnancy BMI of 30 or higher.",
+    "This range is recommended for clients who are overweight (BMI 25 to 29.9) before pregnancy.",
+    "This range is recommended for clients who are underweight (BMI below 18.5) before pregnancy.",
+    "Correct. For a single pregnancy with a normal prepregnancy BMI (18.5 to 24.9), recommended total weight gain is 25 to 35 pounds."
+   ],
+   "takeaway": "Recommended pregnancy weight gain depends on prepregnancy BMI; normal BMI is 25 to 35 pounds (11 to 16 kg) for a single pregnancy.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-007",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a pregnant client about diet. Which statements by the client indicate correct understanding? Select all that apply.",
+   "options": [
+    "\"I'll keep my caffeine to less than 200 mg a day, about one 12-ounce cup of coffee.\"",
+    "\"I'll eat 8 to 12 ounces a week of low-mercury fish such as salmon or shrimp.\"",
+    "\"One glass of wine a week is fine after the first trimester.\"",
+    "\"I'll avoid swordfish, shark and king mackerel.\"",
+    "\"I should stop eating all fish until the baby is born.\""
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. Caffeine intake under 200 mg a day is the usual recommendation in pregnancy.",
+    "Correct. Low-mercury fish supply omega-3 fatty acids that support fetal brain and eye development.",
+    "No amount of alcohol is known to be safe at any point in pregnancy.",
+    "Correct. These large fish are high in mercury, which can harm the fetal nervous system.",
+    "Avoiding all fish removes a valuable source of protein and omega-3 fatty acids. Only high-mercury fish need to be avoided."
+   ],
+   "takeaway": "In pregnancy: no alcohol, caffeine under 200 mg a day, and 8 to 12 ounces a week of low-mercury fish while avoiding high-mercury fish.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-008",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 9 weeks' gestation calls the prenatal clinic with several concerns. For each report, indicate whether it is an expected change of early pregnancy or requires follow-up.",
+   "rows": [
+    "Nausea in the morning that eases by afternoon",
+    "Needing to urinate more often, with no burning",
+    "Tender, swollen breasts",
+    "Burning with urination and a temperature of 38.3 °C (101 °F)",
+    "Vaginal bleeding with cramping"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "Nausea is common in the first trimester because of rising hCG and usually improves by 12 to 16 weeks.",
+    "The growing uterus presses on the bladder, so frequency without other symptoms is expected.",
+    "Rising estrogen and progesterone cause breast tenderness early in pregnancy.",
+    "Fever with dysuria suggests a urinary tract infection, which can progress to pyelonephritis and trigger preterm labor.",
+    "Bleeding with cramping can signal miscarriage or ectopic pregnancy and needs prompt evaluation."
+   ],
+   "takeaway": "Nausea, urinary frequency and breast tenderness are normal early in pregnancy; fever, dysuria, bleeding and cramping are not.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-009",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 29 weeks' gestation asks how to keep track of her baby's movements at home. Which instruction should the nurse give?",
+   "options": [
+    "\"Count movements only if you notice the baby is less active than usual.\"",
+    "\"Count movements for 10 minutes each morning and call if you feel fewer than 10.\"",
+    "\"Movements slow down near term, so a decrease after 28 weeks is expected.\"",
+    "\"Each day, count how long it takes to feel 10 movements, and call if you feel fewer than 10 in 2 hours.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Counting at a regular time each day helps the client learn the baby's normal pattern and notice changes early.",
+    "Ten movements in 10 minutes is not a realistic goal, so this instruction would cause needless worry.",
+    "Fetal movements do not normally decrease near term. A decrease can be an early sign of fetal compromise and needs evaluation.",
+    "Correct. A common method is to count until 10 movements are felt, usually while resting after a meal. Fewer than 10 movements in 2 hours should be reported."
+   ],
+   "takeaway": "Teach daily fetal movement counts from about 28 weeks; fewer than 10 movements in 2 hours, or a clear decrease, needs prompt evaluation.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-010",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "A client at 32 weeks' gestation wakes at night with a painful cramp in her right calf. Which action should the nurse teach her to take?",
+   "options": [
+    "Point the toes down toward the foot of the bed",
+    "Straighten the leg and pull the toes up toward the knee",
+    "Take an over-the-counter quinine tablet",
+    "Apply a cold pack to the calf"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Pointing the toes contracts the calf muscle and can make the cramp worse.",
+    "Correct. Dorsiflexing the foot stretches the calf muscle and relieves the cramp.",
+    "Quinine is not safe or approved for leg cramps because of serious adverse effects, and it is avoided in pregnancy.",
+    "Cold can make the muscle tighter. Stretching is the first measure for a leg cramp."
+   ],
+   "takeaway": "Relieve a pregnancy leg cramp by straightening the leg and dorsiflexing the foot.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-011",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a client in her second trimester ways to relieve common discomforts of pregnancy. Which instructions are appropriate? Select all that apply.",
+   "options": [
+    "For heartburn, eat small, frequent meals and stay upright for 1 to 2 hours after eating.",
+    "For constipation, take mineral oil at bedtime.",
+    "For constipation, increase fluids, fiber and daily walking.",
+    "For heartburn, mix a teaspoon of baking soda in water.",
+    "For varicose veins, elevate the legs and avoid crossing them.",
+    "For low back pain, do pelvic tilt exercises."
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Smaller meals and staying upright reduce acid reflux from the relaxed esophageal sphincter and pressure of the uterus.",
+    "Mineral oil reduces absorption of fat-soluble vitamins and is not recommended in pregnancy.",
+    "Correct. Fluids, fiber and activity counter the slowed GI motility caused by progesterone.",
+    "Baking soda adds a large sodium load and can cause fluid retention and metabolic alkalosis.",
+    "Correct. These measures improve venous return from the legs.",
+    "Correct. Pelvic tilts strengthen the abdominal muscles and ease lower back strain."
+   ],
+   "takeaway": "Pregnancy discomforts: small meals for heartburn, fluids and fiber for constipation, leg elevation for varicosities, pelvic tilts for back pain; avoid mineral oil and baking soda.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-012",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 35 weeks' gestation is lying flat on the exam table and says she feels dizzy and lightheaded. Her blood pressure has dropped from 118/72 to 92/58 mm Hg, and she is pale and sweaty. Which action should the nurse take first?",
+   "options": [
+    "Turn the client onto her left side",
+    "Raise the head of the table to a sitting position",
+    "Elevate the client's legs on two pillows",
+    "Recheck the blood pressure in 5 minutes"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Lying supine lets the uterus compress the inferior vena cava and reduce venous return. A lateral position relieves the pressure and restores blood pressure.",
+    "Sitting up quickly with low blood pressure can worsen dizziness, and it does not relieve caval compression as well as a side-lying position.",
+    "Raising the legs does not move the uterus off the vena cava.",
+    "The cause is clear and can be corrected now. Waiting reduces blood flow to the client and the fetus."
+   ],
+   "takeaway": "Supine hypotension in late pregnancy is relieved by turning the client to a lateral (usually left) position.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-013",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 11 weeks' gestation has had nausea and vomiting for several weeks. Which finding best supports a diagnosis of hyperemesis gravidarum rather than typical nausea of pregnancy?",
+   "options": [
+    "Nausea that is worst in the morning and improves by afternoon",
+    "Vomiting once a day with a stable weight",
+    "Loss of 4 kg (6% of prepregnancy weight) with ketones in the urine",
+    "A urine specific gravity of 1.015"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Nausea that improves during the day is typical of normal pregnancy nausea.",
+    "Occasional vomiting with no weight loss is within the range of normal pregnancy nausea.",
+    "Correct. Persistent vomiting with weight loss of more than 5% of prepregnancy weight and ketonuria points to hyperemesis gravidarum, which may also cause dehydration and electrolyte imbalances.",
+    "A specific gravity of 1.015 is normal and does not suggest dehydration."
+   ],
+   "takeaway": "Hyperemesis gravidarum: persistent vomiting with weight loss greater than 5%, ketonuria, dehydration and electrolyte imbalance.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-014",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client newly diagnosed with gestational diabetes is learning to check her blood glucose. Which statement indicates correct understanding?",
+   "options": [
+    "\"I only need to check before meals because that is when my sugar is highest.\"",
+    "\"I'll check my blood sugar when I wake up and again after each meal.\"",
+    "\"I'll skip breakfast so my morning numbers stay low.\"",
+    "\"Once my numbers are normal for a week, I can stop checking.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Glucose peaks after meals. Postprandial values are central to managing gestational diabetes.",
+    "Correct. Monitoring for gestational diabetes usually includes a fasting value and 1- or 2-hour values after meals, which show how well the meal plan controls glucose.",
+    "Skipping meals can cause ketosis and swings in glucose. Regular meals and snacks are recommended.",
+    "Insulin resistance increases as pregnancy progresses, so monitoring continues until birth."
+   ],
+   "takeaway": "In gestational diabetes, check fasting and post-meal glucose daily, eat regular meals and snacks, and keep monitoring because insulin resistance rises as pregnancy advances.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-015",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client whose gestational diabetes was managed with diet is being discharged after birth. Her glucose values are now normal. Which follow-up teaching is most important?",
+   "options": [
+    "\"Gestational diabetes goes away after birth, so you won't need more testing.\"",
+    "\"You should keep checking your blood sugar four times a day for the next year.\"",
+    "\"You'll only need testing if you become pregnant again.\"",
+    "You'll need a glucose tolerance test 4 to 12 weeks after birth, then regular screening."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Glucose usually normalizes after birth, but the client remains at high risk for type 2 diabetes.",
+    "Routine fingerstick checks are not needed after glucose normalizes. Scheduled screening tests are recommended instead.",
+    "Screening is needed whether or not another pregnancy occurs because of the lifelong diabetes risk.",
+    "Correct. A 75-g glucose tolerance test at 4 to 12 weeks postpartum checks for persistent diabetes. Because the lifetime risk of type 2 diabetes is high, screening continues every 1 to 3 years."
+   ],
+   "takeaway": "After gestational diabetes, screen with a glucose tolerance test at 4 to 12 weeks postpartum and every 1 to 3 years for life.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-016",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A newborn was born at 39 weeks to a client with poorly controlled diabetes and weighs 4,500 g. Which complications should the nurse monitor this newborn for? Select all that apply.",
+   "options": [
+    "Hypoglycemia",
+    "Hypercalcemia",
+    "Hyperbilirubinemia",
+    "Respiratory distress",
+    "Anemia",
+    "Injury from a difficult birth, such as a fractured clavicle"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. The fetus made extra insulin in response to high maternal glucose; after the cord is cut, that insulin can drop the newborn's glucose quickly.",
+    "Newborns of clients with diabetes are at risk for low calcium, not high calcium.",
+    "Correct. Polycythemia and immature liver function raise bilirubin in these infants.",
+    "Correct. High fetal insulin can delay lung maturity and surfactant production.",
+    "These newborns tend to have polycythemia (a high hematocrit), not anemia.",
+    "Correct. A large newborn is at risk for shoulder dystocia and birth injuries such as clavicle fracture or brachial plexus injury."
+   ],
+   "takeaway": "Newborns of clients with poorly controlled diabetes: watch for hypoglycemia, hypocalcemia, polycythemia, jaundice, respiratory distress and birth injury.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-017",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 30 weeks' gestation had normal blood pressures until this visit. Today her blood pressure is 146/94 mm Hg and, 4 hours later, 148/92 mm Hg. Her urine protein is negative, her labs are normal, and she has no headache or visual changes. Which condition do these findings suggest?",
+   "options": [
+    "Chronic hypertension",
+    "Preeclampsia with severe features",
+    "Gestational hypertension",
+    "HELLP syndrome"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Chronic hypertension is present before pregnancy or before 20 weeks' gestation.",
+    "Severe features include blood pressure of 160/110 mm Hg or higher, abnormal labs or symptoms such as headache or vision changes. None are present.",
+    "Correct. New blood pressure of 140/90 mm Hg or higher on two readings at least 4 hours apart after 20 weeks, without proteinuria or other organ involvement, is gestational hypertension.",
+    "HELLP syndrome requires hemolysis, elevated liver enzymes and low platelets. Her labs are normal."
+   ],
+   "takeaway": "Gestational hypertension is new BP of 140/90 mm Hg or higher after 20 weeks without proteinuria or severe features; it can progress to preeclampsia, so monitoring continues.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-018",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client at 34 weeks' gestation is admitted with preeclampsia. For each finding, indicate whether it is a severe feature of preeclampsia.",
+   "rows": [
+    "Blood pressure 164/112 mm Hg on two readings 15 minutes apart",
+    "Platelet count 88,000/mm³",
+    "2+ pitting edema of both ankles",
+    "New visual spots (scotomata)",
+    "Serum creatinine 0.7 mg/dL"
+   ],
+   "columns": [
+    "Severe feature",
+    "Not a severe feature"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "A systolic of 160 mm Hg or higher or diastolic of 110 mm Hg or higher is a severe feature and needs prompt antihypertensive treatment.",
+    "A platelet count below 100,000/mm³ is a severe feature and may signal HELLP syndrome.",
+    "Edema is common in pregnancy and is not a diagnostic criterion for preeclampsia or its severe features.",
+    "New visual disturbances reflect cerebral involvement and are a severe feature.",
+    "A creatinine of 0.7 mg/dL is normal in pregnancy. A level above 1.1 mg/dL would be a severe feature."
+   ],
+   "takeaway": "Preeclampsia severe features: BP 160/110 mm Hg or higher, platelets below 100,000/mm³, rising creatinine or liver enzymes, pulmonary edema, and new headache or visual changes; edema is not one.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-019",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client at 33 weeks' gestation with preeclampsia has malaise and epigastric pain. Results: platelets 82,000/mm³, AST 140 units/L, ALT 155 units/L, LDH 720 units/L, and schistocytes on the blood smear. Which condition do these findings indicate?",
+   "options": [
+    "HELLP syndrome",
+    "Viral hepatitis",
+    "Gestational thrombocytopenia",
+    "Cholecystitis"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Hemolysis (high LDH, schistocytes), elevated liver enzymes and low platelets in a client with preeclampsia define HELLP syndrome, a severe form that often requires prompt birth.",
+    "Hepatitis can raise liver enzymes but does not explain hemolysis and low platelets in this setting.",
+    "Gestational thrombocytopenia is a mild drop in platelets without hemolysis or liver injury.",
+    "Cholecystitis can cause epigastric pain but does not cause hemolysis and a falling platelet count."
+   ],
+   "takeaway": "HELLP = Hemolysis, Elevated Liver enzymes, Low Platelets; epigastric or RUQ pain in preeclampsia should prompt these labs.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-020",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with preeclampsia with severe features is receiving magnesium sulfate. Which actions should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Assess deep tendon reflexes and respiratory rate regularly",
+    "Measure urine output every hour",
+    "Stop the infusion if patellar reflexes are 2+",
+    "Keep calcium gluconate readily available",
+    "Encourage the client to walk in the hallway every 2 hours",
+    "Assess level of consciousness"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Loss of reflexes and slowed breathing are early signs of magnesium toxicity.",
+    "Correct. Magnesium is cleared by the kidneys. Output below about 30 mL/hour can lead to toxic levels.",
+    "Reflexes of 2+ are normal. Absent reflexes would signal toxicity.",
+    "Correct. Calcium gluconate is the antidote for magnesium toxicity.",
+    "Clients on magnesium have muscle weakness and seizure risk, so they stay in bed with seizure precautions.",
+    "Correct. Drowsiness or confusion can signal rising magnesium levels or worsening preeclampsia."
+   ],
+   "takeaway": "Magnesium sulfate safety: monitor reflexes, respirations, urine output and level of consciousness, and keep calcium gluconate at the bedside.",
+   "refs": [
+    "openstax-maternal",
+    "openstax-pharm",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-021",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is starting a magnesium sulfate infusion for a client with preeclampsia. Which action best prevents a dosing error?",
+   "options": [
+    "Use an infusion pump and an independent double-check of the dose and settings",
+    "Run the infusion by gravity and count the drops every 15 minutes",
+    "Mix the loading dose at the bedside from multiple vials to save time",
+    "Hang the magnesium as the only IV fluid so it is easy to see"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Magnesium sulfate is a high-alert medication. Premixed bags, a smart infusion pump and an independent double-check reduce the risk of a fatal overdose.",
+    "Gravity infusions cannot reliably control the rate of a high-alert drug, and free-flow can cause overdose.",
+    "Mixing from multiple vials increases the chance of a concentration error. Premixed products are safer.",
+    "Magnesium is given as a secondary infusion with a primary line, so the line can be kept open if the magnesium must be stopped."
+   ],
+   "takeaway": "Magnesium sulfate is high-alert: use premixed bags on a pump as a secondary line, with an independent double-check.",
+   "refs": [
+    "ismp-highalert",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-022",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 13 weeks' gestation with chronic hypertension and preeclampsia in a past pregnancy is prescribed aspirin 81 mg daily. Which statement indicates that the client understands the teaching?",
+   "options": [
+    "\"I'll take this to bring down my blood pressure if it gets high.\"",
+    "\"I'll stop the aspirin once I reach 20 weeks.\"",
+    "\"This low dose of aspirin lowers my risk of getting preeclampsia again.\"",
+    "\"I can take a 325-mg aspirin instead if I run out.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Low-dose aspirin does not lower blood pressure. It is given to prevent preeclampsia.",
+    "Low-dose aspirin is usually continued until birth, not stopped at 20 weeks.",
+    "Correct. Daily low-dose aspirin started between 12 and 28 weeks (ideally before 16 weeks) and continued until birth reduces the risk of preeclampsia in high-risk clients.",
+    "The dose is low on purpose. Full-dose aspirin increases bleeding risk and is not substituted without the provider."
+   ],
+   "takeaway": "High-risk clients take aspirin 81 mg daily, started between 12 and 28 weeks (ideally before 16 weeks) and continued until birth, to reduce preeclampsia risk.",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-023",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who had preeclampsia is being discharged 2 days after birth. Her blood pressure is now 134/84 mm Hg. Which statement shows that she understands the discharge teaching?",
+   "options": [
+    "\"Now that the baby is born, I can't get preeclampsia anymore.\"",
+    "\"If I get a bad headache or blurred vision in the next few weeks, I'll get checked right away.\"",
+    "\"Swelling in my feet means my blood pressure is too high.\"",
+    "\"I only need to watch for problems for the first 24 hours at home.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Postpartum preeclampsia can develop up to about 6 weeks after birth, even without preeclampsia during pregnancy.",
+    "Correct. Preeclampsia and eclampsia can appear or worsen after birth, usually within the first 6 weeks. Severe headache, vision changes, shortness of breath or RUQ pain need urgent care.",
+    "Foot swelling is common after birth and does not reliably reflect blood pressure.",
+    "The risk continues for weeks, not just one day."
+   ],
+   "takeaway": "Preeclampsia can occur or worsen up to 6 weeks postpartum; teach clients to seek care for severe headache, vision changes, dyspnea or RUQ pain.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-024",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse compares findings of placenta previa and placental abruption. For each finding, indicate the condition it most suggests.",
+   "rows": [
+    "Painless, bright red vaginal bleeding",
+    "Rigid, board-like abdomen that is tender to touch",
+    "Dark red bleeding with constant abdominal or back pain",
+    "Soft, nontender uterus between contractions",
+    "History of cocaine use and hypertension"
+   ],
+   "columns": [
+    "Placenta previa",
+    "Placental abruption"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Previa bleeding is classically painless and bright red, because the placenta over the cervix is disrupted as the cervix changes.",
+    "Blood trapped behind the separating placenta irritates the uterus and makes it rigid and tender, a classic sign of abruption.",
+    "Abruption bleeding is often dark and may be partly hidden, with steady pain.",
+    "The uterus stays soft and relaxed with previa, because bleeding is not trapped in the uterine wall.",
+    "Vasoconstriction from cocaine and chronic hypertension damage placental vessels and are major risk factors for abruption."
+   ],
+   "takeaway": "Previa = painless bright red bleeding with a soft uterus; abruption = painful, often dark bleeding with a rigid, tender uterus.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-025",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client at 32 weeks' gestation arrives after a car crash. She has dark red vaginal bleeding, constant abdominal pain and a firm, tender uterus. The fetal heart rate baseline is 105/min with late decelerations. What should the nurse do first?",
+   "options": [
+    "Perform a sterile vaginal examination to assess cervical dilation",
+    "Obtain a urine specimen for a toxicology screen",
+    "Continue monitoring and recheck the fetal heart rate in 30 minutes",
+    "Notify the provider immediately and prepare for possible emergency birth"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A vaginal examination is not the priority and should wait until placental location is known and the client is stable.",
+    "A drug screen may be part of the workup but does not address the emergency for the client and fetus.",
+    "A baseline of 105/min with late decelerations shows fetal compromise and needs immediate action, not a delayed recheck.",
+    "Correct. Dark bleeding, constant pain and a firm, tender uterus after trauma suggest placental abruption, and the fetal bradycardia with late decelerations shows compromise. The provider must be notified at once because emergency birth may be needed; meanwhile the nurse positions the client on her side, starts IV access and monitors for hemorrhage."
+   ],
+   "takeaway": "Abruption with fetal bradycardia or late decelerations is an emergency: notify the provider immediately, position laterally, establish IV access and prepare for possible emergency birth.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-026",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches a client at 26 weeks' gestation about signs of preterm labor. Which signs should the client report right away? Select all that apply.",
+   "options": [
+    "Contractions or tightening every 10 minutes or more often",
+    "A dull, low backache that comes and goes",
+    "An occasional painless tightening that stops when she rests and drinks water",
+    "Pelvic pressure, as if the baby is pushing down",
+    "A change in vaginal discharge, such as watery or bloody",
+    "Increased appetite in the evening"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Regular contractions, about 4 to 6 or more per hour, can mean preterm labor.",
+    "Correct. A dull, low backache is a common and easily missed sign of preterm labor.",
+    "Irregular, painless tightening that stops with rest and hydration is typical of Braxton Hicks contractions.",
+    "Correct. Pelvic pressure can mean the presenting part is descending.",
+    "Correct. Watery discharge may be ruptured membranes, and bloody discharge may mean cervical change.",
+    "A change in appetite is not a sign of preterm labor."
+   ],
+   "takeaway": "Preterm labor signs can be subtle: regular tightening, low backache, pelvic pressure, cramping and any change in vaginal discharge.",
+   "refs": [
+    "openstax-maternal",
+    "medline-pregnancy"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-027",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 31 weeks' gestation in preterm labor is receiving oral nifedipine. Which finding should the nurse report to the provider before the next dose?",
+   "options": [
+    "Facial flushing",
+    "Mild headache",
+    "Heart rate 94/min",
+    "Blood pressure 84/50 mm Hg"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Flushing is an expected effect of vasodilation and is not a reason to hold the dose.",
+    "A mild headache is a common, expected side effect.",
+    "A slight rise in heart rate is an expected reflex response and is within normal limits.",
+    "Correct. Nifedipine is a calcium channel blocker that dilates blood vessels. Hypotension reduces blood flow to the placenta and needs to be reported before giving more."
+   ],
+   "takeaway": "Nifedipine for preterm labor: expect flushing and headache, but hold and report hypotension.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-028",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 30 weeks' gestation with irregular contractions has a fetal fibronectin test. The result is negative. How should the nurse interpret this result?",
+   "options": [
+    "Labor will probably begin within 48 hours",
+    "Birth within the next 1 to 2 weeks is unlikely",
+    "The membranes have ruptured",
+    "Antenatal corticosteroids are needed right away"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A positive result raises concern but does not reliably predict labor within 48 hours. A negative result makes near-term birth unlikely.",
+    "Correct. A negative fetal fibronectin result has a high negative predictive value. It means preterm birth in the next 7 to 14 days is unlikely.",
+    "Fetal fibronectin is not a test for ruptured membranes.",
+    "A negative result lowers the concern for imminent birth, so it does not by itself call for corticosteroids."
+   ],
+   "takeaway": "A negative fetal fibronectin is reassuring: preterm birth in the next 1 to 2 weeks is unlikely.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-029",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "order",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "The nurse explains the course of labor to a client having her first baby. Place the events in the order in which they occur.",
+   "options": [
+    "The newborn is born",
+    "The cervix dilates slowly to about 5 cm with irregular to regular contractions",
+    "The placenta separates and is delivered",
+    "The cervix reaches 10 cm and the client begins to push",
+    "Cervical dilation speeds up from about 6 cm with strong, regular contractions"
+   ],
+   "correct": [
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "rationales": [
+    "Fourth: birth of the newborn ends the second stage.",
+    "First: the latent phase of the first stage, when the cervix effaces and dilates slowly.",
+    "Fifth: placental separation and delivery is the third stage, followed by the recovery period of the fourth stage.",
+    "Third: full dilation begins the second stage of labor, when pushing occurs.",
+    "Second: the active phase of the first stage, when dilation becomes faster."
+   ],
+   "takeaway": "First stage = dilation (latent then active from about 6 cm), second = pushing and birth, third = placenta, fourth = 1 to 4 hours of recovery.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-030",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 36 weeks' gestation has a nonstress test. In 20 minutes, the baseline is 140/min with moderate variability, and there are three accelerations of 20/min above baseline, each lasting 20 seconds. How should the nurse interpret this test?",
+   "options": [
+    "Reactive, which indicates fetal well-being",
+    "Nonreactive, so a contraction stress test is needed",
+    "Inconclusive, so the test should be extended to 40 minutes",
+    "Abnormal, so the provider should be notified for immediate birth"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. At 32 weeks or more, two or more accelerations of at least 15/min lasting at least 15 seconds in 20 minutes make the test reactive, which is reassuring.",
+    "A nonreactive test lacks enough accelerations. This tracing meets the criteria.",
+    "The test is extended when criteria are not met in 20 minutes. Here they were met.",
+    "Nothing in this tracing is abnormal."
+   ],
+   "takeaway": "A reactive NST (at least two 15 x 15 accelerations in 20 minutes at 32 weeks or more) indicates good fetal oxygenation.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-031",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews several fetal heart rate tracings during labor. For each finding, indicate whether it needs no intervention or requires intervention.",
+   "rows": [
+    "Baseline 135/min with moderate variability",
+    "Early decelerations that mirror each contraction",
+    "Recurrent late decelerations",
+    "Accelerations of 15/min with fetal movement",
+    "Absent baseline variability"
+   ],
+   "columns": [
+    "No intervention needed",
+    "Requires intervention"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "A normal baseline with moderate variability shows good fetal oxygenation.",
+    "Early decelerations come from head compression and are benign.",
+    "Late decelerations reflect uteroplacental insufficiency and call for intrauterine resuscitation and provider notification.",
+    "Accelerations are a reassuring sign of fetal well-being.",
+    "Absent variability suggests fetal acidemia or a depressed nervous system and needs prompt evaluation."
+   ],
+   "takeaway": "Moderate variability, accelerations and early decelerations are reassuring; recurrent late decelerations and absent variability need action.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-032",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "order",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client in labor is receiving an oxytocin infusion. The nurse notes recurrent late decelerations with minimal variability. Place the nurse's actions in order of priority.",
+   "options": [
+    "Give an IV fluid bolus as prescribed",
+    "Notify the provider of the tracing and actions taken",
+    "Stop the oxytocin infusion",
+    "Turn the client to a side-lying position"
+   ],
+   "correct": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "rationales": [
+    "Third: a fluid bolus increases maternal circulating volume and placental blood flow.",
+    "Fourth: after starting resuscitation measures, the nurse promptly reports the tracing and the response to the provider.",
+    "First: stopping oxytocin reduces contraction frequency and strength so the placenta gets more blood flow between contractions.",
+    "Second: lateral positioning takes pressure off the vena cava and improves uteroplacental perfusion."
+   ],
+   "takeaway": "Late decelerations on oxytocin: stop the oxytocin, reposition, give IV fluids and notify the provider.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-033",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client's membranes ruptured 20 hours ago. Her temperature is 38.6 °C (101.5 °F), the amniotic fluid is cloudy and foul-smelling, and the fetal heart rate baseline has been 170/min for 30 minutes. What do these findings most likely indicate?",
+   "options": [
+    "Fetal hypoxia from umbilical cord compression",
+    "A normal fetal response to strong contractions",
+    "Intraamniotic infection (chorioamnionitis)",
+    "Maternal dehydration from labor"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Cord compression causes variable decelerations, not a sustained rise in baseline with maternal fever.",
+    "A baseline above 160/min for 10 minutes or more is fetal tachycardia, not a normal response.",
+    "Correct. Maternal fever, fetal tachycardia and foul-smelling fluid after prolonged rupture of membranes point to intraamniotic infection, which needs antibiotics and provider notification.",
+    "Dehydration can raise temperature slightly but does not explain foul-smelling fluid."
+   ],
+   "takeaway": "Maternal fever plus fetal tachycardia and foul-smelling amniotic fluid suggests chorioamnionitis; prolonged rupture of membranes is a key risk.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-034",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client is receiving oxytocin for labor induction. Which findings should lead the nurse to stop the infusion? Select all that apply.",
+   "options": [
+    "Six contractions in 10 minutes, averaged over 30 minutes",
+    "Contractions every 2 to 3 minutes lasting 60 seconds, with relaxation between them",
+    "Recurrent late decelerations",
+    "Moderate baseline variability with accelerations",
+    "A fetal heart rate tracing with absent variability and recurrent late decelerations"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. More than 5 contractions in 10 minutes is tachysystole, which reduces fetal oxygenation between contractions.",
+    "This is an effective labor pattern with adequate uterine rest.",
+    "Correct. Late decelerations show the fetus is not tolerating contractions.",
+    "These are reassuring findings, and the infusion can continue per protocol.",
+    "Correct. This is a category III tracing, which requires stopping oxytocin and immediate intervention."
+   ],
+   "takeaway": "Stop oxytocin for tachysystole (more than 5 contractions in 10 minutes) or a nonreassuring fetal heart rate tracing.",
+   "refs": [
+    "openstax-maternal",
+    "ismp-highalert"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-035",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is setting up an oxytocin infusion for labor induction. Which setup is safest?",
+   "options": [
+    "Run it as the primary IV line by gravity",
+    "Run it on an infusion pump as a secondary line connected at the port closest to the client",
+    "Add the oxytocin to the client's main liter of IV fluid",
+    "Connect it at the port farthest from the client so it mixes with the main line"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A gravity infusion cannot precisely control the dose of oxytocin.",
+    "Correct. Oxytocin is a high-alert drug. A pump controls the dose, and a secondary line at the closest port lets the nurse stop it right away while keeping the main line open.",
+    "If oxytocin is in the main fluid, stopping it means losing IV access and fluid at the same time.",
+    "A distal connection leaves more drug in the tubing, so the client keeps receiving oxytocin after the nurse stops it."
+   ],
+   "takeaway": "Oxytocin is high-alert: give it by pump as a secondary infusion at the port closest to the client so it can be stopped instantly.",
+   "refs": [
+    "ismp-highalert",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-036",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client in active labor has just received an epidural. Which actions should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Check blood pressure frequently after the epidural is started or bolused",
+    "Assess the bladder for distention and help the client empty it as needed",
+    "Have the client walk to the bathroom to void",
+    "Help the client change position from side to side regularly",
+    "Keep the client flat on her back",
+    "Monitor the fetal heart rate continuously"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Sympathetic blockade can cause hypotension, which reduces placental blood flow.",
+    "Correct. The epidural blocks the sensation of a full bladder, and a full bladder can slow fetal descent.",
+    "Motor and sensory block increase fall risk, so the client should not walk to the bathroom.",
+    "Correct. Changing sides prevents pressure injury, helps the block spread evenly and supports fetal descent.",
+    "Lying supine compresses the vena cava and can worsen hypotension.",
+    "Correct. Maternal hypotension can quickly affect the fetus, so continuous monitoring is used."
+   ],
+   "takeaway": "After an epidural: watch for hypotension, check the bladder, reposition side to side, keep the client in bed and monitor the fetus continuously.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-037",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews the records of several clients in labor. Which clients are at increased risk for umbilical cord prolapse? Select all that apply.",
+   "options": [
+    "A client with polyhydramnios whose membranes have just ruptured",
+    "A client whose fetus is in a footling breech presentation",
+    "A client at 39 weeks whose fetus is vertex at +2 station",
+    "A client in preterm labor at 30 weeks whose membranes ruptured with the presenting part at -3 station",
+    "A client with oligohydramnios and intact membranes",
+    "A client at 40 weeks with a vertex fetus engaged in the pelvis and intact membranes"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. A large volume of fluid rushing out can carry the cord down ahead of the presenting part.",
+    "Correct. Feet or a small breech do not fill the pelvis, so the cord can slip past them.",
+    "A vertex at +2 station fills the pelvis and leaves little room for the cord to slip down.",
+    "Correct. A small preterm fetus with an unengaged (high) presenting part leaves space for the cord to prolapse when the membranes rupture.",
+    "Low fluid with intact membranes does not allow the cord to wash down ahead of the fetus.",
+    "An engaged vertex with intact membranes blocks the cord from passing ahead of the fetus."
+   ],
+   "takeaway": "Cord prolapse is most likely when membranes rupture before the presenting part fills the pelvis: polyhydramnios, breech or transverse lie, a preterm or small fetus, or a high station; check the fetal heart rate right after rupture.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-038",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "During a birth complicated by shoulder dystocia, the client's legs have been sharply flexed toward her abdomen. The provider asks the nurse to apply pressure to help free the shoulder. Where should the nurse apply pressure?",
+   "options": [
+    "On the top of the fundus, pushing toward the vagina",
+    "On the perineum, below the vaginal opening",
+    "At the level of the umbilicus, pressing straight down",
+    "Just above the pubic bone, pushing the anterior shoulder down and to the side"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Fundal pressure pushes the shoulder harder against the pubic bone and can cause uterine rupture and fetal injury.",
+    "Pressure on the perineum does not move the impacted shoulder.",
+    "Pressure at the umbilicus is in the wrong place to dislodge the anterior shoulder.",
+    "Correct. Suprapubic pressure, combined with the McRoberts position, moves the anterior shoulder from under the pubic bone."
+   ],
+   "takeaway": "Shoulder dystocia: McRoberts position plus suprapubic pressure; never fundal pressure.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-039",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client is 12 hours post-cesarean birth. For each finding, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "Fundus firm at the level of the umbilicus",
+    "Moderate lochia rubra",
+    "Hypoactive bowel sounds with no flatus yet",
+    "Urine output of 20 mL/hour for the past 2 hours",
+    "Heart rate 124/min and blood pressure 90/54 mm Hg"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "A firm fundus near the umbilicus is expected in the first day after birth.",
+    "Lochia rubra in moderate amounts is normal after a cesarean birth.",
+    "Bowel function returns slowly after abdominal surgery and anesthesia, so this is expected early on.",
+    "Output below 30 mL/hour can signal hypovolemia or bleeding and should be reported.",
+    "A rising heart rate with falling blood pressure suggests hemorrhage or hypovolemia."
+   ],
+   "takeaway": "After a cesarean, a firm fundus, moderate lochia and slow bowel return are expected; low urine output, tachycardia and hypotension point to bleeding.",
+   "refs": [
+    "openstax-maternal",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-040",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "order",
+   "clientNeed": "hpm",
+   "cjmm": "takeAction",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "The nurse is about to assess the fundus of a client 4 hours after a vaginal birth. Place the steps in the correct order.",
+   "options": [
+    "Position the client flat on her back with knees slightly bent",
+    "Palpate the fundus with the other hand",
+    "Ask the client to empty her bladder",
+    "Measure the fundal height in fingerbreadths from the umbilicus",
+    "Place one hand just above the symphysis pubis to support the lower uterus"
+   ],
+   "correct": [
+    2,
+    0,
+    4,
+    1,
+    3
+   ],
+   "rationales": [
+    "Second: a supine position with knees flexed relaxes the abdominal muscles for an accurate exam.",
+    "Fourth: the nurse locates the fundus and checks firmness.",
+    "First: a full bladder pushes the uterus up and to the side and can cause atony, so the client voids first.",
+    "Fifth: the nurse measures and documents height and position relative to the umbilicus.",
+    "Third: supporting the lower uterine segment prevents uterine inversion during palpation."
+   ],
+   "takeaway": "Fundal assessment: empty bladder, supine with knees flexed, support the lower segment, palpate, then measure from the umbilicus.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-041",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews the records of clients who just gave birth. Which factors increase a client's risk for postpartum hemorrhage? Select all that apply.",
+   "options": [
+    "Labor augmented with oxytocin for 20 hours",
+    "Twin gestation",
+    "Spontaneous vaginal birth of a 3,200-g newborn after an 8-hour labor",
+    "Birth weight of 4,600 g",
+    "Prenatal hemoglobin of 12.8 g/dL",
+    "Intraamniotic infection during labor"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Prolonged labor and long oxytocin exposure leave the uterine muscle fatigued and prone to atony.",
+    "Correct. Overdistention of the uterus from twins raises the risk of atony.",
+    "An average-size newborn after a labor of normal length does not add risk.",
+    "Correct. A large newborn overdistends the uterus and raises the risk of lacerations.",
+    "A normal hemoglobin does not increase bleeding risk, although it helps the client tolerate blood loss.",
+    "Correct. Infection impairs uterine contraction and increases the risk of atony."
+   ],
+   "takeaway": "Postpartum hemorrhage risks include an overdistended uterus (multiples, macrosomia), prolonged or augmented labor and infection.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-042",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "One hour after a vaginal birth, a client's fundus is firm, midline and at the umbilicus. A steady trickle of bright red blood flows from the vagina even though the uterus stays firm. What is the most likely cause?",
+   "options": [
+    "Uterine atony",
+    "A full bladder",
+    "A laceration of the cervix or vagina",
+    "Normal lochia rubra"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Atony causes a soft, boggy uterus. This uterus is firm.",
+    "A full bladder pushes the uterus up and to one side. This fundus is midline at the umbilicus.",
+    "Correct. Continued bright red bleeding with a firm, contracted uterus suggests a genital tract laceration, which needs to be reported for repair.",
+    "Lochia comes in gushes or a moderate flow, not a constant trickle of bright red blood with a firm uterus."
+   ],
+   "takeaway": "Bleeding with a firm fundus means look for a laceration; bleeding with a boggy fundus means atony.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-043",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is measuring quantitative blood loss for a client after birth. A saturated pad weighs 250 g. A dry pad of the same type weighs 30 g. How much blood loss should the nurse record for this pad?",
+   "options": [
+    "220 mL",
+    "250 mL",
+    "280 mL",
+    "190 mL"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Subtract the dry weight from the wet weight: 250 g - 30 g = 220 g. One gram equals about 1 mL of blood.",
+    "This is the weight of the wet pad without subtracting the pad itself.",
+    "This adds the dry weight instead of subtracting it.",
+    "This subtracts too much and underestimates blood loss."
+   ],
+   "takeaway": "Quantify blood loss by weighing: wet weight minus dry weight, with 1 g equal to about 1 mL.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-044",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client continues to bleed after birth despite oxytocin and fundal massage. The provider prescribes tranexamic acid 1 g IV. Which instruction for giving this drug is correct?",
+   "options": [
+    "Give it IV over about 10 minutes, within 3 hours of birth",
+    "Give it as a rapid IV push over 30 seconds",
+    "Inject it IM into the deltoid muscle",
+    "Give it 24 hours after birth, once the uterus contracts"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Tranexamic acid works best when given early, within 3 hours of birth, and is given slowly IV over about 10 minutes.",
+    "Rapid IV push can cause hypotension.",
+    "Tranexamic acid for postpartum hemorrhage is given IV.",
+    "Benefit falls with delay, and the drug is not recommended after 3 hours."
+   ],
+   "takeaway": "Tranexamic acid for postpartum hemorrhage: 1 g IV over about 10 minutes, as early as possible and within 3 hours of birth.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-045",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews postpartum hemorrhage prescriptions for several clients. Which prescription should the nurse question?",
+   "options": [
+    "Oxytocin 10 units IM after birth of the placenta",
+    "Oxytocin 30 units in 500 mL of IV fluid infused per protocol",
+    "Oxytocin 10 units undiluted by IV push",
+    "Methylergonovine 0.2 mg IM for a client with a blood pressure of 118/72 mm Hg"
+   ],
+   "correct": 2,
+   "rationales": [
+    "IM oxytocin is a standard route when the client has no IV access or as part of active management.",
+    "A diluted IV infusion of oxytocin is standard for preventing and treating atony.",
+    "Correct. Undiluted IV push oxytocin can cause severe hypotension and dysrhythmias. IV oxytocin is given as a diluted infusion.",
+    "Methylergonovine is appropriate when blood pressure is normal. It is avoided in clients with hypertension."
+   ],
+   "takeaway": "Give IV oxytocin only as a diluted infusion, never as an undiluted IV push.",
+   "refs": [
+    "openstax-pharm",
+    "ismp-highalert",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-046",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "Four hours after a vaginal birth with a second-degree laceration, a client reports perineal pain. The perineum is swollen. Which comfort measure is best at this time?",
+   "options": [
+    "Apply a heating pad directly to the perineum",
+    "Apply a covered ice pack to the perineum for 10 to 20 minutes",
+    "Stay in bed until the swelling goes away",
+    "Douche with warm water to soothe the area"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Heat in the first 24 hours increases swelling, and a heating pad on the perineum can cause burns.",
+    "Correct. Cold reduces swelling and numbs pain during the first 24 hours after birth.",
+    "Early ambulation is encouraged to prevent complications such as blood clots.",
+    "Douching is avoided after birth because it can introduce infection."
+   ],
+   "takeaway": "Perineal care after birth: ice for the first 24 hours, then warm sitz baths; use the peri bottle and avoid douching.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-047",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A breastfeeding client is diagnosed with lactational mastitis and prescribed an oral antibiotic. Which statements by the client indicate correct understanding? Select all that apply.",
+   "options": [
+    "\"I'll keep breastfeeding, including from the sore breast.\"",
+    "\"I'll stop nursing on the sore side until the infection clears.\"",
+    "\"I'll take all of the antibiotic, even if I feel better in a few days.\"",
+    "\"I can take ibuprofen for pain and fever.\"",
+    "\"I'll call if my fever isn't better in 48 hours or the area gets hard and very painful.\"",
+    "\"I'll wrap my breasts tightly to stop the milk.\""
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Continued feeding is safe for the infant and helps keep milk moving.",
+    "Stopping feeding on that side can worsen engorgement and lead to an abscess.",
+    "Correct. Finishing the antibiotic prevents relapse and abscess formation.",
+    "Correct. Ibuprofen is compatible with breastfeeding and reduces pain and inflammation.",
+    "Correct. Lack of improvement or a hard, painful area can mean an abscess.",
+    "Binding is used to suppress lactation, not to treat mastitis, and can worsen inflammation."
+   ],
+   "takeaway": "Mastitis: keep breastfeeding, finish the antibiotic, use ibuprofen and report a fever that does not improve or a hard, painful area.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-048",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client who had a cesarean birth 2 days ago suddenly reports chest pain and difficulty breathing. Her heart rate is 122/min, respirations 28/min and SpO₂ 88% on room air. She is anxious. What should the nurse do first?",
+   "options": [
+    "Obtain a 12-lead ECG",
+    "Draw blood for a D-dimer level",
+    "Help the client walk to relieve the anxiety",
+    "Raise the head of the bed and apply oxygen"
+   ],
+   "correct": 3,
+   "rationales": [
+    "An ECG may be ordered, but treating hypoxemia comes first.",
+    "Labs are part of the workup but do not treat the low oxygen level.",
+    "Walking increases oxygen demand and is unsafe with suspected pulmonary embolism.",
+    "Correct. These findings suggest pulmonary embolism. Oxygen and an upright position address hypoxemia first, and the nurse then calls for help and notifies the provider."
+   ],
+   "takeaway": "Sudden dyspnea, chest pain, tachycardia and hypoxemia after birth suggest pulmonary embolism; oxygen and positioning come first, then rapid escalation.",
+   "refs": [
+    "openstax-maternal",
+    "openstax-medsurg"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-049",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse reviews findings from several postpartum clients. For each finding, indicate the condition it best matches.",
+   "rows": [
+    "Tearfulness and mood swings on day 3 that improve by day 10",
+    "Loss of interest, guilt and feelings of worthlessness lasting 5 weeks",
+    "Confusion, hallucinations and no sleep for 2 nights on day 5",
+    "Feeling hopeless and unable to bond with the baby for more than 2 weeks",
+    "Weepiness and anxiety on day 4 while still caring for the baby"
+   ],
+   "columns": [
+    "Postpartum blues",
+    "Postpartum depression",
+    "Postpartum psychosis"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    1,
+    0
+   ],
+   "rationales": [
+    "Blues begin within the first days and resolve within about 2 weeks without treatment.",
+    "Symptoms that last longer than 2 weeks and impair function suggest postpartum depression.",
+    "Hallucinations, confusion and severe insomnia early after birth suggest postpartum psychosis, a psychiatric emergency.",
+    "Persistent hopelessness and trouble bonding beyond 2 weeks are signs of depression, not blues.",
+    "Short-lived weepiness and anxiety with normal functioning fit postpartum blues."
+   ],
+   "takeaway": "Blues are mild and gone by 2 weeks; depression lasts longer and impairs function; psychosis brings hallucinations or confusion and is an emergency.",
+   "refs": [
+    "openstax-psych",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-050",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "On day 3 after birth, a client says, \"I keep crying for no reason. I love my baby, so I don't understand what's wrong with me.\" Which response by the nurse is best?",
+   "options": [
+    "\"You should be happy right now. You have a healthy baby.\"",
+    "\"Let me ask your provider about starting an antidepressant.\"",
+    "\"Try to keep busy so you won't dwell on these feelings.\"",
+    "\"Many new parents feel weepy for a few days. Tell us if it lasts beyond 2 weeks.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "This dismisses the client's feelings and may increase guilt.",
+    "Medication is not needed for short-term blues that do not affect functioning.",
+    "This avoids the client's concern and gives no useful information.",
+    "Correct. This normalizes postpartum blues, which affect most new parents, while teaching the client when to seek help for possible depression."
+   ],
+   "takeaway": "Normalize postpartum blues and teach clients to report symptoms lasting more than 2 weeks, hopelessness or thoughts of harm.",
+   "refs": [
+    "openstax-psych",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-051",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client at 9 weeks' gestation has had a miscarriage. She says, \"I must have caused this by lifting those heavy boxes last week.\" Which response by the nurse is most appropriate?",
+   "options": [
+    "\"At least it happened early, before you were very far along.\"",
+    "\"Most early losses happen because of chromosome problems, not anything you did. How are you feeling right now?\"",
+    "\"You can try for another baby in a few months once you heal.\"",
+    "\"Next time, it would be best to avoid lifting anything heavy.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "This minimizes the loss. Grief after an early miscarriage can be just as intense.",
+    "Correct. Accurate information eases misplaced guilt, and the open question invites the client to share her grief.",
+    "Talking about a future pregnancy dismisses grief for this one.",
+    "This suggests the client caused the loss, which is not accurate and adds guilt."
+   ],
+   "takeaway": "Most first-trimester losses are caused by chromosomal problems; correct misplaced guilt and acknowledge the grief.",
+   "refs": [
+    "openstax-psych",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-052",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who chose to end a pregnancy after the fetus was diagnosed with a lethal anomaly says, \"I keep wondering if I made the wrong decision.\" Which response by the nurse is most therapeutic?",
+   "options": [
+    "\"It sounds like you're carrying a lot of grief about this. Tell me more about what you're feeling.\"",
+    "\"You definitely made the right choice for your family and your baby.\"",
+    "\"Try to focus on taking care of yourself and your health right now.\"",
+    "\"Many people come to regret that kind of decision later on.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. A nonjudgmental, open-ended response reflects the client's feelings and lets the client explore grief and doubt at her own pace.",
+    "Giving an opinion on the decision is judgmental and closes off discussion of her feelings.",
+    "This changes the subject and does not address what she said.",
+    "This is judgmental and can increase guilt and distress."
+   ],
+   "takeaway": "After pregnancy loss or termination, respond without judgment: reflect feelings and use open-ended questions rather than giving opinions.",
+   "refs": [
+    "openstax-psych",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-053",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client has given birth to a stillborn infant at 22 weeks' gestation. Which nursing actions support the family's grieving? Select all that apply.",
+   "options": [
+    "Offer the parents the chance to see and hold their baby",
+    "Take the baby out of the room quickly to spare the parents distress",
+    "Offer keepsakes such as footprints, photographs or a lock of hair",
+    "Call the baby by name if the parents have chosen one",
+    "Tell the parents they can have another baby soon",
+    "Offer to contact a chaplain or spiritual support person of their choice"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Seeing and holding the baby, if the parents wish, helps make the loss real and supports healthy grieving.",
+    "Removing the baby without asking takes away a chance for the parents to say goodbye.",
+    "Correct. Mementos give parents lasting reminders of their baby.",
+    "Correct. Using the name acknowledges the baby as a person and validates the loss.",
+    "Talking about future pregnancies minimizes the loss of this baby.",
+    "Correct. Spiritual care, based on the family's beliefs, supports coping with grief."
+   ],
+   "takeaway": "Support perinatal loss by offering time with the baby, keepsakes, the baby's name and spiritual care, while letting the family choose.",
+   "refs": [
+    "openstax-psych",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-054",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with opioid use disorder who has been stable on buprenorphine throughout pregnancy gave birth yesterday. She says, \"It's my fault if my baby goes through withdrawal.\" Which response by the nurse is most appropriate?",
+   "options": [
+    "\"You should have tapered off the buprenorphine before the baby was born.\"",
+    "\"The nursery staff will take care of the baby so that you can rest.\"",
+    "\"Staying in treatment was an important choice for your baby. Let's talk about ways you can comfort the baby.\"",
+    "\"Withdrawal in babies is not that serious, so try not to worry about it.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Stopping medication for opioid use disorder during pregnancy raises the risk of relapse and overdose. This statement is inaccurate and blaming.",
+    "Parent involvement is a key part of nonpharmacologic care for neonatal opioid withdrawal.",
+    "Correct. This response is nonjudgmental, affirms the client's recovery, and includes her in comforting care such as skin-to-skin contact, rooming-in and breastfeeding when appropriate.",
+    "This minimizes the client's concern and gives false reassurance."
+   ],
+   "takeaway": "For parents in recovery, respond without judgment and involve them in comforting the newborn; medication for opioid use disorder is recommended in pregnancy.",
+   "refs": [
+    "openstax-psych",
+    "samhsa",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-055",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "At a prenatal visit, the nurse needs to screen a client for intimate partner violence. The client's partner is in the room and answers most questions for her. What should the nurse do?",
+   "options": [
+    "Ask the questions in front of the partner to see how the partner reacts",
+    "Ask the screening questions when the client is alone, such as during a private part of the exam",
+    "Skip the screening because the client did not raise any concerns",
+    "Give the client a written screening form to complete with her partner"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Asking in front of a possible abuser can put the client in danger and prevents an honest answer.",
+    "Correct. Screening must be done privately so the client can answer safely. Violence often begins or increases during pregnancy.",
+    "Screening is recommended for all pregnant clients, and many will not bring it up on their own.",
+    "Completing the form with the partner present does not provide privacy or safety."
+   ],
+   "takeaway": "Screen every pregnant client for intimate partner violence, and always do it in private.",
+   "refs": [
+    "openstax-psych",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-056",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches new parents to recognize early hunger cues in their breastfed newborn. Which behaviors are early hunger cues? Select all that apply.",
+   "options": [
+    "Rooting, turning toward touch on the cheek",
+    "Crying loudly",
+    "Bringing hands to the mouth",
+    "Lip smacking or sucking motions",
+    "Turning the head away from the breast",
+    "Sleeping deeply"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Rooting is an early sign the infant is ready to feed.",
+    "Crying is a late hunger cue. A crying infant may need calming before latching well.",
+    "Correct. Hand-to-mouth activity is an early hunger cue.",
+    "Correct. Lip smacking and sucking motions show early readiness to feed.",
+    "Turning away often signals fullness or a need for a break.",
+    "Deep sleep is not a hunger cue. Feeding is easier during light sleep or quiet alert states."
+   ],
+   "takeaway": "Feed newborns at early cues (rooting, hand-to-mouth, sucking motions), about 8 to 12 times a day; crying is a late cue.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-057",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "order",
+   "clientNeed": "hpm",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is helping a client latch her newborn for breastfeeding. Place the steps in the correct order.",
+   "options": [
+    "When the mouth opens wide, bring the newborn quickly onto the breast",
+    "To end the feeding, slip a clean finger into the corner of the mouth to break suction",
+    "Hold the newborn tummy-to-tummy with the nose level with the nipple",
+    "Check that the lips are flanged outward and cover much of the areola",
+    "Touch the newborn's upper lip with the nipple"
+   ],
+   "correct": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "rationales": [
+    "Third: bringing the infant to the breast when the mouth is open wide gives a deep latch.",
+    "Last: breaking suction before removal prevents nipple trauma.",
+    "First: good alignment lets the infant reach the breast without turning the head.",
+    "Fourth: flanged lips and much of the areola in the mouth show an effective latch.",
+    "Second: touching the upper lip triggers the rooting reflex and a wide-open mouth."
+   ],
+   "takeaway": "Deep latch: tummy-to-tummy, nose to nipple, wait for a wide mouth, bring the baby to the breast, and break suction before removing.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-058",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse assesses a term newborn at 18 hours of age. For each finding, indicate whether it is expected or requires follow-up.",
+   "rows": [
+    "Heart rate 148/min",
+    "Respiratory rate 72/min with grunting and nasal flaring",
+    "Bluish hands and feet with a pink trunk",
+    "Yellow skin on the face and chest",
+    "Axillary temperature 36.8 °C (98.2 °F)"
+   ],
+   "columns": [
+    "Expected",
+    "Requires follow-up"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "A newborn heart rate of 110 to 160/min is normal.",
+    "Respirations above 60/min with grunting and flaring are signs of respiratory distress.",
+    "Acrocyanosis is normal in the first days because of immature peripheral circulation.",
+    "Jaundice within the first 24 hours is pathologic until proven otherwise and needs a bilirubin level.",
+    "Normal newborn axillary temperature is about 36.5 to 37.5 °C (97.7 to 99.5 °F)."
+   ],
+   "takeaway": "Newborn norms: HR 110 to 160/min, RR 30 to 60/min, axillary temp 36.5 to 37.5 °C; jaundice before 24 hours is never normal.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-059",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "A parent of a 2-day-old newborn is worried because the baby's toes fan out and the big toe bends up when the nurse strokes the sole of the foot. Which response by the nurse is accurate?",
+   "options": [
+    "\"This can be a sign of a nerve problem, so I'll notify the provider.\"",
+    "\"This means your baby is ready to start walking early.\"",
+    "\"This reflex should have disappeared before birth.\"",
+    "\"This is a normal newborn reflex that usually goes away by about 1 year.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "In a newborn this finding is normal and does not signal a nerve problem.",
+    "The Babinski reflex is a primitive reflex and does not predict walking.",
+    "The reflex is present at birth and expected throughout infancy.",
+    "Correct. A positive Babinski reflex is normal in newborns and usually disappears by about 12 months as the nervous system matures."
+   ],
+   "takeaway": "A positive Babinski reflex is normal in infants and usually fades by about 1 year; persistence beyond that needs evaluation.",
+   "refs": [
+    "openstax-maternal",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-060",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A 3-day-old breastfed newborn has yellow skin on the face and chest. The bilirubin level is below the treatment threshold for the infant's age, and the infant has 6 wet diapers and 4 stools a day. What should the nurse tell the parents?",
+   "options": [
+    "\"Give the baby extra water between feedings to flush out the bilirubin.\"",
+    "\"Stop breastfeeding for a few days until the yellow color fades.\"",
+    "\"This is common physiologic jaundice. Feeding at least 8 to 12 times a day helps clear the bilirubin.\"",
+    "\"Place the baby in direct sunlight by a window for an hour each day.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Water does not lower bilirubin and can fill the baby up, reduce milk intake and cause hyponatremia.",
+    "Breastfeeding should continue. Frequent feeding helps lower bilirubin.",
+    "Correct. Jaundice that appears after 24 hours with a bilirubin below threshold and good output is physiologic. Frequent feeding increases stooling, which removes bilirubin.",
+    "Sunlight is not a safe or reliable treatment because it can cause sunburn and overheating."
+   ],
+   "takeaway": "Physiologic jaundice appears after 24 hours; frequent feeding (8 to 12 times a day) is the main measure, and water and sunlight are not treatments.",
+   "refs": [
+    "openstax-maternal",
+    "medline-children"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-061",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse monitors a large-for-gestational-age newborn at risk for hypoglycemia. Which findings could be signs of low blood glucose? Select all that apply.",
+   "options": [
+    "Jitteriness",
+    "Strong, vigorous suck",
+    "Poor feeding",
+    "Low temperature",
+    "Pink, well-perfused skin",
+    "Lethargy"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Jitteriness or tremors are common signs of newborn hypoglycemia.",
+    "A strong suck is a reassuring sign of normal glucose and energy.",
+    "Correct. A weak or poor suck can result from low glucose.",
+    "Correct. Temperature instability, including hypothermia, can be a sign of hypoglycemia, and cold stress also uses up glucose.",
+    "Good color and perfusion are normal findings.",
+    "Correct. Low glucose depresses the nervous system and causes lethargy or hypotonia."
+   ],
+   "takeaway": "Newborn hypoglycemia signs: jitteriness, poor feeding, hypothermia, lethargy, apnea or a high-pitched cry; check a heel-stick glucose and treat per protocol.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-062",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is caring for a term newborn right after birth. Which actions help prevent heat loss? Select all that apply.",
+   "options": [
+    "Dry the newborn right away and remove wet linens",
+    "Bathe the newborn within the first 30 minutes",
+    "Place the newborn skin-to-skin on the parent's chest",
+    "Cover the newborn's head with a hat",
+    "Place the bassinet next to an outside window",
+    "Cover the scale with a warm blanket before weighing"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. Drying prevents heat loss by evaporation.",
+    "An early bath causes evaporative heat loss. The first bath is delayed until the newborn's temperature is stable, often 6 to 24 hours.",
+    "Correct. Skin-to-skin contact warms the newborn through conduction and supports breastfeeding.",
+    "Correct. A newborn loses a lot of heat through the large head.",
+    "Cold windows and walls draw heat away from the newborn by radiation.",
+    "Correct. Covering cold surfaces prevents heat loss by conduction."
+   ],
+   "takeaway": "Prevent newborn heat loss by drying, skin-to-skin contact, a hat, warm surfaces, avoiding drafts and cold windows, and delaying the first bath.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-063",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A parent asks whether the newborn really needs the vitamin K injection and says, \"Isn't it just a vitamin?\" Which response by the nurse is most accurate?",
+   "options": [
+    "\"Newborns have little vitamin K, so it prevents serious bleeding, including in the brain.\"",
+    "\"It is mainly given to help your baby's bones grow strong in the first months.\"",
+    "\"It protects your baby's eyes from infection picked up during birth.\"",
+    "\"It is only needed for babies who were born by cesarean birth.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Vitamin K crosses the placenta poorly and the newborn gut lacks bacteria that make it. A single IM dose prevents vitamin K deficiency bleeding, which can cause brain hemorrhage.",
+    "Vitamin K is given for clotting, not bone growth.",
+    "Eye prophylaxis is erythromycin ointment, not vitamin K.",
+    "All newborns are at risk for vitamin K deficiency bleeding, however they are born."
+   ],
+   "takeaway": "Every newborn gets IM vitamin K at birth to prevent vitamin K deficiency bleeding, which can be life-threatening.",
+   "refs": [
+    "openstax-pharm",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-064",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "takeAction",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "The nurse is preparing to give the hepatitis B vaccine to a term newborn whose parents have consented. Vitamin K was given 30 minutes ago in the left thigh. How should the nurse give the vaccine?",
+   "options": [
+    "IM in the anterolateral thigh, at a separate site from the vitamin K",
+    "IM in the deltoid muscle of the upper arm",
+    "IM in the dorsogluteal site",
+    "Subcutaneously in the abdomen"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The vastus lateralis in the anterolateral thigh is the preferred IM site for infants, and each injection gets its own site.",
+    "The deltoid is too small in a newborn for an IM injection.",
+    "The dorsogluteal site is avoided in infants because the sciatic nerve can be injured.",
+    "The hepatitis B vaccine is given IM, not subcutaneously."
+   ],
+   "takeaway": "Newborn IM injections go in the vastus lateralis (anterolateral thigh), never the dorsogluteal site.",
+   "refs": [
+    "cdc-immunization",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-065",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "matrix",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A newborn was exposed to opioids before birth. For each finding at 48 hours of age, indicate whether it is consistent with neonatal opioid withdrawal.",
+   "rows": [
+    "High-pitched, continuous cry",
+    "Frequent sneezing and yawning",
+    "Sleeps 3 hours after feeding and is easy to console",
+    "Tremors when undisturbed",
+    "Coordinated suck with good intake at each feeding"
+   ],
+   "columns": [
+    "Consistent with withdrawal",
+    "Not consistent with withdrawal"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "A high-pitched cry reflects central nervous system irritability from withdrawal.",
+    "Sneezing and yawning are autonomic signs of withdrawal.",
+    "Sleeping well and being easy to console are signs the infant is coping well.",
+    "Tremors at rest show central nervous system irritability.",
+    "Withdrawal usually causes poor, uncoordinated feeding. Good feeding suggests the infant is managing well."
+   ],
+   "takeaway": "Neonatal opioid withdrawal: high-pitched cry, tremors, sneezing, yawning, poor feeding and trouble sleeping or consoling; eating, sleeping and consoling well are reassuring.",
+   "refs": [
+    "openstax-maternal",
+    "samhsa"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-066",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is preparing a newborn for a scheduled circumcision. Which finding should the nurse report to the provider before the procedure?",
+   "options": [
+    "The newborn last fed 1 hour ago",
+    "The newborn received vitamin K at birth",
+    "The urethral opening is on the underside of the penis",
+    "The newborn has voided twice since birth"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Feeding times may affect how the procedure is scheduled but are not a contraindication.",
+    "Vitamin K lowers bleeding risk, so giving it is expected before circumcision.",
+    "Correct. Hypospadias is a contraindication to routine circumcision because the foreskin may be needed for later surgical repair.",
+    "Voiding shows normal urinary function and is reassuring."
+   ],
+   "takeaway": "Hypospadias is a contraindication to circumcision, because the foreskin may be needed for repair; confirm vitamin K was given before the procedure.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-067",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse teaches new parents about car seat safety before discharge. Which instructions are correct? Select all that apply.",
+   "options": [
+    "Place the car seat rear-facing in the back seat",
+    "Turn the seat forward-facing when the baby reaches 12 months of age",
+    "Place the chest clip at armpit level",
+    "Dress the baby in a thick snowsuit under the harness on cold days",
+    "Never place a rear-facing seat in front of an active airbag",
+    "Keep the harness snug so you can't pinch extra strap at the shoulder"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. Infants ride rear-facing in the back seat, which protects the head, neck and spine.",
+    "Children should stay rear-facing as long as possible, until they reach the seat's rear-facing height or weight limit.",
+    "Correct. A chest clip at armpit level keeps the harness straps in place over the shoulders.",
+    "Bulky clothing compresses in a crash and leaves the harness too loose. Use a blanket over the buckled harness instead.",
+    "Correct. A deploying airbag can strike a rear-facing seat and cause fatal injury.",
+    "Correct. A snug harness passes the pinch test and keeps the infant secure."
+   ],
+   "takeaway": "Car seats: rear-facing in the back seat as long as the seat allows, chest clip at armpit level, snug harness and no bulky coats.",
+   "refs": [
+    "medline-children",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-068",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse is teaching new parents about infant security on the mother-baby unit. Which practices help prevent infant abduction? Select all that apply.",
+   "options": [
+    "Match the newborn's and parent's ID bands each time the newborn is returned to the room",
+    "Leave the newborn in the bassinet in the hallway while the parent showers",
+    "Give the newborn only to staff who wear the unit's specific photo ID badge",
+    "Move the newborn in the hallway in a bassinet, not carried in the arms",
+    "Post the newborn's full name and photo on the room door"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Matching ID bands confirms the right newborn is with the right parent.",
+    "A newborn left unattended in a hallway is at risk for abduction. The newborn should stay with a parent or staff member.",
+    "Correct. Parents should hand their newborn only to staff with the proper identification.",
+    "Correct. A bassinet makes transport visible and safer, and policy usually prohibits carrying newborns in hallways.",
+    "Posting identifying information makes it easier for someone to target the newborn."
+   ],
+   "takeaway": "Prevent infant abduction: match ID bands, release the newborn only to properly badged staff, transport in a bassinet and never leave the newborn unattended.",
+   "refs": [
+    "tjc-npsg",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-069",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 1,
+   "level": "Apply",
+   "stem": "The nurse is about to examine a newborn who has not yet had a first bath. Which infection-prevention measure is appropriate?",
+   "options": [
+    "Wear a gown and N95 respirator",
+    "Wear gloves until the newborn has been bathed",
+    "No gloves are needed because a newborn's skin is sterile",
+    "Wear gloves only when changing a diaper"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Airborne precautions are not needed for routine newborn care.",
+    "Correct. Under standard precautions, gloves are worn when handling a newborn covered in blood and amniotic fluid until the first bath.",
+    "A newborn's skin is not sterile, and blood and amniotic fluid on the skin are a potential source of bloodborne exposure.",
+    "Gloves are needed for any contact with blood or body fluids, which cover the skin before the first bath."
+   ],
+   "takeaway": "Wear gloves when handling a newborn until the first bath removes blood and amniotic fluid.",
+   "refs": [
+    "cdc-isolation",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-070",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who gave birth vaginally 3 hours ago, with an estimated blood loss of 600 mL, wants to walk to the bathroom for the first time. Which action is most important?",
+   "options": [
+    "Let her walk to the bathroom alone to give her privacy",
+    "Offer a bedpan and keep her in bed for the first 24 hours",
+    "Have her stand up quickly so she does not get dizzy",
+    "Have her dangle at the bedside first, then walk with her"
+   ],
+   "correct": 3,
+   "rationales": [
+    "The first time out of bed after birth, the client needs assistance to prevent a fall.",
+    "Early walking is encouraged to prevent clots and help the bladder empty. Bed rest is not needed.",
+    "Standing quickly raises the risk of orthostatic hypotension and fainting.",
+    "Correct. Blood loss, fatigue and position changes can cause orthostatic hypotension. Dangling first and staying with the client prevents falls."
+   ],
+   "takeaway": "First time out of bed after birth: dangle first, then walk with the client, especially after significant blood loss or regional anesthesia.",
+   "refs": [
+    "openstax-maternal",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-071",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client with a history of genital herpes is admitted at 39 weeks' gestation in early labor with intact membranes. The nurse sees an active vesicular lesion on the labia. What should the nurse do?",
+   "options": [
+    "Cover the lesion with a sterile dressing and continue labor",
+    "Apply acyclovir ointment and proceed with vaginal birth",
+    "Start an oxytocin infusion to speed up the birth",
+    "Notify the provider and anticipate a cesarean birth"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Covering the lesion does not prevent newborn exposure during vaginal birth.",
+    "Topical acyclovir does not prevent transmission during birth.",
+    "Speeding labor does not prevent exposure and delays the needed cesarean.",
+    "Correct. Active genital lesions or prodromal symptoms in labor are an indication for cesarean birth to reduce the risk of neonatal herpes, which can be life-threatening."
+   ],
+   "takeaway": "Active genital herpes lesions or prodromal symptoms at the onset of labor are an indication for cesarean birth.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-072",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client chooses depot medroxyprogesterone acetate injections for contraception. Which statement indicates that she understands the teaching?",
+   "options": [
+    "\"I'll get the shot once a year at my checkup.\"",
+    "\"I'll get a shot every 3 months and make sure I get enough calcium and vitamin D.\"",
+    "\"My periods will stay the same as they are now.\"",
+    "\"I'll be able to get pregnant the month after I stop the shots.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Protection lasts about 3 months, not a year.",
+    "Correct. The injection is given about every 13 weeks. Long-term use can reduce bone density, so calcium, vitamin D and weight-bearing exercise are encouraged.",
+    "Irregular bleeding or spotting is common at first, and many users stop having periods over time.",
+    "Fertility can take many months (often up to a year or more) to return after the last injection."
+   ],
+   "takeaway": "Depot medroxyprogesterone: an injection every 13 weeks, irregular bleeding is common, bone density can drop, and fertility can be slow to return.",
+   "refs": [
+    "openstax-maternal",
+    "openstax-pharm"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-073",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client who is 6 weeks postpartum plans to use the lactational amenorrhea method for contraception. Which statement indicates correct understanding?",
+   "options": [
+    "\"It only works while my baby is under 6 months, I breastfeed exclusively and my period hasn't come back.\"",
+    "\"It works as long as I breastfeed at least a few times every day.\"",
+    "\"I can count on it to keep working until my baby turns 1 year old.\"",
+    "\"I'll still be protected if the baby gets formula bottles at night.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The method is effective only when all three conditions are met: infant under 6 months, exclusive or nearly exclusive breastfeeding, and no return of menses.",
+    "Occasional breastfeeding does not suppress ovulation reliably.",
+    "Protection is reliable only up to 6 months, when the infant starts solids and nursing decreases.",
+    "Supplementing with formula reduces nursing frequency and allows ovulation to return."
+   ],
+   "takeaway": "The lactational amenorrhea method works only with exclusive breastfeeding, no menses and an infant under 6 months; when any condition ends, use another method.",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-074",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "order",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "The nurse on an antepartum unit receives report on four clients. Place the clients in the order the nurse should see them.",
+   "options": [
+    "A client at 24 weeks' gestation who is stable and wants information about breastfeeding",
+    "A client at 30 weeks' gestation in preterm labor on nifedipine, with contractions every 8 minutes",
+    "A client at 35 weeks' gestation with preeclampsia, blood pressure 168/112 mm Hg, and a new headache",
+    "A client at 28 weeks' gestation with gestational diabetes and a fasting glucose of 102 mg/dL"
+   ],
+   "correct": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "rationales": [
+    "Fourth: teaching for a stable client is important but can wait until the others are safe.",
+    "Second: ongoing preterm contractions despite a tocolytic need prompt assessment of labor progress and the fetus.",
+    "First: severe-range blood pressure with a headache puts this client at risk for eclampsia and stroke and needs immediate treatment.",
+    "Third: a slightly high fasting glucose needs follow-up and plan changes but is not an emergency."
+   ],
+   "takeaway": "Prioritize the antepartum client with a threat to life (severe hypertension with symptoms) first, then active labor, then abnormal but stable findings, then teaching.",
+   "refs": [
+    "openstax-maternal",
+    "ncsbn-testplan"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-075",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "sata",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The RN is working with a licensed practical nurse (LPN) on a postpartum unit. Which tasks are appropriate to assign to the LPN? Select all that apply.",
+   "options": [
+    "Give scheduled oral ibuprofen to a stable client on postpartum day 1",
+    "Perform the admission assessment of a client just transferred from labor and birth",
+    "Reinforce perineal care teaching the RN has already provided",
+    "Develop the discharge teaching plan for a client with gestational diabetes",
+    "Check vital signs and fundal height for a stable client on postpartum day 2"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Giving routine oral medications to a stable client is within LPN scope.",
+    "The initial assessment of a newly transferred client is an RN responsibility.",
+    "Correct. LPNs can reinforce teaching that the RN has started.",
+    "Creating a teaching plan requires RN assessment and planning.",
+    "Correct. Collecting data on a stable client with predictable findings is appropriate for an LPN, who reports findings to the RN."
+   ],
+   "takeaway": "Assign LPNs stable clients with predictable outcomes, routine medications, data collection and reinforcement of teaching; keep initial assessment and care planning with the RN.",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-076",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A client is about to sign the consent form for a scheduled cesarean birth. She asks the nurse, \"What are the chances I'll need a hysterectomy?\" What should the nurse do?",
+   "options": [
+    "Explain the risks of hysterectomy and then have the client sign",
+    "Have the client sign now and tell her the provider will talk with her later",
+    "Hold off on the signature and ask the provider to answer the client's questions",
+    "Tell the client the risk is very low so she does not worry"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Explaining surgical risks to obtain consent is not the nurse's role.",
+    "Signing before questions are answered means the consent is not informed.",
+    "Correct. Informing the client about risks is the provider's responsibility. Consent is not valid until the client's questions are answered, so the nurse holds the signature and contacts the provider.",
+    "Giving reassurance without accurate information does not meet informed consent requirements."
+   ],
+   "takeaway": "The provider obtains informed consent; the nurse witnesses the signature and contacts the provider if the client still has questions.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-077",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The nurse needs to give discharge teaching to a postpartum client who speaks limited English. Her partner speaks English and offers to translate. What should the nurse do?",
+   "options": [
+    "Let the partner translate, since he will help care for the baby",
+    "Use a qualified medical interpreter",
+    "Give the client written materials in English and ask her to call with questions",
+    "Speak slowly and use simple English words"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Family members may leave out or change information and may limit what the client feels able to ask.",
+    "Correct. A qualified medical interpreter ensures accurate, confidential communication and lets the client ask questions freely.",
+    "English materials do not meet the needs of a client with limited English.",
+    "Speaking slowly does not ensure understanding of important health information."
+   ],
+   "takeaway": "Use qualified medical interpreters, not family members, for health teaching with clients who have limited English proficiency.",
+   "refs": [
+    "openstax-fund",
+    "ana-ethics"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-078",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "difficulty": 3,
+   "level": "Analyze",
+   "stem": "A client in labor is a Jehovah's Witness and states that she will not accept blood transfusions under any circumstances. She has twins and a history of postpartum hemorrhage. What should the nurse do?",
+   "options": [
+    "Tell her she must accept blood if her life is in danger",
+    "Ask her partner to help convince her to change her mind",
+    "Request a court order that allows transfusion if needed",
+    "Document her refusal and notify the provider to plan bloodless care"
+   ],
+   "correct": 3,
+   "rationales": [
+    "This disregards her right to refuse treatment.",
+    "Pressuring the client through her partner violates her autonomy.",
+    "A competent adult's informed refusal is respected, and the nurse does not seek a court order to override it.",
+    "Correct. A competent adult can refuse treatment. The nurse advocates by documenting her wishes and alerting the team early so it can plan alternatives, such as uterotonics, tranexamic acid and other blood-conservation measures she accepts."
+   ],
+   "takeaway": "Respect a competent adult's refusal of blood products: document it, inform the team and plan alternatives in advance.",
+   "refs": [
+    "ana-ethics",
+    "openstax-maternal"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-079",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "A medical-surgical nurse is floated to the mother-baby unit. Which client is most appropriate to assign to this nurse?",
+   "options": [
+    "A client in active labor receiving an oxytocin infusion",
+    "A client with preeclampsia with severe features receiving magnesium sulfate",
+    "A client on postpartum day 2 after a cesarean birth who is stable and walking",
+    "A newborn at 1 hour of age in transition"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Labor with oxytocin requires specialized fetal monitoring skills.",
+    "This high-acuity client needs a nurse experienced with obstetric emergencies.",
+    "Correct. A stable post-surgical client draws on the float nurse's medical-surgical skills such as incision care, pain management and mobility.",
+    "Newborn transition requires specific neonatal assessment skills."
+   ],
+   "takeaway": "Assign a float nurse the most stable client whose care matches the nurse's experience; keep high-acuity specialty clients with unit nurses.",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  },
+  {
+   "id": "rnr:maternal-080",
+   "source": "rnrBank",
+   "origin": "v4",
+   "batch": "v4",
+   "topic": "Maternal & Newborn",
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "difficulty": 2,
+   "level": "Apply",
+   "stem": "The mother of an adult client in labor calls the unit and asks the nurse how far dilated her daughter is. What should the nurse do?",
+   "options": [
+    "Check whether the client has given permission to share information with her mother",
+    "Give the information, since the caller is a close family member",
+    "Tell the caller that no information can ever be given by phone",
+    "Ask the caller to confirm the client's date of birth and then share the update"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Health information about an adult can be shared only with people the client has authorized. The nurse checks the client's wishes first.",
+    "Being a relative does not entitle someone to health information without the client's permission.",
+    "Information can be shared when the client has authorized it, so this response is inaccurate.",
+    "Knowing the date of birth does not show that the client has agreed to share her information."
+   ],
+   "takeaway": "Share an adult client's health information only with people the client has authorized.",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "reviewed": "v4"
+  }
+ ]
+}

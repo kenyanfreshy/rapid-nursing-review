@@ -1,0 +1,79 @@
+{
+ "file": "content/nclex/v4/msk.json",
+ "reviewed": 45,
+ "ok": 31,
+ "fixed": 6,
+ "rewritten": 8,
+ "items": [
+  {
+   "id": "rnr:msk-001",
+   "status": "fixed",
+   "note": "Row 2 said \"tingling and numbness\" keyed early; numbness/sensory loss is a later finding, making the row arguable. Changed to tingling (paresthesia) only and clarified the rationale."
+  },
+  {
+   "id": "rnr:msk-009",
+   "status": "fixed",
+   "note": "Two options (walking with a walker vs bed rest until drain removal) repeated the facts tested by existing item msk-osteomyelitis-q3. Replaced them with quadriceps-setting exercises (keyed) and calf massage (unkeyed); key now [1, 2, 3]."
+  },
+  {
+   "id": "rnr:msk-010",
+   "status": "rewritten",
+   "note": "Same fact as existing rnr:pharmacology-009 (leave the air bubble in a prefilled enoxaparin syringe). Rewritten as a cyclobenzaprine teaching item (CNS depression, short-term use) with the same id, clientNeed, cjmm and key position."
+  },
+  {
+   "id": "rnr:msk-012",
+   "status": "rewritten",
+   "note": "Same scenario and judgment as existing resp-pe-q1 (sudden dyspnea after joint replacement: support oxygenation first). Rewritten as a new neurologic deficit after lumbar spinal fusion (possible epidural hematoma) with the same id, labels and key position."
+  },
+  {
+   "id": "rnr:msk-013",
+   "status": "rewritten",
+   "note": "Same fact as existing msk-bone-q1 (alendronate with water, stay upright). Rewritten as raloxifene teaching evaluation (VTE warning, hot flashes, immobility) with the same id, labels and key position."
+  },
+  {
+   "id": "rnr:msk-015",
+   "status": "rewritten",
+   "note": "Same fact as existing msk-bone-q4 (osteoporosis risk factor SATA: smoking, corticosteroids, brisk walking). Takeaway also called low body weight and corticosteroids \"modifiable.\" Rewritten as identifying calcium-rich foods in a food record; same id, labels and type."
+  },
+  {
+   "id": "rnr:msk-017",
+   "status": "rewritten",
+   "note": "Key (moist heat for RA morning stiffness) repeated the fact in existing heme-ra-q4. Rewritten as joint-protection teaching (use larger joints, built-up handles) with the same id, labels and key position."
+  },
+  {
+   "id": "rnr:msk-021",
+   "status": "rewritten",
+   "note": "Same facts as existing msk-bone-q2 and nb:nb-msk-05 (limit organ meats, shellfish, beer; drink fluids for gout). Rewritten as computer-workstation teaching to reduce carpal tunnel risk; same id, labels and type."
+  },
+  {
+   "id": "rnr:msk-023",
+   "status": "rewritten",
+   "note": "Same fact and judgment as existing msk-osteomyelitis-q5 (phantom limb pain is real and is treated); msk-043 also covers phantom sensation. Rewritten as analysis of a loosening prosthetic socket from residual-limb shrinkage; same id, labels and key position."
+  },
+  {
+   "id": "rnr:msk-028",
+   "status": "fixed",
+   "note": "Rows (low locked bed, four side rails, scheduled toileting, vest restraint) repeated the facts tested in existing nb:safe-06 and nb:u2-safe-009. Replaced with different fall-prevention actions: bed-exit alarm, nonskid footwear, geri-chair with lap tray (restraint), medication review, bed rest."
+  },
+  {
+   "id": "rnr:msk-036",
+   "status": "rewritten",
+   "note": "Same fact as existing nb:u2-basic-027 and msk-fractures-q4 (elevate a new cast above heart level). Rewritten as managing a rough cast edge (petaling with tape or moleskin); same id, labels and key position."
+  },
+  {
+   "id": "rnr:msk-037",
+   "status": "fixed",
+   "note": "Ambiguous sequence: \"tighten the abdominal muscles\" could defensibly go before the squat, after grasping the box or just before the lift. Replaced it with a clearly last step (turn by pivoting the feet) and reordered the key to [1, 3, 0, 2, 4]."
+  },
+  {
+   "id": "rnr:msk-041",
+   "status": "fixed",
+   "note": "Ambiguous order between \"stand and pause to gain balance\" and \"move the hands to the walker grips\" (sources teach both sequences). Replaced the pause step with a clearly final step and reordered the key to [2, 0, 4, 3, 1]."
+  },
+  {
+   "id": "rnr:msk-044",
+   "status": "fixed",
+   "note": "Keyed option was much longer and more detailed than the distractors (length cue). Expanded the distractors to similar length and detail."
+  }
+ ]
+}

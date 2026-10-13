@@ -1,0 +1,1620 @@
+[
+ {
+  "id": "ngn:rnr-preeclampsia",
+  "title": "Preeclampsia with Severe Features",
+  "sub": "Magnesium sulfate at 35 weeks · Labor and delivery",
+  "clientNeed": "pharm",
+  "area": "Pharmacological & Parenteral Therapies",
+  "source": "rnr",
+  "topic": "Maternal & Newborn",
+  "refs": [
+   "acog-preeclampsia",
+   "openstax-maternal",
+   "ismp-highalert"
+  ],
+  "profile": "26-year-old, G1 P0, at 35 weeks 3 days of gestation, sent from the prenatal clinic to labor and delivery. No history of chronic hypertension; BP was 118/72 mm Hg at 20 weeks. No allergies. No history of asthma.",
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 09:40",
+     "Client reports a frontal headache, 7/10, that started last night and was not relieved by acetaminophen 1,000 mg at 06:00. States she is \"seeing sparkles\" in both eyes. Reports aching pain under the right ribs and in the epigastric area. Face and hands puffy; 2+ pitting edema in both lower legs. Patellar reflexes 3+ bilaterally, no clonus. Lungs clear. Uterus soft and nontender, no contractions palpated, no vaginal bleeding. Fetal heart rate baseline 140, moderate variability, accelerations present, no decelerations."
+    ],
+    [
+     "Nurses' notes 09:55",
+     "Repeat BP confirmed. Provider at bedside; plan for magnesium sulfate, IV antihypertensive and induction of labor."
+    ]
+   ],
+   "Vitals": [
+    [
+     "09:40",
+     "BP 168/112 mm Hg · HR 92 · RR 18 · SpO₂ 98% on room air · T 36.9 °C (98.4 °F)"
+    ],
+    [
+     "09:55",
+     "BP 164/110 mm Hg · HR 90 · RR 18 · SpO₂ 98% on room air"
+    ],
+    [
+     "Prenatal visit, 33 weeks",
+     "BP 134/86 mm Hg · weight up 2.3 kg (5 lb) in 2 weeks"
+    ]
+   ],
+   "Labs": [
+    [
+     "09:50",
+     "Platelets 136,000/µL (normal 150,000–400,000) · AST 32 U/L (normal 10–40) · ALT 28 U/L (normal 7–56) · Creatinine 0.8 mg/dL · Hgb 12.4 g/dL"
+    ],
+    [
+     "09:50",
+     "Urine protein-to-creatinine ratio 0.9 (diagnostic threshold ≥ 0.3)"
+    ]
+   ],
+   "Orders": [
+    [
+     "Active",
+     "Magnesium sulfate 4 g IV loading dose over 20 minutes, then 2 g/hour by infusion pump · Labetalol 20 mg IV over 2 minutes for SBP ≥ 160 or DBP ≥ 110 mm Hg persisting 15 minutes; repeat per severe hypertension protocol · Calcium gluconate 1 g (10 mL of 10% solution) at the bedside; give IV slowly per protocol for magnesium toxicity · Serum magnesium level per protocol · Indwelling urinary catheter; hourly urine output · Strict intake and output; total fluid intake restricted as prescribed · Seizure precautions · Continuous fetal monitoring · Oxytocin induction of labor per protocol"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "m1",
+    "step": "recognizeCues",
+    "kind": "highlight",
+    "stem": "Highlight the findings that are severe features of preeclampsia.",
+    "passage": [
+     [
+      "Headache 7/10 not relieved by acetaminophen",
+      "p1"
+     ],
+     [
+      " · "
+     ],
+     [
+      "\"Seeing sparkles\" in both eyes",
+      "p2"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Pain under the right ribs and in the epigastric area",
+      "p3"
+     ],
+     [
+      " · "
+     ],
+     [
+      "2+ pitting edema of the lower legs",
+      "p4"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Patellar reflexes 3+",
+      "p5"
+     ],
+     [
+      " · "
+     ],
+     [
+      "BP 168/112, then 164/110 mm Hg 15 minutes later",
+      "p6"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Urine protein-to-creatinine ratio 0.9",
+      "p7"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Platelets 136,000/µL",
+      "p8"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Creatinine 0.8 mg/dL",
+      "p9"
+     ]
+    ],
+    "answer": [
+     "p1",
+     "p2",
+     "p3",
+     "p6"
+    ],
+    "rationale": "Severe features of preeclampsia include a systolic BP of 160 mm Hg or more or a diastolic BP of 110 mm Hg or more on two readings, a new headache that does not respond to medication, visual disturbances, and right upper quadrant or epigastric pain. Other severe features (platelets below 100,000/µL, liver enzymes twice normal, creatinine above 1.1 mg/dL, pulmonary edema) are absent here. Proteinuria helps diagnose preeclampsia but does not measure how severe it is. Edema is common in pregnancy and is not a diagnostic criterion. Brisk reflexes show central nervous system irritability and are monitored closely, but they are not one of the defined severe features.",
+    "stepLabel": "Recognize Cues"
+   },
+   {
+    "id": "m2",
+    "step": "analyzeCues",
+    "kind": "cloze",
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "The client's headache and visual changes are most likely caused by",
+      "opts": [
+       "cerebral vasospasm and edema",
+       "low blood glucose",
+       "a tension headache from anxiety"
+      ],
+      "answer": "cerebral vasospasm and edema"
+     },
+     {
+      "id": "b2",
+      "pre": "which puts her at risk for",
+      "opts": [
+       "an eclamptic seizure",
+       "placenta previa",
+       "gestational diabetes"
+      ],
+      "answer": "an eclamptic seizure"
+     },
+     {
+      "id": "b3",
+      "pre": "and her right upper quadrant pain suggests",
+      "opts": [
+       "swelling of the liver that stretches its capsule",
+       "gallstones unrelated to the pregnancy",
+       "normal round ligament pain"
+      ],
+      "answer": "swelling of the liver that stretches its capsule"
+     }
+    ],
+    "rationale": "Preeclampsia is a disorder of the blood vessel lining that causes widespread vasospasm and capillary leak. In the brain this causes headache, visual changes and hyperreflexia, the warning signs of an eclamptic seizure. In the liver, edema and poor blood flow stretch the liver capsule and cause right upper quadrant or epigastric pain, which can precede HELLP syndrome or, rarely, liver rupture. Her symptoms are not explained by low glucose or anxiety, placenta previa is a placental position problem, and round ligament pain is in the lower abdomen and groin.",
+    "stepLabel": "Analyze Cues"
+   },
+   {
+    "id": "m3",
+    "step": "prioritizeHypotheses",
+    "kind": "single",
+    "stem": "Which complication is this client at greatest immediate risk for?",
+    "options": [
+     [
+      "a",
+      "Placental abruption"
+     ],
+     [
+      "b",
+      "Eclamptic seizure"
+     ],
+     [
+      "c",
+      "Pulmonary edema"
+     ],
+     [
+      "d",
+      "Disseminated intravascular coagulation (DIC)"
+     ]
+    ],
+    "answer": "b",
+    "rationale": "Her new headache, visual changes and 3+ reflexes are signs of cerebral irritability, and her BP is in the severe range, so an eclamptic seizure (and stroke) is the most immediate threat. Magnesium sulfate is given to prevent it. Abruption is a real risk in preeclampsia, but her uterus is soft and nontender, there is no bleeding, and the fetal heart rate is reassuring. Her lungs are clear and SpO₂ is 98%, so pulmonary edema is not present now. Her platelets are only mildly low and her liver enzymes are normal, so there is no sign of DIC.",
+    "stepLabel": "Prioritize Hypotheses"
+   },
+   {
+    "id": "m4",
+    "step": "generateSolutions",
+    "kind": "matrix",
+    "stem": "For each nursing action, mark whether it is indicated or not indicated for this client now.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Start the magnesium sulfate loading dose on an infusion pump",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Give labetalol 20 mg IV over 2 minutes as prescribed",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Give a 1,000 mL lactated Ringer's bolus before the magnesium is started",
+      "Not indicated"
+     ],
+     [
+      "r4",
+      "Pad the side rails and keep suction and oxygen ready at the bedside",
+      "Indicated"
+     ],
+     [
+      "r5",
+      "Position the client flat on her back for fetal monitoring",
+      "Not indicated"
+     ],
+     [
+      "r6",
+      "Insert the indwelling urinary catheter and measure output every hour",
+      "Indicated"
+     ]
+    ],
+    "rationale": "Magnesium sulfate prevents seizures and is a high-alert medication, so it always runs on a pump. Severe-range BP that persists for 15 minutes is treated promptly (within 30 to 60 minutes) to prevent stroke, and labetalol is safe because she has no asthma or bradycardia. Seizure precautions protect her if a seizure occurs. Magnesium is cleared by the kidneys, so hourly urine output is needed to detect accumulation. Leaky capillaries in preeclampsia make pulmonary edema likely, so fluids are restricted and large boluses are avoided unless prescribed for a specific reason. Lying flat on her back compresses the vena cava and lowers blood flow to the placenta; a side-lying position is preferred.",
+    "stepLabel": "Generate Solutions"
+   },
+   {
+    "id": "m5",
+    "step": "takeAction",
+    "kind": "multi",
+    "stem": "Four hours after the 2 g/hour maintenance infusion began, the client is drowsy with slurred speech. RR 10, SpO₂ 93% on room air, patellar reflexes absent, and urine output 15 mL/hour for the last 2 hours. Which actions should the nurse take? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Stop the magnesium sulfate infusion"
+     ],
+     [
+      "b",
+      "Call for help and notify the provider immediately"
+     ],
+     [
+      "c",
+      "Give calcium gluconate 1 g IV slowly as prescribed"
+     ],
+     [
+      "d",
+      "Support her breathing and give oxygen while monitoring respirations and SpO₂"
+     ],
+     [
+      "e",
+      "Lower the infusion to 1 g/hour and recheck in 1 hour"
+     ],
+     [
+      "f",
+      "Give a 1,000 mL IV fluid bolus to increase urine output"
+     ],
+     [
+      "g",
+      "Send a serum magnesium level as prescribed"
+     ],
+     [
+      "h",
+      "Give labetalol 20 mg IV to prevent a seizure"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "g"
+    ],
+    "rationale": "A respiratory rate below 12, absent reflexes, drowsiness and oliguria are signs of magnesium toxicity. The low urine output is why magnesium has built up. Stop the infusion first, get help, support breathing, and give calcium gluconate, the antidote, slowly IV as prescribed. A serum level confirms the degree of toxicity. Lowering the rate keeps adding magnesium while she is already toxic. A large fluid bolus without a prescription risks pulmonary edema in preeclampsia; the provider decides on fluids. Labetalol lowers BP but does not prevent seizures and is not indicated for toxicity.",
+    "stepLabel": "Take Action"
+   },
+   {
+    "id": "m6",
+    "step": "evaluateOutcomes",
+    "kind": "matrix",
+    "stem": "Two hours after the nurse's actions, the client is reassessed. For each finding, mark whether it shows improvement or requires follow-up.",
+    "cols": [
+     "Improved",
+     "Requires follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "RR 16; awake and speaking clearly",
+      "Improved"
+     ],
+     [
+      "e2",
+      "Patellar reflexes 2+",
+      "Improved"
+     ],
+     [
+      "e3",
+      "BP 150/98 mm Hg",
+      "Improved"
+     ],
+     [
+      "e4",
+      "Urine output 18 mL/hour for the last 2 hours",
+      "Requires follow-up"
+     ],
+     [
+      "e5",
+      "New fine crackles in both lung bases; SpO₂ 92% on room air",
+      "Requires follow-up"
+     ]
+    ],
+    "rationale": "A normal respiratory rate, clear speech and 2+ reflexes show the toxicity has resolved. A BP of 150/98 is within the usual treatment goal (about 140–150 systolic and 90–100 diastolic), which lowers stroke risk without reducing placental blood flow too much. Urine output is still below 30 mL/hour, so magnesium can build up again and kidney function needs evaluation before magnesium is resumed. New crackles with falling SpO₂ suggest pulmonary edema, a known complication of preeclampsia, and must be reported now.",
+    "stepLabel": "Evaluate Outcomes"
+   }
+  ],
+  "reviewed": "v4"
+ },
+ {
+  "id": "ngn:rnr-neonatal-hypoglycemia",
+  "title": "Neonatal Hypoglycemia and Cold Stress",
+  "sub": "Newborn of a parent with diabetes · Mother-baby unit",
+  "clientNeed": "rrp",
+  "area": "Reduction of Risk Potential",
+  "source": "rnr",
+  "topic": "Maternal & Newborn",
+  "refs": [
+   "aap-neonatal-glucose",
+   "openstax-maternal"
+  ],
+  "profile": "Term newborn, 38 weeks 5 days, born by vaginal birth at 08:00 to a 31-year-old parent with type 1 diabetes (A1C 7.8% in the third trimester). Birth weight 4,450 g (9 lb 13 oz), large for gestational age. Apgar scores 8 and 9. Group B streptococcus negative; membranes ruptured 3 hours before birth; no substance exposure in pregnancy.",
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 09:00",
+     "Breastfed for about 10 minutes at 08:30; sleepy at the breast. Glucose 32 mg/dL. Dextrose 40% oral gel given per protocol at 09:05, then breastfed 5 minutes with a weak latch."
+    ],
+    [
+     "Nurses' notes 10:15",
+     "Found unswaddled in the bassinet beside an air vent, hat off, while the parent showered. Fine tremors of the arms and legs that do not stop when the limbs are held. Weak, uncoordinated suck. Trunk mottled; hands and feet bluish. Milia across the nose. Head molded; anterior fontanel soft and flat."
+    ]
+   ],
+   "Vitals": [
+    [
+     "08:30",
+     "Axillary T 36.8 °C (98.2 °F) · HR 146 · RR 52"
+    ],
+    [
+     "10:15",
+     "Axillary T 36.1 °C (97.0 °F) · HR 148 · RR 66, no grunting or retractions · SpO₂ 97% on room air"
+    ]
+   ],
+   "Labs": [
+    [
+     "09:00 POC glucose",
+     "32 mg/dL (30 minutes after first feed)"
+    ],
+    [
+     "10:15 POC glucose",
+     "22 mg/dL"
+    ],
+    [
+     "10:20",
+     "Plasma glucose sent to the laboratory for confirmation; result pending"
+    ]
+   ],
+   "Orders": [
+    [
+     "Admission",
+     "Newborn hypoglycemia protocol: POC glucose 30 minutes after the first feed, then before feeds until values are in target per protocol · Asymptomatic glucose below target: dextrose 40% oral gel per protocol, then feed · Notify provider immediately for any symptoms of hypoglycemia or glucose < 25 mg/dL · Skin-to-skin contact; breastfeed on demand at least every 2–3 hours · Delay first bath until temperature and glucose are stable · Vitamin K and erythromycin eye ointment given"
+    ],
+    [
+     "10:25 (provider)",
+     "Dextrose 10% in water (D10W) 2 mL/kg IV, then continuous D10W infusion as prescribed · Recheck glucose 30 minutes after the bolus · Radiant warmer with skin probe · Continue breastfeeding as tolerated"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "g1",
+    "step": "recognizeCues",
+    "kind": "multi",
+    "stem": "Review the 10:15 assessment. Which findings require immediate follow-up? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Tremors of the arms and legs that do not stop when the limbs are held"
+     ],
+     [
+      "b",
+      "Axillary temperature 36.1 °C (97.0 °F)"
+     ],
+     [
+      "c",
+      "Glucose 22 mg/dL"
+     ],
+     [
+      "d",
+      "Weak, uncoordinated suck"
+     ],
+     [
+      "e",
+      "Respiratory rate 66"
+     ],
+     [
+      "f",
+      "Bluish hands and feet"
+     ],
+     [
+      "g",
+      "Heart rate 148"
+     ],
+     [
+      "h",
+      "Milia across the nose"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "e"
+    ],
+    "rationale": "Jitteriness that does not stop when the limb is held, a weak suck and a glucose of 22 mg/dL show symptomatic hypoglycemia. An axillary temperature below 36.5 °C is hypothermia (cold stress), and a respiratory rate above 60 is tachypnea, which can come from cold stress or low glucose. Bluish hands and feet (acrocyanosis) are normal in the first days of life, a heart rate of 110–160 is normal for a newborn, and milia are harmless blocked oil glands.",
+    "stepLabel": "Recognize Cues"
+   },
+   {
+    "id": "g2",
+    "step": "analyzeCues",
+    "kind": "cloze",
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "This newborn's glucose fell after birth because",
+      "opts": [
+       "the fetal pancreas adapted to high maternal glucose by making extra insulin",
+       "the newborn did not receive vitamin K",
+       "breast milk contains too little glucose"
+      ],
+      "answer": "the fetal pancreas adapted to high maternal glucose by making extra insulin"
+     },
+     {
+      "id": "b2",
+      "pre": "and the cold environment made it worse because",
+      "opts": [
+       "breaking down brown fat for heat uses glucose and oxygen",
+       "shivering raises insulin levels",
+       "cold slows glucose use by the brain"
+      ],
+      "answer": "breaking down brown fat for heat uses glucose and oxygen"
+     },
+     {
+      "id": "b3",
+      "pre": "Untreated, persistent hypoglycemia puts the newborn at risk for",
+      "opts": [
+       "seizures and brain injury",
+       "physiologic jaundice",
+       "hip dysplasia"
+      ],
+      "answer": "seizures and brain injury"
+     }
+    ],
+    "rationale": "Maternal glucose crosses the placenta but insulin does not, so the fetus makes extra insulin. After the cord is cut the glucose supply stops while insulin stays high, so glucose drops in the first hours. Newborns cannot shiver well; they make heat by breaking down brown fat (nonshivering thermogenesis), which burns glucose and oxygen and can lead to hypoglycemia and acidosis. Glucose is the brain's main fuel, so persistent or severe hypoglycemia can cause seizures and lasting brain injury. Vitamin K prevents bleeding, breast milk is the preferred feeding, and jaundice and hip dysplasia are unrelated.",
+    "stepLabel": "Analyze Cues"
+   },
+   {
+    "id": "g3",
+    "step": "prioritizeHypotheses",
+    "kind": "bowtie",
+    "stem": "Complete the diagram: the condition the newborn is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor.",
+    "condition": {
+     "opts": [
+      [
+       "c1",
+       "Transient tachypnea of the newborn"
+      ],
+      [
+       "c2",
+       "Neonatal opioid withdrawal"
+      ],
+      [
+       "c3",
+       "Symptomatic hypoglycemia worsened by cold stress"
+      ],
+      [
+       "c4",
+       "Physiologic jaundice"
+      ]
+     ],
+     "answer": "c3"
+    },
+    "actions": {
+     "opts": [
+      [
+       "x1",
+       "Notify the provider and prepare for IV dextrose"
+      ],
+      [
+       "x2",
+       "Bathe the newborn now to stimulate feeding"
+      ],
+      [
+       "x3",
+       "Rewarm under a preheated radiant warmer"
+      ],
+      [
+       "x4",
+       "Offer sterile water by bottle"
+      ],
+      [
+       "x5",
+       "Wait 1 hour and recheck the glucose"
+      ]
+     ],
+     "answer": [
+      "x1",
+      "x3"
+     ]
+    },
+    "params": {
+     "opts": [
+      [
+       "m1",
+       "Blood glucose"
+      ],
+      [
+       "m2",
+       "Serum bilirubin"
+      ],
+      [
+       "m3",
+       "Axillary temperature"
+      ],
+      [
+       "m4",
+       "Number of stools"
+      ],
+      [
+       "m5",
+       "Head circumference"
+      ]
+     ],
+     "answer": [
+      "m1",
+      "m3"
+     ]
+    },
+    "rationale": "A large newborn of a parent with diabetes who is jittery, feeding poorly, cold and has a glucose of 22 mg/dL has symptomatic hypoglycemia made worse by cold stress. Transient tachypnea causes fast breathing but not low glucose or tremors. There was no substance exposure, so withdrawal is unlikely. Jaundice does not appear in the first 24 hours unless it is pathologic, and it does not cause these signs. A symptomatic newborn needs IV dextrose, so the provider is notified now, and rewarming stops the extra glucose use. A bath causes more heat loss, sterile water has no glucose, and waiting delays treatment. Glucose and temperature show whether the plan is working.",
+    "stepLabel": "Prioritize Hypotheses"
+   },
+   {
+    "id": "g4",
+    "step": "generateSolutions",
+    "kind": "matrix",
+    "stem": "For each nursing action, mark whether it is indicated or not indicated for this newborn.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Place under a preheated radiant warmer with the skin probe on the abdomen",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Delay the first bath until temperature and glucose are stable",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Recheck the newborn's weight now on an uncovered scale",
+      "Not indicated"
+     ],
+     [
+      "r4",
+      "Hold all breastfeeding until the IV dextrose is running",
+      "Not indicated"
+     ],
+     [
+      "r5",
+      "Recheck the glucose 30 minutes after the dextrose bolus",
+      "Indicated"
+     ],
+     [
+      "r6",
+      "Give sterile water by bottle to encourage sucking",
+      "Not indicated"
+     ]
+    ],
+    "rationale": "A servo-controlled radiant warmer rewarms the newborn and reduces brown fat use, and the probe must stay on the skin to control the heat. Bathing causes evaporative heat loss, so it waits until the newborn is stable. A cold, uncovered scale causes conductive heat loss and the weight is not needed now. Feeding is continued as tolerated alongside IV dextrose because breast milk provides glucose and helps keep levels stable. A recheck after the bolus shows whether treatment worked. Sterile water has no calories and can lower sodium.",
+    "stepLabel": "Generate Solutions"
+   },
+   {
+    "id": "g5",
+    "step": "takeAction",
+    "kind": "single",
+    "stem": "The provider prescribes D10W 2 mL/kg IV, followed by a continuous D10W infusion. The newborn weighs 4,450 g. Which action by the nurse is correct?",
+    "options": [
+     [
+      "a",
+      "Give 8.9 mL of dextrose 50% (D50W) by IV push"
+     ],
+     [
+      "b",
+      "Give 89 mL of D10W as a bolus"
+     ],
+     [
+      "c",
+      "Give 8.9 mL of D10W IV as prescribed, then start the infusion"
+     ],
+     [
+      "d",
+      "Hold the bolus until the laboratory confirms the glucose result"
+     ]
+    ],
+    "answer": "c",
+    "rationale": "4,450 g is 4.45 kg, and 2 mL/kg × 4.45 kg = 8.9 mL of D10W. D10W is the standard concentration for a newborn bolus, and the continuous infusion that follows prevents the glucose from dropping again. D50W is far too concentrated for a newborn's veins and can cause a rebound drop in glucose. 89 mL is a tenfold decimal error. A symptomatic newborn is treated right away based on the bedside result; the laboratory sample is sent but treatment is not delayed for it.",
+    "stepLabel": "Take Action"
+   },
+   {
+    "id": "g6",
+    "step": "evaluateOutcomes",
+    "kind": "matrix",
+    "stem": "One hour after treatment began: for each finding, mark whether it shows the treatment is effective or requires follow-up.",
+    "cols": [
+     "Effective",
+     "Requires follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "Glucose 58 mg/dL 30 minutes after the bolus",
+      "Effective"
+     ],
+     [
+      "e2",
+      "Axillary temperature 36.8 °C (98.2 °F)",
+      "Effective"
+     ],
+     [
+      "e3",
+      "No tremors; strong, rhythmic suck at the breast",
+      "Effective"
+     ],
+     [
+      "e4",
+      "IV site puffy, cool and pale; pump shows a high-pressure alarm",
+      "Requires follow-up"
+     ],
+     [
+      "e5",
+      "Radiant warmer skin probe found lying on the mattress, not on the skin",
+      "Requires follow-up"
+     ]
+    ],
+    "rationale": "A glucose in the normal range, a temperature of 36.5–37.5 °C, resolved jitteriness and a good suck show the hypoglycemia and cold stress are corrected. A swollen, cool, pale IV site with a pressure alarm means infiltration: the dextrose is not reaching the vein and can damage tissue, and glucose may fall again, so stop the infusion and get new access. A probe that is off the skin reads the cooler air and the warmer keeps heating, which can overheat the newborn.",
+    "stepLabel": "Evaluate Outcomes"
+   }
+  ],
+  "reviewed": "v4"
+ },
+ {
+  "id": "ngn:rnr-peds-dehydration",
+  "title": "Dehydration from Gastroenteritis",
+  "sub": "18-month-old child · Pediatric emergency department",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "source": "rnr",
+  "topic": "Pediatrics",
+  "refs": [
+   "medline-children",
+   "cdc-isolation",
+   "openstax-fund"
+  ],
+  "profile": "18-month-old child brought by a parent after 3 days of vomiting and watery diarrhea. Several children at the child's day care have had the same illness. Weight today 11.0 kg; weight at a well-child visit 2 weeks ago 12.1 kg. No chronic conditions.",
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 14:10",
+     "Parent reports 8 watery, non-bloody stools and 5 episodes of vomiting in the last 24 hours. Child refused all fluids since this morning. Last wet diaper about 10 hours ago. Child lethargic but arouses to voice and cries without tears. Eyes sunken, lips cracked, mucous membranes dry and sticky. Skin tents for 2 seconds. Hands and feet cool; capillary refill 4 seconds. Abdomen soft, hyperactive bowel sounds."
+    ],
+    [
+     "Nurses' notes 14:25",
+     "Ondansetron given by mouth as prescribed. Peripheral IV attempts in progress."
+    ]
+   ],
+   "Vitals": [
+    [
+     "14:10",
+     "HR 168 · BP 88/54 mm Hg · RR 34 · SpO₂ 99% on room air · T 38.2 °C (100.8 °F) tympanic"
+    ],
+    [
+     "Well-child visit",
+     "HR 110 · RR 26"
+    ]
+   ],
+   "Labs": [
+    [
+     "14:40",
+     "Na⁺ 134 mEq/L · K⁺ 3.3 mEq/L · Cl⁻ 106 mEq/L · HCO₃⁻ 15 mEq/L · BUN 28 mg/dL · Creatinine 0.5 mg/dL · Glucose (POC) 66 mg/dL"
+    ],
+    [
+     "14:40",
+     "Urine not yet obtained"
+    ]
+   ],
+   "Orders": [
+    [
+     "Active",
+     "0.9% sodium chloride 20 mL/kg IV bolus over 20 minutes; may repeat 20 mL/kg × 1 if signs of poor perfusion persist and notify provider · POC glucose and basic metabolic panel with IV start · Ondansetron PO × 1 as prescribed · After the child voids: D5 0.9% sodium chloride with KCl 20 mEq/L IV at the rate prescribed · Strict intake and output; weigh diapers · Daily weight on the same scale · Contact precautions · Oral rehydration solution in small, frequent amounts when alert and vomiting has stopped"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "d1",
+    "step": "recognizeCues",
+    "kind": "highlight",
+    "stem": "Highlight the findings that show the child's dehydration is moderate to severe.",
+    "passage": [
+     [
+      "Lethargic but arouses to voice",
+      "p1"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Cries without tears",
+      "p2"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Capillary refill 4 seconds",
+      "p3"
+     ],
+     [
+      " · "
+     ],
+     [
+      "HR 168",
+      "p4"
+     ],
+     [
+      " · "
+     ],
+     [
+      "BP 88/54 mm Hg",
+      "p5"
+     ],
+     [
+      " · "
+     ],
+     [
+      "RR 34",
+      "p6"
+     ],
+     [
+      " · "
+     ],
+     [
+      "No wet diaper for 10 hours",
+      "p7"
+     ],
+     [
+      " · "
+     ],
+     [
+      "T 38.2 °C (100.8 °F)",
+      "p8"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Hyperactive bowel sounds",
+      "p9"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Weight 11.0 kg (12.1 kg 2 weeks ago)",
+      "p10"
+     ]
+    ],
+    "answer": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p7",
+     "p10"
+    ],
+    "rationale": "A drop from 12.1 to 11.0 kg is a 9% loss of body weight, which is moderate to severe dehydration. Lethargy, absent tears, a capillary refill longer than 3 seconds, marked tachycardia and no urine for 10 hours all show a significant fluid deficit with poor perfusion. A BP of 88/54 is normal for this age, and a respiratory rate of 34 is within the normal range for a toddler. Fever adds to fluid loss but does not measure how dry the child is, and hyperactive bowel sounds are expected with gastroenteritis.",
+    "stepLabel": "Recognize Cues"
+   },
+   {
+    "id": "d2",
+    "step": "analyzeCues",
+    "kind": "single",
+    "stem": "The child has a heart rate of 168, capillary refill of 4 seconds and a BP of 88/54 mm Hg. How should the nurse interpret these findings together?",
+    "options": [
+     [
+      "a",
+      "The normal BP shows the child's circulation is adequate"
+     ],
+     [
+      "b",
+      "The child is in decompensated shock and needs a vasopressor"
+     ],
+     [
+      "c",
+      "The tachycardia is explained by fever alone"
+     ],
+     [
+      "d",
+      "The child is in compensated hypovolemic shock, with BP maintained by tachycardia and vasoconstriction"
+     ]
+    ],
+    "answer": "d",
+    "rationale": "Children keep a normal BP until they have lost a large share of their blood volume by raising the heart rate and constricting peripheral vessels, which shows up as cool hands and feet and slow capillary refill. Hypotension is a late sign, and once it appears the child can deteriorate quickly. A normal BP therefore does not mean perfusion is adequate. The child is not hypotensive, so this is not decompensated shock, and hypovolemic shock is treated with fluid, not vasopressors. Fever raises the heart rate somewhat, but not to 168 with poor perfusion.",
+    "stepLabel": "Analyze Cues"
+   },
+   {
+    "id": "d3",
+    "step": "prioritizeHypotheses",
+    "kind": "cloze",
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "The priority problem is",
+      "opts": [
+       "hypovolemia with poor perfusion",
+       "hyperthermia",
+       "diaper dermatitis"
+      ],
+      "answer": "hypovolemia with poor perfusion"
+     },
+     {
+      "id": "b2",
+      "pre": "because without treatment the child is at risk for",
+      "opts": [
+       "decompensated shock and acute kidney injury",
+       "febrile seizures only",
+       "constipation"
+      ],
+      "answer": "decompensated shock and acute kidney injury"
+     },
+     {
+      "id": "b3",
+      "pre": "and the low bicarbonate is most likely caused by",
+      "opts": [
+       "bicarbonate loss in stool and poor tissue perfusion",
+       "hyperventilation",
+       "too much oral rehydration solution"
+      ],
+      "answer": "bicarbonate loss in stool and poor tissue perfusion"
+     }
+    ],
+    "rationale": "Circulation comes first: the child has lost about 9% of body weight and shows poor perfusion, which can progress to hypotension and kidney injury (the BUN is already elevated). Fever and skin breakdown matter but are not life-threatening now. Diarrhea removes bicarbonate from the gut, and poor perfusion adds lactic acid, so a metabolic acidosis develops. Faster breathing is the body's compensation for this acidosis, not its cause, and the child has taken no oral rehydration solution.",
+    "stepLabel": "Prioritize Hypotheses"
+   },
+   {
+    "id": "d4",
+    "step": "generateSolutions",
+    "kind": "matrix",
+    "stem": "For each intervention, mark whether it is indicated or not indicated for this child now.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Give 0.9% sodium chloride 20 mL/kg IV",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Check a bedside glucose with the IV start",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Add potassium chloride to the bolus fluid to correct the K⁺ of 3.3 mEq/L",
+      "Not indicated"
+     ],
+     [
+      "r4",
+      "Use contact precautions and soap-and-water hand hygiene",
+      "Indicated"
+     ],
+     [
+      "r5",
+      "Offer apple juice or a sports drink to replace fluids",
+      "Not indicated"
+     ],
+     [
+      "r6",
+      "Give loperamide to slow the diarrhea",
+      "Not indicated"
+     ]
+    ],
+    "rationale": "Signs of shock need a rapid isotonic bolus of 20 mL/kg, repeated if perfusion stays poor. Young children with poor intake can become hypoglycemic, so glucose is checked. Potassium is never given as a bolus and is added to maintenance fluid only after the child voids and kidney function is confirmed. Contact precautions are used for diapered children with infectious diarrhea, and soap and water removes organisms such as norovirus better than alcohol rub. Juice and sports drinks are high in sugar and low in sodium and can worsen diarrhea; oral rehydration solution is used instead. Antidiarrheal drugs such as loperamide are not recommended for young children because of serious adverse effects.",
+    "stepLabel": "Generate Solutions"
+   },
+   {
+    "id": "d5",
+    "step": "takeAction",
+    "kind": "order",
+    "stem": "Put the nurse's actions in order, from first to last. Tap each in sequence; tap again to undo.",
+    "steps": [
+     [
+      "o3",
+      "Reassess heart rate, capillary refill, mental status and urine output"
+     ],
+     [
+      "o5",
+      "Start the D5 0.9% sodium chloride with KCl after the child voids"
+     ],
+     [
+      "o1",
+      "Insert the IV and draw blood for glucose and electrolytes"
+     ],
+     [
+      "o4",
+      "Give a second 20 mL/kg bolus if perfusion is still poor, as prescribed"
+     ],
+     [
+      "o2",
+      "Infuse 220 mL of 0.9% sodium chloride over 20 minutes by pump"
+     ]
+    ],
+    "answer": [
+     "o1",
+     "o2",
+     "o3",
+     "o4",
+     "o5"
+    ],
+    "rationale": "IV access comes first, and drawing labs from the same stick spares the child a second needle. The bolus is 20 mL/kg × 11.0 kg = 220 mL, run on a pump so a small child gets an exact volume. After each bolus the nurse reassesses perfusion and mental status to decide whether more fluid is needed. A second bolus is given only if signs of poor perfusion persist. Maintenance fluid with potassium starts last, once the child has voided and kidney function is confirmed.",
+    "stepLabel": "Take Action"
+   },
+   {
+    "id": "d6",
+    "step": "evaluateOutcomes",
+    "kind": "matrix",
+    "stem": "After two boluses, the child is reassessed. For each finding, mark whether it shows improvement or requires follow-up.",
+    "cols": [
+     "Improved",
+     "Requires follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "HR 128; capillary refill 2 seconds",
+      "Improved"
+     ],
+     [
+      "e2",
+      "Alert, reaching for a cup, cries with tears",
+      "Improved"
+     ],
+     [
+      "e3",
+      "Wet diaper weighing 48 g (48 mL of urine)",
+      "Improved"
+     ],
+     [
+      "e4",
+      "Potassium 3.1 mEq/L on the repeat panel",
+      "Requires follow-up"
+     ],
+     [
+      "e5",
+      "Sips oral rehydration solution 5 mL every 2 minutes without vomiting",
+      "Improved"
+     ]
+    ],
+    "rationale": "A falling heart rate, brisk capillary refill, alertness, tears and urine output show that circulating volume is restored. Taking small, frequent sips of oral rehydration solution without vomiting means the child can begin oral rehydration. The potassium has dropped further because stool losses continue, IV fluid dilutes it, and correcting the acidosis moves potassium back into the cells. Report it so potassium replacement can be adjusted; now that the child has voided, the potassium-containing maintenance fluid can start.",
+    "stepLabel": "Evaluate Outcomes"
+   }
+  ],
+  "reviewed": "v4"
+ },
+ {
+  "id": "ngn:rnr-bronchiolitis",
+  "title": "RSV Bronchiolitis",
+  "sub": "4-month-old infant · Pediatric unit",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "source": "rnr",
+  "topic": "Pediatrics",
+  "refs": [
+   "aap-bronchiolitis",
+   "cdc-isolation",
+   "medline-children"
+  ],
+  "profile": "4-month-old infant born at 39 weeks, no chronic conditions, admitted from the emergency department on day 4 of an illness that began with a runny nose and cough. A 3-year-old sibling attends child care. Weight 6.2 kg.",
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 16:00",
+     "Nasal flaring with subcostal and intercostal retractions. Diffuse fine crackles and expiratory wheezes in both lungs. Thick, copious nasal secretions. Took 60 mL (2 oz) of formula over 45 minutes, stopping often to breathe; coughed and gagged once during the feeding. Anterior fontanel soft and flat. Capillary refill 2 seconds. Parent says the infant has had only 2 wet diapers in the last 12 hours."
+    ],
+    [
+     "ED summary",
+     "Nasal swab positive for respiratory syncytial virus (RSV). No chest radiograph or blood tests obtained."
+    ]
+   ],
+   "Vitals": [
+    [
+     "16:00",
+     "RR 68 · HR 164 · SpO₂ 88% on room air · T 38.1 °C (100.6 °F) rectal"
+    ],
+    [
+     "ED arrival 11:00",
+     "RR 54 · HR 150 · SpO₂ 93% on room air · T 37.9 °C (100.2 °F)"
+    ]
+   ],
+   "Intake & Output": [
+    [
+     "Last 12 hours",
+     "Oral intake 180 mL formula · 2 wet diapers"
+    ],
+    [
+     "Usual at home",
+     "120–150 mL formula every 3–4 hours · 6–8 wet diapers per day"
+    ]
+   ],
+   "Orders": [
+    [
+     "Active",
+     "Oxygen by nasal cannula to keep SpO₂ ≥ 90% · Heated high-flow nasal cannula per respiratory therapy protocol for increased work of breathing · Gentle nasal suctioning with saline drops before feedings and as needed · Pulse oximetry · Contact precautions · Small, frequent feedings as tolerated; if unable to feed safely, NG feeding or IV isotonic fluid as prescribed · Acetaminophen PO as prescribed for fever with discomfort · Notify provider for apnea, SpO₂ < 90% on current oxygen, or worsening work of breathing"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "b1",
+    "step": "recognizeCues",
+    "kind": "multi",
+    "stem": "Which findings require follow-up by the nurse? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Nasal flaring with subcostal and intercostal retractions"
+     ],
+     [
+      "b",
+      "SpO₂ 88% on room air"
+     ],
+     [
+      "c",
+      "Temperature 38.1 °C (100.6 °F)"
+     ],
+     [
+      "d",
+      "Respiratory rate 68"
+     ],
+     [
+      "e",
+      "Anterior fontanel soft and flat"
+     ],
+     [
+      "f",
+      "Took 60 mL over 45 minutes, stopping often to breathe"
+     ],
+     [
+      "g",
+      "Capillary refill 2 seconds"
+     ],
+     [
+      "h",
+      "Two wet diapers in 12 hours"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "d",
+     "f",
+     "h"
+    ],
+    "rationale": "Retractions, nasal flaring and a respiratory rate above 60 show increased work of breathing, and an SpO₂ below 90% means the infant needs oxygen. Long, interrupted feedings show the infant is too breathless to feed safely and is taking in far less than usual, which matches the drop in wet diapers. A low-grade fever is common with RSV. A soft, flat fontanel and a capillary refill of 2 seconds are normal and show the infant is not yet significantly dehydrated.",
+    "stepLabel": "Recognize Cues"
+   },
+   {
+    "id": "b2",
+    "step": "analyzeCues",
+    "kind": "cloze",
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "RSV infects the",
+      "opts": [
+       "bronchioles",
+       "larynx",
+       "pleura"
+      ],
+      "answer": "bronchioles"
+     },
+     {
+      "id": "b2",
+      "pre": "causing",
+      "opts": [
+       "swelling, mucus and dead cells that block the small airways",
+       "bronchospasm that reverses with albuterol",
+       "fluid to collect around the lungs"
+      ],
+      "answer": "swelling, mucus and dead cells that block the small airways"
+     },
+     {
+      "id": "b3",
+      "pre": "Young infants are hit hardest because",
+      "opts": [
+       "their airways are narrow and they breathe mainly through the nose",
+       "they cannot produce a fever",
+       "their lungs are fully developed"
+      ],
+      "answer": "their airways are narrow and they breathe mainly through the nose"
+     }
+    ],
+    "rationale": "In bronchiolitis, the virus inflames the small airways. Swelling, mucus and sloughed cells block airflow, trapping air in some areas and collapsing others, which causes wheezes, crackles and low oxygen. The blockage is mostly from debris and swelling, not smooth-muscle spasm, which is why bronchodilators usually do not help. Croup affects the larynx, and fluid around the lungs is a pleural effusion. Infants' small airways narrow sharply with a little swelling, and because they rely on nasal breathing, nasal congestion alone can increase their work of breathing and interfere with feeding.",
+    "stepLabel": "Analyze Cues"
+   },
+   {
+    "id": "b3",
+    "step": "prioritizeHypotheses",
+    "kind": "single",
+    "stem": "Which problem is the nurse's priority for this infant?",
+    "options": [
+     [
+      "a",
+      "Dehydration from poor oral intake"
+     ],
+     [
+      "b",
+      "Spread of RSV to other infants on the unit"
+     ],
+     [
+      "c",
+      "Impaired gas exchange from small-airway obstruction"
+     ],
+     [
+      "d",
+      "Fever from the viral infection"
+     ]
+    ],
+    "answer": "c",
+    "rationale": "Breathing comes first. The infant has an SpO₂ of 88%, a respiratory rate of 68, retractions and nasal flaring, and the work of breathing has increased since arrival. Days 3 to 5 are often the worst, so the infant may worsen further. Poor intake is a real and related problem, but the capillary refill and fontanel are still normal. Infection control matters and is handled with contact precautions. A low-grade fever is not a threat on its own.",
+    "stepLabel": "Prioritize Hypotheses"
+   },
+   {
+    "id": "b4",
+    "step": "generateSolutions",
+    "kind": "matrix",
+    "stem": "For each intervention, mark whether it is indicated or not indicated for this infant.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Gentle nasal suctioning before feedings and as needed",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Oxygen to keep SpO₂ at 90% or higher",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Scheduled albuterol nebulizer treatments",
+      "Not indicated"
+     ],
+     [
+      "r4",
+      "A systemic corticosteroid",
+      "Not indicated"
+     ],
+     [
+      "r5",
+      "Chest physiotherapy every 4 hours",
+      "Not indicated"
+     ],
+     [
+      "r6",
+      "Small, frequent feedings, with NG or IV fluids if the infant cannot feed safely",
+      "Indicated"
+     ]
+    ],
+    "rationale": "Care for bronchiolitis is supportive: clear the nose, give oxygen when SpO₂ is below 90%, and keep the infant hydrated. Current American Academy of Pediatrics guidance recommends against routine albuterol, corticosteroids and chest physiotherapy because studies show they do not shorten illness or hospital stay, and they add side effects and handling of a distressed infant. Antibiotics are not used unless there is a separate bacterial infection.",
+    "stepLabel": "Generate Solutions"
+   },
+   {
+    "id": "b5",
+    "step": "takeAction",
+    "kind": "multi",
+    "stem": "At 02:00, the infant is on 1 L/min oxygen by nasal cannula. RR 78, grunting, head bobbing and deep retractions; SpO₂ 86%. Heavy nasal secretions are present. Which actions should the nurse take now? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Suction the nares gently with saline drops"
+     ],
+     [
+      "b",
+      "Notify the provider or call the rapid response team"
+     ],
+     [
+      "c",
+      "Give an albuterol nebulizer treatment"
+     ],
+     [
+      "d",
+      "Hold oral feedings"
+     ],
+     [
+      "e",
+      "Increase oxygen support per protocol and request respiratory therapy for high-flow nasal cannula"
+     ],
+     [
+      "f",
+      "Offer a bottle to help the infant calm down"
+     ],
+     [
+      "g",
+      "Perform deep nasopharyngeal suctioning every hour"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "d",
+     "e"
+    ],
+    "rationale": "Grunting, head bobbing, a rate near 80 and an SpO₂ of 86% on oxygen signal impending respiratory failure. Clearing the nose quickly can improve airflow in an infant who breathes through the nose, oxygen support must be increased, and the provider needs to know now. A breathless infant is at high risk of aspiration, so oral feedings are held and fluids are given by NG or IV as prescribed. Albuterol is not recommended for bronchiolitis. A bottle adds aspiration risk. Frequent deep suctioning injures and swells the nasal lining and is linked to longer hospital stays; gentle nasal suctioning is preferred.",
+    "stepLabel": "Take Action"
+   },
+   {
+    "id": "b6",
+    "step": "evaluateOutcomes",
+    "kind": "matrix",
+    "stem": "Six hours after high-flow nasal cannula was started: for each finding, mark whether it shows improvement or requires follow-up.",
+    "cols": [
+     "Improved",
+     "Requires follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "RR 52 with mild subcostal retractions; no grunting",
+      "Improved"
+     ],
+     [
+      "e2",
+      "SpO₂ 94% on high-flow nasal cannula",
+      "Improved"
+     ],
+     [
+      "e3",
+      "Three wet diapers in 6 hours on NG feedings",
+      "Improved"
+     ],
+     [
+      "e4",
+      "A 20-second pause in breathing with HR 88 and SpO₂ 80%",
+      "Requires follow-up"
+     ],
+     [
+      "e5",
+      "Nasal bleeding and swollen nares after repeated suctioning",
+      "Requires follow-up"
+     ]
+    ],
+    "rationale": "A slower respiratory rate, less retracting, no grunting and SpO₂ above 90% show breathing is easier, and more wet diapers show fluid intake is adequate. Apnea (a pause of 20 seconds or more, or a shorter pause with bradycardia or desaturation) is a known complication of RSV in young infants and needs immediate stimulation, support and provider notification. Bleeding and swelling from suctioning narrow the nasal passages further, so suctioning technique and frequency must be changed.",
+    "stepLabel": "Evaluate Outcomes"
+   }
+  ],
+  "reviewed": "v4"
+ },
+ {
+  "id": "ngn:rnr-burns",
+  "title": "Major Burn Injury",
+  "sub": "House fire with smoke inhalation · Emergency department",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "source": "rnr",
+  "topic": "Integumentary",
+  "refs": [
+   "aba-abls",
+   "openstax-medsurg"
+  ],
+  "profile": "42-year-old man rescued from a house fire after being trapped in a smoke-filled bedroom. Arrived at the emergency department 1 hour after the injury. Weight 80 kg. No chronic conditions; last tetanus vaccine more than 10 years ago. No IV fluids were given before arrival.",
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 22:00",
+     "Alert but anxious; follows commands. Voice hoarse. Soot around the nose and mouth; singed nasal hairs; coughing up black-flecked sputum. No stridor. Face red and painful without blisters (superficial). Anterior chest and abdomen and both arms, all the way around, have burns that are white, leathery and painless in places and blistered, mottled red and very painful in others (deep partial- and full-thickness). Radial pulses palpable in both arms. Pain 9/10 in the blistered areas."
+    ],
+    [
+     "Burn estimate",
+     "Rule of nines: anterior trunk 18% + right arm 9% + left arm 9% = 36% TBSA partial- and full-thickness. Superficial facial burn not counted."
+    ]
+   ],
+   "Vitals": [
+    [
+     "22:00",
+     "BP 128/78 mm Hg · HR 118 · RR 26 · SpO₂ 98% on 15 L/min nonrebreather mask · T 36.4 °C (97.5 °F)"
+    ]
+   ],
+   "Labs": [
+    [
+     "22:10",
+     "Carboxyhemoglobin 18% (normal < 3% in nonsmokers) · ABG on 15 L nonrebreather: pH 7.33, PaCO₂ 36 mm Hg, PaO₂ 210 mm Hg, HCO₃⁻ 19 mEq/L · Lactate 3.1 mmol/L"
+    ],
+    [
+     "22:10",
+     "Hct 52% · Na⁺ 136 mEq/L · K⁺ 5.2 mEq/L · Glucose 168 mg/dL · Creatinine 1.0 mg/dL"
+    ]
+   ],
+   "Orders": [
+    [
+     "Active",
+     "100% oxygen by nonrebreather mask · Anesthesia to bedside for airway evaluation; prepare for early endotracheal intubation · Two large-bore IVs, through unburned skin if possible · Lactated Ringer's, starting estimate per ABLS adult thermal burn formula (2 mL × kg × % TBSA over 24 hours; half in the first 8 hours from the time of injury); titrate hourly to urine output 0.5 mL/kg/hour (30–50 mL/hour) · Indwelling urinary catheter; hourly urine output · Morphine IV as prescribed for pain · Tetanus toxoid (Tdap) IM · Cover burns with clean, dry sheets; keep warm · NPO · Arrange transfer to the regional burn center"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "u1",
+    "step": "recognizeCues",
+    "kind": "highlight",
+    "stem": "Highlight the findings that suggest inhalation injury or carbon monoxide poisoning.",
+    "passage": [
+     [
+      "Voice hoarse",
+      "p1"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Singed nasal hairs",
+      "p2"
+     ],
+     [
+      " · "
+     ],
+     [
+      "HR 118",
+      "p3"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Black-flecked sputum",
+      "p4"
+     ],
+     [
+      " · "
+     ],
+     [
+      "SpO₂ 98% on nonrebreather",
+      "p5"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Carboxyhemoglobin 18%",
+      "p6"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Hct 52%",
+      "p7"
+     ],
+     [
+      " · "
+     ],
+     [
+      "K⁺ 5.2 mEq/L",
+      "p8"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Glucose 168 mg/dL",
+      "p9"
+     ]
+    ],
+    "answer": [
+     "p1",
+     "p2",
+     "p4",
+     "p6"
+    ],
+    "rationale": "Being trapped in a closed, smoky room, plus hoarseness, singed nasal hairs and carbon-flecked sputum, points to inhalation injury of the airway. A carboxyhemoglobin of 18% confirms carbon monoxide poisoning. Pulse oximetry cannot tell carboxyhemoglobin from oxyhemoglobin, so the SpO₂ of 98% is falsely reassuring. Tachycardia comes from pain, anxiety and fluid loss. A high hematocrit shows plasma leaking out of the vessels, potassium rises as damaged cells release it, and the high glucose is a stress response.",
+    "stepLabel": "Recognize Cues"
+   },
+   {
+    "id": "u2",
+    "step": "analyzeCues",
+    "kind": "cloze",
+    "stem": "Complete the sentences about the client's fluid resuscitation.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "The burn size used in the fluid calculation is",
+      "opts": [
+       "36% TBSA",
+       "40.5% TBSA",
+       "54% TBSA"
+      ],
+      "answer": "36% TBSA"
+     },
+     {
+      "id": "b2",
+      "pre": "so the estimated lactated Ringer's volume for the first 24 hours is",
+      "opts": [
+       "5,760 mL",
+       "11,520 mL",
+       "2,880 mL"
+      ],
+      "answer": "5,760 mL"
+     },
+     {
+      "id": "b3",
+      "pre": "Half of this volume is planned for the first 8 hours, counted from",
+      "opts": [
+       "the time of the injury",
+       "arrival in the emergency department",
+       "insertion of the first IV"
+      ],
+      "answer": "the time of the injury"
+     }
+    ],
+    "rationale": "Only partial- and full-thickness burns count, so the superficial facial burn is left out: 18% + 9% + 9% = 36% TBSA (40.5% wrongly adds the face). The current ABLS starting estimate for an adult with thermal burns is 2 mL × 80 kg × 36 = 5,760 mL of lactated Ringer's in 24 hours; 11,520 mL uses the older Parkland 4 mL/kg/%TBSA, which tends to cause over-resuscitation (\"fluid creep\"), and 2,880 mL is only the first-8-hour share. Half (2,880 mL) is planned for the first 8 hours counted from the time of injury, not from arrival or IV start, because the capillary leak begins at the moment of the burn. The formula is only a starting point: the rate is adjusted up or down every hour to keep urine output at 0.5 mL/kg/hour (about 40 mL/hour for this client).",
+    "stepLabel": "Analyze Cues"
+   },
+   {
+    "id": "u3",
+    "step": "prioritizeHypotheses",
+    "kind": "single",
+    "stem": "Which complication poses the greatest immediate threat to this client?",
+    "options": [
+     [
+      "a",
+      "Hypovolemic (burn) shock from capillary leak"
+     ],
+     [
+      "b",
+      "Upper airway obstruction from swelling of the airway"
+     ],
+     [
+      "c",
+      "Infection of the burn wounds"
+     ],
+     [
+      "d",
+      "Hypothermia from loss of skin"
+     ]
+    ],
+    "answer": "b",
+    "rationale": "Airway comes first. Heat and smoke injure the upper airway, and swelling increases over the first hours, especially as large volumes of IV fluid are given. Hoarseness already shows the larynx is affected, and once stridor appears the airway may close before it can be secured, which is why early intubation is planned. Burn shock is a serious threat that fluid resuscitation is treating, but it develops over hours and his BP is still normal. Infection is a later complication, and hypothermia is prevented by keeping him covered and warm.",
+    "stepLabel": "Prioritize Hypotheses"
+   },
+   {
+    "id": "u4",
+    "step": "generateSolutions",
+    "kind": "matrix",
+    "stem": "For each intervention, mark whether it is indicated or not indicated during the emergency (resuscitative) phase.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Give morphine IV as prescribed for pain",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Give the opioid by IM injection into the thigh",
+      "Not indicated"
+     ],
+     [
+      "r3",
+      "Apply ice packs to the burned areas",
+      "Not indicated"
+     ],
+     [
+      "r4",
+      "Give tetanus prophylaxis (Tdap)",
+      "Indicated"
+     ],
+     [
+      "r5",
+      "Cover with warm blankets and warm the IV fluids and room",
+      "Indicated"
+     ],
+     [
+      "r6",
+      "Start prophylactic IV antibiotics",
+      "Not indicated"
+     ]
+    ],
+    "rationale": "In the emergency phase opioids are given IV in small doses, because poor tissue perfusion makes IM absorption slow and unpredictable, and a large dose may be absorbed all at once later as perfusion returns. Ice deepens tissue injury and adds to hypothermia, which is a major risk once the skin barrier is lost. A burn is a tetanus-prone wound and his last dose was more than 10 years ago. Systemic antibiotics are not given to prevent infection in burns because they do not reduce infection and promote resistant organisms; they are used for proven infection.",
+    "stepLabel": "Generate Solutions"
+   },
+   {
+    "id": "u5",
+    "step": "takeAction",
+    "kind": "order",
+    "stem": "Put the nurse's actions in order of priority. Tap each in sequence; tap again to undo.",
+    "steps": [
+     [
+      "o3",
+      "Insert an indwelling urinary catheter and begin hourly urine output measurement"
+     ],
+     [
+      "o1",
+      "Keep 100% oxygen by nonrebreather and watch closely for stridor or increasing hoarseness"
+     ],
+     [
+      "o4",
+      "Gently clean the wounds and apply dressings as prescribed"
+     ],
+     [
+      "o2",
+      "Insert two large-bore IVs and start warmed lactated Ringer's at the calculated rate"
+     ]
+    ],
+    "answer": [
+     "o1",
+     "o2",
+     "o3",
+     "o4"
+    ],
+    "rationale": "Airway and breathing come first: 100% oxygen speeds removal of carbon monoxide, and stridor or worsening hoarseness means the airway must be secured right away. Circulation is next: large-bore IV access and lactated Ringer's treat burn shock. Hourly urine output is the main guide for adjusting the fluid rate, so the catheter follows fluid resuscitation. Wound care comes after the client is stable, and many burn centers prefer clean, dry coverings until transfer.",
+    "stepLabel": "Take Action"
+   },
+   {
+    "id": "u6",
+    "step": "evaluateOutcomes",
+    "kind": "matrix",
+    "stem": "The client was intubated for airway protection. Four hours later, the nurse reviews the findings. For each finding, mark whether it shows the treatment is effective or requires follow-up.",
+    "cols": [
+     "Effective",
+     "Requires follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "Urine output 22 mL/hour for each of the last 2 hours",
+      "Requires follow-up"
+     ],
+     [
+      "e2",
+      "Carboxyhemoglobin 4%",
+      "Effective"
+     ],
+     [
+      "e3",
+      "BP 122/74 mm Hg, HR 104",
+      "Effective"
+     ],
+     [
+      "e4",
+      "Right hand cool and pale; radial pulse heard only by Doppler",
+      "Requires follow-up"
+     ],
+     [
+      "e5",
+      "Pain behavior decreased after IV morphine; tolerating the ventilator",
+      "Effective"
+     ]
+    ],
+    "rationale": "Urine output below 0.5 mL/kg/hour (40 mL/hour for 80 kg) means resuscitation is not keeping up with the capillary leak, so the fluid rate needs to be increased per protocol and the provider informed. The falling carboxyhemoglobin shows oxygen therapy is working, and the stable BP with a slower heart rate is reassuring. The arm burns go all the way around, and stiff eschar plus swelling can squeeze the arteries, as in compartment syndrome. A cool, pale hand with a pulse found only by Doppler needs urgent reporting for possible escharotomy. Calmer behavior on the ventilator shows the pain is better controlled.",
+    "stepLabel": "Evaluate Outcomes"
+   }
+  ],
+  "reviewed": "v4"
+ }
+]

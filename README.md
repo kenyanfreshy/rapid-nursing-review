@@ -5,10 +5,11 @@ MSN, RN, CCRN-CMC, and expanded with the NurseBound NCLEX bank to cover every NC
 
 ## What's in it
 
-- **2,500 NCLEX-style questions** in all 19 NCLEX topic areas:
+- **3,200 NCLEX-style questions** (982 in NGN formats: 599 select-all, 279 matrix, 104 ordered response) in all 19 NCLEX topic areas:
   - **1,295 linked to the book** (600 original + 695 added in v3). Each one cites the exact page that proves the answer, is tagged with an NCLEX client need and a clinical-judgment step, and was checked against its page image by a second reviewer. About 16% are matrix (NGN) items.
   - **1,205 from the NurseBound bank**, which covers Mental Health, Pediatrics, Maternal & Newborn, Ethics, Leadership and the rest of the test plan.
-- **Next Generation NCLEX:** select-all (+/− scoring), matrix and ordered-response items, plus **20 unfolding case studies** (8 from NurseBound and 12 built from the book, each item citing its book page). Each case has a client chart and six items (single, multi, highlight, matrix, cloze, ordering and bowtie), one per step of the clinical-judgment model, scored with NGN partial-credit rules.
+  - **700 added in v4** to fill the thinnest NCLEX topics (Maternal & Newborn, Pediatrics, Mental Health, Pharmacology, Integumentary, Shock, Musculoskeletal, Fluids, Ethics, Leadership, Immunology, Fundamentals, Renal, Hematology). Each has a rationale per option, a takeaway and 1-3 APA references (`content/nclex/refs.json`), and every item was checked by a second reviewer (`content/verification/v4-*.json`).
+- **Next Generation NCLEX:** select-all (+/− scoring), matrix and ordered-response items, plus **30 unfolding case studies** (8 from NurseBound, 12 built from the book with each item citing its book page, and 10 added in v4 for maternal, pediatric, mental health, pharmacology, immunology, burns and delirium care, each with APA references). Each case has a client chart and six items (single, multi, highlight, matrix, cloze, ordering and bowtie), one per step of the clinical-judgment model, scored with NGN partial-credit rules.
 - **Blueprint match:** the bank's client-need mix falls inside every 2026 NCLEX-RN test plan range (NCSBN, effective April 1, 2026). The **75-question blueprint exam** samples to the official midpoints and reports results by category.
 - **Two ways to practice:**
   - **NCLEX topics:** a colorful topic picker (All / Unseen / Missed, with question counts, tutor or exam mode).

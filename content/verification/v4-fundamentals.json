@@ -1,0 +1,99 @@
+{
+ "file": "content/nclex/v4/fundamentals.json",
+ "reviewed": 45,
+ "ok": 27,
+ "fixed": 18,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "rnr:fundamentals-001",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-002",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-003",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-006",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-008",
+   "status": "fixed",
+   "note": "Labeled difficulty 3/Analyze, but sorting procedures into sterile vs clean technique is application of a rule. Relabeled difficulty 2/Apply."
+  },
+  {
+   "id": "rnr:fundamentals-011",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-015",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-016",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-020",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-022",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-026",
+   "status": "fixed",
+   "note": "Unkeyed \"give the formula straight from the refrigerator\" was the mirror image of keyed \"give the formula at room temperature,\" a pair that gave away the answer. Replaced the distractor with mixing crushed medications into formula (a real, distinct error) and reworded the room-temperature rationale."
+  },
+  {
+   "id": "rnr:fundamentals-027",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-030",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-031",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-032",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-035",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-038",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  },
+  {
+   "id": "rnr:fundamentals-042",
+   "status": "fixed",
+   "note": "Keyed option was the longest (length cue). Shortened the key and/or lengthened distractors; meaning unchanged."
+  }
+ ]
+}
