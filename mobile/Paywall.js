@@ -259,7 +259,11 @@ export default function Paywall({ onClose, reason }) {
         // Apple 3.1.2 terms: billed amount, period, auto-renewal and how to cancel.
         T({ color: C.muted, textAlign: 'center', fontSize: 11.5, lineHeight: 15.5 },
           `${renewLine && !isPro ? renewLine + ' ' : ''}Payment is charged to your ${ACCOUNT} at confirmation of purchase${trial ? ' (for a free trial, when the trial ends)' : ''}. Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. ${Platform.OS === 'ios' ? 'Cancel anytime in your Apple ID account settings.' : 'Cancel anytime in Google Play subscriptions.'} The all-access pass is a one-time purchase. Rapid Nursing Review is for education only; it is not medical advice.`),
-        T({ color: C.muted, textAlign: 'center', fontSize: 11, lineHeight: 15 }, 'NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN.'),
+        // Disclaimer tile: same title, font and gold color as the web app's Disclaimer box.
+        h(View, { style: { borderWidth: 1, borderColor: 'rgba(245,158,11,0.5)', backgroundColor: 'rgba(245,158,11,0.10)', borderRadius: 16, padding: 14, gap: 6 } },
+          T({ color: '#f59e0b', fontSize: 13, fontWeight: '800', letterSpacing: 1.2, fontFamily: Platform.select({ ios: 'Menlo', default: 'monospace' }) }, 'DISCLAIMER'),
+          T({ color: C.ink, fontSize: 12.5, lineHeight: 18 }, 'NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN.'),
+          T({ color: C.ink, fontSize: 12.5, lineHeight: 18 }, 'Rapid Nursing Review is for education and exam preparation only. It is not medical advice and does not guarantee exam results.')),
         Row({ gap: 10, justifyContent: 'center' }, h(LinkText, { underline: true, color: C.muted, size: 13, onPress: () => open(LINKS.privacy) }, 'Privacy Policy'), T({ color: C.faint }, '·'), h(LinkText, { underline: true, color: C.muted, size: 13, onPress: () => open(LINKS.terms) }, 'Terms of Use (EULA)')),
         __DEV__ ? h(View, { style: { alignItems: 'center' } }, h(LinkText, { size: 13, color: C.faint, onPress: () => setDevUnlock(!devUnlock) }, devUnlock ? 'Dev: Lock Pro Again' : 'Dev: Unlock Pro for Testing')) : null)),
     h(Pressable, { onPress: onClose, accessibilityRole: 'button', accessibilityLabel: 'Close', hitSlop: 8,

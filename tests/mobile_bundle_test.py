@@ -46,7 +46,7 @@ with sync_playwright() as p:
     check('blueprint exam starts after purchase', pg.evaluate("document.querySelector('#modal').open") and 'Question 1 of 75' in pg.inner_text('#modal'))
     check('no horizontal scroll on phone',pg.evaluate('document.documentElement.scrollWidth<=window.innerWidth'))
     pg.screenshot(path=os.environ.get('SHOT','/tmp/m.png'))
-    pg.goto(pg.url.split('#')[0] + '#dashboard'); pg.wait_for_timeout(400); pg.click('#top-initials'); pg.wait_for_timeout(400)
+    pg.goto(pg.url.split('#')[0] + '#dashboard'); pg.wait_for_timeout(400); pg.evaluate("document.querySelector('#modal').open && document.querySelector('#modal').close()"); pg.click('#top-initials'); pg.wait_for_timeout(400)
     imgs = pg.evaluate("[...document.querySelectorAll('.topbar-logo, .tutor-avatar.photo, .sidebar img')].map(i => [i.getAttribute('src'), i.complete && i.naturalWidth > 0])")
     check('app images load in the bundle (top-bar logo, tutor photo)', imgs and all(ok for _, ok in imgs) and any('tutor' in s for s, _ in imgs) and any('logo' in s for s, _ in imgs), imgs)
     check('no page errors',not errs,errs)

@@ -934,3 +934,8 @@ html:not([data-ui="daylight"]) .reminder-card,html:not([data-ui="daylight"]) .sh
 .share-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:10px 4px;border-radius:14px;font-size:12px;font-weight:700;color:#fff;text-decoration:none;min-width:0}
 .share-btn svg{width:20px;height:20px;stroke-width:2}.share-btn b{font-size:19px;line-height:20px}
 .share-btn.email{background:linear-gradient(135deg,#2563eb,#0891b2)}.share-btn.wa{background:#16a34a}.share-btn.x{background:#0f1419;border:1px solid #2f3336}.share-btn.more{background:linear-gradient(135deg,#ea580c,#db2777)}
+/* Disclaimer tile: one look everywhere (Overview, Settings, About, paywall, phone paywall) */
+html body .legal-box{margin:18px 0 6px;padding:14px 16px;border-radius:16px;border:1px solid rgba(245,158,11,.5);background:rgba(245,158,11,.10);text-align:left;color:inherit}
+html body .legal-box h4{display:flex;align-items:center;gap:7px;margin:0 0 6px;font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:13px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#f59e0b}
+html body .legal-box p{margin:4px 0 0;font-family:'Figtree','DM Sans',system-ui,sans-serif;font-size:12.5px;line-height:18px;color:inherit;opacity:.95}
+html body #modal.paywall .legal-box{margin:12px 0 0}
