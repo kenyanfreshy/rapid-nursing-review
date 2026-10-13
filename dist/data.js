@@ -1,6 +1,8 @@
 // Course structure follows the book "Rapid Nursing Review: All Body Systems at a Glance".
 // Each book chapter is a course; each book section is a topic with its own reading pages and quiz.
 import { chapters, bookQuestions } from './book.js';
+import { nclexTopics, nclexBank, ngnCases } from './nclex.js';
+export { nclexTopics, ngnCases } from './nclex.js';
 export { book, BOOK_ACCESS, chapters, pageText, clientNeeds } from './book.js';
 
 const icons={nclex:'shield',resp:'lungs',cardio:'heart',gi:'stomach',endo:'gland',gu:'kidney',neuro:'brain',heme:'drop',integ:'skin',msk:'bone',fluids:'beaker'};
@@ -35,8 +37,14 @@ const pilotQuestions = [
 ];
 const pilotPlacement={f1:'nclex-priorities',f2:'nclex-priorities',p1:'resp-pe',p2:'resp-pe',p3:'cardio-hf',p4:'cardio-hf',m1:'endo-dm',m2:'endo-dm',m3:'neuro-stroke',m4:'neuro-stroke'};
 const sectionById=Object.fromEntries(sections.map(s=>[s.id,s]));
+// Book chapters/sections mapped onto the 19 NCLEX topic areas used by the NurseBound bank.
+const CHAPTER_TOPIC={resp:'resp',cardio:'cardio',gi:'gi',endo:'endo',gu:'renal',neuro:'neuro',integ:'integ',msk:'msk',fluids:'fluids'};
+const SECTION_TOPIC={'nclex-priorities':'fundamentals','nclex-highrisk':'shock','nclex-strategy':'leadership','heme-anaphylaxis':'immuno','heme-lupus':'immuno','heme-ra':'immuno'};
+const bookTopic=q=>SECTION_TOPIC[q.section]||CHAPTER_TOPIC[q.course]||(q.course==='heme'?'heme':'fundamentals');
+const topicName=Object.fromEntries(nclexTopics.map(t=>[t.id,t.name]));
 export const questions = [
-  ...bookQuestions,
+  ...bookQuestions.map(q=>({...q,nclexTopic:bookTopic(q)})),
+  ...nclexBank.map(q=>({...q,topic:topicName[q.nclexTopic]})),
   ...pilotQuestions.map(q=>{const s=sectionById[pilotPlacement[q.id]];return {...q,type:'mcq',course:s?s.course:'nclex',section:s?s.id:null,topic:s?s.title:q.topic,origin:'pilot',retired:true};})
 ];
 // Earlier reading lessons, replaced by the book's own pages. Kept so saved "read" marks stay valid.
