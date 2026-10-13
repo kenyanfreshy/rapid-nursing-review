@@ -3,7 +3,7 @@
 This is the App Store / Google Play version of the study app. It is a small Expo app whose one screen is a WebView running the same study app as `../dist`, bundled for offline use:
 
 - On first launch (and after each update) the app copies the bundled study app and the book pages into its private storage, then opens them from there. After that everything works with no network: book reader, 1,805 questions, 8 NGN case studies, study plan, bookmarks.
-- **Rapid Nursing Review Pro** ($4.99/month, $49.99/year, $99.99 lifetime) is sold through RevenueCat with a native paywall in NurseBound's design (`Paywall.js`, `pro.js`). Store products, prices and RevenueCat setup: **`PRICING.md`**.
+- **Rapid Nursing Review Pro** ($9.99/month, $49.99 per 3 months, $89.99/year, $119.00 lifetime) is sold through RevenueCat with a native paywall in NurseBound's design (`Paywall.js`, `pro.js`). Store products, prices and RevenueCat setup: **`PRICING.md`**.
 - Progress is saved twice: in the WebView and in native storage (AsyncStorage), so it survives the system clearing web data.
 - "Export progress" opens the phone's share sheet. Links to outside sources open in the browser. The Android back button steps back through the app's pages.
 
@@ -69,7 +69,7 @@ Apple App Store Connect
 
 Google Play Console
 - [ ] Data safety form: purchase history and app user ID collected for app functionality, not shared (PRICING.md).
-- [ ] Subscription `rnr_pro` (monthly, annual) and in-app product `rnr_pro_lifetime` created (PRICING.md).
+- [ ] Subscription `rnr_pro` (monthly, 3-month, annual) and in-app product `rnr_pro_lifetime` created (PRICING.md).
 - [ ] Content rating questionnaire, target audience 18+.
 - [ ] New personal developer accounts must run a closed test with at least 12 testers for 14 days before production access is granted. Plan for this; organization accounts are exempt.
 

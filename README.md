@@ -16,7 +16,7 @@ MSN, RN, CCRN-CMC, and expanded with the NurseBound NCLEX bank to cover every NC
 - **The book**, on a right-side panel: all 196 pages with search, bookmarks and enlarged pages. Every book question has "View page" and "Open in the book" links.
 - **Free and Pro:**
   - **Free:** about 290 questions, 1 NGN case, tutor mode and the book's preview pages.
-  - **Pro:** everything, at $4.99/month, $49.99/year or $99.99 lifetime. It's sold through RevenueCat in the mobile app, with a paywall in NurseBound's design.
+  - **Pro:** everything, at $9.99/month, $49.99 for 3 months (most popular), $89.99/year or $119.00 lifetime. It's sold through RevenueCat in the mobile app, with a paywall in NurseBound's design.
 - Exam and quiz screens are plain white; navigation and topics are color-coded.
 - From earlier work: autosave and resume, missed-question review, study plan, bookmarks, reports, JSON export, validated saved data, keyboard focus kept on answers.
 

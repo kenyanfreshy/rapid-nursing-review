@@ -862,3 +862,4 @@ html body .qb-card .topic-tile .name{overflow:hidden;overflow-wrap:normal;word-b
 .picker-controls .field.mode-field .field-label{text-align:center;width:100%}
 .picker-controls .field.mode-field .segmented.mode{width:100%;justify-content:center}
 .picker-controls .field.mode-field .segmented.mode button{flex:1;justify-content:center;text-align:center}
+.pw-badge{white-space:nowrap;letter-spacing:1.2px}

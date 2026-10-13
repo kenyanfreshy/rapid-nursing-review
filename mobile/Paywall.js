@@ -4,7 +4,7 @@
 // Store rules (App Store 3.1.1 / 3.1.2, Google Play Payments and Subscriptions):
 //  • the amount billed and how often it's billed is the most prominent price text
 //  • a trial is only promised to people the store says can get one, and always says what it costs afterwards
-//  • "Save %" is worked out from real store prices (annual vs 12 × monthly)
+//  • "Save %" is worked out from real store prices (3-month vs 3 × monthly, annual vs 12 × monthly)
 //  • auto-renewal terms, Restore Purchases, Manage Subscription, Privacy Policy and Terms of Use are all here
 //
 // Written with React.createElement instead of JSX so it can be checked with `node --check`.
@@ -28,7 +28,8 @@ const SANS = Platform.select({ ios: 'System', default: undefined });
 const PERIOD = { MONTHLY: 'month', ANNUAL: 'year', WEEKLY: 'week', SIX_MONTH: '6 months', THREE_MONTH: '3 months', TWO_MONTH: '2 months', LIFETIME: null };
 const SHORT = { MONTHLY: '/mo', ANNUAL: '/yr', WEEKLY: '/wk', SIX_MONTH: '/6 mo', THREE_MONTH: '/3 mo', TWO_MONTH: '/2 mo' };
 const UNIT = { DAY: 'day', WEEK: 'week', MONTH: 'month', YEAR: 'year' };
-const ORDER = { ANNUAL: 0, MONTHLY: 1, SIX_MONTH: 2, THREE_MONTH: 3, TWO_MONTH: 4, WEEKLY: 5, LIFETIME: 9 };
+// Plan order: 3-month pass (most popular) and monthly side by side, then annual, then lifetime.
+const ORDER = { THREE_MONTH: 0, MONTHLY: 1, ANNUAL: 2, SIX_MONTH: 3, TWO_MONTH: 4, WEEKLY: 5, LIFETIME: 9 };
 const ACCOUNT = Platform.OS === 'ios' ? 'Apple ID' : 'Google Play account';
 const isoDay = s => (s ? new Date(s).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : '');
 
@@ -167,12 +168,14 @@ export default function Paywall({ onClose, reason }) {
   const lifetime = source.find(p => p.packageType === 'LIFETIME');
   const annual = source.find(p => p.packageType === 'ANNUAL');
   const monthly = source.find(p => p.packageType === 'MONTHLY');
-  const selId = sel || (annual || monthly || subs[0] || lifetime || {}).identifier;
+  const quarter = source.find(p => p.packageType === 'THREE_MONTH');
+  const selId = sel || (quarter || annual || monthly || subs[0] || lifetime || {}).identifier;
   const chosen = source.find(p => p.identifier === selId) || null;
   const trial = chosen ? trialFor(chosen) : null;
   const per = chosen ? PERIOD[chosen.packageType] : null;
   // Real savings only: yearly vs 12 × monthly from the store's own prices.
   const yearlySave = annual && monthly && monthly.product.price > 0 ? Math.round((1 - annual.product.price / (monthly.product.price * 12)) * 100) : 0;
+  const quarterSave = quarter && monthly && monthly.product.price > 0 ? Math.round((1 - quarter.product.price / (monthly.product.price * 3)) * 100) : 0;
 
   const purchase = async () => {
     if (!chosen || busy) return; setBusy(true); setMsg('');
@@ -185,16 +188,17 @@ export default function Paywall({ onClose, reason }) {
 
   const cardFor = (p, wide) => {
     const t = trialFor(p), life = p.packageType === 'LIFETIME', pPer = PERIOD[p.packageType], lines = [];
-    // e.g. "2 weeks free, then $49.99/year": the full price stays the biggest text on the card (App Store 3.1.2).
+    // e.g. "2 weeks free, then $89.99/year": the full price stays the biggest text on the card (App Store 3.1.2).
     if (t) lines.push(t.free ? `${t.words} free, then ${p.product.priceString}${pPer ? '/' + pPer : ''}` : `${t.priceString} for ${t.words}, then ${p.product.priceString}${pPer ? '/' + pPer : ''}`);
-    if (p.packageType === 'ANNUAL' && p.product.pricePerMonthString) lines.push(`${p.product.pricePerMonthString}/mo billed yearly`);
+    if (p.packageType === 'THREE_MONTH') lines.push('A full 90-day NCLEX study plan');
+    if (p.packageType === 'ANNUAL') lines.push(`${p.product.pricePerMonthString ? p.product.pricePerMonthString + '/mo · ' : ''}covers a delayed ATT or credentialing wait`);
     if (p.packageType === 'MONTHLY') lines.push('Cancel anytime');
-    if (life) lines.push('One payment · no renewal');
+    if (life) lines.push('One payment · keep it as your bedside reference');
     return h(PlanCard, { key: p.identifier, wide, on: selId === p.identifier, onPress: () => setSel(p.identifier),
-      label: life ? 'ALL-ACCESS PASS' : p.packageType === 'ANNUAL' ? 'ANNUAL' : p.packageType === 'MONTHLY' ? 'MONTHLY' : (pPer || 'PLAN').toUpperCase(),
-      badge: p.packageType === 'ANNUAL' && yearlySave > 0 ? 'BEST VALUE' : life ? 'PAY ONCE' : null,
+      label: life ? 'LIFETIME ACCESS' : p.packageType === 'THREE_MONTH' ? '3-MONTH PASS' : p.packageType === 'ANNUAL' ? 'ANNUAL · COMPLETE PASS' : p.packageType === 'MONTHLY' ? 'MONTHLY' : (pPer || 'PLAN').toUpperCase(),
+      badge: p.packageType === 'THREE_MONTH' ? 'MOST POPULAR' : life ? 'PAY ONCE' : null,
       price: p.product.priceString, unit: life ? null : SHORT[p.packageType], lines,
-      saveText: p.packageType === 'ANNUAL' && yearlySave > 0 ? `Save ~${yearlySave}%` : null });
+      saveText: p.packageType === 'ANNUAL' && yearlySave > 0 ? `Save ~${yearlySave}%` : p.packageType === 'THREE_MONTH' && quarterSave > 0 ? `Save ~${quarterSave}%` : null });
   };
 
   const ctaTitle = !chosen ? '' : busy ? 'Please wait…' : trial ? (trial.free ? 'Start Free Trial' : `Start for ${trial.priceString}`) : 'Unlock Pro Access';

@@ -8,12 +8,26 @@ country sees its own local price. The app never links to an outside payment page
 
 | Plan | Price (U.S.) | Apple product ID | Google Play | Shown on the paywall |
 |---|---|---|---|---|
-| Pro annual (auto-renewing, 1 year) | **$49.99/year** | `com.alexkorir.rapidnursingreview.pro.annual` | subscription `rnr_pro`, base plan `annual` | first, "Best value", "Save ~17%" vs monthly |
-| Pro monthly (auto-renewing, 1 month) | **$4.99/month** | `com.alexkorir.rapidnursingreview.pro.monthly` | subscription `rnr_pro`, base plan `monthly` | "Cancel anytime" |
-| All-access pass (one-time) | **$99.99** | `com.alexkorir.rapidnursingreview.pro.lifetime` (Non-Consumable) | in-app product `rnr_pro_lifetime` | "Pay once · no renewal" |
+| Pro 3-month pass (auto-renewing, 3 months) | **$49.99 / 3 months** | `com.alexkorir.rapidnursingreview.pro.quarterly` | subscription `rnr_pro`, base plan `quarterly` | first and pre-selected, "Most popular" (no "Save %": see the note below) |
+| Pro monthly (auto-renewing, 1 month) | **$9.99/month** | `com.alexkorir.rapidnursingreview.pro.monthly` | subscription `rnr_pro`, base plan `monthly` | next to the 3-month pass, "Cancel anytime" |
+| Pro annual / complete pass (auto-renewing, 1 year) | **$89.99/year** | `com.alexkorir.rapidnursingreview.pro.annual` | subscription `rnr_pro`, base plan `annual` | full width, "Save ~25%" vs monthly |
+| Lifetime access (one-time) | **$119.00** | `com.alexkorir.rapidnursingreview.pro.lifetime` (Non-Consumable) | in-app product `rnr_pro_lifetime` | full width, "Pay once" |
 
-All three unlock the RevenueCat entitlement **`pro`**. The paywall works out "Save ~X%" from the real store prices:
-$49.99 vs 12 × $4.99 = $59.88 is about 17%. The one-time pass is priced above the annual plan, so it doesn't undercut it.
+All four unlock the RevenueCat entitlement **`pro`**. The paywall works out "Save ~X%" from the real store prices and only
+shows it when it's a real saving: $89.99/year vs 12 × $9.99 = $119.88 is about 25%.
+
+**Check the 3-month price:** $49.99 for 3 months is $16.66 a month, which is *more* than three months of the $9.99 monthly
+plan ($29.97). The paywall therefore shows no "Save %" on it. To make the 3-month pass the better deal, price it under
+$29.97 (for example $24.99, about 17% off) or raise monthly (for example $19.99, making $49.99 about 17% off).
+
+**Why these prices (positioning, kept out of the app itself):**
+- **Monthly $9.99:** removes price resistance next to the big NCLEX question banks' ~$139 entry point.
+- **3-month pass $49.99 (most popular):** matches the standard 90-day NCLEX study runway.
+- **Annual $89.99:** for candidates whose credentialing or Authorization to Test (ATT) window is delayed.
+- **Lifetime $119.00:** a price anchor that carries into new-grad bedside reference use.
+
+The app doesn't name competitors on the paywall; keep comparisons to your own marketing, where you can check the
+competitor's current price first.
 
 **Free trial (optional):** none is required. If you add an introductory offer to the subscriptions in the stores,
 the paywall shows it automatically, only to shoppers the store says are eligible, with the price that follows it.
@@ -24,8 +38,8 @@ the paywall shows it automatically, only to shoppers the store says are eligible
 
 | Free | Pro |
 |---|---|
-| NCLEX Must-Know chapter, the first section of every book chapter, 10 questions per NCLEX topic (about 290 questions) | All 1,805 questions |
-| 1 NGN case study | All 8 NGN case studies |
+| NCLEX Must-Know chapter, the first section of every book chapter, 10 questions per NCLEX topic (about 400 questions) | All 2,500 questions |
+| 1 NGN case study | All 20 NGN case studies |
 | Tutor mode | Tutor mode, timed exams and the 75-question NCLEX blueprint exam |
 | The book's opening pages and the first page of each chapter | The complete book reader |
 | Progress, study plan, bookmarks, missed-question review (of free questions) | Everything, across the full bank |
@@ -35,13 +49,13 @@ The free and Pro rules live in one place: the "Free vs Pro" block near the top o
 ## App Store Connect (iPhone)
 
 1. Create the app with bundle ID `com.alexkorir.rapidnursingreview`.
-2. **Monetization → Subscriptions:** create a subscription group named "Rapid Nursing Review Pro", then two subscriptions:
-   `com.alexkorir.rapidnursingreview.pro.annual` (1 year) and `com.alexkorir.rapidnursingreview.pro.monthly` (1 month).
-   Put annual at the higher level in the group. Give each a display name ("Pro annual", "Pro monthly"), a description and a
-   review screenshot of the paywall.
-3. **Subscription Prices → Add pricing:** United States $49.99 (annual) and $4.99 (monthly). Apple fills in other countries.
-4. **In-App Purchases → Non-Consumable** `com.alexkorir.rapidnursingreview.pro.lifetime` at $99.99.
-5. Add all three to the app version you submit (**App Store → your version → In-App Purchases and Subscriptions**).
+2. **Monetization → Subscriptions:** create a subscription group named "Rapid Nursing Review Pro", then three subscriptions:
+   `com.alexkorir.rapidnursingreview.pro.annual` (1 year), `com.alexkorir.rapidnursingreview.pro.quarterly` (3 months) and
+   `com.alexkorir.rapidnursingreview.pro.monthly` (1 month). Order the levels annual, then 3-month, then monthly. Give each a
+   display name ("Pro annual", "Pro 3-month pass", "Pro monthly"), a description and a review screenshot of the paywall.
+3. **Subscription Prices → Add pricing:** United States $89.99 (annual), $49.99 (3-month) and $9.99 (monthly). Apple fills in other countries.
+4. **In-App Purchases → Non-Consumable** `com.alexkorir.rapidnursingreview.pro.lifetime` at $119.00.
+5. Add all four to the app version you submit (**App Store → your version → In-App Purchases and Subscriptions**).
 6. **App Information:** add the Privacy Policy URL (`docs/PRIVACY.md` in this repo, or your own site) and keep Apple's
    standard EULA as the Terms of Use.
 7. **App Privacy:** RevenueCat handles purchases, so declare **Purchases → Purchase History** and **Identifiers → User ID**,
@@ -50,9 +64,9 @@ The free and Pro rules live in one place: the "Free vs Pro" block near the top o
 ## Google Play Console (Android)
 
 1. Create the app with package `com.alexkorir.rapidnursingreview`.
-2. **Monetize → Products → Subscriptions:** create `rnr_pro` with two base plans, `annual` (auto-renewing, 1 year, $49.99) and
-   `monthly` (auto-renewing, 1 month, $4.99). Activate both.
-3. **In-app products:** `rnr_pro_lifetime` at $99.99. Activate it.
+2. **Monetize → Products → Subscriptions:** create `rnr_pro` with three base plans: `quarterly` (auto-renewing, 3 months,
+   $49.99), `monthly` (auto-renewing, 1 month, $9.99) and `annual` (auto-renewing, 1 year, $89.99). Activate all three.
+3. **In-app products:** `rnr_pro_lifetime` at $119.00. Activate it.
 4. **Data safety:** purchase history and an app user ID are collected for app functionality (by Google Play billing and
    RevenueCat), not shared, not used for ads.
 5. Google only lets you create products after an app bundle has been uploaded once. Upload the first production build
@@ -62,11 +76,12 @@ The free and Pro rules live in one place: the "Free vs Pro" block near the top o
 
 1. Create a project "Rapid Nursing Review" and add two apps: **App Store** (bundle ID above, plus an App Store Connect
    In-App Purchase key) and **Play Store** (package name above, plus a Google service-account JSON with financial access).
-2. **Products:** import the three Apple and three Google products.
-3. **Entitlement** `pro`: attach all six products.
-4. **Offering** `default` (mark it Current) with three packages:
-   - **Annual** (`$rc_annual`) → `com.alexkorir.rapidnursingreview.pro.annual` / `rnr_pro:annual`
+2. **Products:** import the four Apple and four Google products.
+3. **Entitlement** `pro`: attach all eight products.
+4. **Offering** `default` (mark it Current) with four packages (use these exact package types; the paywall reads them):
+   - **3 Month** (`$rc_three_month`) → `com.alexkorir.rapidnursingreview.pro.quarterly` / `rnr_pro:quarterly`
    - **Monthly** (`$rc_monthly`) → `com.alexkorir.rapidnursingreview.pro.monthly` / `rnr_pro:monthly`
+   - **Annual** (`$rc_annual`) → `com.alexkorir.rapidnursingreview.pro.annual` / `rnr_pro:annual`
    - **Lifetime** (`$rc_lifetime`) → `com.alexkorir.rapidnursingreview.pro.lifetime` / `rnr_pro_lifetime`
 5. **API keys:** copy the public Apple key (`appl_…`) and Google key (`goog_…`) into `mobile/app.json` →
    `expo.extra.revenueCatAppleKey` / `revenueCatGoogleKey`. These public SDK keys are safe to ship in the app;
@@ -86,7 +101,7 @@ These keys are separate from NurseBound's: each app has its own RevenueCat app a
 
 ## Business notes
 
-- Apple Small Business Program (under US$1M a year): Apple keeps 15%, so $49.99 annual nets about $42.49 and $4.99 monthly
-  about $4.24. Google Play keeps 15% on subscriptions and on the first US$1M of other sales.
+- Apple Small Business Program (under US$1M a year): Apple keeps 15%, so $9.99 monthly nets about $8.49, the $49.99
+  3-month pass about $42.49, $89.99 annual about $76.49 and the $119.00 lifetime about $101.15. Google Play keeps 15% on subscriptions and on the first US$1M of other sales.
 - The full book ships inside the app for Pro members. If the Kindle edition is in KDP Select, check its exclusivity
   terms first; `npm run build:web:preview` builds an app that contains only the preview pages.

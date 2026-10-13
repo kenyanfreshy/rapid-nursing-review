@@ -1,6 +1,6 @@
 // Rapid Nursing Review Pro: Apple In-App Purchase and Google Play Billing through RevenueCat.
 // Ported from NurseBound's src/pro.js. Prices always come from the stores, so each country sees its own
-// price and currency; set $4.99/month, $49.99/year and $99.99 lifetime in App Store Connect and Play Console
+// price and currency; set $9.99/month, $49.99 per 3 months, $89.99/year and $119.00 lifetime in App Store Connect and Play Console
 // (see PRICING.md). Nothing here hard-codes a price.
 //
 // Written with React.createElement instead of JSX so it can be checked with `node --check`.
