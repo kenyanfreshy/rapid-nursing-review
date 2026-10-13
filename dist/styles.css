@@ -956,3 +956,8 @@ html body #modal.paywall .legal-box{margin:12px 0 0}
 .tutor-more[open] summary::after{transform:rotate(-135deg)}
 .tutor-more>p{margin:8px 0 10px;font-size:13px;line-height:19px;color:#fff}
 .tutor-more .tutor-books{border-top:0;padding-top:0}
+
+.tutor-card .tutor-bio{margin:10px 0 2px;font-size:13px;line-height:19px;color:#fff}
+.tutor-more summary span{display:flex;align-items:center;gap:6px}
+.tutor-more summary span svg{width:15px;height:15px}
+.tutor-more .tutor-books{margin-top:6px}
