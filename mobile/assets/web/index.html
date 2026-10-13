@@ -885,6 +885,17 @@ html[data-ui="daylight"] body::before{background:#ffffffe6}
 dialog{max-height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px) - 24px)}
 @media (orientation:landscape){body{padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}}
 
+/* ---- Meet your tutor: always dark, white text, credentials in gold (all themes, also inside the white exam screen) ---- */
+.tutor-card,.tutor-intro{background:linear-gradient(135deg,#0b1020,#1a1f3d);border:1px solid #2c3560;color:#ffffff}
+.tutor-card .tc-eyebrow{color:#fbbf24}
+.tutor-card .tutor-row h3,.tutor-card>p,.tutor-intro strong,.tutor-intro p{color:#ffffff}
+.tutor-card>p,.tutor-intro p{opacity:.92}
+.tutor-intro b{color:#fbbf24}
+.cred{background:#fbbf2426;color:#fbbf24;border:1px solid #fbbf2466}
+.cred.on{background:#fbbf24;color:#1a1204;border-color:#fbbf24}
+.tutor-card .cred-note{color:#fde68a;opacity:1}
+html body #modal.exam .tutor-intro strong,html body #modal.exam .tutor-intro p{color:#ffffff}
+
 </style>
   <style id="nb-theme">
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
