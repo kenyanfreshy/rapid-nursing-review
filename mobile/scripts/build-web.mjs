@@ -38,13 +38,15 @@ const script = `(function(){\n'use strict';\n${bookJs}\n${nclexJs}\n${dataJs}\nc
 
 const html = read('index.html');
 const css = read('styles.css');
+const themeCss = read('nb-theme.css');
 const shell = html
   .replace(/<link rel="stylesheet" href="\.\/styles\.css">/, () => `<style>\n${css}\n</style>`)
+  .replace(/<link rel="stylesheet" href="\.\/nb-theme\.css" id="nb-theme">/, () => `<style id="nb-theme">\n${themeCss}\n</style>`)
   .replace(/<link rel="icon"[^>]*>\n?/, '')
   .replace(/<script type="module" src="\.\/app\.js"><\/script>/, () => `<script>\n${script.replace(/<\/script/gi, '<\\/script')}\n</script>`)
   .replace('<meta name="viewport" content="width=device-width, initial-scale=1">',
            '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">');
-if (shell.includes('type="module"') || !shell.includes('<style>')) throw new Error('index.html did not match the expected shell; update build-web.mjs');
+if (shell.includes('type="module"') || !shell.includes('<style>') || shell.includes('nb-theme.css">')) throw new Error('index.html did not match the expected shell; update build-web.mjs');
 
 // Which pages ship in the app.
 const bookMeta = JSON.parse(read('book.js').match(/export const book=(\{.*?\});/)[1]);

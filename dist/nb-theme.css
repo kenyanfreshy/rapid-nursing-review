@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+/* =====================================================================
+   NurseBound design system (github.com/kenyanfreshy/usrn-pathway-app,
+   src/theme.js + src/ui.js), dark mode, applied to Rapid Nursing Review.
+   Tokens are NurseBound's DARK palette and VIVID module gradients; type is
+   Bricolage Grotesque (display), Figtree (body), JetBrains Mono (eyebrows).
+   Exceptions: the book cover is the logo; exam screens stay white.
+   ===================================================================== */
+:root{
+  --bg:#080b16;--surface:#111527;--sunk:#0c1020;--ink:#eef1fa;--muted:#9aa3bd;--line:#232a44;
+  --ok:#4ade80;--ok-soft:#0f2a1b;--warn:#fbbf24;--warn-soft:#2e2210;--crit:#fb7185;--crit-soft:#371520;
+  --g-home:linear-gradient(135deg,#2563eb,#c026d3);--g-nclex:linear-gradient(135deg,#ea580c,#e11d48);
+  --g-roadmap:linear-gradient(135deg,#0891b2,#10b981);--g-boards:linear-gradient(135deg,#4f46e5,#8b5cf6);
+  --g-imm:linear-gradient(135deg,#9333ea,#db2777);--g-bedside:linear-gradient(135deg,#e11d48,#f97316);
+  --g-more:linear-gradient(135deg,#475569,#6366f1);
+  --display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Figtree',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+  --green:#ea580c;--sage:#1a2036;color-scheme:dark;
+}
+html{background:var(--bg)}
+body{background:linear-gradient(160deg,#412421 0%,#1a1424 18%,var(--bg) 42%) fixed,var(--bg);color:var(--ink);font-family:var(--body);font-size:15px}
+h1,h2,h3,.big-number,.result-score,.question-stem,.brand-title{font-family:var(--display);color:var(--ink)}
+h1{font-weight:800;letter-spacing:-.6px;font-size:30px}
+h2{font-weight:700;letter-spacing:-.3px}h3{font-weight:700;letter-spacing:-.2px}
+a{color:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #fdba74;outline-offset:3px}
+::selection{background:#ea580c66}
+
+/* Eyebrows and meta text: NurseBound's mono, uppercase, letter-spaced */
+.eyebrow,.workspace-label,.subtle-pill,.sec-pages,.course-count,.tag,.quiz-header,.q-tags,.focus-label,.exam-top,.need-title,.pw-eyebrow,.topic-tile .count,.picker-head .eyebrow,.chart-labels,.date-chip{font-family:var(--mono)}
+.eyebrow{background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--muted);font-weight:700;font-size:10.5px;letter-spacing:1.2px}
+.workspace-label{color:var(--muted);letter-spacing:1.2px}
+
+/* Surfaces: NurseBound Card = surface, 1px line, radius 18, soft shadow */
+.panel,.course-card,.stat,.exam-card,.topic-card,.bookmark-card,.picker,.chapter-list,.toc-chapter,.empty-state,.feature-card,.plan-summary .panel,.history-row,.reader-section,.page-frame{background:var(--surface);border:1px solid var(--line);border-radius:18px;box-shadow:0 6px 14px #00000059;color:var(--ink)}
+.history-row{box-shadow:none;border-radius:14px;padding:14px 16px;margin-bottom:8px}
+.panel p,.course-card p,.section-title p,.page-heading p,.topic-card p,.empty-state p,.dialog-note,.about-copy,.about-list,.lesson-sub,.plan-summary p,.plan-day p,.history-row p,.setting-row p,.search-item p,.chart-empty,.course-progress-label,.stat-foot,.result-label,.reader-nav .where,.bp-head p,.chapter-head p,.section-row p,.toc-chapter small{color:var(--muted)}
+.progress-track{background:var(--sunk);height:9px;border-radius:99px}
+.progress-fill{background:var(--g-home);border-radius:99px}
+.notice,.storage-warning{background:var(--warn-soft);border:0;color:#fde68a;border-radius:14px}
+
+/* Sidebar (desktop): NurseBound surface with module-colored tabs */
+.sidebar{background:var(--surface);border-right:1px solid var(--line)}
+.nav-link{color:var(--muted);font-family:var(--body);font-weight:600;border-radius:13px}
+.nav-link:hover{background:#1a2036;color:var(--ink)}
+.nav-link.active{background:var(--nc);color:#0b1020;box-shadow:none}
+.nav-link.active svg{color:#0b1020}.nav-link.active:after{background:#0b1020}
+.sidebar-note{background:var(--g-nclex);color:#fff;border-radius:18px}
+.sidebar-note h3,.sidebar-note .text-link,.little-spark{color:#fff}.sidebar-note p{color:#ffffffd9}
+.support-link{color:var(--muted)}
+.profile{border-top-color:var(--line)}.profile strong{color:var(--ink)}.profile small{color:var(--muted)}
+.avatar{background:var(--g-home);color:#fff;border-color:var(--surface);box-shadow:none}
+.brand-logo{box-shadow:0 10px 26px #000a,0 0 0 1px #ffffff14}
+
+/* Top bar */
+.topbar{background:#0b1020d9;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.topbar-left,#breadcrumb{color:var(--ink);font-family:var(--display);font-weight:700}
+.search-trigger{color:var(--muted)}.search-trigger kbd{background:var(--sunk);border-color:var(--line);color:var(--muted)}
+.header-divider{background:var(--line)}
+.icon-button{color:var(--ink)}.icon-button:hover{background:#1a2036}
+.notification-dot{background:#fb7185;border-color:var(--surface)}
+.book-toggle{background:var(--g-roadmap);border:0;color:#fff}
+.book-toggle[aria-expanded="true"]{background:#6ee7b7;color:#0b1020}
+.date-chip{background:var(--surface);border-color:var(--line);color:var(--muted)}
+
+/* Buttons: NurseBound Btn = gradient, radius 13, bold body type */
+.primary{background:var(--g-nclex);border:0;border-radius:13px;font-family:var(--body);font-weight:700;font-size:13px;color:#fff;box-shadow:0 8px 20px #e11d4840}
+.primary:hover{background:var(--g-nclex);filter:brightness(1.08)}
+.primary.light{background:#fff;color:#0b1020;box-shadow:none}
+.secondary{background:var(--surface);border:1px solid var(--line);color:var(--ink);border-radius:13px;font-weight:700}
+.secondary:hover{background:#1a2036}
+.text-link{color:#fdba74;font-weight:700}
+.mini{background:var(--surface);border:1px solid var(--line);color:var(--ink);border-radius:10px;font-family:var(--body);font-weight:700}
+.mini:hover{background:#1a2036}
+
+/* Today: stat tiles as NurseBound cards with gradient icon tiles */
+.stat{border-radius:18px}
+.stat:nth-child(n){background:var(--surface)}
+.stat .stat-top{color:var(--muted);font-family:var(--mono);font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase}
+.stat .big-number{color:var(--ink)}
+.stat .stat-icon{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;padding:0;color:#fff}
+.stat .stat-icon svg{width:20px;height:20px}
+.stat:nth-child(1) .stat-icon{background:var(--g-home)}.stat:nth-child(2) .stat-icon{background:var(--g-nclex)}
+.stat:nth-child(3) .stat-icon{background:var(--g-roadmap)}.stat:nth-child(4) .stat-icon{background:var(--g-imm)}
+/* Hero = NurseBound Hero: module gradient, radius 26, two soft circles */
+.focus-card{background:var(--g-home);border-radius:26px;border:0}
+.focus-card:before,.focus-card:after{content:'';position:absolute;border-radius:50%;background:#ffffff24;z-index:0}
+.focus-card:before{width:220px;height:220px;right:-70px;top:-100px}.focus-card:after{width:120px;height:120px;right:70px;bottom:-70px;background:#ffffff17}
+.focus-card h2{color:#fff;font-family:var(--display);font-weight:800}.focus-card p,.focus-meta{color:#ffffffeb}
+.focus-label{background:#ffffff33;border:1px solid #ffffff59;color:#fff;font-weight:700;letter-spacing:1.2px;border-radius:999px}
+.orbital{display:none}
+.exam-card{background:var(--surface);color:var(--ink)}
+.exam-card p,.exam-top,.exam-count span{color:var(--muted)}.exam-count strong{color:var(--ink)}
+.exam-card .secondary{background:var(--g-boards);color:#fff;border:0}
+
+/* Chapter cards keep their organ color as an accent on the dark card */
+.course-card{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--cc)}
+.course-card h3{color:var(--ink)}
+.course-bottom{background:var(--sunk);border-top-color:var(--line)}
+.course-bottom button{color:color-mix(in srgb,var(--cc) 55%,white)}
+.toc-num{font-family:var(--mono);border-radius:999px}
+.chapter-head{background:color-mix(in srgb,var(--cc) 16%,var(--surface));border:1px solid color-mix(in srgb,var(--cc) 35%,var(--line));border-radius:18px}
+.chapter-head h2{color:color-mix(in srgb,var(--cc) 45%,white)}
+.chapter-list{border-color:var(--line)}
+.section-row{border-top-color:var(--line)}
+.section-row:hover{background:color-mix(in srgb,var(--sc) 9%,var(--surface))}
+.section-row h3{color:color-mix(in srgb,var(--sc) 40%,white)}
+.section-row .sec-pages,.chapter-list .sec-pages,.toc-chapter .sec-pages{background:color-mix(in srgb,var(--sc,var(--cc,#6366f1)) 20%,var(--surface));color:color-mix(in srgb,var(--sc,var(--cc,#6366f1)) 45%,white);border-radius:999px}
+.section-row .mini:not(.solid){border-color:color-mix(in srgb,var(--sc) 40%,var(--line));color:color-mix(in srgb,var(--sc) 45%,white);background:transparent}
+.section-row .done{color:var(--ok)}
+/* Chips = NurseBound Chip: pill, mono bold */
+.filter{font-family:var(--mono);font-weight:700;font-size:11.5px;border-radius:999px;border:1px solid color-mix(in srgb,var(--cc) 40%,var(--line));background:color-mix(in srgb,var(--cc) 14%,var(--surface));color:color-mix(in srgb,var(--cc) 45%,white)}
+.filter:hover{background:color-mix(in srgb,var(--cc) 24%,var(--surface))}
+.filter.active{background:color-mix(in srgb,var(--cc) 55%,white);border-color:transparent;color:#0b1020}
+.subtle-pill,.tag{background:var(--sunk);border:0;color:var(--muted);border-radius:999px;font-weight:700}
+
+/* Activity chart */
+.chart{border-bottom-color:var(--line)}.bar-col{color:var(--muted)}
+.chart .bar-col .bar{opacity:.9}
+
+/* Practice: segmented controls = NurseBound pills (active = colored fill) */
+.segmented{background:var(--sunk);border:1px solid var(--line);border-radius:16px}
+.segmented button{color:var(--muted);font-family:var(--body);font-weight:700;border-radius:12px}
+.segmented button[aria-selected="true"],.segmented button[aria-checked="true"]{background:#93c5fd;color:#0b1020;box-shadow:none}
+.segmented.pool button:nth-child(2){color:#6ee7b7}.segmented.pool button:nth-child(3){color:#fdba74}
+.segmented.pool button[aria-checked="true"]{color:#0b1020}
+.picker{padding:18px}
+.picker-head .eyebrow{color:var(--muted)}
+.topic-tile{background:color-mix(in srgb,var(--tc) 13%,var(--surface));border:1px solid color-mix(in srgb,var(--tc) 22%,var(--line));border-radius:16px}
+.topic-tile:hover{background:color-mix(in srgb,var(--tc) 20%,var(--surface))}
+.topic-tile .name{color:var(--ink);font-family:var(--body);font-weight:600}
+.topic-tile .count{background:color-mix(in srgb,var(--tc) 70%,#000 0%);color:#fff;font-weight:700}
+.topic-tile .tick{color:color-mix(in srgb,var(--tc) 40%,white)}
+.topic-tile.on{border:2px solid color-mix(in srgb,var(--tc) 60%,white);background:color-mix(in srgb,var(--tc) 28%,var(--surface));box-shadow:none}
+.picker-foot{color:var(--muted);font-family:var(--mono)}
+.primary.start{background:var(--g-nclex)}
+
+/* Practice: NurseBound test cards (TEST 1 / PRACTICE / REVIEW) */
+.test-card .tc-top{display:flex;justify-content:space-between;align-items:flex-start}
+.test-card .tc-eyebrow{font-family:var(--mono);font-weight:700;font-size:10.5px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;padding-top:8px}
+.icon-tile svg{width:20px;height:20px}
+.test-card .primary svg{width:17px;height:17px}
+.case-pills{display:flex;flex-wrap:wrap;gap:6px}
+.case-pill{background:var(--sunk);border:1px solid var(--line);color:var(--ink);border-radius:999px;font-family:var(--body)}
+.case-pill:hover{background:#1a2036}
+.pro-chip,.pro-pill{display:inline-flex;align-items:center;gap:5px;background:#fbbf24;color:#3b2500;border-radius:999px;padding:3px 10px;font-family:var(--mono);font-weight:700;font-size:11px;letter-spacing:1.5px;align-self:flex-start}
+.pro-pill svg{width:13px;height:13px}
+.pro-chip{padding:1px 6px;font-size:8px;letter-spacing:1px}
+.free-banner{background:var(--surface);border:1px solid var(--line);border-radius:18px}
+.free-banner .primary.light{background:#22d3ee;color:#04131a}
+
+/* Book page and panel */
+.bp-head{background:var(--g-roadmap)}
+.book-panel{background:var(--surface);border-left:1px solid var(--line);box-shadow:-12px 0 40px #0008}
+.bp-tabs{border-bottom-color:var(--line)}
+.bp-tab{color:var(--muted);font-weight:700}
+.bp-tab[aria-selected="true"],.bp-tab:nth-child(1)[aria-selected="true"]{color:#6ee7b7;border-bottom-color:#6ee7b7}
+.toc-chapter>button strong{color:var(--ink)}
+.toc-sections{border-top-color:var(--line)}
+.page-frame{background:var(--sunk);border-radius:12px}
+.page-locked{background:var(--sunk);color:var(--muted)}.page-locked strong{color:var(--ink)}
+.reader-section small{color:var(--muted)}
+.book-backdrop{background:#000a}
+
+/* Plan, progress, bookmarks */
+.plan-day{border-bottom-color:var(--line)}
+.day-date{background:var(--sunk);border-color:var(--line);color:var(--muted)}.day-date strong{color:var(--ink)}
+.check-day{border-color:var(--line)}.check-day.checked{background:var(--ok);border-color:var(--ok);color:#0b1020}
+.day-complete h3{color:var(--muted)}
+.history-row .history-score{color:var(--ok);font-family:var(--mono)}
+.need-row{color:var(--ink)}
+.need-row .progress-fill{background:var(--g-roadmap)}
+.course-icon{border-radius:13px}
+
+/* Dialogs that aren't exams: NurseBound surface */
+dialog{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:20px;box-shadow:0 24px 90px #000c}
+dialog::backdrop{background:#04060dcc}
+.modal-header h2{color:var(--ink)}.modal-header p{color:var(--muted)}
+#modal:not(.exam):not(.paywall) .modal-header{background:var(--g-nclex) top/100% 4px no-repeat}
+input,select,textarea{background:var(--sunk);border:1px solid var(--line);color:var(--ink);border-radius:12px;font-family:var(--body)}
+.field{color:var(--ink)}
+.mode-option{background:var(--sunk);border-color:var(--line);color:var(--ink);border-radius:14px}
+.mode-option.active{border-color:#fdba74;box-shadow:0 0 0 1px #fdba74;background:#2a1a14}
+.check-label{background:var(--sunk);border-color:var(--line);color:var(--ink);border-radius:999px}
+.setting-row{border-top-color:var(--line)}
+.search-item{border-bottom-color:var(--line);color:var(--ink)}
+.takeaway{background:var(--sunk)}
+.result-item{border-top-color:var(--line)}
+.toast{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px #000a}
+.icon-button svg{color:inherit}
+.app-footer{color:var(--muted)}
+.tagline span:nth-child(1){color:#93c5fd}.tagline span:nth-child(2){color:#fda4af}.tagline span:nth-child(3){color:#fdba74}
+
+/* Exam and quiz screens stay plain white (redefine the tokens inside them) */
+#modal.exam{--ink:#111;--muted:#666;--line:#e3e3e3;--surface:#fff;--sunk:#fafafa;color-scheme:light;background:#fff;color:#111;border-color:#e3e3e3}
+#modal.exam .modal-header h2,#modal.exam .question-stem,#modal.exam h3{color:#111}
+#modal.exam .quiz-header,#modal.exam .q-tags{color:#666}
+#modal.exam .primary{background:#111;box-shadow:none;border-radius:10px}
+#modal.exam .secondary{background:#fff;color:#111;border-color:#d9d9d9;border-radius:10px}
+#modal.exam .mini{background:#fff;color:#111;border-color:#d9d9d9}
+#modal.exam .icon-button{color:#111}
+#modal.exam .result-item{border-top-color:#eee}
+#modal.exam .progress-track{background:#eee}#modal.exam .progress-fill{background:#333}
+#modal.exam .cloze-select{background:#fff;color:#111;border-color:#ccc}
+
+/* Phones: NurseBound bottom tab bar, dark-mode colors */
+.nav-link{--nc:var(--nd)}
+@media (max-width:850px){
+  .tabbar{background:var(--surface);border-top:1px solid var(--line)}
+  .tab{--tc:var(--td);font-family:var(--body)}
+  .tab[aria-current="page"] svg{color:#0b1020}
+}
+.test-card{background:var(--surface);border:1px solid var(--line);box-shadow:0 6px 14px #00000059}
+.test-card p,.test-card .tc-eyebrow,.test-card .tc-meta{color:var(--muted)}
+.case-pills .case-pill{background:var(--sunk);border:1px solid var(--line);color:var(--ink)}
+.ui-swatch .sw{box-shadow:inset 0 0 0 2px #ffffff26}
+
+/* NurseBound's other palettes (src/theme.js PALETTES): Ocean and Sunrise */
+html[data-ui="ocean"]{--g-home:linear-gradient(135deg,#0369a1,#0d9488);--g-roadmap:linear-gradient(135deg,#0e7490,#0891b2);--g-boards:linear-gradient(135deg,#1d4ed8,#0891b2);--g-nclex:linear-gradient(135deg,#0f766e,#0284c7);--g-imm:linear-gradient(135deg,#4338ca,#0369a1);--g-bedside:linear-gradient(135deg,#0e7490,#4f46e5)}
+html[data-ui="ocean"] body{background:linear-gradient(160deg,#0c2f3a 0%,#0d1a2b 18%,var(--bg) 42%) fixed,var(--bg)}
+html[data-ui="ocean"] .primary,html[data-ui="ocean"] .primary.start{box-shadow:0 8px 20px #0284c740}
+html[data-ui="sunrise"]{--g-home:linear-gradient(135deg,#ea580c,#db2777);--g-roadmap:linear-gradient(135deg,#d97706,#ea580c);--g-boards:linear-gradient(135deg,#c2410c,#be185d);--g-nclex:linear-gradient(135deg,#dc2626,#ea580c);--g-imm:linear-gradient(135deg,#be185d,#9333ea);--g-bedside:linear-gradient(135deg,#e11d48,#d97706)}
+html[data-ui="sunrise"] body{background:linear-gradient(160deg,#45201a 0%,#2a1520 18%,var(--bg) 42%) fixed,var(--bg)}
+@media (max-width:1099px){
+  .tabbar{background:var(--surface);border-top:1px solid var(--line)}
+  .tab{--tc:var(--td);font-family:var(--body)}
+  .tab[aria-current="page"] svg{color:#0b1020}
+  .sidebar{box-shadow:10px 0 40px #000c}
+}

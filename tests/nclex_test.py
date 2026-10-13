@@ -67,7 +67,7 @@ with sync_playwright() as p:
     # 3. All 8 NGN cases, every item kind, answered correctly = full marks
     for c in cases:
         fresh(pg); pg.goto(U + '#practice'); pg.wait_for_timeout(300)
-        pg.click(f'[data-action=start-case][data-id="{c["id"]}"]'); pg.wait_for_timeout(200)
+        pg.click('main [data-action=choose-case]'); pg.click(f'#modal [data-action=start-case][data-id="{c["id"]}"]'); pg.wait_for_timeout(200)
         for it in c['items']:
             k = it['kind']
             if k == 'single': pg.click(f'#modal [data-action=ngn-pick][data-v="{it["answer"]}"]')
@@ -91,7 +91,7 @@ with sync_playwright() as p:
 
     # 4. NGN case survives reload mid-case; EHR tabs switch
     fresh(pg); pg.goto(U + '#practice'); pg.wait_for_timeout(300); c = cases[0]
-    pg.click(f'[data-action=start-case][data-id="{c["id"]}"]'); pg.click(f'#modal [data-action=ngn-pick][data-v="{c["items"][0]["answer"][0]}"]')
+    pg.click('main [data-action=choose-case]'); pg.click(f'#modal [data-action=start-case][data-id="{c["id"]}"]'); pg.click(f'#modal [data-action=ngn-pick][data-v="{c["items"][0]["answer"][0]}"]')
     tabs = list(c['ehr'].keys()); pg.click(f'#modal [data-action=case-tab][data-tab="{tabs[1]}"]')
     check('EHR tab switches', tabs[1] in pg.inner_text('#modal .ehr-tabs [aria-selected=true]'))
     pg.screenshot(path=f'{OUT}/ngn-case.png')
@@ -101,7 +101,7 @@ with sync_playwright() as p:
     # 5. Free plan gating
     fresh(pg, pro=False); pg.goto(U + '#practice'); pg.wait_for_timeout(300)
     check('free: banner and lock icons shown', pg.locator('.free-banner').count() == 1 and pg.locator('.case-pill .lock').count() == 7)
-    pg.click(f'[data-action=start-case][data-id="{cases[1]["id"]}"]'); pg.wait_for_timeout(200)
+    pg.click('main [data-action=choose-case]'); pg.click(f'#modal [data-action=start-case][data-id="{cases[1]["id"]}"]'); pg.wait_for_timeout(200)
     check('free: locked case opens paywall', pg.evaluate("document.querySelector('#modal').className") == 'paywall')
     pg.click('#modal [data-action=close-modal]')
     pg.click('[data-action=pick-mode][data-mode=exam]'); pg.wait_for_timeout(200)
