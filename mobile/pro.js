@@ -19,9 +19,11 @@ const extra = (Constants.expoConfig && Constants.expoConfig.extra) || {};
 export const ENTITLEMENT = extra.entitlementId || 'pro';
 export const ANDROID_PACKAGE = (Constants.expoConfig && Constants.expoConfig.android && Constants.expoConfig.android.package) || 'com.alexkorir.rapidnursingreview';
 export const LINKS = {
-  privacy: extra.privacyPolicyUrl || 'https://github.com/kenyanfreshy/rapid-nursing-review/blob/main/docs/PRIVACY.md',
-  terms: extra.termsUrl || 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
-  support: extra.supportEmail || '',
+  privacy: extra.privacyPolicyUrl || 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md',
+  // iOS: Apple's Standard EULA. Android: our public Terms page (it links the Google Play Terms of Service).
+  terms: Platform.OS === 'ios' ? (extra.termsUrl || 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/') : 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/TERMS.md',
+  support: extra.supportEmail || 'ak82korir@gmail.com',
+  supportPage: 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/SUPPORT.md',
 };
 const STORE_NAME = Platform.OS === 'ios' ? 'App Store' : 'Google Play';
 

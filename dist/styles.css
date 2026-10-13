@@ -885,3 +885,4 @@ dialog{max-height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-ins
 .cred.on{background:#fbbf24;color:#1a1204;border-color:#fbbf24}
 .tutor-card .cred-note{color:#fde68a;opacity:1}
 html body #modal.exam .tutor-intro strong,html body #modal.exam .tutor-intro p{color:#ffffff}
+.legal-links{margin:12px 0 0;font-size:12.5px;text-align:center}.legal-links a{color:inherit;text-decoration:underline}
