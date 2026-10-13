@@ -4,23 +4,22 @@
 
 ## License agreement
 
-- **iPhone and iPad:** your use of Rapid Nursing Review is governed by Apple's Licensed Application End User License
-  Agreement (Standard EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-- **Android:** your use is governed by the Google Play Terms of Service: https://play.google.com/about/play-terms/
+Rapid Nursing Review for iPhone and iPad is licensed to you under Apple's Licensed Application End User License Agreement
+(Standard EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ## Rapid Nursing Review Pro (subscriptions and lifetime access)
 
 Pro is offered as Monthly ($9.99/month), a 3-Month Pass ($49.99 every 3 months), Annual ($89.99/year) and Lifetime Access
-($119.00, one-time). Prices are in U.S. dollars; the store shows the price for your country.
+($119.00, one-time). Prices are in U.S. dollars; the App Store shows the price for your country.
 
-- Payment is charged to your Apple ID or Google Play account when you confirm the purchase.
+- Payment is charged to your Apple ID account when you confirm the purchase.
 - Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Your account
   is charged for renewal within 24 hours before the end of the period.
-- Manage or cancel subscriptions in your App Store or Google Play account settings. Canceling stops future renewals; Pro
+- Manage or cancel subscriptions in your Apple ID account settings (Settings → your name → Subscriptions). Canceling stops future renewals; Pro
   stays on until the end of the period you paid for.
 - Lifetime Access is a one-time purchase with no renewal.
-- Use **Restore Purchases** in the app to restore Pro on a new device signed in to the same store account.
-- Refunds are handled by Apple or Google under their policies.
+- Use **Restore Purchases** in the app to restore Pro on a new iPhone or iPad signed in to the same Apple ID.
+- Refunds are handled by Apple under its policies (reportaproblem.apple.com).
 
 ## Educational content
 

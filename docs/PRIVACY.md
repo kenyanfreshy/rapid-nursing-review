@@ -4,14 +4,15 @@
 
 Rapid Nursing Review ("the app") is a study app for nursing students preparing for the NCLEX-RN. It is based on the book
 *Rapid Nursing Review: All Body Systems at a Glance* by Alex K. Korir, MSN, RN, CCRN-CMC ("we", "us"). This policy explains
-what the app does with information. It applies to the iPhone, iPad and Android versions of the app.
+what the app does with information. It applies to the Rapid Nursing Review app for iPhone and iPad, distributed through
+Apple's App Store.
 
 ## The short version
 
 - No account and no sign-up.
 - Your study data stays on your device.
 - No advertising, no tracking and no selling of data.
-- Purchases are handled by Apple or Google; we never see your payment details.
+- Purchases are handled by Apple; we never see your payment details.
 
 ## What stays on your device
 
@@ -23,12 +24,12 @@ deleting the app.
 
 ## Purchases (Rapid Nursing Review Pro)
 
-If you buy Rapid Nursing Review Pro, the payment is handled by Apple (App Store) or Google (Google Play) under their terms.
-We never receive your name, email address or payment details.
+If you buy Rapid Nursing Review Pro, the payment is handled by Apple through the App Store under Apple's terms. We never
+receive your name, email address, Apple ID or payment details.
 
 To check whether you have Pro and to restore purchases, the app uses **RevenueCat**, a subscription service. RevenueCat
 receives an anonymous app user ID created on your device, your purchase history for this app, and basic technical
-information (such as the app version, device type, operating system and store country). It uses this only to provide,
+information (such as the app version, device model, iOS version and App Store country). It uses this only to provide,
 verify and restore your purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ## What we don't do
@@ -51,7 +52,7 @@ information from children.
 ## Your choices and rights
 
 Because we don't hold your study data, you control it on your device: export it, reset it or delete the app. For anything
-related to your purchase records, you can contact us (below) or Apple/Google directly. Depending on where you live (for
+related to your purchase records, you can contact us (below) or Apple directly. Depending on where you live (for
 example the EEA, the UK or California), you may have rights to access or delete personal information; contact us and we
 will help.
 

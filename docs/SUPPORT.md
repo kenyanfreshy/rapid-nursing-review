@@ -5,13 +5,12 @@ Email: **ak82korir@gmail.com** (we usually reply within 2 business days)
 ## Common questions
 
 **Restore Pro on a new phone:** open the app → tap **Upgrade** (or Settings → See Pro plans) → **Restore Purchases**,
-signed in with the same Apple ID or Google account you bought with.
+signed in with the same Apple ID you bought with.
 
-**Cancel a subscription:**
-- iPhone/iPad: Settings → your name → Subscriptions → Rapid Nursing Review → Cancel Subscription.
-- Android: Google Play → profile icon → Payments & subscriptions → Subscriptions → Rapid Nursing Review → Cancel.
+**Cancel a subscription:** on your iPhone or iPad, open Settings → your name → Subscriptions → Rapid Nursing Review →
+Cancel Subscription.
 
-**Refunds:** requested through Apple (reportaproblem.apple.com) or Google Play, under their policies.
+**Refunds:** requested through Apple at reportaproblem.apple.com, under Apple's policies.
 
 **Move or back up your progress:** Settings → Export saves a copy of your study data. There is no account, so progress
 stays on the device where you study.
