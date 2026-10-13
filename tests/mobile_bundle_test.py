@@ -43,7 +43,7 @@ with sync_playwright() as p:
     check('unfinished quiz is offered first', 'session in progress' in pg.inner_text('#modal'))
     pg.click('#modal [data-action=finish]'); pg.wait_for_timeout(200); pg.click('#modal [data-action=close-modal]')
     pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(300)
-    check('blueprint exam starts after purchase', pg.evaluate("document.querySelector('#modal').open") and 'QUESTION 1 OF 75' in pg.inner_text('#modal'))
+    check('blueprint exam starts after purchase', pg.evaluate("document.querySelector('#modal').open") and 'Question 1 of 75' in pg.inner_text('#modal'))
     check('no horizontal scroll on phone',pg.evaluate('document.documentElement.scrollWidth<=window.innerWidth'))
     pg.screenshot(path=os.environ.get('SHOT','/tmp/m.png'))
     check('no page errors',not errs,errs)

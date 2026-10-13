@@ -14,7 +14,7 @@ with sync_playwright() as p:
     check('default theme is Vivid (NurseBound dark)', pg.evaluate("document.documentElement.dataset.ui") == 'vivid' and bg(pg) == 'rgb(8, 11, 22)', bg(pg))
     # bottom bar: five pages; Overview lives in the menu drawer (and the logo)
     labels = pg.locator('.tabbar .tab .tab-label').all_inner_texts()
-    check('bottom bar has the five pages', labels == ['Practice', 'Book', 'Plan', 'Progress', 'Bookmarks'], labels)
+    check('bottom bar has the five pages', labels == ['Plan', 'Book', 'Practice', 'Progress', 'Bookmarks'], labels)
     check('menu button visible', pg.locator('#menu').is_visible())
     pg.click('#menu'); pg.wait_for_timeout(250)
     check('menu opens the drawer', pg.evaluate("document.querySelector('#sidebar').classList.contains('open')"))
@@ -23,7 +23,7 @@ with sync_playwright() as p:
     check('tap outside closes the drawer', not pg.evaluate("document.querySelector('#sidebar').classList.contains('open')"))
     pg.goto(U + '#practice'); pg.wait_for_timeout(200); pg.click('.topbar-home'); pg.wait_for_timeout(200)
     check('logo opens Overview', pg.evaluate('location.hash') == '#dashboard')
-    for i, route in enumerate(['practice', 'book', 'plan', 'progress', 'bookmarks']):
+    for i, route in enumerate(['plan', 'book', 'practice', 'progress', 'bookmarks']):
         pg.locator('.tabbar .tab').nth(i).click(); pg.wait_for_timeout(150)
         ok = pg.evaluate('location.hash') == '#' + route and pg.locator('.tabbar .tab').nth(i).get_attribute('aria-current') == 'page'
         check(f'tab opens {route}', ok)

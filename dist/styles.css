@@ -599,3 +599,199 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 }
 @media (min-width:1100px){.sidebar-backdrop{display:none}}
 .case-cite{font-size:12px;font-weight:700;color:#065F46;margin-top:6px}
+
+/* ==== NurseBound add-ons: Question Bank card, exam screen, tutor, motivation, confetti ==== */
+:root{--nc1:#ea580c;--nc2:#e11d48}
+html[data-ui="ocean"]{--nc1:#0f766e;--nc2:#0284c7}
+html[data-ui="sunrise"]{--nc1:#dc2626;--nc2:#ea580c}
+/* NCLEX topics / Book chapters: evenly spaced, each its own color (NurseBound tab colors) */
+.segmented.view-seg{display:flex;width:100%}
+.segmented.view-seg button{flex:1;text-align:center;color:#1D4ED8}
+.segmented.view-seg button+button{color:#065F46}
+.segmented.view-seg button[aria-selected="true"]{background:#1D4ED8;color:#fff}
+.segmented.view-seg button+button[aria-selected="true"]{background:#065F46;color:#fff}
+html:not([data-ui="daylight"]) .segmented.view-seg button{color:#93C5FD}
+html:not([data-ui="daylight"]) .segmented.view-seg button+button{color:#6EE7B7}
+html:not([data-ui="daylight"]) .segmented.view-seg button[aria-selected="true"]{background:#93C5FD;color:#0b1020}
+html:not([data-ui="daylight"]) .segmented.view-seg button+button[aria-selected="true"]{background:#6EE7B7;color:#0b1020}
+/* Question Bank card */
+.picker.qb-card{background:color-mix(in srgb,var(--nc1) 13%,#fff);border:1px solid var(--nc1);border-radius:18px}
+html:not([data-ui="daylight"]) .picker.qb-card{background:color-mix(in srgb,var(--nc1) 22%,#111527);border-color:color-mix(in srgb,var(--nc1) 65%,#fff)}
+.qb-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+.qb-icon{flex:none;width:48px;height:48px;border-radius:15px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--nc1),var(--nc2));color:#fff}
+.qb-icon svg{width:24px;height:24px;stroke-width:2}
+.qb-head h2{margin:0;font-family:var(--display,inherit);font-size:21px;line-height:26px;font-weight:700}
+.qb-head p{margin:2px 0 0;font-size:13px;line-height:18px;color:var(--muted)}
+.qb-stats{display:flex;gap:8px;margin-bottom:12px}
+.qb-stat{flex:1;display:flex;flex-direction:column;align-items:center;padding:8px;border-radius:14px;background:var(--surface,#fff);border:1px solid var(--line)}
+.qb-stat strong{font-family:var(--mono,ui-monospace,monospace);font-size:13px;line-height:18px;font-weight:700}
+.qb-stat span{font-family:var(--mono,ui-monospace,monospace);font-size:9.5px;line-height:14px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted)}
+.qb-bar{height:9px;border-radius:99px;background:var(--sunk,#eef1f8);overflow:hidden;margin-bottom:14px}
+.qb-bar div{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--nc1),var(--nc2));min-width:0}
+.qb-clear{font-size:13px;font-weight:600;color:var(--nc2);padding:2px 0}
+html:not([data-ui="daylight"]) .qb-clear{color:color-mix(in srgb,var(--nc2) 65%,#fff)}
+.qb-card .picker-head .eyebrow{letter-spacing:1.2px}
+.topic-tile.on{border-width:2px}
+/* Client need, Questions and Mode on one level */
+.picker-controls{align-items:end}
+.picker-controls .field{display:grid;grid-template-rows:16px 40px;gap:4px;margin:0;align-content:end}
+.picker-controls .field-label{font-size:12px;line-height:16px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.picker-controls select{height:40px;margin:0;box-sizing:border-box}
+.picker-controls .segmented.mode{height:40px;box-sizing:border-box;margin:0;padding:3px;align-items:stretch}
+.picker-controls .segmented.mode button{padding:0 6px;display:flex;align-items:center;justify-content:center}
+/* Book chapter chips: evenly spaced */
+.filter-row{display:grid!important;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.filter-row .filter{width:100%;margin:0;justify-content:center;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:599px){.filter-row{grid-template-columns:1fr 1fr}.filter-row .filter{font-size:11px;padding-left:6px;padding-right:6px}}
+
+/* ---- Exam screen: NurseBound question view (light, on white) ---- */
+html body #modal.exam{--x-ok:#15803d;--x-oks:#dcf5e4;--x-crit:#c81e3a;--x-crits:#fde2e6;--x-t1:#ea580c;--x-t2:#e11d48;--x-s1:#fce9df;--x-s2:#fbe2e7;--x-sunk:#eef1f8;--x-line:#e1e5ef;--x-ink:#0d1324;--x-muted:#5b6478}
+html body #modal.exam .modal-body{display:flex;flex-direction:column;gap:14px}
+html body #modal.exam .nb-qhead{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+html body #modal.exam .nb-qcount{margin-left:auto;display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:13px;color:var(--x-muted)}
+.nb-chip{display:inline-flex;align-items:center;gap:4px;max-width:100%;padding:5px 10px;border-radius:999px;font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:11.5px;font-weight:700;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;align-self:flex-start}
+.nb-chip svg{width:12px;height:12px;flex:none;stroke-width:2}
+.nb-chip.acc{background:#fce9df;color:#ea580c}.nb-chip.acc2{background:#fbe2e7;color:#e11d48}.nb-chip.mute{background:#eef1f8;color:#5b6478}.nb-chip.crit{background:#fde2e6;color:#c81e3a}.nb-chip.book{background:#dcf5e4;color:#065f46}
+html body #modal.exam .nb-chiprow{display:flex;gap:6px;flex-wrap:wrap;margin-top:-4px}
+html body #modal.exam .quiz-progress.nb-bar{height:9px;border-radius:99px;background:var(--x-sunk);margin:0}
+html body #modal.exam .quiz-progress.nb-bar div{background:linear-gradient(90deg,#ea580c,#e11d48);border-radius:99px}
+html body #modal.exam .nb-qcard{background:#fff;border:1px solid var(--x-line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:9px;box-shadow:0 6px 14px #ea580c14}
+html body #modal.exam .question-stem{margin:0;font-family:'Figtree','DM Sans',system-ui,sans-serif;font-weight:700;font-size:16px;line-height:23px;color:var(--x-ink)}
+html body #modal.exam .answer-options{display:flex;flex-direction:column;gap:9px;margin:0}
+html body #modal.exam .answer{display:flex;align-items:flex-start;gap:10px;padding:13px;border-radius:14px;border:1.5px solid var(--x-line);background:#fff;box-shadow:none;color:var(--x-ink);font-size:15px;line-height:22px;text-align:left;width:100%}
+html body #modal.exam .answer .answer-letter{flex:none;width:16px;height:auto;min-width:16px;border:0;background:none;border-radius:0;font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-weight:700;font-size:13px;line-height:22px;text-transform:uppercase;color:var(--x-ink);justify-content:flex-start}
+html body #modal.exam .answer.multi .answer-letter{width:18px;height:18px;min-width:18px;margin-top:2px;border:1.5px solid #b8c0d4;border-radius:5px;display:flex;align-items:center;justify-content:center;line-height:1;font-size:12px}
+html body #modal.exam .answer.multi.selected .answer-letter{background:var(--x-t1);border-color:var(--x-t1);color:#fff}
+html body #modal.exam .answer.selected{background:var(--x-s1);border-color:var(--x-t1);box-shadow:none}
+html body #modal.exam .answer.correct{background:var(--x-oks);border-color:var(--x-ok);box-shadow:none}
+html body #modal.exam .answer.incorrect{background:var(--x-crits);border-color:var(--x-crit);box-shadow:none}
+html body #modal.exam .answer.correct .answer-letter{color:var(--x-ok)}html body #modal.exam .answer.incorrect .answer-letter{color:var(--x-crit)}
+html body #modal.exam .answer .mark{margin-left:auto;color:var(--x-ok);flex:none}
+html body #modal.exam .opt-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+html body #modal.exam .why{font-size:13px;line-height:18px;color:var(--x-muted)}
+html body #modal.exam .why b{color:var(--x-ink)}
+html body #modal.exam .why.hl{color:var(--x-ink);background:#fff8db;border:1px solid #f5d76e;border-radius:8px;padding:6px 8px}
+html body #modal.exam .why.hl b{color:var(--x-ok)}
+html body #modal.exam .order-item.correct{background:var(--x-oks);border-color:var(--x-ok)}html body #modal.exam .order-item.incorrect{background:var(--x-crits);border-color:var(--x-crit)}
+html body #modal.exam .order-item .answer-letter{width:30px;height:30px;min-width:30px;border-radius:15px;background:var(--x-t1);color:#fff;display:flex;align-items:center;justify-content:center;line-height:1}
+html body #modal.exam .type-hint{margin:0;font-size:12px;color:var(--x-muted)}
+/* result, key points, takeaway, sources */
+html body #modal.exam .rationale{background:none;border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.nb-result{display:flex;gap:8px;align-items:flex-start}
+.nb-result svg{width:19px;height:19px;flex:none;margin-top:2px;stroke-width:2}
+.nb-result strong{display:block;font-size:15px;line-height:22px}
+.nb-result span{display:block;font-size:13px;color:#5b6478}
+.nb-result.ok,.nb-result.ok strong{color:#15803d}.nb-result.no,.nb-result.no strong{color:#c81e3a}
+.nb-keypoints{background:#fff8db;border:1px solid #f5d76e;border-radius:14px;padding:12px}
+.nb-keypoints h4{display:flex;align-items:center;gap:6px;margin:0 0 6px;font-size:13px;color:#a16207}
+.nb-keypoints h4 svg{width:15px;height:15px}
+.nb-keypoints ul{margin:0;padding-left:18px;display:grid;gap:5px;font-size:13px;line-height:19px;color:#0d1324}
+.nb-keypoints mark,.rationale-list mark{background:linear-gradient(transparent 40%,#fde68a 40%);color:inherit;padding:0 1px}
+.nb-note{display:flex;gap:10px;border-radius:14px;padding:12px}
+.nb-note svg{width:16px;height:16px;flex:none;margin-top:2px;stroke-width:2}
+.nb-note strong{display:block;font-size:13px;line-height:18px}
+.nb-note p{margin:2px 0 0;font-size:13px;line-height:18px;color:#0d1324}
+.nb-note.takeaway{background:#fbe2e7;color:#e11d48}
+.nb-all,.nb-sources{border:1px solid #e1e5ef;border-radius:14px;padding:10px 12px;background:#fff}
+.nb-all summary,.nb-sources summary{cursor:pointer;font-size:13px;font-weight:700;color:#ea580c;display:flex;align-items:center;gap:6px;list-style:none}
+.nb-all summary::-webkit-details-marker,.nb-sources summary::-webkit-details-marker{display:none}
+.nb-all summary::after,.nb-sources summary::after{content:'›';margin-left:auto;font-size:18px;line-height:1;transition:transform .2s}
+.nb-all[open] summary::after,.nb-sources[open] summary::after{transform:rotate(90deg)}
+.nb-sources summary svg{width:16px;height:16px}
+.nb-all[open] summary,.nb-sources[open] summary{margin-bottom:8px}
+.nb-ref{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.nb-ref .apa{margin:0;font-size:12.5px;line-height:18px;color:#0d1324;padding-left:18px;text-indent:-18px}
+.nb-ref a{font-size:12px;font-weight:700;color:#ea580c}
+.nb-ref .book-ref{margin-top:6px}
+.nb-ref .pg{font-weight:700;color:#065f46}
+.nb-tiny{margin:8px 0 0;font-size:11.5px;line-height:15px;color:#5b6478}
+.nb-actions{display:flex;gap:8px;flex-wrap:wrap}
+html body #modal.exam .primary{background:linear-gradient(135deg,#ea580c,#e11d48);border:0;color:#fff;border-radius:13px;box-shadow:0 8px 20px #e11d4833}
+html body #modal.exam .primary:hover{filter:brightness(1.06);background:linear-gradient(135deg,#ea580c,#e11d48)}
+html body #modal.exam .primary:disabled{opacity:.45;box-shadow:none}
+html body #modal.exam .secondary{background:#fff;color:#0d1324;border:1px solid #e1e5ef;border-radius:13px}
+html body #modal.exam .quiz-toolbar{margin:0}
+/* Tutor intro (first question of a tutor session) */
+.tutor-intro{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:linear-gradient(135deg,#fce9df,#fbe2e7);border:1px solid #f8c9b5}
+.tutor-intro strong{display:block;font-size:14px;color:#0d1324}
+.tutor-intro p{margin:2px 0 0;font-size:13px;line-height:18px;color:#5b6478}
+.tutor-intro b{color:#ea580c}
+.tutor-avatar{flex:none;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#2563eb,#c026d3);color:#fff;font-family:var(--display,inherit);font-weight:800;font-size:21px;border:3px solid #ffffff73}
+.tutor-avatar.sm{width:42px;height:42px;font-size:15px;background:linear-gradient(135deg,#ea580c,#e11d48)}
+/* Dashboard: today's motivation + meet your tutor */
+.motivate-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 18px}
+@media (max-width:760px){.motivate-row{grid-template-columns:1fr}}
+.motivation-card{position:relative;overflow:hidden;border-radius:22px;padding:18px;background:linear-gradient(135deg,#ea580c,#db2777);color:#fff}
+.motivation-card:after{content:'';position:absolute;width:160px;height:160px;border-radius:50%;right:-50px;top:-70px;background:#ffffff24}
+.mc-top{display:flex;align-items:center;gap:6px;font-family:var(--mono,ui-monospace,monospace);font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;opacity:.9}
+.mc-top svg{width:15px;height:15px}
+.mc-quote{margin:10px 0 8px;font-family:var(--display,inherit);font-size:19px;line-height:25px;font-weight:700}
+.mc-personal{margin:0;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;opacity:.95}
+.mc-personal svg{width:15px;height:15px}
+.tutor-card{border-radius:18px;padding:16px;background:var(--surface,#fff);border:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.tutor-card .tc-eyebrow{font-family:var(--mono,ui-monospace,monospace);font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--muted)}
+.tutor-row{display:flex;gap:14px;align-items:center}
+.tutor-row h3{margin:0 0 6px;font-size:17px;line-height:22px}
+.cred-row{display:flex;gap:6px;flex-wrap:wrap}
+.cred{padding:4px 9px;border-radius:99px;background:color-mix(in srgb,#2563eb 18%,transparent);color:#60a5fa;font-family:var(--mono,ui-monospace,monospace);font-size:10.5px;font-weight:700;letter-spacing:1px}
+.cred.on{background:#2563eb;color:#fff}
+.cred-note{margin:0;font-size:13px;color:var(--muted)}
+.tutor-card>p{margin:0;font-size:13px;line-height:19px}
+/* Celebrations */
+#fx{border:0;padding:24px;background:transparent;max-width:none;max-height:none;width:100%;height:100%;display:none;align-items:center;justify-content:center;overflow:hidden}
+#fx[open]{display:flex}
+#fx::backdrop{background:rgba(5,8,20,.6)}
+.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.confetti i{position:absolute;top:-20px;height:4px;border-radius:2px;animation:fx-fall 2.6s cubic-bezier(.25,.46,.45,.94) forwards}
+.confetti i:nth-child(odd){height:6px}
+@keyframes fx-fall{0%{transform:translateY(0) rotate(var(--r));opacity:1}80%{opacity:1}100%{transform:translateY(var(--d)) rotate(calc(var(--r) + 540deg));opacity:0}}
+.fx-card{position:relative;background:#111527;color:#eef1fa;border-radius:26px;padding:26px;display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:380px;text-align:center;animation:fx-pop .35s cubic-bezier(.2,1.4,.4,1)}
+html[data-ui="daylight"] .fx-card{background:#fff;color:#0d1324}
+@keyframes fx-pop{from{transform:scale(.85);opacity:0}to{transform:none;opacity:1}}
+.fx-eyebrow{font-family:var(--mono,'JetBrains Mono',monospace);font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:#9aa3bd}
+.fx-medal{width:108px;height:108px;border-radius:32px;display:flex;align-items:center;justify-content:center;color:#fff}
+.fx-medal svg{width:50px;height:50px;stroke-width:1.8}
+.fx-card h2{margin:4px 0 0;font-family:var(--display,inherit);font-size:26px;line-height:31px;color:inherit}
+.fx-card p{margin:0;font-size:15px;line-height:22px;color:#9aa3bd}
+html[data-ui="daylight"] .fx-card p{color:#5b6478}
+.fx-go{margin-top:6px;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;padding:13px;border-radius:13px;background:linear-gradient(135deg,#ea580c,#e11d48);color:#fff;font-weight:700;font-size:15px}
+.fx-go svg{width:16px;height:16px}
+.fx-form{width:100%;display:grid;gap:6px;text-align:left}
+.fx-form label{font-size:13px;font-weight:600;color:#9aa3bd}
+.fx-form input{padding:12px;border-radius:12px;border:1.5px solid #232a44;background:#0c1020;color:#eef1fa;font-size:16px}
+html[data-ui="daylight"] .fx-form input{background:#fff;color:#0d1324;border-color:#e1e5ef}
+@media (prefers-reduced-motion:reduce){.fx-card{animation:none}}
+.qb-title{flex:1;min-width:0}
+.qb-custom{flex:none;width:36px;height:36px;border-radius:12px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);background:var(--surface,#fff);color:var(--ink)}
+.qb-custom svg{width:17px;height:17px}
+main:has(.qb-card) .practice-head{display:none}
+@media (max-width:599px){
+  .qb-head{gap:10px;margin-bottom:8px}
+  .qb-icon{width:40px;height:40px;border-radius:13px}.qb-icon svg{width:20px;height:20px}
+  .qb-head h2{font-size:18px;line-height:22px}
+  .qb-head p{font-size:11.5px;line-height:15px}
+  .qb-stats{gap:6px;margin-bottom:8px}
+  .qb-stat{padding:4px 6px;border-radius:12px}
+  .qb-stat strong{font-size:12px;line-height:16px}.qb-stat span{font-size:8.5px;line-height:12px}
+  .qb-bar{height:6px;margin-bottom:8px}
+  .picker-controls .field{grid-template-rows:14px 34px;gap:3px}
+  .picker-controls .field-label{font-size:10.5px;line-height:14px}
+  .picker-controls select,.picker-controls .segmented.mode{height:34px}
+}
+@media (max-width:599px){
+  .qb-card .topic-grid{gap:4px}
+  .qb-card .topic-tile{height:33px}
+  .qb-card .segmented.pool{padding:2px;margin-bottom:6px}
+  .qb-card .segmented.pool button{padding:5px 8px}
+  .qb-head p{font-size:11px;line-height:14px}
+  .qb-card .picker-head{margin:0 0 4px}
+}
+/* fit the Question Bank card on every device */
+@media (max-width:599px){.qb-card .topic-tile{height:clamp(26px,calc((100dvh - 480px) / 10),33px)}}
+@media (max-width:599px) and (max-height:800px){.qb-head p{display:none}.qb-head{align-items:center}.qb-stat{flex-direction:row;justify-content:center;gap:5px;padding:3px 4px}}
+@media (min-width:600px) and (max-width:1099px) and (max-height:1150px){.qb-card .topic-tile{min-height:0;height:56px}}
+@media (min-width:1100px) and (max-height:820px){.qb-card .topic-tile{min-height:0;height:44px}.qb-head p{display:none}.qb-head{align-items:center}}
+@media (max-width:599px) and (max-height:700px){.qb-stats{display:none}.qb-bar{height:4px;margin-bottom:6px}.qb-head{margin-bottom:6px}.qb-icon{width:32px;height:32px;border-radius:10px}.qb-head h2{font-size:16px}}
+@media (max-width:599px) and (max-height:700px){.qb-card .topic-tile{height:25px}}
+.legal-note{margin:18px 0 6px;font-size:11.5px;line-height:16px;color:var(--muted);text-align:center}
+#modal .legal-note{text-align:left;margin:14px 0 4px}

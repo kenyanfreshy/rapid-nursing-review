@@ -88,3 +88,7 @@ Google Play Console
 Verified in this workspace: the offline bundle loads from a `file://` path in Chromium (as Android's WebView does) and passes `../tests/mobile_bundle_test.py`: it renders, restores progress from the native copy, saves answers through the native bridge, loads book pages and the cover, sends exports to native, and fits a 390 px phone screen. `App.js`, `index.js`, `metro.config.js` and the build script pass syntax checks.
 
 Not verified: the npm registry was blocked from the workspace, so `npm install`, `expo-doctor` and an actual EAS build have not been run. Run the setup steps above, then a `preview` build on a real phone, before submitting.
+
+## Trademark notice
+
+NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN. The same notice appears in the app (Overview, About, Settings and both paywalls); add it to the end of the App Store and Google Play descriptions too.

@@ -67,3 +67,7 @@ Keep question IDs stable: saved answers, bookmarks and history refer to them.
 - NurseBound questions carry NurseBound's own review notes where it had them; items with a disputed answer key were not imported.
 - RevenueCat keys in `mobile/app.json` are placeholders until you create the RevenueCat app (see `mobile/PRICING.md`).
 - The mobile app hasn't been built here (the npm registry was blocked in this workspace). Build with EAS and test purchases with sandbox accounts before submitting.
+
+## Trademark notice
+
+NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN. The same notice appears in the app (Overview, About, Settings and both paywalls); add it to the end of the App Store and Google Play descriptions too.
