@@ -212,7 +212,7 @@ input,select,textarea{background:var(--sunk);border:1px solid var(--line);color:
 .test-card{background:var(--surface);border:1px solid var(--line);box-shadow:0 6px 14px #00000059}
 .test-card p,.test-card .tc-eyebrow,.test-card .tc-meta{color:var(--muted)}
 .case-pills .case-pill{background:var(--sunk);border:1px solid var(--line);color:var(--ink)}
-.ui-swatch .sw{box-shadow:inset 0 0 0 2px #ffffff26}
+.theme-card{--rnr-line:#232a44;--rnr-muted:#9aa3bd;background:#111527}
 
 /* NurseBound's other palettes (src/theme.js PALETTES): Ocean and Sunrise */
 html[data-ui="ocean"]{--g-home:linear-gradient(135deg,#0369a1,#0d9488);--g-roadmap:linear-gradient(135deg,#0e7490,#0891b2);--g-boards:linear-gradient(135deg,#1d4ed8,#0891b2);--g-nclex:linear-gradient(135deg,#0f766e,#0284c7);--g-imm:linear-gradient(135deg,#4338ca,#0369a1);--g-bedside:linear-gradient(135deg,#0e7490,#4f46e5)}
