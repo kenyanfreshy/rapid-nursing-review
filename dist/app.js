@@ -988,7 +988,11 @@ function tutorCard() {
   return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0].replace('-', '\u2011')).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p class="tutor-bio">${TUTOR.bio}</p><details class="tutor-more"><summary><span>${icon('book')}Books by A. Korir</span></summary><div class="tutor-books"><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></details></section>`;
 }
 function tutorIntro(s) {
-  const topic = String(s.label || '').replace(/\s*practice$/i, '').replace(/^Mixed NCLEX$/i, 'a mix of NCLEX topics');
+  // Name the real topics in the session ("Cardiovascular & Respiratory", "Pediatrics, Maternal & Newborn and 2 more"), never a count like "2-topic".
+  const names = [...new Set((s.ids || []).map(id => topicOf(qOf(id)?.nclexTopic)?.name).filter(Boolean))];
+  const many = names.length > 1 ? (names.length === 2 ? `${names[0]} & ${names[1]}` : `${names.slice(0, 2).join(', ')} and ${names.length - 2} more`) : '';
+  let topic = String(s.label || '').replace(/\s*practice$/i, '');
+  if (/^\d+-topic$/i.test(topic) || /^Mixed NCLEX$/i.test(topic)) topic = many || 'a mix of NCLEX topics';
   return `<div class="tutor-intro"><img class="tutor-avatar sm photo" src="pages/tutor.webp" alt="" width="42" height="42"><div><strong>Meet your tutor, ${TUTOR.name}${firstName() ? `. Hi ${escape(firstName())}!` : '.'}</strong><p>Today we will learn: <b>${escape(topic || 'NCLEX essentials')}</b>. Answer, check, and read the why. I’ll highlight the key points for you.</p></div></div>`;
 }
 function motivationCard() {
