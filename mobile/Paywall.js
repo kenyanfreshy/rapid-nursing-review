@@ -28,8 +28,10 @@ const SANS = Platform.select({ ios: 'System', default: undefined });
 const PERIOD = { MONTHLY: 'month', ANNUAL: 'year', WEEKLY: 'week', SIX_MONTH: '6 months', THREE_MONTH: '3 months', TWO_MONTH: '2 months', LIFETIME: null };
 const SHORT = { MONTHLY: '/mo', ANNUAL: '/yr', WEEKLY: '/wk', SIX_MONTH: '/6 mo', THREE_MONTH: '/3 mo', TWO_MONTH: '/2 mo' };
 const UNIT = { DAY: 'day', WEEK: 'week', MONTH: 'month', YEAR: 'year' };
-// Plan order: 3-month pass (most popular) and monthly side by side, then annual, then lifetime.
-const ORDER = { THREE_MONTH: 0, MONTHLY: 1, ANNUAL: 2, SIX_MONTH: 3, TWO_MONTH: 4, WEEKLY: 5, LIFETIME: 9 };
+// Plan order: 3-month pass (most popular, full width), lifetime (best long-term value, full width), then annual and monthly side by side.
+const ORDER = { THREE_MONTH: 0, LIFETIME: 1, ANNUAL: 2, MONTHLY: 3, SIX_MONTH: 4, TWO_MONTH: 5, WEEKLY: 6 };
+// The three benefits under the headline (counts match the app).
+const BENEFITS = [['book', '3,200-question bank + the full Rapid Nursing Review book'], ['steth', '30 NGN case studies with real EHR tabs'], ['clock', 'Exam-date study plan, tutor mode & progress by client need']];
 const ACCOUNT = Platform.OS === 'ios' ? 'Apple ID' : 'Google Play account';
 const isoDay = s => (s ? new Date(s).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : '');
 
@@ -39,6 +41,7 @@ const ICONS = {
   clock: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z M12 7v5l3 2', book: 'M3 4c3-1 6-1 9 1 3-2 6-2 9-1v16c-3-1-6-1-9 1-3-2-6-2-9-1V4z M12 5v16',
   link: 'M10 14a4 4 0 0 0 6 0l3-3a4 4 0 0 0-6-6l-1 1 M14 10a4 4 0 0 0-6 0l-3 3a4 4 0 0 0 6 6l1-1', close: 'M6 6l12 12 M18 6L6 18',
   layers: 'M12 3l9 5-9 5-9-5 9-5z M3 13l9 5 9-5 M3 17l9 5 9-5',
+  steth: 'M6 3v6a4 4 0 0 0 8 0V3 M10 13v3a5 5 0 0 0 10 0v-2 M20 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4z',
   badge: 'M12 2l3 3h4v4l3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z M8 12l3 3 5-6', store: 'M3 9l2-5h14l2 5 M4 9v11h16V9 M9 20v-6h6v6',
 };
 function Icon({ name, size = 16, color = C.cyan }) {
@@ -98,7 +101,7 @@ function Badge({ text, color = C.cyan }) {
   return h(View, { style: { alignSelf: 'flex-start', borderWidth: 1, borderColor: color, backgroundColor: 'rgba(6,182,212,0.12)', borderRadius: 7, paddingHorizontal: 8, paddingVertical: 2 } },
     T({ color, fontSize: 10, fontWeight: '800', letterSpacing: 2 }, text));
 }
-function PlanCard({ label, badge, price, unit, lines, saveText, on, onPress, wide }) {
+function PlanCard({ label, badge, badgeColor, price, unit, lines, saveText, on, onPress, wide }) {
   return h(Pressable, {
     onPress, accessibilityRole: 'radio', accessibilityState: { checked: on },
     accessibilityLabel: [label, price + (unit || ''), ...(lines || []), saveText].filter(Boolean).join(', '),
@@ -106,7 +109,7 @@ function PlanCard({ label, badge, price, unit, lines, saveText, on, onPress, wid
       shadowColor: C.cyanDeep, shadowOpacity: on ? 0.45 : 0, shadowRadius: 16, shadowOffset: { width: 0, height: 0 }, transform: [{ scale: pressed ? 0.985 : 1 }] }),
   },
     Row({ justifyContent: 'space-between', alignItems: 'flex-start' },
-      h(View, { style: { flex: 1, gap: 4 } }, badge ? h(Badge, { text: badge }) : null, T({ color: C.muted, fontSize: 12, letterSpacing: 2.4, fontWeight: '700' }, label)),
+      h(View, { style: { flex: 1, gap: 4 } }, badge ? h(Badge, { text: badge, color: badgeColor || C.cyan }) : null, T({ color: C.muted, fontSize: 12, letterSpacing: 2.4, fontWeight: '700' }, label)),
       h(Radio, { on })),
     Row({ alignItems: 'flex-end', flexWrap: 'wrap', gap: 2 },
       T({ fontSize: wide ? 22 : 26, lineHeight: wide ? 28 : 32, fontWeight: '800' }, price, { numberOfLines: 1, adjustsFontSizeToFit: true }),
@@ -191,18 +194,18 @@ export default function Paywall({ onClose, reason }) {
     const t = trialFor(p), life = p.packageType === 'LIFETIME', pPer = PERIOD[p.packageType], lines = [];
     // e.g. "2 weeks free, then $89.99/year": the full price stays the biggest text on the card (App Store 3.1.2).
     if (t) lines.push(t.free ? `${t.words} free, then ${p.product.priceString}${pPer ? '/' + pPer : ''}` : `${t.priceString} for ${t.words}, then ${p.product.priceString}${pPer ? '/' + pPer : ''}`);
-    if (p.packageType === 'THREE_MONTH') lines.push('A full 90-day NCLEX study plan');
-    if (p.packageType === 'ANNUAL') lines.push(`${p.product.pricePerMonthString ? p.product.pricePerMonthString + '/mo · ' : ''}covers a delayed ATT or credentialing wait`);
-    if (p.packageType === 'MONTHLY') lines.push('Cancel anytime');
-    if (life) lines.push('One payment · keep it as your bedside reference');
+    if (p.packageType === 'THREE_MONTH') lines.push(`${p.product.pricePerMonthString ? `Billed as ${p.product.pricePerMonthString}/mo · ` : ''}Matches the 90-day study runway`);
+    if (p.packageType === 'ANNUAL') lines.push(`${p.product.pricePerMonthString ? `~${p.product.pricePerMonthString}/mo · ` : ''}Fits international credentialing timelines`);
+    if (p.packageType === 'MONTHLY') lines.push('Flexible access, cancel anytime');
+    if (life) lines.push('Pay once, own forever · no renewals');
     return h(PlanCard, { key: p.identifier, wide, on: selId === p.identifier, onPress: () => setSel(p.identifier),
-      label: life ? 'LIFETIME ACCESS' : p.packageType === 'THREE_MONTH' ? '3-MONTH PASS' : p.packageType === 'ANNUAL' ? 'ANNUAL · COMPLETE PASS' : p.packageType === 'MONTHLY' ? 'MONTHLY' : (pPer || 'PLAN').toUpperCase(),
-      badge: p.packageType === 'THREE_MONTH' ? 'MOST POPULAR' : life ? 'PAY ONCE' : null,
+      label: life ? 'LIFETIME ALL-ACCESS' : p.packageType === 'THREE_MONTH' ? '3-MONTH PASS' : p.packageType === 'ANNUAL' ? 'ANNUAL PASS' : p.packageType === 'MONTHLY' ? 'MONTHLY SPRINT' : (pPer || 'PLAN').toUpperCase(),
+      badge: p.packageType === 'THREE_MONTH' ? 'MOST POPULAR' : life ? 'BEST LONG-TERM VALUE' : null, badgeColor: life ? C.gold : C.cyan,
       price: p.product.priceString, unit: life ? null : SHORT[p.packageType], lines,
       saveText: p.packageType === 'ANNUAL' && yearlySave > 0 ? `Save ~${yearlySave}%` : p.packageType === 'THREE_MONTH' && quarterSave > 0 ? `Save ~${quarterSave}%` : null });
   };
 
-  const ctaTitle = !chosen ? '' : busy ? 'Please wait…' : trial ? (trial.free ? `Start ${trial.adj.replace(/^./, c => c.toUpperCase()).replace(/-(\w)/, (m, c) => '-' + c.toUpperCase())} Free Trial` : `Start for ${trial.priceString}`) : 'Unlock Pro Access';
+  const ctaTitle = !chosen ? '' : busy ? 'Please wait…' : trial ? (trial.free ? `Start ${trial.adj.replace(/^./, c => c.toUpperCase()).replace(/-(\w)/, (m, c) => '-' + c.toUpperCase())} Free Trial` : `Start for ${trial.priceString}`) : 'Unlock Complete Review Pass';
   const ctaSub = !chosen ? '' : trial ? `${trial.free ? `${trial.words} free` : `${trial.priceString} for ${trial.words}`}, then ${chosen.product.priceString}${per ? '/' + per : ''} · cancel anytime`
     : chosen.packageType === 'LIFETIME' ? `${chosen.product.priceString} once · no subscription` : `${chosen.product.priceString}${per ? '/' + per : ''} · cancel anytime`;
   const renewLine = chosen && chosen.packageType !== 'LIFETIME' ? (trial ? `${trial.words} free, then ${chosen.product.priceString}/${per}, renewing automatically.` : `${chosen.product.priceString}/${per}, renewing automatically.`) : null;
@@ -227,12 +230,14 @@ export default function Paywall({ onClose, reason }) {
     T({ color: C.muted, fontSize: 13 }, storeAvailable ? (error || "We couldn't load plans from the store. Check your connection and try again.") : keyMissing ? 'This build has no RevenueCat key, so it can\'t reach the store. Add the public key (appl_… / goog_…) to app.json and build again.' : (Platform.OS === 'ios' ? 'Purchases work in the App Store version of the app.' : 'Purchases work in the Google Play version of the app.') + (__DEV__ ? ' Add your RevenueCat keys in app.json to test them.' : '')),
     storeAvailable && errorDetail ? T({ color: C.faint, fontSize: 11 }, `Details: ${errorDetail}`, { selectable: true }) : null,
     storeAvailable ? h(LinkText, { onPress: reload }, 'Try Again') : null);
-  else plans = h(View, { style: { gap: 10 } },
-    subs.length >= 2 ? Row({ gap: 10, alignItems: 'stretch' }, ...subs.slice(0, 2).map(p => cardFor(p)))
-      : subs.length === 1 && lifetime ? Row({ gap: 10, alignItems: 'stretch' }, cardFor(subs[0]), cardFor(lifetime))
-      : subs.length === 1 ? cardFor(subs[0], true) : null,
-    ...subs.slice(2).map(p => cardFor(p, true)),
-    lifetime && subs.length !== 1 ? cardFor(lifetime, true) : null);
+  else {
+    const pair = [annual, monthly].filter(Boolean), rest = subs.filter(p => p !== quarter && !pair.includes(p));
+    plans = h(View, { style: { gap: 10 } },
+      quarter ? cardFor(quarter, true) : null,
+      lifetime ? cardFor(lifetime, true) : null,
+      pair.length === 2 ? Row({ gap: 10, alignItems: 'stretch' }, ...pair.map(p => cardFor(p))) : pair.length === 1 ? cardFor(pair[0], true) : null,
+      ...rest.map(p => cardFor(p, true)));
+  }
 
   return h(View, { style: { flex: 1, backgroundColor: C.bg } },
     h(StatusBar, { style: 'light' }),
@@ -243,9 +248,12 @@ export default function Paywall({ onClose, reason }) {
           h(Image, { source: require('./assets/icon.png'), style: { width: tight ? 44 : 52, height: tight ? 44 : 52, borderRadius: 12 }, accessibilityLabel: 'Rapid Nursing Review app icon' }),
           h(View, { style: { flex: 1 } },
             T({ color: C.cyan, fontSize: 13, letterSpacing: 3.5, fontWeight: '800' }, 'RAPID NURSING REVIEW PRO'),
-            T({ color: '#fff', fontSize: tight ? 19 : 21, lineHeight: tight ? 24 : 27, fontWeight: '800' }, 'Prepare to Pass the NCLEX-RN on Your First Attempt', { accessibilityRole: 'header' }))),
+            T({ color: '#fff', fontSize: tight ? 19 : 21, lineHeight: tight ? 24 : 27, fontWeight: '800' }, 'Pass Your NCLEX-RN on the First Attempt.', { accessibilityRole: 'header' }))),
+        T({ color: C.muted, fontSize: tight ? 13 : 14, lineHeight: tight ? 18 : 20 }, 'One retake costs $200 in Pearson VUE fees and months of delayed bedside earnings. Invest in complete exam readiness.'),
+        h(View, { style: { gap: tight ? 6 : 8 } }, ...BENEFITS.map(([ic, text]) => Row({ key: ic, gap: 10 },
+          h(View, { style: { width: 30, height: 30, borderRadius: 10, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(6,182,212,0.14)', borderWidth: 1, borderColor: 'rgba(6,182,212,0.35)' } }, h(Icon, { name: ic, size: 16, color: ic === 'steth' ? C.gold : C.cyan })),
+          T({ flex: 1, fontSize: tight ? 13.5 : 14.5, fontWeight: '600' }, text)))),
         reason ? T({ color: C.gold, fontSize: 14 }, reason) : null,
-        h(Marquee),
         plans),
       h(View, { style: { gap: tight ? 8 : 10 } },
         msg ? h(View, { style: { borderRadius: 14, padding: 10, backgroundColor: 'rgba(251,191,36,0.12)', borderWidth: 1, borderColor: 'rgba(251,191,36,0.4)' } }, T({ fontSize: 14 }, msg)) : null,
@@ -258,7 +266,7 @@ export default function Paywall({ onClose, reason }) {
         Row({ gap: 14, justifyContent: 'center' }, h(LinkText, { onPress: doRestore }, 'Restore Purchases'), T({ color: C.faint }, '·'), h(LinkText, { onPress: manage }, 'Manage Subscription')),
         // Apple 3.1.2 terms: billed amount, period, auto-renewal and how to cancel.
         T({ color: C.muted, textAlign: 'center', fontSize: 11.5, lineHeight: 15.5 },
-          `${renewLine && !isPro ? renewLine + ' ' : ''}Payment is charged to your ${ACCOUNT} at confirmation of purchase${trial ? ' (for a free trial, when the trial ends)' : ''}. Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. ${Platform.OS === 'ios' ? 'Cancel anytime in your Apple ID account settings.' : 'Cancel anytime in Google Play subscriptions.'} The all-access pass is a one-time purchase. Rapid Nursing Review is for education only; it is not medical advice.`),
+          `${renewLine && !isPro ? renewLine + ' ' : ''}Payment is charged to your ${ACCOUNT} at confirmation of purchase${trial ? ' (for a free trial, when the trial ends)' : ''}. ${Platform.OS === 'ios' ? 'Subscription automatically renews unless canceled in your Apple ID Account Settings at least 24 hours before the end of the current period.' : 'Subscription automatically renews unless canceled in Google Play subscriptions at least 24 hours before the end of the current period.'} The all-access pass is a one-time purchase. Rapid Nursing Review is for education only; it is not medical advice.`),
         // Disclaimer tile: same title, font and gold color as the web app's Disclaimer box.
         h(View, { style: { borderWidth: 1, borderColor: 'rgba(245,158,11,0.5)', backgroundColor: 'rgba(245,158,11,0.10)', borderRadius: 16, padding: 14, gap: 6 } },
           T({ color: '#f59e0b', fontSize: 13, fontWeight: '800', letterSpacing: 1.2, fontFamily: Platform.select({ ios: 'Menlo', default: 'monospace' }) }, 'DISCLAIMER'),
