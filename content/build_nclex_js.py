@@ -47,6 +47,17 @@ def main():
     for f in sorted(glob.glob(os.path.join(HERE, 'nclex', 'v4cases', '*.json'))):
         cases += json.load(open(f, encoding='utf-8'))
     refs = json.load(open(os.path.join(HERE, 'nclex', 'refs.json'), encoding='utf-8'))
+    # Per-item references for the imported bank and the cases written without them (content/assign_refs.py).
+    extra = json.load(open(os.path.join(HERE, 'nclex', 'bank_refs.json'), encoding='utf-8'))
+    for item in bank + cases:
+        e = extra.get(item['id'])
+        if e and not item.get('refs'):
+            item['refs'] = e['refs']
+            if e.get('bookSection'): item['bookSection'] = e['bookSection']
+    bad = [k for item in bank + cases for k in item.get('refs', []) if k not in refs]
+    if bad: raise SystemExit(f'Unknown reference keys: {sorted(set(bad))}')
+    norefs = [item['id'] for item in bank + cases if not item.get('refs')]
+    if norefs: raise SystemExit(f'{len(norefs)} items have no references, e.g. {norefs[:5]}')
     unknown = sorted({q['topic'] for q in bank if q['topic'] not in BY_NAME})
     if unknown:
         raise SystemExit(f'Add these topics to TOPICS: {unknown}')

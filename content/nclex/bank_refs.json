@@ -1,0 +1,7301 @@
+{
+"nb:ccrn-cv-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-acs"
+},
+"nb:ccrn-cv-02": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-acs"
+},
+"nb:ccrn-cv-06": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-07": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-08": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-postpci"
+},
+"nb:ccrn-cv-09": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-10": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-13": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-cardiomyopathy"
+},
+"nb:ccrn-cv-14": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-15": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-cv-16": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-htn"
+},
+"nb:ccrn-cv-18": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-acs"
+},
+"nb:ccrn-cv-19": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-pulm-05": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-aspiration"
+},
+"nb:ccrn-pulm-06": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:ccrn-pulm-07": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-pulm-08": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-asthma"
+},
+"nb:ccrn-pulm-11": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-pulm-12": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-pulm-15": {
+"refs": [
+"acog-preeclampsia",
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:ccrn-pulm-16": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:ccrn-pulm-17": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:ccrn-pulm-18": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-pulm-19": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:ccrn-heme-02": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:ccrn-gi-01": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:ccrn-shock-01": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+]
+},
+"nb:ccrn-integ-02": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-endo-01": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:ccrn-gi-02": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-pancreatitis"
+},
+"nb:ccrn-heme-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-dic"
+},
+"nb:ccrn-gi-03": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrn-endo-04": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-addison"
+},
+"nb:ccrnb-msk-01": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-neuro-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:ccrnb-gi-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:ccrnb-neuro-03": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-neuro-04": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-mh-01": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:ccrnb-mh-02": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+],
+"bookSection": "resp-ards"
+},
+"nb:ccrnb-pharm-01": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:ccrnb-pharm-02": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:ccrnb-resp-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:ccrnb-fe-01": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-fe-02": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "gu-aki"
+},
+"nb:ccrnb-fe-03": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-endo-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-hypopara"
+},
+"nb:ccrnb-renal-01": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-gi-02": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-gi-03": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-shock-04": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-pharm-03": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:ccrnb-shock-06": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnb-ethics-01": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "resp-copd"
+},
+"nb:ccrnb-ethics-02": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-03": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-04": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-05": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-06": {
+"refs": [
+"aha-resuscitation",
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-07": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-08": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-09": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-10": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-11": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-12": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-13": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-14": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-15": {
+"refs": [
+"ismp-highalert",
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-16": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-17": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-resp-02": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:ccrnb-pharm-04": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:ccrnb-fund-01": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "cardio-acs"
+},
+"nb:ccrnb-ethics-18": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-19": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-20": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-21": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-22": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-23": {
+"refs": [
+"sepsis-2021",
+"ana-ethics"
+]
+},
+"nb:ccrnb-lead-01": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:ccrnb-ethics-24": {
+"refs": [
+"sepsis-2021",
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-25": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-ethics-26": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnb-fund-02": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnb-fund-03": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnb-fund-04": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnb-fund-05": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnb-fund-06": {
+"refs": [
+"ismp-highalert",
+"openstax-fund"
+],
+"bookSection": "endo-dm"
+},
+"nb:ccrnb-fund-07": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnb-fund-08": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnx-003": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:ccrnx-004": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-007": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:ccrnx-011": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-012": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-014": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-015": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "heme-leukemia"
+},
+"nb:ccrnx-017": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-pancreatitis"
+},
+"nb:ccrnx-018": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:ccrnx-020": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:ccrnx-021": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:ccrnx-023": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-024": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pe"
+},
+"nb:ccrnx-028": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-029": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:ccrnx-030": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-031": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-033": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-036": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-ards"
+},
+"nb:ccrnx-037": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-040": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-043": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-044": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-045": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-047": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-048": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-049": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:ccrnx-052": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:ccrnx-054": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-058": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-060": {
+"refs": [
+"samhsa",
+"openstax-pharm"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:ccrnx-061": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:ccrnx-067": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:ccrnx-068": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-069": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:ccrnx-072": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-073": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-074": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-077": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-078": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:ccrnx-079": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnx-081": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:ccrnx-082": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-083": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:ccrnx-084": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:ccrnx-085": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-087": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-088": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:ccrnx-089": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-092": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:ccrnx-093": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-dic"
+},
+"nb:ccrnx-094": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-097": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:ccrnx-098": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-pancreatitis"
+},
+"nb:ccrnx-099": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnx-100": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-101": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-asthma"
+},
+"nb:ccrnx-102": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-103": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:ccrnx-104": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-105": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-106": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-postpci"
+},
+"nb:ccrnx-107": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:ccrnx-108": {
+"refs": [
+"samhsa",
+"openstax-psych"
+]
+},
+"nb:ccrnx-110": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ccrnx-115": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:ccrnx-118": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-pancreatitis"
+},
+"nb:ccrnx-119": {
+"refs": [
+"aha-resuscitation",
+"openstax-medsurg"
+],
+"bookSection": "cardio-cardiomyopathy"
+},
+"nb:ccrnx-120": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-acs"
+},
+"nb:ccrnx-121": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:ccrnx-122": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-ards"
+},
+"nb:ccrnx-124": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:ccrnx-125": {
+"refs": [
+"aha-resuscitation",
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:ccrnx-126": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:ccrnx-128": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:ccrnx-130": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+],
+"bookSection": "cardio-hf"
+},
+"nb:ccrnx-132": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+],
+"bookSection": "integ-skin"
+},
+"nb:ccrnx-135": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-139": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:ccrnx-140": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-cardiomyopathy"
+},
+"nb:ccrnx-141": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-144": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:ccrnx-145": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-146": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:ccrnx-147": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:ccrnx-149": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb-resp-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-ards"
+},
+"nb:nb-resp-02": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-pe"
+},
+"nb:nb-resp-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb-resp-04": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-resp-05": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb-resp-06": {
+"refs": [
+"cdc-tb",
+"cdc-immunization",
+"openstax-medsurg"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb-cv-01": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb-cv-02": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-postpci"
+},
+"nb:nb-cv-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:nb-cv-04": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb-cv-06": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-inflammatory"
+},
+"nb:nb-cv-07": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb-gi-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-pancreatitis"
+},
+"nb:nb-gi-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-pud"
+},
+"nb:nb-gi-04": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb-gi-05": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb-gi-06": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-appendicitis"
+},
+"nb:nb-gi-07": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-gallbladder"
+},
+"nb:nb-endo-02": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-endo-03": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "heme-ra"
+},
+"nb:nb-endo-04": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-siadh"
+},
+"nb:nb-endo-05": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-endo-07": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-pheo"
+},
+"nb:nb-renal-01": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gu-aki"
+},
+"nb:nb-renal-02": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-renal-03": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-renal-04": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-renal-05": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-renal-06": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-renal-07": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gu-bph"
+},
+"nb:nb-neuro-01": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:nb-neuro-02": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-icp"
+},
+"nb:nb-neuro-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb-neuro-04": {
+"refs": [
+"cdc-isolation",
+"openstax-medsurg"
+],
+"bookSection": "neuro-meningitis"
+},
+"nb:nb-neuro-05": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-mg"
+},
+"nb:nb-neuro-06": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb-heme-02": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-heme-03": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "heme-sickle"
+},
+"nb:nb-heme-04": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-hemophilia"
+},
+"nb:nb-heme-05": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+],
+"bookSection": "heme-dic"
+},
+"nb:nb-heme-07": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-lupus"
+},
+"nb:nb-integ-02": {
+"refs": [
+"aba-abls",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb-integ-03": {
+"refs": [
+"npiap",
+"openstax-medsurg"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb-integ-04": {
+"refs": [
+"cdc-isolation",
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb-integ-05": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-integ-06": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb-msk-01": {
+"refs": [
+"aha-resuscitation",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb-msk-02": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb-msk-03": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb-msk-05": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb-msk-06": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb-msk-07": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb-fe-04": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb-fe-05": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb-fe-06": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb-fe-07": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:ob-01": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:ob-04": {
+"refs": [
+"ismp-highalert",
+"medline-pregnancy",
+"openstax-maternal"
+],
+"bookSection": "endo-dm"
+},
+"nb:ob-05": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:ob-07": {
+"refs": [
+"acog-preeclampsia",
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:ob-08": {
+"refs": [
+"acog-preeclampsia",
+"ismp-highalert",
+"openstax-maternal"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:ob-10": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:ob-11": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-13": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-14": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "msk-fractures"
+},
+"nb:ob-15": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "msk-fractures"
+},
+"nb:ob-17": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-18": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-19": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-20": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-22": {
+"refs": [
+"openstax-maternal",
+"dailymed"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:ob-23": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:ob-24": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:ob-25": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:ob-26": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-27": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-29": {
+"refs": [
+"cdc-immunization",
+"openstax-maternal"
+]
+},
+"nb:ob-30": {
+"refs": [
+"aap-neonatal-glucose",
+"medline-pregnancy",
+"openstax-maternal"
+],
+"bookSection": "endo-dm"
+},
+"nb:ob-31": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-32": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-33": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:ob-34": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-maternal"
+]
+},
+"nb:ob-35": {
+"refs": [
+"aap-safesleep",
+"openstax-maternal"
+]
+},
+"nb:psy-01": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:psy-02": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-03": {
+"refs": [
+"lifeline-988",
+"samhsa",
+"openstax-psych"
+]
+},
+"nb:psy-09": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:psy-10": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:psy-11": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:psy-14": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-15": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-17": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-18": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-19": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-20": {
+"refs": [
+"samhsa",
+"openstax-psych"
+]
+},
+"nb:psy-21": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:psy-24": {
+"refs": [
+"ismp-highalert",
+"openstax-psych"
+]
+},
+"nb:psy-25": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-26": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-27": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-28": {
+"refs": [
+"openstax-psych"
+],
+"bookSection": "msk-fractures"
+},
+"nb:psy-29": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-30": {
+"refs": [
+"tjc-npsg",
+"openstax-psych"
+],
+"bookSection": "msk-spinal"
+},
+"nb:psy-31": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-32": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-33": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-34": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:psy-35": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:peds-01": {
+"refs": [
+"ana-ethics",
+"medline-children"
+]
+},
+"nb:peds-02": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-03": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-04": {
+"refs": [
+"cdc-immunization",
+"medline-children",
+"dailymed"
+]
+},
+"nb:peds-05": {
+"refs": [
+"cdc-immunization",
+"ismp-highalert",
+"medline-children"
+]
+},
+"nb:peds-06": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-07": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-11": {
+"refs": [
+"aap-bronchiolitis",
+"cdc-isolation",
+"medline-children"
+]
+},
+"nb:peds-12": {
+"refs": [
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:peds-13": {
+"refs": [
+"medline-children"
+],
+"bookSection": "resp-asthma"
+},
+"nb:peds-15": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-16": {
+"refs": [
+"ismp-highalert",
+"medline-children"
+]
+},
+"nb:peds-18": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-19": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-20": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-21": {
+"refs": [
+"medline-children"
+],
+"bookSection": "gi-appendicitis"
+},
+"nb:peds-22": {
+"refs": [
+"medline-children"
+],
+"bookSection": "gu-gn"
+},
+"nb:peds-23": {
+"refs": [
+"medline-children"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:peds-24": {
+"refs": [
+"cdc-isolation",
+"medline-children"
+],
+"bookSection": "neuro-meningitis"
+},
+"nb:peds-25": {
+"refs": [
+"medline-children"
+],
+"bookSection": "neuro-icp"
+},
+"nb:peds-26": {
+"refs": [
+"ismp-highalert",
+"medline-children"
+],
+"bookSection": "heme-sickle"
+},
+"nb:peds-27": {
+"refs": [
+"medline-children",
+"dailymed"
+],
+"bookSection": "heme-hemophilia"
+},
+"nb:peds-28": {
+"refs": [
+"cdc-handhygiene",
+"medline-children"
+],
+"bookSection": "heme-leukemia"
+},
+"nb:peds-29": {
+"refs": [
+"cdc-isolation",
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:peds-30": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-31": {
+"refs": [
+"aba-abls",
+"medline-children"
+],
+"bookSection": "integ-burns"
+},
+"nb:peds-32": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:peds-33": {
+"refs": [
+"ana-ethics",
+"lifeline-988",
+"medline-children"
+]
+},
+"nb:peds-34": {
+"refs": [
+"medline-children"
+]
+},
+"nb:peds-35": {
+"refs": [
+"medline-children"
+]
+},
+"nb:lead-01": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-02": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-03": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-04": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-05": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-06": {
+"refs": [
+"ncsbn-delegation",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:lead-07": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-08": {
+"refs": [
+"ana-ethics",
+"ncsbn-delegation"
+]
+},
+"nb:lead-09": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-10": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-11": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-12": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-13": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-14": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:lead-15": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:safe-01": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:safe-02": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:safe-03": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:safe-04": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-fund"
+],
+"bookSection": "resp-tb"
+},
+"nb:safe-05": {
+"refs": [
+"cdc-isolation",
+"openstax-fund"
+],
+"bookSection": "neuro-meningitis"
+},
+"nb:safe-06": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:safe-07": {
+"refs": [
+"ncsbn-delegation",
+"tjc-npsg",
+"openstax-fund"
+],
+"bookSection": "msk-spinal"
+},
+"nb:safe-08": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:safe-09": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:safe-10": {
+"refs": [
+"tjc-npsg",
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:safe-11": {
+"refs": [
+"openstax-fund",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:safe-12": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:safe-13": {
+"refs": [
+"npiap",
+"openstax-fund"
+],
+"bookSection": "integ-pressure"
+},
+"nb:safe-14": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:safe-15": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:pharm-06": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:pharm-08": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:eth-01": {
+"refs": [
+"ana-ethics",
+"dailymed"
+]
+},
+"nb:eth-02": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:eth-03": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:eth-04": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:eth-05": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:u2-moca-001": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-moca-002": {
+"refs": [
+"medline-children"
+]
+},
+"nb:u2-moca-003": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-004": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-005": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-006": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-007": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-008": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:u2-moca-009": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "cardio-hf"
+},
+"nb:u2-moca-010": {
+"refs": [
+"ismp-highalert",
+"ana-ethics",
+"dailymed"
+],
+"bookSection": "gi-gallbladder"
+},
+"nb:u2-moca-011": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:u2-moca-012": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-moca-013": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:u2-moca-014": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:u2-moca-015": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+],
+"bookSection": "msk-spinal"
+},
+"nb:u2-moca-016": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:u2-moca-017": {
+"refs": [
+"ana-ethics",
+"openstax-medsurg"
+]
+},
+"nb:u2-moca-018": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:u2-moca-019": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:u2-moca-020": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-moca-021": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:u2-moca-022": {
+"refs": [
+"aba-abls",
+"cdc-tb",
+"ana-ethics"
+]
+},
+"nb:u2-moca-023": {
+"refs": [
+"ana-ethics",
+"dailymed"
+]
+},
+"nb:u2-moca-024": {
+"refs": [
+"medline-pregnancy",
+"ana-ethics"
+]
+},
+"nb:u2-moca-025": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-moca-026": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:u2-moca-027": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-pe"
+},
+"nb:u2-moca-028": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-029": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:u2-moca-030": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:u2-moca-031": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-moca-032": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:u2-moca-033": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-moca-034": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-moca-035": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-mocb-001": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-002": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-003": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-004": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-005": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-006": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-007": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-008": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-009": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:u2-mocb-010": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:u2-mocb-011": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:u2-mocb-012": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:u2-mocb-013": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:u2-mocb-014": {
+"refs": [
+"ismp-highalert",
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:u2-mocb-015": {
+"refs": [
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:u2-mocb-016": {
+"refs": [
+"ncsbn-delegation",
+"openstax-medsurg"
+]
+},
+"nb:u2-mocb-017": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-018": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-mocb-019": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:u2-mocb-020": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:u2-mocb-021": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-022": {
+"refs": [
+"ncsbn-delegation",
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:u2-mocb-023": {
+"refs": [
+"ncsbn-delegation",
+"dailymed"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:u2-mocb-024": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-025": {
+"refs": [
+"ncsbn-delegation",
+"dailymed"
+]
+},
+"nb:u2-mocb-026": {
+"refs": [
+"ncsbn-delegation",
+"ismp-highalert",
+"dailymed"
+],
+"bookSection": "resp-copd"
+},
+"nb:u2-mocb-027": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:u2-mocb-028": {
+"refs": [
+"ismp-highalert",
+"openstax-fund"
+],
+"bookSection": "endo-dm"
+},
+"nb:u2-mocb-029": {
+"refs": [
+"ismp-highalert",
+"openstax-fund"
+]
+},
+"nb:u2-mocb-030": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:u2-mocb-031": {
+"refs": [
+"lifeline-988",
+"ana-ethics"
+]
+},
+"nb:u2-mocb-032": {
+"refs": [
+"tjc-npsg",
+"openstax-fund",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:u2-mocb-033": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+],
+"bookSection": "msk-spinal"
+},
+"nb:u2-mocb-034": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-mocb-035": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:u2-safe-001": {
+"refs": [
+"cdc-isolation",
+"ana-ethics",
+"openstax-medsurg"
+],
+"bookSection": "integ-skin"
+},
+"nb:u2-safe-002": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-003": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-004": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-005": {
+"refs": [
+"cdc-isolation",
+"cdc-immunization",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-006": {
+"refs": [
+"cdc-isolation",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-007": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:u2-safe-008": {
+"refs": [
+"tjc-npsg",
+"openstax-fund",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:u2-safe-009": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:u2-safe-010": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:u2-safe-011": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-012": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-013": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-014": {
+"refs": [
+"cdc-isolation",
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-015": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-016": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-017": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-018": {
+"refs": [
+"medline-children"
+]
+},
+"nb:u2-safe-019": {
+"refs": [
+"ismp-highalert",
+"openstax-fund",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:u2-safe-020": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-021": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-022": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-023": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-safe-024": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-medsurg"
+]
+},
+"nb:u2-safe-025": {
+"refs": [
+"cdc-isolation",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-psy-001": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:u2-psy-002": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:u2-psy-003": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-psy-004": {
+"refs": [
+"samhsa",
+"openstax-psych"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:u2-hpm-001": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-002": {
+"refs": [
+"medline-children"
+]
+},
+"nb:u2-hpm-003": {
+"refs": [
+"ana-ethics",
+"medline-children"
+]
+},
+"nb:u2-hpm-004": {
+"refs": [
+"cdc-immunization",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-hpm-005": {
+"refs": [
+"cdc-immunization",
+"medline-pregnancy",
+"openstax-medsurg"
+]
+},
+"nb:u2-hpm-006": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-hpm-007": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-008": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-009": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-010": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-011": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-012": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:u2-hpm-013": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-014": {
+"refs": [
+"aap-safesleep",
+"medline-children"
+]
+},
+"nb:u2-hpm-015": {
+"refs": [
+"medline-children"
+]
+},
+"nb:u2-hpm-016": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-017": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:u2-hpm-018": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-hpm-019": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-hpm-020": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-hpm-021": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:u2-hpm-022": {
+"refs": [
+"medline-children"
+]
+},
+"nb:u2-hpm-023": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-hpm-024": {
+"refs": [
+"cdc-immunization",
+"medline-pregnancy",
+"openstax-medsurg"
+]
+},
+"nb:u2-hpm-025": {
+"refs": [
+"tjc-npsg",
+"openstax-medsurg"
+],
+"bookSection": "msk-bone"
+},
+"nb:u2-basic-001": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-bone"
+},
+"nb:u2-basic-002": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:u2-basic-003": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-004": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gu-incontinence"
+},
+"nb:u2-basic-005": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-006": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-007": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-008": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-009": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:u2-basic-010": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-crohn"
+},
+"nb:u2-basic-011": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-012": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-basic-013": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-014": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "msk-spinal"
+},
+"nb:u2-basic-015": {
+"refs": [
+"medline-children"
+]
+},
+"nb:u2-basic-016": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:u2-basic-017": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-basic-018": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-basic-019": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:u2-basic-020": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:u2-basic-021": {
+"refs": [
+"ismp-highalert",
+"openstax-fund"
+]
+},
+"nb:u2-basic-022": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-023": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gu-uti"
+},
+"nb:u2-basic-024": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:u2-basic-025": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:u2-basic-026": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-027": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:u2-basic-028": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-basic-029": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:u2-basic-030": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-basic-031": {
+"refs": [
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-032": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-basic-033": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-001": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-002": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-003": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:u2-rrp-004": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-005": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-006": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-007": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-008": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-rrp-009": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-rrp-010": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-011": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-rrp-012": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:u2-rrp-013": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:u2-rrp-014": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-015": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:u2-rrp-016": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-occlusion"
+},
+"nb:u2-rrp-017": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-018": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-019": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-020": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-021": {
+"refs": [
+"cdc-handhygiene",
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:u2-rrp-022": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-023": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:u2-rrp-024": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:u2-rrp-025": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:u2-rrp-026": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:u2-rrp-027": {
+"refs": [
+"ana-ethics",
+"openstax-fund"
+]
+},
+"nb:u2-rrp-028": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:u2-rrp-029": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-postpci"
+},
+"nb:nb26-resp-001": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-asthma"
+},
+"nb:nb26-resp-004": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-resp-005": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-resp-006": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-resp-007": {
+"refs": [
+"openstax-pharm"
+],
+"bookSection": "endo-addison"
+},
+"nb:nb26-resp-008": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-resp-010": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-resp-011": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-resp-012": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-resp-013": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-asthma"
+},
+"nb:nb26-resp-014": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-resp-015": {
+"refs": [
+"ags-beers",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "gu-bph"
+},
+"nb:nb26-resp-017": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-018": {
+"refs": [
+"ismp-highalert",
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-resp-019": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-020": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-022": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-resp-023": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-024": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-resp-025": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-026": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-027": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-029": {
+"refs": [
+"cdc-tb",
+"ismp-highalert",
+"openstax-pharm"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-030": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-031": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-medsurg"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-032": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-medsurg"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-033": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-035": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "heme-anaphylaxis"
+},
+"nb:nb26-resp-036": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-resp-037": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-resp-038": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-resp-043": {
+"refs": [
+"medline-children"
+],
+"bookSection": "resp-asthma"
+},
+"nb:nb26-resp-044": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-asthma"
+},
+"nb:nb26-resp-045": {
+"refs": [
+"cdc-immunization",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-046": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-resp-047": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-048": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-resp-050": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-resp-051": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-resp-052": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-resp-054": {
+"refs": [
+"lifeline-988",
+"medline-children",
+"dailymed"
+],
+"bookSection": "resp-asthma"
+},
+"nb:nb26-resp-057": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-resp-059": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-001": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-002": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:nb26-pain-004": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-005": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-006": {
+"refs": [
+"samhsa",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-007": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-008": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:nb26-pain-009": {
+"refs": [
+"cdc-tb",
+"samhsa",
+"openstax-pharm"
+]
+},
+"nb:nb26-pain-010": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb26-pain-012": {
+"refs": [
+"ismp-highalert",
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:nb26-pain-013": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-014": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb26-pain-015": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-pain-016": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-pain-018": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-pain-020": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-022": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb26-pain-026": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb26-pain-028": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg"
+]
+},
+"nb:nb26-pain-030": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:nb26-pain-032": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-pain-033": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-pain-034": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-pain-035": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-pain-036": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-pain-037": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-pain-038": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-pain-039": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:nb26-pain-040": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-pain-041": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-043": {
+"refs": [
+"ismp-highalert",
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:nb26-pain-047": {
+"refs": [
+"ismp-highalert",
+"ags-beers",
+"openstax-fund"
+]
+},
+"nb:nb26-pain-048": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb26-pain-049": {
+"refs": [
+"cdc-tb",
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:nb26-pain-050": {
+"refs": [
+"aha-resuscitation",
+"openstax-pharm"
+]
+},
+"nb:nb26-pain-051": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-pain-052": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-pain-053": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-pain-059": {
+"refs": [
+"npiap",
+"openstax-fund"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-pain-060": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-001": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-infx-005": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-006": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-infx-007": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb26-infx-011": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-infx-012": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-infx-015": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-016": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-infx-017": {
+"refs": [
+"medline-pregnancy",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-020": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-infx-021": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-023": {
+"refs": [
+"cdc-isolation",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-024": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:nb26-infx-025": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:nb26-infx-028": {
+"refs": [
+"openstax-pharm"
+],
+"bookSection": "gu-uti"
+},
+"nb:nb26-infx-029": {
+"refs": [
+"cdc-isolation",
+"openstax-pharm"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-infx-030": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-031": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-infx-034": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "neuro-encephalitis"
+},
+"nb:nb26-infx-035": {
+"refs": [
+"cdc-immunization",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-infx-037": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-infx-038": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-infx-040": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-infx-041": {
+"refs": [
+"cdc-immunization",
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-infx-042": {
+"refs": [
+"cdc-immunization",
+"openstax-medsurg"
+]
+},
+"nb:nb26-infx-043": {
+"refs": [
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:nb26-infx-044": {
+"refs": [
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:nb26-infx-045": {
+"refs": [
+"cdc-immunization",
+"medline-pregnancy",
+"openstax-medsurg"
+]
+},
+"nb:nb26-infx-046": {
+"refs": [
+"cdc-immunization",
+"openstax-medsurg"
+]
+},
+"nb:nb26-infx-047": {
+"refs": [
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:nb26-infx-048": {
+"refs": [
+"cdc-isolation",
+"openstax-medsurg"
+],
+"bookSection": "neuro-meningitis"
+},
+"nb:nb26-infx-049": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-medsurg"
+]
+},
+"nb:nb26-infx-050": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-medsurg"
+]
+},
+"nb:nb26-infx-051": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:nb26-infx-052": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:nb26-infx-053": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-infx-054": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-infx-060": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-card-001": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-002": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-003": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-004": {
+"refs": [
+"medline-pregnancy",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-005": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-card-007": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-008": {
+"refs": [
+"cdc-tb",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-card-010": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "cardio-acs"
+},
+"nb:nb26-card-011": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-014": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-card-015": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-017": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-018": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-020": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-card-021": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-022": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-acs"
+},
+"nb:nb26-card-024": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-pe"
+},
+"nb:nb26-card-025": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-028": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:nb26-card-030": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-032": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-033": {
+"refs": [
+"openstax-pharm"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-card-036": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-card-037": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-card-038": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-card-039": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-card-040": {
+"refs": [
+"aha-resuscitation",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-041": {
+"refs": [
+"aha-resuscitation",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-042": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-043": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-045": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-046": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-htn"
+},
+"nb:nb26-card-047": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-card-048": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-card-049": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-card-055": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-card-056": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-card-057": {
+"refs": [
+"ncsbn-delegation",
+"openstax-medsurg"
+]
+},
+"nb:nb26-card-058": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-card-059": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-card-060": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-acs"
+},
+"nb:nb26-endo-001": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-002": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-003": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-005": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-006": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-007": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-008": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-009": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-010": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-011": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-012": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-013": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-014": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-015": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-017": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-018": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-019": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-020": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-021": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-endo-022": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-endo-024": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-028": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-endo-030": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-endo-034": {
+"refs": [
+"medline-pregnancy",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-hyperthyroid"
+},
+"nb:nb26-endo-036": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-hyperthyroid"
+},
+"nb:nb26-endo-037": {
+"refs": [
+"medline-pregnancy",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-hyperthyroid"
+},
+"nb:nb26-endo-038": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-hypothyroid"
+},
+"nb:nb26-endo-039": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-041": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-addison"
+},
+"nb:nb26-endo-042": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-addison"
+},
+"nb:nb26-endo-043": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-cushing"
+},
+"nb:nb26-endo-044": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-endo-047": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-siadh"
+},
+"nb:nb26-endo-049": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-endo-050": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-endo-052": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb26-endo-054": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-057": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-058": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-endo-059": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-repr-001": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-repr-002": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-003": {
+"refs": [
+"cdc-tb",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "resp-tb"
+},
+"nb:nb26-repr-004": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-005": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-repr-006": {
+"refs": [
+"medline-pregnancy",
+"openstax-pharm"
+]
+},
+"nb:nb26-repr-007": {
+"refs": [
+"cdc-tb",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-008": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-009": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-repr-010": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-012": {
+"refs": [
+"medline-pregnancy",
+"openstax-pharm"
+]
+},
+"nb:nb26-repr-013": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-014": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal",
+"dailymed"
+],
+"bookSection": "heme-anaphylaxis"
+},
+"nb:nb26-repr-015": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-repr-016": {
+"refs": [
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:nb26-repr-017": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+],
+"bookSection": "heme-ida"
+},
+"nb:nb26-repr-018": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:nb26-repr-019": {
+"refs": [
+"medline-pregnancy",
+"medline-children"
+]
+},
+"nb:nb26-repr-020": {
+"refs": [
+"acog-preeclampsia",
+"ismp-highalert",
+"openstax-maternal"
+]
+},
+"nb:nb26-repr-021": {
+"refs": [
+"acog-preeclampsia",
+"ismp-highalert",
+"openstax-maternal"
+]
+},
+"nb:nb26-repr-024": {
+"refs": [
+"sepsis-2021",
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:nb26-repr-025": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-repr-028": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-repr-032": {
+"refs": [
+"ismp-highalert",
+"medline-pregnancy",
+"openstax-maternal"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-repr-033": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:nb26-repr-035": {
+"refs": [
+"openstax-maternal",
+"dailymed"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-repr-036": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:nb26-repr-037": {
+"refs": [
+"openstax-maternal",
+"dailymed"
+],
+"bookSection": "heme-anaphylaxis"
+},
+"nb:nb26-repr-038": {
+"refs": [
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:nb26-repr-039": {
+"refs": [
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:nb26-repr-040": {
+"refs": [
+"cdc-handhygiene",
+"openstax-maternal",
+"dailymed"
+]
+},
+"nb:nb26-repr-041": {
+"refs": [
+"cdc-immunization",
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:nb26-repr-043": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-repr-046": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-acs"
+},
+"nb:nb26-repr-047": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-repr-048": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gu-bph"
+},
+"nb:nb26-repr-049": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-repr-050": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-repr-051": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-repr-052": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gu-uti"
+},
+"nb:nb26-repr-054": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gu-incontinence"
+},
+"nb:nb26-repr-058": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-neps-001": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-002": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-003": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-004": {
+"refs": [
+"tjc-npsg",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-neps-006": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-007": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-neps-008": {
+"refs": [
+"openstax-pharm"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-012": {
+"refs": [
+"lifeline-988",
+"openstax-medsurg"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-013": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-neps-014": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-015": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-neps-016": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-parkinson"
+},
+"nb:nb26-neps-019": {
+"refs": [
+"samhsa",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-parkinson"
+},
+"nb:nb26-neps-021": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-mg"
+},
+"nb:nb26-neps-023": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-psych"
+]
+},
+"nb:nb26-neps-024": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-neps-025": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-026": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-neps-029": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-neps-030": {
+"refs": [
+"lifeline-988",
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-031": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-032": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-033": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-034": {
+"refs": [
+"lifeline-988",
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-035": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-036": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-037": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-039": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-040": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-041": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-043": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-044": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-045": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-046": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm"
+]
+},
+"nb:nb26-neps-047": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-neps-050": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-ms"
+},
+"nb:nb26-neps-051": {
+"refs": [
+"samhsa",
+"ags-beers",
+"openstax-psych"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb26-neps-052": {
+"refs": [
+"samhsa",
+"openstax-psych"
+]
+},
+"nb:nb26-neps-053": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-psych"
+]
+},
+"nb:nb26-neps-054": {
+"refs": [
+"samhsa",
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-055": {
+"refs": [
+"samhsa",
+"ismp-highalert",
+"openstax-psych"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-neps-057": {
+"refs": [
+"openstax-psych",
+"dailymed"
+]
+},
+"nb:nb26-neps-058": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-059": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-neps-060": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-gios-001": {
+"refs": [
+"cdc-isolation",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "gi-gerd"
+},
+"nb:nb26-gios-004": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-005": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-007": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-gios-008": {
+"refs": [
+"aba-abls",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-gios-009": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-010": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-011": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb26-gios-013": {
+"refs": [
+"cdc-isolation",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-015": {
+"refs": [
+"cdc-tb",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-crohn"
+},
+"nb:nb26-gios-016": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-gios-017": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb26-gios-018": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb26-gios-019": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-020": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-021": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-024": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-025": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-027": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-gios-028": {
+"refs": [
+"openstax-pharm"
+]
+},
+"nb:nb26-gios-029": {
+"refs": [
+"sepsis-2021",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-030": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-031": {
+"refs": [
+"lifeline-988",
+"medline-pregnancy",
+"openstax-pharm"
+]
+},
+"nb:nb26-gios-032": {
+"refs": [
+"lifeline-988",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-gios-033": {
+"refs": [
+"aba-abls",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-gios-034": {
+"refs": [
+"aba-abls",
+"medline-pregnancy",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-gios-035": {
+"refs": [
+"sepsis-2021",
+"aba-abls",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-gios-036": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-gios-037": {
+"refs": [
+"npiap",
+"openstax-medsurg"
+]
+},
+"nb:nb26-gios-038": {
+"refs": [
+"npiap",
+"openstax-medsurg"
+],
+"bookSection": "cardio-occlusion"
+},
+"nb:nb26-gios-039": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-040": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-041": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-gios-042": {
+"refs": [
+"cdc-handhygiene",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "heme-leukemia"
+},
+"nb:nb26-gios-043": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-gios-044": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-gios-046": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "heme-leukemia"
+},
+"nb:nb26-gios-047": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-gios-048": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-049": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "heme-ida"
+},
+"nb:nb26-gios-050": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-052": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-gios-054": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-gios-055": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "heme-sickle"
+},
+"nb:nb26-gios-056": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-sickle"
+},
+"nb:nb26-gios-057": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-calc-004": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-006": {
+"refs": [
+"medline-children",
+"dailymed"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-calc-008": {
+"refs": [
+"ismp-highalert",
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-calc-016": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-017": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-calc-018": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-019": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-020": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-calc-022": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-024": {
+"refs": [
+"ismp-highalert",
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-025": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-026": {
+"refs": [
+"openstax-pharm",
+"dailymed"
+]
+},
+"nb:nb26-calc-027": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-028": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-029": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-calc-031": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-032": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-033": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-034": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-035": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-calc-036": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-037": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-038": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-hypopara"
+},
+"nb:nb26-calc-039": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-040": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-041": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-042": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-043": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-calc-044": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-calc-045": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-046": {
+"refs": [
+"aba-abls",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-047": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-calc-048": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-049": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-050": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-051": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-052": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-053": {
+"refs": [
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-054": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-055": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-056": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-057": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+]
+},
+"nb:nb26-calc-058": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-calc-059": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:nb26-calc-060": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-core-001": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:nb26-core-002": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-003": {
+"refs": [
+"tjc-npsg",
+"openstax-fund",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-core-004": {
+"refs": [
+"tjc-npsg",
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:nb26-core-005": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-006": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-007": {
+"refs": [
+"medline-pregnancy",
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-008": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-009": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-fund"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-core-010": {
+"refs": [
+"cdc-isolation",
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-011": {
+"refs": [
+"tjc-npsg",
+"openstax-fund",
+"dailymed"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-core-012": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-013": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-core-014": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-015": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-016": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-core-017": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-018": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-019": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-020": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-021": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-022": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb26-core-023": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-core-024": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-025": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-026": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:nb26-core-027": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-core-028": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-core-029": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-core-030": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-acs"
+},
+"nb:nb26-core-031": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-core-032": {
+"refs": [
+"cdc-immunization",
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:nb26-core-033": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-core-034": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-core-035": {
+"refs": [
+"npiap",
+"openstax-fund"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-core-036": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-core-037": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-core-038": {
+"refs": [
+"ismp-highalert",
+"openstax-fund"
+]
+},
+"nb:nb26-core-039": {
+"refs": [
+"openstax-psych"
+],
+"bookSection": "cardio-acs"
+},
+"nb:nb26-core-040": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-core-041": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-core-042": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-043": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-core-044": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-core-045": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-core-046": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-core-047": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-core-048": {
+"refs": [
+"ncsbn-boundaries",
+"ana-ethics"
+]
+},
+"nb:nb26-core-049": {
+"refs": [
+"ncsbn-delegation",
+"dailymed"
+]
+},
+"nb:nb26-core-050": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-core-051": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-core-052": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-core-053": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-core-054": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-core-055": {
+"refs": [
+"aba-abls",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-core-056": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-core-057": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+],
+"bookSection": "gu-uti"
+},
+"nb:nb26-core-058": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-core-059": {
+"refs": [
+"aba-abls",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-core-060": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-moca-001": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-002": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-003": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-moca-004": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-moca-005": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-moca-006": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-007": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-moca-008": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-009": {
+"refs": [
+"ncsbn-delegation",
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-moca-010": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-011": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-012": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-013": {
+"refs": [
+"ncsbn-delegation",
+"openstax-fund"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-moca-014": {
+"refs": [
+"ncsbn-delegation",
+"medline-children"
+]
+},
+"nb:nb26-moca-015": {
+"refs": [
+"aha-resuscitation",
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-016": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-017": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-018": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-019": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-moca-020": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-021": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-022": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-moca-023": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-024": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-025": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-moca-026": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-moca-027": {
+"refs": [
+"medline-children"
+],
+"bookSection": "heme-transfusion"
+},
+"nb:nb26-moca-028": {
+"refs": [
+"ana-ethics",
+"dailymed"
+]
+},
+"nb:nb26-moca-029": {
+"refs": [
+"ncsbn-boundaries",
+"ana-ethics"
+]
+},
+"nb:nb26-moca-030": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-031": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-moca-032": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-033": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-034": {
+"refs": [
+"npiap",
+"ana-ethics"
+],
+"bookSection": "integ-pressure"
+},
+"nb:nb26-moca-035": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-moca-036": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-moca-037": {
+"refs": [
+"medline-children",
+"dailymed"
+]
+},
+"nb:nb26-moca-038": {
+"refs": [
+"ana-ethics",
+"dailymed"
+]
+},
+"nb:nb26-moca-039": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-040": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-041": {
+"refs": [
+"ncsbn-delegation"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-moca-042": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-043": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-moca-044": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-moca-045": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-001": {
+"refs": [
+"ncsbn-delegation"
+],
+"bookSection": "resp-copd"
+},
+"nb:nb26-mocb-002": {
+"refs": [
+"ncsbn-delegation"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-mocb-003": {
+"refs": [
+"ncsbn-delegation"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:nb26-mocb-004": {
+"refs": [
+"ncsbn-delegation"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-mocb-005": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "cardio-hf"
+},
+"nb:nb26-mocb-006": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-007": {
+"refs": [
+"ncsbn-delegation"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-mocb-008": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-009": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-010": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-011": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-012": {
+"refs": [
+"ana-ethics",
+"ags-beers"
+]
+},
+"nb:nb26-mocb-013": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-014": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-015": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-016": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg"
+]
+},
+"nb:nb26-mocb-017": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-018": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-019": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-020": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-021": {
+"refs": [
+"cdc-tb",
+"cdc-isolation",
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-022": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-023": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-024": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-025": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-026": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-027": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-mocb-028": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-029": {
+"refs": [
+"aha-resuscitation",
+"openstax-medsurg"
+]
+},
+"nb:nb26-mocb-030": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-mocb-031": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-032": {
+"refs": [
+"cdc-isolation",
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-033": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-034": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-035": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-036": {
+"refs": [
+"ncsbn-delegation"
+]
+},
+"nb:nb26-mocb-037": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-038": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-039": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-040": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-041": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-042": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-043": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-mocb-044": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-mocb-045": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-psyc-001": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-psyc-002": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-003": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-004": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-005": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-006": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-007": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-008": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-009": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-010": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-011": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-012": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-013": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-014": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-015": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-016": {
+"refs": [
+"lifeline-988",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-017": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-018": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-019": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-020": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-021": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-psyc-022": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-023": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-024": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-025": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+]
+},
+"nb:nb26-psyc-026": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-psyc-027": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-psyc-028": {
+"refs": [
+"cdc-immunization",
+"medline-children"
+]
+},
+"nb:nb26-psyc-029": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-030": {
+"refs": [
+"ana-ethics"
+]
+},
+"nb:nb26-psyc-031": {
+"refs": [
+"ana-ethics"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-psyc-032": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-psyc-033": {
+"refs": [
+"samhsa",
+"medline-children"
+]
+},
+"nb:nb26-psyc-034": {
+"refs": [
+"samhsa",
+"medline-children"
+]
+},
+"nb:nb26-psyc-035": {
+"refs": [
+"ana-ethics",
+"samhsa",
+"medline-children"
+]
+},
+"nb:nb26-psyc-036": {
+"refs": [
+"tjc-npsg",
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-037": {
+"refs": [
+"tjc-npsg",
+"openstax-psych"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-psyc-038": {
+"refs": [
+"cdc-isolation",
+"openstax-fund"
+]
+},
+"nb:nb26-psyc-039": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-psyc-040": {
+"refs": [
+"lifeline-988",
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-psyc-041": {
+"refs": [
+"openstax-psych"
+]
+},
+"nb:nb26-psyc-042": {
+"refs": [
+"ana-ethics",
+"openstax-psych"
+]
+},
+"nb:nb26-sabc-001": {
+"refs": [
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-002": {
+"refs": [
+"cdc-handhygiene",
+"ncsbn-delegation",
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-003": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-004": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-sabc-005": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-006": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-sabc-007": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-008": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-sabc-009": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-sabc-010": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-sabc-011": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-012": {
+"refs": [
+"cdc-isolation",
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-013": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-014": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-sabc-015": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-016": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-017": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-018": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-019": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-020": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-021": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-seizures"
+},
+"nb:nb26-sabc-022": {
+"refs": [
+"ncsbn-delegation",
+"lifeline-988",
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-023": {
+"refs": [
+"aap-bronchiolitis",
+"cdc-isolation",
+"medline-children"
+]
+},
+"nb:nb26-sabc-024": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-025": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-026": {
+"refs": [
+"tjc-npsg",
+"openstax-fund"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-sabc-027": {
+"refs": [
+"cdc-handhygiene",
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-028": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-bone"
+},
+"nb:nb26-sabc-029": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-030": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:nb26-sabc-031": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gu-incontinence"
+},
+"nb:nb26-sabc-032": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-033": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-034": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-035": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-036": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-spinal"
+},
+"nb:nb26-sabc-037": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-038": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-sabc-039": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-040": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-alzheimer"
+},
+"nb:nb26-sabc-041": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-042": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-sabc-043": {
+"refs": [
+"npiap",
+"openstax-medsurg"
+],
+"bookSection": "integ-pressure"
+},
+"nb:nb26-sabc-044": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-045": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-046": {
+"refs": [
+"npiap",
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-047": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-sabc-048": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-049": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-sabc-050": {
+"refs": [
+"cdc-handhygiene",
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-001": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "cardio-postpci"
+},
+"nb:nb26-rhpa-002": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-003": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-effusion"
+},
+"nb:nb26-rhpa-004": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "gi-cirrhosis"
+},
+"nb:nb26-rhpa-005": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-006": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-rhpa-007": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-008": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-009": {
+"refs": [
+"openstax-fund",
+"dailymed"
+]
+},
+"nb:nb26-rhpa-010": {
+"refs": [
+"openstax-fund"
+],
+"bookSection": "resp-pneumonia"
+},
+"nb:nb26-rhpa-011": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-012": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-rhpa-013": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-014": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "resp-pneumothorax"
+},
+"nb:nb26-rhpa-015": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-016": {
+"refs": [
+"cdc-handhygiene",
+"openstax-fund"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-rhpa-017": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-018": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-rhpa-019": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-rhpa-020": {
+"refs": [
+"medline-pregnancy",
+"openstax-maternal"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-rhpa-021": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-rhpa-022": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-rhpa-023": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-rhpa-024": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-rhpa-025": {
+"refs": [
+"openstax-maternal"
+],
+"bookSection": "neuro-stroke"
+},
+"nb:nb26-rhpa-026": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-rhpa-027": {
+"refs": [
+"openstax-maternal"
+]
+},
+"nb:nb26-rhpa-028": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-rhpa-029": {
+"refs": [
+"medline-children"
+],
+"bookSection": "msk-osteomyelitis"
+},
+"nb:nb26-rhpa-030": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-rhpa-031": {
+"refs": [
+"medline-children"
+]
+},
+"nb:nb26-rhpa-032": {
+"refs": [
+"openstax-fund"
+]
+},
+"nb:nb26-rhpa-033": {
+"refs": [
+"cdc-immunization",
+"openstax-fund"
+],
+"bookSection": "integ-skin"
+},
+"nb:nb26-rhpa-034": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-rhpa-035": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-036": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"nb:nb26-rhpa-037": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:nb26-rhpa-038": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-tbi"
+},
+"nb:nb26-rhpa-039": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-040": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-041": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "neuro-gbs"
+},
+"nb:nb26-rhpa-042": {
+"refs": [
+"aba-abls",
+"openstax-medsurg"
+],
+"bookSection": "integ-burns"
+},
+"nb:nb26-rhpa-043": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"nb:nb26-rhpa-044": {
+"refs": [
+"openstax-medsurg"
+],
+"bookSection": "msk-fractures"
+},
+"nb:nb26-rhpa-045": {
+"refs": [
+"openstax-medsurg"
+]
+},
+"ngn:adhf": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-hf"
+},
+"ngn:urosepsis": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"ngn:compartment": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "msk-fractures"
+},
+"ngn:postop-sepsis": {
+"refs": [
+"sepsis-2021",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"ngn:dka": {
+"refs": [
+"aha-resuscitation",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "endo-dm"
+},
+"ngn:pph": {
+"refs": [
+"sepsis-2021",
+"acog-preeclampsia",
+"openstax-medsurg"
+],
+"bookSection": "neuro-stroke"
+},
+"ngn:peds-asthma": {
+"refs": [
+"acog-preeclampsia",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "resp-asthma"
+},
+"ngn:stroke": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-stroke"
+},
+"ngn:book-pe": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-pe"
+},
+"ngn:book-tension-ptx": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "resp-pneumothorax"
+},
+"ngn:book-stemi": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "cardio-acs"
+},
+"ngn:book-tamponade": {
+"refs": [
+"aha-resuscitation",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "cardio-tamponade"
+},
+"ngn:book-pancreatitis": {
+"refs": [
+"sepsis-2021",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "gi-pancreatitis"
+},
+"ngn:book-cirrhosis": {
+"refs": [
+"cdc-immunization",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gi-cirrhosis"
+},
+"ngn:book-siadh": {
+"refs": [
+"npiap",
+"ismp-highalert",
+"openstax-medsurg"
+],
+"bookSection": "endo-siadh"
+},
+"ngn:book-adrenal-crisis": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "endo-addison"
+},
+"ngn:book-aki": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "gu-aki"
+},
+"ngn:book-icp": {
+"refs": [
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "neuro-icp"
+},
+"ngn:book-myasthenic-crisis": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+]
+},
+"ngn:book-sickle-cell": {
+"refs": [
+"ismp-highalert",
+"openstax-medsurg",
+"dailymed"
+],
+"bookSection": "heme-sickle"
+}
+}
