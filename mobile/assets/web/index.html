@@ -957,6 +957,15 @@ html body #modal.paywall .legal-box{margin:12px 0 0}
 .tb-title svg{width:14px;height:14px}
 .tutor-books ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:13px;line-height:18px;color:#fff}
 .tb-link{font-size:13px;font-weight:700;color:#fbbf24;text-decoration:none}
+/* Meet your tutor: bio and books open with a tap */
+.tutor-more{border-top:1px solid #ffffff1f;padding-top:10px}
+.tutor-more summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:#fbbf24;padding:4px 0;min-height:32px}
+.tutor-more summary::-webkit-details-marker{display:none}
+.tutor-more summary span{flex:1}
+.tutor-more summary::after{content:'';width:9px;height:9px;border-right:2px solid #fbbf24;border-bottom:2px solid #fbbf24;transform:rotate(45deg);transition:transform .2s;margin-right:4px}
+.tutor-more[open] summary::after{transform:rotate(-135deg)}
+.tutor-more>p{margin:8px 0 10px;font-size:13px;line-height:19px;color:#fff}
+.tutor-more .tutor-books{border-top:0;padding-top:0}
 
 </style>
   <style id="nb-theme">
@@ -2196,7 +2205,7 @@ function sourcesBlock(q) {
 // Tutor card (dashboard) and the tutor intro shown at the start of a tutor session.
 let tutorCred = null;
 function tutorCard() {
-  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0]).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p>${TUTOR.bio}</p><div class="tutor-books"><p class="tb-title">${icon('book')}Books by A. Korir</p><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></section>`;
+  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0].replace('-', '\u2011')).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<details class="tutor-more"><summary><span>About A. Korir and his books</span></summary><p>${TUTOR.bio}</p><div class="tutor-books"><p class="tb-title">${icon('book')}Books by A. Korir</p><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></details></section>`;
 }
 function tutorIntro(s) {
   const topic = String(s.label || '').replace(/\s*practice$/i, '').replace(/^Mixed NCLEX$/i, 'a mix of NCLEX topics');

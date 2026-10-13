@@ -947,3 +947,12 @@ html body #modal.paywall .legal-box{margin:12px 0 0}
 .tb-title svg{width:14px;height:14px}
 .tutor-books ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:13px;line-height:18px;color:#fff}
 .tb-link{font-size:13px;font-weight:700;color:#fbbf24;text-decoration:none}
+/* Meet your tutor: bio and books open with a tap */
+.tutor-more{border-top:1px solid #ffffff1f;padding-top:10px}
+.tutor-more summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:#fbbf24;padding:4px 0;min-height:32px}
+.tutor-more summary::-webkit-details-marker{display:none}
+.tutor-more summary span{flex:1}
+.tutor-more summary::after{content:'';width:9px;height:9px;border-right:2px solid #fbbf24;border-bottom:2px solid #fbbf24;transform:rotate(45deg);transition:transform .2s;margin-right:4px}
+.tutor-more[open] summary::after{transform:rotate(-135deg)}
+.tutor-more>p{margin:8px 0 10px;font-size:13px;line-height:19px;color:#fff}
+.tutor-more .tutor-books{border-top:0;padding-top:0}
