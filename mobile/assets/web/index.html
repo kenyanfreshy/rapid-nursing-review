@@ -1334,6 +1334,7 @@ function normalizeState(saved){
   s.ui=UI_THEMES.some(t=>t[0]===saved.ui)?saved.ui:'vivid';
   s.milestones=Array.isArray(saved.milestones)?[...new Set(saved.milestones.filter(isStr))]:[];
   if(isDay(saved.lastOpen))s.lastOpen=saved.lastOpen;
+  if(Number.isFinite(saved.lastWelcome))s.lastWelcome=saved.lastWelcome;
   s.caseHistory=keep(saved.caseHistory,h=>isObj(h)&&isStr(h.caseId)&&ngnCases.some(c=>c.id===h.caseId)&&isTime(h.finished)&&Number.isFinite(h.points)&&Number.isFinite(h.max)?h:null,'caseHistory');
   if(saved.caseSession!=null){const cs=saved.caseSession,c=isObj(cs)&&ngnCases.find(x=>x.id===cs.caseId);s.caseSession=c&&Number.isInteger(cs.index)&&cs.index>=0&&cs.index<c.items.length&&isObj(cs.answers)&&isObj(cs.submitted)?cs:null;if(!s.caseSession)bad.push({kind:'caseSession',value:cs});}
   if(saved.plan!=null){s.plan=cleanPlan(saved.plan);if(!s.plan)bad.push({kind:'plan',value:saved.plan});}
@@ -1652,7 +1653,7 @@ function rationale(q, a, review = false) {
   const take = q.takeaway || q.priority;
   const takeaway = take ? `<div class="nb-note takeaway">${icon('bulb')}<div><strong>Takeaway</strong><p>${escape(take)}</p></div></div>` : '';
   const all = `<details class="nb-all"${q.type === 'matrix' ? ' open' : ''}><summary>${q.type === 'matrix' ? 'Answer key and rationales' : 'All answer explanations'}</summary>${tagLine(q)}${explanationList(q)}</details>`;
-  return `<section class="rationale">${head}${keyPts}${takeaway}${all}${q.note ? `<p class="review-note"><strong>Reviewer note:</strong> ${escape(q.note)}</p>` : ''}${sourcesBlock(q)}<div class="nb-actions">${secondary('Explain it simply', 'simplify', `data-id="${q.id}"`)}</div><div id="simple-${cssId(q.id)}"></div>${p !== m && !review ? `<p class="dialog-note">What made this one tricky? (Your reflection, optional)</p><div class="mistake-picks">${['Knowledge gap', 'Missed cue', 'Prioritization', 'Calculation'].map(x => `<button data-action="mistake" data-mistake="${x}" class="${a.mistake === x ? 'active' : ''}">${x}</button>`).join('')}</div>` : ''}</section>`;
+  return `<section class="rationale">${head}${takeaway}${all}${q.note ? `<p class="review-note"><strong>Reviewer note:</strong> ${escape(q.note)}</p>` : ''}${sourcesBlock(q)}<div class="nb-actions">${secondary('Explain it simply', 'simplify', `data-id="${q.id}"`)}</div><div id="simple-${cssId(q.id)}"></div>${p !== m && !review ? `<p class="dialog-note">What made this one tricky? (Your reflection, optional)</p><div class="mistake-picks">${['Knowledge gap', 'Missed cue', 'Prioritization', 'Calculation'].map(x => `<button data-action="mistake" data-mistake="${x}" class="${a.mistake === x ? 'active' : ''}">${x}</button>`).join('')}</div>` : ''}</section>`;
 }
 const cssId = id => String(id).replace(/[^\w-]/g, '_');
 function simpleText(q) {
@@ -1811,6 +1812,12 @@ function finishCase() {
 
 // ---- Paywall (NurseBound design). In the app, the native paywall opens instead. ----
 let paywallPlan = 'quarter';
+function updatePaywallPlan() {
+  for (const b of modal.querySelectorAll('.plan')) { const on = b.dataset.id === paywallPlan; b.classList.toggle('on', on); b.setAttribute('aria-checked', on); }
+  const per = { quarter: '3 months', annual: 'year', monthly: 'month' }[paywallPlan], price = PRO_PRICES[paywallPlan];
+  const cta = modal.querySelector('.pw-cta span'); if (cta) cta.textContent = `${price}${per ? '/' + per + ' · cancel anytime' : ' once · no subscription'}`;
+  const terms = modal.querySelector('.pw-terms'); if (terms) terms.textContent = (per ? `${price}/${per}, renewing automatically. ` : '') + terms.textContent.replace(/^\$[\d.]+\/[^,]+, renewing automatically\. /, '');
+}
 function showPaywall(reason = '') {
   if (native) { native.postMessage(JSON.stringify({ type: 'paywall', reason })); return; }
   // Monthly $9.99 · 3-month pass $49.99 (most popular) · annual $89.99 · lifetime $119.00. Savings are against paying monthly.
@@ -1908,7 +1915,7 @@ document.addEventListener('click',e=>{const button=e.target.closest('[data-actio
  case 'case-submit':{const cs=state.caseSession,it=caseOf(cs.caseId).items[cs.index];if(!ngnComplete(it,cs.answers[it.id]))break;cs.submitted[it.id]=true;save();showCase();break;}
  case 'case-next':{const cs=state.caseSession,c=caseOf(cs.caseId);if(cs.index>=c.items.length-1)finishCase();else{cs.index++;save();showCase();}break;}
  case 'paywall':showPaywall(d.reason==='all'?'':d.reason||'');break;
- case 'pw-plan':paywallPlan=d.id;showPaywall();break;
+ case 'pw-plan':paywallPlan=d.id;updatePaywallPlan();break;
  case 'pw-buy':toast('Subscriptions are purchased in the Rapid Nursing Review app for iPhone and Android.');break;
  case 'pw-restore':case 'pw-manage':toast('Restore and manage your plan in the iPhone or Android app.');break;
  case 'pw-preview':state.previewPro=!state.previewPro;save();closeModal();toast(state.previewPro?'Preview: Pro is unlocked on this device.':'Preview: back to the free plan.');break;
@@ -2059,8 +2066,10 @@ function checkMilestones() {
   for (const [id, test, title, body, ic, colors] of MILESTONES) if (!state.milestones.includes(id) && test(s)) { state.milestones.push(id); save(); celebrate({ title, body: `${firstName() ? firstName() + ', ' + body.charAt(0).toLowerCase() + body.slice(1) : body}`, icon: ic, colors }); }
 }
 function welcome() {
-  if (!fxOn()) return;
-  const today = dayKey(new Date()), first = !state.lastOpen;
+  if (!fxOn() || !storageOK) return;
+  const today = dayKey(new Date()), first = !state.lastOpen, now = Date.now();
+  if (!first && state.lastWelcome && now - state.lastWelcome < 30 * 60000) return;
+  state.lastWelcome = now;
   const name = firstName(), st = streak(), due = missed().length;
   state.lastOpen = today; save();
   if (first) { celebrate({ eyebrow: 'Welcome, future nurse', title: 'You belong here.', body: `This is your study space. Practice with 2,500 NCLEX questions, read the book page by page, and watch yourself grow. Today’s motivation: ${todaysMotivation()}`, icon: 'heart', colors: ['#ea580c', '#e11d48'], cta: 'Let’s begin', after: () => { if (!isPro()) showPaywall('welcome'); }, form: `<form id="fx-form" class="fx-form"><label for="fx-name">What should we call you?</label><input id="fx-name" maxlength="30" placeholder="Your first name" autocomplete="given-name"></form>` }); return; }
