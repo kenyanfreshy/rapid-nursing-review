@@ -92,3 +92,7 @@ Not verified: the npm registry was blocked from the workspace, so `npm install`,
 ## Trademark notice
 
 NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN. The same notice appears in the app (Overview, About, Settings and both paywalls); add it to the end of the App Store and Google Play descriptions too.
+
+## App icon
+
+`mobile/assets/icon.png` (iOS, 1024, no transparency) and `mobile/assets/adaptive-icon.png` (Android adaptive foreground) are built from the book cover: the cover title art, the real cover photo and the NCLEX-RN banner. Upload `store/app-store-icon-1024.png` to App Store Connect and `store/play-store-icon-512.png` to the Google Play listing.
