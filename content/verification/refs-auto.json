@@ -1,0 +1,10573 @@
+{
+ "note": "References assigned by content/assign_refs.py from refs.json (topic textbook + guideline matched to the item text). Book sections are related reading matched to the stem. Author review pending.",
+ "items": [
+  {
+   "id": "nb:ccrn-cv-01",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:ccrn-cv-02",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-03",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:ccrn-cv-06",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-07",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-08",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-postpci"
+  },
+  {
+   "id": "nb:ccrn-cv-09",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-10",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-13",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-cardiomyopathy"
+  },
+  {
+   "id": "nb:ccrn-cv-14",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-15",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-cv-16",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-htn"
+  },
+  {
+   "id": "nb:ccrn-cv-18",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:ccrn-cv-19",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-pulm-05",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-aspiration"
+  },
+  {
+   "id": "nb:ccrn-pulm-06",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:ccrn-pulm-07",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-pulm-08",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:ccrn-pulm-11",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-pulm-12",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-pulm-15",
+   "topic": "Respiratory",
+   "refs": [
+    "acog-preeclampsia",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-pulm-16",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:ccrn-pulm-17",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:ccrn-pulm-18",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-pulm-19",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:ccrn-heme-02",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:ccrn-gi-01",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:ccrn-shock-01",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-integ-02",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-endo-01",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:ccrn-gi-02",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-pancreatitis"
+  },
+  {
+   "id": "nb:ccrn-heme-03",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-dic"
+  },
+  {
+   "id": "nb:ccrn-gi-03",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrn-endo-04",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-addison"
+  },
+  {
+   "id": "nb:ccrnb-msk-01",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-neuro-01",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:ccrnb-gi-01",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:ccrnb-neuro-03",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-neuro-04",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-mh-01",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-mh-02",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": "resp-ards"
+  },
+  {
+   "id": "nb:ccrnb-pharm-01",
+   "topic": "Pharmacology",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-pharm-02",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-resp-01",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:ccrnb-fe-01",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fe-02",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "gu-aki"
+  },
+  {
+   "id": "nb:ccrnb-fe-03",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-endo-01",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-hypopara"
+  },
+  {
+   "id": "nb:ccrnb-renal-01",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-gi-02",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-gi-03",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-shock-04",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-pharm-03",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-shock-06",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-01",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:ccrnb-ethics-02",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-03",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-04",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-05",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-06",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "aha-resuscitation",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-07",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-08",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-09",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-10",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-11",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-12",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-13",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-14",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-15",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ismp-highalert",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-16",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-17",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-resp-02",
+   "topic": "Respiratory",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:ccrnb-pharm-04",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-01",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:ccrnb-ethics-18",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-19",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-20",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-21",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-22",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-23",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "sepsis-2021",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-lead-01",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-24",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "sepsis-2021",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-25",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-ethics-26",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-02",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-03",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-04",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-05",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-06",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:ccrnb-fund-07",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnb-fund-08",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-003",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:ccrnx-004",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-007",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:ccrnx-011",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-012",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-014",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-015",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "heme-leukemia"
+  },
+  {
+   "id": "nb:ccrnx-017",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-pancreatitis"
+  },
+  {
+   "id": "nb:ccrnx-018",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:ccrnx-020",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:ccrnx-021",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:ccrnx-023",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-024",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pe"
+  },
+  {
+   "id": "nb:ccrnx-028",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-029",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:ccrnx-030",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-031",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-033",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-036",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-ards"
+  },
+  {
+   "id": "nb:ccrnx-037",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-040",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-043",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-044",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-045",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-047",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-048",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-049",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:ccrnx-052",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:ccrnx-054",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-058",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-060",
+   "topic": "Pharmacology",
+   "refs": [
+    "samhsa",
+    "openstax-pharm"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:ccrnx-061",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:ccrnx-067",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:ccrnx-068",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-069",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:ccrnx-072",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-073",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-074",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-077",
+   "topic": "Cardiovascular",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-078",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-079",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-081",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-082",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-083",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:ccrnx-084",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-085",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-087",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-088",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-089",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-092",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-093",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-dic"
+  },
+  {
+   "id": "nb:ccrnx-094",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-097",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-098",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-pancreatitis"
+  },
+  {
+   "id": "nb:ccrnx-099",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-100",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-101",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:ccrnx-102",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-103",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:ccrnx-104",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-105",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-106",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-postpci"
+  },
+  {
+   "id": "nb:ccrnx-107",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:ccrnx-108",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-110",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-115",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-118",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-pancreatitis"
+  },
+  {
+   "id": "nb:ccrnx-119",
+   "topic": "Cardiovascular",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-cardiomyopathy"
+  },
+  {
+   "id": "nb:ccrnx-120",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:ccrnx-121",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:ccrnx-122",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-ards"
+  },
+  {
+   "id": "nb:ccrnx-124",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-125",
+   "topic": "Cardiovascular",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:ccrnx-126",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:ccrnx-128",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:ccrnx-130",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:ccrnx-132",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:ccrnx-135",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-139",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:ccrnx-140",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-cardiomyopathy"
+  },
+  {
+   "id": "nb:ccrnx-141",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-144",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-145",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-146",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-147",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ccrnx-149",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-resp-01",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-ards"
+  },
+  {
+   "id": "nb:nb-resp-02",
+   "topic": "Respiratory",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-pe"
+  },
+  {
+   "id": "nb:nb-resp-03",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb-resp-04",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-resp-05",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb-resp-06",
+   "topic": "Respiratory",
+   "refs": [
+    "cdc-tb",
+    "cdc-immunization",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb-cv-01",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-cv-02",
+   "topic": "Cardiovascular",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-postpci"
+  },
+  {
+   "id": "nb:nb-cv-03",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:nb-cv-04",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb-cv-06",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-inflammatory"
+  },
+  {
+   "id": "nb:nb-cv-07",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb-gi-01",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-pancreatitis"
+  },
+  {
+   "id": "nb:nb-gi-03",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-pud"
+  },
+  {
+   "id": "nb:nb-gi-04",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb-gi-05",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb-gi-06",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-appendicitis"
+  },
+  {
+   "id": "nb:nb-gi-07",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-gallbladder"
+  },
+  {
+   "id": "nb:nb-endo-02",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-endo-03",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "heme-ra"
+  },
+  {
+   "id": "nb:nb-endo-04",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-siadh"
+  },
+  {
+   "id": "nb:nb-endo-05",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-endo-07",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-pheo"
+  },
+  {
+   "id": "nb:nb-renal-01",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gu-aki"
+  },
+  {
+   "id": "nb:nb-renal-02",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-renal-03",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-renal-04",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-renal-05",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-renal-06",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-renal-07",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gu-bph"
+  },
+  {
+   "id": "nb:nb-neuro-01",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:nb-neuro-02",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-icp"
+  },
+  {
+   "id": "nb:nb-neuro-03",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb-neuro-04",
+   "topic": "Neurological",
+   "refs": [
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-meningitis"
+  },
+  {
+   "id": "nb:nb-neuro-05",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-mg"
+  },
+  {
+   "id": "nb:nb-neuro-06",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb-heme-02",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-heme-03",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-sickle"
+  },
+  {
+   "id": "nb:nb-heme-04",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-hemophilia"
+  },
+  {
+   "id": "nb:nb-heme-05",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-dic"
+  },
+  {
+   "id": "nb:nb-heme-07",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-lupus"
+  },
+  {
+   "id": "nb:nb-integ-02",
+   "topic": "Integumentary",
+   "refs": [
+    "aba-abls",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb-integ-03",
+   "topic": "Integumentary",
+   "refs": [
+    "npiap",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb-integ-04",
+   "topic": "Integumentary",
+   "refs": [
+    "cdc-isolation",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-integ-05",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-integ-06",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-msk-01",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "aha-resuscitation",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb-msk-02",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb-msk-03",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb-msk-05",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb-msk-06",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb-msk-07",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb-fe-04",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-fe-05",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb-fe-06",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb-fe-07",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-01",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-04",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "ismp-highalert",
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:ob-05",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-07",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "acog-preeclampsia",
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-08",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "acog-preeclampsia",
+    "ismp-highalert",
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:ob-10",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-11",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-13",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-14",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:ob-15",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:ob-17",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-18",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-19",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-20",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-22",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:ob-23",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:ob-24",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:ob-25",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:ob-26",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-27",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-29",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "cdc-immunization",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-30",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "aap-neonatal-glucose",
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:ob-31",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-32",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-33",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-34",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:ob-35",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "aap-safesleep",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-01",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-02",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-03",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "samhsa",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-09",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-10",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-11",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-14",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-15",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-17",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-18",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-19",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-20",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-21",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-24",
+   "topic": "Mental Health",
+   "refs": [
+    "ismp-highalert",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-25",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-26",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-27",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-28",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:psy-29",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-30",
+   "topic": "Mental Health",
+   "refs": [
+    "tjc-npsg",
+    "openstax-psych"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:psy-31",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-32",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-33",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-34",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:psy-35",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-01",
+   "topic": "Pediatrics",
+   "refs": [
+    "ana-ethics",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-02",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-03",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-04",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-05",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "ismp-highalert",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-06",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-07",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-11",
+   "topic": "Pediatrics",
+   "refs": [
+    "aap-bronchiolitis",
+    "cdc-isolation",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-12",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-13",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:peds-15",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-16",
+   "topic": "Pediatrics",
+   "refs": [
+    "ismp-highalert",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-18",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-19",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-20",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-21",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "gi-appendicitis"
+  },
+  {
+   "id": "nb:peds-22",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "gu-gn"
+  },
+  {
+   "id": "nb:peds-23",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:peds-24",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-isolation",
+    "medline-children"
+   ],
+   "bookSection": "neuro-meningitis"
+  },
+  {
+   "id": "nb:peds-25",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "neuro-icp"
+  },
+  {
+   "id": "nb:peds-26",
+   "topic": "Pediatrics",
+   "refs": [
+    "ismp-highalert",
+    "medline-children"
+   ],
+   "bookSection": "heme-sickle"
+  },
+  {
+   "id": "nb:peds-27",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": "heme-hemophilia"
+  },
+  {
+   "id": "nb:peds-28",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-handhygiene",
+    "medline-children"
+   ],
+   "bookSection": "heme-leukemia"
+  },
+  {
+   "id": "nb:peds-29",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-isolation",
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-30",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-31",
+   "topic": "Pediatrics",
+   "refs": [
+    "aba-abls",
+    "medline-children"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:peds-32",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-33",
+   "topic": "Pediatrics",
+   "refs": [
+    "ana-ethics",
+    "lifeline-988",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-34",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:peds-35",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-01",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-02",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-03",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-04",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-05",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-06",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:lead-07",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-08",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ana-ethics",
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-09",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-10",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-11",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-12",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-13",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-14",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:lead-15",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-01",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-02",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-03",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-04",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-fund"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:safe-05",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "openstax-fund"
+   ],
+   "bookSection": "neuro-meningitis"
+  },
+  {
+   "id": "nb:safe-06",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-07",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ncsbn-delegation",
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:safe-08",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-09",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-10",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-11",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:safe-12",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-13",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "npiap",
+    "openstax-fund"
+   ],
+   "bookSection": "integ-pressure"
+  },
+  {
+   "id": "nb:safe-14",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:safe-15",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:pharm-06",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:pharm-08",
+   "topic": "Pharmacology",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:eth-01",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:eth-02",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:eth-03",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:eth-04",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:eth-05",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-001",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-002",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-003",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-004",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-005",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-006",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-007",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-008",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-009",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:u2-moca-010",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ismp-highalert",
+    "ana-ethics",
+    "dailymed"
+   ],
+   "bookSection": "gi-gallbladder"
+  },
+  {
+   "id": "nb:u2-moca-011",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-012",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-013",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:u2-moca-014",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-015",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:u2-moca-016",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-017",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "ana-ethics",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-018",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-020",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-021",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:u2-moca-022",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "aba-abls",
+    "cdc-tb",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-023",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-024",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "medline-pregnancy",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-025",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-026",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-027",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-pe"
+  },
+  {
+   "id": "nb:u2-moca-028",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-029",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:u2-moca-030",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:u2-moca-031",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-032",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-033",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-034",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-moca-035",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-001",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-002",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-003",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-004",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-005",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-006",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-007",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-008",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-009",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-010",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:u2-mocb-011",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:u2-mocb-012",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-013",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-014",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-015",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-016",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-017",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-018",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-020",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-021",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-022",
+   "topic": "Mental Health",
+   "refs": [
+    "ncsbn-delegation",
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-023",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation",
+    "dailymed"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:u2-mocb-024",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-025",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-026",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation",
+    "ismp-highalert",
+    "dailymed"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:u2-mocb-027",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-028",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:u2-mocb-029",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-030",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:u2-mocb-031",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "lifeline-988",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-032",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:u2-mocb-033",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:u2-mocb-034",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-mocb-035",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-001",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "ana-ethics",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:u2-safe-002",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-003",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-004",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-005",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "cdc-immunization",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-006",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-007",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-008",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:u2-safe-009",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-010",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-011",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-012",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-013",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-014",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "cdc-isolation",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-015",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-016",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-017",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-018",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:u2-safe-020",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-021",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-022",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-023",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-024",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-safe-025",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-psy-001",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-psy-002",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-psy-003",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-psy-004",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "openstax-psych"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:u2-hpm-001",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-002",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-003",
+   "topic": "Pediatrics",
+   "refs": [
+    "ana-ethics",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-004",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-005",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "medline-pregnancy",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-006",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-007",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-008",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-009",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-010",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-011",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-012",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:u2-hpm-013",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-014",
+   "topic": "Pediatrics",
+   "refs": [
+    "aap-safesleep",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-015",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-016",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-017",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-018",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-020",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-021",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:u2-hpm-022",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-023",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-024",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "medline-pregnancy",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-hpm-025",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "tjc-npsg",
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:u2-basic-001",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:u2-basic-002",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:u2-basic-003",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-004",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gu-incontinence"
+  },
+  {
+   "id": "nb:u2-basic-005",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-006",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-007",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-008",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-009",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:u2-basic-010",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-crohn"
+  },
+  {
+   "id": "nb:u2-basic-011",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-012",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-013",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-014",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:u2-basic-015",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-016",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:u2-basic-017",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-018",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-019",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:u2-basic-020",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:u2-basic-021",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-022",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-023",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gu-uti"
+  },
+  {
+   "id": "nb:u2-basic-024",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:u2-basic-025",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:u2-basic-026",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-027",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:u2-basic-028",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-029",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:u2-basic-030",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-031",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-032",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-basic-033",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-001",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-002",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-003",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:u2-rrp-004",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-005",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-006",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-007",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-008",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-009",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-010",
+   "topic": "Respiratory",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-011",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-012",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:u2-rrp-013",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-014",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-015",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:u2-rrp-016",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-occlusion"
+  },
+  {
+   "id": "nb:u2-rrp-017",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-018",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-019",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-020",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-021",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-022",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-023",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:u2-rrp-024",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:u2-rrp-025",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-026",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:u2-rrp-027",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ana-ethics",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-028",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:u2-rrp-029",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-postpci"
+  },
+  {
+   "id": "nb:nb26-resp-001",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:nb26-resp-004",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-resp-005",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-006",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-resp-007",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": "endo-addison"
+  },
+  {
+   "id": "nb:nb26-resp-008",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-resp-010",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-resp-011",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-012",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-013",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:nb26-resp-014",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-015",
+   "topic": "Pharmacology",
+   "refs": [
+    "ags-beers",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "gu-bph"
+  },
+  {
+   "id": "nb:nb26-resp-017",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-018",
+   "topic": "Pediatrics",
+   "refs": [
+    "ismp-highalert",
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-019",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-020",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-022",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-resp-023",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-024",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-025",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-026",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-027",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-029",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-tb",
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-030",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-031",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-032",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-033",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-035",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "heme-anaphylaxis"
+  },
+  {
+   "id": "nb:nb26-resp-036",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-037",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-resp-038",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-043",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:nb26-resp-044",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:nb26-resp-045",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-immunization",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-046",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-047",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-048",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-050",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-resp-051",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-052",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-054",
+   "topic": "Pediatrics",
+   "refs": [
+    "lifeline-988",
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "nb:nb26-resp-057",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-resp-059",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-001",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-002",
+   "topic": "Pharmacology",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-004",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-005",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-006",
+   "topic": "Pharmacology",
+   "refs": [
+    "samhsa",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-007",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-008",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-009",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-tb",
+    "samhsa",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-010",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb26-pain-012",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-013",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-014",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb26-pain-015",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-pain-016",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-018",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-pain-020",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-022",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb26-pain-026",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb26-pain-028",
+   "topic": "Neurological",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-030",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:nb26-pain-032",
+   "topic": "Neurological",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-033",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-pain-034",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-pain-035",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-pain-036",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-pain-037",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-038",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-039",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-040",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-pain-041",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-043",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-047",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "ags-beers",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-048",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb26-pain-049",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-tb",
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-050",
+   "topic": "Pharmacology",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-051",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-052",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-pain-053",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-pain-059",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "npiap",
+    "openstax-fund"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-pain-060",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-001",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-infx-005",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-006",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-infx-007",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb26-infx-011",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-infx-012",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-infx-015",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-016",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-infx-017",
+   "topic": "Pharmacology",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-020",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-021",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-023",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-isolation",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-024",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-025",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-028",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": "gu-uti"
+  },
+  {
+   "id": "nb:nb26-infx-029",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-isolation",
+    "openstax-pharm"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-infx-030",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-031",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-034",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "neuro-encephalitis"
+  },
+  {
+   "id": "nb:nb26-infx-035",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-037",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-038",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-040",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-041",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-042",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-043",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-044",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-045",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "medline-pregnancy",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-046",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-immunization",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-047",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-048",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-meningitis"
+  },
+  {
+   "id": "nb:nb26-infx-049",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-050",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-051",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-052",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-053",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-infx-054",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-infx-060",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-001",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-002",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-003",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-004",
+   "topic": "Pharmacology",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-005",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-card-007",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-008",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-tb",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-card-010",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:nb26-card-011",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-014",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-card-015",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-017",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-018",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-020",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-021",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-022",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:nb26-card-024",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-pe"
+  },
+  {
+   "id": "nb:nb26-card-025",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-028",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-030",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-032",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-033",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-card-036",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-card-037",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-card-038",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-039",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-040",
+   "topic": "Pharmacology",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-041",
+   "topic": "Cardiovascular",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-042",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-043",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-045",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-046",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-htn"
+  },
+  {
+   "id": "nb:nb26-card-047",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-048",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-card-049",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-card-055",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-card-056",
+   "topic": "Cardiovascular",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-057",
+   "topic": "Cardiovascular",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-058",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-059",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-card-060",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:nb26-endo-001",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-002",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-003",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-005",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-006",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-007",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-008",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-009",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-010",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-011",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-012",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-013",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-014",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-015",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-017",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-018",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-019",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-020",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-021",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-022",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-024",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-028",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-030",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-034",
+   "topic": "Pharmacology",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-hyperthyroid"
+  },
+  {
+   "id": "nb:nb26-endo-036",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-hyperthyroid"
+  },
+  {
+   "id": "nb:nb26-endo-037",
+   "topic": "Endocrine",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-hyperthyroid"
+  },
+  {
+   "id": "nb:nb26-endo-038",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-hypothyroid"
+  },
+  {
+   "id": "nb:nb26-endo-039",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-041",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-addison"
+  },
+  {
+   "id": "nb:nb26-endo-042",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-addison"
+  },
+  {
+   "id": "nb:nb26-endo-043",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-cushing"
+  },
+  {
+   "id": "nb:nb26-endo-044",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-047",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-siadh"
+  },
+  {
+   "id": "nb:nb26-endo-049",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-050",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-endo-052",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb26-endo-054",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-057",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-058",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-endo-059",
+   "topic": "Endocrine",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-repr-001",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-002",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-003",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-tb",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "resp-tb"
+  },
+  {
+   "id": "nb:nb26-repr-004",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-005",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-006",
+   "topic": "Pharmacology",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-007",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-tb",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-008",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-009",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-010",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-012",
+   "topic": "Pharmacology",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-013",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-014",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": "heme-anaphylaxis"
+  },
+  {
+   "id": "nb:nb26-repr-015",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-016",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-017",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": "heme-ida"
+  },
+  {
+   "id": "nb:nb26-repr-018",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-019",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-pregnancy",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-020",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "acog-preeclampsia",
+    "ismp-highalert",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-021",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "acog-preeclampsia",
+    "ismp-highalert",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-024",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "sepsis-2021",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-025",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-028",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-repr-032",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "ismp-highalert",
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-repr-033",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-035",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-repr-036",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-037",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": "heme-anaphylaxis"
+  },
+  {
+   "id": "nb:nb26-repr-038",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-039",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-040",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-maternal",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-041",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "cdc-immunization",
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-043",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-repr-046",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:nb26-repr-047",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-048",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gu-bph"
+  },
+  {
+   "id": "nb:nb26-repr-049",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-050",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-051",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-repr-052",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gu-uti"
+  },
+  {
+   "id": "nb:nb26-repr-054",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gu-incontinence"
+  },
+  {
+   "id": "nb:nb26-repr-058",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-001",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-002",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-003",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-004",
+   "topic": "Pharmacology",
+   "refs": [
+    "tjc-npsg",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-006",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-007",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-008",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-012",
+   "topic": "Neurological",
+   "refs": [
+    "lifeline-988",
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-013",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-014",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-015",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-neps-016",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-parkinson"
+  },
+  {
+   "id": "nb:nb26-neps-019",
+   "topic": "Neurological",
+   "refs": [
+    "samhsa",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-parkinson"
+  },
+  {
+   "id": "nb:nb26-neps-021",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-mg"
+  },
+  {
+   "id": "nb:nb26-neps-023",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-024",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-neps-025",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-026",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-neps-029",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-neps-030",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-031",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-032",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-033",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-034",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-035",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-036",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-037",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-039",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-040",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-041",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-043",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-044",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-045",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-046",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-047",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-050",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-ms"
+  },
+  {
+   "id": "nb:nb26-neps-051",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "ags-beers",
+    "openstax-psych"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb26-neps-052",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-053",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-054",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-055",
+   "topic": "Mental Health",
+   "refs": [
+    "samhsa",
+    "ismp-highalert",
+    "openstax-psych"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-neps-057",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-058",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-059",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-neps-060",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-001",
+   "topic": "Pharmacology",
+   "refs": [
+    "cdc-isolation",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "gi-gerd"
+  },
+  {
+   "id": "nb:nb26-gios-004",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-005",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-007",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-gios-008",
+   "topic": "Pharmacology",
+   "refs": [
+    "aba-abls",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-gios-009",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-010",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-011",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb26-gios-013",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "cdc-isolation",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-015",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "cdc-tb",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-crohn"
+  },
+  {
+   "id": "nb:nb26-gios-016",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-017",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb26-gios-018",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb26-gios-019",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-020",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-021",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-024",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-025",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-027",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-028",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-029",
+   "topic": "Pharmacology",
+   "refs": [
+    "sepsis-2021",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-030",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-031",
+   "topic": "Pharmacology",
+   "refs": [
+    "lifeline-988",
+    "medline-pregnancy",
+    "openstax-pharm"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-032",
+   "topic": "Pharmacology",
+   "refs": [
+    "lifeline-988",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-033",
+   "topic": "Integumentary",
+   "refs": [
+    "aba-abls",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-gios-034",
+   "topic": "Integumentary",
+   "refs": [
+    "aba-abls",
+    "medline-pregnancy",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-gios-035",
+   "topic": "Integumentary",
+   "refs": [
+    "sepsis-2021",
+    "aba-abls",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-gios-036",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-gios-037",
+   "topic": "Integumentary",
+   "refs": [
+    "npiap",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-038",
+   "topic": "Integumentary",
+   "refs": [
+    "npiap",
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-occlusion"
+  },
+  {
+   "id": "nb:nb26-gios-039",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-040",
+   "topic": "Integumentary",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-041",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-042",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "cdc-handhygiene",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-leukemia"
+  },
+  {
+   "id": "nb:nb26-gios-043",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-044",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-046",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-leukemia"
+  },
+  {
+   "id": "nb:nb26-gios-047",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-048",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-049",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "heme-ida"
+  },
+  {
+   "id": "nb:nb26-gios-050",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-052",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-gios-054",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-gios-055",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-sickle"
+  },
+  {
+   "id": "nb:nb26-gios-056",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-sickle"
+  },
+  {
+   "id": "nb:nb26-gios-057",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-calc-004",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-006",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-calc-008",
+   "topic": "Pediatrics",
+   "refs": [
+    "ismp-highalert",
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-016",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-017",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-018",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-019",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-020",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-calc-022",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-024",
+   "topic": "Pharmacology",
+   "refs": [
+    "ismp-highalert",
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-025",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-026",
+   "topic": "Pharmacology",
+   "refs": [
+    "openstax-pharm",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-027",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-028",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-029",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-031",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-032",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-033",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-034",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-035",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-calc-036",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-037",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-038",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-hypopara"
+  },
+  {
+   "id": "nb:nb26-calc-039",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-040",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-041",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-042",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-043",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-calc-044",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-calc-045",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-046",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "aba-abls",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-047",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-calc-048",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-049",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-050",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-051",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-052",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-053",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-054",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-055",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-056",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-057",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-058",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-calc-059",
+   "topic": "Fluids & Electrolytes",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:nb26-calc-060",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-001",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-002",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-003",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-core-004",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-005",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-006",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-007",
+   "topic": "Hematology & Oncology",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-008",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-009",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-core-010",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-isolation",
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-011",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-core-012",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-013",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-core-014",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-015",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-016",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-core-017",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-018",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-020",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-021",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-022",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb26-core-023",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-024",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-025",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-026",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-027",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-028",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-029",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-030",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:nb26-core-031",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-032",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "cdc-immunization",
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-033",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-core-034",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-035",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "npiap",
+    "openstax-fund"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-core-036",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-037",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-038",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ismp-highalert",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-039",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "nb:nb26-core-040",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-041",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-042",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-043",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-044",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-045",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-046",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-core-047",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-048",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ncsbn-boundaries",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-049",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-050",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-051",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-052",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-053",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-054",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-055",
+   "topic": "Integumentary",
+   "refs": [
+    "aba-abls",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-core-056",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-057",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": "gu-uti"
+  },
+  {
+   "id": "nb:nb26-core-058",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-core-059",
+   "topic": "Integumentary",
+   "refs": [
+    "aba-abls",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-core-060",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-001",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-002",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-003",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-004",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-moca-005",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-006",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-007",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-008",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-009",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-moca-010",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-011",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-012",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-013",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ncsbn-delegation",
+    "openstax-fund"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-moca-014",
+   "topic": "Pediatrics",
+   "refs": [
+    "ncsbn-delegation",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-015",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "aha-resuscitation",
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-016",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-017",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-018",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-019",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-moca-020",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-021",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-022",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-023",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-024",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-025",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-moca-026",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-027",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "heme-transfusion"
+  },
+  {
+   "id": "nb:nb26-moca-028",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-029",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ncsbn-boundaries",
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-030",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-031",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-032",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-033",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-034",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "npiap",
+    "ana-ethics"
+   ],
+   "bookSection": "integ-pressure"
+  },
+  {
+   "id": "nb:nb26-moca-035",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-036",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-037",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-038",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-039",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-040",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-041",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-moca-042",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-043",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-moca-044",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-moca-045",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-001",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": "resp-copd"
+  },
+  {
+   "id": "nb:nb26-mocb-002",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-mocb-003",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:nb26-mocb-004",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-mocb-005",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "nb:nb26-mocb-006",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-007",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-mocb-008",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-009",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-010",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-011",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-012",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics",
+    "ags-beers"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-013",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-014",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-015",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-016",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-017",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-018",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-020",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-021",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-tb",
+    "cdc-isolation",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-022",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-023",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-024",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-025",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-026",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-027",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-028",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-029",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "aha-resuscitation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-030",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-031",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-032",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "cdc-isolation",
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-033",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-034",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-035",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-036",
+   "topic": "Leadership & Delegation",
+   "refs": [
+    "ncsbn-delegation"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-037",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-038",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-039",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-040",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-041",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-042",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-043",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-mocb-044",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-mocb-045",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-001",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-002",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-003",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-004",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-005",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-006",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-007",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-008",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-009",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-010",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-011",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-012",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-013",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-014",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-015",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-016",
+   "topic": "Mental Health",
+   "refs": [
+    "lifeline-988",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-017",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-018",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-019",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-020",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-021",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-022",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-023",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-024",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-025",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-026",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-027",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-028",
+   "topic": "Pediatrics",
+   "refs": [
+    "cdc-immunization",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-029",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-030",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-031",
+   "topic": "Ethics & Professional Practice",
+   "refs": [
+    "ana-ethics"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-psyc-032",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-033",
+   "topic": "Pediatrics",
+   "refs": [
+    "samhsa",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-034",
+   "topic": "Pediatrics",
+   "refs": [
+    "samhsa",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-035",
+   "topic": "Pediatrics",
+   "refs": [
+    "ana-ethics",
+    "samhsa",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-036",
+   "topic": "Mental Health",
+   "refs": [
+    "tjc-npsg",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-037",
+   "topic": "Mental Health",
+   "refs": [
+    "tjc-npsg",
+    "openstax-psych"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-psyc-038",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-039",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-040",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "lifeline-988",
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-psyc-041",
+   "topic": "Mental Health",
+   "refs": [
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-psyc-042",
+   "topic": "Mental Health",
+   "refs": [
+    "ana-ethics",
+    "openstax-psych"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-001",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-002",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "cdc-handhygiene",
+    "ncsbn-delegation",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-003",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-004",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-sabc-005",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-006",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-sabc-007",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-008",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-009",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-010",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-011",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-012",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-isolation",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-013",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-014",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-015",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-016",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-017",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-018",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-019",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-020",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-021",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-seizures"
+  },
+  {
+   "id": "nb:nb26-sabc-022",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "ncsbn-delegation",
+    "lifeline-988",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-023",
+   "topic": "Pediatrics",
+   "refs": [
+    "aap-bronchiolitis",
+    "cdc-isolation",
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-024",
+   "topic": "Immunology & Infectious Disease",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-025",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-026",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "tjc-npsg",
+    "openstax-fund"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-sabc-027",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-028",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-bone"
+  },
+  {
+   "id": "nb:nb26-sabc-029",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-030",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:nb26-sabc-031",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gu-incontinence"
+  },
+  {
+   "id": "nb:nb26-sabc-032",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-033",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-034",
+   "topic": "Renal & Genitourinary",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-035",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-036",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-spinal"
+  },
+  {
+   "id": "nb:nb26-sabc-037",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-038",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-sabc-039",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-040",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-alzheimer"
+  },
+  {
+   "id": "nb:nb26-sabc-041",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-042",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-043",
+   "topic": "Integumentary",
+   "refs": [
+    "npiap",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-pressure"
+  },
+  {
+   "id": "nb:nb26-sabc-044",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-045",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-046",
+   "topic": "Integumentary",
+   "refs": [
+    "npiap",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-047",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-048",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-049",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-sabc-050",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-001",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-postpci"
+  },
+  {
+   "id": "nb:nb26-rhpa-002",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-003",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-effusion"
+  },
+  {
+   "id": "nb:nb26-rhpa-004",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "nb:nb26-rhpa-005",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-006",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-007",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-008",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-009",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-010",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": "resp-pneumonia"
+  },
+  {
+   "id": "nb:nb26-rhpa-011",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-012",
+   "topic": "Musculoskeletal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-rhpa-013",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-014",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "nb:nb26-rhpa-015",
+   "topic": "Gastrointestinal",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-016",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-handhygiene",
+    "openstax-fund"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-rhpa-017",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-018",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-019",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-020",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "medline-pregnancy",
+    "openstax-maternal"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-rhpa-021",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-rhpa-022",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-023",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-024",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-025",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "nb:nb26-rhpa-026",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-027",
+   "topic": "Maternal & Newborn",
+   "refs": [
+    "openstax-maternal"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-028",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-029",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": "msk-osteomyelitis"
+  },
+  {
+   "id": "nb:nb26-rhpa-030",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-031",
+   "topic": "Pediatrics",
+   "refs": [
+    "medline-children"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-032",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "openstax-fund"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-033",
+   "topic": "Fundamentals & Safety",
+   "refs": [
+    "cdc-immunization",
+    "openstax-fund"
+   ],
+   "bookSection": "integ-skin"
+  },
+  {
+   "id": "nb:nb26-rhpa-034",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-rhpa-035",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-036",
+   "topic": "Endocrine",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "nb:nb26-rhpa-037",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:nb26-rhpa-038",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-tbi"
+  },
+  {
+   "id": "nb:nb26-rhpa-039",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-040",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-041",
+   "topic": "Neurological",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-gbs"
+  },
+  {
+   "id": "nb:nb26-rhpa-042",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "aba-abls",
+    "openstax-medsurg"
+   ],
+   "bookSection": "integ-burns"
+  },
+  {
+   "id": "nb:nb26-rhpa-043",
+   "topic": "Cardiovascular",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "nb:nb26-rhpa-044",
+   "topic": "Respiratory",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "nb:nb26-rhpa-045",
+   "topic": "Multisystem & Shock",
+   "refs": [
+    "openstax-medsurg"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "ngn:adhf",
+   "case": "Acute Decompensated Heart Failure",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-hf"
+  },
+  {
+   "id": "ngn:urosepsis",
+   "case": "Septic Shock from Urosepsis",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "ngn:compartment",
+   "case": "Acute Compartment Syndrome",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "msk-fractures"
+  },
+  {
+   "id": "ngn:postop-sepsis",
+   "case": "Sepsis After Surgery",
+   "refs": [
+    "sepsis-2021",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "ngn:dka",
+   "case": "Diabetic Ketoacidosis",
+   "refs": [
+    "aha-resuscitation",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-dm"
+  },
+  {
+   "id": "ngn:pph",
+   "case": "Postpartum Hemorrhage",
+   "refs": [
+    "sepsis-2021",
+    "acog-preeclampsia",
+    "openstax-medsurg"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "ngn:peds-asthma",
+   "case": "Severe Asthma Exacerbation",
+   "refs": [
+    "acog-preeclampsia",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "resp-asthma"
+  },
+  {
+   "id": "ngn:stroke",
+   "case": "Acute Ischemic Stroke",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-stroke"
+  },
+  {
+   "id": "ngn:book-pe",
+   "case": "Pulmonary Embolism",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-pe"
+  },
+  {
+   "id": "ngn:book-tension-ptx",
+   "case": "Tension Pneumothorax",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "resp-pneumothorax"
+  },
+  {
+   "id": "ngn:book-stemi",
+   "case": "Inferior STEMI with Right Ventricular Involvement",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "cardio-acs"
+  },
+  {
+   "id": "ngn:book-tamponade",
+   "case": "Cardiac Tamponade after CABG",
+   "refs": [
+    "aha-resuscitation",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "cardio-tamponade"
+  },
+  {
+   "id": "ngn:book-pancreatitis",
+   "case": "Acute Pancreatitis",
+   "refs": [
+    "sepsis-2021",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "gi-pancreatitis"
+  },
+  {
+   "id": "ngn:book-cirrhosis",
+   "case": "Cirrhosis with Ascites and Suspected Varices",
+   "refs": [
+    "cdc-immunization",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gi-cirrhosis"
+  },
+  {
+   "id": "ngn:book-siadh",
+   "case": "SIADH with Severe Hyponatremia",
+   "refs": [
+    "npiap",
+    "ismp-highalert",
+    "openstax-medsurg"
+   ],
+   "bookSection": "endo-siadh"
+  },
+  {
+   "id": "ngn:book-adrenal-crisis",
+   "case": "Addisonian (Adrenal) Crisis",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "endo-addison"
+  },
+  {
+   "id": "ngn:book-aki",
+   "case": "Acute Kidney Injury with Hyperkalemia",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "gu-aki"
+  },
+  {
+   "id": "ngn:book-icp",
+   "case": "Increased Intracranial Pressure",
+   "refs": [
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "neuro-icp"
+  },
+  {
+   "id": "ngn:book-myasthenic-crisis",
+   "case": "Myasthenic Crisis",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": null
+  },
+  {
+   "id": "ngn:book-sickle-cell",
+   "case": "Sickle Cell Vaso-Occlusive Crisis",
+   "refs": [
+    "ismp-highalert",
+    "openstax-medsurg",
+    "dailymed"
+   ],
+   "bookSection": "heme-sickle"
+  }
+ ]
+}

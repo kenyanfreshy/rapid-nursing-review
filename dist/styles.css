@@ -1062,3 +1062,7 @@ html body .bp-head p:first-line{color:inherit}
   html body.book-open{overflow:hidden}
   html body .book-panel .bp-head,html body .book-panel .bp-tabs,html body .book-panel .bp-body{padding-left:max(18px,calc((100% - 820px) / 2));padding-right:max(18px,calc((100% - 820px) / 2))}
 }
+
+/* Related book section under a question's APA references */
+.nb-sources .nb-ref.related{margin-top:10px;padding-top:10px;border-top:1px dashed var(--x-line,#e1e5ef)}
+.nb-sources .nb-tiny.strong{font-weight:700;letter-spacing:.3px;text-transform:uppercase;font-size:10.5px;margin:0 0 4px}

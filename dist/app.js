@@ -758,7 +758,7 @@ function showCase() {
   const tabs = Object.keys(c.ehr); if (!tabs.includes(caseTab)) caseTab = tabs[0];
   const [p, m] = scoreNgn(it, a);
   const trend = it.trend ? `<div class="matrix-wrap"><table class="trend"><thead><tr>${it.trend.cols.map(x => `<th scope="col">${escape(x)}</th>`).join('')}</tr></thead><tbody>${it.trend.rows.map(r => `<tr>${r.map(x => `<td>${escape(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
-  modalShell(escape(c.title), `NGN case study · ${escape(c.sub)}`, `<p class="case-profile">${escape(c.profile)}</p><div class="ehr"><div class="ehr-tabs" role="tablist" aria-label="Client record">${tabs.map(t => `<button role="tab" aria-selected="${t === caseTab}" data-action="case-tab" data-tab="${escape(t)}">${escape(t)}</button>`).join('')}</div><div class="ehr-body" role="tabpanel">${c.ehr[caseTab].map(([when, text]) => `<p><strong>${escape(when)}</strong> ${escape(text)}</p>`).join('')}</div></div><div class="quiz-header"><span>ITEM ${cs.index + 1} OF ${c.items.length} · ${escape(it.stepLabel.toUpperCase())}</span><span>NGN · ${it.kind.toUpperCase()}</span></div><div class="steps-dots" aria-hidden="true">${c.items.map((x, i) => `<span class="${i < cs.index || cs.submitted[x.id] ? 'done' : i === cs.index ? 'now' : ''}"></span>`).join('')}</div>${trend}<p class="question-stem">${escape(it.stem)}</p>${ngnBody(it, a, done)}${done ? `<section class="rationale"><h3>${p === m ? '✓ Full credit' : `${p} of ${m} points`}</h3><p>${escape(it.rationale)}</p>${it.page ? `<p class="case-cite">Rapid Nursing Review, p. ${it.page}</p>` : ''}</section>` : ''}<div class="modal-footer">${secondary('Save & pause', 'close-modal')}${done ? primary(cs.index === c.items.length - 1 ? 'Finish case' : 'Next item', 'case-next') : `<button class="primary" data-action="case-submit" ${ngnComplete(it, a) ? '' : 'disabled'}>Check answer ${icon('arrow')}</button>`}</div>`, 'exam');
+  modalShell(escape(c.title), `NGN case study · ${escape(c.sub)}`, `<p class="case-profile">${escape(c.profile)}</p><div class="ehr"><div class="ehr-tabs" role="tablist" aria-label="Client record">${tabs.map(t => `<button role="tab" aria-selected="${t === caseTab}" data-action="case-tab" data-tab="${escape(t)}">${escape(t)}</button>`).join('')}</div><div class="ehr-body" role="tabpanel">${c.ehr[caseTab].map(([when, text]) => `<p><strong>${escape(when)}</strong> ${escape(text)}</p>`).join('')}</div></div><div class="quiz-header"><span>ITEM ${cs.index + 1} OF ${c.items.length} · ${escape(it.stepLabel.toUpperCase())}</span><span>NGN · ${it.kind.toUpperCase()}</span></div><div class="steps-dots" aria-hidden="true">${c.items.map((x, i) => `<span class="${i < cs.index || cs.submitted[x.id] ? 'done' : i === cs.index ? 'now' : ''}"></span>`).join('')}</div>${trend}<p class="question-stem">${escape(it.stem)}</p>${ngnBody(it, a, done)}${done ? `<section class="rationale"><h3>${p === m ? '✓ Full credit' : `${p} of ${m} points`}</h3><p>${escape(it.rationale)}</p>${it.page ? `<p class="case-cite">Rapid Nursing Review, p. ${it.page}</p>` : ''}</section>${refsBlock({ ...c, id: c.id + '-' + it.id, topic: c.title }, 'Sources for this case study')}` : ''}<div class="modal-footer">${secondary('Save & pause', 'close-modal')}${done ? primary(cs.index === c.items.length - 1 ? 'Finish case' : 'Next item', 'case-next') : `<button class="primary" data-action="case-submit" ${ngnComplete(it, a) ? '' : 'disabled'}>Check answer ${icon('arrow')}</button>`}</div>`, 'exam');
 }
 function updateCase(fn) {
   const cs = state.caseSession; if (!cs) return; const it = caseOf(cs.caseId).items[cs.index]; if (cs.submitted[it.id]) return;
@@ -977,9 +977,28 @@ function refsFor(q) {
 }
 function sourcesBlock(q) {
   if (q.source === 'book') return `<details class="nb-sources" open><summary>${icon('book')}Sources &amp; references</summary><div class="nb-ref book"><p class="apa">${BOOK_APA}</p><div class="book-ref"><span class="pg">Book page ${q.page}</span><button class="mini" data-action="show-page" data-page="${q.page}" data-target="pg-${cssId(q.id)}" aria-expanded="false">View page ${q.page}</button><button class="mini" data-action="open-page" data-page="${q.page}">Open in the book</button></div><div id="pg-${cssId(q.id)}"></div><p class="nb-tiny">In-text: (Korir, 2025, p. ${q.page}). Checked against the cited page · awaiting author review.</p></div></details>`;
-  const own = (q.refs || []).map(k => nclexRefs[k]).filter(Boolean).map(([c, u]) => [`${c} ${u}`, u]);
-  const list = (own.length ? own : refsFor(q)).map(([cite, url]) => `<li><p class="apa">${cite}</p><a href="${url}" target="_blank" rel="noopener noreferrer">Open source ↗</a></li>`).join('');
-  return `<details class="nb-sources"><summary>${icon('book')}Sources &amp; references (APA)</summary><ul class="nb-ref">${list}</ul><p class="nb-tiny">${q.source === 'rnrBank' ? 'Written for Rapid Nursing Review and checked by a second reviewer' : 'This question is from the NCLEX bank'}${q.topic ? ` · ${escape(q.topic)}` : ''}. Check the rationale against these sources; follow current guidelines and your facility’s policy.</p></details>`;
+  return refsBlock(q, q.source === 'rnrBank' ? 'Written for Rapid Nursing Review and checked by a second reviewer' : 'Sources matched to this question’s topic and clinical content');
+}
+// APA reference list for a question or case, plus the related section of the book when there is one.
+const sectionById2 = id => sections.find(x => x.id === id);
+function inText(cite) {   // APA 7 in-text: "(OpenStax, 2024)", "(Siegel et al., 2007)", "(Adamkin & Committee on Fetus and Newborn, 2011)"
+  const m = /^(.+?)\s*\((\d{4}|n\.d\.)\)/.exec(String(cite).replace(/<[^>]+>/g, '')); if (!m) return '';
+  const who = m[1].trim().replace(/\.$/, '');
+  const people = [...who.matchAll(/([A-Z][\w'’-]+), (?:[A-Z]\.\s?-?)+/g)].map(x => x[1]);
+  let a = who;
+  if (people.length && who.startsWith(people[0] + ',')) {
+    const rest = who.split(/,?\s*&\s*/);
+    a = people.length >= 3 ? `${people[0]} et al.` : people.length === 2 ? `${people[0]} & ${people[1]}` : rest.length > 1 ? `${people[0]} & ${rest[rest.length - 1]}` : people[0];
+  }
+  return `(${a}, ${m[2]})`;
+}
+function refsBlock(q, note) {
+  const own = (q.refs || []).map(k => nclexRefs[k]).filter(Boolean);
+  const list = (own.length ? own : refsFor(q)).map(([cite, url]) => `<li><p class="apa">${cite} ${url}</p><a href="${url}" target="_blank" rel="noopener noreferrer">Open source ↗</a></li>`).join('');
+  const sec = q.bookSection && sectionById2(q.bookSection);
+  const book = sec ? `<div class="nb-ref book related"><p class="nb-tiny strong">Related reading in the book</p><p class="apa">${BOOK_APA}</p><div class="book-ref"><span class="pg">${escape(sec.title)} · ${sec.start === sec.end ? `p. ${sec.start}` : `pp. ${sec.start}–${sec.end}`}</span><button class="mini" data-action="show-page" data-page="${sec.start}" data-target="pg-${cssId(q.id)}" aria-expanded="false">View page ${sec.start}</button><button class="mini" data-action="open-page" data-page="${sec.start}">Open in the book</button></div><div id="pg-${cssId(q.id)}"></div></div>` : '';
+  const cites = [...new Set(own.map(([c]) => inText(c)).filter(Boolean))];
+  return `<details class="nb-sources"><summary>${icon('book')}Sources &amp; references (APA)</summary><ul class="nb-ref">${list}</ul>${book}<p class="nb-tiny">${cites.length ? `In-text: ${cites.join('; ')}. ` : ''}${note}${q.topic ? ` · ${escape(q.topic)}` : ''}. Check the rationale against these sources; follow current guidelines and your facility’s policy.</p></details>`;
 }
 
 // Tutor card (dashboard) and the tutor intro shown at the start of a tutor session.

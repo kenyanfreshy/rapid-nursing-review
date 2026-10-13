@@ -58,7 +58,7 @@ with sync_playwright() as p:
     m.goto(U); m.evaluate('localStorage.clear()'); m.reload(); m.wait_for_timeout(500)
     check('phone: panel closed by default',not m.is_visible('#book-panel'))
     m.screenshot(path=f'{OUT}/phone-dashboard.png')
-    m.click('.book-toggle'); m.wait_for_timeout(300); check('phone: panel opens as overlay',m.is_visible('#book-panel') and m.is_visible('#book-backdrop'))
+    m.click('.book-toggle'); m.wait_for_timeout(300); check('phone: book opens full screen with no dimmed layer',m.is_visible('#book-panel') and not m.is_visible('#book-backdrop') and m.evaluate("(()=>{const r=document.querySelector('#book-panel').getBoundingClientRect();return r.x===0&&Math.round(r.width)===innerWidth})()"))
     m.click('#book-panel [data-action=toc-expand][data-id=cardio]'); m.screenshot(path=f'{OUT}/phone-contents.png')
     m.click('#book-panel [data-action=read-section][data-id=cardio-hf]'); m.wait_for_timeout(400); m.screenshot(path=f'{OUT}/phone-reader.png')
     check('phone: no horizontal scroll',m.evaluate('document.documentElement.scrollWidth<=window.innerWidth'))
