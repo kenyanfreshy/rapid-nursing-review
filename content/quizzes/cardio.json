@@ -1,0 +1,1960 @@
+{
+  "chapter": "cardio",
+  "questions": [
+    {
+      "id": "cardio-basics-q1",
+      "section": "cardio-basics",
+      "type": "mcq",
+      "stem": "While auscultating a client with known left ventricular hypertrophy, the nurse hears an extra sound immediately before S1 that sounds like \"Ten-nes-see.\" How should the nurse interpret this finding?",
+      "options": [
+        "An S4 reflecting a stiff, noncompliant ventricle",
+        "An S3 reflecting acute fluid overload",
+        "A normal S1 from mitral and tricuspid closure",
+        "A normal S2 from aortic and pulmonic closure"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book describes S4 as an atrial gallop heard just before S1 that indicates a stiff ventricle, as seen in LVH.",
+        "S3 sounds like \"Kentucky\" and is heard just after S2, not before S1.",
+        "S1 is the normal \"lub\"; an added sound before it is not S1 itself.",
+        "S2 marks the end of systole and is heard at the base; it does not precede S1 as an extra sound."
+      ],
+      "clue": "The extra sound occurs just before S1 in a client with LVH.",
+      "priority": "Recognize an S4 gallop as a sign of a stiff ventricle.",
+      "page": 44,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-basics-q2",
+      "section": "cardio-basics",
+      "type": "mcq",
+      "stem": "During a cardiac assessment, the nurse hears an extra heart sound just after S2 with a \"Ken-tuck-y\" cadence. The nurse recognizes this finding most likely signals which problem?",
+      "options": [
+        "A stiff ventricle from recent infarction",
+        "Fluid overload associated with heart failure",
+        "Normal closure of the semilunar valves",
+        "Normal onset of ventricular systole"
+      ],
+      "correct": 1,
+      "rationales": [
+        "A stiff ventricle produces S4, which is heard before S1, not after S2.",
+        "The book links S3, heard just after S2, to fluid overload in conditions such as CHF and valve insufficiency.",
+        "Semilunar valve closure is S2 itself, not an added sound following it.",
+        "S1 marks the beginning of systole; it is not an extra sound after S2."
+      ],
+      "clue": "The added sound follows S2 with a \"Kentucky\" cadence.",
+      "priority": "Link an S3 gallop to fluid overload.",
+      "page": 44,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-basics-q3",
+      "section": "cardio-basics",
+      "type": "mcq",
+      "stem": "A dehydrated client receives an IV fluid bolus. A student asks which cardiac concept is most directly increased by this intervention. Which response by the nurse is correct?",
+      "options": [
+        "Afterload, the resistance the heart pushes against",
+        "Afterload, because the heart must squeeze faster",
+        "Preload, the volume filling the heart before it contracts",
+        "Preload, the pressure the heart faces during ejection"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Afterload is the resistance to ejection, like a tightly tied balloon neck, not the incoming volume.",
+        "Afterload is defined by resistance after contraction starts, not by the rate of contraction.",
+        "The book defines preload as the volume before the squeeze, the blood coming into the heart; giving fluid adds to that volume.",
+        "This mixes the two concepts; pressure to push against during ejection describes afterload."
+      ],
+      "clue": "IV fluid adds volume returning to the heart.",
+      "priority": "Apply the preload versus afterload distinction to an intervention.",
+      "page": 44,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-basics-q4",
+      "section": "cardio-basics",
+      "type": "matrix",
+      "page": 44,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is reviewing auscultation findings for clients on a cardiac unit. For each description, indicate whether it describes an S3 or an S4 gallop.",
+      "rows": [
+        "Heard just after S2",
+        "Heard just before S1 (pre-systolic)",
+        "Points to a stiff ventricle, as in LVH or MI",
+        "May signal fluid overload in CHF or cor pulmonale",
+        "Associated with aortic stenosis"
+      ],
+      "columns": [
+        "S3",
+        "S4"
+      ],
+      "correct": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "The book places S3, the \"Kentucky\" ventricular gallop, just after S2.",
+        "S4, the \"Tennessee\" atrial gallop, is heard just before S1.",
+        "The book says S4 indicates a stiff ventricle, giving LVH and MI as examples.",
+        "The book links S3 to fluid overload in conditions such as CHF, pulmonary hypertension and cor pulmonale.",
+        "The book lists aortic stenosis as associated with S4."
+      ],
+      "clue": "The timing of the extra sound relative to S1 and S2 separates S3 from S4.",
+      "priority": "Classify gallops by timing and the condition they suggest.",
+      "checked": true
+    },
+    {
+      "id": "cardio-basics-q5",
+      "section": "cardio-basics",
+      "type": "sata",
+      "page": 44,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse auscultates the heart of a client recently diagnosed with pulmonary embolism. Which statements about the client's S2 heart sound are accurate? Select all that apply.",
+      "options": [
+        "It is produced by closure of the aortic and pulmonic valves",
+        "It is heard best at the apex, 5th ICS, midclavicular line",
+        "It is heard best at the base, 2nd ICS, right and left sternal borders",
+        "It may be louder in this client because of the pulmonary embolism",
+        "It marks the beginning of systole",
+        "It is produced by closure of the mitral and tricuspid valves"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "The book describes S2 (\"dub\") as closure of the aortic and pulmonic valves.",
+        "The apex at the 5th ICS, midclavicular line, is where the book says S1 is heard best.",
+        "The book says S2 is heard best at the base, 2nd ICS at the right and left sternal borders.",
+        "The book notes that S2 is louder in clients with PE.",
+        "S2 marks the end of systole and start of diastole; S1 marks the beginning of systole.",
+        "Mitral and tricuspid closure produces S1, not S2."
+      ],
+      "clue": "The client has a pulmonary embolism, which the book links to a louder S2.",
+      "priority": "Locate and interpret S2 correctly during cardiac auscultation.",
+      "checked": true
+    },
+    {
+      "id": "cardio-tamponade-q1",
+      "section": "cardio-tamponade",
+      "type": "mcq",
+      "stem": "A client with a penetrating chest wound becomes hypotensive with distended neck veins and muffled heart sounds. What is the nurse's first action?",
+      "options": [
+        "Reassess vital signs again in 30 minutes",
+        "Position flat and continue routine monitoring",
+        "Request a routine echocardiogram for the morning",
+        "Call for emergency help, as this is a true emergency"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Tamponade requires urgent diagnosis and treatment; delaying reassessment wastes critical time.",
+        "The book advises HOB 30-45 degrees if stable and emergency escalation, not routine monitoring.",
+        "The book stresses urgent diagnosis and treatment; a deferred study is inappropriate.",
+        "Hypotension, JVD and muffled heart sounds are Beck's triad; the book's first nursing priority for tamponade is to call for help."
+      ],
+      "clue": "Beck's triad appears after penetrating chest trauma.",
+      "priority": "Escalate suspected cardiac tamponade as an emergency.",
+      "page": 45,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "cardio-tamponade-q2",
+      "section": "cardio-tamponade",
+      "type": "mcq",
+      "stem": "The nurse suspects cardiac tamponade in a post-trauma client. Which additional assessment finding best supports this suspicion?",
+      "options": [
+        "Systolic BP falls more than 10 mm Hg on inspiration",
+        "Widening pulse pressure with bounding pulses",
+        "Bradycardia with a regular rhythm",
+        "A narrowed mediastinum on chest x-ray"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book lists pulsus paradoxus, a drop of more than 10 mm Hg in BP during inspiration, as a sign of tamponade.",
+        "The book lists a narrow pulse pressure, not a widening one, in tamponade.",
+        "Tachycardia, not bradycardia, is listed among tamponade signs.",
+        "The book describes a widened mediastinum on chest x-ray in tamponade."
+      ],
+      "clue": "Blood pressure changes with the respiratory cycle.",
+      "priority": "Identify pulsus paradoxus as a tamponade finding.",
+      "page": 45,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-tamponade-q3",
+      "section": "cardio-tamponade",
+      "type": "mcq",
+      "stem": "A hemodynamically stable client with suspected cardiac tamponade is awaiting pericardiocentesis. How should the nurse position the client?",
+      "options": [
+        "Supine and flat with legs elevated",
+        "Head of bed elevated 30-45 degrees",
+        "Prone to reduce pressure on the heart",
+        "Left lateral with head of bed flat"
+      ],
+      "correct": 1,
+      "rationales": [
+        "This is not the position the book recommends for a stable tamponade client.",
+        "The book's nursing priorities state HOB 30-45 degrees if the client is stable.",
+        "Prone positioning is not mentioned and would hinder monitoring and the procedure.",
+        "The book specifies head elevation of 30-45 degrees, not a flat side-lying position."
+      ],
+      "clue": "The client is stable while awaiting the procedure.",
+      "priority": "Position a stable tamponade client correctly.",
+      "page": 45,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "cardio-tamponade-q4",
+      "section": "cardio-tamponade",
+      "type": "sata",
+      "page": 45,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "A client who had blunt chest trauma has a BP of 84/60 mm Hg, distended neck veins and muffled heart sounds. The client is awake and the nurse suspects cardiac tamponade. Which actions should the nurse include in the immediate plan? Select all that apply.",
+      "options": [
+        "Schedule an echocardiogram for the next routine opening",
+        "Administer oxygen and prepare for intubation if needed",
+        "Place the client flat with the head of the bed at 0 degrees",
+        "Prepare the client for pericardiocentesis or the OR",
+        "Monitor vital signs, mental status, ECG and SpO2",
+        "Wait for the next set of vital signs before notifying anyone"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "The book calls tamponade a medical emergency needing urgent diagnosis and treatment, so a routine study is not appropriate.",
+        "The book lists giving oxygen and preparing for intubation if needed as a nursing priority.",
+        "The book directs HOB 30-45 degrees if the client is stable, not flat.",
+        "Preparing for pericardiocentesis or the OR is one of the book's nursing priorities.",
+        "The book lists monitoring VS, mental status, ECG and SpO2 as a priority.",
+        "The book's first priority is to call for help because tamponade is a true emergency."
+      ],
+      "clue": "Beck's triad (hypotension, JVD, muffled heart sounds) after chest trauma.",
+      "priority": "Plan emergency care for suspected cardiac tamponade.",
+      "checked": true
+    },
+    {
+      "id": "cardio-tamponade-q5",
+      "section": "cardio-tamponade",
+      "type": "mcq",
+      "page": 45,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A client with suspected cardiac tamponade is awaiting pericardiocentesis. Which equipment should the nurse make sure is at the bedside?",
+      "options": [
+        "A sequential compression device for DVT prevention",
+        "A bedside commode to limit exertion",
+        "A crash cart and defibrillator",
+        "An incentive spirometer for lung expansion"
+      ],
+      "correct": 2,
+      "rationales": [
+        "DVT prevention is not the immediate safety concern the book lists for tamponade.",
+        "Toileting equipment does not address the risk of sudden deterioration.",
+        "The book's nursing priorities include keeping a crash cart and defibrillator at the bedside.",
+        "Lung expansion is not the priority; the book focuses on readiness for emergency resuscitation."
+      ],
+      "clue": "Tamponade can deteriorate suddenly while the client waits for the procedure.",
+      "priority": "Keep emergency equipment ready for a client at risk of arrest.",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q1",
+      "section": "cardio-acs",
+      "type": "mcq",
+      "stem": "A client arrives in the emergency department reporting crushing chest pain that began 30 minutes ago. Which action should the nurse take first?",
+      "options": [
+        "Draw a lipid panel to assess cardiac risk",
+        "Schedule an exercise stress test",
+        "Obtain a 12-lead ECG within 10 minutes of arrival",
+        "Start a high-intensity statin by mouth"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Lipids do not guide immediate ACS diagnosis or reperfusion decisions.",
+        "Stress testing is not part of the immediate ACS priorities the book lists.",
+        "The book states the priority in ACS is a 12-lead ECG within 10 minutes.",
+        "Statins are post-MI therapy; the ECG comes first to identify STEMI."
+      ],
+      "clue": "Acute chest pain suggests acute coronary syndrome.",
+      "priority": "Prioritize a rapid 12-lead ECG in suspected ACS.",
+      "page": 47,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q2",
+      "section": "cardio-acs",
+      "type": "mcq",
+      "stem": "A client with an inferior MI has ST elevation in V4R and a low blood pressure. Which prescribed medication should the nurse question?",
+      "options": [
+        "IV fluid bolus to support blood pressure",
+        "Dobutamine infusion for inotropic support",
+        "Chewable aspirin to inhibit platelets",
+        "Sublingual nitroglycerin for chest pain"
+      ],
+      "correct": 3,
+      "rationales": [
+        "The book recommends IV fluids for right ventricular infarct.",
+        "Positive inotropes such as dobutamine are recommended for right ventricular infarct.",
+        "Aspirin is given in MI unless contraindicated; nothing in the stem contraindicates it.",
+        "The book says to avoid nitrates in right ventricular infarct because they worsen already low preload."
+      ],
+      "clue": "ST elevation in V4R with hypotension indicates right ventricular infarct.",
+      "priority": "Avoid preload reducers in right ventricular MI.",
+      "page": 48,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q3",
+      "section": "cardio-acs",
+      "type": "mcq",
+      "stem": "A client with NSTEMI reports taking sildenafil earlier today. Before giving nitroglycerin, what is the nurse's main concern?",
+      "options": [
+        "Dangerous hypotension from the nitrate and PDE-5 inhibitor combination",
+        "Severe bradycardia from unopposed alpha stimulation",
+        "Increased bleeding from combined platelet inhibition",
+        "Rebound hypertension once the nitrate wears off"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book warns that nitrates combined with PDE-5 inhibitors such as sildenafil can cause dangerous hypotension.",
+        "Unopposed alpha stimulation relates to beta-blockers with cocaine, not nitrates with sildenafil.",
+        "Bleeding risk is not the interaction the book describes for nitrates and sildenafil.",
+        "The book describes hypotension, not rebound hypertension, with this combination."
+      ],
+      "clue": "The client took sildenafil before nitrate therapy.",
+      "priority": "Recognize the nitrate and PDE-5 inhibitor interaction.",
+      "page": 47,
+      "clientNeed": "safety",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q4",
+      "section": "cardio-acs",
+      "type": "mcq",
+      "page": 46,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The emergency department nurse is caring for four clients with chest pain. Which client should the nurse see first?",
+      "options": [
+        "A client whose exertional chest pain stopped when he rested in triage",
+        "A client with chest pain for 30 minutes, diaphoresis, shortness of breath and ST elevation",
+        "A client with known variant angina who is pain free and asking about calcium channel blockers",
+        "A client whose earlier chest pain has resolved and whose first troponin was not elevated"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Chest pain that ceases when exertion stops matches the book's description of stable angina.",
+        "Pain over 20 minutes with diaphoresis, shortness of breath and ST elevation are STEMI signs; the book labels STEMI an emergency needing immediate reperfusion.",
+        "This client is pain free; variant angina is treated with CCBs or NTG, and no acute change is described.",
+        "The client is pain free now; the book notes troponin does not rise in unstable angina, and STEMI is the more urgent problem."
+      ],
+      "clue": "ST elevation with ongoing pain, diaphoresis and shortness of breath.",
+      "priority": "Prioritize the client with STEMI for immediate reperfusion.",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q5",
+      "section": "cardio-acs",
+      "type": "mcq",
+      "page": 46,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A client arrives at a small rural hospital with STEMI. The hospital has no cardiac catheterization lab. Which plan of care does the nurse anticipate?",
+      "options": [
+        "Admit to telemetry and repeat the troponin in 6 hours",
+        "Give aspirin and schedule an elective PCI for next week",
+        "Manage as NSTEMI with early PCI only if the client is high risk",
+        "Give fibrinolytic therapy, then transfer the client for catheterization"
+      ],
+      "correct": 3,
+      "rationales": [
+        "STEMI needs immediate reperfusion; observation and repeat labs delay it.",
+        "Delaying PCI contradicts the book's goal of restoring perfusion as soon as possible.",
+        "Early PCI for high-risk clients is the book's NSTEMI treatment, not STEMI.",
+        "The book states that if no cath lab is available, fibrinolytics are given and the client is then sent to a cath lab."
+      ],
+      "clue": "STEMI in a facility without a cath lab.",
+      "priority": "Coordinate reperfusion and transfer for STEMI.",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q6",
+      "section": "cardio-acs",
+      "type": "sata",
+      "page": 47,
+      "clientNeed": "safety",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse reviews prescriptions for beta-blockers for several clients with acute coronary syndrome. For which clients should the nurse question the beta-blocker? Select all that apply.",
+      "options": [
+        "A client with chest pain who used cocaine 1 hour ago",
+        "A client 12 hours after MI with HR 84/min and BP 134/82 mm Hg",
+        "A client with a PR interval of 0.28 seconds and no pacemaker",
+        "A client with active bronchospasm from severe asthma",
+        "A client with BP 152/94 mm Hg and HR 96/min",
+        "A client with acute decompensated heart failure and pulmonary edema"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "rationales": [
+        "The book says to avoid pure beta-blockers with acute cocaine effect because of the risk of unopposed alpha stimulation.",
+        "The book recommends starting a beta-blocker within 24 hours after MI when there is no bradycardia or hypotension.",
+        "The book lists AV block with a PR interval over 0.24 s and no pacer as a reason to avoid beta-blockers.",
+        "Active bronchospasm from severe asthma or COPD is a listed reason to avoid beta-blockers.",
+        "An elevated BP and heart rate are not among the book's contraindications.",
+        "The book lists acute decompensated heart failure and pulmonary edema as a reason to avoid beta-blockers."
+      ],
+      "clue": "Each client is checked against the book's list of beta-blocker contraindications.",
+      "priority": "Prevent harm by questioning contraindicated beta-blocker orders.",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q7",
+      "section": "cardio-acs",
+      "type": "matrix",
+      "page": 48,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with an inferior MI has ST elevation in V4R and a BP of 82/50 mm Hg. For each intervention, indicate whether it is indicated or contraindicated for this client.",
+      "rows": [
+        "IV fluid bolus",
+        "Dobutamine infusion",
+        "Sublingual nitroglycerin",
+        "IV furosemide",
+        "IV morphine for chest pain"
+      ],
+      "columns": [
+        "Indicated",
+        "Contraindicated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "rationales": [
+        "The book says to treat a right ventricular infarct with IV fluids.",
+        "Positive inotropes such as dobutamine are recommended for right ventricular infarct.",
+        "The book says to avoid nitrates in right ventricular infarct because they worsen already low preload.",
+        "The book says to avoid diuretics in right ventricular infarct for the same reason.",
+        "The book says to avoid morphine in right ventricular MI because it reduces preload."
+      ],
+      "clue": "ST elevation in V4R with hypotension signals right ventricular infarct.",
+      "priority": "Support preload and avoid preload reducers in right ventricular MI.",
+      "checked": true
+    },
+    {
+      "id": "cardio-acs-q8",
+      "section": "cardio-acs",
+      "type": "mcq",
+      "page": 47,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client is tense and tearful as the nurse prepares to remove a femoral sheath after PCI. The client says, \"I'm scared this is going to hurt.\" Which action by the nurse is most appropriate?",
+      "options": [
+        "Address the client's pain and anxiety before and during sheath removal",
+        "Give sublingual nitroglycerin to help the client relax",
+        "Remove the sheath quickly before the anxiety builds",
+        "Limit direct pressure to 5 minutes to shorten the discomfort"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book warns of a vasovagal response during sheath removal and directs the nurse to manage pain and anxiety.",
+        "The book says to hold nitrates (preload reducers) during sheath removal because of hypotension risk.",
+        "Rushing ignores the client's fear and does not reduce the vasovagal risk the book describes.",
+        "The book calls for direct pressure for at least 20 minutes to stop bleeding."
+      ],
+      "clue": "The client is frightened and in pain right before sheath removal.",
+      "priority": "Manage anxiety and pain to reduce the vasovagal response.",
+      "checked": true
+    },
+    {
+      "id": "cardio-cardiomyopathy-q1",
+      "section": "cardio-cardiomyopathy",
+      "type": "mcq",
+      "stem": "A 19-year-old athlete is diagnosed with hypertrophic cardiomyopathy with asymmetric septal hypertrophy. Which risk should the nurse emphasize in teaching?",
+      "options": [
+        "Progressive enlargement of the ventricles",
+        "Sudden death from ventricular arrhythmias",
+        "Blood stasis leading to thrombus formation",
+        "Death within 1-2 years from stiff ventricles"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Enlarged ventricles describe dilated cardiomyopathy, not HCM.",
+        "The book links HCM to sudden death in young athletes from ventricular arrhythmias due to asymmetric septal hypertrophy.",
+        "Blood stasis is listed as a feature of dilated cardiomyopathy.",
+        "This prognosis is given for restrictive cardiomyopathy."
+      ],
+      "clue": "A young athlete has asymmetric septal hypertrophy.",
+      "priority": "Teach the sudden-death risk in HCM.",
+      "page": 49,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-cardiomyopathy-q2",
+      "section": "cardio-cardiomyopathy",
+      "type": "mcq",
+      "stem": "An echocardiogram shows enlarged ventricles, atrial enlargement and impaired systolic function. The nurse recognizes which type of cardiomyopathy?",
+      "options": [
+        "Restrictive cardiomyopathy, the least common type",
+        "Hypertrophic cardiomyopathy with rapid contraction",
+        "Dilated cardiomyopathy, the most common type",
+        "Hypertrophic cardiomyopathy with impaired relaxation"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Restrictive disease has stiff ventricles with preserved contraction.",
+        "HCM features thickened walls and rapid contraction, not impaired systolic function.",
+        "The book lists enlarged ventricles, impaired systolic function and atrial enlargement as features of dilated cardiomyopathy, the most common type.",
+        "Impaired relaxation with thickened walls describes HCM, not enlarged ventricles."
+      ],
+      "clue": "The ventricles are enlarged and systolic function is impaired.",
+      "priority": "Differentiate cardiomyopathy types by their features.",
+      "page": 49,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-cardiomyopathy-q3",
+      "section": "cardio-cardiomyopathy",
+      "type": "mcq",
+      "stem": "The nurse is taking a history from a client newly diagnosed with cardiomyopathy. Which lifestyle question is most relevant according to the assessment guidance?",
+      "options": [
+        "\"How many hours of sleep do you get?\"",
+        "\"How much caffeine do you have each day?\"",
+        "\"How often do you eat fast food meals?\"",
+        "\"How much alcohol do you usually drink?\""
+      ],
+      "correct": 3,
+      "rationales": [
+        "Sleep is not among the lifestyle factors the book lists for cardiomyopathy.",
+        "Caffeine intake is not included in the book's cardiomyopathy assessment.",
+        "Diet pattern is not a lifestyle factor named in the book's assessment.",
+        "The book lists assessing patterns of alcohol consumption under lifestyle factors for cardiomyopathy."
+      ],
+      "clue": "The history focuses on cardiomyopathy risk factors.",
+      "priority": "Assess modifiable contributors to cardiomyopathy.",
+      "page": 50,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-cardiomyopathy-q4",
+      "section": "cardio-cardiomyopathy",
+      "type": "sata",
+      "page": 50,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "A client with cardiomyopathy is starting several medications. Which statements by the nurse correctly describe the expected drug effects? Select all that apply.",
+      "options": [
+        "\"Hydralazine will mainly dilate your veins.\"",
+        "\"The beta-blocker will slow your heart rate and lower your blood pressure.\"",
+        "\"Digoxin strengthens contractions by inhibiting the sodium-potassium pump.\"",
+        "\"Verapamil works by increasing calcium entry into heart muscle cells.\"",
+        "\"Nitrates mainly dilate your veins.\"",
+        "\"Digoxin weakens contractions so your heart can rest.\""
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "The book states hydralazine dilates arteries; it is nitrates that primarily dilate veins.",
+        "The book says beta-blockers decrease myocardial oxygen demand, resulting in a slow HR and reduced BP.",
+        "The book says digoxin increases contraction force by inhibiting Na+/K+-ATPase, raising intracellular calcium.",
+        "The book says calcium channel blockers such as verapamil block calcium influx.",
+        "The book states nitrates primarily dilate veins.",
+        "The book describes digoxin as increasing, not reducing, the force of contraction."
+      ],
+      "clue": "Each statement names a drug from the cardiomyopathy treatment list.",
+      "priority": "Teach accurate mechanisms of cardiomyopathy medications.",
+      "checked": true
+    },
+    {
+      "id": "cardio-cardiomyopathy-q5",
+      "section": "cardio-cardiomyopathy",
+      "type": "matrix",
+      "page": 49,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse is reviewing notes for clients with cardiomyopathy. For each finding, indicate the type of cardiomyopathy it describes.",
+      "rows": [
+        "Enlarged ventricles with blood stasis",
+        "Thickened ventricular walls with rapid contraction",
+        "Stiff ventricles with preserved contraction",
+        "Impaired relaxation and a risk of sudden death in young athletes",
+        "Least common type; many clients die within 1-2 years"
+      ],
+      "columns": [
+        "Dilated",
+        "Hypertrophic",
+        "Restrictive"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "rationales": [
+        "The book lists enlarged ventricles and blood stasis under dilated cardiomyopathy.",
+        "Thickened walls and rapid contraction are characteristics of hypertrophic cardiomyopathy.",
+        "Stiff ventricles, impaired filling and preserved contraction describe restrictive cardiomyopathy.",
+        "The book lists impaired relaxation for HCM and links it to sudden death in young athletes.",
+        "The book calls restrictive cardiomyopathy the least common type with a poor 1-2 year prognosis."
+      ],
+      "clue": "Wall size, contraction and filling patterns differ by type.",
+      "priority": "Differentiate the three types of cardiomyopathy.",
+      "checked": true
+    },
+    {
+      "id": "cardio-cardiomyopathy-q6",
+      "section": "cardio-cardiomyopathy",
+      "type": "mcq",
+      "page": 50,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "A 28-year-old female client is being evaluated for newly diagnosed cardiomyopathy. Along with her alcohol intake, which assessment is most important for the nurse to include?",
+      "options": [
+        "Her history of seasonal pollen allergies",
+        "Her usual number of hours of sleep",
+        "Whether she is currently pregnant",
+        "Her daily caffeine intake"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Pollen allergies are not listed; the book asks about hypersensitive reactions to medications.",
+        "Sleep is not among the factors the book lists for cardiomyopathy assessment.",
+        "The book directs the nurse to determine whether female clients are pregnant.",
+        "Caffeine is not one of the lifestyle factors the book names; alcohol is."
+      ],
+      "clue": "A woman of childbearing age with new cardiomyopathy.",
+      "priority": "Include pregnancy status in the cardiomyopathy history.",
+      "checked": true
+    },
+    {
+      "id": "cardio-hf-q1",
+      "section": "cardio-hf",
+      "type": "mcq",
+      "stem": "A client reports waking at night short of breath and needing three pillows to sleep. Crackles and pink frothy sputum are present. The nurse recognizes these findings as consistent with which condition?",
+      "options": [
+        "Left-sided heart failure with pulmonary congestion",
+        "Right-sided heart failure with systemic congestion",
+        "Restrictive cardiomyopathy with preserved contraction",
+        "Hypertensive urgency without organ involvement"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book lists PND, orthopnea, crackles and pink frothy sputum under left-sided failure (\"Left = Lungs\").",
+        "Right-sided failure shows peripheral edema and JVD, with minimal pulmonary signs.",
+        "These pulmonary findings are described under left-sided heart failure, not restrictive disease.",
+        "Pulmonary edema signals organ involvement and is not described as urgency."
+      ],
+      "clue": "Orthopnea, PND and crackles point to the lungs.",
+      "priority": "Differentiate left- from right-sided heart failure.",
+      "page": 51,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-hf-q2",
+      "section": "cardio-hf",
+      "type": "mcq",
+      "stem": "A client with heart failure is comfortable at rest but becomes markedly short of breath walking to the bathroom. Which NYHA class does the nurse document?",
+      "options": [
+        "Class I",
+        "Class III",
+        "Class II",
+        "Class IV"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Class I means no symptoms with normal activity.",
+        "The book defines Class III as marked symptoms with minimal activity.",
+        "Class II means mild symptoms with moderate activity.",
+        "Class IV means symptoms are present even at rest, which this client denies."
+      ],
+      "clue": "Symptoms are marked with minimal activity but absent at rest.",
+      "priority": "Classify functional status using NYHA classes.",
+      "page": 51,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-hf-q3",
+      "section": "cardio-hf",
+      "type": "mcq",
+      "stem": "A client with heart failure and low urine output is started on dopamine at 2 mcg/kg/min. The nurse understands the expected effect at this dose is which?",
+      "options": [
+        "Alpha-receptor vasoconstriction",
+        "Mainly beta-1 cardiac stimulation",
+        "Renal vasodilation",
+        "Slowing of heart rate and lower BP"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Alpha-mediated vasoconstriction is listed for doses above 10 mcg/kg/min.",
+        "Beta-1 cardiac stimulation is listed for the 3-10 mcg/kg/min range.",
+        "The book states dopamine at 0.5-3 mcg/kg/min produces renal vasodilation.",
+        "This describes beta-blocker effects, not low-dose dopamine."
+      ],
+      "clue": "The infusion rate is 2 mcg/kg/min.",
+      "priority": "Match dopamine dose ranges to receptor effects.",
+      "page": 52,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "cardio-hf-q4",
+      "section": "cardio-hf",
+      "type": "sata",
+      "page": 52,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "stem": "A client is admitted with dyspnea, orthopnea and edema. Which diagnostic findings would support a diagnosis of heart failure? Select all that apply.",
+      "options": [
+        "Normal basic labs, which rule out heart failure",
+        "BNP of 450 pg/mL",
+        "BNP of 40 pg/mL",
+        "Chest x-ray showing cardiomegaly and pleural effusion",
+        "ECG showing left ventricular hypertrophy"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "The book states that normal labs do not exclude heart failure.",
+        "The book lists a BNP of 100 pg/mL or higher as a heart failure finding.",
+        "A BNP of 40 pg/mL is below the book's 100 pg/mL threshold.",
+        "The book lists cardiomegaly, pulmonary edema and pleural effusion as chest x-ray findings.",
+        "The book notes the ECG in heart failure may show arrhythmia or LVH."
+      ],
+      "clue": "Classic heart failure symptoms need diagnostic confirmation.",
+      "priority": "Interpret basic heart failure diagnostics.",
+      "checked": true
+    },
+    {
+      "id": "cardio-hf-q5",
+      "section": "cardio-hf",
+      "type": "matrix",
+      "page": 51,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with right-sided heart failure has pitting edema of both legs, JVD and ascites. For each nursing action, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Elevate the client's legs",
+        "Keep the legs dependent to help fluid drain",
+        "Support sodium restriction as prescribed",
+        "Infuse a large IV fluid bolus to improve output",
+        "Monitor daily weight for gain"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "The book's caution for right-sided failure says to elevate the legs.",
+        "Dependent positioning is the opposite of the book's advice to elevate the legs.",
+        "The book lists sodium restriction, used cautiously, for right-sided failure.",
+        "The book says to manage fluids carefully in right-sided failure; a large bolus adds to fluid overload.",
+        "Weight gain is a listed symptom of right-sided failure, so tracking it is appropriate."
+      ],
+      "clue": "Peripheral edema, JVD and ascites point to systemic congestion.",
+      "priority": "Provide comfort measures that reduce systemic congestion.",
+      "checked": true
+    },
+    {
+      "id": "cardio-hf-q6",
+      "section": "cardio-hf",
+      "type": "mcq",
+      "page": 51,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients with heart failure. Which client should the nurse see first?",
+      "options": [
+        "A client with Class II HF who has mild dyspnea climbing stairs",
+        "A client with right-sided HF who has stable ankle edema and nocturia",
+        "A client with HF who reports anorexia and fatigue at breakfast",
+        "A client with left-sided HF who is newly restless and confused with pink frothy sputum"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Class II means mild symptoms with moderate activity; this is expected and stable.",
+        "Peripheral edema and nocturia are expected right-sided findings and are described as stable.",
+        "Anorexia and fatigue are listed right-sided symptoms but are not acute.",
+        "The book lists pink frothy sputum, restlessness and confusion under left-sided failure with pulmonary congestion; new changes signal worsening."
+      ],
+      "clue": "New restlessness and confusion with pink frothy sputum.",
+      "priority": "See first the client with worsening pulmonary congestion.",
+      "checked": true
+    },
+    {
+      "id": "cardio-pah-q1",
+      "section": "cardio-pah",
+      "type": "mcq",
+      "stem": "A client with pulmonary hypertension has improved on inhaled nitric oxide, and the team plans to stop it. What should the nurse anticipate?",
+      "options": [
+        "Abrupt discontinuation once oxygenation improves",
+        "Switching directly to an IV beta-blocker",
+        "Increasing the dose before stopping it",
+        "A slow taper to avoid rebound pulmonary hypertension"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Abrupt stopping risks rebound pulmonary hypertension, per the book.",
+        "No such substitution is described for nitric oxide withdrawal.",
+        "The book calls for a slow taper, not a dose increase.",
+        "The book states inhaled nitric oxide should be tapered off slowly to avoid rebound pulmonary hypertension."
+      ],
+      "clue": "Inhaled nitric oxide is being discontinued.",
+      "priority": "Prevent rebound pulmonary hypertension during weaning.",
+      "page": 52,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-pah-q2",
+      "section": "cardio-pah",
+      "type": "mcq",
+      "stem": "A client with severe pulmonary arterial hypertension is started on a continuous IV epoprostenol infusion. The family asks why this drug was chosen. Which response is accurate?",
+      "options": [
+        "It has the most substantial survival benefit of the therapies",
+        "It mainly prevents clots in the pulmonary vessels",
+        "It mainly removes excess fluid from the body",
+        "It mainly opens the airways to ease breathing"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book states IV epoprostenol has the most substantial survival benefit.",
+        "Clot prevention is the role of anticoagulants such as warfarin.",
+        "Fluid removal is the role of diuretics such as furosemide.",
+        "Bronchodilators such as albuterol are listed for breathing support."
+      ],
+      "clue": "The drug is IV epoprostenol for severe disease.",
+      "priority": "Explain the purpose of prostacyclin therapy.",
+      "page": 52,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-pah-q3",
+      "section": "cardio-pah",
+      "type": "mcq",
+      "stem": "A client's echocardiogram suggests pulmonary hypertension. Which test does the nurse anticipate to confirm the diagnosis?",
+      "options": [
+        "Thyroid-stimulating hormone level",
+        "Pulmonary artery catheter showing elevated pressures and PVR",
+        "HIV antibody screening",
+        "Pulmonary function testing"
+      ],
+      "correct": 1,
+      "rationales": [
+        "TSH is listed among tests to identify underlying causes, not to confirm the diagnosis.",
+        "The book states elevated pressures and PVR on pulmonary artery catheter confirm pulmonary hypertension.",
+        "HIV testing helps find an associated cause rather than confirm pressures.",
+        "PFTs help evaluate lung-related causes but do not confirm pulmonary pressures."
+      ],
+      "clue": "The diagnosis needs confirmation after an abnormal echo.",
+      "priority": "Identify the confirmatory test for pulmonary hypertension.",
+      "page": 53,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-pah-q4",
+      "section": "cardio-pah",
+      "type": "mcq",
+      "page": 53,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client with pulmonary arterial hypertension says, \"Every time I get short of breath I panic and think I'm going to die.\" Which nursing approach is best?",
+      "options": [
+        "Tell the client that panic is not related to the condition",
+        "Monitor the client's anxiety, offer support and help minimize stress",
+        "Encourage the client to push through activity to build tolerance",
+        "Move the conversation to the medication schedule as a distraction"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Dismissing the feeling is not supportive and ignores the book's psychosocial guidance.",
+        "The book's psychosocial assessment for PAH says to monitor anxiety, provide support and minimize stress.",
+        "Pushing through dyspnea adds stress and cardiac workload, which the goal of care seeks to reduce.",
+        "Changing the subject avoids the client's concern instead of providing support."
+      ],
+      "clue": "The client describes panic with shortness of breath.",
+      "priority": "Support the psychosocial needs of a client with PAH.",
+      "checked": true
+    },
+    {
+      "id": "cardio-pah-q5",
+      "section": "cardio-pah",
+      "type": "sata",
+      "page": 53,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse is teaching a client with pulmonary arterial hypertension about prescribed medications. Which drugs does the nurse explain promote selective pulmonary vasodilation? Select all that apply.",
+      "options": [
+        "Furosemide",
+        "Sildenafil",
+        "Warfarin",
+        "Riociguat",
+        "Tadalafil",
+        "Hydrochlorothiazide"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "The book lists furosemide as a diuretic that reduces fluid overload.",
+        "The book lists sildenafil among PAH-specific drugs that promote selective pulmonary vasodilation.",
+        "The book lists warfarin as an anticoagulant that prevents clots.",
+        "Riociguat is listed as a PAH-specific drug that promotes selective pulmonary vasodilation.",
+        "Tadalafil is listed as a PAH-specific drug that promotes selective pulmonary vasodilation.",
+        "The book lists hydrochlorothiazide as a diuretic, not a pulmonary vasodilator."
+      ],
+      "clue": "The question asks for selective pulmonary vasodilators.",
+      "priority": "Match PAH drugs to their actions.",
+      "checked": true
+    },
+    {
+      "id": "cardio-pah-q6",
+      "section": "cardio-pah",
+      "type": "mcq",
+      "page": 53,
+      "clientNeed": "hpm",
+      "cjmm": "analyzeCues",
+      "stem": "A client with obesity and obstructive sleep apnea is diagnosed with pulmonary hypertension and asks, \"How did I get this?\" Which explanation by the nurse is accurate?",
+      "options": [
+        "\"Conditions that lower your oxygen level, like sleep apnea and obesity, can lead to it.\"",
+        "\"It is idiopathic, so it cannot be linked to anything in your history.\"",
+        "\"It was most likely caused by a viral infection of your heart muscle.\"",
+        "\"It comes from fatty buildup in the arteries of your legs.\""
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book says secondary forms result from hypoxemia-related conditions such as COPD, obesity, high altitude and sleep apnea.",
+        "Idiopathic PAH has no known cause, but this client has hypoxemia-related conditions the book links to secondary forms.",
+        "Viral infection of the heart muscle describes myocarditis, not a cause of pulmonary hypertension in this section.",
+        "Atherosclerosis in the leg arteries describes peripheral arterial occlusive disease."
+      ],
+      "clue": "The client has obesity and sleep apnea.",
+      "priority": "Link modifiable hypoxemia-related conditions to secondary pulmonary hypertension.",
+      "checked": true
+    },
+    {
+      "id": "cardio-htn-q1",
+      "section": "cardio-htn",
+      "type": "mcq",
+      "stem": "A client has a BP of 210/124 mm Hg with new confusion and papilledema. Which plan of care does the nurse anticipate?",
+      "options": [
+        "Discharge home on oral clonidine with follow-up",
+        "Observation with oral captopril over 48 hours",
+        "Hospital admission with an IV agent such as nicardipine",
+        "Recheck BP in one week at the clinic"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Oral outpatient therapy is the book's approach for urgency, not emergency.",
+        "Gradual oral reduction is for urgency without target organ damage.",
+        "Papilledema and encephalopathy are target organ damage; the book directs immediate hospitalization and IV antihypertensives.",
+        "Target organ damage requires immediate hospital treatment."
+      ],
+      "clue": "Confusion and papilledema indicate end-organ damage.",
+      "priority": "Distinguish hypertensive emergency and its management.",
+      "page": 54,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-htn-q2",
+      "section": "cardio-htn",
+      "type": "mcq",
+      "stem": "A nurse is titrating IV nicardipine for a client in hypertensive emergency. What is the appropriate BP goal for the first hour?",
+      "options": [
+        "Normalize BP to below 120/80 mm Hg",
+        "Lower BP by at least 50%",
+        "Hold any reduction for 24 hours",
+        "Lower BP by no more than 25%"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Rapid normalization is not the book's goal; reduction should be rapid but cautious.",
+        "This exceeds the book's limit of 25% in the first hour.",
+        "The book calls for prompt IV reduction in emergency, not a delay.",
+        "The book's goal is to lower BP by no more than 25% within the first hour, then gradually over 24-48 hours."
+      ],
+      "clue": "The client is in the first hour of IV treatment.",
+      "priority": "Avoid lowering BP too fast in hypertensive emergency.",
+      "page": 54,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "cardio-htn-q3",
+      "section": "cardio-htn",
+      "type": "mcq",
+      "stem": "A client at the clinic has a BP of 186/122 mm Hg and a headache but no signs of organ damage. Which plan does the nurse anticipate?",
+      "options": [
+        "Gradual reduction over 24-48 hours with oral agents",
+        "ICU admission for IV sodium nitroprusside",
+        "Lower BP 25% within the first hour by IV",
+        "Immediate transfer for emergency surgery"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Without target organ damage this is urgency, managed with oral agents over 24-48 hours in an outpatient or observation setting.",
+        "IV agents and admission are for hypertensive emergency with organ damage.",
+        "This first-hour goal applies to hypertensive emergency.",
+        "Nothing in the book supports surgery for uncomplicated severe hypertension."
+      ],
+      "clue": "Severe BP elevation without end-organ damage.",
+      "priority": "Manage hypertensive urgency appropriately.",
+      "page": 54,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-htn-q4",
+      "section": "cardio-htn",
+      "type": "matrix",
+      "page": 54,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "The nurse is triaging clients whose BP is at least 180/120 mm Hg. For each client, indicate the care setting the nurse anticipates.",
+      "rows": [
+        "BP 188/122 mm Hg with headache and anxiety; exam otherwise normal",
+        "BP 204/128 mm Hg with new acute kidney injury",
+        "BP 196/126 mm Hg with papilledema",
+        "BP 184/121 mm Hg with mild shortness of breath and no end-organ findings",
+        "BP 210/130 mm Hg with signs of acute heart failure"
+      ],
+      "columns": [
+        "Outpatient or observation with oral agents",
+        "Immediate hospitalization with IV agents"
+      ],
+      "correct": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Headache and anxiety without end-organ damage is hypertensive urgency, managed outpatient or in observation with oral agents.",
+        "Acute kidney injury is target organ damage, so this is an emergency needing hospitalization and IV antihypertensives.",
+        "Papilledema is listed eye damage, making this a hypertensive emergency.",
+        "The book notes urgency may include shortness of breath but no end-organ damage.",
+        "Acute heart failure is listed heart damage, which defines hypertensive emergency."
+      ],
+      "clue": "Target organ damage, not the BP number, separates emergency from urgency.",
+      "priority": "Match level of care to hypertensive urgency or emergency.",
+      "checked": true
+    },
+    {
+      "id": "cardio-htn-q5",
+      "section": "cardio-htn",
+      "type": "mcq",
+      "page": 54,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client at the clinic has a BP of 186/122 mm Hg, a headache and feels anxious. No signs of target organ damage are found. The client asks, \"Am I going to end up in intensive care?\" Which response by the nurse is best?",
+      "options": [
+        "\"There is nothing to worry about; your blood pressure is fine.\"",
+        "\"Yes, you will need IV medicine to bring your pressure down within the hour.\"",
+        "\"I can see you are worried. There are no signs of organ damage, so the plan is to lower your pressure gradually with pills.\"",
+        "\"This is caused by your anxiety, so once you calm down it will be normal.\""
+      ],
+      "correct": 2,
+      "rationales": [
+        "This is false reassurance; the BP is severely elevated.",
+        "IV agents and a first-hour target apply to hypertensive emergency, not urgency.",
+        "This acknowledges the fear and accurately explains that urgency is managed with gradual oral reduction over 24-48 hours, usually as an outpatient or in observation.",
+        "The book lists anxiety as a possible symptom of urgency, not its cause."
+      ],
+      "clue": "Severe BP without organ damage in a worried client.",
+      "priority": "Acknowledge anxiety and give accurate information about hypertensive urgency.",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q1",
+      "section": "cardio-inflammatory",
+      "type": "mcq",
+      "stem": "A client with a history of IV drug use has fever, a new murmur and splinter hemorrhages. Which diagnostic test should the nurse anticipate collecting first?",
+      "options": [
+        "Troponin level to confirm myocarditis",
+        "Blood cultures, 3-5 sets in 24 hours",
+        "Endomyocardial biopsy",
+        "Ankle-brachial index"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Elevated troponin is emphasized for myocarditis, not endocarditis.",
+        "These findings suggest infective endocarditis; the book states blood cultures are the key finding.",
+        "Biopsy is listed for select myocarditis cases.",
+        "ABI is used to diagnose arterial occlusive disease."
+      ],
+      "clue": "IV drug use with fever, new murmur and splinter hemorrhages.",
+      "priority": "Obtain blood cultures in suspected endocarditis.",
+      "page": 56,
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q2",
+      "section": "cardio-inflammatory",
+      "type": "mcq",
+      "stem": "A client with pericarditis had sharp chest pain worse when lying flat and a friction rub. The nurse now notes JVD and a falling blood pressure. What should the nurse suspect?",
+      "options": [
+        "Expected progression of uncomplicated pericarditis",
+        "Hypertensive emergency with end-organ damage",
+        "Cardiac tamponade from a pericardial effusion",
+        "Postural hypotension needing compression stockings"
+      ],
+      "correct": 2,
+      "rationales": [
+        "JVD with hypotension signals a complication, not expected progression.",
+        "The client is hypotensive, not severely hypertensive.",
+        "The book says to always assess for tamponade in pericarditis; low BP and JVD with effusion suggest it.",
+        "Postural hypotension measures do not address new JVD in pericarditis."
+      ],
+      "clue": "New JVD and hypotension develop in pericarditis.",
+      "priority": "Detect tamponade as a complication of pericarditis.",
+      "page": 56,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q3",
+      "section": "cardio-inflammatory",
+      "type": "mcq",
+      "stem": "A client treated previously for infective endocarditis is scheduled for a dental extraction. What should the nurse anticipate?",
+      "options": [
+        "Colchicine before the procedure",
+        "IVIG infusion before the procedure",
+        "Pericardiocentesis before the procedure",
+        "Prophylactic antibiotics before the procedure"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Colchicine is listed for recurrent pericarditis.",
+        "IVIG is listed for select immune-mediated myocarditis.",
+        "Pericardiocentesis treats tamponade or large effusion.",
+        "The book lists prophylactic antibiotics before invasive procedures, including dental, for IE."
+      ],
+      "clue": "A prior IE client faces a dental extraction.",
+      "priority": "Prevent recurrent endocarditis around invasive procedures.",
+      "page": 57,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q4",
+      "section": "cardio-inflammatory",
+      "type": "mcq",
+      "page": 57,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client being treated for infective endocarditis related to injection drug use tells the nurse, \"I want to stop using, but I don't know where to start.\" Which action by the nurse is most appropriate?",
+      "options": [
+        "Explain that finishing the antibiotics is all that is needed to prevent recurrence",
+        "Tell the client that valve replacement will be needed if drug use continues",
+        "Change the topic to the antibiotic schedule to avoid upsetting the client",
+        "Arrange the addiction referral that is part of the treatment plan"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Antibiotics treat the infection but do not address the drug use that caused it.",
+        "The book reserves valve replacement for antibiotic failure or prosthetic valve infection; using it as a threat is not therapeutic.",
+        "Avoiding the topic misses the client's readiness for help.",
+        "The book lists an addiction referral when IE is related to IV drug use."
+      ],
+      "clue": "The client voices readiness to stop injection drug use.",
+      "priority": "Support recovery from substance use with a referral.",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q5",
+      "section": "cardio-inflammatory",
+      "type": "mcq",
+      "page": 56,
+      "clientNeed": "psych",
+      "cjmm": "recognizeCues",
+      "stem": "A client has fever, a new heart murmur and splinter hemorrhages. Which question should the nurse ask, in a nonjudgmental way, to gather the most relevant history?",
+      "options": [
+        "\"Have you been around anyone with tuberculosis lately?\"",
+        "\"Have you injected any drugs or had dental work recently?\"",
+        "\"Does anyone in your family have high cholesterol?\"",
+        "\"Have you recently spent time at high altitude?\""
+      ],
+      "correct": 1,
+      "rationales": [
+        "TB is listed as an infectious cause of pericarditis, not endocarditis.",
+        "The book lists IV drug use and recent dental procedures in the assessment of infective endocarditis.",
+        "Family cholesterol history does not explain fever, a new murmur and splinter hemorrhages.",
+        "High altitude is listed as a cause of secondary pulmonary hypertension."
+      ],
+      "clue": "Fever, a new murmur and splinter hemorrhages suggest endocarditis.",
+      "priority": "Ask sensitively about drug use and dental procedures.",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q6",
+      "section": "cardio-inflammatory",
+      "type": "sata",
+      "page": 56,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client has dizziness when standing because of postural hypotension. Which first-line measures should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Start midodrine before trying other measures",
+        "Leg exercises",
+        "Restrict fluid intake to reduce swelling",
+        "Compression stockings or SCDs",
+        "Start fludrocortisone as the initial treatment",
+        "Encourage electrolyte-rich fluids to maintain hydration"
+      ],
+      "correct": [
+        1,
+        3,
+        5
+      ],
+      "rationales": [
+        "The book says medications such as midodrine are started only if symptoms persist after non-drug measures.",
+        "The book lists leg exercises as first-line non-drug therapy.",
+        "The book calls for maintaining good hydration, not restricting fluids.",
+        "Compression stockings or SCDs are listed as first-line measures.",
+        "Fludrocortisone is a second-line option if symptoms persist.",
+        "The book recommends good hydration with electrolyte-rich fluids."
+      ],
+      "clue": "The client has symptomatic postural hypotension with no treatment yet.",
+      "priority": "Start with non-drug comfort and safety measures.",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q7",
+      "section": "cardio-inflammatory",
+      "type": "sata",
+      "page": 56,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A client with myocarditis is monitored for cardiogenic shock. Which findings meet the criteria for cardiogenic shock? Select all that apply.",
+      "options": [
+        "SBP of 84 mm Hg lasting 40 minutes",
+        "Warm, flushed extremities",
+        "Urine output of 20 mL/h",
+        "Lactate of 3.1 mmol/L",
+        "Urine output of 60 mL/h",
+        "SBP of 98 mm Hg that is stable"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "The book defines cardiogenic shock as SBP below 90 mm Hg for at least 30 minutes.",
+        "The book lists cold, clammy skin and extremities, not warm skin.",
+        "Urine output under 30 mL/h is a listed sign of end-organ hypoperfusion.",
+        "A lactate above 2 mmol/L is a listed sign of hypoperfusion.",
+        "This urine output is above the book's 30 mL/h threshold.",
+        "An SBP of 98 mm Hg is above the book's cut-off of 90 mm Hg."
+      ],
+      "clue": "The book says to monitor for cardiogenic shock in myocarditis.",
+      "priority": "Recognize the defining criteria of cardiogenic shock.",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q8",
+      "section": "cardio-inflammatory",
+      "type": "matrix",
+      "page": 57,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse is reviewing medication plans for clients with cardiac inflammatory conditions. For each medication, indicate the condition it is used to treat.",
+      "rows": [
+        "Penicillin G 2 million units IV every 4 hours",
+        "IVIG in select immune-mediated cases",
+        "Colchicine for recurrent episodes",
+        "Indomethacin for inflammation",
+        "Dobutamine for inotropic support"
+      ],
+      "columns": [
+        "Infective endocarditis",
+        "Myocarditis",
+        "Pericarditis"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "rationales": [
+        "The book lists penicillin G 2 million units IV q4h for infective endocarditis.",
+        "IVIG in select immune-mediated cases is listed for myocarditis.",
+        "Colchicine is listed for recurrent pericarditis.",
+        "Indomethacin is one of the NSAIDs listed for pericarditis.",
+        "Dobutamine for inotropic support is listed under myocarditis."
+      ],
+      "clue": "Each drug appears in one row of the treatment table.",
+      "priority": "Match anti-infective and anti-inflammatory drugs to their condition.",
+      "checked": true
+    },
+    {
+      "id": "cardio-inflammatory-q9",
+      "section": "cardio-inflammatory",
+      "type": "matrix",
+      "page": 56,
+      "clientNeed": "moc",
+      "cjmm": "evaluateOutcomes",
+      "stem": "A client with pericarditis is being monitored. For each finding, indicate whether it is expected with pericarditis or requires immediate follow-up.",
+      "rows": [
+        "Sharp chest pain that is worse when lying flat",
+        "Pericardial friction rub",
+        "ST elevation on the ECG",
+        "New JVD with a falling blood pressure",
+        "SBP below 90 mm Hg with urine output under 30 mL/h"
+      ],
+      "columns": [
+        "Expected",
+        "Requires immediate follow-up"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "The book lists sharp chest pain worse on inspiration or lying flat for pericarditis.",
+        "A friction rub is a hallmark the book lists for pericarditis.",
+        "The book pairs friction rub and ST elevation as pericarditis findings.",
+        "JVD and low BP signal effusion; the book says to always assess for tamponade in pericarditis.",
+        "These meet the book's cardiogenic shock criteria, which it says to monitor for in all three conditions."
+      ],
+      "clue": "Hemodynamic changes separate complications from expected pericarditis findings.",
+      "priority": "Escalate signs of tamponade or shock in pericarditis.",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q1",
+      "section": "cardio-occlusion",
+      "type": "mcq",
+      "stem": "A 70-year-old smoker reports calf pain when walking that is relieved by rest. The feet are cool and pale with diminished pulses. Which test does the nurse anticipate?",
+      "options": [
+        "Ankle-brachial index",
+        "D-dimer blood test",
+        "Venous duplex ultrasound",
+        "CT pulmonary angiography"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Claudication, cool pale skin and weak pulses point to arterial occlusive disease, and the book lists the ankle-brachial index (ABI) first among its diagnostic tests.",
+        "D-dimer is listed for venous occlusion.",
+        "Venous duplex is listed for DVT, not arterial disease.",
+        "CT pulmonary angiography is for suspected pulmonary embolism."
+      ],
+      "clue": "Claudication with cool, pale skin and weak pulses.",
+      "priority": "Recognize arterial occlusive disease and its diagnostic test.",
+      "page": 60,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q2",
+      "section": "cardio-occlusion",
+      "type": "mcq",
+      "stem": "A client with a confirmed DVT has a contraindication to anticoagulation. Which intervention does the nurse anticipate?",
+      "options": [
+        "Starting heparin despite the contraindication",
+        "Placement of an IVC filter",
+        "Supervised exercise therapy",
+        "Revascularization with bypass surgery"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Anticoagulants are contraindicated in this client.",
+        "The book lists an IVC filter if anticoagulation is contraindicated.",
+        "Exercise therapy is listed for arterial occlusive disease.",
+        "Bypass is a treatment for arterial occlusive disease."
+      ],
+      "clue": "Anticoagulation is contraindicated in a DVT client.",
+      "priority": "Select an alternative DVT treatment when anticoagulants cannot be used.",
+      "page": 60,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q3",
+      "section": "cardio-occlusion",
+      "type": "mcq",
+      "stem": "After surgery and several days of bed rest, a client's lower leg is swollen, warm, red and tender. Which test does the nurse anticipate first?",
+      "options": [
+        "Ankle-brachial index",
+        "Arterial angiography",
+        "Venous duplex ultrasound",
+        "Doppler arterial study for claudication"
+      ],
+      "correct": 2,
+      "rationales": [
+        "ABI evaluates arterial disease with cool, pale skin, not warm swelling.",
+        "Angiography is listed for arterial occlusive disease.",
+        "Swelling, warmth and redness after surgery and immobility suggest DVT; the book lists venous duplex ultrasound first among the tests for venous occlusion.",
+        "Claudication testing is for arterial disease, not venous occlusion."
+      ],
+      "clue": "Surgery and immobility with a warm, red, swollen leg.",
+      "priority": "Recognize DVT and its diagnostic test.",
+      "page": 60,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q4",
+      "section": "cardio-occlusion",
+      "type": "sata",
+      "page": 58,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is screening a 70-year-old client for peripheral arterial occlusive disease (PAOD). Which factors in the client's history increase the risk? Select all that apply.",
+      "options": [
+        "Pregnancy",
+        "Smoking",
+        "Inherited clotting disorder",
+        "Diabetes",
+        "Hyperlipidemia",
+        "Recent prolonged immobility"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "The book lists pregnancy as a risk factor for venous occlusion, not PAOD.",
+        "Smoking is a listed risk factor for arterial occlusive disease.",
+        "Inherited clotting disorders are listed for venous occlusion.",
+        "Diabetes is a listed risk factor for arterial occlusive disease.",
+        "Hyperlipidemia is a listed risk factor for arterial occlusive disease.",
+        "Prolonged immobility is listed as a venous (DVT) risk factor."
+      ],
+      "clue": "The screening is for arterial, not venous, disease.",
+      "priority": "Identify modifiable risk factors for PAOD.",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q5",
+      "section": "cardio-occlusion",
+      "type": "sata",
+      "page": 60,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with PAOD and claudication asks how to improve symptoms. Which measures in the treatment plan should the nurse reinforce? Select all that apply.",
+      "options": [
+        "Exercise therapy",
+        "Compression stockings",
+        "Smoking cessation",
+        "Thrombolytic therapy",
+        "Statin therapy as prescribed",
+        "IVC filter placement"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Exercise therapy is listed as a treatment for arterial occlusive disease.",
+        "Compression stockings are listed for venous occlusion.",
+        "Smoking cessation is the first listed treatment for arterial occlusive disease.",
+        "Thrombolytic therapy is listed for severe venous occlusion.",
+        "Statins are listed as a treatment for arterial occlusive disease.",
+        "An IVC filter is for DVT when anticoagulation is contraindicated."
+      ],
+      "clue": "The client has arterial, not venous, disease.",
+      "priority": "Reinforce lifestyle and drug measures for PAOD.",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q6",
+      "section": "cardio-occlusion",
+      "type": "matrix",
+      "page": 58,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse assesses clients with leg symptoms. For each finding, indicate whether it is more consistent with arterial occlusive disease or venous occlusion (DVT).",
+      "rows": [
+        "Calf pain with walking that eases with rest",
+        "Warm, red, tender lower leg",
+        "Ulcer on a toe",
+        "Swelling of one lower limb",
+        "Cool, pale skin with diminished pulses"
+      ],
+      "columns": [
+        "Arterial occlusive disease",
+        "Venous occlusion (DVT)"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "Claudication relieved by rest is listed for arterial disease.",
+        "Warm, red, tender skin is listed for venous occlusion.",
+        "Ulcers on toes or pressure points are listed for arterial disease.",
+        "Lower-limb swelling is listed for venous occlusion.",
+        "Cool, pale skin and diminished pulses are listed for arterial disease."
+      ],
+      "clue": "Perfusion versus congestion findings separate arterial from venous disease.",
+      "priority": "Differentiate arterial and venous occlusion by assessment.",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q7",
+      "section": "cardio-occlusion",
+      "type": "mcq",
+      "page": 58,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse on a vascular unit receives report on four clients. Which client should the nurse see first?",
+      "options": [
+        "A client with DVT who suddenly reports shortness of breath",
+        "A client with PAOD whose calf pain after walking resolved with rest",
+        "A client with DVT with stable leg swelling awaiting warfarin teaching",
+        "A client with PAOD asking about a smoking cessation program"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book warns that pulmonary embolism is possible if a DVT thrombus dislodges; sudden dyspnea needs immediate assessment.",
+        "Claudication relieved by rest is an expected PAOD finding.",
+        "Stable swelling is an expected DVT finding.",
+        "Teaching about smoking cessation is important but not urgent."
+      ],
+      "clue": "Sudden shortness of breath in a client with DVT.",
+      "priority": "See first the client with a possible pulmonary embolism.",
+      "checked": true
+    },
+    {
+      "id": "cardio-occlusion-q8",
+      "section": "cardio-occlusion",
+      "type": "sata",
+      "page": 60,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client is diagnosed with DVT. Which interventions does the nurse anticipate to treat it and prevent complications? Select all that apply.",
+      "options": [
+        "Bypass surgery for revascularization",
+        "Anticoagulant such as heparin",
+        "Supervised exercise therapy",
+        "Compression stockings",
+        "Antiplatelet agents with statins as the main therapy",
+        "IVC filter if anticoagulation is contraindicated"
+      ],
+      "correct": [
+        1,
+        3,
+        5
+      ],
+      "rationales": [
+        "Bypass surgery is listed for arterial occlusive disease.",
+        "The book lists anticoagulants such as heparin and warfarin for venous occlusion.",
+        "Exercise therapy is listed for arterial occlusive disease.",
+        "Compression stockings are listed for venous occlusion.",
+        "Antiplatelets and statins are listed for arterial disease.",
+        "The book lists an IVC filter if anticoagulation is contraindicated."
+      ],
+      "clue": "The diagnosis is a venous thrombus.",
+      "priority": "Anticipate DVT treatments that prevent clot extension and embolism.",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q1",
+      "section": "cardio-postpci",
+      "type": "mcq",
+      "stem": "After a femoral PCI on heparin, a client has a growing groin hematoma, a falling hemoglobin and hypotension. Which reversal agent does the nurse anticipate?",
+      "options": [
+        "Vitamin K (phytonadione)",
+        "Andexanet alfa",
+        "Idarucizumab",
+        "Protamine sulfate"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Vitamin K reverses warfarin.",
+        "Andexanet alfa reverses apixaban and rivaroxaban.",
+        "Idarucizumab reverses dabigatran.",
+        "The book pairs heparin reversal with protamine sulfate."
+      ],
+      "clue": "Bleeding at the access site in a client on heparin.",
+      "priority": "Reverse the correct anticoagulant in post-PCI bleeding.",
+      "page": 60,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q2",
+      "section": "cardio-postpci",
+      "type": "mcq",
+      "stem": "A client with reduced kidney function is scheduled for angiography. Which nursing action best helps prevent contrast-induced kidney injury?",
+      "options": [
+        "Ensure hydration before and after contrast exposure",
+        "Restrict fluids for 24 hours after the procedure",
+        "Request high-osmolar contrast agent",
+        "Check renal function once weekly"
+      ],
+      "correct": 0,
+      "rationales": [
+        "The book lists hydration before and after contrast as AKI prevention.",
+        "Fluid restriction contradicts the book's hydration guidance.",
+        "The book recommends low-osmolar or iso-osmolar contrast.",
+        "The book advises monitoring renal function daily."
+      ],
+      "clue": "Contrast exposure in a client at renal risk.",
+      "priority": "Prevent contrast-induced nephropathy.",
+      "page": 61,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q3",
+      "section": "cardio-postpci",
+      "type": "mcq",
+      "stem": "Two days after coronary stenting, a client reports recurrent chest pain and the ECG shows new ischemic changes. What should the nurse suspect?",
+      "options": [
+        "Contrast-induced acute kidney injury",
+        "Stent thrombosis needing urgent angioplasty",
+        "Expected access-site discomfort",
+        "Post-procedure infection at the site"
+      ],
+      "correct": 1,
+      "rationales": [
+        "AKI presents with reduced urine output and elevated creatinine.",
+        "Recurrent chest pain with ischemic ECG changes are the book's signs of stent thrombosis, managed with emergency angioplasty if acute.",
+        "Access-site problems show bruising or swelling, not ischemic ECG changes.",
+        "Infection shows fever, erythema and drainage, not ischemic ECG changes."
+      ],
+      "clue": "Recurrent chest pain with ischemic ECG changes after stenting.",
+      "priority": "Recognize stent thrombosis as an emergency.",
+      "page": 61,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q4",
+      "section": "cardio-postpci",
+      "type": "sata",
+      "page": 61,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "Two days after a cardiac procedure, a client has a fever and redness at the catheter site. Which actions should the nurse take? Select all that apply.",
+      "options": [
+        "Maintain sterile technique with site care",
+        "Wait for culture results before giving any antibiotic",
+        "Monitor temperature and site redness",
+        "Start empirical antibiotics as prescribed, pending cultures",
+        "Use clean rather than sterile technique to save time"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "The book lists maintaining sterile technique post-op in infection management.",
+        "The book says to start empirical antibiotics pending cultures, not to wait.",
+        "Monitoring for fever and site redness is listed management.",
+        "The book lists starting empirical antibiotics pending cultures.",
+        "The book calls for sterile technique."
+      ],
+      "clue": "Fever and site redness after an invasive line.",
+      "priority": "Prevent and treat infection after cardiac intervention.",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q5",
+      "section": "cardio-postpci",
+      "type": "mcq",
+      "page": 62,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "After cardiac catheterization, which client should the nurse assess first?",
+      "options": [
+        "A client with a small, stable bruise at the radial site",
+        "A client asking how long to take aspirin and clopidogrel",
+        "A client whose right leg is suddenly painful, pale and pulseless",
+        "A client due for a daily creatinine check after contrast"
+      ],
+      "correct": 2,
+      "rationales": [
+        "A small stable bruise is not an acute threat.",
+        "Medication questions are important but not urgent.",
+        "The book describes sudden pain, pallor and pulselessness as arterial occlusion and an emergency.",
+        "Daily renal monitoring is routine follow-up."
+      ],
+      "clue": "Sudden pain, pallor and pulselessness in a limb.",
+      "priority": "Treat acute arterial occlusion as an emergency.",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q6",
+      "section": "cardio-postpci",
+      "type": "matrix",
+      "page": 61,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse monitors clients after cardiac intervention. For each finding, indicate the complication it most likely signals.",
+      "rows": [
+        "Palpitations and syncope with new atrial fibrillation",
+        "Reduced urine output and a rising creatinine",
+        "Recurrent chest pain with ischemic ECG changes",
+        "Frequent PVCs on the monitor"
+      ],
+      "columns": [
+        "Arrhythmia",
+        "Contrast-induced AKI",
+        "Stent thrombosis"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "rationales": [
+        "The book lists palpitations, syncope and ECG changes such as atrial fibrillation as arrhythmia signs.",
+        "Reduced urine output and elevated creatinine are the book's signs of contrast-induced AKI.",
+        "Recurrent chest pain and ischemic ECG changes are the signs of stent thrombosis or restenosis.",
+        "PVCs are listed as an example ECG change with post-intervention arrhythmias."
+      ],
+      "clue": "Each finding matches one complication's listed signs.",
+      "priority": "Recognize early signs of post-intervention complications.",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q7",
+      "section": "cardio-postpci",
+      "type": "mcq",
+      "page": 62,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "A client has sudden pain, pallor and pulselessness in the left leg after a catheter-based procedure. While the provider is being notified, how should the nurse position the limb?",
+      "options": [
+        "Elevate the leg on two pillows",
+        "Dangle the leg over the side of the bed",
+        "Raise the foot of the bed with the knee gatch",
+        "Keep the leg flat"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Elevation is the book's advice for venous (DVT) occlusion, not arterial occlusion.",
+        "The book directs keeping the limb flat, not dependent.",
+        "Raising the leg is not the positioning the book gives for arterial occlusion.",
+        "The book states that for arterial occlusion the limb is kept flat and treated as an emergency."
+      ],
+      "clue": "Pain, pallor and pulselessness point to arterial occlusion.",
+      "priority": "Position the limb correctly in acute arterial occlusion.",
+      "checked": true
+    },
+    {
+      "id": "cardio-postpci-q8",
+      "section": "cardio-postpci",
+      "type": "sata",
+      "page": 62,
+      "clientNeed": "safety",
+      "cjmm": "recognizeCues",
+      "stem": "A client has returned from cardiac surgery. Which assessments should the nurse include to detect complications early? Select all that apply.",
+      "options": [
+        "Discontinue cardiac monitoring once the client is awake",
+        "Chest tube output",
+        "Signs of Beck's triad",
+        "Delay wound inspection until the day of discharge",
+        "Serum electrolytes"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "The book says to watch for dysrhythmias after cardiac surgery, so monitoring continues.",
+        "The book directs monitoring chest tube output.",
+        "The book lists tamponade (Beck's triad) among post-cardiac surgery risks.",
+        "The book lists infection as a post-surgery risk, so the wound needs ongoing inspection.",
+        "The book directs monitoring electrolytes."
+      ],
+      "clue": "The client is newly post-op from cardiac surgery.",
+      "priority": "Monitor for the major post-cardiac surgery risks.",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 58,
+      "issue": "Pages 58 and 59 are duplicates: both repeat the same 'Acute Venous and Artery Occlusion' comparison table (definition, cause, risk factors, pathophysiology, symptoms) with only a slight layout offset."
+    },
+    {
+      "page": 44,
+      "issue": "S3 description says 'an increased intensity of the ICS can indicate fluid overload'; 'ICS' (intercostal space) appears to be a typo for the S3 sound itself. Heading 'Basic cardiac.' also looks truncated."
+    },
+    {
+      "page": 45,
+      "issue": "Tamponade causes list 'Anticoagulants' twice; Medications box text is garbled ('Support Blood sourcibeeding'); pericardiocentesis box reads 'If absence of myocardial compression', which seems inverted since pericardiocentesis treats compression."
+    },
+    {
+      "page": 46,
+      "issue": "Variant angina box lists 'CCB (Isordil, diltazem)', but Isordil (isosorbide dinitrate) is a nitrate, not a calcium channel blocker, and diltiazem is misspelled. NSTEMI treatment line 'PCI early PCI for high risk patients' is printed twice."
+    },
+    {
+      "page": 47,
+      "issue": "Aspirin STAT is stated only 'for NSTEMI', whereas the page 48 aspirin guidance applies to MI generally; reperfusion arrhythmias are attributed to myocardial 'stunning', which is a different phenomenon (post-ischemic contractile dysfunction)."
+    },
+    {
+      "page": 49,
+      "issue": "Hypertrophic cardiomyopathy causes are given as 'often due to hypertension or valvular disease'; HCM is generally described as a primarily genetic/inherited disorder, and hypertension-related LVH is usually distinguished from it. HCM is also equated with HOCM, which is the obstructive subtype."
+    },
+    {
+      "page": 50,
+      "issue": "'Diagnostic Tests' heading is followed by a symptom table (sudden dyspnea, pleuritic chest pain, hemoptysis, DVT leg swelling) that describes pulmonary embolism rather than cardiomyopathy tests. 'Ask about recent viral or bacterial' is a truncated sentence. ACE inhibitors/ARBs are said to result in low HR, which is not an expected ACEI/ARB effect."
+    },
+    {
+      "page": 52,
+      "issue": "Pulmonary hypertension is defined as pulmonary artery pressure >25 mm Hg without specifying mean pressure; current guidelines (2022 ESC/ERS) use a mean PAP >20 mm Hg. 'Remember: Signs of ventricular failure are evident in systemic circulation' is true only for right-sided failure and conflicts with 'Left = Lungs' on page 51."
+    },
+    {
+      "page": 52,
+      "issue": "States morphine for pain is 'a priority nursing intervention' for MI, while page 48 lists morphine only as an adjunct if NTG is not effective and to avoid in right ventricular MI."
+    },
+    {
+      "page": 55,
+      "issue": "Pericarditis graphic is labeled 'Infected double-walled sac around the heart', yet the same page says idiopathic is the most common cause; the 25-90% idiopathic range is very wide. Endocarditis risk list runs items together ('Previous IE Intravascular devices Skin, bone, GU, GI infections')."
+    },
+    {
+      "page": 56,
+      "issue": "Postural hypotension treatment (midodrine, fludrocortisone) and the cardiogenic shock definition appear in the infectious/inflammatory section without connection to its topic; they may be misplaced."
+    },
+    {
+      "page": 57,
+      "issue": "Myocarditis procedures list 'Cardiac transplant or bypass for intractable heart failure'; 'bypass' is ambiguous (coronary bypass is not a myocarditis treatment; mechanical circulatory support may be intended)."
+    },
+    {
+      "page": 58,
+      "issue": "'Positive Homan's sign' is listed as a DVT symptom; the sign is spelled Homans' and is generally considered unreliable for diagnosing DVT. Heading says 'Artery Occlusion' while the table of contents uses 'arterial occlusion'."
+    },
+    {
+      "page": 61,
+      "issue": "Post-cardiac intervention complications are numbered 1 (Bleeding, page 60) then 4, 5, 6; the Arrhythmias and Infection boxes on page 61 are unnumbered, so items 2 and 3 are missing labels."
+    },
+    {
+      "page": 49,
+      "issue": "Section numbering is inconsistent: 'B4' through 'B7' labels appear (Cardiomyopathy, Heart Failure, Pulmonary Hypertension, Hypertensive urgency), but there are no B1-B3 labels on earlier sections and later sections are unnumbered; the 'B' prefix also does not match chapter 02."
+    },
+    {
+      "page": 53,
+      "issue": "Diagnostic list says the echocardiogram 'detects right-to-left shunt'; for pulmonary hypertension the echo mainly estimates pulmonary pressures and right-heart function, so this wording seems misleading."
+    },
+    {
+      "page": 53,
+      "issue": "Drug classes are inconsistent: nitrates and calcium channel blockers are listed as PAH vasodilators for all clients, and the endothelin receptor antagonists bosentan/ambrisentan are under 'Vasodilators' while macitentan (also an ERA) is under 'PAH-specific drugs'."
+    },
+    {
+      "page": 60,
+      "issue": "Direct pressure for bleeding is 'at least 20-30 minutes' here but 'at least 20 min' on page 47; consider making the two consistent."
+    },
+    {
+      "page": 61,
+      "issue": "Typo in the Arrhythmias box: 'Myocarrdial irritation'."
+    },
+    {
+      "page": 45,
+      "issue": "Emergent sternotomy box reads 'For myocardicompression' and gives 'Position: HOB 60°, legs elevated', which is unclear and differs from the HOB 30-45° nursing priority on the same page; not used for questions."
+    },
+    {
+      "page": 52,
+      "issue": "'Dobutamine/Dopamine: Boost contractility and renal perfusion' groups the two drugs, but only dopamine has the dopaminergic renal effect described in the dose list; dobutamine's effect is inotropic."
+    },
+    {
+      "page": 54,
+      "issue": "Hypertensive urgency symptoms line is truncated: 'but no end-organ' (missing 'damage')."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: psych has 5 items vs target 6; the chapter's psychosocial content is limited (PAH anxiety support p53, sheath-removal anxiety p47, addiction referral p57), so the remaining slot went to other grounded categories."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: bcc has 4 items vs target 6 (within tolerance); the chapter's basic-care content is limited to positioning (p45, p51, p62) and non-drug postural hypotension measures (p56)."
+    }
+  ]
+}

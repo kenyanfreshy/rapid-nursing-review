@@ -1,0 +1,24 @@
+{
+  "chapter": "endo",
+  "reviewed": 76,
+  "ok": 73,
+  "fixed": 3,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "endo-dm-q4",
+      "status": "fixed",
+      "note": "Unkeyed option 0 did not state birth weight, so a student could not rule out the low-birth-weight risk factor; added normal birth weight to make it clearly wrong."
+    },
+    {
+      "id": "endo-hyperpara-q1",
+      "status": "fixed",
+      "note": "Keyed option was a vague restatement (\"treat it as airway compromise and act immediately\") that stood out from the concrete distractors; rewrote it as a concrete nursing action."
+    },
+    {
+      "id": "endo-emergencies-q4",
+      "status": "fixed",
+      "note": "Keyed \"tachycardia and hypotension from severe dehydration\" and \"stupor\" do not distinguish HHS from DKA (the book lists dehydration for DKA too), and the stem gave away glucose >600 and type 2 DM. Moved those cues into options (glucose 850, type 2 history) with no ketones as keys."
+    }
+  ]
+}

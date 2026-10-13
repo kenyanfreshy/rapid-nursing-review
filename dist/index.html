@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193f35">
+  <meta name="description" content="Prepare for your next nursing school exam with focused practice, clear explanations, and a personal study plan.">
+  <title>Rapid Nursing Review</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#dashboard" aria-label="Rapid Nursing Review home"><span class="brand-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M5 17h6l3-9 5 17 3-8h5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>rapid<span class="brand-sub">NURSING REVIEW</span></span></a>
+    <div class="workspace-label">YOUR STUDY SPACE</div>
+    <nav id="nav" aria-label="Main navigation"></nav>
+    <div class="sidebar-note"><span class="little-spark">✧</span><h3>A little practice.<br>A lot more confidence.</h3><p>One question at a time.<br>You’ve got this.</p><button class="text-link" data-action="practice">Let’s practice <span>↗</span></button></div>
+    <div class="sidebar-bottom"><button class="support-link" data-action="about"><span data-icon="help"></span>About this pilot</button><button class="profile" data-action="settings"><span class="avatar" id="profile-initials">RN</span><span><strong id="profile-name">Student</strong><small>Your study space</small></span><span data-icon="chevron"></span></button></div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><div class="topbar-left"><button class="icon-button mobile-menu" id="menu" aria-label="Toggle navigation" aria-expanded="false"><span data-icon="menu"></span></button><span id="breadcrumb">Overview</span></div><div class="header-actions"><button class="search-trigger" data-action="search"><span data-icon="search"></span><span>Find a topic or lesson</span><kbd>⌘ K</kbd></button><span class="header-divider"></span><button class="icon-button" data-action="notifications" aria-label="Study reminders"><span data-icon="bell"></span><i class="notification-dot"></i></button><button class="book-toggle" data-action="toggle-book" aria-controls="book-panel" aria-expanded="false"><span data-icon="book"></span><span>The book</span></button><button class="avatar small" id="top-initials" data-action="settings" aria-label="Open profile">RN</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="app-footer"><span>Learn. Test. Understand.</span><span>Based on <cite>Rapid Nursing Review: All Body Systems at a Glance</cite> by Alex K. Korir, MSN, RN, CCRN-CMC <span class="footer-dot">•</span> Quizzes pending author review <span class="footer-dot">•</span> Saved on this device</span></footer>
+  </div>
+  <div class="book-backdrop" id="book-backdrop" data-action="close-book" hidden></div>
+  <aside class="book-panel" id="book-panel" aria-label="Rapid Nursing Review book" hidden></aside>
+  <dialog id="page-viewer" class="page-viewer" aria-label="Book page"></dialog>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

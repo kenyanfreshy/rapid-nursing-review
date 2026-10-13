@@ -1,0 +1,161 @@
+// Rapid Nursing Review — native shell.
+// The study app itself is the offline web bundle in assets/web (built from ../dist by
+// scripts/build-web.mjs). On first launch, and after each app update, those files are copied
+// into the app's private document folder and opened in a WebView from there, so everything
+// (book pages, quizzes, progress) works without a network connection.
+//
+// Written with React.createElement instead of JSX so it can be checked with `node --check`.
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { ActivityIndicator, BackHandler, Linking, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
+import { WebView } from 'react-native-webview';
+import { Asset } from 'expo-asset';
+import * as FileSystem from 'expo-file-system/legacy';
+import * as Sharing from 'expo-sharing';
+import * as SplashScreen from 'expo-splash-screen';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { WEB_FILES, WEB_VERSION } from './assets/web/manifest';
+
+const h = React.createElement;
+const STORAGE_KEY = 'rapid-nursing-review-v1';
+const WEB_ROOT = `${FileSystem.documentDirectory}web/`;
+const WEB_DIR = `${WEB_ROOT}${WEB_VERSION}/`;
+const COLORS = { ink: '#23352f', green: '#284e3e', paper: '#f7f8f5', muted: '#7b847e' };
+
+SplashScreen.preventAutoHideAsync().catch(() => {});
+
+// Copy the bundled web files into WEB_DIR once per app version.
+async function prepareWebFiles(onProgress) {
+  const marker = `${WEB_DIR}.complete`;
+  if ((await FileSystem.getInfoAsync(marker)).exists) return;
+  await FileSystem.deleteAsync(WEB_ROOT, { idempotent: true });
+  await FileSystem.makeDirectoryAsync(`${WEB_DIR}pages`, { intermediates: true });
+  const entries = Object.entries(WEB_FILES);
+  let done = 0;
+  for (let i = 0; i < entries.length; i += 8) {
+    await Promise.all(entries.slice(i, i + 8).map(async ([relPath, moduleId]) => {
+      const asset = Asset.fromModule(moduleId);
+      await asset.downloadAsync();
+      await FileSystem.copyAsync({ from: asset.localUri || asset.uri, to: WEB_DIR + relPath });
+      done += 1;
+    }));
+    onProgress(done / entries.length);
+  }
+  await FileSystem.writeAsStringAsync(marker, WEB_VERSION);
+}
+
+async function shareExport(filename, data) {
+  const uri = `${FileSystem.cacheDirectory}${filename.replace(/[^\w.-]/g, '_')}`;
+  await FileSystem.writeAsStringAsync(uri, data);
+  if (await Sharing.isAvailableAsync()) {
+    await Sharing.shareAsync(uri, { mimeType: 'application/json', dialogTitle: 'Export your study progress', UTI: 'public.json' });
+  }
+}
+
+function Study() {
+  const insets = useSafeAreaInsets();
+  const webRef = useRef(null);
+  const canGoBack = useRef(false);
+  const saveTimer = useRef(null);
+  const [saved, setSaved] = useState(undefined);
+  const [progress, setProgress] = useState(0);
+  const [ready, setReady] = useState(false);
+  const [error, setError] = useState(null);
+
+  const load = useCallback(async () => {
+    setError(null);
+    try {
+      const [savedState] = await Promise.all([AsyncStorage.getItem(STORAGE_KEY), prepareWebFiles(setProgress)]);
+      setSaved(savedState);
+      setReady(true);
+    } catch (e) {
+      setError(String(e?.message || e));
+    } finally {
+      SplashScreen.hideAsync().catch(() => {});
+    }
+  }, []);
+  useEffect(() => { load(); }, [load]);
+
+  // Android back button: go back inside the app's own pages before leaving the app.
+  useEffect(() => {
+    const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (canGoBack.current && webRef.current) { webRef.current.goBack(); return true; }
+      return false;
+    });
+    return () => sub.remove();
+  }, []);
+
+  const onMessage = useCallback(event => {
+    let msg;
+    try { msg = JSON.parse(event.nativeEvent.data); } catch { return; }
+    if (msg.type === 'save' && typeof msg.data === 'string') {
+      // Debounce writes; the latest state wins.
+      clearTimeout(saveTimer.current);
+      const data = msg.data;
+      saveTimer.current = setTimeout(() => { AsyncStorage.setItem(STORAGE_KEY, data).catch(() => {}); }, 250);
+    } else if (msg.type === 'export' && typeof msg.data === 'string') {
+      shareExport(msg.filename || 'rapid-nursing-review.json', msg.data).catch(() => {});
+    }
+  }, []);
+
+  // Keep the app on its local files; open web links (sources, references) in the browser.
+  const onShouldStart = useCallback(req => {
+    if (/^https?:/i.test(req.url)) { Linking.openURL(req.url).catch(() => {}); return false; }
+    return true;
+  }, []);
+
+  const pad = { paddingTop: insets.top, paddingBottom: insets.bottom, paddingLeft: insets.left, paddingRight: insets.right };
+
+  if (error) {
+    return h(View, { style: [styles.center, pad] },
+      h(Text, { style: styles.title }, 'The study space could not open'),
+      h(Text, { style: styles.body }, 'Your saved progress is safe. Try again, and restart the app if this keeps happening.'),
+      h(Text, { style: styles.detail }, error),
+      h(Pressable, { onPress: load, style: styles.button, accessibilityRole: 'button' }, h(Text, { style: styles.buttonText }, 'Try again')));
+  }
+  if (!ready) {
+    return h(View, { style: [styles.center, pad] },
+      h(ActivityIndicator, { color: COLORS.green }),
+      h(Text, { style: styles.body }, progress > 0 ? `Preparing your book… ${Math.round(progress * 100)}%` : 'Opening your study space…'));
+  }
+
+  // Runs before the page script: hands the web app its native copy of saved progress.
+  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};true;`;
+  return h(View, { style: [styles.fill, pad] },
+    h(WebView, {
+      ref: webRef,
+      source: { uri: `${WEB_DIR}index.html` },
+      originWhitelist: ['*'],
+      allowFileAccess: true,
+      allowFileAccessFromFileURLs: true,
+      allowingReadAccessToURL: WEB_ROOT,
+      javaScriptEnabled: true,
+      domStorageEnabled: true,
+      injectedJavaScriptBeforeContentLoaded: boot,
+      onMessage,
+      onShouldStartLoadWithRequest: onShouldStart,
+      onNavigationStateChange: nav => { canGoBack.current = nav.canGoBack; },
+      setSupportMultipleWindows: false,
+      allowsBackForwardNavigationGestures: true,
+      textZoom: 100,
+      overScrollMode: 'never',
+      style: styles.fill,
+      onContentProcessDidTerminate: () => webRef.current?.reload(),
+      onRenderProcessGone: () => { webRef.current?.reload(); return true; },
+    }));
+}
+
+export default function App() {
+  return h(SafeAreaProvider, null, h(StatusBar, { style: 'dark' }), h(Study));
+}
+
+const styles = StyleSheet.create({
+  fill: { flex: 1, backgroundColor: COLORS.paper },
+  center: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 14, paddingHorizontal: 28, backgroundColor: COLORS.paper },
+  title: { fontSize: 18, fontWeight: '700', color: COLORS.ink, textAlign: 'center' },
+  body: { fontSize: 14, color: COLORS.muted, textAlign: 'center', lineHeight: 20 },
+  detail: { fontSize: 11, color: COLORS.muted, textAlign: 'center', fontFamily: Platform.select({ ios: 'Menlo', default: 'monospace' }) },
+  button: { backgroundColor: COLORS.green, paddingVertical: 12, paddingHorizontal: 22, borderRadius: 8 },
+  buttonText: { color: 'white', fontWeight: '600', fontSize: 14 },
+});

@@ -1,0 +1,2792 @@
+{
+  "chapter": "resp",
+  "questions": [
+    {
+      "id": "resp-ards-q1",
+      "section": "resp-ards",
+      "type": "mcq",
+      "page": 17,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A client with sepsis develops acute dyspnea. The chest x-ray shows bilateral infiltrates without cardiomegaly, the PaO2/FiO2 ratio is 180, and hypoxemia persists despite rising oxygen delivery. No cardiac cause is found. Which condition should the nurse suspect?",
+      "options": [
+        "Cardiogenic pulmonary edema from heart failure",
+        "Acute respiratory distress syndrome",
+        "Tension pneumothorax on the affected side",
+        "Acute exacerbation of chronic bronchitis"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book describes ARDS as noncardiogenic edema; here no cardiac cause and no cardiomegaly were found.",
+        "Correct. Acute onset, bilateral infiltrates, a PaO2/FiO2 ratio under 300, refractory hypoxemia and no cardiac cause point to ARDS.",
+        "Incorrect. Tension pneumothorax shows tracheal deviation, distended neck veins and hypotension, not diffuse bilateral infiltrates.",
+        "Incorrect. A COPD exacerbation worsens chronic symptoms; it does not explain new bilateral infiltrates with refractory hypoxemia."
+      ],
+      "clue": "Bilateral infiltrates, PaO2/FiO2 below 300 and no cardiac cause.",
+      "priority": "Recognize ARDS early from its defining criteria.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q2",
+      "section": "resp-ards",
+      "type": "mcq",
+      "page": 17,
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "stem": "A client with ARDS on mechanical ventilation with high PEEP becomes hypotensive. Which action by the nurse is most appropriate?",
+      "options": [
+        "Discontinue PEEP until the blood pressure recovers",
+        "Silence the ventilator alarms to reduce stimulation",
+        "Raise the tidal volume to improve cardiac output",
+        "Treat the hypotension as ordered while keeping PEEP in place"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Stopping PEEP lets alveoli collapse and worsens oxygenation; the book says do not discontinue it.",
+        "Incorrect. The book states ventilator alarms should never be set to the off position.",
+        "Incorrect. Tidal volume is limited to 4 to 8 mL/kg to prevent volutrauma, and raising it does not treat hypotension.",
+        "Correct. The book states to treat hypotension and not discontinue PEEP, which is needed to keep alveoli open."
+      ],
+      "clue": "Hypotension develops in a client receiving high PEEP.",
+      "priority": "Maintain oxygenation support while managing reduced cardiac output.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q3",
+      "section": "resp-ards",
+      "type": "mcq",
+      "page": 16,
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "stem": "A ventilated client with moderate to severe ARDS has a PaO2/FiO2 ratio of 120. Which plan of care is consistent with evidence-based ARDS treatment?",
+      "options": [
+        "Prone positioning with tidal volume 4 to 8 mL/kg of ideal weight",
+        "Routine corticosteroids for this non-COVID-19 ARDS",
+        "A liberal fluid strategy to support lung perfusion",
+        "Larger tidal volumes to bring the PaCO2 back to normal"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists low tidal volume ventilation and prone positioning for ratios under 150 as treatments that lower mortality.",
+        "Incorrect. The book says to avoid routine corticosteroids unless the ARDS is related to COVID-19.",
+        "Incorrect. The book recommends a fluid-conservative strategy to improve lung function and ventilator-free days.",
+        "Incorrect. Permissive hypercapnia is accepted; large volumes raise the risk of barotrauma and volutrauma."
+      ],
+      "clue": "PaO2/FiO2 ratio of 120 indicates moderate to severe ARDS.",
+      "priority": "Apply lung-protective ventilation and positioning.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q4",
+      "section": "resp-ards",
+      "type": "sata",
+      "page": 17,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with severe ARDS who is difficult to ventilate because of poor gas exchange is started on a continuous vecuronium infusion. Which statements about this therapy are accurate? Select all that apply.",
+      "options": [
+        "It sedates the client, so a separate sedative is not needed",
+        "It must always be given together with analgesics and sedatives",
+        "It increases chest wall compliance",
+        "It is a routine first-line drug for every client with mild ARDS",
+        "It reduces the client's work of breathing"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Incorrect. Neuromuscular blocking agents paralyze skeletal muscle; the book says they are always given with analgesics and sedatives for comfort and safety.",
+        "Correct. The book states neuromuscular blocking agents are always administered with analgesics and sedatives.",
+        "Correct. The book lists increased chest wall compliance as an effect of neuromuscular blocking agents.",
+        "Incorrect. The book describes use in clients who are difficult to ventilate because of poor gas exchange, not routine use in mild disease.",
+        "Correct. The book states these agents reduce the work of breathing."
+      ],
+      "clue": "A client who is difficult to ventilate is paralyzed with vecuronium.",
+      "priority": "Give neuromuscular blockade safely, with analgesia and sedation.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q5",
+      "section": "resp-ards",
+      "type": "matrix",
+      "page": 17,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client with worsening ARDS is being considered for BiPAP. For each finding, indicate whether it is a contraindication to BiPAP/CPAP.",
+      "rows": [
+        "Copious airway secretions",
+        "Hemodynamic instability",
+        "Alert, oriented and following commands",
+        "High risk of aspiration",
+        "Altered level of consciousness"
+      ],
+      "columns": [
+        "Contraindication",
+        "Not a contraindication"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "rationales": [
+        "Copious secretions are listed as a contraindication to BiPAP/CPAP.",
+        "Hemodynamic instability is listed as a contraindication to BiPAP/CPAP.",
+        "Being alert is not a listed contraindication; it is altered level of consciousness (ALOC) that is listed.",
+        "A high risk of aspiration is listed as a contraindication to BiPAP/CPAP.",
+        "ALOC is listed as a contraindication to BiPAP/CPAP."
+      ],
+      "clue": "Secretions, hemodynamics, aspiration risk and level of consciousness.",
+      "priority": "Screen for contraindications before noninvasive ventilation.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q6",
+      "section": "resp-ards",
+      "type": "mcq",
+      "page": 17,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "The nurse enters the room of a ventilated client with ARDS and finds that the ventilator alarms were turned off to reduce noise. What should the nurse do?",
+      "options": [
+        "Leave the alarms off while staff are in the room",
+        "Turn the alarms back on and keep them active",
+        "Turn the alarms back on only at the next shift change",
+        "Leave the alarms off because the client is sedated"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book states ventilator alarm controls should never be set to the off position.",
+        "Correct. The book states ventilator alarm controls should never be set to the off position.",
+        "Incorrect. Waiting leaves the client unprotected; alarms must never be off.",
+        "Incorrect. Sedation does not change the rule; a sedated client cannot signal distress, and alarms must stay on."
+      ],
+      "clue": "Ventilator alarms are found turned off.",
+      "priority": "Keep ventilator alarms active at all times.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q7",
+      "section": "resp-ards",
+      "type": "mcq",
+      "page": 17,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four ventilated clients with ARDS. Which client should the nurse assess first?",
+      "options": [
+        "A client receiving propofol who is sedated and resting quietly",
+        "A client on a vecuronium infusion with analgesia and sedation running",
+        "A client on high PEEP whose blood pressure dropped from 118/70 to 84/50",
+        "A client whose chest x-ray shows the same bilateral ground-glass pattern as yesterday"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Propofol is used for continuous sedation, so a sedated, resting client is the expected response.",
+        "Incorrect. The book says neuromuscular blockers are always given with analgesics and sedatives, so this setup is appropriate.",
+        "Correct. The book warns that PEEP can decrease cardiac output and says to treat hypotension; a new drop in blood pressure needs immediate assessment.",
+        "Incorrect. A bilateral white-out or ground-glass appearance is a typical ARDS finding, and it is unchanged."
+      ],
+      "clue": "A new drop in blood pressure in a client on high PEEP.",
+      "priority": "See the client with a new, unexpected change first.",
+      "checked": true
+    },
+    {
+      "id": "resp-ards-q8",
+      "section": "resp-ards",
+      "type": "sata",
+      "page": 16,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse reviews the histories of several clients in a step-down unit. Which conditions does the nurse recognize as causes of ARDS? Select all that apply.",
+      "options": [
+        "Acute pancreatitis",
+        "Seasonal allergic rhinitis",
+        "Massive blood transfusion",
+        "Near drowning",
+        "Well-controlled hypothyroidism",
+        "Sepsis"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "rationales": [
+        "Correct. Pancreatitis is shown among the indirect lung injuries that cause ARDS.",
+        "Incorrect. Allergic rhinitis is not among the direct or indirect causes the book lists.",
+        "Correct. Massive transfusion is shown among the indirect lung injuries that cause ARDS.",
+        "Correct. Near drowning is shown among the direct lung injuries that cause ARDS.",
+        "Incorrect. Hypothyroidism is not among the causes the book lists.",
+        "Correct. The book states most cases of ARDS are linked to pneumonia and sepsis."
+      ],
+      "clue": "Direct and indirect lung injuries in the clients' histories.",
+      "priority": "Identify clients at risk for ARDS so it is recognized early.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q1",
+      "section": "resp-pe",
+      "type": "mcq",
+      "page": 18,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "Two days after hip replacement surgery, a client reports sudden shortness of breath and pleuritic chest pain. The client is tachycardic and anxious. What should the nurse do first?",
+      "options": [
+        "Send the client for a venous Doppler of the legs",
+        "Help the client walk in the hall to relieve the pain",
+        "Assess airway, breathing, circulation and oxygen saturation",
+        "Give the first oral dose of warfarin from home supply"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Doppler helps find the clot source, but it comes after the client's ABCs are assessed and supported.",
+        "Incorrect. Early ambulation prevents VTE, but it is unsafe in a client with acute symptoms of a possible PE.",
+        "Correct. The book makes ABCs the first priority in any pulmonary-compromised client, especially with suspected PE.",
+        "Incorrect. Anticoagulation needs an order and diagnosis; assessing ABCs comes first."
+      ],
+      "clue": "Sudden dyspnea and pleuritic pain after hip surgery, a strong VTE risk.",
+      "priority": "Assess and support ABCs before diagnostic steps.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q2",
+      "section": "resp-pe",
+      "type": "mcq",
+      "page": 19,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with a confirmed massive pulmonary embolism is hypotensive and has a low risk of bleeding. Which treatment should the nurse anticipate?",
+      "options": [
+        "Oral factor Xa inhibitor with outpatient follow-up",
+        "Immediate thoracotomy before any drug therapy",
+        "Thrombolytic therapy such as alteplase",
+        "Loop diuretic alone to reduce right heart strain"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Oral factor Xa inhibitors are described for asymptomatic PE, not a hemodynamically unstable massive PE.",
+        "Incorrect. Thoracotomy is listed only for nonresponders when catheter thrombus removal fails.",
+        "Correct. The book reserves thrombolytics for massive PE with hypotension and low bleeding risk.",
+        "Incorrect. Diuretics are supportive only; the clot itself must be broken down in an unstable client."
+      ],
+      "clue": "Massive PE with hypotension and low bleeding risk.",
+      "priority": "Restore perfusion in a hemodynamically unstable PE.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q3",
+      "section": "resp-pe",
+      "type": "mcq",
+      "page": 20,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "stem": "A client with PE is receiving a continuous heparin infusion. Which nursing intervention is most appropriate?",
+      "options": [
+        "Monitor for bleeding and limit venipunctures and injections",
+        "Keep the client on strict bed rest without range of motion",
+        "Restrict oral fluids to less than 1 liter per day",
+        "Give pain medication by intramuscular injection"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. During anticoagulant therapy the book directs monitoring for bleeding and limiting invasive procedures.",
+        "Incorrect. The book encourages early ambulation or chair rest and range-of-motion exercises every 8 hours.",
+        "Incorrect. The book recommends at least 2 L/day of fluid if not restricted.",
+        "Incorrect. Injections are limited during anticoagulation because of the bleeding risk."
+      ],
+      "clue": "Client is receiving a continuous heparin infusion.",
+      "priority": "Prevent and detect bleeding during anticoagulation.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q4",
+      "section": "resp-pe",
+      "type": "sata",
+      "page": 18,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is screening hospitalized clients for venous thromboembolism (VTE) risk. Which findings does the book classify as strong risk factors? Select all that apply.",
+      "options": [
+        "Oral contraceptive use",
+        "Hip replacement surgery two days ago",
+        "Spinal cord injury",
+        "Pregnancy",
+        "Fracture of the femur",
+        "Atrial fibrillation"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book lists oral contraceptive use as a moderate, not strong, risk factor.",
+        "Correct. Hip or knee replacement surgery is listed as a strong risk factor.",
+        "Correct. Spinal cord injury is listed as a strong risk factor.",
+        "Incorrect. The book lists pregnancy as a moderate risk factor.",
+        "Correct. Fractures of long bones such as the hip or leg are listed as a strong risk factor.",
+        "Incorrect. The book lists atrial fibrillation as a moderate risk factor."
+      ],
+      "clue": "Orthopedic surgery, spinal cord injury and long-bone fracture.",
+      "priority": "Identify clients at highest VTE risk for prevention.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q5",
+      "section": "resp-pe",
+      "type": "matrix",
+      "page": 19,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A client is being evaluated for pulmonary embolism. For each finding, indicate whether the book lists it as a feature of massive PE or as a typical finding of most PEs.",
+      "rows": [
+        "Hypotension with cold, mottled skin",
+        "Pleuritic chest pain with tachypnea",
+        "Neck vein distention with an enlarged liver",
+        "Transient pleural friction rub",
+        "Confusion and decreased consciousness"
+      ],
+      "columns": [
+        "Massive PE",
+        "Most PEs"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "Hypotension and cold or mottled skin are shock indicators listed under massive PE.",
+        "Sudden dyspnea, pleuritic chest pain and tachypnea are respiratory findings of most PEs.",
+        "Neck vein distention and right heart failure signs are cardiac strain findings of massive PE.",
+        "A transient pleural friction rub is listed with most PEs.",
+        "Confusion and decreased consciousness are neurologic symptoms of massive PE."
+      ],
+      "clue": "Shock, cardiac strain and neurologic signs versus respiratory findings.",
+      "priority": "Distinguish massive PE, a medical emergency, from typical PE.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q6",
+      "section": "resp-pe",
+      "type": "sata",
+      "page": 20,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A hemodynamically stable client with PE has no fluid restriction. Which independent nursing interventions should the nurse include in the plan? Select all that apply.",
+      "options": [
+        "Restrict oral fluids to less than 1 L/day",
+        "Perform active or passive ROM exercises every 8 hours",
+        "Apply compression boots to promote venous return",
+        "Keep the client on strict bed rest",
+        "Encourage at least 2 L of fluid per day",
+        "Assist with early ambulation or chair rest"
+      ],
+      "correct": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "rationales": [
+        "Incorrect. The book recommends hydration of at least 2 L/day when fluids are not restricted.",
+        "Correct. The book lists active/passive ROM every 8 hours.",
+        "Correct. The book lists compression boots to promote venous return.",
+        "Incorrect. The book encourages early ambulation or chair rest, even for intubated clients.",
+        "Correct. The book lists hydration of 2 L/day or more if not restricted.",
+        "Correct. The book lists early ambulation or chair rest."
+      ],
+      "clue": "Stable client with no fluid restriction.",
+      "priority": "Promote venous return and prevent new clots.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q7",
+      "section": "resp-pe",
+      "type": "mcq",
+      "page": 21,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client newly diagnosed with PE says, \"I'm scared. Nobody has told me what is wrong or what all these tests are for.\" Which response by the nurse is best?",
+      "options": [
+        "\"Try not to worry. The doctors know what they are doing.\"",
+        "\"You need to rest now rather than ask so many questions.\"",
+        "\"I will ask the provider for something to help you sleep.\"",
+        "\"Tell me what worries you most, and I will explain your diagnosis and each test.\""
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. False reassurance dismisses the client's fear; the book says to encourage expression of fears and concerns.",
+        "Incorrect. This blocks communication; the book calls for explaining the diagnosis and all procedures and tests.",
+        "Incorrect. Medicating does not address the client's need for information and for voicing concerns.",
+        "Correct. The book's education points are to encourage expression of fears and concerns and to explain the diagnosis, prognosis and all procedures and tests."
+      ],
+      "clue": "The client is frightened and has not been told about the diagnosis or tests.",
+      "priority": "Encourage expression of fears and give clear explanations.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q8",
+      "section": "resp-pe",
+      "type": "mcq",
+      "page": 21,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "A 9-year-old client is hospitalized for treatment of a pulmonary embolism. Which nursing action best supports the child's developmental and emotional needs?",
+      "options": [
+        "Provide age-appropriate play and monitor growth and development",
+        "Discourage the child from talking about worries to avoid upset",
+        "Keep all explanations of the illness from the child",
+        "Limit activities to watching television alone in the room"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. For children, the book directs the nurse to monitor growth and development and provide age-appropriate play.",
+        "Incorrect. The book says to encourage expression of fears and concerns.",
+        "Incorrect. The book calls for explaining the diagnosis and procedures; withholding all information is not supported.",
+        "Incorrect. Isolating the child does not meet the book's call for age-appropriate play."
+      ],
+      "clue": "A school-age child is hospitalized with PE.",
+      "priority": "Support the child's development during hospitalization.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q9",
+      "section": "resp-pe",
+      "type": "sata",
+      "page": 20,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A client with PE is receiving thrombolytic therapy. Which actions should the nurse take? Select all that apply.",
+      "options": [
+        "Monitor for epistaxis, hematuria and bruising",
+        "Give PRN pain medication by intramuscular injection",
+        "Watch the hemoglobin and hematocrit for a drop",
+        "Draw each lab by a separate venipuncture",
+        "Ensure a safe environment when the client walks"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists monitoring for bleeding, including epistaxis, hematuria and bruising.",
+        "Incorrect. The book says to limit invasive procedures such as injections during therapy.",
+        "Correct. An H/H drop is listed as a bleeding sign to monitor.",
+        "Incorrect. The book says to limit venipunctures during anticoagulant or thrombolytic therapy.",
+        "Correct. The book lists ensuring a safe environment for ambulatory clients."
+      ],
+      "clue": "Client is receiving thrombolytic therapy.",
+      "priority": "Prevent and detect bleeding during clot-dissolving therapy.",
+      "checked": true
+    },
+    {
+      "id": "resp-pe-q10",
+      "section": "resp-pe",
+      "type": "mcq",
+      "page": 19,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "stem": "A client with symptomatic PE is receiving a weight-based IV heparin infusion. Which laboratory result does the nurse use to guide adjustment of the infusion?",
+      "options": [
+        "D-dimer level",
+        "Activated partial thromboplastin time (aPTT)",
+        "Platelet count",
+        "Chest x-ray result"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book uses a positive D-dimer to show there is a clot somewhere, not to adjust heparin.",
+        "Correct. The book states the IV heparin bolus and infusion are adjusted by aPTT.",
+        "Incorrect. The book does not use the platelet count to adjust the heparin infusion.",
+        "Incorrect. A chest x-ray is not used to titrate heparin."
+      ],
+      "clue": "Weight-based heparin infusion for symptomatic PE.",
+      "priority": "Monitor the correct lab for heparin therapy.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q1",
+      "section": "resp-pneumonia",
+      "type": "mcq",
+      "page": 23,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A client is admitted with community-acquired pneumonia. Orders include blood cultures, sputum culture, and IV antibiotics. Which action should the nurse take first?",
+      "options": [
+        "Start the IV antibiotic infusion",
+        "Teach the client incentive spirometry",
+        "Obtain an ABG right after suctioning",
+        "Collect the blood and sputum cultures"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Giving antibiotics before cultures can prevent identification of the organism.",
+        "Incorrect. Incentive spirometry prevents atelectasis but does not come before cultures and antibiotics.",
+        "Incorrect. The book warns not to suction before an ABG because it lowers oxygen and skews results.",
+        "Correct. The book states to collect cultures first and then start antibiotics early."
+      ],
+      "clue": "Cultures and antibiotics are both ordered on admission.",
+      "priority": "Identify the organism before starting antibiotic therapy.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q2",
+      "section": "resp-pneumonia",
+      "type": "mcq",
+      "page": 23,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "A client has pneumonia in the right lung with no hemoptysis or abscess. To improve ventilation-perfusion matching, how should the nurse position the client?",
+      "options": [
+        "Side-lying with the right lung down",
+        "Side-lying with the left lung down",
+        "Flat supine with the head of bed at zero",
+        "Trendelenburg with the legs raised"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Placing the affected lung down sends more blood flow to poorly ventilated tissue.",
+        "Correct. The book advises good lung down; the left lung is unaffected here.",
+        "Incorrect. Lying flat does not favor the good lung and raises aspiration risk.",
+        "Incorrect. Trendelenburg is used after witnessed aspiration, not to improve V/Q matching in pneumonia."
+      ],
+      "clue": "Pneumonia is in the right lung only, with no exceptions present.",
+      "priority": "Optimize gas exchange through positioning.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q3",
+      "section": "resp-pneumonia",
+      "type": "mcq",
+      "page": 24,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is caring for an intubated client on a ventilator. Which action best helps prevent ventilator-associated pneumonia?",
+      "options": [
+        "Change the ventilator circuit on a set daily schedule",
+        "Use an open suction technique for each suction pass",
+        "Hold daily sedation interruptions to keep comfort",
+        "Keep the head of bed at 30 to 45 degrees unless contraindicated"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book says to avoid routine circuit changes unless visibly soiled.",
+        "Incorrect. The book recommends closed in-line suction systems to reduce contamination.",
+        "Incorrect. Daily sedation vacations and readiness checks for extubation are part of VAP prevention.",
+        "Correct. The book lists head-of-bed elevation of 30 to 45 degrees, unless contraindicated, in VAP prevention."
+      ],
+      "clue": "Client is intubated and on mechanical ventilation.",
+      "priority": "Prevent ventilator-associated pneumonia.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q4",
+      "section": "resp-pneumonia",
+      "type": "sata",
+      "page": 24,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client has been intubated and mechanically ventilated for three days. Which measures should the nurse use to prevent ventilator-associated pneumonia (VAP)? Select all that apply.",
+      "options": [
+        "Change the ventilator circuit every 24 hours",
+        "Provide oral hygiene with chlorhexidine every 12 hours",
+        "Use an open suction technique for each pass",
+        "Suction subglottic secretions",
+        "Assess extubation readiness during daily sedation vacations",
+        "Lower the head of the bed flat to promote rest"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book says to avoid routine ventilator circuit changes unless visibly soiled.",
+        "Correct. The book lists oral hygiene with chlorhexidine every 12 hours.",
+        "Incorrect. The book recommends closed in-line suction systems to reduce contamination.",
+        "Correct. The book lists suctioning of subglottic secretions in intubated clients.",
+        "Correct. The book lists daily sedation vacations and assessment of extubation readiness.",
+        "Incorrect. The book directs head-of-bed elevation of 30 to 45 degrees unless contraindicated."
+      ],
+      "clue": "Client is intubated and on a ventilator.",
+      "priority": "Apply the VAP prevention bundle.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q5",
+      "section": "resp-pneumonia",
+      "type": "matrix",
+      "page": 23,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client is admitted with suspected bacterial pneumonia. For each diagnostic result, indicate whether it is normal or abnormal.",
+      "rows": [
+        "WBC count 16,000/mm3",
+        "Chest x-ray showing an infiltrate in the right lower lobe",
+        "Blood cultures negative for pathogens",
+        "Sputum culture showing growth of infecting bacteria",
+        "ABG with PaO2 and PaCO2 in the normal range"
+      ],
+      "columns": [
+        "Normal",
+        "Abnormal"
+      ],
+      "correct": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "The book lists a normal WBC of 4,500 to 11,000/mm3; leukocytosis is abnormal.",
+        "An infiltrate or consolidation is the abnormal chest x-ray finding.",
+        "Negative blood cultures are the normal result.",
+        "Growth of infecting bacteria is the abnormal sputum result.",
+        "Normal PaO2 and PaCO2 are the normal ABG result; hypoxemia and hypocapnia are abnormal."
+      ],
+      "clue": "Comparing each result with the book's normal and abnormal values.",
+      "priority": "Interpret diagnostic results in pneumonia.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q6",
+      "section": "resp-pneumonia",
+      "type": "sata",
+      "page": 22,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is screening adults at a community clinic. Which client factors are risk factors for pneumonia? Select all that apply.",
+      "options": [
+        "Cigarette smoking",
+        "Long-term steroid use",
+        "Regular moderate exercise",
+        "Alcohol abuse",
+        "Taking a daily multivitamin"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "rationales": [
+        "Correct. Smoking is shown as a pneumonia risk factor.",
+        "Correct. Steroids are shown with HIV and chemotherapy as a risk factor.",
+        "Incorrect. Exercise is not a listed risk factor; immobility is.",
+        "Correct. Alcohol abuse is shown as a pneumonia risk factor.",
+        "Incorrect. A daily multivitamin is not a listed risk factor; malnutrition is."
+      ],
+      "clue": "Exposures and conditions that weaken lung defenses.",
+      "priority": "Identify clients at risk for pneumonia for prevention teaching.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q7",
+      "section": "resp-pneumonia",
+      "type": "mcq",
+      "page": 21,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients with pneumonia. Which client should the nurse see first?",
+      "options": [
+        "A client with a productive cough and a temperature of 38.1 C (100.6 F)",
+        "A client asking for help using the incentive spirometer",
+        "A client whose blood pressure is 82/48 mm Hg with a heart rate of 128/min",
+        "A client with crackles in the right lower lobe noted on admission"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Cough and fever are expected pneumonia findings and are not the most urgent.",
+        "Incorrect. Incentive spirometry is important but can wait briefly.",
+        "Correct. The book lists septic shock as a complication of pneumonia; hypotension with tachycardia suggests it and needs immediate assessment.",
+        "Incorrect. Crackles that have been present since admission are an expected finding, not a new change."
+      ],
+      "clue": "Hypotension and tachycardia in a client with pneumonia.",
+      "priority": "Recognize a life-threatening complication first.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q8",
+      "section": "resp-pneumonia",
+      "type": "mcq",
+      "page": 22,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A 28-year-old woman with suspected pneumonia has a chest x-ray ordered. Which action should the nurse take before the study?",
+      "options": [
+        "Hold the first antibiotic dose until the x-ray is read",
+        "Have the client fast for 8 hours",
+        "Suction the client to clear the airway",
+        "Confirm that a pregnancy test has been done"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book says to start antibiotics early once cultures are collected; the x-ray does not delay them.",
+        "Incorrect. Fasting is not required for a chest x-ray.",
+        "Incorrect. Suctioning is not a preparation step for radiography.",
+        "Correct. The book states to perform pregnancy tests before radiography studies in all women of childbearing age."
+      ],
+      "clue": "A woman of childbearing age is going for an x-ray.",
+      "priority": "Prevent fetal radiation exposure.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumonia-q9",
+      "section": "resp-pneumonia",
+      "type": "mcq",
+      "page": 23,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "A client recovering from pneumonia spends most of the day in bed. Which nursing action best helps prevent atelectasis?",
+      "options": [
+        "Encourage turning, coughing, deep breathing and incentive spirometry",
+        "Limit position changes to conserve the client's energy",
+        "Encourage shallow breathing to reduce chest discomfort",
+        "Keep the client flat in bed to rest the lungs"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book says to encourage TCDB (turn, cough, deep breathe) and incentive spirometry to prevent atelectasis.",
+        "Incorrect. Turning is part of TCDB; limiting it raises the risk of atelectasis.",
+        "Incorrect. Shallow breathing promotes atelectasis; the book calls for deep breathing.",
+        "Incorrect. Lying flat does not help clear secretions or expand the lungs."
+      ],
+      "clue": "A client with pneumonia is mostly in bed.",
+      "priority": "Prevent atelectasis through lung expansion.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q1",
+      "section": "resp-aspiration",
+      "type": "mcq",
+      "page": 25,
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "stem": "While being fed, a client suddenly coughs and chokes, and the nurse sees food in the mouth. What should the nurse do immediately?",
+      "options": [
+        "Sit the client fully upright and offer sips of water",
+        "Place the client in slight Trendelenburg and suction the mouth and pharynx",
+        "Resume the meal at a slower rate with smaller bites",
+        "Wait for a chest x-ray before taking any action"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Giving fluids adds more material that can be aspirated; the airway must be cleared first.",
+        "Correct. For witnessed aspiration, the book lists slight Trendelenburg and oral and pharyngeal suction.",
+        "Incorrect. The book advises NPO until a swallow evaluation clears the client.",
+        "Incorrect. Imaging is for monitoring; clearing the airway comes first."
+      ],
+      "clue": "Witnessed choking with food in the mouth during a meal.",
+      "priority": "Clear the airway right after a witnessed aspiration.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q2",
+      "section": "resp-aspiration",
+      "type": "mcq",
+      "page": 25,
+      "clientNeed": "moc",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is reviewing assigned clients. Which client has the highest risk for aspiration?",
+      "options": [
+        "Alert client walking in the hall after surgery",
+        "Client on a regular diet who sits upright for meals",
+        "Client with altered consciousness on NG tube feedings lying flat",
+        "Alert client with an intact gag reflex awaiting tests"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. An alert, mobile client has none of the risk factors the book lists.",
+        "Incorrect. Upright positioning is a prevention measure, not a risk factor.",
+        "Correct. The book lists altered consciousness, enteral feeding and lying flat during feeding as aspiration risk factors.",
+        "Incorrect. An intact gag reflex protects the airway; an absent one is the risk factor."
+      ],
+      "clue": "Altered consciousness plus enteral feeding while lying flat.",
+      "priority": "Identify clients at greatest aspiration risk.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q3",
+      "section": "resp-aspiration",
+      "type": "mcq",
+      "page": 24,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client is suspected of aspirating vomit. When reviewing the chest x-ray, where should the nurse expect the aspirated material to be found?",
+      "options": [
+        "In the right lung",
+        "In the left lung",
+        "Evenly in both lung apices",
+        "In the pleural space only"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book explains most aspiration enters the right lung because its mainstem bronchus is shorter, wider and less angled.",
+        "Incorrect. The left mainstem bronchus is longer and more angled, so it is less often involved.",
+        "Incorrect. Gravity and airway anatomy favor the right side, not even spread to the apices.",
+        "Incorrect. Aspirated material enters the airways and lungs, not the pleural space."
+      ],
+      "clue": "Suspected aspiration of vomit.",
+      "priority": "Anticipate the anatomic site of aspiration.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q4",
+      "section": "resp-aspiration",
+      "type": "sata",
+      "page": 25,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client with a history of dysphagia had a suspected aspiration event and is now stable. Which prevention measures should the nurse include? Select all that apply.",
+      "options": [
+        "Offer thin liquids at the bedside to test swallowing",
+        "Keep the client NPO until cleared",
+        "Keep the head of the bed at 30 degrees or higher",
+        "Lay the client flat after each tube feeding",
+        "Arrange a swallow evaluation"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book says to keep the client NPO until cleared by a swallow evaluation.",
+        "Correct. The book lists NPO until cleared as a prevention measure.",
+        "Correct. The book lists HOB at 30 degrees or higher.",
+        "Incorrect. The book lists lying flat during or after feeding as a risk factor.",
+        "Correct. The book lists a swallow evaluation as a prevention measure."
+      ],
+      "clue": "History of dysphagia and a recent aspiration event.",
+      "priority": "Prevent repeat aspiration.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q5",
+      "section": "resp-aspiration",
+      "type": "matrix",
+      "page": 25,
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "stem": "The nurse cares for two clients: one choked on food while the nurse watched, and one was found with gastric contents in the oropharynx after an unobserved event. For each intervention, indicate whether the book lists it for witnessed or unwitnessed aspiration.",
+      "rows": [
+        "Slight Trendelenburg position",
+        "Suction of the oral cavity and pharynx",
+        "Intubation or mechanical ventilation",
+        "Bronchoscopy for large particles",
+        "Monitoring for pneumonia, ARDS or hypotension"
+      ],
+      "columns": [
+        "Witnessed aspiration",
+        "Unwitnessed aspiration"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Slight Trendelenburg is listed for witnessed aspiration.",
+        "Oral and pharyngeal suction is listed for witnessed aspiration.",
+        "Intubation or mechanical ventilation is listed for unwitnessed aspiration.",
+        "Bronchoscopy for large particles is listed for witnessed aspiration.",
+        "Monitoring for pneumonia, ARDS or hypotension is listed for unwitnessed aspiration."
+      ],
+      "clue": "Whether the aspiration event was witnessed.",
+      "priority": "Match interventions to the type of aspiration event.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q6",
+      "section": "resp-aspiration",
+      "type": "sata",
+      "page": 25,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "stem": "A client receiving nasogastric tube feedings is found lying flat and coughing. Which findings should the nurse recognize as signs of aspiration? Select all that apply.",
+      "options": [
+        "Crackles on auscultation",
+        "Hypoxemia",
+        "Bradycardia",
+        "Gastric contents in the oropharynx",
+        "Tachycardia",
+        "Elevated blood pressure"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Correct. Crackles are listed as a sign of aspiration.",
+        "Correct. Hypoxemia is listed as a sign of aspiration.",
+        "Incorrect. The book lists tachycardia, not bradycardia.",
+        "Correct. Gastric contents in the oropharynx are listed as a sign of aspiration.",
+        "Correct. Tachycardia is listed as a sign of aspiration.",
+        "Incorrect. The book lists hypotension, not high blood pressure."
+      ],
+      "clue": "Tube-fed client lying flat and coughing.",
+      "priority": "Recognize aspiration early.",
+      "checked": true
+    },
+    {
+      "id": "resp-aspiration-q7",
+      "section": "resp-aspiration",
+      "type": "mcq",
+      "page": 25,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client develops a lung infection after an aspiration event. Blood and sputum cultures have been sent. Which antibiotic plan should the nurse anticipate?",
+      "options": [
+        "Withhold antibiotics until the culture results are final",
+        "Start empiric antibiotics and adjust them based on culture results",
+        "Give a single antibiotic dose only if a fever develops",
+        "Use antibiotics only if bronchoscopy finds large particles"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book says to start empiric antibiotics, not wait for final results.",
+        "Correct. The book's treatment summary says to start empiric antibiotics and adjust per cultures.",
+        "Incorrect. A single fever-triggered dose is not the book's plan.",
+        "Incorrect. Bronchoscopy removes large particles; it does not decide whether antibiotics are given."
+      ],
+      "clue": "Infection after aspiration with cultures already sent.",
+      "priority": "Treat infection promptly and tailor therapy to cultures.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q1",
+      "section": "resp-copd",
+      "type": "mcq",
+      "page": 26,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with COPD is hypoxic during an acute exacerbation. Which oxygen order should the nurse expect?",
+      "options": [
+        "Low-flow oxygen by nasal cannula with a saturation target near 90%",
+        "Non-rebreather mask at 15 L/min to reach 100% saturation",
+        "No oxygen until arterial blood gas results return",
+        "High-flow oxygen with a saturation target of 98%"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book calls for low-flow oxygen, about 1 to 2 L by nasal cannula, targeting a saturation near 90%.",
+        "Incorrect. High-flow oxygen is avoided in COPD; the book stresses careful low-flow titration.",
+        "Incorrect. A hypoxic client needs oxygen; the book says to adjust it carefully, not withhold it.",
+        "Incorrect. The book's target for COPD is about 90%, delivered at low flow."
+      ],
+      "clue": "Hypoxic client with COPD.",
+      "priority": "Provide safe, carefully titrated oxygen in COPD.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q2",
+      "section": "resp-copd",
+      "type": "mcq",
+      "page": 27,
+      "clientNeed": "hpm",
+      "cjmm": "takeAction",
+      "stem": "A client with chronic COPD who still smokes asks which change will help the disease most. What is the nurse's best response?",
+      "options": [
+        "Taking aminophylline daily will best control symptoms",
+        "Long-term corticosteroids are the main treatment",
+        "Quitting smoking is the most important step you can take",
+        "Using albuterol every few hours will stop progression"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book advises avoiding aminophylline because of toxicity and interactions.",
+        "Incorrect. The book says corticosteroids have a limited role because of side effects.",
+        "Correct. The book names smoking cessation as the most important chronic management intervention.",
+        "Incorrect. Short-acting albuterol is for rescue use and does not change the disease course."
+      ],
+      "clue": "Client with COPD continues to smoke.",
+      "priority": "Teach the intervention with the greatest long-term benefit.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q3",
+      "section": "resp-copd",
+      "type": "mcq",
+      "page": 27,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A client with a COPD exacerbation is being assessed. Which finding most suggests a bacterial cause?",
+      "options": [
+        "Symptoms that started after pollen exposure",
+        "Sputum changing from clear to creamy and purulent",
+        "Exertional dyspnea that has slowly increased",
+        "Wheezing that started after smoke exposure"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Pollen is an environmental allergen trigger, not a sign of bacterial infection.",
+        "Correct. The book lists more sputum and a color change from clear to purulent as signs of bacterial infection.",
+        "Incorrect. Exertional dyspnea is a baseline COPD symptom and does not point to bacteria.",
+        "Incorrect. Smoke is an airway irritant trigger, not evidence of bacterial infection."
+      ],
+      "clue": "Change in sputum color from clear to purulent.",
+      "priority": "Recognize signs of a bacterial COPD exacerbation.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q4",
+      "section": "resp-copd",
+      "type": "mcq",
+      "page": 26,
+      "clientNeed": "hpm",
+      "cjmm": "takeAction",
+      "stem": "A client recently diagnosed with COPD asks why a blood test for alpha-1 antitrypsin deficiency was ordered. What is the nurse's best response?",
+      "options": [
+        "\"It is repeated every year to measure smoking damage.\"",
+        "\"It is checked only in people who have never smoked.\"",
+        "\"It shows how well your inhaler is working.\"",
+        "\"Everyone with COPD is screened once for this genetic factor, which is linked to early-onset COPD.\""
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book says to screen once, not yearly.",
+        "Incorrect. The book says to screen all clients with COPD.",
+        "Incorrect. The test looks for a genetic deficiency, not inhaler effect.",
+        "Correct. The book's case finding is to screen all COPD clients once for alpha-1 antitrypsin deficiency, a genetic cause of early-onset COPD."
+      ],
+      "clue": "Client with COPD asks about alpha-1 antitrypsin testing.",
+      "priority": "Explain screening for a genetic cause of COPD.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q5",
+      "section": "resp-copd",
+      "type": "sata",
+      "page": 27,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "stem": "The nurse teaches a client about long-term COPD medications. Which client statements show correct understanding? Select all that apply.",
+      "options": [
+        "\"Tiotropium is a long-acting drug I take every day for maintenance.\"",
+        "\"I will use albuterol as my rescue inhaler.\"",
+        "\"Aminophylline will be my main daily medicine.\"",
+        "\"Daily long-term steroids are the core of my treatment.\"",
+        "\"Formoterol is a long-acting bronchodilator.\""
+      ],
+      "correct": [
+        0,
+        1,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists tiotropium as a long-acting anticholinergic bronchodilator for chronic management.",
+        "Correct. The book lists short-acting agents such as albuterol for rescue use.",
+        "Incorrect. The book says to avoid aminophylline because of toxicity and interactions.",
+        "Incorrect. The book says corticosteroids have a limited role because of side effects.",
+        "Correct. The book lists formoterol as a LABA."
+      ],
+      "clue": "Client describes the purpose of each COPD drug.",
+      "priority": "Confirm understanding of maintenance versus rescue drugs.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q6",
+      "section": "resp-copd",
+      "type": "mcq",
+      "page": 26,
+      "clientNeed": "hpm",
+      "cjmm": "takeAction",
+      "stem": "A client with COPD who uses home oxygen is planning a flight to visit family. What should the nurse advise?",
+      "options": [
+        "\"Turn your oxygen to the highest setting for the whole flight.\"",
+        "\"Check with your doctor about your oxygen needs before you fly.\"",
+        "\"You can leave your oxygen off because the cabin is pressurized.\"",
+        "\"No planning is needed as long as you feel well that day.\""
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book says to adjust oxygen carefully in COPD, not to run it at the highest setting.",
+        "Correct. The book states COPD clients should check with their doctor about their oxygen needs before flying.",
+        "Incorrect. The book directs the client to review oxygen needs with the doctor before flying.",
+        "Incorrect. The book calls for checking oxygen needs with the doctor before travel."
+      ],
+      "clue": "A client on home oxygen plans to fly.",
+      "priority": "Teach safe travel planning for chronic lung disease.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q7",
+      "section": "resp-copd",
+      "type": "matrix",
+      "page": 27,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "The nurse and provider are planning long-term care for a client with stable COPD. For each intervention, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Referral to a smoking cessation program",
+        "Pulmonary rehabilitation and exercise",
+        "Daily aminophylline",
+        "Annual influenza and pneumococcal vaccines",
+        "Routine long-term corticosteroids"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "The book names smoking cessation as the most important chronic intervention.",
+        "Pulmonary rehabilitation and exercise are listed in chronic management.",
+        "The book says to avoid aminophylline because of toxicity and interactions.",
+        "Annual flu and pneumococcal vaccines are listed in chronic management.",
+        "The book says corticosteroids have a limited role because of side effects."
+      ],
+      "clue": "Each intervention compared with the book's chronic management list.",
+      "priority": "Build a collaborative long-term plan for COPD.",
+      "checked": true
+    },
+    {
+      "id": "resp-copd-q8",
+      "section": "resp-copd",
+      "type": "mcq",
+      "page": 27,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is assigned four clients with COPD. Which client should the nurse assess first?",
+      "options": [
+        "A client with a chronic cough who wants inhaler teaching",
+        "A client who asks about smoking cessation programs",
+        "A client with exertional dyspnea that is unchanged from baseline",
+        "A client with suddenly worse dyspnea, a higher respiratory rate and new purulent sputum"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Chronic cough is a baseline COPD symptom; teaching can wait.",
+        "Incorrect. Smoking cessation is important but this request is not urgent.",
+        "Incorrect. Exertional dyspnea at baseline is an expected COPD symptom.",
+        "Correct. The book defines an exacerbation as sudden worsening with more dyspnea, higher respiratory rate and work of breathing, and increased or purulent sputum."
+      ],
+      "clue": "Sudden worsening of dyspnea with purulent sputum.",
+      "priority": "Recognize and act on a COPD exacerbation first.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q1",
+      "section": "resp-asthma",
+      "type": "mcq",
+      "page": 29,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "stem": "A client is prescribed an albuterol inhaler and an inhaled corticosteroid. Which teaching is correct?",
+      "options": [
+        "Use the steroid first, then the albuterol, without rinsing",
+        "Use the steroid inhaler alone for quick relief of an attack",
+        "Use both inhalers only after symptoms have lasted a day",
+        "Use the albuterol first, then the steroid, and rinse your mouth after"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. This reverses the book's order and skips rinsing after the steroid.",
+        "Incorrect. Corticosteroids reduce inflammation over time; albuterol gives quick relief.",
+        "Incorrect. Albuterol is for quick relief during attacks; waiting delays treatment.",
+        "Correct. The book's inhaler rule is bronchodilator first, steroid second, and rinse after steroid use."
+      ],
+      "clue": "Client uses both a bronchodilator and an inhaled steroid.",
+      "priority": "Teach correct inhaler sequence and technique.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q2",
+      "section": "resp-asthma",
+      "type": "mcq",
+      "page": 30,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients with asthma. Which client should the nurse assess first?",
+      "options": [
+        "A client with mild intermittent asthma who asks how to use a peak flow meter",
+        "A client with severe dyspnea after several bronchodilator treatments whose PaCO2 is rising",
+        "A client taking montelukast who asks whether it can be used during an attack",
+        "A client whose wheezing eased after an albuterol treatment"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Peak flow teaching is important, but this client is stable and can wait.",
+        "Correct. No response to bronchodilators with rising CO2 (respiratory acidosis) are the book's findings of status asthmaticus, a life-threatening exacerbation with progressive respiratory failure.",
+        "Incorrect. This is a teaching need (montelukast is for long-term prevention), not an urgent physical change.",
+        "Incorrect. Relief of bronchospasm after albuterol is the expected response to a bronchodilator."
+      ],
+      "clue": "Severe dyspnea that has not responded to bronchodilators, with a rising PaCO2.",
+      "priority": "See first the client showing signs of status asthmaticus and respiratory failure.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q3",
+      "section": "resp-asthma",
+      "type": "mcq",
+      "page": 28,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A client with an asthma attack was wheezing loudly. Now the wheezing has stopped and the client is confused and lethargic. How should the nurse interpret this?",
+      "options": [
+        "Severe obstruction is getting worse",
+        "Bronchospasm is resolving with treatment",
+        "The client is falling asleep from fatigue",
+        "Anxiety from the attack is subsiding"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists a silent chest with confusion and lethargy as signs of severe asthma.",
+        "Incorrect. Loss of wheezing with confusion means air is barely moving, not improvement.",
+        "Incorrect. Confusion and lethargy in a severe attack are danger signs, not normal rest.",
+        "Incorrect. Anxiety may worsen symptoms, but confusion with a silent chest signals worsening obstruction."
+      ],
+      "clue": "Wheezing stops and the client becomes confused (silent chest).",
+      "priority": "Recognize life-threatening deterioration in asthma.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q4",
+      "section": "resp-asthma",
+      "type": "mcq",
+      "page": 28,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client having a first-ever asthma attack is wheezing and very frightened. Along with ordered treatment, which nursing action is most appropriate?",
+      "options": [
+        "Stay with the client and use a calm, reassuring approach",
+        "Leave the room so the client can rest quietly",
+        "Tell the client the attack is not serious",
+        "Ask the client for a detailed health history now"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book notes anxiety worsens asthma symptoms, especially in first-time patients, so calm support helps.",
+        "Incorrect. Leaving a frightened client alone can increase anxiety, which the book says worsens symptoms.",
+        "Incorrect. Dismissing the attack is false reassurance and does not ease the anxiety.",
+        "Incorrect. Long questioning adds work of breathing; the book advises short yes/no communication."
+      ],
+      "clue": "First-time attack with marked anxiety.",
+      "priority": "Reduce anxiety, which worsens asthma symptoms.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q5",
+      "section": "resp-asthma",
+      "type": "mcq",
+      "page": 28,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "A 6-year-old is having an asthma attack. The parent is crying and pacing at the bedside, and the child is becoming more distressed. What is the nurse's best action?",
+      "options": [
+        "Ask the parent to leave and not return until the attack is over",
+        "Focus only on the child and ignore the parent",
+        "Calmly support the parent and help them stay calm with the child",
+        "Tell the parent that their crying caused the attack"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Removing the parent is not what the book describes; it links parental anxiety to the child's distress.",
+        "Incorrect. Ignoring the parent leaves the source of added distress unaddressed.",
+        "Correct. The book notes anxious parents may increase a child's distress during an attack, so calming and supporting the parent helps the child.",
+        "Incorrect. Blaming the parent is not therapeutic and increases anxiety."
+      ],
+      "clue": "An anxious parent and a child whose distress is rising.",
+      "priority": "Support the family to reduce the child's distress.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q6",
+      "section": "resp-asthma",
+      "type": "mcq",
+      "page": 29,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client in moderate respiratory distress from asthma is sitting upright. How should the nurse communicate while gathering information?",
+      "options": [
+        "Ask open-ended questions so the client can explain fully",
+        "Ask short questions the client can answer with yes or no",
+        "Have the client write out a full health history",
+        "Avoid speaking to the client until the attack ends"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Long answers increase work of breathing.",
+        "Correct. The book advises conserving energy by using short, yes/no communication.",
+        "Incorrect. A full written history is tiring and not the book's approach during distress.",
+        "Incorrect. The nurse still needs information; short yes/no questions conserve energy."
+      ],
+      "clue": "Client in respiratory distress needs to conserve energy.",
+      "priority": "Adapt communication to the client's breathing ability.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q7",
+      "section": "resp-asthma",
+      "type": "sata",
+      "page": 29,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "stem": "A client with asthma is learning about prescribed medications. Which client statements show correct understanding? Select all that apply.",
+      "options": [
+        "\"I can use albuterol before I exercise.\"",
+        "\"Montelukast is what I use for quick relief during an attack.\"",
+        "\"Cromolyn helps prevent attacks but will not stop one in progress.\"",
+        "\"My inhaled corticosteroid reduces inflammation in my airways.\"",
+        "\"Theophylline is my rescue drug for sudden symptoms.\""
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists albuterol for quick relief during attacks or before exercise.",
+        "Incorrect. The book lists leukotriene antagonists such as montelukast for long-term prevention.",
+        "Correct. The book says cromolyn prevents attacks and is not for acute relief.",
+        "Correct. The book says corticosteroids reduce airway inflammation.",
+        "Incorrect. The book lists theophylline for chronic, severe asthma, not rescue."
+      ],
+      "clue": "Client describes the role of each asthma drug.",
+      "priority": "Confirm correct use of rescue and controller drugs.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q8",
+      "section": "resp-asthma",
+      "type": "matrix",
+      "page": 30,
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "stem": "A client in status asthmaticus is not responding to standard bronchodilators. For each intervention, indicate whether the nurse should anticipate it.",
+      "rows": [
+        "High doses of inhaled beta2-agonists",
+        "Systemic corticosteroids",
+        "Large tidal volumes if the client is ventilated",
+        "Magnesium or epinephrine"
+      ],
+      "columns": [
+        "Anticipated",
+        "Not anticipated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "High-dose inhaled beta2-agonists are listed in status asthmaticus management.",
+        "Systemic corticosteroids are listed in status asthmaticus management.",
+        "The book calls for low tidal volume to prevent auto-PEEP.",
+        "The book says to consider magnesium or epinephrine."
+      ],
+      "clue": "Status asthmaticus unresponsive to standard therapy.",
+      "priority": "Anticipate escalating therapy for status asthmaticus.",
+      "checked": true
+    },
+    {
+      "id": "resp-asthma-q9",
+      "section": "resp-asthma",
+      "type": "sata",
+      "page": 30,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A client with status asthmaticus is on mechanical ventilation when the ventilator alarm sounds. Which actions by the nurse are appropriate? Select all that apply.",
+      "options": [
+        "Look at the client before checking the ventilator",
+        "Silence the alarm and review the ventilator settings first",
+        "Confirm a manual resuscitation (Ambu) bag is at the bedside",
+        "Confirm suction equipment is available at the bedside",
+        "Leave to find the respiratory therapist before assessing"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book says to always look over the patient before checking the ventilator.",
+        "Incorrect. The book says the client is assessed before the ventilator.",
+        "Correct. The book says an Ambu bag should always be at the bedside.",
+        "Correct. The book says suction should always be available at the bedside.",
+        "Incorrect. The nurse must assess the client first rather than leave the bedside."
+      ],
+      "clue": "A ventilator alarm sounds for an unstable client.",
+      "priority": "Assess the client before the equipment.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q1",
+      "section": "resp-effusion",
+      "type": "mcq",
+      "page": 31,
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "stem": "The nurse is preparing a client for a thoracentesis. Which position should the nurse help the client into?",
+      "options": [
+        "Flat on the back with the arms at the sides",
+        "Slight Trendelenburg with the head lowered",
+        "Lying prone with a pillow under the abdomen",
+        "Seated and leaning forward over a padded over-bed table"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book's position is seated and leaning forward, not supine.",
+        "Incorrect. Trendelenburg is described for aspiration, not for thoracentesis.",
+        "Incorrect. Prone positioning is used in ARDS, not to prepare for thoracentesis.",
+        "Correct. The book shows the client seated, leaning forward on an over-bed table with pillows and arms supported."
+      ],
+      "clue": "Client is being prepared for thoracentesis.",
+      "priority": "Position the client safely for the procedure.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q2",
+      "section": "resp-effusion",
+      "type": "mcq",
+      "page": 31,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with heart failure has a transudative pleural effusion. Which treatment should the nurse anticipate?",
+      "options": [
+        "Chemotherapy or radiation to the chest",
+        "Antibiotics for an underlying pneumonia",
+        "Diuretics and treatment of the heart failure",
+        "High-flow oxygen with no other treatment"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. These are listed for exudative effusions caused by cancer.",
+        "Incorrect. Antibiotics treat exudative effusions caused by pneumonia.",
+        "Correct. The book says transudative effusions may improve with diuretics and treating the systemic cause.",
+        "Incorrect. Oxygen alone does not address the fluid or its systemic cause."
+      ],
+      "clue": "Transudative effusion with heart failure as the cause.",
+      "priority": "Treat the underlying systemic cause of the effusion.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q3",
+      "section": "resp-effusion",
+      "type": "mcq",
+      "page": 31,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "stem": "A client has a pleural effusion of unknown cause. The provider wants to check for infection or cancer cells. Which test should the nurse prepare the client for?",
+      "options": [
+        "Lateral decubitus chest x-ray",
+        "Ultrasound of the pleural space",
+        "Thoracentesis to collect pleural fluid",
+        "Pulmonary function testing"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. This view shows fluid layering out but does not analyze the fluid.",
+        "Incorrect. Ultrasound confirms fluid is present but does not identify its cause.",
+        "Correct. The book states thoracentesis collects fluid for microbiological, cytological and chemical analysis.",
+        "Incorrect. PFTs are not listed for pleural effusion and do not sample fluid."
+      ],
+      "clue": "Need to test the fluid for infection or cancer cells.",
+      "priority": "Choose the test that identifies the cause of the effusion.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q4",
+      "section": "resp-effusion",
+      "type": "mcq",
+      "page": 30,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client with a suspected small pleural effusion has a normal chest radiograph. The nurse knows pleural fluid becomes visible on a chest radiograph once it exceeds which volume?",
+      "options": [
+        "50 mL",
+        "100 mL",
+        "300 mL",
+        "1,000 mL"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book gives a threshold of more than 300 mL.",
+        "Incorrect. The book gives a threshold of more than 300 mL.",
+        "Correct. The book states that more than 300 mL of pleural fluid can be seen on chest radiograph.",
+        "Incorrect. Fluid is visible well below this amount; the book's threshold is 300 mL."
+      ],
+      "clue": "Suspected effusion with a normal chest radiograph.",
+      "priority": "Understand the limits of chest radiography.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q5",
+      "section": "resp-effusion",
+      "type": "matrix",
+      "page": 31,
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "stem": "The nurse is caring for clients with different types of pleural effusion. For each treatment, indicate whether the book lists it for exudative or transudative effusion.",
+      "rows": [
+        "Antibiotics for an underlying pneumonia",
+        "Diuretics",
+        "Fluid removal by chest tube or repeated thoracentesis",
+        "Treatment of kidney or liver failure",
+        "Chemotherapy or radiation for cancer"
+      ],
+      "columns": [
+        "Exudative",
+        "Transudative"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "Antibiotics for pneumonia are listed under exudative effusions.",
+        "The book says transudative effusions may improve with diuretics.",
+        "Fluid removal by chest tube or repeated thoracentesis is listed under exudative effusions.",
+        "Addressing the systemic cause (heart, kidney or liver failure) is listed under transudative effusions.",
+        "Chemo or radiation for cancer is listed under exudative effusions."
+      ],
+      "clue": "Type of effusion and its underlying cause.",
+      "priority": "Match treatment to the type of effusion.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q6",
+      "section": "resp-effusion",
+      "type": "sata",
+      "page": 31,
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "stem": "A client is scheduled for a thoracentesis to evaluate a pleural effusion. Which actions by the nurse are appropriate? Select all that apply.",
+      "options": [
+        "Position the client flat on the back",
+        "Seat the client leaning forward onto an over-bed table",
+        "Place the client in slight Trendelenburg",
+        "Place pillows on the table and support the client's arms",
+        "Send the fluid for microbiological, cytological and chemical analysis"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book shows the client seated and leaning forward, not supine.",
+        "Correct. The book shows the client seated, leaning forward onto an over-bed table.",
+        "Incorrect. Trendelenburg is listed for aspiration, not thoracentesis.",
+        "Correct. The book describes pillows on the table with the arms supported.",
+        "Correct. The book states thoracentesis collects fluid for these analyses."
+      ],
+      "clue": "Client is being prepared for thoracentesis.",
+      "priority": "Position safely and handle specimens correctly.",
+      "checked": true
+    },
+    {
+      "id": "resp-effusion-q7",
+      "section": "resp-effusion",
+      "type": "mcq",
+      "page": 31,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients with pleural effusions. Which client should the nurse assess first?",
+      "options": [
+        "A client with a small effusion found on a routine x-ray who has no symptoms",
+        "A client with a known effusion reporting increasing dyspnea and pain on inspiration",
+        "A client with a heart failure effusion who is due for a scheduled diuretic",
+        "A client awaiting an ultrasound who asks when the test will be done"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book notes mild effusions may be asymptomatic; this client is stable.",
+        "Correct. Dyspnea and pleuritic chest pain are the book's effusion symptoms, and worsening dyspnea needs prompt assessment.",
+        "Incorrect. A scheduled diuretic is routine care for a transudative effusion.",
+        "Incorrect. A question about test timing is not urgent."
+      ],
+      "clue": "Worsening dyspnea and pleuritic pain.",
+      "priority": "Assess the client whose breathing is getting worse first.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q1",
+      "section": "resp-emphysema",
+      "type": "mcq",
+      "page": 33,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "A client with emphysema is short of breath while resting in bed. Which nursing action is most appropriate?",
+      "options": [
+        "Lay the client flat and encourage rapid breaths",
+        "Raise oxygen to high flow by non-rebreather",
+        "Ask the client to walk to raise lung capacity",
+        "Raise the head of bed and coach pursed-lip breathing"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Lying flat worsens breathing, and rapid breaths increase air trapping.",
+        "Incorrect. The book warns that high oxygen flow may suppress respiratory drive.",
+        "Incorrect. Exertion worsens dyspnea; the book stresses energy conservation.",
+        "Correct. The book lists high Fowler's or orthopneic positioning and pursed-lip breathing for emphysema."
+      ],
+      "clue": "Client with emphysema is dyspneic at rest.",
+      "priority": "Ease breathing and reduce air trapping.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q2",
+      "section": "resp-emphysema",
+      "type": "mcq",
+      "page": 34,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A client with late-stage emphysema becomes drowsy and confused. Which problem should the nurse suspect?",
+      "options": [
+        "Respiratory acidosis from retained carbon dioxide",
+        "Respiratory alkalosis from excess ventilation",
+        "Metabolic alkalosis from excess bicarbonate",
+        "Low blood sugar from a missed meal"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book notes retained CO2 causes respiratory acidosis in late stages and says to monitor for it by watching for confusion and drowsiness.",
+        "Incorrect. Emphysema causes CO2 retention, which leads to acidosis, not alkalosis.",
+        "Incorrect. The book links emphysema changes to retained CO2, a respiratory problem.",
+        "Incorrect. The book ties confusion here to CO2 retention and low oxygen, not glucose."
+      ],
+      "clue": "New drowsiness and confusion in late-stage emphysema.",
+      "priority": "Detect CO2 retention and respiratory acidosis early.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q3",
+      "section": "resp-emphysema",
+      "type": "mcq",
+      "page": 34,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with emphysema has lost weight and has a poor appetite. Which nutrition advice should the nurse give?",
+      "options": [
+        "Eat three large meals each day",
+        "Eat small, frequent, high-calorie meals",
+        "Eat a low-calorie diet to ease breathing",
+        "Skip meals when short of breath"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Large meals can worsen dyspnea; the book advises small, frequent meals.",
+        "Correct. The book advises small, frequent, high-calorie meals for clients with emphysema.",
+        "Incorrect. Weight loss is already a problem, so calories should be increased.",
+        "Incorrect. Skipping meals worsens weight loss and fatigue."
+      ],
+      "clue": "Weight loss and anorexia in a client with emphysema.",
+      "priority": "Maintain nutrition while limiting breathing effort.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q4",
+      "section": "resp-emphysema",
+      "type": "mcq",
+      "page": 33,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client with severe emphysema who had to stop working says, \"I'm just a burden. My family would be better off without me.\" What is the nurse's priority action?",
+      "options": [
+        "Reassure the client that the family loves them and change the subject",
+        "Encourage the client to focus on pursed-lip breathing",
+        "Document the statement and recheck it next shift",
+        "Ask the client directly whether they are thinking of suicide"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Reassurance and changing the subject miss a possible suicide risk.",
+        "Incorrect. Breathing exercises do not address the emotional warning sign.",
+        "Incorrect. Delay is unsafe; the statement needs assessment now.",
+        "Correct. The book lists depression, role loss and suicide risk in severe cases, so the nurse assesses suicide risk directly."
+      ],
+      "clue": "Role loss and a statement that the family would be better off without the client.",
+      "priority": "Assess suicide risk in severe chronic illness.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q5",
+      "section": "resp-emphysema",
+      "type": "sata",
+      "page": 33,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with emphysema becomes short of breath during morning care. Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Complete all care at once so it is finished quickly",
+        "Place the client in high Fowler's or orthopneic position",
+        "Lay the client flat to relax the chest muscles",
+        "Coach pursed-lip and diaphragmatic breathing",
+        "Schedule rest periods and assist with ADLs"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book calls for energy conservation with scheduled rest periods.",
+        "Correct. The book lists high Fowler's or orthopneic position to ease breathing.",
+        "Incorrect. Lying flat is not supported; the book uses upright positions.",
+        "Correct. The book lists pursed-lip and diaphragmatic breathing for airway clearance.",
+        "Correct. The book lists scheduling rest periods and assisting with ADLs to conserve energy."
+      ],
+      "clue": "Dyspnea with activity during morning care.",
+      "priority": "Ease breathing and conserve energy.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q6",
+      "section": "resp-emphysema",
+      "type": "matrix",
+      "page": 33,
+      "clientNeed": "psych",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse assesses the psychosocial status of a client with severe emphysema. For each client statement, indicate whether it signals a concern that needs follow-up.",
+      "rows": [
+        "\"I feel restless and on edge most of the day.\"",
+        "\"Since I quit my job, I don't know what my role is anymore.\"",
+        "\"Sometimes I think it would be easier if I didn't wake up.\"",
+        "\"I'm looking forward to my grandson's visit this weekend.\""
+      ],
+      "columns": [
+        "Needs follow-up",
+        "No concern identified"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rationales": [
+        "The book lists anxiety and restlessness as psychosocial findings in emphysema.",
+        "The book lists possible occupational and role loss.",
+        "The book notes suicide risk in severe cases; this statement needs immediate follow-up.",
+        "This statement shows positive engagement and no psychosocial concern."
+      ],
+      "clue": "Statements suggesting anxiety, role loss or hopelessness.",
+      "priority": "Recognize psychosocial risks in severe emphysema.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q7",
+      "section": "resp-emphysema",
+      "type": "sata",
+      "page": 34,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "stem": "The nurse teaches a client with emphysema how to stay healthy at home. Which instructions should the nurse include? Select all that apply.",
+      "options": [
+        "\"Turn your oxygen up high whenever you feel short of breath.\"",
+        "\"Get your flu vaccine.\"",
+        "\"Get the pneumococcal vaccine.\"",
+        "\"Avoid vaccines because they can cause a flare.\"",
+        "\"Wash your hands often.\""
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book warns high oxygen flow may suppress respiratory drive.",
+        "Correct. The book lists the flu vaccine to prevent infections.",
+        "Correct. The book lists the pneumococcal vaccine to prevent infections.",
+        "Incorrect. The book recommends flu and pneumococcal vaccines.",
+        "Correct. The book lists hand hygiene to prevent infections."
+      ],
+      "clue": "Health teaching for a client with emphysema at home.",
+      "priority": "Prevent infections that worsen emphysema.",
+      "checked": true
+    },
+    {
+      "id": "resp-emphysema-q8",
+      "section": "resp-emphysema",
+      "type": "sata",
+      "page": 34,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "A client with emphysema has new inhaled and oral prescriptions. Which statements about these drugs match the book? Select all that apply.",
+      "options": [
+        "Ipratropium is a corticosteroid that reduces inflammation",
+        "Tiotropium is a long-acting anticholinergic bronchodilator",
+        "Corticosteroids should be used alone, without a bronchodilator",
+        "Albuterol is a beta2-agonist bronchodilator",
+        "Corticosteroids are used short-term for acute exacerbations"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Incorrect. The book lists ipratropium as an anticholinergic bronchodilator.",
+        "Correct. The book lists tiotropium as a long-acting anticholinergic.",
+        "Incorrect. The book says to combine corticosteroids with a long-acting bronchodilator.",
+        "Correct. The book lists albuterol as a beta2-agonist.",
+        "Correct. The book lists short-term corticosteroids for acute exacerbations."
+      ],
+      "clue": "Drug classes in the emphysema regimen.",
+      "priority": "Know the action and role of each emphysema drug.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q1",
+      "section": "resp-fibrosis",
+      "type": "mcq",
+      "page": 35,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client newly diagnosed with pulmonary fibrosis asks if the disease can be cured. What is the nurse's best response?",
+      "options": [
+        "Only a lung transplant can cure it; other care manages symptoms",
+        "Antifibrotic drugs will cure the scarring completely",
+        "Bronchodilators will reverse the scarring over time",
+        "Low-flow oxygen therapy will cure it within a year"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book states there is no cure except lung transplant.",
+        "Incorrect. Nintedanib and pirfenidone slow fibrosis but do not cure it.",
+        "Incorrect. Bronchodilators improve airflow but do not reverse scarring.",
+        "Incorrect. Oxygen treats hypoxia but does not cure the disease."
+      ],
+      "clue": "Client asks whether pulmonary fibrosis can be cured.",
+      "priority": "Give accurate teaching about prognosis and treatment.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q2",
+      "section": "resp-fibrosis",
+      "type": "mcq",
+      "page": 36,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with pulmonary fibrosis develops jugular vein distention, edema and liver distention. Which treatment should the nurse anticipate?",
+      "options": [
+        "Thrombolytic therapy for pulmonary embolism",
+        "Diuretics and digitalis for cor pulmonale",
+        "Chest tube insertion for a pneumothorax",
+        "Four-drug therapy for tuberculosis"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. These findings point to cor pulmonale, not a PE needing thrombolysis.",
+        "Correct. The book identifies these as signs of cor pulmonale and lists diuretics and digitalis for it.",
+        "Incorrect. JVD with edema and liver distention is not a pneumothorax picture.",
+        "Incorrect. Nothing in the findings suggests TB."
+      ],
+      "clue": "JVD, edema and liver distention in pulmonary fibrosis.",
+      "priority": "Recognize and manage cor pulmonale.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q3",
+      "section": "resp-fibrosis",
+      "type": "mcq",
+      "page": 35,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "A client with pulmonary fibrosis reports fatigue and dyspnea with exertion. Which nursing intervention is the priority?",
+      "options": [
+        "Encourage high-intensity exercise daily",
+        "Give high-flow oxygen by non-rebreather",
+        "Teach that smoke exposure is not harmful",
+        "Teach energy conservation techniques"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Intense exertion worsens dyspnea and fatigue in this client.",
+        "Incorrect. The book calls for low-flow oxygen if needed.",
+        "Incorrect. The book says to avoid exposure to smoke, pollutants and infections.",
+        "Correct. The book stresses energy conservation for clients with pulmonary fibrosis."
+      ],
+      "clue": "Fatigue and exertional dyspnea in pulmonary fibrosis.",
+      "priority": "Conserve energy to reduce oxygen demand.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q4",
+      "section": "resp-fibrosis",
+      "type": "sata",
+      "page": 35,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse takes a history from a client with exertional dyspnea and a dry cough. Which findings are causes or risk factors for pulmonary fibrosis? Select all that apply.",
+      "options": [
+        "Many years of work in a coal mine",
+        "Long-term amiodarone use",
+        "Regular moderate aerobic exercise",
+        "Rheumatoid arthritis",
+        "Seasonal allergies as a child",
+        "Prior radiation therapy"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "rationales": [
+        "Correct. The book lists occupational exposure such as coal.",
+        "Correct. The book lists certain medications, including amiodarone.",
+        "Incorrect. Exercise is not among the book's causes or risk factors.",
+        "Correct. The book lists autoimmune diseases such as RA.",
+        "Incorrect. Childhood seasonal allergies are not among the listed causes or risk factors.",
+        "Correct. The book lists radiation therapy as a risk factor."
+      ],
+      "clue": "Occupational, drug and disease history.",
+      "priority": "Identify exposures linked to pulmonary fibrosis.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q5",
+      "section": "resp-fibrosis",
+      "type": "mcq",
+      "page": 36,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "stem": "A client with pulmonary fibrosis is starting pirfenidone and asks how it will help. What is the nurse's best response?",
+      "options": [
+        "\"It cures the scarring within a few months.\"",
+        "\"It opens your airways quickly, like a rescue inhaler.\"",
+        "\"It reduces scarring and inflammation in your lungs.\"",
+        "\"It removes extra fluid from your lungs.\""
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book states there is no definitive cure.",
+        "Incorrect. Bronchodilators improve airflow; pirfenidone is an antifibrotic.",
+        "Correct. The book lists pirfenidone as an antifibrotic that reduces scarring and inflammation.",
+        "Incorrect. Removing fluid describes diuretics, which the book uses for cor pulmonale."
+      ],
+      "clue": "Client starting an antifibrotic asks how it works.",
+      "priority": "Teach accurately about antifibrotic therapy.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q6",
+      "section": "resp-fibrosis",
+      "type": "matrix",
+      "page": 35,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "For each physical exam finding in a client with pulmonary fibrosis, indicate whether it is expected or unexpected.",
+      "rows": [
+        "Shallow, rapid breathing",
+        "Crackles at the lung bases",
+        "Cough producing large amounts of purulent sputum",
+        "A loud P2 heart sound",
+        "Slow, deep respirations"
+      ],
+      "columns": [
+        "Expected",
+        "Unexpected"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "The book lists shallow, rapid breathing.",
+        "The book lists crackles at the lung bases.",
+        "The book describes a dry cough in pulmonary fibrosis.",
+        "The book lists a possible systolic murmur or loud P2.",
+        "The book describes shallow, rapid breathing, not slow, deep breaths."
+      ],
+      "clue": "Exam findings compared with the book's fibrosis picture.",
+      "priority": "Recognize the expected findings of restrictive lung disease.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q7",
+      "section": "resp-fibrosis",
+      "type": "mcq",
+      "page": 36,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "The nurse is coordinating care for a client with pulmonary fibrosis who also has obstructive sleep apnea and GERD. Which statement reflects the collaborative plan?",
+      "options": [
+        "Sleep apnea and GERD should be actively managed as part of the plan",
+        "Comorbid conditions are addressed only after the fibrosis is cured",
+        "Antifibrotic drugs make treatment of GERD unnecessary",
+        "Sleep apnea care is stopped once oxygen therapy begins"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's collaborative care includes managing comorbidities such as COPD, sleep apnea, GERD and heart disease.",
+        "Incorrect. The book states there is no definitive cure, and comorbidities are managed now.",
+        "Incorrect. The book lists GERD among comorbidities to manage.",
+        "Incorrect. The book lists sleep apnea among comorbidities to manage alongside oxygen therapy."
+      ],
+      "clue": "Fibrosis with sleep apnea and GERD.",
+      "priority": "Coordinate care for coexisting conditions.",
+      "checked": true
+    },
+    {
+      "id": "resp-fibrosis-q8",
+      "section": "resp-fibrosis",
+      "type": "mcq",
+      "page": 36,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with advanced-stage pulmonary fibrosis asks what further option may be available. For an eligible client, which referral should the nurse anticipate?",
+      "options": [
+        "Bullectomy",
+        "Needle aspiration of the pleural space",
+        "Lung volume reduction surgery",
+        "Evaluation for lung transplantation"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book lists bullectomy as a surgical option for emphysema.",
+        "Incorrect. Needle aspiration is listed for small symptomatic pneumothorax.",
+        "Incorrect. The book lists lung volume reduction surgery for emphysema.",
+        "Correct. The book lists lung transplantation for eligible clients with advanced-stage disease."
+      ],
+      "clue": "Advanced-stage pulmonary fibrosis.",
+      "priority": "Coordinate referral for definitive treatment.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q1",
+      "section": "resp-pneumothorax",
+      "type": "mcq",
+      "page": 37,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "After chest trauma, a client has distended neck veins, hypotension, tachycardia and a trachea shifted away from the injured side. How should the nurse interpret these findings?",
+      "options": [
+        "Simple pneumothorax that needs only monitoring",
+        "Small pleural effusion seen on chest x-ray",
+        "Tension pneumothorax, a medical emergency",
+        "Aspiration into the right mainstem bronchus"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. A spontaneous or traumatic pneumothorax shifts the trachea toward the affected side, if at all.",
+        "Incorrect. A pleural effusion does not cause this picture of shock and tracheal shift.",
+        "Correct. The book lists these signs for tension pneumothorax and calls it life-threatening.",
+        "Incorrect. Aspiration does not explain tracheal deviation and distended neck veins."
+      ],
+      "clue": "Trachea shifted away from the injured side with hypotension.",
+      "priority": "Recognize a life-threatening tension pneumothorax.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q2",
+      "section": "resp-pneumothorax",
+      "type": "mcq",
+      "page": 37,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client has a chest tube after a pneumothorax. The nurse sees continuous bubbling in the water seal chamber. What does this finding indicate?",
+      "options": [
+        "Normal function that only needs documenting",
+        "A need to clamp the tube right away",
+        "Complete lung re-expansion has occurred",
+        "A possible air leak that needs assessment"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book says bubbling in the water seal is not a normal finding.",
+        "Incorrect. The book says to clamp only when changing the system, with a physician order.",
+        "Incorrect. Bubbling suggests air is still leaking, not that the lung is fully expanded.",
+        "Correct. The book states bubbling in the water seal chamber is not normal and signals an air leak."
+      ],
+      "clue": "Continuous bubbling in the water seal chamber.",
+      "priority": "Detect and address chest tube air leaks.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q3",
+      "section": "resp-pneumothorax",
+      "type": "mcq",
+      "page": 37,
+      "clientNeed": "safety",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is checking a client's chest tube drainage system. Which finding needs to be corrected?",
+      "options": [
+        "The tubing runs straight with no dependent loops",
+        "The tube is unclamped while the system is intact",
+        "The collection chamber is above the level of the chest",
+        "No bubbling is seen in the water seal chamber"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book directs no dependent loops, so this setup is correct.",
+        "Incorrect. Clamping is only for changing the system with an order, so unclamped is correct.",
+        "Correct. The book says the drainage collection chamber must stay lower than the chest.",
+        "Incorrect. The book states bubbling in the water seal chamber is not normal and signals an air leak, so no bubbling is the expected finding."
+      ],
+      "clue": "Drainage chamber placed above chest level.",
+      "priority": "Maintain a correctly functioning chest drainage system.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q4",
+      "section": "resp-pneumothorax",
+      "type": "mcq",
+      "page": 37,
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "stem": "A client has a primary spontaneous pneumothorax estimated at 15% and is short of breath. Which treatment should the nurse anticipate?",
+      "options": [
+        "Thoracotomy",
+        "Needle aspiration",
+        "Aspiration with a pigtail catheter on low suction",
+        "Discharge with no treatment"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Thoracotomy is not listed for primary spontaneous pneumothorax.",
+        "Correct. The book lists needle aspiration for a primary spontaneous pneumothorax under 20% that is symptomatic.",
+        "Incorrect. The book reserves pigtail catheter aspiration with low suction or water seal for pneumothorax over 20%.",
+        "Incorrect. A symptomatic client needs treatment; even small pneumothoraces get oxygen and monitoring."
+      ],
+      "clue": "Pneumothorax under 20% with symptoms.",
+      "priority": "Match treatment to pneumothorax size and symptoms.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q5",
+      "section": "resp-pneumothorax",
+      "type": "sata",
+      "page": 37,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "The nurse is caring for a client with a chest tube after a pneumothorax. Which actions are appropriate? Select all that apply.",
+      "options": [
+        "Keep the drainage collection chamber lower than the chest",
+        "Coil extra tubing in dependent loops below the bed",
+        "Clamp the tube routinely whenever the client walks",
+        "Clamp only when changing the system, with a physician order",
+        "Avoid high airway pressure to prevent an air leak"
+      ],
+      "correct": [
+        0,
+        3,
+        4
+      ],
+      "rationales": [
+        "Correct. The book says to keep the collection chamber lower than the chest.",
+        "Incorrect. The book says the tubing must have no dependent loops.",
+        "Incorrect. The book says to clamp only when changing the system, with a physician order.",
+        "Correct. The book states clamping is done only when changing the system with an order.",
+        "Correct. The book lists avoiding high airway pressure to prevent air leak."
+      ],
+      "clue": "Client has a chest tube drainage system.",
+      "priority": "Maintain a safe, functioning chest drainage system.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q6",
+      "section": "resp-pneumothorax",
+      "type": "matrix",
+      "page": 37,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A client has chest trauma. For each finding, indicate whether the book links it to tension pneumothorax or to spontaneous or traumatic pneumothorax.",
+      "rows": [
+        "Tracheal deviation away from the affected side",
+        "Tracheal deviation, if present, toward the affected side",
+        "Distended neck veins with hypotension",
+        "Hypoxemia that occurs if the pneumothorax is large"
+      ],
+      "columns": [
+        "Tension pneumothorax",
+        "Spontaneous or traumatic"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Deviation away from the affected side is listed for tension pneumothorax.",
+        "Deviation toward the affected side is listed for spontaneous or traumatic pneumothorax.",
+        "Distended neck veins and hypotension are listed for tension pneumothorax.",
+        "Hypoxemia (if large) is listed for spontaneous or traumatic pneumothorax."
+      ],
+      "clue": "Direction of tracheal shift and hemodynamic signs.",
+      "priority": "Differentiate a life-threatening tension pneumothorax.",
+      "checked": true
+    },
+    {
+      "id": "resp-pneumothorax-q7",
+      "section": "resp-pneumothorax",
+      "type": "mcq",
+      "page": 37,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients. Which client should the nurse see first?",
+      "options": [
+        "A client with a chest tube whose drainage chamber is below the chest and tubing has no loops",
+        "A client with a small pneumothorax on oxygen who is waiting for a repeat x-ray",
+        "A client after a stab wound with distended neck veins, hypotension and a trachea shifted away from the injury",
+        "A client asking for PRN pain medicine for chest tube discomfort"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. This chest tube is set up correctly per the book.",
+        "Incorrect. Oxygen and monitoring for re-expansion is the book's plan for a small pneumothorax; this client is stable.",
+        "Correct. These are the book's signs of tension pneumothorax, a life-threatening emergency.",
+        "Incorrect. The book lists treating pain as needed, but it is not the most urgent need."
+      ],
+      "clue": "Distended neck veins, hypotension and tracheal shift away from the injury.",
+      "priority": "See the client with a life-threatening emergency first.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q1",
+      "section": "resp-tb",
+      "type": "mcq",
+      "page": 37,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A client with active pulmonary TB is admitted. How long should the nurse maintain airborne isolation?",
+      "options": [
+        "Until the first dose of drug therapy is given",
+        "Until three sputum AFB samples are negative",
+        "Until the client no longer has a fever",
+        "Until one sputum AFB sample is negative"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Starting drugs does not end isolation; negative sputum samples are required.",
+        "Correct. The book states airborne isolation continues until three negative AFB sputum samples.",
+        "Incorrect. Fever resolving does not show the client is no longer infectious.",
+        "Incorrect. The book requires three negative samples, not one."
+      ],
+      "clue": "Client has active pulmonary TB.",
+      "priority": "Prevent airborne spread of TB.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q2",
+      "section": "resp-tb",
+      "type": "mcq",
+      "page": 39,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "stem": "A client who received the BCG vaccine as a child has a positive TB skin test. What should the nurse expect next?",
+      "options": [
+        "Evaluation with a chest x-ray",
+        "Repeating the same skin test",
+        "Starting four-drug therapy at once",
+        "No further action because of BCG"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book states BCG recipients have a positive skin test and should be evaluated by chest x-ray.",
+        "Incorrect. A BCG recipient will test positive again, so repeating it adds little.",
+        "Incorrect. A positive skin test after BCG needs further evaluation before treatment.",
+        "Incorrect. The book directs a chest x-ray rather than ignoring the result."
+      ],
+      "clue": "Positive skin test in a client who received BCG.",
+      "priority": "Use the correct follow-up test after BCG.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q3",
+      "section": "resp-tb",
+      "type": "mcq",
+      "page": 39,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "An inpatient with TB is ready to go home on drug therapy. Which action must the nurse ensure before discharge?",
+      "options": [
+        "The client has finished all drug therapy",
+        "The health department has been notified",
+        "The client has had a repeat BCG vaccine",
+        "Family contacts need no further screening"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Therapy lasts 6 to 9 months or longer and continues after discharge.",
+        "Correct. The book states the health department must be notified before an inpatient with TB is discharged.",
+        "Incorrect. The book does not list BCG as part of discharge or treatment.",
+        "Incorrect. The book calls for follow-up of contacts with screening and prophylaxis."
+      ],
+      "clue": "Inpatient with TB is being discharged.",
+      "priority": "Meet public health reporting requirements for TB.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q4",
+      "section": "resp-tb",
+      "type": "sata",
+      "page": 39,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client hospitalized with active TB is weak and short of breath. Which supportive nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Position the client upright",
+        "Limit food intake to reduce the work of breathing",
+        "Encourage deep breathing and coughing",
+        "Promote rest and assist with self-care",
+        "Keep the client flat to reduce coughing"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists positioning upright to ensure oxygenation.",
+        "Incorrect. The book lists nutrition as part of supporting recovery.",
+        "Correct. The book lists deep breathing and coughing to ensure oxygenation.",
+        "Correct. The book lists promoting rest and assisting with self-care to support recovery.",
+        "Incorrect. The book calls for upright positioning."
+      ],
+      "clue": "Weak, short-of-breath client with active TB.",
+      "priority": "Support oxygenation and recovery.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q5",
+      "section": "resp-tb",
+      "type": "matrix",
+      "page": 39,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "A client is starting a TB drug regimen. For each drug, indicate the mechanism the book lists for it.",
+      "rows": [
+        "Isoniazid (INH)",
+        "Rifampin (RIF)",
+        "Streptomycin"
+      ],
+      "columns": [
+        "Inhibits cell wall synthesis",
+        "Blocks RNA synthesis",
+        "Inhibits protein synthesis"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "The book lists INH as inhibiting mycobacterial cell wall synthesis.",
+        "The book lists RIF as blocking RNA synthesis and targeting slow-growing bacilli.",
+        "The book lists streptomycin as inhibiting protein synthesis by ribosomal binding."
+      ],
+      "clue": "Each drug's mechanism of action.",
+      "priority": "Understand how each TB drug works.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q6",
+      "section": "resp-tb",
+      "type": "sata",
+      "page": 38,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is screening clients at a clinic. Which clients have history findings that increase their risk for TB? Select all that apply.",
+      "options": [
+        "A client with HIV",
+        "A nonsmoking office worker with no illnesses who has not traveled",
+        "A client who lives in a homeless shelter",
+        "A client taking long-term corticosteroids",
+        "A teenager with mild seasonal allergies and no known exposures"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. HIV is listed in the medical and exposure history.",
+        "Incorrect. None of the book's risk factors are present.",
+        "Correct. Homelessness and shelter residence are listed.",
+        "Correct. Use of corticosteroids or immunosuppressants is listed.",
+        "Incorrect. Seasonal allergies are not a listed risk factor."
+      ],
+      "clue": "Immunosuppression and crowded living conditions.",
+      "priority": "Identify clients who need TB screening.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q7",
+      "section": "resp-tb",
+      "type": "mcq",
+      "page": 39,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "stem": "A client with active TB who started INH, RIF, PZA and ETB says, \"Once my cough is gone in a few weeks, I can stop the pills.\" What is the nurse's best response?",
+      "options": [
+        "\"Yes, you may stop once your symptoms are gone.\"",
+        "\"You only need the pills until your skin test turns negative.\"",
+        "\"Treatment usually lasts 6 to 9 months, and taking every dose is essential.\"",
+        "\"You can stop the pills if you get the BCG vaccine.\""
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book gives a standard duration of 6 to 9 months, longer for drug-resistant TB.",
+        "Incorrect. Duration is set by the regimen, not by the skin test.",
+        "Correct. The book gives a standard duration of 6 to 9 months and states medication adherence is essential.",
+        "Incorrect. BCG is not part of TB treatment."
+      ],
+      "clue": "Client plans to stop TB drugs once symptoms improve.",
+      "priority": "Promote adherence to the full TB regimen.",
+      "checked": true
+    },
+    {
+      "id": "resp-tb-q8",
+      "section": "resp-tb",
+      "type": "mcq",
+      "page": 39,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "An inpatient with active TB lives with three family members. Which action reflects coordinated follow-up of these contacts?",
+      "options": [
+        "Arrange screening and prophylaxis for the family contacts",
+        "Tell the family no follow-up is needed unless they feel sick",
+        "Delay contact follow-up until the client finishes therapy",
+        "Offer the family BCG vaccine in place of screening"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book calls for follow-up of contacts, ensuring screening and prophylaxis.",
+        "Incorrect. The book calls for screening of contacts, not waiting for symptoms.",
+        "Incorrect. Therapy lasts months; contacts need follow-up now.",
+        "Incorrect. The book directs screening and prophylaxis, not BCG."
+      ],
+      "clue": "Household contacts of a client with active TB.",
+      "priority": "Coordinate public health follow-up of contacts.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q1",
+      "section": "resp-cheat",
+      "type": "mcq",
+      "page": 40,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client's ABG shows pH 7.30, PaCO2 52 mmHg, and HCO3 24 mEq/L. How should the nurse interpret these results?",
+      "options": [
+        "Respiratory acidosis",
+        "Respiratory alkalosis",
+        "Metabolic acidosis",
+        "Metabolic alkalosis"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The pH is low and PaCO2 is high with normal HCO3, which the book defines as respiratory acidosis.",
+        "Incorrect. Respiratory alkalosis has a high pH and a low PaCO2.",
+        "Incorrect. Metabolic acidosis shows a low HCO3, but HCO3 here is normal.",
+        "Incorrect. Metabolic alkalosis has a high pH and a high HCO3."
+      ],
+      "clue": "Low pH with high PaCO2 and normal HCO3.",
+      "priority": "Interpret ABGs to guide respiratory care.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q2",
+      "section": "resp-cheat",
+      "type": "mcq",
+      "page": 41,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client with COPD needs a precise, controlled amount of oxygen. Which device should the nurse expect to use?",
+      "options": [
+        "Non-rebreather mask",
+        "Partial rebreather mask",
+        "Venturi mask",
+        "Simple face mask"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The non-rebreather gives up to 100% oxygen for emergencies, not precise low levels.",
+        "Incorrect. A partial rebreather gives 60 to 80% and is not described as precise.",
+        "Correct. The book lists the Venturi mask as giving a precise FiO2 and as best for COPD.",
+        "Incorrect. A simple mask is for short-term use and is not described as precise."
+      ],
+      "clue": "COPD client needs a precise FiO2.",
+      "priority": "Choose the oxygen device that fits the client's needs.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q3",
+      "section": "resp-cheat",
+      "type": "mcq",
+      "page": 41,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "The nurse finds a client's simple face mask running at 3 L/min. What is the most appropriate action?",
+      "options": [
+        "Leave the flow at 3 L/min as set",
+        "Lower the flow to 1 L/min",
+        "Switch to BVM at 3 L/min",
+        "Raise the flow to at least 6 L/min"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. A simple mask below 6 L/min is below the minimum the book lists.",
+        "Incorrect. Lowering the flow moves further below the required minimum.",
+        "Incorrect. A BVM is for emergency manual ventilation at 15 L/min.",
+        "Correct. The book states a simple mask must run at 6 L/min or more."
+      ],
+      "clue": "Simple face mask set at 3 L/min.",
+      "priority": "Deliver oxygen safely and correctly.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q4",
+      "section": "resp-cheat",
+      "type": "matrix",
+      "page": 40,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "For each set of arterial blood gas results, indicate the acid-base imbalance.",
+      "rows": [
+        "pH 7.50, PaCO2 30 mm Hg, HCO3 24 mEq/L",
+        "pH 7.31, PaCO2 40 mm Hg, HCO3 18 mEq/L",
+        "pH 7.28, PaCO2 55 mm Hg, HCO3 24 mEq/L",
+        "pH 7.47, PaCO2 32 mm Hg, HCO3 23 mEq/L"
+      ],
+      "columns": [
+        "Respiratory acidosis",
+        "Respiratory alkalosis",
+        "Metabolic acidosis"
+      ],
+      "correct": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "rationales": [
+        "High pH with low PaCO2 and normal HCO3 is respiratory alkalosis.",
+        "Low pH with low HCO3 and normal PaCO2 is metabolic acidosis.",
+        "Low pH with high PaCO2 and normal HCO3 is respiratory acidosis.",
+        "High pH with low PaCO2 and normal HCO3 is respiratory alkalosis."
+      ],
+      "clue": "Which value, PaCO2 or HCO3, is outside its normal range.",
+      "priority": "Interpret ABGs using the book's normal ranges.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q5",
+      "section": "resp-cheat",
+      "type": "sata",
+      "page": 41,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "A charge nurse reviews care plans on a respiratory unit. Which plans match the book's respiratory nursing priorities? Select all that apply.",
+      "options": [
+        "Client with TB: N95 mask and a negative-pressure room",
+        "Client with COPD: high-flow oxygen to keep saturation at 100%",
+        "Client with emphysema: encourage pursed-lip breathing",
+        "Client with pulmonary fibrosis: energy conservation",
+        "Client with dyspnea: keep the head of bed flat",
+        "Client with TB: report to public health authorities"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "rationales": [
+        "Correct. The book lists airborne precautions for TB with an N95 mask and negative-pressure room.",
+        "Incorrect. The book calls for low-flow oxygen for COPD and emphysema.",
+        "Correct. The book lists pursed-lip breathing for emphysema.",
+        "Correct. The book lists conserving energy in pulmonary fibrosis.",
+        "Incorrect. The book says to elevate the head of the bed to ease breathing.",
+        "Correct. The book lists reporting TB to public health."
+      ],
+      "clue": "Each plan compared with the book's priority list.",
+      "priority": "Apply respiratory nursing priorities across clients.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q6",
+      "section": "resp-cheat",
+      "type": "mcq",
+      "page": 40,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse reviews respiratory rates for four clients. Which client needs follow-up first?",
+      "options": [
+        "An infant breathing 44 breaths/min",
+        "A 7-year-old breathing 24 breaths/min",
+        "An adult breathing 16 breaths/min",
+        "An adult breathing 28 breaths/min"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book gives 30 to 60 breaths/min as normal for an infant.",
+        "Incorrect. The book gives 20 to 30 breaths/min as normal for a child.",
+        "Incorrect. The book gives 12 to 20 breaths/min as normal for an adult.",
+        "Correct. An adult rate of 28 is above the book's normal range of 12 to 20 breaths/min."
+      ],
+      "clue": "Only one rate is outside its age-specific normal range.",
+      "priority": "Use age-specific norms to set priorities.",
+      "checked": true
+    },
+    {
+      "id": "resp-cheat-q7",
+      "section": "resp-cheat",
+      "type": "mcq",
+      "page": 41,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A client is receiving oxygen by non-rebreather mask, and the reservoir bag collapses completely with each breath. What should the nurse do?",
+      "options": [
+        "Increase the flow, within 10 to 15 L/min, so the bag stays inflated",
+        "Remove the reservoir bag from the mask",
+        "Switch to a nasal cannula at 6 L/min",
+        "Lower the flow to 6 L/min"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists a non-rebreather at 10 to 15 L/min and says to keep the bag inflated.",
+        "Incorrect. The reservoir bag must stay inflated to deliver high oxygen.",
+        "Incorrect. A nasal cannula gives only 24 to 44% and is for mild hypoxia, not emergency oxygen.",
+        "Incorrect. 6 L/min is below the book's 10 to 15 L/min range for a non-rebreather."
+      ],
+      "clue": "Non-rebreather bag collapses with each breath.",
+      "priority": "Use oxygen equipment correctly.",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 17,
+      "issue": "States patients 'tend to tolerate a pH <7.2' with rising PaCO2, which contradicts page 16 ('Permissive hypercapnia acceptable if pH > 7.2')."
+    },
+    {
+      "page": 17,
+      "issue": "'PEEP usually 15 cm H2O or greater' is stated as a general rule for ARDS; this is an overgeneralization since PEEP is titrated (as page 16 itself says)."
+    },
+    {
+      "page": 16,
+      "issue": "Typo 'surface tention'; also the PEEP rationale claims PEEP decreases surface tension, which is not its mechanism (surfactant affects surface tension; PEEP keeps alveoli open)."
+    },
+    {
+      "page": 15,
+      "issue": "Physiology statement says the brainstem detects low PaO2 and peripheral regulation occurs in the aortic arch only; central chemoreceptors respond mainly to CO2/pH, and the carotid bodies (main peripheral oxygen sensors) are omitted."
+    },
+    {
+      "page": 26,
+      "issue": "'Low PaCO2 is the primary drive for breathing for these patients' is incorrect; it should be low PaO2 (hypoxic drive), and it contradicts page 15."
+    },
+    {
+      "page": 26,
+      "issue": "Typos: 'FEV,/FVC' should be FEV1/FVC; 'a-1 antitrypsindeficiency' missing space; 'Corticosteroids Antibiotics (if increased mucus production)' runs two items together."
+    },
+    {
+      "page": 20,
+      "issue": "Warfarin target INR listed as 2.5-3.5 for PE/VTE; the usual VTE target is 2.0-3.0."
+    },
+    {
+      "page": 21,
+      "issue": "Pneumonia definition: 'micromutant' appears to be a typo for microorganism; 'lung interstitial' should be interstitium; 'lobular pneumonia' for part of a lobe and 'lobar pneumonia' for an entire lung are mislabeled (lobar pneumonia involves a lobe)."
+    },
+    {
+      "page": 23,
+      "issue": "Diagnosis table lists 'Egophony or fluid collection' as the abnormal thoracentesis fluid result; egophony is an auscultation finding, not a fluid result. Also 'Bloud Gases' typo."
+    },
+    {
+      "page": 18,
+      "issue": "Pulmonary embolism section has no 'A2. Pulmonary embolism' heading; the section starts directly with Table 2."
+    },
+    {
+      "page": 27,
+      "issue": "Section numbering is inconsistent: Asthma (p27), Emphysema (p32) and Pulmonary Fibrosis (p34) lack A6/A8/A9 labels while other sections are numbered."
+    },
+    {
+      "page": 28,
+      "issue": "Asthma classification thresholds overlap or are inconsistent (mild intermittent '<2x/week' vs mild persistent '2x/week'); 'percusion' and 'suprac-clavicular' typos; vocal fremitus listed among asthma signs is questionable."
+    },
+    {
+      "page": 30,
+      "issue": "Status asthmaticus diagnostic table repeats the 'Fatigue/Lethargy/Confusion' row twice."
+    },
+    {
+      "page": 31,
+      "issue": "The Remember box in the pleural effusion section (avoid high O2 flow, monitor for respiratory acidosis, small high-calorie meals, vaccines) is identical to the emphysema box on page 34 and appears misplaced for pleural effusion."
+    },
+    {
+      "page": 32,
+      "issue": "'Four Types of Emphysema' lists bronchiectasis as an emphysema type; bronchiectasis is a separate airway disease, not a type of emphysema."
+    },
+    {
+      "page": 36,
+      "issue": "Pulmonary fibrosis PFTs listed as small airway obstruction and increased residual volume (air trapping), which contradicts the page 34 description of fibrosis as a restrictive disease."
+    },
+    {
+      "page": 37,
+      "issue": "Pneumothorax infographic is titled 'Two Types of Pneumothorax' while page 36 states there are three primary forms."
+    },
+    {
+      "page": 41,
+      "issue": "Venturi mask row places '24-60%' (an FiO2 value) in the Flow column instead of a flow rate."
+    },
+    {
+      "page": 40,
+      "issue": "Typos in cheat sheet: 'pneumoia' in auscultation sounds; 'confussion' on page 38 TB assessment."
+    },
+    {
+      "page": 29,
+      "issue": "'Avoid triggers (allergens, cold, exercise, NSAIDs)' tells clients with asthma to avoid exercise, which conflicts with the same page's use of albuterol before exercise; exercise is usually pre-treated rather than avoided."
+    },
+    {
+      "page": 29,
+      "issue": "Level-of-care thresholds 'PFR < 50% admit to ICU / PFR > 50 -70% admit to telemetry' use unclear notation and are not a widely standardized rule."
+    },
+    {
+      "page": 30,
+      "issue": "'Increase I/E 1:3-4' / 'Increase I/E ratio to prevent auto-PEEP' is ambiguous; the intent is to lengthen expiratory time (I:E 1:3 to 1:4). Not used as a keyed item."
+    },
+    {
+      "page": 32,
+      "issue": "Emphysema risk factor 'Substance use (e.g. cocaine, IV methadone(methylphenidate))' is garbled; IV methylphenidate use is the recognized association."
+    },
+    {
+      "page": 33,
+      "issue": "Independent nursing actions infographic repeats 'Educate on disease, lifestyle changes, and avoiding irritants' twice; 'occupational/role loss Suicide risk' runs two items together."
+    },
+    {
+      "page": 39,
+      "issue": "Drug mechanisms table describes ethambutol as 'inhibits bacterial metabolite production' and PZA as 'bacteriostatic/cidal; disrupts cell metabolism', which are vague or imprecise (ethambutol inhibits cell wall arabinogalactan synthesis). ETB and PZA mechanisms were not used in items."
+    },
+    {
+      "page": 40,
+      "issue": "ABG interpretation table shows compensatory arrows (e.g., HCO3 up in respiratory acidosis, PaCO2 down in metabolic acidosis) without labeling them as compensation, which can confuse students; items use uncompensated values."
+    },
+    {
+      "page": 16,
+      "issue": "ABG box lists 'PaO2 < 80 mm Hg, SaO2 < 95%' as ARDS diagnostic values; these are nonspecific, and ARDS hypoxemia is defined by the PaO2/FiO2 ratio (page 17)."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: resp chapter has 8 psych (target 9) and 8 bcc (target 9) items; psychosocial and basic-care content in this chapter is limited, so rrp (13) and pa (14) are one over target. All within validator tolerance."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "chapter": "gi",
+  "reviewed": 88,
+  "ok": 67,
+  "fixed": 21,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "gi-pancreatitis-q6",
+      "status": "fixed",
+      "note": "Answer key pointed to option 2, a wrong answer its own rationale marks incorrect; key corrected to option 1, which the book supports."
+    },
+    {
+      "id": "gi-pancreatitis-q7",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports. Options reordered to balance key positions."
+    },
+    {
+      "id": "gi-pancreatitis-q8",
+      "status": "fixed",
+      "note": "Answer key pointed to option 3, a wrong answer its own rationale marks incorrect; key corrected to option 2, which the book supports."
+    },
+    {
+      "id": "gi-pud-q6",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports."
+    },
+    {
+      "id": "gi-pud-q8",
+      "status": "fixed",
+      "note": "Answer key pointed to option 3, a wrong answer its own rationale marks incorrect; key corrected to option 2, which the book supports."
+    },
+    {
+      "id": "gi-pud-q9",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports. Options reordered to balance key positions."
+    },
+    {
+      "id": "gi-cirrhosis-q5",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports."
+    },
+    {
+      "id": "gi-cirrhosis-q8",
+      "status": "fixed",
+      "note": "Answer key pointed to option 3, a wrong answer its own rationale marks incorrect; key corrected to option 2, which the book supports."
+    },
+    {
+      "id": "gi-cirrhosis-q9",
+      "status": "fixed",
+      "note": "Answer key pointed to option 2, a wrong answer its own rationale marks incorrect; key corrected to option 1, which the book supports."
+    },
+    {
+      "id": "gi-gallbladder-q5",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports."
+    },
+    {
+      "id": "gi-gallbladder-q6",
+      "status": "fixed",
+      "note": "Answer key pointed to option 2, a wrong answer its own rationale marks incorrect; key corrected to option 1, which the book supports."
+    },
+    {
+      "id": "gi-gallbladder-q7",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports. Options reordered to balance key positions."
+    },
+    {
+      "id": "gi-crohn-q6",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports. Options reordered to balance key positions."
+    },
+    {
+      "id": "gi-diverticular-q8",
+      "status": "fixed",
+      "note": "Answer key pointed to option 2, a wrong answer its own rationale marks incorrect; key corrected to option 1, which the book supports."
+    },
+    {
+      "id": "gi-appendicitis-q6",
+      "status": "fixed",
+      "note": "Answer key pointed to option 1, a wrong answer its own rationale marks incorrect; key corrected to option 0, which the book supports. Options reordered to balance key positions."
+    },
+    {
+      "id": "gi-gastritis-q7",
+      "status": "fixed",
+      "note": "Key pointed to the bland-diet distractor and the correct option's rationale said 'Incorrect'; key set to the gastric-cancer monitoring option, rationale corrected, and page changed 75 -> 77 (Ongoing Management: long-term monitoring for gastric cancer)."
+    },
+    {
+      "id": "gi-gastritis-q10",
+      "status": "fixed",
+      "note": "Two options (bleeding persisting despite vasopressin, and despite transfusions) were both keyed-correct in the rationales; replaced the vasopressin option with a stable teaching-need client so only one answer is defensible."
+    },
+    {
+      "id": "gi-pud-q1",
+      "status": "fixed",
+      "note": "Gastritis rationale referred to weight gain, which is not in the stem; rewritten to address the stem's pain pattern."
+    },
+    {
+      "id": "gi-pud-q7",
+      "status": "fixed",
+      "note": "Three distractors ended in 'only' while the key did not, a style clue that gave the answer away; removed 'only'."
+    },
+    {
+      "id": "gi-crohn-q7",
+      "status": "fixed",
+      "note": "Rationale implied the book ties infection monitoring specifically to immunosuppressive drugs; it lists them as separate priorities. Rationale reworded to match the page."
+    },
+    {
+      "id": "gi-pud-q4",
+      "status": "fixed",
+      "note": "Stem asked only for 'signs of bleeding' but keyed pale skin/mucous membranes, which the book lists under anemia signs; stem now asks for signs of bleeding or the anemia it causes."
+    }
+  ]
+}

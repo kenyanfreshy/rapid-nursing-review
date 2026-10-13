@@ -1,0 +1,377 @@
+{
+  "chapter": "fluids",
+  "questions": [
+    {
+      "id": "fluids-main-q1",
+      "section": "fluids-main",
+      "stem": "A client's potassium is high, and the ECG shows tall peaked T waves and a wide QRS. Which order should the nurse anticipate to move potassium into the cells?",
+      "options": [
+        "Magnesium sulfate IV",
+        "3% sodium chloride infusion",
+        "Regular insulin IV with D50",
+        "Oral vitamin D supplement"
+      ],
+      "correct": 2,
+      "rationales": [
+        "The book lists IV magnesium sulfate for hypomagnesemia, not for hyperkalemia.",
+        "The book lists 3% NaCl for hyponatremia, not for lowering potassium.",
+        "Correct. The book lists regular insulin 10 units IV push with D50 to move potassium into the cells in hyperkalemia.",
+        "The book lists vitamin D under calcium management, not hyperkalemia."
+      ],
+      "clue": "Tall peaked T waves and wide QRS with high potassium.",
+      "priority": "Treating hyperkalemia by shifting potassium into the cells.",
+      "page": 185,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q2",
+      "section": "fluids-main",
+      "stem": "A client with increased intracranial pressure has an order for an IV fluid. Which fluid type should the nurse question?",
+      "options": [
+        "A hypotonic solution",
+        "Normal saline",
+        "Lactated Ringer's",
+        "An isotonic solution"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book says hypotonic fluids need caution in patients with increased intracranial pressure or burns.",
+        "The book lists normal saline as an isotonic fluid used for rehydration, with no ICP caution.",
+        "The book lists lactated Ringer's as an isotonic fluid used for rehydration, with no ICP caution.",
+        "The book describes isotonic fluids (270-300 mOsm/L) as used for rehydration, with no ICP caution."
+      ],
+      "clue": "The client has increased intracranial pressure.",
+      "priority": "Choosing safe IV fluids based on tonicity.",
+      "page": 184,
+      "type": "mcq",
+      "clientNeed": "safety",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q3",
+      "section": "fluids-main",
+      "stem": "A client's magnesium is low, and the monitor shows torsades de pointes. Which treatment should the nurse anticipate?",
+      "options": [
+        "Kayexalate",
+        "Normal saline IV",
+        "Sodium bicarbonate drip",
+        "Magnesium sulfate IV"
+      ],
+      "correct": 3,
+      "rationales": [
+        "The book lists Kayexalate for hyperkalemia, not for low magnesium.",
+        "The book lists NS IV for high magnesium, not low magnesium.",
+        "The book lists sodium bicarbonate for low bicarbonate with pH below 7.1, not for hypomagnesemia.",
+        "Correct. The book links low magnesium to torsades de pointes and a prolonged QT, and lists IV magnesium sulfate for treatment."
+      ],
+      "clue": "Torsades de pointes with a low magnesium level.",
+      "priority": "Correcting hypomagnesemia to treat a dangerous dysrhythmia.",
+      "page": 185,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q4",
+      "section": "fluids-main",
+      "type": "matrix",
+      "page": 185,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A nurse is reviewing ECG findings for several clients with electrolyte imbalances. For each ECG finding, indicate which electrolyte imbalance the book links it to.",
+      "rows": [
+        "U wave with flat or inverted T waves",
+        "Tall peaked T waves with a wide QRS",
+        "Shortened QT interval",
+        "Torsades de pointes"
+      ],
+      "columns": [
+        "Potassium imbalance",
+        "Calcium imbalance",
+        "Magnesium imbalance"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "The book lists ST depression, flat or inverted T waves and a U wave under hypokalemia.",
+        "The book lists tall peaked T waves, wide QRS and PR prolongation under hyperkalemia.",
+        "The book lists a shortened QT under hypercalcemia.",
+        "The book lists torsades de pointes and a prolonged QT under hypomagnesemia."
+      ],
+      "clue": "Each ECG pattern is tied to a specific electrolyte in the cheat sheet.",
+      "priority": "Linking ECG changes to the electrolyte imbalance that causes them.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q5",
+      "section": "fluids-main",
+      "type": "sata",
+      "page": 185,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client has a potassium level well above 5.0 mEq/L and tall peaked T waves on the monitor. Which medications should the nurse anticipate for this client? Select all that apply.",
+      "options": [
+        "Calcium gluconate IV",
+        "Magnesium sulfate IV",
+        "Albuterol nebulizer",
+        "Vitamin D supplement",
+        "Kayexalate",
+        "3% sodium chloride infusion"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists calcium gluconate first in hyperkalemia management.",
+        "Incorrect. The book lists magnesium sulfate IV for hypomagnesemia.",
+        "Correct. The book lists an albuterol nebulizer in hyperkalemia management.",
+        "Incorrect. The book lists vitamin D under calcium management, not hyperkalemia.",
+        "Correct. The book lists Kayexalate in hyperkalemia management.",
+        "Incorrect. The book lists 3% NaCl for hyponatremia."
+      ],
+      "clue": "High potassium with tall peaked T waves.",
+      "priority": "Anticipating treatment of hyperkalemia.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q6",
+      "section": "fluids-main",
+      "type": "mcq",
+      "page": 185,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse reviews morning labs for four clients. Which client should the nurse assess first?",
+      "options": [
+        "Sodium 141 mEq/L",
+        "Calcium 9.2 mg/dL",
+        "Potassium 6.4 mEq/L",
+        "Magnesium 1.9 mg/dL"
+      ],
+      "correct": 2,
+      "rationales": [
+        "This is within the book's sodium range of 135-145 mEq/L.",
+        "This is within the book's calcium range of 8.5-10.5 mg/dL.",
+        "Correct. This is above the book's potassium range of 3.5-5.0 mEq/L; the book links high potassium to peaked T waves and wide QRS and says to monitor heart rhythm.",
+        "This is within the book's magnesium range of 1.7-2.2 mg/dL."
+      ],
+      "clue": "Only the potassium value falls outside the normal range.",
+      "priority": "Prioritizing the client with an abnormal electrolyte that affects heart rhythm.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q7",
+      "section": "fluids-main",
+      "type": "mcq",
+      "page": 184,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A client is receiving a hypotonic IV solution to replace intracellular fluid losses. Which explanation of fluid movement is consistent with the book?",
+      "options": [
+        "Water moves out of the cells toward the hypotonic fluid",
+        "Water moves into the cells, where solute concentration is higher",
+        "Solutes move into the cells while water stays outside",
+        "Water stays in the vascular space without moving"
+      ],
+      "correct": 1,
+      "rationales": [
+        "The book says water moves from low to high solute concentration; the hypotonic fluid has the lower concentration, so water does not move toward it.",
+        "Correct. The book defines osmosis as water moving from low solute (hypotonic) to high solute (hypertonic) concentration across a semipermeable membrane, which is why hypotonic fluids replace intracellular losses.",
+        "The book describes osmosis as movement of water, not solutes.",
+        "The book says hypotonic fluids replace intracellular fluid losses, which requires water to move into the cells."
+      ],
+      "clue": "The solution is hypotonic and is used to replace intracellular losses.",
+      "priority": "Applying osmosis to predict the effect of IV fluid tonicity.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q8",
+      "section": "fluids-main",
+      "type": "mcq",
+      "page": 184,
+      "clientNeed": "safety",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is preparing to hang an IV solution labeled with an osmolarity above 300 mOsm/L. Which consideration from the book applies to this solution?",
+      "options": [
+        "It is the routine choice for general rehydration",
+        "It replaces intracellular fluid losses",
+        "It is used cautiously because misuse can cause dehydration",
+        "It has the same tonicity as normal saline"
+      ],
+      "correct": 2,
+      "rationales": [
+        "The book names isotonic fluids, not hypertonic fluids, for rehydration.",
+        "The book says hypotonic fluids replace intracellular losses.",
+        "Correct. The book describes hypertonic (>300 mOsm/L) fluids as used cautiously for specific conditions and able to cause dehydration if misused.",
+        "Normal saline is listed as isotonic (270-300 mOsm/L), not hypertonic."
+      ],
+      "clue": "An osmolarity above 300 mOsm/L means the solution is hypertonic.",
+      "priority": "Safe use of hypertonic IV fluids.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q9",
+      "section": "fluids-main",
+      "type": "sata",
+      "page": 185,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is teaching a community group why adequate calcium matters for health. Which functions of calcium should the nurse include? Select all that apply.",
+      "options": [
+        "Bone health",
+        "Maintaining pH balance",
+        "Muscle contraction",
+        "Blood clotting",
+        "Supporting digestion"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists bone health as a function of calcium.",
+        "Incorrect. The book lists maintaining pH balance as the function of bicarbonate.",
+        "Correct. The book lists muscle contraction as a function of calcium.",
+        "Correct. The book lists blood clotting as a function of calcium.",
+        "Incorrect. The book lists supporting digestion as a function of chloride."
+      ],
+      "clue": "The teaching is about the functions of calcium.",
+      "priority": "Health teaching about the role of calcium.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q10",
+      "section": "fluids-main",
+      "type": "mcq",
+      "page": 185,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "A client is admitted with a sodium level outside the 135-145 mEq/L range. Which routine nursing measure from the book should the nurse include in the care plan?",
+      "options": [
+        "Monitor intake and output and adjust dietary sodium",
+        "Encourage a high-potassium diet",
+        "Restrict all oral fluids",
+        "Give a vitamin D supplement daily"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's sodium management tips are to monitor intake and output and adjust dietary sodium.",
+        "The book links regulating dietary potassium to potassium management, not sodium.",
+        "Complete fluid restriction is not among the book's sodium management tips.",
+        "The book lists vitamin D under calcium management."
+      ],
+      "clue": "The imbalance involves sodium, which regulates fluid balance.",
+      "priority": "Basic care measures for a sodium imbalance: intake and output and diet.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q11",
+      "section": "fluids-main",
+      "type": "mcq",
+      "page": 185,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A nurse is caring for a client with a sodium imbalance. Which task is appropriate to delegate to unlicensed assistive personnel (UAP)?",
+      "options": [
+        "Adjusting the rate of the 3% sodium chloride infusion",
+        "Measuring and recording the client's intake and output",
+        "Interpreting the client's ECG rhythm strip",
+        "Deciding how much to change the client's dietary sodium"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Managing a hypertonic infusion is a nursing responsibility and cannot be delegated to UAP.",
+        "Correct. The book lists monitoring intake and output for sodium imbalance; measuring and recording I&O is a routine task UAP can perform, with the nurse reviewing the totals.",
+        "Interpreting ECG changes requires nursing assessment and judgment.",
+        "Adjusting dietary sodium is a plan-of-care decision, not a UAP task."
+      ],
+      "clue": "Only one task is routine data collection without clinical judgment.",
+      "priority": "Appropriate delegation of routine measurements to UAP.",
+      "checked": true
+    },
+    {
+      "id": "fluids-main-q12",
+      "section": "fluids-main",
+      "type": "sata",
+      "page": 184,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A client's adrenal cortex is producing excess aldosterone. Which effects should the nurse anticipate? Select all that apply.",
+      "options": [
+        "Increased sodium reabsorption",
+        "Increased water reabsorption",
+        "Increased potassium excretion",
+        "Potassium retention",
+        "Release of the hormone from the posterior pituitary"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book states aldosterone promotes sodium reabsorption.",
+        "Correct. The book states aldosterone promotes water reabsorption along with sodium.",
+        "Correct. The book states aldosterone promotes potassium excretion.",
+        "Incorrect. The book says aldosterone promotes potassium excretion, not retention.",
+        "Incorrect. The book says aldosterone comes from the adrenal cortex; ADH is released by the posterior pituitary."
+      ],
+      "clue": "Aldosterone excess from the adrenal cortex.",
+      "priority": "Predicting fluid and electrolyte effects of aldosterone.",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 185,
+      "issue": "Hyponatremia tip calls osmotic demyelination syndrome 'AKA brainstem herniation'; these are different conditions (ODS is demyelination, e.g. central pontine myelinolysis, not herniation). The line '3% NaCL 0.5-2 mL/Kg/h for 10 mmol/L/day' is also unclear about whether 10 mmol/L/day is a correction limit, and 'NaCL' should be 'NaCl'."
+    },
+    {
+      "page": 185,
+      "issue": "Under calcium 'Management Tips', 'Hypo: Tetany or seizures' lists signs of hypocalcemia, not management."
+    },
+    {
+      "page": 185,
+      "issue": "Hypocalcemia ECG change reads 'Prolonged QT, ST segment' with no qualifier, so the ST segment change is not stated."
+    },
+    {
+      "page": 185,
+      "issue": "Hyperkalemia ECG text has a broken word, 'PR prolong ation'."
+    },
+    {
+      "page": 185,
+      "issue": "The bicarbonate management entry ends mid-list ('High: IV fluids, replace potassium if needed;'), so it looks cut off."
+    },
+    {
+      "page": 185,
+      "issue": "The calcium dose 'Admin 1-3 g IV Ca gluconate then 0.5 mg/kg/hr' does not say whether the infusion rate is calcium gluconate or elemental calcium; please check units."
+    },
+    {
+      "page": 184,
+      "issue": "Osmolality is given in mOsm/kg for serum, while the IV fluid ranges use mOsm/L (osmolarity) under the same 270-300 cut-offs, without explaining the difference between osmolality and osmolarity."
+    },
+    {
+      "page": 185,
+      "issue": "Hyperkalemia management gives 'Regular insulin 10U IVP w/D50' with no D50 amount and no instruction to monitor blood glucose afterward, a key safety point."
+    },
+    {
+      "page": 185,
+      "issue": "Hypomagnesemia management 'Mag sulfate IV' gives no dose, rate or monitoring (e.g., reflexes, respirations), and hypermagnesemia management says 'NS IV but severe give calcium gluconate' with no criteria for 'severe'."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: no Psychosocial Integrity item (target 1). Pages 184-185 contain no psychosocial content (anxiety, coping, cognitive change), so the slot went to Physiological Adaptation (3 vs target 2), within tolerance."
+    }
+  ]
+}

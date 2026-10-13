@@ -1,0 +1,29 @@
+{
+  "chapter": "heme",
+  "reviewed": 73,
+  "ok": 69,
+  "fixed": 4,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "heme-sickle-q5",
+      "status": "fixed",
+      "note": "Options 'Decreased platelet count' and 'Increased platelet count' were a mutually exclusive pair that cued the key; replaced the distractor with 'Hemoglobin above the normal range' (book lists decreased RBCs/Hgb 5-10 g/dL, p158)."
+    },
+    {
+      "id": "heme-leukemia-q4",
+      "status": "fixed",
+      "note": "Opposite pair 'Decreased platelet count' / 'Increased platelet count' cued the key; replaced distractor with hemoglobin S on electrophoresis (sickle cell finding)."
+    },
+    {
+      "id": "heme-itp-q5",
+      "status": "fixed",
+      "note": "Distractor 'Take aspirin for headaches' was the direct negation of keyed 'Avoid aspirin and NSAIDs' (giveaway); replaced with straight-edge razor use, wrong per the book's injury-prevention/bleeding-precaution focus (p168)."
+    },
+    {
+      "id": "heme-polycythemia-q6",
+      "status": "fixed",
+      "note": "Stem asked what 'the book lists' rather than a client-centered nursing question; reworded to ask which medications the nurse should anticipate."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "chapter": "nclex",
+  "reviewed": 36,
+  "ok": 35,
+  "fixed": 1,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "nclex-highrisk-q11",
+      "status": "fixed",
+      "note": "Keyed option was much longer than the distractors and worded in second person (length cue); shortened to match. Option 3 rationale implied D5 1/2NS is a hypotonic fluid linked to cerebral edema, which page 9 does not say; reworded to state only what the book says."
+    }
+  ]
+}

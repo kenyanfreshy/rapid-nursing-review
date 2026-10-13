@@ -1,0 +1,29 @@
+{
+  "chapter": "neuro",
+  "reviewed": 84,
+  "ok": 80,
+  "fixed": 4,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "neuro-parkinson-q4",
+      "status": "fixed",
+      "note": "Stem asked which actions 'reduce the risk of falls' but keyed 'encourage participation in therapy and self-care', which the book lists as independent care, not fall prevention; stem broadened to the plan of care so every key is supported by p.144."
+    },
+    {
+      "id": "neuro-ms-q4",
+      "status": "fixed",
+      "note": "Distractor 'High vitamin D levels' sat beside the key 'Low vitamin D levels', an opposite pair that gave one answer away; replaced with hypertension and added a sixth unkeyed option (regular exercise)."
+    },
+    {
+      "id": "neuro-als-q6",
+      "status": "fixed",
+      "note": "Stem referred to 'the book' rather than presenting a client scenario; reworded as a client-centered item."
+    },
+    {
+      "id": "neuro-cranial-q1",
+      "status": "fixed",
+      "note": "Sudden unilateral facial weakness is a stroke warning sign, so the thrombolytic distractor was not defensibly wrong; stem now states stroke was ruled out and the rt-PA distractor was replaced with IVIG/plasmapheresis (GBS)."
+    }
+  ]
+}

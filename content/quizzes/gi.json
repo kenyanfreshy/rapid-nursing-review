@@ -1,0 +1,2505 @@
+{
+ "chapter": "gi",
+ "questions": [
+  {
+   "id": "gi-gerd-q1",
+   "section": "gi-gerd",
+   "page": 68,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "stem": "A client with GERD reports heartburn that wakes them most nights. Which instruction by the nurse best addresses this complaint?",
+   "options": [
+    "Raise the head of the bed 30 degrees and stop eating 3 hours before bedtime.",
+    "Eat one large evening meal so the stomach stays full through the night.",
+    "Lie flat for an hour after the evening meal to help digestion settle.",
+    "Drink a cup of peppermint tea at bedtime to calm the stomach."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists elevating the head of the bed 30 degrees and not eating within 3 hours of sleep to reduce nocturnal reflux and aid acid clearance.",
+    "Incorrect. The book advises small meals and teaches avoiding large meals and late-night eating.",
+    "Incorrect. Heartburn is worse lying flat, and gravity is a key part of GERD control in the book.",
+    "Incorrect. Peppermint is listed as a GERD trigger food to avoid."
+   ],
+   "clue": "Heartburn that wakes the client at night points to nocturnal reflux.",
+   "priority": "Teach positioning and meal-timing changes that reduce nocturnal reflux.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q2",
+   "section": "gi-gerd",
+   "page": 66,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "stem": "While reviewing the home medication list of a client newly diagnosed with GERD, which drug should the nurse flag as possibly worsening the client's symptoms?",
+   "options": [
+    "A daily multivitamin taken with breakfast",
+    "A calcium channel blocker taken for hypertension",
+    "Famotidine taken as needed for heartburn",
+    "Omeprazole taken once daily before a meal"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. The book does not list multivitamins among drugs that affect LES tone.",
+    "Correct. The book lists calcium channel blockers among medications that worsen LES tone, along with beta-blockers, nitrates, diazepam and anticholinergics.",
+    "Incorrect. Famotidine is an H2 receptor antagonist used to reduce gastric acid in GERD.",
+    "Incorrect. Omeprazole is a PPI that blocks acid secretion and treats GERD."
+   ],
+   "clue": "The question asks which home drug may worsen LES function.",
+   "priority": "Identify medications that reduce LES tone during the history.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q3",
+   "section": "gi-gerd",
+   "page": 67,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A client with long-standing GERD asks why the provider wants periodic EGDs. Which response by the nurse is most accurate?",
+   "options": [
+    "It checks whether your stomach is emptying food too quickly.",
+    "It measures the pressure of your esophageal sphincter as you swallow.",
+    "It looks for lining changes such as Barrett esophagus, which can become cancer.",
+    "It confirms whether the acid level in your blood is too high."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. EGD in the book is used to view the esophageal lining, not to time gastric emptying.",
+    "Incorrect. Measuring LES pressure during swallowing is the purpose of esophageal manometry.",
+    "Correct. The book states chronic acid exposure can cause Barrett esophagus, a premalignant change, and EGD can show metaplasia, ulceration, strictures or erosions.",
+    "Incorrect. EGD examines tissue; it does not measure blood acid levels."
+   ],
+   "clue": "Long-standing GERD raises concern for chronic epithelial change.",
+   "priority": "Explain surveillance for Barrett esophagus as a precancerous complication.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q1",
+   "section": "gi-pancreatitis",
+   "page": 71,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "stem": "A client admitted with acute pancreatitis asks the nurse for breakfast because they feel hungry. What is the nurse's best response?",
+   "options": [
+    "Offer a high-calorie, low-fat meal tray to support healing.",
+    "Offer clear liquids now and advance to solids by lunchtime.",
+    "Offer a small snack only if the pain is controlled.",
+    "Explain that eating is withheld for now to rest the pancreas."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. The book advances to high-calorie, low-fat meals only once the client is stable.",
+    "Incorrect. Early oral intake stimulates the pancreas; the book starts with NPO and a gradual progression later.",
+    "Incorrect. Pain control does not change the initial NPO order in the book's management.",
+    "Correct. The book lists NPO in initial management to suppress pancreatic enzyme secretion."
+   ],
+   "clue": "The client has acute pancreatitis and is being newly managed.",
+   "priority": "Maintain NPO status to reduce pancreatic stimulation.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q2",
+   "section": "gi-pancreatitis",
+   "page": 70,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A client with acute pancreatitis has fat necrosis noted on imaging. Which laboratory change should the nurse anticipate as a result?",
+   "options": [
+    "Serum calcium below the normal range",
+    "Serum glucose below the normal range",
+    "Serum lipase within the normal range",
+    "Serum amylase below the normal range"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book explains that fat necrosis binds free calcium, leading to hypocalcemia.",
+    "Incorrect. The book describes hyperglycemia from beta-cell injury, not low glucose.",
+    "Incorrect. The book states lipase is elevated in pancreatic inflammation.",
+    "Incorrect. The book states amylase rises in acute pancreatitis."
+   ],
+   "clue": "Fat necrosis is mentioned in the stem.",
+   "priority": "Anticipate hypocalcemia linked to fat necrosis.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q3",
+   "section": "gi-pancreatitis",
+   "page": 69,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client recovering from pancreatitis that began after a weekend of heavy drinking is preparing for discharge. Which need should the nurse address as a priority in the plan?",
+   "options": [
+    "Teaching on how to take a daily stool softener",
+    "Referral for alcohol-use counseling and ongoing support",
+    "Instruction to begin a high-fiber, high-fat diet",
+    "Advice to limit activity until the next clinic visit"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. The book does not tie pancreatitis discharge needs to stool softeners.",
+    "Correct. The book names alcohol as a leading cause and lists alcohol-use counseling, education and support among psychosocial needs.",
+    "Incorrect. Nothing on this page supports a high-fat diet; the book's management advances to high-calorie, low-fat meals once the client is stable.",
+    "Incorrect. Activity restriction is not identified in the book as a pancreatitis priority."
+   ],
+   "clue": "The episode followed heavy alcohol intake.",
+   "priority": "Address the causative factor through alcohol-use counseling.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q1",
+   "section": "gi-pud",
+   "page": 72,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "stem": "A client reports burning epigastric pain that starts about 2 to 3 hours after meals, eases when they eat, and sometimes wakes them at night. The nurse recognizes this pain pattern as most consistent with which condition?",
+   "options": [
+    "Gastric ulcer",
+    "Acute gastritis",
+    "Duodenal ulcer",
+    "Cholecystitis"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The book describes gastric ulcer pain as coming on after eating, located in the left epigastrium.",
+    "Incorrect. The book does not describe gastritis pain that comes 90 minutes to 3 hours after meals and is relieved by eating; that pattern is the duodenal ulcer pattern.",
+    "Correct. The book describes duodenal ulcer pain 90 minutes to 3 hours after meals, relieved by food or antacids, and possibly occurring at night.",
+    "Incorrect. The book does not describe food-relieved epigastric pain for gallbladder disease; cholecystitis pain is right upper quadrant pain after fatty meals."
+   ],
+   "clue": "Pain 2 to 3 hours after meals that is relieved by eating and occurs at night.",
+   "priority": "Differentiate duodenal from gastric ulcer by pain pattern.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q2",
+   "section": "gi-pud",
+   "page": 73,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "stem": "A client with peptic ulcer disease suddenly reports severe abdominal pain, and the abdomen is rigid on palpation. What is the nurse's priority action?",
+   "options": [
+    "Give the prescribed antacid and reassess in an hour.",
+    "Encourage a bland diet to reduce stomach irritation.",
+    "Help the client to a position of comfort and observe.",
+    "Treat this as possible perforation and notify the provider now."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Antacids do not address a surgical complication and delay needed care.",
+    "Incorrect. The book states no evidence supports bland diets, and diet does not treat perforation.",
+    "Incorrect. Simply observing delays action on a serious complication.",
+    "Correct. The book lists severe pain with a rigid abdomen as signs of perforation, a surgical indication."
+   ],
+   "clue": "Sudden severe pain with a rigid abdomen.",
+   "priority": "Escalate signs of perforation to the provider immediately; this is a surgical indication.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q3",
+   "section": "gi-pud",
+   "page": 74,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A client with an H. pylori ulcer is prescribed a PPI plus two antibiotics. Which client statement shows the teaching was understood?",
+   "options": [
+    "I will take every dose as ordered and use something besides ibuprofen for headaches.",
+    "I need to follow a strict bland diet for the rest of my life.",
+    "I can stop the antibiotics once my stomach pain goes away.",
+    "A drink or two each evening will help me relax and heal."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book emphasizes strict medication adherence and teaching clients to avoid NSAIDs.",
+    "Incorrect. The book states no evidence supports bland diets.",
+    "Incorrect. Triple therapy is for H. pylori eradication, and the book stresses strict adherence.",
+    "Incorrect. The book advises avoiding alcohol and encourages alcohol cessation."
+   ],
+   "clue": "Triple therapy for H. pylori and the need for adherence.",
+   "priority": "Promote medication adherence and NSAID avoidance.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q1",
+   "section": "gi-gastritis",
+   "page": 76,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "The nurse is caring for several clients with gastritis. Which finding requires the most immediate follow-up?",
+   "options": [
+    "Burning epigastric pain after a spicy meal",
+    "Black stools with low blood pressure and a rapid pulse",
+    "Mild food intolerance in a client with chronic gastritis",
+    "Nausea after taking an over-the-counter pain reliever"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Burning epigastric pain is a key gastritis symptom but not a sign of instability.",
+    "Correct. The book lists melena, pallor, low BP and rapid HR as bleeding signs, and recognizing bleeding is the nursing focus.",
+    "Incorrect. The book notes chronic gastritis may present with mild discomfort or food intolerance.",
+    "Incorrect. Nausea is an expected symptom and does not signal hemorrhage."
+   ],
+   "clue": "Melena combined with low BP and rapid HR.",
+   "priority": "Recognize gastric bleeding first.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q2",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "A client with chronic gastritis asks why vitamin B12 has been prescribed. Which explanation by the nurse is best?",
+   "options": [
+    "It helps the antibiotics kill H. pylori faster.",
+    "It neutralizes stomach acid and keeps the pH above 4.",
+    "It prevents pernicious anemia, a complication of chronic gastritis.",
+    "It coats the stomach lining to stop active bleeding."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The book assigns H. pylori eradication to antibiotics, PPIs and bismuth, not B12.",
+    "Incorrect. Neutralizing acid and keeping pH above 4 is the role of antacids.",
+    "Correct. The book lists vitamin B12 replacement to prevent pernicious anemia in chronic gastritis.",
+    "Incorrect. B12 does not control bleeding; the book lists other measures for hemorrhage."
+   ],
+   "clue": "The client has chronic gastritis and a B12 order.",
+   "priority": "Prevent pernicious anemia in chronic gastritis.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q3",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "stem": "A client with acute gastritis takes ibuprofen daily for joint pain and drinks alcohol most nights. Which nursing action best supports a main goal of treatment?",
+   "options": [
+    "Teach the client to take ibuprofen with a glass of milk.",
+    "Plan for an upper GI x-ray before any teaching begins.",
+    "Recommend adding a second over-the-counter pain reliever.",
+    "Discuss stopping ibuprofen and alcohol with the provider and client."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Continuing the NSAID leaves a causative agent in place.",
+    "Incorrect. Imaging does not remove the cause, and teaching should not be delayed.",
+    "Incorrect. Adding more over-the-counter pain relievers can add further mucosal injury and does not remove the causative agents.",
+    "Correct. The book lists removing causative agents such as NSAIDs and alcohol as a goal for acute gastritis."
+   ],
+   "clue": "Daily NSAID use and regular alcohol intake.",
+   "priority": "Remove the causative agents of acute gastritis.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q1",
+   "section": "gi-cirrhosis",
+   "page": 79,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A client with cirrhosis and suspected esophageal varices has a new order for nasogastric tube insertion. What should the nurse do?",
+   "options": [
+    "Question the order, since an NG tube could rupture varices.",
+    "Insert the tube slowly using extra lubricant.",
+    "Insert the tube and then check placement with x-ray.",
+    "Ask the client to swallow sips of water during insertion."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book warns not to insert an NGT if varices are suspected because rupture can cause massive hemorrhage.",
+    "Incorrect. Technique changes do not remove the risk of rupturing varices.",
+    "Incorrect. Confirming placement does not prevent the hemorrhage risk.",
+    "Incorrect. This still proceeds with an insertion the book advises against."
+   ],
+   "clue": "Suspected esophageal varices.",
+   "priority": "Prevent variceal rupture and hemorrhage.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q2",
+   "section": "gi-cirrhosis",
+   "page": 79,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A client with cirrhosis has just returned from an EGD and asks for something to drink. What should the nurse do first?",
+   "options": [
+    "Give small sips of water and observe for coughing.",
+    "Check that the gag reflex has returned before giving anything.",
+    "Offer ice chips, since they are safer than liquids.",
+    "Raise the head of the bed and give a full glass of juice."
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Giving fluid before confirming the gag reflex risks aspiration.",
+    "Correct. The book states that after EGD the nurse monitors for return of the gag reflex before giving anything by mouth.",
+    "Incorrect. Ice chips are still oral intake and should wait for the gag reflex.",
+    "Incorrect. Positioning does not replace checking the gag reflex."
+   ],
+   "clue": "The client has just returned from EGD.",
+   "priority": "Confirm the gag reflex has returned before oral intake.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q3",
+   "section": "gi-cirrhosis",
+   "page": 79,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "stem": "Shortly after a large-volume paracentesis, a client with cirrhosis and ascites is being monitored. Which finding is most concerning?",
+   "options": [
+    "A smaller abdominal girth than before the procedure",
+    "Shifting dullness that is less obvious on percussion",
+    "Falling blood pressure with a rising heart rate",
+    "Mild tenderness at the puncture site"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. A smaller girth is the expected result of fluid removal.",
+    "Incorrect. Less shifting dullness reflects less ascites, which is expected.",
+    "Correct. The book warns rapid fluid removal can drop abdominal pressure, causing vasodilation and hypovolemic shock.",
+    "Incorrect. Mild site tenderness is not a sign of the shock the book describes."
+   ],
+   "clue": "Rapid fluid removal by paracentesis.",
+   "priority": "Detect hypovolemic shock after paracentesis.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q1",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A client recovering after a laparoscopic cholecystectomy reports an ache in the right shoulder. Vital signs are stable and the abdomen is soft. What should the nurse explain?",
+   "options": [
+    "This suggests a bile leak and needs an urgent scan.",
+    "This signals a heart problem and needs an ECG now.",
+    "This means the gallstones have moved into the liver.",
+    "This is common after the procedure and is caused by CO2 gas."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Nothing in the stem suggests a complication, and the book gives a different, expected cause for shoulder pain after this procedure.",
+    "Incorrect. Vital signs are stable, and the book explains this pain as an expected effect of the laparoscopic procedure.",
+    "Incorrect. The gallbladder was removed, and the book does not describe stones moving into the liver.",
+    "Correct. The book notes possible CO2-induced shoulder pain after laparoscopic cholecystectomy."
+   ],
+   "clue": "Shoulder pain after a laparoscopic procedure.",
+   "priority": "Recognize an expected post-laparoscopy finding.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q2",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "stem": "The nurse is teaching a client with cholecystitis about diet. Which meal choice shows understanding?",
+   "options": [
+    "Grilled chicken with rice and steamed carrots",
+    "Cheeseburger with fries and a milkshake",
+    "Bean chili topped with sour cream and cheese",
+    "Fried fish with coleslaw and whole milk"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. This meal avoids fatty, dairy and gas-forming foods, as the book advises.",
+    "Incorrect. This meal is high in fat and dairy, which the book says to avoid.",
+    "Incorrect. Beans are gas-forming and sour cream and cheese are dairy.",
+    "Incorrect. Fried food is fatty and whole milk is dairy."
+   ],
+   "clue": "The client has cholecystitis and is choosing foods.",
+   "priority": "Teach avoidance of fatty, dairy and gas-forming foods.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q3",
+   "section": "gi-gallbladder",
+   "page": 81,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "stem": "During a health screening, which client should the nurse identify as having the highest risk for gallstones?",
+   "options": [
+    "A 22-year-old man who runs daily and eats a balanced diet",
+    "A 55-year-old woman with obesity who lost weight quickly by fasting",
+    "A 30-year-old man with seasonal allergies",
+    "A 40-year-old man who recently quit smoking"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Young age, male sex and a healthy weight are not risk factors listed in the book.",
+    "Correct. The book lists older age, female sex, obesity, fasting and rapid weight loss as risk factors.",
+    "Incorrect. Allergies are not a risk factor in the book.",
+    "Incorrect. The book does not list smoking cessation as a gallstone risk."
+   ],
+   "clue": "Older female with obesity and rapid weight loss from fasting.",
+   "priority": "Identify clients at risk for cholelithiasis.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q1",
+   "section": "gi-crohn",
+   "page": 84,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "stem": "A client is admitted during an acute flare of Crohn disease. Which order should the nurse expect as part of the initial plan?",
+   "options": [
+    "High-fiber diet with fresh fruit and vegetables",
+    "Regular diet with added milk for calories",
+    "NPO status with total parenteral nutrition",
+    "Clear liquids followed by a regular diet the same day"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The book recommends low-residue nutrition, not high fiber.",
+    "Incorrect. The book's post-flare diet is milk-free.",
+    "Correct. The book lists bowel rest with NPO and TPN during acute flares.",
+    "Incorrect. The book uses bowel rest during a flare rather than quick advancement."
+   ],
+   "clue": "The client is in an acute flare.",
+   "priority": "Provide bowel rest with nutritional support during a flare.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q2",
+   "section": "gi-crohn",
+   "page": 84,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "stem": "A client with Crohn disease is recovering from a flare and starting to eat again. Which diet should the nurse reinforce?",
+   "options": [
+    "Low-protein, low-calorie, high-fiber diet",
+    "High-fat diet with dairy for added energy",
+    "Clear liquids only until the next clinic visit",
+    "High-protein, high-calorie, low-residue, milk-free diet"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. The book calls for high protein and high calories, with low residue.",
+    "Incorrect. The book's post-flare diet is milk-free.",
+    "Incorrect. The book does not limit post-flare intake to clear liquids.",
+    "Correct. The book's post-flare diet is high-protein, high-calorie, low-residue and milk-free."
+   ],
+   "clue": "The client is past the flare and resuming food.",
+   "priority": "Support nutrition after a Crohn flare.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q3",
+   "section": "gi-crohn",
+   "page": 84,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A client with Crohn disease has abdominal distention and signs of bowel obstruction and asks for the as-needed antispasmodic for cramping. What should the nurse do?",
+   "options": [
+    "Hold the antispasmodic and notify the provider of the findings.",
+    "Give the antispasmodic, since cramping is its indication.",
+    "Give loperamide instead to slow the bowel.",
+    "Give the antispasmodic with a full meal."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book states antispasmodics are used for cramping but should be avoided if there is obstruction.",
+    "Incorrect. Obstruction is the exception in the book even though cramping is present.",
+    "Incorrect. Loperamide is listed for mild diarrhea, not for obstruction.",
+    "Incorrect. Taking it with food does not remove the obstruction concern."
+   ],
+   "clue": "Signs of bowel obstruction.",
+   "priority": "Avoid antispasmodics when obstruction is suspected.",
+   "checked": true
+  },
+  {
+   "id": "gi-uc-q1",
+   "section": "gi-uc",
+   "page": 85,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "stem": "The nurse is assessing a client with ulcerative colitis. Which finding should be reported promptly?",
+   "options": [
+    "Left lower quadrant tenderness on palpation",
+    "Elevated temperature with tachycardia",
+    "Hyperactive bowel sounds in all quadrants",
+    "Abdominal pain that eases after a bowel movement"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. The book lists LLQ tenderness as a common finding in UC.",
+    "Correct. The book says to monitor for infection, shown by elevated temperature and tachycardia.",
+    "Incorrect. The book lists hyperactive bowel sounds as a common finding.",
+    "Incorrect. The book describes pain relieved by defecation as part of the usual history."
+   ],
+   "clue": "Fever plus tachycardia.",
+   "priority": "Detect infection in ulcerative colitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-uc-q2",
+   "section": "gi-uc",
+   "page": 85,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "stem": "Which client report is most consistent with ulcerative colitis?",
+   "options": [
+    "Burning heartburn that worsens when lying flat",
+    "Three to five semisoft, nonbloody stools daily",
+    "Frequent bloody diarrhea with mucus; pain eases after a stool",
+    "Right upper quadrant pain after a fatty meal"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Heartburn worse lying flat is a classic GERD symptom in the book.",
+    "Incorrect. Nonbloody diarrhea of 3 to 5 semisoft stools is the book's early Crohn picture.",
+    "Correct. The book describes bloody diarrhea, rectal mucus and pain relieved by defecation in UC.",
+    "Incorrect. RUQ pain after fatty meals fits gallbladder disease in the book."
+   ],
+   "clue": "Bloody diarrhea with mucus and pain relieved by defecation.",
+   "priority": "Recognize the classic history of ulcerative colitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-uc-q3",
+   "section": "gi-uc",
+   "page": 85,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "stem": "A client with severe ulcerative colitis is scheduled for proctocolectomy with ileostomy. Which teaching should the nurse include in the plan?",
+   "options": [
+    "Avoid deep breathing after surgery to protect the incision.",
+    "Stoma care is handled entirely by home health staff.",
+    "A high-fiber diet should start right after surgery.",
+    "Breathing exercises plus wound and stoma care teaching."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. The book lists breathing as part of pre- and post-op care.",
+    "Incorrect. The book includes stoma care and teaching in the nurse's role.",
+    "Incorrect. The book describes low-residue nutrition in UC, not early high fiber.",
+    "Correct. The book lists pre- and post-op breathing, wound and stoma care, and teaching."
+   ],
+   "clue": "Surgery creating an ileostomy.",
+   "priority": "Prepare the client with breathing and stoma care teaching.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q1",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "stem": "A client learns that a screening exam showed diverticulosis without any symptoms. Which teaching is most appropriate?",
+   "options": [
+    "Increase dietary fiber and take steps to avoid constipation.",
+    "Stay on a low-residue diet from now on.",
+    "Start antibiotics to prevent future infection.",
+    "Avoid eating solid food until the pouches heal."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book says diverticulosis has no inflammation and is managed with a high-fiber diet and avoiding constipation.",
+    "Incorrect. Low residue is a temporary step in diverticulitis recovery, not ongoing diverticulosis care.",
+    "Incorrect. The book reserves antibiotics for diverticulitis, which has inflammation or infection.",
+    "Incorrect. Withholding food is for diverticulitis; diverticulosis is not inflamed."
+   ],
+   "clue": "Diverticulosis without symptoms or inflammation.",
+   "priority": "Prevent progression with a high-fiber diet.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q2",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "stem": "A client is admitted with acute diverticulitis, LLQ tenderness and fever. Which initial plan should the nurse expect?",
+   "options": [
+    "High-fiber diet and early vigorous exercise",
+    "NPO with IV fluids and bedrest",
+    "Low-residue diet with heavy-lifting exercises",
+    "Stool softeners only, with discharge home today"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. High fiber comes at the end of the book's diet progression, and bedrest is advised.",
+    "Correct. The book starts diverticulitis care with NPO, IV fluids and bedrest, then advances the diet.",
+    "Incorrect. The book teaches avoiding heavy lifting and strain.",
+    "Incorrect. Stool softeners alone are for diverticulosis; diverticulitis needs rest, fluids and antibiotics."
+   ],
+   "clue": "Acute inflammation with fever and LLQ tenderness.",
+   "priority": "Rest the bowel during acute diverticulitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q3",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client with diverticulitis develops sudden worsening abdominal pain, and an abdominal x-ray shows free air. What should the nurse anticipate?",
+   "options": [
+    "Advancing the diet to high fiber today",
+    "Starting an anticholinergic and observing",
+    "Preparing the client for surgical management",
+    "Teaching stress reduction before discharge"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Diet changes do not treat a perforation.",
+    "Incorrect. Anticholinergics relieve spasms but do not address perforation.",
+    "Correct. The book says free air on x-ray indicates perforation, and perforation is an indication for surgery.",
+    "Incorrect. Teaching is not the priority during an acute surgical complication."
+   ],
+   "clue": "Free air on abdominal x-ray.",
+   "priority": "Recognize perforation and prepare for surgery.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q1",
+   "section": "gi-appendicitis",
+   "page": 88,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A 26-year-old woman arrives with pain that began around the navel and moved to the right lower quadrant. A CT scan is planned. What should the nurse confirm first?",
+   "options": [
+    "That a CRP level has been drawn",
+    "That the WBC count is above normal",
+    "That oral contrast has been taken",
+    "That a pregnancy test has been done"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. CRP supports the diagnosis but is not required before imaging.",
+    "Incorrect. WBC is a key test but does not need to come before imaging.",
+    "Incorrect. The book notes CT may be done with or without contrast.",
+    "Correct. The book states a pregnancy test must be done first in women of childbearing age before radiology tests."
+   ],
+   "clue": "A woman of childbearing age about to have imaging.",
+   "priority": "Rule out pregnancy before radiology.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q2",
+   "section": "gi-appendicitis",
+   "page": 89,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A client with suspected appendicitis awaiting surgery asks for a heating pad and something to eat. What is the nurse's best response?",
+   "options": [
+    "Explain that heat on the abdomen and food must be avoided for now.",
+    "Provide a heating pad and a light snack for comfort.",
+    "Provide a heating pad but keep the client NPO.",
+    "Allow clear liquids and a cool pack to the abdomen."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book's preoperative care is to keep the client NPO and avoid heat on the abdomen.",
+    "Incorrect. Both heat and food go against the book's preoperative care.",
+    "Incorrect. Keeping NPO is correct, but heat on the abdomen should be avoided.",
+    "Incorrect. The book calls for NPO before surgery, so liquids are not allowed."
+   ],
+   "clue": "Preoperative client asking for heat and food.",
+   "priority": "Keep NPO and avoid abdominal heat before surgery.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q3",
+   "section": "gi-appendicitis",
+   "page": 89,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client with appendicitis suddenly reports that the pain is much better. An hour later the pain is diffuse, the abdomen is rigid and board-like, and the client has a fever. What should the nurse suspect?",
+   "options": [
+    "The inflammation is resolving with antibiotics",
+    "Rupture of the appendix requiring emergency surgery",
+    "Expected pain pattern before a planned surgery",
+    "Constipation from being kept NPO"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Worsening diffuse pain, rigidity and fever do not show resolution.",
+    "Correct. The book lists a sudden drop in pain followed by increasing diffuse pain, a rigid board-like abdomen and fever as signs of rupture needing emergency surgery.",
+    "Incorrect. These findings are warning signs, not an expected pattern.",
+    "Incorrect. Constipation would not explain a rigid abdomen and fever."
+   ],
+   "clue": "Sudden pain relief followed by diffuse pain and a board-like abdomen.",
+   "priority": "Recognize rupture and escalate for emergency surgery.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q4",
+   "section": "gi-gerd",
+   "page": 66,
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "stem": "A client with new GERD symptoms brings a home medication list. Which medications should the nurse identify as able to worsen lower esophageal sphincter (LES) tone? Select all that apply.",
+   "options": [
+    "Famotidine taken at bedtime",
+    "Metoprolol, a beta-blocker, for hypertension",
+    "Isosorbide, a nitrate, for angina",
+    "Omeprazole taken before breakfast",
+    "Diazepam taken for anxiety"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incorrect. Famotidine is an H2 receptor antagonist used to reduce gastric acid in GERD; it is not on the book's list of drugs that worsen LES tone.",
+    "Correct. The book lists beta-blockers among medications that worsen LES tone.",
+    "Correct. Nitrates are listed in the book as medications that worsen LES tone.",
+    "Incorrect. Omeprazole is a proton pump inhibitor used to treat GERD, not a drug that weakens the LES.",
+    "Correct. Diazepam is named in the book among medications that worsen LES tone."
+   ],
+   "clue": "The client takes drugs from classes the book links to reduced LES tone.",
+   "priority": "Review medications that lower LES tone, because they can worsen reflux.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q5",
+   "section": "gi-gerd",
+   "page": 68,
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "stem": "The nurse is teaching a client with GERD about lifestyle changes to prevent reflux. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Eat three large meals rather than several small ones.",
+    "Raise the head of the bed about 30 degrees.",
+    "Wear clothing that is loose around the waist.",
+    "Have a cup of peppermint tea after dinner.",
+    "Avoid bending over and heavy lifting.",
+    "Lie down to rest right after the evening meal."
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incorrect. The book advises eating small meals.",
+    "Correct. The book lists elevating the head of the bed 30 degrees to reduce nocturnal reflux and aid acid clearance.",
+    "Correct. The book advises avoiding tight clothing, which helps lower intra-abdominal pressure.",
+    "Incorrect. Peppermint is one of the trigger foods the book says to avoid.",
+    "Correct. The book lists avoiding bending and lifting to lower intra-abdominal pressure and prevent reflux.",
+    "Incorrect. The book advises not eating within 3 hours of sleep; lying down after a meal works against gravity."
+   ],
+   "clue": "The client needs lifestyle measures that lower reflux.",
+   "priority": "Teach measures that use gravity and lower intra-abdominal pressure to prevent reflux.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q6",
+   "section": "gi-gerd",
+   "page": 66,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "stem": "A client with chronic GERD says, \"I've given up coffee, chocolate and half the foods I love, and I'm still miserable. This is taking over my life.\" Which response by the nurse is best?",
+   "options": [
+    "\"Most people adjust to the diet within a few weeks, so try to stay positive.\"",
+    "\"If you keep following the diet strictly, the symptoms will go away for good.\"",
+    "\"It sounds like these changes have been hard on you. How have you been coping with the stress of it?\"",
+    "\"You should ask your provider for stronger medicine so you can eat what you like.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. This offers false reassurance and closes off the client's feelings instead of assessing coping.",
+    "Incorrect. This promises an outcome the nurse cannot guarantee and ignores the client's distress.",
+    "Correct. The book directs the nurse to assess stress levels and coping strategies, noting GERD can cause significant emotional distress and dietary restrictions that affect quality of life.",
+    "Incorrect. This dismisses the client's feelings and gives advice instead of exploring coping."
+   ],
+   "clue": "The client expresses distress about dietary restrictions and quality of life.",
+   "priority": "Acknowledge feelings and assess stress and coping in a client with chronic GERD.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q7",
+   "section": "gi-gerd",
+   "page": 67,
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A client is being evaluated for GERD. For each diagnostic result, indicate whether it is an abnormal finding consistent with GERD or a normal finding.",
+   "rows": [
+    "EGD shows erosions and areas of metaplasia in the esophagus",
+    "Esophageal manometry shows low resting LES pressure",
+    "EGD shows normal squamous epithelium of the esophagus",
+    "Esophageal manometry shows normal pressure and a competent LES",
+    "Esophageal manometry shows abnormal peristalsis"
+   ],
+   "columns": [
+    "Consistent with GERD",
+    "Normal finding"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "The book lists metaplasia, ulceration, strictures or erosions on EGD as abnormal in GERD.",
+    "The book lists an incompetent LES with low resting pressure as abnormal manometry in GERD.",
+    "The book gives normal squamous epithelium as the normal EGD result.",
+    "The book gives normal esophageal pressure and a competent LES as the normal manometry result.",
+    "The book lists abnormal peristalsis on manometry as an abnormal finding in GERD."
+   ],
+   "clue": "Each result must be matched to the normal or abnormal column of the book's GERD test table.",
+   "priority": "Interpret GERD diagnostic results to recognize LES dysfunction and mucosal damage.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q8",
+   "section": "gi-gerd",
+   "page": 65,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "The nurse is caring for four clients with GERD. Which client should the nurse assess first?",
+   "options": [
+    "A client who reports heartburn after eating chocolate at lunch",
+    "A client who vomited bright red blood and reports new difficulty swallowing",
+    "A client with a dry cough at night who has been prescribed a PPI",
+    "A client who asks how long to wait after dinner before going to bed"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Heartburn after a trigger food such as chocolate is an expected GERD symptom.",
+    "Correct. The book lists bleeding and strictures that cause difficulty swallowing as complications of persistent GERD; bleeding needs immediate assessment.",
+    "Incorrect. Night cough is a respiratory symptom of GERD and the client is already on treatment; it is not unstable.",
+    "Incorrect. This is a teaching need that can wait until unstable clients are seen."
+   ],
+   "clue": "Vomiting blood and new dysphagia point to GERD complications.",
+   "priority": "See the client with signs of a complication such as bleeding before clients with expected symptoms.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q9",
+   "section": "gi-gerd",
+   "page": 68,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "A client with severe, chronic GERD is started on omeprazole and asks how it works. Which explanation by the nurse is accurate?",
+   "options": [
+    "\"It neutralizes acid that is already in your stomach for quick relief.\"",
+    "\"It coats the lining of your esophagus so acid cannot reach it.\"",
+    "\"It tightens the valve at the bottom of your esophagus.\"",
+    "\"It blocks the final step of acid secretion in the stomach's parietal cells.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Neutralizing gastric acid for rapid relief is how the book describes antacids.",
+    "Incorrect. The book does not describe PPIs as coating agents.",
+    "Incorrect. The book does not describe PPIs as acting on LES tone; they reduce acid secretion.",
+    "Correct. The book states PPIs such as omeprazole block the final acid secretion step in parietal cells and are effective in severe or chronic GERD."
+   ],
+   "clue": "Omeprazole is a proton pump inhibitor prescribed for severe, chronic GERD.",
+   "priority": "Explain a PPI's action so the client understands why it is used.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q10",
+   "section": "gi-gerd",
+   "page": 68,
+   "type": "sata",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "stem": "A client with GERD who smokes and is overweight has struggled to make lasting lifestyle changes. Which referrals should the nurse discuss with the health care team? Select all that apply.",
+   "options": [
+    "Physical therapy for core strengthening",
+    "A smoking cessation program",
+    "Home health nursing for daily medication administration",
+    "A nutritionist",
+    "Speech therapy for a swallowing study"
+   ],
+   "correct": [
+    1,
+    3
+   ],
+   "rationales": [
+    "Incorrect. The book does not list physical therapy as a GERD referral.",
+    "Correct. The book lists smoking cessation programs as referrals that support long-term lifestyle change.",
+    "Incorrect. The book does not call for home health nursing in GERD; the client can manage medications.",
+    "Correct. The book lists referral to a nutritionist to support long-term lifestyle change essential for GERD control.",
+    "Incorrect. Nothing in the stem suggests dysphagia, and the book's GERD referrals are nutrition and smoking cessation."
+   ],
+   "clue": "The client smokes, is overweight and has not sustained lifestyle changes.",
+   "priority": "Collaborate with other disciplines to support long-term lifestyle change.",
+   "checked": true
+  },
+  {
+   "id": "gi-gerd-q11",
+   "section": "gi-gerd",
+   "page": 68,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "The nurse has taught a client with GERD about an aluminum-magnesium antacid. Which statement shows the client understood?",
+   "options": [
+    "\"I can take it between meals or when heartburn flares, because it works fast by neutralizing acid.\"",
+    "\"This will stop my stomach from making acid in the first place.\"",
+    "\"I only need to take it once a day at bedtime to prevent Barrett esophagus.\"",
+    "\"This replaces the need to change what or when I eat.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book describes antacids (aluminum or magnesium salts) taken between meals or as needed to neutralize gastric acid and give rapid symptom relief.",
+    "Incorrect. Blocking acid production describes PPIs and H2 receptor antagonists, not antacids.",
+    "Incorrect. The book gives antacids for rapid symptom relief, not once-daily prevention of Barrett esophagus.",
+    "Incorrect. The book pairs medications with lifestyle and dietary changes for GERD control."
+   ],
+   "clue": "The client is learning about an antacid's purpose and timing.",
+   "priority": "Confirm the client knows an antacid neutralizes acid for quick relief and is used between meals or as needed.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q4",
+   "section": "gi-pancreatitis",
+   "page": 69,
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "stem": "The nurse is assessing a client admitted with acute pancreatitis. Which findings should the nurse recognize as consistent with this condition? Select all that apply.",
+   "options": [
+    "Bluish bruising of the flanks",
+    "Hyperactive bowel sounds in all quadrants",
+    "Bruising around the umbilicus",
+    "Slow heart rate",
+    "Foamy, gray, foul-smelling stools",
+    "Tea-colored urine"
+   ],
+   "correct": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Correct. The book lists Grey Turner sign (flank bruising) among skin findings in pancreatitis.",
+    "Incorrect. The book lists decreased bowel sounds in pancreatitis.",
+    "Correct. Cullen sign (umbilical bruising) is listed in the book's physical examination.",
+    "Incorrect. The book lists tachycardia, not a slow heart rate.",
+    "Correct. The book lists foamy, gray, foul stools from fat malabsorption.",
+    "Correct. The book lists tea-colored urine from bile presence."
+   ],
+   "clue": "The client has acute pancreatitis and is being examined.",
+   "priority": "Recognize the physical findings of acute pancreatitis, including signs of retroperitoneal bleeding.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q5",
+   "section": "gi-pancreatitis",
+   "page": 71,
+   "type": "matrix",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A client is admitted with acute pancreatitis without signs of infection. For each order, indicate whether the nurse should anticipate it or not anticipate it.",
+   "rows": [
+    "Fentanyl for severe abdominal pain",
+    "Ceftriaxone started to prevent infection",
+    "Insulin based on blood glucose monitoring",
+    "Lactated Ringer's for IV fluid resuscitation",
+    "IV fluids limited to a keep-vein-open rate"
+   ],
+   "columns": [
+    "Anticipated",
+    "Not anticipated"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "rationales": [
+    "The book lists opioids such as meperidine, fentanyl and tramadol for pain control.",
+    "The book states antibiotics are for infected necrosis or biliary causes and are not used prophylactically.",
+    "The book lists blood glucose monitoring every 6 hours, with insulin as needed.",
+    "The book lists IV fluid resuscitation, such as lactated Ringer's, to restore volume and prevent hypovolemic shock.",
+    "The book calls for IV fluid resuscitation to prevent hypovolemic shock, not restricted fluids."
+   ],
+   "clue": "The client has acute pancreatitis with no sign of infection.",
+   "priority": "Anticipate fluid resuscitation, pain control and glucose management, and avoid prophylactic antibiotics.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q6",
+   "section": "gi-pancreatitis",
+   "page": 69,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "stem": "A client admitted a few hours ago with severe acute pancreatitis grips the side rail and says, \"Everything happened so fast. Am I going to die?\" Which response by the nurse is best?",
+   "options": [
+    "\"Let's talk about your discharge diet once the pain settles.\"",
+    "\"This must feel frightening. Let me explain what we are doing for you right now.\"",
+    "\"You're in good hands here, so there's nothing to worry about.\"",
+    "\"Try to stay calm, because anxiety will make your pancreas worse.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Discharge teaching is not appropriate while the client is acutely ill and frightened.",
+    "Correct. The book identifies anxiety, fear and stress from sudden illness in acute pancreatitis; acknowledging the fear and explaining care addresses it.",
+    "Incorrect. This gives false reassurance and dismisses the client's fear.",
+    "Incorrect. This blames the client and does not address the fear."
+   ],
+   "clue": "The client voices fear after a sudden, severe illness.",
+   "priority": "Acknowledge anxiety and fear from sudden illness and provide clear information.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q7",
+   "section": "gi-pancreatitis",
+   "page": 69,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "generateSolutions",
+   "stem": "The spouse of a client with chronic pancreatitis tells the nurse, \"I'm handling the bills, the kids and his care now. I don't know how long I can keep this up.\" Which action by the nurse is most appropriate?",
+   "options": [
+    "Focus the conversation on the client's pain medication schedule.",
+    "Tell the spouse that caregiver stress usually improves on its own.",
+    "Suggest the spouse ask other relatives to take over the client's care.",
+    "Explore the spouse's concerns and connect the family with ongoing education and support."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. This changes the subject away from the family's stated distress.",
+    "Incorrect. This dismisses the spouse's concern.",
+    "Incorrect. This gives advice without first exploring the spouse's needs.",
+    "Correct. The book notes families struggle with new responsibilities and disease severity, and lists ongoing education and support as needs."
+   ],
+   "clue": "The spouse describes struggling with new responsibilities.",
+   "priority": "Support families coping with new responsibilities in chronic pancreatitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q8",
+   "section": "gi-pancreatitis",
+   "page": 69,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "The nurse receives report on four clients with acute pancreatitis. Which client should the nurse see first?",
+   "options": [
+    "A client reporting nausea who has an NG tube to intermittent suction",
+    "A client who is NPO and asking when they can eat",
+    "A client whose blood pressure has dropped and whose skin is mottled",
+    "A client reporting knifelike epigastric pain that radiates to the back"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Nausea is a common symptom, and an NG tube to suction is part of the plan.",
+    "Incorrect. This is a comfort and teaching need, not an unstable finding.",
+    "Correct. The book lists hypotension as a late vital-sign change and mottling as a skin finding; together they signal possible shock.",
+    "Incorrect. Severe, knifelike epigastric pain radiating to the back is the expected pain of pancreatitis."
+   ],
+   "clue": "Falling blood pressure with mottled skin is a late, unstable finding.",
+   "priority": "See the client with signs of hemodynamic instability first.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q9",
+   "section": "gi-pancreatitis",
+   "page": 71,
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "stem": "A client is in the initial phase of treatment for acute pancreatitis. Which monitoring should the nurse include in the plan of care? Select all that apply.",
+   "options": [
+    "Hourly serum amylase levels to time the diet",
+    "Urine output, watching for less than 1 mL/kg/hr",
+    "Blood glucose every 6 hours",
+    "Oral fluid intake to keep urine output up",
+    "Calcium, magnesium and potassium levels",
+    "Respiratory status and need for oxygen"
+   ],
+   "correct": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "rationales": [
+    "Incorrect. The book does not call for hourly amylase levels to guide feeding.",
+    "Correct. The book lists urine output monitoring, with less than 1 mL/kg/hr signaling hypoperfusion.",
+    "Correct. The book lists blood glucose monitoring every 6 hours, with insulin as needed.",
+    "Incorrect. The client is NPO to suppress pancreatic enzyme secretion; IV fluids are used.",
+    "Correct. The book lists replacing calcium, magnesium and potassium to correct electrolyte imbalances, which requires monitoring them.",
+    "Correct. The book lists oxygen therapy or mechanical ventilation for respiratory support."
+   ],
+   "clue": "The client is in the initial medical management phase of acute pancreatitis.",
+   "priority": "Monitor perfusion, glucose, electrolytes and breathing to detect complications early.",
+   "checked": true
+  },
+  {
+   "id": "gi-pancreatitis-q10",
+   "section": "gi-pancreatitis",
+   "page": 71,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "stem": "The nurse is caring for a client with acute pancreatitis. Which task is appropriate to delegate to assistive personnel?",
+   "options": [
+    "Measure and record the client's hourly urine output.",
+    "Assess the client's pain after an IV opioid dose.",
+    "Teach the client about the gradual diet progression.",
+    "Adjust the NG tube suction setting when drainage slows."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Measuring and recording urine output is a routine task; the RN interprets it against the book's threshold for hypoperfusion.",
+    "Incorrect. Evaluating the response to an opioid requires RN assessment.",
+    "Incorrect. Teaching is an RN responsibility.",
+    "Incorrect. Managing NG suction for pancreatic rest requires nursing judgment."
+   ],
+   "clue": "Only one task is routine and does not need nursing judgment.",
+   "priority": "Delegate routine measurement; keep assessment, teaching and judgment-based care with the RN.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q4",
+   "section": "gi-pud",
+   "page": 73,
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "stem": "A client with peptic ulcer disease is being assessed. Which findings should the nurse recognize as signs of bleeding or the anemia it causes? Select all that apply.",
+   "options": [
+    "Vomiting blood",
+    "Black, tarry stools",
+    "Weight gain over several months",
+    "Pale skin and pale mucous membranes",
+    "Epigastric pain relieved by eating"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. The book lists hematemesis as a bleeding sign.",
+    "Correct. The book lists melena (black stools) as a sign of bleeding.",
+    "Incorrect. The book links weight gain to duodenal ulcer, not to bleeding.",
+    "Correct. The book lists pale skin and mucous membranes as signs of anemia.",
+    "Incorrect. Food-relieved pain is the book's duodenal ulcer pain pattern, not a bleeding sign."
+   ],
+   "clue": "The client has PUD, which can cause hemorrhage.",
+   "priority": "Recognize signs of GI bleeding and anemia in a client with an ulcer.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q5",
+   "section": "gi-pud",
+   "page": 72,
+   "type": "matrix",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "stem": "The nurse is comparing findings in clients with peptic ulcers. For each finding, indicate whether it is more typical of a gastric ulcer or a duodenal ulcer.",
+   "rows": [
+    "Pain located in the left epigastrium",
+    "Pain 90 minutes to 3 hours after meals",
+    "Pain after eating that antacids do not relieve",
+    "Pain that wakes the client at night",
+    "Pain located in the right epigastrium"
+   ],
+   "columns": [
+    "Gastric ulcer",
+    "Duodenal ulcer"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "The book places gastric ulcer pain in the left epigastrium.",
+    "The book describes duodenal ulcer pain 90 minutes to 3 hours after meals.",
+    "The book describes gastric ulcer pain after eating that is not relieved by antacids.",
+    "The book notes duodenal ulcer pain may occur at night.",
+    "The book places duodenal ulcer pain in the right epigastrium."
+   ],
+   "clue": "Pain timing, relief and location differ between ulcer types.",
+   "priority": "Distinguish gastric from duodenal ulcers by pain pattern and location.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q6",
+   "section": "gi-pud",
+   "page": 72,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "stem": "During a clinic visit, the nurse reviews risk factors for peptic ulcer disease. Which client has the most risk factors?",
+   "options": [
+    "A client who smokes, drinks heavily and takes long-term steroids",
+    "A client who exercises daily and drinks one cup of coffee each morning",
+    "A client who follows a vegetarian diet and works night shifts",
+    "A client with seasonal allergies who takes a daily antihistamine"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists excessive alcohol use, smoking and long-term steroid use as lifestyle and risk factors for PUD.",
+    "Incorrect. Regular exercise and a single cup of coffee are not risk factors listed on this page.",
+    "Incorrect. A vegetarian diet and night shifts are not listed risk factors.",
+    "Incorrect. Allergies and antihistamines are not listed risk factors for PUD."
+   ],
+   "clue": "One client has several of the book's listed lifestyle risk factors.",
+   "priority": "Identify clients at higher risk for PUD from lifestyle and drug-use risk factors.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q7",
+   "section": "gi-pud",
+   "page": 74,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A 52-year-old client with epigastric pain reports trouble swallowing and a 10-pound weight loss. Which test should the nurse expect the provider to order as the primary diagnostic test?",
+   "options": [
+    "Urea breath test",
+    "Serum IgG antibody test",
+    "Esophagogastroduodenoscopy (EGD)",
+    "Fecal antigen test"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The urea breath test is an additional test for H. pylori and does not view the mucosa.",
+    "Incorrect. IgG antibodies are an additional H. pylori test, not the primary test for this client.",
+    "Correct. The book names EGD as the primary diagnostic test and calls it essential for clients over 45 with dysphagia, weight loss, vomiting or bleeding.",
+    "Incorrect. The fecal antigen test is an additional H. pylori test, not the primary test."
+   ],
+   "clue": "The client is over 45 and has dysphagia and weight loss.",
+   "priority": "Prepare the client over 45 with alarm features for EGD.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q8",
+   "section": "gi-pud",
+   "page": 74,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "stem": "The nurse is reviewing diet teaching with a client who has peptic ulcer disease. Which client statement indicates the teaching was effective?",
+   "options": [
+    "\"I should drink milk every few hours to coat my stomach.\"",
+    "\"Two cups of coffee each morning is fine as long as I eat.\"",
+    "\"I'll avoid alcohol, caffeine and any foods that make my symptoms worse.\"",
+    "\"I have to eat only bland, soft foods from now on.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The book does not recommend milk to coat the stomach.",
+    "Incorrect. The book advises avoiding caffeine.",
+    "Correct. The book's nutritional therapy is to avoid alcohol, caffeine and foods that aggravate symptoms.",
+    "Incorrect. The book states no evidence supports bland diets."
+   ],
+   "clue": "The client must describe the book's PUD nutrition guidance.",
+   "priority": "Teach individualized avoidance of alcohol, caffeine and aggravating foods rather than a bland diet.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q9",
+   "section": "gi-pud",
+   "page": 73,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "stem": "A client with a duodenal ulcer says that pain flares during weeks when the client is caring for an ill parent and working overtime. Which nursing action is most appropriate?",
+   "options": [
+    "Advise the client to take ibuprofen when the pain begins.",
+    "Tell the client that stress does not affect ulcers once H. pylori is treated.",
+    "Recommend a bland diet during stressful weeks.",
+    "Assess the client's stressors, coping and support system."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. NSAIDs are a primary cause of PUD and should be avoided.",
+    "Incorrect. The book states stress and anxiety can worsen or trigger symptoms.",
+    "Incorrect. The book states no evidence supports bland diets.",
+    "Correct. The book's psychosocial assessment includes stress and anxiety, coping, lifestyle impact and support, and identifying recent or ongoing stressors."
+   ],
+   "clue": "Symptoms flare with caregiver and work stress.",
+   "priority": "Assess stressors, coping and support, since stress can worsen ulcer symptoms.",
+   "checked": true
+  },
+  {
+   "id": "gi-pud-q10",
+   "section": "gi-pud",
+   "page": 74,
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A client with an H. pylori-positive peptic ulcer is starting treatment. Which medications should the nurse expect as part of triple therapy? Select all that apply.",
+   "options": [
+    "Famotidine",
+    "Omeprazole",
+    "Clarithromycin",
+    "Amoxicillin",
+    "Ibuprofen"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Incorrect. Famotidine is an H2 antagonist; the book's triple therapy is a PPI plus two antibiotics.",
+    "Correct. Triple therapy in the book includes a PPI such as omeprazole.",
+    "Correct. Clarithromycin is one of the antibiotics named for triple therapy.",
+    "Correct. Amoxicillin is named with clarithromycin as an antibiotic option in triple therapy.",
+    "Incorrect. Ibuprofen is an NSAID; the book says to educate clients to avoid NSAIDs."
+   ],
+   "clue": "Triple therapy for H. pylori is a PPI plus two antibiotics.",
+   "priority": "Know the components of H. pylori triple therapy.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q4",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A client with acute gastritis is beginning initial management. Which medications should the nurse expect? Select all that apply.",
+   "options": [
+    "Cimetidine to reduce acid",
+    "Ibuprofen for epigastric pain",
+    "An antacid such as Maalox to neutralize acid",
+    "Omeprazole for acid suppression",
+    "A vasopressin infusion for routine acid control"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. The book lists H2 antagonists such as cimetidine to reduce acid in initial management of acute gastritis.",
+    "Incorrect. NSAIDs are causative agents the book says to remove.",
+    "Correct. The book lists antacids such as Maalox or Mylanta to neutralize acid.",
+    "Correct. The book states omeprazole may be added for acid suppression.",
+    "Incorrect. The book lists vasopressin to stop bleeding, not for acid control in initial management."
+   ],
+   "clue": "The client has acute gastritis and needs initial management.",
+   "priority": "Reduce and neutralize acid while removing causative agents.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q5",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "matrix",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "stem": "A client with hemorrhagic gastritis has significant bleeding. For each intervention, indicate whether it is indicated or not indicated at this time.",
+   "rows": [
+    "Prepare for transfusion of blood products",
+    "Prepare for an immediate vagotomy and pyloroplasty as first-line care",
+    "Anticipate left gastric artery embolization if bleeding persists",
+    "Anticipate calcium gluconate after every 3 to 4 units of PRBCs",
+    "Start oral bismuth subsalicylate to stop the bleeding"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "rationales": [
+    "The book lists blood transfusions (PRBC, PLT, cryo, FFP) for significant hemorrhage.",
+    "The book reserves surgery for severe bleeding that is uncontrolled, not as first-line care.",
+    "The book lists left gastric artery embolization if bleeding persists.",
+    "The book lists calcium gluconate after every 3 to 4 units of PRBCs because calcium binds to citrate in stored blood.",
+    "The book lists measures such as vasopressin, transfusion and embolization for bleeding; bismuth is not among them."
+   ],
+   "clue": "The client has significant bleeding from gastritis.",
+   "priority": "Collaborate on stepwise hemorrhage management, reserving surgery for uncontrolled bleeding.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q6",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "stem": "A client with hemorrhagic gastritis has received four units of packed red blood cells. The nurse anticipates calcium gluconate. Which reason supports this order?",
+   "options": [
+    "Calcium binds to the citrate in transfused blood, lowering the client's calcium.",
+    "Calcium speeds clotting at the bleeding site in the stomach.",
+    "Calcium neutralizes stomach acid to keep the pH above 4.",
+    "Calcium prevents pernicious anemia after blood loss."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book gives calcium gluconate after every 3 to 4 units of PRBCs because calcium ions bind to citrate in the blood.",
+    "Incorrect. The book does not give calcium to treat the bleeding site.",
+    "Incorrect. Keeping pH above 4 is the role of antacids in the book.",
+    "Incorrect. Pernicious anemia is prevented with vitamin B12 in the book."
+   ],
+   "clue": "The client has received several units of PRBCs.",
+   "priority": "Prevent low calcium from citrate in multiple transfusions.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q7",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "stem": "A client with chronic H. pylori gastritis asks why the provider wants long-term follow-up even though the pain is gone. Which response by the nurse is accurate?",
+   "options": [
+    "\"Follow-up is only needed if the pain comes back.\"",
+    "\"Chronic gastritis raises the risk of stomach cancer, so ongoing monitoring helps catch changes early.\"",
+    "\"Follow-up checks whether you need to start a bland diet.\"",
+    "\"Follow-up is needed because gastritis always turns into an ulcer.\""
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Some chronic gastritis is asymptomatic, so the absence of pain does not end the need for monitoring.",
+    "Correct. The book lists increased gastric cancer risk as a complication of chronic gastritis and calls for long-term monitoring for gastric cancer, whether or not pain returns.",
+    "Incorrect. The book does not tie follow-up to a bland diet.",
+    "Incorrect. The book lists peptic ulcers as a possible complication, not a certain outcome."
+   ],
+   "clue": "The client has chronic H. pylori gastritis without current pain.",
+   "priority": "Promote ongoing monitoring because of the increased gastric cancer risk.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q8",
+   "section": "gi-gastritis",
+   "page": 76,
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "stem": "The nurse is assessing a client with gastritis. Which findings suggest bleeding and need prompt follow-up? Select all that apply.",
+   "options": [
+    "Low blood pressure and a rapid heart rate",
+    "Pallor",
+    "Vomiting blood",
+    "Burning epigastric pain",
+    "Mild food intolerance",
+    "Black stools"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "rationales": [
+    "Correct. The book lists low BP and rapid HR as bleeding signs.",
+    "Correct. Pallor is listed among the bleeding signs.",
+    "Correct. Hematemesis is listed among the bleeding signs.",
+    "Incorrect. Burning epigastric pain is a key symptom of gastritis, not a sign of bleeding.",
+    "Incorrect. The book describes food intolerance in chronic cases, not as a bleeding sign.",
+    "Correct. Melena is listed among the bleeding signs."
+   ],
+   "clue": "The client has gastritis, which can cause bleeding.",
+   "priority": "Recognize bleeding signs early in gastritis.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q9",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A client with chronic gastritis is prescribed triple therapy for H. pylori. Which statement shows the client understands the treatment?",
+   "options": [
+    "\"I'll take the two antibiotics with the other medicines for the full course, usually 10 to 14 days.\"",
+    "\"I only need one antibiotic if I also take bismuth.\"",
+    "\"I can stop once my stomach feels better, even if pills are left.\"",
+    "\"I'll take this until my next endoscopy in a year.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book describes triple therapy with two antibiotics, with or without bismuth and omeprazole, for 10 to 14 days.",
+    "Incorrect. The book's triple therapy uses two antibiotics.",
+    "Incorrect. Stopping early is not consistent with the book's stated duration.",
+    "Incorrect. The book gives a duration of 10 to 14 days, not a year."
+   ],
+   "clue": "The client is starting triple therapy for H. pylori.",
+   "priority": "Confirm the client knows to complete the full course of triple therapy.",
+   "checked": true
+  },
+  {
+   "id": "gi-gastritis-q10",
+   "section": "gi-gastritis",
+   "page": 77,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "The nurse is caring for four clients on a medical unit. Which client should the nurse see first?",
+   "options": [
+    "A client with acute gastritis who reports nausea after breakfast",
+    "A client with chronic gastritis who asks why vitamin B12 has been prescribed",
+    "A client with hemorrhagic gastritis whose bleeding continues despite blood transfusions",
+    "A client with H. pylori gastritis on day 3 of triple therapy"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Nausea is an expected symptom of gastritis.",
+    "Incorrect. This is a teaching need; the book gives vitamin B12 to prevent pernicious anemia, and the client is not unstable.",
+    "Correct. The book lists further steps such as embolization or surgery when bleeding persists, so ongoing bleeding needs immediate attention.",
+    "Incorrect. This client is stable and receiving expected treatment."
+   ],
+   "clue": "One client's bleeding persists despite treatment.",
+   "priority": "See the client with uncontrolled bleeding first.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q4",
+   "section": "gi-cirrhosis",
+   "page": 79,
+   "type": "matrix",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "stem": "The nurse is examining a client with cirrhosis. For each finding, indicate whether it is consistent with cirrhosis or not consistent with cirrhosis.",
+   "rows": [
+    "Spider angiomas and palmar erythema",
+    "Shifting dullness on percussion",
+    "Flapping tremor of the hands (asterixis)",
+    "Pink, well-hydrated mucous membranes with brisk skin turgor",
+    "Caput medusae and an everted umbilicus"
+   ],
+   "columns": [
+    "Consistent",
+    "Not consistent"
+   ],
+   "correct": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "The book lists spider angiomas and palmar erythema as bleeding and vascular signs.",
+    "The book states shifting dullness suggests ascites.",
+    "The book lists asterixis, seen in hepatic encephalopathy stages II to III.",
+    "The book lists poor skin turgor and checking mucous membrane color, not normal hydration, among cirrhosis findings.",
+    "The book lists caput medusae and an everted umbilicus among abdominal findings."
+   ],
+   "clue": "Each finding must be compared with the book's physical examination list.",
+   "priority": "Recognize physical signs of cirrhosis and its complications.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q5",
+   "section": "gi-cirrhosis",
+   "page": 79,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "stem": "The daughter of a client with cirrhosis says, \"Dad keeps forgetting things and got confused about where he was last night. He's never been like this.\" Which response by the nurse is best?",
+   "options": [
+    "\"Confusion and forgetfulness can be part of cirrhosis. I'll assess him and let the provider know.\"",
+    "\"That is probably normal aging and not related to his liver.\"",
+    "\"He is likely just tired from being in the hospital.\"",
+    "\"Try to correct him firmly whenever he gets confused.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists agitation, forgetfulness and disorientation as neuro changes in cirrhosis; acknowledging the family's concern and assessing is appropriate.",
+    "Incorrect. The book lists neuro changes such as agitation, forgetfulness and disorientation in cirrhosis.",
+    "Incorrect. This dismisses a sign the book links to cirrhosis.",
+    "Incorrect. Firm correction does not support a client with cognitive change."
+   ],
+   "clue": "The family reports new forgetfulness and disorientation.",
+   "priority": "Support the family and assess cognitive change as a possible sign of worsening liver disease.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q6",
+   "section": "gi-cirrhosis",
+   "page": 80,
+   "type": "sata",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "The nurse is reviewing the medication plan for a client with cirrhosis. Which medications match the purposes listed in the book? Select all that apply.",
+   "options": [
+    "Zinc sulfate for muscle cramps and appetite",
+    "Antiemetics for symptom relief",
+    "Vitamin K as part of medical treatment",
+    "Antivirals for clients with hepatitis C",
+    "Morphine to lower portal pressure",
+    "Hepatitis A vaccine to treat active hepatitis C"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. The book lists zinc sulfate for cramps and appetite.",
+    "Correct. Antihistamines and antiemetics are listed for symptom relief.",
+    "Correct. The book lists vitamin K with nutritional support and blood products.",
+    "Correct. The book lists antivirals for HCV.",
+    "Incorrect. The book does not list morphine for cirrhosis; portal hypertension is relieved with a TIPS procedure.",
+    "Incorrect. The book lists the hepatitis A vaccine as preventive care in chronic liver disease, not as treatment for HCV."
+   ],
+   "clue": "Each drug must match the purpose the book gives.",
+   "priority": "Know the purpose of each medication in cirrhosis.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q7",
+   "section": "gi-cirrhosis",
+   "page": 80,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "stem": "A client with chronic liver disease from hepatitis C asks what can be done to protect the liver. Which recommendation should the nurse reinforce?",
+   "options": [
+    "Receive the hepatitis A vaccine.",
+    "Drink alcohol only on weekends.",
+    "Avoid all physical activity.",
+    "Stop all medications to rest the liver."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists the hepatitis A vaccine as preventive care in chronic liver disease.",
+    "Incorrect. The book teaches alcohol cessation.",
+    "Incorrect. The book encourages mobility.",
+    "Incorrect. The book lists medications such as antivirals for HCV; stopping them is not advised."
+   ],
+   "clue": "The client has chronic liver disease and asks about prevention.",
+   "priority": "Promote vaccination and alcohol cessation to protect the liver.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q8",
+   "section": "gi-cirrhosis",
+   "page": 80,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "stem": "The nurse is caring for a client with cirrhosis and ascites. Which task can the nurse delegate to assistive personnel?",
+   "options": [
+    "Teach the client about alcohol cessation.",
+    "Interpret a change in liver enzyme results.",
+    "Measure the client's abdominal girth at the marked level.",
+    "Assess the client for shifting dullness."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Teaching is an RN responsibility.",
+    "Incorrect. Interpreting labs requires nursing judgment.",
+    "Correct. Measuring abdominal girth is part of the book's core monitoring and is a routine measurement that can be delegated, with the RN reviewing the results.",
+    "Incorrect. Percussion for shifting dullness is an RN assessment."
+   ],
+   "clue": "Only one task is a routine measurement.",
+   "priority": "Delegate routine measurements and keep assessment, teaching and interpretation with the RN.",
+   "checked": true
+  },
+  {
+   "id": "gi-cirrhosis-q9",
+   "section": "gi-cirrhosis",
+   "page": 79,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "The nurse is caring for four clients with cirrhosis. Which client should the nurse see first?",
+   "options": [
+    "A client with jaundice who is asking about the hepatitis A vaccine",
+    "A client whose blood pressure is falling and heart rate is rising after a large-volume paracentesis",
+    "A client with palmar erythema and spider angiomas",
+    "A client with gynecomastia and muscle wasting"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. This is a stable client with a teaching need.",
+    "Correct. The book warns rapid fluid removal during paracentesis can cause vasodilation and hypovolemic shock.",
+    "Incorrect. These are expected vascular signs of cirrhosis.",
+    "Incorrect. These are expected musculoskeletal findings."
+   ],
+   "clue": "Falling BP and rising HR after paracentesis signal possible shock.",
+   "priority": "See the client showing signs of hypovolemic shock first.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q4",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "sata",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "stem": "A client is admitted with suspected acute cholecystitis. Which findings should the nurse recognize as consistent with this condition? Select all that apply.",
+   "options": [
+    "Right upper quadrant pain radiating to the right scapula",
+    "Positive Murphy sign",
+    "Pain relieved by eating a fatty meal",
+    "Elevated WBC count",
+    "Left lower quadrant tenderness"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. The book lists RUQ pain radiating to the right scapula (biliary colic).",
+    "Correct. A positive Murphy sign is listed on physical exam.",
+    "Incorrect. The book lists fatty food intolerance with nausea, vomiting and flatulence after meals.",
+    "Correct. The book lists an elevated WBC count; above 20,000 may indicate gangrene or perforation.",
+    "Incorrect. LLQ tenderness is not a cholecystitis finding in the book."
+   ],
+   "clue": "The client has suspected acute cholecystitis.",
+   "priority": "Recognize key history, exam and lab findings of cholecystitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q5",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "stem": "A client with acute cholecystitis has a WBC count of 22,000/mm3 and worsening pain. What should the nurse suspect?",
+   "options": [
+    "Possible gangrene or perforation of the gallbladder",
+    "Expected response to IV antibiotics",
+    "Normal finding before surgery",
+    "Side effect of the antiemetic"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book states a WBC above 20,000 may indicate gangrene or perforation.",
+    "Incorrect. A rising WBC with worsening pain does not show improvement.",
+    "Incorrect. The book links this level to serious complications.",
+    "Incorrect. Antiemetics do not explain a markedly elevated WBC."
+   ],
+   "clue": "WBC above 20,000 with worsening pain.",
+   "priority": "Recognize lab signs of a complicated gallbladder.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q6",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A client with acute cholecystitis is NPO and receiving IV fluids. Which order should the nurse anticipate as part of initial treatment?",
+   "options": [
+    "A high-fat liquid supplement",
+    "IV antibiotics such as piperacillin/tazobactam with metronidazole",
+    "Oral bile salts to dissolve the stones",
+    "Oral laxatives to clear the bowel"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. The book advises avoiding fatty foods and uses bowel rest initially.",
+    "Correct. The book lists IV antibiotics, such as piperacillin/tazobactam plus metronidazole, in initial treatment.",
+    "Incorrect. The book does not list bile salts in initial treatment, and the client is NPO.",
+    "Incorrect. Laxatives are not part of the book's initial treatment."
+   ],
+   "clue": "The client is in the initial phase of acute cholecystitis treatment.",
+   "priority": "Anticipate IV antibiotics, fluids, bowel rest and pain control.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q7",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client returns from an open cholecystectomy. Which action should the nurse take first?",
+   "options": [
+    "Give the prescribed antiemetic.",
+    "Teach the client about avoiding fatty foods at home.",
+    "Elevate the head of the bed for comfort.",
+    "Assess airway, breathing and circulation."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Antiemetics are given as needed after ABCs are assessed.",
+    "Incorrect. Diet teaching comes after the client is stable.",
+    "Incorrect. Positioning is helpful but follows airway, breathing and circulation.",
+    "Correct. The book lists ABCs as the first post-op priority."
+   ],
+   "clue": "The client has just returned from surgery.",
+   "priority": "Assess airway, breathing and circulation first after surgery.",
+   "checked": true
+  },
+  {
+   "id": "gi-gallbladder-q8",
+   "section": "gi-gallbladder",
+   "page": 82,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "stem": "After a cholecystectomy, a client has shallow breathing and is reluctant to cough because of incision pain. Which action should the nurse take?",
+   "options": [
+    "Have the client splint the incision with a pillow while coughing and deep breathing.",
+    "Tell the client to avoid coughing until the incision heals.",
+    "Lower the head of the bed flat to ease pain.",
+    "Limit deep breathing to once each shift."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists assisting with coughing and deep breathing while splinting the incision, and elevating the HOB.",
+    "Incorrect. The book encourages coughing with incision splinting.",
+    "Incorrect. The book advises elevating the head of the bed to reduce pressure on the diaphragm.",
+    "Incorrect. Deep breathing is a post-op priority and should not be limited."
+   ],
+   "clue": "Incision pain is limiting breathing and coughing.",
+   "priority": "Support lung expansion by splinting the incision and elevating the head of the bed.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q4",
+   "section": "gi-crohn",
+   "page": 83,
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "stem": "The nurse is assessing a client with suspected Crohn disease. Which findings are consistent with the book's description? Select all that apply.",
+   "options": [
+    "Nonbloody diarrhea, 3 to 5 semisoft stools a day",
+    "Right lower quadrant tenderness",
+    "Oral ulcers",
+    "Hypoactive bowel sounds",
+    "Perineal skin breakdown",
+    "High-grade fever above 104°F"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. The book lists nonbloody diarrhea of 3 to 5 semisoft stools a day as an early symptom.",
+    "Correct. RLQ tenderness is listed on abdominal exam.",
+    "Correct. The book lists oral ulcers among signs of malnutrition and dehydration.",
+    "Incorrect. The book lists hyperactive bowel sounds.",
+    "Correct. Perineal skin breakdown is listed in the history.",
+    "Incorrect. The book lists low-grade fever."
+   ],
+   "clue": "The client has findings to match against the book's Crohn history and exam.",
+   "priority": "Recognize the features of Crohn disease.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q5",
+   "section": "gi-crohn",
+   "page": 84,
+   "type": "matrix",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "A client with Crohn disease has several medications. For each medication, indicate the purpose the book gives.",
+   "rows": [
+    "Mesalamine (5-ASA)",
+    "Anti-TNF biologic agent",
+    "Loperamide",
+    "Metronidazole",
+    "Azathioprine"
+   ],
+   "columns": [
+    "Treats the underlying inflammation",
+    "Controls a symptom or complication"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "The book lists mesalamine (5-ASA) as an anti-inflammatory.",
+    "The book lists anti-TNF agents to induce and maintain remission.",
+    "The book lists loperamide to control mild diarrhea.",
+    "The book lists metronidazole to treat infections and fistula-related issues.",
+    "The book lists azathioprine as an immunosuppressant that reduces inflammation if steroids fail."
+   ],
+   "clue": "Each drug has a stated purpose on the page.",
+   "priority": "Match each Crohn medication to its purpose.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q6",
+   "section": "gi-crohn",
+   "page": 83,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "stem": "A client newly diagnosed with Crohn disease says, \"I must have caused this by being so stressed at work.\" Which response by the nurse is accurate?",
+   "options": [
+    "\"Crohn disease is caused only by your diet.\"",
+    "\"Yes, stress is the main cause, so you need to quit your job.\"",
+    "\"It's best not to think about what caused it.\"",
+    "\"Stress doesn't cause Crohn disease; it is more a result of living with it. Let's talk about how you're coping.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. The book lists immune imbalance, genetics, triggers and environmental factors, not diet alone.",
+    "Incorrect. The book states emotional stress is a result, not a cause.",
+    "Incorrect. This dismisses the client's concern.",
+    "Correct. The book states emotional stress is a result, not a cause; correcting the misconception and exploring coping supports the client."
+   ],
+   "clue": "The client blames stress for causing the disease.",
+   "priority": "Correct misconceptions and support coping in a new diagnosis.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q7",
+   "section": "gi-crohn",
+   "page": 84,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "recognizeCues",
+   "stem": "A client with Crohn disease is taking azathioprine and prednisone. Which finding should the nurse report promptly?",
+   "options": [
+    "New fever and increased fatigue",
+    "Two soft stools today",
+    "Request for a high-calorie snack",
+    "Mild cramping relieved by an antispasmodic"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book's nursing priorities include monitoring for infection and giving immunosuppressive and anti-inflammatory medications; a new fever in a client on azathioprine and prednisone may signal infection.",
+    "Incorrect. Two soft stools are not an urgent finding.",
+    "Incorrect. High-calorie nutrition is part of the plan.",
+    "Incorrect. Cramping relieved by an antispasmodic is an expected response."
+   ],
+   "clue": "The client is immunosuppressed and has a new fever.",
+   "priority": "Monitor for infection in clients taking immunosuppressants.",
+   "checked": true
+  },
+  {
+   "id": "gi-crohn-q8",
+   "section": "gi-crohn",
+   "page": 84,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "stem": "A client with Crohn disease has had two bowel resections and asks whether surgery will cure the disease. Which response by the nurse is accurate?",
+   "options": [
+    "\"Surgery is reserved for complications, and the disease often comes back afterward.\"",
+    "\"Surgery removes the disease permanently.\"",
+    "\"Surgery is the first-line treatment for all clients.\"",
+    "\"More surgery has no long-term effects on your bowel.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book states surgery is reserved for complications, recurrence is high (60%), and multiple surgeries risk short-bowel syndrome.",
+    "Incorrect. The book cites a high recurrence rate.",
+    "Incorrect. The book lists medications as primary treatment and surgery for complications.",
+    "Incorrect. The book warns of short-bowel syndrome after multiple surgeries."
+   ],
+   "clue": "The client has had more than one resection.",
+   "priority": "Give accurate information about surgery and recurrence in Crohn disease.",
+   "checked": true
+  },
+  {
+   "id": "gi-uc-q4",
+   "section": "gi-uc",
+   "page": 85,
+   "type": "matrix",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "stem": "A client is admitted with a flare of ulcerative colitis. For each order, indicate whether it is anticipated or not anticipated.",
+   "rows": [
+    "NPO with TPN during the flare",
+    "Mesalamine to control inflammation",
+    "High-fiber diet with whole milk",
+    "Infliximab, a TNF inhibitor",
+    "Barium enema without caution during severe disease"
+   ],
+   "columns": [
+    "Anticipated",
+    "Not anticipated"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "The book lists NPO plus TPN during flares.",
+    "The book lists mesalamine to control inflammation.",
+    "After a flare, the book transitions to a low-residue, high-protein, lactose-free diet.",
+    "The book lists TNF inhibitors such as infliximab.",
+    "The book advises caution with barium enema in severe cases."
+   ],
+   "clue": "The client is in an acute flare of UC.",
+   "priority": "Anticipate bowel rest, anti-inflammatory and biologic therapy, and diet changes for a UC flare.",
+   "checked": true
+  },
+  {
+   "id": "gi-uc-q5",
+   "section": "gi-uc",
+   "page": 85,
+   "type": "sata",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "stem": "A client with ulcerative colitis is recovering from a flare and is starting to eat again. Which diet features should the nurse teach? Select all that apply.",
+   "options": [
+    "Low-residue",
+    "High-protein",
+    "Lactose-free",
+    "High-fiber",
+    "Whole milk with meals"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Correct. The book lists a low-residue diet after the flare.",
+    "Correct. The book lists a high-protein diet.",
+    "Correct. The book lists a lactose-free diet.",
+    "Incorrect. The book lists a low-residue diet, not high-fiber, after a flare.",
+    "Incorrect. The book specifies lactose-free."
+   ],
+   "clue": "The client is transitioning from NPO and TPN after a flare.",
+   "priority": "Teach the post-flare UC diet.",
+   "checked": true
+  },
+  {
+   "id": "gi-uc-q6",
+   "section": "gi-uc",
+   "page": 85,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "recognizeCues",
+   "stem": "During a health history, which information about a client with ulcerative colitis should the nurse explore further because the book lists it as a possible factor in the disease?",
+   "options": [
+    "A history of seasonal allergies",
+    "A preference for spicy food",
+    "A history of a fractured wrist",
+    "A parent who also has ulcerative colitis"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Allergies are not listed as a factor.",
+    "Incorrect. Spicy food is not listed as a factor in UC.",
+    "Incorrect. A previous fracture is not related to UC in the book.",
+    "Correct. The book lists family history and genetics among potential factors in ulcerative colitis."
+   ],
+   "clue": "Family history of UC.",
+   "priority": "Identify risk factors and family history in UC.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q4",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "stem": "A client with diverticulosis asks how to prevent diverticulitis. Which instructions should the nurse include? Select all that apply.",
+   "options": [
+    "Follow a high-fiber diet.",
+    "Take stool softeners as prescribed and avoid constipation.",
+    "Avoid heavy lifting and straining.",
+    "Follow a low-fiber diet to rest the bowel.",
+    "Take antibiotics daily to prevent infection."
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "rationales": [
+    "Correct. The book teaches a high-fiber diet for diverticulosis.",
+    "Correct. The book lists stool softeners and avoiding constipation.",
+    "Correct. The book's nursing care says to avoid strain, including heavy lifting.",
+    "Incorrect. The book links a low-fiber diet to diverticular disease.",
+    "Incorrect. The book uses antibiotics to treat diverticulitis, not to prevent it."
+   ],
+   "clue": "The client has noninflamed diverticula.",
+   "priority": "Teach fiber, constipation prevention and avoiding strain to prevent diverticulitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q5",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "The nurse is reviewing diagnostic tests for a client with diverticular disease. For each test, indicate whether the book identifies it as the test of choice or a supporting test.",
+   "rows": [
+    "CT or MRI",
+    "Abdominal x-ray",
+    "Technetium-99m scan",
+    "Angiography"
+   ],
+   "columns": [
+    "Test of choice",
+    "Supporting test"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "rationales": [
+    "The book names CT/MRI as the test of choice to detect diverticula, wall thickening, abscesses or fistulas.",
+    "The book lists abdominal x-rays to identify free air, masses or obstruction.",
+    "The book lists the Technetium-99m scan to highlight mucosal abnormalities.",
+    "The book lists angiography under other tests for bleeding."
+   ],
+   "clue": "Only one test is named the test of choice.",
+   "priority": "Know the test of choice and supporting studies for diverticular disease.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q6",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "stem": "A client with acute diverticulitis is NPO on bedrest with IV fluids. Which task can the nurse assign to assistive personnel?",
+   "options": [
+    "Assess the abdomen for distention and altered bowel sounds.",
+    "Evaluate whether the analgesic relieved the client's pain.",
+    "Measure and record the client's intake and output.",
+    "Teach the client about the high-fiber diet to follow at home."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The book lists distention and altered bowel sounds as physical exam findings; abdominal assessment is an RN responsibility.",
+    "Incorrect. Evaluating a medication's effect requires nursing judgment.",
+    "Correct. The client is NPO and receiving IV fluids; measuring and recording intake and output is a routine task, and the RN interprets the results.",
+    "Incorrect. Teaching, including the book's high-fiber diet education, is an RN responsibility."
+   ],
+   "clue": "Only one task is a routine measurement without assessment, evaluation or teaching.",
+   "priority": "Delegate routine measurements and keep assessment, evaluation and teaching with the RN.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q7",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "stem": "A client with acute diverticulitis is prescribed an antibiotic. Which medication should the nurse expect?",
+   "options": [
+    "Loperamide",
+    "Famotidine",
+    "Vitamin B12",
+    "Metronidazole"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. Loperamide is an antidiarrheal, not an antibiotic.",
+    "Incorrect. Famotidine is an H2 antagonist, not an antibiotic.",
+    "Incorrect. Vitamin B12 is a supplement, not an antibiotic.",
+    "Correct. The book lists metronidazole and ciprofloxacin as antibiotics for diverticular disease."
+   ],
+   "clue": "The client needs an antibiotic for diverticulitis.",
+   "priority": "Know the antibiotics used in diverticulitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-diverticular-q8",
+   "section": "gi-diverticular",
+   "page": 87,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "The nurse is caring for four clients with diverticular disease. Which client should the nurse see first?",
+   "options": [
+    "A client with LLQ cramping relieved by a bowel movement",
+    "A client with diverticulitis who has a new fever, elevated pulse and abdominal distention",
+    "A client with diverticulosis asking about fiber supplements",
+    "A client who is tolerating a low-residue diet"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. The book lists LLQ cramping relieved by gas or a bowel movement in the history.",
+    "Correct. The book advises monitoring for fever and elevated pulse, and complications such as perforation and peritonitis can occur.",
+    "Incorrect. This is a teaching need.",
+    "Incorrect. This client is recovering as expected."
+   ],
+   "clue": "New fever, elevated pulse and distention may indicate a complication.",
+   "priority": "Prioritize the client with signs of infection or complications.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q4",
+   "section": "gi-appendicitis",
+   "page": 88,
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "stem": "The nurse is assessing a client with suspected appendicitis. Which findings support this diagnosis? Select all that apply.",
+   "options": [
+    "Pain that started near the umbilicus and moved to the right lower quadrant",
+    "Tenderness at McBurney point",
+    "RLQ pain when the LLQ is palpated",
+    "High fever of 104°F",
+    "Lying still with the right knee flexed",
+    "Pain relieved by walking around"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. The book describes midabdominal pain that later localizes to the RLQ.",
+    "Correct. McBurney point tenderness is the classic sign in the book.",
+    "Correct. This is a positive Rovsing sign.",
+    "Incorrect. The book lists a low-grade fever of 100 to 101°F.",
+    "Correct. The book notes a preference to lie still with the right knee flexed.",
+    "Incorrect. The book describes a preference to lie still."
+   ],
+   "clue": "The client has findings that need to be matched to appendicitis.",
+   "priority": "Recognize the classic assessment findings of appendicitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q5",
+   "section": "gi-appendicitis",
+   "page": 89,
+   "type": "matrix",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "stem": "A client is recovering after a laparoscopic appendectomy. For each action, indicate whether it is indicated or not indicated.",
+   "rows": [
+    "Encourage early ambulation",
+    "Place the client in semi-Fowler's position",
+    "Keep the client on bedrest for 3 days",
+    "Encourage deep breathing and coughing",
+    "Keep the client NPO until discharge"
+   ],
+   "columns": [
+    "Indicated",
+    "Not indicated"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "The book lists early ambulation in postoperative care.",
+    "The book lists semi-Fowler's position for lung expansion.",
+    "The book lists early ambulation, not prolonged bedrest.",
+    "The book lists deep breathing and coughing.",
+    "The book lists diet as tolerated after surgery."
+   ],
+   "clue": "The client is in the postoperative period after appendectomy.",
+   "priority": "Promote early mobility, breathing exercises and diet as tolerated after appendectomy.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q6",
+   "section": "gi-appendicitis",
+   "page": 89,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "stem": "A client waiting for an emergency appendectomy is shaking and says, \"I've never had surgery. I'm scared something will go wrong.\" Which action by the nurse is best?",
+   "options": [
+    "Leave the client alone to rest before surgery.",
+    "Tell the client the surgery is routine and there is nothing to worry about.",
+    "Acknowledge the fear, explain what to expect and teach how to splint the incision.",
+    "Give the client something to eat to calm down."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Leaving the client does not address the anxiety.",
+    "Incorrect. This is false reassurance that dismisses the client's fear.",
+    "Correct. The book's preoperative care includes reducing anxiety and teaching incision splinting.",
+    "Incorrect. The client must be kept NPO before surgery."
+   ],
+   "clue": "The client expresses fear before surgery.",
+   "priority": "Reduce preoperative anxiety with support and clear teaching.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q7",
+   "section": "gi-appendicitis",
+   "page": 88,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A client with suspected appendicitis has lab results. Which result supports the diagnosis?",
+   "options": [
+    "WBC 6,000/mcL with 55% neutrophils",
+    "Normal C-reactive protein",
+    "WBC 9,000/mcL with 60% neutrophils",
+    "WBC 14,000/mcL with 82% neutrophils"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. These values are not elevated.",
+    "Incorrect. The book states CRP is elevated early in acute inflammation.",
+    "Incorrect. These values are below the book's thresholds of WBC above 10,500/mcL and neutrophils above 75%.",
+    "Correct. The book lists elevated WBC (above 10,500/mcL) and neutrophils (above 75%) in most cases."
+   ],
+   "clue": "Elevated WBC and neutrophils.",
+   "priority": "Interpret lab results that support appendicitis.",
+   "checked": true
+  },
+  {
+   "id": "gi-appendicitis-q8",
+   "section": "gi-appendicitis",
+   "page": 89,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "A client with acute appendicitis is receiving IV fluids. Which fluid should the nurse expect, according to the book?",
+   "options": [
+    "Dextrose 5% in water",
+    "Normal saline or lactated Ringer's",
+    "Albumin 25%",
+    "Packed red blood cells"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. The book lists NS or LR to replace fluid losses.",
+    "Correct. The book lists NS or LR to replace fluid losses.",
+    "Incorrect. Albumin is not listed for appendicitis.",
+    "Incorrect. Blood products are not listed for appendicitis."
+   ],
+   "clue": "The client needs IV fluid replacement.",
+   "priority": "Know the IV fluids used in appendicitis.",
+   "checked": true
+  }
+ ],
+ "concerns": [
+  {
+   "page": 75,
+   "issue": "Gastritis is numbered C3, the same as Peptic Ulcer Disease on page 72; later sections (Cirrhosis C4 through Appendicitis C9) leave the chapter with 10 topics but only 9 numbers."
+  },
+  {
+   "page": 68,
+   "issue": "GERD management table: the first row label reads 'Antacids Proton Pump Inhibitors' with '(PPIs)' on the next row, so the antacid and PPI row labels run together."
+  },
+  {
+   "page": 68,
+   "issue": "Metoclopramide (GI stimulant) is given the same purpose as H2 blockers ('Reduce gastric acid production; useful in mild to moderate cases'), which looks copied from the row above; metoclopramide is a prokinetic, not an acid-reducing drug."
+  },
+  {
+   "page": 67,
+   "issue": "Esophageal pH monitoring lists normal as pH > 5 and abnormal as pH < 5; the usual reflux threshold is pH < 4, so this cutoff should be checked."
+  },
+  {
+   "page": 70,
+   "issue": "Normal serum amylase is given as 100-300 units/L and lipase is said to rise within 2 hours; both differ from commonly used references (amylase roughly 30-110 U/L; lipase rises about 4-8 hours after onset) and should be checked."
+  },
+  {
+   "page": 71,
+   "issue": "Avoiding morphine because of sphincter of Oddi spasm is older teaching that is no longer well supported. It also contradicts page 89, which says morphine is safe for acute abdominal pain, while pages 82 and 87 favor meperidine/Demerol."
+  },
+  {
+   "page": 79,
+   "issue": "The Remember box about Turner's sign and Cullen's sign is on a Cirrhosis page; these signs are listed as pancreatitis findings on page 69, so the box looks misplaced. Page 69 also calls it 'Grey Turner sign' while page 79 calls it 'Turner's sign'."
+  },
+  {
+   "page": 77,
+   "issue": "Typo: 'Ca ions bids to citrate' should read 'binds'."
+  },
+  {
+   "page": 76,
+   "issue": "Typo in the History box: 'fa-ttyy foods' should be 'fatty foods'."
+  },
+  {
+   "page": 82,
+   "issue": "'Medical dissolution is rare for nonobese patients with small cholesterol stones and a functional gallbladder' reads backwards; dissolution therapy is usually reserved for exactly those patients. The lab table also has the typo 'obststruction'."
+  },
+  {
+   "page": 88,
+   "issue": "Causes box lists 'meperidine, methylpredsisolone' under associated conditions for appendicitis without explanation; 'methylpredsisolone' is misspelled (methylprednisolone)."
+  },
+  {
+   "page": 89,
+   "issue": "The Remember box on colostomy stoma assessment is in the Appendicitis section, but appendectomy does not normally create a colostomy, so it looks misplaced."
+  },
+  {
+   "page": 87,
+   "issue": "The diverticular disease causes text on page 87 repeats the Causes text on page 86 almost word for word."
+  },
+  {
+   "page": 78,
+   "issue": "In-text citation 'Bosch, Gracia-Sancho, & Abrades, 2020' does not match the reference list spelling 'Abraldes' (page 90)."
+  },
+  {
+   "page": 85,
+   "issue": "In-text citation 'Barnes et al., 2022' does not match the reference list, which gives Barnes et al. (2020) (page 90)."
+  },
+  {
+   "page": 90,
+   "issue": "The reference list has the same Chouairi et al. article twice (2021 advance online and 2022 print). That article is about gallstone pancreatitis cholecystectomy disparities but is cited for general pancreatitis (page 69) and cholecystitis (page 81) background."
+  },
+  {
+   "page": 71,
+   "issue": "Routine NG tube to suction and TPN 'within 3 days if needed' reflect older practice; current acute pancreatitis guidance favors early oral/enteral feeding, with NG suction for ileus or persistent vomiting and parenteral nutrition only if enteral feeding fails. Peritoneal lavage is also rarely used now. No questions were built on these points."
+  },
+  {
+   "page": 77,
+   "issue": "Sandostatin (octreotide) drip is listed for gastritis bleeding; octreotide is mainly used for variceal bleeding, so its place here should be checked. No questions were built on it."
+  },
+  {
+   "page": 82,
+   "issue": "Demerol (meperidine) is called the preferred analgesic for cholecystitis (also page 87 for diverticulitis); meperidine is now generally discouraged because of its neurotoxic metabolite. No questions were built on this."
+  },
+  {
+   "page": 84,
+   "issue": "5-ASA (mesalamine) is called first-line for Crohn disease; current guidelines find limited benefit of mesalamine in Crohn disease (it is first-line for ulcerative colitis). Questions avoid the 'first-line' claim."
+  },
+  {
+   "page": 82,
+   "issue": "In the Medical Management box, outpatient criteria and 'Initial treatment' are given without a source for the 48-hour/72-hour surgical timing; the open cholecystectomy 'within 72 hours' window should be checked."
+  }
+ ]
+}

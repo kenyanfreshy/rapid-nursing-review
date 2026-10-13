@@ -1,0 +1,29 @@
+{
+  "chapter": "gu",
+  "reviewed": 48,
+  "ok": 44,
+  "fixed": 4,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "gu-aki-q2",
+      "status": "fixed",
+      "note": "Distractor rationale misstated the book ('convert the oliguric phase'); reworded to the book's stated purpose of loop diuretics (promote diuresis in oliguric phase, p.119)."
+    },
+    {
+      "id": "gu-uti-q3",
+      "status": "fixed",
+      "note": "Distractor about the acid-ash diet relied on content flagged as questionable in concerns (p.121) and its rationale endorsed it; replaced with a fluid-restriction distractor that the book's 'increase fluids' clearly makes wrong."
+    },
+    {
+      "id": "gu-uti-q4",
+      "status": "fixed",
+      "note": "Unkeyed option about soda depended on the acid-ash diet tip flagged as questionable (no questions were to be built on it); replaced with avoiding OTC pain relief/warm compresses, which the book lists as UTI care (p.121)."
+    },
+    {
+      "id": "gu-bph-q2",
+      "status": "fixed",
+      "note": "cjmm was evaluateOutcomes but the item asks for the nurse's teaching response to a question, not evaluation of an outcome; changed to takeAction."
+    }
+  ]
+}

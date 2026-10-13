@@ -1,0 +1,299 @@
+{
+ "categories": [
+  {
+   "id": "moc",
+   "name": "Management of Care",
+   "target_pct": 18
+  },
+  {
+   "id": "safety",
+   "name": "Safety and Infection Prevention and Control",
+   "target_pct": 13
+  },
+  {
+   "id": "hpm",
+   "name": "Health Promotion and Maintenance",
+   "target_pct": 9
+  },
+  {
+   "id": "psych",
+   "name": "Psychosocial Integrity",
+   "target_pct": 9
+  },
+  {
+   "id": "bcc",
+   "name": "Basic Care and Comfort",
+   "target_pct": 9
+  },
+  {
+   "id": "pharm",
+   "name": "Pharmacological and Parenteral Therapies",
+   "target_pct": 16
+  },
+  {
+   "id": "rrp",
+   "name": "Reduction of Risk Potential",
+   "target_pct": 12
+  },
+  {
+   "id": "pa",
+   "name": "Physiological Adaptation",
+   "target_pct": 14
+  }
+ ],
+ "chapters": {
+  "nclex": {
+   "total": 36,
+   "categories": {
+    "moc": 7,
+    "safety": 5,
+    "hpm": 3,
+    "psych": 3,
+    "bcc": 3,
+    "pharm": 6,
+    "rrp": 4,
+    "pa": 5
+   },
+   "sections": {
+    "nclex-priorities": 12,
+    "nclex-highrisk": 12,
+    "nclex-strategy": 12
+   }
+  },
+  "resp": {
+   "total": 96,
+   "categories": {
+    "moc": 17,
+    "safety": 12,
+    "hpm": 9,
+    "psych": 9,
+    "bcc": 9,
+    "pharm": 15,
+    "rrp": 12,
+    "pa": 13
+   },
+   "sections": {
+    "resp-ards": 8,
+    "resp-pe": 10,
+    "resp-pneumonia": 9,
+    "resp-aspiration": 7,
+    "resp-copd": 8,
+    "resp-asthma": 9,
+    "resp-effusion": 7,
+    "resp-emphysema": 8,
+    "resp-fibrosis": 8,
+    "resp-pneumothorax": 7,
+    "resp-tb": 8,
+    "resp-cheat": 7
+   }
+  },
+  "cardio": {
+   "total": 66,
+   "categories": {
+    "moc": 12,
+    "safety": 9,
+    "hpm": 6,
+    "psych": 6,
+    "bcc": 6,
+    "pharm": 10,
+    "rrp": 8,
+    "pa": 9
+   },
+   "sections": {
+    "cardio-basics": 5,
+    "cardio-tamponade": 5,
+    "cardio-acs": 8,
+    "cardio-cardiomyopathy": 6,
+    "cardio-hf": 6,
+    "cardio-pah": 6,
+    "cardio-htn": 5,
+    "cardio-inflammatory": 9,
+    "cardio-occlusion": 8,
+    "cardio-postpci": 8
+   }
+  },
+  "gi": {
+   "total": 88,
+   "categories": {
+    "moc": 16,
+    "safety": 11,
+    "hpm": 8,
+    "psych": 8,
+    "bcc": 8,
+    "pharm": 14,
+    "rrp": 11,
+    "pa": 12
+   },
+   "sections": {
+    "gi-gerd": 11,
+    "gi-pancreatitis": 10,
+    "gi-pud": 10,
+    "gi-gastritis": 10,
+    "gi-cirrhosis": 9,
+    "gi-gallbladder": 8,
+    "gi-crohn": 8,
+    "gi-uc": 6,
+    "gi-diverticular": 8,
+    "gi-appendicitis": 8
+   }
+  },
+  "endo": {
+   "total": 76,
+   "categories": {
+    "moc": 14,
+    "safety": 10,
+    "hpm": 7,
+    "psych": 7,
+    "bcc": 7,
+    "pharm": 12,
+    "rrp": 9,
+    "pa": 10
+   },
+   "sections": {
+    "endo-dm": 6,
+    "endo-hypothyroid": 6,
+    "endo-hyperthyroid": 5,
+    "endo-addison": 8,
+    "endo-cushing": 5,
+    "endo-pheo": 6,
+    "endo-siadh": 8,
+    "endo-di": 6,
+    "endo-acromegaly": 6,
+    "endo-hyperpara": 8,
+    "endo-hypopara": 6,
+    "endo-emergencies": 6
+   }
+  },
+  "gu": {
+   "total": 48,
+   "categories": {
+    "moc": 9,
+    "safety": 6,
+    "hpm": 4,
+    "psych": 4,
+    "bcc": 4,
+    "pharm": 8,
+    "rrp": 6,
+    "pa": 7
+   },
+   "sections": {
+    "gu-overview": 5,
+    "gu-aki": 7,
+    "gu-uti": 6,
+    "gu-pyelo": 5,
+    "gu-gn": 5,
+    "gu-calculi": 5,
+    "gu-bph": 5,
+    "gu-prostate": 5,
+    "gu-incontinence": 5
+   }
+  },
+  "neuro": {
+   "total": 84,
+   "categories": {
+    "moc": 15,
+    "safety": 11,
+    "hpm": 8,
+    "psych": 8,
+    "bcc": 7,
+    "pharm": 13,
+    "rrp": 10,
+    "pa": 12
+   },
+   "sections": {
+    "neuro-stroke": 6,
+    "neuro-icp": 6,
+    "neuro-seizures": 8,
+    "neuro-meningitis": 6,
+    "neuro-encephalitis": 6,
+    "neuro-tbi": 5,
+    "neuro-alzheimer": 7,
+    "neuro-parkinson": 7,
+    "neuro-ms": 7,
+    "neuro-als": 7,
+    "neuro-gbs": 7,
+    "neuro-mg": 7,
+    "neuro-cranial": 5
+   }
+  },
+  "heme": {
+   "total": 73,
+   "categories": {
+    "moc": 13,
+    "safety": 9,
+    "hpm": 7,
+    "psych": 7,
+    "bcc": 6,
+    "pharm": 12,
+    "rrp": 9,
+    "pa": 10
+   },
+   "sections": {
+    "heme-ida": 6,
+    "heme-sickle": 8,
+    "heme-leukemia": 7,
+    "heme-hemophilia": 6,
+    "heme-dic": 7,
+    "heme-transfusion": 6,
+    "heme-polycythemia": 7,
+    "heme-itp": 6,
+    "heme-anaphylaxis": 7,
+    "heme-lupus": 6,
+    "heme-ra": 7
+   }
+  },
+  "integ": {
+   "total": 9,
+   "categories": {
+    "moc": 2,
+    "safety": 1,
+    "hpm": 1,
+    "psych": 1,
+    "bcc": 1,
+    "pharm": 1,
+    "rrp": 1,
+    "pa": 1
+   },
+   "sections": {
+    "integ-burns": 3,
+    "integ-pressure": 3,
+    "integ-skin": 3
+   }
+  },
+  "msk": {
+   "total": 12,
+   "categories": {
+    "moc": 2,
+    "safety": 2,
+    "hpm": 1,
+    "psych": 1,
+    "bcc": 1,
+    "pharm": 2,
+    "rrp": 1,
+    "pa": 2
+   },
+   "sections": {
+    "msk-fractures": 3,
+    "msk-bone": 3,
+    "msk-osteomyelitis": 3,
+    "msk-spinal": 3
+   }
+  },
+  "fluids": {
+   "total": 12,
+   "categories": {
+    "moc": 2,
+    "safety": 2,
+    "hpm": 1,
+    "psych": 1,
+    "bcc": 1,
+    "pharm": 2,
+    "rrp": 1,
+    "pa": 2
+   },
+   "sections": {
+    "fluids-main": 12
+   }
+  }
+ }
+}

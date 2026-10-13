@@ -1,0 +1,1419 @@
+{
+  "chapter": "gu",
+  "questions": [
+    {
+      "id": "gu-overview-q1",
+      "section": "gu-overview",
+      "stem": "A client with end-stage kidney disease is scheduled for hemodialysis this morning. The medication record shows a routine oral antihypertensive due before the treatment. What should the nurse do?",
+      "options": [
+        "Give the antihypertensive early so it peaks during dialysis",
+        "Hold the antihypertensive until after dialysis is completed",
+        "Give the antihypertensive with a fluid bolus to protect pressure",
+        "Double the dose after dialysis to make up for lost drug"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. Giving it before treatment adds to the risk of hypotension the book says to monitor for during hemodialysis.",
+        "Correct. The book lists holding antihypertensives before dialysis as a priority action because hypotension is a key risk during hemodialysis.",
+        "Wrong. The book directs holding the drug before dialysis, not pairing it with extra fluid.",
+        "Wrong. Nothing in the book supports changing the dose; the action stated is simply to hold it before dialysis."
+      ],
+      "clue": "The antihypertensive is due right before hemodialysis.",
+      "priority": "Preventing hypotension during hemodialysis.",
+      "page": 115,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-overview-q2",
+      "section": "gu-overview",
+      "stem": "A client on peritoneal dialysis reports new abdominal pain, and the nurse notes that the dialysate outflow is cloudy. Which complication should the nurse suspect?",
+      "options": [
+        "Fluid overload from retained dialysate",
+        "Bleeding at the catheter insertion site",
+        "Hypotension from rapid fluid removal",
+        "Peritonitis related to the dialysis catheter"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. Retained fluid does not explain cloudy outflow; the book links cloudy outflow with peritonitis.",
+        "Wrong. Bleeding is a monitoring point the book lists for hemodialysis, and it would not make outflow cloudy with pain.",
+        "Wrong. The book ties hypotension to hemodialysis; cloudy outflow with pain points to peritonitis.",
+        "Correct. The book names cloudy outflow and abdominal pain as signs of peritonitis in peritoneal dialysis."
+      ],
+      "clue": "Cloudy dialysate outflow plus abdominal pain.",
+      "priority": "Early recognition of peritonitis in peritoneal dialysis.",
+      "page": 115,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "gu-overview-q3",
+      "section": "gu-overview",
+      "stem": "A client who received a kidney transplant has a temperature of 38.4 C, tenderness over the graft site, and a falling urine output. What is the nurse's best interpretation?",
+      "options": [
+        "These findings suggest possible rejection and must be reported",
+        "These findings are expected while the new kidney adjusts",
+        "These findings point to dehydration needing oral fluids only",
+        "These findings mean the client needs a bladder scan first"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists fever, graft tenderness, and decreased output as signs of rejection to monitor for after transplant.",
+        "Wrong. The book treats this cluster as warning signs of rejection, not an expected adjustment.",
+        "Wrong. Graft tenderness with fever is not explained by dehydration; the book names these as rejection signs.",
+        "Wrong. A bladder scan does not address the fever and graft tenderness the book identifies as rejection signs."
+      ],
+      "clue": "Fever, graft tenderness, and decreased urine output after transplant.",
+      "priority": "Recognizing transplant rejection.",
+      "page": 115,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "gu-overview-q4",
+      "section": "gu-overview",
+      "page": 115,
+      "type": "sata",
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A client is starting peritoneal dialysis exchanges. Which actions should the nurse include in the client's care? Select all that apply.",
+      "options": [
+        "Warm the dialysate before infusing it",
+        "Infuse the dialysate chilled to ease abdominal cramping",
+        "Use sterile technique for every catheter connection",
+        "Treat cloudy outflow as a normal finding after the first week",
+        "Check outflow clarity and ask the client about abdominal pain"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists warming the dialysate before infusion as a peritoneal dialysis action.",
+        "Wrong. The book directs warming the dialysate, not chilling it.",
+        "Correct. The book lists maintaining sterile technique for peritoneal dialysis.",
+        "Wrong. The book names cloudy outflow as a sign of peritonitis, never as a normal finding.",
+        "Correct. The book says to monitor for peritonitis, naming cloudy outflow and abdominal pain as its signs."
+      ],
+      "clue": "The client is beginning peritoneal dialysis.",
+      "priority": "Preventing and detecting peritonitis during peritoneal dialysis.",
+      "checked": true
+    },
+    {
+      "id": "gu-overview-q5",
+      "section": "gu-overview",
+      "page": 115,
+      "type": "mcq",
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients on a renal unit. Which client should the nurse assess first?",
+      "options": [
+        "A client with glomerulonephritis whose blood pressure is stable on the ordered sodium and fluid limits",
+        "A client with a kidney stone who is asking for another urine strainer",
+        "A client due for hemodialysis whose AV fistula has no palpable thrill or audible bruit",
+        "A client with BPH who asks which drinks he should cut back on"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. Stable blood pressure on the ordered restrictions shows the book's glomerulonephritis plan is working.",
+        "Wrong. Straining urine is routine stone care the book lists; this request is not urgent.",
+        "Correct. The book tells the nurse to check the AV fistula for a bruit and thrill; their absence suggests the access is not working and needs attention before dialysis.",
+        "Wrong. Teaching about bladder irritants such as caffeine and alcohol is important but can wait."
+      ],
+      "clue": "Absent thrill and bruit over the AV fistula.",
+      "priority": "Prioritizing a possible loss of dialysis access over stable or teaching needs.",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q1",
+      "section": "gu-aki",
+      "stem": "A client with an indwelling urinary catheter has had no urine output for the past 2 hours after previously draining well. Before notifying the provider about a possible new acute kidney injury, what should the nurse do first?",
+      "options": [
+        "Give a prescribed diuretic to restart urine flow",
+        "Restrict oral fluids until urine output returns",
+        "Check the catheter and tubing for kinks or obstruction",
+        "Send a urine sample for culture and sensitivity"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. A diuretic will not help if the catheter is blocked; the book says to rule out obstruction first.",
+        "Wrong. Restricting fluids does not address the most likely mechanical cause the book tells the nurse to check.",
+        "Correct. The book tells the nurse to check for catheter obstruction before assuming new AKI; a blocked Foley is also listed as a postrenal cause.",
+        "Wrong. There is no urine to send, and the book's first step is to check the catheter for obstruction."
+      ],
+      "clue": "Output stopped suddenly in a client with a Foley catheter.",
+      "priority": "Ruling out a mechanical (postrenal) cause before assuming AKI.",
+      "page": 119,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q2",
+      "section": "gu-aki",
+      "stem": "A client recovering from AKI has moved into the diuretic phase. The nurse notes dry mucous membranes, poor skin turgor, and dizziness when the client stands. Which action fits the book's fluid plan for this phase?",
+      "options": [
+        "Replace fluids cautiously while tracking intake, output, and weight",
+        "Restrict fluids to prevent overload and pulmonary edema",
+        "Give a loop diuretic to keep urine output high",
+        "Hold all fluids until the next serum creatinine result"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book says to replace fluids cautiously in the diuretic phase and to track intake, output, and daily weights.",
+        "Wrong. Fluid overload is the concern in the oliguric phase; these are dehydration signs of the diuretic phase.",
+        "Wrong. The book lists loop diuretics to promote diuresis in the oliguric phase; this client is already losing too much fluid.",
+        "Wrong. Withholding fluid would worsen the dehydration signs the book lists for the diuretic phase."
+      ],
+      "clue": "Dry mucosa, poor turgor, and orthostatic dizziness in the diuretic phase.",
+      "priority": "Safe fluid replacement during the diuretic phase of AKI.",
+      "page": 118,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q3",
+      "section": "gu-aki",
+      "stem": "The nurse reviews the history of a client with a rising creatinine. Which finding most suggests an intrinsic (intrarenal) cause of the client's AKI?",
+      "options": [
+        "Severe vomiting and diarrhea for three days before admission",
+        "An enlarged prostate causing difficulty passing urine",
+        "Cardiogenic shock after a recent myocardial infarction",
+        "Recent aminoglycoside therapy and an imaging study with contrast dye"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. Hypovolemia from fluid loss is listed as a prerenal cause, from reduced blood flow to the kidneys.",
+        "Wrong. Urethral obstruction from BPH is listed as a postrenal cause, from blocked urine flow.",
+        "Wrong. Shock and MI are cardiovascular disorders the book classifies as prerenal causes.",
+        "Correct. The book lists nephrotoxic drugs such as aminoglycosides and contrast dye as intrinsic causes that damage kidney tissue."
+      ],
+      "clue": "Exposure to aminoglycosides and contrast dye.",
+      "priority": "Identifying the type of AKI from its cause.",
+      "page": 116,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q4",
+      "section": "gu-aki",
+      "page": 119,
+      "type": "matrix",
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "A client in the oliguric phase of AKI has hyperkalemia and metabolic acidosis. For each prescribed medication, indicate what it does according to the book.",
+      "rows": [
+        "Sodium polystyrene sulfonate (Kayexalate)",
+        "Sodium bicarbonate",
+        "Diphenhydramine",
+        "Recombinant human erythropoietin"
+      ],
+      "columns": [
+        "Lowers serum potassium",
+        "Corrects metabolic acidosis",
+        "Neither"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "rationales": [
+        "The book lists sodium polystyrene sulfonate to decrease serum potassium.",
+        "The book lists sodium bicarbonate to correct metabolic acidosis.",
+        "The book groups diphenhydramine with drugs used for itching, not for potassium or acid-base problems.",
+        "The book lists erythropoietin to stimulate red blood cell production, not to treat potassium or acidosis."
+      ],
+      "clue": "Hyperkalemia and metabolic acidosis in oliguric AKI.",
+      "priority": "Matching each AKI medication to its purpose.",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q5",
+      "section": "gu-aki",
+      "page": 119,
+      "type": "sata",
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client with AKI is weak and at times confused. Which actions should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Put fall precautions in place",
+        "Encourage frequent walks to raise the client's metabolic rate",
+        "Turn the client often and moisturize dry skin",
+        "Weigh the client daily and watch urine output closely",
+        "Treat any drop in urine output as new AKI before checking the catheter"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book calls for fall precautions for confused or weak clients with AKI.",
+        "Wrong. The book says to promote rest and decrease metabolic demands.",
+        "Correct. The book protects skin integrity with moisturizing and frequent turning.",
+        "Correct. The book lists daily weights and close urine output monitoring.",
+        "Wrong. The book says to check for catheter obstruction before assuming new AKI."
+      ],
+      "clue": "Weakness and confusion in a client with AKI.",
+      "priority": "Keeping the client with AKI safe while preventing complications.",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q6",
+      "section": "gu-aki",
+      "page": 119,
+      "type": "mcq",
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "The family of a client with AKI keeps asking the nurse the same questions and appears very anxious about the client's condition. What is the nurse's best action?",
+      "options": [
+        "Give frequent, clear explanations and reassurance to the client and family",
+        "Ask the family to save all of their questions for the provider's rounds",
+        "Limit the family's visits so the client is not disturbed by their worry",
+        "Tell the family the condition is too complex to explain in detail"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's nursing priorities include emotional support through frequent explanations and reassurance to the patient and family.",
+        "Wrong. Redirecting every question leaves the family without the support the book tells the nurse to give.",
+        "Wrong. The book calls for supporting the family, not keeping them away.",
+        "Wrong. Withholding explanations is the opposite of the frequent explanations the book recommends."
+      ],
+      "clue": "An anxious family repeating the same questions.",
+      "priority": "Providing emotional support to the client and family.",
+      "checked": true
+    },
+    {
+      "id": "gu-aki-q7",
+      "section": "gu-aki",
+      "page": 117,
+      "type": "matrix",
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "The nurse is assessing clients at different stages of AKI. For each finding, indicate which phase of AKI it is linked to in the book.",
+      "rows": [
+        "Crackles in the lungs with hypertension",
+        "Dry mucous membranes",
+        "Orthostatic hypotension",
+        "Edema",
+        "Poor skin turgor"
+      ],
+      "columns": [
+        "Oliguric phase",
+        "Diuretic phase"
+      ],
+      "correct": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "The book lists crackles and hypertension as fluid overload signs of the oliguric phase.",
+        "The book lists dry mucosa as a dehydration sign of the diuretic phase.",
+        "The book lists orthostatic hypotension as a dehydration sign of the diuretic phase.",
+        "The book lists edema as a fluid overload sign of the oliguric phase.",
+        "The book lists poor skin turgor as a dehydration sign of the diuretic phase."
+      ],
+      "clue": "Fluid overload versus dehydration findings.",
+      "priority": "Linking assessment findings to the phase of AKI.",
+      "checked": true
+    },
+    {
+      "id": "gu-uti-q1",
+      "section": "gu-uti",
+      "stem": "A client being treated for a urinary tract infection says she feels much better after two days of antibiotics and plans to stop taking them. What is the nurse's best response?",
+      "options": [
+        "Stopping is fine once the burning and urgency are gone",
+        "Finish the full course even though your symptoms have improved",
+        "Save the remaining pills in case the symptoms come back",
+        "Cut the dose in half for the rest of the prescription"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. The book specifically teaches completing the antibiotic course despite feeling better.",
+        "Correct. The book's UTI care includes completing all antibiotics even if symptoms improve.",
+        "Wrong. Keeping leftover pills means not completing therapy, which the book says to do.",
+        "Wrong. The book does not support changing the dose; it teaches finishing the full prescribed course."
+      ],
+      "clue": "Symptoms improved and the client wants to stop antibiotics early.",
+      "priority": "Antibiotic adherence teaching for UTI.",
+      "page": 121,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "gu-uti-q2",
+      "section": "gu-uti",
+      "stem": "A client came in with urinary frequency, burning, and urgency. The nurse now finds new flank pain and a low-grade fever. How should the nurse interpret these new findings?",
+      "options": [
+        "They are expected with any uncomplicated bladder infection",
+        "They suggest a sexually transmitted infection is present",
+        "They suggest the infection is advancing beyond the bladder",
+        "They are side effects of the antibiotic and need no action"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. The book separates common UTI symptoms from flank pain and fever, which mark advanced infection.",
+        "Wrong. The book links STI checks to vaginal discharge, not to flank pain and fever.",
+        "Correct. The book lists flank pain and low-grade fever as signs of an advanced infection.",
+        "Wrong. The book presents flank pain and fever as signs of advancing infection, not drug effects."
+      ],
+      "clue": "New flank pain and low-grade fever on top of lower UTI symptoms.",
+      "priority": "Recognizing progression of a UTI.",
+      "page": 120,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "gu-uti-q3",
+      "section": "gu-uti",
+      "stem": "A client with dysuria and urgency also reports vaginal discharge. Based on the book's UTI assessment guidance, what additional step should the nurse plan?",
+      "options": [
+        "Check for a sexually transmitted infection",
+        "Insert a urinary catheter to collect urine",
+        "Arrange a renal ultrasound right away",
+        "Restrict fluids until the urine test results return"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's physical exam guidance says to check for STIs if vaginal discharge is present.",
+        "Wrong. Recent catheterization is listed as a UTI risk factor, and the book does not call for it here.",
+        "Wrong. The book does not tie vaginal discharge to renal imaging; it calls for STI checking.",
+        "Wrong. The book's UTI care calls for increasing fluids, and its specific response to discharge is checking for STIs."
+      ],
+      "clue": "Vaginal discharge along with urinary symptoms.",
+      "priority": "Thorough assessment to rule out other causes of symptoms.",
+      "page": 120,
+      "type": "mcq",
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-uti-q4",
+      "section": "gu-uti",
+      "page": 121,
+      "type": "sata",
+      "clientNeed": "safety",
+      "cjmm": "evaluateOutcomes",
+      "stem": "The nurse teaches a client being treated for a UTI how to recover and prevent another infection. Which statements show the client understood the teaching? Select all that apply.",
+      "options": [
+        "\"I should avoid pain relievers and warm compresses while I heal.\"",
+        "\"I'll wipe from front to back after using the toilet.\"",
+        "\"I can stop the antibiotic once the burning is gone.\"",
+        "\"I'll avoid wearing tight clothes for now.\"",
+        "\"I'll increase how much fluid I drink each day.\""
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Wrong. The book lists OTC pain relief and warm compresses as needed as part of UTI care.",
+        "Correct. Wiping front to back is a hygiene habit the book teaches.",
+        "Wrong. The book says to complete all antibiotics even if symptoms improve.",
+        "Correct. The book lists avoiding tight clothes as part of hygiene habits.",
+        "Correct. The book lists increasing fluids in UTI care."
+      ],
+      "clue": "Client statements after UTI teaching.",
+      "priority": "Evaluating teaching that prevents recurrent infection.",
+      "checked": true
+    },
+    {
+      "id": "gu-uti-q5",
+      "section": "gu-uti",
+      "page": 120,
+      "type": "matrix",
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A client reports urinary burning and frequency. For each test result, indicate whether it is consistent with a UTI according to the book.",
+      "rows": [
+        "Leukocyte esterase dip test turns purple",
+        "Nitrites present on urinalysis",
+        "Urine is clear with no odor",
+        "Increased WBCs and RBCs on urinalysis",
+        "Leukocyte esterase dip test is negative"
+      ],
+      "columns": [
+        "Consistent with UTI",
+        "Not consistent with UTI"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "The book says a positive (purple) dip test means WBCs were detected, consistent with UTI.",
+        "The book lists nitrites among urinalysis findings in UTI.",
+        "The book lists cloudy urine and odor in UTI, so clear urine without odor does not support it.",
+        "The book lists increased WBCs and RBCs on urinalysis in UTI.",
+        "The book describes a positive dip test in UTI; a negative result does not show WBCs."
+      ],
+      "clue": "Dip test and urinalysis results.",
+      "priority": "Interpreting urine tests for UTI.",
+      "checked": true
+    },
+    {
+      "id": "gu-uti-q6",
+      "section": "gu-uti",
+      "page": 120,
+      "type": "mcq",
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients being treated for urinary tract infections. Which client should the nurse see first?",
+      "options": [
+        "A client with frequency and burning that started yesterday",
+        "A client with urgency and blood in the urine",
+        "A client with dysuria who also reports vaginal discharge",
+        "A client with new flank pain and a low-grade fever"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. Frequency and burning are common UTI symptoms in the book.",
+        "Wrong. Urgency and hematuria are listed as common UTI signs, not advanced infection.",
+        "Wrong. The book says to check for STIs here, which is important but less urgent.",
+        "Correct. The book lists flank pain and low-grade fever as signs of advanced infection, so this client needs attention first."
+      ],
+      "clue": "Flank pain and low-grade fever.",
+      "priority": "Prioritizing the client whose infection may be advancing.",
+      "checked": true
+    },
+    {
+      "id": "gu-pyelo-q1",
+      "section": "gu-pyelo",
+      "stem": "A client with pyelonephritis is being managed at home and asks how much fluid to drink each day. Which instruction matches the book?",
+      "options": [
+        "Limit fluids to about 1,000 mL a day to rest the kidneys",
+        "Drink as much as possible, at least 6,000 mL a day",
+        "Drink only when thirsty and avoid tracking intake",
+        "Drink about 2,000 to 4,000 mL a day, not more than 4,000 mL"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. The book calls for increased fluids, not restriction, in pyelonephritis.",
+        "Wrong. The book caps intake at 4,000 mL per day.",
+        "Wrong. The book gives a specific daily target rather than drinking only to thirst.",
+        "Correct. The book's nursing care for pyelonephritis sets fluids at 2,000 to 4,000 mL per day without going over 4,000 mL."
+      ],
+      "clue": "The client asks for a daily fluid amount.",
+      "priority": "Adequate but safe hydration in pyelonephritis.",
+      "page": 122,
+      "type": "mcq",
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-pyelo-q2",
+      "section": "gu-pyelo",
+      "stem": "Four clients have been diagnosed with pyelonephritis. Based on the book's treatment approach, which client most clearly needs hospital admission rather than outpatient care?",
+      "options": [
+        "A healthy adult with mild flank pain",
+        "A client who is 28 weeks pregnant",
+        "A young adult tolerating oral fluids",
+        "A client with mild symptoms and no fever"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. The book says mild cases can be managed as outpatients.",
+        "Correct. The book reserves hospitalization for severe cases and for pregnant or frail patients.",
+        "Wrong. Tolerating fluids with mild illness fits the book's outpatient approach.",
+        "Wrong. Mild disease is managed as an outpatient according to the book."
+      ],
+      "clue": "Pregnancy in a client with pyelonephritis.",
+      "priority": "Choosing the right level of care.",
+      "page": 122,
+      "type": "mcq",
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "gu-pyelo-q3",
+      "section": "gu-pyelo",
+      "stem": "A hospitalized client with pyelonephritis has trouble emptying the bladder completely. Which independent nursing action does the book recommend?",
+      "options": [
+        "Insert an indwelling catheter for continuous drainage",
+        "Limit fluids so the bladder does not overfill",
+        "Provide privacy and run water to help the client void",
+        "Apply warm packs over the flank to relax the bladder"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. The book's independent measure is promoting voiding, not placing an indwelling catheter.",
+        "Wrong. The book calls for 2,000 to 4,000 mL of fluid a day, not restriction.",
+        "Correct. The book lists promoting complete bladder emptying with running water and privacy.",
+        "Wrong. The book lists cool packs and sitz baths for comfort, and its voiding measures are privacy and running water."
+      ],
+      "clue": "Difficulty emptying the bladder completely.",
+      "priority": "Promoting complete bladder emptying.",
+      "page": 122,
+      "type": "mcq",
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-pyelo-q4",
+      "section": "gu-pyelo",
+      "page": 122,
+      "type": "sata",
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client is admitted with severe pyelonephritis, fever, nausea, and vomiting. Which medications does the nurse anticipate? Select all that apply.",
+      "options": [
+        "An IV antibiotic such as ceftriaxone, changed to oral later",
+        "An antiemetic for the nausea and vomiting",
+        "Sodium polystyrene sulfonate to lower potassium",
+        "A urinary analgesic such as phenazopyridine",
+        "Oxybutynin to reduce bladder contractions"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists antibiotics given IV then oral, with ceftriaxone as an example.",
+        "Correct. The book lists antiemetics among supportive drugs for pyelonephritis.",
+        "Wrong. The book does not list this drug for pyelonephritis; it is an AKI drug for high potassium.",
+        "Correct. The book lists urinary analgesics (Pyridium) as supportive drugs.",
+        "Wrong. The book does not list oxybutynin for pyelonephritis; it is a tip for urge incontinence."
+      ],
+      "clue": "Severe pyelonephritis with fever and vomiting.",
+      "priority": "Anticipating antibiotic and supportive drug therapy.",
+      "checked": true
+    },
+    {
+      "id": "gu-pyelo-q5",
+      "section": "gu-pyelo",
+      "page": 122,
+      "type": "matrix",
+      "clientNeed": "safety",
+      "cjmm": "evaluateOutcomes",
+      "stem": "The nurse reviews discharge teaching with a client recovering from pyelonephritis. For each client statement, indicate whether it shows understanding or needs further teaching.",
+      "rows": [
+        "\"I'll wipe from front to back after using the toilet.\"",
+        "\"I'll wash my hands well, especially after the bathroom.\"",
+        "\"Once I feel better, I can skip my follow-up visit.\"",
+        "\"I'll drink as much as I can, even more than 4 liters a day.\""
+      ],
+      "columns": [
+        "Understands",
+        "Needs further teaching"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "The book teaches wiping front to back.",
+        "The book includes handwashing in hygiene teaching.",
+        "The book teaches follow-up care, so skipping it needs correction.",
+        "The book sets fluids at 2,000 to 4,000 mL a day and not over 4,000 mL."
+      ],
+      "clue": "Client statements about home care.",
+      "priority": "Evaluating hygiene, hydration, and follow-up teaching.",
+      "checked": true
+    },
+    {
+      "id": "gu-gn-q1",
+      "section": "gu-gn",
+      "stem": "A child is brought in with puffy eyes, dark, coffee-colored urine, and headache. Which history question is most important for the nurse to ask?",
+      "options": [
+        "Has your child had a sore throat or skin infection recently?",
+        "Has your child eaten a lot of beets or berries lately?",
+        "Has your child had any recent falls or injuries to the back?",
+        "Has your child been drinking less water than usual?"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book says to ask about a recent strep infection 1 to 3 weeks before, as AGN often follows strep throat or skin infection.",
+        "Wrong. The book's assessment focuses on recent strep, respiratory, or skin infection, not foods.",
+        "Wrong. Trauma is not part of the book's AGN history; recent infection is.",
+        "Wrong. Dehydration does not explain facial swelling; the book points to recent infection."
+      ],
+      "clue": "Facial swelling and dark urine in a child.",
+      "priority": "Identifying a recent strep infection as the trigger for AGN.",
+      "page": 123,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "gu-gn-q2",
+      "section": "gu-gn",
+      "stem": "A client with acute glomerulonephritis has a high blood pressure and suddenly reports blurred vision. What should the nurse do first?",
+      "options": [
+        "Dim the lights and recheck the vision at the next routine check",
+        "Encourage the client to walk to improve circulation to the eyes",
+        "Offer extra fluids because blurred vision suggests dehydration",
+        "Report the change promptly and watch closely for seizure activity"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. Visual change in AGN is a monitoring red flag tied to hypertensive encephalopathy, so it should not wait.",
+        "Wrong. The book calls for bedrest in the acute phase, and walking does not address the finding.",
+        "Wrong. The book restricts fluid in AGN; extra fluid could worsen overload and blood pressure.",
+        "Correct. The book lists visual changes and seizure activity as monitoring points, and hypertensive encephalopathy as a major AGN complication."
+      ],
+      "clue": "High blood pressure with new visual changes.",
+      "priority": "Detecting hypertensive encephalopathy.",
+      "page": 123,
+      "type": "mcq",
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-gn-q3",
+      "section": "gu-gn",
+      "stem": "A client in the acute phase of glomerulonephritis has facial and hand edema, crackles, and weight gain. Which part of the care plan matches the book?",
+      "options": [
+        "Early full activity with a high-sodium diet",
+        "Bedrest with sodium and fluid restrictions as ordered",
+        "Unrestricted fluids to flush the inflamed glomeruli",
+        "High-protein meals to replace protein lost in urine"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. The book calls for bedrest and sodium restriction, not full activity or added sodium.",
+        "Correct. The book lists bedrest during the acute phase and sodium and fluid restrictions as needed.",
+        "Wrong. With signs of fluid overload, the book restricts fluid rather than increasing it.",
+        "Wrong. The book lists protein restriction as needed, not added protein."
+      ],
+      "clue": "Edema, crackles, and weight gain in acute AGN.",
+      "priority": "Managing fluid overload in acute glomerulonephritis.",
+      "page": 123,
+      "type": "mcq",
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-gn-q4",
+      "section": "gu-gn",
+      "page": 123,
+      "type": "sata",
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client in the acute phase of glomerulonephritis is on bedrest and becomes tearful, saying, \"I hate being stuck in bed, and I'm scared about my kidneys.\" Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Offer emotional support and let the client talk about the fears",
+        "Refer the client for coping help if the distress continues",
+        "Encourage full activity now to lift the client's mood",
+        "Put off talking about feelings until after discharge",
+        "Explain that activity will be increased gradually as recovery allows"
+      ],
+      "correct": [
+        0,
+        1,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists providing emotional support as independent nursing care.",
+        "Correct. The book says to refer for coping assistance if needed.",
+        "Wrong. The book calls for bedrest during the acute phase.",
+        "Wrong. Delaying support conflicts with the book's call to provide emotional support.",
+        "Correct. The book lists a gradual increase in activity as part of nursing care."
+      ],
+      "clue": "Tearful client on bedrest who is scared.",
+      "priority": "Supporting coping during the acute phase of AGN.",
+      "checked": true
+    },
+    {
+      "id": "gu-gn-q5",
+      "section": "gu-gn",
+      "page": 123,
+      "type": "sata",
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A child with glomerulonephritis after a strep throat infection has high blood pressure and edema. Which medications does the nurse anticipate? Select all that apply.",
+      "options": [
+        "Penicillin to treat the strep infection",
+        "Oxybutynin to calm bladder contractions",
+        "Furosemide to manage fluid overload",
+        "Hydralazine or nifedipine to lower blood pressure",
+        "Finasteride to reduce glandular swelling"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists penicillin, erythromycin, or cephalexin for the strep infection.",
+        "Wrong. Oxybutynin is not in the book's AGN drug list; it is used for urge incontinence.",
+        "Correct. The book lists furosemide to manage blood pressure and fluid overload.",
+        "Correct. The book lists hydralazine and nifedipine as antihypertensives for AGN.",
+        "Wrong. Finasteride is not in the book's AGN drug list; it is a BPH drug."
+      ],
+      "clue": "Post-strep AGN with hypertension and edema.",
+      "priority": "Anticipating antibiotic, diuretic, and antihypertensive therapy.",
+      "checked": true
+    },
+    {
+      "id": "gu-calculi-q1",
+      "section": "gu-calculi",
+      "stem": "A client with a 3 mm kidney stone is being sent home on conservative treatment. Which teaching point reflects the book?",
+      "options": [
+        "Limit fluids so the stone is not pushed into the ureter",
+        "Plan for shockwave lithotripsy within the next week",
+        "Drink plenty of fluids and strain all urine to catch the stone",
+        "Discard the urine since the stone will dissolve fully"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. The book encourages high fluid intake, not restriction, to help small stones pass.",
+        "Wrong. The book reserves ESWL and surgery for larger stones of about 7 to 8 mm or more.",
+        "Correct. The book's conservative care for small stones includes hydration and urine straining, since most stones under 4 mm pass on their own.",
+        "Wrong. The book says to strain urine to collect the stone."
+      ],
+      "clue": "A stone smaller than 4 mm managed conservatively.",
+      "priority": "Helping a small stone pass and collecting it for analysis.",
+      "page": 124,
+      "type": "mcq",
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-calculi-q2",
+      "section": "gu-calculi",
+      "stem": "A client with severe flank pain has a history of uric acid stones. A plain KUB X-ray shows no stone. Which test does the book identify as able to show the stone's size, shape, and location?",
+      "options": [
+        "Helical CT scan done without contrast",
+        "A repeat KUB X-ray of the abdomen",
+        "A serum calcium and phosphorus level",
+        "A 24-hour urine study for oxalate"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book states that a noncontrast helical CT detects the size, shape, and location of stones.",
+        "Wrong. The book notes KUB films identify radiopaque stones but not uric acid or cystine stones.",
+        "Wrong. These blood tests are listed as other tests, but they do not show a stone's size or location.",
+        "Wrong. A 24-hour urine study looks at stone-forming substances, not stone size or location."
+      ],
+      "clue": "Uric acid stone history with a negative KUB.",
+      "priority": "Choosing the right imaging test.",
+      "page": 124,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-calculi-q3",
+      "section": "gu-calculi",
+      "stem": "The nurse reviews the records of four clients. Which client has a risk factor for renal calculi that the book lists?",
+      "options": [
+        "A client who drinks about 3 liters of water each day",
+        "A client who walks daily after a knee replacement",
+        "A client with no family history of kidney stones",
+        "A client with hyperparathyroidism who is on prolonged bed rest"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. The book lists dehydration with low urine volume as a risk factor, not high fluid intake.",
+        "Wrong. Immobility, not regular activity, is the risk factor the book names.",
+        "Wrong. The book says family history raises the risk, so its absence is not a risk factor.",
+        "Correct. The book lists high calcium levels from hyperparathyroidism and immobility as key causes of renal calculi."
+      ],
+      "clue": "Hyperparathyroidism combined with immobility.",
+      "priority": "Identifying clients at risk for stone formation.",
+      "page": 124,
+      "type": "mcq",
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "gu-calculi-q4",
+      "section": "gu-calculi",
+      "page": 124,
+      "type": "sata",
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A client with a 3 mm kidney stone is on conservative treatment. Which tasks can the nurse assign to assistive personnel? Select all that apply.",
+      "options": [
+        "Assess where the flank pain radiates",
+        "Strain all urine and save any stone that passes",
+        "Give the IV ketorolac dose that is due",
+        "Measure and record the client's oral fluid intake",
+        "Teach the client why tamsulosin was ordered"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "rationales": [
+        "Wrong. Assessment stays with the nurse.",
+        "Correct. Straining urine is part of the book's conservative treatment and is a routine task that can be assigned.",
+        "Wrong. Giving IV medication such as ketorolac is a nursing responsibility.",
+        "Correct. Hydration is part of conservative treatment, and measuring intake is a routine task that can be assigned.",
+        "Wrong. Teaching about tamsulosin, which the book lists to relax the ureter, belongs to the nurse."
+      ],
+      "clue": "Routine conservative-care tasks versus assessment, IV drugs, and teaching.",
+      "priority": "Assigning tasks within scope of practice.",
+      "checked": true
+    },
+    {
+      "id": "gu-calculi-q5",
+      "section": "gu-calculi",
+      "page": 124,
+      "type": "sata",
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A client is admitted with a suspected kidney stone. Which findings does the nurse expect? Select all that apply.",
+      "options": [
+        "Sudden flank pain spreading to the abdomen or groin",
+        "Hematuria",
+        "Absent bowel sounds",
+        "Tenderness at the costovertebral angle",
+        "A dull ache that built up slowly over months",
+        "Nausea and vomiting"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "rationales": [
+        "Correct. The book describes sudden-onset pain radiating to the abdomen or groin.",
+        "Correct. The book lists hematuria in the history and exam.",
+        "Wrong. The book notes intense discomfort with normal bowel sounds.",
+        "Correct. The book lists costovertebral angle tenderness.",
+        "Wrong. The book describes a sudden onset of pain.",
+        "Correct. The book lists nausea and vomiting among the symptoms."
+      ],
+      "clue": "Suspected kidney stone.",
+      "priority": "Recognizing the typical presentation of renal calculi.",
+      "checked": true
+    },
+    {
+      "id": "gu-bph-q1",
+      "section": "gu-bph",
+      "stem": "Several hours after a transurethral resection of the prostate (TURP), a client's urine becomes darker red, the heart rate is rising, and the blood pressure is falling. What is the nurse's priority?",
+      "options": [
+        "Give a bladder spasm suppository and reassess in an hour",
+        "Report possible bleeding and shock to the provider right away",
+        "Give a stool softener to prevent straining",
+        "Encourage the client to walk to improve urine flow"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. Spasm relief is part of care, but falling pressure and rising heart rate point to bleeding and shock.",
+        "Correct. The book's post-surgical care for BPH says to monitor urine color and watch for bleeding and signs of shock.",
+        "Wrong. Preventing straining is a routine measure; it does not address active bleeding and shock signs.",
+        "Wrong. Walking does not address the bleeding and shock the book tells the nurse to watch for."
+      ],
+      "clue": "Darkening urine with falling BP and rising heart rate after TURP.",
+      "priority": "Detecting postoperative hemorrhage and shock.",
+      "page": 125,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-bph-q2",
+      "section": "gu-bph",
+      "stem": "A client with benign prostatic hyperplasia asks which over-the-counter product to use for a stuffy nose from a cold. Which response fits the book's teaching?",
+      "options": [
+        "A decongestant is safe because it does not affect the bladder",
+        "Take a decongestant with alcohol to help you sleep better",
+        "Avoid decongestants because they can worsen urinary symptoms",
+        "An anticholinergic cold product is the safest choice"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. The book specifically names decongestants as symptom-worsening drugs in BPH.",
+        "Wrong. The book lists both decongestants and alcohol as things to avoid in BPH.",
+        "Correct. The book lists decongestants, anticholinergics, and alcohol as drugs that can worsen BPH symptoms.",
+        "Wrong. Anticholinergics are also on the book's list of drugs that worsen BPH symptoms."
+      ],
+      "clue": "A client with BPH asking about cold medicine.",
+      "priority": "Avoiding medications that worsen urinary retention.",
+      "page": 126,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-bph-q3",
+      "section": "gu-bph",
+      "stem": "A client is recovering from prostate surgery for BPH. Which order does the nurse expect to support the book's goal of preventing straining?",
+      "options": [
+        "A stool softener given on a regular schedule",
+        "A high-dose opioid given every two hours",
+        "A fluid restriction of 500 mL per day",
+        "Removal of the catheter on the first evening"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's post-surgical BPH care includes preventing straining with stool softeners.",
+        "Wrong. Frequent high-dose opioids are not part of the book's plan; its measure to prevent straining is a stool softener.",
+        "Wrong. Fluid restriction is not part of the book's post-surgical BPH care; preventing straining is done with stool softeners.",
+        "Wrong. The book lists catheter care after surgery, not early removal, and this does not prevent straining."
+      ],
+      "clue": "The care goal is preventing straining after surgery.",
+      "priority": "Protecting the surgical site from bleeding.",
+      "page": 125,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-bph-q4",
+      "section": "gu-bph",
+      "page": 126,
+      "type": "sata",
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client with BPH tells the nurse, \"These bladder problems are hurting my sex life, and I'm embarrassed to talk about it.\" Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Provide sexual health counseling",
+        "Offer emotional support and invite him to share his concerns",
+        "Tell him sexual concerns are not related to his prostate",
+        "Suggest he wait until after any surgery to bring it up",
+        "Suggest a drink of alcohol in the evening to help him relax"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "rationales": [
+        "Correct. The book lists sexual health counseling as independent nursing care in BPH.",
+        "Correct. The book lists emotional support as part of BPH nursing care.",
+        "Wrong. The book includes sexual health counseling in BPH care, so dismissing his concern is inappropriate.",
+        "Wrong. Delaying the conversation ignores the counseling and support the book calls for.",
+        "Wrong. The book lists alcohol among things that worsen BPH symptoms."
+      ],
+      "clue": "Embarrassment about sexual effects of BPH.",
+      "priority": "Supporting sexual health and emotional well-being.",
+      "checked": true
+    },
+    {
+      "id": "gu-bph-q5",
+      "section": "gu-bph",
+      "page": 126,
+      "type": "matrix",
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client with BPH is in urinary retention and needs a catheter. For each action, indicate whether the nurse should carry it out or avoid it.",
+      "rows": [
+        "Insert the catheter gently",
+        "Watch for post-obstruction shock after the bladder drains",
+        "Encourage the client to stay hydrated",
+        "Offer an over-the-counter decongestant for his stuffy nose",
+        "Give an anticholinergic to settle his bladder discomfort"
+      ],
+      "columns": [
+        "Indicated",
+        "Avoid"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "The book lists gentle catheter insertion in BPH nursing care.",
+        "The book says to monitor for post-obstruction shock.",
+        "The book lists encouraging hydration.",
+        "The book lists decongestants among symptom-worsening drugs to avoid.",
+        "The book lists anticholinergics among symptom-worsening drugs to avoid."
+      ],
+      "clue": "Urinary retention from BPH needing catheterization.",
+      "priority": "Safe catheterization and avoiding drugs that worsen retention.",
+      "checked": true
+    },
+    {
+      "id": "gu-prostate-q1",
+      "section": "gu-prostate",
+      "stem": "A client scheduled for a prostatectomy for prostate cancer asks what problems might follow surgery. Which response matches the book?",
+      "options": [
+        "Prostatectomy carries no lasting effect on bladder control",
+        "The main risk is a permanent rise in testosterone levels",
+        "Surgery usually leads to new kidney stones within a year",
+        "Urinary incontinence and impotence are possible after this surgery"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. The book names incontinence as a risk of prostatectomy.",
+        "Wrong. The book discusses lowering testosterone with hormonal therapy, not surgery raising it.",
+        "Wrong. The book does not list kidney stones as a prostatectomy risk.",
+        "Correct. The book lists incontinence and impotence as risks of prostatectomy."
+      ],
+      "clue": "The client is asking about risks of prostatectomy.",
+      "priority": "Preoperative teaching about expected risks.",
+      "page": 127,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-prostate-q2",
+      "section": "gu-prostate",
+      "stem": "While taking a history from a man being evaluated for prostate cancer, which question reflects an environmental risk factor the book lists?",
+      "options": [
+        "Do you drink more than two cups of coffee each day?",
+        "Have you worked with batteries or been exposed to cadmium?",
+        "Have you had frequent urinary tract infections as a child?",
+        "Do you regularly eat a diet high in fresh vegetables?"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. Caffeine is not among the prostate cancer risk factors the book lists.",
+        "Correct. The book lists cadmium exposure from cigarettes and batteries as an environmental risk factor and says to ask about it.",
+        "Wrong. Childhood UTIs are not a risk factor named in the book's prostate cancer section.",
+        "Wrong. The book lists a high-fat diet as a risk, not a vegetable-rich diet."
+      ],
+      "clue": "Cadmium exposure through batteries.",
+      "priority": "Collecting a risk-focused history.",
+      "page": 126,
+      "type": "mcq",
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "gu-prostate-q3",
+      "section": "gu-prostate",
+      "stem": "A 45-year-old Black man whose father had prostate cancer asks when he should start talking with his provider about screening. What should the nurse tell him?",
+      "options": [
+        "Screening is not needed until you have urinary symptoms",
+        "Screening talks begin at 65, when most cases occur",
+        "You may need to start screening talks earlier than age 50",
+        "Your risk is average, so wait until age 50 to ask"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. The book notes prostate cancer is often asymptomatic at diagnosis, so waiting for symptoms is unsafe.",
+        "Wrong. Most cases occur over 65, but the book recommends discussions starting at 50 or earlier for high risk.",
+        "Correct. The book says screening discussions start at 50 for average-risk men and earlier for higher-risk men, noting higher rates in Black men and family history as a risk.",
+        "Wrong. Family history and being a Black man put him at higher risk, which calls for earlier discussion."
+      ],
+      "clue": "Black man with a father who had prostate cancer.",
+      "priority": "Screening education for a high-risk client.",
+      "page": 126,
+      "type": "mcq",
+      "clientNeed": "hpm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-prostate-q4",
+      "section": "gu-prostate",
+      "page": 127,
+      "type": "mcq",
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A client with end-stage renal disease is scheduled for a kidney transplant this morning. During pre-op checks the nurse finds a fever and a new productive cough. What should the nurse do?",
+      "options": [
+        "Give an antipyretic and send the client to surgery on time",
+        "Notify the transplant surgeon before the client goes to surgery",
+        "Document the findings and continue the pre-op checklist",
+        "Start dialysis now so the client is ready for surgery"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. Treating the fever hides a possible infection; the book says transplant is contraindicated if infection is present.",
+        "Correct. The book says to assess for signs of infection because transplant is contraindicated when infection is present, so the surgeon must know.",
+        "Wrong. Documenting alone does not stop a transplant the book says is contraindicated with infection.",
+        "Wrong. Dialysis may be needed within 24 hours, but it does not address the signs of infection."
+      ],
+      "clue": "Fever and productive cough before transplant.",
+      "priority": "Advocating for the client when a surgical contraindication is found.",
+      "checked": true
+    },
+    {
+      "id": "gu-prostate-q5",
+      "section": "gu-prostate",
+      "page": 127,
+      "type": "sata",
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client who had a kidney transplant two days ago says, \"I'm terrified my body is going to reject this kidney.\" Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Tell the client rejection is rare and not worth worrying about",
+        "Acknowledge the fear and support the client's emotional adjustment",
+        "Teach the signs of rejection to report, such as fever, pain at the site, and less urine",
+        "Suggest skipping immunosuppressant doses on days the client feels well",
+        "Reinforce that the medications must be taken for life"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Wrong. The book lists rejection signs to monitor closely, so dismissing the concern is not accurate or supportive.",
+        "Correct. The book lists supporting emotional adjustment and fear of graft loss.",
+        "Correct. The book names fever, pain at the transplant site, and decreased urine output as rejection signs.",
+        "Wrong. The book teaches lifelong medication adherence.",
+        "Correct. The book lists educating on lifelong medication adherence."
+      ],
+      "clue": "Fear of graft loss after transplant.",
+      "priority": "Supporting coping while giving the client a sense of control.",
+      "checked": true
+    },
+    {
+      "id": "gu-incontinence-q1",
+      "section": "gu-incontinence",
+      "stem": "A postoperative client who received anesthesia and opioids is voiding small amounts often, and the nurse feels a distended bladder. What should the nurse do first?",
+      "options": [
+        "Perform a bladder scan to check for retained urine",
+        "Encourage more fluids to increase the urine stream",
+        "Start a timed voiding schedule every two hours",
+        "Teach Kegel exercises to strengthen pelvic muscles"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. For suspected retention the book's key tip is an immediate bladder scan, with straight catheterization if needed.",
+        "Wrong. Adding fluid to a bladder that cannot empty does not address the retention.",
+        "Wrong. Timed voiding is listed for overflow incontinence; here the first step is assessing the bladder.",
+        "Wrong. Kegel exercises are for stress incontinence, not urinary retention."
+      ],
+      "clue": "Small frequent voids with a distended bladder after anesthesia and opioids.",
+      "priority": "Assessing for urinary retention.",
+      "page": 128,
+      "type": "mcq",
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "gu-incontinence-q2",
+      "section": "gu-incontinence",
+      "stem": "A woman who has had three vaginal births reports leaking urine when she coughs, sneezes, or laughs. Which intervention does the nurse expect to teach?",
+      "options": [
+        "Straight catheterization every six hours to empty the bladder",
+        "An anticholinergic medicine to calm sudden bladder contractions",
+        "A timed voiding schedule to stop constant dribbling from overfill",
+        "Pelvic floor (Kegel) exercises to strengthen weak pelvic muscles"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Wrong. Straight catheterization is for retention, not leakage with coughing or sneezing.",
+        "Wrong. The book links anticholinergics to urge incontinence, not stress incontinence.",
+        "Wrong. Timed voiding is the book's tip for overflow incontinence, which causes constant dribbling.",
+        "Correct. The book describes stress incontinence from weak pelvic muscles after childbirth and lists Kegel exercises as a key tip."
+      ],
+      "clue": "Leakage with coughing, sneezing, or laughing after childbirth.",
+      "priority": "Matching treatment to stress incontinence.",
+      "page": 128,
+      "type": "mcq",
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-incontinence-q3",
+      "section": "gu-incontinence",
+      "stem": "A client describes a sudden, strong need to urinate that often leads to leaking before reaching the bathroom. Which plan reflects the book's key tip for this type of incontinence?",
+      "options": [
+        "A pessary device and a weight loss plan for pelvic support",
+        "Bladder training, with an anticholinergic such as oxybutynin",
+        "Intermittent catheterization to drain an overfilled bladder",
+        "Tamsulosin to relieve the blockage from an enlarged prostate"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Wrong. Pessaries and weight loss are the book's tips for stress incontinence.",
+        "Correct. This is urge incontinence (overactive bladder), and the book's key tip is bladder training and anticholinergic drugs.",
+        "Wrong. Intermittent catheterization is for overflow incontinence or retention.",
+        "Wrong. Tamsulosin appears under retention caused by BPH, not urge incontinence."
+      ],
+      "clue": "A sudden strong urge followed by leakage.",
+      "priority": "Matching treatment to urge incontinence.",
+      "page": 128,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "gu-incontinence-q4",
+      "section": "gu-incontinence",
+      "page": 128,
+      "type": "mcq",
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients. Which client should the nurse assess first?",
+      "options": [
+        "A woman with stress incontinence who wants to learn Kegel exercises",
+        "A client with urge incontinence who is starting bladder training",
+        "A client after surgery on opioids who has a distended bladder and is voiding small amounts often",
+        "A client with incontinence who needs help planning to avoid caffeine"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Wrong. Kegel teaching is the book's tip for stress incontinence and can wait.",
+        "Wrong. Bladder training is planned care for urge incontinence, not urgent.",
+        "Correct. The book lists opioids and anesthesia as causes of retention and a distended bladder with small frequent voids as key signs, needing an immediate bladder scan.",
+        "Wrong. Avoiding bladder irritants is teaching that can wait."
+      ],
+      "clue": "Distended bladder with small frequent voids after surgery and opioids.",
+      "priority": "Prioritizing urinary retention over routine incontinence teaching.",
+      "checked": true
+    },
+    {
+      "id": "gu-incontinence-q5",
+      "section": "gu-incontinence",
+      "page": 128,
+      "type": "matrix",
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "The nurse is planning care for clients with incontinence or retention. For each task, indicate whether it can be assigned to assistive personnel or must be done by the nurse.",
+      "rows": [
+        "Help the client to the bathroom on a timed voiding schedule",
+        "Clean and dry the skin after an incontinence episode",
+        "Give privacy and run warm water when the client tries to void",
+        "Decide whether straight catheterization is needed",
+        "Teach the client pelvic floor (Kegel) exercises"
+      ],
+      "columns": [
+        "Assign to assistive personnel",
+        "Nurse only"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "Timed voiding is a book tip for overflow incontinence, and toileting help is a routine task.",
+        "The book lists maintaining skin integrity; routine skin care can be assigned.",
+        "The book lists promoting voiding with privacy and warm water; this is routine care.",
+        "Deciding on catheterization requires nursing assessment and judgment.",
+        "Teaching is a nursing responsibility, even though Kegel exercises are a book tip."
+      ],
+      "clue": "Routine care tasks versus assessment and teaching.",
+      "priority": "Assigning care within scope of practice.",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 122,
+      "issue": "Section numbering skips E3: AKI is E1 and UTI is E2, but Pyelonephritis has no numbered heading (it starts on p.121 without an 'E3.' heading) and the next section is labeled 'E4. Glomerulonephritis, Acute'."
+    },
+    {
+      "page": 114,
+      "issue": "The chapter opener list of disorders omits Acute Glomerulonephritis, which is covered as its own section on pp.122-123."
+    },
+    {
+      "page": 127,
+      "issue": "Renal transplant pre-op and post-op care appears without a numbered section heading inside the Prostate Cancer section (E7), so it is easy to miss and not listed in the chapter opener."
+    },
+    {
+      "page": 115,
+      "issue": "The Priority Nursing Actions table includes CKD/ESRD, hemodialysis and peritoneal dialysis, but the chapter has no sections covering these topics."
+    },
+    {
+      "page": 124,
+      "issue": "The 'Remember' box in the Renal Calculi section (contrast media nephrotoxicity, metformin 24-48 hrs pre/post, CKD) is unrelated to kidney stones and appears misplaced; the metformin timing also differs from current guidance, which mainly withholds metformin at or before contrast and for 48 hours after in at-risk patients."
+    },
+    {
+      "page": 118,
+      "issue": "Urine sodium row says it differentiates prerenal vs intrinsic vs obstructive AKI, but only gives values for prerenal (<20 mEq/L) and 'obstructive' (>40 mEq/L); the >40 mEq/L value is classically associated with intrinsic AKI/ATN, and no intrinsic value is given."
+    },
+    {
+      "page": 119,
+      "issue": "Low-dose ('renal-dose') dopamine is listed to increase renal perfusion in AKI; current guidelines (e.g., KDIGO) recommend against low-dose dopamine for preventing or treating AKI. Using diuretics to 'convert oliguric to nonoliguric AKI' (p.118) is also not recommended except for managing volume overload."
+    },
+    {
+      "page": 119,
+      "issue": "Typo in the Fenoldopam row: 'hyper tension' should be 'hypertension'."
+    },
+    {
+      "page": 120,
+      "issue": "Urine culture threshold for UTI given as >10,000 cfu/mL; the commonly cited diagnostic threshold is 100,000 cfu/mL (lower counts are used only in selected symptomatic cases), so the value may be a typo or needs context."
+    },
+    {
+      "page": 123,
+      "issue": "IgA nephropathy is listed both under 'Primary AGN' and under 'Secondary/Rapidly Progressive' types, which is inconsistent."
+    },
+    {
+      "page": 125,
+      "issue": "Watchful waiting is given for 'Mild cases (IPSS <=8)'; on the IPSS scale mild symptoms are 0-7 and 8 begins the moderate range."
+    },
+    {
+      "page": 126,
+      "issue": "Prostate cancer DRE findings are garbled: 'Early cancer = firm, sharp-edged. Lesion; advanced = hard, irregular.' Also the typo 'stag e' for 'stage' in the history list."
+    },
+    {
+      "page": 123,
+      "issue": "Citation typo in the Renal Calculi introduction: 'Haas at al., 2020' should be 'Haas et al., 2020'."
+    },
+    {
+      "page": 117,
+      "issue": "Bleeding (petechiae, hematemesis) is listed only under the diuretic phase of AKI; bleeding tendency from uremia is not specific to that phase. No question was built on it."
+    },
+    {
+      "page": 118,
+      "issue": "\"Pharmacologic Management\" appears as a bullet under Dietary Therapy instead of as a heading for the medication table on p.119."
+    },
+    {
+      "page": 120,
+      "issue": "The UTI Causes graphic lists risk factors (urethral injury, low urination, diabetes) that differ from the text risk-factor list on the same page; the two lists should be merged or made consistent."
+    },
+    {
+      "page": 121,
+      "issue": "Acid-ash diet tip (cranberries; avoid most fruits/vegetables and dairy) is older advice with weak evidence for UTI prevention or treatment; no question was built on it."
+    },
+    {
+      "page": 125,
+      "issue": "BPH diagnostics give the PSA abnormal value only as \"slight elevation\", while p.127 gives >10 ng/mL as abnormal; the 4-10 ng/mL range is not addressed in either place."
+    },
+    {
+      "page": 126,
+      "issue": "Phenoxybenzamine is listed as a BPH alpha-blocker; it is not a standard BPH drug (common choices are tamsulosin, alfuzosin, silodosin, doxazosin, terazosin). Prostatic massage and regular ejaculation as supportive care also have limited evidence."
+    },
+    {
+      "page": 123,
+      "issue": "AGN Diagnosis graphic: serum creatinine normal 0.51-1.21 mg/dL but abnormal given only as >2 mg/dL, leaving values between undefined; creatinine clearance abnormal given as about 50 mL/min."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: the book has no delegation content, so the moc delegation items (gu-calculi-q4, gu-incontinence-q5) pair book care measures with general scope-of-practice principles. Psych items rely on brief \"emotional support\" lines (pp.119, 123, 126, 127); the chapter offers little psychosocial depth."
+    }
+  ]
+}

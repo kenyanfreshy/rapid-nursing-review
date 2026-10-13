@@ -1,0 +1,2184 @@
+{
+  "chapter": "heme",
+  "questions": [
+    {
+      "id": "heme-ida-q1",
+      "section": "heme-ida",
+      "type": "mcq",
+      "stem": "A client with iron deficiency anemia is starting oral ferrous sulfate. Which statement by the nurse reflects accurate medication teaching?",
+      "options": [
+        "Your stools may turn dark, and constipation can occur while taking iron.",
+        "Your stools should stay normal in color; dark stools mean you must stop the iron.",
+        "You can take the tablets with anything, since nothing affects how iron is absorbed.",
+        "Iron tablets usually cause diarrhea, so you should cut back on your fluid intake."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists dark stools and constipation as side effects to discuss when teaching about iron supplements.",
+        "Incorrect. Dark stools are an expected side effect of iron that the book says to discuss, not a reason to stop therapy.",
+        "Incorrect. The book directs the nurse to teach about factors that interfere with iron absorption.",
+        "Incorrect. The book names constipation, not diarrhea, as a side effect, and fluid restriction is not part of its teaching."
+      ],
+      "clue": "The client is beginning oral ferrous sulfate therapy.",
+      "priority": "Medication education about expected iron side effects and absorption.",
+      "page": 157,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-ida-q2",
+      "section": "heme-ida",
+      "type": "mcq",
+      "stem": "A middle-aged woman with long-standing poor nutrition and iron deficiency anemia reports trouble swallowing. The nurse notes spoon-shaped nails. The nurse recognizes these findings as which condition?",
+      "options": [
+        "Relative polycythemia resulting from reduced plasma volume",
+        "Plummer-Vinson syndrome, a severe complication of iron deficiency anemia",
+        "A vaso-occlusive crisis caused by sickled red blood cells blocking vessels",
+        "An expected gastrointestinal side effect of oral iron supplementation"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Polycythemia involves too many red cells and a ruddy complexion, not the findings of severe iron deficiency.",
+        "Correct. The book describes Plummer-Vinson syndrome, with difficulty swallowing and spooning of nails, as a severe IDA complication in middle-aged women with poor nutrition.",
+        "Incorrect. Vaso-occlusive crisis is a sickle cell complication marked by pain and fever, not nail spooning with swallowing difficulty.",
+        "Incorrect. The book lists dark stools and constipation as iron side effects, not dysphagia with spoon nails."
+      ],
+      "clue": "Difficulty swallowing plus spoon nails in a poorly nourished middle-aged woman with IDA.",
+      "priority": "Recognizing a severe complication of iron deficiency anemia.",
+      "page": 156,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-ida-q3",
+      "section": "heme-ida",
+      "type": "mcq",
+      "stem": "The nurse reviews the complete blood count of a client suspected of having iron deficiency anemia with no signs of infection. Which set of results is most consistent with this diagnosis?",
+      "options": [
+        "High hemoglobin, decreased MCV, and an elevated WBC count",
+        "Normal hemoglobin, increased MCV, and a low WBC count",
+        "Low hemoglobin, decreased MCV, and a normal WBC count",
+        "Low hemoglobin, increased MCV, and a normal WBC count"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Hemoglobin is lower in IDA, and WBC is typically normal unless another condition is present.",
+        "Incorrect. IDA lowers hemoglobin and MCV; this pattern does not match the book's description.",
+        "Correct. The book states hemoglobin is lower, MCV is decreased (small cells), and WBC is typically normal in IDA.",
+        "Incorrect. The book states MCV is decreased in IDA because the cells are smaller, not increased."
+      ],
+      "clue": "Suspected IDA without infection, so WBC should be normal.",
+      "priority": "Interpreting CBC findings for iron deficiency anemia.",
+      "page": 157,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-ida-q4",
+      "section": "heme-ida",
+      "type": "sata",
+      "page": 156,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "A 34-year-old woman reports fatigue, dizziness, and cold intolerance, and iron deficiency anemia is suspected. Which history questions should the nurse ask to identify possible sources of iron loss or poor intake? Select all that apply.",
+      "options": [
+        "Do you have heavy menstrual bleeding?",
+        "How would you describe your diet and alcohol intake?",
+        "Have you donated blood, and how often?",
+        "Have you worked around benzene or industrial chemicals?",
+        "Have you been stung by a bee or wasp recently?"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book lists heavy menstrual bleeding in women as a key history question for anemia.",
+        "Correct. Diet and alcohol intake are listed in the book's anemia history.",
+        "Correct. The book directs the nurse to ask about blood donation history.",
+        "Incorrect. Benzene exposure is a cause the book lists for acute leukemia, not iron deficiency anemia.",
+        "Incorrect. Insect stings are anaphylaxis triggers and are not part of the anemia history."
+      ],
+      "clue": "Symptoms of anemia in a menstruating woman with suspected iron deficiency.",
+      "priority": "Taking a focused history to identify risk factors for iron loss or low intake.",
+      "checked": true
+    },
+    {
+      "id": "heme-ida-q5",
+      "section": "heme-ida",
+      "type": "matrix",
+      "page": 157,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with iron deficiency anemia reports mouth soreness and tiring easily with activity. For each nursing action, indicate whether it is indicated or not indicated for this client.",
+      "rows": [
+        "Provide a list of iron-rich foods and teach about balanced nutrition",
+        "Plan rest periods to reduce activity intolerance",
+        "Take steps to ease discomfort from mouth lesions",
+        "Encourage the client to spend time in crowded group settings to build stamina",
+        "Teach the client that dark stools mean the iron must be stopped"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "Indicated. The book's dietary guidance is to provide iron-rich food lists and teach balanced nutrition.",
+        "Indicated. The book says to ensure rest to reduce activity intolerance.",
+        "Indicated. The book lists addressing discomfort such as mouth lesions under comfort measures.",
+        "Not indicated. The book's infection control guidance is to avoid exposure to infections, since infection is a complication of IDA.",
+        "Not indicated. The book lists dark stools as an expected iron side effect to discuss, not a reason to stop therapy."
+      ],
+      "clue": "Mouth soreness and activity intolerance in a client with IDA.",
+      "priority": "Providing comfort, rest, and nutrition support in iron deficiency anemia.",
+      "checked": true
+    },
+    {
+      "id": "heme-ida-q6",
+      "section": "heme-ida",
+      "type": "mcq",
+      "page": 157,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "An 82-year-old client with iron deficiency anemia is being discharged on oral iron. The client lives alone and says shopping for and preparing meals has become hard. Which action by the nurse best supports continuity of care?",
+      "options": [
+        "Tell the client to rely on the iron tablets instead of changing the diet",
+        "Advise the client to stay in the hospital until hemoglobin is normal",
+        "Arrange a referral for home care or social services before discharge",
+        "Ask the client to call the clinic if fatigue becomes worse next month"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book pairs iron supplements with dietary adjustments; it does not replace diet teaching with tablets alone.",
+        "Incorrect. The book does not call for hospitalization until hemoglobin normalizes; it calls for follow-up support at home.",
+        "Correct. The book directs the nurse to arrange home care or social services as needed, especially for children and elderly clients.",
+        "Incorrect. Waiting for symptoms to worsen leaves the client's current barrier to nutrition unaddressed."
+      ],
+      "clue": "An older adult living alone who has trouble getting and preparing food.",
+      "priority": "Coordinating follow-up support so treatment continues safely at home.",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q1",
+      "section": "heme-sickle",
+      "type": "mcq",
+      "stem": "A client with sickle cell disease is admitted in a vaso-occlusive crisis and rates pain 9 out of 10. Which nursing action is the priority?",
+      "options": [
+        "Hold pain medication until all laboratory results have returned",
+        "Restrict oral and IV fluids to reduce the workload on the heart",
+        "Encourage brisk walking to improve circulation through the vessels",
+        "Give prescribed analgesia promptly along with oxygen and hydration"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book stresses giving analgesia quickly, within 30 minutes, rather than delaying it.",
+        "Incorrect. Hydration is part of crisis treatment, and dehydration is a listed sickling trigger.",
+        "Incorrect. Intense exercise is listed as a hypoxemia trigger that can promote sickling.",
+        "Correct. The book lists analgesia within 30 minutes, oxygen, and hydration as treatment for vaso-occlusive crisis."
+      ],
+      "clue": "Severe pain during a vaso-occlusive crisis.",
+      "priority": "Prompt pain management with oxygen and hydration in sickle cell crisis.",
+      "page": 159,
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q2",
+      "section": "heme-sickle",
+      "type": "mcq",
+      "stem": "The nurse is teaching the parents of a child with sickle cell disease how to prevent crises. Which situation should the nurse identify as a trigger to avoid?",
+      "options": [
+        "Keeping a water bottle with the child throughout the school day",
+        "Maintaining a regular daily routine for meals and sleep",
+        "Using guided imagery and distraction during pain episodes",
+        "Traveling to a high-altitude destination for a family vacation"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Consistent fluid intake is encouraged; dehydration, not hydration, triggers sickling.",
+        "Incorrect. The book encourages promoting hydration and a routine lifestyle as part of family education.",
+        "Incorrect. The book recommends non-drug strategies such as imagery and distraction for pain relief.",
+        "Correct. The book lists low oxygen from high altitude as a hypoxemia trigger that can promote sickling."
+      ],
+      "clue": "The family is planning activities for a child with SCD.",
+      "priority": "Teaching families to recognize and avoid sickling triggers.",
+      "page": 158,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q3",
+      "section": "heme-sickle",
+      "type": "mcq",
+      "stem": "A client with sickle cell disease asks why hydroxyurea has been prescribed. Which response by the nurse is accurate?",
+      "options": [
+        "It destroys sickled red blood cells so the spleen can remove them.",
+        "It is a pain reliever used only for the duration of an acute crisis.",
+        "It increases fetal hemoglobin, which reduces sickling and pain episodes.",
+        "It permanently corrects the mutated HBB gene that causes the disease."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book describes the drug's effect as boosting fetal hemoglobin, not destroying cells.",
+        "Incorrect. The book lists morphine, oxycodone, fentanyl and methadone as the crisis analgesics, not hydroxyurea.",
+        "Correct. The book states hydroxyurea boosts fetal hemoglobin, reducing sickling and pain.",
+        "Incorrect. SCD is caused by an HBB mutation; the book does not describe hydroxyurea as correcting the gene."
+      ],
+      "clue": "The client is asking about the purpose of hydroxyurea.",
+      "priority": "Medication education on disease-modifying therapy in SCD.",
+      "page": 159,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q4",
+      "section": "heme-sickle",
+      "type": "matrix",
+      "page": 158,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse is reviewing the types of sickle cell crisis. For each finding, indicate the type of crisis it is most associated with.",
+      "rows": [
+        "Pain and fever",
+        "Pale skin and tachycardia",
+        "Jaundice and dark urine",
+        "Lethargy"
+      ],
+      "columns": [
+        "Vaso-occlusive crisis",
+        "Sequestration crisis",
+        "Hyperhemolytic crisis"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "rationales": [
+        "Vaso-occlusive. The book lists pain, fever, and fatigue for vaso-occlusive crisis.",
+        "Sequestration. The book lists pale skin and tachycardia with sequestration crisis.",
+        "Hyperhemolytic. The book lists jaundice and dark urine for hyperhemolytic crisis.",
+        "Sequestration. Lethargy is listed under sequestration crisis."
+      ],
+      "clue": "Each finding matches one crisis type in the book's sickle cell assessment graphic.",
+      "priority": "Distinguishing types of sickle cell crisis by their presenting findings.",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q5",
+      "section": "heme-sickle",
+      "type": "sata",
+      "page": 158,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A child is being evaluated for sickle cell disease. Which diagnostic findings should the nurse recognize as consistent with this diagnosis? Select all that apply.",
+      "options": [
+        "Sickle-shaped red blood cells on the peripheral smear",
+        "Hemoglobin S present on hemoglobin electrophoresis",
+        "Increased white blood cell count",
+        "Hemoglobin above the normal range",
+        "Increased platelet count",
+        "No HBB gene mutation on genetic testing"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists sickle-shaped red cells on the smear as abnormal.",
+        "Correct. The presence of hemoglobin S on electrophoresis is listed as abnormal.",
+        "Correct. The book lists an increased WBC count, reflecting infection risk and spleen dysfunction.",
+        "Incorrect. The book lists decreased RBCs, with hemoglobin of about 5-10 g/dL, reflecting hemolysis in SCD.",
+        "Correct. An increased platelet count is listed among the CBC findings.",
+        "Incorrect. SCD is caused by an HBB mutation, and the book lists a mutant HBB gene as the abnormal genetic test result."
+      ],
+      "clue": "Laboratory evaluation of a child suspected of having SCD.",
+      "priority": "Interpreting diagnostic results for sickle cell disease.",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q6",
+      "section": "heme-sickle",
+      "type": "mcq",
+      "page": 159,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "The parents of a 4-year-old newly diagnosed with sickle cell disease say they are worried about having more children and that their older daughter feels left out. Which nursing response best supports this family?",
+      "options": [
+        "Explain that worry is normal and that it will fade once the child is older",
+        "Offer a genetic counseling referral and discuss ways to involve the sister in care",
+        "Suggest keeping the diagnosis from the sister so she does not become anxious",
+        "Advise the parents to focus only on the ill child until the disease is stable"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. This dismisses the parents' concerns rather than addressing them.",
+        "Correct. The book's family education includes providing genetic counseling and involving siblings in care.",
+        "Incorrect. The book recommends involving siblings in care, not excluding them.",
+        "Incorrect. The book directs the nurse to involve siblings, not to shift attention away from them."
+      ],
+      "clue": "Parental concern about future pregnancies and a sibling who feels excluded.",
+      "priority": "Supporting family coping through genetic counseling and sibling involvement.",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q7",
+      "section": "heme-sickle",
+      "type": "sata",
+      "page": 159,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A 16-year-old with sickle cell disease is admitted with a vaso-occlusive crisis and has received a prescribed opioid. Which additional comfort measures should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Guide the client through relaxing imagery",
+        "Use distraction such as music or games",
+        "Encourage consistent oral fluid intake",
+        "Limit fluids to reduce the need to get up",
+        "Encourage intense exercise to improve blood flow"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book recommends non-drug strategies such as imagery along with medication.",
+        "Correct. Distraction is listed as a non-drug pain relief strategy.",
+        "Correct. The book encourages consistent fluid intake, and dehydration is a sickling trigger.",
+        "Incorrect. Dehydration increases sickling risk, so fluids should be encouraged, not limited.",
+        "Incorrect. The book lists intense exercise as a hypoxemia trigger that can promote sickling."
+      ],
+      "clue": "Pain from a vaso-occlusive crisis after the analgesic is given.",
+      "priority": "Combining medication with non-drug comfort measures and hydration.",
+      "checked": true
+    },
+    {
+      "id": "heme-sickle-q8",
+      "section": "heme-sickle",
+      "type": "mcq",
+      "page": 159,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse receives report on four clients with sickle cell disease. Which client should the nurse see first?",
+      "options": [
+        "A client on hydroxyurea who asks when the dose will be increased",
+        "A client who would like information about genetic counseling",
+        "A client who is drinking fluids well and asks for more water",
+        "A client admitted 20 minutes ago in vaso-occlusive crisis who has not received analgesia"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. A dosing question is important but can wait until the client in acute pain is treated.",
+        "Incorrect. Genetic counseling is part of family education but is not time-sensitive.",
+        "Incorrect. This client is meeting the hydration goal and is stable.",
+        "Correct. The book calls for analgesia within 30 minutes in a vaso-occlusive crisis, so this client needs care now."
+      ],
+      "clue": "An untreated vaso-occlusive crisis nearing the 30-minute analgesia window.",
+      "priority": "Prioritizing the client with an acute, time-sensitive need.",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q1",
+      "section": "heme-leukemia",
+      "type": "mcq",
+      "stem": "The nurse is taking a history from an adult client being evaluated for acute leukemia. Which question best addresses risk factors described for this disease?",
+      "options": [
+        "Is there a history of bleeding passed from mothers to sons?",
+        "Have you had past radiation, chemotherapy, or work exposure to benzene?",
+        "Do you regularly eat foods that are high in purines?",
+        "Have you recently been stung by a bee or a wasp?"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. X-linked inheritance from carrier mothers to sons describes hemophilia, not leukemia.",
+        "Correct. The book lists radiation, prior chemotherapy, and chemicals such as benzene as causes, and advises asking about them and occupation.",
+        "Incorrect. A low-purine diet is mentioned for relative polycythemia, not as a leukemia risk factor.",
+        "Incorrect. Insect stings are listed as anaphylaxis triggers, not causes of acute leukemia."
+      ],
+      "clue": "The client is being evaluated for acute leukemia.",
+      "priority": "Obtaining an exposure history relevant to acute leukemia.",
+      "page": 159,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q2",
+      "section": "heme-leukemia",
+      "type": "mcq",
+      "stem": "A client with acute myelogenous leukemia is receiving chemotherapy. Which nursing plan best reflects the nursing focus for this client?",
+      "options": [
+        "Prevent infection and bleeding while giving comfort and emotional support",
+        "Defer emotional support and teaching until remission is confirmed",
+        "Schedule vigorous daily exercise to rebuild the client's stamina",
+        "Allow visitors with mild colds since social support aids recovery"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's nursing focus is comfort, preventing infection and bleeding, and providing emotional support and education.",
+        "Incorrect. The book lists emotional support and education as ongoing parts of nursing care.",
+        "Incorrect. The book's nursing focus centers on comfort and preventing infection and bleeding, not vigorous exercise.",
+        "Incorrect. The book stresses infection prevention, so exposure to sick visitors conflicts with the nursing focus."
+      ],
+      "clue": "The client is receiving chemotherapy for AML.",
+      "priority": "Preventing infection and bleeding while supporting the client.",
+      "page": 161,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q3",
+      "section": "heme-leukemia",
+      "type": "mcq",
+      "stem": "A client with acute leukemia has completed induction therapy and is starting the consolidation phase. The client asks what this phase is for. Which response is accurate?",
+      "options": [
+        "To eradicate any disease remaining after induction",
+        "To give chemotherapy directly into the spinal fluid",
+        "To give high-dose chemotherapy to bring about remission",
+        "To give low-dose chemotherapy over a period of months"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book defines consolidation as the phase that eradicates remaining disease.",
+        "Incorrect. Intrathecal chemotherapy is described as CNS treatment, a separate phase.",
+        "Incorrect. The book identifies high-dose chemotherapy for remission as the induction phase.",
+        "Incorrect. Low-dose chemotherapy over months describes the maintenance phase."
+      ],
+      "clue": "The client has finished induction and is entering consolidation.",
+      "priority": "Educating the client on the phases of leukemia treatment.",
+      "page": 160,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q4",
+      "section": "heme-leukemia",
+      "type": "sata",
+      "page": 160,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A 6-year-old has pallor, fever, and bleeding gums, and acute leukemia is suspected. Which laboratory findings should the nurse expect? Select all that apply.",
+      "options": [
+        "Decreased red blood cell count",
+        "Decreased platelet count",
+        "Increased white blood cell count with blasts",
+        "Hemoglobin S on hemoglobin electrophoresis",
+        "Fewer than 5% blast cells on bone marrow biopsy"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book lists decreased RBCs on the CBC with differential.",
+        "Correct. Decreased platelets are listed among the CBC findings.",
+        "Correct. The book lists increased WBCs with blasts, meaning immature white cells.",
+        "Incorrect. Hemoglobin S on electrophoresis is a diagnostic finding for sickle cell disease, not leukemia.",
+        "Incorrect. The book states that fewer than 5% blast cells indicates remission, not active leukemia."
+      ],
+      "clue": "Pallor, fever, and bleeding gums in a child with suspected leukemia.",
+      "priority": "Interpreting the CBC with differential and marrow findings for acute leukemia.",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q5",
+      "section": "heme-leukemia",
+      "type": "matrix",
+      "page": 161,
+      "clientNeed": "pharm",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse is reviewing key chemotherapy drugs for acute leukemia. For each drug, indicate whether the book lists it for acute myelogenous leukemia (AML) or acute lymphoblastic leukemia (ALL).",
+      "rows": [
+        "Anthracyclines",
+        "Cytarabine",
+        "Vincristine",
+        "Asparaginase",
+        "Rituximab"
+      ],
+      "columns": [
+        "AML",
+        "ALL"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "rationales": [
+        "AML. The book lists anthracyclines with cytarabine for AML.",
+        "AML. Cytarabine is paired with anthracyclines for AML.",
+        "ALL. Vincristine is listed with the ALL drugs.",
+        "ALL. Asparaginase is listed with the ALL drugs.",
+        "ALL. The book includes rituximab in the ALL regimen with steroids, vincristine, and asparaginase."
+      ],
+      "clue": "The book lists separate key drug regimens for AML and ALL.",
+      "priority": "Knowing which drugs belong to each leukemia treatment regimen.",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q6",
+      "section": "heme-leukemia",
+      "type": "mcq",
+      "page": 160,
+      "clientNeed": "psych",
+      "cjmm": "recognizeCues",
+      "stem": "A 45-year-old client just told of an acute leukemia diagnosis is tearful and says, \"I don't know how I will pay for this or who will help me at home.\" What should the nurse do first?",
+      "options": [
+        "Tell the client that worrying will slow recovery",
+        "Explain the four phases of chemotherapy in detail",
+        "Assess the emotional reaction, support system, and financial needs",
+        "Postpone the discussion until treatment has started"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. This dismisses the client's feelings and does not assess them.",
+        "Incorrect. Detailed teaching does not address the client's stated emotional and financial concerns.",
+        "Correct. The book's psychosocial assessment covers emotional reaction, family or caregiver support, financial needs, and home care options.",
+        "Incorrect. Delaying leaves the client's distress and needs unassessed."
+      ],
+      "clue": "Tearfulness plus concerns about money and help at home after the diagnosis.",
+      "priority": "Assessing psychosocial needs as part of the leukemia assessment.",
+      "checked": true
+    },
+    {
+      "id": "heme-leukemia-q7",
+      "section": "heme-leukemia",
+      "type": "mcq",
+      "page": 160,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients with acute leukemia. Which client should the nurse assess first?",
+      "options": [
+        "A client with new confusion and bleeding gums",
+        "A client who reports feeling tired after walking",
+        "A client asking how long maintenance therapy lasts",
+        "A client who wants to talk with a financial counselor"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists bleeding gums and altered mental status among exam findings; a new change in mental status with bleeding needs immediate assessment.",
+        "Incorrect. Fatigue is a common symptom the book lists, and it is not a new acute change here.",
+        "Incorrect. A teaching question about maintenance chemo can wait.",
+        "Incorrect. Financial needs are part of psychosocial care but are not urgent."
+      ],
+      "clue": "New confusion with active bleeding in a client with acute leukemia.",
+      "priority": "Prioritizing a client with an acute change in mental status and bleeding.",
+      "checked": true
+    },
+    {
+      "id": "heme-hemophilia-q1",
+      "section": "heme-hemophilia",
+      "type": "mcq",
+      "stem": "The nurse is planning care for a child with hemophilia A. Which intervention is appropriate?",
+      "options": [
+        "Provide oral care with a firm-bristled toothbrush",
+        "Measure temperature by a route other than rectal",
+        "Give routine immunizations and medications by the IM route",
+        "Use ibuprofen as needed to manage joint pain"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book directs the use of soft oral care tools to prevent bleeding.",
+        "Correct. The book says to avoid rectal temperatures, along with IM injections and rough suction.",
+        "Incorrect. The book says to avoid IM injections in clients with hemophilia.",
+        "Incorrect. The book lists NSAIDs and aspirin as medications to avoid."
+      ],
+      "clue": "The child has an inherited clotting factor deficiency.",
+      "priority": "Bleeding prevention in hemophilia nursing care.",
+      "page": 162,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-hemophilia-q2",
+      "section": "heme-hemophilia",
+      "type": "mcq",
+      "stem": "A 10-year-old with severe hemophilia A falls from a bicycle and strikes his head. He is alert and has no visible bleeding. Which action does the nurse anticipate first?",
+      "options": [
+        "Aspirin for the headache he reports",
+        "Replacement of factor IX before a CT",
+        "Urgent replacement of factor VIII",
+        "Observation at home for new symptoms"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Aspirin and NSAIDs are listed as medications to avoid in hemophilia.",
+        "Incorrect. Factor IX is replaced in hemophilia B; hemophilia A requires factor VIII.",
+        "Correct. The book states head trauma requires urgent factor replacement, and factor VIII is the missing factor in hemophilia A.",
+        "Incorrect. The book calls for urgent factor replacement after head trauma, not watchful waiting."
+      ],
+      "clue": "Head trauma in a child with severe hemophilia A, even without visible bleeding.",
+      "priority": "Urgent factor replacement to prevent life-threatening hemorrhage.",
+      "page": 162,
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-hemophilia-q3",
+      "section": "heme-hemophilia",
+      "type": "mcq",
+      "stem": "A mother who is a known hemophilia carrier asks how the disorder is passed on. Which explanation by the nurse is accurate?",
+      "options": [
+        "It is passed directly from affected fathers to all of their sons.",
+        "It only occurs when there is a known family history of bleeding.",
+        "It is autosomal recessive, so both parents must pass on a gene.",
+        "It is X-linked recessive and is usually passed from carrier mothers to sons."
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book describes transmission from carrier mothers to sons, not father to son.",
+        "Incorrect. The book notes about one-third of cases have no family history and result from new mutations.",
+        "Incorrect. The book describes hemophilia as X-linked recessive, not autosomal recessive (that pattern is described for sickle cell disease).",
+        "Correct. The book states hemophilia is X-linked recessive, mainly affects males, and passes from carrier mothers to sons."
+      ],
+      "clue": "The mother is a carrier asking about inheritance.",
+      "priority": "Genetic teaching about the inheritance pattern of hemophilia.",
+      "page": 161,
+      "clientNeed": "hpm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-hemophilia-q4",
+      "section": "heme-hemophilia",
+      "type": "sata",
+      "page": 162,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "stem": "An 8-year-old with hemophilia A has a painful, swollen knee from a joint bleed. Which comfort measures should the nurse use while factor replacement is arranged? Select all that apply.",
+      "options": [
+        "Apply ice to the knee",
+        "Rest the affected joint",
+        "Elevate the affected leg",
+        "Give aspirin for the joint pain",
+        "Encourage walking to keep the knee from stiffening"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book lists ice for joints in hemophilia nursing care.",
+        "Correct. Rest is listed for joint bleeding.",
+        "Correct. The book directs the nurse to elevate the joint.",
+        "Incorrect. The book lists aspirin and NSAIDs as medications to avoid in hemophilia.",
+        "Incorrect. The book calls for resting the joint, not putting weight on it during a bleed."
+      ],
+      "clue": "Hemarthrosis (joint swelling) in a child with hemophilia.",
+      "priority": "Using ice, rest, and elevation to manage joint bleeding.",
+      "checked": true
+    },
+    {
+      "id": "heme-hemophilia-q5",
+      "section": "heme-hemophilia",
+      "type": "matrix",
+      "page": 162,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with mild hemophilia A is being treated for a bleeding episode. For each medication, indicate whether it is indicated, not indicated, or contraindicated for this client.",
+      "rows": [
+        "Recombinant factor VIII",
+        "Desmopressin",
+        "Factor IX concentrate",
+        "Aspirin for a headache"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated",
+        "Contraindicated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Indicated. The book says to replace the missing factor (VIII for hemophilia A) and to use recombinant products first-line.",
+        "Indicated. The book lists desmopressin for mild hemophilia A.",
+        "Not indicated. Factor IX is replaced in hemophilia B; this client is missing factor VIII.",
+        "Contraindicated. The book lists aspirin and NSAIDs as medications to avoid."
+      ],
+      "clue": "Mild hemophilia A, which is a factor VIII deficiency.",
+      "priority": "Choosing factor-specific therapy and avoiding drugs that worsen bleeding.",
+      "checked": true
+    },
+    {
+      "id": "heme-hemophilia-q6",
+      "section": "heme-hemophilia",
+      "type": "mcq",
+      "page": 162,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients with hemophilia. Which client should the nurse see first?",
+      "options": [
+        "A child with a small bruise on the shin from a fall yesterday",
+        "An adult with black, tarry stools, a rapid pulse, and low blood pressure",
+        "An adolescent asking how emicizumab prevents future bleeds",
+        "A child with a swollen knee who already has ice applied and the leg elevated"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. A small, older bruise is not a sign of active, life-threatening bleeding.",
+        "Correct. The book lists melena, tachycardia, and hypotension as signs of internal bleeding, which can be life-threatening.",
+        "Incorrect. A teaching question about prophylaxis is not urgent.",
+        "Incorrect. This joint bleed is already being managed with ice, rest, and elevation."
+      ],
+      "clue": "Melena with tachycardia and hypotension in a client with hemophilia.",
+      "priority": "Prioritizing signs of internal bleeding over stable or teaching needs.",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q1",
+      "section": "heme-dic",
+      "type": "mcq",
+      "stem": "A client with sepsis develops oozing from IV sites. Which laboratory pattern supports a diagnosis of disseminated intravascular coagulation (DIC)?",
+      "options": [
+        "High fibrinogen, high platelets, low D-dimer, shortened PT and aPTT",
+        "Normal fibrinogen, normal platelets, normal D-dimer, prolonged aPTT only",
+        "Low fibrinogen, high platelets, low D-dimer, normal PT and aPTT",
+        "Low fibrinogen, low platelets, high D-dimer, prolonged PT and aPTT"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. This is the opposite of DIC, where factors and platelets are consumed and clot breakdown rises.",
+        "Incorrect. DIC consumes fibrinogen and platelets and raises D-dimer, so these values would not be normal.",
+        "Incorrect. Platelets fall and D-dimer rises in DIC, and clotting times are prolonged.",
+        "Correct. The book lists decreased fibrinogen and platelets, increased D-dimer and FDPs, and prolonged aPTT and PT in DIC."
+      ],
+      "clue": "Bleeding from IV sites in a client with sepsis.",
+      "priority": "Interpreting coagulation labs that indicate DIC.",
+      "page": 163,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q2",
+      "section": "heme-dic",
+      "type": "mcq",
+      "stem": "The nurse has just removed a needle after drawing blood from a client with DIC. Which action is most appropriate?",
+      "options": [
+        "Massage the site to disperse any small clot",
+        "Apply light pressure for about one minute",
+        "Apply pressure for at least 10 minutes",
+        "Leave the site open to air to watch for oozing"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book emphasizes gentle care and prolonged pressure to prevent bleeding.",
+        "Incorrect. The book calls for pressure of at least 10 minutes after punctures in DIC.",
+        "Correct. The book directs the nurse to minimize needle sticks and apply pressure for 10 minutes or longer after punctures.",
+        "Incorrect. The book directs applying pressure after punctures, not leaving the site uncompressed."
+      ],
+      "clue": "The client has DIC and a fresh puncture site.",
+      "priority": "Preventing bleeding from invasive procedures in DIC.",
+      "page": 164,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q3",
+      "section": "heme-dic",
+      "type": "mcq",
+      "stem": "A client in septic shock is diagnosed with DIC. Which collaborative goal is the highest priority?",
+      "options": [
+        "Hold all blood products until the bleeding stops",
+        "Treat the infection while restoring clotting with blood components",
+        "Insert a pulmonary artery catheter before coagulopathy is corrected",
+        "Begin a low-purine diet to reduce clotting activity"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book uses blood component therapy (PRBCs, FFP, cryoprecipitate, platelets) to restore clotting.",
+        "Correct. The book's primary goals are treating the underlying cause, such as infection, and restoring normal clotting with blood component therapy.",
+        "Incorrect. The book states PAC insertion should occur only after correcting the coagulopathy.",
+        "Incorrect. A low-purine diet appears under relative polycythemia, not as a DIC treatment."
+      ],
+      "clue": "DIC is always secondary to an underlying condition, here sepsis.",
+      "priority": "Treating the underlying cause of DIC while restoring clotting.",
+      "page": 163,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q4",
+      "section": "heme-dic",
+      "type": "sata",
+      "page": 163,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A client with septic shock is being monitored for disseminated intravascular coagulation (DIC). Which findings should the nurse recognize as consistent with DIC? Select all that apply.",
+      "options": [
+        "Oozing blood at IV sites",
+        "Petechiae and bruising",
+        "Hematuria",
+        "Rapid pulse with low blood pressure",
+        "Ruddy complexion with itching after bathing",
+        "Elevated platelet count"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. Bleeding at IV and IM sites is listed among the signs of DIC.",
+        "Correct. The book lists petechiae and bruising as DIC signs.",
+        "Correct. Hematuria is listed among the bleeding signs.",
+        "Correct. The book says to check for poor perfusion, low blood pressure, and a rapid pulse.",
+        "Incorrect. A ruddy complexion and itching after bathing are polycythemia findings.",
+        "Incorrect. The book states platelets are decreased in DIC because they are consumed in clot formation."
+      ],
+      "clue": "Sepsis, the most common trigger of DIC, with signs of bleeding and poor perfusion.",
+      "priority": "Recognizing bleeding and perfusion changes that signal DIC.",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q5",
+      "section": "heme-dic",
+      "type": "matrix",
+      "page": 164,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client with DIC is on the nursing unit. For each nursing action, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Cluster blood draws to minimize needle sticks",
+        "Apply pressure to puncture sites for at least 10 minutes",
+        "Label the chart and bed to alert staff to bleeding risk",
+        "Encourage the client to walk in the hallway several times a day",
+        "Massage injection sites to help absorption"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "Indicated. The book says to minimize needle sticks.",
+        "Indicated. The book directs pressure for 10 minutes or longer after punctures.",
+        "Indicated. The book says to alert all staff to bleeding risk and label the chart and bed clearly.",
+        "Not indicated. The book calls for bedrest and gentle care to prevent bleeding.",
+        "Not indicated. Massage conflicts with the book's gentle care and pressure to prevent bleeding."
+      ],
+      "clue": "A client with consumptive coagulopathy and a high bleeding risk.",
+      "priority": "Preventing injury and bleeding in a client with DIC.",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q6",
+      "section": "heme-dic",
+      "type": "mcq",
+      "page": 164,
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "stem": "A client with DIC has prolonged PT and aPTT and a low platelet count. The provider plans to insert a pulmonary artery catheter now, before blood products are given. What is the nurse's best action?",
+      "options": [
+        "Prepare the insertion tray so the procedure can start right away",
+        "Apply a pressure dressing so the catheter can be placed safely",
+        "Hold the procedure and wait until the client's bleeding stops on its own",
+        "Discuss with the provider correcting the coagulopathy before insertion"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Proceeding now goes against the book's guidance on timing PAC insertion.",
+        "Incorrect. A dressing does not correct the clotting problem that makes insertion unsafe.",
+        "Incorrect. The nurse should not delay on their own; the book calls for restoring clotting with blood component therapy.",
+        "Correct. The book states PAC insertion should occur only after the coagulopathy is corrected, so the nurse should raise this with the provider."
+      ],
+      "clue": "An invasive line is planned while clotting times are still prolonged.",
+      "priority": "Advocating for client safety through collaboration with the provider.",
+      "checked": true
+    },
+    {
+      "id": "heme-dic-q7",
+      "section": "heme-dic",
+      "type": "sata",
+      "page": 163,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with DIC has a low fibrinogen level, a platelet count of 40,000/mm3, and a falling hemoglobin. Which blood product and purpose pairings are consistent with the plan of care? Select all that apply.",
+      "options": [
+        "Fresh frozen plasma to replace clotting factors",
+        "Cryoprecipitate to replace fibrinogen",
+        "Platelets because the count is below 100,000/mm3",
+        "Packed red blood cells to increase oxygen delivery",
+        "Iron dextran to replace clotting factors",
+        "Desmopressin to raise the fibrinogen level"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists FFP to replace clotting factors.",
+        "Correct. The book states cryoprecipitate is best for fibrinogen and factors VIII and XIII.",
+        "Correct. The book lists platelets if the count is below 100,000/mm3.",
+        "Correct. PRBCs are listed to increase oxygen delivery.",
+        "Incorrect. Iron dextran is parenteral iron for iron deficiency anemia, not a clotting factor product.",
+        "Incorrect. Desmopressin is listed for mild hemophilia A, not for replacing fibrinogen in DIC."
+      ],
+      "clue": "Low fibrinogen, low platelets, and falling hemoglobin in DIC.",
+      "priority": "Matching blood component therapy to each deficit in DIC.",
+      "checked": true
+    },
+    {
+      "id": "heme-transfusion-q1",
+      "section": "heme-transfusion",
+      "type": "mcq",
+      "stem": "Ten minutes into a unit of packed red blood cells, a client reports chills, back pain, and a sense of impending doom. What is the nurse's first action?",
+      "options": [
+        "Stop the transfusion and keep the line open with normal saline",
+        "Send the client's urine to the lab while the unit finishes",
+        "Slow the transfusion rate and recheck vital signs in 15 minutes",
+        "Give an antipyretic and continue the transfusion as ordered"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists stopping the transfusion, starting normal saline, and monitoring ABCs as the first steps when a reaction occurs.",
+        "Incorrect. Samples are sent after the transfusion is stopped; the unit should not continue.",
+        "Incorrect. The book states to stop the transfusion immediately, not slow it.",
+        "Incorrect. Antipyretics are for mild reactions after stopping the transfusion; continuing could worsen a hemolytic reaction."
+      ],
+      "clue": "Chills, back pain, and impending doom early in the transfusion.",
+      "priority": "Stopping the transfusion immediately to limit harm from a reaction.",
+      "page": 165,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-transfusion-q2",
+      "section": "heme-transfusion",
+      "type": "mcq",
+      "stem": "The nurse is about to start a transfusion of packed red blood cells. Which action best helps prevent or quickly detect a transfusion reaction?",
+      "options": [
+        "Start the infusion slowly and stay with the client for the first 15 minutes",
+        "Start at the full rate so the unit finishes before it can warm up",
+        "Skip the second identification check if the client is well known",
+        "Check vital signs only after the entire unit has been infused"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's prevention steps include starting the transfusion slowly and staying with the client for the first 15 minutes.",
+        "Incorrect. The book directs starting slowly, not at a full rate.",
+        "Incorrect. The book stresses careful matching, ID verification, and double-checking all labels.",
+        "Incorrect. The book directs monitoring vital signs before, during, and after the transfusion."
+      ],
+      "clue": "The transfusion is about to begin.",
+      "priority": "Safe transfusion practices to prevent and detect reactions early.",
+      "page": 165,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-transfusion-q3",
+      "section": "heme-transfusion",
+      "type": "mcq",
+      "stem": "The nurse is caring for several clients who need blood transfusions. Which client is at highest risk for a transfusion reaction?",
+      "options": [
+        "A client whose blood type was verified by two nurses at the bedside",
+        "A client with sickle cell disease who receives frequent transfusions",
+        "A healthy adult receiving a first unit after a minor elective surgery",
+        "A client with iron deficiency anemia starting oral ferrous sulfate"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Careful verification is a prevention step; misidentification is what drives hemolytic reactions.",
+        "Correct. The book lists frequent transfusions, as in sickle cell disease, as high risk because antibody formation and sensitivity increase over time.",
+        "Incorrect. A single first transfusion does not match the high-risk groups the book describes.",
+        "Incorrect. Oral iron is not a blood component and is not a transfusion risk factor in the book."
+      ],
+      "clue": "Repeated transfusions in a client with sickle cell disease.",
+      "priority": "Identifying clients at high risk for transfusion reactions.",
+      "page": 164,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "heme-transfusion-q4",
+      "section": "heme-transfusion",
+      "type": "sata",
+      "page": 165,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "The nurse stops a unit of packed red blood cells after the client develops fever, chills, and back pain. Which additional actions should the nurse take? Select all that apply.",
+      "options": [
+        "Infuse normal saline to keep the line open",
+        "Send the blood bag and tubing to the lab",
+        "Send the client's blood and urine samples to the lab",
+        "Discard the bag and tubing in a biohazard container",
+        "Restart the unit at a slower rate once symptoms ease",
+        "Report the reaction"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "rationales": [
+        "Correct. The book says to stop the transfusion and start normal saline.",
+        "Correct. The blood bag and tubing are sent to the lab.",
+        "Correct. The book directs sending the client's blood and urine samples to the lab.",
+        "Incorrect. The bag and tubing must go to the lab for testing, not be thrown away.",
+        "Incorrect. The book says to stop the transfusion; it does not support restarting the unit.",
+        "Correct. The book's nursing focus includes reporting all reactions."
+      ],
+      "clue": "Fever, chills, and back pain during a red cell transfusion.",
+      "priority": "Taking the required safety steps after a suspected transfusion reaction.",
+      "checked": true
+    },
+    {
+      "id": "heme-transfusion-q5",
+      "section": "heme-transfusion",
+      "type": "matrix",
+      "page": 165,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "stem": "A client is 30 minutes into a blood transfusion. For each finding, indicate whether it is consistent with a transfusion reaction or not consistent with a reaction.",
+      "rows": [
+        "New hives and facial swelling",
+        "Cloudy or red urine",
+        "New crackles with jugular vein distention",
+        "Vital signs unchanged from the pre-transfusion values"
+      ],
+      "columns": [
+        "Consistent with a reaction",
+        "Not consistent with a reaction"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rationales": [
+        "Consistent. The book lists hives and facial or oral edema among the findings to monitor.",
+        "Consistent. Urine color that is cloudy or red is a listed finding.",
+        "Consistent. The book lists crackles and JVD as signs of fluid overload, and circulatory overload is a transfusion reaction.",
+        "Not consistent. Stable vital signs compared with baseline do not suggest a reaction, although monitoring continues."
+      ],
+      "clue": "Changes from baseline during an ongoing transfusion.",
+      "priority": "Monitoring for early signs of a transfusion reaction.",
+      "checked": true
+    },
+    {
+      "id": "heme-transfusion-q6",
+      "section": "heme-transfusion",
+      "type": "mcq",
+      "page": 165,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "A client about to receive a first blood transfusion says, \"I am scared. I have heard people can have bad reactions to blood.\" Which response by the nurse is most appropriate?",
+      "options": [
+        "Reactions almost never happen, so there is nothing to worry about.",
+        "If you are scared, we can cancel the transfusion and try something else.",
+        "The blood is matched and checked carefully, and I will stay with you for the first 15 minutes.",
+        "Let's not talk about reactions, because that will only make you more nervous."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. False reassurance dismisses the client's fear; the book notes reactions can occur even with matching.",
+        "Incorrect. This does not address the fear and could interfere with needed treatment.",
+        "Correct. The book's prevention steps include careful matching, ID checks, and staying with the client for the first 15 minutes, and it calls for educating and supporting the client.",
+        "Incorrect. Avoiding the topic blocks communication and the education the book recommends."
+      ],
+      "clue": "Anxiety about transfusion reactions before the first unit.",
+      "priority": "Easing anxiety with honest teaching about safety measures.",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q1",
+      "section": "heme-polycythemia",
+      "type": "mcq",
+      "stem": "Which assessment findings should the nurse recognize as consistent with polycythemia?",
+      "options": [
+        "Butterfly rash, photosensitivity, and proteinuria",
+        "Joint swelling from bleeding into the joints",
+        "Ruddy skin, headache, and itching after bathing",
+        "Pale mucosa, smooth tongue, and brittle nails"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. These are lupus assessment findings.",
+        "Incorrect. Hemarthrosis is a hallmark finding of hemophilia.",
+        "Correct. The book lists a ruddy or reddish-purple complexion, headache, and itching after bathing among polycythemia findings.",
+        "Incorrect. These findings are listed for iron deficiency anemia, not polycythemia."
+      ],
+      "clue": "The findings point to an excess of red blood cells.",
+      "priority": "Recognizing the clinical picture of polycythemia.",
+      "page": 166,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q2",
+      "section": "heme-polycythemia",
+      "type": "mcq",
+      "stem": "The nurse is teaching a client with polycythemia about self-care. Which instruction is consistent with the nursing focus for this condition?",
+      "options": [
+        "Stay on strict bed rest until your blood counts drop.",
+        "Stop worrying about bleeding, since you have extra cells.",
+        "Limit your fluids to help lower your blood volume.",
+        "Drink plenty of fluids and balance rest with activity."
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book advises balancing rest with movement, not strict bed rest.",
+        "Incorrect. The book lists bleeding as a complication and includes preventing bleeding and injury in the nursing focus.",
+        "Incorrect. The book's nursing focus is to encourage fluids, not restrict them.",
+        "Correct. The book's nursing focus includes encouraging fluids and balancing rest and movement."
+      ],
+      "clue": "Thick blood with risk of clots and bleeding.",
+      "priority": "Promoting hydration and safe activity in polycythemia.",
+      "page": 167,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q3",
+      "section": "heme-polycythemia",
+      "type": "mcq",
+      "stem": "A client with primary polycythemia returns to the clinic for a scheduled treatment meant to reduce blood thickness. Which procedure does the nurse prepare for?",
+      "options": [
+        "Transfusion of packed red cells",
+        "Infusion of iron dextran",
+        "Replacement of factor VIII",
+        "Phlebotomy"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Adding red cells would worsen an already increased red cell mass.",
+        "Incorrect. Parenteral iron is used for severe iron deficiency anemia, not polycythemia.",
+        "Incorrect. Factor VIII replacement treats hemophilia A, not polycythemia.",
+        "Correct. The book lists regular phlebotomy as a treatment for primary polycythemia to reduce blood thickness."
+      ],
+      "clue": "Scheduled treatment to reduce blood thickness in primary polycythemia.",
+      "priority": "Anticipating the standard treatment for primary polycythemia.",
+      "page": 166,
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q4",
+      "section": "heme-polycythemia",
+      "type": "sata",
+      "page": 166,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A 62-year-old client is being evaluated for primary polycythemia. Which results should the nurse recognize as consistent with this diagnosis? Select all that apply.",
+      "options": [
+        "Hemoglobin 18 g/dL",
+        "Hematocrit 54%",
+        "Platelet count 520,000/mm3",
+        "RBC count 3.8 million/mm3",
+        "Hypocellular bone marrow with few precursors"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book lists hemoglobin above 16.5 g/dL as abnormal in polycythemia.",
+        "Correct. A hematocrit of 49% or higher is listed as abnormal.",
+        "Correct. Platelets above 400,000/mm3 are listed in the CBC findings.",
+        "Incorrect. The book lists an RBC count of 6 million/mm3 or more in polycythemia.",
+        "Incorrect. The book describes a hypercellular marrow with increased RBC, WBC, and platelet precursors."
+      ],
+      "clue": "Laboratory evaluation for an increase in red blood cells.",
+      "priority": "Interpreting CBC and marrow findings for polycythemia.",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q5",
+      "section": "heme-polycythemia",
+      "type": "matrix",
+      "page": 166,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse is reviewing causes of polycythemia. For each client situation, indicate the type of polycythemia it most likely represents.",
+      "rows": [
+        "A JAK2 gene mutation",
+        "Long-standing COPD",
+        "A renal carcinoma",
+        "Dehydration from vomiting and diuretics",
+        "Fluid loss from extensive burns"
+      ],
+      "columns": [
+        "Primary",
+        "Secondary",
+        "Relative"
+      ],
+      "correct": [
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "rationales": [
+        "Primary. The book lists a JAK2 gene mutation as the cause of primary polycythemia.",
+        "Secondary. COPD causes low oxygen, a listed trigger of secondary polycythemia.",
+        "Secondary. Tumors such as renal carcinoma are listed among other causes of secondary polycythemia.",
+        "Relative. The book lists dehydration from diuretics and vomiting as causes of relative polycythemia.",
+        "Relative. Burns are listed as a source of dehydration causing relative polycythemia."
+      ],
+      "clue": "Each situation matches a cause in the book's Causes of Polycythemia graphic.",
+      "priority": "Classifying polycythemia by its underlying cause.",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q6",
+      "section": "heme-polycythemia",
+      "type": "sata",
+      "page": 167,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with polycythemia reports intense itching and is at risk for clots. Which medications should the nurse anticipate as part of the treatment plan for polycythemia? Select all that apply.",
+      "options": [
+        "Aspirin",
+        "Allopurinol",
+        "Antihistamines",
+        "JAK inhibitors",
+        "Iron dextran",
+        "Desmopressin"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. Aspirin is listed among the polycythemia medications.",
+        "Correct. Allopurinol is listed among polycythemia medications.",
+        "Correct. Antihistamines are listed and fit the nursing focus of managing itching.",
+        "Correct. JAK inhibitors are listed for polycythemia.",
+        "Incorrect. Iron dextran is parenteral iron for iron deficiency anemia; it would not be used to treat excess red cells.",
+        "Incorrect. Desmopressin is listed for mild hemophilia A, not polycythemia."
+      ],
+      "clue": "Itching and clot risk in a client with polycythemia.",
+      "priority": "Knowing the drug therapy used in polycythemia.",
+      "checked": true
+    },
+    {
+      "id": "heme-polycythemia-q7",
+      "section": "heme-polycythemia",
+      "type": "mcq",
+      "page": 166,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients with polycythemia. Which client should the nurse assess first?",
+      "options": [
+        "A client who reports itching after a warm shower",
+        "A client with new swelling and pain in one calf",
+        "A client with a reddish complexion noted at admission",
+        "A client who asks about the next phlebotomy appointment"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Itching after bathing is an expected finding the book lists in polycythemia.",
+        "Correct. The book says to monitor for thrombosis, and new one-sided calf swelling and pain may signal a clot.",
+        "Incorrect. A reddish or purplish complexion is a common, expected sign.",
+        "Incorrect. A scheduling question is not urgent."
+      ],
+      "clue": "New unilateral calf swelling and pain in a client with thick blood.",
+      "priority": "Prioritizing a possible thrombotic complication over expected findings.",
+      "checked": true
+    },
+    {
+      "id": "heme-itp-q1",
+      "section": "heme-itp",
+      "type": "mcq",
+      "stem": "A 5-year-old is diagnosed with ITP two weeks after having chickenpox. The parent asks what to expect. Which response by the nurse is accurate?",
+      "options": [
+        "This is an inherited disorder passed from the mother to her sons.",
+        "This happens because the body is making too many platelets after infection.",
+        "This form usually follows a viral illness in children and often resolves on its own.",
+        "This is the chronic form, which in children typically lasts longer than six months."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. ITP is described as an acquired immune disorder; mother-to-son inheritance describes hemophilia.",
+        "Incorrect. The book states antibodies destroy platelets, leading to a low platelet count.",
+        "Correct. The book describes acute ITP as mostly occurring in children, often after a viral infection, and usually self-resolving.",
+        "Incorrect. The book describes chronic ITP as more common in adults and typically not virus-related."
+      ],
+      "clue": "ITP onset in a young child after a viral infection.",
+      "priority": "Educating the family about the course of acute ITP.",
+      "page": 167,
+      "clientNeed": "hpm",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-itp-q2",
+      "section": "heme-itp",
+      "type": "mcq",
+      "stem": "The nurse is teaching the parents of a child with ITP about home safety. Which statement by a parent indicates a need for further teaching?",
+      "options": [
+        "We will check our child's skin for new bruising.",
+        "We will give ibuprofen when our child has a fever.",
+        "We will call if we see nose or gum bleeding.",
+        "We will pad the sharp corners of our furniture."
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Monitoring for bruising and bleeding is recommended in the book, so this shows understanding.",
+        "Correct. The book advises avoiding aspirin and NSAIDs such as ibuprofen in ITP, so this statement needs correction.",
+        "Incorrect. The book emphasizes monitoring for bleeding, so reporting it shows understanding.",
+        "Incorrect. Padding furniture is a home safety measure the book recommends, so this shows understanding."
+      ],
+      "clue": "Planned use of an NSAID in a child with low platelets.",
+      "priority": "Bleeding precautions and medication safety in ITP.",
+      "page": 168,
+      "clientNeed": "safety",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "heme-itp-q3",
+      "section": "heme-itp",
+      "type": "mcq",
+      "stem": "An adult with chronic ITP has a platelet count below 50,000/mm3 and has not responded to steroid therapy. Which treatment should the nurse anticipate teaching about?",
+      "options": [
+        "Splenectomy",
+        "Regular phlebotomy",
+        "Factor VIII replacement",
+        "Hydroxyurea therapy"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book states adults are treated when platelets are under 50,000/mm3 with steroids, and splenectomy is considered if there is no response.",
+        "Incorrect. Phlebotomy is listed for polycythemia, not ITP.",
+        "Incorrect. Factor replacement treats hemophilia, not antibody-mediated platelet destruction.",
+        "Incorrect. Hydroxyurea is described for sickle cell disease and primary polycythemia, not ITP."
+      ],
+      "clue": "An adult with platelets under 50,000/mm3 who did not respond to steroids.",
+      "priority": "Anticipating second-line management for adult ITP.",
+      "page": 168,
+      "clientNeed": "pa",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-itp-q4",
+      "section": "heme-itp",
+      "type": "matrix",
+      "page": 168,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A 5-year-old with suspected ITP is examined after a recent viral illness. For each finding, indicate whether it is expected or unexpected with ITP.",
+      "rows": [
+        "Petechiae and ecchymoses",
+        "Bleeding from the gums",
+        "Mild enlargement of the spleen",
+        "A platelet count above the normal range",
+        "Ruddy skin with itching after bathing"
+      ],
+      "columns": [
+        "Expected",
+        "Unexpected"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "Expected. The book lists petechiae, bruising, and ecchymoses on physical exam.",
+        "Expected. Oral bleeding is listed, along with nose and gum bleeding in the history.",
+        "Expected. The book notes mild spleen or liver enlargement may be found.",
+        "Unexpected. The book states the platelet count is decreased in ITP.",
+        "Unexpected. Ruddy skin with itching after bathing describes polycythemia, not ITP."
+      ],
+      "clue": "A child with possible ITP after a viral infection.",
+      "priority": "Recognizing bleeding findings that fit a low platelet count.",
+      "checked": true
+    },
+    {
+      "id": "heme-itp-q5",
+      "section": "heme-itp",
+      "type": "sata",
+      "page": 168,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A 38-year-old client with chronic ITP is being discharged. Which measures should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Avoid invasive procedures when possible",
+        "Pad sharp furniture corners at home",
+        "Teach the client to check the skin for new bruising",
+        "Avoid aspirin and NSAIDs",
+        "Give vaccines by intramuscular injection in the clinic today",
+        "Shave with a straight-edge razor to keep the skin smooth"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book's nursing focus includes avoiding invasive procedures.",
+        "Correct. Padding furniture is a listed home safety measure.",
+        "Correct. The book says to monitor for bruising and bleeding and to teach self-checks.",
+        "Correct. Avoiding aspirin and NSAIDs is listed under home safety.",
+        "Incorrect. Injections are invasive procedures that the book advises avoiding.",
+        "Incorrect. The book stresses preventing injury and teaching bleeding precautions; a straight-edge razor raises the risk of cuts and bleeding."
+      ],
+      "clue": "A client with chronically low platelets going home.",
+      "priority": "Teaching bleeding precautions and injury prevention.",
+      "checked": true
+    },
+    {
+      "id": "heme-itp-q6",
+      "section": "heme-itp",
+      "type": "mcq",
+      "page": 168,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "The parent of a 4-year-old with mild ITP becomes tearful when told the child can be monitored at home and says, \"What if she bleeds and I miss it?\" Which response by the nurse is best?",
+      "options": [
+        "It sounds frightening; let's go over the signs to watch for and when to call.",
+        "You should not worry, since bleeding in ITP is rarely serious in children.",
+        "If you are this worried, it may be best for her to stay in the hospital.",
+        "Most parents handle this well, so try to stay calm for your child."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book calls for emotional support, teaching bleeding precautions and self-checks, and home monitoring of mild cases in children.",
+        "Incorrect. This is false reassurance; the book says to monitor closely for life-threatening bleeding.",
+        "Incorrect. The book states mild cases in children are monitored at home.",
+        "Incorrect. This minimizes the parent's feelings and offers no teaching."
+      ],
+      "clue": "A parent's fear of missing bleeding during home monitoring.",
+      "priority": "Providing emotional support while teaching bleeding precautions.",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q1",
+      "section": "heme-anaphylaxis",
+      "type": "mcq",
+      "stem": "A client stung by a bee develops wheezing, hives, and a blood pressure of 78/44 mm Hg. Which medication does the nurse prepare to give first?",
+      "options": [
+        "Epinephrine",
+        "Diphenhydramine",
+        "Corticosteroids",
+        "Albuterol inhaler"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book identifies epinephrine as first-line treatment because it reduces the allergic response and opens the airways.",
+        "Incorrect. The book describes antihistamines as giving skin and symptom relief, not as first-line treatment.",
+        "Incorrect. Corticosteroids reduce inflammation and swelling but are not the first-line drug.",
+        "Incorrect. Albuterol relieves bronchospasm but does not replace epinephrine as first-line therapy."
+      ],
+      "clue": "Wheezing and hypotension after a bee sting.",
+      "priority": "Giving first-line treatment for anaphylaxis.",
+      "page": 171,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q2",
+      "section": "heme-anaphylaxis",
+      "type": "mcq",
+      "stem": "Minutes after receiving IV iodine-based contrast, a client develops stridor and facial swelling. Which action is the nurse's first priority?",
+      "options": [
+        "Draw a serum tryptase level to confirm the diagnosis",
+        "Stop the contrast and support airway, breathing, circulation",
+        "Give an oral antihistamine and observe for 30 minutes",
+        "Update the allergy record before notifying the provider"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book states anaphylaxis is a clinical diagnosis; testing does not come before emergency care.",
+        "Correct. The book names ABCs and stopping allergen exposure immediately as the first priority.",
+        "Incorrect. Stridor signals an airway emergency that needs immediate ABC support, not observation.",
+        "Incorrect. Documentation and allergy teaching are important but come after the airway is secured."
+      ],
+      "clue": "Stridor and swelling minutes after contrast exposure.",
+      "priority": "Airway, breathing and circulation plus removal of the allergen.",
+      "page": 171,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q3",
+      "section": "heme-anaphylaxis",
+      "type": "mcq",
+      "stem": "A client asks why the body responds faster the second time it meets the same germ. The nurse's explanation should be based on which feature of the immune system?",
+      "options": [
+        "Innate immunity, because neutrophils remember earlier infections",
+        "Skin and mucous membranes, which strengthen after each exposure",
+        "Adaptive immunity, whose B and T cells form long-lasting memory",
+        "Complement proteins, which act faster after the first infection"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book states innate immunity has no memory and gives the same response every time.",
+        "Incorrect. Skin and mucous membranes are innate barriers; the book does not describe them as having memory.",
+        "Correct. The book states adaptive immunity uses B and T cells, is highly specific, and has long-lasting memory with a faster response on re-exposure.",
+        "Incorrect. Complement proteins belong to innate immunity, which the book says has no memory."
+      ],
+      "clue": "The question is about a faster response on re-exposure.",
+      "priority": "Explaining immune memory to a client.",
+      "page": 169,
+      "clientNeed": "hpm",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q4",
+      "section": "heme-anaphylaxis",
+      "type": "sata",
+      "page": 171,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A client is recovering from anaphylaxis caused by penicillin. Which topics should the nurse include in discharge teaching? Select all that apply.",
+      "options": [
+        "How to avoid the allergen",
+        "Early signs of a reaction",
+        "What emergency action to take if a reaction starts",
+        "Checking medication labels and telling providers about the allergy",
+        "Taking penicillin with food to prevent a reaction",
+        "Waiting to see if symptoms pass before seeking help"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists teaching allergen avoidance.",
+        "Correct. Teaching early signs is a listed nursing priority.",
+        "Correct. The book includes teaching emergency action.",
+        "Correct. The book says to instruct on medication label checks and informing providers of the allergy.",
+        "Incorrect. The allergen must be avoided; food does not prevent an allergic reaction.",
+        "Incorrect. Reactions happen within minutes and can be fatal, so the book teaches emergency action, not waiting."
+      ],
+      "clue": "A known drug allergy that caused anaphylaxis.",
+      "priority": "Preventing future reactions through allergen avoidance and early action.",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q5",
+      "section": "heme-anaphylaxis",
+      "type": "sata",
+      "page": 170,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A client who ate peanuts 10 minutes ago is being assessed for anaphylaxis. Which findings should the nurse recognize as systemic symptoms of anaphylaxis? Select all that apply.",
+      "options": [
+        "Hives and flushing",
+        "Swelling of the lips and face",
+        "Hoarseness and stridor",
+        "Tachycardia and dizziness",
+        "Bradycardia with high blood pressure"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists urticaria (hives) and flushing as skin symptoms.",
+        "Correct. Angioedema (swelling) is a listed skin symptom.",
+        "Correct. Hoarseness and stridor are listed respiratory symptoms.",
+        "Correct. The book lists tachycardia, dizziness, and syncope as cardiovascular symptoms.",
+        "Incorrect. The book lists tachycardia and hypotension in anaphylaxis, not bradycardia with high blood pressure."
+      ],
+      "clue": "Rapid onset of symptoms after exposure to a common food trigger.",
+      "priority": "Recognizing multisystem signs of anaphylaxis.",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q6",
+      "section": "heme-anaphylaxis",
+      "type": "mcq",
+      "page": 171,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "stem": "A client who takes a beta blocker develops anaphylaxis with cardiovascular collapse and has not responded to treatment. Which medication should the nurse anticipate next?",
+      "options": [
+        "Diphenhydramine",
+        "Albuterol",
+        "Glucagon",
+        "Corticosteroids"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book describes antihistamines as giving skin and symptom relief, not treating collapse.",
+        "Incorrect. Albuterol relieves bronchospasm but does not address cardiovascular collapse.",
+        "Correct. The book lists glucagon for beta-blocked clients with cardiovascular collapse.",
+        "Incorrect. Corticosteroids reduce inflammation and swelling but are not the book's choice for beta-blocked collapse."
+      ],
+      "clue": "Anaphylaxis with cardiovascular collapse in a client taking a beta blocker.",
+      "priority": "Evaluating response and anticipating therapy for beta-blocked clients.",
+      "checked": true
+    },
+    {
+      "id": "heme-anaphylaxis-q7",
+      "section": "heme-anaphylaxis",
+      "type": "mcq",
+      "page": 171,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients. Which client should the nurse see first?",
+      "options": [
+        "A client with a peanut allergy who asks the nurse to review the lunch menu",
+        "A client with seasonal allergies who is sneezing and has watery eyes",
+        "A client who wants to learn how to check medication labels for allergens",
+        "A client who got a first IV antibiotic dose 10 minutes ago and now has hives and wheezing"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Reviewing the menu supports avoidance but is not urgent.",
+        "Incorrect. Seasonal allergy symptoms without systemic signs are not an emergency.",
+        "Incorrect. Teaching is important but can wait.",
+        "Correct. The book notes onset within 5-30 minutes of a medication exposure and treats wheezing as an airway emergency, with ABCs as the first priority."
+      ],
+      "clue": "Hives and wheezing minutes after a new IV medication.",
+      "priority": "Prioritizing a possible anaphylactic reaction with airway involvement.",
+      "checked": true
+    },
+    {
+      "id": "heme-lupus-q1",
+      "section": "heme-lupus",
+      "type": "mcq",
+      "stem": "A client with systemic lupus erythematosus is being seen for routine follow-up. Which laboratory values should the nurse plan to monitor closely?",
+      "options": [
+        "Serum ferritin and MCV",
+        "Factor VIII and IX levels",
+        "Fetal hemoglobin level",
+        "BUN and creatinine"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. These are diagnostic tests described for iron deficiency anemia.",
+        "Incorrect. Factor assays are used to diagnose hemophilia.",
+        "Incorrect. Fetal hemoglobin relates to hydroxyurea therapy in sickle cell disease.",
+        "Correct. The book reminds that clients with SLE monitor BUN and creatinine frequently for renal impairment, and renal failure is a leading cause of death."
+      ],
+      "clue": "SLE can damage the kidneys.",
+      "priority": "Monitoring renal function in SLE.",
+      "page": 172,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-lupus-q2",
+      "section": "heme-lupus",
+      "type": "mcq",
+      "stem": "A client with SLE plans to spend a weekend outdoors. Which teaching by the nurse is most appropriate?",
+      "options": [
+        "Sunlight improves lupus rashes, so try to spend extra time in direct sun.",
+        "Plan very strenuous hiking, since activity reduces lupus flares quickly.",
+        "Stop all medications during the trip to avoid any reactions to the sun.",
+        "Use sunscreen, a hat, and long sleeves, and avoid photosensitizing drugs or foods."
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book lists UV radiation as a risk factor and photosensitivity as a symptom.",
+        "Incorrect. The book advises balancing rest with activity and pacing activities.",
+        "Incorrect. The book says to avoid photosensitizing drugs, not to stop all prescribed therapy.",
+        "Correct. The book's skin protection guidance includes sunscreen, hats, long sleeves, and avoiding photosensitizing drugs and foods, and UV exposure is a listed risk factor."
+      ],
+      "clue": "Planned sun exposure in a client with photosensitive SLE.",
+      "priority": "Protecting the skin from UV exposure in lupus.",
+      "page": 173,
+      "clientNeed": "hpm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-lupus-q3",
+      "section": "heme-lupus",
+      "type": "mcq",
+      "stem": "A client with lupus nephritis asks for ibuprofen for joint pain. Which response by the nurse is best?",
+      "options": [
+        "You can take ibuprofen as often as you need for joint pain.",
+        "Ibuprofen will treat both the kidney disease and the joint pain.",
+        "NSAIDs are avoided with kidney involvement; I will contact your provider.",
+        "Ibuprofen is the preferred drug for lupus kidney disease."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Unrestricted NSAID use conflicts with the book's warning to avoid NSAIDs with nephritis.",
+        "Incorrect. The book lists corticosteroids, not NSAIDs, for severe symptoms such as nephritis.",
+        "Correct. The book lists NSAIDs for joint pain but says to avoid them if nephritis is present.",
+        "Incorrect. The book states NSAIDs should be avoided when nephritis is present."
+      ],
+      "clue": "The client has lupus nephritis.",
+      "priority": "Medication safety to protect renal function in SLE.",
+      "page": 172,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "heme-lupus-q4",
+      "section": "heme-lupus",
+      "type": "sata",
+      "page": 173,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "A 29-year-old client with SLE says, \"I am tired of flares, and I keep worrying about what this disease will do to me.\" Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Acknowledge the stress of living with a chronic illness",
+        "Encourage the client to talk openly about fears",
+        "Offer a referral to a support group or counseling",
+        "Advise the client to stop thinking about the disease",
+        "Change the subject to the medication schedule"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book lists acknowledging chronic illness stress as psychosocial support.",
+        "Correct. Encouraging open discussion of fears is listed.",
+        "Correct. The book recommends referring to support groups or counseling.",
+        "Incorrect. This dismisses the client's concerns instead of encouraging discussion.",
+        "Incorrect. Changing the subject blocks the open discussion the book recommends."
+      ],
+      "clue": "Fatigue from flares and worry about the future.",
+      "priority": "Providing psychosocial support for chronic illness stress.",
+      "checked": true
+    },
+    {
+      "id": "heme-lupus-q5",
+      "section": "heme-lupus",
+      "type": "matrix",
+      "page": 173,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with SLE is in a flare with joint pain and fatigue. For each self-care measure, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Rest during the flare",
+        "Pace daily activities",
+        "Use warm packs on sore joints",
+        "Use hypoallergenic grooming products",
+        "Spend time in direct sun without a hat"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "rationales": [
+        "Indicated. The book advises rest during flares.",
+        "Indicated. Pacing activities is part of the rest and activity balance.",
+        "Indicated. The book lists warm packs.",
+        "Indicated. The book recommends hypoallergenic products for grooming.",
+        "Not indicated. The book says to protect the skin with sunscreen, hats, and long sleeves."
+      ],
+      "clue": "Joint pain and fatigue during a lupus flare.",
+      "priority": "Balancing rest and activity and protecting the skin in SLE.",
+      "checked": true
+    },
+    {
+      "id": "heme-lupus-q6",
+      "section": "heme-lupus",
+      "type": "mcq",
+      "page": 172,
+      "clientNeed": "psych",
+      "cjmm": "recognizeCues",
+      "stem": "During a visit, a 26-year-old client with SLE says she has felt down for weeks and is unsure whether she can have children. Which areas should the nurse identify as needing psychosocial assessment?",
+      "options": [
+        "Grooming habits and hair care routines",
+        "Depression, anxiety, fertility concerns, and coping",
+        "Family history of bleeding disorders",
+        "Exposure to benzene at work"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Grooming is part of supportive care but does not address her mood or fertility concerns.",
+        "Correct. The book's lupus psychosocial assessment includes anxiety, depression, fertility, and coping.",
+        "Incorrect. Bleeding disorder history is part of the hemophilia assessment.",
+        "Incorrect. Benzene exposure is a leukemia risk factor."
+      ],
+      "clue": "Low mood and uncertainty about fertility in a young woman with SLE.",
+      "priority": "Recognizing psychosocial needs in a client with lupus.",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q1",
+      "section": "heme-ra",
+      "type": "mcq",
+      "stem": "The nurse observes assistive personnel caring for a client with rheumatoid arthritis. Which action requires the nurse to intervene?",
+      "options": [
+        "Using good body mechanics while repositioning",
+        "Placing a pillow under the client's knees for comfort",
+        "Helping the client into a firm chair for meals",
+        "Letting the client do self-care with assistive devices"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book promotes proper body mechanics as part of RA care.",
+        "Correct. The book says to prevent contractures by avoiding pillows under the knees and soft chairs, so this action needs correction.",
+        "Incorrect. Avoiding soft chairs helps prevent contractures, so a firm chair is appropriate.",
+        "Incorrect. The book encourages independence and assistive devices in the chronic phase."
+      ],
+      "clue": "A pillow under the knees promotes flexion contractures.",
+      "priority": "Preventing joint contractures in rheumatoid arthritis.",
+      "page": 174,
+      "clientNeed": "moc",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q2",
+      "section": "heme-ra",
+      "type": "mcq",
+      "stem": "Which assessment findings are most consistent with rheumatoid arthritis?",
+      "options": [
+        "Morning stiffness with symmetrical pain in hand joints",
+        "Ruddy skin with itching after a warm shower",
+        "Spoon-shaped nails with difficulty swallowing",
+        "Joint swelling from bleeding after minor trauma"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists morning stiffness, symmetrical joint pain, and involvement of the MCP, PIP, and wrist joints in RA.",
+        "Incorrect. A ruddy complexion and itching after bathing are polycythemia findings.",
+        "Incorrect. These findings describe Plummer-Vinson syndrome in severe iron deficiency anemia.",
+        "Incorrect. Hemarthrosis after trauma describes hemophilia, not RA."
+      ],
+      "clue": "Morning stiffness and symmetrical small-joint involvement.",
+      "priority": "Recognizing the classic presentation of rheumatoid arthritis.",
+      "page": 174,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q3",
+      "section": "heme-ra",
+      "type": "mcq",
+      "stem": "A client newly diagnosed with rheumatoid arthritis asks which prescribed medication will slow the disease. Which response is accurate?",
+      "options": [
+        "Methotrexate, the first-line disease-modifying drug",
+        "Prednisone, used as the main long-term treatment",
+        "Ibuprofen, because it stops the joint destruction",
+        "Opioids, which are taken long-term to halt damage"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book identifies methotrexate as the first-line DMARD that slows disease progression.",
+        "Incorrect. The book describes corticosteroids as bridge or rescue therapy, not primary long-term treatment.",
+        "Incorrect. The book lists NSAIDs such as ibuprofen for pain relief, not for slowing progression.",
+        "Incorrect. The book lists opioids only for short-term pain control as needed."
+      ],
+      "clue": "The client asks specifically about slowing disease progression.",
+      "priority": "Medication education on disease-modifying therapy in RA.",
+      "page": 175,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q4",
+      "section": "heme-ra",
+      "type": "sata",
+      "page": 175,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A client with rheumatoid arthritis reports joint pain and stiffness. Which supportive measures should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Moist heat for pain relief",
+        "Ice for pain relief",
+        "Exercise and physical therapy to maintain mobility",
+        "Splints or a walker as needed",
+        "Avoid all exercise to protect the joints",
+        "Use opioids as the main long-term pain treatment"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists moist heat for pain relief.",
+        "Correct. Ice is listed as an option for pain relief.",
+        "Correct. The book recommends exercise and PT to maintain mobility.",
+        "Correct. Splints and walkers are listed as needed.",
+        "Incorrect. The book recommends exercise and PT to maintain mobility.",
+        "Incorrect. The book lists opioids only for short-term pain control as needed."
+      ],
+      "clue": "Joint pain and stiffness in a client with RA.",
+      "priority": "Using non-drug comfort measures and activity to preserve function.",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q5",
+      "section": "heme-ra",
+      "type": "matrix",
+      "page": 174,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "The nurse reviews laboratory results for clients being evaluated for rheumatoid arthritis. For each result, indicate whether it is within normal limits or consistent with RA.",
+      "rows": [
+        "Anti-CCP antibodies 45 units",
+        "Anti-CCP antibodies 8 units",
+        "Rheumatoid factor 12 IU/mL",
+        "Rheumatoid factor 120 IU/mL"
+      ],
+      "columns": [
+        "Within normal limits",
+        "Consistent with RA"
+      ],
+      "correct": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "rationales": [
+        "Consistent with RA. The book lists anti-CCP of 20 units or more in RA.",
+        "Within normal limits. The book lists normal anti-CCP as below 20 units.",
+        "Within normal limits. Normal rheumatoid factor is listed as below 20 IU/mL.",
+        "Consistent with RA. The book lists RF above 20 IU/mL in RA and positive above 80 IU/mL."
+      ],
+      "clue": "Anti-CCP and rheumatoid factor values compared with the book's reference ranges.",
+      "priority": "Interpreting antibody tests used to diagnose RA.",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q6",
+      "section": "heme-ra",
+      "type": "sata",
+      "page": 174,
+      "clientNeed": "psych",
+      "cjmm": "analyzeCues",
+      "stem": "A 41-year-old client with rheumatoid arthritis and hand deformities says, \"I hate how my hands look, and I avoid being close to my partner.\" Which areas should the nurse address? Select all that apply.",
+      "options": [
+        "Emotional support",
+        "Body image concerns",
+        "Sexual health",
+        "Advise the client not to discuss appearance changes",
+        "Do all self-care for the client to hide the deformities"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "rationales": [
+        "Correct. The book lists emotional support in RA teaching.",
+        "Correct. Body image is a listed area to address.",
+        "Correct. The book includes sexual health.",
+        "Incorrect. Discouraging discussion conflicts with addressing emotional support and body image.",
+        "Incorrect. The book encourages independence and assistive devices in the chronic phase."
+      ],
+      "clue": "Distress about hand deformities and avoidance of intimacy.",
+      "priority": "Addressing body image and sexual health in chronic RA.",
+      "checked": true
+    },
+    {
+      "id": "heme-ra-q7",
+      "section": "heme-ra",
+      "type": "mcq",
+      "page": 174,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "The nurse is caring for four clients with rheumatoid arthritis. Which client should the nurse assess first?",
+      "options": [
+        "A client with neck pain and a newly positive Babinski sign",
+        "A client with morning stiffness in both hands",
+        "A client with firm nodules over the elbows",
+        "A client asking about devices to help with buttoning clothes"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book notes a Babinski sign when the spine is involved, and RA can affect the cervical spine; a new neurologic sign needs prompt assessment.",
+        "Incorrect. Morning stiffness with symmetrical joint pain is an expected RA finding.",
+        "Incorrect. Rheumatoid nodules are an expected RA finding.",
+        "Incorrect. Assistive devices are encouraged and this request is not urgent."
+      ],
+      "clue": "A new neurologic sign suggesting cervical spine involvement.",
+      "priority": "Prioritizing a new neurologic change over expected chronic findings.",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 156,
+      "issue": "Subsection label 'F1A. Iron deficiency Anemia' appears under 'G1. Anemia' in the Hematology chapter (G); other subsections use G-prefixed labels (G3A, G9A)."
+    },
+    {
+      "page": 157,
+      "issue": "Subsection label 'F2A. Sickle Cell Disease/Anemia' uses an F prefix inside chapter G."
+    },
+    {
+      "page": 157,
+      "issue": "Serum ferritin thresholds given in ng/dL (10 women, 20 men); ferritin is normally reported in ng/mL, so the unit appears wrong."
+    },
+    {
+      "page": 158,
+      "issue": "CBC line reads 'decreased RBCs (5-10 g/dL hemoglobin)', mixing RBC count with hemoglobin units; hemoglobin is abbreviated HbS on one line and HgS on another (and HgF on p159)."
+    },
+    {
+      "page": 159,
+      "issue": "'Avoid aspirin due to acidosis risk' gives a questionable rationale, and bronchodilators listed for sequestration/aplastic crisis are not clearly supported; recommend verifying."
+    },
+    {
+      "page": 160,
+      "issue": "The History / Physical Exam / Psychosocial assessment text is printed twice on the same page (paragraph and bulleted list)."
+    },
+    {
+      "page": 160,
+      "issue": "Phases list says CNS treatment is intrathecal chemo 'not radiation', while Additional Therapies says radiation is used for CNS/testicular spread; wording is contradictory."
+    },
+    {
+      "page": 160,
+      "issue": "Diagnostic graphic states 30% or more blast cells confirms acute leukemia; current WHO criteria commonly use 20%, so the threshold should be verified."
+    },
+    {
+      "page": 162,
+      "issue": "Hemophilia factor assay graphic says factor level <5% = severe hemophilia; severe is usually defined as <1% (1-5% is moderate). Graphic also lists factor XI among assays though the text is about VIII/IX."
+    },
+    {
+      "page": 163,
+      "issue": "D-dimer threshold given as >500 mcg/mL FEU; the conventional cutoff is 500 ng/mL FEU (0.5 mcg/mL), so the unit appears wrong."
+    },
+    {
+      "page": 164,
+      "issue": "DIC medication list includes 'Analgesics: Pain relief for joint bleeds', which reads like hemophilia content placed in the DIC section."
+    },
+    {
+      "page": 166,
+      "issue": "Polycythemia assessment box contains 'Remember: Priority for immunocompromised is infection', which appears out of place in this section."
+    },
+    {
+      "page": 167,
+      "issue": "Relative polycythemia care says 'adjust diet (low-purine)'; a low-purine diet relates to hyperuricemia and is not clearly tied to relative polycythemia from fluid loss."
+    },
+    {
+      "page": 167,
+      "issue": "ITP text says intracerebral hemorrhage risk is greatest when platelets drop below 1,000/mm3, but the p168 table places intracranial hemorrhage risk at <15,000; the two thresholds are inconsistent."
+    },
+    {
+      "page": 167,
+      "issue": "Decorative sticker reading 'WE BLEED GET OVER IT' on the ITP page may be seen as unprofessional in a clinical review book."
+    },
+    {
+      "page": 168,
+      "issue": "ITP Diagnostic Tests table lists the same range '30,000-50,000' for two different severity levels (bruising with minor trauma vs spontaneous bruising/petechiae); one range appears to be a typo."
+    },
+    {
+      "page": 168,
+      "issue": "JAK inhibitors are listed as an ITP medication; this is not standard ITP therapy (TPO receptor agonists are more typical) and may be carried over from the polycythemia section."
+    },
+    {
+      "page": 169,
+      "issue": "Subsection label 'F8A. Anaphylaxis' appears under 'G8. Hypersensitivity Reactions' in chapter G."
+    },
+    {
+      "page": 171,
+      "issue": "Applying a tourniquet above the exposure site (release every 5 min, max 30 min) is outdated/questionable guidance; ranitidine is listed as the H2 blocker although it was withdrawn from the US market in 2020."
+    },
+    {
+      "page": 171,
+      "issue": "Typo in assessment graphic: 'Earlier onset = more severe reactiou'."
+    },
+    {
+      "page": 170,
+      "issue": "Typo 'hor mones' in medication triggers; exercise-induced line reads 'jogging, tennis, cycling clear trigger', which is garbled."
+    },
+    {
+      "page": 172,
+      "issue": "DMARD line is duplicated: 'DMARDs (e.g., Methotrexate, Belimumab)' appears twice in the lupus pharmacologic list."
+    },
+    {
+      "page": 174,
+      "issue": "Rheumatoid factor values are internally inconsistent: RA is listed as >20 IU/mL but 'positive if >80 IU/mL'."
+    },
+    {
+      "page": 155,
+      "issue": "Chapter opener lists 'Idiopathic Thrombocytopenia Purpura' while the section heading on p167 uses 'Thrombocytopenic'."
+    },
+    {
+      "page": 166,
+      "issue": "Polycythemia physical exam lists \"clubbing/spoon nails\"; spoon nails (koilonychia) are classically linked to iron deficiency (as on p156), so their inclusion here should be verified."
+    },
+    {
+      "page": 166,
+      "issue": "Collaborative Care text repeats the heading \"Primary Polycythemia:\" at the end of the Primary Goal line and again as its own heading."
+    },
+    {
+      "page": 165,
+      "issue": "Key test is labeled \"Free Hemoglobin\" but the abnormal value given is hemoglobinuria (>150 mg/dL); plasma free hemoglobin and urine hemoglobin are mixed in one line."
+    },
+    {
+      "page": 172,
+      "issue": "\"Corticosteroids: For severe symptoms (e.g., nephritis)\" is printed without its own bullet, merged into the hydroxychloroquine line."
+    },
+    {
+      "page": 174,
+      "issue": "Causes of RA graphic lists \"Family history\" and \"Intestinal microbiome imbalance\" under both Multifactorial Causes and Risk Factors (duplicated)."
+    },
+    {
+      "page": 170,
+      "issue": "The Remember box names latex as a common trigger, but latex does not appear in the trigger list or percentages above it on the same page."
+    }
+  ]
+}

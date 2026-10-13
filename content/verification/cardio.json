@@ -1,0 +1,5 @@
+{"chapter":"cardio","reviewed":66,"ok":63,"fixed":3,"rewritten":0,"items":[
+{"id":"cardio-basics-q2","status":"fixed","note":"Stem said 'chronic heart failure' and the key said 'associated with heart failure', so the wording gave the answer away. Changed the stem to a neutral cardiac assessment."},
+{"id":"cardio-hf-q4","status":"fixed","note":"Keyed option 'Echocardiogram used to assess LVEF and diastolic function' describes what a test is for, not a finding, so it did not answer the stem. Replaced it with 'ECG showing LVH' (p52: ECG may show arrhythmia, LVH)."},
+{"id":"cardio-pah-q1","status":"fixed","note":"cjmm was evaluateOutcomes, but the item asks the student to anticipate a taper plan. Changed to generateSolutions."}
+]}

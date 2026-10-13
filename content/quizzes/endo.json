@@ -1,0 +1,2232 @@
+{
+  "chapter": "endo",
+  "questions": [
+    {
+      "id": "endo-dm-q1",
+      "section": "endo-dm",
+      "type": "mcq",
+      "stem": "A nurse is teaching foot care to a client newly diagnosed with diabetes mellitus. Which instruction should the nurse include?",
+      "options": [
+        "Wear snug, tight-fitting socks and shoes to support foot circulation.",
+        "Check your feet every day for cuts or blisters and be careful with hot baths.",
+        "Soak your feet in hot water each night to soften dry skin.",
+        "Report a foot sore only if it becomes painful or swollen."
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book specifically advises avoiding tight clothing as part of safe foot care.",
+        "Correct. The book's nursing care includes monitoring feet for cuts and blisters and using caution with hot baths, because circulation and nerve damage raise ulcer risk.",
+        "Incorrect. The book warns to be careful with hot baths; neuropathy can keep the client from sensing a burn.",
+        "Incorrect. Nerve damage can mask pain, so the book teaches monitoring cuts and blisters rather than waiting for pain."
+      ],
+      "clue": "Newly diagnosed diabetes with risk of foot ulcers from impaired circulation and nerve damage.",
+      "priority": "Prevent injury and infection through safe foot care teaching.",
+      "page": 93,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-dm-q2",
+      "section": "endo-dm",
+      "type": "mcq",
+      "stem": "A pregnant client at 26 weeks' gestation has obesity, a family history of diabetes, and previously delivered a macrosomic infant. She reports no symptoms. What should the nurse anticipate?",
+      "options": [
+        "No testing unless she develops thirst or frequent urination",
+        "Starting an oral antidiabetic agent before any testing is done",
+        "Postponing glucose evaluation until after the baby is delivered",
+        "An oral glucose tolerance test to screen for gestational diabetes now"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book notes gestational DM is often asymptomatic, so absence of symptoms does not rule it out.",
+        "Incorrect. Diagnosis comes first; the book lists diet, exercise, and insulin if needed as gestational DM treatment.",
+        "Incorrect. The book links untreated gestational DM to macrosomia, preeclampsia, C-section, and neonatal hypoglycemia, so screening occurs during pregnancy.",
+        "Correct. The book states gestational DM is diagnosed at 24-28 weeks with an OGTT, and this client has several listed risk factors."
+      ],
+      "clue": "26 weeks pregnant with obesity, family history, and prior macrosomia but no symptoms.",
+      "priority": "Early screening for gestational diabetes in a high-risk pregnancy.",
+      "page": 92,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-dm-q3",
+      "section": "endo-dm",
+      "type": "mcq",
+      "stem": "A client with diabetes mellitus becomes sweaty and confused shortly before lunch. What is the nurse's priority action?",
+      "options": [
+        "Give a fast-acting source of glucose",
+        "Administer the scheduled dose of insulin",
+        "Encourage the client to drink plain water",
+        "Recheck the client's status after the meal"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists sweating and confusion as signs of hypoglycemia, treated with fast glucose.",
+        "Incorrect. Insulin would lower glucose further when the signs point to hypoglycemia.",
+        "Incorrect. Fluids are listed for hyperglycemia (thirst, fruity breath), not for sweating and confusion.",
+        "Incorrect. Delaying treatment of hypoglycemia with altered mental status is unsafe."
+      ],
+      "clue": "Sweating and confusion in a client with diabetes.",
+      "priority": "Recognize and promptly treat hypoglycemia.",
+      "page": 93,
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-hypothyroid-q1",
+      "section": "endo-hypothyroid",
+      "type": "mcq",
+      "stem": "A client's labs show TSH 9.2 mU/L and a decreased T4 level. How should the nurse interpret these results?",
+      "options": [
+        "They are consistent with hyperthyroidism.",
+        "They show a normal, euthyroid pattern.",
+        "They are consistent with primary hypothyroidism.",
+        "They suggest a laboratory error only."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book lists hyperthyroidism as low TSH with elevated T4 and T3.",
+        "Incorrect. The book's normal TSH range is 0.4-4.2 mU/L, so 9.2 is elevated.",
+        "Correct. The book states a TSH above 4.2 mU/L confirms primary hypothyroidism, with decreased T4 reflecting low hormone production.",
+        "Incorrect. High TSH with low T4 is the expected hypothyroid pattern the book describes."
+      ],
+      "clue": "Elevated TSH with decreased T4.",
+      "priority": "Correctly interpret thyroid function tests.",
+      "page": 94,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-hypothyroid-q2",
+      "section": "endo-hypothyroid",
+      "type": "mcq",
+      "stem": "A client with hypothyroidism is starting levothyroxine. Which teaching point is most important for the nurse to include?",
+      "options": [
+        "Take the tablet with breakfast to avoid an upset stomach.",
+        "Stop the medication once your energy level improves.",
+        "Report chest pain, palpitations, or shortness of breath right away.",
+        "Follow a high-calorie diet to restore normal energy."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book teaches taking levothyroxine on an empty stomach.",
+        "Incorrect. The book directs ongoing TSH monitoring until stable and then annually, implying continued therapy.",
+        "Correct. The book says to start levothyroxine low, adjust gradually, and monitor for these cardiac symptoms.",
+        "Incorrect. The book recommends a low-calorie, high-protein, high-fiber diet."
+      ],
+      "clue": "Starting thyroid hormone replacement, which is begun low and adjusted gradually.",
+      "priority": "Safe medication teaching and cardiac monitoring during hormone replacement.",
+      "page": 95,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-hypothyroid-q3",
+      "section": "endo-hypothyroid",
+      "type": "mcq",
+      "stem": "Which set of findings should the nurse expect when assessing a client with hypothyroidism?",
+      "options": [
+        "Cold intolerance, weight gain, bradycardia, and constipation",
+        "Heat intolerance, weight loss, tachycardia, and frequent stools",
+        "Moist salmon-colored skin, fine tremors, and exophthalmos",
+        "Polyuria with pale dilute urine, thirst, and weight loss"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists these findings and summarizes hypothyroidism as cold, slow, and fat.",
+        "Incorrect. These match the hypermetabolic state of hyperthyroidism in the book.",
+        "Incorrect. The book lists these as physical exam findings of hyperthyroidism.",
+        "Incorrect. These are findings of diabetes insipidus in the book."
+      ],
+      "clue": "Slowed metabolism from insufficient thyroid hormone.",
+      "priority": "Recognize the hypometabolic presentation of hypothyroidism.",
+      "page": 94,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperthyroid-q1",
+      "section": "endo-hyperthyroid",
+      "type": "mcq",
+      "stem": "A client returns to the unit after a thyroidectomy. Which nursing action is most appropriate?",
+      "options": [
+        "Keep the client flat in bed and check only the front of the dressing.",
+        "Place the client prone to promote drainage from the surgical incision.",
+        "Delay the first dressing check until the client reports neck pain.",
+        "Place the client in semi-Fowler position and check the dressing, including behind the neck."
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book specifies semi-Fowler position and checking the back of the neck, where blood can pool.",
+        "Incorrect. The book directs semi-Fowler positioning after thyroidectomy.",
+        "Incorrect. The book directs checking the site for edema and bleeding, not waiting for symptoms.",
+        "Correct. The book says to keep the client semi-Fowler and inspect for edema and bleeding from the back of the neck to the front."
+      ],
+      "clue": "Immediate post-thyroidectomy period.",
+      "priority": "Detect bleeding and edema at the surgical site early.",
+      "page": 96,
+      "clientNeed": "bcc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperthyroid-q2",
+      "section": "endo-hyperthyroid",
+      "type": "mcq",
+      "stem": "A client with Graves disease who recently had an infection develops a high fever, tachycardia, severe sweating, diarrhea, and confusion. What should the nurse recognize?",
+      "options": [
+        "Expected symptoms of stable, well-controlled Graves disease",
+        "A possible thyroid storm, which is a life-threatening emergency",
+        "A possible myxedema coma from low thyroid hormone levels",
+        "A mild anxiety reaction that will resolve with rest alone"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book describes these as severe-case findings, not stable disease.",
+        "Correct. The book lists these signs for thyroid storm and calls it fatal if untreated, often triggered by infection.",
+        "Incorrect. The book describes myxedema coma with hypothermia and bradycardia, the opposite pattern.",
+        "Incorrect. High fever, confusion, and dehydration point to the book's thyroid storm emergency."
+      ],
+      "clue": "High fever, tachycardia, and confusion after an infection in Graves disease.",
+      "priority": "Recognize thyroid storm as an emergency.",
+      "page": 96,
+      "clientNeed": "pa",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperthyroid-q3",
+      "section": "endo-hyperthyroid",
+      "type": "mcq",
+      "stem": "A 30-year-old woman reports nervousness, heat intolerance, and weight loss despite a larger appetite. Which additional finding should the nurse expect?",
+      "options": [
+        "Dry, flaky skin with slowed reflexes",
+        "Bronze skin with salt cravings",
+        "Moon face with purple striae",
+        "Fine tremors with moist, salmon-colored skin"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book lists these as hypothyroidism findings.",
+        "Incorrect. The book associates these with adrenal insufficiency.",
+        "Incorrect. The book lists these as classic signs of Cushing syndrome.",
+        "Correct. The book lists fine tremors and moist, salmon-colored skin as common exam findings in hyperthyroidism."
+      ],
+      "clue": "Nervousness, heat intolerance, and weight loss with increased appetite.",
+      "priority": "Recognize the hypermetabolic signs of hyperthyroidism.",
+      "page": 96,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q1",
+      "section": "endo-addison",
+      "type": "mcq",
+      "stem": "A client with suspected Addison disease has blood work drawn. Which electrolyte pattern should the nurse expect?",
+      "options": [
+        "High sodium, low potassium, high glucose",
+        "Low sodium, high potassium, low glucose",
+        "Low sodium, low potassium, high glucose",
+        "High sodium, high potassium, low glucose"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. This is the reverse of the book's adrenal insufficiency findings.",
+        "Correct. The book lists hyponatremia, hyperkalemia, hypoglycemia, and elevated BUN in adrenal insufficiency.",
+        "Incorrect. Aldosterone deficiency causes potassium to rise, and cortisol deficiency lowers glucose.",
+        "Incorrect. The book states low aldosterone leads to hyponatremia, not high sodium."
+      ],
+      "clue": "Deficiency of both cortisol and aldosterone.",
+      "priority": "Anticipate electrolyte and glucose imbalances of adrenal insufficiency.",
+      "page": 99,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q2",
+      "section": "endo-addison",
+      "type": "mcq",
+      "stem": "A client abruptly stopped taking long-term prednisone a week ago and now reports fatigue and dizziness, with low blood pressure. Which condition should the nurse suspect?",
+      "options": [
+        "Cushing syndrome caused by excess glucocorticoid levels",
+        "Pheochromocytoma causing paroxysmal blood pressure spells",
+        "Adrenal insufficiency caused by sudden steroid withdrawal",
+        "SIADH causing fluid retention and dilutional hyponatremia"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book links Cushing syndrome to hypertension from cortisol excess, not hypotension after withdrawal.",
+        "Incorrect. The book describes pheochromocytoma with hypertension, not hypotension after stopping steroids.",
+        "Correct. The book states adrenal insufficiency may result from sudden steroid withdrawal and that low cortisol causes fatigue and hypotension.",
+        "Incorrect. The book describes SIADH as water retention with dilutional hyponatremia, low urine output, and weight gain, not a steroid-withdrawal picture."
+      ],
+      "clue": "Abrupt discontinuation of long-term corticosteroids followed by fatigue and hypotension.",
+      "priority": "Recognize adrenal insufficiency triggered by steroid withdrawal.",
+      "page": 97,
+      "clientNeed": "pharm",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q3",
+      "section": "endo-addison",
+      "type": "mcq",
+      "stem": "During an ACTH stimulation test, a client's cortisol rises only to 14 mcg/dL. How should the nurse interpret this result?",
+      "options": [
+        "It supports a diagnosis of adrenal insufficiency.",
+        "It is a normal response to ACTH stimulation.",
+        "It indicates excess cortisol production.",
+        "It confirms primary hyperparathyroidism."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book states cortisol normally rises above 20 mcg/dL and fails to rise in adrenal insufficiency.",
+        "Incorrect. A normal response in the book is a rise above 20 mcg/dL.",
+        "Incorrect. A blunted rise reflects deficient, not excessive, cortisol.",
+        "Incorrect. The ACTH stimulation test assesses adrenal, not parathyroid, function."
+      ],
+      "clue": "Cortisol fails to rise above 20 mcg/dL after ACTH.",
+      "priority": "Interpret adrenal function testing accurately.",
+      "page": 99,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-cushing-q1",
+      "section": "endo-cushing",
+      "type": "mcq",
+      "stem": "A client is recovering from transsphenoidal surgery for a pituitary tumor causing Cushing syndrome. Which instruction should the nurse give?",
+      "options": [
+        "Avoid sneezing, coughing, and blowing your nose.",
+        "Blow your nose gently to clear any drainage.",
+        "Cough deeply every hour to clear your lungs.",
+        "Lie flat and still for the first full day."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's postoperative care lists avoiding sneezing, coughing, and nose blowing.",
+        "Incorrect. The book says to avoid nose blowing and to watch for nasal drainage.",
+        "Incorrect. The book specifically says to avoid coughing after this surgery.",
+        "Incorrect. The book does not support this; its focus is airway, neuro checks, and nasal drainage."
+      ],
+      "clue": "Transsphenoidal surgery through the nasal route.",
+      "priority": "Protect the surgical site and prevent complications after pituitary surgery.",
+      "page": 100,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-cushing-q2",
+      "section": "endo-cushing",
+      "type": "mcq",
+      "stem": "A client with steroid-induced Cushing syndrome says, 'I want to stop my prednisone today because of these side effects.' What is the nurse's best response?",
+      "options": [
+        "Stopping today is fine, since the drug is causing your symptoms.",
+        "Skip every other dose this week, then stop completely next week.",
+        "The dose needs to be tapered slowly; stopping it suddenly is unsafe.",
+        "Double the dose briefly so you can stop it sooner next week."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book warns never to stop steroids abruptly.",
+        "Incorrect. This is self-directed and not the slow taper the book describes.",
+        "Correct. The book states that for steroid-induced Cushing's, medication must be tapered slowly and never stopped abruptly.",
+        "Incorrect. Increasing the dose would worsen cortisol excess and is not a taper."
+      ],
+      "clue": "Client wants to abruptly stop the steroid causing Cushing syndrome.",
+      "priority": "Prevent harm from abrupt corticosteroid withdrawal.",
+      "page": 100,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-cushing-q3",
+      "section": "endo-cushing",
+      "type": "mcq",
+      "stem": "A client has a moon face, buffalo hump, thin limbs, and purple striae. Which laboratory finding should the nurse expect?",
+      "options": [
+        "High potassium with low blood glucose",
+        "Low potassium with metabolic alkalosis",
+        "Low calcium with a prolonged QT interval",
+        "High sodium with very dilute urine"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. These match adrenal insufficiency; the book lists hyperglycemia with Cushing syndrome.",
+        "Correct. The book lists hypokalemia, hypochloremia, and metabolic alkalosis as common findings in Cushing syndrome.",
+        "Incorrect. These are hypoparathyroidism findings in the book.",
+        "Incorrect. This pattern matches diabetes insipidus in the book."
+      ],
+      "clue": "Classic cushingoid features from cortisol excess.",
+      "priority": "Anticipate metabolic and electrolyte changes of Cushing syndrome.",
+      "page": 100,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-pheo-q1",
+      "section": "endo-pheo",
+      "type": "mcq",
+      "stem": "A nurse is performing an abdominal assessment on a client with suspected pheochromocytoma. Which action is most appropriate?",
+      "options": [
+        "Use deep palpation to locate the mass",
+        "Massage the abdomen to relieve pain",
+        "Have the client bear down during the exam",
+        "Avoid deep palpation of the abdomen"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Deep palpation can trigger catecholamine release and a hypertensive crisis.",
+        "Incorrect. The book advises avoiding vigorous palpation and increased abdominal pressure.",
+        "Incorrect. Increasing abdominal pressure can provoke a hypertensive crisis, per the book.",
+        "Correct. The book warns to avoid deep palpation because it can cause a hypertensive crisis."
+      ],
+      "clue": "Suspected catecholamine-secreting tumor.",
+      "priority": "Prevent hypertensive crisis during assessment.",
+      "page": 101,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-pheo-q2",
+      "section": "endo-pheo",
+      "type": "mcq",
+      "stem": "Before surgery for pheochromocytoma, a client suddenly reports a pounding headache, palpitations, and sweating and appears pale. What should the nurse do first?",
+      "options": [
+        "Encourage brisk walking in the hall to relieve the client's anxiety.",
+        "Check the blood pressure, because this suggests a catecholamine spell.",
+        "Offer a snack, since these signs indicate low blood glucose.",
+        "Document the episode and reassess the client at the next routine check."
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book lists exercise as a trigger and promotes rest and stress reduction.",
+        "Correct. The book says to monitor for spells using the 5 Ps: pressure, palpitations, pallor, perspiration, and pain.",
+        "Incorrect. In a preoperative pheochromocytoma client these signs match the book's 5 Ps spell.",
+        "Incorrect. A spell can involve dangerously high blood pressure and needs immediate assessment."
+      ],
+      "clue": "Pressure, palpitations, pallor, perspiration, and pain together.",
+      "priority": "Recognize and assess a paroxysmal hypertensive spell.",
+      "page": 102,
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-pheo-q3",
+      "section": "endo-pheo",
+      "type": "mcq",
+      "stem": "After surgical removal of a pheochromocytoma, which assessment is most important for the nurse to include in the plan of care?",
+      "options": [
+        "Monitor for labile blood pressure, hypovolemia, and hypoglycemia",
+        "Begin a high-salt diet to expand blood volume after surgery",
+        "Encourage vigorous abdominal massage to prevent an ileus",
+        "Restrict fluids to prevent postoperative fluid overload"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists these as key postoperative concerns, with intensive cardiac and respiratory monitoring.",
+        "Incorrect. The book lists blood volume expansion with a high-salt diet as a preoperative measure.",
+        "Incorrect. The book says to avoid vigorous palpation and increased abdominal pressure.",
+        "Incorrect. The book warns of hypovolemia after surgery, so restricting fluids is not supported."
+      ],
+      "clue": "Immediate postoperative period after tumor removal.",
+      "priority": "Detect hemodynamic and glucose instability after adrenal surgery.",
+      "page": 102,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q1",
+      "section": "endo-siadh",
+      "type": "mcq",
+      "stem": "A client with SIADH has a critically low serum sodium and new confusion. Which nursing action is the priority?",
+      "options": [
+        "Encourage generous oral fluids",
+        "Elevate the head of bed to 90 degrees",
+        "Prepare for a dose of desmopressin",
+        "Initiate seizure precautions"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. SIADH causes water overload, and the book calls for fluid restriction.",
+        "Incorrect. The book positions the client with the head flat or slightly elevated.",
+        "Incorrect. Desmopressin is synthetic ADH for DI and would worsen water retention.",
+        "Correct. The book lists seizure precautions as a priority when sodium is critically low."
+      ],
+      "clue": "Critically low sodium with neurologic change.",
+      "priority": "Protect the client from seizures caused by hyponatremia.",
+      "page": 104,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q2",
+      "section": "endo-siadh",
+      "type": "mcq",
+      "stem": "A client with SIADH is receiving hypertonic saline. Which finding should the nurse report immediately?",
+      "options": [
+        "Serum sodium rose 6 mEq/L over the past 24 hours",
+        "Body weight decreased by 0.5 kg since yesterday",
+        "Serum sodium rose 15 mEq/L over the past 24 hours",
+        "Urine output increased slightly since yesterday"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. This is within the book's safe limit of 8-10 mEq/L in 24 hours.",
+        "Incorrect. Modest weight loss fits the goal of reducing excess fluid.",
+        "Correct. The book limits correction to no more than 8-10 mEq/L in 24 hours to prevent osmotic demyelination syndrome.",
+        "Incorrect. Low urine output is a key SIADH sign, so a modest rise reflects improvement."
+      ],
+      "clue": "Sodium correcting faster than the book's 24-hour limit.",
+      "priority": "Prevent osmotic demyelination by correcting hyponatremia slowly.",
+      "page": 104,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q3",
+      "section": "endo-siadh",
+      "type": "mcq",
+      "stem": "A client with SIADH is on a fluid restriction and reports thirst. Which nursing action best supports the plan?",
+      "options": [
+        "Allow unlimited ice chips because they are not fluid",
+        "Give an extra glass of water with each meal tray",
+        "Count ice chips as intake and offer hard candy or gum",
+        "Hang a liter of dextrose in water for hydration"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book directs counting ice chips as part of fluid management.",
+        "Incorrect. This would exceed the book's 600-800 mL/day fluid restriction.",
+        "Correct. The book lists counting ice chips and providing hard candy or gum for comfort.",
+        "Incorrect. Adding free water worsens dilutional hyponatremia in SIADH."
+      ],
+      "clue": "Thirst during a prescribed fluid restriction.",
+      "priority": "Maintain fluid restriction while promoting comfort.",
+      "page": 104,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-di-q1",
+      "section": "endo-di",
+      "type": "mcq",
+      "stem": "After pituitary surgery, a client has large volumes of pale, dilute urine and intense thirst. Which laboratory finding should the nurse expect?",
+      "options": [
+        "Serum sodium below 120 mEq/L with low blood osmolality",
+        "Serum potassium elevated with blood glucose very low",
+        "Serum calcium below 8.4 mg/dL with high phosphorus",
+        "Serum sodium above 145 mEq/L with high blood osmolality"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. This dilutional pattern matches SIADH in the book.",
+        "Incorrect. This pattern fits adrenal insufficiency in the book, not DI.",
+        "Incorrect. These findings describe hypoparathyroidism in the book.",
+        "Correct. The book describes DI with water loss, increased plasma osmolality, and hypernatremia above 145 mEq/L."
+      ],
+      "clue": "Polyuria with dilute urine and thirst after pituitary surgery.",
+      "priority": "Recognize the dehydration and hypernatremia of central DI.",
+      "page": 105,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-di-q2",
+      "section": "endo-di",
+      "type": "mcq",
+      "stem": "A client with central diabetes insipidus begins desmopressin. Which finding best indicates the medication is effective?",
+      "options": [
+        "Urine output decreases and thirst lessens.",
+        "Urine output increases and remains dilute.",
+        "Serum sodium rises well above 145 mEq/L.",
+        "Serum osmolality rises above 320 mOsm/L."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book describes desmopressin as synthetic ADH, which promotes water reabsorption and reduces water loss.",
+        "Incorrect. Increasing dilute urine would mean DI is not controlled.",
+        "Incorrect. Rising sodium signals worsening dehydration, which the book links to untreated DI.",
+        "Incorrect. The book flags blood osmolality above 320 as an emergency."
+      ],
+      "clue": "Synthetic ADH given for ADH deficiency.",
+      "priority": "Evaluate response to ADH replacement.",
+      "page": 105,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "endo-di-q3",
+      "section": "endo-di",
+      "type": "mcq",
+      "stem": "A client taking lithium develops polyuria of more than 3 L per day and is diagnosed with renal diabetes insipidus. Which treatment should the nurse anticipate?",
+      "options": [
+        "Fluid restriction to 600-800 mL per day",
+        "A thiazide diuretic to reduce the polyuria",
+        "Hypertonic saline infused to raise sodium",
+        "A vasopressin receptor antagonist such as tolvaptan"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. This is the book's SIADH treatment and would worsen dehydration in DI.",
+        "Correct. The book lists thiazide diuretics to reduce polyuria in renal DI (lithium is listed among drug causes of renal DI on the preceding page).",
+        "Incorrect. The book uses hypertonic saline for SIADH; DI already involves hypernatremia.",
+        "Incorrect. The book lists these for SIADH; blocking ADH effects would increase water loss."
+      ],
+      "clue": "Lithium use with large-volume urine output.",
+      "priority": "Match treatment to the type of diabetes insipidus.",
+      "page": 105,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-acromegaly-q1",
+      "section": "endo-acromegaly",
+      "type": "mcq",
+      "stem": "After transsphenoidal pituitary surgery for acromegaly, a client has clear drainage from the nose. What should the nurse do?",
+      "options": [
+        "Have the client blow the nose to clear the drainage.",
+        "Document it as expected postoperative nasal mucus.",
+        "Lower the head of bed flat to reduce the drainage.",
+        "Report it as a possible cerebrospinal fluid leak."
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book says to avoid coughing and sneezing, and nose blowing increases pressure at the site.",
+        "Incorrect. The book highlights nasal drainage as a possible CSF leak, not a routine finding.",
+        "Incorrect. The book's postoperative nursing focus is to elevate the head.",
+        "Correct. The book says to monitor nasal drainage after this surgery for a CSF leak."
+      ],
+      "clue": "Clear nasal drainage after surgery through the nasal route.",
+      "priority": "Detect a cerebrospinal fluid leak early.",
+      "page": 107,
+      "clientNeed": "rrp",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-acromegaly-q2",
+      "section": "endo-acromegaly",
+      "type": "mcq",
+      "stem": "An adult reports headaches, vision changes, and needing larger shoes and rings over several years. Which assessment best helps the nurse evaluate for acromegaly?",
+      "options": [
+        "Measure the client's height to check for ongoing growth.",
+        "Check for exophthalmos and a thyroid bruit on the neck.",
+        "Compare the client's current features with old photographs.",
+        "Look for a moon face, buffalo hump, and purple striae."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book states acromegaly develops after skeletal maturity, unlike gigantism in children.",
+        "Incorrect. The book lists these as findings of hyperthyroidism.",
+        "Correct. The book notes acromegaly has a gradual onset over 7-10 years and suggests comparing old photos.",
+        "Incorrect. The book lists these as classic signs of Cushing syndrome."
+      ],
+      "clue": "Gradual enlargement of hands and feet in an adult.",
+      "priority": "Recognize slow-onset acromegaly through focused history.",
+      "page": 106,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-acromegaly-q3",
+      "section": "endo-acromegaly",
+      "type": "mcq",
+      "stem": "Which laboratory values are most important for the nurse to monitor after pituitary surgery for acromegaly?",
+      "options": [
+        "Serum calcium and phosphorus",
+        "Blood glucose and serum sodium",
+        "Serum TSH and free T3 levels",
+        "Hemoglobin A1C and lipid panel"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book emphasizes these after parathyroid, not pituitary, surgery.",
+        "Correct. The book lists monitoring glucose and sodium and watching for hypoglycemia and hyponatremia.",
+        "Incorrect. The book does not list these for postoperative acromegaly care.",
+        "Incorrect. These are long-term measures and not in the book's immediate postoperative plan."
+      ],
+      "clue": "Immediate postoperative period after pituitary surgery.",
+      "priority": "Detect hypoglycemia and hyponatremia after pituitary surgery.",
+      "page": 107,
+      "clientNeed": "rrp",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q1",
+      "section": "endo-hyperpara",
+      "type": "mcq",
+      "stem": "Several hours after a parathyroidectomy, a client develops new hoarseness and stridor. What is the nurse's priority?",
+      "options": [
+        "Assess airway and breathing now and notify the provider immediately",
+        "Encourage the client to rest the voice overnight",
+        "Recheck the client at the next routine assessment",
+        "Offer warm fluids to soothe the client's throat"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists stridor and hoarseness after parathyroid surgery as signs of airway compromise; airway assessment and rapid escalation come first.",
+        "Incorrect. Stridor signals a possible airway problem that needs urgent action, not rest.",
+        "Incorrect. Delaying assessment of stridor could allow airway obstruction.",
+        "Incorrect. Comfort measures do not address the airway risk the book describes."
+      ],
+      "clue": "Stridor and hoarseness after parathyroid surgery.",
+      "priority": "Airway first after neck surgery.",
+      "page": 109,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q2",
+      "section": "endo-hyperpara",
+      "type": "mcq",
+      "stem": "A client with hypercalcemia from hyperparathyroidism is not yet a surgical candidate. Which plan of care is most appropriate?",
+      "options": [
+        "Encourage 2-3 L of fluids daily and promote mobility",
+        "Restrict fluids and maintain the client on bed rest",
+        "Provide a high-calcium diet with extra vitamin D",
+        "Give IV calcium gluconate to stabilize the bones"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's nonsurgical care includes 2-3 L/day of fluids, and nursing focus promotes mobility to prevent fractures.",
+        "Incorrect. Hydration is encouraged, and immobility works against the book's goal of preventing fractures.",
+        "Incorrect. The book advises only moderate calcium and vitamin D intake.",
+        "Incorrect. IV calcium treats acute hypocalcemia and would worsen hypercalcemia."
+      ],
+      "clue": "Hypercalcemia managed without surgery.",
+      "priority": "Prevent complications of hypercalcemia and bone loss.",
+      "page": 109,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q3",
+      "section": "endo-hyperpara",
+      "type": "mcq",
+      "stem": "A client reports bone pain, kidney stones, constipation, and confusion. Which laboratory pattern should the nurse expect?",
+      "options": [
+        "Low calcium, low PTH, high phosphorus",
+        "High sodium, high serum osmolality, dilute urine",
+        "Low sodium, high potassium, low blood glucose",
+        "High calcium, elevated PTH, low phosphorus"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book lists this pattern for hypoparathyroidism.",
+        "Incorrect. This pattern matches diabetes insipidus in the book.",
+        "Incorrect. This pattern matches adrenal insufficiency in the book.",
+        "Correct. The book describes hyperparathyroidism with hypercalcemia, elevated PTH, and often low phosphorus."
+      ],
+      "clue": "Bones, stones, groans, and moans.",
+      "priority": "Link classic symptoms to hyperparathyroid lab findings.",
+      "page": 108,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-hypopara-q1",
+      "section": "endo-hypopara",
+      "type": "mcq",
+      "stem": "After thyroid surgery, a client reports numbness and tingling, and the Chvostek and Trousseau signs are positive. What should the nurse anticipate?",
+      "options": [
+        "Giving furosemide to promote calcium excretion",
+        "Giving IV calcium gluconate for acute hypocalcemia",
+        "Starting cinacalcet to lower parathyroid hormone",
+        "Increasing phosphorus intake with meals and snacks"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book uses furosemide in hyperparathyroidism to lower calcium.",
+        "Correct. The book lists these as hypocalcemia signs and manages acute hypocalcemia with IV calcium gluconate or chloride.",
+        "Incorrect. The book lists cinacalcet for hyperparathyroidism, which would worsen low calcium.",
+        "Incorrect. The book teaches a low-phosphorus diet because phosphorus is elevated."
+      ],
+      "clue": "Positive Chvostek and Trousseau signs after neck surgery.",
+      "priority": "Treat acute hypocalcemia promptly.",
+      "page": 110,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-hypopara-q2",
+      "section": "endo-hypopara",
+      "type": "mcq",
+      "stem": "A client with acute hypoparathyroidism is placed on a cardiac monitor. Which ECG change should the nurse watch for?",
+      "options": [
+        "Low-voltage T waves",
+        "Shortened PR interval",
+        "Prolonged QT interval",
+        "Sinus rate above 150"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book lists low-voltage T waves with hypothyroidism.",
+        "Incorrect. The book does not list this finding for hypoparathyroidism.",
+        "Correct. The book lists a prolonged QT interval on ECG in hypoparathyroidism.",
+        "Incorrect. The book does not describe this as the hypocalcemia ECG finding."
+      ],
+      "clue": "Low calcium affecting cardiac conduction.",
+      "priority": "Monitor for dysrhythmias during acute hypocalcemia.",
+      "page": 110,
+      "clientNeed": "rrp",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "endo-hypopara-q3",
+      "section": "endo-hypopara",
+      "type": "mcq",
+      "stem": "A client with chronic hypoparathyroidism asks about diet. Which instruction should the nurse give?",
+      "options": [
+        "Choose foods low in calcium and high in phosphorus.",
+        "Choose foods high in calcium and low in phosphorus.",
+        "Limit both calcium and vitamin D to protect kidneys.",
+        "Restrict fluids to 600-800 mL each day at home."
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. This would worsen both the hypocalcemia and the hyperphosphatemia.",
+        "Correct. The book teaches a high-calcium, low-phosphorus diet because PTH deficiency causes low calcium and high phosphorus.",
+        "Incorrect. The book's long-term plan is oral calcium plus vitamin D.",
+        "Incorrect. This is the book's fluid restriction for SIADH, not hypoparathyroidism."
+      ],
+      "clue": "Chronic PTH deficiency with low calcium and high phosphorus.",
+      "priority": "Long-term dietary management of hypoparathyroidism.",
+      "page": 110,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "endo-emergencies-q1",
+      "section": "endo-emergencies",
+      "type": "mcq",
+      "stem": "A client with untreated hypothyroidism is admitted with hypothermia, bradycardia, hypotension, and altered mental status. Which intervention should the nurse anticipate?",
+      "options": [
+        "Warm the client gradually and give IV levothyroxine as ordered.",
+        "Apply a cooling blanket and give propylthiouracil as ordered.",
+        "Give high-dose IV hydrocortisone as the sole treatment ordered.",
+        "Warm the client rapidly with heated blankets until normothermic."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book's myxedema coma interventions include airway support, IV levothyroxine, and gradual warming.",
+        "Incorrect. Cooling and antithyroid drugs are thyroid storm treatments in the book.",
+        "Incorrect. The book lists high-dose hydrocortisone for Addisonian crisis.",
+        "Incorrect. The book specifies warming the patient gradually."
+      ],
+      "clue": "Hypothermia, bradycardia, and altered mental status in hypothyroidism.",
+      "priority": "Manage myxedema coma safely.",
+      "page": 111,
+      "clientNeed": "pa",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-emergencies-q2",
+      "section": "endo-emergencies",
+      "type": "mcq",
+      "stem": "A client with DKA on an insulin infusion now has a blood glucose of 190 mg/dL, but the anion gap is still elevated. What should the nurse anticipate?",
+      "options": [
+        "Stopping the insulin infusion since glucose is now normal",
+        "Giving an IV bolus of insulin to close the anion gap",
+        "Adding a D5 infusion while the insulin drip continues",
+        "Switching the IV fluid to hypertonic saline right away"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. The book's resolution criteria include anion gap, pH, and bicarbonate, not glucose alone.",
+        "Incorrect. The book's DKA regimen is regular insulin at 0.1 units/kg/hr, not a bolus.",
+        "Correct. The book says to add D5 when glucose falls below 200 mg/dL and continue until DKA resolves, including anion gap 12 or less.",
+        "Incorrect. The book uses NS resuscitation; hypertonic saline is listed for severe SIADH."
+      ],
+      "clue": "Glucose below 200 mg/dL but DKA not yet resolved.",
+      "priority": "Continue insulin to clear ketoacidosis while preventing hypoglycemia.",
+      "page": 112,
+      "clientNeed": "pharm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "endo-emergencies-q3",
+      "section": "endo-emergencies",
+      "type": "mcq",
+      "stem": "A client with Addison disease and a new infection has severe hypotension, hyperkalemia, and hypoglycemia. Which order should the nurse anticipate first?",
+      "options": [
+        "IV levothyroxine and gradual external warming",
+        "Fluid restriction and 3% hypertonic saline",
+        "Propranolol and a cooling blanket for comfort",
+        "High-dose IV hydrocortisone and rapid IV fluids"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. These are the book's myxedema coma interventions.",
+        "Incorrect. These are SIADH treatments and would worsen dehydration.",
+        "Incorrect. These are thyroid storm interventions in the book.",
+        "Correct. The book's Addisonian crisis interventions are high-dose IV hydrocortisone and rapid fluid resuscitation."
+      ],
+      "clue": "Severe hypotension with hyperkalemia and hypoglycemia triggered by infection in Addison disease.",
+      "priority": "Restore cortisol and circulating volume in Addisonian crisis.",
+      "page": 111,
+      "clientNeed": "pharm",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "endo-dm-q4",
+      "section": "endo-dm",
+      "type": "sata",
+      "page": 92,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is screening adults for diabetes risk at a community health fair. Which clients have a risk factor for diabetes mellitus? Select all that apply.",
+      "options": [
+        "A 38-year-old client at desirable body weight, with a normal birth weight and no family history of diabetes",
+        "A 52-year-old client who reports no symptoms",
+        "A 30-year-old client whose father has type 2 diabetes",
+        "A 34-year-old client whose weight is 105% of desirable body weight",
+        "A 27-year-old client who was born with a low birth weight",
+        "A 40-year-old client whose weight is 130% of desirable body weight"
+      ],
+      "correct": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "rationales": [
+        "Incorrect. This client has none of the risk factors the book lists (age over 45, family history of type 2 DM, low birth weight, weight over 120% of desirable).",
+        "Correct. The book lists age over 45 years as a risk factor, and absence of symptoms does not remove the risk.",
+        "Correct. A family history of type 2 DM is a listed risk factor.",
+        "Incorrect. The book's weight risk factor is more than 120% of desirable body weight; 105% does not meet it.",
+        "Correct. Low birth weight is a listed risk factor.",
+        "Correct. Weight greater than 120% of desirable body weight is a listed risk factor."
+      ],
+      "clue": "Age, family history, birth weight, and body weight relative to desirable weight.",
+      "priority": "Identify clients with diabetes risk factors for early screening.",
+      "checked": true
+    },
+    {
+      "id": "endo-dm-q5",
+      "section": "endo-dm",
+      "type": "mcq",
+      "page": 93,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "An adolescent client newly diagnosed with type 1 diabetes and the client's parents become tearful while the nurse explains insulin injections and continuous glucose monitoring. Which action by the nurse is most appropriate?",
+      "options": [
+        "Continue the session so that all of the content is covered before discharge.",
+        "Explain that type 1 diabetes can usually be managed with diet changes alone.",
+        "Pause to acknowledge their feelings and offer emotional support to the client and family.",
+        "Ask the parents to step out so the client can concentrate on learning the skills."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Pressing on ignores visible distress; the book calls for emotional support, especially for newly diagnosed patients and families.",
+        "Incorrect. The book states type 1 DM requires insulin therapy and continuous glucose monitoring, so this reassurance is false.",
+        "Correct. The book's independent nursing care includes emotional support, especially for newly diagnosed patients and their families.",
+        "Incorrect. The book directs support to families as well as the client; excluding the parents removes that support."
+      ],
+      "clue": "Newly diagnosed client and family showing distress during teaching.",
+      "priority": "Provide emotional support to the newly diagnosed client and family.",
+      "checked": true
+    },
+    {
+      "id": "endo-dm-q6",
+      "section": "endo-dm",
+      "type": "matrix",
+      "page": 93,
+      "clientNeed": "bcc",
+      "cjmm": "evaluateOutcomes",
+      "stem": "A nurse is reviewing a teaching plan written for a client with type 2 diabetes mellitus. For each statement, indicate whether it is accurate or inaccurate teaching.",
+      "rows": [
+        "A balanced diet of about 50% carbohydrate, 30% fat, and 20% protein is recommended.",
+        "Calorie needs are the same for every adult with diabetes.",
+        "Regular exercise improves insulin sensitivity and helps with weight loss.",
+        "Type 2 diabetes is never treated with insulin."
+      ],
+      "columns": [
+        "Accurate",
+        "Inaccurate"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Accurate. The book recommends a balanced intake of 50% carbohydrate, 30% fat, and 20% protein.",
+        "Inaccurate. The book states caloric needs are based on age, weight, and activity.",
+        "Accurate. The book states exercise improves insulin sensitivity and promotes weight loss.",
+        "Inaccurate. The book says type 2 DM is managed with diet, exercise, oral antidiabetics, and sometimes insulin."
+      ],
+      "clue": "Type 2 diabetes managed with diet, exercise, and medication.",
+      "priority": "Evaluate whether diet and exercise teaching matches the plan of care.",
+      "checked": true
+    },
+    {
+      "id": "endo-hypothyroid-q4",
+      "section": "endo-hypothyroid",
+      "type": "sata",
+      "page": 94,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is obtaining a health history from a client with suspected hypothyroidism. Which history findings are associated with hypothyroidism? Select all that apply.",
+      "options": [
+        "Previous thyroid surgery",
+        "Radioactive iodine treatment in the past",
+        "Abrupt discontinuation of long-term prednisone",
+        "Radiation therapy to the neck",
+        "Long-term lithium use",
+        "A gradual increase in ring and shoe size"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists thyroid surgery as a cause of hypothyroidism.",
+        "Correct. Radioactive iodine treatment is a listed cause.",
+        "Incorrect. The book links sudden steroid withdrawal to adrenal insufficiency, not hypothyroidism.",
+        "Correct. Neck radiation is a listed cause.",
+        "Correct. The assessment directs the nurse to review medications such as lithium.",
+        "Incorrect. Increasing ring and shoe sizes are history findings of acromegaly in the book."
+      ],
+      "clue": "History of thyroid-damaging treatment or medications.",
+      "priority": "Identify risk factors and causes of hypothyroidism during the history.",
+      "checked": true
+    },
+    {
+      "id": "endo-hypothyroid-q5",
+      "section": "endo-hypothyroid",
+      "type": "mcq",
+      "page": 94,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse receives report on four clients with hypothyroidism. Which client should the nurse assess first?",
+      "options": [
+        "A client who has become very drowsy and has a respiratory rate of 8/min",
+        "A client who reports constipation and always feeling cold",
+        "A client with dry, flaky skin and thick, brittle nails",
+        "A client who reports hair loss and aching joints"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book warns that severe hypothyroidism can progress to life-threatening myxedema coma, marked by respiratory depression and cardiovascular collapse.",
+        "Incorrect. Constipation and cold intolerance are expected history findings listed in the book.",
+        "Incorrect. Dry, flaky skin and thick, brittle nails are expected physical findings in the book.",
+        "Incorrect. Hair loss and joint aches are expected history findings in the book."
+      ],
+      "clue": "Decreased level of consciousness with a slow respiratory rate.",
+      "priority": "See first the client with signs of possible myxedema coma.",
+      "checked": true
+    },
+    {
+      "id": "endo-hypothyroid-q6",
+      "section": "endo-hypothyroid",
+      "type": "matrix",
+      "page": 95,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with hypothyroidism is starting levothyroxine. For each nursing action, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Teach the client to take levothyroxine on an empty stomach.",
+        "Monitor for palpitations, chest pain, and shortness of breath.",
+        "Expect therapy to begin at a high dose for rapid correction.",
+        "Plan TSH checks until levels are stable, then annually.",
+        "Recommend a high-calorie diet to increase energy."
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Indicated. The book directs teaching levothyroxine use on an empty stomach.",
+        "Indicated. The book lists these cardiac symptoms for monitoring during replacement.",
+        "Not indicated. The book says to start levothyroxine low and adjust gradually.",
+        "Indicated. The book directs monitoring TSH until stable, then annually.",
+        "Not indicated. The book recommends a low-calorie, high-protein, high-fiber diet."
+      ],
+      "clue": "New thyroid hormone replacement started low and adjusted gradually.",
+      "priority": "Safe administration and monitoring of levothyroxine.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperthyroid-q4",
+      "section": "endo-hyperthyroid",
+      "type": "mcq",
+      "page": 96,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse is caring for four clients with hyperthyroidism. Which client should the nurse see first?",
+      "options": [
+        "A client with Graves disease who reports heat intolerance and excessive sweating",
+        "A client with exophthalmos who asks how to protect the eyes",
+        "A client with a fine tremor who reports feeling nervous",
+        "A client recovering from pneumonia who now has a high fever, tachycardia, and new confusion"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. Heat intolerance and sweating are classic, expected signs listed in the book.",
+        "Incorrect. Exophthalmos is an expected thyroid-specific finding; the question can be answered after the unstable client is seen.",
+        "Incorrect. Fine tremors and nervousness are common, expected findings.",
+        "Correct. The book describes thyroid storm (high fever, tachycardia, confusion) as a fatal emergency if untreated, often triggered by infection."
+      ],
+      "clue": "High fever, tachycardia, and confusion after an infection.",
+      "priority": "Prioritize the client with signs of possible thyroid storm.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperthyroid-q5",
+      "section": "endo-hyperthyroid",
+      "type": "sata",
+      "page": 96,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is performing a physical assessment on a client with Graves disease. Which findings should the nurse expect? Select all that apply.",
+      "options": [
+        "Bradycardia",
+        "Exophthalmos",
+        "Fine tremors",
+        "Thick, dry, flaky skin",
+        "A bruit over the thyroid gland",
+        "An enlarged or tender thyroid gland"
+      ],
+      "correct": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "rationales": [
+        "Incorrect. The book lists palpitations and, in thyroid storm, tachycardia; bradycardia fits hypothyroidism.",
+        "Correct. Exophthalmos is a thyroid-specific exam finding in the book.",
+        "Correct. Fine tremors are a common exam finding.",
+        "Incorrect. The book describes moist, salmon-colored skin in hyperthyroidism; dry, flaky skin fits hypothyroidism.",
+        "Correct. A thyroid bruit is a listed thyroid-specific finding.",
+        "Correct. An enlarged or tender thyroid is a listed thyroid-specific finding."
+      ],
+      "clue": "Hypermetabolic state from excess thyroid hormone in Graves disease.",
+      "priority": "Recognize expected physical findings of hyperthyroidism.",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q4",
+      "section": "endo-addison",
+      "type": "sata",
+      "page": 99,
+      "clientNeed": "hpm",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is teaching a client with Addison disease about situations that can trigger an adrenal crisis. Which situations should the nurse include? Select all that apply.",
+      "options": [
+        "Eating salty foods to satisfy salt cravings",
+        "Having a planned surgical procedure",
+        "Developing a respiratory infection",
+        "Losing fluid through vomiting and diarrhea",
+        "Using cosmetics to cover darkened skin",
+        "Having an episode of hypoglycemia"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "rationales": [
+        "Incorrect. The book lists salt cravings as a symptom of adrenal insufficiency, not as a trigger.",
+        "Correct. Surgery is listed among physiological stress triggers.",
+        "Correct. Infection is a listed trigger.",
+        "Correct. Fluid loss is a listed trigger.",
+        "Incorrect. Skin hyperpigmentation is a finding of the disease; covering it is not a trigger.",
+        "Correct. Hypoglycemia is listed among triggers."
+      ],
+      "clue": "Physiological stress precipitates crisis in adrenal insufficiency.",
+      "priority": "Teach the client to recognize situations that can trigger adrenal crisis.",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q5",
+      "section": "endo-addison",
+      "type": "mcq",
+      "page": 97,
+      "clientNeed": "psych",
+      "cjmm": "analyzeCues",
+      "stem": "The spouse of a client with newly diagnosed Addison disease says, 'She's been so irritable and tearful, and she falls apart over small stresses. Is she just not trying?' Which response by the nurse is best?",
+      "options": [
+        "It sounds like she needs to make more effort to manage her stress.",
+        "Low cortisol in Addison disease can reduce stress tolerance and cause emotional changes.",
+        "These changes are unrelated to her illness, so she needs a psychiatric evaluation.",
+        "Mood changes like these mean she has stopped taking her medication."
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. This blames the client; the book attributes poor stress tolerance to the disease.",
+        "Correct. The book states cortisol deficiency leads to poor stress tolerance and emotional changes.",
+        "Incorrect. The book directly links emotional changes to cortisol deficiency.",
+        "Incorrect. The stem gives no evidence of nonadherence, and the book attributes emotional changes to the disease itself."
+      ],
+      "clue": "Irritability and poor coping with stress in a client with cortisol deficiency.",
+      "priority": "Support the family by explaining the disease-related cause of emotional changes.",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q6",
+      "section": "endo-addison",
+      "type": "matrix",
+      "page": 99,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is assessing a client with primary adrenal insufficiency (Addison disease). For each finding, indicate whether it is expected or unexpected.",
+      "rows": [
+        "Bronze pigmentation over the knuckles and elbows",
+        "Bluish-black discoloration of the oral mucosa",
+        "Blood pressure that drops more than 15 mm Hg on standing",
+        "Weight gain with a rounded, full face",
+        "Serum glucose above the normal range"
+      ],
+      "columns": [
+        "Expected",
+        "Unexpected"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "Expected. The book lists hyperpigmentation of knuckles, elbows, knees, and gums and bronze skin pigmentation.",
+        "Expected. Bluish-black oral mucosa is a listed exam finding.",
+        "Expected. The book lists postural hypotension with a drop greater than 15 mm Hg.",
+        "Unexpected. The book lists weight loss in adrenal insufficiency; weight gain and a full face suggest cortisol excess.",
+        "Unexpected. The book lists hypoglycemia, not hyperglycemia, among the laboratory findings."
+      ],
+      "clue": "Deficient cortisol and aldosterone production.",
+      "priority": "Distinguish expected findings of adrenal insufficiency from those of cortisol excess.",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q7",
+      "section": "endo-addison",
+      "type": "mcq",
+      "page": 99,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse is caring for four clients with Addison disease. Which client should the nurse assess first?",
+      "options": [
+        "A client asking whether the darkening of her gums will be permanent",
+        "A client scheduled for an ACTH stimulation test tomorrow who has questions",
+        "A client who developed a fever with vomiting and diarrhea overnight",
+        "A client who reports craving salty snacks"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Gum hyperpigmentation is an expected finding and not urgent.",
+        "Incorrect. Test teaching is important but can wait until unstable clients are assessed.",
+        "Correct. The book lists infection and fluid loss as triggers of adrenal crisis, which can require hospitalization.",
+        "Incorrect. Salt craving is an expected symptom of adrenal insufficiency."
+      ],
+      "clue": "New infection with fluid loss in a client with adrenal insufficiency.",
+      "priority": "Prioritize the client at risk for adrenal crisis.",
+      "checked": true
+    },
+    {
+      "id": "endo-addison-q8",
+      "section": "endo-addison",
+      "type": "mcq",
+      "page": 99,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A client with adrenal insufficiency reports dizziness when getting out of bed. The client's systolic blood pressure drops 20 mm Hg on standing. Which action should the nurse take?",
+      "options": [
+        "Instruct the client to rise slowly and call for help before getting up.",
+        "Encourage the client to walk the hallway alone to build strength.",
+        "Document the finding as a normal response to a change in position.",
+        "Restrict oral fluids until the dizziness resolves."
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists postural hypotension (drop greater than 15 mm Hg) and dizziness; slow position changes with assistance prevent falls.",
+        "Incorrect. Walking alone while orthostatic increases the risk of falling.",
+        "Incorrect. A drop of more than 15 mm Hg is the book's postural hypotension finding, not a normal response.",
+        "Incorrect. The book's collaborative care goal is to restore fluids; restricting them would worsen dehydration."
+      ],
+      "clue": "Dizziness with a 20 mm Hg drop in systolic pressure on standing.",
+      "priority": "Prevent falls related to postural hypotension.",
+      "checked": true
+    },
+    {
+      "id": "endo-cushing-q4",
+      "section": "endo-cushing",
+      "type": "sata",
+      "page": 100,
+      "clientNeed": "psych",
+      "cjmm": "recognizeCues",
+      "stem": "A client with Cushing syndrome is tearful and says, 'I just don't feel like myself anymore.' Which history findings related to Cushing syndrome should the nurse explore with the client? Select all that apply.",
+      "options": [
+        "Emotional instability",
+        "Salt cravings with darkening skin",
+        "Memory changes",
+        "Heat intolerance with nervousness",
+        "Sleep disturbances"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists emotional instability in the history of Cushing syndrome.",
+        "Incorrect. Salt cravings and hyperpigmentation are findings of adrenal insufficiency.",
+        "Correct. Memory changes are listed in the history.",
+        "Incorrect. Heat intolerance and nervousness are classic signs of hyperthyroidism.",
+        "Correct. Sleep disturbances are listed in the history."
+      ],
+      "clue": "Client reports not feeling like herself, with cortisol excess.",
+      "priority": "Explore emotional and cognitive changes associated with Cushing syndrome.",
+      "checked": true
+    },
+    {
+      "id": "endo-cushing-q5",
+      "section": "endo-cushing",
+      "type": "matrix",
+      "page": 100,
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "stem": "A nurse is reviewing diagnostic results for a client being evaluated for Cushing syndrome. For each result, indicate whether it is consistent or not consistent with Cushing syndrome.",
+      "rows": [
+        "Serum cortisol stays above 5 mcg/dL after an overnight dexamethasone suppression test",
+        "Serum potassium below the normal range",
+        "Arterial blood gas showing metabolic acidosis",
+        "Serum chloride above the normal range",
+        "Elevated 24-hour urine free cortisol"
+      ],
+      "columns": [
+        "Consistent",
+        "Not consistent"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "rationales": [
+        "Consistent. The book states cortisol above 5 mcg/dL after dexamethasone means failure to suppress, indicating CS.",
+        "Consistent. Hypokalemia is a common finding.",
+        "Not consistent. The book lists metabolic alkalosis, not acidosis.",
+        "Not consistent. The book lists hypochloremia.",
+        "Consistent. Elevated 24-hour urine free cortisol reflects increased cortisol production."
+      ],
+      "clue": "Suspected cortisol excess.",
+      "priority": "Interpret diagnostic findings for Cushing syndrome.",
+      "checked": true
+    },
+    {
+      "id": "endo-pheo-q4",
+      "section": "endo-pheo",
+      "type": "mcq",
+      "page": 102,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse is caring for four clients who had a pheochromocytoma removed earlier today. Which client should the nurse assess first?",
+      "options": [
+        "A client with mild diaphoresis who asks for a cool washcloth",
+        "A client who asks that visitors be limited to keep the room quiet",
+        "A client who reports incisional pain and asks when pain medication is due",
+        "A client whose blood pressure has fallen to 82/48 mm Hg with a heart rate of 124/min"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. The book lists managing diaphoresis as routine postoperative care.",
+        "Incorrect. A quiet environment is part of the book's care plan and can be arranged after the unstable client is seen.",
+        "Incorrect. Pain needs attention, but it is not as urgent as hemodynamic instability.",
+        "Correct. The book warns of labile blood pressure, hypovolemia, and hemorrhage after surgery; hypotension with tachycardia needs immediate assessment."
+      ],
+      "clue": "Hypotension with tachycardia after tumor removal.",
+      "priority": "Prioritize the client with hemodynamic instability.",
+      "checked": true
+    },
+    {
+      "id": "endo-pheo-q5",
+      "section": "endo-pheo",
+      "type": "sata",
+      "page": 102,
+      "clientNeed": "psych",
+      "cjmm": "generateSolutions",
+      "stem": "A client awaiting surgery for pheochromocytoma says, 'I'm so anxious about having another one of these attacks.' Which nursing actions are appropriate? Select all that apply.",
+      "options": [
+        "Promote rest in a calm environment.",
+        "Encourage brisk exercise to relieve tension.",
+        "Teach stress-reduction techniques.",
+        "Monitor for spells using the 5 Ps.",
+        "Massage the abdomen firmly to promote relaxation."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book's preoperative care includes promoting rest.",
+        "Incorrect. Exercise is listed in the book as a trigger for spells.",
+        "Correct. The book lists stress reduction as preoperative care.",
+        "Correct. The book directs monitoring for spells (pressure, palpitations, pallor, perspiration, pain).",
+        "Incorrect. The book warns that increased abdominal pressure and vigorous palpation can cause a hypertensive crisis."
+      ],
+      "clue": "Preoperative client anxious about paroxysmal spells.",
+      "priority": "Reduce stress and anxiety while monitoring for catecholamine spells.",
+      "checked": true
+    },
+    {
+      "id": "endo-pheo-q6",
+      "section": "endo-pheo",
+      "type": "sata",
+      "page": 102,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is planning care for a client in the first 24 hours after surgical removal of a pheochromocytoma. Which interventions should the nurse include? Select all that apply.",
+      "options": [
+        "Perform vigorous abdominal palpation to check for ileus",
+        "Provide intensive cardiac and respiratory monitoring",
+        "Monitor blood glucose for hypoglycemia",
+        "Restrict IV fluids to prevent fluid overload",
+        "Maintain a quiet environment",
+        "Monitor for hemorrhage and infection"
+      ],
+      "correct": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "rationales": [
+        "Incorrect. The book says to avoid vigorous palpation because it can lead to hypertensive crisis.",
+        "Correct. Intensive cardiac and respiratory monitoring is listed after surgery.",
+        "Correct. The book says to watch for hypoglycemia after surgery.",
+        "Incorrect. The book warns of hypovolemia after surgery.",
+        "Correct. Maintaining a quiet environment is listed.",
+        "Correct. The book lists monitoring for hemorrhage and infection."
+      ],
+      "clue": "Early postoperative period after adrenal tumor removal.",
+      "priority": "Prevent and detect postoperative complications safely.",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q4",
+      "section": "endo-siadh",
+      "type": "sata",
+      "page": 102,
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is assessing a client with SIADH. Which findings should the nurse anticipate? Select all that apply.",
+      "options": [
+        "Low urine output",
+        "Weight gain",
+        "Large volumes of pale, dilute urine",
+        "New confusion",
+        "Serum sodium above normal",
+        "Intense thirst with signs of dehydration"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "rationales": [
+        "Correct. The book lists low urine output as a key sign.",
+        "Correct. Weight gain from water retention is a key sign.",
+        "Incorrect. Large volumes of dilute urine describe diabetes insipidus, the opposite of SIADH.",
+        "Correct. Confusion from low sodium is a key sign.",
+        "Incorrect. SIADH causes dilutional hyponatremia.",
+        "Incorrect. SIADH is fluid overload ('Soaked Inside'), not dehydration."
+      ],
+      "clue": "Excess ADH causing water retention and dilutional hyponatremia.",
+      "priority": "Recognize the signs of water overload in SIADH.",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q5",
+      "section": "endo-siadh",
+      "type": "matrix",
+      "page": 104,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is planning independent nursing care for a client with SIADH who is on a fluid restriction. For each action, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Position the client with the head of the bed flat or slightly elevated",
+        "Offer hard candy or gum to ease thirst",
+        "Allow ice chips freely without recording them",
+        "Implement measures to prevent complications of immobility",
+        "Keep the client in high-Fowler position at all times"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Indicated. The book positions the client with the head flat or slightly elevated.",
+        "Indicated. Hard candy and gum are listed comfort measures.",
+        "Not indicated. The book directs counting ice chips as part of fluid management.",
+        "Indicated. The book lists preventing immobility complications.",
+        "Not indicated. The book specifies head flat or slightly elevated."
+      ],
+      "clue": "Fluid restriction with thirst and risk of immobility.",
+      "priority": "Provide comfort and positioning while maintaining the fluid restriction.",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q6",
+      "section": "endo-siadh",
+      "type": "mcq",
+      "page": 103,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse receives report on four clients with SIADH. Which client should the nurse see first?",
+      "options": [
+        "A client who reports nausea and mild muscle weakness",
+        "A client whose serum sodium continues to drop and who is newly confused",
+        "A client with a headache who asks for something to drink",
+        "A client with anorexia and fatigue who wants to rest"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. Nausea and muscle weakness are early symptoms in the book.",
+        "Correct. The book identifies dropping sodium as the key sign and neurologic changes such as confusion as late, life-threatening, and the most critical concern.",
+        "Incorrect. Headache is a history finding but not a late neurologic sign.",
+        "Incorrect. Anorexia and fatigue are history findings, not late neurologic changes."
+      ],
+      "clue": "Falling sodium with new confusion.",
+      "priority": "Prioritize neurologic changes from worsening hyponatremia.",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q7",
+      "section": "endo-siadh",
+      "type": "matrix",
+      "page": 104,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is reviewing prescriptions for a client with SIADH and hyponatremia. For each prescription, indicate whether it is anticipated or not anticipated.",
+      "rows": [
+        "Fluid restriction of 600-800 mL per day",
+        "Tolvaptan, a vasopressin receptor antagonist",
+        "Desmopressin to reduce urine output",
+        "3% hypertonic saline, given cautiously, if fluid restriction fails",
+        "Oral fluid intake of at least 3 L per day"
+      ],
+      "columns": [
+        "Anticipated",
+        "Not anticipated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Anticipated. The book lists fluid restriction of 600-800 mL/day.",
+        "Anticipated. Vasopressin receptor antagonists (conivaptan, tolvaptan) are listed.",
+        "Not anticipated. Desmopressin is synthetic ADH used for central DI and would add to water retention.",
+        "Anticipated. The book uses 3%-4.5% hypertonic saline cautiously if fluid restriction fails.",
+        "Not anticipated. Extra fluid worsens the water overload; the book calls for restriction."
+      ],
+      "clue": "Water retention from excess ADH.",
+      "priority": "Anticipate treatments that remove water or block ADH.",
+      "checked": true
+    },
+    {
+      "id": "endo-siadh-q8",
+      "section": "endo-siadh",
+      "type": "sata",
+      "page": 104,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is caring for a client with SIADH who is on a fluid restriction. Which tasks can the nurse delegate to assistive personnel? Select all that apply.",
+      "options": [
+        "Measure and record intake and output",
+        "Count ice chips as part of fluid intake",
+        "Assess neurologic status for new confusion",
+        "Offer hard candy or gum when the client reports thirst",
+        "Decide whether hypertonic saline should be started",
+        "Teach the client about tolvaptan"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "rationales": [
+        "Correct. Measuring and recording I&O supports the book's fluid management plan and is within the role of assistive personnel.",
+        "Correct. The book lists counting ice chips; this is a routine measurement task.",
+        "Incorrect. Neurologic assessment requires nursing judgment and stays with the nurse.",
+        "Correct. The book lists hard candy or gum as a comfort measure, a routine care task.",
+        "Incorrect. Treatment decisions are outside the role of assistive personnel.",
+        "Incorrect. Medication teaching is the nurse's responsibility."
+      ],
+      "clue": "Routine measurement and comfort tasks versus assessment and teaching.",
+      "priority": "Delegate routine tasks appropriately while keeping assessment and teaching with the nurse.",
+      "checked": true
+    },
+    {
+      "id": "endo-di-q4",
+      "section": "endo-di",
+      "type": "sata",
+      "page": 105,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is planning care for an older client with diabetes insipidus who has frequent nocturia and weak muscles. Which nursing actions should the nurse include? Select all that apply.",
+      "options": [
+        "Keep a clear, safe path to the bathroom",
+        "Encourage caffeinated drinks to keep up fluid intake",
+        "Monitor intake, output, and urine specific gravity",
+        "Restrict fluids to 600-800 mL per day",
+        "Encourage the client to wear medical identification",
+        "Enforce salt restriction"
+      ],
+      "correct": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "rationales": [
+        "Correct. The book lists ensuring safe, clear paths to the bathroom.",
+        "Incorrect. The book says to avoid caffeine.",
+        "Correct. Monitoring I&O and urine specific gravity is a listed nursing action.",
+        "Incorrect. This is the SIADH fluid restriction and would worsen dehydration in DI.",
+        "Correct. The book encourages medical ID use.",
+        "Correct. The book lists enforcing salt restriction."
+      ],
+      "clue": "Nocturia and muscle weakness raise fall risk in a client losing large urine volumes.",
+      "priority": "Prevent injury and monitor fluid balance in DI.",
+      "checked": true
+    },
+    {
+      "id": "endo-di-q5",
+      "section": "endo-di",
+      "type": "mcq",
+      "page": 105,
+      "clientNeed": "moc",
+      "cjmm": "generateSolutions",
+      "stem": "Before discharge, a client with central diabetes insipidus tells the nurse, 'I'm not sure I can afford my desmopressin.' Which action by the nurse is most appropriate?",
+      "options": [
+        "Advise the client to take the medication every other day to make it last longer.",
+        "Tell the client to drink extra water instead of taking the medication.",
+        "Collaborate with the case manager or social worker to address the medication cost.",
+        "Reassure the client that the medication can be stopped once thirst improves."
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. Skipping doses of synthetic ADH would allow polyuria and dehydration to return.",
+        "Incorrect. Fluids alone do not replace ADH in central DI; the book lists desmopressin as the medication for central DI.",
+        "Correct. The book's nursing actions include addressing medication costs, which calls for collaboration with the team.",
+        "Incorrect. Desmopressin replaces missing ADH; stopping it is not supported."
+      ],
+      "clue": "Concern about the cost of a needed medication at discharge.",
+      "priority": "Coordinate resources to support continuity of care and adherence.",
+      "checked": true
+    },
+    {
+      "id": "endo-di-q6",
+      "section": "endo-di",
+      "type": "mcq",
+      "page": 105,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse is caring for four clients with diabetes insipidus. Which client should the nurse see first?",
+      "options": [
+        "A client whose blood osmolality is 325 mOsm/L",
+        "A client whose serum sodium is 146 mEq/L",
+        "A client whose urine specific gravity is 1.012",
+        "A client whose fasting blood glucose is 95 mg/dL"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book identifies blood osmolality of 320 mOsm/L or higher as an emergency.",
+        "Incorrect. This is just above the normal range and less urgent than an emergency-level osmolality.",
+        "Incorrect. The book uses a urine specific gravity above 1.010 as the monitoring target, so this is reassuring.",
+        "Incorrect. This glucose is within the book's normal range of 70-100 mg/dL."
+      ],
+      "clue": "Blood osmolality above the emergency threshold.",
+      "priority": "Prioritize the client with emergency-level hyperosmolality.",
+      "checked": true
+    },
+    {
+      "id": "endo-acromegaly-q4",
+      "section": "endo-acromegaly",
+      "type": "sata",
+      "page": 107,
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is planning postoperative care for a client after transsphenoidal surgery for acromegaly. Which actions should the nurse include? Select all that apply.",
+      "options": [
+        "Keep the head of the bed elevated",
+        "Have the client blow the nose to clear drainage",
+        "Perform range-of-motion exercises",
+        "Encourage early ambulation",
+        "Teach the client to cough forcefully every hour",
+        "Keep the client flat in bed for 48 hours"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "rationales": [
+        "Correct. The book's postoperative nursing focus includes elevating the head.",
+        "Incorrect. Nasal drainage is monitored for CSF leak, and the book says to avoid actions such as coughing and sneezing that strain the site.",
+        "Correct. ROM exercises are listed.",
+        "Correct. Early ambulation is listed.",
+        "Incorrect. The book says to avoid coughing after this surgery.",
+        "Incorrect. The book calls for head elevation and early ambulation."
+      ],
+      "clue": "Recovery after surgery through the nasal route.",
+      "priority": "Promote mobility and protect the surgical site.",
+      "checked": true
+    },
+    {
+      "id": "endo-acromegaly-q5",
+      "section": "endo-acromegaly",
+      "type": "mcq",
+      "page": 107,
+      "clientNeed": "psych",
+      "cjmm": "takeAction",
+      "stem": "A client scheduled for pituitary surgery for acromegaly says, 'I hardly recognize myself anymore, and I'm scared about this operation.' Which response by the nurse is most appropriate?",
+      "options": [
+        "Don't worry; this is a routine surgery and nothing will go wrong.",
+        "Let's focus on your postoperative exercises rather than your feelings.",
+        "Your appearance will go back to normal right after surgery.",
+        "This is a lot to cope with. Tell me about your concerns, and I'll explain what to expect."
+      ],
+      "correct": 3,
+      "rationales": [
+        "Incorrect. False reassurance dismisses the client's fear.",
+        "Incorrect. This dismisses feelings; the book calls for emotional support alongside education.",
+        "Incorrect. The book does not promise this; it notes long-term emotional adjustment is part of care.",
+        "Correct. The book's nursing focus includes preoperative education and emotional support."
+      ],
+      "clue": "Fear about surgery and distress about changed appearance.",
+      "priority": "Provide emotional support and preoperative education.",
+      "checked": true
+    },
+    {
+      "id": "endo-acromegaly-q6",
+      "section": "endo-acromegaly",
+      "type": "matrix",
+      "page": 107,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is reviewing medications for a client with acromegaly. For each medication, indicate whether it is anticipated or not anticipated for this condition.",
+      "rows": [
+        "Octreotide to suppress growth hormone",
+        "Pegvisomant to normalize IGF-1",
+        "Mitotane to suppress the adrenal cortex",
+        "Cabergoline for persistent disease",
+        "Methimazole to reduce thyroid hormone"
+      ],
+      "columns": [
+        "Anticipated",
+        "Not anticipated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rationales": [
+        "Anticipated. The book lists octreotide (a somatostatin analog) to suppress GH.",
+        "Anticipated. Pegvisomant, a GH antagonist, is listed to normalize IGF-1.",
+        "Not anticipated. Mitotane is the book's adrenal cortex suppressant for Cushing syndrome.",
+        "Anticipated. Cabergoline is listed if needed for persistent disease.",
+        "Not anticipated. Methimazole is an antithyroid drug for hyperthyroidism."
+      ],
+      "clue": "Excess GH and IGF-1 from a pituitary adenoma.",
+      "priority": "Match drug therapy to the hormone excess.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q4",
+      "section": "endo-hyperpara",
+      "type": "sata",
+      "page": 108,
+      "clientNeed": "psych",
+      "cjmm": "recognizeCues",
+      "stem": "A client with primary hyperparathyroidism says, 'I just don't feel like myself.' Which client statements reflect neuropsychiatric changes associated with hyperparathyroidism? Select all that apply.",
+      "options": [
+        "I've been feeling down and sad most days.",
+        "I get tingling around my mouth and in my fingers.",
+        "I keep forgetting things my family tells me.",
+        "My hand cramps up when the blood pressure cuff inflates.",
+        "I can't concentrate at work the way I used to."
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book lists depression among neuropsychiatric changes.",
+        "Incorrect. Perioral and finger tingling are hypocalcemia signs of hypoparathyroidism.",
+        "Correct. Memory issues are listed.",
+        "Incorrect. Carpal spasm with a BP cuff (Trousseau sign) indicates hypocalcemia, not hypercalcemia.",
+        "Correct. Poor concentration is listed."
+      ],
+      "clue": "Mood and cognitive complaints with excess PTH.",
+      "priority": "Recognize neuropsychiatric changes so the client can receive support.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q5",
+      "section": "endo-hyperpara",
+      "type": "matrix",
+      "page": 109,
+      "clientNeed": "safety",
+      "cjmm": "takeAction",
+      "stem": "A nurse is caring for a client on the first day after a parathyroidectomy. For each nursing action, indicate whether it is indicated or not indicated.",
+      "rows": [
+        "Monitor for stridor and hoarseness",
+        "Monitor serum calcium for hypocalcemia",
+        "Keep the client on strict bed rest to prevent fractures",
+        "Monitor magnesium and phosphorus levels"
+      ],
+      "columns": [
+        "Indicated",
+        "Not indicated"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "rationales": [
+        "Indicated. The book directs monitoring for airway compromise (stridor, hoarseness) after surgery.",
+        "Indicated. The book says to monitor calcium and watch for hypocalcemia after surgery.",
+        "Not indicated. The book promotes mobility to prevent fractures.",
+        "Indicated. Post-op care includes monitoring magnesium and phosphorus."
+      ],
+      "clue": "Immediate postoperative period after parathyroid surgery.",
+      "priority": "Protect the airway and detect postoperative hypocalcemia.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q6",
+      "section": "endo-hyperpara",
+      "type": "mcq",
+      "page": 108,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse is reviewing laboratory results for four clients with hyperparathyroidism. Which client should the nurse assess first?",
+      "options": [
+        "A client with a serum phosphorus slightly below normal",
+        "A client with a total serum calcium of 14.6 mg/dL",
+        "A client with a total serum calcium of 10.7 mg/dL and constipation",
+        "A client with an elevated PTH level who is awaiting surgery"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Incorrect. The book notes phosphorus is often low in hyperparathyroidism; this is expected.",
+        "Correct. The book identifies total calcium above 14 mg/dL as critical.",
+        "Incorrect. This is elevated but below the critical value, and constipation is an expected early symptom.",
+        "Incorrect. Elevated PTH is expected in more than 90% of cases."
+      ],
+      "clue": "Total calcium above the book's critical value.",
+      "priority": "Prioritize the client with a critical laboratory value.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q7",
+      "section": "endo-hyperpara",
+      "type": "sata",
+      "page": 109,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A client with primary hyperparathyroidism and hypercalcemia is not a candidate for surgery. Which medications should the nurse anticipate? Select all that apply.",
+      "options": [
+        "IV calcium gluconate",
+        "Furosemide",
+        "Cinacalcet",
+        "Desmopressin",
+        "A bisphosphonate",
+        "Levothyroxine"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "rationales": [
+        "Incorrect. IV calcium treats acute hypocalcemia and would worsen hypercalcemia.",
+        "Correct. The book lists furosemide to promote calcium excretion.",
+        "Correct. Cinacalcet is listed if surgery is not possible.",
+        "Incorrect. Desmopressin is the book's treatment for central DI.",
+        "Correct. Bisphosphonates are listed if surgery is not possible.",
+        "Incorrect. Levothyroxine is thyroid hormone replacement for hypothyroidism."
+      ],
+      "clue": "Hypercalcemia managed without surgery.",
+      "priority": "Anticipate drugs that lower calcium or PTH.",
+      "checked": true
+    },
+    {
+      "id": "endo-hyperpara-q8",
+      "section": "endo-hyperpara",
+      "type": "sata",
+      "page": 108,
+      "clientNeed": "hpm",
+      "cjmm": "recognizeCues",
+      "stem": "A nurse is reviewing health histories to identify clients at risk for hyperparathyroidism. Which history findings are risk factors? Select all that apply.",
+      "options": [
+        "Chronic renal failure",
+        "Previous head or neck radiation",
+        "Removal of the parathyroid glands during thyroid surgery",
+        "Vitamin D deficiency",
+        "Laxative abuse",
+        "Radioactive iodine treatment for Graves disease"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Correct. Chronic renal failure is a listed cause of secondary hyperparathyroidism.",
+        "Correct. History of head or neck radiation is listed for primary hyperparathyroidism.",
+        "Incorrect. Removal of the parathyroid glands causes hypoparathyroidism, not excess PTH.",
+        "Correct. Vitamin D deficiency is a listed secondary cause.",
+        "Correct. Laxative abuse is a listed secondary cause.",
+        "Incorrect. The book lists radioactive iodine for Graves disease as a cause of hypoparathyroidism."
+      ],
+      "clue": "Conditions that stimulate or alter the parathyroid glands.",
+      "priority": "Identify risk factors for hyperparathyroidism.",
+      "checked": true
+    },
+    {
+      "id": "endo-hypopara-q4",
+      "section": "endo-hypopara",
+      "type": "sata",
+      "page": 110,
+      "clientNeed": "safety",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is caring for a client with acute hypocalcemia from hypoparathyroidism. Which actions should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Keep intubation and tracheostomy equipment readily available",
+        "Monitor for seizure activity",
+        "Teach a low-calcium, high-phosphorus diet",
+        "Monitor the ECG",
+        "Implement fall prevention measures",
+        "Give furosemide to promote calcium excretion"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationales": [
+        "Correct. The book says to maintain the airway and keep intubation/trach equipment ready.",
+        "Correct. Monitoring seizure activity during the acute phase is listed.",
+        "Incorrect. The book teaches a high-calcium, low-phosphorus diet.",
+        "Correct. ECG monitoring during the acute phase is listed.",
+        "Correct. Fall prevention is part of the book's nursing focus.",
+        "Incorrect. Furosemide lowers calcium and is used for hyperparathyroidism; it would worsen hypocalcemia."
+      ],
+      "clue": "Acute hypocalcemia with risk of airway obstruction, seizures, and dysrhythmias.",
+      "priority": "Maintain safety during acute hypocalcemia.",
+      "checked": true
+    },
+    {
+      "id": "endo-hypopara-q5",
+      "section": "endo-hypopara",
+      "type": "mcq",
+      "page": 110,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse is caring for four clients the day after thyroid surgery. Which client should the nurse assess first?",
+      "options": [
+        "A client with tingling around the mouth, new hoarseness, and wheezing",
+        "A client who reports mild incisional pain rated 3 on a 0-10 scale",
+        "A client who is nauseated and ate little breakfast",
+        "A client asking when it will be safe to shower"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists tingling as a hypocalcemia sign and hoarseness, wheezing, and respiratory distress as findings that threaten the airway.",
+        "Incorrect. Mild, expected postoperative pain is not the priority.",
+        "Incorrect. GI symptoms need follow-up but are not airway threats.",
+        "Incorrect. A hygiene question can wait."
+      ],
+      "clue": "Hypocalcemia signs with hoarseness and wheezing after neck surgery.",
+      "priority": "Airway first: prioritize possible hypocalcemia with respiratory compromise.",
+      "checked": true
+    },
+    {
+      "id": "endo-hypopara-q6",
+      "section": "endo-hypopara",
+      "type": "matrix",
+      "page": 110,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A nurse is reviewing findings for a client with hypoparathyroidism. For each finding, indicate whether it is expected or unexpected.",
+      "rows": [
+        "Positive Trousseau and Chvostek signs",
+        "Serum phosphorus above normal",
+        "Prolonged QT interval on the ECG",
+        "Serum PTH of 80 pg/mL",
+        "Total serum calcium of 11 mg/dL"
+      ],
+      "columns": [
+        "Expected",
+        "Unexpected"
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationales": [
+        "Expected. The book lists positive Trousseau and Chvostek signs as hypocalcemia indicators.",
+        "Expected. Elevated serum phosphorus is listed.",
+        "Expected. The book lists a prolonged QT interval.",
+        "Unexpected. The book gives hypoparathyroidism PTH as below 10 pg/mL; 80 is above the normal 10-65 range.",
+        "Unexpected. The book gives total calcium below 8.4 mg/dL in hypoparathyroidism; 11 is elevated."
+      ],
+      "clue": "Deficient PTH with hypocalcemia and hyperphosphatemia.",
+      "priority": "Interpret findings consistent with hypoparathyroidism.",
+      "checked": true
+    },
+    {
+      "id": "endo-emergencies-q4",
+      "section": "endo-emergencies",
+      "type": "sata",
+      "page": 112,
+      "clientNeed": "pa",
+      "cjmm": "analyzeCues",
+      "stem": "A client is admitted with severe hyperglycemia, altered mental status, and signs of dehydration. Which additional findings support hyperosmolar hyperglycemic syndrome (HHS) rather than diabetic ketoacidosis (DKA)? Select all that apply.",
+      "options": [
+        "No significant ketones in the blood or urine",
+        "Fruity breath odor",
+        "Blood glucose of 850 mg/dL",
+        "Kussmaul respirations",
+        "A long-standing history of type 2 diabetes",
+        "Low arterial pH with low bicarbonate"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "rationales": [
+        "Correct. The book describes HHS as severe hyperglycemia without ketosis (no significant ketones), whereas DKA involves ketosis.",
+        "Incorrect. Fruity breath odor is listed as a DKA feature.",
+        "Correct. The book lists HHS glucose above 600 mg/dL, while DKA glucose is above 250 mg/dL but rarely over 600.",
+        "Incorrect. Kussmaul respirations are listed for DKA.",
+        "Correct. The book states HHS is more common in type 2 diabetes, while DKA is most common in type 1.",
+        "Incorrect. Metabolic acidosis (low pH, low HCO3) is listed for DKA."
+      ],
+      "clue": "Glucose above 600 mg/dL without significant ketones in a client with type 2 diabetes.",
+      "priority": "Differentiate HHS from DKA.",
+      "checked": true
+    },
+    {
+      "id": "endo-emergencies-q5",
+      "section": "endo-emergencies",
+      "type": "matrix",
+      "page": 111,
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "stem": "A nurse is reviewing priority interventions for clients with endocrine emergencies. For each intervention, indicate the emergency it is used to treat.",
+      "rows": [
+        "Propranolol",
+        "IV levothyroxine",
+        "High-dose IV hydrocortisone",
+        "Cooling blanket and acetaminophen",
+        "Gradual rewarming"
+      ],
+      "columns": [
+        "Thyroid storm",
+        "Myxedema coma",
+        "Addisonian crisis"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "rationales": [
+        "Thyroid storm. The book lists beta-blockers such as propranolol.",
+        "Myxedema coma. The book lists IV thyroid hormone (levothyroxine).",
+        "Addisonian crisis. The book lists high-dose IV hydrocortisone.",
+        "Thyroid storm. Cooling measures treat the high fever of thyroid storm.",
+        "Myxedema coma. The book says to warm the patient gradually."
+      ],
+      "clue": "Hypermetabolic, hypometabolic, and adrenal emergencies need different treatment.",
+      "priority": "Match each emergency to its priority intervention.",
+      "checked": true
+    },
+    {
+      "id": "endo-emergencies-q6",
+      "section": "endo-emergencies",
+      "type": "mcq",
+      "page": 111,
+      "clientNeed": "moc",
+      "cjmm": "prioritizeHypotheses",
+      "stem": "A nurse in the emergency department is assigned four clients. Which client should the nurse see first?",
+      "options": [
+        "A client with hypothyroidism who reports constipation and fatigue",
+        "A client with Graves disease who reports mild heat intolerance",
+        "A client with hyperthyroidism and a recent infection who has a temperature of 105°F (40.6°C), tachycardia, and delirium",
+        "A client with Addison disease who requests a prescription refill"
+      ],
+      "correct": 2,
+      "rationales": [
+        "Incorrect. These are expected, stable hypothyroid symptoms.",
+        "Incorrect. Mild heat intolerance is an expected, stable finding.",
+        "Correct. The book describes thyroid storm as a life-threatening complication triggered by infection, with fever above 104°F, tachycardia, and delirium.",
+        "Incorrect. A refill request is not urgent."
+      ],
+      "clue": "Fever above 104°F with tachycardia and delirium after infection.",
+      "priority": "Prioritize the client with a life-threatening thyroid storm.",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 92,
+      "issue": "States DM affects 'over 120 million Americans'; that figure appears to combine diabetes and prediabetes (diabetes alone is far lower). Verify the statistic."
+    },
+    {
+      "page": 92,
+      "issue": "The COVID-19 outcomes statement cites Rosenstock et al., 2020, but the reference list (p113) shows that paper is a once-weekly insulin trial, not a COVID-19 study."
+    },
+    {
+      "page": 97,
+      "issue": "The hyperthyroidism diagnostics and planning panels appear on p97 beneath the D4 Addison heading, so the hyperthyroidism content runs beyond p96 and is mixed into the Addison page."
+    },
+    {
+      "page": 98,
+      "issue": "Pages 98 and 99 duplicate the same Addison diagnostic highlights (serum cortisol, electrolytes, ACTH stimulation, other tests, collaborative care); p98 looks like a leftover draft and is mostly blank."
+    },
+    {
+      "page": 99,
+      "issue": "The Addison assessment graphic has two 'PHYSICAL EXAM' headings, and some text is cut off ('alterei menses', 'pigmentatio')."
+    },
+    {
+      "page": 100,
+      "issue": "Cushing syndrome section has no 'D5' heading or introductory text; page 100 begins with assessment. Numbering jumps from D4 (Addison) to D6 (Pheochromocytoma), and Palen-Tytko et al. (2020) in the references is never cited in the text, which suggests a missing page."
+    },
+    {
+      "page": 100,
+      "issue": "24-hour urine free cortisol is given as '>70 mg/24 hr'; the unit should probably be mcg/24 hr."
+    },
+    {
+      "page": 101,
+      "issue": "States ~30% of pheochromocytomas are linked to inherited mutations, but the same page's 'rule of 10s' says 10% are familial. These conflict."
+    },
+    {
+      "page": 103,
+      "issue": "SIADH table gives the urine osmolality finding as '>100 mOsm/L' while normal is listed as 200-1,200 mOsm/L, so the finding labeled 'concentrated urine' includes values below the stated normal range."
+    },
+    {
+      "page": 104,
+      "issue": "SIADH medications include thiazide diuretics, but p103 lists thiazide diuretics as a cause of SIADH. These are contradictory."
+    },
+    {
+      "page": 105,
+      "issue": "DI diagnostic panel lists glucose 'DI >126 mg/dL' as a DI finding, which is not a DI criterion. The urine osmolality entry gives only a normal range with no DI value. 'Concetration' is misspelled."
+    },
+    {
+      "page": 106,
+      "issue": "Acromegaly GH glucose-suppression 'normal' values (men <5 ng/mL, women <10 ng/mL) look too high to serve as suppression cutoffs; verify."
+    },
+    {
+      "page": 107,
+      "issue": "Hyperparathyroidism text cites Mallick et al., 2020, but the reference list (p113) dates it 2021."
+    },
+    {
+      "page": 108,
+      "issue": "'Remember' box in the hyperparathyroidism section is about Addison disease and Cushing syndrome (out of place) and has a typo: 'Hypersection of glucocorticoids' should read 'Hypersecretion'."
+    },
+    {
+      "page": 109,
+      "issue": "The D11 Hypoparathyroidism intro box overlaps and hides the 'Causes' heading (only 'Ca' is visible)."
+    },
+    {
+      "page": 102,
+      "issue": "SIADH 'Remember' box lists hypertension as a key sign; classic SIADH is usually euvolemic without hypertension or edema. Questions avoid using hypertension as an SIADH finding."
+    },
+    {
+      "page": 101,
+      "issue": "Pheochromocytoma 'Other risks: Hypoxemia, hypertension, congenital heart disease' is unclear (hypertension is a result of the tumor, not a cause) and is unreferenced; verify."
+    },
+    {
+      "page": 99,
+      "issue": "The 'Other causes' and 'Triggers' lists in the adrenal insufficiency graphic are identical (physiological stress: surgery, trauma, infection, fluid loss, MI, asthma, hypoglycemia, depression); one appears to be a duplicate."
+    },
+    {
+      "page": 105,
+      "issue": "DI IV fluid rate of 500-750 mL/hour is stated without context (e.g., initial resuscitation vs maintenance or patient size); verify before students apply it. No questions use this rate."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: Psychosocial Integrity is 6 vs target 7 (within tolerance); the chapter's psychosocial content is brief (emotional support/coping lines). Management of Care items rely on prioritization of book findings; delegation items (SIADH) use basic scope-of-practice knowledge beyond the book."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "chapter": "resp",
+  "reviewed": 96,
+  "ok": 91,
+  "fixed": 4,
+  "rewritten": 1,
+  "items": [
+    {
+      "id": "resp-pneumonia-q8",
+      "status": "fixed",
+      "note": "Stem said only '28-year-old client'; the keyed pregnancy-test answer applies to women of childbearing age, so the stem now states the client is a woman."
+    },
+    {
+      "id": "resp-pneumonia-q3",
+      "status": "fixed",
+      "note": "Keyed option said 'at all times' (absolute); aligned with the book's wording 'unless contraindicated' (p24)."
+    },
+    {
+      "id": "resp-asthma-q3",
+      "status": "fixed",
+      "note": "cjmm was evaluateOutcomes, but no intervention is being evaluated; the item asks the nurse to interpret cues, so changed to analyzeCues."
+    },
+    {
+      "id": "resp-pneumothorax-q3",
+      "status": "fixed",
+      "note": "Distractor 'chamber sits below the chest' was the mirror image of the key, cueing the answer; replaced with another correct-setup finding from p37 (no water-seal bubbling)."
+    },
+    {
+      "id": "resp-asthma-q2",
+      "status": "rewritten",
+      "note": "Original item keyed ICU vs telemetry admission on the p29 'PFR <50% ICU / PFR >50-70% telemetry' thresholds, which this chapter's concerns list flags as unclear and nonstandard (spec rule 6). Rewritten as a moc prioritization item grounded in the p30 status asthmaticus findings."
+    }
+  ]
+}

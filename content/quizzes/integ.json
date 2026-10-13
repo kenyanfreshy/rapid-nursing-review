@@ -1,0 +1,283 @@
+{
+  "chapter": "integ",
+  "questions": [
+    {
+      "id": "integ-burns-q1",
+      "section": "integ-burns",
+      "stem": "A client arrives after a house fire with burns to the face and neck, a hoarse voice, and soot around the mouth. Which action should the nurse take first?",
+      "options": [
+        "Assess and secure the airway",
+        "Calculate fluids with the Parkland formula",
+        "Give analgesia for burn pain",
+        "Apply silver sulfadiazine to the wounds"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists airway management first for facial and neck burns and says to prioritize the airway when inhalation injury is suspected.",
+        "Fluid replacement is a priority, but the book places airway ahead of fluids when facial burns and inhalation injury are present.",
+        "Pain control is part of burn care, but it does not come before protecting the airway in a client with facial and neck burns.",
+        "Topical antibiotic wound care is listed in the book, but it is not the first action when the airway is threatened."
+      ],
+      "clue": "Facial and neck burns with hoarseness and soot point to a possible inhalation injury.",
+      "priority": "Airway comes first in burn care when inhalation injury is suspected.",
+      "page": 178,
+      "type": "mcq",
+      "clientNeed": "moc",
+      "cjmm": "takeAction",
+      "checked": true
+    },
+    {
+      "id": "integ-burns-q2",
+      "section": "integ-burns",
+      "stem": "A 70-kg adult has burns covering 40% TBSA. Using the Parkland formula as presented in the book, how much fluid should the nurse expect to infuse in the first 8 hours?",
+      "options": [
+        "2,800 mL",
+        "11,200 mL",
+        "5,600 mL",
+        "8,400 mL"
+      ],
+      "correct": 2,
+      "rationales": [
+        "This is one quarter of the total volume; the book directs half of the calculated total in the first 8 hours.",
+        "This is the full calculated volume; the book says only half is given in the first 8 hours.",
+        "Correct. 4 mL x 70 kg x 40% = 11,200 mL for the total; the book says to give half in the first 8 hours, which is 5,600 mL.",
+        "This is three quarters of the 11,200 mL total; the book's formula (4 mL x kg x % TBSA) directs half of the total in the first 8 hours."
+      ],
+      "clue": "Weight 70 kg and 40% TBSA are the values needed for the Parkland formula.",
+      "priority": "Accurate fluid resuscitation in the early phase of a major burn.",
+      "page": 178,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "integ-burns-q3",
+      "section": "integ-burns",
+      "stem": "The nurse assesses several burned areas on a client injured in a kitchen fire. For each finding, indicate the burn depth it matches.",
+      "correct": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "rationales": [
+        "The book's burn depth chart describes superficial (1st degree) burns as red, dry and painful.",
+        "The book describes partial-thickness (2nd degree) burns as blistered, moist and painful.",
+        "The book describes full-thickness (3rd/4th degree) burns as leathery and painless, involving fat or muscle.",
+        "A painless wound involving muscle fits the book's full-thickness (3rd/4th degree) description, which involves fat or muscle."
+      ],
+      "clue": "Color, moisture, blistering and the presence or absence of pain separate the burn depths.",
+      "priority": "Accurate burn depth classification guides care.",
+      "page": 178,
+      "type": "matrix",
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "rows": [
+        "Red, dry, painful area on the forearm",
+        "Moist, painful area with blisters on the hand",
+        "Leathery, painless area extending into the fat",
+        "Painless wound with muscle involvement on the thigh"
+      ],
+      "columns": [
+        "Superficial (1st degree)",
+        "Partial-thickness (2nd degree)",
+        "Full-thickness (3rd/4th degree)"
+      ],
+      "checked": true
+    },
+    {
+      "id": "integ-pressure-q1",
+      "section": "integ-pressure",
+      "stem": "A bedbound client has an area of intact skin over the sacrum with purple-maroon discoloration. How should the nurse document this finding?",
+      "options": [
+        "Stage I pressure injury",
+        "Stage II pressure injury",
+        "Unstageable pressure injury",
+        "Deep tissue pressure injury"
+      ],
+      "correct": 3,
+      "rationales": [
+        "Stage I is non-blanchable erythema (redness) of intact skin, not purple-maroon discoloration.",
+        "Stage II is partial-thickness skin loss such as a blister or open ulcer, which is not described here.",
+        "Unstageable injuries are covered with slough or eschar; this skin has discoloration but no slough or eschar.",
+        "Correct. The book defines DTPI as a deep tissue pressure injury with purple or maroon discoloration."
+      ],
+      "clue": "Purple-maroon discoloration is the defining feature in the stem.",
+      "priority": "Accurate staging and documentation of pressure injuries.",
+      "page": 178,
+      "type": "mcq",
+      "clientNeed": "rrp",
+      "cjmm": "analyzeCues",
+      "checked": true
+    },
+    {
+      "id": "integ-pressure-q2",
+      "section": "integ-pressure",
+      "stem": "A pressure injury on a client's heel shows full-thickness tissue loss with visible fat, but no exposed muscle, tendon or bone. Which stage should the nurse record?",
+      "options": [
+        "Stage II",
+        "Stage III",
+        "Stage IV",
+        "Unstageable"
+      ],
+      "correct": 1,
+      "rationales": [
+        "Stage II is partial-thickness loss such as a blister or open ulcer, not full-thickness loss with fat showing.",
+        "Correct. The book defines Stage III as full-thickness loss with visible fat.",
+        "Stage IV involves exposure of muscle, tendon or bone, which is absent in this wound.",
+        "A wound is unstageable when slough or eschar covers it; here the base is visible and fat can be seen."
+      ],
+      "clue": "Visible fat without exposed muscle, tendon or bone.",
+      "priority": "Correct staging of pressure injuries.",
+      "page": 178,
+      "type": "mcq",
+      "clientNeed": "pa",
+      "cjmm": "recognizeCues",
+      "checked": true
+    },
+    {
+      "id": "integ-pressure-q3",
+      "section": "integ-pressure",
+      "stem": "A client who is immobile, incontinent and has diabetes is at high risk for pressure injury. Which interventions should the nurse include in the plan of care? Select all that apply.",
+      "options": [
+        "Reposition the client every 4 hours to allow uninterrupted rest",
+        "Turn the client every 2 hours",
+        "Limit fluids to reduce episodes of incontinence",
+        "Keep the skin clean and dry and apply a barrier cream",
+        "Provide protein-rich foods and adequate fluids",
+        "Use a pressure-relieving device on the bed"
+      ],
+      "correct": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "rationales": [
+        "Incorrect. The book specifies turning every 2 hours, not every 4 hours.",
+        "Correct. The book lists turning every 2 hours as pressure injury nursing care.",
+        "Incorrect. The book lists dehydration as a risk factor and calls for adequate hydration.",
+        "Correct. The book says to maintain clean, dry skin and use barrier creams, which matters for an incontinent client.",
+        "Correct. The book calls for protein-rich nutrition and adequate hydration; malnutrition and dehydration are listed risk factors.",
+        "Correct. The book lists pressure-relieving devices with turning every 2 hours."
+      ],
+      "clue": "Immobility, incontinence and diabetes are all listed risk factors for pressure injury.",
+      "priority": "Preventing pressure injuries through repositioning, skin care, nutrition and hydration.",
+      "page": 178,
+      "type": "sata",
+      "clientNeed": "bcc",
+      "cjmm": "generateSolutions",
+      "checked": true
+    },
+    {
+      "id": "integ-skin-q1",
+      "section": "integ-skin",
+      "stem": "A nurse is caring for four clients with skin conditions. For which client is it most important to use infection-control measures to prevent spread to other clients?",
+      "options": [
+        "A client with psoriasis plaques on both elbows",
+        "A client with an eczema flare on the hands",
+        "A child with impetigo lesions on the face",
+        "A client with a Stage II pressure injury on the sacrum"
+      ],
+      "correct": 2,
+      "rationales": [
+        "The book groups psoriasis with eczema as conditions managed with steroids and moisturizers; it is not described as contagious.",
+        "The book lists eczema as a condition managed with steroids and moisturizers; it is not described as contagious.",
+        "Correct. The book flags impetigo as contagious and lists infection control among the integumentary priorities.",
+        "A pressure injury comes from pressure and the risk factors the book lists; it is prevented by turning and skin care, not spread between clients."
+      ],
+      "clue": "Impetigo is the only condition the book labels as contagious.",
+      "priority": "Infection control to prevent spread of a contagious skin infection.",
+      "page": 179,
+      "type": "mcq",
+      "clientNeed": "safety",
+      "cjmm": "prioritizeHypotheses",
+      "checked": true
+    },
+    {
+      "id": "integ-skin-q2",
+      "section": "integ-skin",
+      "stem": "After sun-protection teaching, which client statement shows the teaching was understood?",
+      "options": [
+        "I only need sunscreen on cloudy days.",
+        "Midday sun is fine if I wear a hat.",
+        "SPF 15 is enough for daily outdoor work.",
+        "I will avoid peak sun and use SPF 30 or higher."
+      ],
+      "correct": 3,
+      "rationales": [
+        "The book's sun protection teaching (avoid peak sun hours, protective clothing, SPF 30+) is not limited to cloudy days.",
+        "The book teaches avoiding peak sun hours, so planning midday exposure is incorrect.",
+        "The book specifies SPF 30+, so SPF 15 falls short of the teaching.",
+        "Correct. The book teaches avoiding peak sun hours, wearing protective clothing and using SPF 30+."
+      ],
+      "clue": "The client must describe avoiding peak sun and using adequate SPF.",
+      "priority": "Patient education to prevent skin cancer.",
+      "page": 179,
+      "type": "mcq",
+      "clientNeed": "hpm",
+      "cjmm": "evaluateOutcomes",
+      "checked": true
+    },
+    {
+      "id": "integ-skin-q3",
+      "section": "integ-skin",
+      "stem": "A client is diagnosed with a herpes skin infection. Which medication should the nurse anticipate being prescribed?",
+      "options": [
+        "Acyclovir",
+        "Clotrimazole",
+        "Fluconazole",
+        "Oral antihistamine"
+      ],
+      "correct": 0,
+      "rationales": [
+        "Correct. The book lists acyclovir and valacyclovir as antivirals used for herpes.",
+        "The book lists clotrimazole as a topical antifungal, not as treatment for a viral herpes infection.",
+        "The book lists fluconazole as an oral antifungal for systemic fungal infection, not for herpes.",
+        "Oral antihistamines are listed as antipruritics to reduce itching; they do not treat the herpes virus."
+      ],
+      "clue": "Herpes is a viral infection.",
+      "priority": "Matching the drug class to the type of skin infection.",
+      "page": 179,
+      "type": "mcq",
+      "clientNeed": "pharm",
+      "cjmm": "generateSolutions",
+      "checked": true
+    }
+  ],
+  "concerns": [
+    {
+      "page": 177,
+      "issue": "Chapter heading is misspelled 'INTEGUMETARY SYSTEM' (should be 'INTEGUMENTARY')."
+    },
+    {
+      "page": 178,
+      "issue": "The pressure injury 'Nursing care' block (turn q2h, barrier creams, protein-rich nutrition) is printed twice on the same page, before and after 'Risk factors'."
+    },
+    {
+      "page": 177,
+      "issue": "The chapter opener lists Skin Infections, Skin Cancer and Wound Healing and Care as topics, but pages 178-179 have no dedicated content for them beyond drug lists, patient education and brief 'Remember' notes (e.g. impetigo, ABCDE rule)."
+    },
+    {
+      "page": 179,
+      "issue": "The 'Remember' box says to prevent pressure injuries with the Braden Scale, but the pressure injury section on page 178 does not mention the Braden Scale or how to use it."
+    },
+    {
+      "page": 178,
+      "issue": "Parkland formula says to give half of the total in the first 8 hours but does not say the remaining half is given over the next 16 hours, so the 24-hour time frame of the formula is missing."
+    },
+    {
+      "page": 179,
+      "issue": "The 'Remember' box says to use the ABCDE rule to assess moles, but the letters (asymmetry, border, color, diameter, evolving) are never defined anywhere in the chapter."
+    },
+    {
+      "page": 179,
+      "issue": "Skin infections are covered only by drug lists and the note 'Impetigo (contagious)'; there is no description of impetigo, cellulitis or other infections, their signs, or the precautions needed, despite 'Skin infections' being a chapter topic."
+    },
+    {
+      "page": 0,
+      "issue": "blueprint: no Psychosocial Integrity item (target 1) and only one Management of Care item (target 2). Pages 177-179 contain no psychosocial content (e.g., body image after burns) and the section question counts are fixed at 3, so these stay within tolerance but short."
+    }
+  ]
+}
