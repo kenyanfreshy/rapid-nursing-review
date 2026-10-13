@@ -847,3 +847,18 @@ html body .qb-card .topic-tile .name{font-size:13px;line-height:18px}
 html body .qb-card .topic-tile .count{font-size:11.5px;line-height:15px;padding:2px 7px;min-width:30px}
 @media (max-width:460px){body:has(.upgrade-pill) #breadcrumb{display:none}}
 html body .sec-quiz.locked{background:#f59e0b;border-color:#f59e0b;color:#1a1204}
+/* topic names never run under the count */
+html body .qb-card .topic-tile .name{overflow:hidden;overflow-wrap:normal;word-break:normal;hyphens:manual}
+@media (max-width:429px){
+  html body .qb-card{padding:12px}
+  html body .qb-card .topic-grid{gap:7px}
+  html body .qb-card .topic-tile{gap:6px;padding:9px 6px 9px 20px}
+  html body .qb-card .topic-tile .bar{left:9px}
+  html body .qb-card .topic-tile.on{padding:8px 5px 8px 19px}
+  html body .qb-card .topic-tile .count{min-width:26px;padding:2px 5px}
+}
+/* Mode: label and Tutor | Exam centered */
+.picker-controls .field.mode-field{justify-items:center;text-align:center}
+.picker-controls .field.mode-field .field-label{text-align:center;width:100%}
+.picker-controls .field.mode-field .segmented.mode{width:100%;justify-content:center}
+.picker-controls .field.mode-field .segmented.mode button{flex:1;justify-content:center;text-align:center}
