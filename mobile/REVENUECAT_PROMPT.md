@@ -19,7 +19,7 @@ PRODUCTS (App Store Connect → subscription group "Rapid Nursing Review Pro", p
 4. Lifetime Access — non-consumable in-app purchase, one-time, $119.00 USD
    Product ID: com.alexkorir.rapidnursingreview.pro.lifetime
    Display name: Pro Lifetime
-Subscription group level order (highest first): Annual, 3-Month, Monthly. No free trial.
+Subscription group level order (highest first): Annual, 3-Month, Monthly. Each subscription (monthly, 3-month, annual) has a 2-week FREE TRIAL introductory offer (Free, 2 weeks, all territories). Lifetime has no trial.
 
 ENTITLEMENT
 - Identifier: pro  (display name "Rapid Nursing Review Pro")

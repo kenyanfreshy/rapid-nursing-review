@@ -202,7 +202,7 @@ export default function Paywall({ onClose, reason }) {
       saveText: p.packageType === 'ANNUAL' && yearlySave > 0 ? `Save ~${yearlySave}%` : p.packageType === 'THREE_MONTH' && quarterSave > 0 ? `Save ~${quarterSave}%` : null });
   };
 
-  const ctaTitle = !chosen ? '' : busy ? 'Please wait…' : trial ? (trial.free ? 'Start Free Trial' : `Start for ${trial.priceString}`) : 'Unlock Pro Access';
+  const ctaTitle = !chosen ? '' : busy ? 'Please wait…' : trial ? (trial.free ? `Start ${trial.adj.replace(/^./, c => c.toUpperCase()).replace(/-(\w)/, (m, c) => '-' + c.toUpperCase())} Free Trial` : `Start for ${trial.priceString}`) : 'Unlock Pro Access';
   const ctaSub = !chosen ? '' : trial ? `${trial.free ? `${trial.words} free` : `${trial.priceString} for ${trial.words}`}, then ${chosen.product.priceString}${per ? '/' + per : ''} · cancel anytime`
     : chosen.packageType === 'LIFETIME' ? `${chosen.product.priceString} once · no subscription` : `${chosen.product.priceString}${per ? '/' + per : ''} · cancel anytime`;
   const renewLine = chosen && chosen.packageType !== 'LIFETIME' ? (trial ? `${trial.words} free, then ${chosen.product.priceString}/${per}, renewing automatically.` : `${chosen.product.priceString}/${per}, renewing automatically.`) : null;

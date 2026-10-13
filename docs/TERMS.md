@@ -12,7 +12,10 @@ Rapid Nursing Review for iPhone and iPad is licensed to you under Apple's Licens
 Pro is offered as Monthly ($9.99/month), a 3-Month Pass ($49.99 every 3 months), Annual ($89.99/year) and Lifetime Access
 ($119.00, one-time). Prices are in U.S. dollars; the App Store shows the price for your country.
 
-- Payment is charged to your Apple ID account when you confirm the purchase.
+- **Free trial:** Monthly, 3-Month and Annual subscriptions start with a 2-week free trial for eligible new subscribers
+  (one trial per Apple ID). When the trial ends, the subscription starts and your Apple ID is charged unless you cancel at
+  least 24 hours before the trial ends. Lifetime Access has no trial.
+- Payment is charged to your Apple ID account when you confirm the purchase (for a free trial, when the trial ends).
 - Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Your account
   is charged for renewal within 24 hours before the end of the period.
 - Manage or cancel subscriptions in your Apple ID account settings (Settings → your name → Subscriptions). Canceling stops future renewals; Pro

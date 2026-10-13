@@ -29,7 +29,7 @@ $29.97 (for example $24.99, about 17% off) or raise monthly (for example $19.99,
 The app doesn't name competitors on the paywall; keep comparisons to your own marketing, where you can check the
 competitor's current price first.
 
-**Free trial (optional):** none is required. If you add an introductory offer to the subscriptions in the stores,
+**Free trial:** every subscription (monthly, 3-month, annual) has a **2-week free trial** set up as an Apple introductory offer (Subscription → Subscription Prices → Introductory Offers → Free, 2 weeks, all countries). Lifetime has no trial. Apple gives one trial per subscription group per Apple ID. The paywall reads the offer from Apple and,
 the paywall shows it automatically, only to shoppers the store says are eligible, with the price that follows it.
 
 **Other countries:** enter the U.S. price and let each store convert it, then adjust any country that looks too high.
