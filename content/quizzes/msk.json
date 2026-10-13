@@ -1,386 +1,909 @@
 {
-  "chapter": "msk",
-  "questions": [
-    {
-      "id": "msk-fractures-q1",
-      "section": "msk-fractures",
-      "stem": "A client with a new forearm cast reports pain not relieved by medication and tingling in the fingers. Which action should the nurse take?",
-      "options": [
-        "Document the findings as expected after casting",
-        "Report possible compartment syndrome now",
-        "Recheck neurovascular status in 4 hours",
-        "Slide a ruler under the cast for relief"
-      ],
-      "correct": 1,
-      "rationales": [
-        "Pain and paresthesia are two of the 6 P's of compartment syndrome listed on this page, so they are not expected findings to simply document.",
-        "Correct. Pain and paresthesia are among the 6 P's of compartment syndrome, a fracture complication the book lists; it must be reported promptly.",
-        "The book calls for neurovascular checks every 1-2 hours in the acute phase; waiting 4 hours with these findings is unsafe.",
-        "The book's cast care teaching says to avoid inserting objects into the cast."
-      ],
-      "clue": "Unrelieved pain plus paresthesia under a cast.",
-      "priority": "Early recognition of compartment syndrome after a fracture.",
-      "page": 181,
-      "type": "mcq",
-      "clientNeed": "pa",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "msk-fractures-q2",
-      "section": "msk-fractures",
-      "stem": "A client with a long-bone fracture suddenly becomes short of breath and confused. The nurse notes petechiae on the chest and axilla. Which complication is most likely?",
-      "options": [
-        "Compartment syndrome",
-        "Osteomyelitis",
-        "Autonomic dysreflexia",
-        "Fat embolism"
-      ],
-      "correct": 3,
-      "rationales": [
-        "Compartment syndrome is defined by the 6 P's in the affected limb, not by petechiae and dyspnea.",
-        "Osteomyelitis presents with localized pain, swelling, warmth and fever, not petechiae and confusion.",
-        "The book links autonomic dysreflexia to spinal cord injury, with high BP, headache and bradycardia.",
-        "Correct. The book lists dyspnea, petechiae on the chest and axilla, and confusion as signs of fat embolism."
-      ],
-      "clue": "Petechiae on the chest and axilla with dyspnea and confusion.",
-      "priority": "Recognizing a life-threatening fracture complication.",
-      "page": 181,
-      "type": "mcq",
-      "clientNeed": "pa",
-      "cjmm": "analyzeCues",
-      "checked": true
-    },
-    {
-      "id": "msk-fractures-q3",
-      "section": "msk-fractures",
-      "stem": "During rounds, the nurse finds the weights of a client's Buck's traction resting on the floor. What should the nurse do?",
-      "options": [
-        "Make sure the weights hang freely",
-        "Leave them on the floor for comfort",
-        "Take the weights off until morning",
-        "Put the weights on the bed"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book states that traction weights must hang freely with alignment maintained.",
-        "Weights resting on the floor stop the traction from working; the book requires them to hang freely.",
-        "Removing the weights abandons the traction; the book calls for free-hanging weights and alignment.",
-        "Weights resting on the bed do not hang freely, which the book says must be maintained."
-      ],
-      "clue": "Traction weights are resting on the floor.",
-      "priority": "Maintaining effective traction and alignment.",
-      "page": 181,
-      "type": "mcq",
-      "clientNeed": "safety",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "msk-bone-q1",
-      "section": "msk-bone",
-      "stem": "A client is starting alendronate for osteoporosis. Which instruction should the nurse include?",
-      "options": [
-        "Take it with milk at bedtime",
-        "Lie down for 30 minutes afterward",
-        "Take it with water and stay upright",
-        "Stop weight-bearing activity"
-      ],
-      "correct": 2,
-      "rationales": [
-        "The book specifies taking it with water and sitting upright, which bedtime dosing lying down does not allow.",
-        "Lying down contradicts the book's instruction to sit upright after the dose.",
-        "Correct. The book states bisphosphonates such as alendronate are taken with water while sitting upright.",
-        "The book recommends weight-bearing exercise as part of osteoporosis management."
-      ],
-      "clue": "The drug is a bisphosphonate.",
-      "priority": "Safe administration teaching for bisphosphonates.",
-      "page": 181,
-      "type": "mcq",
-      "clientNeed": "pharm",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "msk-bone-q2",
-      "section": "msk-bone",
-      "stem": "A client with gout asks what can bring on another attack. Which items should the nurse identify as triggers? Select all that apply.",
-      "options": [
-        "Drinking plenty of fluids",
-        "Alcohol",
-        "Following a low-purine diet",
-        "Shellfish",
-        "Red meat",
-        "Thiazide diuretics"
-      ],
-      "correct": [
-        1,
-        3,
-        4,
-        5
-      ],
-      "rationales": [
-        "Incorrect. The book lists fluids as part of chronic gout management, not as a trigger.",
-        "Correct. Alcohol is listed as a gout trigger.",
-        "Incorrect. A low-purine diet is part of chronic gout management in the book.",
-        "Correct. Shellfish is listed as a gout trigger.",
-        "Correct. Red meat is listed as a gout trigger.",
-        "Correct. Thiazides are listed as a gout trigger."
-      ],
-      "clue": "The client has gout and asks about factors that provoke attacks.",
-      "priority": "Teaching to prevent gout flares by avoiding triggers.",
-      "page": 182,
-      "type": "sata",
-      "clientNeed": "hpm",
-      "cjmm": "generateSolutions",
-      "checked": true
-    },
-    {
-      "id": "msk-bone-q3",
-      "section": "msk-bone",
-      "stem": "A nurse is reviewing findings for clients with joint pain. For each finding, indicate whether the book associates it with osteoarthritis (OA) or rheumatoid arthritis (RA).",
-      "correct": [
-        0,
-        1,
-        1,
-        0,
-        1
-      ],
-      "rationales": [
-        "The book lists Heberden's and Bouchard's nodes as signs of OA.",
-        "The book lists morning stiffness longer than 1 hour as a sign of RA.",
-        "The book lists +RF and + anti-CCP antibodies as RA labs.",
-        "The book describes OA pain as worse with activity, with stiffness after rest.",
-        "The book lists raised ESR and CRP as RA labs."
-      ],
-      "clue": "Lab markers of autoimmunity and prolonged morning stiffness point to RA; nodes and activity-related pain point to OA.",
-      "priority": "Distinguishing osteoarthritis from rheumatoid arthritis using findings and labs.",
-      "page": 181,
-      "type": "matrix",
-      "clientNeed": "rrp",
-      "cjmm": "analyzeCues",
-      "rows": [
-        "Heberden's and Bouchard's nodes",
-        "Morning stiffness lasting more than 1 hour",
-        "Positive rheumatoid factor and anti-CCP antibodies",
-        "Pain that worsens with activity and stiffness after rest",
-        "Elevated ESR and CRP"
-      ],
-      "columns": [
-        "Osteoarthritis",
-        "Rheumatoid arthritis"
-      ],
-      "checked": true
-    },
-    {
-      "id": "msk-osteomyelitis-q1",
-      "section": "msk-osteomyelitis",
-      "stem": "A client with a diabetic foot ulcer has localized foot pain, swelling, warmth and fever. Osteomyelitis is diagnosed. Which treatment should the nurse anticipate?",
-      "options": [
-        "A short course of oral antibiotics",
-        "IV antibiotics for 4 to 6 weeks",
-        "Colchicine and NSAIDs",
-        "Ice and compression only"
-      ],
-      "correct": 1,
-      "rationales": [
-        "The book specifies long-term IV antibiotics, not a short oral course.",
-        "Correct. The book lists long-term IV antibiotics for 4-6 weeks, with surgical debridement and sepsis monitoring.",
-        "The book lists colchicine and NSAIDs as acute gout treatment, not osteomyelitis treatment.",
-        "Ice and compression are part of RICE for sprains and strains, not treatment for a bone infection."
-      ],
-      "clue": "A diabetic foot ulcer is a listed risk factor for osteomyelitis.",
-      "priority": "Treating bone infection and watching for sepsis.",
-      "page": 182,
-      "type": "mcq",
-      "clientNeed": "pharm",
-      "cjmm": "generateSolutions",
-      "checked": true
-    },
-    {
-      "id": "msk-osteomyelitis-q2",
-      "section": "msk-osteomyelitis",
-      "stem": "A client returns from surgery after a below-knee amputation. Which nursing action is the priority in the immediate post-op period?",
-      "options": [
-        "Begin prone positioning right away",
-        "Start teaching about prosthesis use",
-        "Discuss feelings about body image",
-        "Check vital signs and dressing for bleeding"
-      ],
-      "correct": 3,
-      "rationales": [
-        "Prone positioning is listed to promote mobility, but it does not come before preventing hemorrhage.",
-        "Prosthesis teaching is not listed among the book's immediate post-op priorities.",
-        "Psychosocial support is listed, but bleeding control comes first right after surgery.",
-        "Correct. The book lists preventing hemorrhage and monitoring vital signs and the dressing as post-op amputation priorities."
-      ],
-      "clue": "Immediate post-op period after amputation.",
-      "priority": "Preventing hemorrhage after amputation.",
-      "page": 182,
-      "type": "mcq",
-      "clientNeed": "moc",
-      "cjmm": "prioritizeHypotheses",
-      "checked": true
-    },
-    {
-      "id": "msk-osteomyelitis-q3",
-      "section": "msk-osteomyelitis",
-      "stem": "A client is 1 day post total knee arthroplasty. Which interventions should the nurse expect in the plan of care? Select all that apply.",
-      "options": [
-        "Strict bed rest until discharge",
-        "Continuous passive motion (CPM) machine",
-        "Early ambulation",
-        "Holding DVT prophylaxis until the client walks",
-        "Sequential compression devices (SCDs)"
-      ],
-      "correct": [
-        1,
-        2,
-        4
-      ],
-      "rationales": [
-        "Incorrect. The book calls for early ambulation and promoting mobility after joint replacement.",
-        "Correct. The book lists a CPM machine after TKA.",
-        "Correct. The book lists early ambulation after TKA.",
-        "Incorrect. The book lists DVT prophylaxis (heparin, SCDs) as routine post-op care, not something to delay.",
-        "Correct. The book lists SCDs, with heparin, for post-op DVT prophylaxis."
-      ],
-      "clue": "Post-op day 1 after total knee arthroplasty.",
-      "priority": "Promoting mobility and preventing DVT after TKA.",
-      "page": 182,
-      "type": "sata",
-      "clientNeed": "bcc",
-      "cjmm": "generateSolutions",
-      "checked": true
-    },
-    {
-      "id": "msk-spinal-q1",
-      "section": "msk-spinal",
-      "stem": "A nurse receives report on four clients. Which client should the nurse see first?",
-      "options": [
-        "A client with a herniated disc who has sciatica and decreased reflexes",
-        "A client with a spinal cord injury who reports a sudden severe headache and has a high blood pressure",
-        "A client with scoliosis who has questions about wearing a brace",
-        "A client with an ankle sprain who is asking for more ice"
-      ],
-      "correct": 1,
-      "rationales": [
-        "Radiating pain, paresthesia and decreased DTRs are expected herniated disc findings in the book; this client is stable.",
-        "Correct. The book says to monitor clients with spinal cord injury for autonomic dysreflexia (high BP, headache, bradycardia); this client needs immediate assessment.",
-        "Bracing is a listed scoliosis treatment; teaching questions can wait.",
-        "Ice is part of RICE for sprains; this is a comfort request, not an urgent problem."
-      ],
-      "clue": "High blood pressure and sudden headache in a client with spinal cord injury.",
-      "priority": "Recognizing autonomic dysreflexia as the most urgent problem.",
-      "page": 183,
-      "type": "mcq",
-      "clientNeed": "moc",
-      "cjmm": "prioritizeHypotheses",
-      "checked": true
-    },
-    {
-      "id": "msk-spinal-q2",
-      "section": "msk-spinal",
-      "stem": "A client is treated for an ankle sprain. Which instructions are consistent with the book's treatment? Select all that apply.",
-      "options": [
-        "Apply ice for no more than 20 minutes at a time",
-        "Keep ice on the ankle continuously for an hour",
-        "Elevate the ankle",
-        "Use heat instead of ice at first",
-        "Wrap the ankle with a compression bandage",
-        "Keep walking on it to prevent stiffness"
-      ],
-      "correct": [
-        0,
-        2,
-        4
-      ],
-      "rationales": [
-        "Correct. The book's RICE treatment limits ice to 20 minutes maximum.",
-        "Incorrect. An hour exceeds the book's 20-minute maximum for ice.",
-        "Correct. Elevation is part of RICE.",
-        "Incorrect. The book lists ice, not heat, in RICE.",
-        "Correct. Compression is part of RICE.",
-        "Incorrect. The book lists rest and immobilization, not continued activity."
-      ],
-      "clue": "The injury is a sprain treated with RICE.",
-      "priority": "Safe RICE treatment, including the 20-minute limit on ice.",
-      "page": 183,
-      "type": "sata",
-      "clientNeed": "safety",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "msk-spinal-q3",
-      "section": "msk-spinal",
-      "stem": "A client has low back pain radiating down one leg with numbness and tingling. Which other finding would the nurse expect if a herniated disc is the cause?",
-      "options": [
-        "Decreased deep tendon reflexes",
-        "Lateral spinal curvature over 10 degrees",
-        "Bone displaced from the joint",
-        "Raised BP with bradycardia"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book lists radiating pain (sciatica), paresthesia and decreased DTRs as signs of herniated disc.",
-        "This describes scoliosis in the book, not a herniated disc.",
-        "This describes a dislocation, which the book says needs reduction.",
-        "These are signs of autonomic dysreflexia in spinal cord injury per the book."
-      ],
-      "clue": "Radiating leg pain with paresthesia suggests sciatica.",
-      "priority": "Assessing neurological signs of herniated disc.",
-      "page": 183,
-      "type": "mcq",
-      "clientNeed": "rrp",
-      "cjmm": "recognizeCues",
-      "checked": true
-    }
-  ],
-  "concerns": [
-    {
-      "page": 181,
-      "issue": "The fat embolism line is cut off mid-sentence: 'confusion—often after long' (presumably 'long bone fractures')."
-    },
-    {
-      "page": 182,
-      "issue": "The gout content (Cause, Triggers, S/S, Acute treatment, Chronic management) has no 'Gout' heading, so the condition is never named on the page."
-    },
-    {
-      "page": 182,
-      "issue": "The hip precautions ('Avoid hip flexion >90°, crossing legs. Use abduction pillow') appear under the general 'Joint Replacements' heading with no Total Hip Arthroplasty label, while TKA has its own heading."
-    },
-    {
-      "page": 182,
-      "issue": "A three-item list (genetic progressive muscle wasting, loss of ambulation by teens, supportive care) has no heading; it appears to describe muscular dystrophy, which is not named here or in the chapter opener."
-    },
-    {
-      "page": 182,
-      "issue": "Phantom limb pain is said to be treated with 'beta blockers, gabapentin'; beta blockers are not a commonly used first-line option, so this is worth verifying against a current source."
-    },
-    {
-      "page": 181,
-      "issue": "Rheumatoid arthritis content appears on this page but is not listed in the chapter opener (page 180), and the RA deformities line is missing its closing parenthesis ('ulnar drift, swan- neck')."
-    },
-    {
-      "page": 183,
-      "issue": "The compartment syndrome infographic (including 'DO NOT elevate or apply cold' and immediate fasciotomy) is on the spinal disorders page, away from the fracture complications on page 181, where the nursing care says 'Elevate limb'; readers may see this as a contradiction without a note that it applies to suspected compartment syndrome."
-    },
-    {
-      "page": 181,
-      "issue": "Fracture signs list 'diminished pulses (late sign)' while the compartment syndrome graphic on page 183 labels pain as early; pulselessness being late is not tied to compartment syndrome on page 181, so readers may not connect the two."
-    },
-    {
-      "page": 182,
-      "issue": "Hip joint replacement has no post-op items of its own (DVT, wound, mobility) and the line 'Post-op: DVT prophylaxis...' sits under the TKA heading, so it is unclear whether it applies to both THA and TKA."
-    },
-    {
-      "page": 181,
-      "issue": "RA medications (methotrexate, hydroxychloroquine, etanercept, adalimumab) are listed with no monitoring or safety points (e.g., infection risk with biologics), so no pharmacology safety item can be grounded on them."
-    },
-    {
-      "page": 0,
-      "issue": "blueprint: no Psychosocial Integrity item (target 1). The only psychosocial content is the bare bullet 'Psychosocial support' after amputation (page 182), too thin to support a defensible item; Reduction of Risk Potential has 2 (target 1) instead. Within tolerance."
-    }
-  ]
+ "chapter": "msk",
+ "questions": [
+  {
+   "id": "msk-fractures-q1",
+   "section": "msk-fractures",
+   "stem": "A client with a new forearm cast reports pain not relieved by medication and tingling in the fingers. Which action should the nurse take?",
+   "options": [
+    "Document the findings as expected after casting",
+    "Report possible compartment syndrome now",
+    "Recheck neurovascular status in 4 hours",
+    "Slide a ruler under the cast for relief"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Pain and paresthesia are two of the 6 P's of compartment syndrome listed on this page, so they are not expected findings to simply document.",
+    "Correct. Pain and paresthesia are among the 6 P's of compartment syndrome, a fracture complication the book lists; it must be reported promptly.",
+    "The book calls for neurovascular checks every 1-2 hours in the acute phase; waiting 4 hours with these findings is unsafe.",
+    "The book's cast care teaching says to avoid inserting objects into the cast."
+   ],
+   "clue": "Unrelieved pain plus paresthesia under a cast.",
+   "priority": "Early recognition of compartment syndrome after a fracture.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "msk-fractures-q2",
+   "section": "msk-fractures",
+   "stem": "A client with a long-bone fracture suddenly becomes short of breath and confused. The nurse notes petechiae on the chest and axilla. Which complication is most likely?",
+   "options": [
+    "Compartment syndrome",
+    "Osteomyelitis",
+    "Autonomic dysreflexia",
+    "Fat embolism"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Compartment syndrome is defined by the 6 P's in the affected limb, not by petechiae and dyspnea.",
+    "Osteomyelitis presents with localized pain, swelling, warmth and fever, not petechiae and confusion.",
+    "The book links autonomic dysreflexia to spinal cord injury, with high BP, headache and bradycardia.",
+    "Correct. The book lists dyspnea, petechiae on the chest and axilla, and confusion as signs of fat embolism."
+   ],
+   "clue": "Petechiae on the chest and axilla with dyspnea and confusion.",
+   "priority": "Recognizing a life-threatening fracture complication.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "checked": true
+  },
+  {
+   "id": "msk-fractures-q3",
+   "section": "msk-fractures",
+   "stem": "During rounds, the nurse finds the weights of a client's Buck's traction resting on the floor. What should the nurse do?",
+   "options": [
+    "Make sure the weights hang freely",
+    "Leave them on the floor for comfort",
+    "Take the weights off until morning",
+    "Put the weights on the bed"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book states that traction weights must hang freely with alignment maintained.",
+    "Weights resting on the floor stop the traction from working; the book requires them to hang freely.",
+    "Removing the weights abandons the traction; the book calls for free-hanging weights and alignment.",
+    "Weights resting on the bed do not hang freely, which the book says must be maintained."
+   ],
+   "clue": "Traction weights are resting on the floor.",
+   "priority": "Maintaining effective traction and alignment.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "msk-bone-q1",
+   "section": "msk-bone",
+   "stem": "A client is starting alendronate for osteoporosis. Which instruction should the nurse include?",
+   "options": [
+    "Take it with milk at bedtime",
+    "Lie down for 30 minutes afterward",
+    "Take it with water and stay upright",
+    "Stop weight-bearing activity"
+   ],
+   "correct": 2,
+   "rationales": [
+    "The book specifies taking it with water and sitting upright, which bedtime dosing lying down does not allow.",
+    "Lying down contradicts the book's instruction to sit upright after the dose.",
+    "Correct. The book states bisphosphonates such as alendronate are taken with water while sitting upright.",
+    "The book recommends weight-bearing exercise as part of osteoporosis management."
+   ],
+   "clue": "The drug is a bisphosphonate.",
+   "priority": "Safe administration teaching for bisphosphonates.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "msk-bone-q2",
+   "section": "msk-bone",
+   "stem": "A client with gout asks what can bring on another attack. Which items should the nurse identify as triggers? Select all that apply.",
+   "options": [
+    "Drinking plenty of fluids",
+    "Alcohol",
+    "Following a low-purine diet",
+    "Shellfish",
+    "Red meat",
+    "Thiazide diuretics"
+   ],
+   "correct": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "rationales": [
+    "Incorrect. The book lists fluids as part of chronic gout management, not as a trigger.",
+    "Correct. Alcohol is listed as a gout trigger.",
+    "Incorrect. A low-purine diet is part of chronic gout management in the book.",
+    "Correct. Shellfish is listed as a gout trigger.",
+    "Correct. Red meat is listed as a gout trigger.",
+    "Correct. Thiazides are listed as a gout trigger."
+   ],
+   "clue": "The client has gout and asks about factors that provoke attacks.",
+   "priority": "Teaching to prevent gout flares by avoiding triggers.",
+   "page": 182,
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "checked": true
+  },
+  {
+   "id": "msk-bone-q3",
+   "section": "msk-bone",
+   "stem": "A nurse is reviewing findings for clients with joint pain. For each finding, indicate whether the book associates it with osteoarthritis (OA) or rheumatoid arthritis (RA).",
+   "correct": [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "The book lists Heberden's and Bouchard's nodes as signs of OA.",
+    "The book lists morning stiffness longer than 1 hour as a sign of RA.",
+    "The book lists +RF and + anti-CCP antibodies as RA labs.",
+    "The book describes OA pain as worse with activity, with stiffness after rest.",
+    "The book lists raised ESR and CRP as RA labs."
+   ],
+   "clue": "Lab markers of autoimmunity and prolonged morning stiffness point to RA; nodes and activity-related pain point to OA.",
+   "priority": "Distinguishing osteoarthritis from rheumatoid arthritis using findings and labs.",
+   "page": 181,
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "rows": [
+    "Heberden's and Bouchard's nodes",
+    "Morning stiffness lasting more than 1 hour",
+    "Positive rheumatoid factor and anti-CCP antibodies",
+    "Pain that worsens with activity and stiffness after rest",
+    "Elevated ESR and CRP"
+   ],
+   "columns": [
+    "Osteoarthritis",
+    "Rheumatoid arthritis"
+   ],
+   "checked": true
+  },
+  {
+   "id": "msk-osteomyelitis-q1",
+   "section": "msk-osteomyelitis",
+   "stem": "A client with a diabetic foot ulcer has localized foot pain, swelling, warmth and fever. Osteomyelitis is diagnosed. Which treatment should the nurse anticipate?",
+   "options": [
+    "A short course of oral antibiotics",
+    "IV antibiotics for 4 to 6 weeks",
+    "Colchicine and NSAIDs",
+    "Ice and compression only"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The book specifies long-term IV antibiotics, not a short oral course.",
+    "Correct. The book lists long-term IV antibiotics for 4-6 weeks, with surgical debridement and sepsis monitoring.",
+    "The book lists colchicine and NSAIDs as acute gout treatment, not osteomyelitis treatment.",
+    "Ice and compression are part of RICE for sprains and strains, not treatment for a bone infection."
+   ],
+   "clue": "A diabetic foot ulcer is a listed risk factor for osteomyelitis.",
+   "priority": "Treating bone infection and watching for sepsis.",
+   "page": 182,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "checked": true
+  },
+  {
+   "id": "msk-osteomyelitis-q2",
+   "section": "msk-osteomyelitis",
+   "stem": "A client returns from surgery after a below-knee amputation. Which nursing action is the priority in the immediate post-op period?",
+   "options": [
+    "Begin prone positioning right away",
+    "Start teaching about prosthesis use",
+    "Discuss feelings about body image",
+    "Check vital signs and dressing for bleeding"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Prone positioning is listed to promote mobility, but it does not come before preventing hemorrhage.",
+    "Prosthesis teaching is not listed among the book's immediate post-op priorities.",
+    "Psychosocial support is listed, but bleeding control comes first right after surgery.",
+    "Correct. The book lists preventing hemorrhage and monitoring vital signs and the dressing as post-op amputation priorities."
+   ],
+   "clue": "Immediate post-op period after amputation.",
+   "priority": "Preventing hemorrhage after amputation.",
+   "page": 182,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "checked": true
+  },
+  {
+   "id": "msk-osteomyelitis-q3",
+   "section": "msk-osteomyelitis",
+   "stem": "A client is 1 day post total knee arthroplasty. Which interventions should the nurse expect in the plan of care? Select all that apply.",
+   "options": [
+    "Strict bed rest until discharge",
+    "Continuous passive motion (CPM) machine",
+    "Early ambulation",
+    "Holding DVT prophylaxis until the client walks",
+    "Sequential compression devices (SCDs)"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incorrect. The book calls for early ambulation and promoting mobility after joint replacement.",
+    "Correct. The book lists a CPM machine after TKA.",
+    "Correct. The book lists early ambulation after TKA.",
+    "Incorrect. The book lists DVT prophylaxis (heparin, SCDs) as routine post-op care, not something to delay.",
+    "Correct. The book lists SCDs, with heparin, for post-op DVT prophylaxis."
+   ],
+   "clue": "Post-op day 1 after total knee arthroplasty.",
+   "priority": "Promoting mobility and preventing DVT after TKA.",
+   "page": 182,
+   "type": "sata",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "checked": true
+  },
+  {
+   "id": "msk-spinal-q1",
+   "section": "msk-spinal",
+   "stem": "A nurse receives report on four clients. Which client should the nurse see first?",
+   "options": [
+    "A client with a herniated disc who has sciatica and decreased reflexes",
+    "A client with a spinal cord injury who reports a sudden severe headache and has a high blood pressure",
+    "A client with scoliosis who has questions about wearing a brace",
+    "A client with an ankle sprain who is asking for more ice"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Radiating pain, paresthesia and decreased DTRs are expected herniated disc findings in the book; this client is stable.",
+    "Correct. The book says to monitor clients with spinal cord injury for autonomic dysreflexia (high BP, headache, bradycardia); this client needs immediate assessment.",
+    "Bracing is a listed scoliosis treatment; teaching questions can wait.",
+    "Ice is part of RICE for sprains; this is a comfort request, not an urgent problem."
+   ],
+   "clue": "High blood pressure and sudden headache in a client with spinal cord injury.",
+   "priority": "Recognizing autonomic dysreflexia as the most urgent problem.",
+   "page": 183,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "checked": true
+  },
+  {
+   "id": "msk-spinal-q2",
+   "section": "msk-spinal",
+   "stem": "A client is treated for an ankle sprain. Which instructions are consistent with the book's treatment? Select all that apply.",
+   "options": [
+    "Apply ice for no more than 20 minutes at a time",
+    "Keep ice on the ankle continuously for an hour",
+    "Elevate the ankle",
+    "Use heat instead of ice at first",
+    "Wrap the ankle with a compression bandage",
+    "Keep walking on it to prevent stiffness"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. The book's RICE treatment limits ice to 20 minutes maximum.",
+    "Incorrect. An hour exceeds the book's 20-minute maximum for ice.",
+    "Correct. Elevation is part of RICE.",
+    "Incorrect. The book lists ice, not heat, in RICE.",
+    "Correct. Compression is part of RICE.",
+    "Incorrect. The book lists rest and immobilization, not continued activity."
+   ],
+   "clue": "The injury is a sprain treated with RICE.",
+   "priority": "Safe RICE treatment, including the 20-minute limit on ice.",
+   "page": 183,
+   "type": "sata",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "msk-spinal-q3",
+   "section": "msk-spinal",
+   "stem": "A client has low back pain radiating down one leg with numbness and tingling. Which other finding would the nurse expect if a herniated disc is the cause?",
+   "options": [
+    "Decreased deep tendon reflexes",
+    "Lateral spinal curvature over 10 degrees",
+    "Bone displaced from the joint",
+    "Raised BP with bradycardia"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists radiating pain (sciatica), paresthesia and decreased DTRs as signs of herniated disc.",
+    "This describes scoliosis in the book, not a herniated disc.",
+    "This describes a dislocation, which the book says needs reduction.",
+    "These are signs of autonomic dysreflexia in spinal cord injury per the book."
+   ],
+   "clue": "Radiating leg pain with paresthesia suggests sciatica.",
+   "priority": "Assessing neurological signs of herniated disc.",
+   "page": 183,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "checked": true
+  },
+  {
+   "id": "msk-fractures-q4",
+   "section": "msk-fractures",
+   "stem": "A client with a new lower-leg cast is being taught cast care. Which statement shows the client needs more teaching?",
+   "options": [
+    "I'll keep my leg raised on pillows.",
+    "I'll tell the nurse if I feel a hot spot under the cast.",
+    "I'll use a coat hanger to scratch under the cast if it itches.",
+    "I'll let you know if my toes start to tingle."
+   ],
+   "correct": 2,
+   "rationales": [
+    "Elevating the limb is part of the book's fracture nursing care, so this is correct.",
+    "The book says to check for hot spots, so reporting one is correct.",
+    "Correct. The book says to avoid inserting objects into the cast, so this statement needs follow-up teaching.",
+    "Tingling is paresthesia, one of the 6 P's of compartment syndrome, so reporting it is correct."
+   ],
+   "clue": "Putting an object under the cast to scratch goes against the book's cast care.",
+   "priority": "Cast care teaching: never insert objects, report hot spots, keep the limb elevated.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-fractures-q5",
+   "section": "msk-fractures",
+   "stem": "A nurse assesses a client with a closed tibial fracture. For each finding, indicate whether the book lists it as a typical fracture sign or as a late sign.",
+   "rows": [
+    "Crepitus at the fracture site",
+    "Ecchymosis over the shin",
+    "Diminished pulses distal to the fracture",
+    "Deformity of the lower leg",
+    "Loss of function of the leg"
+   ],
+   "columns": [
+    "Typical fracture sign",
+    "Late sign"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "rationales": [
+    "The book lists crepitus among typical fracture signs.",
+    "The book lists ecchymosis among typical fracture signs.",
+    "The book labels diminished pulses as a late sign, so it calls for prompt follow-up.",
+    "The book lists deformity among typical fracture signs.",
+    "The book lists loss of function among typical fracture signs."
+   ],
+   "clue": "The book marks diminished pulses as a late sign; the other findings are typical fracture signs.",
+   "priority": "Recognize that diminished distal pulses are a late finding that needs prompt follow-up.",
+   "page": 181,
+   "type": "matrix",
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-fractures-q6",
+   "section": "msk-fractures",
+   "stem": "A nurse on an orthopedic unit receives report on four clients. Which client should the nurse see first?",
+   "options": [
+    "A client with a closed wrist fracture who has swelling and bruising and is waiting for a splint",
+    "A client in skeletal traction whose weights are hanging freely and who asks for a drink",
+    "A child with a greenstick fracture of the forearm whose pain is controlled",
+    "A client with a casted tibia fracture who now has numbness of the toes and a pale, cool foot"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Swelling and bruising are expected fracture signs, and the client is waiting for a splint.",
+    "Weights that hang freely are correct traction care, and a drink request is not urgent.",
+    "A greenstick fracture with controlled pain is stable.",
+    "Correct. Paresthesia, pallor and poikilothermia are among the 6 P's of compartment syndrome, which the book lists as a fracture complication."
+   ],
+   "clue": "New numbness with a pale, cool foot under a cast matches several of the 6 P's.",
+   "priority": "Suspected compartment syndrome takes priority over stable fracture findings.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-fractures-q7",
+   "section": "msk-fractures",
+   "stem": "A client with a closed forearm fracture is in the acute phase and waiting for definitive treatment. Which nursing measures should the nurse include? Select all that apply.",
+   "options": [
+    "Immobilize the arm with a splint",
+    "Have the client move the arm to test function",
+    "Elevate the injured arm",
+    "Check neurovascular status every 1 to 2 hours",
+    "Check neurovascular status once per shift",
+    "Keep the arm hanging down at the client's side"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. The book says to immobilize with splints.",
+    "Moving the injured arm can worsen the injury; the book says to immobilize it.",
+    "Correct. The book says to elevate the limb.",
+    "Correct. The book says to monitor NV status every 1 to 2 hours in the acute phase.",
+    "Once a shift is less often than the book's every 1 to 2 hours in the acute phase.",
+    "Letting the arm hang down is the opposite of the book's instruction to elevate the limb."
+   ],
+   "clue": "The acute phase calls for immobilizing, elevating and frequent neurovascular checks.",
+   "priority": "Immobilize, elevate and monitor neurovascular status every 1 to 2 hours in the acute phase.",
+   "page": 181,
+   "type": "sata",
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q4",
+   "section": "msk-bone",
+   "stem": "A nurse is screening adults at a community health fair. Which factors increase a client's risk of osteoporosis? Select all that apply.",
+   "options": [
+    "Estrogen deficiency after menopause",
+    "Long-term corticosteroid use",
+    "Smoking",
+    "Daily brisk walking",
+    "Adequate calcium and vitamin D intake",
+    "Sedentary lifestyle"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "rationales": [
+    "Correct. The book lists estrogen deficiency as a cause.",
+    "Correct. The book lists corticosteroid use as a cause.",
+    "Correct. The book lists smoking as a cause.",
+    "Weight-bearing exercise is part of the book's management, so it protects bone.",
+    "Low calcium and vitamin D is the risk factor; adequate intake is protective.",
+    "Correct. The book lists a sedentary lifestyle as a cause."
+   ],
+   "clue": "Estrogen deficiency, corticosteroids, smoking and inactivity are listed causes of osteoporosis.",
+   "priority": "Identify modifiable and non-modifiable osteoporosis risk factors during screening.",
+   "page": 181,
+   "type": "sata",
+   "clientNeed": "hpm",
+   "cjmm": "analyzeCues",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q5",
+   "section": "msk-bone",
+   "stem": "A postmenopausal client has lost height and has a new kyphosis. Which diagnostic test should the nurse expect to confirm osteoporosis?",
+   "options": [
+    "Dual-energy X-ray absorptiometry (DEXA) scan",
+    "Rheumatoid factor and anti-CCP antibodies",
+    "Serum uric acid level",
+    "Erythrocyte sedimentation rate (ESR)"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists dual-energy X-ray absorptiometry (DEXA) as the diagnostic test for osteoporosis.",
+    "RF and anti-CCP antibodies are rheumatoid arthritis labs.",
+    "Uric acid relates to hyperuricemia and gout, not bone density.",
+    "ESR is listed as an inflammatory lab for rheumatoid arthritis."
+   ],
+   "clue": "Loss of height and kyphosis are signs of osteoporosis.",
+   "priority": "Know the diagnostic test used for osteoporosis.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q6",
+   "section": "msk-bone",
+   "stem": "An older adult client with osteoporosis has back pain and has had a spontaneous fracture in the past. Which action should the nurse take to protect the client during the hospital stay?",
+   "options": [
+    "Keep the client on bed rest until discharge",
+    "Put fall precautions in place",
+    "Hold calcium and vitamin D supplements",
+    "Avoid all weight-bearing activity"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Bed rest goes against the weight-bearing exercise the book recommends.",
+    "Correct. The book lists fall precautions in osteoporosis management.",
+    "Calcium and vitamin D are part of management and should not be held.",
+    "The book recommends weight-bearing exercise, so avoiding it is wrong."
+   ],
+   "clue": "Fragile bones and a history of spontaneous fracture mean a fall could cause another fracture.",
+   "priority": "Prevent injury in osteoporosis with fall precautions.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q7",
+   "section": "msk-bone",
+   "stem": "A client with osteoarthritis takes an NSAID every day for knee pain. Which finding should the nurse recognize as a possible adverse effect to report?",
+   "options": [
+    "Knee pain that worsens after a long walk",
+    "Stiffness in the knee after sitting",
+    "Heberden's nodes on the fingers",
+    "New burning stomach pain and dark, tarry stools"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Pain that worsens with activity is a sign of osteoarthritis, not a drug effect.",
+    "Stiffness after rest is a sign of osteoarthritis, not a drug effect.",
+    "Heberden's nodes are a feature of osteoarthritis.",
+    "Correct. The book says to watch for GI effects with NSAIDs; stomach pain and dark, tarry stools suggest GI irritation or bleeding."
+   ],
+   "clue": "The book warns to watch for GI effects with NSAIDs.",
+   "priority": "Monitor clients on NSAIDs for gastrointestinal adverse effects.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q8",
+   "section": "msk-bone",
+   "stem": "A client with hyperuricemia and urate crystal deposits in the joints is reviewing the treatment plan. For each item, indicate whether the book lists it for an acute attack or for chronic management.",
+   "rows": [
+    "Colchicine",
+    "Allopurinol",
+    "NSAIDs",
+    "Low-purine diet",
+    "Generous fluid intake"
+   ],
+   "columns": [
+    "Acute attack",
+    "Chronic management"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "rationales": [
+    "The book lists colchicine as acute treatment.",
+    "The book lists allopurinol for chronic management.",
+    "The book lists NSAIDs as acute treatment.",
+    "The book lists a low-purine diet for chronic management.",
+    "The book lists fluids for chronic management."
+   ],
+   "clue": "The book separates acute treatment from chronic management for this condition.",
+   "priority": "Know which treatments stop an acute attack and which prevent future attacks.",
+   "page": 182,
+   "type": "matrix",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q9",
+   "section": "msk-bone",
+   "stem": "A client wakes with sudden pain, redness and swelling of the big toe after a weekend of drinking beer and eating shellfish. Which underlying cause should the nurse suspect?",
+   "options": [
+    "Autoimmune attack on the synovial joints",
+    "Cartilage breakdown in weight-bearing joints",
+    "High uric acid with urate crystals deposited in the joint",
+    "Staphylococcus aureus infection of the bone"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Autoimmune attack on synovial joints describes rheumatoid arthritis, which is symmetric and has prolonged morning stiffness.",
+    "Cartilage breakdown describes osteoarthritis, where pain worsens gradually with activity.",
+    "Correct. The book describes hyperuricemia with urate crystal deposits, triggered by alcohol and shellfish, with sudden pain, redness and swelling, commonly in the big toe.",
+    "Bone infection (osteomyelitis) has risk factors such as open fractures or diabetic ulcers, not dietary triggers."
+   ],
+   "clue": "Sudden big-toe pain after alcohol and shellfish points to known triggers.",
+   "priority": "Link the presentation and triggers to the most likely cause.",
+   "page": 182,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-bone-q10",
+   "section": "msk-bone",
+   "stem": "A nurse taught a client with osteoarthritis of the knee how to manage symptoms. Which statement shows the teaching was effective?",
+   "options": [
+    "I'll balance rest with activity and use my cane on longer walks.",
+    "I'll stay off my feet as much as possible from now on.",
+    "I'll push through the pain and walk as far as I can every day.",
+    "Using a cane will only make my knee weaker over time."
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists joint rest balanced with activity and assistive devices such as canes.",
+    "Total rest is not what the book teaches; it calls for a balance of rest and activity.",
+    "Pushing through pain ignores the need for joint rest.",
+    "The book lists canes as helpful assistive devices for OA."
+   ],
+   "clue": "The book's management includes balancing joint rest with activity and using assistive devices.",
+   "priority": "Evaluate understanding of OA self-management: rest and activity balance and assistive devices.",
+   "page": 181,
+   "type": "mcq",
+   "clientNeed": "bcc",
+   "cjmm": "evaluateOutcomes",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-osteomyelitis-q4",
+   "section": "msk-osteomyelitis",
+   "stem": "Two days after an above-knee amputation, a client turns away from the nurse and says, \"What good am I now? I can't do anything with one leg.\" Which response by the nurse is best?",
+   "options": [
+    "You'll feel better once you get your prosthesis.",
+    "It sounds like you're feeling a great sense of loss. Tell me more.",
+    "Many people have it much worse than you do.",
+    "Let's focus on your exercises instead of your feelings."
+   ],
+   "correct": 1,
+   "rationales": [
+    "This offers false reassurance and moves past the client's feelings.",
+    "Correct. The book lists psychosocial support as a post-op priority; reflecting feelings and inviting the client to talk is supportive.",
+    "Comparing the client to others belittles the client's feelings.",
+    "Putting off the client's feelings blocks communication and support."
+   ],
+   "clue": "The client is expressing loss and hopelessness after amputation.",
+   "priority": "Provide psychosocial support by acknowledging feelings and encouraging the client to talk.",
+   "page": 182,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-osteomyelitis-q5",
+   "section": "msk-osteomyelitis",
+   "stem": "A client who had a below-knee amputation says quietly, \"I keep feeling pain in my foot that isn't there. I think I'm losing my mind.\" How should the nurse interpret this statement?",
+   "options": [
+    "The client is showing confusion that needs a neurologic workup.",
+    "The client is seeking attention and needs limits set.",
+    "The client has a wound infection spreading to the nerves.",
+    "The client has phantom limb pain, which is treatable, and needs reassurance."
+   ],
+   "correct": 3,
+   "rationales": [
+    "Pain felt in the missing limb is not a sign of confusion and does not mean a neurologic workup is needed.",
+    "The client is describing a real symptom, not seeking attention.",
+    "Nothing in the statement suggests infection; the pain is felt in the missing limb.",
+    "Correct. The book lists phantom limb pain as a post-op issue that is treated (for example, with gabapentin) and lists psychosocial support as a priority."
+   ],
+   "clue": "Pain felt in the removed limb is phantom limb pain, which is causing the client distress.",
+   "priority": "Recognize phantom limb pain and address the client's fear with reassurance and treatment.",
+   "page": 182,
+   "type": "mcq",
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-osteomyelitis-q6",
+   "section": "msk-osteomyelitis",
+   "stem": "A client is recovering from a hip joint replacement. Which hip precautions from the book should the nurse reinforce? Select all that apply.",
+   "options": [
+    "Keep an abduction pillow between the legs",
+    "Avoid crossing the legs",
+    "Bend forward past 90 degrees at the hip to put on shoes",
+    "Avoid hip flexion greater than 90 degrees",
+    "Sit in a low, soft chair",
+    "Lie with the legs crossed at the ankles for comfort"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. The book says to use an abduction pillow.",
+    "Correct. The book says to avoid crossing the legs.",
+    "Bending past 90 degrees breaks the book's limit on hip flexion.",
+    "Correct. The book says to avoid hip flexion greater than 90 degrees.",
+    "A low, soft chair makes the hip bend beyond 90 degrees when sitting.",
+    "Crossing the legs, even at the ankles, goes against the book's precautions."
+   ],
+   "clue": "The book's hip precautions limit flexion and crossing and use an abduction pillow.",
+   "priority": "Protect the new hip joint by avoiding flexion beyond 90 degrees and leg crossing.",
+   "page": 182,
+   "type": "sata",
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-osteomyelitis-q7",
+   "section": "msk-osteomyelitis",
+   "stem": "A client with osteomyelitis of the foot is on day 5 of IV antibiotics. Which new finding should concern the nurse most?",
+   "options": [
+    "Warmth over the affected foot",
+    "Localized foot pain that is improving",
+    "Low blood pressure, rapid heart rate and new confusion",
+    "Mild swelling around the foot"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Warmth is a localized sign of osteomyelitis that the book lists.",
+    "Improving local pain suggests treatment is working.",
+    "Correct. The book says to monitor for sepsis; hypotension, tachycardia and new confusion suggest it is developing.",
+    "Mild swelling is a localized sign the book lists."
+   ],
+   "clue": "Low BP, rapid heart rate and new confusion suggest the infection has become systemic.",
+   "priority": "Monitor clients with osteomyelitis for sepsis.",
+   "page": 182,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-spinal-q4",
+   "section": "msk-spinal",
+   "stem": "A client has a herniated lumbar disc with sciatica. Which treatments does the book list for this condition? Select all that apply.",
+   "options": [
+    "NSAIDs",
+    "Spinal fusion to correct lateral curvature",
+    "Physical therapy",
+    "Closed reduction of the joint",
+    "Laminectomy or discectomy",
+    "Bracing for a curve greater than 10 degrees"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. The book lists NSAIDs for a herniated disc.",
+    "Spinal fusion is listed for scoliosis, not a herniated disc.",
+    "Correct. The book lists physical therapy for a herniated disc.",
+    "Reduction is listed for dislocation, where the bone is displaced from the joint.",
+    "Correct. The book lists surgery with laminectomy or discectomy.",
+    "Bracing for a curve over 10 degrees is scoliosis treatment."
+   ],
+   "clue": "Herniated disc care is separate from scoliosis and dislocation care.",
+   "priority": "Know the conservative and surgical treatments for a herniated disc.",
+   "page": 183,
+   "type": "sata",
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-spinal-q5",
+   "section": "msk-spinal",
+   "stem": "A nurse is caring for a client with a spinal cord injury. Which task can the nurse delegate to unlicensed assistive personnel (UAP)?",
+   "options": [
+    "Assisting with scheduled repositioning to prevent pressure ulcers, as directed by the nurse",
+    "Assessing the client's neurologic status",
+    "Monitoring the client for signs of autonomic dysreflexia",
+    "Evaluating whether spinal immobilization is effective"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Preventing pressure ulcers is in the book's SCI care, and assisting with scheduled repositioning under the nurse's direction is routine care UAP can do.",
+    "Assessing neuro status requires RN assessment skills.",
+    "Monitoring for autonomic dysreflexia means interpreting BP, headache and heart rate changes, which needs nursing judgment.",
+    "Evaluating whether interventions work is an RN responsibility."
+   ],
+   "clue": "Only one task is routine care; the others need assessment or evaluation.",
+   "priority": "Delegate routine pressure ulcer prevention; keep neuro and autonomic dysreflexia assessment with the RN.",
+   "page": 183,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "batch": "v3"
+  },
+  {
+   "id": "msk-spinal-q6",
+   "section": "msk-spinal",
+   "stem": "A nurse is precepting a new graduate who is caring for a client with suspected compartment syndrome of the lower leg. For each action by the new graduate, indicate whether it is appropriate or inappropriate.",
+   "rows": [
+    "Raises the leg on two pillows to reduce swelling",
+    "Applies an ice pack to the calf",
+    "Notifies the provider immediately",
+    "Assesses the leg for pain, pallor, paresthesia and pulses",
+    "Prepares the client for a possible fasciotomy"
+   ],
+   "columns": [
+    "Appropriate",
+    "Inappropriate"
+   ],
+   "correct": [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "rationales": [
+    "Inappropriate. The book's compartment syndrome graphic says not to elevate the limb, even though routine fracture care includes elevation.",
+    "Inappropriate. The book says not to apply cold.",
+    "Appropriate. The book calls it a medical emergency, so the provider must be told right away.",
+    "Appropriate. Assessing the 6 P's tracks the book's signs of compartment syndrome.",
+    "Appropriate. The book lists immediate fasciotomy as the treatment."
+   ],
+   "clue": "The book calls compartment syndrome a medical emergency and says not to elevate or apply cold.",
+   "priority": "Supervise care so suspected compartment syndrome gets prompt escalation and no elevation or cold.",
+   "page": 183,
+   "type": "matrix",
+   "clientNeed": "moc",
+   "cjmm": "evaluateOutcomes",
+   "batch": "v3"
+  }
+ ],
+ "concerns": [
+  {
+   "page": 181,
+   "issue": "The fat embolism line is cut off mid-sentence: 'confusion—often after long' (presumably 'long bone fractures')."
+  },
+  {
+   "page": 182,
+   "issue": "The gout content (Cause, Triggers, S/S, Acute treatment, Chronic management) has no 'Gout' heading, so the condition is never named on the page."
+  },
+  {
+   "page": 182,
+   "issue": "The hip precautions ('Avoid hip flexion >90°, crossing legs. Use abduction pillow') appear under the general 'Joint Replacements' heading with no Total Hip Arthroplasty label, while TKA has its own heading."
+  },
+  {
+   "page": 182,
+   "issue": "A three-item list (genetic progressive muscle wasting, loss of ambulation by teens, supportive care) has no heading; it appears to describe muscular dystrophy, which is not named here or in the chapter opener."
+  },
+  {
+   "page": 182,
+   "issue": "Phantom limb pain is said to be treated with 'beta blockers, gabapentin'; beta blockers are not a commonly used first-line option, so this is worth verifying against a current source."
+  },
+  {
+   "page": 181,
+   "issue": "Rheumatoid arthritis content appears on this page but is not listed in the chapter opener (page 180), and the RA deformities line is missing its closing parenthesis ('ulnar drift, swan- neck')."
+  },
+  {
+   "page": 183,
+   "issue": "The compartment syndrome infographic (including 'DO NOT elevate or apply cold' and immediate fasciotomy) is on the spinal disorders page, away from the fracture complications on page 181, where the nursing care says 'Elevate limb'; readers may see this as a contradiction without a note that it applies to suspected compartment syndrome."
+  },
+  {
+   "page": 181,
+   "issue": "Fracture signs list 'diminished pulses (late sign)' while the compartment syndrome graphic on page 183 labels pain as early; pulselessness being late is not tied to compartment syndrome on page 181, so readers may not connect the two."
+  },
+  {
+   "page": 182,
+   "issue": "Hip joint replacement has no post-op items of its own (DVT, wound, mobility) and the line 'Post-op: DVT prophylaxis...' sits under the TKA heading, so it is unclear whether it applies to both THA and TKA."
+  },
+  {
+   "page": 181,
+   "issue": "RA medications (methotrexate, hydroxychloroquine, etanercept, adalimumab) are listed with no monitoring or safety points (e.g., infection risk with biologics), so no pharmacology safety item can be grounded on them."
+  },
+  {
+   "page": 0,
+   "issue": "blueprint: no Psychosocial Integrity item (target 1). The only psychosocial content is the bare bullet 'Psychosocial support' after amputation (page 182), too thin to support a defensible item; Reduction of Risk Potential has 2 (target 1) instead. Within tolerance."
+  },
+  {
+   "page": 0,
+   "issue": "blueprint: v3 psych target is 3. The only psychosocial content is 'Psychosocial support' and phantom limb pain after amputation (page 182); two psych items were built from these. Psych is 2 (within tolerance); the shortfall is absorbed by pa 5 (target 4) and rrp 4 (target 3), with pharm 4 (target 5), all within tolerance."
+  }
+ ]
 }

@@ -1,0 +1,1799 @@
+[
+ {
+  "id": "ngn:book-pe",
+  "title": "Pulmonary Embolism",
+  "sub": "Post-op day 2, hip replacement · Orthopedic unit",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "profile": "71-year-old woman, post-op day 2 after a right total hip replacement. History of atrial fibrillation and a stroke 3 years ago; her home warfarin was held 5 days before surgery.",
+  "source": "book",
+  "chapter": "resp",
+  "section": "resp-pe",
+  "pages": [
+   18,
+   19,
+   20
+  ],
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 10:15",
+     "Client called for help after walking to the bathroom with physical therapy. Reports sudden shortness of breath and a sharp right-sided chest pain that is worse when she takes a deep breath. Anxious, states \"something is wrong.\" Diaphoretic. Breath sounds decreased at the right base. Right calf swollen, warm and tender to touch. Hip incision clean, dry and intact. Alert and oriented × 4."
+    ],
+    [
+     "Nurses' notes 07:00",
+     "Resting comfortably. Incisional pain 3/10 after oral analgesic. Bowel sounds active. Voided 300 mL clear yellow urine. Ambulated 20 feet with walker and PT."
+    ]
+   ],
+   "Vitals": [
+    [
+     "10:15",
+     "BP 128/76 mm Hg · HR 118 (irregular) · RR 28 · SpO₂ 88% on room air · T 37.9 °C (100.2 °F)"
+    ],
+    [
+     "07:00",
+     "BP 132/78 · HR 84 (irregular) · RR 16 · SpO₂ 96% on room air · T 37.1 °C"
+    ]
+   ],
+   "Labs": [
+    [
+     "10:40",
+     "D-dimer elevated · Hemoglobin 11.2 g/dL · Hematocrit 33% · Platelets 230,000/mm³ · aPTT 30 seconds (baseline) · Creatinine 0.9 mg/dL"
+    ]
+   ],
+   "Orders": [
+    [
+     "10:30",
+     "Oxygen to keep SpO₂ ≥ 92% · Head of bed up · CT scan of the chest (pulmonary embolism protocol) · Venous Doppler, right leg · Heparin IV bolus and continuous infusion, weight-based, adjusted by aPTT per pharmacy protocol · Bleeding precautions"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "pe1",
+    "step": "recognizeCues",
+    "stepLabel": "Recognize Cues",
+    "kind": "highlight",
+    "page": 19,
+    "stem": "Tap the findings in the 10:15 assessment that are consistent with a pulmonary embolism.",
+    "passage": [
+     [
+      "Sudden shortness of breath",
+      "p1"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Sharp chest pain worse with a deep breath",
+      "p2"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Anxious, states \"something is wrong\"",
+      "p3"
+     ],
+     [
+      " · "
+     ],
+     [
+      "HR 118",
+      "p4"
+     ],
+     [
+      " · "
+     ],
+     [
+      "RR 28",
+      "p5"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Right calf swollen and tender",
+      "p6"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Hip incision clean, dry and intact",
+      "p7"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Alert and oriented × 4",
+      "p8"
+     ],
+     [
+      " · "
+     ],
+     [
+      "BP 128/76 mm Hg",
+      "p9"
+     ]
+    ],
+    "answer": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5",
+     "p6"
+    ],
+    "rationale": "The book lists the usual PE findings as sudden dyspnea, pleuritic chest pain (pain worse on breathing in), tachypnea, tachycardia and anxiety, plus leg swelling from the deep vein thrombosis that often sends the clot. A clean incision is a normal post-op finding. Being alert and having a normal blood pressure are reassuring: confusion and hypotension would point to a massive PE."
+   },
+   {
+    "id": "pe2",
+    "step": "analyzeCues",
+    "stepLabel": "Analyze Cues",
+    "kind": "matrix",
+    "page": 18,
+    "stem": "For each item in the client's history, indicate whether the book classifies it as a strong or a moderate risk factor for venous thromboembolism (VTE).",
+    "cols": [
+     "Strong risk factor",
+     "Moderate risk factor"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Right total hip replacement 2 days ago",
+      "Strong risk factor"
+     ],
+     [
+      "r2",
+      "Atrial fibrillation",
+      "Moderate risk factor"
+     ],
+     [
+      "r3",
+      "History of stroke",
+      "Moderate risk factor"
+     ],
+     [
+      "r4",
+      "Recent major surgery",
+      "Strong risk factor"
+     ]
+    ],
+    "rationale": "Table 2 lists hip or knee replacement and recent major surgery as strong VTE risk factors. Atrial fibrillation and a history of stroke are moderate risk factors. This client has several at once, and her usual anticoagulant was stopped for surgery, so a clot in the leg traveling to the lung fits her picture."
+   },
+   {
+    "id": "pe3",
+    "step": "prioritizeHypotheses",
+    "stepLabel": "Prioritize Hypotheses",
+    "kind": "cloze",
+    "page": 19,
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "The client's findings are most consistent with",
+      "opts": [
+       "a pulmonary embolism",
+       "a hip wound infection",
+       "postoperative pain only"
+      ],
+      "answer": "a pulmonary embolism"
+     },
+     {
+      "id": "b2",
+      "pre": "that is currently",
+      "opts": [
+       "symptomatic but hemodynamically stable",
+       "massive, with shock",
+       "asymptomatic"
+      ],
+      "answer": "symptomatic but hemodynamically stable"
+     },
+     {
+      "id": "b3",
+      "pre": "so the nurse must watch closely for",
+      "opts": [
+       "hypotension and decreased consciousness",
+       "fluid overload",
+       "low blood glucose"
+      ],
+      "answer": "hypotension and decreased consciousness"
+     }
+    ],
+    "rationale": "Sudden dyspnea, pleuritic chest pain, tachycardia, hypoxemia and a swollen calf point to a PE, not a wound problem. Her blood pressure is normal and she is fully alert, so this is a symptomatic PE rather than a massive one. Table 2.1 lists hypotension, cold mottled skin, confusion and decreased consciousness as signs of a massive PE, so those are the changes that would show she is getting worse."
+   },
+   {
+    "id": "pe4",
+    "step": "generateSolutions",
+    "stepLabel": "Generate Solutions",
+    "kind": "matrix",
+    "page": 19,
+    "stem": "For each intervention, indicate whether it is anticipated or not anticipated for this client right now.",
+    "cols": [
+     "Anticipated",
+     "Not anticipated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "IV heparin bolus and infusion adjusted by aPTT",
+      "Anticipated"
+     ],
+     [
+      "r2",
+      "CT scan of the chest",
+      "Anticipated"
+     ],
+     [
+      "r3",
+      "Venous Doppler of the right leg",
+      "Anticipated"
+     ],
+     [
+      "r4",
+      "Alteplase (thrombolytic) infusion now",
+      "Not anticipated"
+     ],
+     [
+      "r5",
+      "Discharge home today on an oral factor Xa inhibitor alone",
+      "Not anticipated"
+     ]
+    ],
+    "rationale": "The book's treatment for a symptomatic PE is hospital care with an IV heparin bolus plus infusion, dosed by weight and adjusted by aPTT. A CT scan helps confirm the PE, and a venous Doppler finds the source clot. Thrombolytics such as alteplase are for a massive PE with hypotension and low bleeding risk; this client is stable and only 2 days after surgery. An oral factor Xa inhibitor alone is the book's approach for an asymptomatic PE, which she does not have."
+   },
+   {
+    "id": "pe5",
+    "step": "takeAction",
+    "stepLabel": "Take Action",
+    "kind": "multi",
+    "page": 20,
+    "stem": "The heparin infusion has been started. Which actions should the nurse include in the client's care? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Check for nosebleeds, blood in the urine and new bruising"
+     ],
+     [
+      "b",
+      "Cluster blood draws to limit venipunctures"
+     ],
+     [
+      "c",
+      "Massage the right calf to relieve the swelling"
+     ],
+     [
+      "d",
+      "Give the as-needed pain medicine by intramuscular injection"
+     ],
+     [
+      "e",
+      "Encourage at least 2 L of fluid per day unless restricted"
+     ],
+     [
+      "f",
+      "Keep the bed low and assist the client when she gets up"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "e",
+     "f"
+    ],
+    "rationale": "During anticoagulant therapy the book says to monitor for bleeding (epistaxis, hematuria, bruising, a drop in H/H), limit invasive procedures such as venipunctures and injections, and keep the environment safe for patients who walk. Hydration of at least 2 L a day is an independent nursing intervention if fluids are not restricted. IM injections are the kind of invasive procedure to avoid while anticoagulated, and rubbing a leg that holds a clot risks breaking off more of it."
+   },
+   {
+    "id": "pe6",
+    "step": "evaluateOutcomes",
+    "stepLabel": "Evaluate Outcomes",
+    "kind": "matrix",
+    "page": 20,
+    "stem": "Twenty-four hours after heparin was started: for each finding, indicate whether it shows improvement or needs follow-up.",
+    "cols": [
+     "Improved",
+     "Needs follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "SpO₂ 95% on 2 L nasal cannula, RR 20",
+      "Improved"
+     ],
+     [
+      "e2",
+      "HR 90, less anxious, chest pain 1/10",
+      "Improved"
+     ],
+     [
+      "e3",
+      "Pink-tinged urine in the commode",
+      "Needs follow-up"
+     ],
+     [
+      "e4",
+      "Hemoglobin 9.1 g/dL (was 11.2 g/dL)",
+      "Needs follow-up"
+     ],
+     [
+      "e5",
+      "New bruises on both forearms",
+      "Needs follow-up"
+     ]
+    ],
+    "rationale": "Better oxygenation, a slower heart rate and less pain show the PE is responding to treatment. Hematuria, new bruising and a drop in hemoglobin are the bleeding signs the book says to watch for during anticoagulation, so the nurse reports them and expects the aPTT and heparin rate to be reviewed."
+   }
+  ]
+ },
+ {
+  "id": "ngn:book-tension-ptx",
+  "title": "Tension Pneumothorax",
+  "sub": "Left rib fractures after a motorcycle crash · Trauma step-down unit",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "profile": "34-year-old man admitted 6 hours ago after a motorcycle crash with fractures of the left 4th to 6th ribs. No past medical history.",
+  "source": "book",
+  "chapter": "resp",
+  "section": "resp-pneumothorax",
+  "pages": [
+   36,
+   37
+  ],
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 14:20",
+     "Client suddenly reports he \"can't get air in.\" Severe dyspnea, sitting bolt upright and gripping the side rails. Trachea deviated to the right. Neck veins distended. Breath sounds absent on the left. Skin pale and cool. Pain at the left rib fractures 6/10. Bruising over the left lateral chest wall from the crash."
+    ],
+    [
+     "Nurses' notes 12:00",
+     "Breathing comfortably on 2 L nasal cannula. Trachea midline. Breath sounds slightly diminished at the left base. Rib pain 5/10, using incentive spirometer to 1,500 mL."
+    ]
+   ],
+   "Vitals": [
+    [
+     "14:20",
+     "BP 84/50 mm Hg · HR 132 (sinus tachycardia) · RR 36 · SpO₂ 82% on 2 L nasal cannula · T 37.2 °C (99 °F)"
+    ],
+    [
+     "12:00",
+     "BP 128/80 · HR 96 · RR 20 · SpO₂ 95% on 2 L · T 37.1 °C"
+    ]
+   ],
+   "Labs": [
+    [
+     "06:00",
+     "Hemoglobin 14.1 g/dL · WBC 10,800/mm³ · Glucose 112 mg/dL · Na⁺ 139 mEq/L · K⁺ 4.0 mEq/L"
+    ],
+    [
+     "Imaging 08:30",
+     "Chest x-ray: fractures of left ribs 4–6; small left pneumothorax"
+    ]
+   ],
+   "Orders": [
+    [
+     "Admission",
+     "Oxygen 2 L nasal cannula, titrate to SpO₂ ≥ 92% · Continuous pulse oximetry · Incentive spirometer every hour while awake · Analgesic as prescribed for pain · Notify provider for respiratory distress or SBP < 90 mm Hg"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "tp1",
+    "step": "recognizeCues",
+    "stepLabel": "Recognize Cues",
+    "kind": "multi",
+    "page": 37,
+    "stem": "Which findings at 14:20 are signs of a tension pneumothorax? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Trachea deviated to the right"
+     ],
+     [
+      "b",
+      "Distended neck veins"
+     ],
+     [
+      "c",
+      "BP 84/50 mm Hg"
+     ],
+     [
+      "d",
+      "HR 132"
+     ],
+     [
+      "e",
+      "Pain at the rib fractures 6/10"
+     ],
+     [
+      "f",
+      "Bruising over the left chest wall"
+     ],
+     [
+      "g",
+      "Temperature 37.2 °C"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "rationale": "The book lists the signs of a tension pneumothorax as distended neck veins, hypotension, tracheal deviation away from the affected side, and tachycardia. All four are new since 12:00. Rib pain and chest-wall bruising are expected after the crash and were present before, and the temperature is normal."
+   },
+   {
+    "id": "tp2",
+    "step": "analyzeCues",
+    "stepLabel": "Analyze Cues",
+    "kind": "single",
+    "page": 37,
+    "stem": "What best explains why the client's trachea is now pushed to the right?",
+    "options": [
+     [
+      "a",
+      "Air trapped in the left pleural space is building pressure and pushing the chest structures toward the right"
+     ],
+     [
+      "b",
+      "The right lung has collapsed and is pulling the trachea toward it"
+     ],
+     [
+      "c",
+      "The fractured left ribs have shifted inward against the trachea"
+     ],
+     [
+      "d",
+      "Pain is making the client turn his head and neck to the right"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "In a tension pneumothorax, trapped air builds pressure in the affected (left) pleural space and pushes the trachea away from the affected side. In a simple spontaneous or traumatic pneumothorax the book notes the trachea, if it moves at all, shifts toward the affected side. The right lung is not the injured side, and rib fractures or head position do not move the trachea."
+   },
+   {
+    "id": "tp3",
+    "step": "prioritizeHypotheses",
+    "stepLabel": "Prioritize Hypotheses",
+    "kind": "bowtie",
+    "page": 37,
+    "stem": "Complete the diagram: the condition the client is most likely experiencing, 2 actions the nurse should take now, and 2 parameters the nurse should monitor.",
+    "condition": {
+     "opts": [
+      [
+       "c1",
+       "Tension pneumothorax"
+      ],
+      [
+       "c2",
+       "Small traumatic pneumothorax, stable"
+      ],
+      [
+       "c3",
+       "Pain from the rib fractures"
+      ],
+      [
+       "c4",
+       "Pneumonia"
+      ]
+     ],
+     "answer": "c1"
+    },
+    "actions": {
+     "opts": [
+      [
+       "x1",
+       "Call for emergency help and prepare for chest tube insertion"
+      ],
+      [
+       "x2",
+       "Increase supplemental oxygen"
+      ],
+      [
+       "x3",
+       "Wait for a repeat chest x-ray before calling the provider"
+      ],
+      [
+       "x4",
+       "Have the client use the incentive spirometer and recheck in 30 minutes"
+      ],
+      [
+       "x5",
+       "Give the prescribed analgesic and reassess in an hour"
+      ]
+     ],
+     "answer": [
+      "x1",
+      "x2"
+     ]
+    },
+    "params": {
+     "opts": [
+      [
+       "m1",
+       "Blood pressure and heart rate"
+      ],
+      [
+       "m2",
+       "Oxygen saturation and work of breathing"
+      ],
+      [
+       "m3",
+       "Bowel sounds"
+      ],
+      [
+       "m4",
+       "Blood glucose"
+      ],
+      [
+       "m5",
+       "Urine specific gravity"
+      ]
+     ],
+     "answer": [
+      "m1",
+      "m2"
+     ]
+    },
+    "rationale": "Tracheal deviation away from the injured side, distended neck veins, hypotension and tachycardia after chest trauma mean a tension pneumothorax, which the book calls life-threatening and a medical emergency. A stable small pneumothorax would not cause shock, and pain or pneumonia would not shift the trachea. The book's treatment for a large pneumothorax is supplemental oxygen and a chest tube to re-establish negative pleural pressure, so the nurse gets help immediately rather than waiting for imaging or trying spirometry. Blood pressure, heart rate, oxygen saturation and breathing show whether the pressure on the heart and lung is being relieved."
+   },
+   {
+    "id": "tp4",
+    "step": "generateSolutions",
+    "stepLabel": "Generate Solutions",
+    "kind": "matrix",
+    "page": 37,
+    "stem": "A left chest tube has been placed and connected to a water-seal drainage system. For each nursing action, indicate whether it is appropriate or inappropriate.",
+    "cols": [
+     "Appropriate",
+     "Inappropriate"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Keep the drainage collection chamber lower than the chest",
+      "Appropriate"
+     ],
+     [
+      "r2",
+      "Arrange the tubing so it has no dependent loops",
+      "Appropriate"
+     ],
+     [
+      "r3",
+      "Clamp the chest tube whenever the client walks in the hall",
+      "Inappropriate"
+     ],
+     [
+      "r4",
+      "Give pain medicine as needed so he can breathe deeply",
+      "Appropriate"
+     ],
+     [
+      "r5",
+      "Rest the drainage system on the bed next to the client's chest",
+      "Inappropriate"
+     ]
+    ],
+    "rationale": "The book's chest tube rules: keep the collection chamber lower than the chest, avoid dependent loops in the tubing, and clamp only when changing the system with a physician order. Treating pain as needed is part of large-pneumothorax care. Clamping for walks can trap air again, and a drainage system level with the chest lets fluid flow back toward the client."
+   },
+   {
+    "id": "tp5",
+    "step": "takeAction",
+    "stepLabel": "Take Action",
+    "kind": "single",
+    "page": 37,
+    "stem": "On rounds the nurse finds the drainage system sitting on the bed at the level of the client's chest, with a long loop of tubing hanging below the mattress and holding fluid. Which action should the nurse take?",
+    "options": [
+     [
+      "a",
+      "Place the drainage system upright below chest level and straighten the tubing so fluid can drain"
+     ],
+     [
+      "b",
+      "Clamp the chest tube, then move the drainage system"
+     ],
+     [
+      "c",
+      "Disconnect the tubing to empty the fluid in the loop into the chamber"
+     ],
+     [
+      "d",
+      "Leave the system in place and document the findings"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "The chamber must stay lower than the chest, and dependent loops trap fluid and block drainage. Fixing both restores drainage. The book says to clamp only when changing the system with a physician order, disconnecting opens the system to air, and leaving it as is allows fluid to back up."
+   },
+   {
+    "id": "tp6",
+    "step": "evaluateOutcomes",
+    "stepLabel": "Evaluate Outcomes",
+    "kind": "matrix",
+    "page": 37,
+    "stem": "The next morning: for each finding, indicate whether it shows that treatment is effective or that it needs follow-up.",
+    "cols": [
+     "Effective",
+     "Needs follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "Trachea midline",
+      "Effective"
+     ],
+     [
+      "e2",
+      "BP 122/76 mm Hg, HR 94",
+      "Effective"
+     ],
+     [
+      "e3",
+      "SpO₂ 96% on 2 L nasal cannula, breathing comfortably",
+      "Effective"
+     ],
+     [
+      "e4",
+      "Continuous bubbling in the water-seal chamber",
+      "Needs follow-up"
+     ],
+     [
+      "e5",
+      "Neck veins flat with the head of the bed at 45°",
+      "Effective"
+     ]
+    ],
+    "rationale": "A midline trachea, flat neck veins, normal blood pressure and heart rate, and good oxygen saturation show that the trapped air has been removed and the lung is re-expanding. The book states that bubbling in the water-seal chamber is not normal and is a sign of an air leak, so the nurse checks the system and reports it."
+   }
+  ]
+ },
+ {
+  "id": "ngn:book-stemi",
+  "title": "Inferior STEMI with Right Ventricular Involvement",
+  "sub": "Chest pain at home · Emergency department",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "profile": "61-year-old man with hypertension and hyperlipidemia brought in by ambulance with chest pressure. No known drug allergies, no bleeding history, no recent use of sildenafil or tadalafil.",
+  "source": "book",
+  "chapter": "cardio",
+  "section": "cardio-acs",
+  "pages": [
+   46,
+   47,
+   48
+  ],
+  "ehr": {
+   "Notes": [
+    [
+     "ED triage 19:05",
+     "Crushing chest pressure that started 45 minutes ago while mowing the lawn and has not let up with rest. Pain 8/10, radiating to the jaw. Diaphoretic, short of breath, nauseated. Lungs clear in all fields. Neck veins distended at 45°. Ate dinner 2 hours ago. States his brother had a \"heart stent\" last year."
+    ],
+    [
+     "12-lead ECG 19:09",
+     "Sinus bradycardia, rate 56. ST elevation in leads II, III and aVF. Right-sided leads: ST elevation in V4R."
+    ]
+   ],
+   "Vitals": [
+    [
+     "19:05",
+     "BP 88/56 mm Hg · HR 56 · RR 22 · SpO₂ 95% on room air · T 36.8 °C (98.2 °F)"
+    ]
+   ],
+   "Labs": [
+    [
+     "19:15",
+     "Troponin I elevated · Glucose 132 mg/dL · K⁺ 4.2 mEq/L · Creatinine 1.0 mg/dL · Hemoglobin 14.6 g/dL"
+    ]
+   ],
+   "Orders": [
+    [
+     "19:12",
+     "Activate cardiac catheterization lab for primary PCI · Aspirin 324 mg chewable, non-enteric-coated, PO now · Nitroglycerin 0.4 mg SL every 5 min × 3 for chest pain · 0.9% sodium chloride IV bolus as prescribed · Atorvastatin 80 mg PO · Continuous cardiac monitoring"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "mi1",
+    "step": "recognizeCues",
+    "stepLabel": "Recognize Cues",
+    "kind": "highlight",
+    "page": 46,
+    "stem": "Tap the findings that are hallmark signs of an ST-elevation myocardial infarction (STEMI).",
+    "passage": [
+     [
+      "Chest pressure for 45 minutes",
+      "p1"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Diaphoretic",
+      "p2"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Short of breath",
+      "p3"
+     ],
+     [
+      " · "
+     ],
+     [
+      "ST elevation in II, III and aVF",
+      "p4"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Ate dinner 2 hours ago",
+      "p5"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Brother had a heart stent",
+      "p6"
+     ],
+     [
+      " · "
+     ],
+     [
+      "T 36.8 °C",
+      "p7"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Glucose 132 mg/dL",
+      "p8"
+     ]
+    ],
+    "answer": [
+     "p1",
+     "p2",
+     "p3",
+     "p4"
+    ],
+    "rationale": "The book's hallmark signs of STEMI are chest pain or symptoms lasting more than 20 minutes, diaphoresis and shortness of breath, with ST elevation on the ECG from a completely blocked coronary artery. A recent meal, a family history, a normal temperature and a mildly raised glucose do not identify a STEMI."
+   },
+   {
+    "id": "mi2",
+    "step": "analyzeCues",
+    "stepLabel": "Analyze Cues",
+    "kind": "cloze",
+    "page": 47,
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "ST elevation in leads II, III and aVF shows an",
+      "opts": [
+       "inferior wall MI",
+       "anterior wall MI",
+       "lateral wall MI"
+      ],
+      "answer": "inferior wall MI"
+     },
+     {
+      "id": "b2",
+      "pre": "in the area supplied by the",
+      "opts": [
+       "right coronary artery",
+       "left anterior descending artery",
+       "pulmonary artery"
+      ],
+      "answer": "right coronary artery"
+     },
+     {
+      "id": "b3",
+      "pre": "and ST elevation in V4R means the infarct also involves the",
+      "opts": [
+       "right ventricle",
+       "posterior wall",
+       "septum only"
+      ],
+      "answer": "right ventricle"
+     }
+    ],
+    "rationale": "On the book's ECG map, leads II, III and aVF view the inferior wall, which the right coronary artery (RCA) supplies. Anterior MI shows in V1–V4 and involves the LAD; lateral MI shows in I, aVL, V5 and V6. Right-sided leads V3R–V4R detect a right ventricular infarct, which often comes with an inferior MI."
+   },
+   {
+    "id": "mi3",
+    "step": "prioritizeHypotheses",
+    "stepLabel": "Prioritize Hypotheses",
+    "kind": "single",
+    "page": 48,
+    "stem": "Which explanation best accounts for the client's low blood pressure with clear lungs?",
+    "options": [
+     [
+      "a",
+      "The infarcted right ventricle is pumping poorly, so preload to the left heart is already low"
+     ],
+     [
+      "b",
+      "The left ventricle is failing and backing fluid into the lungs"
+     ],
+     [
+      "c",
+      "He is dehydrated from vomiting"
+     ],
+     [
+      "d",
+      "A pericardial effusion is compressing the heart"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "With a right ventricular infarct, the book notes that preload is already low, which explains hypotension while the lungs stay clear. Left-sided failure would cause crackles. He has nausea but has not been vomiting, and nothing in the record suggests a pericardial effusion. Recognizing low preload matters because it changes which MI drugs are safe."
+   },
+   {
+    "id": "mi4",
+    "step": "generateSolutions",
+    "stepLabel": "Generate Solutions",
+    "kind": "multi",
+    "page": 48,
+    "stem": "Which treatments are appropriate for this client before he goes to the cath lab? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Chewable non-enteric-coated aspirin 324 mg"
+     ],
+     [
+      "b",
+      "0.9% sodium chloride IV bolus as prescribed"
+     ],
+     [
+      "c",
+      "High-intensity atorvastatin"
+     ],
+     [
+      "d",
+      "Nitroglycerin 0.4 mg sublingual"
+     ],
+     [
+      "e",
+      "IV morphine for chest pain"
+     ],
+     [
+      "f",
+      "IV furosemide"
+     ],
+     [
+      "g",
+      "Oral beta-blocker now"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c"
+    ],
+    "rationale": "Aspirin 162–325 mg, chewed and non-enteric-coated, is given immediately. A right ventricular infarct is treated with IV fluids (and positive inotropes if needed), and a high-intensity statin is started as soon as possible. The book says to avoid nitrates and diuretics in a right ventricular infarct because they worsen an already low preload, and to avoid morphine in right ventricular MI for the same reason. Beta-blockers are started only when there is no bradycardia or hypotension; this client has both."
+   },
+   {
+    "id": "mi5",
+    "step": "takeAction",
+    "stepLabel": "Take Action",
+    "kind": "single",
+    "page": 47,
+    "stem": "After a successful PCI through the right femoral artery, the nurse removes the sheath. The client becomes pale and nauseated, HR 44, BP 78/46 mm Hg. Which action should the nurse take?",
+    "options": [
+     [
+      "a",
+      "Keep direct pressure on the site, give atropine as prescribed, run the prescribed fluid bolus, and hold nitrates"
+     ],
+     [
+      "b",
+      "Release pressure on the site to check whether a hematoma is forming"
+     ],
+     [
+      "c",
+      "Start a nitroglycerin infusion in case the artery is closing again"
+     ],
+     [
+      "d",
+      "Stop the procedure and leave the client alone to rest quietly"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "This is the vasovagal response the book warns about during sheath removal: hypotension with bradycardia. The book says to give atropine for bradycardia, give a fluid bolus, hold nitrates (preload reducers), manage pain and anxiety, and apply direct pressure for at least 20 minutes. Releasing pressure risks bleeding, nitrates would drop the pressure further, and the client must not be left alone."
+   },
+   {
+    "id": "mi6",
+    "step": "evaluateOutcomes",
+    "stepLabel": "Evaluate Outcomes",
+    "kind": "matrix",
+    "page": 47,
+    "stem": "Review the findings recorded after PCI. For each one, indicate whether it is an expected sign of reperfusion or a complication the nurse must report now.",
+    "cols": [
+     "Expected sign of reperfusion",
+     "Complication to report"
+    ],
+    "rows": [
+     [
+      "e1",
+      "ST segments return to baseline",
+      "Expected sign of reperfusion"
+     ],
+     [
+      "e2",
+      "Chest pain relieved",
+      "Expected sign of reperfusion"
+     ],
+     [
+      "e3",
+      "Sudden rise in troponin right after the artery is opened",
+      "Expected sign of reperfusion"
+     ],
+     [
+      "e4",
+      "Brief run of ventricular tachycardia as the artery opens",
+      "Expected sign of reperfusion"
+     ],
+     [
+      "e5",
+      "New back and flank pain with falling BP and hemoglobin",
+      "Complication to report"
+     ],
+     [
+      "e6",
+      "Chest pain returns 8 hours later with new ST elevation",
+      "Complication to report"
+     ]
+    ],
+    "rationale": "The book lists the evidence of reperfusion after PCI as ST segment resolution, chest pain relief, a sudden rise in CK-MB/troponin, and reperfusion arrhythmias (VT and VF) when the vessel opens; these arrhythmias still need monitoring and treatment if they persist. The high-alert PCI complications are retroperitoneal bleeding (back or flank pain, hypotension, falling hemoglobin) and stent thrombosis (recurrent chest pain with new ischemic ECG changes)."
+   }
+  ]
+ },
+ {
+  "id": "ngn:book-tamponade",
+  "title": "Cardiac Tamponade after CABG",
+  "sub": "6 hours after coronary bypass surgery · Cardiovascular ICU",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "profile": "66-year-old woman, 6 hours after coronary artery bypass grafting × 3. Took aspirin until the day of surgery and received heparin during the operation. Mediastinal chest tubes in place.",
+  "source": "book",
+  "chapter": "cardio",
+  "section": "cardio-tamponade",
+  "pages": [
+   45,
+   61,
+   62
+  ],
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 21:00",
+     "Client restless and anxious, keeps asking \"what's happening?\" Neck veins distended with the head of the bed at 30°. Heart sounds muffled and distant. Skin cool and clammy. Systolic pressure drops 16 mm Hg during inspiration. Sternal incision dressing dry. Incisional pain 4/10."
+    ],
+    [
+     "Nurses' notes 19:00",
+     "Awake, following commands, extubated at 18:30. Heart sounds clear. Neck veins flat at 30°. Mediastinal chest tube draining bloody fluid."
+    ]
+   ],
+   "Vitals": [
+    [
+     "21:00",
+     "BP 82/68 mm Hg · HR 128 (sinus tachycardia) · RR 26 · SpO₂ 91% on 4 L nasal cannula · CVP 18 mm Hg · Urine output 15 mL/h · T 37.4 °C (99.3 °F)"
+    ],
+    [
+     "19:00",
+     "BP 118/70 · HR 92 · RR 18 · SpO₂ 97% on 4 L · CVP 8 mm Hg · Urine output 60 mL/h"
+    ]
+   ],
+   "Labs": [
+    [
+     "20:30",
+     "Hemoglobin 9.4 g/dL (10.8 at 18:00) · Platelets 112,000/mm³ · K⁺ 4.2 mEq/L · Glucose 164 mg/dL"
+    ],
+    [
+     "ECG / CXR 20:45",
+     "ECG: sinus tachycardia with electrical alternans. Portable chest x-ray: widened mediastinum."
+    ]
+   ],
+   "Orders": [
+    [
+     "Post-op",
+     "Continuous ECG, arterial line and SpO₂ monitoring · Chest tube to suction; record output hourly · Notify surgeon for SBP < 90 mm Hg or chest tube output > 100 mL/h · Dopamine infusion per protocol for hypotension, with IV fluids as prescribed · Analgesic as prescribed"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "ct1",
+    "step": "recognizeCues",
+    "stepLabel": "Recognize Cues",
+    "kind": "multi",
+    "page": 45,
+    "stem": "Which findings at 21:00 are signs of cardiac tamponade? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Neck veins distended, CVP 18 mm Hg"
+     ],
+     [
+      "b",
+      "Muffled, distant heart sounds"
+     ],
+     [
+      "c",
+      "BP 82/68 mm Hg"
+     ],
+     [
+      "d",
+      "Systolic pressure falls 16 mm Hg on inspiration"
+     ],
+     [
+      "e",
+      "Electrical alternans on the ECG"
+     ],
+     [
+      "f",
+      "Incisional pain 4/10"
+     ],
+     [
+      "g",
+      "Glucose 164 mg/dL"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "e"
+    ],
+    "rationale": "The book's signs of tamponade are Beck's triad (raised CVP with JVD, muffled heart sounds, hypotension), a narrow pulse pressure (here 82 − 68 = 14), pulsus paradoxus (a drop of more than 10 mm Hg in BP during inspiration), tachycardia, electrical alternans and a widened mediastinum on chest x-ray. Moderate incisional pain is expected after sternotomy, and a mildly raised glucose is a common stress response after surgery."
+   },
+   {
+    "id": "ct2",
+    "step": "analyzeCues",
+    "stepLabel": "Analyze Cues",
+    "kind": "single",
+    "page": 45,
+    "stem": "What is causing the client's hypotension and rising CVP?",
+    "options": [
+     [
+      "a",
+      "Blood collecting in the pericardial sac is compressing the heart so it cannot fill and pump"
+     ],
+     [
+      "b",
+      "Blood loss through the chest tube has left her hypovolemic"
+     ],
+     [
+      "c",
+      "The left ventricle is failing and backing fluid into the lungs"
+     ],
+     [
+      "d",
+      "The new grafts have closed, causing a large anterior MI"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "Tamponade is the rapid build-up of fluid or blood (as little as 200 mL) in the pericardial sac, which compresses the heart and reduces its ability to fill and pump. Surgery and anticoagulation are listed causes. Simple hypovolemia would make the neck veins flat and the CVP low, not high. Left-sided failure would cause crackles and would not muffle the heart sounds, and nothing in the record points to new ischemic ECG changes."
+   },
+   {
+    "id": "ct3",
+    "step": "prioritizeHypotheses",
+    "stepLabel": "Prioritize Hypotheses",
+    "kind": "single",
+    "page": 45,
+    "stem": "Which problem is the nurse's highest priority?",
+    "options": [
+     [
+      "a",
+      "Poor tissue perfusion from compression of the heart"
+     ],
+     [
+      "b",
+      "Acute pain from the sternotomy"
+     ],
+     [
+      "c",
+      "Risk for infection of the sternal wound"
+     ],
+     [
+      "d",
+      "Anxiety about the surgery"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "The book calls tamponade a medical emergency: the compressed heart cannot pump enough blood, causing poor oxygen delivery and tissue perfusion. Her restlessness, cool clammy skin and urine output of 15 mL/h show this is already happening. Pain, infection risk and anxiety matter but are not immediately life-threatening, and her anxiety is itself a sign of poor perfusion."
+   },
+   {
+    "id": "ct4",
+    "step": "generateSolutions",
+    "stepLabel": "Generate Solutions",
+    "kind": "matrix",
+    "page": 45,
+    "stem": "For each intervention, indicate whether it is indicated or not indicated for this client now.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Prepare for pericardiocentesis or a return to the OR",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Bring the crash cart and defibrillator to the bedside",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Give oxygen and be ready for intubation if needed",
+      "Indicated"
+     ],
+     [
+      "r4",
+      "Start the dopamine infusion with IV fluids as prescribed",
+      "Indicated"
+     ],
+     [
+      "r5",
+      "Give IV furosemide to bring down the CVP",
+      "Not indicated"
+     ],
+     [
+      "r6",
+      "Recheck vital signs in 1 hour before calling the surgeon",
+      "Not indicated"
+     ]
+    ],
+    "rationale": "The book's tamponade priorities are to call for help, give oxygen and prepare for intubation if needed, monitor closely, prepare for pericardiocentesis or the OR, and keep the crash cart and defibrillator at the bedside. Dopamine is used together with fluid resuscitation to support blood pressure. The high CVP comes from the squeezed heart, not from too much fluid, so a diuretic would lower filling even further. Waiting an hour delays treatment of a true emergency."
+   },
+   {
+    "id": "ct5",
+    "step": "takeAction",
+    "stepLabel": "Take Action",
+    "kind": "order",
+    "page": 45,
+    "stem": "Put the nurse's actions in priority order. Tap each in sequence; tap again to undo.",
+    "steps": [
+     [
+      "o1",
+      "Call for help: notify the surgeon and rapid response team"
+     ],
+     [
+      "o2",
+      "Increase oxygen and prepare for intubation if needed"
+     ],
+     [
+      "o3",
+      "Monitor vital signs, mental status, ECG and SpO₂ continuously"
+     ],
+     [
+      "o4",
+      "Prepare the client for pericardiocentesis or return to the OR"
+     ]
+    ],
+    "answer": [
+     "o1",
+     "o2",
+     "o3",
+     "o4"
+    ],
+    "rationale": "The book's nursing priorities for tamponade start with calling for help because it is a true emergency that only a provider can relieve. Oxygen and airway support come next, then continuous monitoring to track her response, then preparation for pericardiocentesis or surgery, which removes the blood and frees the heart."
+   },
+   {
+    "id": "ct6",
+    "step": "evaluateOutcomes",
+    "stepLabel": "Evaluate Outcomes",
+    "kind": "matrix",
+    "page": 45,
+    "stem": "After the client returns from the OR, where clot was removed from the pericardium: for each finding, indicate whether it shows improvement or needs follow-up.",
+    "cols": [
+     "Improved",
+     "Needs follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "BP 116/72 mm Hg (pulse pressure 44)",
+      "Improved"
+     ],
+     [
+      "e2",
+      "Heart sounds clear and easy to hear",
+      "Improved"
+     ],
+     [
+      "e3",
+      "Systolic pressure varies less than 5 mm Hg with breathing",
+      "Improved"
+     ],
+     [
+      "e4",
+      "Urine output 45 mL/h",
+      "Improved"
+     ],
+     [
+      "e5",
+      "Two hours later: neck veins distended again, BP 90/76 mm Hg",
+      "Needs follow-up"
+     ]
+    ],
+    "rationale": "A wider pulse pressure, normal blood pressure, clear heart sounds, the loss of pulsus paradoxus and better urine output show the heart can fill and pump again. Returning JVD with a falling, narrowing blood pressure are the signs of tamponade from the book coming back, so the nurse calls for help again right away."
+   }
+  ]
+ },
+ {
+  "id": "ngn:book-pancreatitis",
+  "title": "Acute Pancreatitis",
+  "sub": "Abdominal pain after heavy drinking · Medical-surgical unit",
+  "clientNeed": "pa",
+  "area": "Physiological Adaptation",
+  "profile": "44-year-old man, 80 kg, admitted from the emergency department with severe abdominal pain that began the day after a weekend of heavy drinking. Drinks 6–8 beers most days.",
+  "source": "book",
+  "chapter": "gi",
+  "section": "gi-pancreatitis",
+  "pages": [
+   69,
+   70,
+   71
+  ],
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 08:00",
+     "Severe, knifelike pain in the mid-epigastric area that goes through to his back, 9/10. Has vomited four times since midnight. Lying curled on his side. Abdomen distended, tender and guarded. Bowel sounds decreased. Bluish bruising on both flanks. Anxious and asking whether he is \"going to die.\" Oriented × 3."
+    ],
+    [
+     "Admission history",
+     "Alcohol use as above; no known gallstones. Father had \"pancreas problems.\" Takes ibuprofen as needed for back pain."
+    ]
+   ],
+   "Vitals": [
+    [
+     "08:00",
+     "BP 96/60 mm Hg · HR 122 · RR 26, shallow · SpO₂ 94% on room air · T 38.3 °C (100.9 °F) · Urine output 30 mL/h for the last 2 hours"
+    ]
+   ],
+   "Labs": [
+    [
+     "06:00",
+     "Lipase 1,850 units/L · Amylase 940 units/L · Calcium 7.4 mg/dL · Glucose 212 mg/dL · K⁺ 3.2 mEq/L · Mg²⁺ 1.4 mg/dL · Hemoglobin 15.8 g/dL"
+    ],
+    [
+     "Imaging",
+     "Abdominal ultrasound: no gallstones. CT abdomen: enlarged, inflamed pancreas with peripancreatic fluid; no necrosis."
+    ]
+   ],
+   "Orders": [
+    [
+     "Admission",
+     "NPO · Lactated Ringer's IV as prescribed · Strict intake and output; urine output hourly · Blood glucose every 6 hours; insulin per protocol · Replace calcium, magnesium and potassium per protocol · Fentanyl IV as prescribed for pain · NG tube to intermittent suction if vomiting continues · Oxygen to keep SpO₂ ≥ 92%"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "pa1",
+    "step": "recognizeCues",
+    "stepLabel": "Recognize Cues",
+    "kind": "highlight",
+    "page": 69,
+    "stem": "Tap the findings in the 08:00 note that are consistent with acute pancreatitis.",
+    "passage": [
+     [
+      "Severe, knifelike mid-epigastric pain",
+      "p1"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Pain goes through to his back",
+      "p2"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Vomited four times since midnight",
+      "p3"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Abdomen distended, tender and guarded",
+      "p4"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Bluish bruising on both flanks",
+      "p5"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Lying curled on his side",
+      "p6"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Oriented × 3",
+      "p7"
+     ],
+     [
+      " · "
+     ],
+     [
+      "Takes ibuprofen for back pain",
+      "p8"
+     ]
+    ],
+    "answer": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5"
+    ],
+    "rationale": "The book describes pancreatitis pain as severe, knifelike and deep mid-epigastric, often radiating to the back and starting 12–48 hours after heavy alcohol intake, with nausea and vomiting in up to 90% of cases. Abdominal distention, tenderness and guarding are expected exam findings, and flank bruising (Grey Turner sign) is a sign of severe disease. His position and orientation do not point to the diagnosis, and ibuprofen use is history the nurse records but not a finding of pancreatitis."
+   },
+   {
+    "id": "pa2",
+    "step": "analyzeCues",
+    "stepLabel": "Analyze Cues",
+    "kind": "cloze",
+    "page": 70,
+    "stem": "Complete the sentences about the client's lab results.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "The lipase of 1,850 units/L is important because lipase is",
+      "opts": [
+       "more specific to the pancreas than amylase",
+       "a marker of liver injury",
+       "raised by vomiting alone"
+      ],
+      "answer": "more specific to the pancreas than amylase"
+     },
+     {
+      "id": "b2",
+      "pre": "The calcium of 7.4 mg/dL is low because",
+      "opts": [
+       "fat necrosis binds free calcium",
+       "he is not drinking milk",
+       "the kidneys are wasting calcium"
+      ],
+      "answer": "fat necrosis binds free calcium"
+     },
+     {
+      "id": "b3",
+      "pre": "and the glucose of 212 mg/dL is high because",
+      "opts": [
+       "injured beta cells release less insulin",
+       "he ate a large meal before admission",
+       "the IV fluid contains dextrose"
+      ],
+      "answer": "injured beta cells release less insulin"
+     }
+    ],
+    "rationale": "Per the book's diagnostic table, lipase above 60 units/L is more specific to the pancreas than amylase. In pancreatitis, fat necrosis binds free calcium and causes hypocalcemia (below 8.2 mg/dL), and injury to the pancreatic beta cells impairs insulin release and causes hyperglycemia (above 100 mg/dL). He is NPO and receiving lactated Ringer's, which contains no dextrose."
+   },
+   {
+    "id": "pa3",
+    "step": "prioritizeHypotheses",
+    "stepLabel": "Prioritize Hypotheses",
+    "kind": "single",
+    "page": 71,
+    "stem": "Which complication is the client at greatest immediate risk of developing?",
+    "options": [
+     [
+      "a",
+      "Hypovolemic shock"
+     ],
+     [
+      "b",
+      "Diabetes mellitus"
+     ],
+     [
+      "c",
+      "Pancreatic pseudocyst"
+     ],
+     [
+      "d",
+      "Malnutrition"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "BP 96/60, HR 122 and urine output of 30 mL/h in an 80 kg client (below the book's 1 mL/kg/h threshold for hypoperfusion) show he is losing circulating volume. The book's initial management uses IV fluid resuscitation to restore blood volume and prevent hypovolemic shock. Diabetes and pseudocysts are later complications, mainly of chronic pancreatitis, and malnutrition develops over days."
+   },
+   {
+    "id": "pa4",
+    "step": "generateSolutions",
+    "stepLabel": "Generate Solutions",
+    "kind": "multi",
+    "page": 71,
+    "stem": "Which interventions should the nurse expect to be part of this client's initial plan of care? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Keep the client NPO"
+     ],
+     [
+      "b",
+      "Give lactated Ringer's IV as prescribed"
+     ],
+     [
+      "c",
+      "Replace calcium, magnesium and potassium as prescribed"
+     ],
+     [
+      "d",
+      "Check blood glucose every 6 hours"
+     ],
+     [
+      "e",
+      "Start prophylactic IV ceftriaxone"
+     ],
+     [
+      "f",
+      "Offer a high-calorie, high-fat meal to rebuild his strength"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "rationale": "The book's initial medical management is NPO to suppress pancreatic enzyme secretion, IV fluid resuscitation such as lactated Ringer's, calcium, magnesium and potassium replacement, and blood glucose checks every 6 hours with insulin if needed. Antibiotics are for infected necrosis or a biliary cause and are not used prophylactically; his CT shows no necrosis and his ultrasound shows no gallstones. Once stable, the diet advances gradually to high-calorie, low-fat meals, never high-fat."
+   },
+   {
+    "id": "pa5",
+    "step": "takeAction",
+    "stepLabel": "Take Action",
+    "kind": "single",
+    "page": 71,
+    "stem": "Despite being NPO, the client keeps vomiting and his abdomen is more distended. Which prescribed intervention should the nurse carry out now?",
+    "options": [
+     [
+      "a",
+      "Insert the NG tube and connect it to intermittent suction"
+     ],
+     [
+      "b",
+      "Give clear liquids in small sips to settle his stomach"
+     ],
+     [
+      "c",
+      "Place the client flat on his back to relax the abdomen"
+     ],
+     [
+      "d",
+      "Hold the IV fluids until the vomiting stops"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "The book lists an NG tube with intermittent suction to reduce pancreatic stimulation as part of GI support. Oral fluids would stimulate the pancreas, which is why he is NPO. Lying flat does not treat the cause and may worsen comfort and breathing. Holding IV fluids would deepen his hypovolemia."
+   },
+   {
+    "id": "pa6",
+    "step": "evaluateOutcomes",
+    "stepLabel": "Evaluate Outcomes",
+    "kind": "matrix",
+    "page": 71,
+    "stem": "Forty-eight hours later: for each finding, indicate whether it shows improvement, no change, or decline.",
+    "cols": [
+     "Improved",
+     "No change",
+     "Declined"
+    ],
+    "rows": [
+     [
+      "e1",
+      "Urine output 90 mL/h",
+      "Improved"
+     ],
+     [
+      "e2",
+      "BP 118/74 mm Hg, HR 92",
+      "Improved"
+     ],
+     [
+      "e3",
+      "Pain 3/10 with IV fentanyl",
+      "Improved"
+     ],
+     [
+      "e4",
+      "Blood glucose 268 mg/dL",
+      "Declined"
+     ],
+     [
+      "e5",
+      "Abdomen still distended; still nauseated",
+      "No change"
+     ]
+    ],
+    "rationale": "Urine output above 1 mL/kg/h (80 mL/h for him), a normal blood pressure and controlled pain show that fluid resuscitation and opioid pain control are working. A rising glucose needs follow-up, since the book notes insulin may be needed. Ongoing distention and nausea mean the abdomen has not settled yet, so he stays NPO with the NG tube to intermittent suction and the diet is not advanced."
+   }
+  ]
+ },
+ {
+  "id": "ngn:book-cirrhosis",
+  "title": "Cirrhosis with Ascites and Suspected Varices",
+  "sub": "Increasing abdominal girth and confusion · Medical unit",
+  "clientNeed": "rrp",
+  "area": "Reduction of Risk Potential",
+  "profile": "58-year-old man with alcohol-related cirrhosis and chronic hepatitis C, admitted for a tense, enlarging abdomen and new forgetfulness. Last drink 3 days ago.",
+  "source": "book",
+  "chapter": "gi",
+  "section": "gi-cirrhosis",
+  "pages": [
+   78,
+   79,
+   80
+  ],
+  "ehr": {
+   "Notes": [
+    [
+     "Nurses' notes 09:00",
+     "Abdomen tense and distended with an everted umbilicus and visible veins around the navel (caput medusae). Shifting dullness on percussion. Short of breath when lying flat. Yellow sclera and skin. Spider angiomas on the chest, reddened palms. Gums bleed easily; bruises on both arms. Flapping tremor of the hands when the arms are held out. Forgetful, cannot recall his breakfast, and is irritable. Bowel sounds normal. Abdominal girth 112 cm."
+    ],
+    [
+     "Admission history",
+     "Anorexia, nausea and 6 kg weight loss over 2 months; muscle wasting in the arms and shoulders. Never vaccinated against hepatitis A."
+    ]
+   ],
+   "Vitals": [
+    [
+     "09:00",
+     "BP 112/68 mm Hg · HR 96 · RR 24 · SpO₂ 94% on room air · T 37.0 °C (98.6 °F) · Weight 88 kg (82 kg one month ago)"
+    ]
+   ],
+   "Labs": [
+    [
+     "06:00",
+     "AST and ALT elevated · Total bilirubin 4.8 mg/dL · LDH elevated · Albumin 2.4 g/dL · Platelets 78,000/mm³ · INR 1.9 · Na⁺ 132 mEq/L · K⁺ 3.6 mEq/L"
+    ],
+    [
+     "Imaging",
+     "Abdominal ultrasound: large-volume ascites; small, nodular liver."
+    ]
+   ],
+   "Orders": [
+    [
+     "Admission",
+     "Diagnostic and therapeutic paracentesis today · EGD tomorrow to evaluate for esophageal varices · Daily weight and abdominal girth · Strict intake and output · Vitamin K as prescribed · Dietitian consult · Hepatitis A vaccine · Alcohol cessation counseling"
+    ]
+   ]
+  },
+  "items": [
+   {
+    "id": "ci1",
+    "step": "recognizeCues",
+    "stepLabel": "Recognize Cues",
+    "kind": "multi",
+    "page": 79,
+    "stem": "Which findings indicate complications of the client's cirrhosis that need follow-up? Select all that apply.",
+    "options": [
+     [
+      "a",
+      "Flapping tremor of the hands"
+     ],
+     [
+      "b",
+      "Shifting dullness and an everted umbilicus"
+     ],
+     [
+      "c",
+      "Gums bleed easily and bruises on both arms"
+     ],
+     [
+      "d",
+      "Forgetful and irritable"
+     ],
+     [
+      "e",
+      "Bowel sounds normal"
+     ],
+     [
+      "f",
+      "Temperature 37.0 °C"
+     ]
+    ],
+    "answer": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "rationale": "The book's cirrhosis assessment includes asterixis (flapping tremor), a sign of hepatic encephalopathy, along with neuro changes such as forgetfulness, agitation and disorientation. Shifting dullness and an everted umbilicus point to ascites, and easy bruising and bleeding gums are bleeding signs. Normal bowel sounds and a normal temperature do not need follow-up."
+   },
+   {
+    "id": "ci2",
+    "step": "analyzeCues",
+    "stepLabel": "Analyze Cues",
+    "kind": "cloze",
+    "page": 78,
+    "stem": "Complete the sentence.",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "Scar tissue in the liver obstructs blood flow, causing",
+      "opts": [
+       "portal hypertension",
+       "pulmonary hypertension",
+       "systemic hypertension"
+      ],
+      "answer": "portal hypertension"
+     },
+     {
+      "id": "b2",
+      "pre": "which leads to complications such as",
+      "opts": [
+       "ascites and esophageal varices",
+       "kidney stones and gout",
+       "pancreatitis and gallstones"
+      ],
+      "answer": "ascites and esophageal varices"
+     },
+     {
+      "id": "b3",
+      "pre": "and fluid retention is made worse by",
+      "opts": [
+       "a low albumin level",
+       "a high platelet count",
+       "a low bilirubin level"
+      ],
+      "answer": "a low albumin level"
+     }
+    ],
+    "rationale": "The book explains that cirrhotic scarring obstructs blood flow through the liver, causing portal hypertension and complications such as ascites, esophageal varices and hepatorenal syndrome. In alcohol-related cirrhosis, fluid retention also comes from decreased albumin and hormonal changes. His albumin of 2.4 g/dL fits. His platelets are low and his bilirubin is high, not the reverse."
+   },
+   {
+    "id": "ci3",
+    "step": "prioritizeHypotheses",
+    "stepLabel": "Prioritize Hypotheses",
+    "kind": "single",
+    "page": 79,
+    "stem": "A large volume of fluid is planned for removal during today's paracentesis. Which complication is the nurse most concerned about?",
+    "options": [
+     [
+      "a",
+      "Hypovolemic shock"
+     ],
+     [
+      "b",
+      "Fluid overload"
+     ],
+     [
+      "c",
+      "Hepatitis A infection"
+     ],
+     [
+      "d",
+      "Loss of the gag reflex"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "The book warns that rapid removal of fluid from the abdomen lowers abdominal pressure, causing vasodilation and hypovolemic shock. Fluid overload is the problem paracentesis treats, not a risk of it. Hepatitis A is a vaccination concern, not a procedure risk. Loss of the gag reflex is a concern after EGD, not paracentesis."
+   },
+   {
+    "id": "ci4",
+    "step": "generateSolutions",
+    "stepLabel": "Generate Solutions",
+    "kind": "matrix",
+    "page": 80,
+    "stem": "For each intervention, indicate whether it is indicated or not indicated in the client's plan of care.",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Measure abdominal girth and monitor fluids and electrolytes",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Give vitamin K as prescribed",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Give the hepatitis A vaccine",
+      "Indicated"
+     ],
+     [
+      "r4",
+      "Teach about alcohol cessation",
+      "Indicated"
+     ],
+     [
+      "r5",
+      "Keep the client on strict bed rest",
+      "Not indicated"
+     ]
+    ],
+    "rationale": "The book's core interventions are monitoring fluids, electrolytes, medicines and abdominal girth, nutrition management, and teaching alcohol cessation. Medical treatment includes vitamin K and blood products, and the hepatitis A vaccine is recommended in chronic liver disease. The book says to encourage mobility, so strict bed rest is not part of the plan."
+   },
+   {
+    "id": "ci5",
+    "step": "takeAction",
+    "stepLabel": "Take Action",
+    "kind": "single",
+    "page": 79,
+    "stem": "Before the EGD, a new prescription arrives to insert a nasogastric tube for nausea. Which action should the nurse take?",
+    "options": [
+     [
+      "a",
+      "Hold the insertion and contact the provider about the risk of rupturing varices"
+     ],
+     [
+      "b",
+      "Insert the NG tube using extra lubricant to protect the esophagus"
+     ],
+     [
+      "c",
+      "Insert the NG tube after giving vitamin K"
+     ],
+     [
+      "d",
+      "Ask another nurse to insert the tube"
+     ]
+    ],
+    "answer": "a",
+    "rationale": "The book states that when esophageal varices are suspected, an NG tube should not be inserted because of the risk of variceal rupture and massive hemorrhage. The EGD to look for varices has not been done yet, so the nurse questions the order. Extra lubricant, vitamin K or a different nurse does not remove that risk."
+   },
+   {
+    "id": "ci6",
+    "step": "evaluateOutcomes",
+    "stepLabel": "Evaluate Outcomes",
+    "kind": "matrix",
+    "page": 79,
+    "stem": "After the paracentesis and, the next day, the EGD: for each finding, indicate whether it is an expected outcome or needs follow-up.",
+    "cols": [
+     "Expected outcome",
+     "Needs follow-up"
+    ],
+    "rows": [
+     [
+      "e1",
+      "Abdominal girth down to 101 cm and breathing easier",
+      "Expected outcome"
+     ],
+     [
+      "e2",
+      "Thirty minutes after paracentesis: BP 82/50 mm Hg, HR 124, dizzy",
+      "Needs follow-up"
+     ],
+     [
+      "e3",
+      "Weight down 4 kg after paracentesis",
+      "Expected outcome"
+     ],
+     [
+      "e4",
+      "Shortly after the EGD the client asks for water; gag reflex not yet returned",
+      "Needs follow-up"
+     ]
+    ],
+    "rationale": "Less abdominal girth, less weight and easier breathing show that fluid was removed as planned. Hypotension with tachycardia and dizziness after paracentesis is the hypovolemic shock the book warns about and must be reported at once. After an EGD the nurse waits for the gag reflex to return before giving anything by mouth, so the request for water must be held."
+   }
+  ]
+ }
+]

@@ -1,1065 +1,2097 @@
 {
-  "chapter": "nclex",
-  "questions": [
-    {
-      "id": "nclex-priorities-q1",
-      "section": "nclex-priorities",
-      "stem": "A nurse receives report on four clients. Which client should the nurse see first?",
-      "options": [
-        "A client with chest pain whose oxygen saturation has dropped to 86%",
-        "A client reporting anxiety about a scheduled procedure tomorrow",
-        "A client asking for teaching about a new home medication",
-        "A client whose discharge paperwork has not been completed"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. Chest pain with low oxygen saturation is a breathing and circulation problem, and the book ranks it ahead of pain or anxiety concerns.",
-        "Anxiety is a psychosocial need; physiological needs come before psychosocial needs per Maslow and the ABCs.",
-        "Education ranks below actions that prevent harm; the book places safety above teaching.",
-        "Documentation is ranked below safety; a client with a physiological threat must be seen first."
-      ],
-      "clue": "Chest pain combined with a falling oxygen saturation.",
-      "priority": "Use the ABCs to address the physiological threat first.",
-      "page": 5,
-      "type": "mcq",
-      "clientNeed": "moc",
-      "cjmm": "prioritizeHypotheses",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q2",
-      "section": "nclex-priorities",
-      "stem": "A client who was alert this morning is now newly confused and agitated. Respiratory rate has risen over the past two hours and urine output has decreased. What is the nurse's best action?",
-      "options": [
-        "Document the changes and recheck the client at the next scheduled round",
-        "Recognize these as early signs of decline and escalate care promptly",
-        "Reorient the client and provide a quiet environment to reduce agitation",
-        "Encourage oral fluids and reassess urine output at the end of the shift"
-      ],
-      "correct": 1,
-      "rationales": [
-        "Waiting delays care; the book states NCLEX rewards early intervention and escalation.",
-        "Correct. New confusion, rising respiratory rate and falling urine output are listed early signs of deterioration that call for escalation.",
-        "Treating the agitation as a comfort issue misses the physiological deterioration the cues point to.",
-        "This delays escalation and treats one cue in isolation instead of the worsening overall trend."
-      ],
-      "clue": "New confusion with rising respiratory rate and falling urine output.",
-      "priority": "Recognize early deterioration and escalate care.",
-      "page": 6,
-      "type": "mcq",
-      "clientNeed": "pa",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q3",
-      "section": "nclex-priorities",
-      "stem": "A client with diabetes is found having an active seizure in bed. What should the nurse do?",
-      "options": [
-        "Complete a full neurological assessment before taking any action",
-        "Review the medical record for the client's seizure history first",
-        "Act immediately to protect the client because the situation is emergent",
-        "Call the provider for orders before approaching the client's bedside"
-      ],
-      "correct": 2,
-      "rationales": [
-        "Assessment-first applies to stable clients; an active seizure is an emergent exception.",
-        "Reviewing the record delays care for an unstable client.",
-        "Correct. The book lists active seizures as an exception to assessment first: if the patient is unstable, act.",
-        "Leaving the client to call first delays immediate action that keeps the client safe."
-      ],
-      "clue": "The seizure is actively occurring.",
-      "priority": "Act first when the client is unstable or the situation is emergent.",
-      "page": 5,
-      "type": "mcq",
-      "clientNeed": "pa",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q1",
-      "section": "nclex-highrisk",
-      "stem": "A postoperative client's hemoglobin has fallen on each of the last three daily lab draws. How should the nurse interpret this trend?",
-      "options": [
-        "As expected postoperative variation that does not need action",
-        "As evidence that current treatment is working effectively",
-        "As a finding to evaluate only if the next single value is critical",
-        "As a possible sign of bleeding that requires further action"
-      ],
-      "correct": 3,
-      "rationales": [
-        "The book teaches that a falling hemoglobin trend is meaningful, not something to dismiss.",
-        "Improving labs indicate effective treatment; a falling hemoglobin is not improvement.",
-        "The book warns never to look at a single lab in isolation; the trend already matters.",
-        "Correct. The book states that falling hemoglobin suggests bleeding, and trend interpretation is key."
-      ],
-      "clue": "Hemoglobin decreasing across serial draws.",
-      "priority": "Interpret lab trends in context to detect bleeding.",
-      "page": 8,
-      "type": "mcq",
-      "clientNeed": "rrp",
-      "cjmm": "analyzeCues",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q2",
-      "section": "nclex-highrisk",
-      "stem": "A nurse is about to give a scheduled cardiac medication that can lower heart rate and blood pressure. Which action best reflects safe practice?",
-      "options": [
-        "Assess and record vital signs before giving it and recheck them afterward",
-        "Give the dose on time and check vital signs at the next routine round",
-        "Give the dose and ask the client to report any dizziness that occurs",
-        "Hold the dose until the provider confirms it is still needed today"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. For drugs affecting heart rate or blood pressure, the book says monitoring is critical and to record vital signs before and after.",
-        "Skipping the pre-dose assessment ignores hold parameters and the principle to assess before giving medications.",
-        "Relying on the client to report symptoms replaces nursing assessment and monitoring.",
-        "Holding without assessment delays care; the nurse should assess against hold parameters first."
-      ],
-      "clue": "The medication affects heart rate and blood pressure.",
-      "priority": "Assess before and monitor after high-alert medications.",
-      "page": 8,
-      "type": "mcq",
-      "clientNeed": "pharm",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q3",
-      "section": "nclex-highrisk",
-      "stem": "A client with increased intracranial pressure from cerebral edema needs IV fluids. Which type of fluid order should the nurse question?",
-      "options": [
-        "Normal saline for volume replacement",
-        "A hypotonic fluid for maintenance",
-        "Lactated Ringer's for volume replacement",
-        "An isotonic fluid given to restore circulating volume"
-      ],
-      "correct": 1,
-      "rationales": [
-        "The book lists NS as a volume replacement fluid and does not identify it as worsening cerebral edema.",
-        "Correct. The book states hypotonic fluids can worsen cerebral edema, which is dangerous with increased intracranial pressure.",
-        "LR is listed with NS as a volume replacement fluid, not as one that worsens cerebral edema.",
-        "The book's cerebral edema warning applies to hypotonic fluids; isotonic fluids such as NS and LR are listed for volume replacement."
-      ],
-      "clue": "Increased intracranial pressure means cerebral edema is a risk.",
-      "priority": "Choose fluids based on why they are used and their risks.",
-      "page": 9,
-      "type": "mcq",
-      "clientNeed": "pharm",
-      "cjmm": "analyzeCues",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q1",
-      "section": "nclex-strategy",
-      "stem": "The RN is working with a UAP and an LPN. Which task is appropriate to delegate to the UAP?",
-      "options": [
-        "Teaching a stable client how to use an incentive spirometer",
-        "Giving oral medications to a client with a stable condition",
-        "Taking vital signs on a stable client and reporting the results",
-        "Evaluating whether a client's pain medication was effective"
-      ],
-      "correct": 2,
-      "rationales": [
-        "Teaching must be done by the RN and is never delegated.",
-        "Administering oral medications is listed as an LPN task, not a UAP task.",
-        "Correct. The book lists taking vital signs on stable patients and reporting findings as UAP tasks.",
-        "Evaluating outcomes is an RN responsibility that cannot be delegated."
-      ],
-      "clue": "The client is stable and the task is routine data collection.",
-      "priority": "Match tasks to scope of practice and client stability.",
-      "page": 10,
-      "type": "mcq",
-      "clientNeed": "moc",
-      "cjmm": "generateSolutions",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q2",
-      "section": "nclex-strategy",
-      "stem": "A nurse calls the provider about a client whose condition is changing. Which communication is most complete?",
-      "options": [
-        "Stating the client looks worse and asking the provider to come see them",
-        "Reading the full admission history and listing every medication given",
-        "Reporting the vital signs only and waiting for the provider's decision",
-        "Giving current vitals, relevant labs, the nurse's assessment and a request"
-      ],
-      "correct": 3,
-      "rationales": [
-        "This lacks objective data and an assessment; incomplete communication is a common trap.",
-        "Excess background without current status, assessment or recommendation does not follow SBAR.",
-        "Vital signs alone leave out labs, assessment and a recommendation.",
-        "Correct. The book says to include current vital signs, relevant labs, the nursing assessment and a clear recommendation."
-      ],
-      "clue": "The provider must act on the call, so the report must be complete.",
-      "priority": "Use complete SBAR communication for patient safety.",
-      "page": 10,
-      "type": "mcq",
-      "clientNeed": "moc",
-      "cjmm": "takeAction",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q3",
-      "section": "nclex-strategy",
-      "stem": "A nurse plans discharge teaching for a client newly prescribed insulin. Which approach is most effective?",
-      "options": [
-        "Provide a detailed handout and ask whether there are any questions",
-        "Use simple language and have the client return-demonstrate the injection",
-        "Teach while the client is still unstable to save time before discharge",
-        "Explain the medication using precise medical terminology for accuracy"
-      ],
-      "correct": 1,
-      "rationales": [
-        "A handout and a yes or no question do not confirm learning the way return demonstration does.",
-        "Correct. The book says effective teaching uses simple language and includes return demonstration.",
-        "The book states teaching is ineffective if the patient is unstable.",
-        "Effective teaching uses simple language rather than technical terms."
-      ],
-      "clue": "The client must safely perform a new skill at home.",
-      "priority": "Confirm learning with simple language and return demonstration.",
-      "page": 11,
-      "type": "mcq",
-      "clientNeed": "hpm",
-      "cjmm": "generateSolutions",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q4",
-      "section": "nclex-priorities",
-      "type": "sata",
-      "page": 4,
-      "clientNeed": "safety",
-      "cjmm": "generateSolutions",
-      "stem": "A nurse is preparing to give an IV medication to a client who is on isolation precautions and is at risk for falls. Which actions reflect the key safety principles for this client? Select all that apply.",
-      "options": [
-        "Skip the identity check because the nurse cared for the client yesterday",
-        "Perform hand hygiene and put on the required PPE before entering the room",
-        "Monitor the client for side effects and adverse reactions after the dose",
-        "Leave the client's latest critical lab result for the next shift to address",
-        "Take steps to prevent a fall while the client is receiving the infusion"
-      ],
-      "correct": [
-        1,
-        2,
-        4
-      ],
-      "rationales": [
-        "Incorrect. The book says to verify patient identity before medications or procedures, regardless of familiarity.",
-        "Correct. Following infection control standards, including hand hygiene, PPE and isolation, is a listed key safety principle.",
-        "Correct. Monitoring for medication side effects and adverse reactions is a listed key safety principle.",
-        "Incorrect. The book says to act immediately on critical lab values, not defer them.",
-        "Correct. Preventing falls is a listed key safety principle."
-      ],
-      "clue": "Isolation precautions, fall risk and an IV medication are all present.",
-      "priority": "Apply core safety principles before and after medication administration.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q5",
-      "section": "nclex-priorities",
-      "type": "mcq",
-      "page": 4,
-      "clientNeed": "safety",
-      "cjmm": "takeAction",
-      "stem": "A nurse enters a semi-private room to give a scheduled medication. The client in the bed nearest the door says, \"That must be mine.\" What should the nurse do before giving the medication?",
-      "options": [
-        "Give the medication because the client confirmed it is theirs",
-        "Ask the roommate whether the medication belongs to the other client",
-        "Check the bed assignment on the census sheet and give the medication",
-        "Verify the client's identity before giving the medication"
-      ],
-      "correct": 3,
-      "rationales": [
-        "Incorrect. A client's statement alone does not replace identity verification before medications.",
-        "Incorrect. Asking a roommate is not identity verification and breaches the client's privacy.",
-        "Incorrect. A bed location is not verification of the client's identity.",
-        "Correct. The book lists verifying patient identity before medications or procedures as a key safety principle."
-      ],
-      "clue": "A shared room and a client volunteering that the medication is theirs.",
-      "priority": "Verify identity before every medication or procedure.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q6",
-      "section": "nclex-priorities",
-      "type": "mcq",
-      "page": 4,
-      "clientNeed": "pharm",
-      "cjmm": "recognizeCues",
-      "stem": "Thirty minutes after receiving the first dose of a newly prescribed IV medication, a client reports new itching and a rash on the chest. How should the nurse interpret these findings?",
-      "options": [
-        "As anxiety about the new diagnosis that needs reassurance",
-        "As an expected effect of IV access that needs no follow-up",
-        "As a possible adverse reaction to the new medication",
-        "As a comfort issue to address after routine documentation"
-      ],
-      "correct": 2,
-      "rationales": [
-        "Incorrect. Attributing new physical findings to anxiety misses a possible medication reaction.",
-        "Incorrect. Dismissing new findings after a first dose ignores the need to monitor for adverse reactions.",
-        "Correct. The book lists monitoring for medication side effects and adverse reactions as a key safety principle.",
-        "Incorrect. The book ranks preventing harm above comfort and documentation."
-      ],
-      "clue": "New itching and rash shortly after the first dose of a new medication.",
-      "priority": "Monitor for and recognize adverse medication reactions.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q7",
-      "section": "nclex-priorities",
-      "type": "mcq",
-      "page": 4,
-      "clientNeed": "safety",
-      "cjmm": "takeAction",
-      "stem": "The laboratory calls a nurse with a critical value for a client. The nurse is in the middle of updating care plan documentation. What should the nurse do?",
-      "options": [
-        "Act on the critical value immediately",
-        "Finish the documentation and then review the value",
-        "Record the value and report it at the next handoff",
-        "Wait for the next scheduled lab draw to confirm it"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book lists acting immediately on critical lab values as a key safety principle, and safety outranks documentation.",
-        "Incorrect. Documentation ranks below actions that prevent harm.",
-        "Incorrect. Deferring to handoff delays action on a critical value.",
-        "Incorrect. Waiting for another draw delays action the book says must be immediate."
-      ],
-      "clue": "A critical lab value has just been reported.",
-      "priority": "Act immediately on critical lab values.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q8",
-      "section": "nclex-priorities",
-      "type": "mcq",
-      "page": 5,
-      "clientNeed": "pa",
-      "cjmm": "prioritizeHypotheses",
-      "stem": "A client has a low oxygen saturation and a low blood pressure. There is no sign of bleeding. Which problem should the nurse treat first?",
-      "options": [
-        "The low blood pressure, because circulation supports oxygen delivery",
-        "Both equally, by treating whichever is easier to correct",
-        "Neither, until the provider reviews the client's labs",
-        "The hypoxia, because breathing comes before circulation"
-      ],
-      "correct": 3,
-      "rationales": [
-        "Incorrect. The book places hypotension after hypoxia unless hemorrhage is present, and no bleeding is described.",
-        "Incorrect. ABCs set a clear order; ease of correction does not set priority.",
-        "Incorrect. Waiting for a review delays care for a physiological threat.",
-        "Correct. The book states hypoxia is treated before hypotension unless hemorrhage is present."
-      ],
-      "clue": "Hypoxia and hypotension together without hemorrhage.",
-      "priority": "Follow ABC order: breathing before circulation unless hemorrhage.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q9",
-      "section": "nclex-priorities",
-      "type": "matrix",
-      "page": 5,
-      "clientNeed": "pa",
-      "cjmm": "generateSolutions",
-      "stem": "For each client situation, indicate whether the nurse should act immediately or assess first.",
-      "rows": [
-        "A client who is unresponsive and pulseless (cardiac arrest)",
-        "A stable client reporting mild soreness at an IV site",
-        "A client with severe hypoglycemia who is difficult to arouse",
-        "A client with anaphylaxis after a new antibiotic dose",
-        "A stable client asking about a change in diet"
-      ],
-      "columns": [
-        "Act immediately",
-        "Assess first"
-      ],
-      "correct": [
-        0,
-        1,
-        0,
-        0,
-        1
-      ],
-      "rationales": [
-        "Cardiac arrest is a listed exception to assessment first; the client is unstable, so act.",
-        "The client is stable, so the book says to assess first.",
-        "Severe hypoglycemia is a listed exception to assessment first.",
-        "Anaphylaxis is a listed exception to assessment first.",
-        "The client is stable, so assessment comes before intervention."
-      ],
-      "clue": "Whether each client is stable or in an emergent condition.",
-      "priority": "If the client is unstable, act; if stable, assess first.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q10",
-      "section": "nclex-priorities",
-      "type": "sata",
-      "page": 6,
-      "clientNeed": "rrp",
-      "cjmm": "recognizeCues",
-      "stem": "A nurse reviews the past four hours of data for a postoperative client. Which findings are early signs of decline that the nurse should act on? Select all that apply.",
-      "options": [
-        "Respiratory rate increasing from 16 to 26",
-        "Oxygen saturation decreasing from 97% to 91%",
-        "Steady vital signs within the client's baseline",
-        "New confusion in a client who was oriented this morning",
-        "Urine output decreasing over the last several hours",
-        "Client reports sleeping well and asks for breakfast"
-      ],
-      "correct": [
-        0,
-        1,
-        3,
-        4
-      ],
-      "rationales": [
-        "Correct. Increasing respiratory rate is a listed early sign of decline.",
-        "Correct. Decreasing oxygen saturation is a listed early sign of decline.",
-        "Incorrect. The book points to worsening vital sign trends; stable values at baseline are not a sign of decline.",
-        "Correct. New confusion or agitation is a listed early sign of decline.",
-        "Correct. Decreased urine output is a listed early sign of decline.",
-        "Incorrect. Restful sleep and appetite are not among the signs of decline."
-      ],
-      "clue": "Several trending changes over four hours after surgery.",
-      "priority": "Recognize early deterioration so care can be escalated.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q11",
-      "section": "nclex-priorities",
-      "type": "sata",
-      "page": 5,
-      "clientNeed": "moc",
-      "cjmm": "prioritizeHypotheses",
-      "stem": "A nurse is planning care for a client admitted with chest pain who is also anxious. Which priority decisions follow ABCs and Maslow's hierarchy? Select all that apply.",
-      "options": [
-        "Address the low oxygen saturation before the client's anxiety",
-        "Treat an abnormal lab value before a partial airway obstruction",
-        "Manage an airway problem before a breathing problem",
-        "Address the client's psychosocial needs before physiological needs",
-        "Treat hypotension before hypoxia when no hemorrhage is present",
-        "Address breathing problems before circulation issues"
-      ],
-      "correct": [
-        0,
-        2,
-        5
-      ],
-      "rationales": [
-        "Correct. The book states a client with chest pain and low oxygen saturation takes priority over pain or anxiety.",
-        "Incorrect. The book says to treat airway obstruction before an abnormal lab value.",
-        "Correct. Airway problems come first, then breathing.",
-        "Incorrect. Maslow's hierarchy places physiological needs before psychosocial needs.",
-        "Incorrect. The book treats hypoxia before hypotension unless hemorrhage is present.",
-        "Correct. Breathing problems come before circulation issues in the ABCs."
-      ],
-      "clue": "Chest pain with anxiety in a client whose oxygenation may be compromised.",
-      "priority": "Prioritize airway, breathing, circulation, then psychosocial needs.",
-      "checked": true
-    },
-    {
-      "id": "nclex-priorities-q12",
-      "section": "nclex-priorities",
-      "type": "matrix",
-      "page": 4,
-      "clientNeed": "safety",
-      "cjmm": "prioritizeHypotheses",
-      "stem": "A nurse has several tasks for a client at risk for falls and aspiration. For each action, indicate whether it is a higher or lower priority according to the safety principle.",
-      "rows": [
-        "Responding to the bed alarm as the client tries to stand alone",
-        "Charting the morning intake and output",
-        "Stopping the meal when the client coughs and chokes while eating",
-        "Reviewing the diet handout the client will need at discharge"
-      ],
-      "columns": [
-        "Higher priority",
-        "Lower priority"
-      ],
-      "correct": [
-        0,
-        1,
-        0,
-        1
-      ],
-      "rationales": [
-        "Preventing a fall prevents harm, which the book ranks above comfort, education or documentation.",
-        "Documentation ranks below actions that prevent harm.",
-        "Preventing aspiration is a listed key safety principle and prevents harm.",
-        "Education ranks below actions that prevent harm."
-      ],
-      "clue": "Some actions prevent immediate harm; others are documentation or teaching.",
-      "priority": "Choose the action that prevents harm over comfort, education or documentation.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q4",
-      "section": "nclex-highrisk",
-      "type": "sata",
-      "page": 7,
-      "clientNeed": "pa",
-      "cjmm": "recognizeCues",
-      "stem": "A nurse is reviewing the admitting diagnoses of clients on a busy unit. Which conditions does the nurse recognize as life-threatening high-risk conditions requiring close monitoring? Select all that apply.",
-      "options": [
-        "Acute respiratory distress syndrome (ARDS)",
-        "Uncomplicated ankle sprain",
-        "Cardiac tamponade",
-        "Increased intracranial pressure",
-        "Seasonal allergic rhinitis",
-        "Septic shock"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        5
-      ],
-      "rationales": [
-        "Correct. ARDS is listed among the life-threatening respiratory conditions.",
-        "Incorrect. An uncomplicated sprain is not a life-threatening condition and is not on the list.",
-        "Correct. Cardiac tamponade is listed among the life-threatening cardiovascular conditions.",
-        "Correct. Increased intracranial pressure is listed among the life-threatening neurological conditions.",
-        "Incorrect. Seasonal allergies are not life-threatening and are not on the list.",
-        "Correct. Sepsis and septic shock are listed under infection."
-      ],
-      "clue": "Each diagnosis is compared against the book's list of life-threatening conditions.",
-      "priority": "Know which conditions are high risk so early signs are monitored.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q5",
-      "section": "nclex-highrisk",
-      "type": "sata",
-      "page": 8,
-      "clientNeed": "rrp",
-      "cjmm": "analyzeCues",
-      "stem": "A nurse reviews the morning results for several clients. Which results are critical findings that require action? Select all that apply.",
-      "options": [
-        "Potassium outside the normal range on a client with weakness",
-        "A stable hemoglobin that matches the previous three days",
-        "Rising creatinine in a client whose urine output is low",
-        "An elevated lactate in a client being treated for sepsis",
-        "A normal creatinine in a client with adequate urine output"
-      ],
-      "correct": [
-        0,
-        2,
-        3
-      ],
-      "rationales": [
-        "Correct. Potassium abnormalities are listed as critical labs that require action.",
-        "Incorrect. A stable trend does not suggest bleeding; the book flags a falling hemoglobin.",
-        "Correct. Elevated creatinine with low urine output is listed as a critical lab requiring action.",
-        "Correct. Elevated lactate in sepsis is listed as a critical lab requiring action.",
-        "Incorrect. A normal creatinine with adequate urine output is not a listed critical finding."
-      ],
-      "clue": "Lab values read together with the client's condition and urine output.",
-      "priority": "Interpret labs in context and act on critical results.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q6",
-      "section": "nclex-highrisk",
-      "type": "sata",
-      "page": 8,
-      "clientNeed": "pharm",
-      "cjmm": "generateSolutions",
-      "stem": "A nurse is preparing to give a scheduled opioid to a client after surgery. Which actions reflect the book's medication-safety principles? Select all that apply.",
-      "options": [
-        "Check the hold parameters before giving the dose",
-        "Give the dose without assessment because it was tolerated yesterday",
-        "Assess the client's respiratory status before giving the dose",
-        "Record vital signs before and after giving the dose",
-        "Teach the client about expected side effects of the opioid",
-        "Rely on a memorized drug list instead of monitoring the client"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4
-      ],
-      "rationales": [
-        "Correct. Knowing hold parameters is a listed key medication principle.",
-        "Incorrect. The book says to assess before giving medications.",
-        "Correct. Opioids affect respiratory status, so assessing before the dose is critical.",
-        "Correct. For medications affecting heart rate, blood pressure or respiratory status, the book says to record vital signs before and after.",
-        "Correct. Educating patients on side effects is a listed key medication principle.",
-        "Incorrect. The book says medication questions focus on safety and monitoring, not memorizing drug lists."
-      ],
-      "clue": "Opioids are high-alert and can affect respiratory status.",
-      "priority": "Assess, check hold parameters, monitor and teach for high-alert drugs.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q7",
-      "section": "nclex-highrisk",
-      "type": "mcq",
-      "page": 8,
-      "clientNeed": "pharm",
-      "cjmm": "recognizeCues",
-      "stem": "A nurse reviews a client's medication administration record. Which medication is a high-alert medication that requires extra safety checks?",
-      "options": [
-        "A daily oral multivitamin tablet",
-        "A moisturizing lotion applied to dry skin",
-        "An IV potassium infusion",
-        "Saline eye drops for dry eyes"
-      ],
-      "correct": 2,
-      "rationales": [
-        "Incorrect. An oral multivitamin is not on the book's list of high-alert medications.",
-        "Incorrect. A topical moisturizer is not on the book's list of high-alert medications.",
-        "Correct. IV potassium is listed among high-alert medications, with insulin, opioids, anticoagulants and cardiac medications.",
-        "Incorrect. Saline eye drops are not on the book's list of high-alert medications."
-      ],
-      "clue": "IV potassium is among the drugs the book flags as high alert.",
-      "priority": "Recognize high-alert medications and apply extra safety checks.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q8",
-      "section": "nclex-highrisk",
-      "type": "mcq",
-      "page": 9,
-      "clientNeed": "pharm",
-      "cjmm": "analyzeCues",
-      "stem": "A client has hypernatremia and the provider orders D5W. The client asks why this fluid was chosen. What is the nurse's best explanation?",
-      "options": [
-        "It provides free water to dilute the excess sodium",
-        "It replaces lost blood volume more quickly than saline",
-        "It adds sodium to correct a low sodium level",
-        "It reduces swelling in the brain by drawing out fluid"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book states D5W is used to treat hypernatremia because it provides free water to dilute excess sodium.",
-        "Incorrect. The book lists NS and LR, not D5W, for volume replacement.",
-        "Incorrect. The client has excess sodium; D5W dilutes sodium rather than adding it.",
-        "Incorrect. The book does not describe D5W as reducing cerebral edema."
-      ],
-      "clue": "The client's sodium level is high.",
-      "priority": "Know why a fluid is chosen, not just its name.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q9",
-      "section": "nclex-highrisk",
-      "type": "mcq",
-      "page": 9,
-      "clientNeed": "pa",
-      "cjmm": "prioritizeHypotheses",
-      "stem": "A client's potassium level has risen above the normal range. Which complication is the nurse most concerned about?",
-      "options": [
-        "Worsening cerebral edema",
-        "Increased risk of bleeding",
-        "Fluid volume deficit from diuresis",
-        "Cardiac dysrhythmias"
-      ],
-      "correct": 3,
-      "rationales": [
-        "Incorrect. The book links cerebral edema to hypotonic fluids, not to hyperkalemia.",
-        "Incorrect. Bleeding is suggested by a falling hemoglobin, not by hyperkalemia.",
-        "Incorrect. The book does not link hyperkalemia to fluid volume deficit.",
-        "Correct. The book states hyperkalemia increases the risk of dysrhythmias."
-      ],
-      "clue": "Potassium is elevated.",
-      "priority": "Anticipate dysrhythmias with hyperkalemia.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q10",
-      "section": "nclex-highrisk",
-      "type": "mcq",
-      "page": 8,
-      "clientNeed": "rrp",
-      "cjmm": "analyzeCues",
-      "stem": "Over four days, a client's creatinine has slowly risen with each lab draw. What does this trend most likely suggest?",
-      "options": [
-        "Effective treatment of the client's condition",
-        "Worsening kidney function",
-        "Active bleeding",
-        "A single result that can be ignored"
-      ],
-      "correct": 1,
-      "rationales": [
-        "Incorrect. Improving labs indicate effective treatment; a rising creatinine is not improvement.",
-        "Correct. The book states a slowly rising creatinine suggests worsening kidney function.",
-        "Incorrect. The book links bleeding to a falling hemoglobin, not to rising creatinine.",
-        "Incorrect. This is a trend across several draws, and the book says never to look at a single lab in isolation."
-      ],
-      "clue": "Creatinine rising slowly across serial draws.",
-      "priority": "Interpret lab trends to detect worsening organ function.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q11",
-      "section": "nclex-highrisk",
-      "type": "mcq",
-      "page": 9,
-      "clientNeed": "bcc",
-      "cjmm": "analyzeCues",
-      "stem": "A client who is eating very little is receiving D5 1/2NS. The client asks why there is sugar in the IV fluid. Which response by the nurse is accurate?",
-      "options": [
-        "It is used to correct a high sodium level by adding free water",
-        "It replaces blood loss after surgery",
-        "It provides hydration and some calories and prevents tissue breakdown",
-        "It is the fluid of choice for clients with swelling in the brain"
-      ],
-      "correct": 2,
-      "rationales": [
-        "Incorrect. The book gives this purpose for D5W in hypernatremia, not for D5 1/2NS.",
-        "Incorrect. The book lists NS and LR for volume replacement.",
-        "Correct. The book states D5 1/2NS is used for hydration, provides calories and prevents catabolism (breakdown of body tissue).",
-        "Incorrect. The book does not describe D5 1/2NS for cerebral edema; it lists this fluid for hydration, calories and preventing catabolism."
-      ],
-      "clue": "Poor oral intake and a dextrose-containing maintenance fluid.",
-      "priority": "Explain why a fluid is chosen, including its caloric role.",
-      "checked": true
-    },
-    {
-      "id": "nclex-highrisk-q12",
-      "section": "nclex-highrisk",
-      "type": "matrix",
-      "page": 8,
-      "clientNeed": "rrp",
-      "cjmm": "evaluateOutcomes",
-      "stem": "A nurse is reviewing lab trends for several clients. For each trend, indicate whether it suggests the client is improving or worsening.",
-      "rows": [
-        "Hemoglobin falling across three daily draws",
-        "Creatinine rising slowly over several days",
-        "Elevated lactate returning toward normal after sepsis treatment",
-        "Blood glucose returning to normal after treatment of an extreme value"
-      ],
-      "columns": [
-        "Improving",
-        "Worsening"
-      ],
-      "correct": [
-        1,
-        1,
-        0,
-        0
-      ],
-      "rationales": [
-        "The book states falling hemoglobin suggests bleeding.",
-        "The book states a slowly rising creatinine suggests worsening kidney function.",
-        "Elevated lactate in sepsis is a critical lab; the book says improving labs indicate effective treatment.",
-        "Blood glucose extremes are critical labs; values improving after treatment indicate effective treatment."
-      ],
-      "clue": "Direction of each lab trend over time.",
-      "priority": "Use trends, not single values, to evaluate outcomes.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q4",
-      "section": "nclex-strategy",
-      "type": "mcq",
-      "page": 10,
-      "clientNeed": "moc",
-      "cjmm": "generateSolutions",
-      "stem": "An RN is making assignments. Which client care task is most appropriate to assign to the LPN?",
-      "options": [
-        "Performing wound care for a stable client",
-        "Assessing a newly unstable client with chest pain",
-        "Teaching a client how to use a new inhaler",
-        "Evaluating whether a client's plan of care is working"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book lists performing wound care as an LPN task, and the client is stable.",
-        "Incorrect. The RN must assess and care for unstable patients.",
-        "Incorrect. Teaching is an RN responsibility that is never delegated.",
-        "Incorrect. Evaluating outcomes is an RN responsibility."
-      ],
-      "clue": "The client is stable and the task is within LPN scope.",
-      "priority": "Match the task to scope of practice and client stability.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q5",
-      "section": "nclex-strategy",
-      "type": "matrix",
-      "page": 10,
-      "clientNeed": "moc",
-      "cjmm": "generateSolutions",
-      "stem": "An RN is working with a UAP and an LPN. For each task, indicate the team member who is the most appropriate to perform it.",
-      "rows": [
-        "Taking vital signs on a stable client",
-        "Administering oral medications to a stable client",
-        "Assessing a client whose condition has become unstable",
-        "Teaching a client about a new diagnosis",
-        "Monitoring a stable client"
-      ],
-      "columns": [
-        "UAP",
-        "LPN",
-        "RN"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        2,
-        1
-      ],
-      "rationales": [
-        "The book lists taking vital signs on stable patients as a UAP task.",
-        "The book lists administering oral medications as an LPN task.",
-        "The RN must assess and care for unstable patients.",
-        "The RN must teach; teaching is never delegated.",
-        "The book lists monitoring stable patients as an LPN task."
-      ],
-      "clue": "Client stability and task complexity for each task.",
-      "priority": "Delegate based on stability and complexity; keep assessment, teaching and judgment with the RN.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q6",
-      "section": "nclex-strategy",
-      "type": "mcq",
-      "page": 10,
-      "clientNeed": "bcc",
-      "cjmm": "takeAction",
-      "stem": "A stable client on the third day after surgery needs help with morning care. Which instruction should the RN give the UAP?",
-      "options": [
-        "Assist the client with hygiene and report any findings to the RN",
-        "Assess the client's incision and decide whether it is healing",
-        "Teach the client how to care for the incision at home",
-        "Evaluate whether the client is ready for discharge"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book lists assisting with hygiene and reporting findings as UAP tasks.",
-        "Incorrect. Assessment and clinical judgment are never delegated.",
-        "Incorrect. Teaching is never delegated.",
-        "Incorrect. Evaluating outcomes is an RN responsibility."
-      ],
-      "clue": "A stable client needs routine hygiene help.",
-      "priority": "Delegate hygiene to the UAP, with findings reported to the RN.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q7",
-      "section": "nclex-strategy",
-      "type": "sata",
-      "page": 10,
-      "clientNeed": "moc",
-      "cjmm": "takeAction",
-      "stem": "A client's blood pressure has dropped and the client is newly drowsy. The nurse prepares to call the provider using SBAR. Which information should the nurse include? Select all that apply.",
-      "options": [
-        "The client's current vital signs",
-        "A general statement that the client \"does not look right\" without data",
-        "Relevant lab results",
-        "The nurse's own assessment of the client",
-        "A clear recommendation for what the client needs",
-        "A request that the provider call back when convenient, with no recommendation"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4
-      ],
-      "rationales": [
-        "Correct. The book says to include current vital signs when notifying a provider.",
-        "Incorrect. A vague statement without data is incomplete communication, a common NCLEX trap.",
-        "Correct. The book says to include relevant labs.",
-        "Correct. The book says to include the nursing assessment.",
-        "Correct. The book says to include a clear recommendation.",
-        "Incorrect. Leaving out a recommendation makes the communication incomplete."
-      ],
-      "clue": "A changing condition that the provider must act on.",
-      "priority": "Communicate completely using SBAR for patient safety.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q8",
-      "section": "nclex-strategy",
-      "type": "mcq",
-      "page": 11,
-      "clientNeed": "psych",
-      "cjmm": "analyzeCues",
-      "stem": "A client who is stable declines a scheduled physical therapy session today, saying it \"isn't worth it.\" What should the nurse do first?",
-      "options": [
-        "Tell the client the session is required and must be completed",
-        "Ask what the client understands about the purpose of the session",
-        "Cancel all future therapy sessions to honor the client's wishes",
-        "Document the refusal and take no further action"
-      ],
-      "correct": 1,
-      "rationales": [
-        "Incorrect. Insisting on the session ignores patient autonomy.",
-        "Correct. The book says that when a patient refuses care, the nurse assesses understanding and respects the decision.",
-        "Incorrect. Cancelling all future care goes beyond the client's decision and skips assessing understanding.",
-        "Incorrect. The nurse should assess the client's understanding before simply documenting."
-      ],
-      "clue": "A stable client refusing a non-emergent part of care.",
-      "priority": "Respect autonomy after assessing the client's understanding.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q9",
-      "section": "nclex-strategy",
-      "type": "mcq",
-      "page": 11,
-      "clientNeed": "psych",
-      "cjmm": "takeAction",
-      "stem": "A client who just received a new diagnosis is tearful and says, \"I can't take anything in right now.\" The nurse planned to begin teaching. What is the nurse's best action?",
-      "options": [
-        "Continue with the full teaching plan so the client is prepared",
-        "Give the client written materials and leave the room",
-        "Acknowledge the client's feelings and plan teaching when the client is ready",
-        "Ask a family member to take notes during the teaching session"
-      ],
-      "correct": 2,
-      "rationales": [
-        "Incorrect. Teaching that ignores readiness to learn is unlikely to be effective.",
-        "Incorrect. Leaving written materials does not address the client's readiness or confirm learning.",
-        "Correct. The book states effective teaching addresses patient readiness to learn.",
-        "Incorrect. Teaching a family member instead does not address the client's own readiness to learn."
-      ],
-      "clue": "The client says they cannot take in information right now.",
-      "priority": "Address the client's readiness to learn before teaching.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q10",
-      "section": "nclex-strategy",
-      "type": "sata",
-      "page": 11,
-      "clientNeed": "hpm",
-      "cjmm": "generateSolutions",
-      "stem": "A nurse is planning discharge teaching for a stable client who has a new chronic condition. Which strategies make the teaching effective? Select all that apply.",
-      "options": [
-        "Use precise medical terminology so the client hears the correct terms",
-        "Use simple language",
-        "Have the client perform a return demonstration of the skill",
-        "Begin teaching during an episode when the client is unstable",
-        "Assess whether the client is ready to learn"
-      ],
-      "correct": [
-        1,
-        2,
-        4
-      ],
-      "rationales": [
-        "Incorrect. The book says effective teaching uses simple language.",
-        "Correct. Effective teaching uses simple language.",
-        "Correct. Effective teaching includes return demonstration.",
-        "Incorrect. The book states teaching is ineffective if the patient is unstable.",
-        "Correct. Effective teaching addresses patient readiness to learn."
-      ],
-      "clue": "A stable client must learn to manage a new condition at home.",
-      "priority": "Use simple language, return demonstration and readiness to learn.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q11",
-      "section": "nclex-strategy",
-      "type": "mcq",
-      "page": 11,
-      "clientNeed": "hpm",
-      "cjmm": "evaluateOutcomes",
-      "stem": "A nurse taught a stable client how to self-administer a subcutaneous injection before discharge. Which finding best shows the teaching was effective?",
-      "options": [
-        "The client correctly performs the injection in a return demonstration",
-        "The client nods and says the instructions make sense",
-        "The client signs the discharge teaching form",
-        "The client's family says they will remind the client"
-      ],
-      "correct": 0,
-      "rationales": [
-        "Correct. The book lists return demonstration as part of effective teaching.",
-        "Incorrect. Agreement alone does not show the client can perform the skill.",
-        "Incorrect. A signature is documentation, not evidence of learning.",
-        "Incorrect. A family promise does not show the client learned the skill."
-      ],
-      "clue": "The client must safely perform a skill at home.",
-      "priority": "Confirm learning through return demonstration.",
-      "checked": true
-    },
-    {
-      "id": "nclex-strategy-q12",
-      "section": "nclex-strategy",
-      "type": "matrix",
-      "page": 12,
-      "clientNeed": "safety",
-      "cjmm": "generateSolutions",
-      "stem": "A client suddenly develops severe shortness of breath. For each possible nurse action, indicate whether the nurse should consider it or eliminate it using the answer-selection strategy.",
-      "rows": [
-        "Go to the client and address airway and breathing right away",
-        "Finish charting on another client before going to the room",
-        "Independently change the dose of the client's prescribed medication",
-        "Tell the client this will never happen again"
-      ],
-      "columns": [
-        "Consider",
-        "Eliminate"
-      ],
-      "correct": [
-        0,
-        1,
-        1,
-        1
-      ],
-      "rationales": [
-        "The book says to choose airway over everything else and prioritize unstable patients.",
-        "This delays care unnecessarily, which the book says to avoid.",
-        "Changing a prescribed dose independently is outside nursing scope, which the book says to avoid.",
-        "This uses absolute language like 'never', which the book says to avoid."
-      ],
-      "clue": "An unstable client with a breathing problem.",
-      "priority": "Eliminate unsafe, delaying, out-of-scope and absolute options.",
-      "checked": true
-    }
-  ],
-  "concerns": [
-    {
-      "page": 11,
-      "issue": "States that if a patient refuses care the nurse should respect the decision 'unless life-threatening'; a competent adult may legally refuse even life-saving care, so this exception is misleading for informed consent and autonomy."
-    },
-    {
-      "page": 12,
-      "issue": "Strategy advises avoiding answers with absolute language like 'always' or 'never', yet the chapter itself uses absolutes ('Airway problems always come first' p5, 'Never look at a single lab in isolation' p8, 'Never delegate assessment' p10, 'Choose airway over everything else' p12), which may confuse readers."
-    },
-    {
-      "page": 7,
-      "issue": "Endocrine pairings list 'Thyroid storm vs Hypothyroidism'; the parallel life-threatening contrast is usually thyroid storm vs myxedema coma, so the pairing is inconsistent with the other emergency comparisons."
-    },
-    {
-      "page": 9,
-      "issue": "Typo: 'D51/2NS' should read 'D5 1/2NS' (D5 0.45% NaCl)."
-    },
-    {
-      "page": 5,
-      "issue": "Example 'Treat airway obstruction before an abnormal lab values' has a grammatical error ('an ... values')."
-    },
-    {
-      "page": 9,
-      "issue": "Hypotonic fluids are warned against in cerebral edema, but D5W (which acts as a hypotonic fluid once the dextrose is metabolized) is presented only as a hypernatremia treatment without that caution; readers may not connect the two."
-    },
-    {
-      "page": 8,
-      "issue": "Critical labs are named (potassium, glucose, creatinine, ABG, lactate) without any reference ranges or critical thresholds, so items cannot test actual values from this page."
-    },
-    {
-      "page": 10,
-      "issue": "UAP/LPN/RN task lists are presented without noting that scope of practice varies by state nurse practice act and facility policy."
-    },
-    {
-      "page": 4,
-      "issue": "'Prevent falls and aspiration' is listed without any concrete measures (e.g., positioning, precautions), which limits Basic Care and Comfort items."
-    },
-    {
-      "page": 0,
-      "issue": "blueprint: Psychosocial Integrity has 2 items vs target 3; the chapter only supports psych content via patient autonomy and readiness to learn (p11)."
-    },
-    {
-      "page": 0,
-      "issue": "blueprint: Basic Care and Comfort has 2 items vs target 3; the chapter has little comfort content, so one item (nclex-highrisk-q11, D5 1/2NS calories and catabolism, p9) is classified as nutrition-related bcc as the closest grounded fit."
-    }
-  ]
+ "chapter": "nclex",
+ "questions": [
+  {
+   "id": "nclex-priorities-q1",
+   "section": "nclex-priorities",
+   "stem": "A nurse receives report on four clients. Which client should the nurse see first?",
+   "options": [
+    "A client with chest pain whose oxygen saturation has dropped to 86%",
+    "A client reporting anxiety about a scheduled procedure tomorrow",
+    "A client asking for teaching about a new home medication",
+    "A client whose discharge paperwork has not been completed"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Chest pain with low oxygen saturation is a breathing and circulation problem, and the book ranks it ahead of pain or anxiety concerns.",
+    "Anxiety is a psychosocial need; physiological needs come before psychosocial needs per Maslow and the ABCs.",
+    "Education ranks below actions that prevent harm; the book places safety above teaching.",
+    "Documentation is ranked below safety; a client with a physiological threat must be seen first."
+   ],
+   "clue": "Chest pain combined with a falling oxygen saturation.",
+   "priority": "Use the ABCs to address the physiological threat first.",
+   "page": 5,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q2",
+   "section": "nclex-priorities",
+   "stem": "A client who was alert this morning is now newly confused and agitated. Respiratory rate has risen over the past two hours and urine output has decreased. What is the nurse's best action?",
+   "options": [
+    "Document the changes and recheck the client at the next scheduled round",
+    "Recognize these as early signs of decline and escalate care promptly",
+    "Reorient the client and provide a quiet environment to reduce agitation",
+    "Encourage oral fluids and reassess urine output at the end of the shift"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Waiting delays care; the book states NCLEX rewards early intervention and escalation.",
+    "Correct. New confusion, rising respiratory rate and falling urine output are listed early signs of deterioration that call for escalation.",
+    "Treating the agitation as a comfort issue misses the physiological deterioration the cues point to.",
+    "This delays escalation and treats one cue in isolation instead of the worsening overall trend."
+   ],
+   "clue": "New confusion with rising respiratory rate and falling urine output.",
+   "priority": "Recognize early deterioration and escalate care.",
+   "page": 6,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q3",
+   "section": "nclex-priorities",
+   "stem": "A client with diabetes is found having an active seizure in bed. What should the nurse do?",
+   "options": [
+    "Complete a full neurological assessment before taking any action",
+    "Review the medical record for the client's seizure history first",
+    "Act immediately to protect the client because the situation is emergent",
+    "Call the provider for orders before approaching the client's bedside"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Assessment-first applies to stable clients; an active seizure is an emergent exception.",
+    "Reviewing the record delays care for an unstable client.",
+    "Correct. The book lists active seizures as an exception to assessment first: if the patient is unstable, act.",
+    "Leaving the client to call first delays immediate action that keeps the client safe."
+   ],
+   "clue": "The seizure is actively occurring.",
+   "priority": "Act first when the client is unstable or the situation is emergent.",
+   "page": 5,
+   "type": "mcq",
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q1",
+   "section": "nclex-highrisk",
+   "stem": "A postoperative client's hemoglobin has fallen on each of the last three daily lab draws. How should the nurse interpret this trend?",
+   "options": [
+    "As expected postoperative variation that does not need action",
+    "As evidence that current treatment is working effectively",
+    "As a finding to evaluate only if the next single value is critical",
+    "As a possible sign of bleeding that requires further action"
+   ],
+   "correct": 3,
+   "rationales": [
+    "The book teaches that a falling hemoglobin trend is meaningful, not something to dismiss.",
+    "Improving labs indicate effective treatment; a falling hemoglobin is not improvement.",
+    "The book warns never to look at a single lab in isolation; the trend already matters.",
+    "Correct. The book states that falling hemoglobin suggests bleeding, and trend interpretation is key."
+   ],
+   "clue": "Hemoglobin decreasing across serial draws.",
+   "priority": "Interpret lab trends in context to detect bleeding.",
+   "page": 8,
+   "type": "mcq",
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q2",
+   "section": "nclex-highrisk",
+   "stem": "A nurse is about to give a scheduled cardiac medication that can lower heart rate and blood pressure. Which action best reflects safe practice?",
+   "options": [
+    "Assess and record vital signs before giving it and recheck them afterward",
+    "Give the dose on time and check vital signs at the next routine round",
+    "Give the dose and ask the client to report any dizziness that occurs",
+    "Hold the dose until the provider confirms it is still needed today"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. For drugs affecting heart rate or blood pressure, the book says monitoring is critical and to record vital signs before and after.",
+    "Skipping the pre-dose assessment ignores hold parameters and the principle to assess before giving medications.",
+    "Relying on the client to report symptoms replaces nursing assessment and monitoring.",
+    "Holding without assessment delays care; the nurse should assess against hold parameters first."
+   ],
+   "clue": "The medication affects heart rate and blood pressure.",
+   "priority": "Assess before and monitor after high-alert medications.",
+   "page": 8,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q3",
+   "section": "nclex-highrisk",
+   "stem": "A client with increased intracranial pressure from cerebral edema needs IV fluids. Which type of fluid order should the nurse question?",
+   "options": [
+    "Normal saline for volume replacement",
+    "A hypotonic fluid for maintenance",
+    "Lactated Ringer's for volume replacement",
+    "An isotonic fluid given to restore circulating volume"
+   ],
+   "correct": 1,
+   "rationales": [
+    "The book lists NS as a volume replacement fluid and does not identify it as worsening cerebral edema.",
+    "Correct. The book states hypotonic fluids can worsen cerebral edema, which is dangerous with increased intracranial pressure.",
+    "LR is listed with NS as a volume replacement fluid, not as one that worsens cerebral edema.",
+    "The book's cerebral edema warning applies to hypotonic fluids; isotonic fluids such as NS and LR are listed for volume replacement."
+   ],
+   "clue": "Increased intracranial pressure means cerebral edema is a risk.",
+   "priority": "Choose fluids based on why they are used and their risks.",
+   "page": 9,
+   "type": "mcq",
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q1",
+   "section": "nclex-strategy",
+   "stem": "The RN is working with a UAP and an LPN. Which task is appropriate to delegate to the UAP?",
+   "options": [
+    "Teaching a stable client how to use an incentive spirometer",
+    "Giving oral medications to a client with a stable condition",
+    "Taking vital signs on a stable client and reporting the results",
+    "Evaluating whether a client's pain medication was effective"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Teaching must be done by the RN and is never delegated.",
+    "Administering oral medications is listed as an LPN task, not a UAP task.",
+    "Correct. The book lists taking vital signs on stable patients and reporting findings as UAP tasks.",
+    "Evaluating outcomes is an RN responsibility that cannot be delegated."
+   ],
+   "clue": "The client is stable and the task is routine data collection.",
+   "priority": "Match tasks to scope of practice and client stability.",
+   "page": 10,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q2",
+   "section": "nclex-strategy",
+   "stem": "A nurse calls the provider about a client whose condition is changing. Which communication is most complete?",
+   "options": [
+    "Stating the client looks worse and asking the provider to come see them",
+    "Reading the full admission history and listing every medication given",
+    "Reporting the vital signs only and waiting for the provider's decision",
+    "Giving current vitals, relevant labs, the nurse's assessment and a request"
+   ],
+   "correct": 3,
+   "rationales": [
+    "This lacks objective data and an assessment; incomplete communication is a common trap.",
+    "Excess background without current status, assessment or recommendation does not follow SBAR.",
+    "Vital signs alone leave out labs, assessment and a recommendation.",
+    "Correct. The book says to include current vital signs, relevant labs, the nursing assessment and a clear recommendation."
+   ],
+   "clue": "The provider must act on the call, so the report must be complete.",
+   "priority": "Use complete SBAR communication for patient safety.",
+   "page": 10,
+   "type": "mcq",
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q3",
+   "section": "nclex-strategy",
+   "stem": "A nurse plans discharge teaching for a client newly prescribed insulin. Which approach is most effective?",
+   "options": [
+    "Provide a detailed handout and ask whether there are any questions",
+    "Use simple language and have the client return-demonstrate the injection",
+    "Teach while the client is still unstable to save time before discharge",
+    "Explain the medication using precise medical terminology for accuracy"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A handout and a yes or no question do not confirm learning the way return demonstration does.",
+    "Correct. The book says effective teaching uses simple language and includes return demonstration.",
+    "The book states teaching is ineffective if the patient is unstable.",
+    "Effective teaching uses simple language rather than technical terms."
+   ],
+   "clue": "The client must safely perform a new skill at home.",
+   "priority": "Confirm learning with simple language and return demonstration.",
+   "page": 11,
+   "type": "mcq",
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q4",
+   "section": "nclex-priorities",
+   "type": "sata",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "stem": "A nurse is preparing to give an IV medication to a client who is on isolation precautions and is at risk for falls. Which actions reflect the key safety principles for this client? Select all that apply.",
+   "options": [
+    "Skip the identity check because the nurse cared for the client yesterday",
+    "Perform hand hygiene and put on the required PPE before entering the room",
+    "Monitor the client for side effects and adverse reactions after the dose",
+    "Leave the client's latest critical lab result for the next shift to address",
+    "Take steps to prevent a fall while the client is receiving the infusion"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incorrect. The book says to verify patient identity before medications or procedures, regardless of familiarity.",
+    "Correct. Following infection control standards, including hand hygiene, PPE and isolation, is a listed key safety principle.",
+    "Correct. Monitoring for medication side effects and adverse reactions is a listed key safety principle.",
+    "Incorrect. The book says to act immediately on critical lab values, not defer them.",
+    "Correct. Preventing falls is a listed key safety principle."
+   ],
+   "clue": "Isolation precautions, fall risk and an IV medication are all present.",
+   "priority": "Apply core safety principles before and after medication administration.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q5",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A nurse enters a semi-private room to give a scheduled medication. The client in the bed nearest the door says, \"That must be mine.\" What should the nurse do before giving the medication?",
+   "options": [
+    "Give the medication because the client confirmed it is theirs",
+    "Ask the roommate whether the medication belongs to the other client",
+    "Check the bed assignment on the census sheet and give the medication",
+    "Verify the client's identity before giving the medication"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. A client's statement alone does not replace identity verification before medications.",
+    "Incorrect. Asking a roommate is not identity verification and breaches the client's privacy.",
+    "Incorrect. A bed location is not verification of the client's identity.",
+    "Correct. The book lists verifying patient identity before medications or procedures as a key safety principle."
+   ],
+   "clue": "A shared room and a client volunteering that the medication is theirs.",
+   "priority": "Verify identity before every medication or procedure.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q6",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "stem": "Thirty minutes after receiving the first dose of a newly prescribed IV medication, a client reports new itching and a rash on the chest. How should the nurse interpret these findings?",
+   "options": [
+    "As anxiety about the new diagnosis that needs reassurance",
+    "As an expected effect of IV access that needs no follow-up",
+    "As a possible adverse reaction to the new medication",
+    "As a comfort issue to address after routine documentation"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Attributing new physical findings to anxiety misses a possible medication reaction.",
+    "Incorrect. Dismissing new findings after a first dose ignores the need to monitor for adverse reactions.",
+    "Correct. The book lists monitoring for medication side effects and adverse reactions as a key safety principle.",
+    "Incorrect. The book ranks preventing harm above comfort and documentation."
+   ],
+   "clue": "New itching and rash shortly after the first dose of a new medication.",
+   "priority": "Monitor for and recognize adverse medication reactions.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q7",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "The laboratory calls a nurse with a critical value for a client. The nurse is in the middle of updating care plan documentation. What should the nurse do?",
+   "options": [
+    "Act on the critical value immediately",
+    "Finish the documentation and then review the value",
+    "Record the value and report it at the next handoff",
+    "Wait for the next scheduled lab draw to confirm it"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists acting immediately on critical lab values as a key safety principle, and safety outranks documentation.",
+    "Incorrect. Documentation ranks below actions that prevent harm.",
+    "Incorrect. Deferring to handoff delays action on a critical value.",
+    "Incorrect. Waiting for another draw delays action the book says must be immediate."
+   ],
+   "clue": "A critical lab value has just been reported.",
+   "priority": "Act immediately on critical lab values.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q8",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 5,
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client has a low oxygen saturation and a low blood pressure. There is no sign of bleeding. Which problem should the nurse treat first?",
+   "options": [
+    "The low blood pressure, because circulation supports oxygen delivery",
+    "Both equally, by treating whichever is easier to correct",
+    "Neither, until the provider reviews the client's labs",
+    "The hypoxia, because breathing comes before circulation"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. The book places hypotension after hypoxia unless hemorrhage is present, and no bleeding is described.",
+    "Incorrect. ABCs set a clear order; ease of correction does not set priority.",
+    "Incorrect. Waiting for a review delays care for a physiological threat.",
+    "Correct. The book states hypoxia is treated before hypotension unless hemorrhage is present."
+   ],
+   "clue": "Hypoxia and hypotension together without hemorrhage.",
+   "priority": "Follow ABC order: breathing before circulation unless hemorrhage.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q9",
+   "section": "nclex-priorities",
+   "type": "matrix",
+   "page": 5,
+   "clientNeed": "pa",
+   "cjmm": "generateSolutions",
+   "stem": "For each client situation, indicate whether the nurse should act immediately or assess first.",
+   "rows": [
+    "A client who is unresponsive and pulseless (cardiac arrest)",
+    "A stable client reporting mild soreness at an IV site",
+    "A client with severe hypoglycemia who is difficult to arouse",
+    "A client with anaphylaxis after a new antibiotic dose",
+    "A stable client asking about a change in diet"
+   ],
+   "columns": [
+    "Act immediately",
+    "Assess first"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "rationales": [
+    "Cardiac arrest is a listed exception to assessment first; the client is unstable, so act.",
+    "The client is stable, so the book says to assess first.",
+    "Severe hypoglycemia is a listed exception to assessment first.",
+    "Anaphylaxis is a listed exception to assessment first.",
+    "The client is stable, so assessment comes before intervention."
+   ],
+   "clue": "Whether each client is stable or in an emergent condition.",
+   "priority": "If the client is unstable, act; if stable, assess first.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q10",
+   "section": "nclex-priorities",
+   "type": "sata",
+   "page": 6,
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "stem": "A nurse reviews the past four hours of data for a postoperative client. Which findings are early signs of decline that the nurse should act on? Select all that apply.",
+   "options": [
+    "Respiratory rate increasing from 16 to 26",
+    "Oxygen saturation decreasing from 97% to 91%",
+    "Steady vital signs within the client's baseline",
+    "New confusion in a client who was oriented this morning",
+    "Urine output decreasing over the last several hours",
+    "Client reports sleeping well and asks for breakfast"
+   ],
+   "correct": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Increasing respiratory rate is a listed early sign of decline.",
+    "Correct. Decreasing oxygen saturation is a listed early sign of decline.",
+    "Incorrect. The book points to worsening vital sign trends; stable values at baseline are not a sign of decline.",
+    "Correct. New confusion or agitation is a listed early sign of decline.",
+    "Correct. Decreased urine output is a listed early sign of decline.",
+    "Incorrect. Restful sleep and appetite are not among the signs of decline."
+   ],
+   "clue": "Several trending changes over four hours after surgery.",
+   "priority": "Recognize early deterioration so care can be escalated.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q11",
+   "section": "nclex-priorities",
+   "type": "sata",
+   "page": 5,
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse is planning care for a client admitted with chest pain who is also anxious. Which priority decisions follow ABCs and Maslow's hierarchy? Select all that apply.",
+   "options": [
+    "Address the low oxygen saturation before the client's anxiety",
+    "Treat an abnormal lab value before a partial airway obstruction",
+    "Manage an airway problem before a breathing problem",
+    "Address the client's psychosocial needs before physiological needs",
+    "Treat hypotension before hypoxia when no hemorrhage is present",
+    "Address breathing problems before circulation issues"
+   ],
+   "correct": [
+    0,
+    2,
+    5
+   ],
+   "rationales": [
+    "Correct. The book states a client with chest pain and low oxygen saturation takes priority over pain or anxiety.",
+    "Incorrect. The book says to treat airway obstruction before an abnormal lab value.",
+    "Correct. Airway problems come first, then breathing.",
+    "Incorrect. Maslow's hierarchy places physiological needs before psychosocial needs.",
+    "Incorrect. The book treats hypoxia before hypotension unless hemorrhage is present.",
+    "Correct. Breathing problems come before circulation issues in the ABCs."
+   ],
+   "clue": "Chest pain with anxiety in a client whose oxygenation may be compromised.",
+   "priority": "Prioritize airway, breathing, circulation, then psychosocial needs.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q12",
+   "section": "nclex-priorities",
+   "type": "matrix",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse has several tasks for a client at risk for falls and aspiration. For each action, indicate whether it is a higher or lower priority according to the safety principle.",
+   "rows": [
+    "Responding to the bed alarm as the client tries to stand alone",
+    "Charting the morning intake and output",
+    "Stopping the meal when the client coughs and chokes while eating",
+    "Reviewing the diet handout the client will need at discharge"
+   ],
+   "columns": [
+    "Higher priority",
+    "Lower priority"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "Preventing a fall prevents harm, which the book ranks above comfort, education or documentation.",
+    "Documentation ranks below actions that prevent harm.",
+    "Preventing aspiration is a listed key safety principle and prevents harm.",
+    "Education ranks below actions that prevent harm."
+   ],
+   "clue": "Some actions prevent immediate harm; others are documentation or teaching.",
+   "priority": "Choose the action that prevents harm over comfort, education or documentation.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q4",
+   "section": "nclex-highrisk",
+   "type": "sata",
+   "page": 7,
+   "clientNeed": "pa",
+   "cjmm": "recognizeCues",
+   "stem": "A nurse is reviewing the admitting diagnoses of clients on a busy unit. Which conditions does the nurse recognize as life-threatening high-risk conditions requiring close monitoring? Select all that apply.",
+   "options": [
+    "Acute respiratory distress syndrome (ARDS)",
+    "Uncomplicated ankle sprain",
+    "Cardiac tamponade",
+    "Increased intracranial pressure",
+    "Seasonal allergic rhinitis",
+    "Septic shock"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "rationales": [
+    "Correct. ARDS is listed among the life-threatening respiratory conditions.",
+    "Incorrect. An uncomplicated sprain is not a life-threatening condition and is not on the list.",
+    "Correct. Cardiac tamponade is listed among the life-threatening cardiovascular conditions.",
+    "Correct. Increased intracranial pressure is listed among the life-threatening neurological conditions.",
+    "Incorrect. Seasonal allergies are not life-threatening and are not on the list.",
+    "Correct. Sepsis and septic shock are listed under infection."
+   ],
+   "clue": "Each diagnosis is compared against the book's list of life-threatening conditions.",
+   "priority": "Know which conditions are high risk so early signs are monitored.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q5",
+   "section": "nclex-highrisk",
+   "type": "sata",
+   "page": 8,
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "A nurse reviews the morning results for several clients. Which results are critical findings that require action? Select all that apply.",
+   "options": [
+    "Potassium outside the normal range on a client with weakness",
+    "A stable hemoglobin that matches the previous three days",
+    "Rising creatinine in a client whose urine output is low",
+    "An elevated lactate in a client being treated for sepsis",
+    "A normal creatinine in a client with adequate urine output"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "rationales": [
+    "Correct. Potassium abnormalities are listed as critical labs that require action.",
+    "Incorrect. A stable trend does not suggest bleeding; the book flags a falling hemoglobin.",
+    "Correct. Elevated creatinine with low urine output is listed as a critical lab requiring action.",
+    "Correct. Elevated lactate in sepsis is listed as a critical lab requiring action.",
+    "Incorrect. A normal creatinine with adequate urine output is not a listed critical finding."
+   ],
+   "clue": "Lab values read together with the client's condition and urine output.",
+   "priority": "Interpret labs in context and act on critical results.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q6",
+   "section": "nclex-highrisk",
+   "type": "sata",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A nurse is preparing to give a scheduled opioid to a client after surgery. Which actions reflect the book's medication-safety principles? Select all that apply.",
+   "options": [
+    "Check the hold parameters before giving the dose",
+    "Give the dose without assessment because it was tolerated yesterday",
+    "Assess the client's respiratory status before giving the dose",
+    "Record vital signs before and after giving the dose",
+    "Teach the client about expected side effects of the opioid",
+    "Rely on a memorized drug list instead of monitoring the client"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. Knowing hold parameters is a listed key medication principle.",
+    "Incorrect. The book says to assess before giving medications.",
+    "Correct. Opioids affect respiratory status, so assessing before the dose is critical.",
+    "Correct. For medications affecting heart rate, blood pressure or respiratory status, the book says to record vital signs before and after.",
+    "Correct. Educating patients on side effects is a listed key medication principle.",
+    "Incorrect. The book says medication questions focus on safety and monitoring, not memorizing drug lists."
+   ],
+   "clue": "Opioids are high-alert and can affect respiratory status.",
+   "priority": "Assess, check hold parameters, monitor and teach for high-alert drugs.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q7",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "recognizeCues",
+   "stem": "A nurse reviews a client's medication administration record. Which medication is a high-alert medication that requires extra safety checks?",
+   "options": [
+    "A daily oral multivitamin tablet",
+    "A moisturizing lotion applied to dry skin",
+    "An IV potassium infusion",
+    "Saline eye drops for dry eyes"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. An oral multivitamin is not on the book's list of high-alert medications.",
+    "Incorrect. A topical moisturizer is not on the book's list of high-alert medications.",
+    "Correct. IV potassium is listed among high-alert medications, with insulin, opioids, anticoagulants and cardiac medications.",
+    "Incorrect. Saline eye drops are not on the book's list of high-alert medications."
+   ],
+   "clue": "IV potassium is among the drugs the book flags as high alert.",
+   "priority": "Recognize high-alert medications and apply extra safety checks.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q8",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 9,
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "A client has hypernatremia and the provider orders D5W. The client asks why this fluid was chosen. What is the nurse's best explanation?",
+   "options": [
+    "It provides free water to dilute the excess sodium",
+    "It replaces lost blood volume more quickly than saline",
+    "It adds sodium to correct a low sodium level",
+    "It reduces swelling in the brain by drawing out fluid"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book states D5W is used to treat hypernatremia because it provides free water to dilute excess sodium.",
+    "Incorrect. The book lists NS and LR, not D5W, for volume replacement.",
+    "Incorrect. The client has excess sodium; D5W dilutes sodium rather than adding it.",
+    "Incorrect. The book does not describe D5W as reducing cerebral edema."
+   ],
+   "clue": "The client's sodium level is high.",
+   "priority": "Know why a fluid is chosen, not just its name.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q9",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 9,
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client's potassium level has risen above the normal range. Which complication is the nurse most concerned about?",
+   "options": [
+    "Worsening cerebral edema",
+    "Increased risk of bleeding",
+    "Fluid volume deficit from diuresis",
+    "Cardiac dysrhythmias"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Incorrect. The book links cerebral edema to hypotonic fluids, not to hyperkalemia.",
+    "Incorrect. Bleeding is suggested by a falling hemoglobin, not by hyperkalemia.",
+    "Incorrect. The book does not link hyperkalemia to fluid volume deficit.",
+    "Correct. The book states hyperkalemia increases the risk of dysrhythmias."
+   ],
+   "clue": "Potassium is elevated.",
+   "priority": "Anticipate dysrhythmias with hyperkalemia.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q10",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "rrp",
+   "cjmm": "analyzeCues",
+   "stem": "Over four days, a client's creatinine has slowly risen with each lab draw. What does this trend most likely suggest?",
+   "options": [
+    "Effective treatment of the client's condition",
+    "Worsening kidney function",
+    "Active bleeding",
+    "A single result that can be ignored"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Improving labs indicate effective treatment; a rising creatinine is not improvement.",
+    "Correct. The book states a slowly rising creatinine suggests worsening kidney function.",
+    "Incorrect. The book links bleeding to a falling hemoglobin, not to rising creatinine.",
+    "Incorrect. This is a trend across several draws, and the book says never to look at a single lab in isolation."
+   ],
+   "clue": "Creatinine rising slowly across serial draws.",
+   "priority": "Interpret lab trends to detect worsening organ function.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q11",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 9,
+   "clientNeed": "bcc",
+   "cjmm": "analyzeCues",
+   "stem": "A client who is eating very little is receiving D5 1/2NS. The client asks why there is sugar in the IV fluid. Which response by the nurse is accurate?",
+   "options": [
+    "It is used to correct a high sodium level by adding free water",
+    "It replaces blood loss after surgery",
+    "It provides hydration and some calories and prevents tissue breakdown",
+    "It is the fluid of choice for clients with swelling in the brain"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. The book gives this purpose for D5W in hypernatremia, not for D5 1/2NS.",
+    "Incorrect. The book lists NS and LR for volume replacement.",
+    "Correct. The book states D5 1/2NS is used for hydration, provides calories and prevents catabolism (breakdown of body tissue).",
+    "Incorrect. The book does not describe D5 1/2NS for cerebral edema; it lists this fluid for hydration, calories and preventing catabolism."
+   ],
+   "clue": "Poor oral intake and a dextrose-containing maintenance fluid.",
+   "priority": "Explain why a fluid is chosen, including its caloric role.",
+   "checked": true
+  },
+  {
+   "id": "nclex-highrisk-q12",
+   "section": "nclex-highrisk",
+   "type": "matrix",
+   "page": 8,
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse is reviewing lab trends for several clients. For each trend, indicate whether it suggests the client is improving or worsening.",
+   "rows": [
+    "Hemoglobin falling across three daily draws",
+    "Creatinine rising slowly over several days",
+    "Elevated lactate returning toward normal after sepsis treatment",
+    "Blood glucose returning to normal after treatment of an extreme value"
+   ],
+   "columns": [
+    "Improving",
+    "Worsening"
+   ],
+   "correct": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "rationales": [
+    "The book states falling hemoglobin suggests bleeding.",
+    "The book states a slowly rising creatinine suggests worsening kidney function.",
+    "Elevated lactate in sepsis is a critical lab; the book says improving labs indicate effective treatment.",
+    "Blood glucose extremes are critical labs; values improving after treatment indicate effective treatment."
+   ],
+   "clue": "Direction of each lab trend over time.",
+   "priority": "Use trends, not single values, to evaluate outcomes.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q4",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 10,
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "stem": "An RN is making assignments. Which client care task is most appropriate to assign to the LPN?",
+   "options": [
+    "Performing wound care for a stable client",
+    "Assessing a newly unstable client with chest pain",
+    "Teaching a client how to use a new inhaler",
+    "Evaluating whether a client's plan of care is working"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists performing wound care as an LPN task, and the client is stable.",
+    "Incorrect. The RN must assess and care for unstable patients.",
+    "Incorrect. Teaching is an RN responsibility that is never delegated.",
+    "Incorrect. Evaluating outcomes is an RN responsibility."
+   ],
+   "clue": "The client is stable and the task is within LPN scope.",
+   "priority": "Match the task to scope of practice and client stability.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q5",
+   "section": "nclex-strategy",
+   "type": "matrix",
+   "page": 10,
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "stem": "An RN is working with a UAP and an LPN. For each task, indicate the team member who is the most appropriate to perform it.",
+   "rows": [
+    "Taking vital signs on a stable client",
+    "Administering oral medications to a stable client",
+    "Assessing a client whose condition has become unstable",
+    "Teaching a client about a new diagnosis",
+    "Monitoring a stable client"
+   ],
+   "columns": [
+    "UAP",
+    "LPN",
+    "RN"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    2,
+    1
+   ],
+   "rationales": [
+    "The book lists taking vital signs on stable patients as a UAP task.",
+    "The book lists administering oral medications as an LPN task.",
+    "The RN must assess and care for unstable patients.",
+    "The RN must teach; teaching is never delegated.",
+    "The book lists monitoring stable patients as an LPN task."
+   ],
+   "clue": "Client stability and task complexity for each task.",
+   "priority": "Delegate based on stability and complexity; keep assessment, teaching and judgment with the RN.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q6",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 10,
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "stem": "A stable client on the third day after surgery needs help with morning care. Which instruction should the RN give the UAP?",
+   "options": [
+    "Assist the client with hygiene and report any findings to the RN",
+    "Assess the client's incision and decide whether it is healing",
+    "Teach the client how to care for the incision at home",
+    "Evaluate whether the client is ready for discharge"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists assisting with hygiene and reporting findings as UAP tasks.",
+    "Incorrect. Assessment and clinical judgment are never delegated.",
+    "Incorrect. Teaching is never delegated.",
+    "Incorrect. Evaluating outcomes is an RN responsibility."
+   ],
+   "clue": "A stable client needs routine hygiene help.",
+   "priority": "Delegate hygiene to the UAP, with findings reported to the RN.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q7",
+   "section": "nclex-strategy",
+   "type": "sata",
+   "page": 10,
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "stem": "A client's blood pressure has dropped and the client is newly drowsy. The nurse prepares to call the provider using SBAR. Which information should the nurse include? Select all that apply.",
+   "options": [
+    "The client's current vital signs",
+    "A general statement that the client \"does not look right\" without data",
+    "Relevant lab results",
+    "The nurse's own assessment of the client",
+    "A clear recommendation for what the client needs",
+    "A request that the provider call back when convenient, with no recommendation"
+   ],
+   "correct": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "rationales": [
+    "Correct. The book says to include current vital signs when notifying a provider.",
+    "Incorrect. A vague statement without data is incomplete communication, a common NCLEX trap.",
+    "Correct. The book says to include relevant labs.",
+    "Correct. The book says to include the nursing assessment.",
+    "Correct. The book says to include a clear recommendation.",
+    "Incorrect. Leaving out a recommendation makes the communication incomplete."
+   ],
+   "clue": "A changing condition that the provider must act on.",
+   "priority": "Communicate completely using SBAR for patient safety.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q8",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 11,
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "stem": "A client who is stable declines a scheduled physical therapy session today, saying it \"isn't worth it.\" What should the nurse do first?",
+   "options": [
+    "Tell the client the session is required and must be completed",
+    "Ask what the client understands about the purpose of the session",
+    "Cancel all future therapy sessions to honor the client's wishes",
+    "Document the refusal and take no further action"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Incorrect. Insisting on the session ignores patient autonomy.",
+    "Correct. The book says that when a patient refuses care, the nurse assesses understanding and respects the decision.",
+    "Incorrect. Cancelling all future care goes beyond the client's decision and skips assessing understanding.",
+    "Incorrect. The nurse should assess the client's understanding before simply documenting."
+   ],
+   "clue": "A stable client refusing a non-emergent part of care.",
+   "priority": "Respect autonomy after assessing the client's understanding.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q9",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 11,
+   "clientNeed": "psych",
+   "cjmm": "takeAction",
+   "stem": "A client who just received a new diagnosis is tearful and says, \"I can't take anything in right now.\" The nurse planned to begin teaching. What is the nurse's best action?",
+   "options": [
+    "Continue with the full teaching plan so the client is prepared",
+    "Give the client written materials and leave the room",
+    "Acknowledge the client's feelings and plan teaching when the client is ready",
+    "Ask a family member to take notes during the teaching session"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Incorrect. Teaching that ignores readiness to learn is unlikely to be effective.",
+    "Incorrect. Leaving written materials does not address the client's readiness or confirm learning.",
+    "Correct. The book states effective teaching addresses patient readiness to learn.",
+    "Incorrect. Teaching a family member instead does not address the client's own readiness to learn."
+   ],
+   "clue": "The client says they cannot take in information right now.",
+   "priority": "Address the client's readiness to learn before teaching.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q10",
+   "section": "nclex-strategy",
+   "type": "sata",
+   "page": 11,
+   "clientNeed": "hpm",
+   "cjmm": "generateSolutions",
+   "stem": "A nurse is planning discharge teaching for a stable client who has a new chronic condition. Which strategies make the teaching effective? Select all that apply.",
+   "options": [
+    "Use precise medical terminology so the client hears the correct terms",
+    "Use simple language",
+    "Have the client perform a return demonstration of the skill",
+    "Begin teaching during an episode when the client is unstable",
+    "Assess whether the client is ready to learn"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incorrect. The book says effective teaching uses simple language.",
+    "Correct. Effective teaching uses simple language.",
+    "Correct. Effective teaching includes return demonstration.",
+    "Incorrect. The book states teaching is ineffective if the patient is unstable.",
+    "Correct. Effective teaching addresses patient readiness to learn."
+   ],
+   "clue": "A stable client must learn to manage a new condition at home.",
+   "priority": "Use simple language, return demonstration and readiness to learn.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q11",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 11,
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse taught a stable client how to self-administer a subcutaneous injection before discharge. Which finding best shows the teaching was effective?",
+   "options": [
+    "The client correctly performs the injection in a return demonstration",
+    "The client nods and says the instructions make sense",
+    "The client signs the discharge teaching form",
+    "The client's family says they will remind the client"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book lists return demonstration as part of effective teaching.",
+    "Incorrect. Agreement alone does not show the client can perform the skill.",
+    "Incorrect. A signature is documentation, not evidence of learning.",
+    "Incorrect. A family promise does not show the client learned the skill."
+   ],
+   "clue": "The client must safely perform a skill at home.",
+   "priority": "Confirm learning through return demonstration.",
+   "checked": true
+  },
+  {
+   "id": "nclex-strategy-q12",
+   "section": "nclex-strategy",
+   "type": "matrix",
+   "page": 12,
+   "clientNeed": "safety",
+   "cjmm": "generateSolutions",
+   "stem": "A client suddenly develops severe shortness of breath. For each possible nurse action, indicate whether the nurse should consider it or eliminate it using the answer-selection strategy.",
+   "rows": [
+    "Go to the client and address airway and breathing right away",
+    "Finish charting on another client before going to the room",
+    "Independently change the dose of the client's prescribed medication",
+    "Tell the client this will never happen again"
+   ],
+   "columns": [
+    "Consider",
+    "Eliminate"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "rationales": [
+    "The book says to choose airway over everything else and prioritize unstable patients.",
+    "This delays care unnecessarily, which the book says to avoid.",
+    "Changing a prescribed dose independently is outside nursing scope, which the book says to avoid.",
+    "This uses absolute language like 'never', which the book says to avoid."
+   ],
+   "clue": "An unstable client with a breathing problem.",
+   "priority": "Eliminate unsafe, delaying, out-of-scope and absolute options.",
+   "checked": true
+  },
+  {
+   "id": "nclex-priorities-q13",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse has four tasks waiting at the start of the shift. Which task should the nurse do first?",
+   "options": [
+    "Finish the admission documentation for a client who arrived an hour ago",
+    "Bring an extra pillow to a stable client who asked to be more comfortable",
+    "Go to a client at risk for falls who is trying to climb out of bed alone",
+    "Review a diet handout with a stable client who will be discharged tomorrow"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Documentation matters, but the book ranks actions that prevent harm above documentation.",
+    "Comfort is important, but preventing harm ranks higher than comfort.",
+    "Correct. Preventing falls is a key safety principle, and an action that prevents harm ranks above comfort, education and documentation.",
+    "Teaching a stable client can wait; preventing harm ranks higher than education."
+   ],
+   "clue": "A client at risk for falls is trying to get out of bed without help.",
+   "priority": "Choose the action that prevents harm before comfort, education or documentation.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q14",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 5,
+   "clientNeed": "psych",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A client was admitted with chest pain and a low oxygen saturation. After the nurse's interventions, the chest pain has resolved and the oxygen saturation has returned to the client's baseline. The client is still visibly anxious and asks, \"What just happened to me?\" What is the nurse's best next step?",
+   "options": [
+    "Sit with the client and address the anxiety and questions now that the physical threat has eased",
+    "Leave the room so the client can rest, and revisit the questions at the next shift",
+    "Tell the client that worrying will only make the chest pain return",
+    "Ask the client to wait until the provider can explain everything at morning rounds"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Physiological needs come before psychosocial needs. Once oxygenation and pain have improved, the nurse can address the client's anxiety and questions.",
+    "Leaving an anxious client alone ignores a psychosocial need that the nurse can now address because the client is physiologically stable.",
+    "This dismisses the client's feelings and adds fear instead of helping the client cope.",
+    "Putting off the client's concerns is unnecessary when the physiological priority has been met and the nurse can respond now."
+   ],
+   "clue": "Chest pain resolved and oxygen saturation back to baseline, but anxiety remains.",
+   "priority": "Meet physiological needs first, then address psychosocial needs.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q15",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 6,
+   "clientNeed": "psych",
+   "cjmm": "analyzeCues",
+   "stem": "An older client who was alert and oriented at admission is now newly confused and agitated. The client's daughter says, \"She's just mixed up from being in the hospital. Why do you keep checking on her?\" What is the nurse's best response?",
+   "options": [
+    "\"Confusion is normal at her age, so there is nothing to worry about.\"",
+    "\"We are checking on her often because the hospital requires it for everyone.\"",
+    "\"You should go home and rest; we will call you if anything changes.\"",
+    "\"A new change in her thinking can be an early sign that her body is under stress, so we are watching her closely.\""
+   ],
+   "correct": 3,
+   "rationales": [
+    "New confusion is listed as an early sign of decline, so dismissing it as normal is unsafe and misleading.",
+    "This avoids the real reason and does not help the daughter understand her mother's change.",
+    "This dismisses the daughter's concern and does not explain the change in her mother.",
+    "Correct. The book lists new confusion or agitation as an early sign of decline. The nurse explains the change honestly and supports the family member."
+   ],
+   "clue": "New confusion and agitation in a client who was oriented at admission.",
+   "priority": "Recognize cognitive change as early decline and support the family with an honest explanation.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q16",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 5,
+   "clientNeed": "pa",
+   "cjmm": "takeAction",
+   "stem": "A nurse enters a room and finds a client in severe respiratory distress. The client is gasping and cannot speak in full sentences. What should the nurse do first?",
+   "options": [
+    "Complete a head-to-toe assessment before deciding on any intervention",
+    "Intervene immediately to support the client's breathing and call for help",
+    "Review the client's chart to find the cause of the breathing problem",
+    "Ask the client to describe when the shortness of breath began"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A full assessment delays care. Severe respiratory distress is an emergency where the nurse acts first.",
+    "Correct. Severe respiratory distress is one of the listed exceptions to assessing first. If the client is unstable, the nurse acts.",
+    "Reviewing the chart delays care for an unstable client.",
+    "A client who cannot speak in full sentences should not be asked for a detailed history before the nurse acts."
+   ],
+   "clue": "Gasping and unable to speak in full sentences.",
+   "priority": "If the client is unstable, act; severe respiratory distress is an exception to assessment first.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q17",
+   "section": "nclex-priorities",
+   "type": "sata",
+   "page": 6,
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse escalated care for a postoperative client who showed early signs of decline. One hour after the rapid response team intervened, the nurse reassesses. Which findings indicate the client is improving? Select all that apply.",
+   "options": [
+    "Urine output has continued to decrease over the past hour",
+    "Respiratory rate has fallen back toward the client's baseline",
+    "Oxygen saturation has risen since the intervention",
+    "The client has become more agitated and is pulling at the IV line",
+    "The client is again oriented and answering questions appropriately",
+    "Vital signs continue to trend in the wrong direction"
+   ],
+   "correct": [
+    1,
+    2,
+    4
+   ],
+   "rationales": [
+    "Incorrect. Decreased urine output is an early sign of decline, so a continued drop means the client is not improving.",
+    "Correct. Increasing respiratory rate is a sign of decline, so a return toward baseline shows improvement.",
+    "Correct. Decreasing oxygen saturation signals decline, so a rising saturation shows improvement.",
+    "Incorrect. New or worsening agitation is a sign of decline.",
+    "Correct. New confusion is a sign of decline, so a return to orientation shows improvement.",
+    "Incorrect. Worsening vital sign trends are a sign of decline."
+   ],
+   "clue": "Reassessment after escalation of care for early signs of decline.",
+   "priority": "Evaluate whether the early signs of decline are reversing after intervention.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q18",
+   "section": "nclex-priorities",
+   "type": "matrix",
+   "page": 5,
+   "clientNeed": "pa",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse is sorting client problems by the ABCs. For each problem, indicate whether it is an airway, breathing or circulation problem.",
+   "rows": [
+    "A client who is choking on food and cannot speak",
+    "A client whose oxygen saturation is falling and whose breaths are rapid and shallow",
+    "A client with low blood pressure and weak pulses and no sign of bleeding",
+    "An unresponsive client with snoring respirations from the tongue blocking the throat"
+   ],
+   "columns": [
+    "Airway",
+    "Breathing",
+    "Circulation"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Choking that blocks speech is an airway obstruction, which comes first in the ABCs.",
+    "Falling saturation with rapid, shallow breathing is a breathing problem, addressed after the airway.",
+    "Low blood pressure and weak pulses are circulation issues, which follow airway and breathing.",
+    "A tongue blocking the throat is an airway obstruction; airway problems come first."
+   ],
+   "clue": "Each problem affects a different link in the ABCs.",
+   "priority": "Airway problems come first, breathing problems next, and circulation issues follow.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q19",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A visitor arrives to see a client who is on isolation precautions and starts to walk into the room without stopping. What should the nurse do?",
+   "options": [
+    "Let the visitor go in because isolation applies only to staff",
+    "Ask the visitor to keep the visit short and stand near the door",
+    "Tell the visitor to wash hands after leaving the room",
+    "Stop the visitor and explain hand hygiene and the PPE required before entering"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Infection control standards, including isolation, protect everyone who enters, not only staff.",
+    "A short visit near the door does not replace the required precautions.",
+    "Hand hygiene only after the visit misses the protection needed on entry.",
+    "Correct. Following infection control standards (hand hygiene, PPE, isolation) is a key safety principle, and the nurse makes sure the visitor follows them."
+   ],
+   "clue": "A visitor entering an isolation room without precautions.",
+   "priority": "Enforce infection control standards to prevent harm.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q20",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "bcc",
+   "cjmm": "generateSolutions",
+   "stem": "A client with weakness after a stroke is at risk for aspiration. The lunch tray has just arrived. Which action by the nurse best helps prevent aspiration?",
+   "options": [
+    "Leave the tray within reach so the client can eat while lying flat",
+    "Help the client sit upright before setting up the meal",
+    "Encourage the client to eat quickly before the food gets cold",
+    "Turn off the call light so the client can eat without interruptions"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Eating while lying flat raises the risk of food entering the airway.",
+    "Correct. Preventing aspiration is a key safety principle; sitting the client upright for the meal is a basic way to do this.",
+    "Eating quickly increases the chance of choking and aspiration.",
+    "The client needs a way to call for help during the meal; turning off the call light is unsafe."
+   ],
+   "clue": "Weakness and aspiration risk at mealtime.",
+   "priority": "Prevent aspiration during meals.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q21",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 4,
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "stem": "A client at risk for falls tells the nurse, \"I need to go to the bathroom right now,\" and starts to get up. What is the nurse's best action?",
+   "options": [
+    "Assist the client to stand and walk with the client to the bathroom",
+    "Tell the client to wait until the next scheduled round",
+    "Let the client go alone to preserve independence",
+    "Raise the bed to its highest position so the client stays in bed"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Preventing falls is a key safety principle; staying with and helping the client meets the elimination need safely.",
+    "Making the client wait may lead the client to get up alone and fall.",
+    "Walking alone puts a client at risk for falls in danger of injury.",
+    "A high bed increases the injury risk if the client tries to get out anyway."
+   ],
+   "clue": "Urgent need to use the bathroom in a client at risk for falls.",
+   "priority": "Meet elimination and mobility needs while preventing falls.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q22",
+   "section": "nclex-priorities",
+   "type": "sata",
+   "page": 4,
+   "clientNeed": "safety",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse is reviewing the care a new graduate nurse provided during the shift. Which actions show the graduate followed the key safety principles? Select all that apply.",
+   "options": [
+    "Verified the client's identity before drawing a blood sample",
+    "Delayed reporting a critical lab value until the end-of-shift handoff",
+    "Performed hand hygiene before and after client contact",
+    "Skipped checking the client's identity because the client looked familiar",
+    "Checked the client for an adverse reaction after giving a new medication"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Verifying patient identity before medications or procedures is a key safety principle.",
+    "Incorrect. The book says to act immediately on critical lab values.",
+    "Correct. Hand hygiene is part of following infection control standards.",
+    "Incorrect. Identity must be verified before medications or procedures, even when the client seems familiar.",
+    "Correct. Monitoring for medication side effects and adverse reactions is a key safety principle."
+   ],
+   "clue": "Actions taken by a new graduate during the shift.",
+   "priority": "Evaluate care against the key safety principles.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q23",
+   "section": "nclex-priorities",
+   "type": "matrix",
+   "page": 5,
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse is planning care using Maslow's hierarchy. For each client need, indicate whether it is a physiological need or a psychosocial need.",
+   "rows": [
+    "Oxygen saturation that is dropping",
+    "Fear about an upcoming surgery",
+    "Secretions partly blocking the airway",
+    "Sadness over a new diagnosis",
+    "Low blood pressure"
+   ],
+   "columns": [
+    "Physiological need",
+    "Psychosocial need"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "Oxygenation is a physiological need and is addressed before psychosocial needs.",
+    "Fear is a psychosocial need, addressed after physiological threats are managed.",
+    "An airway problem is a physiological need and comes first.",
+    "Sadness about a diagnosis is a psychosocial need.",
+    "Blood pressure is a circulation problem, which is a physiological need."
+   ],
+   "clue": "A mix of physical threats and emotional concerns.",
+   "priority": "Physiological needs come before psychosocial needs.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-priorities-q24",
+   "section": "nclex-priorities",
+   "type": "mcq",
+   "page": 5,
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse receives report on four clients. Which client should the nurse see first?",
+   "options": [
+    "A client with a potassium level just outside the normal range who has no symptoms",
+    "A client with low blood pressure who is alert and has no sign of bleeding",
+    "A client with a partial airway obstruction who is drooling and cannot swallow",
+    "A client with a slightly decreased oxygen saturation who is resting comfortably"
+   ],
+   "correct": 2,
+   "rationales": [
+    "The book says to treat airway obstruction before an abnormal lab value.",
+    "Circulation issues follow airway and breathing problems.",
+    "Correct. Airway problems come first; this client's airway is at risk.",
+    "Breathing problems come after airway problems."
+   ],
+   "clue": "Partial airway obstruction with drooling and inability to swallow.",
+   "priority": "Airway comes first in the ABCs.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q13",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "takeAction",
+   "stem": "A client is due for a scheduled cardiac medication. The order says to hold the dose if the heart rate is below a set number. The client's heart rate is below that number. What should the nurse do?",
+   "options": [
+    "Give the dose and recheck the heart rate in one hour",
+    "Hold the dose as ordered and report the heart rate to the provider",
+    "Give half the dose to reduce the effect on the heart rate",
+    "Give the dose because the client has no symptoms"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Giving the dose ignores the hold parameter and could slow the heart rate further.",
+    "Correct. The book says to know hold parameters and assess before giving medications; the dose is held and the finding reported.",
+    "Changing the dose is outside nursing scope and ignores the order.",
+    "The hold parameter applies whether or not the client has symptoms."
+   ],
+   "clue": "Heart rate below the ordered hold parameter.",
+   "priority": "Know hold parameters and assess before giving medications.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q14",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse rechecks a postoperative client 30 minutes after giving an opioid. Which finding requires immediate action?",
+   "options": [
+    "Pain rating has decreased from the earlier level",
+    "Client is resting quietly and wakes easily when called",
+    "Blood pressure is similar to the reading before the dose",
+    "Respirations are much slower than before the dose and the client is hard to wake"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Lower pain shows the medication is working as intended.",
+    "Resting while waking easily is an expected response.",
+    "A stable blood pressure compared with the pre-dose reading is reassuring.",
+    "Correct. Opioids are high-alert medications. When a drug affects respiratory status, monitoring before and after is critical, and slowed breathing with difficulty waking is an adverse reaction."
+   ],
+   "clue": "Slower respirations and difficulty waking after an opioid.",
+   "priority": "Monitor respiratory status after high-alert medications and act on adverse reactions.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q15",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A client is going home on a new anticoagulant. Which teaching point should the nurse include?",
+   "options": [
+    "Stop the medication if a small bruise appears",
+    "Double the next dose if one dose is missed",
+    "Report signs of bleeding, such as unusual bruising or blood in the urine",
+    "Expect to feel sleepy after every dose"
+   ],
+   "correct": 2,
+   "rationales": [
+    "Stopping the drug on one's own is unsafe; bleeding signs should be reported.",
+    "Doubling a dose of a high-alert medication is unsafe.",
+    "Correct. Anticoagulants are high-alert medications, and the book stresses educating clients on side effects; bleeding is the key one to report.",
+    "Sleepiness is not the side effect the nurse would focus on for an anticoagulant."
+   ],
+   "clue": "A new anticoagulant at discharge.",
+   "priority": "Teach clients the side effects of high-alert medications.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q16",
+   "section": "nclex-highrisk",
+   "type": "sata",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A nurse is preparing to give scheduled insulin to a client. Which actions reflect safe practice with this high-alert medication? Select all that apply.",
+   "options": [
+    "Check the client's current blood glucose before giving the dose",
+    "Confirm the right client, drug, dose, route and time",
+    "Give the dose without checking because it is the same dose as yesterday",
+    "Watch the client afterward for signs of an adverse reaction such as low blood glucose",
+    "Skip the identity check because the client is well known to the nurse"
+   ],
+   "correct": [
+    0,
+    1,
+    3
+   ],
+   "rationales": [
+    "Correct. The book says to assess before giving medications.",
+    "Correct. Using the rights of medication administration is a key medication principle.",
+    "Incorrect. Assessment comes before each dose, even if the dose is unchanged.",
+    "Correct. Monitoring for adverse reactions is a key medication principle.",
+    "Incorrect. The rights of medication administration include confirming the right client every time."
+   ],
+   "clue": "Insulin is listed as a high-alert medication.",
+   "priority": "Assess, use the rights of administration and monitor for adverse reactions.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q17",
+   "section": "nclex-highrisk",
+   "type": "matrix",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "analyzeCues",
+   "stem": "A nurse is giving several medications this morning. For each medication, indicate whether recording vital signs before and after the dose is critical.",
+   "rows": [
+    "A cardiac medication that can slow the heart rate",
+    "An opioid that can depress breathing",
+    "A medication that can lower blood pressure",
+    "A moisturizing lotion for dry skin"
+   ],
+   "columns": [
+    "Critical to record V/S before and after",
+    "Not specifically required"
+   ],
+   "correct": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "rationales": [
+    "A drug that affects heart rate needs vital signs recorded before and after.",
+    "A drug that affects respiratory status needs vital signs recorded before and after.",
+    "A drug that affects blood pressure needs vital signs recorded before and after.",
+    "A skin lotion does not affect heart rate, blood pressure or breathing."
+   ],
+   "clue": "Which drugs affect heart rate, blood pressure or respiratory status.",
+   "priority": "If a medication affects heart rate, blood pressure or respiratory status, record vital signs before and after.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q18",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 9,
+   "clientNeed": "pharm",
+   "cjmm": "generateSolutions",
+   "stem": "A client has lost a large amount of fluid and needs volume replacement. Which IV fluid order should the nurse expect?",
+   "options": [
+    "Lactated Ringer's",
+    "D5W",
+    "D5 1/2NS",
+    "A hypotonic maintenance fluid"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The book states NS and LR are used for volume replacement.",
+    "D5W is used to give free water for hypernatremia, not to replace volume.",
+    "D5 1/2NS is used for hydration and calories, not volume replacement.",
+    "A hypotonic fluid is not the fluid named for volume replacement."
+   ],
+   "clue": "A large fluid loss needing volume replacement.",
+   "priority": "Know why a fluid is chosen: NS and LR replace volume.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q19",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "pharm",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse has four medications due at the same time. Which situation needs the nurse's attention first?",
+   "options": [
+    "An oral vitamin due for a stable client",
+    "An opioid due for a client whose respiratory rate has dropped since the last dose",
+    "A stool softener due for a client who is eating well",
+    "An eye drop due for a client with dry eyes"
+   ],
+   "correct": 1,
+   "rationales": [
+    "A routine vitamin for a stable client is low risk.",
+    "Correct. Opioids are high-alert medications, and a drop in breathing means the nurse must assess before giving another dose.",
+    "A stool softener for a stable client is low risk.",
+    "A lubricating eye drop is low risk."
+   ],
+   "clue": "A high-alert medication due for a client with a falling respiratory rate.",
+   "priority": "Assess before giving high-alert medications that affect breathing.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q20",
+   "section": "nclex-highrisk",
+   "type": "sata",
+   "page": 8,
+   "clientNeed": "rrp",
+   "cjmm": "generateSolutions",
+   "stem": "A nurse is reviewing lab results for a client with low urine output. Which actions show the nurse is interpreting labs in context? Select all that apply.",
+   "options": [
+    "Compare today's creatinine with the client's earlier results",
+    "Judge kidney function from today's creatinine alone",
+    "Consider the client's urine output together with the creatinine",
+    "Wait for a trend to develop before reporting a critical potassium",
+    "Act promptly when a result is a critical value"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Trend interpretation is key; a slowly rising creatinine suggests worsening kidney function.",
+    "Incorrect. The book says never look at a single lab in isolation.",
+    "Correct. Elevated creatinine with low urine output is a critical combination that requires action.",
+    "Incorrect. Potassium abnormalities are critical labs that require action, not waiting.",
+    "Correct. Critical labs require action."
+   ],
+   "clue": "Low urine output alongside kidney labs.",
+   "priority": "Interpret labs in context and by trend, and act on critical values.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q21",
+   "section": "nclex-highrisk",
+   "type": "matrix",
+   "page": 8,
+   "clientNeed": "rrp",
+   "cjmm": "recognizeCues",
+   "stem": "A nurse is reviewing morning results. For each result, indicate whether it requires action or needs no immediate action.",
+   "rows": [
+    "ABG results showing acidosis",
+    "A blood glucose at an extreme low",
+    "A potassium level that is normal and matches prior results",
+    "ABG results showing alkalosis",
+    "A hemoglobin that has stayed the same for three days"
+   ],
+   "columns": [
+    "Requires action",
+    "No immediate action"
+   ],
+   "correct": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "rationales": [
+    "ABG changes indicating acidosis are listed as critical labs that require action.",
+    "Blood glucose extremes are critical labs that require action.",
+    "A normal, stable potassium is not a potassium abnormality.",
+    "ABG changes indicating alkalosis are listed as critical labs that require action.",
+    "A stable hemoglobin does not suggest bleeding; a falling one would."
+   ],
+   "clue": "Which results are on the book's list of critical labs.",
+   "priority": "Recognize critical labs that require action.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q22",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "rrp",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A client with sepsis is receiving treatment. Which lab trend would best show the nurse that treatment is working?",
+   "options": [
+    "Creatinine rising slowly over several days",
+    "Hemoglobin falling with each draw",
+    "Potassium moving further outside the normal range",
+    "Lactate that was elevated is now falling toward normal"
+   ],
+   "correct": 3,
+   "rationales": [
+    "A slowly rising creatinine suggests worsening kidney function.",
+    "Falling hemoglobin suggests bleeding.",
+    "A worsening potassium abnormality is a critical finding.",
+    "Correct. Elevated lactate is a critical lab in sepsis, and improving labs indicate effective treatment."
+   ],
+   "clue": "Lactate trend in a client with sepsis.",
+   "priority": "Use lab trends to evaluate whether treatment is effective.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q23",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "pa",
+   "cjmm": "analyzeCues",
+   "stem": "A client with sepsis has a rising lactate, ABG results showing acidosis, and urine output that has dropped over the shift. How should the nurse interpret these findings together?",
+   "options": [
+    "The client's condition is worsening and needs prompt action",
+    "The labs show treatment is working as expected",
+    "Only the urine output matters, so the labs can be rechecked tomorrow",
+    "Each value is probably a lab error because they changed at the same time"
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. Elevated lactate in sepsis, acidosis on the ABG and decreased urine output are all signs that require action; together they point to decline.",
+    "Improving labs indicate effective treatment; these labs are getting worse.",
+    "The book says never look at a single lab in isolation; all three findings matter.",
+    "Several findings moving the same way support a real change, not error."
+   ],
+   "clue": "Rising lactate, acidosis and falling urine output in sepsis.",
+   "priority": "Interpret labs together, not in isolation, to recognize decline in sepsis.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-highrisk-q24",
+   "section": "nclex-highrisk",
+   "type": "mcq",
+   "page": 8,
+   "clientNeed": "safety",
+   "cjmm": "takeAction",
+   "stem": "A nurse is about to hang an IV potassium infusion that the pharmacy prepared. What should the nurse do before starting it?",
+   "options": [
+    "Start the infusion right away because the pharmacy already checked it",
+    "Run the infusion faster than ordered because the client's level is low",
+    "Check the rights of medication administration against the order and the client",
+    "Let the client choose the route because the client dislikes IV lines"
+   ],
+   "correct": 2,
+   "rationales": [
+    "The nurse giving the drug is responsible for checking it, even if another department prepared it.",
+    "Changing the rate is outside nursing scope and unsafe for a high-alert drug.",
+    "Correct. IV potassium is a high-alert medication, and the rights of medication administration must be checked before giving it.",
+    "The route is set by the order; changing it ignores the rights of administration."
+   ],
+   "clue": "IV potassium is a high-alert medication.",
+   "priority": "Use the rights of medication administration before giving high-alert drugs.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q13",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 10,
+   "clientNeed": "bcc",
+   "cjmm": "takeAction",
+   "stem": "A UAP is giving a bed bath to a stable client and notices a reddened area on the client's lower back. What should the UAP do?",
+   "options": [
+    "Decide how serious the area is and plan the treatment",
+    "Teach the client how to change position to protect the skin",
+    "Apply a dressing and check it again tomorrow",
+    "Finish the bath and report the reddened area to the RN"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Deciding how serious a finding is requires assessment, which the RN keeps.",
+    "Teaching is an RN responsibility and is not delegated.",
+    "Treating a skin problem requires assessment and judgment the UAP does not hold.",
+    "Correct. UAP can assist with hygiene and report findings; the RN then assesses."
+   ],
+   "clue": "A UAP finds a skin change during hygiene care.",
+   "priority": "UAP assist with hygiene and report findings; the RN assesses.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q14",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 10,
+   "clientNeed": "moc",
+   "cjmm": "takeAction",
+   "stem": "The RN delegated vital signs on a stable client to a UAP. The UAP reports that the client's blood pressure is much lower than earlier in the shift. What should the RN do?",
+   "options": [
+    "Ask the UAP to recheck the blood pressure in two hours",
+    "Go to the client and assess the client's condition",
+    "Ask the LPN to decide whether the provider needs to be called",
+    "Document the reading and continue with the RN's other tasks"
+   ],
+   "correct": 1,
+   "rationales": [
+    "Waiting delays care for a client who may no longer be stable.",
+    "Correct. A client whose condition is changing may be unstable, and the RN must assess and care for unstable clients.",
+    "Assessment and clinical judgment are not delegated.",
+    "Documenting without acting ignores a possible decline."
+   ],
+   "clue": "A large drop in blood pressure reported by the UAP.",
+   "priority": "The RN assesses and cares for clients who may be unstable.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q15",
+   "section": "nclex-strategy",
+   "type": "matrix",
+   "page": 10,
+   "clientNeed": "moc",
+   "cjmm": "analyzeCues",
+   "stem": "An RN is reviewing tasks for the shift. For each task, indicate whether the RN may delegate it or must keep it.",
+   "rows": [
+    "Helping a stable client with morning hygiene",
+    "Deciding whether a client's new symptom needs a call to the provider",
+    "Performing wound care for a stable client",
+    "Evaluating whether discharge teaching was effective",
+    "Taking vital signs on a stable client and reporting them"
+   ],
+   "columns": [
+    "May delegate",
+    "RN must keep"
+   ],
+   "correct": [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "rationales": [
+    "UAP can assist with hygiene.",
+    "This is clinical judgment, which is never delegated.",
+    "LPNs can perform wound care.",
+    "Evaluating outcomes is an RN responsibility.",
+    "UAP can take vital signs on stable clients and report findings."
+   ],
+   "clue": "Task complexity and need for judgment in each item.",
+   "priority": "Delegate based on stability and task complexity; keep assessment, teaching, evaluation and judgment.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q16",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 10,
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "stem": "A nurse is calling a provider about a client using SBAR. Which statement belongs in the Recommendation part of the report?",
+   "options": [
+    "\"I would like you to come see the client now and consider new orders.\"",
+    "\"I'm calling about the client in room 4, whose oxygen saturation has dropped.\"",
+    "\"The client had abdominal surgery yesterday and has a history of heart failure.\"",
+    "\"The client's lungs sound wet, and I think the client is getting worse.\""
+   ],
+   "correct": 0,
+   "rationales": [
+    "Correct. The Recommendation states clearly what the nurse wants done, which the book says every provider call needs.",
+    "This describes the Situation.",
+    "This gives the Background.",
+    "This is the nurse's Assessment."
+   ],
+   "clue": "A clear request for action.",
+   "priority": "End SBAR with a clear recommendation; incomplete communication is a common trap.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q17",
+   "section": "nclex-strategy",
+   "type": "matrix",
+   "page": 11,
+   "clientNeed": "moc",
+   "cjmm": "recognizeCues",
+   "stem": "For each situation, indicate which ethical or legal concept the nurse is applying.",
+   "rows": [
+    "A nurse declines to give test results to a caller who says she is the client's neighbor",
+    "A nurse confirms the client understands the procedure before witnessing the consent signature",
+    "A nurse notifies the required authority about suspected abuse as the law requires",
+    "A nurse refuses to discuss a client's diagnosis with another client's visitor"
+   ],
+   "columns": [
+    "Confidentiality",
+    "Informed consent",
+    "Mandatory reporting"
+   ],
+   "correct": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "rationales": [
+    "Protecting client information from people not involved in care is confidentiality.",
+    "Making sure the client understands before signing is part of informed consent.",
+    "Reporting suspected abuse as required by law is mandatory reporting.",
+    "Keeping a client's diagnosis private from other people is confidentiality."
+   ],
+   "clue": "Each situation involves a different ethical or legal duty.",
+   "priority": "Practice within ethical and legal standards: consent, autonomy, confidentiality, reporting and accurate documentation.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q18",
+   "section": "nclex-strategy",
+   "type": "sata",
+   "page": 11,
+   "clientNeed": "moc",
+   "cjmm": "generateSolutions",
+   "stem": "A nurse is caring for an alert, competent client who is scheduled for a procedure later today. Which actions reflect the nurse's ethical and legal responsibilities? Select all that apply.",
+   "options": [
+    "Make sure the client understands the procedure before witnessing the consent signature",
+    "Ask a family member to sign the consent because it is faster",
+    "Document care accurately and only after it has been done",
+    "Share the client's diagnosis with the roommate who asks about it",
+    "Respect the client's own choices about care after confirming understanding",
+    "Chart the pre-procedure medication before giving it to save time"
+   ],
+   "correct": [
+    0,
+    2,
+    4
+   ],
+   "rationales": [
+    "Correct. Informed consent is a key concept, and the client must understand what is being agreed to.",
+    "Incorrect. An alert, competent client makes the decision; having family sign ignores patient autonomy.",
+    "Correct. Documentation accuracy is a key concept.",
+    "Incorrect. This breaks confidentiality.",
+    "Correct. Patient autonomy is a key concept, and the book says to assess understanding.",
+    "Incorrect. Charting a medication before it is given makes the record inaccurate."
+   ],
+   "clue": "An alert, competent client before a procedure.",
+   "priority": "Protect consent, autonomy, confidentiality and accurate documentation.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q19",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 11,
+   "clientNeed": "psych",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse has delayed discharge teaching because a client was upset after hearing a new diagnosis. Which statement by the client best shows the client is now ready to learn?",
+   "options": [
+    "\"Can we do this later? I can't stop thinking about the news.\"",
+    "\"Just give the papers to my son; he'll handle it.\"",
+    "\"I'm ready to go over how to check my blood sugar now.\"",
+    "\"I'm too tired to listen to anything today.\""
+   ],
+   "correct": 2,
+   "rationales": [
+    "The client is still preoccupied and not ready to learn.",
+    "The client is avoiding the teaching rather than showing readiness.",
+    "Correct. Effective teaching addresses readiness to learn; the client is asking to begin.",
+    "Fatigue and lack of interest show the client is not ready yet."
+   ],
+   "clue": "The client asks to begin learning a specific skill.",
+   "priority": "Teach when the client shows readiness to learn.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q20",
+   "section": "nclex-strategy",
+   "type": "sata",
+   "page": 11,
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse plans to begin discharge teaching for a client this afternoon. On arrival, the nurse reassesses the client. Which findings mean the nurse should delay the teaching? Select all that apply.",
+   "options": [
+    "The client is in severe respiratory distress",
+    "The client is alert and asking questions about home care",
+    "The client's vital signs are worsening and the client is newly confused",
+    "The client has a family member at the bedside who wants to learn too",
+    "The client has finished lunch and is sitting up in a chair"
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "rationales": [
+    "Correct. Teaching is ineffective if the client is unstable; severe respiratory distress needs action first.",
+    "Incorrect. An alert client asking questions shows readiness to learn.",
+    "Correct. Worsening vital signs and new confusion are signs of instability, and teaching is ineffective if the client is unstable.",
+    "Incorrect. A family member who wants to learn does not prevent teaching.",
+    "Incorrect. Sitting up after a meal does not suggest instability."
+   ],
+   "clue": "Signs of instability found on reassessment.",
+   "priority": "Teaching is ineffective if the client is unstable.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q21",
+   "section": "nclex-strategy",
+   "type": "sata",
+   "page": 12,
+   "clientNeed": "safety",
+   "cjmm": "analyzeCues",
+   "stem": "A stable client reports a new, mild headache. The nurse is choosing a response. Which options should the nurse eliminate using answer-selection strategy? Select all that apply.",
+   "options": [
+    "Assess the headache and check the client's vital signs",
+    "Raise the dose of the client's pain medication without an order",
+    "Tell the client that headaches never mean anything serious",
+    "Wait until the end of the shift to look into the headache",
+    "Use evidence-based care based on the assessment findings"
+   ],
+   "correct": [
+    1,
+    2,
+    3
+   ],
+   "rationales": [
+    "Keep. For a stable client, the nurse picks assessment before intervention.",
+    "Eliminate. Changing a dose without an order is outside nursing scope.",
+    "Eliminate. This uses absolute language and ignores safety.",
+    "Eliminate. This delays care unnecessarily.",
+    "Keep. Choosing evidence-based care is part of the strategy."
+   ],
+   "clue": "A stable client with a new symptom.",
+   "priority": "Eliminate options that are unsafe, out of scope, delayed or absolute.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q22",
+   "section": "nclex-strategy",
+   "type": "sata",
+   "page": 12,
+   "clientNeed": "moc",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A nurse receives report on five clients. Which clients should the nurse see before the others? Select all that apply.",
+   "options": [
+    "A client with noisy breathing who cannot clear secretions from the airway",
+    "A stable client who wants to know when discharge will happen",
+    "A client whose blood pressure is dropping and who is newly hard to wake",
+    "A stable client due for a routine oral vitamin",
+    "A stable client asking for help choosing a menu"
+   ],
+   "correct": [
+    0,
+    2
+   ],
+   "rationales": [
+    "Correct. Choose airway over everything else.",
+    "Incorrect. A stable client's question can wait.",
+    "Correct. Prioritize unstable clients; falling blood pressure with a new change in alertness signals instability.",
+    "Incorrect. A routine vitamin for a stable client is low priority.",
+    "Incorrect. Menu help for a stable client can wait."
+   ],
+   "clue": "An airway problem and a client becoming unstable.",
+   "priority": "Choose airway first and prioritize unstable clients.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q23",
+   "section": "nclex-strategy",
+   "type": "mcq",
+   "page": 11,
+   "clientNeed": "hpm",
+   "cjmm": "prioritizeHypotheses",
+   "stem": "A client is going home on a new medication that can cause dizziness. Which teaching topic should the nurse cover first?",
+   "options": [
+    "Where to buy the medication at the lowest cost",
+    "How the medication is made by the manufacturer",
+    "How to store the medication bottle neatly",
+    "How to prevent falls if dizziness occurs"
+   ],
+   "correct": 3,
+   "rationales": [
+    "Cost is useful but does not address the main safety risk.",
+    "How the drug is made does not help the client stay safe.",
+    "Neat storage does not address the risk from dizziness.",
+    "Correct. Teaching focuses on safety first, and dizziness from the medication creates a fall risk."
+   ],
+   "clue": "A medication side effect that could lead to injury.",
+   "priority": "Teaching focuses on safety first.",
+   "batch": "v3"
+  },
+  {
+   "id": "nclex-strategy-q24",
+   "section": "nclex-strategy",
+   "type": "matrix",
+   "page": 11,
+   "clientNeed": "hpm",
+   "cjmm": "evaluateOutcomes",
+   "stem": "A nurse is evaluating discharge teaching for a client with a new diagnosis. For each client behavior, indicate whether the teaching was effective or more teaching is needed.",
+   "rows": [
+    "The client correctly return-demonstrates using a glucose meter",
+    "The client says, \"I'll stop my pills once I feel better.\"",
+    "The client declines to practice and says, \"I'll just figure it out at home.\"",
+    "The client correctly explains in simple words when to take each medication"
+   ],
+   "columns": [
+    "Teaching effective",
+    "More teaching needed"
+   ],
+   "correct": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "rationales": [
+    "Return demonstration is part of effective teaching, and a correct demonstration shows learning.",
+    "Stopping medication on one's own shows a gap in medication adherence, a key teaching focus.",
+    "Effective teaching includes return demonstration; declining to practice means learning is not confirmed.",
+    "Correct understanding of the schedule supports medication adherence."
+   ],
+   "clue": "Client behaviors after discharge teaching.",
+   "priority": "Evaluate teaching through return demonstration and medication adherence.",
+   "batch": "v3"
+  }
+ ],
+ "concerns": [
+  {
+   "page": 11,
+   "issue": "States that if a patient refuses care the nurse should respect the decision 'unless life-threatening'; a competent adult may legally refuse even life-saving care, so this exception is misleading for informed consent and autonomy."
+  },
+  {
+   "page": 12,
+   "issue": "Strategy advises avoiding answers with absolute language like 'always' or 'never', yet the chapter itself uses absolutes ('Airway problems always come first' p5, 'Never look at a single lab in isolation' p8, 'Never delegate assessment' p10, 'Choose airway over everything else' p12), which may confuse readers."
+  },
+  {
+   "page": 7,
+   "issue": "Endocrine pairings list 'Thyroid storm vs Hypothyroidism'; the parallel life-threatening contrast is usually thyroid storm vs myxedema coma, so the pairing is inconsistent with the other emergency comparisons."
+  },
+  {
+   "page": 9,
+   "issue": "Typo: 'D51/2NS' should read 'D5 1/2NS' (D5 0.45% NaCl)."
+  },
+  {
+   "page": 5,
+   "issue": "Example 'Treat airway obstruction before an abnormal lab values' has a grammatical error ('an ... values')."
+  },
+  {
+   "page": 9,
+   "issue": "Hypotonic fluids are warned against in cerebral edema, but D5W (which acts as a hypotonic fluid once the dextrose is metabolized) is presented only as a hypernatremia treatment without that caution; readers may not connect the two."
+  },
+  {
+   "page": 8,
+   "issue": "Critical labs are named (potassium, glucose, creatinine, ABG, lactate) without any reference ranges or critical thresholds, so items cannot test actual values from this page."
+  },
+  {
+   "page": 10,
+   "issue": "UAP/LPN/RN task lists are presented without noting that scope of practice varies by state nurse practice act and facility policy."
+  },
+  {
+   "page": 4,
+   "issue": "'Prevent falls and aspiration' is listed without any concrete measures (e.g., positioning, precautions), which limits Basic Care and Comfort items."
+  },
+  {
+   "page": 0,
+   "issue": "blueprint: Psychosocial Integrity has 2 items vs target 3; the chapter only supports psych content via patient autonomy and readiness to learn (p11)."
+  },
+  {
+   "page": 0,
+   "issue": "blueprint: Basic Care and Comfort has 2 items vs target 3; the chapter has little comfort content, so one item (nclex-highrisk-q11, D5 1/2NS calories and catabolism, p9) is classified as nutrition-related bcc as the closest grounded fit."
+  },
+  {
+   "page": 0,
+   "issue": "blueprint: Psychosocial Integrity ends at 5 vs target 7 (within tolerance); after v3 the chapter's psych support (Maslow ordering p5, new confusion p6, readiness to learn p11) is mostly used, and further psych items would reword existing ones."
+  },
+  {
+   "page": 0,
+   "issue": "blueprint: Basic Care and Comfort ends at 5 vs target 7 (within tolerance); the chapter gives no concrete comfort measures, so v3 bcc items rest on the bare principles 'prevent falls and aspiration' (p4) and 'UAP assist with hygiene / report findings' (p10)."
+  }
+ ]
 }

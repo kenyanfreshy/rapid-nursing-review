@@ -43,257 +43,258 @@
  ],
  "chapters": {
   "nclex": {
-   "total": 36,
-   "categories": {
-    "moc": 7,
-    "safety": 5,
-    "hpm": 3,
-    "psych": 3,
-    "bcc": 3,
-    "pharm": 6,
-    "rrp": 4,
-    "pa": 5
-   },
-   "sections": {
-    "nclex-priorities": 12,
-    "nclex-highrisk": 12,
-    "nclex-strategy": 12
-   }
-  },
-  "resp": {
-   "total": 96,
-   "categories": {
-    "moc": 17,
-    "safety": 12,
-    "hpm": 9,
-    "psych": 9,
-    "bcc": 9,
-    "pharm": 15,
-    "rrp": 12,
-    "pa": 13
-   },
-   "sections": {
-    "resp-ards": 8,
-    "resp-pe": 10,
-    "resp-pneumonia": 9,
-    "resp-aspiration": 7,
-    "resp-copd": 8,
-    "resp-asthma": 9,
-    "resp-effusion": 7,
-    "resp-emphysema": 8,
-    "resp-fibrosis": 8,
-    "resp-pneumothorax": 7,
-    "resp-tb": 8,
-    "resp-cheat": 7
-   }
-  },
-  "cardio": {
-   "total": 66,
-   "categories": {
-    "moc": 12,
-    "safety": 9,
-    "hpm": 6,
-    "psych": 6,
-    "bcc": 6,
-    "pharm": 10,
-    "rrp": 8,
-    "pa": 9
-   },
-   "sections": {
-    "cardio-basics": 5,
-    "cardio-tamponade": 5,
-    "cardio-acs": 8,
-    "cardio-cardiomyopathy": 6,
-    "cardio-hf": 6,
-    "cardio-pah": 6,
-    "cardio-htn": 5,
-    "cardio-inflammatory": 9,
-    "cardio-occlusion": 8,
-    "cardio-postpci": 8
-   }
-  },
-  "gi": {
-   "total": 88,
-   "categories": {
-    "moc": 16,
-    "safety": 11,
-    "hpm": 8,
-    "psych": 8,
-    "bcc": 8,
-    "pharm": 14,
-    "rrp": 11,
-    "pa": 12
-   },
-   "sections": {
-    "gi-gerd": 11,
-    "gi-pancreatitis": 10,
-    "gi-pud": 10,
-    "gi-gastritis": 10,
-    "gi-cirrhosis": 9,
-    "gi-gallbladder": 8,
-    "gi-crohn": 8,
-    "gi-uc": 6,
-    "gi-diverticular": 8,
-    "gi-appendicitis": 8
-   }
-  },
-  "endo": {
-   "total": 76,
+   "total": 72,
    "categories": {
     "moc": 14,
     "safety": 10,
-    "hpm": 7,
+    "hpm": 6,
     "psych": 7,
     "bcc": 7,
     "pharm": 12,
-    "rrp": 9,
-    "pa": 10
+    "rrp": 8,
+    "pa": 8
    },
    "sections": {
-    "endo-dm": 6,
-    "endo-hypothyroid": 6,
-    "endo-hyperthyroid": 5,
-    "endo-addison": 8,
-    "endo-cushing": 5,
-    "endo-pheo": 6,
-    "endo-siadh": 8,
-    "endo-di": 6,
-    "endo-acromegaly": 6,
-    "endo-hyperpara": 8,
-    "endo-hypopara": 6,
-    "endo-emergencies": 6
+    "nclex-priorities": 24,
+    "nclex-highrisk": 24,
+    "nclex-strategy": 24
+   }
+  },
+  "resp": {
+   "total": 196,
+   "categories": {
+    "moc": 37,
+    "safety": 28,
+    "hpm": 18,
+    "psych": 18,
+    "bcc": 20,
+    "pharm": 30,
+    "rrp": 23,
+    "pa": 22
+   },
+   "sections": {
+    "resp-ards": 17,
+    "resp-pe": 21,
+    "resp-pneumonia": 20,
+    "resp-aspiration": 13,
+    "resp-copd": 17,
+    "resp-asthma": 20,
+    "resp-effusion": 13,
+    "resp-emphysema": 17,
+    "resp-fibrosis": 16,
+    "resp-pneumothorax": 13,
+    "resp-tb": 16,
+    "resp-cheat": 13
+   }
+  },
+  "cardio": {
+   "total": 136,
+   "categories": {
+    "moc": 26,
+    "safety": 20,
+    "hpm": 12,
+    "psych": 13,
+    "bcc": 14,
+    "pharm": 21,
+    "rrp": 15,
+    "pa": 15
+   },
+   "sections": {
+    "cardio-basics": 8,
+    "cardio-tamponade": 8,
+    "cardio-acs": 18,
+    "cardio-cardiomyopathy": 12,
+    "cardio-hf": 12,
+    "cardio-pah": 12,
+    "cardio-htn": 8,
+    "cardio-inflammatory": 22,
+    "cardio-occlusion": 18,
+    "cardio-postpci": 18
+   }
+  },
+  "gi": {
+   "total": 180,
+   "categories": {
+    "moc": 34,
+    "safety": 25,
+    "hpm": 16,
+    "psych": 17,
+    "bcc": 19,
+    "pharm": 28,
+    "rrp": 21,
+    "pa": 20
+   },
+   "sections": {
+    "gi-gerd": 26,
+    "gi-pancreatitis": 21,
+    "gi-pud": 21,
+    "gi-gastritis": 21,
+    "gi-cirrhosis": 20,
+    "gi-gallbladder": 16,
+    "gi-crohn": 15,
+    "gi-uc": 10,
+    "gi-diverticular": 15,
+    "gi-appendicitis": 15
+   }
+  },
+  "endo": {
+   "total": 164,
+   "categories": {
+    "moc": 31,
+    "safety": 23,
+    "hpm": 15,
+    "psych": 16,
+    "bcc": 17,
+    "pharm": 26,
+    "rrp": 18,
+    "pa": 18
+   },
+   "sections": {
+    "endo-dm": 13,
+    "endo-hypothyroid": 13,
+    "endo-hyperthyroid": 8,
+    "endo-addison": 19,
+    "endo-cushing": 8,
+    "endo-pheo": 13,
+    "endo-siadh": 19,
+    "endo-di": 13,
+    "endo-acromegaly": 13,
+    "endo-hyperpara": 19,
+    "endo-hypopara": 13,
+    "endo-emergencies": 13
    }
   },
   "gu": {
-   "total": 48,
+   "total": 112,
    "categories": {
-    "moc": 9,
-    "safety": 6,
-    "hpm": 4,
-    "psych": 4,
-    "bcc": 4,
-    "pharm": 8,
-    "rrp": 6,
-    "pa": 7
+    "moc": 21,
+    "safety": 16,
+    "hpm": 10,
+    "psych": 10,
+    "bcc": 11,
+    "pharm": 18,
+    "rrp": 13,
+    "pa": 13
    },
    "sections": {
-    "gu-overview": 5,
-    "gu-aki": 7,
-    "gu-uti": 6,
-    "gu-pyelo": 5,
-    "gu-gn": 5,
-    "gu-calculi": 5,
-    "gu-bph": 5,
-    "gu-prostate": 5,
-    "gu-incontinence": 5
+    "gu-overview": 9,
+    "gu-aki": 21,
+    "gu-uti": 17,
+    "gu-pyelo": 9,
+    "gu-gn": 12,
+    "gu-calculi": 12,
+    "gu-bph": 12,
+    "gu-prostate": 12,
+    "gu-incontinence": 8
    }
   },
   "neuro": {
-   "total": 84,
+   "total": 186,
    "categories": {
-    "moc": 15,
-    "safety": 11,
-    "hpm": 8,
-    "psych": 8,
-    "bcc": 7,
-    "pharm": 13,
-    "rrp": 10,
-    "pa": 12
+    "moc": 35,
+    "safety": 27,
+    "hpm": 17,
+    "psych": 18,
+    "bcc": 18,
+    "pharm": 28,
+    "rrp": 21,
+    "pa": 22
    },
    "sections": {
-    "neuro-stroke": 6,
-    "neuro-icp": 6,
-    "neuro-seizures": 8,
-    "neuro-meningitis": 6,
-    "neuro-encephalitis": 6,
-    "neuro-tbi": 5,
-    "neuro-alzheimer": 7,
-    "neuro-parkinson": 7,
-    "neuro-ms": 7,
-    "neuro-als": 7,
-    "neuro-gbs": 7,
-    "neuro-mg": 7,
-    "neuro-cranial": 5
+    "neuro-stroke": 13,
+    "neuro-icp": 13,
+    "neuro-seizures": 18,
+    "neuro-meningitis": 12,
+    "neuro-encephalitis": 12,
+    "neuro-tbi": 8,
+    "neuro-alzheimer": 17,
+    "neuro-parkinson": 17,
+    "neuro-ms": 17,
+    "neuro-als": 17,
+    "neuro-gbs": 17,
+    "neuro-mg": 17,
+    "neuro-cranial": 8
    }
   },
   "heme": {
-   "total": 73,
+   "total": 167,
    "categories": {
-    "moc": 13,
-    "safety": 9,
-    "hpm": 7,
-    "psych": 7,
-    "bcc": 6,
-    "pharm": 12,
-    "rrp": 9,
-    "pa": 10
+    "moc": 31,
+    "safety": 24,
+    "hpm": 15,
+    "psych": 16,
+    "bcc": 17,
+    "pharm": 27,
+    "rrp": 19,
+    "pa": 18
    },
    "sections": {
-    "heme-ida": 6,
-    "heme-sickle": 8,
-    "heme-leukemia": 7,
-    "heme-hemophilia": 6,
-    "heme-dic": 7,
-    "heme-transfusion": 6,
-    "heme-polycythemia": 7,
-    "heme-itp": 6,
-    "heme-anaphylaxis": 7,
-    "heme-lupus": 6,
-    "heme-ra": 7
+    "heme-ida": 13,
+    "heme-sickle": 18,
+    "heme-leukemia": 17,
+    "heme-hemophilia": 13,
+    "heme-dic": 17,
+    "heme-transfusion": 13,
+    "heme-polycythemia": 17,
+    "heme-itp": 13,
+    "heme-anaphylaxis": 17,
+    "heme-lupus": 12,
+    "heme-ra": 17
    }
   },
   "integ": {
-   "total": 9,
+   "total": 24,
    "categories": {
-    "moc": 2,
-    "safety": 1,
-    "hpm": 1,
-    "psych": 1,
-    "bcc": 1,
-    "pharm": 1,
-    "rrp": 1,
-    "pa": 1
+    "moc": 5,
+    "safety": 3,
+    "hpm": 2,
+    "psych": 3,
+    "bcc": 3,
+    "pharm": 3,
+    "rrp": 3,
+    "pa": 2
    },
    "sections": {
-    "integ-burns": 3,
-    "integ-pressure": 3,
-    "integ-skin": 3
+    "integ-burns": 7,
+    "integ-pressure": 10,
+    "integ-skin": 7
    }
   },
   "msk": {
-   "total": 12,
+   "total": 30,
    "categories": {
-    "moc": 2,
-    "safety": 2,
-    "hpm": 1,
-    "psych": 1,
-    "bcc": 1,
-    "pharm": 2,
-    "rrp": 1,
-    "pa": 2
+    "moc": 5,
+    "safety": 5,
+    "hpm": 2,
+    "psych": 3,
+    "bcc": 3,
+    "pharm": 5,
+    "rrp": 3,
+    "pa": 4
    },
    "sections": {
-    "msk-fractures": 3,
-    "msk-bone": 3,
-    "msk-osteomyelitis": 3,
-    "msk-spinal": 3
+    "msk-fractures": 7,
+    "msk-bone": 10,
+    "msk-osteomyelitis": 7,
+    "msk-spinal": 6
    }
   },
   "fluids": {
-   "total": 12,
+   "total": 28,
    "categories": {
-    "moc": 2,
-    "safety": 2,
-    "hpm": 1,
-    "psych": 1,
-    "bcc": 1,
-    "pharm": 2,
-    "rrp": 1,
-    "pa": 2
+    "moc": 5,
+    "safety": 4,
+    "hpm": 2,
+    "psych": 3,
+    "bcc": 3,
+    "pharm": 5,
+    "rrp": 3,
+    "pa": 3
    },
    "sections": {
-    "fluids-main": 12
+    "fluids-main": 28
    }
   }
- }
+ },
+ "note": "v3: 1,295 book questions (600 original + 695 added). Combined with the 1,205-question NCLEX bank = 2,500, sized to the 2026 NCLEX-RN client-need midpoints."
 }
