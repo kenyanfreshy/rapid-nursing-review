@@ -1023,3 +1023,13 @@ button.pro-member:hover{filter:brightness(1.08)}
 @media (prefers-reduced-motion:reduce){.plan-row.flash{animation:none;box-shadow:0 0 0 3px #f59e0b}}
 .plan-row-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
 .plan-row-actions a.secondary{text-decoration:none}
+
+/* Book panel header: dark scrim so the title, author and credentials stay readable on every theme */
+html body .bp-head{background:linear-gradient(100deg,rgba(6,9,20,.82) 0%,rgba(6,9,20,.62) 55%,rgba(6,9,20,.35) 100%),var(--g-roadmap,linear-gradient(160deg,#0e7490,#0f766e))}
+html body .bp-head h2{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+html body .bp-head .bp-sub{margin-top:4px;font-size:12px;font-weight:600;color:#fde68a;opacity:1}
+html body .bp-head .bp-author{margin-top:6px;display:grid;gap:1px;font-size:12.5px;line-height:1.35;opacity:1}
+html body .bp-head .bp-name{color:#fff;font-weight:700}
+html body .bp-head .bp-creds{color:#fbbf24;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;font-weight:700;letter-spacing:.6px}
+html body .bp-head p:first-line{color:inherit}
+.bp-meta{min-width:0}
