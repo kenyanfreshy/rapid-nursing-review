@@ -598,3 +598,4 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   .sidebar-backdrop{position:fixed;inset:0;background:#000a;z-index:19}
 }
 @media (min-width:1100px){.sidebar-backdrop{display:none}}
+.case-cite{font-size:12px;font-weight:700;color:#065F46;margin-top:6px}

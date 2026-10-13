@@ -1885,20 +1885,21 @@
    "stem": "A client with pulmonary fibrosis develops jugular vein distention, edema and liver distention. Which treatment should the nurse anticipate?",
    "options": [
     "Thrombolytic therapy for pulmonary embolism",
-    "Diuretics and digitalis for cor pulmonale",
+    "Diuretics and oxygen therapy for cor pulmonale",
     "Chest tube insertion for a pneumothorax",
     "Four-drug therapy for tuberculosis"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. These findings point to cor pulmonale, not a PE needing thrombolysis.",
-    "Correct. The book identifies these as signs of cor pulmonale and lists diuretics and digitalis for it.",
+    "Correct. These findings point to right-sided heart strain (cor pulmonale); the book lists diuretics to reduce the fluid overload, and supplemental oxygen eases the pulmonary vasoconstriction that drives it. (Digitalis, also named on p36, is no longer standard for cor pulmonale.)",
     "Incorrect. JVD with edema and liver distention is not a pneumothorax picture.",
     "Incorrect. Nothing in the findings suggests TB."
    ],
    "clue": "JVD, edema and liver distention in pulmonary fibrosis.",
    "priority": "Recognize and manage cor pulmonale.",
-   "checked": true
+   "checked": true,
+   "reviewNote": "v3 review: digitalis removed from the key (outdated)."
   },
   {
    "id": "resp-fibrosis-q3",
@@ -2697,7 +2698,8 @@
    ],
    "clue": "Propofol is given for continuous sedation on the ventilator.",
    "priority": "Evaluate a sedative by the client's comfort and work of breathing.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q10",
@@ -2722,7 +2724,8 @@
    ],
    "clue": "The daughter is afraid her paralyzed father is suffering.",
    "priority": "Support the family with accurate information about comfort measures.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q11",
@@ -2759,7 +2762,8 @@
    ],
    "clue": "Tachypnea, accessory muscles, diaphoresis, confusion and refractory hypoxemia.",
    "priority": "Recognize the assessment pattern of ARDS early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q12",
@@ -2784,7 +2788,8 @@
    ],
    "clue": "Tidal volume 4 to 8 mL/kg and plateau pressure under 30 cm H2O.",
    "priority": "Evaluate ventilation against lung-protective limits to reduce barotrauma.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q13",
@@ -2809,7 +2814,8 @@
    ],
    "clue": "The client is more short of breath lying flat.",
    "priority": "Position upright to support ventilation.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q14",
@@ -2834,7 +2840,8 @@
    ],
    "clue": "Older age plus sepsis and severe pneumonia.",
    "priority": "Identify clients at highest risk so ARDS is caught early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q15",
@@ -2859,7 +2866,8 @@
    ],
    "clue": "New respiratory distress in a client with a known cause of ARDS.",
    "priority": "See the client with signs of acute respiratory compromise first (ABCs).",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q16",
@@ -2896,7 +2904,8 @@
    ],
    "clue": "PaO2/FiO2 of 130 and ARDS not related to COVID-19.",
    "priority": "Collaborate on an evidence-based ARDS plan.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-ards-q17",
@@ -2905,7 +2914,7 @@
    "page": 17,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "stem": "A client with severe ARDS is receiving a continuous vecuronium infusion. The nurse finds that the prescribed sedation infusion has run out. What should the nurse do?",
+   "stem": "A client with severe ARDS is receiving a continuous vecuronium infusion. The nurse finds that the prescribed sedative and analgesic infusions have both run out. What should the nurse do?",
    "options": [
     "Continue the vecuronium alone, since the client cannot move",
     "Wait until the client shows signs of distress before acting",
@@ -2921,7 +2930,8 @@
    ],
    "clue": "Paralytic running without sedation.",
    "priority": "Never leave a paralyzed client without sedation and analgesia.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q11",
@@ -2932,11 +2942,11 @@
    "cjmm": "analyzeCues",
    "stem": "The nurse is screening clients for venous thromboembolism (VTE). For each risk factor, indicate whether the book classifies it as strong or moderate.",
    "rows": [
-    "Oral contraceptive use",
-    "Atrial fibrillation",
-    "Spinal cord injury",
-    "Central venous line",
-    "Fracture of the hip"
+    "Chemotherapy",
+    "Major trauma",
+    "Congestive heart failure",
+    "Severe immobility or paralysis",
+    "History of stroke"
    ],
    "columns": [
     "Strong risk factor",
@@ -2944,21 +2954,22 @@
    ],
    "correct": [
     1,
-    1,
     0,
     1,
-    0
+    0,
+    1
    ],
    "rationales": [
-    "Oral contraceptive use is in the book's moderate list.",
-    "Atrial fibrillation is in the moderate list.",
-    "Spinal cord injury is in the strong list.",
-    "Central venous lines are in the moderate list.",
-    "Fractures of long bones such as the hip are in the strong list."
+    "Chemotherapy is in the book's moderate list.",
+    "Major trauma is in the strong list.",
+    "Congestive heart failure is in the moderate list.",
+    "Severe immobility or paralysis is in the strong list.",
+    "History of stroke is in the moderate list."
    ],
    "clue": "Table 2 divides VTE risk factors into strong and moderate.",
    "priority": "Grade VTE risk so prevention matches the client's risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q12",
@@ -2992,7 +3003,8 @@
    ],
    "clue": "S.T.O.P. T.H.R.O.M.B.U.S. reminder.",
    "priority": "Monitor for and prevent progression of DVT to PE.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q13",
@@ -3003,21 +3015,22 @@
    "cjmm": "prioritizeHypotheses",
    "stem": "The nurse is caring for four clients on a surgical unit. Which client should the nurse see first?",
    "options": [
-    "A client with a calf DVT on a heparin infusion whose leg is mildly swollen",
-    "A client 2 days after femur surgery who suddenly collapsed, is hypotensive with cold, mottled skin, and says something terrible is about to happen",
-    "A client on day 4 of anticoagulation for PE who reports mild pleuritic pain unchanged from yesterday",
+    "A client with a calf DVT on a heparin infusion whose leg is mildly swollen and tender",
+    "A client 2 days after femur surgery who suddenly collapsed and is hypotensive with mottled skin",
+    "A client on day 4 of anticoagulation for PE whose mild pleuritic pain is unchanged",
     "A client with a positive D-dimer and stable vital signs who is waiting for a venous Doppler"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. Mild swelling in a client already being treated is expected and stable.",
-    "Correct. Sudden collapse, shock signs and a sense of impending doom are signs of a massive PE, a medical emergency.",
+    "Correct. Sudden collapse with shock signs (hypotension, cold or mottled skin) after a strong VTE risk such as femur surgery fits a massive PE, which the book calls a medical emergency.",
     "Incorrect. Unchanged mild pain in a treated client is not a new emergency.",
     "Incorrect. This client needs testing but is stable."
    ],
-   "clue": "Sudden collapse with shock signs after a long-bone fracture.",
+   "clue": "Sudden collapse with shock signs 2 days after femur surgery.",
    "priority": "Recognize massive PE as an emergency and act first (ABCs).",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q14",
@@ -3028,21 +3041,22 @@
    "cjmm": "analyzeCues",
    "stem": "A client with suspected PE has a positive D-dimer. How should the nurse interpret this result?",
    "options": [
-    "A clot is present somewhere in the body, so more testing is needed to locate it",
+    "A clot may be present somewhere in the body, so imaging is needed to find it",
     "The result confirms that the clot is in the lungs",
     "The result rules out a clot as the cause of symptoms",
     "The result shows that the client has a low risk of bleeding"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book states that a positive D-dimer means there is a clot somewhere; imaging such as a venous Doppler or angiography identifies where.",
+    "Correct. The book states a positive D-dimer means there is a clot somewhere; imaging such as a venous Doppler, CT or pulmonary angiography locates it. A D-dimer is sensitive but not specific, so it cannot confirm PE by itself.",
     "Incorrect. A D-dimer does not show where the clot is; pulmonary angiography is the gold standard.",
     "Incorrect. A positive result points toward a clot, not away from one.",
     "Incorrect. The D-dimer does not measure bleeding risk."
    ],
    "clue": "Positive D-dimer.",
    "priority": "Interpret screening labs correctly and anticipate confirming tests.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q15",
@@ -3067,7 +3081,8 @@
    ],
    "clue": "Oral factor Xa inhibitor for asymptomatic PE.",
    "priority": "Evaluate understanding of anticoagulant action before discharge.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q16",
@@ -3104,7 +3119,8 @@
    ],
    "clue": "Thrombolytics versus anticoagulants and factor Xa/thrombin inhibitors.",
    "priority": "Know what each antithrombotic drug can and cannot do.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q17",
@@ -3139,7 +3155,8 @@
    ],
    "clue": "Asymptomatic, symptomatic and massive PE are treated differently.",
    "priority": "Match anticoagulant or thrombolytic therapy to PE severity.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q18",
@@ -3164,7 +3181,8 @@
    ],
    "clue": "The client describes less fear and asks a forward-looking question.",
    "priority": "Evaluate whether education and expression of fears reduced anxiety.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q19",
@@ -3189,7 +3207,8 @@
    ],
    "clue": "Sudden overwhelming anxiety, sense of doom and confusion.",
    "priority": "Do not dismiss sudden anxiety in PE; rule out deterioration first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q20",
@@ -3220,7 +3239,8 @@
    ],
    "clue": "Stable client; routine mobility, compression and hydration tasks.",
    "priority": "Delegate routine care, keep assessment and high-alert drugs with the RN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pe-q21",
@@ -3229,7 +3249,7 @@
    "page": 20,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with PE has pleuritic pain, anxiety, new edema and a falling cardiac output. Which supportive drugs and purposes does the book list? Select all that apply.",
+   "stem": "A client with PE has pleuritic pain, anxiety, new edema and a falling cardiac output. Which supportive drugs, matched with their purpose, should the nurse anticipate? Select all that apply.",
    "options": [
     "Morphine to reduce pain and anxiety",
     "Antibiotics to dissolve the clot",
@@ -3251,7 +3271,8 @@
    ],
    "clue": "Supportive drugs row in the PE pharmacology table.",
    "priority": "Anticipate supportive drugs that treat symptoms and protect cardiac output.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q10",
@@ -3276,7 +3297,8 @@
    ],
    "clue": "ABG due and suctioning planned.",
    "priority": "Collect the ABG so results reflect the client's true status.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q11",
@@ -3287,7 +3309,7 @@
    "cjmm": "recognizeCues",
    "stem": "The nurse is reviewing clients' histories for pneumonia risk. Which findings are risk factors for pneumonia? Select all that apply.",
    "options": [
-    "Walks briskly every day",
+    "Up to date on influenza and pneumococcal vaccines",
     "Weak cough and gag reflex",
     "Malnutrition",
     "A normal swallowing evaluation last week",
@@ -3301,7 +3323,7 @@
     5
    ],
    "rationales": [
-    "Incorrect. Regular activity is not a risk; the book lists immobility as a risk factor.",
+    "Incorrect. Influenza and pneumococcal vaccination prevents pneumonia; it is not a risk factor.",
     "Correct. A weak cough or gag reflex is listed as a risk factor.",
     "Correct. Malnutrition is listed as a risk factor.",
     "Incorrect. A normal swallow is not a risk; the book lists weak gag reflex and aspiration.",
@@ -3310,7 +3332,8 @@
    ],
    "clue": "Risk factors for pneumonia infographic.",
    "priority": "Identify clients at risk so prevention can start early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q12",
@@ -3321,21 +3344,22 @@
    "cjmm": "generateSolutions",
    "stem": "A client hospitalized for a hip fracture has a weak cough and is at high risk for hospital-acquired pneumonia (HAP). The client is not intubated. Which hygiene measure should the nurse include to help prevent HAP?",
    "options": [
-    "Provide proper oral care",
-    "Limit oral care to once a week to avoid irritation",
-    "Skip oral care while the client is in bed",
-    "Replace oral care with mouthwash only when the client asks"
+    "Provide thorough oral care on a regular schedule",
+    "Lower the head of the bed flat after meals so the client can rest",
+    "Postpone oral care until the client can perform it independently",
+    "Offer a mouthwash rinse only when the client asks for one"
    ],
    "correct": 0,
    "rationales": [
     "Correct. The book lists proper oral care, especially for high-risk patients, as a HAP prevention measure.",
-    "Incorrect. Infrequent oral care does not meet the book's call for proper oral care in high-risk clients.",
-    "Incorrect. Clients in bed are still at risk and need oral care.",
-    "Incorrect. Waiting for the client to ask does not provide proper, regular oral care."
+    "Incorrect. The book lists head-of-bed elevation of 30 to 45 degrees, not lying flat, to prevent HAP.",
+    "Incorrect. Waiting until the client can do it leaves a high-risk client without the oral care the book calls for.",
+    "Incorrect. Rinsing only on request is not proper, regular oral care."
    ],
    "clue": "High-risk, non-intubated client and HAP prevention.",
    "priority": "Use routine oral hygiene to reduce hospital-acquired pneumonia.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q13",
@@ -3369,7 +3393,8 @@
    ],
    "clue": "Exceptions: massive hemoptysis, large abscess, unilateral emphysema.",
    "priority": "Position to improve V/Q matching without harming the good lung.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q14",
@@ -3380,21 +3405,22 @@
    "cjmm": "prioritizeHypotheses",
    "stem": "A client being treated for pneumonia develops a new severe headache, fever and confusion. When calling the provider using SBAR, which concern should the nurse state in the assessment?",
    "options": [
-    "The infection may have spread through the bloodstream, such as to the meninges",
-    "These are expected effects of incentive spirometry",
-    "These are signs that the pneumonia is resolving",
-    "These are symptoms of anxiety about being hospitalized"
+    "The infection may have spread through the bloodstream to the meninges",
+    "The findings are expected side effects of the antibiotic therapy",
+    "The findings show that the pneumonia is beginning to resolve",
+    "The findings reflect anxiety about the hospital stay"
    ],
    "correct": 0,
    "rationales": [
     "Correct. The book states pneumonia can spread through the bloodstream and cause meningitis, endocarditis, pericarditis or bacteremia; new headache, fever and confusion call for urgent report.",
-    "Incorrect. Incentive spirometry does not cause these findings.",
+    "Incorrect. New headache, fever and confusion are not expected antibiotic effects; assuming so could delay care for a serious complication.",
     "Incorrect. New neurologic changes and fever do not indicate improvement.",
     "Incorrect. Attributing new confusion to anxiety could miss a serious complication."
    ],
    "clue": "New headache, fever and confusion in a client with pneumonia.",
    "priority": "Report signs of a spreading infection promptly and clearly.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q15",
@@ -3428,7 +3454,8 @@
    ],
    "clue": "HAP prevention list.",
    "priority": "Prevent hospital-acquired infection with simple, consistent measures.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q16",
@@ -3437,12 +3464,12 @@
    "page": 24,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client has been intubated for 4 days. For each action, indicate whether it is indicated or not indicated to prevent ventilator-associated pneumonia (VAP).",
+   "stem": "An older client is hospitalized after a stroke and is not intubated. For each action, indicate whether it is indicated or not indicated to prevent hospital-acquired pneumonia (HAP).",
    "rows": [
-    "Use a closed in-line suction system",
-    "Change the ventilator circuit routinely every day",
-    "Change the ventilator circuit when it is visibly soiled",
-    "Follow the ventilator care bundle every shift"
+    "Complete a swallowing assessment before the client eats or drinks",
+    "Offer influenza and pneumococcal vaccines if the client is not up to date",
+    "Coach incentive spirometry and deep-breathing exercises",
+    "Keep the head of the bed flat during tube feedings"
    ],
    "columns": [
     "Indicated",
@@ -3450,19 +3477,20 @@
    ],
    "correct": [
     0,
-    1,
     0,
-    0
+    0,
+    1
    ],
    "rationales": [
-    "Closed in-line suction reduces contamination.",
-    "The book says to avoid routine circuit changes unless the circuit is visibly soiled.",
-    "Changing a visibly soiled circuit is the exception the book allows.",
-    "Strict adherence to ventilator care bundles is listed."
+    "Aspiration precautions, such as swallowing assessments in at-risk clients, are on the book's HAP prevention list.",
+    "Influenza and pneumococcal immunizations are on the book's HAP prevention list.",
+    "Incentive spirometry and deep-breathing exercises are on the book's HAP prevention list.",
+    "The book lists head-of-bed elevation of 30 to 45 degrees; lying flat during feedings raises aspiration risk."
    ],
-   "clue": "VAP prevention list.",
-   "priority": "Prevent VAP by limiting contamination of the airway and circuit.",
-   "batch": "v3"
+   "clue": "Stroke raises aspiration risk; HAP prevention list.",
+   "priority": "Prevent HAP with aspiration precautions, immunization and lung expansion.",
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q17",
@@ -3487,7 +3515,8 @@
    ],
    "clue": "Culture now identifies the organism.",
    "priority": "Move from empiric to targeted antibiotics using culture results.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q18",
@@ -3512,7 +3541,8 @@
    ],
    "clue": "WBC back in the normal range and cultures negative.",
    "priority": "Evaluate antibiotic response with labs and cultures.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q19",
@@ -3546,7 +3576,8 @@
    ],
    "clue": "Supportive treatment: hydration, glucose control, fever management.",
    "priority": "Use supportive care to help the client clear the infection.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumonia-q20",
@@ -3571,7 +3602,8 @@
    ],
    "clue": "Stable client; routine reinforcement tasks.",
    "priority": "Delegate routine care while the RN keeps assessment and teaching.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-aspiration-q8",
@@ -3596,7 +3628,8 @@
    ],
    "clue": "Lying flat right after an enteral feeding.",
    "priority": "Supervise delegated care and correct unsafe positioning.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-aspiration-q9",
@@ -3627,7 +3660,8 @@
    ],
    "clue": "Risk factors for aspiration list.",
    "priority": "Identify aspiration risk so prevention can begin.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-aspiration-q10",
@@ -3635,7 +3669,7 @@
    "type": "sata",
    "page": 25,
    "clientNeed": "moc",
-   "cjmm": "evaluateOutcomes",
+   "cjmm": "recognizeCues",
    "stem": "A client had an unwitnessed aspiration yesterday and is being monitored. Which new findings should the nurse report to the provider as possible complications? Select all that apply.",
    "options": [
     "Blood pressure 84/50 mm Hg",
@@ -3658,7 +3692,8 @@
    ],
    "clue": "Monitor for pneumonia, ARDS, sepsis and hypotension after aspiration.",
    "priority": "Escalate early signs of post-aspiration complications.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-aspiration-q11",
@@ -3683,7 +3718,8 @@
    ],
    "clue": "Vomiting with altered consciousness.",
    "priority": "Position to let secretions drain away from the airway.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-aspiration-q12",
@@ -3708,7 +3744,8 @@
    ],
    "clue": "Signs of active aspiration with hypoxemia.",
    "priority": "Attend first to the client with airway compromise.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-aspiration-q13",
@@ -3733,7 +3770,8 @@
    ],
    "clue": "Recurrent pneumonia without witnessed choking.",
    "priority": "Consider silent aspiration in clients with dysphagia.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q9",
@@ -3758,7 +3796,8 @@
    ],
    "clue": "Post-bronchodilator FEV1/FVC below 0.7.",
    "priority": "Interpret spirometry to confirm COPD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q10",
@@ -3792,7 +3831,8 @@
    ],
    "clue": "Acute exacerbation treatment list.",
    "priority": "Anticipate bronchodilators, controlled oxygen and steroids in an exacerbation.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q11",
@@ -3817,7 +3857,8 @@
    ],
    "clue": "Prophylaxis for frequent exacerbations.",
    "priority": "Evaluate understanding of preventive antibiotic therapy.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q12",
@@ -3851,7 +3892,8 @@
    ],
    "clue": "Common triggers of COPD exacerbation.",
    "priority": "Teach clients to recognize and avoid exacerbation triggers.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q13",
@@ -3885,7 +3927,8 @@
    ],
    "clue": "Exacerbation symptoms and bacterial clues.",
    "priority": "Evaluate response to treatment and escalate worsening findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q14",
@@ -3910,7 +3953,8 @@
    ],
    "clue": "Prevention tip for COPD exacerbations.",
    "priority": "Teach environmental changes that reduce exacerbations.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q15",
@@ -3935,7 +3979,8 @@
    ],
    "clue": "SpO2 of 90% on low-flow oxygen during an exacerbation.",
    "priority": "Supervise delegated monitoring and evaluate oxygenation against the target.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q16",
@@ -3960,7 +4005,8 @@
    ],
    "clue": "Family raised the oxygen above the prescribed low flow.",
    "priority": "Give oxygen to COPD clients carefully and as prescribed.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-copd-q17",
@@ -3971,10 +4017,10 @@
    "cjmm": "takeAction",
    "stem": "A client newly diagnosed with COPD asks, \"If I use my inhalers every day, will this go away?\" Which response by the nurse is best?",
    "options": [
-    "\"Yes, the inhalers will reverse the disease completely.\"",
-    "\"COPD is a long-term disease that tends to progress, but treatment can help control your symptoms. What worries you most?\"",
-    "\"Don't worry about that right now. Just focus on your medicines.\"",
-    "\"Nothing can be done, so it's best to prepare for the worst.\""
+    "\"Yes, using the inhalers every day will make the disease go away completely.\"",
+    "\"COPD is long term and tends to progress, but treatment can control your symptoms. What worries you most?\"",
+    "\"Don't worry about that right now. Let's just focus on learning how to use your inhalers.\"",
+    "\"Nothing really helps with COPD, so it is best to prepare yourself for the worst.\""
    ],
    "correct": 1,
    "rationales": [
@@ -3985,7 +4031,8 @@
    ],
    "clue": "The client hopes the disease will go away.",
    "priority": "Give honest information and support coping with a chronic illness.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q10",
@@ -4010,7 +4057,8 @@
    ],
    "clue": "Allergic asthma and IgE.",
    "priority": "Teach the client how allergens cause attacks so triggers can be avoided.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q11",
@@ -4047,7 +4095,8 @@
    ],
    "clue": "Allergic versus nonallergic triggers.",
    "priority": "Identify trigger types to guide prevention teaching.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q12",
@@ -4078,7 +4127,8 @@
    ],
    "clue": "Prevention and education list for asthma.",
    "priority": "Prevent attacks and harm through safe self-care teaching.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q13",
@@ -4091,8 +4141,7 @@
    "rows": [
     "Bronchodilator test",
     "Methacholine challenge",
-    "Allergy testing",
-    "Spirometry showing reversible airflow limitation"
+    "Allergy testing"
    ],
    "columns": [
     "Confirms reversibility",
@@ -4102,18 +4151,17 @@
    "correct": [
     0,
     1,
-    2,
-    0
+    2
    ],
    "rationales": [
     "The bronchodilator test confirms reversibility.",
     "The methacholine challenge tests airway sensitivity.",
-    "Allergy testing identifies triggers.",
-    "Spirometry showing reversible airflow limitation supports the diagnosis by showing the obstruction reverses."
+    "Allergy testing identifies triggers."
    ],
    "clue": "Each asthma test answers a different question.",
    "priority": "Prepare the client for the right diagnostic test.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q14",
@@ -4138,7 +4186,8 @@
    ],
    "clue": "Restlessness and anxiety during an attack.",
    "priority": "Recognize the two-way link between anxiety and asthma symptoms.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q15",
@@ -4163,7 +4212,8 @@
    ],
    "clue": "Child-parent anxiety link.",
    "priority": "Evaluate family teaching on coping during attacks.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q16",
@@ -4197,7 +4247,8 @@
    ],
    "clue": "Bronchodilators relieve; leukotriene antagonists and theophylline control.",
    "priority": "Match each asthma drug to its role so clients use them correctly.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q17",
@@ -4209,7 +4260,7 @@
    "stem": "A client with an asthma exacerbation has received standard bronchodilator therapy. For each finding, indicate whether it needs immediate escalation or is consistent with improvement.",
    "rows": [
     "No response to bronchodilators",
-    "Hyperinflated chest on x-ray",
+    "New lethargy and confusion",
     "Falling SpO2",
     "Less accessory muscle use and a shorter expiratory phase",
     "Cyanosis"
@@ -4227,14 +4278,15 @@
    ],
    "rationales": [
     "No response to bronchodilators is a defining finding of status asthmaticus.",
-    "A hyperinflated chest is a listed diagnostic finding in status asthmaticus.",
+    "Fatigue, lethargy and confusion are listed findings of status asthmaticus and signal tiring and worsening gas exchange.",
     "Hypoxemia (falling SpO2) is a listed finding in status asthmaticus.",
     "Reduced accessory muscle use and a shorter expiratory phase show that work of breathing and obstruction are easing.",
     "Cyanosis is part of the clinical presentation of status asthmaticus."
    ],
    "clue": "Findings of status asthmaticus after bronchodilators.",
    "priority": "Escalate quickly when the client is not responding to treatment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q18",
@@ -4243,7 +4295,7 @@
    "page": 28,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "stem": "A client arrives in the emergency department with an asthma attack. The nurse is preparing an SBAR report for the provider. Which history findings should the nurse include in the background? Select all that apply.",
+   "stem": "A client arrives in the emergency department with an asthma attack. The nurse is gathering a focused history to include in an SBAR report to the provider. Which items should the nurse ask about? Select all that apply.",
    "options": [
     "Date of the client's last eye examination",
     "Frequency of past attacks and emergency department visits",
@@ -4265,7 +4317,8 @@
    ],
    "clue": "Asthma history the book tells the nurse to ask about.",
    "priority": "Give the provider the history that shows attack severity and risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q19",
@@ -4299,7 +4352,8 @@
    ],
    "clue": "Physical examination signs of asthma.",
    "priority": "Recognize the physical findings of airway obstruction.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-asthma-q20",
@@ -4324,7 +4378,8 @@
    ],
    "clue": "Acute attack in a client lying in bed.",
    "priority": "Position upright to ease breathing.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-effusion-q8",
@@ -4349,7 +4404,8 @@
    ],
    "clue": "Fluid at the lung base.",
    "priority": "Know which imaging confirms free pleural fluid.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-effusion-q9",
@@ -4374,7 +4430,8 @@
    ],
    "clue": "Small effusion in a client without symptoms.",
    "priority": "Teach the client which symptoms to report early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-effusion-q10",
@@ -4411,7 +4468,8 @@
    ],
    "clue": "Local disease versus systemic failure.",
    "priority": "Classify the effusion so treatment targets the cause.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-effusion-q11",
@@ -4436,7 +4494,8 @@
    ],
    "clue": "Diuretic therapy for a transudative effusion.",
    "priority": "Evaluate diuretic response by easing of effusion symptoms.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-effusion-q12",
@@ -4461,7 +4520,8 @@
    ],
    "clue": "Need to confirm pleural fluid.",
    "priority": "Anticipate the imaging that confirms an effusion.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-effusion-q13",
@@ -4492,7 +4552,8 @@
    ],
    "clue": "Common symptoms of pleural effusion.",
    "priority": "Recognize the symptoms of a significant effusion.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q9",
@@ -4517,32 +4578,34 @@
    ],
    "clue": "Thick secretions in emphysema.",
    "priority": "Support airway clearance with hydration.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q10",
    "section": "resp-emphysema",
    "type": "mcq",
-   "page": 34,
+   "page": 33,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with emphysema in an acute exacerbation is prescribed a corticosteroid. Which plan for the corticosteroid matches the book?",
+   "stem": "A client with emphysema develops a fever, more sputum and increased wheezing, and the provider suspects a respiratory infection. Which action should the nurse anticipate?",
    "options": [
-    "Use it long term as the only maintenance drug",
-    "Use it short term and combine it with a long-acting bronchodilator",
-    "Use it in place of all bronchodilators",
-    "Use it only as a quick-relief rescue inhaler"
+    "Hold antibiotics until the sputum clears on its own",
+    "Start the prescribed antibiotic promptly",
+    "Increase the oxygen to a high flow until the fever breaks",
+    "Stop the bronchodilators to reduce secretions"
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. The book describes short-term use, not long-term monotherapy.",
-    "Correct. The book lists corticosteroids short term for acute exacerbations, combined with a long-acting bronchodilator.",
-    "Incorrect. Corticosteroids are combined with bronchodilators, not used instead of them.",
-    "Incorrect. Quick relief comes from a beta2-agonist such as albuterol."
+    "Incorrect. The book calls for treating infections promptly, not waiting for them to clear.",
+    "Correct. The book lists prompt treatment of infections to reduce bronchospasm and secretions as a collaborative intervention in emphysema.",
+    "Incorrect. The book calls for low-flow oxygen guided by ABG results, not high flow.",
+    "Incorrect. Bronchodilators treat bronchospasm; stopping them would worsen airflow."
    ],
-   "clue": "Corticosteroids in emphysema.",
-   "priority": "Use corticosteroids briefly and alongside bronchodilators.",
-   "batch": "v3"
+   "clue": "Signs of a respiratory infection in a client with emphysema.",
+   "priority": "Treat infections promptly to limit bronchospasm and secretions.",
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q11",
@@ -4557,24 +4620,27 @@
     "HIV infection",
     "Air pollution exposure",
     "Family history of pulmonary disease",
+    "Well-controlled hypertension",
     "Smoking history"
    ],
    "correct": [
     1,
     2,
     3,
-    4
+    5
    ],
    "rationales": [
     "Incorrect. Exercise is not a risk factor for emphysema.",
     "Correct. The book lists HIV infection as an independent risk factor.",
     "Correct. Air pollution exposure is a listed risk factor.",
     "Correct. A family history of pulmonary disease is a listed risk factor.",
+    "Incorrect. Hypertension is not listed among the causes or key risk factors for emphysema.",
     "Correct. Smoking history is a listed risk factor."
    ],
    "clue": "Key risk factors for emphysema.",
    "priority": "Identify risk factors to guide prevention and screening.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q12",
@@ -4611,7 +4677,8 @@
    ],
    "clue": "Air trapping and impaired gas exchange.",
    "priority": "Interpret diagnostic results in emphysema.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q13",
@@ -4642,7 +4709,8 @@
    ],
    "clue": "Independent nursing actions: maintain airway clearance.",
    "priority": "Support airway clearance with humidity, controlled coughing and breathing techniques.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q14",
@@ -4673,7 +4741,8 @@
    ],
    "clue": "Infection prevention in emphysema.",
    "priority": "Protect the client with emphysema from respiratory infection.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q15",
@@ -4682,7 +4751,7 @@
    "page": 33,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "A client with severe emphysema asks the provider about surgery. Which surgical options does the book list for select clients? Select all that apply.",
+   "stem": "A client with severe emphysema asks the provider about surgery. Which surgical options may be considered for select clients? Select all that apply.",
    "options": [
     "Bullectomy",
     "Thoracentesis",
@@ -4704,7 +4773,8 @@
    ],
    "clue": "Surgical options for select clients.",
    "priority": "Coordinate referrals for surgical options in advanced disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q16",
@@ -4729,7 +4799,8 @@
    ],
    "clue": "New restlessness and confusion.",
    "priority": "Rule out hypoxia before attributing cognitive change to anxiety.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-emphysema-q17",
@@ -4754,7 +4825,8 @@
    ],
    "clue": "Expressed loss of role and purpose.",
    "priority": "Use therapeutic communication to address role loss.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q9",
@@ -4763,7 +4835,7 @@
    "page": 34,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "stem": "Which change best explains the increased work of breathing in pulmonary fibrosis?",
+   "stem": "A client with pulmonary fibrosis has increasing dyspnea and asks why breathing takes so much effort. Which change best explains the increased work of breathing?",
    "options": [
     "Loss of elastic recoil traps air in the alveoli",
     "IgE-driven bronchospasm narrows the airways",
@@ -4779,7 +4851,8 @@
    ],
    "clue": "Restrictive disease with scarred alveoli.",
    "priority": "Link fibrosis pathophysiology to the client's dyspnea.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q10",
@@ -4788,7 +4861,7 @@
    "page": 36,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "Which diagnostic finding is most consistent with pulmonary fibrosis?",
+   "stem": "A client with exertional dyspnea and a dry cough is being evaluated for pulmonary fibrosis. Which diagnostic finding is most consistent with this diagnosis?",
    "options": [
     "Chest x-ray showing hyperinflation and a flat diaphragm",
     "Lateral decubitus film with layering fluid",
@@ -4804,7 +4877,8 @@
    ],
    "clue": "Honeycombing on HRCT.",
    "priority": "Recognize the imaging pattern of fibrosis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q11",
@@ -4829,7 +4903,8 @@
    ],
    "clue": "Oxygen device does not match the low-flow prescription.",
    "priority": "Give oxygen safely, as prescribed.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q12",
@@ -4860,7 +4935,8 @@
    ],
    "clue": "Avoid smoke, pollutants and infections; get vaccinated.",
    "priority": "Prevent further lung injury and infection.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q13",
@@ -4885,7 +4961,8 @@
    ],
    "clue": "Nintedanib is an antifibrotic.",
    "priority": "Evaluate understanding of antifibrotic therapy and its limits.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q14",
@@ -4919,7 +4996,8 @@
    ],
    "clue": "Neuromuscular diseases and spinal deformities.",
    "priority": "Recognize less obvious causes of pulmonary fibrosis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q15",
@@ -4933,7 +5011,6 @@
     "Nintedanib",
     "Pirfenidone",
     "Diuretic",
-    "Digitalis",
     "Bronchodilator"
    ],
    "columns": [
@@ -4945,19 +5022,18 @@
     0,
     0,
     1,
-    1,
     2
    ],
    "rationales": [
     "Nintedanib is an antifibrotic that slows fibroblast activity.",
     "Pirfenidone is an antifibrotic that reduces scarring and inflammation.",
     "The book lists diuretics to manage cor pulmonale.",
-    "The book lists digitalis to manage cor pulmonale.",
     "Bronchodilators are listed to improve airflow."
    ],
    "clue": "Collaborative care drug list.",
    "priority": "Match each drug to its role in fibrosis care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-fibrosis-q16",
@@ -4982,13 +5058,14 @@
    ],
    "clue": "New cor pulmonale signs with worsening hypoxia.",
    "priority": "Prioritize new, worsening findings over chronic stable ones.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumothorax-q8",
    "section": "resp-pneumothorax",
    "type": "mcq",
-   "page": 36,
+   "page": 37,
    "clientNeed": "moc",
    "cjmm": "takeAction",
    "stem": "A client admitted after a rib fracture suddenly develops distended neck veins, hypotension, tachycardia and a trachea shifted away from the injured side. What should the nurse do first?",
@@ -5007,7 +5084,8 @@
    ],
    "clue": "Tension pneumothorax signs after chest trauma.",
    "priority": "Escalate a tension pneumothorax immediately.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumothorax-q9",
@@ -5028,11 +5106,12 @@
     "Incorrect. The book says to keep the collection chamber lower than the chest.",
     "Incorrect. The book says to clamp only when changing the system, with a physician order.",
     "Correct. The book states the tubing should have no dependent loops.",
-    "Incorrect. The book states bubbling in the water seal is not normal and signals an air leak."
+    "Incorrect. No bubbling in the water seal chamber is the expected finding; the book links bubbling in the water seal to an air leak."
    ],
    "clue": "Chest tube tubing setup.",
    "priority": "Keep the chest drainage system working safely.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumothorax-q10",
@@ -5057,7 +5136,8 @@
    ],
    "clue": "Primary spontaneous pneumothorax larger than 20%.",
    "priority": "Anticipate treatment based on pneumothorax size.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumothorax-q11",
@@ -5092,7 +5172,8 @@
    ],
    "clue": "Three primary forms of pneumothorax.",
    "priority": "Classify the pneumothorax to anticipate urgency and treatment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumothorax-q12",
@@ -5117,7 +5198,8 @@
    ],
    "clue": "Chest tube to re-establish negative pleural pressure.",
    "priority": "Evaluate re-expansion after chest tube placement.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-pneumothorax-q13",
@@ -5142,7 +5224,8 @@
    ],
    "clue": "Pain limiting breathing with a chest tube.",
    "priority": "Treat pain so the client can breathe effectively.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q9",
@@ -5167,7 +5250,8 @@
    ],
    "clue": "Active TB leaving the isolation room.",
    "priority": "Prevent airborne spread during transport.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q10",
@@ -5201,7 +5285,8 @@
    ],
    "clue": "TB assessment infographic.",
    "priority": "Recognize the systemic and respiratory signs of TB.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q11",
@@ -5238,7 +5323,8 @@
    ],
    "clue": "Screening tests versus tests that find the disease.",
    "priority": "Know what each TB test can and cannot tell you.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q12",
@@ -5263,7 +5349,8 @@
    ],
    "clue": "Drug-resistant TB.",
    "priority": "Prepare the client for a long course to support adherence.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q13",
@@ -5288,7 +5375,8 @@
    ],
    "clue": "The client is worried about a long treatment and has family at home.",
    "priority": "Use family support to promote adherence and coping.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q14",
@@ -5313,7 +5401,8 @@
    ],
    "clue": "Anorexia and weight loss in TB.",
    "priority": "Support recovery with adequate nutrition.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q15",
@@ -5344,7 +5433,8 @@
    ],
    "clue": "Airborne droplets and prolonged exposure.",
    "priority": "Teach accurate transmission facts to protect the family.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-tb-q16",
@@ -5369,7 +5459,8 @@
    ],
    "clue": "Risk history plus classic TB symptoms.",
    "priority": "Isolate the client most likely to have active TB first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-cheat-q8",
@@ -5394,7 +5485,8 @@
    ],
    "clue": "Nasal cannula flow above 6 L/min.",
    "priority": "Use oxygen devices within their correct flow range.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-cheat-q9",
@@ -5429,7 +5521,8 @@
    ],
    "clue": "HCO3 (22-26 mEq/L) reflects the metabolic component.",
    "priority": "Interpret ABGs step by step: pH, PaCO2, then HCO3.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-cheat-q10",
@@ -5462,7 +5555,8 @@
    ],
    "clue": "Normal respiratory rate ranges by age.",
    "priority": "Compare each rate with the normal range for age.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-cheat-q11",
@@ -5487,7 +5581,8 @@
    ],
    "clue": "Slumped, dyspneic client.",
    "priority": "Raise the head of the bed to ease breathing.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-cheat-q12",
@@ -5512,7 +5607,8 @@
    ],
    "clue": "PaO2 below 80 mm Hg.",
    "priority": "Act on hypoxemia first (ABCs).",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "resp-cheat-q13",
@@ -5546,7 +5642,8 @@
    ],
    "clue": "Oxygen device flow ranges.",
    "priority": "Match each oxygen device to its correct flow and use.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [
@@ -5669,6 +5766,18 @@
   {
    "page": 20,
    "issue": "Pharmacology table says warfarin is 'started after heparin', while page 19 says to initiate Coumadin on the first treatment day if possible; the two statements read as inconsistent. No v3 item uses warfarin timing."
+  },
+  {
+   "page": 36,
+   "issue": "'Manage cor pulmonale: Use diuretics and digitalis.' Digoxin is no longer routine for cor pulmonale (reserved for coexisting LV failure or atrial fibrillation). Older item resp-fibrosis-q2 keys 'diuretics and digitalis'; v3 item resp-fibrosis-q15 no longer uses digitalis."
+  },
+  {
+   "page": 19,
+   "issue": "D-dimer icon says 'If positive then there is a clot somewhere'; a positive D-dimer is nonspecific (surgery, infection, pregnancy, cancer) and only suggests a clot. Its value is mainly a negative result ruling out VTE in low-probability clients."
+  },
+  {
+   "page": 31,
+   "issue": "'Avoid high O2 flow - may suppress respiratory drive' (also p34) reflects the older hypoxic-drive explanation; hyperoxic hypercapnia in COPD is mainly from worsened V/Q matching and the Haldane effect. The practice (controlled oxygen, SpO2 about 88-92%) is still correct."
   }
  ]
 }

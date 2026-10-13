@@ -1,0 +1,99 @@
+{
+  "chapter": "neuro",
+  "reviewed": 102,
+  "ok": 84,
+  "fixed": 17,
+  "rewritten": 1,
+  "items": [
+    {
+      "id": "neuro-stroke-q12",
+      "status": "fixed",
+      "note": "Item asks for the best verbal response to the spouse, which is an action, not cue analysis; cjmm changed analyzeCues -> takeAction. Content checked against p.131 (emotional changes listed as complications)."
+    },
+    {
+      "id": "neuro-seizures-q11",
+      "status": "fixed",
+      "note": "Distractor 'How many hours of television do you watch?' was arguably defensible because screen flicker relates to the light triggers listed on p.135; replaced with a clearly irrelevant question (usual breakfast foods)."
+    },
+    {
+      "id": "neuro-meningitis-q7",
+      "status": "fixed",
+      "note": "Only distractor ('knee extends fully with no pain') was the direct opposite of keyed option 2 (positive Kernig), so the pair cued the key; replaced with normal CSF findings (clear fluid, normal glucose and protein, p.136), which is clearly wrong."
+    },
+    {
+      "id": "neuro-meningitis-q8",
+      "status": "fixed",
+      "note": "Distractor 'Send a nasal swab for culture' was arguably correct first, since standard practice draws cultures before the first antibiotic dose when that causes no delay; replaced with liver function tests (supporting labs on p.137) so ceftriaxone is the only defensible first action."
+    },
+    {
+      "id": "neuro-encephalitis-q11",
+      "status": "fixed",
+      "note": "Item asks for the most helpful response to a family member (an action); cjmm changed analyzeCues -> takeAction. Content checked against p.137 (behavioral changes, cognitive decline)."
+    },
+    {
+      "id": "neuro-alzheimer-q8",
+      "status": "fixed",
+      "note": "Row 'Wandering with anxiety and emotional changes' keyed as mild (stage 2) per p.140, but standard staging places wandering in the moderate stage, so the row was not clearly right; wandering removed and the row now tests anxiety and emotional changes only."
+    },
+    {
+      "id": "neuro-alzheimer-q13",
+      "status": "fixed",
+      "note": "Rationale for the plaques distractor only said 'the book does not say'; rewritten to state why it is wrong (donepezil is a cholinesterase inhibitor, p.141)."
+    },
+    {
+      "id": "neuro-parkinson-q16",
+      "status": "fixed",
+      "note": "Keyed option 'A dopamine agonist' is on p.144, not the cited p.143; replaced with an unkeyed MG drug (pyridostigmine), key now [0,2,4], all grounded on p.143. Haloperidol/metoclopramide rationales now say 'blocks dopamine' (they are dopamine antagonists, not dopamine-depleting as the book states)."
+    },
+    {
+      "id": "neuro-ms-q10",
+      "status": "rewritten",
+      "note": "Original SATA keyed pregnancy and trauma as relapse triggers (p.144). Current evidence shows relapses decrease during pregnancy (rising postpartum) and trauma is not an established trigger, so the item could not stand. Rewritten as a SATA on the MS diagnostic work-up (MRI demyelinating lesions, gadolinium for active lesions, clinical diagnosis, MRI abnormal in 90-95%), grounded on p.145; clientNeed hpm -> rrp, cjmm takeAction."
+    },
+    {
+      "id": "neuro-ms-q17",
+      "status": "fixed",
+      "note": "Item asks for the best response to a family member (an action); cjmm changed analyzeCues -> takeAction. Content checked against p.145 (emotional lability)."
+    },
+    {
+      "id": "neuro-als-q13",
+      "status": "fixed",
+      "note": "Row 3 (family planning care that respects the client's wishes) repeated row 1 (end-of-life wishes, palliative care); replaced with a mobility need keyed to rehabilitation (p.148)."
+    },
+    {
+      "id": "neuro-als-q14",
+      "status": "fixed",
+      "note": "Key and rationale relied on the book's claim that cognition is unaffected in ALS (p.146), which is inaccurate (a large share of clients develop cognitive or behavioral change). Key reworded to advocate on the basis that loss of speech is not loss of decision-making, with the client communicating by letter board; rationales rewritten."
+    },
+    {
+      "id": "neuro-als-q17",
+      "status": "fixed",
+      "note": "Key said thinking 'usually stays clear' with a rationale citing the book's absolute claim that cognition is unaffected (p.146), which is outdated; key and rationales now state that most people keep clear thinking while some develop cognitive or behavioral change."
+    },
+    {
+      "id": "neuro-gbs-q11",
+      "status": "fixed",
+      "note": "Stem attributed dysphagia and trouble chewing to the facial nerve (CN VII), as p.149 does; chewing is CN V and swallowing CN IX/X. Stem now says 'cranial nerve involvement' and rationales no longer pin all three to CN VII; key unchanged."
+    },
+    {
+      "id": "neuro-gbs-q16",
+      "status": "fixed",
+      "note": "Key promised recovery 'up to about 200 days', which could mislead because some clients take longer or keep residual deficits (p.148 notes chronic disability). Key now says recovery is often slow and can take months."
+    },
+    {
+      "id": "neuro-gbs-q17",
+      "status": "fixed",
+      "note": "Row 4 described improvement as 'slow and even' breathing; slowing respirations can signal fatigue or hypoventilation in GBS, so the row was not clearly right. Changed to 'even and unlabored' (p.149 red flags)."
+    },
+    {
+      "id": "neuro-mg-q11",
+      "status": "fixed",
+      "note": "Three distractors (favorite foods, last eye exam date, number of visitors) were implausible, leaving no real discrimination; replaced with plausible but non-distinguishing data (ptosis/diplopia, last meal time, pain rating) per p.151."
+    },
+    {
+      "id": "neuro-cranial-q7",
+      "status": "fixed",
+      "note": "Key 'often improves within about 3 weeks' overstated recovery; improvement usually begins within 3 weeks but full recovery can take months. Reworded to 'begins to improve' (p.153)."
+    }
+  ]
+}

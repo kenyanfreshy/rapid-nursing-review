@@ -27,8 +27,8 @@ const STORE_NAME = Platform.OS === 'ios' ? 'App Store' : 'Google Play';
 
 // Shown in the paywall's scrolling feature strip. Only things that really are Pro.
 export const PRO_FEATURES = [
-  ['check', 'All 1,805 NCLEX questions'],
-  ['spark', '8 NGN case studies'],
+  ['check', 'All 2,500 NCLEX questions'],
+  ['spark', '20 NGN case studies'],
   ['target', 'NCLEX blueprint exam'],
   ['clock', 'Timed exam mode'],
   ['book', 'The complete book'],

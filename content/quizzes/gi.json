@@ -1138,7 +1138,7 @@
    "stem": "A client is in the initial phase of treatment for acute pancreatitis. Which monitoring should the nurse include in the plan of care? Select all that apply.",
    "options": [
     "Hourly serum amylase levels to time the diet",
-    "Urine output, watching for less than 1 mL/kg/hr",
+    "Hourly urine output to detect poor perfusion",
     "Blood glucose every 6 hours",
     "Oral fluid intake to keep urine output up",
     "Calcium, magnesium and potassium levels",
@@ -1152,7 +1152,7 @@
    ],
    "rationales": [
     "Incorrect. The book does not call for hourly amylase levels to guide feeding.",
-    "Correct. The book lists urine output monitoring, with less than 1 mL/kg/hr signaling hypoperfusion.",
+    "Correct. The book lists urine output monitoring; falling output signals hypoperfusion.",
     "Correct. The book lists blood glucose monitoring every 6 hours, with insulin as needed.",
     "Incorrect. The client is NPO to suppress pancreatic enzyme secretion; IV fluids are used.",
     "Correct. The book lists replacing calcium, magnesium and potassium to correct electrolyte imbalances, which requires monitoring them.",
@@ -1160,7 +1160,8 @@
    ],
    "clue": "The client is in the initial medical management phase of acute pancreatitis.",
    "priority": "Monitor perfusion, glucose, electrolytes and breathing to detect complications early.",
-   "checked": true
+   "checked": true,
+   "reviewNote": "v3 review: removed the 1 mL/kg/hr threshold (0.5 mL/kg/hr is the usual cutoff)."
   },
   {
    "id": "gi-pancreatitis-q10",
@@ -2438,7 +2439,8 @@
    ],
    "clue": "Long-standing GERD with new difficulty swallowing solid food.",
    "priority": "Recognize strictures as a complication of chronic acid damage to the esophagus.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q13",
@@ -2463,7 +2465,8 @@
    ],
    "clue": "Chronic GERD with worsening symptoms and trouble swallowing.",
    "priority": "Use SBAR to recommend the test that shows esophageal mucosal damage.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q14",
@@ -2495,7 +2498,8 @@
    ],
    "clue": "Each GERD test looks at a different part of the problem.",
    "priority": "Match each GERD diagnostic test to what it evaluates.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q15",
@@ -2520,7 +2524,8 @@
    ],
    "clue": "The client adapts the diet and uses a support person.",
    "priority": "Evaluate coping with the emotional and dietary burden of GERD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q16",
@@ -2553,7 +2558,8 @@
    ],
    "clue": "Stress, distress about food limits and reduced quality of life.",
    "priority": "Assess stress, coping and quality of life in clients with GERD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q17",
@@ -2578,7 +2584,8 @@
    ],
    "clue": "Classic heartburn that responds to an antacid.",
    "priority": "Address unusual or complicated findings before controlled classic symptoms.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q18",
@@ -2615,7 +2622,8 @@
    ],
    "clue": "Routine positioning and dressing versus teaching and evaluation.",
    "priority": "Delegate routine care while keeping teaching and evaluation with the RN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q19",
@@ -2652,7 +2660,8 @@
    ],
    "clue": "Risk factors listed in the GERD overview.",
    "priority": "Identify GERD risk factors for prevention and early detection.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q20",
@@ -2686,7 +2695,8 @@
    ],
    "clue": "Respiratory and atypical symptoms of reflux.",
    "priority": "Teach early recognition of non-classic GERD symptoms.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q21",
@@ -2700,7 +2710,7 @@
     "\"Barrett esophagus is a normal part of aging, so I don't need follow-up.\"",
     "\"Reflux only matters if I have symptoms every single day.\"",
     "\"If my acid level is normal, my esophagus can't be harmed.\"",
-    "\"Ongoing acid exposure can damage my esophagus and even cause precancerous changes, so I'll follow the plan.\""
+    "\"Ongoing acid exposure can damage my esophagus and lead to precancerous changes.\""
    ],
    "correct": 3,
    "rationales": [
@@ -2711,7 +2721,8 @@
    ],
    "clue": "The client links ongoing acid exposure to esophageal damage.",
    "priority": "Reinforce that treating GERD prevents long-term esophageal damage.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q22",
@@ -2736,7 +2747,8 @@
    ],
    "clue": "A meal free of fatty, spicy, caffeinated, chocolate, alcohol and peppermint items.",
    "priority": "Evaluate diet teaching on GERD trigger foods.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q23",
@@ -2761,7 +2773,8 @@
    ],
    "clue": "Reflux flares with stress.",
    "priority": "Use stress reduction as a nonpharmacologic GERD measure.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q24",
@@ -2786,7 +2799,8 @@
    ],
    "clue": "Famotidine prescribed for mild GERD.",
    "priority": "Explain the action of H2 receptor antagonists.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q25",
@@ -2811,7 +2825,8 @@
    ],
    "clue": "Three-times-daily metoclopramide for GERD.",
    "priority": "Give metoclopramide on the before-meal schedule the book lists.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gerd-q26",
@@ -2849,7 +2864,8 @@
    ],
    "clue": "Each drug name belongs to one GERD drug class.",
    "priority": "Identify GERD drug classes to anticipate their actions.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q11",
@@ -2857,24 +2873,25 @@
    "page": 69,
    "type": "mcq",
    "clientNeed": "hpm",
-   "cjmm": "analyzeCues",
-   "stem": "A 9-year-old is admitted with pancreatitis. Based on the leading cause in children, which part of the history should the nurse explore first?",
+   "cjmm": "generateSolutions",
+   "stem": "A client recovering from acute pancreatitis asks what could bring on another attack. Which response by the nurse is accurate?",
    "options": [
-    "Exposure to alcohol, the leading cause in men",
-    "A high-fat diet causing hyperlipidemia",
-    "Gallstones, the leading cause in women",
-    "Whether the child has cystic fibrosis"
+    "\"Attacks can follow heavy drinking or a large fatty meal, often within 12 to 48 hours.\"",
+    "\"Attacks are mainly caused by stress, so relaxation alone will prevent them.\"",
+    "\"Small, low-fat meals tend to trigger attacks, so eat fewer, larger meals.\"",
+    "\"Only daily drinking is a risk, so an occasional heavy weekend is safe.\""
    ],
-   "correct": 3,
+   "correct": 0,
    "rationales": [
-    "Alcohol is the leading cause in men, not children.",
-    "Hyperlipidemia is a metabolic cause, but it is not the leading cause in children.",
-    "Gallstones are the leading cause in women, not children.",
-    "The book names cystic fibrosis as the leading cause of pancreatitis in children."
+    "The book lists attacks starting 12 to 48 hours after alcohol intake or a large fatty meal, so avoiding both lowers the risk of recurrence.",
+    "Stress is not listed as a cause of pancreatitis; alcohol and gallstone-related fatty meals are the named triggers.",
+    "Small, low-fat meals are what the diet progresses to; a large fatty meal is the listed trigger.",
+    "Any heavy alcohol intake can trigger an attack within 12 to 48 hours; alcohol is the leading cause in men."
    ],
-   "clue": "Pancreatitis in a child.",
-   "priority": "Use the leading cause by age and sex to focus the history.",
-   "batch": "v3"
+   "clue": "The client wants to prevent another attack.",
+   "priority": "Teach avoidance of the known triggers of pancreatitis: alcohol and large fatty meals.",
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q12",
@@ -2899,7 +2916,8 @@
    ],
    "clue": "A marker more specific to the pancreas.",
    "priority": "Interpret pancreatic enzyme results.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q13",
@@ -2924,7 +2942,8 @@
    ],
    "clue": "New hyperglycemia in pancreatitis.",
    "priority": "Link pancreatic injury to impaired insulin release and hyperglycemia.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q14",
@@ -2935,7 +2954,7 @@
    "cjmm": "analyzeCues",
    "stem": "The nurse is reviewing results for a client with suspected acute pancreatitis. For each result, indicate whether it is consistent with acute pancreatitis or within normal limits.",
    "rows": [
-    "Serum lipase above 60 units/L",
+    "Serum lipase 900 units/L",
     "Serum calcium 7.6 mg/dL",
     "Serum glucose 88 mg/dL",
     "CT showing an enlarged pancreas with fluid collections",
@@ -2953,7 +2972,7 @@
     1
    ],
    "rationales": [
-    "The book lists lipase above 60 units/L as abnormal.",
+    "Lipase far above the upper limit of 60 units/L that the book gives points to pancreatic inflammation.",
     "Calcium below 8.2 mg/dL is abnormal; fat necrosis binds free calcium.",
     "The book's normal glucose range is 60 to 100 mg/dL.",
     "Enlargement, necrosis and fluid collections on CT are abnormal findings.",
@@ -2961,7 +2980,8 @@
    ],
    "clue": "Compare each result with the book's normal ranges.",
    "priority": "Interpret lab and imaging results in suspected pancreatitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q15",
@@ -2986,7 +3006,8 @@
    ],
    "clue": "Hypotension that persists after fluids.",
    "priority": "Know the purpose of each drug used in acute pancreatitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q16",
@@ -2995,32 +3016,30 @@
    "type": "sata",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with acute pancreatitis has no signs of infection and no biliary cause. Which medications should the nurse expect to support the treatment goals? Select all that apply.",
+   "stem": "A client in the initial phase of treatment for acute pancreatitis is NPO. Laboratory results show low calcium, magnesium and potassium levels. Which orders should the nurse anticipate? Select all that apply.",
    "options": [
-    "An H2 blocker to control gastric acid",
-    "Imipenem to prevent infection",
-    "Albumin to help restore blood volume",
-    "Insulin if blood glucose rises",
-    "Tramadol for pain control",
-    "Ampicillin started routinely on admission"
+    "IV potassium replacement",
+    "Oral calcium tablets with breakfast",
+    "Magnesium replacement",
+    "Calcium replacement",
+    "Holding all electrolyte replacement until the client can eat"
    ],
    "correct": [
     0,
     2,
-    3,
-    4
+    3
    ],
    "rationales": [
-    "The book lists H2 blockers to control gastric acid.",
-    "The book says antibiotics are for infected necrosis or biliary causes and are not used to prevent infection.",
-    "Albumin is listed with lactated Ringer's for fluid resuscitation to restore blood volume.",
-    "Glucose is monitored every 6 hours, and insulin may be needed.",
-    "Tramadol is one of the opioids the book lists for pain.",
-    "Routine antibiotics without infection or a biliary cause are not used."
+    "The book lists calcium, magnesium and potassium replacement to correct electrolyte imbalances.",
+    "The client is NPO to suppress pancreatic enzyme secretion, so oral tablets with a meal are not appropriate now.",
+    "Magnesium replacement is listed to correct electrolyte imbalances.",
+    "Calcium replacement is listed; fat necrosis binds calcium, so levels fall in pancreatitis.",
+    "Replacement is part of initial management and is not delayed until the client eats."
    ],
-   "clue": "No infection, so no prophylactic antibiotics.",
-   "priority": "Anticipate drug therapy that matches pancreatitis treatment goals.",
-   "batch": "v3"
+   "clue": "Low calcium, magnesium and potassium in an NPO client.",
+   "priority": "Anticipate electrolyte replacement during initial management of acute pancreatitis.",
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q17",
@@ -3045,7 +3064,8 @@
    ],
    "clue": "Long-term pain with loss of hope.",
    "priority": "Recognize hopelessness in chronic pancreatitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q18",
@@ -3082,7 +3102,8 @@
    ],
    "clue": "Breathing and circulation changes versus typical pancreatitis findings.",
    "priority": "Prioritize airway, breathing and circulation over expected findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q19",
@@ -3107,7 +3128,8 @@
    ],
    "clue": "New confusion with attempts to get out of bed.",
    "priority": "Prevent injury in a confused, acutely ill client.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q20",
@@ -3132,7 +3154,8 @@
    ],
    "clue": "The client does not understand the planned procedure.",
    "priority": "Make sure consent is informed before an invasive procedure.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pancreatitis-q21",
@@ -3163,7 +3186,8 @@
    ],
    "clue": "Stable client starting to eat after pancreatitis.",
    "priority": "Teach the gradual, low-fat diet progression.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q11",
@@ -3172,7 +3196,7 @@
    "type": "matrix",
    "clientNeed": "hpm",
    "cjmm": "generateSolutions",
-   "stem": "A client with peptic ulcer disease asks which habits will help the ulcer heal. For each habit, indicate whether it is supported by the book's teaching.",
+   "stem": "A client with peptic ulcer disease asks which habits will help the ulcer heal. For each habit, indicate whether the nurse should recommend it.",
    "rows": [
     "Quitting smoking",
     "Eating only bland foods",
@@ -3181,8 +3205,8 @@
     "Stopping alcohol"
    ],
    "columns": [
-    "Supported",
-    "Not supported"
+    "Recommend",
+    "Do not recommend"
    ],
    "correct": [
     0,
@@ -3200,7 +3224,8 @@
    ],
    "clue": "Lifestyle habits that affect ulcer healing.",
    "priority": "Teach lifestyle changes that support ulcer healing.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q12",
@@ -3215,23 +3240,23 @@
     "Serum amylase",
     "Fecal antigen test",
     "HIDA scan",
-    "IgG antibody test"
+    "Coagulation profile"
    ],
    "correct": [
     0,
-    2,
-    4
+    2
    ],
    "rationales": [
-    "The urea breath test is listed as an H. pylori test.",
+    "The urea breath test is listed and detects active H. pylori infection.",
     "Serum amylase is a pancreatitis test, not an H. pylori test.",
-    "The fecal antigen test is listed as an H. pylori test.",
+    "The fecal antigen test is listed and detects active H. pylori infection.",
     "A HIDA scan evaluates the gallbladder.",
-    "IgG antibodies are listed as an H. pylori test."
+    "A coagulation profile is a PUD lab for bleeding risk, but it does not detect H. pylori."
    ],
    "clue": "Tests that detect H. pylori.",
    "priority": "Anticipate the diagnostic tests for H. pylori.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q13",
@@ -3269,7 +3294,8 @@
    ],
    "clue": "Each finding fits one ulcer complication.",
    "priority": "Distinguish perforation, hemorrhage and obstruction in PUD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q14",
@@ -3294,7 +3320,8 @@
    ],
    "clue": "An over-the-counter NSAID.",
    "priority": "Prevent ulcer worsening by avoiding NSAIDs.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q15",
@@ -3327,7 +3354,8 @@
    ],
    "clue": "Drugs that damage the gastric mucosa.",
    "priority": "Identify medications that increase ulcer risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q16",
@@ -3352,7 +3380,8 @@
    ],
    "clue": "The triple therapy order has only one antibiotic.",
    "priority": "Clarify incomplete medication orders before giving them.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q17",
@@ -3377,7 +3406,8 @@
    ],
    "clue": "Bowel sounds that become diminished with worsening pain.",
    "priority": "See the client with signs of perforation first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q18",
@@ -3402,7 +3432,8 @@
    ],
    "clue": "Significant weight loss in a client with PUD.",
    "priority": "Collaborate with dietary counseling for weight loss.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q19",
@@ -3433,7 +3464,8 @@
    ],
    "clue": "Stress worsens symptoms, while H. pylori and NSAIDs are the causes.",
    "priority": "Evaluate understanding of the role of stress in PUD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q20",
@@ -3471,7 +3503,8 @@
    ],
    "clue": "Each drug belongs to one PUD drug group.",
    "priority": "Match PUD drugs with their purpose.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-pud-q21",
@@ -3496,7 +3529,8 @@
    ],
    "clue": "Night pain hours after a meal in a duodenal ulcer.",
    "priority": "Use the duodenal ulcer pain pattern to guide comfort measures.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q11",
@@ -3530,7 +3564,8 @@
    ],
    "clue": "Non-H. pylori causes of chronic gastritis.",
    "priority": "Identify risk factors for chronic gastritis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q12",
@@ -3544,7 +3579,7 @@
     "\"It checks whether your gallbladder fills with tracer.\"",
     "\"It only shows structural changes, so another test is needed to see inflammation.\"",
     "\"It measures pressure in your esophagus while you swallow.\"",
-    "\"It shows where and how deep the inflammation is, finds the cause and rules out stomach cancer.\""
+    "\"It shows where the inflammation is and helps find its cause.\""
    ],
    "correct": 3,
    "rationales": [
@@ -3555,7 +3590,8 @@
    ],
    "clue": "EGD with biopsy for suspected gastritis.",
    "priority": "Explain what EGD shows in gastritis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q13",
@@ -3580,7 +3616,8 @@
    ],
    "clue": "Bleeding signs that the nurse must interpret for the provider.",
    "priority": "Communicate clinical findings clearly with SBAR.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q14",
@@ -3611,7 +3648,8 @@
    ],
    "clue": "NSAIDs, steroids and OTC drugs in the medication history.",
    "priority": "Identify medications that can injure the stomach lining.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q15",
@@ -3620,7 +3658,7 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with acute gastritis is receiving an H2 antagonist and an antacid. Which finding shows the drug therapy is meeting the book's management goal?",
+   "stem": "A client with acute gastritis is receiving an H2 antagonist and an antacid. Which finding shows the drug therapy is meeting the goal of initial management?",
    "options": [
     "Gastric pH maintained above 4",
     "Increased gastric acid production",
@@ -3636,7 +3674,8 @@
    ],
    "clue": "Goal of acid-reducing therapy in acute gastritis.",
    "priority": "Evaluate acid-suppression therapy against its target.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q16",
@@ -3661,7 +3700,8 @@
    ],
    "clue": "Vasopressin started for bleeding gastritis.",
    "priority": "Explain the purpose of vasopressin in hemorrhagic gastritis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q17",
@@ -3698,7 +3738,8 @@
    ],
    "clue": "Reports that match the book's bleeding signs.",
    "priority": "Follow up on delegated reports that suggest bleeding.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q18",
@@ -3729,7 +3770,8 @@
    ],
    "clue": "Alcohol, caffeine, spicy and fatty foods.",
    "priority": "Teach diet changes that protect the stomach lining.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q19",
@@ -3754,7 +3796,8 @@
    ],
    "clue": "Bleeding signs with a soft abdomen.",
    "priority": "Avoid false reassurance from a normal abdominal exam.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q20",
@@ -3788,7 +3831,8 @@
    ],
    "clue": "Superficial erosive injury versus long-term patterns.",
    "priority": "Differentiate acute from chronic gastritis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gastritis-q21",
@@ -3813,7 +3857,8 @@
    ],
    "clue": "Signs of blood loss in a client who wants to walk alone.",
    "priority": "Prevent falls in a client who may be bleeding.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q10",
@@ -3829,7 +3874,7 @@
     "Regular aerobic exercise",
     "Chemical toxin exposure",
     "A high-fiber diet",
-    "Protein deficiency from malnutrition"
+    "Hepatitis B infection"
    ],
    "correct": [
     0,
@@ -3843,11 +3888,12 @@
     "Exercise is not listed as a cause.",
     "Chemical toxin exposure is listed among other causes.",
     "A high-fiber diet is not listed as a cause.",
-    "Malnutrition and protein deficiency are listed among other causes."
+    "Hepatitis B is listed among the other causes of cirrhosis."
    ],
    "clue": "Causes listed in the cirrhosis causes box.",
    "priority": "Identify risk factors for cirrhosis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q11",
@@ -3872,7 +3918,8 @@
    ],
    "clue": "Ascites and varices in cirrhosis.",
    "priority": "Connect liver scarring to portal hypertension and its complications.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q12",
@@ -3897,7 +3944,8 @@
    ],
    "clue": "Labs and imaging suggest liver injury.",
    "priority": "Know which test confirms cirrhosis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q13",
@@ -3934,7 +3982,8 @@
    ],
    "clue": "Acute bleeding and new neurologic changes versus long-standing signs.",
    "priority": "Prioritize life-threatening changes over expected chronic findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q14",
@@ -3959,7 +4008,8 @@
    ],
    "clue": "New confusion and asterixis with attempts to get up alone.",
    "priority": "Prevent injury in a client with cognitive changes.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q15",
@@ -3968,7 +4018,7 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with cirrhosis has muscle wasting, fatigue and a poor appetite. Which plan best reflects the book's treatment and nursing goals?",
+   "stem": "A client with cirrhosis has muscle wasting, fatigue and a poor appetite. Which plan of care is most appropriate?",
    "options": [
     "Delay nutrition planning until transplant is considered.",
     "Provide nutritional support and encourage mobility as tolerated.",
@@ -3984,7 +4034,8 @@
    ],
    "clue": "Muscle wasting and poor appetite in cirrhosis.",
    "priority": "Support nutrition and mobility in cirrhosis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q16",
@@ -4009,7 +4060,8 @@
    ],
    "clue": "The client has reduced but not stopped drinking.",
    "priority": "Support alcohol cessation with therapeutic communication.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q17",
@@ -4034,7 +4086,8 @@
    ],
    "clue": "Bleeding tendencies in cirrhosis.",
    "priority": "Use bleeding precautions to prevent injury.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q18",
@@ -4059,7 +4112,8 @@
    ],
    "clue": "TIPS planned for recurrent ascites.",
    "priority": "Explain the purpose of TIPS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q19",
@@ -4068,7 +4122,7 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "A client with end-stage cirrhosis and worsening liver failure asks whether any options remain. Which response reflects the book's surgical option?",
+   "stem": "A client with end-stage cirrhosis and worsening liver failure asks whether any options remain. Which response by the nurse is most appropriate?",
    "options": [
     "\"A TIPS procedure will cure the cirrhosis.\"",
     "\"Stopping alcohol now will reverse the scarring.\"",
@@ -4084,7 +4138,8 @@
    ],
    "clue": "End-stage cirrhosis.",
    "priority": "Coordinate referral for transplant evaluation in end-stage disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-cirrhosis-q20",
@@ -4121,7 +4176,8 @@
    ],
    "clue": "Excess fluid volume from ascites and portal hypertension.",
    "priority": "Plan care that balances fluids while supporting nutrition and knowledge.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q9",
@@ -4146,7 +4202,8 @@
    ],
    "clue": "An older adult with gallstones and few classic signs.",
    "priority": "Avoid missing cholecystitis in older adults with atypical findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q10",
@@ -4171,7 +4228,8 @@
    ],
    "clue": "Severe pain that resembles a heart attack.",
    "priority": "Rule out the most life-threatening cause first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q11",
@@ -4196,7 +4254,8 @@
    ],
    "clue": "The gallbladder does not fill on HIDA scan.",
    "priority": "Interpret HIDA scan results.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q12",
@@ -4230,7 +4289,8 @@
    ],
    "clue": "Antibiotics and antiemetics in cholecystitis.",
    "priority": "Match cholecystitis drugs with their purpose.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q13",
@@ -4255,7 +4315,8 @@
    ],
    "clue": "Bile flow obstruction.",
    "priority": "Anticipate vitamin supplementation when bile flow is blocked.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q14",
@@ -4286,7 +4347,8 @@
    ],
    "clue": "Severe gallbladder pain episodes.",
    "priority": "Provide comfort measures during biliary pain.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q15",
@@ -4320,7 +4382,8 @@
    ],
    "clue": "The book's outpatient criteria.",
    "priority": "Evaluate readiness for outpatient management.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-gallbladder-q16",
@@ -4345,7 +4408,8 @@
    ],
    "clue": "Weight-loss plan in a client prone to gallstones.",
    "priority": "Teach gallstone prevention through gradual weight loss.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q9",
@@ -4379,7 +4443,8 @@
    ],
    "clue": "Patchy, deep inflammation with granulomas.",
    "priority": "Recognize the pathology of Crohn disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q10",
@@ -4388,7 +4453,7 @@
    "type": "mcq",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A client with chronic diarrhea and right lower quadrant pain has lab work. Which result specifically supports Crohn disease, according to the book?",
+   "stem": "A client with chronic diarrhea and right lower quadrant pain has lab work. Which result most specifically suggests Crohn disease?",
    "options": [
     "Elevated serum lipase",
     "Low CRP and ESR",
@@ -4404,7 +4469,8 @@
    ],
    "clue": "A marker the book ties to Crohn disease.",
    "priority": "Interpret labs in suspected Crohn disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q11",
@@ -4438,7 +4504,8 @@
    ],
    "clue": "Signs of malnutrition and dehydration.",
    "priority": "Recognize nutritional and fluid deficits in Crohn disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q12",
@@ -4451,19 +4518,20 @@
    "options": [
     "\"You'll probably never feel well for long, so prepare for the worst.\"",
     "\"Try not to think about it, because worrying will cause a flare.\"",
-    "\"It's great that you feel well. Crohn disease tends to cycle between remission and flares, so let's plan how you'll manage that.\"",
+    "\"It's great that you feel well. Crohn disease can flare again, so let's plan for that.\"",
     "\"Yes, once symptoms stop for months, the disease is gone.\""
    ],
    "correct": 2,
    "rationales": [
     "This is discouraging and does not support coping.",
-    "The book says emotional stress is a result, not a cause.",
+    "Telling the client not to think about it dismisses the concern and does not prepare the client for a possible flare.",
     "The book describes periods of remission and exacerbation; the response supports the client while setting realistic expectations.",
     "Crohn disease is chronic, so this gives false reassurance."
    ],
    "clue": "A client in remission believes the disease is cured.",
    "priority": "Support realistic coping with a remitting, relapsing illness.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q13",
@@ -4488,7 +4556,8 @@
    ],
    "clue": "The roles of anti-TNF agents, steroids, loperamide and antispasmodics.",
    "priority": "Know the role of anti-TNF agents in Crohn disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q14",
@@ -4513,7 +4582,8 @@
    ],
    "clue": "Fever plus signs of dehydration.",
    "priority": "Prioritize possible infection and dehydration.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-crohn-q15",
@@ -4522,7 +4592,7 @@
    "type": "sata",
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "stem": "A client newly diagnosed with Crohn disease asks what causes it. Which factors does the book list as possible contributors? Select all that apply.",
+   "stem": "A client newly diagnosed with Crohn disease asks what causes it. Which factors should the nurse include as possible contributors? Select all that apply.",
    "options": [
     "Genetic predisposition",
     "Emotional stress as the main cause",
@@ -4545,7 +4615,8 @@
    ],
    "clue": "Causes listed in the Crohn disease box.",
    "priority": "Teach the factors linked to Crohn disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-uc-q7",
@@ -4559,18 +4630,19 @@
     "Cancel the test and document the reason.",
     "Tell the client the test carries no risk.",
     "Proceed as scheduled, since the test shows disease distribution.",
-    "Check with the provider about the test, since the book advises caution in severe disease."
+    "Contact the provider before the test, since severe disease calls for caution."
    ],
    "correct": 3,
    "rationales": [
     "Nurses do not cancel ordered tests on their own; the concern goes to the provider.",
     "The book's caution means the test is not risk-free in severe disease.",
     "Proceeding without raising the concern ignores the caution for severe disease.",
-    "The book says barium enema shows disease distribution and depth but calls for caution in severe cases."
+    "The book says barium enema shows disease distribution and depth but calls for caution in severe cases; the nurse raises the concern with the provider before the test."
    ],
    "clue": "Barium enema planned during a severe flare.",
    "priority": "Question a test that needs caution in severe disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-uc-q8",
@@ -4579,7 +4651,7 @@
    "type": "sata",
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "stem": "During the health history of a client with ulcerative colitis, which other findings should the nurse ask about? Select all that apply.",
+   "stem": "The nurse is taking the health history of a client with ulcerative colitis. Which findings are associated with the disease and should be included in the history? Select all that apply.",
    "options": [
     "Low-grade fevers",
     "Joint swelling",
@@ -4595,13 +4667,14 @@
    "rationales": [
     "The book says to ask about low-grade fevers.",
     "Joint swelling is an inflammatory condition the book says to ask about.",
-    "Right upper quadrant pain after fatty meals suggests gallbladder disease.",
+    "Right upper quadrant pain after fatty meals suggests gallbladder disease, not ulcerative colitis.",
     "Uveitis is an inflammatory condition the book says to ask about.",
-    "In ulcerative colitis, abdominal pain is relieved by defecation."
+    "In ulcerative colitis, abdominal pain is relieved by defecation, so pain that worsens afterward is not typical."
    ],
    "clue": "Fevers and other inflammatory conditions.",
    "priority": "Assess for related inflammatory findings in ulcerative colitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-uc-q9",
@@ -4615,7 +4688,7 @@
     "Encourage the client to walk to the bathroom alone to keep up strength.",
     "Allow independent toileting as long as the client feels steady sitting up.",
     "Limit fluids to reduce the number of stools.",
-    "Provide a bedside commode or assist the client to the bathroom, with fall precautions in place."
+    "Provide a bedside commode or help with toileting, using fall precautions."
    ],
    "correct": 3,
    "rationales": [
@@ -4626,7 +4699,8 @@
    ],
    "clue": "Frequent stools with dehydration and weakness.",
    "priority": "Prevent falls in a weak, dehydrated client.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-uc-q10",
@@ -4651,7 +4725,8 @@
    ],
    "clue": "Sulfasalazine for ulcerative colitis.",
    "priority": "Explain the purpose of anti-inflammatory drugs in ulcerative colitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q9",
@@ -4676,7 +4751,8 @@
    ],
    "clue": "Rectal bleeding in diverticular disease.",
    "priority": "Report bleeding promptly in diverticular disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q10",
@@ -4701,7 +4777,8 @@
    ],
    "clue": "Tolerating liquids after NPO.",
    "priority": "Follow the diet progression after diverticulitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q11",
@@ -4738,7 +4815,8 @@
    ],
    "clue": "Left-sided findings of diverticular disease.",
    "priority": "Recognize the assessment findings of diverticular disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q12",
@@ -4763,7 +4841,8 @@
    ],
    "clue": "Symptoms worsen with stress, and the client is worn down.",
    "priority": "Support coping with stress-reduction strategies.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q13",
@@ -4788,7 +4867,8 @@
    ],
    "clue": "Immunocompromise in diverticulitis.",
    "priority": "Prioritize monitoring for clients at highest risk of complications.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q14",
@@ -4802,7 +4882,7 @@
     "A stimulant laxative to empty the bowel",
     "Metronidazole",
     "An anticholinergic to relieve spasms",
-    "Daily antibiotics for clients with symptom-free diverticulosis",
+    "A daily fiber supplement started on admission",
     "Ciprofloxacin"
    ],
    "correct": [
@@ -4814,12 +4894,13 @@
     "The plan for diverticulitis is bowel rest, not stimulant laxatives.",
     "Metronidazole is a listed antibiotic.",
     "Anticholinergics are listed to relieve spasms.",
-    "The book treats diverticulosis with a high-fiber diet and stool softeners, not antibiotics.",
+    "Fiber is added only after the low-residue stage; the client starts NPO for bowel rest.",
     "Ciprofloxacin is a listed antibiotic."
    ],
    "clue": "Drugs listed for diverticulitis.",
    "priority": "Anticipate drug therapy for diverticulitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-diverticular-q15",
@@ -4844,7 +4925,8 @@
    ],
    "clue": "Planned resection with a possible ostomy.",
    "priority": "Plan discharge support for wound and ostomy care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q9",
@@ -4869,7 +4951,8 @@
    ],
    "clue": "CT for RLQ pain.",
    "priority": "Interpret imaging in suspected appendicitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q10",
@@ -4882,19 +4965,20 @@
    "options": [
     "\"There's nothing to be afraid of. Just sign the form.\"",
     "\"You don't have a choice. The surgery is already scheduled.\"",
-    "\"Your fear makes sense. Most serious problems come from complications like rupture, not the surgery itself. Tell me what worries you, and I'll let the surgeon know.\"",
+    "\"Your fear makes sense. Delaying care can lead to rupture. What worries you most?\"",
     "\"Waiting is fine; appendicitis usually settles on its own.\""
    ],
    "correct": 2,
    "rationales": [
     "This minimizes the client's fear.",
     "This dismisses the client's right to make an informed decision.",
-    "The book says complications such as rupture, peritonitis and sepsis cause most deaths, not the surgery; acknowledging fear and involving the surgeon supports an informed choice.",
+    "The book says complications such as rupture, peritonitis and sepsis cause most deaths, not the surgery itself; acknowledging the fear, giving accurate information and exploring concerns supports an informed choice.",
     "Appendicitis can progress to rupture, so this is false reassurance."
    ],
    "clue": "Fear of surgery leading to a wish to delay.",
    "priority": "Address fear while giving accurate information about risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q11",
@@ -4928,7 +5012,8 @@
    ],
    "clue": "Signs listed for suspected rupture.",
    "priority": "Recognize and report signs of appendix rupture.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q12",
@@ -4963,7 +5048,8 @@
    ],
    "clue": "Fluids, antibiotics and analgesics in appendicitis.",
    "priority": "Match appendicitis drugs with their purpose.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q13",
@@ -4988,7 +5074,8 @@
    ],
    "clue": "Lying still with the right knee flexed.",
    "priority": "Support the client's position of comfort.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q14",
@@ -5025,7 +5112,8 @@
    ],
    "clue": "Signs of peritonitis versus normal recovery.",
    "priority": "Identify postoperative complications that need reporting.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gi-appendicitis-q15",
@@ -5036,21 +5124,22 @@
    "cjmm": "takeAction",
    "stem": "A client with uncomplicated appendicitis whose symptoms began 30 hours ago is still waiting for surgery because of operating room delays. Which action by the nurse best advocates for the client?",
    "options": [
-    "Apply a heating pad to ease pain while waiting.",
-    "Wait, because surgery can safely be delayed several days.",
-    "Contact the surgical team, since surgery is ideally done within 24 to 48 hours of symptom onset.",
-    "Start oral fluids while the client waits."
+    "Apply a heating pad to the abdomen to ease pain while waiting.",
+    "Reassure the client that surgery can safely wait several more days.",
+    "Notify the surgical team that the ideal window for surgery is closing.",
+    "Offer oral fluids so the client stays hydrated while waiting."
    ],
    "correct": 2,
    "rationales": [
     "The book says to avoid heat on the abdomen.",
-    "Delay increases the risk of rupture.",
+    "Delay increases the risk of rupture; the book advises surgery within 24 to 48 hours of symptom onset.",
     "The book says surgery is ideally done within 24 to 48 hours of symptom onset.",
     "The book says to keep the client NPO before surgery."
    ],
    "clue": "The client is approaching the end of the ideal surgical window.",
    "priority": "Advocate for timely surgery.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [
@@ -5153,6 +5242,26 @@
   {
    "page": 87,
    "issue": "Nursing Care says 'Avoid strain: no heavy lifting, coughing'; advising clients to avoid coughing is unusual and may need rewording (e.g., splint when coughing). No v3 questions use the coughing advice."
+  },
+  {
+   "page": 69,
+   "issue": "\"Cystic fibrosis is the leading cause in children\" overstates current data; pediatric acute pancreatitis is most often biliary, drug-related, traumatic, systemic or idiopathic, while CFTR and other genetic causes lead in recurrent/chronic disease. A v3 item built on this was rewritten."
+  },
+  {
+   "page": 74,
+   "issue": "H. pylori serum IgG antibody testing is listed as an H. pylori test (also p76). Current guidelines advise against serology because it cannot tell active from past infection; urea breath, stool antigen or biopsy-based tests are preferred. Triple therapy with clarithromycin is also no longer the preferred first-line regimen in many regions."
+  },
+  {
+   "page": 79,
+   "issue": "\"Malnutrition, protein deficiency\" is listed as a cause of cirrhosis; this is not a recognized independent cause by current standards and should be checked."
+  },
+  {
+   "page": 71,
+   "issue": "Albumin is given as an example of IV fluid resuscitation alongside lactated Ringer's; current guidance favors goal-directed crystalloid (LR) and does not support routine albumin. Dopamine as the vasopressor is also older practice (norepinephrine is usually preferred)."
+  },
+  {
+   "page": 77,
+   "issue": "Vasopressin infusion to stop gastritis bleeding (also p78 table) is older practice; current management relies on PPIs, endoscopic therapy and transfusion. Items only test its purpose."
   }
  ]
 }

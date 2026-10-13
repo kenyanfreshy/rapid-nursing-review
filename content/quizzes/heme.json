@@ -1415,7 +1415,7 @@
    "rows": [
     "Petechiae and ecchymoses",
     "Bleeding from the gums",
-    "Mild enlargement of the spleen",
+    "Nosebleeds reported by the parent",
     "A platelet count above the normal range",
     "Ruddy skin with itching after bathing"
    ],
@@ -1433,13 +1433,14 @@
    "rationales": [
     "Expected. The book lists petechiae, bruising, and ecchymoses on physical exam.",
     "Expected. Oral bleeding is listed, along with nose and gum bleeding in the history.",
-    "Expected. The book notes mild spleen or liver enlargement may be found.",
+    "Expected. The book lists nose and gum bleeding in the history.",
     "Unexpected. The book states the platelet count is decreased in ITP.",
     "Unexpected. Ruddy skin with itching after bathing describes polycythemia, not ITP."
    ],
    "clue": "A child with possible ITP after a viral infection.",
    "priority": "Recognizing bleeding findings that fit a low platelet count.",
-   "checked": true
+   "checked": true,
+   "reviewNote": "v3 review: spleen row removed (an enlarged spleen points away from ITP)."
   },
   {
    "id": "heme-itp-q5",
@@ -2080,7 +2081,7 @@
    "rationales": [
     "Correct. The book lists increased iron requirements during pregnancy as a cause of iron deficiency.",
     "Correct. Bariatric surgery impairs iron absorption, which the book lists as a cause of iron deficiency.",
-    "Correct. The book lists kidney issues, with reduced erythropoietin, among the causes of iron deficiency.",
+    "Correct. The book lists kidney issues among the causes of iron deficiency; clients with chronic kidney disease often have poor iron absorption and blood loss (for example, with dialysis), and reduced erythropoietin adds to their anemia.",
     "Incorrect. A minor musculoskeletal injury is not among the causes of iron deficiency the book lists.",
     "Correct. The book lists athletes, who lose iron through sweat and have high demand, as at risk.",
     "Incorrect. Seasonal allergies are not among the causes of iron deficiency the book lists."
@@ -2090,7 +2091,8 @@
    "page": 156,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ida-q8",
@@ -2115,7 +2117,8 @@
    "page": 157,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ida-q9",
@@ -2148,7 +2151,8 @@
    "page": 157,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ida-q10",
@@ -2173,7 +2177,8 @@
    "page": 156,
    "clientNeed": "psych",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ida-q11",
@@ -2198,7 +2203,8 @@
    "page": 156,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ida-q12",
@@ -2223,7 +2229,8 @@
    "page": 157,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ida-q13",
@@ -2257,7 +2264,8 @@
    "page": 157,
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q9",
@@ -2294,7 +2302,8 @@
    "page": 158,
    "clientNeed": "hpm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q10",
@@ -2319,7 +2328,8 @@
    "page": 159,
    "clientNeed": "moc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q11",
@@ -2352,7 +2362,8 @@
    "page": 158,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q12",
@@ -2361,7 +2372,7 @@
    "stem": "A 6-year-old with sickle cell disease is scheduled for a transcranial Doppler study. The parent asks why it is needed. Which explanation by the nurse is accurate?",
    "options": [
     "\"It confirms the diagnosis by finding hemoglobin S in the blood.\"",
-    "\"It measures how fast blood flows in the brain to find out whether your child is at risk for stroke.\"",
+    "\"It checks how fast blood flows in the brain to screen for stroke risk.\"",
     "\"It checks whether the spleen is enlarged during a crisis.\"",
     "\"It counts the sickle-shaped cells in a blood sample.\""
    ],
@@ -2377,7 +2388,8 @@
    "page": 159,
    "clientNeed": "hpm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q13",
@@ -2414,7 +2426,8 @@
    "page": 159,
    "clientNeed": "pa",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q14",
@@ -2439,7 +2452,8 @@
    "page": 159,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q15",
@@ -2464,7 +2478,8 @@
    "page": 157,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q16",
@@ -2495,7 +2510,8 @@
    "page": 159,
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q17",
@@ -2520,7 +2536,8 @@
    "page": 159,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-sickle-q18",
@@ -2529,14 +2546,14 @@
    "stem": "The parent of a 3-year-old with sickle cell disease calls the clinic to report that the child has a new fever and is less active than usual. What is the nurse's best action?",
    "options": [
     "Advise the parent to wait 2 days to see whether the fever goes away.",
-    "Arrange for the child to be evaluated promptly, because infection can trigger a crisis and may need antibiotics.",
+    "Have the child seen by a provider right away.",
     "Tell the parent to limit fluids until the fever breaks.",
     "Reassure the parent that fever is expected in sickle cell disease."
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. Delaying care allows a possible infection, a known trigger, to progress.",
-    "Correct. The book lists infection as a crisis trigger and antibiotics for infection management.",
+    "Correct. The book lists infection as a crisis trigger and antibiotics for infection management (p159), and spleen dysfunction raises infection risk (p158); fever in a young child with SCD needs prompt evaluation.",
     "Incorrect. Limiting fluids promotes dehydration, which increases sickling.",
     "Incorrect. Fever may signal infection, which the book identifies as a trigger needing treatment."
    ],
@@ -2545,7 +2562,8 @@
    "page": 159,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q8",
@@ -2556,19 +2574,18 @@
     "Iron deficiency from a limited diet",
     "Down syndrome",
     "Hemophilia A",
-    "Albinism",
+    "Congenital clubfoot",
     "Congenital immunodeficiency"
    ],
    "correct": [
     1,
-    3,
     4
    ],
    "rationales": [
     "Incorrect. Iron deficiency is a cause of anemia, not a genetic factor for leukemia in the book.",
     "Correct. The book lists Down syndrome among genetic factors in children.",
     "Incorrect. Hemophilia A is an inherited bleeding disorder and is not listed as a leukemia risk.",
-    "Correct. The book lists albinism among genetic factors in children.",
+    "Incorrect. Clubfoot is a musculoskeletal birth defect and is not a genetic risk factor for leukemia.",
     "Correct. The book lists congenital immunodeficiency among genetic factors in children."
    ],
    "clue": "A child is being evaluated for acute leukemia.",
@@ -2576,7 +2593,8 @@
    "page": 160,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q9",
@@ -2601,7 +2619,8 @@
    "page": 160,
    "clientNeed": "pharm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q10",
@@ -2626,13 +2645,14 @@
    "page": 160,
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q11",
    "section": "heme-leukemia",
    "type": "sata",
-   "stem": "A client with acute myelogenous leukemia has low blood counts during treatment. Which additional therapies should the nurse anticipate as part of collaborative care? Select all that apply.",
+   "stem": "A client with acute myelogenous leukemia is receiving chemotherapy. Which additional therapies should the nurse recognize as part of collaborative care for acute leukemia? Select all that apply.",
    "options": [
     "Transfusions of blood products",
     "Routine phlebotomy",
@@ -2660,7 +2680,8 @@
    "page": 160,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q12",
@@ -2694,7 +2715,8 @@
    "page": 161,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q13",
@@ -2702,7 +2724,7 @@
    "type": "mcq",
    "stem": "A client with acute myelogenous leukemia has not responded to several treatment regimens and says, \"I want to make sure my family knows my wishes.\" Which action by the nurse is most appropriate?",
    "options": [
-    "Help the client begin end-of-life planning and include family members as the client wishes.",
+    "Help the client begin end-of-life planning with the family.",
     "Redirect the conversation to the next chemotherapy cycle.",
     "Tell the client it is too early to think about that.",
     "Advise the client to keep these thoughts private to avoid upsetting the family."
@@ -2719,7 +2741,8 @@
    "page": 161,
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q14",
@@ -2756,7 +2779,8 @@
    "page": 160,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q15",
@@ -2765,7 +2789,7 @@
    "stem": "A client with acute leukemia in the maintenance phase is preparing for discharge. The client lives alone, has no caregiver, and is worried about paying for medications. Which action by the nurse best supports continuity of care?",
    "options": [
     "Tell the client that maintenance therapy does not need follow-up.",
-    "Collaborate with the case manager or social worker about home care options and financial resources.",
+    "Refer the client to case management for home care and financial help.",
     "Delay discharge until a family member can move in.",
     "Give written chemotherapy information without any referrals."
    ],
@@ -2781,7 +2805,8 @@
    "page": 160,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q16",
@@ -2806,7 +2831,8 @@
    "page": 161,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-leukemia-q17",
@@ -2843,7 +2869,8 @@
    "page": 160,
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q7",
@@ -2868,7 +2895,8 @@
    "page": 162,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q8",
@@ -2893,7 +2921,8 @@
    "page": 162,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q9",
@@ -2918,7 +2947,8 @@
    "page": 162,
    "clientNeed": "pharm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q10",
@@ -2952,7 +2982,8 @@
    "page": 162,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q11",
@@ -2986,7 +3017,8 @@
    "page": 162,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q12",
@@ -2996,7 +3028,7 @@
    "options": [
     "\"Hemophilia is always passed down, so someone in your family must have had it.\"",
     "\"Let's set feelings aside for now and focus on factor replacement.\"",
-    "\"This is hard news. About one-third of cases come from a new gene change with no family history, not from anything you did.\"",
+    "\"This is hard news. About a third of cases start with a new gene change.\"",
     "\"It was likely caused by bleeding during your pregnancy.\""
    ],
    "correct": 2,
@@ -3011,7 +3043,8 @@
    "page": 161,
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-hemophilia-q13",
@@ -3036,7 +3069,8 @@
    "page": 162,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q8",
@@ -3061,7 +3095,8 @@
    "page": 164,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q9",
@@ -3086,7 +3121,8 @@
    "page": 163,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q10",
@@ -3123,7 +3159,8 @@
    "page": 163,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q11",
@@ -3154,39 +3191,43 @@
    "page": 164,
    "clientNeed": "pa",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q12",
    "section": "heme-dic",
    "type": "matrix",
-   "stem": "The nurse reviews medications that may be used in DIC. For each medication, indicate the action the book describes.",
+   "stem": "A client with DIC develops a deep vein thrombosis, and the provider prescribes a heparin infusion. For each nursing action, indicate whether it is appropriate or not appropriate.",
    "rows": [
-    "Heparin",
-    "Antithrombin III",
-    "Activated protein C"
+    "Monitor closely for new or increased bleeding",
+    "Follow frequent coagulation and platelet results",
+    "Give the prescribed analgesic by intramuscular injection",
+    "Apply pressure for only 1 to 2 minutes after a needle is removed"
    ],
    "columns": [
-    "Used for thromboembolism (use is controversial)",
-    "Enhances anticoagulant effect",
-    "Antithrombotic and profibrinolytic"
+    "Appropriate",
+    "Not appropriate"
    ],
    "correct": [
     0,
+    0,
     1,
-    2
+    1
    ],
    "rationales": [
-    "Heparin is listed for thromboembolism in DIC, and the book notes its use is controversial.",
-    "The book states antithrombin III enhances the anticoagulant effect.",
-    "The book describes activated protein C as antithrombotic and profibrinolytic."
+    "Appropriate. The book lists heparin for thromboembolism in DIC but notes its use is controversial; it can worsen the bleeding DIC already causes, so close monitoring is essential.",
+    "Appropriate. The book calls for frequent lab checks to guide treatment in DIC, which matters even more during heparin therapy.",
+    "Not appropriate. The book says to minimize needle sticks in DIC; an IM injection adds a bleeding site.",
+    "Not appropriate. The book says to apply pressure for at least 10 minutes after punctures."
    ],
-   "clue": "Medications listed for DIC have different actions.",
-   "priority": "Knowing the purpose of each medication used in DIC.",
+   "clue": "A client with DIC who now has a clot is receiving heparin.",
+   "priority": "Monitoring and bleeding precautions during heparin therapy in DIC.",
    "page": 164,
    "clientNeed": "pharm",
-   "cjmm": "analyzeCues",
-   "batch": "v3"
+   "cjmm": "takeAction",
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q13",
@@ -3196,7 +3237,7 @@
    "options": [
     "\"Please step out; you are too upset to stay at the bedside.\"",
     "\"This bleeding is normal and nothing to worry about.\"",
-    "\"I can see this is frightening. His body is using up its clotting factors, which causes bleeding, and we are watching him closely.\"",
+    "\"I can see this is frightening. His illness is using up his clotting factors.\"",
     "\"You will need to ask the provider; I cannot discuss that.\""
    ],
    "correct": 2,
@@ -3211,7 +3252,8 @@
    "page": 164,
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q14",
@@ -3245,7 +3287,8 @@
    "page": 163,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q15",
@@ -3270,7 +3313,8 @@
    "page": 163,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q16",
@@ -3295,7 +3339,8 @@
    "page": 163,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-dic-q17",
@@ -3320,7 +3365,8 @@
    "page": 163,
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q7",
@@ -3345,7 +3391,8 @@
    "page": 164,
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q8",
@@ -3370,7 +3417,8 @@
    "page": 165,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q9",
@@ -3395,13 +3443,14 @@
    "page": 165,
    "clientNeed": "pharm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q10",
    "section": "heme-transfusion",
    "type": "matrix",
-   "stem": "The nurse reviews the treatment plan for transfusion reactions. For each intervention, indicate whether the book lists it for mild reactions or severe reactions.",
+   "stem": "The nurse reviews the treatment plan for transfusion reactions. For each intervention, indicate whether it is a first-line treatment for a mild reaction or for a severe reaction.",
    "rows": [
     "Antipyretics",
     "Antihistamines",
@@ -3432,7 +3481,8 @@
    "page": 165,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q11",
@@ -3457,7 +3507,7 @@
     "Correct. The book's transfusion history includes allergies.",
     "Correct. The book's transfusion history includes prior transfusions.",
     "Incorrect. High altitude is a sickle cell trigger, not part of the transfusion history.",
-    "Correct. The book's transfusion history includes heart disease.",
+    "Correct. The book's transfusion history includes Raynaud syndrome; cold blood products can trigger vasospasm, so the nurse may need to use a blood warmer.",
     "Correct. The book's transfusion history includes Raynaud syndrome.",
     "Incorrect. A dental cleaning is not part of the book's transfusion history."
    ],
@@ -3466,7 +3516,8 @@
    "page": 165,
    "clientNeed": "safety",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q12",
@@ -3500,7 +3551,8 @@
    "page": 165,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-transfusion-q13",
@@ -3525,7 +3577,8 @@
    "page": 165,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q8",
@@ -3550,13 +3603,14 @@
    "page": 166,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q9",
    "section": "heme-polycythemia",
    "type": "mcq",
-   "stem": "The nurse is caring for four clients with polycythemia. Which finding requires the nurse's immediate action?",
+   "stem": "The nurse is assessing a client with polycythemia. Which finding requires the nurse's immediate action?",
    "options": [
     "A ruddy complexion",
     "Itching after a warm shower",
@@ -3575,7 +3629,8 @@
    "page": 165,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q10",
@@ -3600,7 +3655,8 @@
    "page": 166,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q11",
@@ -3634,13 +3690,14 @@
    "page": 167,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q12",
    "section": "heme-polycythemia",
    "type": "matrix",
-   "stem": "The nurse is reviewing treatment plans for clients with polycythemia. For each treatment, indicate the type of polycythemia the book lists it for.",
+   "stem": "The nurse is reviewing treatment plans for clients with polycythemia. For each treatment, indicate the type of polycythemia it is used for.",
    "rows": [
     "Regular phlebotomy with hydroxyurea or JAK inhibitors",
     "Correcting the underlying hypoxia",
@@ -3668,7 +3725,8 @@
    "page": 166,
    "clientNeed": "pa",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q13",
@@ -3693,7 +3751,8 @@
    "page": 166,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q14",
@@ -3718,7 +3777,8 @@
    "page": 167,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q15",
@@ -3743,7 +3803,8 @@
    "page": 167,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q16",
@@ -3777,7 +3838,8 @@
    "page": 166,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-polycythemia-q17",
@@ -3811,7 +3873,8 @@
    "page": 166,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q7",
@@ -3836,7 +3899,8 @@
    "page": 168,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q8",
@@ -3845,7 +3909,7 @@
    "stem": "A 34-year-old client with chronic ITP says, \"I am always worried that I will bleed, and I am tired of watching every bump.\" Which response by the nurse is most supportive?",
    "options": [
     "\"You need to stop worrying; your platelets will be fine.\"",
-    "\"Living with this is stressful. Tell me what worries you most, and we can plan ways to stay safe.\"",
+    "\"Living with this is stressful. Tell me what worries you most.\"",
     "\"Most adults outgrow ITP within a few weeks.\"",
     "\"Let's talk about something else to take your mind off it.\""
    ],
@@ -3861,7 +3925,8 @@
    "page": 168,
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q9",
@@ -3886,7 +3951,8 @@
    "page": 168,
    "clientNeed": "pharm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q10",
@@ -3920,7 +3986,8 @@
    "page": 168,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q11",
@@ -3945,7 +4012,8 @@
    "page": 168,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q12",
@@ -3970,7 +4038,8 @@
    "page": 168,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-itp-q13",
@@ -4007,7 +4076,8 @@
    "page": 167,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q8",
@@ -4016,7 +4086,7 @@
    "stem": "A client who had anaphylaxis from penicillin is being admitted for surgery. Which action by the nurse best helps prevent another reaction?",
    "options": [
     "Remove the allergy band so it does not confuse staff.",
-    "Document the allergy and make sure all providers and the pharmacy are informed of it.",
+    "Document the allergy and alert all providers and the pharmacy.",
     "Tell the client that the allergy will not recur after the first reaction.",
     "Give a small test dose of penicillin to check tolerance."
    ],
@@ -4032,7 +4102,8 @@
    "page": 171,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q9",
@@ -4069,7 +4140,8 @@
    "page": 169,
    "clientNeed": "hpm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q10",
@@ -4094,7 +4166,8 @@
    "page": 171,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q11",
@@ -4125,7 +4198,8 @@
    "page": 171,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q12",
@@ -4159,7 +4233,8 @@
    "page": 171,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q13",
@@ -4184,7 +4259,8 @@
    "page": 171,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q14",
@@ -4218,7 +4294,8 @@
    "page": 171,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q15",
@@ -4255,7 +4332,8 @@
    "page": 171,
    "clientNeed": "pa",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q16",
@@ -4263,7 +4341,7 @@
    "type": "mcq",
    "stem": "The nurse teaches the parent of a child who had anaphylaxis after eating peanuts. The parent had been very anxious about another reaction. Which statement best shows the teaching helped the parent cope?",
    "options": [
-    "\"I feel more confident now that I know how to avoid peanuts, spot early signs, and act in an emergency.\"",
+    "\"I know how to avoid peanuts, spot early signs, and act fast.\"",
     "\"I am never letting him leave the house again.\"",
     "\"I don't need to tell his school, because it won't happen again.\"",
     "\"If it happens, I will wait to see whether it gets worse before doing anything.\""
@@ -4280,7 +4358,8 @@
    "page": 171,
    "clientNeed": "psych",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-anaphylaxis-q17",
@@ -4314,13 +4393,14 @@
    "page": 171,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-lupus-q7",
    "section": "heme-lupus",
    "type": "sata",
-   "stem": "The nurse reviews the medication history of a client with new joint pain and a facial rash. Which medications does the book list as risk factors for lupus? Select all that apply.",
+   "stem": "The nurse reviews the medication history of a client with new joint pain and a facial rash. Which medications are risk factors for lupus? Select all that apply.",
    "options": [
     "Hydroxychloroquine",
     "Hydralazine",
@@ -4345,7 +4425,8 @@
    "page": 172,
    "clientNeed": "hpm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-lupus-q8",
@@ -4354,7 +4435,7 @@
    "stem": "The nurse is reviewing data for four clients with SLE. Which client should the nurse follow up with first?",
    "options": [
     "A client with a stable butterfly rash",
-    "A client whose BUN and creatinine have risen since the last visit and who has proteinuria",
+    "A client with rising BUN and creatinine and new proteinuria",
     "A client asking about hypoallergenic hair products",
     "A client with fatigue during a mild flare"
    ],
@@ -4370,7 +4451,8 @@
    "page": 172,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-lupus-q9",
@@ -4378,14 +4460,14 @@
    "type": "mcq",
    "stem": "The nurse teaches a client with SLE who takes immune-suppressing medications about preventing infection. Which client statement indicates the teaching was effective?",
    "options": [
-    "\"I should spend more time in crowded places to build up my immunity.\"",
+    "\"I can wash my hands less because my medicine protects me.\"",
     "\"Infections are unlikely because lupus makes my immune system stronger.\"",
-    "\"I will wash my hands often and stay away from people who are sick.\"",
+    "\"I will wash my hands often and avoid crowds during flu season.\"",
     "\"I can skip rest periods because staying busy keeps germs away.\""
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. Crowded places increase exposure to infection.",
+    "Incorrect. Immune-suppressing medicines increase infection risk; they do not protect against infection.",
     "Incorrect. The book states the immune system is vulnerable in lupus.",
     "Correct. The book says to prevent infections because the immune system is vulnerable; infection is a leading cause of death in SLE.",
     "Incorrect. The book calls for rest during flares and pacing activities."
@@ -4395,7 +4477,8 @@
    "page": 173,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-lupus-q10",
@@ -4407,7 +4490,7 @@
     "Corticosteroids for nephritis",
     "An anticonvulsant for seizures",
     "An NSAID for joint pain",
-    "Methotrexate or belimumab to suppress the immune system"
+    "Belimumab to suppress the immune system"
    ],
    "columns": [
     "Appropriate",
@@ -4425,14 +4508,15 @@
     "Appropriate. The book lists corticosteroids for severe symptoms such as nephritis.",
     "Appropriate. The book lists anticonvulsants for seizures.",
     "Should be avoided. The book says to avoid NSAIDs if nephritis is present.",
-    "Appropriate. The book lists DMARDs such as methotrexate and belimumab to suppress the immune system."
+    "Appropriate. The book lists belimumab among agents that suppress the immune system in lupus, and it is approved for lupus nephritis."
    ],
    "clue": "SLE with nephritis, joint pain, rash, and seizures.",
    "priority": "Choosing lupus medications that fit the client's organ involvement.",
    "page": 172,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-lupus-q11",
@@ -4443,7 +4527,7 @@
     "Advise her to stay home until the rash clears.",
     "Tell her that appearance changes are minor compared with kidney disease.",
     "Suggest strong hair dyes to cover the changes.",
-    "Invite her to share how she feels and discuss hypoallergenic grooming products and specialized hair care."
+    "Invite her to share her feelings and discuss hypoallergenic grooming products."
    ],
    "correct": 3,
    "rationales": [
@@ -4457,7 +4541,8 @@
    "page": 173,
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-lupus-q12",
@@ -4482,7 +4567,8 @@
    "page": 172,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q8",
@@ -4491,7 +4577,7 @@
    "stem": "A client newly diagnosed with rheumatoid arthritis asks how the disease damages the joints. Which explanation by the nurse is accurate?",
    "options": [
     "\"Crystals build up inside the joint and cause sudden attacks.\"",
-    "\"The joint lining becomes inflamed and thickens into pannus tissue that wears away cartilage and bone.\"",
+    "\"The joint lining swells and forms tissue that erodes cartilage and bone.\"",
     "\"The joints simply wear out from overuse as you age.\"",
     "\"Bacteria infect the fluid inside the joint.\""
    ],
@@ -4507,7 +4593,8 @@
    "page": 173,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q9",
@@ -4517,7 +4604,7 @@
    "options": [
     "Measure abdominal girth.",
     "Obtain a transcranial Doppler study.",
-    "Test grip strength, finger movement, shoulder shrug, and walking ability.",
+    "Test grip strength, finger movement, and walking ability.",
     "Inspect the nails for spoon shapes."
    ],
    "correct": 2,
@@ -4532,38 +4619,39 @@
    "page": 174,
    "clientNeed": "bcc",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q10",
    "section": "heme-ra",
    "type": "sata",
-   "stem": "The nurse is reviewing orders for a client with rheumatoid arthritis. Which tests are listed as markers of inflammation? Select all that apply.",
+   "stem": "The nurse is reviewing orders for a client with rheumatoid arthritis. Which laboratory tests measure inflammation? Select all that apply.",
    "options": [
     "Hemoglobin electrophoresis",
     "C-reactive protein",
     "Erythrocyte sedimentation rate (ESR)",
     "Transcranial Doppler",
-    "Complete blood count (CBC)"
+    "Anti-CCP antibodies"
    ],
    "correct": [
     1,
-    2,
-    4
+    2
    ],
    "rationales": [
     "Incorrect. Hemoglobin electrophoresis detects hemoglobin S in sickle cell disease.",
     "Correct. The book lists C-reactive protein as an inflammation marker.",
     "Correct. The book lists ESR as an inflammation marker.",
     "Incorrect. Transcranial Doppler screens for stroke risk in sickle cell disease.",
-    "Correct. The book lists CBC under inflammation markers."
+    "Incorrect. Anti-CCP antibodies help tell RA apart from other types of arthritis; they do not measure how much inflammation is present."
    ],
    "clue": "Tests ordered to assess RA inflammation.",
    "priority": "Recognizing laboratory markers of inflammation in RA.",
    "page": 175,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q11",
@@ -4588,7 +4676,8 @@
    "page": 175,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q12",
@@ -4613,7 +4702,8 @@
    "page": 175,
    "clientNeed": "pharm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q13",
@@ -4651,7 +4741,8 @@
    "page": 175,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q14",
@@ -4681,13 +4772,14 @@
    "page": 174,
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q15",
    "section": "heme-ra",
    "type": "matrix",
-   "stem": "The nurse is planning care for clients with rheumatoid arthritis. For each nursing action, indicate whether the book lists it for the acute phase or the chronic phase.",
+   "stem": "The nurse is planning care for clients with rheumatoid arthritis. For each nursing action, indicate whether it is a focus of the acute phase or the chronic phase.",
    "rows": [
     "Rest the inflamed joints",
     "Promote gentle movement",
@@ -4715,7 +4807,8 @@
    "page": 174,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q16",
@@ -4740,7 +4833,8 @@
    "page": 174,
    "clientNeed": "moc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "heme-ra-q17",
@@ -4765,7 +4859,8 @@
    "page": 174,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [

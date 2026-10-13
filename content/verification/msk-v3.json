@@ -1,0 +1,19 @@
+{
+ "chapter": "msk",
+ "reviewed": 18,
+ "ok": 16,
+ "fixed": 2,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "msk-osteomyelitis-q5",
+   "status": "fixed",
+   "note": "The key ('...which is treatable, and needs reassurance') was the longest option and blended interpretation with an action. Reworded it to 'phantom limb pain, a real and treatable symptom'. The rationale cites gabapentin only, not the book's 'beta blockers' (p182)."
+  },
+  {
+   "id": "msk-spinal-q5",
+   "status": "fixed",
+   "note": "The key was much longer than the distractors and hedged with 'as directed by the nurse'. The stem also didn't say whether the spine was stable, though p183 says 'Immobilize spine' and repositioning an unstabilized SCI client is not a UAP task. The stem now says the spine is surgically stabilized, and the key is shortened to 'Repositioning the client on a turning schedule set by the nurse'."
+  }
+ ]
+}

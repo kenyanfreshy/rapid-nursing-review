@@ -1,0 +1,119 @@
+{
+ "chapter": "resp",
+ "reviewed": 100,
+ "ok": 78,
+ "fixed": 20,
+ "rewritten": 2,
+ "items": [
+  {
+   "id": "resp-ards-q17",
+   "status": "fixed",
+   "note": "Stem said only the sedation infusion ran out, but the key restarted 'sedation and analgesia'; stem now states both infusions ran out so the key matches (p17: NMBAs always given with analgesics and sedatives)."
+  },
+  {
+   "id": "resp-pe-q11",
+   "status": "fixed",
+   "note": "Four of five rows (oral contraceptives, atrial fibrillation, spinal cord injury, hip fracture) repeated the strong/moderate classification already tested in resp-pe-q4. Replaced with chemotherapy, major trauma, CHF, severe immobility/paralysis and history of stroke, all classified per Table 2 on p18."
+  },
+  {
+   "id": "resp-pe-q13",
+   "status": "fixed",
+   "note": "Keyed option was about twice as long as the distractors (length cue) and the clue referred to a 'long-bone fracture' the stem did not mention. Balanced option lengths and aligned clue with the stem (massive PE signs, p19)."
+  },
+  {
+   "id": "resp-pe-q14",
+   "status": "fixed",
+   "note": "Key stated a positive D-dimer means a clot 'is present'; D-dimer is nonspecific (also rises with surgery, infection, pregnancy, cancer). Key now says a clot 'may be present' and imaging is needed; rationale notes the test is sensitive but not specific (p19)."
+  },
+  {
+   "id": "resp-pe-q21",
+   "status": "fixed",
+   "note": "Stem asked what 'the book lists' rather than presenting a clinical question; reworded to a client-centered anticipate-the-therapy stem (supportive drugs row, p20)."
+  },
+  {
+   "id": "resp-pneumonia-q11",
+   "status": "fixed",
+   "note": "Distractor 'Walks briskly every day' was a giveaway; replaced with a more plausible non-risk (current vaccinations). Keys unchanged (weak cough/gag, malnutrition, artificial airway, immobility/recent surgery, p22)."
+  },
+  {
+   "id": "resp-pneumonia-q12",
+   "status": "fixed",
+   "note": "Distractors ('once a week', 'skip oral care') were implausible giveaways. Rewrote distractors as plausible but wrong care choices grounded in the HAP list on p24; key unchanged."
+  },
+  {
+   "id": "resp-pneumonia-q14",
+   "status": "fixed",
+   "note": "Keyed option was much longer than the distractors and one distractor (incentive spirometry causing headache) was implausible. Balanced lengths and replaced that distractor; key unchanged (bloodstream spread to meningitis, p21)."
+  },
+  {
+   "id": "resp-pneumonia-q16",
+   "status": "rewritten",
+   "note": "Original VAP matrix (closed suction, routine vs soiled circuit changes, bundles) duplicated resp-pneumonia-q4. Rewritten as a HAP-prevention matrix for a non-intubated post-stroke client (swallow assessment, vaccines, incentive spirometry, HOB flat during feeds), grounded on the HAP list on p24."
+  },
+  {
+   "id": "resp-aspiration-q10",
+   "status": "fixed",
+   "note": "cjmm was evaluateOutcomes, but the item asks the nurse to recognize new complication findings after aspiration (no intervention is evaluated); relabeled recognizeCues (p25)."
+  },
+  {
+   "id": "resp-copd-q17",
+   "status": "fixed",
+   "note": "Keyed option was far longer than the three short distractors (length cue). Shortened the key and lengthened distractors; key unchanged (COPD is serious and progressive, p25)."
+  },
+  {
+   "id": "resp-asthma-q13",
+   "status": "fixed",
+   "note": "Row 'Spirometry showing reversible airflow limitation' contained the cue word for its own column ('Confirms reversibility') and the book assigns that role to the bronchodilator test. Removed the row; matrix now tests bronchodilator test, methacholine challenge and allergy testing (p28)."
+  },
+  {
+   "id": "resp-asthma-q17",
+   "status": "fixed",
+   "note": "Row 'Hyperinflated chest on x-ray' was keyed as needing immediate escalation, but hyperinflation is common in any asthma attack and is not by itself an escalation trigger (not a single defensible answer). Replaced with 'New lethargy and confusion', listed on p30."
+  },
+  {
+   "id": "resp-asthma-q18",
+   "status": "fixed",
+   "note": "Stem asked for SBAR 'background' items, but symptom severity and speed of onset (keyed) belong to the current situation, not background. Reworded to the focused history the nurse asks about for the report (Inquire About list, p28)."
+  },
+  {
+   "id": "resp-emphysema-q10",
+   "status": "rewritten",
+   "note": "Original item (corticosteroids short term, combined with a long-acting bronchodilator) duplicated resp-emphysema-q8 options. Rewritten as an MCQ on prompt antibiotic treatment of infection in emphysema, grounded on Collaborative Interventions on p33; page changed 34 to 33."
+  },
+  {
+   "id": "resp-emphysema-q11",
+   "status": "fixed",
+   "note": "SATA had 4 keys and a single giveaway distractor (5 options), so it could be answered by elimination. Added a sixth option (well-controlled hypertension, not a listed risk) and moved the smoking key off the last slot (key risk factors, p32)."
+  },
+  {
+   "id": "resp-emphysema-q15",
+   "status": "fixed",
+   "note": "Stem asked what 'the book lists' instead of a clinical question; reworded (surgical options, p33)."
+  },
+  {
+   "id": "resp-fibrosis-q9",
+   "status": "fixed",
+   "note": "Stem had no client; reworded to a client-centered scenario (p34)."
+  },
+  {
+   "id": "resp-fibrosis-q10",
+   "status": "fixed",
+   "note": "Stem had no client; reworded to a client-centered scenario (p36)."
+  },
+  {
+   "id": "resp-fibrosis-q15",
+   "status": "fixed",
+   "note": "Removed the 'Digitalis manages cor pulmonale' row: digoxin is no longer standard for cor pulmonale (used only with coexisting LV failure or AF), so the item should not be built on it. Matrix keeps nintedanib, pirfenidone, diuretic and bronchodilator (p36)."
+  },
+  {
+   "id": "resp-pneumothorax-q8",
+   "status": "fixed",
+   "note": "Cited p36, but the tension pneumothorax signs the key depends on (distended neck veins, hypotension, tracheal deviation away, tachycardia) are on the p37 infographic; page changed to 37."
+  },
+  {
+   "id": "resp-pneumothorax-q9",
+   "status": "fixed",
+   "note": "Rationale for 'no bubbling in the water seal' said bubbling is not normal without stating that its absence is expected, which read as contradicting the 'Incorrect' label; clarified (p37)."
+  }
+ ]
+}

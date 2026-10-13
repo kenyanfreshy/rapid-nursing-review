@@ -1,0 +1,84 @@
+{
+ "chapter": "cardio",
+ "reviewed": 70,
+ "ok": 55,
+ "fixed": 15,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "cardio-acs-q17",
+   "status": "fixed",
+   "note": "The key was about twice as long as any distractor and restated the whole unstable-angina definition, which gave it away. Shortened the key to 'Pain at rest, or pain that gets more frequent or intense, needs care right away' and evened out the distractor lengths (p46)."
+  },
+  {
+   "id": "cardio-cardiomyopathy-q12",
+   "status": "fixed",
+   "note": "The ARB key was noticeably longer than the distractors. Trimmed the wording; the content still matches p50 (RAAS inhibition reduces vasoconstriction and fluid retention)."
+  },
+  {
+   "id": "cardio-hf-q7",
+   "status": "fixed",
+   "note": "The key ('Clarify the prescription, since fluids are used cautiously and large boluses avoided...') included its own rationale and was the only long option. Changed it to 'Hold the bolus and clarify the prescription with the provider' and moved the reason into the rationale (p51: use fluids cautiously, avoid a large bolus)."
+  },
+  {
+   "id": "cardio-hf-q12",
+   "status": "fixed",
+   "note": "The key was much longer than the distractors. Shortened it to 'New confusion can mean his heart failure is worsening. I'll check him now.' and lengthened the distractors to match (p51: restlessness and confusion in left-sided HF)."
+  },
+  {
+   "id": "cardio-pah-q8",
+   "status": "fixed",
+   "note": "Pregnancy was keyed as a PAH risk factor because p53 lists it. Current references treat pregnancy as a dangerous state for clients who already have PAH, not as a cause. Replaced that option with 'Methamphetamine use' (p53: stimulant abuse is an associated disease), updated the clue, and added a concern for the author."
+  },
+  {
+   "id": "cardio-pah-q12",
+   "status": "fixed",
+   "note": "The keyed client (nitric oxide stopped abruptly) was the only long, detailed option. Evened out the option lengths; the key and its p52 grounding (taper slowly to avoid rebound pulmonary HTN) are unchanged."
+  },
+  {
+   "id": "cardio-inflammatory-q13",
+   "status": "fixed",
+   "note": "The therapeutic key was about twice as long as the distractors. Shortened it ('Not knowing is hard. Often no cause is found; that is the most common type.') and evened out the distractors (p55: idiopathic is the most common cause)."
+  },
+  {
+   "id": "cardio-inflammatory-q21",
+   "status": "fixed",
+   "note": "The client was a 19-year-old (an adult), so explaining his care to his parents raised a confidentiality problem that made the key arguable. Changed the client to a 15-year-old, updated the option 4 rationale to match, and evened out the option lengths (p54: severe myocarditis can cause arrhythmias or sudden death in young people)."
+  },
+  {
+   "id": "cardio-inflammatory-q22",
+   "status": "fixed",
+   "note": "The SBAR key was the only long, detailed option. Evened out the distractor lengths; the key (suspected tamponade, evaluate now, consider echo; p56) is unchanged."
+  },
+  {
+   "id": "cardio-occlusion-q16",
+   "status": "fixed",
+   "note": "The key was the only option that gave a reason, and it was much longer. Shortened it to 'I won't massage that leg, because rubbing it could loosen the clot.' and evened out the distractors (p58: PE if the thrombus dislodges)."
+  },
+  {
+   "id": "cardio-occlusion-q17",
+   "status": "fixed",
+   "note": "The key was 2.8 times longer than the distractors. Shortened it to 'Most people with PAOD keep their legs; let's talk about protecting yours.', lengthened the distractors, and tied the rationale to p60 (amputation in about 10% of PAOD cases over 10 years)."
+  },
+  {
+   "id": "cardio-postpci-q13",
+   "status": "fixed",
+   "note": "clientNeed was pharm, but the item asks the student to recognize the signs of low cardiac output and hypoperfusion (p62). That is hemodynamics, so changed it to pa. Counts stay within tolerance: pharm 21/21, pa 17/15."
+  },
+  {
+   "id": "cardio-postpci-q16",
+   "status": "fixed",
+   "note": "The key was the only long option. Evened out the option lengths; the key (notify the provider, anticipate an echo for possible valve failure; p62) is unchanged."
+  },
+  {
+   "id": "cardio-postpci-q17",
+   "status": "fixed",
+   "note": "The therapeutic key was much longer than the distractors. Shortened it and evened out the distractors (p62: rehabilitation therapy after stroke/TIA)."
+  },
+  {
+   "id": "cardio-postpci-q18",
+   "status": "fixed",
+   "note": "The keyed client was the only long, detailed option. Evened out the option lengths; the key (growing hematoma, falling Hgb, BP 88/50; p60 bleeding signs) is unchanged."
+  }
+ ]
+}

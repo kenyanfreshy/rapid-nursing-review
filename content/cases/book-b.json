@@ -125,7 +125,8 @@
     ],
     "rationale": "The book lists the key signs of SIADH as low urine output, hypertension, weight gain and confusion (from the low sodium). This client passed only 180 mL in 8 hours, gained about 2 kg in 3 days, has a BP of 158/92 and is newly confused. Clear lungs, normal temperature, a normal glucose and a recent chemotherapy cycle are not signs of ADH excess.",
     "stepLabel": "Recognize Cues",
-    "page": 102
+    "page": 102,
+    "reviewed": "v3"
    },
    {
     "id": "s2",
@@ -166,7 +167,8 @@
     ],
     "rationale": "In SIADH, too much water in the blood dilutes it, so blood osmolality falls below 275 mOsm/L (hemodilution). The kidneys keep reabsorbing water under ADH, so the urine stays concentrated even though the sodium is low, and sodium continues to be lost in the urine (urine sodium above 40 mEq/L). Dehydration would raise blood osmolality, and kidneys trying to save sodium would make urine sodium low, not high.",
     "stepLabel": "Analyze Cues",
-    "page": 103
+    "page": 103,
+    "reviewed": "v3"
    },
    {
     "id": "s3",
@@ -194,7 +196,8 @@
     "answer": "b",
     "rationale": "The book states that neurological changes are the most critical concern in SIADH. Falling sodium lets water move into brain cells, and late symptoms are confusion, seizures and coma. This client is already confused with a sodium of 118 mEq/L. The client has too much water, not too little, so hypovolemic shock does not fit. The potassium is normal, and skin breakdown is a longer-term risk.",
     "stepLabel": "Prioritize Hypotheses",
-    "page": 103
+    "page": 103,
+    "reviewed": "v3"
    },
    {
     "id": "s4",
@@ -234,7 +237,8 @@
     ],
     "rationale": "The book's SIADH plan restricts fluid (600–800 mL/day), counts ice chips and IV fluid toward the limit, offers hard candy or gum for comfort, and starts seizure precautions when sodium is critically low. Encouraging fluids adds more free water and worsens the hyponatremia. Sodium must be corrected slowly, no more than 8–10 mEq/L in 24 hours, to prevent osmotic demyelination syndrome, so a rapid return to normal is unsafe.",
     "stepLabel": "Generate Solutions",
-    "page": 104
+    "page": 104,
+    "reviewed": "v3"
    },
    {
     "id": "s5",
@@ -279,7 +283,8 @@
     ],
     "rationale": "Hypertonic saline is used when fluid restriction fails and must be given cautiously. The book says to monitor for pulmonary congestion and neurological symptoms, keep the head flat or slightly elevated, keep seizure precautions in place, and keep counting all fluids. Pushing the infusion faster risks correcting the sodium too quickly (more than 8–10 mEq/L in 24 hours), which can cause osmotic demyelination. The fluid restriction still applies, so free water is not offered freely.",
     "stepLabel": "Take Action",
-    "page": 104
+    "page": 104,
+    "reviewed": "v3"
    },
    {
     "id": "s6",
@@ -289,7 +294,7 @@
     "options": [
      [
       "a",
-      "Urine output 900 mL over the past 12 hours"
+      "Urine output 600 mL over the past 12 hours"
      ],
      [
       "b",
@@ -297,7 +302,7 @@
      ],
      [
       "c",
-      "Sodium risen from 116 to 131 mEq/L in 24 hours"
+      "Sodium 131 mEq/L this morning, up from 116 mEq/L at 16:00 yesterday"
      ],
      [
       "d",
@@ -305,11 +310,13 @@
      ]
     ],
     "answer": "c",
-    "rationale": "The goal is to correct the sodium slowly, no more than 8–10 mEq/L in 24 hours, to prevent osmotic demyelination syndrome. A rise from 116 to 131 mEq/L (15 mEq/L) is too fast and must be reported now. A urine output that is picking up, a weight that is coming down and a client who is oriented again all show the treatment is working.",
+    "rationale": "The goal is to correct the sodium slowly, no more than 8–10 mEq/L in 24 hours, to prevent osmotic demyelination syndrome. A rise from 116 to 131 mEq/L (15 mEq/L) in about 16 hours is far too fast and must be reported now. A urine output of about 50 mL/h, a weight that is coming down and a client who is oriented again all show the treatment is working.",
     "stepLabel": "Evaluate Outcomes",
-    "page": 104
+    "page": 104,
+    "reviewed": "v3"
    }
-  ]
+  ],
+  "reviewed": "v3"
  },
  {
   "id": "ngn:book-adrenal-crisis",
@@ -356,7 +363,7 @@
    "Orders": [
     [
      "Active",
-     "Two large-bore IV lines · Hydrocortisone IV now (high dose, as prescribed) · 0.9% sodium chloride or D5NS bolus as prescribed, then reassess · Electrolytes and point-of-care glucose every 1–2 hours · Stool culture · Continuous cardiac monitoring"
+     "Two large-bore IV lines · Hydrocortisone IV now (high dose, as prescribed) · D5NS bolus as prescribed, then reassess · Treat glucose < 70 mg/dL per hypoglycemia protocol · Electrolytes and point-of-care glucose every 1–2 hours · Stool culture · Continuous cardiac monitoring"
     ]
    ]
   },
@@ -404,13 +411,14 @@
     ],
     "rationale": "The book lists the key features of an Addisonian crisis as severe hypotension, dehydration, hypoglycemia, hyperkalemia, hyponatremia and shock. A BP of 76/44, a glucose of 48, a potassium of 6.1 and a sodium of 124 all need action now. Darkened skin over the knuckles and salt craving are long-standing features of Addison disease, not signs of the acute crisis. A temperature of 37.8 °C is worth noting because infection can trigger crisis, but it is not the immediate threat.",
     "stepLabel": "Recognize Cues",
-    "page": 111
+    "page": 111,
+    "reviewed": "v3"
    },
    {
     "id": "a2",
     "step": "analyzeCues",
     "kind": "single",
-    "stem": "Which hormone deficit best explains the client's sodium of 124 mEq/L and potassium of 6.1 mEq/L?",
+    "stem": "Which hormone imbalance best explains the client's sodium of 124 mEq/L and potassium of 6.1 mEq/L?",
     "options": [
      [
       "a",
@@ -426,13 +434,14 @@
      ],
      [
       "d",
-      "Potassium loss from vomiting and diarrhea"
+      "Excess cortisol"
      ]
     ],
     "answer": "b",
-    "rationale": "The book links low aldosterone to hyponatremia, hyperkalemia and dehydration: without aldosterone the kidneys lose sodium and water and hold on to potassium. Low cortisol explains the fatigue, hypotension and hypoglycemia, not the electrolyte pattern. Excess ADH (SIADH) dilutes sodium but does not raise potassium. Vomiting and diarrhea lose potassium, so they would lower it, not raise it.",
+    "rationale": "The book links low aldosterone to hyponatremia, hyperkalemia and dehydration: without aldosterone the kidneys lose sodium and water and hold on to potassium. Low cortisol explains the fatigue, hypotension and hypoglycemia, not this electrolyte pattern. Excess ADH (SIADH) dilutes sodium but does not raise potassium. Excess cortisol (as in Cushing syndrome) causes sodium retention and potassium loss, the opposite of what this client shows.",
     "stepLabel": "Analyze Cues",
-    "page": 97
+    "page": 97,
+    "reviewed": "v3"
    },
    {
     "id": "a3",
@@ -518,7 +527,8 @@
     },
     "rationale": "A client with Addison disease who could not take her hydrocortisone, with severe hypotension, hypoglycemia, hyperkalemia and hyponatremia, is in an Addisonian crisis triggered by fluid loss and illness. The book's priority interventions are high-dose IV hydrocortisone and rapid IV fluid resuscitation with normal saline or D5NS, while monitoring electrolytes and blood glucose. Myxedema coma causes hypothermia and bradycardia; thyroid storm causes high fever and hypertension. Fluid restriction would deepen the shock, and levothyroxine and cooling treat thyroid emergencies.",
     "stepLabel": "Prioritize Hypotheses",
-    "page": 111
+    "page": 111,
+    "reviewed": "v3"
    },
    {
     "id": "a4",
@@ -563,13 +573,14 @@
     ],
     "rationale": "The book's plan for Addisonian crisis is high-dose IV hydrocortisone, rapid IV fluids (normal saline or D5NS), close monitoring of electrolytes and blood glucose, and treating the underlying cause, here the gastroenteritis. Fluid restriction is the treatment for SIADH, and this client is dehydrated and in shock. Propranolol and cooling are thyroid storm treatments, and a beta-blocker would worsen her hypotension.",
     "stepLabel": "Generate Solutions",
-    "page": 111
+    "page": 111,
+    "reviewed": "v3"
    },
    {
     "id": "a5",
     "step": "takeAction",
     "kind": "single",
-    "stem": "IV access is established and the fluid bolus is running. Which prescription should the nurse carry out next?",
+    "stem": "IV access is established, the D5NS bolus is running and the low glucose has been treated per protocol. Which prescription should the nurse carry out next?",
     "options": [
      [
       "a",
@@ -591,7 +602,8 @@
     "answer": "c",
     "rationale": "The book's first priority intervention for Addisonian crisis is high-dose IV hydrocortisone, given along with rapid fluids. Oral tablets are not enough for a crisis, and this client cannot keep them down. Waiting for test results delays the hormone she is missing while she is in shock. A potassium binder does not replace the missing hormones; the potassium usually improves as fluids and hydrocortisone take effect, and it is tracked with the ordered electrolyte checks.",
     "stepLabel": "Take Action",
-    "page": 111
+    "page": 111,
+    "reviewed": "v3"
    },
    {
     "id": "a6",
@@ -635,7 +647,7 @@
       " · "
      ],
      [
-      "Na⁺ 130 mEq/L",
+      "Na⁺ 127 mEq/L",
       "p6"
      ],
      [
@@ -652,11 +664,13 @@
      "p4",
      "p6"
     ],
-    "rationale": "The book says to monitor electrolytes and blood glucose in Addisonian crisis. A BP back to 104/66, a glucose of 96, a potassium of 4.8 and a sodium rising to 130 all show the hydrocortisone and fluids are reversing the crisis. Darkened skin is a chronic sign that will not change in hours. Continued loose stools mean the trigger still needs treatment, and a urine output of 15 mL/h is still low and needs follow-up.",
+    "rationale": "The book says to monitor electrolytes and blood glucose in Addisonian crisis. A BP back to 104/66, a glucose of 96, a potassium of 4.8 and a sodium rising slowly to 127 all show the hydrocortisone and fluids are reversing the crisis. Darkened skin is a chronic sign that will not change in hours. Continued loose stools mean the trigger still needs treatment, and a urine output of 15 mL/h is still low and needs follow-up.",
     "stepLabel": "Evaluate Outcomes",
-    "page": 111
+    "page": 111,
+    "reviewed": "v3"
    }
-  ]
+  ],
+  "reviewed": "v3"
  },
  {
   "id": "ngn:book-aki",
@@ -712,7 +726,7 @@
    "Orders": [
     [
      "Active",
-     "Notify provider of K⁺ > 5.5 mEq/L · Sodium polystyrene sulfonate as prescribed · Sodium bicarbonate as prescribed · Strict intake and output · Daily weight · Fluid restriction as prescribed · Continuous cardiac monitoring · Nephrology consult for possible dialysis"
+     "Notify provider of K⁺ > 5.5 mEq/L · 12-lead ECG now · Calcium gluconate IV as prescribed · Regular insulin IV with dextrose as prescribed · Sodium polystyrene sulfonate as prescribed · Sodium bicarbonate as prescribed · Strict intake and output · Daily weight · Fluid restriction as prescribed · Continuous cardiac monitoring · Nephrology consult for possible dialysis"
     ]
    ]
   },
@@ -786,7 +800,8 @@
     ],
     "rationale": "The book's AKI red flags include oliguria (urine under 400 mL/day), sudden weight gain, crackles in the lungs, confusion or drowsiness from uremia, and peripheral edema. This client has all five. Knee pain of 2/10, a normal temperature and a small bladder scan volume are not red flags; the low bladder volume actually tells the nurse urine is not being held back by a blockage.",
     "stepLabel": "Recognize Cues",
-    "page": 117
+    "page": 117,
+    "reviewed": "v3"
    },
    {
     "id": "k2",
@@ -827,7 +842,8 @@
     ],
     "rationale": "The book classifies AKI as prerenal (reduced blood flow), intrinsic (damage to kidney tissue) or postrenal (blocked urine flow). Aminoglycosides such as gentamicin, NSAIDs such as ibuprofen and contrast dye are listed as nephrotoxic causes of intrinsic AKI, and muddy brown casts point to tubular damage. The small bladder scan volume argues against a postrenal block, and nothing suggests blood loss or shock. With urine under 400 mL/day he is in the oliguric phase, the first of the three phases.",
     "stepLabel": "Analyze Cues",
-    "page": 116
+    "page": 116,
+    "reviewed": "v3"
    },
    {
     "id": "k3",
@@ -855,7 +871,8 @@
     "answer": "b",
     "rationale": "Hyperkalemia and cardiac dysrhythmias are both listed among the complications of AKI. A potassium of 6.4 mEq/L with irregular beats on the monitor can progress to a fatal dysrhythmia within minutes, so it comes first. Infection, anemia and progression to chronic kidney disease are real risks, but they develop over days to months.",
     "stepLabel": "Prioritize Hypotheses",
-    "page": 116
+    "page": 116,
+    "reviewed": "v3"
    },
    {
     "id": "k4",
@@ -877,7 +894,7 @@
      ],
      [
       "d",
-      "Teach a high-protein diet to support healing"
+      "Suggest a salt substitute to flavor his food"
      ],
      [
       "e",
@@ -889,7 +906,7 @@
      ],
      [
       "g",
-      "Offer a high-carbohydrate, low-protein diet"
+      "Limit fluid intake as prescribed"
      ]
     ],
     "answer": [
@@ -898,9 +915,10 @@
      "e",
      "g"
     ],
-    "rationale": "The book's AKI management is to treat the cause and stop nephrotoxic drugs (NSAIDs, aminoglycosides), track intake, output and daily weights, watch for fluid overload in the oliguric phase, prevent and treat hyperkalemia, restrict potassium as needed, and use a high-carbohydrate, low-protein diet. A large IV fluid bolus would add to the fluid overload he already has. A high-protein diet adds to the waste his kidneys cannot clear. Potassium-rich foods would push the potassium higher.",
+    "rationale": "The book's AKI management is to treat the cause and stop nephrotoxic drugs (NSAIDs, aminoglycosides), track intake, output and daily weights, watch for fluid overload in the oliguric phase, restrict sodium and fluid based on status, and restrict potassium as needed. A large IV fluid bolus would add to the fluid overload he already has (crackles, edema, weight gain). Most salt substitutes are potassium chloride, and bananas and orange juice are high in potassium, so both would push his potassium of 6.4 higher.",
     "stepLabel": "Generate Solutions",
-    "page": 118
+    "page": 118,
+    "reviewed": "v3"
    },
    {
     "id": "k5",
@@ -928,7 +946,8 @@
     "answer": "b",
     "rationale": "The book tells the nurse to check for catheter obstruction before assuming the AKI has worsened. A kinked or blocked catheter is a quick, reversible cause of zero output. Only after the catheter is confirmed to be working should the provider be told that output has stopped. Extra diuretic or a fluid bolus without knowing the cause could worsen the fluid overload or miss a simple fix.",
     "stepLabel": "Take Action",
-    "page": 119
+    "page": 119,
+    "reviewed": "v3"
    },
    {
     "id": "k6",
@@ -968,9 +987,11 @@
     ],
     "rationale": "The book gives sodium polystyrene sulfonate to lower serum potassium and sodium bicarbonate to correct metabolic acidosis, so a potassium of 5.0 and a bicarbonate of 21 show those treatments worked. A weight loss of 1.2 kg means fluid is coming off. Worsening drowsiness (rising metabolic waste) and crackles now heard higher in the lungs (pulmonary edema) are AKI red flags and need prompt follow-up, possibly for dialysis.",
     "stepLabel": "Evaluate Outcomes",
-    "page": 119
+    "page": 119,
+    "reviewed": "v3"
    }
-  ]
+  ],
+  "reviewed": "v3"
  },
  {
   "id": "ngn:book-icp",
@@ -994,7 +1015,7 @@
     ],
     [
      "02:00",
-     "Difficult to rouse, opens eyes to voice, oriented to person only. GCS 12. Reports worsening headache. Vomited forcefully twice without nausea beforehand. Right pupil 5 mm and sluggish, left 3 mm and brisk. Found lying flat with head turned to the left and a pillow under his knees."
+     "Difficult to rouse, opens eyes to voice, oriented to person only. GCS 13. Reports worsening headache. Vomited forcefully twice without nausea beforehand. Right pupil 5 mm and sluggish, left 3 mm and brisk. Found lying flat with head turned to the left and a pillow under his knees."
     ]
    ],
    "Vitals": [
@@ -1020,7 +1041,7 @@
    "Orders": [
     [
      "Active",
-     "Neurological checks and pupils every hour · Head of bed 30 degrees · ICP monitoring; notify for ICP > 20 mm Hg · Mannitol IV as prescribed for ICP > 20 mm Hg · Dexamethasone IV as prescribed · Stool softener daily · Suction as needed"
+     "Neurological checks and pupils every hour · Head of bed 30 degrees · ICP monitoring; notify for ICP > 20 mm Hg · Mannitol IV as prescribed for ICP > 20 mm Hg · Stool softener daily · Suction as needed"
     ]
    ]
   },
@@ -1033,7 +1054,7 @@
     "options": [
      [
       "a",
-      "GCS dropped from 15 to 12"
+      "GCS dropped from 15 to 13"
      ],
      [
       "b",
@@ -1073,7 +1094,8 @@
     ],
     "rationale": "The book's early signs of increased ICP are a decreased level of consciousness, headache, pupil changes (sluggish, unequal) and nausea or vomiting that is often projectile. The ICP of 24 mm Hg is above the normal 5–15 mm Hg. The temperature, oxygen saturation and glucose are within acceptable limits and do not reflect pressure inside the skull.",
     "stepLabel": "Recognize Cues",
-    "page": 133
+    "page": 133,
+    "reviewed": "v3"
    },
    {
     "id": "i2",
@@ -1113,7 +1135,8 @@
     ],
     "rationale": "The book stresses that a sudden drop in level of consciousness is the first critical sign of worsening ICP. Cushing's triad, a late sign, is a widened pulse pressure (rising systolic, falling diastolic), bradycardia and irregular respirations such as Cheyne-Stokes. Tachycardia is not part of the triad, and fixed, dilated pupils come late, not first.",
     "stepLabel": "Analyze Cues",
-    "page": 133
+    "page": 133,
+    "reviewed": "v3"
    },
    {
     "id": "i3",
@@ -1199,7 +1222,8 @@
     },
     "rationale": "After a brain contusion, a falling level of consciousness, headache, projectile vomiting, a new unequal pupil and an ICP of 24 mm Hg point to increased intracranial pressure. The book's interventions include raising the head of the bed to 30 degrees with the head midline and neutral, and giving an osmotic diuretic such as mannitol as ordered. Level of consciousness is the first sign to change, and pupils go from sluggish and unequal to fixed and dilated as pressure rises, so both are tracked closely. Lying flat and flexing the hips raise ICP, and suctioning should be limited to 10–15 seconds. Meningitis and hypovolemic shock do not fit the history or vital signs.",
     "stepLabel": "Prioritize Hypotheses",
-    "page": 133
+    "page": 133,
+    "reviewed": "v3"
    },
    {
     "id": "i4",
@@ -1244,7 +1268,8 @@
     ],
     "rationale": "The book's ICP interventions are to keep the head of the bed at 30 degrees (not flat), keep the head midline and neutral, limit suctioning to 10–15 seconds, avoid hip flexion and straining, and monitor ICP when a device is in place. Turning the head to the side, flexing the hips with pillows under the knees and bearing down all raise intracranial pressure.",
     "stepLabel": "Generate Solutions",
-    "page": 133
+    "page": 133,
+    "reviewed": "v3"
    },
    {
     "id": "i5",
@@ -1277,7 +1302,8 @@
     ],
     "rationale": "Airway and oxygenation come first on the book's list of ICP interventions, because low oxygen worsens brain swelling. Next, the nurse fixes the position he was found in: head of the bed to 30 degrees, head midline and the pillow removed from under his knees. This is quick and lowers ICP right away. Then the prescribed mannitol is given for the ICP above 20. Finally the nurse rechecks level of consciousness, pupils and ICP to see whether the steps worked.",
     "stepLabel": "Take Action",
-    "page": 133
+    "page": 133,
+    "reviewed": "v3"
    },
    {
     "id": "i6",
@@ -1348,9 +1374,11 @@
     ],
     "rationale": "The book's late signs of increased ICP are Cushing's triad (widened pulse pressure, bradycardia, irregular Cheyne-Stokes respirations), fixed and dilated pupils, and posturing. A BP of 182/58 is a widened pulse pressure, and a heart rate of 50 is bradycardia. These need emergency action. The oxygen saturation and temperature are acceptable, and a large urine output is the expected effect of mannitol, not a sign of worsening.",
     "stepLabel": "Evaluate Outcomes",
-    "page": 133
+    "page": 133,
+    "reviewed": "v3"
    }
-  ]
+  ],
+  "reviewed": "v3"
  },
  {
   "id": "ngn:book-myasthenic-crisis",
@@ -1384,7 +1412,7 @@
      "BP 136/84 mm Hg · HR 112 · RR 30, shallow · SpO₂ 86% on room air · T 37.6 °C (99.7 °F)"
     ],
     [
-     "Bedside spirometry",
+     "Single-breath count",
      "Unable to count past 8 in one breath"
     ]
    ],
@@ -1401,7 +1429,7 @@
    "Orders": [
     [
      "Active",
-     "Oxygen to keep SpO₂ ≥ 92% · Continuous pulse oximetry · Respiratory therapy and anesthesia to bedside; prepare for intubation · Nothing by mouth · Pyridostigmine as prescribed (route per provider) · Neurology consult for plasmapheresis · Lorazepam IV as needed for anxiety · Morphine IV as needed for dyspnea"
+     "Oxygen to keep SpO₂ ≥ 92% · Continuous pulse oximetry · Respiratory therapy and anesthesia to bedside; prepare for intubation · Nothing by mouth · Pyridostigmine as prescribed (route per provider) · Neurology consult for plasmapheresis · Lorazepam IV as needed for anxiety · Morphine IV as needed for dyspnea · Cyclobenzaprine as needed for neck muscle aches"
     ]
    ]
   },
@@ -1474,7 +1502,8 @@
     ],
     "rationale": "The book identifies myasthenic crisis by hypoxia, notes decreased breath sounds from hypoventilation, and tells the nurse to prioritize maintaining the airway and preventing aspiration. An SpO₂ of 86%, decreased breath sounds, a weak cough and drooling because she cannot swallow her saliva all threaten her airway now. Drooping eyelids, double vision and a masklike face are typical, long-standing MG findings, and being alert and oriented is reassuring.",
     "stepLabel": "Recognize Cues",
-    "page": 151
+    "page": 151,
+    "reviewed": "v3"
    },
    {
     "id": "m2",
@@ -1502,7 +1531,8 @@
     "answer": "b",
     "rationale": "The book separates the two crises by cause: myasthenic crisis comes from undermedication and causes severe weakness, dyspnea and cyanosis, while cholinergic crisis comes from overmedication and causes weakness with diarrhea and bradycardia. She missed two doses, has a fast heart rate and no diarrhea, so this is myasthenic crisis. Her viral illness also worsens MG. Guillain-Barré syndrome does not explain a known MG history and missed doses, and anxiety does not cause hypoxemia with a high PaCO₂.",
     "stepLabel": "Analyze Cues",
-    "page": 152
+    "page": 152,
+    "reviewed": "v3"
    },
    {
     "id": "m3",
@@ -1542,11 +1572,11 @@
       ],
       [
        "x3",
-       "Hold all anticholinesterase medication"
+       "Give an extra pyridostigmine tablet by mouth now"
       ],
       [
        "x4",
-       "Give the anticholinesterase dose as prescribed by the provider"
+       "Prepare the client for plasmapheresis as prescribed"
       ],
       [
        "x5",
@@ -1586,9 +1616,10 @@
       "m4"
      ]
     },
-    "rationale": "Missed doses with severe weakness, dyspnea and hypoxia point to myasthenic crisis. The book treats it by increasing the anticholinesterase (as prescribed) and puts airway management first in nursing care, with close monitoring of respiratory status and aspiration risk. Atropine and holding the medication treat cholinergic crisis, which would worsen this client. Sedatives such as lorazepam can worsen respiratory depression in MG. Blood glucose and daily weight do not track the threat to her breathing.",
+    "rationale": "Missed doses with severe weakness, dyspnea and hypoxia point to myasthenic crisis. The book puts airway management first in nursing care and lists plasmapheresis to stabilize symptoms; it is the ordered treatment here, with close monitoring of respiratory status and aspiration risk. Atropine treats cholinergic crisis. An oral tablet is unsafe for a client who cannot swallow her own saliva. Sedatives such as lorazepam can worsen respiratory depression in MG. Blood glucose, daily weight and serum sodium do not track the threat to her breathing.",
     "stepLabel": "Prioritize Hypotheses",
-    "page": 152
+    "page": 152,
+    "reviewed": "v3"
    },
    {
     "id": "m4",
@@ -1628,7 +1659,8 @@
     ],
     "rationale": "The book warns to avoid sedatives, opioids and muscle relaxants in MG because they can worsen respiratory depression. Lorazepam (a sedative), morphine (an opioid) and cyclobenzaprine (a muscle relaxant) all need to be questioned for a client whose breathing is already failing. Oxygen, continuous pulse oximetry and nothing by mouth protect her oxygenation and her airway, and the pyridostigmine treats the undermedication behind the crisis.",
     "stepLabel": "Generate Solutions",
-    "page": 151
+    "page": 151,
+    "reviewed": "v3"
    },
    {
     "id": "m5",
@@ -1656,7 +1688,8 @@
     "answer": "b",
     "rationale": "The book says to prioritize interventions that maintain the airway and prevent aspiration. Suctioning her mouth and throat with her sitting upright clears the airway right away. Giving oral tablets to a client who cannot swallow her saliva risks aspiration. A Tensilon test is a diagnostic step and does nothing for the blocked airway. A sedative would worsen respiratory depression.",
     "stepLabel": "Take Action",
-    "page": 151
+    "page": 151,
+    "reviewed": "v3"
    },
    {
     "id": "m6",
@@ -1696,9 +1729,11 @@
     ],
     "rationale": "Stronger muscles, a better cough, good oxygenation and safe swallowing show the myasthenic crisis is resolving. New diarrhea and a heart rate of 52 are the book's signs of cholinergic crisis from overmedication, which can follow a dose increase. The book treats it by holding the anticholinesterase and giving atropine, so these findings must be reported right away.",
     "stepLabel": "Evaluate Outcomes",
-    "page": 152
+    "page": 152,
+    "reviewed": "v3"
    }
-  ]
+  ],
+  "reviewed": "v3"
  },
  {
   "id": "ngn:book-sickle-cell",
@@ -1718,7 +1753,7 @@
    "Notes": [
     [
      "ED triage 18:30",
-     "Severe aching pain in the lower back, both thighs and knees that began 4 hours after a 3-hour practice. Drank little water. Rates pain 9/10. Reports feeling very tired. Mucous membranes dry. No jaundice. Alert and oriented. Spleen not palpable. Says, \"This is like my usual crises, just worse.\" Took ibuprofen at home without relief."
+     "Severe aching pain in the lower back, both thighs and knees that began 4 hours after a 3-hour practice. Drank little water. Rates pain 9/10. Reports feeling very tired. Mucous membranes dry. No jaundice. Alert and oriented. Spleen not palpable. Lungs clear; denies chest pain or cough. Says, \"This is like my usual crises, just worse.\" Took ibuprofen at home without relief."
     ],
     [
      "History",
@@ -1744,7 +1779,7 @@
    "Orders": [
     [
      "Active",
-     "Oxygen to keep SpO₂ ≥ 95% · IV 0.9% sodium chloride as prescribed · Morphine IV as prescribed for pain, reassess after each dose · Blood and urine cultures · Antibiotics as prescribed if infection suspected · Pain reassessment every hour"
+     "Oxygen to keep SpO₂ ≥ 95% · IV 0.9% sodium chloride as prescribed · Morphine IV as prescribed for pain, reassess after each dose · Chest x-ray · Blood and urine cultures · Antibiotics as prescribed if infection suspected · Pain reassessment every hour"
     ]
    ]
   },
@@ -1797,7 +1832,8 @@
     ],
     "rationale": "The book lists pain, fever and fatigue as the signs of a vaso-occlusive crisis and tachycardia on physical exam. Low oxygen and dehydration both trigger more sickling, so an SpO₂ of 92% and a urine specific gravity of 1.030 with dry mucous membranes need action. A hemoglobin of 7.6 is near his baseline and within the 5–10 g/dL range the book gives for sickle cell disease. His blood pressure and orientation are normal.",
     "stepLabel": "Recognize Cues",
-    "page": 158
+    "page": 158,
+    "reviewed": "v3"
    },
    {
     "id": "c2",
@@ -1838,7 +1874,8 @@
     ],
     "rationale": "The book names dehydration and intense exercise among the triggers that promote sickling. Sickle cell disease comes from inheriting two HbS genes; under low oxygen, red cells containing hemoglobin S become rigid and sickle-shaped and block small blood vessels, which causes the pain. Fetal hemoglobin protects against sickling, and that is why hydroxyurea is used.",
     "stepLabel": "Analyze Cues",
-    "page": 158
+    "page": 158,
+    "reviewed": "v3"
    },
    {
     "id": "c3",
@@ -1866,7 +1903,8 @@
     "answer": "d",
     "rationale": "The book matches each crisis to its signs: vaso-occlusive (pain, fever, fatigue), sequestration (lethargy, pale skin, tachycardia), aplastic (fatigue, shortness of breath) and hyperhemolytic (jaundice, dark urine). Severe pain with fever and fatigue after dehydration fits a vaso-occlusive crisis. He has no jaundice, his hemoglobin is near baseline and his spleen is not enlarged, which argues against the other types.",
     "stepLabel": "Prioritize Hypotheses",
-    "page": 158
+    "page": 158,
+    "reviewed": "v3"
    },
    {
     "id": "c4",
@@ -1911,7 +1949,8 @@
     ],
     "rationale": "The book's treatment for a vaso-occlusive crisis is analgesia within 30 minutes, oxygen and hydration, with antibiotics when infection is suspected and non-drug pain strategies such as imagery and distraction alongside medication. Aspirin is to be avoided because of the risk of acidosis, and acidosis (low blood pH) itself increases sickling. Delaying pain medication until lab results return goes against the 30-minute goal.",
     "stepLabel": "Generate Solutions",
-    "page": 159
+    "page": 159,
+    "reviewed": "v3"
    },
    {
     "id": "c5",
@@ -1929,11 +1968,11 @@
      ],
      [
       "o3",
-      "Reassess the pain rating after the dose"
+      "Reassess pain, sedation level and respiratory rate after the dose"
      ],
      [
       "o4",
-      "Coach guided imagery and distraction"
+      "Give the next prescribed analgesic dose if pain is still severe at reassessment"
      ]
     ],
     "answer": [
@@ -1942,9 +1981,10 @@
      "o3",
      "o4"
     ],
-    "rationale": "Breathing comes first: his SpO₂ is 92% and low oxygen promotes more sickling, and applying oxygen takes seconds. The book then calls for analgesia within 30 minutes, so the prescribed IV morphine is given next. Pain is reassessed after the dose to judge whether it worked. Once the pain is easing, the nurse can coach imagery and distraction, which the book recommends alongside medication, not in place of it.",
+    "rationale": "Breathing comes first: his SpO₂ is 92% and low oxygen promotes more sickling, and applying oxygen takes seconds. The book then calls for analgesia within 30 minutes, so the prescribed IV morphine is given next. Pain, sedation and breathing are reassessed after the dose to judge whether it worked and whether it is safe to give more. Only then is the next prescribed dose given if the pain is still severe.",
     "stepLabel": "Take Action",
-    "page": 159
+    "page": 159,
+    "reviewed": "v3"
    },
    {
     "id": "c6",
@@ -1984,8 +2024,10 @@
     ],
     "rationale": "The book's teaching is to keep a steady fluid intake, recognize triggers such as dehydration, infection and stress, and understand that hydroxyurea boosts fetal hemoglobin to reduce sickling and pain. Aspirin should be avoided because of the acidosis risk. Drinking only when pain starts misses the point of steady hydration, and stopping hydroxyurea between crises removes its preventive effect.",
     "stepLabel": "Evaluate Outcomes",
-    "page": 159
+    "page": 159,
+    "reviewed": "v3"
    }
-  ]
+  ],
+  "reviewed": "v3"
  }
 ]

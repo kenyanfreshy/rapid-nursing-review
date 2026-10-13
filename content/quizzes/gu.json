@@ -1352,7 +1352,8 @@
    ],
    "clue": "Falling blood pressure and oozing at the access site right after hemodialysis.",
    "priority": "Hypotension and bleeding are the key risks the book names for hemodialysis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-overview-q7",
@@ -1386,7 +1387,8 @@
    ],
    "clue": "The client has CKD and is learning the renal diet.",
    "priority": "Enforcing fluid, potassium, phosphorus and sodium limits and medication adherence in CKD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-overview-q8",
@@ -1423,7 +1425,8 @@
    ],
    "clue": "The client is receiving hemodialysis through an AV fistula.",
    "priority": "Safe hemodialysis care: check access patency, prevent hypotension, watch for bleeding.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-overview-q9",
@@ -1448,7 +1451,8 @@
    ],
    "clue": "A client with BPH asks about habits that affect his symptoms.",
    "priority": "Health teaching to avoid bladder irritants in BPH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q8",
@@ -1473,7 +1477,8 @@
    ],
    "clue": "Output of 300 mL/day, a 2 kg weight gain and new crackles.",
    "priority": "Giving the provider a clear assessment of fluid overload in oliguric AKI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q9",
@@ -1498,7 +1503,8 @@
    ],
    "clue": "Infection is a listed complication, and the client has a catheter and central line.",
    "priority": "Infection prevention in a client with AKI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q10",
@@ -1523,7 +1529,8 @@
    ],
    "clue": "The family is distressed by the client's new irritability and drowsiness.",
    "priority": "Supporting the family by explaining cognitive changes caused by AKI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q11",
@@ -1556,7 +1563,8 @@
    ],
    "clue": "The client is at risk for AKI and is being watched for warning signs.",
    "priority": "Recognizing AKI red flag symptoms early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q12",
@@ -1570,18 +1578,19 @@
     "A client with dry, itchy skin who is asking for lotion",
     "A client with mild ankle edema that is unchanged from yesterday",
     "A client who wants to know when the dietitian will visit",
-    "A client with hyperkalemia who has just become unresponsive with jerking movements"
+    "A client with a sharply falling serum sodium who has just become unresponsive with jerking movements"
    ],
    "correct": 3,
    "rationales": [
     "Wrong. Dry skin needs care, but it is not life-threatening.",
     "Wrong. Stable, unchanged edema is not the most urgent finding.",
     "Wrong. A question about diet teaching can wait.",
-    "Correct. The book lists seizures or altered mental status from severe electrolyte imbalance, especially hyperkalemia, as an AKI red flag."
+    "Correct. The book lists seizures or altered mental status from severe electrolyte imbalance, especially hyponatremia, as an AKI red flag; active seizure activity is the most urgent finding."
    ],
-   "clue": "Hyperkalemia with sudden unresponsiveness and jerking movements.",
+   "clue": "A sharply falling sodium with sudden unresponsiveness and jerking movements.",
    "priority": "Seizure activity from severe electrolyte imbalance takes first priority.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q13",
@@ -1606,7 +1615,8 @@
    ],
    "clue": "The client is receiving recombinant human erythropoietin.",
    "priority": "Evaluating response to erythropoietin by its stated purpose.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q14",
@@ -1631,7 +1641,8 @@
    ],
    "clue": "The client is on dialysis and has new water-soluble vitamins.",
    "priority": "Knowing the purpose of each AKI medication.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q15",
@@ -1640,7 +1651,7 @@
    "type": "sata",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with AKI is starting a diet plan. Which elements does the nurse expect, based on the book? Select all that apply.",
+   "stem": "A client in the oliguric phase of AKI who is not receiving dialysis is starting a diet plan. Which elements does the nurse expect, based on the book? Select all that apply.",
    "options": [
     "Unlimited fluids to flush waste from the kidneys",
     "Meals high in carbohydrate and low in protein",
@@ -1657,14 +1668,15 @@
    "rationales": [
     "Wrong. The book calls for fluid restriction based on status, not unlimited fluids.",
     "Correct. The book lists a high-carbohydrate, low-protein diet for AKI.",
-    "Wrong. The book lists low protein for AKI.",
+    "Wrong. The book lists a low-protein diet for AKI; extra protein adds to waste buildup in a client who is not on dialysis.",
     "Correct. The book says sodium and fluid are restricted based on the client's status.",
     "Correct. The book lists potassium restriction as needed.",
     "Wrong. Adding potassium works against the book's potassium restriction and its goal of preventing hyperkalemia."
    ],
    "clue": "A client with AKI needs dietary therapy.",
    "priority": "AKI diet: high carbohydrate, low protein, with sodium, fluid and potassium limits as needed.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q16",
@@ -1689,7 +1701,8 @@
    ],
    "clue": "The client needs renal replacement therapy but is hemodynamically unstable.",
    "priority": "Matching renal replacement therapy to the client's stability.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q17",
@@ -1698,17 +1711,17 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "The nurse reviews diagnostic results for a client with suspected AKI. For each finding, indicate what it means according to the book.",
+   "stem": "The nurse reviews diagnostic results for a client with suspected AKI. For each finding, indicate what it suggests according to the book.",
    "rows": [
-    "Elevated blood urea nitrogen (BUN)",
+    "Urine sodium below 20 mEq/L",
     "Elevated serum creatinine",
     "24-hour urine creatinine decreased by 50%",
     "Muddy brown casts and tubular cells in the urine"
    ],
    "columns": [
-    "Kidneys unable to excrete waste",
+    "Prerenal cause (reduced blood flow)",
     "Impaired filtration or reduced clearance",
-    "Suggests tubular necrosis"
+    "Tubular necrosis"
    ],
    "correct": [
     0,
@@ -1717,14 +1730,15 @@
     2
    ],
    "rationales": [
-    "The book states an elevated BUN means the kidneys cannot excrete waste.",
-    "The book states an elevated serum creatinine indicates impaired kidney filtration.",
-    "The book states a 50% decrease in 24-hour urine creatinine reflects reduced creatinine clearance (kidney damage).",
-    "The book states muddy brown casts and tubular cells suggest tubular necrosis."
+    "Prerenal cause. The book gives a urine sodium below 20 mEq/L as the prerenal AKI value; the kidneys are holding on to sodium because blood flow is low.",
+    "Impaired filtration. The book states an elevated serum creatinine indicates impaired kidney filtration.",
+    "Reduced clearance. The book states a 50% decrease in 24-hour urine creatinine reflects reduced creatinine clearance (kidney damage).",
+    "Tubular necrosis. The book states muddy brown casts and tubular cells suggest tubular necrosis."
    ],
-   "clue": "Several abnormal AKI laboratory results.",
+   "clue": "Several abnormal AKI urine and blood results.",
    "priority": "Interpreting what each AKI diagnostic result means.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q18",
@@ -1755,7 +1769,8 @@
    ],
    "clue": "The client's creatinine is rising and several nephrotoxic agents are ordered.",
    "priority": "Preventing harm by questioning nephrotoxic drugs in a client with declining kidney function.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q19",
@@ -1792,7 +1807,8 @@
    ],
    "clue": "Treatment for fluid overload in the oliguric phase.",
    "priority": "Evaluating whether fluid overload is resolving.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q20",
@@ -1817,7 +1833,8 @@
    ],
    "clue": "The client fears permanent kidney failure.",
    "priority": "Easing anxiety with honest, supportive information about AKI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-aki-q21",
@@ -1851,7 +1868,8 @@
    ],
    "clue": "Several AKI care tasks need to be divided between the nurse and AP.",
    "priority": "Delegating routine care while keeping assessment and teaching with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q7",
@@ -1876,7 +1894,8 @@
    ],
    "clue": "The client asks why UTIs are more common in women.",
    "priority": "Understanding the anatomic risk for UTI in women.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q8",
@@ -1910,7 +1929,8 @@
    ],
    "clue": "The nurse is screening for UTI risk factors.",
    "priority": "Identifying UTI risk factors for prevention.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q9",
@@ -1943,7 +1963,8 @@
    ],
    "clue": "An uncomplicated lower UTI needs antibiotic therapy.",
    "priority": "Recognizing common antibiotics used for UTI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q10",
@@ -1968,7 +1989,8 @@
    ],
    "clue": "First lower UTI treated without a culture.",
    "priority": "Understanding when urine culture is used in UTI care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q11",
@@ -2005,7 +2027,8 @@
    ],
    "clue": "UTI care includes both routine comfort tasks and teaching and assessment.",
    "priority": "Delegating routine UTI care while keeping teaching and assessment with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q12",
@@ -2026,11 +2049,12 @@
     "Wrong. BPH causes obstructive voiding symptoms, not this picture of infection after reflux.",
     "Wrong. Stress incontinence causes leakage with coughing or sneezing, not fever and flank pain.",
     "Correct. The book states pyelonephritis often ascends from the bladder due to vesicoureteral reflux and lists fever, flank pain, nausea and vomiting as symptoms.",
-    "Wrong. There is no recent strep infection, and AGN presents with edema and dark urine."
+    "Wrong. Nothing in the history points to a recent strep infection, and AGN presents with edema and dark urine rather than fever and flank pain."
    ],
    "clue": "Vesicoureteral reflux with fever, flank pain, nausea and vomiting.",
    "priority": "Recognizing ascending infection to the kidney as the most likely problem.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q13",
@@ -2046,7 +2070,7 @@
     "Weak stream with dribbling at the end of voiding",
     "Foul-smelling or bloody urine",
     "Leakage of urine when laughing",
-    "Hypertension"
+    "Fever with nausea and vomiting"
    ],
    "correct": [
     1,
@@ -2059,11 +2083,12 @@
     "Wrong. Weak stream and dribbling are BPH symptoms.",
     "Correct. The book lists foul or bloody urine as a symptom.",
     "Wrong. Leakage with laughing describes stress incontinence.",
-    "Correct. The book lists hypertension as an exam finding."
+    "Correct. The book lists fever, nausea and vomiting as pyelonephritis symptoms."
    ],
    "clue": "Suspected acute pyelonephritis.",
    "priority": "Recognizing the expected findings of kidney infection.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q14",
@@ -2088,7 +2113,8 @@
    ],
    "clue": "The client feels embarrassed and worried about repeated UTIs.",
    "priority": "Therapeutic communication that acknowledges feelings and gives accurate information.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q15",
@@ -2122,7 +2148,8 @@
    ],
    "clue": "Follow-up testing after UTI treatment.",
    "priority": "Evaluating response to UTI treatment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q16",
@@ -2147,7 +2174,8 @@
    ],
    "clue": "The client was prescribed a single-dose regimen.",
    "priority": "Evaluating understanding of a short-course UTI antibiotic.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-uti-q17",
@@ -2172,7 +2200,8 @@
    ],
    "clue": "Acute pyelonephritis with confusion, high fever and falling blood pressure.",
    "priority": "Recognizing possible septic shock as the top priority.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-pyelo-q6",
@@ -2197,7 +2226,8 @@
    ],
    "clue": "Pyuria and leukocyte casts with fever and flank pain.",
    "priority": "Linking urinalysis findings to kidney infection.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-pyelo-q7",
@@ -2222,7 +2252,8 @@
    ],
    "clue": "Tasks for a client with pyelonephritis must be matched to the right caregiver.",
    "priority": "Delegating routine measurement while keeping assessment and teaching with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-pyelo-q8",
@@ -2253,7 +2284,8 @@
    ],
    "clue": "Flank pain and incomplete emptying in pyelonephritis.",
    "priority": "Independent comfort and elimination care in pyelonephritis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-pyelo-q9",
@@ -2278,7 +2310,8 @@
    ],
    "clue": "Fever and nausea resolved; the client tolerates oral intake.",
    "priority": "Evaluating response to IV therapy and anticipating the move to oral antibiotics.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q6",
@@ -2315,7 +2348,8 @@
    ],
    "clue": "Laboratory values for suspected AGN.",
    "priority": "Interpreting AGN diagnostic results against the book's normal ranges.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q7",
@@ -2340,7 +2374,8 @@
    ],
    "clue": "Thirst during a fluid restriction.",
    "priority": "Scheduling fluid intake for comfort within restrictions.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q8",
@@ -2365,7 +2400,8 @@
    ],
    "clue": "Bedrest during acute glomerulonephritis.",
    "priority": "Preventing skin breakdown during bedrest.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q9",
@@ -2390,7 +2426,8 @@
    ],
    "clue": "New dyspnea, crackles and an S3 heart sound.",
    "priority": "Recognizing a developing complication over expected findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q10",
@@ -2421,7 +2458,8 @@
    ],
    "clue": "Very high blood pressure in AGN.",
    "priority": "Monitoring for hypertensive and fluid complications in AGN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q11",
@@ -2446,7 +2484,8 @@
    ],
    "clue": "Severe hypertension in AGN.",
    "priority": "Matching the AGN medication to its purpose.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-gn-q12",
@@ -2471,7 +2510,8 @@
    ],
    "clue": "A visitor with a respiratory infection.",
    "priority": "Preventing secondary infection in a client with AGN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q6",
@@ -2496,7 +2536,8 @@
    ],
    "clue": "Tamsulosin is ordered for a small stone.",
    "priority": "Explaining the purpose of medical expulsive therapy.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q7",
@@ -2521,7 +2562,8 @@
    ],
    "clue": "A 10 mm stone.",
    "priority": "Matching treatment to stone size.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q8",
@@ -2546,7 +2588,8 @@
    ],
    "clue": "Fever and chills with an obstructing stone.",
    "priority": "Recognizing infection with obstruction as the most urgent problem.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q9",
@@ -2577,7 +2620,8 @@
    ],
    "clue": "The client wants to prevent another calcium stone.",
    "priority": "Teaching that targets the book's causes of stone formation.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q10",
@@ -2591,7 +2635,7 @@
     "A small stone is found in the urine strainer",
     "Flank pain is relieved after the prescribed ketorolac",
     "New fever and chills",
-    "Bladder distention with very little urine output"
+    "Urine output drops sharply even though the client is drinking well"
    ],
    "columns": [
     "Expected progress",
@@ -2607,11 +2651,12 @@
     "Expected progress. The book notes most small stones pass and calls for straining urine to catch them.",
     "Expected progress. The book lists ketorolac for pain control.",
     "Report. The book lists infection and sepsis as stone complications; fever and chills may signal them.",
-    "Report. Bladder distention with little output suggests obstruction, a complication the book lists."
+    "Report. A sharp drop in output despite good intake suggests the stone is obstructing urine flow, a complication the book lists."
    ],
    "clue": "Conservative treatment of a small stone.",
    "priority": "Evaluating response to conservative stone management.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q11",
@@ -2636,7 +2681,8 @@
    ],
    "clue": "Pain remains 9/10 after the analgesic.",
    "priority": "Evaluating pain relief and recommending a change when it fails.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-calculi-q12",
@@ -2667,7 +2713,8 @@
    ],
    "clue": "Severe flank pain with vomiting from a stone.",
    "priority": "Anticipating pain and antiemetic drugs for renal calculi.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q6",
@@ -2704,7 +2751,8 @@
    ],
    "clue": "Diagnostic results for suspected BPH.",
    "priority": "Interpreting BPH diagnostics against the book's ranges.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q7",
@@ -2742,7 +2790,8 @@
    ],
    "clue": "A medication list for a client with BPH.",
    "priority": "Knowing BPH drug classes and which drugs to avoid.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q8",
@@ -2751,7 +2800,7 @@
    "type": "mcq",
    "clientNeed": "pa",
    "cjmm": "prioritizeHypotheses",
-   "stem": "A 70-year-old man has nocturia and a weak stream. On digital rectal exam, the provider finds an enlarged, rubbery prostate. Which condition do these findings most support?",
+   "stem": "A 70-year-old male client has nocturia and a weak stream. On digital rectal exam, the provider finds an enlarged, rubbery prostate. Which condition do these findings most support?",
    "options": [
     "Benign prostatic hyperplasia",
     "Advanced prostate cancer",
@@ -2767,7 +2816,8 @@
    ],
    "clue": "Enlarged, rubbery prostate with nocturia and weak stream.",
    "priority": "Linking DRE and symptom findings to BPH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q9",
@@ -2792,7 +2842,8 @@
    ],
    "clue": "Post-TURP care includes routine measurement and nursing judgments.",
    "priority": "Delegating routine output measurement while keeping assessment with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q10",
@@ -2823,7 +2874,8 @@
    ],
    "clue": "Long-standing severe BPH.",
    "priority": "Recognizing complications of urinary obstruction from BPH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q11",
@@ -2857,7 +2909,8 @@
    ],
    "clue": "Several weeks of alpha-blocker therapy.",
    "priority": "Evaluating response to BPH medication.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-bph-q12",
@@ -2882,7 +2935,8 @@
    ],
    "clue": "The client asks whether his habits caused BPH.",
    "priority": "Accurate teaching about BPH causes and risk factors.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q6",
@@ -2907,7 +2961,8 @@
    ],
    "clue": "The client does not understand the procedure he is about to consent to.",
    "priority": "Advocating for informed consent.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q7",
@@ -2925,7 +2980,7 @@
     "Mycophenolate"
    ],
    "columns": [
-    "Lower testosterone in prostate cancer",
+    "Hormonal therapy for prostate cancer",
     "Treat bone metastases",
     "Immunosuppression after transplant"
    ],
@@ -2937,15 +2992,16 @@
     2
    ],
    "rationales": [
-    "The book lists GnRH agonists as hormonal therapy to lower testosterone.",
-    "The book lists antiandrogens as hormonal therapy to lower testosterone.",
+    "Hormonal therapy. The book lists GnRH agonists as hormonal therapy; they lower testosterone.",
+    "Hormonal therapy. The book lists antiandrogens as hormonal therapy for prostate cancer; they block the effect of testosterone.",
     "The book lists bisphosphonates for bone metastases.",
     "The book lists tacrolimus as an immunosuppressant after transplant.",
     "The book lists mycophenolate as an immunosuppressant after transplant."
    ],
    "clue": "Medications for prostate cancer and kidney transplant.",
    "priority": "Matching each drug to its purpose.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q8",
@@ -2978,7 +3034,8 @@
    ],
    "clue": "An immunosuppressed client after kidney transplant.",
    "priority": "Evaluating infection control for an immunosuppressed transplant client.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q9",
@@ -3003,7 +3060,8 @@
    ],
    "clue": "Distress about impotence after prostatectomy.",
    "priority": "Therapeutic communication about body image and sexual function.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q10",
@@ -3028,7 +3086,8 @@
    ],
    "clue": "The last hemodialysis was 3 days before the planned transplant.",
    "priority": "Coordinating with the transplant team on pre-op dialysis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q11",
@@ -3053,7 +3112,8 @@
    ],
    "clue": "The client asks about the purpose of the psychological assessment.",
    "priority": "Explaining how coping is assessed before transplant.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-prostate-q12",
@@ -3062,7 +3122,7 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "stem": "A gay man in his 60s says he has avoided prostate cancer screening because a past provider treated him poorly. How should the nurse respond?",
+   "stem": "A male client in his 60s who is gay says he has avoided prostate cancer screening because a past provider treated him poorly. How should the nurse respond?",
    "options": [
     "\"Screening isn't important at your age.\"",
     "\"You'll need to get past that if you want good care.\"",
@@ -3078,7 +3138,8 @@
    ],
    "clue": "Past stigma has kept the client from screening.",
    "priority": "Building trust to reduce stigma-related barriers to cancer screening.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-incontinence-q6",
@@ -3113,7 +3174,8 @@
    ],
    "clue": "Each client has a different leakage pattern.",
    "priority": "Classifying incontinence type to guide elimination care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-incontinence-q7",
@@ -3144,7 +3206,8 @@
    ],
    "clue": "Intermittent catheterization plus incontinence episodes.",
    "priority": "Preventing infection, skin breakdown and falls.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "gu-incontinence-q8",
@@ -3169,7 +3232,8 @@
    ],
    "clue": "Rushing to the bathroom at night with urge incontinence.",
    "priority": "Fall prevention for clients with incontinence.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [
@@ -3260,6 +3324,26 @@
   {
    "page": 0,
    "issue": "blueprint (v3): safety ends at 14 vs target 16 and moc at 20 vs 21 (within tolerance). The chapter has few distinct safety facts beyond those already used (fall precautions, catheter checks, infection control), so the remainder went to rrp/pa items built on clearly stated content."
+  },
+  {
+   "page": 117,
+   "issue": "AKI Red Flag graphic attributes seizures/altered mental status to 'especially hyperkalemia or hyponatremia'. Hyperkalemia causes weakness and dysrhythmias, not seizures; hyponatremia (and uremia) are the usual causes. gu-aki-q12 was changed to hyponatremia."
+  },
+  {
+   "page": 118,
+   "issue": "'High carbohydrate, low protein' AKI diet is older advice; KDIGO recommends against restricting protein to avoid or delay dialysis (about 0.8-1.0 g/kg/day non-catabolic, more on RRT/CRRT). gu-aki-q15 was limited to an oliguric client not on dialysis."
+  },
+  {
+   "page": 121,
+   "issue": "Hypertension is listed as a pyelonephritis exam finding; it is typical of chronic, not acute, pyelonephritis. No item keys it for acute pyelonephritis (gu-uti-q13 changed)."
+  },
+  {
+   "page": 127,
+   "issue": "'GnRH agonists, antiandrogens to lower testosterone': antiandrogens block androgen receptors rather than lower testosterone. gu-prostate-q7 now uses 'hormonal therapy'."
+  },
+  {
+   "page": 124,
+   "issue": "Renal calculi physical exam graphic lists bladder distention as an expected stone finding; it suggests lower-tract obstruction or retention rather than a typical upper-tract stone finding."
   }
  ]
 }

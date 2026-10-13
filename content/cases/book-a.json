@@ -126,7 +126,8 @@
      "p5",
      "p6"
     ],
-    "rationale": "The book lists the usual PE findings as sudden dyspnea, pleuritic chest pain (pain worse on breathing in), tachypnea, tachycardia and anxiety, plus leg swelling from the deep vein thrombosis that often sends the clot. A clean incision is a normal post-op finding. Being alert and having a normal blood pressure are reassuring: confusion and hypotension would point to a massive PE."
+    "rationale": "The book lists the usual PE findings as sudden dyspnea, pleuritic chest pain (pain worse on breathing in), tachypnea, tachycardia and anxiety, plus leg swelling from the deep vein thrombosis that often sends the clot. A clean incision is a normal post-op finding. Being alert and having a normal blood pressure are reassuring: confusion and hypotension would point to a massive PE.",
+    "reviewed": "v3"
    },
    {
     "id": "pe2",
@@ -161,7 +162,8 @@
       "Strong risk factor"
      ]
     ],
-    "rationale": "Table 2 lists hip or knee replacement and recent major surgery as strong VTE risk factors. Atrial fibrillation and a history of stroke are moderate risk factors. This client has several at once, and her usual anticoagulant was stopped for surgery, so a clot in the leg traveling to the lung fits her picture."
+    "rationale": "Table 2 lists hip or knee replacement and recent major surgery as strong VTE risk factors. Atrial fibrillation and a history of stroke are moderate risk factors. This client has several at once, and her usual anticoagulant was stopped for surgery, so a clot in the leg traveling to the lung fits her picture.",
+    "reviewed": "v3"
    },
    {
     "id": "pe3",
@@ -202,7 +204,8 @@
       "answer": "hypotension and decreased consciousness"
      }
     ],
-    "rationale": "Sudden dyspnea, pleuritic chest pain, tachycardia, hypoxemia and a swollen calf point to a PE, not a wound problem. Her blood pressure is normal and she is fully alert, so this is a symptomatic PE rather than a massive one. Table 2.1 lists hypotension, cold mottled skin, confusion and decreased consciousness as signs of a massive PE, so those are the changes that would show she is getting worse."
+    "rationale": "Sudden dyspnea, pleuritic chest pain, tachycardia, hypoxemia and a swollen calf point to a PE, not a wound problem. Her blood pressure is normal and she is fully alert, so this is a symptomatic PE rather than a massive one. Table 2.1 lists hypotension, cold mottled skin, confusion and decreased consciousness as signs of a massive PE, so those are the changes that would show she is getting worse.",
+    "reviewed": "v3"
    },
    {
     "id": "pe4",
@@ -242,7 +245,8 @@
       "Not anticipated"
      ]
     ],
-    "rationale": "The book's treatment for a symptomatic PE is hospital care with an IV heparin bolus plus infusion, dosed by weight and adjusted by aPTT. A CT scan helps confirm the PE, and a venous Doppler finds the source clot. Thrombolytics such as alteplase are for a massive PE with hypotension and low bleeding risk; this client is stable and only 2 days after surgery. An oral factor Xa inhibitor alone is the book's approach for an asymptomatic PE, which she does not have."
+    "rationale": "The book's treatment for a symptomatic PE is hospital care with an IV heparin bolus plus infusion, dosed by weight and adjusted by aPTT. A CT scan helps confirm the PE, and a venous Doppler finds the source clot. Thrombolytics such as alteplase are for a massive PE with hypotension and low bleeding risk; this client is stable and only 2 days after surgery. An oral factor Xa inhibitor alone is the book's approach for an asymptomatic PE, which she does not have.",
+    "reviewed": "v3"
    },
    {
     "id": "pe5",
@@ -283,7 +287,8 @@
      "e",
      "f"
     ],
-    "rationale": "During anticoagulant therapy the book says to monitor for bleeding (epistaxis, hematuria, bruising, a drop in H/H), limit invasive procedures such as venipunctures and injections, and keep the environment safe for patients who walk. Hydration of at least 2 L a day is an independent nursing intervention if fluids are not restricted. IM injections are the kind of invasive procedure to avoid while anticoagulated, and rubbing a leg that holds a clot risks breaking off more of it."
+    "rationale": "During anticoagulant therapy the book says to monitor for bleeding (epistaxis, hematuria, bruising, a drop in H/H), limit invasive procedures such as venipunctures and injections, and keep the environment safe for patients who walk. Hydration of at least 2 L a day is an independent nursing intervention if fluids are not restricted. IM injections are the kind of invasive procedure to avoid while anticoagulated, and rubbing a leg that holds a clot risks breaking off more of it.",
+    "reviewed": "v3"
    },
    {
     "id": "pe6",
@@ -323,7 +328,8 @@
       "Needs follow-up"
      ]
     ],
-    "rationale": "Better oxygenation, a slower heart rate and less pain show the PE is responding to treatment. Hematuria, new bruising and a drop in hemoglobin are the bleeding signs the book says to watch for during anticoagulation, so the nurse reports them and expects the aPTT and heparin rate to be reviewed."
+    "rationale": "Better oxygenation, a slower heart rate and less pain show the PE is responding to treatment. Hematuria, new bruising and a drop in hemoglobin are the bleeding signs the book says to watch for during anticoagulation, so the nurse reports them and expects the aPTT and heparin rate to be reviewed.",
+    "reviewed": "v3"
    }
   ]
  },
@@ -423,7 +429,8 @@
      "c",
      "d"
     ],
-    "rationale": "The book lists the signs of a tension pneumothorax as distended neck veins, hypotension, tracheal deviation away from the affected side, and tachycardia. All four are new since 12:00. Rib pain and chest-wall bruising are expected after the crash and were present before, and the temperature is normal."
+    "rationale": "The book lists the signs of a tension pneumothorax as distended neck veins, hypotension, tracheal deviation away from the affected side, and tachycardia. All four are new since 12:00. Rib pain and chest-wall bruising are expected after the crash and were present before, and the temperature is normal.",
+    "reviewed": "v3"
    },
    {
     "id": "tp2",
@@ -451,7 +458,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "In a tension pneumothorax, trapped air builds pressure in the affected (left) pleural space and pushes the trachea away from the affected side. In a simple spontaneous or traumatic pneumothorax the book notes the trachea, if it moves at all, shifts toward the affected side. The right lung is not the injured side, and rib fractures or head position do not move the trachea."
+    "rationale": "In a tension pneumothorax, trapped air builds pressure in the affected (left) pleural space and pushes the trachea away from the affected side. In a simple spontaneous or traumatic pneumothorax the book notes the trachea, if it moves at all, shifts toward the affected side. The right lung is not the injured side, and rib fractures or head position do not move the trachea.",
+    "reviewed": "v3"
    },
    {
     "id": "tp3",
@@ -485,7 +493,7 @@
      "opts": [
       [
        "x1",
-       "Call for emergency help and prepare for chest tube insertion"
+       "Call the rapid response team and stay with the client"
       ],
       [
        "x2",
@@ -537,7 +545,8 @@
       "m2"
      ]
     },
-    "rationale": "Tracheal deviation away from the injured side, distended neck veins, hypotension and tachycardia after chest trauma mean a tension pneumothorax, which the book calls life-threatening and a medical emergency. A stable small pneumothorax would not cause shock, and pain or pneumonia would not shift the trachea. The book's treatment for a large pneumothorax is supplemental oxygen and a chest tube to re-establish negative pleural pressure, so the nurse gets help immediately rather than waiting for imaging or trying spirometry. Blood pressure, heart rate, oxygen saturation and breathing show whether the pressure on the heart and lung is being relieved."
+    "rationale": "Tracheal deviation away from the injured side, distended neck veins, hypotension and tachycardia after chest trauma mean a tension pneumothorax, which the book calls life-threatening and a medical emergency. A stable small pneumothorax would not cause shock, and pain or pneumonia would not shift the trachea. The nurse calls for emergency help at once and stays with the client, and increases supplemental oxygen (the book's first measure for a large pneumothorax), rather than waiting for imaging or trying spirometry. By current practice the provider relieves the trapped air immediately with emergency needle (or finger) decompression, followed by a chest tube to re-establish negative pleural pressure; a chest tube alone is not the first step. Blood pressure, heart rate, oxygen saturation and work of breathing show whether the pressure on the heart and lung is being relieved.",
+    "reviewed": "v3"
    },
    {
     "id": "tp4",
@@ -545,7 +554,7 @@
     "stepLabel": "Generate Solutions",
     "kind": "matrix",
     "page": 37,
-    "stem": "A left chest tube has been placed and connected to a water-seal drainage system. For each nursing action, indicate whether it is appropriate or inappropriate.",
+    "stem": "The provider decompressed the left chest and then placed a left chest tube connected to a water-seal drainage system. For each nursing action, indicate whether it is appropriate or inappropriate.",
     "cols": [
      "Appropriate",
      "Inappropriate"
@@ -577,7 +586,8 @@
       "Inappropriate"
      ]
     ],
-    "rationale": "The book's chest tube rules: keep the collection chamber lower than the chest, avoid dependent loops in the tubing, and clamp only when changing the system with a physician order. Treating pain as needed is part of large-pneumothorax care. Clamping for walks can trap air again, and a drainage system level with the chest lets fluid flow back toward the client."
+    "rationale": "The book's chest tube rules: keep the collection chamber lower than the chest, avoid dependent loops in the tubing, and clamp only when changing the system with a physician order. Treating pain as needed is part of large-pneumothorax care. Clamping for walks can trap air again, and a drainage system level with the chest lets fluid flow back toward the client.",
+    "reviewed": "v3"
    },
    {
     "id": "tp5",
@@ -605,7 +615,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "The chamber must stay lower than the chest, and dependent loops trap fluid and block drainage. Fixing both restores drainage. The book says to clamp only when changing the system with a physician order, disconnecting opens the system to air, and leaving it as is allows fluid to back up."
+    "rationale": "The chamber must stay lower than the chest, and dependent loops trap fluid and block drainage. Fixing both restores drainage. The book says to clamp only when changing the system with a physician order, disconnecting opens the system to air, and leaving it as is allows fluid to back up.",
+    "reviewed": "v3"
    },
    {
     "id": "tp6",
@@ -645,7 +656,8 @@
       "Effective"
      ]
     ],
-    "rationale": "A midline trachea, flat neck veins, normal blood pressure and heart rate, and good oxygen saturation show that the trapped air has been removed and the lung is re-expanding. The book states that bubbling in the water-seal chamber is not normal and is a sign of an air leak, so the nurse checks the system and reports it."
+    "rationale": "A midline trachea, flat neck veins, normal blood pressure and heart rate, and good oxygen saturation show that the trapped air has been removed and the lung is re-expanding. Continuous bubbling in the water-seal chamber signals an air leak (the book: bubbling in the water seal is a sign of an air leak), so the nurse checks the system from the dressing to the drainage unit and reports it. Note that brief, intermittent bubbling with exhaling or coughing can be expected while air is still leaving the pleural space after a pneumothorax; it is continuous bubbling that points to a leak.",
+    "reviewed": "v3"
    }
   ]
  },
@@ -690,7 +702,7 @@
    "Orders": [
     [
      "19:12",
-     "Activate cardiac catheterization lab for primary PCI · Aspirin 324 mg chewable, non-enteric-coated, PO now · Nitroglycerin 0.4 mg SL every 5 min × 3 for chest pain · 0.9% sodium chloride IV bolus as prescribed · Atorvastatin 80 mg PO · Continuous cardiac monitoring"
+     "Activate cardiac catheterization lab for primary PCI · Aspirin 324 mg chewable, non-enteric-coated, PO now · 0.9% sodium chloride IV bolus as prescribed · Atorvastatin 80 mg PO · Continuous cardiac monitoring"
     ]
    ]
   },
@@ -763,7 +775,8 @@
      "p3",
      "p4"
     ],
-    "rationale": "The book's hallmark signs of STEMI are chest pain or symptoms lasting more than 20 minutes, diaphoresis and shortness of breath, with ST elevation on the ECG from a completely blocked coronary artery. A recent meal, a family history, a normal temperature and a mildly raised glucose do not identify a STEMI."
+    "rationale": "The book's hallmark signs of STEMI are chest pain or symptoms lasting more than 20 minutes, diaphoresis and shortness of breath, with ST elevation on the ECG from a completely blocked coronary artery. A recent meal, a family history, a normal temperature and a mildly raised glucose do not identify a STEMI.",
+    "reviewed": "v3"
    },
    {
     "id": "mi2",
@@ -804,7 +817,8 @@
       "answer": "right ventricle"
      }
     ],
-    "rationale": "On the book's ECG map, leads II, III and aVF view the inferior wall, which the right coronary artery (RCA) supplies. Anterior MI shows in V1–V4 and involves the LAD; lateral MI shows in I, aVL, V5 and V6. Right-sided leads V3R–V4R detect a right ventricular infarct, which often comes with an inferior MI."
+    "rationale": "On the book's ECG map, leads II, III and aVF view the inferior wall, which the right coronary artery (RCA) supplies. Anterior MI shows in V1–V4 and involves the LAD; lateral MI shows in I, aVL, V5 and V6. Right-sided leads V3R–V4R detect a right ventricular infarct, which often comes with an inferior MI.",
+    "reviewed": "v3"
    },
    {
     "id": "mi3",
@@ -832,7 +846,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "With a right ventricular infarct, the book notes that preload is already low, which explains hypotension while the lungs stay clear. Left-sided failure would cause crackles. He has nausea but has not been vomiting, and nothing in the record suggests a pericardial effusion. Recognizing low preload matters because it changes which MI drugs are safe."
+    "rationale": "With a right ventricular infarct (ST elevation in V4R), the book notes that preload is already low: the weak right ventricle cannot push enough blood through the lungs to the left heart, so blood backs up into the neck veins (distended at 45°) while the lungs stay clear and the blood pressure falls. Left-sided failure would cause crackles. He has nausea but has not been vomiting, and nothing in the record suggests a pericardial effusion. Recognizing low preload matters because it changes which MI drugs are safe.",
+    "reviewed": "v3"
    },
    {
     "id": "mi4",
@@ -876,7 +891,8 @@
      "b",
      "c"
     ],
-    "rationale": "Aspirin 162–325 mg, chewed and non-enteric-coated, is given immediately. A right ventricular infarct is treated with IV fluids (and positive inotropes if needed), and a high-intensity statin is started as soon as possible. The book says to avoid nitrates and diuretics in a right ventricular infarct because they worsen an already low preload, and to avoid morphine in right ventricular MI for the same reason. Beta-blockers are started only when there is no bradycardia or hypotension; this client has both."
+    "rationale": "Aspirin 162–325 mg, chewed and non-enteric-coated, is given immediately. A right ventricular infarct is treated with IV fluids (and positive inotropes if needed), and a high-intensity statin is started as soon as possible. The book says to avoid nitrates and diuretics in a right ventricular infarct because they worsen an already low preload, and to avoid morphine in right ventricular MI for the same reason. Beta-blockers are started only when there is no bradycardia or hypotension; this client has both.",
+    "reviewed": "v3"
    },
    {
     "id": "mi5",
@@ -888,23 +904,24 @@
     "options": [
      [
       "a",
-      "Keep direct pressure on the site, give atropine as prescribed, run the prescribed fluid bolus, and hold nitrates"
+      "Keep direct pressure on the site and give the prescribed atropine and IV fluid bolus"
      ],
      [
       "b",
-      "Release pressure on the site to check whether a hematoma is forming"
+      "Release pressure briefly to look for a hematoma, then raise the head of the bed"
      ],
      [
       "c",
-      "Start a nitroglycerin infusion in case the artery is closing again"
+      "Start the prescribed nitroglycerin infusion because the artery may be closing again"
      ],
      [
       "d",
-      "Stop the procedure and leave the client alone to rest quietly"
+      "Stop the IV fluids to prevent overload and recheck vital signs in 15 minutes"
      ]
     ],
     "answer": "a",
-    "rationale": "This is the vasovagal response the book warns about during sheath removal: hypotension with bradycardia. The book says to give atropine for bradycardia, give a fluid bolus, hold nitrates (preload reducers), manage pain and anxiety, and apply direct pressure for at least 20 minutes. Releasing pressure risks bleeding, nitrates would drop the pressure further, and the client must not be left alone."
+    "rationale": "This is the vasovagal response the book warns about during sheath removal: hypotension with bradycardia. The book says to give atropine for bradycardia, give a fluid bolus, hold nitrates (preload reducers), manage pain and anxiety, and keep direct pressure on the site for at least 20 minutes. Releasing pressure risks bleeding from the femoral artery, nitroglycerin would drop the pressure further, and stopping fluids removes the volume he needs.",
+    "reviewed": "v3"
    },
    {
     "id": "mi6",
@@ -934,11 +951,6 @@
       "Expected sign of reperfusion"
      ],
      [
-      "e4",
-      "Brief run of ventricular tachycardia as the artery opens",
-      "Expected sign of reperfusion"
-     ],
-     [
       "e5",
       "New back and flank pain with falling BP and hemoglobin",
       "Complication to report"
@@ -949,7 +961,8 @@
       "Complication to report"
      ]
     ],
-    "rationale": "The book lists the evidence of reperfusion after PCI as ST segment resolution, chest pain relief, a sudden rise in CK-MB/troponin, and reperfusion arrhythmias (VT and VF) when the vessel opens; these arrhythmias still need monitoring and treatment if they persist. The high-alert PCI complications are retroperitoneal bleeding (back or flank pain, hypotension, falling hemoglobin) and stent thrombosis (recurrent chest pain with new ischemic ECG changes)."
+    "rationale": "The book lists the evidence of reperfusion after PCI as ST segment resolution, chest pain relief and a sudden rise in CK-MB/troponin (washout from the reopened artery). It also lists reperfusion arrhythmias, but any ventricular tachycardia or fibrillation is still treated and reported, not simply accepted. The high-alert PCI complications are retroperitoneal bleeding (back or flank pain, hypotension, falling hemoglobin) and stent thrombosis (recurrent chest pain with new ischemic ECG changes).",
+    "reviewed": "v3"
    }
   ]
  },
@@ -972,7 +985,7 @@
    "Notes": [
     [
      "Nurses' notes 21:00",
-     "Client restless and anxious, keeps asking \"what's happening?\" Neck veins distended with the head of the bed at 30°. Heart sounds muffled and distant. Skin cool and clammy. Systolic pressure drops 16 mm Hg during inspiration. Sternal incision dressing dry. Incisional pain 4/10."
+     "Client restless and anxious, keeps asking \"what's happening?\" Neck veins distended with the head of the bed at 30°. Heart sounds muffled and distant. Skin cool and clammy. Systolic pressure drops 16 mm Hg during inspiration. Mediastinal chest tube output fell from 150 mL/h to 10 mL/h over the last hour; clots seen in the tubing. Sternal incision dressing dry. Incisional pain 4/10."
     ],
     [
      "Nurses' notes 19:00",
@@ -1013,7 +1026,7 @@
     "stepLabel": "Recognize Cues",
     "kind": "multi",
     "page": 45,
-    "stem": "Which findings at 21:00 are signs of cardiac tamponade? Select all that apply.",
+    "stem": "Which findings in the client's record from 20:30 to 21:00 are signs of cardiac tamponade? Select all that apply.",
     "options": [
      [
       "a",
@@ -1051,7 +1064,8 @@
      "d",
      "e"
     ],
-    "rationale": "The book's signs of tamponade are Beck's triad (raised CVP with JVD, muffled heart sounds, hypotension), a narrow pulse pressure (here 82 − 68 = 14), pulsus paradoxus (a drop of more than 10 mm Hg in BP during inspiration), tachycardia, electrical alternans and a widened mediastinum on chest x-ray. Moderate incisional pain is expected after sternotomy, and a mildly raised glucose is a common stress response after surgery."
+    "rationale": "The book's signs of tamponade are Beck's triad (raised CVP with JVD, muffled heart sounds, hypotension), a narrow pulse pressure (here 82 − 68 = 14), pulsus paradoxus (a drop of more than 10 mm Hg in BP during inspiration), tachycardia, electrical alternans and a widened mediastinum on chest x-ray. Moderate incisional pain is expected after sternotomy, and a mildly raised glucose is a common stress response after surgery.",
+    "reviewed": "v3"
    },
    {
     "id": "ct2",
@@ -1079,7 +1093,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Tamponade is the rapid build-up of fluid or blood (as little as 200 mL) in the pericardial sac, which compresses the heart and reduces its ability to fill and pump. Surgery and anticoagulation are listed causes. Simple hypovolemia would make the neck veins flat and the CVP low, not high. Left-sided failure would cause crackles and would not muffle the heart sounds, and nothing in the record points to new ischemic ECG changes."
+    "rationale": "Tamponade is the rapid build-up of fluid or blood (as little as 200 mL) in the pericardial sac, which compresses the heart and reduces its ability to fill and pump. Surgery and anticoagulation are listed causes. Simple hypovolemia would make the neck veins flat and the CVP low, not high. Left-sided failure would cause crackles and would not muffle the heart sounds, and nothing in the record points to new ischemic ECG changes.",
+    "reviewed": "v3"
    },
    {
     "id": "ct3",
@@ -1107,7 +1122,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "The book calls tamponade a medical emergency: the compressed heart cannot pump enough blood, causing poor oxygen delivery and tissue perfusion. Her restlessness, cool clammy skin and urine output of 15 mL/h show this is already happening. Pain, infection risk and anxiety matter but are not immediately life-threatening, and her anxiety is itself a sign of poor perfusion."
+    "rationale": "The book calls tamponade a medical emergency: the compressed heart cannot pump enough blood, causing poor oxygen delivery and tissue perfusion. Her restlessness, cool clammy skin and urine output of 15 mL/h show this is already happening. Pain, infection risk and anxiety matter but are not immediately life-threatening, and her anxiety is itself a sign of poor perfusion.",
+    "reviewed": "v3"
    },
    {
     "id": "ct4",
@@ -1152,7 +1168,8 @@
       "Not indicated"
      ]
     ],
-    "rationale": "The book's tamponade priorities are to call for help, give oxygen and prepare for intubation if needed, monitor closely, prepare for pericardiocentesis or the OR, and keep the crash cart and defibrillator at the bedside. Dopamine is used together with fluid resuscitation to support blood pressure. The high CVP comes from the squeezed heart, not from too much fluid, so a diuretic would lower filling even further. Waiting an hour delays treatment of a true emergency."
+    "rationale": "The book's tamponade priorities are to call for help, give oxygen and prepare for intubation if needed, monitor closely, prepare for pericardiocentesis or the OR, and keep the crash cart and defibrillator at the bedside. Dopamine is used together with fluid resuscitation to support blood pressure. The high CVP comes from the squeezed heart, not from too much fluid, so a diuretic would lower filling even further. Waiting an hour delays treatment of a true emergency.",
+    "reviewed": "v3"
    },
    {
     "id": "ct5",
@@ -1172,11 +1189,11 @@
      ],
      [
       "o3",
-      "Monitor vital signs, mental status, ECG and SpO₂ continuously"
+      "Stay with the client and monitor vital signs, mental status, ECG and SpO₂ while the team arrives"
      ],
      [
       "o4",
-      "Prepare the client for pericardiocentesis or return to the OR"
+      "Prepare the client for pericardiocentesis or return to the OR once the surgeon decides"
      ]
     ],
     "answer": [
@@ -1185,7 +1202,8 @@
      "o3",
      "o4"
     ],
-    "rationale": "The book's nursing priorities for tamponade start with calling for help because it is a true emergency that only a provider can relieve. Oxygen and airway support come next, then continuous monitoring to track her response, then preparation for pericardiocentesis or surgery, which removes the blood and frees the heart."
+    "rationale": "The book's nursing priorities for tamponade start with calling for help, because it is a true emergency that only a provider can relieve. Oxygen and airway support come next. While the team is on the way the nurse stays at the bedside and tracks her response, and once the surgeon decides on the procedure the nurse prepares her for pericardiocentesis or, as is usual after cardiac surgery with clotted chest tubes, a return to the OR to remove the blood and free the heart.",
+    "reviewed": "v3"
    },
    {
     "id": "ct6",
@@ -1225,7 +1243,8 @@
       "Needs follow-up"
      ]
     ],
-    "rationale": "A wider pulse pressure, normal blood pressure, clear heart sounds, the loss of pulsus paradoxus and better urine output show the heart can fill and pump again. Returning JVD with a falling, narrowing blood pressure are the signs of tamponade from the book coming back, so the nurse calls for help again right away."
+    "rationale": "A wider pulse pressure, normal blood pressure, clear heart sounds, the loss of pulsus paradoxus and better urine output show the heart can fill and pump again. Returning JVD with a falling, narrowing blood pressure are the signs of tamponade from the book coming back, so the nurse calls for help again right away.",
+    "reviewed": "v3"
    }
   ]
  },
@@ -1285,7 +1304,7 @@
     "stepLabel": "Recognize Cues",
     "kind": "highlight",
     "page": 69,
-    "stem": "Tap the findings in the 08:00 note that are consistent with acute pancreatitis.",
+    "stem": "Tap the findings in the client's record that are consistent with acute pancreatitis.",
     "passage": [
      [
       "Severe, knifelike mid-epigastric pain",
@@ -1323,7 +1342,7 @@
       " · "
      ],
      [
-      "Lying curled on his side",
+      "Bowel sounds decreased",
       "p6"
      ],
      [
@@ -1337,7 +1356,7 @@
       " · "
      ],
      [
-      "Takes ibuprofen for back pain",
+      "Takes ibuprofen as needed for back pain",
       "p8"
      ]
     ],
@@ -1346,9 +1365,11 @@
      "p2",
      "p3",
      "p4",
-     "p5"
+     "p5",
+     "p6"
     ],
-    "rationale": "The book describes pancreatitis pain as severe, knifelike and deep mid-epigastric, often radiating to the back and starting 12–48 hours after heavy alcohol intake, with nausea and vomiting in up to 90% of cases. Abdominal distention, tenderness and guarding are expected exam findings, and flank bruising (Grey Turner sign) is a sign of severe disease. His position and orientation do not point to the diagnosis, and ibuprofen use is history the nurse records but not a finding of pancreatitis."
+    "rationale": "The book describes pancreatitis pain as severe, knifelike and deep mid-epigastric, often radiating to the back and starting 12–48 hours after heavy alcohol intake, with nausea and vomiting in up to 90% of cases. Abdominal distention, tenderness and guarding, and decreased bowel sounds are listed exam findings, and flank bruising (Grey Turner sign) is a listed skin sign. Being oriented does not point to the diagnosis, and ibuprofen use is medication history the nurse records, not a finding of pancreatitis.",
+    "reviewed": "v3"
    },
    {
     "id": "pa2",
@@ -1389,7 +1410,8 @@
       "answer": "injured beta cells release less insulin"
      }
     ],
-    "rationale": "Per the book's diagnostic table, lipase above 60 units/L is more specific to the pancreas than amylase. In pancreatitis, fat necrosis binds free calcium and causes hypocalcemia (below 8.2 mg/dL), and injury to the pancreatic beta cells impairs insulin release and causes hyperglycemia (above 100 mg/dL). He is NPO and receiving lactated Ringer's, which contains no dextrose."
+    "rationale": "Per the book's diagnostic table, lipase above 60 units/L is more specific to the pancreas than amylase. In pancreatitis, fat necrosis binds free calcium and causes hypocalcemia (below 8.2 mg/dL), and injury to the pancreatic beta cells impairs insulin release and causes hyperglycemia (above 100 mg/dL). He is NPO and receiving lactated Ringer's, which contains no dextrose.",
+    "reviewed": "v3"
    },
    {
     "id": "pa3",
@@ -1417,7 +1439,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "BP 96/60, HR 122 and urine output of 30 mL/h in an 80 kg client (below the book's 1 mL/kg/h threshold for hypoperfusion) show he is losing circulating volume. The book's initial management uses IV fluid resuscitation to restore blood volume and prevent hypovolemic shock. Diabetes and pseudocysts are later complications, mainly of chronic pancreatitis, and malnutrition develops over days."
+    "rationale": "BP 96/60, HR 122 and urine output of 30 mL/h in an 80 kg client (below the book's 1 mL/kg/h threshold for hypoperfusion) show he is losing circulating volume. The book's initial management uses IV fluid resuscitation to restore blood volume and prevent hypovolemic shock. Diabetes and pseudocysts are later complications, mainly of chronic pancreatitis, and malnutrition develops over days.",
+    "reviewed": "v3"
    },
    {
     "id": "pa4",
@@ -1458,7 +1481,8 @@
      "c",
      "d"
     ],
-    "rationale": "The book's initial medical management is NPO to suppress pancreatic enzyme secretion, IV fluid resuscitation such as lactated Ringer's, calcium, magnesium and potassium replacement, and blood glucose checks every 6 hours with insulin if needed. Antibiotics are for infected necrosis or a biliary cause and are not used prophylactically; his CT shows no necrosis and his ultrasound shows no gallstones. Once stable, the diet advances gradually to high-calorie, low-fat meals, never high-fat."
+    "rationale": "The book's initial medical management is NPO to suppress pancreatic enzyme secretion, IV fluid resuscitation such as lactated Ringer's, calcium, magnesium and potassium replacement, and blood glucose checks every 6 hours with insulin if needed. Antibiotics are for infected necrosis or a biliary cause and are not used prophylactically; his CT shows no necrosis and his ultrasound shows no gallstones. Once stable, the diet advances gradually to high-calorie, low-fat meals, never high-fat.",
+    "reviewed": "v3"
    },
    {
     "id": "pa5",
@@ -1486,7 +1510,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "The book lists an NG tube with intermittent suction to reduce pancreatic stimulation as part of GI support. Oral fluids would stimulate the pancreas, which is why he is NPO. Lying flat does not treat the cause and may worsen comfort and breathing. Holding IV fluids would deepen his hypovolemia."
+    "rationale": "The book lists an NG tube with intermittent suction to reduce pancreatic stimulation as part of GI support. Oral fluids would stimulate the pancreas, which is why he is NPO. Lying flat does not treat the cause and may worsen comfort and breathing. Holding IV fluids would deepen his hypovolemia.",
+    "reviewed": "v3"
    },
    {
     "id": "pa6",
@@ -1527,7 +1552,8 @@
       "No change"
      ]
     ],
-    "rationale": "Urine output above 1 mL/kg/h (80 mL/h for him), a normal blood pressure and controlled pain show that fluid resuscitation and opioid pain control are working. A rising glucose needs follow-up, since the book notes insulin may be needed. Ongoing distention and nausea mean the abdomen has not settled yet, so he stays NPO with the NG tube to intermittent suction and the diet is not advanced."
+    "rationale": "Urine output above 1 mL/kg/h (80 mL/h for him), a normal blood pressure and controlled pain show that fluid resuscitation and opioid pain control are working. A rising glucose needs follow-up, since the book notes insulin may be needed. Ongoing distention and nausea mean the abdomen has not settled yet, so he stays NPO with the NG tube to intermittent suction and the diet is not advanced.",
+    "reviewed": "v3"
    }
   ]
  },
@@ -1554,7 +1580,7 @@
     ],
     [
      "Admission history",
-     "Anorexia, nausea and 6 kg weight loss over 2 months; muscle wasting in the arms and shoulders. Never vaccinated against hepatitis A."
+     "Anorexia and nausea for 2 months with muscle wasting in the arms and shoulders, even though his weight has gone up as his abdomen enlarged. Never vaccinated against hepatitis A."
     ]
    ],
    "Vitals": [
@@ -1576,7 +1602,7 @@
    "Orders": [
     [
      "Admission",
-     "Diagnostic and therapeutic paracentesis today · EGD tomorrow to evaluate for esophageal varices · Daily weight and abdominal girth · Strict intake and output · Vitamin K as prescribed · Dietitian consult · Hepatitis A vaccine · Alcohol cessation counseling"
+     "Diagnostic and therapeutic paracentesis today · EGD tomorrow to evaluate for esophageal varices · Daily weight and abdominal girth · Strict intake and output · Vitamin K as prescribed · Lactulose as prescribed · Dietitian consult · Hepatitis A vaccine · Alcohol cessation counseling"
     ]
    ]
   },
@@ -1620,7 +1646,8 @@
      "c",
      "d"
     ],
-    "rationale": "The book's cirrhosis assessment includes asterixis (flapping tremor), a sign of hepatic encephalopathy, along with neuro changes such as forgetfulness, agitation and disorientation. Shifting dullness and an everted umbilicus point to ascites, and easy bruising and bleeding gums are bleeding signs. Normal bowel sounds and a normal temperature do not need follow-up."
+    "rationale": "The book's cirrhosis assessment includes asterixis (flapping tremor), a sign of hepatic encephalopathy, along with neuro changes such as forgetfulness, agitation and disorientation. Shifting dullness and an everted umbilicus point to ascites, and easy bruising and bleeding gums are bleeding signs. Normal bowel sounds and a normal temperature do not need follow-up.",
+    "reviewed": "v3"
    },
    {
     "id": "ci2",
@@ -1661,7 +1688,8 @@
       "answer": "a low albumin level"
      }
     ],
-    "rationale": "The book explains that cirrhotic scarring obstructs blood flow through the liver, causing portal hypertension and complications such as ascites, esophageal varices and hepatorenal syndrome. In alcohol-related cirrhosis, fluid retention also comes from decreased albumin and hormonal changes. His albumin of 2.4 g/dL fits. His platelets are low and his bilirubin is high, not the reverse."
+    "rationale": "The book explains that cirrhotic scarring obstructs blood flow through the liver, causing portal hypertension and complications such as ascites, esophageal varices and hepatorenal syndrome. In alcohol-related cirrhosis, fluid retention also comes from decreased albumin and hormonal changes. His albumin of 2.4 g/dL fits. His platelets are low and his bilirubin is high, not the reverse.",
+    "reviewed": "v3"
    },
    {
     "id": "ci3",
@@ -1689,7 +1717,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "The book warns that rapid removal of fluid from the abdomen lowers abdominal pressure, causing vasodilation and hypovolemic shock. Fluid overload is the problem paracentesis treats, not a risk of it. Hepatitis A is a vaccination concern, not a procedure risk. Loss of the gag reflex is a concern after EGD, not paracentesis."
+    "rationale": "The book warns that rapid removal of fluid from the abdomen lowers abdominal pressure, causing vasodilation and hypovolemic shock. Fluid overload is the problem paracentesis treats, not a risk of it. Hepatitis A is a vaccination concern, not a procedure risk. Loss of the gag reflex is a concern after EGD, not paracentesis.",
+    "reviewed": "v3"
    },
    {
     "id": "ci4",
@@ -1729,7 +1758,8 @@
       "Not indicated"
      ]
     ],
-    "rationale": "The book's core interventions are monitoring fluids, electrolytes, medicines and abdominal girth, nutrition management, and teaching alcohol cessation. Medical treatment includes vitamin K and blood products, and the hepatitis A vaccine is recommended in chronic liver disease. The book says to encourage mobility, so strict bed rest is not part of the plan."
+    "rationale": "The book's core interventions are monitoring fluids, electrolytes, medicines and abdominal girth, nutrition management, and teaching alcohol cessation. Medical treatment includes vitamin K and blood products, and the hepatitis A vaccine is recommended in chronic liver disease. The book says to encourage mobility, so strict bed rest is not part of the plan.",
+    "reviewed": "v3"
    },
    {
     "id": "ci5",
@@ -1757,7 +1787,8 @@
      ]
     ],
     "answer": "a",
-    "rationale": "The book states that when esophageal varices are suspected, an NG tube should not be inserted because of the risk of variceal rupture and massive hemorrhage. The EGD to look for varices has not been done yet, so the nurse questions the order. Extra lubricant, vitamin K or a different nurse does not remove that risk."
+    "rationale": "The book warns that when esophageal varices are suspected an NG tube should not be inserted, because of the risk of variceal rupture and massive hemorrhage. Current guidance treats this as a strong caution rather than an absolute ban, but here the varices have not yet been evaluated, his INR is 1.9 and his platelets are 78,000/mm³, and the tube is only for nausea, so the nurse holds the insertion and clarifies the order with the provider. Extra lubricant, vitamin K or a different nurse does not remove that risk.",
+    "reviewed": "v3"
    },
    {
     "id": "ci6",
@@ -1792,7 +1823,8 @@
       "Needs follow-up"
      ]
     ],
-    "rationale": "Less abdominal girth, less weight and easier breathing show that fluid was removed as planned. Hypotension with tachycardia and dizziness after paracentesis is the hypovolemic shock the book warns about and must be reported at once. After an EGD the nurse waits for the gag reflex to return before giving anything by mouth, so the request for water must be held."
+    "rationale": "Less abdominal girth, less weight and easier breathing show that fluid was removed as planned. Hypotension with tachycardia and dizziness after paracentesis is the hypovolemic shock the book warns about and must be reported at once. After an EGD the nurse waits for the gag reflex to return before giving anything by mouth, so the request for water must be held.",
+    "reviewed": "v3"
    }
   ]
  }

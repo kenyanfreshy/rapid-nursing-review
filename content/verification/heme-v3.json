@@ -1,0 +1,139 @@
+{
+  "chapter": "heme",
+  "reviewed": 94,
+  "ok": 68,
+  "fixed": 25,
+  "rewritten": 1,
+  "items": [
+    {
+      "id": "heme-ida-q7",
+      "status": "fixed",
+      "note": "Rationale for the CKD option implied that reduced erythropoietin causes iron deficiency; EPO deficiency causes anemia of CKD, not iron loss. Rewrote rationale to give the real iron-deficiency mechanisms while citing the book's 'kidney issues' cause (p156 graphic)."
+    },
+    {
+      "id": "heme-sickle-q12",
+      "status": "fixed",
+      "note": "Key was much longer than the distractors (length cue). Shortened key; still grounded on p159 transcranial Doppler (increased cerebral flow velocity = stroke risk)."
+    },
+    {
+      "id": "heme-sickle-q18",
+      "status": "fixed",
+      "note": "Key was the only long option and contained the reason ('because infection can trigger a crisis...'), cueing the answer. Shortened key and moved the reasoning to the rationale (p159 triggers/antibiotics; p158 spleen dysfunction)."
+    },
+    {
+      "id": "heme-leukemia-q8",
+      "status": "fixed",
+      "note": "Albinism was keyed correct from p160, but albinism is not a recognized leukemia risk factor in current references, so the key was not defensible. Replaced that option with a clear distractor (congenital clubfoot); key is now Down syndrome and congenital immunodeficiency (p160)."
+    },
+    {
+      "id": "heme-leukemia-q11",
+      "status": "fixed",
+      "note": "Stem framed the question around 'low blood counts', which makes stem cell transplant (keyed correct) a poor fit as a response to low counts. Reworded stem to ask about additional therapies for acute leukemia in general (p160 'Additional Therapies')."
+    },
+    {
+      "id": "heme-leukemia-q13",
+      "status": "fixed",
+      "note": "Key was noticeably longer than distractors. Shortened key (p161 'Assist with end-of-life planning if needed')."
+    },
+    {
+      "id": "heme-leukemia-q15",
+      "status": "fixed",
+      "note": "Key was the longest, most detailed option (length cue). Shortened key; still grounded on p160 psychosocial assessment of financial needs and home care options."
+    },
+    {
+      "id": "heme-hemophilia-q12",
+      "status": "fixed",
+      "note": "Key was about twice the length of the distractors. Shortened key; rationale unchanged (p161: ~1/3 of cases are new mutations with no family history)."
+    },
+    {
+      "id": "heme-dic-q12",
+      "status": "rewritten",
+      "note": "Item asked students to match heparin, antithrombin III and activated protein C to their book descriptions. Activated protein C (drotrecogin alfa) was withdrawn from the market in 2011, so the item was built on outdated content. Rewrote as a matrix on nursing care during heparin therapy for DIC with thrombosis (p164: heparin for thromboembolism, use controversial; frequent lab checks; minimize needle sticks; pressure >=10 min). Kept pharm label."
+    },
+    {
+      "id": "heme-dic-q13",
+      "status": "fixed",
+      "note": "Key was far longer than the distractors (length cue). Shortened key; content still from p162 (consumption of clotting factors causes bleeding) and p164 (emotional support and education)."
+    },
+    {
+      "id": "heme-transfusion-q10",
+      "status": "fixed",
+      "note": "Antihistamines are also used as adjuncts in severe (anaphylactic) reactions, so asking whether each drug is 'for' mild or severe reactions left the antihistamine row open to dispute. Reworded stem to 'first-line treatment' so each row has one defensible answer (p165 'If Reaction Occurs')."
+    },
+    {
+      "id": "heme-transfusion-q11",
+      "status": "fixed",
+      "note": "Raynaud option was keyed correct with no explanation of why it matters, so students could not learn from it. Added the clinical reason (cold products/vasospasm) to the rationale (p165 history graphic)."
+    },
+    {
+      "id": "heme-polycythemia-q9",
+      "status": "fixed",
+      "note": "Stem said 'four clients' but the options are findings, not clients. Reworded stem to a single client (p165 stroke complication)."
+    },
+    {
+      "id": "heme-polycythemia-q12",
+      "status": "fixed",
+      "note": "Stem asked what 'the book lists'; students do not have the book. Reworded to a clinical question (p166)."
+    },
+    {
+      "id": "heme-itp-q8",
+      "status": "fixed",
+      "note": "Key was much longer than the distractors (length cue). Shortened key (p168 nursing focus: emotional support)."
+    },
+    {
+      "id": "heme-anaphylaxis-q8",
+      "status": "fixed",
+      "note": "Key was the longest option. Shortened (p171 nursing priorities: medication label checks, informing providers of allergy)."
+    },
+    {
+      "id": "heme-anaphylaxis-q16",
+      "status": "fixed",
+      "note": "Key was about twice the length of the distractors. Shortened key (p171 teaching: allergen avoidance, early signs, emergency action)."
+    },
+    {
+      "id": "heme-lupus-q7",
+      "status": "fixed",
+      "note": "Stem asked which medications 'the book' lists; reworded to a clinical question (p172: hydralazine, procainamide, phenytoin)."
+    },
+    {
+      "id": "heme-lupus-q8",
+      "status": "fixed",
+      "note": "Key was the longest option. Shortened (p172 renal failure as leading cause of death; monitor BUN/creatinine)."
+    },
+    {
+      "id": "heme-lupus-q9",
+      "status": "fixed",
+      "note": "Key and one distractor were word-for-word the same as heme-ida-q12 (same infection-control fact tested the same way). Rewrote the key and that distractor so the item tests immunosuppression-specific understanding (p173 'Avoid illness: immune system is vulnerable')."
+    },
+    {
+      "id": "heme-lupus-q10",
+      "status": "fixed",
+      "note": "Row keyed methotrexate as 'appropriate' for a client with lupus nephritis. Methotrexate is cleared by the kidneys and is avoided with renal impairment, so that row was not clearly right. Changed the row to belimumab alone (p172)."
+    },
+    {
+      "id": "heme-lupus-q11",
+      "status": "fixed",
+      "note": "Key was far longer than the distractors. Shortened (p173 grooming and self-image; open discussion)."
+    },
+    {
+      "id": "heme-ra-q8",
+      "status": "fixed",
+      "note": "Key was the longest option (length cue). Shortened (p173 synovial inflammation forming pannus)."
+    },
+    {
+      "id": "heme-ra-q9",
+      "status": "fixed",
+      "note": "Key was much longer than the distractors. Shortened (p174 'Test' box)."
+    },
+    {
+      "id": "heme-ra-q10",
+      "status": "fixed",
+      "note": "CBC was keyed as an inflammation marker because the book files it under that heading (p175), but a CBC is not itself a marker of inflammation, so the row was disputable. Replaced CBC with anti-CCP antibodies as a distractor (p174); key is now CRP and ESR. Reworded stem to remove 'listed'."
+    },
+    {
+      "id": "heme-ra-q15",
+      "status": "fixed",
+      "note": "Stem asked what 'the book lists'; reworded to a clinical question (p174 acute vs chronic phase teaching)."
+    }
+  ]
+}

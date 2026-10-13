@@ -1893,7 +1893,8 @@
    "page": 44,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-basics-q7",
@@ -1918,7 +1919,8 @@
    "page": 44,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-basics-q8",
@@ -1943,7 +1945,8 @@
    "page": 44,
    "clientNeed": "hpm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-tamponade-q6",
@@ -1977,7 +1980,8 @@
    "page": 45,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-tamponade-q7",
@@ -2014,7 +2018,8 @@
    "page": 45,
    "clientNeed": "pa",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-tamponade-q8",
@@ -2039,7 +2044,8 @@
    "page": 45,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q9",
@@ -2072,7 +2078,8 @@
    "page": 47,
    "clientNeed": "pa",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q10",
@@ -2107,7 +2114,8 @@
    "page": 47,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q11",
@@ -2141,7 +2149,8 @@
    "page": 47,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q12",
@@ -2166,7 +2175,8 @@
    "page": 47,
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q13",
@@ -2197,7 +2207,8 @@
    "page": 47,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q14",
@@ -2234,7 +2245,8 @@
    "page": 48,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q15",
@@ -2259,7 +2271,8 @@
    "page": 48,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q16",
@@ -2284,7 +2297,8 @@
    "page": 48,
    "clientNeed": "rrp",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q17",
@@ -2292,16 +2306,16 @@
    "type": "mcq",
    "stem": "The nurse teaches a client with stable angina about warning signs. Which client statement indicates the teaching was effective?",
    "options": [
-    "\"Chest pain that comes on at rest is normal for my type of angina.\"",
-    "\"If my troponin test is normal, my chest pain cannot be serious.\"",
-    "\"If my chest pain starts while I'm resting or gets more frequent or intense, it may be unstable angina, which can lead to a heart attack.\"",
-    "\"My chest pain from exertion should keep going even after I stop and rest.\""
+    "\"Chest pain that starts while I am resting is normal for my type of angina.\"",
+    "\"If my troponin test comes back normal, my chest pain cannot be serious.\"",
+    "\"Pain at rest, or pain that gets more frequent or intense, needs care right away.\"",
+    "\"Pain from exertion should keep going for a while even after I stop and rest.\""
    ],
    "correct": 2,
    "rationales": [
     "Stable angina is exertional pain; pain at rest suggests unstable angina.",
     "The book notes troponin does not rise in unstable angina, yet it is still a precursor to MI.",
-    "The book describes unstable angina as possibly occurring at rest, increasing in frequency, intensity and duration, and being a precursor to MI.",
+    "The book describes unstable angina as pain that may occur at rest and increases in frequency, intensity and duration, and calls it a precursor to MI, so a change in pattern needs prompt care.",
     "Stable angina pain stops when the exertion stops."
    ],
    "clue": "Pain at rest or a change in pattern signals unstable angina.",
@@ -2309,7 +2323,8 @@
    "page": 46,
    "clientNeed": "hpm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-acs-q18",
@@ -2334,7 +2349,8 @@
    "page": 47,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-cardiomyopathy-q7",
@@ -2359,7 +2375,8 @@
    "page": 49,
    "clientNeed": "rrp",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-cardiomyopathy-q8",
@@ -2384,7 +2401,8 @@
    "page": 49,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-cardiomyopathy-q9",
@@ -2421,7 +2439,8 @@
    "page": 50,
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-cardiomyopathy-q10",
@@ -2446,7 +2465,8 @@
    "page": 50,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-cardiomyopathy-q11",
@@ -2471,7 +2491,8 @@
    "page": 49,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-cardiomyopathy-q12",
@@ -2479,7 +2500,7 @@
    "type": "mcq",
    "stem": "A client with cardiomyopathy is started on an angiotensin receptor blocker (ARB). The client asks how it helps. Which explanation by the nurse is accurate?",
    "options": [
-    "\"It blocks the renin-angiotensin-aldosterone system, which reduces blood vessel constriction and fluid retention.\"",
+    "\"It blocks the renin-angiotensin-aldosterone system, easing vessel constriction and fluid retention.\"",
     "\"It blocks calcium from entering your heart and blood vessel muscle cells.\"",
     "\"It inhibits the sodium-potassium pump so your heart contracts more forcefully.\"",
     "\"It mainly widens your veins to reduce the blood returning to your heart.\""
@@ -2496,7 +2517,8 @@
    "page": 50,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-hf-q7",
@@ -2504,15 +2526,15 @@
    "type": "mcq",
    "stem": "A client with left-sided heart failure has crackles and orthopnea and a BP of 98/60 mm Hg. A new prescription reads \"0.9% sodium chloride 1,000 mL IV bolus over 30 minutes.\" What should the nurse do?",
    "options": [
-    "Infuse the bolus as prescribed to raise the BP",
-    "Clarify the prescription, since fluids are used cautiously and large boluses avoided in left-sided failure",
-    "Infuse the bolus faster to correct the BP sooner",
+    "Infuse the bolus as prescribed to raise the blood pressure",
+    "Hold the bolus and clarify the prescription with the provider",
+    "Infuse the bolus faster to correct the blood pressure sooner",
     "Infuse the bolus with the client lying flat to improve venous return"
    ],
    "correct": 1,
    "rationales": [
     "A large bolus could worsen the pulmonary congestion shown by crackles and orthopnea.",
-    "The book cautions to use fluids carefully and avoid a large bolus in left-sided failure, which already causes pulmonary congestion.",
+    "The book cautions to use fluids carefully and avoid a large bolus in left-sided failure, which already causes pulmonary congestion, so the nurse holds and clarifies.",
     "A faster rate adds even more risk of worsening pulmonary edema.",
     "Lying flat would worsen orthopnea, and the bolus itself is the problem."
    ],
@@ -2521,7 +2543,8 @@
    "page": 51,
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-hf-q8",
@@ -2558,7 +2581,8 @@
    "page": 51,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-hf-q9",
@@ -2591,7 +2615,8 @@
    "page": 51,
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-hf-q10",
@@ -2616,7 +2641,8 @@
    "page": 51,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-hf-q11",
@@ -2650,7 +2676,8 @@
    "page": 52,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-hf-q12",
@@ -2658,10 +2685,10 @@
    "type": "mcq",
    "stem": "The daughter of a client with left-sided heart failure tells the nurse, \"Dad suddenly seems confused and restless. Is it just his age?\" Which response by the nurse is best?",
    "options": [
-    "\"Confusion is common in older adults, so there's no need to worry.\"",
-    "\"He's probably tired; let's let him sleep it off.\"",
-    "\"Please try to calm him down while I finish my medication pass.\"",
-    "\"New confusion and restlessness can mean his heart failure is getting worse. I'm going to check on him right now.\""
+    "\"Confusion is common in older adults, so there is really no need to worry.\"",
+    "\"He is probably just tired; let's let him sleep it off and see how he does.\"",
+    "\"Please try to calm him down for now while I finish giving my medications.\"",
+    "\"New confusion can mean his heart failure is worsening. I'll check him now.\""
    ],
    "correct": 3,
    "rationales": [
@@ -2675,7 +2702,8 @@
    "page": 51,
    "clientNeed": "psych",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-pah-q7",
@@ -2709,7 +2737,8 @@
    "page": 53,
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-pah-q8",
@@ -2718,7 +2747,7 @@
    "stem": "The nurse is screening clients for pulmonary arterial hypertension (PAH). Which findings are risk factors or associated conditions for PAH? Select all that apply.",
    "options": [
     "A parent with PAH",
-    "Current pregnancy",
+    "Methamphetamine use",
     "Lactose intolerance",
     "Lupus or another autoimmune disease",
     "A healed wrist fracture",
@@ -2732,18 +2761,19 @@
    ],
    "rationales": [
     "Family history is a listed risk factor, and idiopathic PAH may be inherited.",
-    "Pregnancy is a listed risk factor.",
+    "The book lists stimulant abuse among the diseases associated with PAH.",
     "Lactose intolerance is not among the risk factors or associated diseases.",
     "Autoimmune diseases are a listed risk factor.",
     "A healed fracture is not linked to PAH in the book.",
     "HIV is a listed associated disease."
    ],
-   "clue": "The book lists family history, pregnancy, autoimmune disease and HIV.",
+   "clue": "The book lists family history, autoimmune disease, HIV and stimulant abuse.",
    "priority": "Identify clients at higher risk of PAH.",
    "page": 53,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-pah-q9",
@@ -2778,7 +2808,8 @@
    "page": 53,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-pah-q10",
@@ -2803,7 +2834,8 @@
    "page": 53,
    "clientNeed": "psych",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-pah-q11",
@@ -2828,7 +2860,8 @@
    "page": 52,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-pah-q12",
@@ -2836,9 +2869,9 @@
    "type": "mcq",
    "stem": "The nurse receives report on four clients with pulmonary hypertension. Which client should the nurse see first?",
    "options": [
-    "A client on a stable epoprostenol infusion who asks about discharge plans",
-    "A client scheduled for a V/Q scan later today",
-    "A client whose inhaled nitric oxide was stopped abruptly 20 minutes ago and who is now increasingly short of breath",
+    "A client on a stable epoprostenol infusion who is asking about discharge plans",
+    "A client scheduled for a V/Q scan later today who is resting comfortably",
+    "A client whose inhaled nitric oxide was stopped abruptly and who is more short of breath",
     "A client with mild ankle edema who is taking furosemide as prescribed"
    ],
    "correct": 2,
@@ -2853,7 +2886,8 @@
    "page": 52,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-htn-q6",
@@ -2878,7 +2912,8 @@
    "page": 54,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-htn-q7",
@@ -2903,7 +2938,8 @@
    "page": 54,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-htn-q8",
@@ -2940,7 +2976,8 @@
    "page": 54,
    "clientNeed": "hpm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q10",
@@ -2965,7 +3002,8 @@
    "page": 56,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q11",
@@ -2999,7 +3037,8 @@
    "page": 55,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q12",
@@ -3033,7 +3072,8 @@
    "page": 55,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q13",
@@ -3041,10 +3081,10 @@
    "type": "mcq",
    "stem": "A client with acute pericarditis has had extensive testing, and no cause has been found. The client says anxiously, \"If they can't find the cause, something must be seriously wrong.\" Which response by the nurse is best?",
    "options": [
-    "\"The doctors must have missed something, so they'll order more tests.\"",
-    "\"You shouldn't worry; it's nothing.\"",
-    "\"I can hear that not knowing is worrying you. Often no cause is found; that is actually the most common type of pericarditis.\"",
-    "\"It was most likely caused by a heart attack you didn't notice.\""
+    "\"The doctors must have missed something, so they will order more tests.\"",
+    "\"You really shouldn't worry about this; it is nothing serious at all.\"",
+    "\"Not knowing is hard. Often no cause is found; that is the most common type.\"",
+    "\"It was most likely caused by a heart attack that you did not notice.\""
    ],
    "correct": 2,
    "rationales": [
@@ -3058,7 +3098,8 @@
    "page": 55,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q14",
@@ -3096,7 +3137,8 @@
    "page": 56,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q15",
@@ -3121,7 +3163,8 @@
    "page": 56,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q16",
@@ -3158,7 +3201,8 @@
    "page": 57,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q17",
@@ -3183,7 +3227,8 @@
    "page": 57,
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q18",
@@ -3208,7 +3253,8 @@
    "page": 57,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q19",
@@ -3233,7 +3279,8 @@
    "page": 55,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q20",
@@ -3258,32 +3305,34 @@
    "page": 56,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q21",
    "section": "cardio-inflammatory",
    "type": "mcq",
-   "stem": "The parents of a 19-year-old admitted with severe myocarditis ask why their child is on continuous cardiac monitoring. They look frightened. Which response by the nurse is best?",
+   "stem": "The parents of a 15-year-old admitted with severe myocarditis ask why their child is on continuous cardiac monitoring. They look frightened. Which response by the nurse is best?",
    "options": [
-    "\"I can see how worried you are. Myocarditis can cause irregular heart rhythms, so we watch closely to act right away if one occurs.\"",
-    "\"Monitoring is just routine; there's really nothing to worry about.\"",
+    "\"I can see you are worried. Myocarditis can cause irregular rhythms, so we watch closely.\"",
+    "\"Monitoring is just routine for everyone here; there's really nothing to worry about.\"",
     "\"Myocarditis often causes sudden death in young people, so you should prepare yourselves.\"",
-    "\"You'll need to ask the provider; I can't discuss that.\""
+    "\"You will need to ask the provider about that; I am not able to discuss it with you.\""
    ],
    "correct": 0,
    "rationales": [
     "The book notes severe myocarditis can cause arrhythmias; acknowledging fear and explaining the purpose of monitoring supports the family.",
     "False reassurance dismisses a real concern.",
     "This is alarming and overstates the risk the book describes for severe cases.",
-    "Explaining routine care is within the nurse's role; deflecting leaves the family without support."
+    "Explaining the purpose of monitoring to a minor's parents is within the nurse's role; deflecting leaves the family without support."
    ],
    "clue": "Frightened parents ask why monitoring is needed.",
    "priority": "Support the family with empathy and honest information.",
    "page": 54,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-inflammatory-q22",
@@ -3291,10 +3340,10 @@
    "type": "mcq",
    "stem": "A client with pericarditis develops new JVD, and the BP falls from 128/76 to 92/70 mm Hg. Using SBAR, which recommendation should the nurse give the provider?",
    "options": [
-    "\"Please increase the ibuprofen dose for the chest pain.\"",
-    "\"I'm concerned about cardiac tamponade. Please come evaluate the client now and consider an echocardiogram.\"",
-    "\"I recommend rechecking the blood pressure in 4 hours.\"",
-    "\"Please order compression stockings for the low blood pressure.\""
+    "\"Please increase the ibuprofen dose, since the client's chest pain is getting worse.\"",
+    "\"I'm concerned about tamponade. Please evaluate the client now and consider an echo.\"",
+    "\"I recommend that we recheck the blood pressure in 4 hours and call if it drops.\"",
+    "\"Please order compression stockings to help raise the client's low blood pressure.\""
    ],
    "correct": 1,
    "rationales": [
@@ -3308,7 +3357,8 @@
    "page": 56,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q9",
@@ -3333,7 +3383,8 @@
    "page": 58,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q10",
@@ -3367,7 +3418,8 @@
    "page": 58,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q11",
@@ -3392,7 +3444,8 @@
    "page": 58,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q12",
@@ -3417,7 +3470,8 @@
    "page": 60,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q13",
@@ -3442,7 +3496,8 @@
    "page": 58,
    "clientNeed": "moc",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q14",
@@ -3467,7 +3522,8 @@
    "page": 60,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q15",
@@ -3504,7 +3560,8 @@
    "page": 60,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q16",
@@ -3512,10 +3569,10 @@
    "type": "mcq",
    "stem": "A client with a DVT in the right calf asks the nurse to massage the swollen, tender leg. Which response by the nurse is best?",
    "options": [
-    "\"A gentle massage will help move the trapped fluid.\"",
-    "\"I'll massage it after your next anticoagulant dose.\"",
-    "\"Massage will help break up the clot faster.\"",
-    "\"I can't massage that leg, because it could loosen the clot and cause a pulmonary embolism.\""
+    "\"A gentle massage will help move the trapped fluid out of your leg.\"",
+    "\"I'll massage it for you after your next anticoagulant dose is given.\"",
+    "\"A firm massage will help break up the clot so it dissolves faster.\"",
+    "\"I won't massage that leg, because rubbing it could loosen the clot.\""
    ],
    "correct": 3,
    "rationales": [
@@ -3529,7 +3586,8 @@
    "page": 58,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q17",
@@ -3537,14 +3595,14 @@
    "type": "mcq",
    "stem": "A client with PAOD and a toe ulcer says, \"I just know I'm going to lose my leg like my uncle did.\" Which response by the nurse is best?",
    "options": [
-    "\"That sounds frightening. Amputation can happen, but most people with PAOD don't need one. Let's talk about what you can do to protect your legs.\"",
-    "\"You're right; with an ulcer, amputation is likely.\"",
-    "\"Don't worry, amputation never happens with PAOD.\"",
-    "\"Let's not talk about that; it will only upset you.\""
+    "\"That sounds frightening. Most people with PAOD keep their legs; let's talk about protecting yours.\"",
+    "\"You're right to expect it; with a toe ulcer, an amputation is very likely now.\"",
+    "\"Don't worry about that at all; amputation never happens with PAOD anymore.\"",
+    "\"Let's not talk about amputation right now; it will only upset you more.\""
    ],
    "correct": 0,
    "rationales": [
-    "The book notes amputation occurs in about 10% of PAOD cases over 10 years; acknowledging fear and giving accurate hope supports coping.",
+    "The book gives amputation as about 10% of PAOD cases over 10 years, so most clients keep their legs; acknowledging fear and giving accurate, hopeful information supports coping.",
     "This overstates the risk and increases fear.",
     "Amputation is a listed complication, so this is false reassurance.",
     "Avoiding the topic blocks the client from expressing fear."
@@ -3554,7 +3612,8 @@
    "page": 60,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-occlusion-q18",
@@ -3579,7 +3638,8 @@
    "page": 60,
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q9",
@@ -3614,7 +3674,8 @@
    "page": 60,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q10",
@@ -3639,7 +3700,8 @@
    "page": 60,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q11",
@@ -3664,7 +3726,8 @@
    "page": 61,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q12",
@@ -3698,7 +3761,8 @@
    "page": 62,
    "clientNeed": "rrp",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q13",
@@ -3730,9 +3794,10 @@
    "clue": "Low CO shows as hypoperfusion and rising filling pressures.",
    "priority": "Recognize when low cardiac output calls for an inotrope.",
    "page": 62,
-   "clientNeed": "pharm",
+   "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q14",
@@ -3766,7 +3831,8 @@
    "page": 62,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q15",
@@ -3800,7 +3866,8 @@
    "page": 62,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q16",
@@ -3808,10 +3875,10 @@
    "type": "mcq",
    "stem": "Several weeks after valve replacement, a client returns with recurrent angina, a new murmur and worsening heart failure symptoms. Which action by the nurse is most appropriate?",
    "options": [
-    "Notify the provider promptly and anticipate an echocardiogram for possible valve failure",
-    "Document the findings as expected recovery after valve surgery",
-    "Encourage more activity to build exercise tolerance",
-    "Give a PRN analgesic and reassess at the next shift"
+    "Notify the provider and anticipate an echocardiogram for possible valve failure",
+    "Document the findings as part of the expected recovery after valve surgery",
+    "Encourage the client to increase activity to build exercise tolerance",
+    "Give a PRN analgesic for the angina and reassess at the next shift"
    ],
    "correct": 0,
    "rationales": [
@@ -3825,7 +3892,8 @@
    "page": 62,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q17",
@@ -3833,10 +3901,10 @@
    "type": "mcq",
    "stem": "A client had an embolic stroke during a catheter-based procedure and now has right-sided weakness. The client says, \"I'll never be able to take care of myself again.\" Which response by the nurse is best?",
    "options": [
-    "\"Stay positive; you'll be back to normal in no time.\"",
-    "\"This is a lot to face. Rehabilitation therapy is part of your plan, and we'll work toward as much independence as we can.\"",
-    "\"Many people never recover, so it's best to plan for long-term care.\"",
-    "\"Let's talk about something more cheerful.\""
+    "\"Stay positive; you'll be back to your normal self in no time at all.\"",
+    "\"This is a lot to face. Rehabilitation is part of your plan to regain independence.\"",
+    "\"Many people never recover from this, so it's best to plan for long-term care.\"",
+    "\"Let's talk about something more cheerful to take your mind off of it.\""
    ],
    "correct": 1,
    "rationales": [
@@ -3850,7 +3918,8 @@
    "page": 62,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "cardio-postpci-q18",
@@ -3858,10 +3927,10 @@
    "type": "mcq",
    "stem": "The nurse receives report on four clients after cardiac intervention. Which client should the nurse see first?",
    "options": [
-    "A client receiving prescribed hydration before a scheduled angiogram",
-    "A client with occasional PVCs on the monitor and no symptoms",
-    "A client with growing groin swelling, a falling hemoglobin and a BP that has dropped to 88/50 mm Hg",
-    "A client who wants to know when the dressing will be changed"
+    "A client receiving prescribed IV hydration before an angiogram scheduled for later today",
+    "A client with occasional PVCs on the monitor who has no symptoms and stable vital signs",
+    "A client with a growing groin hematoma, a falling hemoglobin and a BP of 88/50 mm Hg",
+    "A client who wants to know when the dressing over the access site will be changed"
    ],
    "correct": 2,
    "rationales": [
@@ -3875,7 +3944,8 @@
    "page": 60,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [
@@ -3982,6 +4052,10 @@
   {
    "page": 60,
    "issue": "Bleeding/hematoma management is numbered 1. Reverse anticoagulants, 2. Apply direct pressure, which could be read as an order of actions. cardio-postpci-q10 keys direct pressure as the first bedside action (reversal is 'if needed'); the author may want to clarify the order."
+  },
+  {
+   "page": 53,
+   "issue": "v3 review: 'Risk factors: Family history, pregnancy, and autoimmune diseases' presents pregnancy as a cause of PAH; pregnancy is better described as a high-risk state for clients who already have PAH (it can unmask or worsen it). cardio-pah-q8 no longer keys pregnancy."
   }
  ]
 }

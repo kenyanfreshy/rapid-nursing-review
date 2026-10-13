@@ -1,0 +1,54 @@
+{
+ "chapter": "nclex",
+ "reviewed": 36,
+ "ok": 27,
+ "fixed": 7,
+ "rewritten": 2,
+ "items": [
+  {
+   "id": "nclex-priorities-q14",
+   "status": "fixed",
+   "note": "cjmm was evaluateOutcomes, but the item asks for the nurse's next action after stabilization. Changed to takeAction. Content (p5 Maslow: physiological before psychosocial) unchanged."
+  },
+  {
+   "id": "nclex-priorities-q15",
+   "status": "fixed",
+   "note": "Key (113 characters) was far longer than the distractors (67-79), a length cue. Lengthened distractors and tightened the key ('early sign of a problem'); p6 'New confusion or agitation' unchanged."
+  },
+  {
+   "id": "nclex-priorities-q24",
+   "status": "fixed",
+   "note": "Stem was word-for-word the same as nclex-priorities-q1 ('A nurse receives report on four clients...'). Reworded the stem so the two items are distinct. The rationale for the asymptomatic potassium option quoted 'treat airway obstruction before an abnormal lab' without addressing that client; rewrote it (p5)."
+  },
+  {
+   "id": "nclex-highrisk-q15",
+   "status": "fixed",
+   "note": "The distractors (about 42 characters) were much shorter than the key (72), and one was implausible. Rewrote the distractors to similar length; key (report bleeding, p8 anticoagulants high-alert, educate on side effects) unchanged."
+  },
+  {
+   "id": "nclex-highrisk-q20",
+   "status": "fixed",
+   "note": "The stem asked which actions show 'interpreting labs in context', but keyed option 4 ('act promptly on a critical value') and distractor 3 (critical potassium) are about acting on critical values, not about context. Broadened the stem to 'safe interpretation of the lab results' so every option is clearly right or wrong against p8."
+  },
+  {
+   "id": "nclex-highrisk-q22",
+   "status": "rewritten",
+   "note": "Duplicated nclex-highrisk-q12 (matrix row 'Elevated lactate returning toward normal after sepsis treatment' = improving), with the same creatinine and hemoglobin distractors. Rewrote on p8 (same section, rrp/evaluateOutcomes): judging treatment of a critical potassium by a sustained improving trend versus a symptom report, a one-off value, or worsening kidney labs (p8 'Potassium abnormalities', 'Improving labs indicate effective treatment', 'Never look at a single lab in isolation')."
+  },
+  {
+   "id": "nclex-strategy-q20",
+   "status": "fixed",
+   "note": "cjmm was evaluateOutcomes, but the item asks which reassessment findings mean teaching should be delayed, which is cue analysis. Changed to analyzeCues (p11 'Teaching is ineffective if the patient is unstable')."
+  },
+  {
+   "id": "nclex-strategy-q21",
+   "status": "rewritten",
+   "note": "Duplicated nclex-strategy-q12: the same three 'eliminate' traps (changing a dose without an order, absolute 'never' language, waiting/delaying care) in SATA form instead of matrix form. Rewrote on p12 (same section, safety, SATA, analyzeCues): a postoperative client who has become unstable while routine tasks compete, applying 'Prioritize unstable patients' and 'Avoid answers that delay care unnecessarily / ignore safety'."
+  },
+  {
+   "id": "nclex-strategy-q23",
+   "status": "fixed",
+   "note": "Distractors were implausible ('how the medication is made by the manufacturer', 'store the bottle neatly'). Replaced them with plausible but lower-priority teaching topics (refills, drug names, storage) and updated the rationales. Key (fall prevention, p11 'Teaching questions focus on: Safety') unchanged."
+  }
+ ]
+}

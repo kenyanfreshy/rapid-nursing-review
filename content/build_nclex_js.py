@@ -3,7 +3,7 @@
     node content/import_nursebound.mjs <path-to-usrn-pathway-app>   # refresh content/nclex/*.json
     python3 content/build_nclex_js.py
 """
-import json, os
+import glob, json, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -36,6 +36,9 @@ BY_NAME = {name: tid for tid, name, _ in TOPICS}
 def main():
     bank = json.load(open(os.path.join(HERE, 'nclex', 'bank.json'), encoding='utf-8'))
     cases = json.load(open(os.path.join(HERE, 'nclex', 'ngn.json'), encoding='utf-8'))
+    # Book-linked cases written from the book (content/cases/*.json), after the NurseBound ones so the free case stays first.
+    for f in sorted(glob.glob(os.path.join(HERE, 'cases', '*.json'))):
+        cases += json.load(open(f, encoding='utf-8'))
     unknown = sorted({q['topic'] for q in bank if q['topic'] not in BY_NAME})
     if unknown:
         raise SystemExit(f'Add these topics to TOPICS: {unknown}')

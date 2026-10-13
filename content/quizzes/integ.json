@@ -268,7 +268,8 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-burns-q5",
@@ -302,7 +303,8 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-burns-q6",
@@ -336,32 +338,34 @@
    "type": "sata",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-burns-q7",
    "section": "integ-burns",
-   "stem": "A 50-kg client has burns over 30% TBSA. Fluid resuscitation started on arrival using the Parkland formula as presented in the book. At the 8-hour mark, which total volume infused shows the first-phase goal was met?",
+   "stem": "A client with partial-thickness burns is receiving wound care with topical silver sulfadiazine. Which finding best indicates that this therapy is achieving its intended effect?",
    "options": [
-    "1,500 mL",
-    "6,000 mL",
-    "12,000 mL",
-    "3,000 mL"
+    "The client rates burn pain as 2 on a 0-10 scale after dressing changes",
+    "The burn wounds show no increasing redness, purulent drainage or foul odor",
+    "The client's voice is no longer hoarse and the client is breathing easily",
+    "The client's hourly urine output has stayed within the expected range"
    ],
-   "correct": 3,
+   "correct": 1,
    "rationales": [
-    "1,500 mL is only one quarter of the 6,000 mL total, so the client is under-resuscitated.",
-    "6,000 mL is the whole calculated total; the book says only half is given in the first 8 hours.",
-    "12,000 mL is double the calculated total and would be fluid overload.",
-    "Correct. 4 × 50 × 30 = 6,000 mL; half of that, 3,000 mL, is the first-8-hour goal."
+    "Silver sulfadiazine is a topical antibiotic, not an analgesic; pain control is a separate burn care priority on the same page.",
+    "Correct. The book lists topical antibiotics such as silver sulfadiazine under burn wound care and infection prevention as a priority; a wound without signs of infection shows the therapy is working.",
+    "Resolving hoarseness relates to the airway and possible inhalation injury, not to topical wound therapy.",
+    "Urine output reflects fluid resuscitation, not the effect of a topical antibiotic on the wound."
    ],
-   "clue": "Parkland total = 4 mL × 50 kg × 30% = 6,000 mL, and the book says to give half in the first 8 hours.",
-   "priority": "Evaluate fluid resuscitation against the Parkland target: half of the calculated total in the first 8 hours.",
+   "clue": "Silver sulfadiazine is listed as a topical antibiotic for burn wound care.",
+   "priority": "Evaluate topical antibiotic therapy by watching the burn wound for signs of infection.",
    "page": 178,
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q4",
@@ -386,7 +390,8 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q5",
@@ -424,7 +429,8 @@
    "type": "matrix",
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q6",
@@ -449,12 +455,13 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q7",
    "section": "integ-pressure",
-   "stem": "A client admitted with a hip injury will be on bed rest. On admission, which approach from the book's review points should the nurse use to identify and reduce the client's pressure injury risk?",
+   "stem": "A client admitted with a hip injury will be on bed rest. On admission, which approach should the nurse use to identify and reduce the client's pressure injury risk?",
    "options": [
     "Wait to assess the skin until a reddened area appears",
     "Use the Braden Scale along with repositioning and skin care",
@@ -474,7 +481,8 @@
    "type": "mcq",
    "clientNeed": "hpm",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q8",
@@ -508,17 +516,18 @@
    "type": "sata",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q9",
    "section": "integ-pressure",
    "stem": "The daughter of a bedbound client who will be discharged home says, \"I'm scared I'll do something wrong and he'll get a bedsore.\" Which response by the nurse is most helpful?",
    "options": [
-    "Bedsores are unavoidable at home, so try not to worry about them.",
-    "The home health nurse will handle all of his skin care for you.",
-    "You should keep him lying on his back so his skin is not disturbed.",
-    "It's normal to feel that way. Let's go over turning him often, protecting his skin and using support devices."
+    "Bedsores can't really be prevented at home, so try not to worry too much about them.",
+    "The home health nurse will take care of all of his skin care, so you won't need to.",
+    "Keep him lying flat on his back as much as possible so his skin isn't disturbed.",
+    "It's normal to feel that way. Let's review turning him often, skin care and support devices."
    ],
    "correct": 3,
    "rationales": [
@@ -533,7 +542,8 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-pressure-q10",
@@ -558,7 +568,8 @@
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-skin-q4",
@@ -582,7 +593,7 @@
     "Stopping early goes against the book's teaching on medication adherence.",
     "Correct. The book teaches clients to report signs of infection.",
     "Correct. The book's medication adherence teaching includes understanding side effects and dosage schedules.",
-    "The book teaches keeping wounds clean and dry, not damp.",
+    "A damp cloth is not a clean wound dressing and holds moisture against the skin around the wound; the book teaches keeping wounds clean and dry and reporting signs of infection, and any dressing should follow the prescribed wound care.",
     "The book lists topical corticosteroids for eczema and psoriasis, not for wound redness, which should be reported."
    ],
    "clue": "The client needs wound hygiene and medication adherence teaching.",
@@ -591,7 +602,8 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-skin-q5",
@@ -616,7 +628,8 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-skin-q6",
@@ -650,7 +663,8 @@
    "type": "matrix",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "integ-skin-q7",
@@ -675,7 +689,8 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [

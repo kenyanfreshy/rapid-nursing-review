@@ -1,0 +1,109 @@
+{
+  "chapter": "gi",
+  "reviewed": 92,
+  "ok": 72,
+  "fixed": 18,
+  "rewritten": 2,
+  "items": [
+    {
+      "id": "gi-gerd-q21",
+      "status": "fixed",
+      "note": "Key was much longer than the distractors, a length cue. Shortened the keyed statement; content unchanged (p65: recurrent acid exposure, Barrett esophagus as a premalignant change)."
+    },
+    {
+      "id": "gi-pancreatitis-q11",
+      "status": "rewritten",
+      "note": "Original keyed cystic fibrosis as the cause to explore first in a 9-year-old because p69 calls it the leading cause in children. Current pediatric data put biliary disease, drugs, trauma and systemic illness ahead of CF for acute pancreatitis, so the key was not defensible and the gallstone distractor was arguably right. Rewrote as a prevention-teaching item on the p69 triggers (attacks 12 to 48 hours after alcohol or a large fatty meal). Kept hpm."
+    },
+    {
+      "id": "gi-pancreatitis-q14",
+      "status": "fixed",
+      "note": "Row \"Serum lipase above 60 units/L\" keyed as consistent with pancreatitis; a value just over a lab upper limit is not diagnostic (diagnosis needs a marked rise, and reference ranges vary). Changed the row to a clearly elevated value (900 units/L), still grounded in the p70 normal range."
+    },
+    {
+      "id": "gi-pancreatitis-q16",
+      "status": "rewritten",
+      "note": "Original SATA tested the same facts as gi-pancreatitis-q5 (opioid for pain, insulin, no prophylactic antibiotics such as imipenem/ampicillin) and keyed albumin for volume, which current guidance does not support routinely (lactated Ringer's is preferred). Rewrote as a SATA on electrolyte replacement in an NPO client (p71 initial management: calcium, magnesium and potassium replacement; NPO)."
+    },
+    {
+      "id": "gi-pud-q11",
+      "status": "fixed",
+      "note": "Stem asked whether each habit was \"supported by the book's teaching\", which tests the book rather than the client situation. Reworded the stem and columns to Recommend / Do not recommend; keys unchanged (p74)."
+    },
+    {
+      "id": "gi-pud-q12",
+      "status": "fixed",
+      "note": "IgG antibody test was keyed as an expected H. pylori test. Serology cannot tell active from past infection and current guidelines advise against it, so the book's listing (p74, also p76) is outdated. Replaced that option with a coagulation profile distractor (a p74 PUD lab that does not detect H. pylori); keys are now the urea breath and fecal antigen tests."
+    },
+    {
+      "id": "gi-gastritis-q12",
+      "status": "fixed",
+      "note": "Key was far longer than the distractors (length cue). Shortened it; it still reflects p76 (EGD identifies location, depth and cause of inflammation)."
+    },
+    {
+      "id": "gi-gastritis-q15",
+      "status": "fixed",
+      "note": "Stem referred to \"the book's management goal\". Reworded it to \"the goal of initial management\"; key (gastric pH above 4, p77) unchanged."
+    },
+    {
+      "id": "gi-cirrhosis-q10",
+      "status": "fixed",
+      "note": "Keyed option \"Protein deficiency from malnutrition\". Malnutrition is not a recognized independent cause of cirrhosis by current standards, even though p79 lists it. Replaced it with hepatitis B, which is also listed on p79."
+    },
+    {
+      "id": "gi-cirrhosis-q15",
+      "status": "fixed",
+      "note": "Stem asked which plan \"best reflects the book's treatment and nursing goals\". Reworded it as a client-centered question; key (nutritional support and mobility, p80) unchanged."
+    },
+    {
+      "id": "gi-cirrhosis-q19",
+      "status": "fixed",
+      "note": "Stem asked which response \"reflects the book's surgical option\". Reworded it as a client-centered question; key (transplant evaluation referral, p80) unchanged."
+    },
+    {
+      "id": "gi-crohn-q10",
+      "status": "fixed",
+      "note": "Stem ended \"according to the book\". Removed that phrase; key (positive ASCA, p83) unchanged."
+    },
+    {
+      "id": "gi-crohn-q12",
+      "status": "fixed",
+      "note": "Key was much longer than the distractors, so shortened it. The rationale for \"worrying will cause a flare\" said stress has no role. Current evidence links stress to IBD flares, so the rationale now explains that the response is dismissive instead (p83 remission/exacerbation)."
+    },
+    {
+      "id": "gi-crohn-q15",
+      "status": "fixed",
+      "note": "Stem asked \"Which factors does the book list\". Reworded it as a nursing teaching question; keys unchanged (p83 causes box)."
+    },
+    {
+      "id": "gi-uc-q7",
+      "status": "fixed",
+      "note": "Keyed option cited \"the book\" and was the longest option. Reworded it to similar length without the book reference; key unchanged (p85: caution with barium enema in severe disease)."
+    },
+    {
+      "id": "gi-uc-q8",
+      "status": "fixed",
+      "note": "Stem asked which findings the nurse \"should ask about\". A nurse could reasonably ask about any of the options, so the distractors were not clearly wrong. Reworded the stem to ask which findings are associated with ulcerative colitis, and tightened two rationales (p85)."
+    },
+    {
+      "id": "gi-uc-q9",
+      "status": "fixed",
+      "note": "Key was the longest option by a wide margin. Shortened it; content unchanged (p85: dehydration signs and weakness)."
+    },
+    {
+      "id": "gi-diverticular-q14",
+      "status": "fixed",
+      "note": "Distractor \"Daily antibiotics for clients with symptom-free diverticulosis\" did not fit a stem about a client admitted with diverticulitis. Replaced it with a fiber supplement on admission, which is wrong per the p87 progression (NPO, then liquids, then low-residue, then high-fiber)."
+    },
+    {
+      "id": "gi-appendicitis-q10",
+      "status": "fixed",
+      "note": "Key was three sentences and about three times longer than the distractors (length cue). Shortened it while keeping the p88 point that rupture, not surgery, causes most deaths."
+    },
+    {
+      "id": "gi-appendicitis-q15",
+      "status": "fixed",
+      "note": "Key was much longer than the distractors and stated the rule outright, which gave the answer away. Rebalanced all four options; key (advocate for surgery within 24 to 48 hours of onset, p89) unchanged."
+    }
+  ]
+}

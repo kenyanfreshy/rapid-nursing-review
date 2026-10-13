@@ -1,0 +1,19 @@
+{
+ "chapter": "fluids",
+ "reviewed": 16,
+ "ok": 14,
+ "fixed": 2,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "fluids-main-q17",
+   "status": "fixed",
+   "note": "The key included 'poor skin turgor'. A hypertonic infusion pulls water out of the cells and expands vascular volume, so poor turgor is not a reliable sign of its harm and the key was arguable. The key is now 'New intense thirst and dry mucous membranes' (cellular dehydration, p184 'can lead to dehydration if misused'), and the rationale notes that the nurse also watches for fluid overload."
+  },
+  {
+   "id": "fluids-main-q18",
+   "status": "fixed",
+   "note": "Stem asked which statements are 'consistent with the book's cheat sheet' (book-centred, not client-centred teaching). It now asks which statements the nurse should include in the teaching. Options and key (p185 function and management columns) unchanged."
+  }
+ ]
+}

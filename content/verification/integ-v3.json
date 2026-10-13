@@ -1,0 +1,29 @@
+{
+ "chapter": "integ",
+ "reviewed": 15,
+ "ok": 11,
+ "fixed": 3,
+ "rewritten": 1,
+ "items": [
+  {
+   "id": "integ-burns-q7",
+   "status": "rewritten",
+   "note": "Was a second Parkland calculation (4 x 50 kg x 30% = 6,000 mL, half in 8 h), testing the same fact the same way as integ-burns-q2; it also framed 'volume infused' as the outcome of resuscitation and counted the 8 hours from arrival rather than from the burn, which is not how resuscitation is evaluated. Rewrote on p178 (same section, pharm/evaluateOutcomes): evaluating topical silver sulfadiazine by the absence of wound infection signs, grounded on p178 'Wound care: debridement, topical antibiotics (silver sulfadiazine)' and 'infection prevention'."
+  },
+  {
+   "id": "integ-pressure-q7",
+   "status": "fixed",
+   "note": "Stem said 'which approach from the book's review points'; reworded to client-centered wording. Key (Braden Scale with repositioning and skin care, p179 Remember box) unchanged."
+  },
+  {
+   "id": "integ-pressure-q9",
+   "status": "fixed",
+   "note": "Key was about 40% longer than every distractor, giving it away. Lengthened the three distractors and trimmed the key; content (p179 'Turn frequently, maintain skin integrity, use support devices') unchanged."
+  },
+  {
+   "id": "integ-skin-q4",
+   "status": "fixed",
+   "note": "Rationale for 'cover the wound with a damp cloth' said only 'clean and dry, not damp', which conflicts with current moist-wound-healing practice under proper dressings. Rewrote it: a damp cloth is not a clean dressing; follow prescribed wound care; p179 'Keep wounds clean and dry; report signs of infection'."
+  }
+ ]
+}

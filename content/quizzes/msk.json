@@ -359,7 +359,8 @@
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-fractures-q5",
@@ -396,7 +397,8 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-fractures-q6",
@@ -421,7 +423,8 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-fractures-q7",
@@ -454,7 +457,8 @@
    "type": "sata",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q4",
@@ -488,7 +492,8 @@
    "type": "sata",
    "clientNeed": "hpm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q5",
@@ -513,7 +518,8 @@
    "type": "mcq",
    "clientNeed": "rrp",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q6",
@@ -538,7 +544,8 @@
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q7",
@@ -563,7 +570,8 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q8",
@@ -600,7 +608,8 @@
    "type": "matrix",
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q9",
@@ -625,7 +634,8 @@
    "type": "mcq",
    "clientNeed": "pa",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-bone-q10",
@@ -650,7 +660,8 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-osteomyelitis-q4",
@@ -675,7 +686,8 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-osteomyelitis-q5",
@@ -685,14 +697,14 @@
     "The client is showing confusion that needs a neurologic workup.",
     "The client is seeking attention and needs limits set.",
     "The client has a wound infection spreading to the nerves.",
-    "The client has phantom limb pain, which is treatable, and needs reassurance."
+    "The client is describing phantom limb pain, a real and treatable symptom."
    ],
    "correct": 3,
    "rationales": [
     "Pain felt in the missing limb is not a sign of confusion and does not mean a neurologic workup is needed.",
     "The client is describing a real symptom, not seeking attention.",
     "Nothing in the statement suggests infection; the pain is felt in the missing limb.",
-    "Correct. The book lists phantom limb pain as a post-op issue that is treated (for example, with gabapentin) and lists psychosocial support as a priority."
+    "Correct. The book lists phantom limb pain as a post-op issue that is treated (for example, with gabapentin), and psychosocial support is a priority; the nurse can reassure the client that this pain is real and treatable."
    ],
    "clue": "Pain felt in the removed limb is phantom limb pain, which is causing the client distress.",
    "priority": "Recognize phantom limb pain and address the client's fear with reassurance and treatment.",
@@ -700,7 +712,8 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-osteomyelitis-q6",
@@ -733,7 +746,8 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-osteomyelitis-q7",
@@ -758,7 +772,8 @@
    "type": "mcq",
    "clientNeed": "pa",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-spinal-q4",
@@ -791,21 +806,22 @@
    "type": "sata",
    "clientNeed": "pa",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-spinal-q5",
    "section": "msk-spinal",
-   "stem": "A nurse is caring for a client with a spinal cord injury. Which task can the nurse delegate to unlicensed assistive personnel (UAP)?",
+   "stem": "A nurse is caring for a client with a spinal cord injury whose spine has been surgically stabilized. Which task can the nurse delegate to unlicensed assistive personnel (UAP)?",
    "options": [
-    "Assisting with scheduled repositioning to prevent pressure ulcers, as directed by the nurse",
+    "Repositioning the client on a turning schedule set by the nurse",
     "Assessing the client's neurologic status",
     "Monitoring the client for signs of autonomic dysreflexia",
     "Evaluating whether spinal immobilization is effective"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Preventing pressure ulcers is in the book's SCI care, and assisting with scheduled repositioning under the nurse's direction is routine care UAP can do.",
+    "Correct. Preventing pressure ulcers is part of the book's SCI care, and repositioning a stabilized client on a schedule the nurse sets is routine care UAP can carry out.",
     "Assessing neuro status requires RN assessment skills.",
     "Monitoring for autonomic dysreflexia means interpreting BP, headache and heart rate changes, which needs nursing judgment.",
     "Evaluating whether interventions work is an RN responsibility."
@@ -816,7 +832,8 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "msk-spinal-q6",
@@ -853,7 +870,8 @@
    "type": "matrix",
    "clientNeed": "moc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [

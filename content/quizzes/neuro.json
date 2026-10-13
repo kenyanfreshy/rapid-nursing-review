@@ -2385,7 +2385,8 @@
    ],
    "clue": "Sleep apnea is one of the listed stroke risk factors.",
    "priority": "Health promotion: identify modifiable stroke risk factors early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-stroke-q8",
@@ -2420,7 +2421,8 @@
    ],
    "clue": "Each cluster of deficits points to the vascular territory affected.",
    "priority": "Link stroke findings to the involved artery to anticipate deficits.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-stroke-q9",
@@ -2445,7 +2447,8 @@
    ],
    "clue": "A small brainstem stroke is suspected after a negative CT.",
    "priority": "Choose the diagnostic study most sensitive for the suspected lesion.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-stroke-q10",
@@ -2478,7 +2481,8 @@
    ],
    "clue": "Each stroke drug has a distinct purpose: clot busting or clot prevention.",
    "priority": "Match stroke medications to their intended action.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-stroke-q11",
@@ -2503,7 +2507,8 @@
    ],
    "clue": "Only one task is routine and requires no assessment or judgment.",
    "priority": "Delegate routine care; keep assessment and evaluation with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-stroke-q12",
@@ -2511,7 +2516,7 @@
    "page": 131,
    "type": "mcq",
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "The spouse of a client recovering from a stroke says, \"He cries and gets upset over small things now. He was never like this before.\" Which response by the nurse is best?",
    "options": [
     "\"He is probably doing this to get extra attention.\"",
@@ -2528,7 +2533,8 @@
    ],
    "clue": "The client's emotional changes began after the stroke.",
    "priority": "Support the family by explaining expected emotional changes after stroke.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-stroke-q13",
@@ -2553,7 +2559,8 @@
    ],
    "clue": "Stroke signs require immediate emergency activation.",
    "priority": "Teach families to call 911 immediately because time lost is brain lost.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q7",
@@ -2578,7 +2585,8 @@
    ],
    "clue": "Only one task is routine positioning without assessment.",
    "priority": "Delegate routine positioning; keep assessment and medications with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q8",
@@ -2603,7 +2611,8 @@
    ],
    "clue": "The ICP reading is 24 mm Hg.",
    "priority": "Compare ICP readings with the normal range of 5-15 mm Hg.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q9",
@@ -2637,7 +2646,8 @@
    ],
    "clue": "Several clients have conditions inside the skull.",
    "priority": "Recognize clients at risk for increased ICP so they are monitored closely.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q10",
@@ -2674,7 +2684,8 @@
    ],
    "clue": "Compare each finding with the early and late signs of increased ICP.",
    "priority": "Evaluate response to ICP treatment by LOC, pupils, vital signs and ICP reading.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q11",
@@ -2699,7 +2710,8 @@
    ],
    "clue": "The client's level of consciousness has suddenly decreased.",
    "priority": "Report a sudden drop in LOC promptly; it is the first sign of worsening ICP.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q12",
@@ -2724,7 +2736,8 @@
    ],
    "clue": "The client is straining during elimination.",
    "priority": "Prevent increases in ICP by avoiding straining and hip flexion.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-icp-q13",
@@ -2749,7 +2762,8 @@
    ],
    "clue": "The desired effect of an osmotic diuretic in this client is a lower ICP.",
    "priority": "Evaluate mannitol by a return of ICP toward 5-15 mm Hg.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q9",
@@ -2774,7 +2788,8 @@
    ],
    "clue": "One client is having repeated seizures without recovery between them.",
    "priority": "Status epilepticus is a life-threatening emergency and takes priority.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q10",
@@ -2808,7 +2823,8 @@
    ],
    "clue": "The seizure has ended, and the airway is secure.",
    "priority": "After a seizure, assess neurologic status and injury, and document the event.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q11",
@@ -2821,19 +2837,20 @@
    "options": [
     "\"Have you ever had your cholesterol checked?\"",
     "\"What is your favorite type of exercise?\"",
-    "\"How many hours of television do you watch each week?\"",
+    "\"What do you usually eat for breakfast?\"",
     "\"Do flashing lights or being very tired seem to come before your seizures?\""
    ],
    "correct": 3,
    "rationales": [
     "Incorrect. Cholesterol is not a listed seizure trigger.",
     "Incorrect. This does not ask about seizure triggers.",
-    "Incorrect. Screen time is not the focus of trigger assessment in the book.",
+    "Incorrect. Breakfast foods are not a seizure trigger the book asks about.",
     "Correct. The book lists lights, fatigue and dizziness as triggers or auras to ask about."
    ],
    "clue": "The nurse wants to identify triggers that come before seizures.",
    "priority": "Identify seizure triggers so the client can avoid them.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q12",
@@ -2867,7 +2884,8 @@
    ],
    "clue": "The list mixes anticonvulsants with clot-prevention drugs.",
    "priority": "Recognize anticonvulsants on a medication list.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q13",
@@ -2892,7 +2910,8 @@
    ],
    "clue": "The seizure has stopped, and maintenance therapy is now needed.",
    "priority": "After stopping status epilepticus, start maintenance anticonvulsant therapy.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q14",
@@ -2930,7 +2949,8 @@
    ],
    "clue": "Each cause fits one of the book's cause categories.",
    "priority": "Classify seizure causes to guide the search for a treatable cause.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q15",
@@ -2967,7 +2987,8 @@
    ],
    "clue": "The new nurse's actions are a mix of correct and unsafe practices.",
    "priority": "Supervise staff and correct unsafe seizure care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q16",
@@ -2992,7 +3013,8 @@
    ],
    "clue": "The teen is withdrawing socially after the epilepsy diagnosis.",
    "priority": "Address the psychological and social impact of epilepsy with emotional support.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q17",
@@ -3017,7 +3039,8 @@
    ],
    "clue": "The client is at risk for a seizure during the hospital stay.",
    "priority": "Put seizure precautions in place before a seizure happens.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-seizures-q18",
@@ -3042,7 +3065,8 @@
    ],
    "clue": "The cause of this first seizure is unknown.",
    "priority": "Look for metabolic and toxic causes of a new seizure.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-meningitis-q7",
@@ -3056,7 +3080,7 @@
     "Nuchal rigidity",
     "Fever with severe headache",
     "Pain in the back of the thigh when the knee is extended with the hip flexed",
-    "The knee extends fully with no pain when the hip is flexed",
+    "Clear cerebrospinal fluid with normal glucose and protein",
     "Photophobia"
    ],
    "correct": [
@@ -3069,12 +3093,13 @@
     "Correct. Nuchal rigidity is a classic sign of meningitis.",
     "Correct. Headache and fever are classic signs of meningitis.",
     "Correct. This describes a positive Kernig sign.",
-    "Incorrect. Full, painless knee extension is a negative Kernig test.",
+    "Incorrect. Clear CSF with normal glucose and protein is the normal finding on p.136; meningitis causes cloudy CSF, low glucose and high protein.",
     "Correct. Photophobia is listed among acute meningitis symptoms."
    ],
    "clue": "The client has signs of meningeal irritation.",
    "priority": "Recognize classic signs and a positive Kernig test in meningitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-meningitis-q8",
@@ -3087,19 +3112,20 @@
    "options": [
     "Teach the family about vaccinations",
     "Give the first dose of IV ceftriaxone",
-    "Send a nasal swab for culture",
+    "Draw blood for liver function tests",
     "Schedule a chest x-ray"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. Education is important but can wait until treatment has started.",
     "Correct. The book calls rapid antibiotics plus airway protection the top priorities in bacterial meningitis.",
-    "Incorrect. Cultures support diagnosis but are not the top priority listed by the book.",
+    "Incorrect. Liver function tests are supporting labs; they do not come before the first antibiotic dose.",
     "Incorrect. A chest x-ray is a supporting test, not the first action."
    ],
    "clue": "The airway is secure, and the client has suspected bacterial meningitis.",
    "priority": "After airway protection, rapid IV antibiotics are the top priority.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-meningitis-q9",
@@ -3124,7 +3150,8 @@
    ],
    "clue": "The sibling is unvaccinated, and the book links unvaccinated children to Haemophilus influenzae meningitis.",
    "priority": "Health promotion: vaccination lowers meningitis risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-meningitis-q10",
@@ -3161,7 +3188,8 @@
    ],
    "clue": "Compare each CSF value with the normal values and meningitis findings.",
    "priority": "Interpret CSF results to support the diagnosis of meningitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-meningitis-q11",
@@ -3186,7 +3214,8 @@
    ],
    "clue": "The client has a high fever from bacterial meningitis.",
    "priority": "Reduce fever gradually in meningitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-meningitis-q12",
@@ -3211,7 +3240,8 @@
    ],
    "clue": "The spouse is frightened and wants to help.",
    "priority": "Support the family emotionally and involve them in care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-encephalitis-q7",
@@ -3246,7 +3276,8 @@
    ],
    "clue": "Age, region and type of insect exposure point to the likely virus.",
    "priority": "Use exposure history to identify encephalitis risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-encephalitis-q8",
@@ -3277,7 +3308,8 @@
    ],
    "clue": "The client needs antiviral therapy plus supportive care for fever and ICP.",
    "priority": "Anticipate antivirals and supportive medications in encephalitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-encephalitis-q9",
@@ -3302,7 +3334,8 @@
    ],
    "clue": "Snoring respirations in a less responsive client signal an airway problem.",
    "priority": "Airway, breathing and circulation come first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-encephalitis-q10",
@@ -3327,7 +3360,8 @@
    ],
    "clue": "The client is mostly immobile in bed.",
    "priority": "Prevent immobility-related complications such as pressure ulcers.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-encephalitis-q11",
@@ -3335,7 +3369,7 @@
    "page": 137,
    "type": "mcq",
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "The adult child of a client recovering from encephalitis says, \"Mom acts so differently now. I don't know what's happening to her.\" Which response by the nurse is most helpful?",
    "options": [
     "\"Changes in behavior can be a complication of encephalitis. Let's talk about what you have noticed.\"",
@@ -3352,7 +3386,8 @@
    ],
    "clue": "The family member is distressed by the client's behavior changes.",
    "priority": "Help families understand behavioral changes after encephalitis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-encephalitis-q12",
@@ -3377,7 +3412,8 @@
    ],
    "clue": "The provider needs information about electrical brain activity.",
    "priority": "Match the diagnostic test to the information needed.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-tbi-q6",
@@ -3414,7 +3450,8 @@
    ],
    "clue": "The client has paralysis with bladder and bowel dysfunction.",
    "priority": "Prevent contractures and manage elimination after spinal cord injury.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-tbi-q7",
@@ -3445,7 +3482,8 @@
    ],
    "clue": "Autonomic dysreflexia is triggered by a full bladder, bowel impaction or skin injury.",
    "priority": "Prevent autonomic dysreflexia by removing its common triggers.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-tbi-q8",
@@ -3470,7 +3508,8 @@
    ],
    "clue": "One client with TBI has new vomiting and decreasing consciousness.",
    "priority": "Assess first the client with signs of rising ICP after TBI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q8",
@@ -3482,7 +3521,7 @@
    "stem": "The nurse is reviewing findings for several clients with Alzheimer disease. For each finding, indicate the stage it best matches.",
    "rows": [
     "Gets lost and can no longer manage finances",
-    "Wandering with anxiety and emotional changes",
+    "New anxiety and emotional changes",
     "Aphasia, apraxia and incontinence",
     "Loss of impulse control with vulgar language",
     "Immobility in a fetal position with contractures"
@@ -3501,14 +3540,15 @@
    ],
    "rationales": [
     "Stage 2. Getting lost and poor finances are listed for the mild stage.",
-    "Stage 2. Anxiety, wandering and emotional changes are listed for the mild stage.",
+    "Stage 2. Anxiety and emotional changes are listed for the mild stage.",
     "Stage 3. Aphasia, agnosia, apraxia and incontinence are listed for the moderate stage.",
     "Stage 3. Impulse loss and vulgarity are moderate-stage features.",
     "Stage 4. Immobility, fetal position and contractures are severe-stage features."
    ],
    "clue": "Each finding fits one stage of the book's staging table.",
    "priority": "Stage Alzheimer disease to anticipate care needs.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q9",
@@ -3533,7 +3573,8 @@
    ],
    "clue": "The nurse wants to track cognitive change over time.",
    "priority": "Use the Mini-Mental State Exam to monitor Alzheimer progression.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q10",
@@ -3558,7 +3599,8 @@
    ],
    "clue": "One client has just had a seizure.",
    "priority": "Assess first the client with a potentially unstable airway after a seizure.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q11",
@@ -3583,7 +3625,8 @@
    ],
    "clue": "Only one task is routine and requires no assessment, evaluation or teaching.",
    "priority": "Delegate routine orientation support; keep assessment and teaching with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q12",
@@ -3621,7 +3664,8 @@
    ],
    "clue": "Each drug class in the book has a different therapeutic target.",
    "priority": "Know the purpose of each medication used in Alzheimer disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q13",
@@ -3639,14 +3683,15 @@
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. The book does not say donepezil removes plaques.",
+    "Incorrect. Donepezil is a cholinesterase inhibitor that improves early cognitive symptoms; it does not remove plaques.",
     "Incorrect. It is listed as a daily oral medication, not an as-needed drug.",
     "Correct. The book states donepezil, a cholinesterase inhibitor, improves early cognitive symptoms.",
     "Incorrect. Donepezil is not listed as a sleep aid."
    ],
    "clue": "The spouse is describing what donepezil does.",
    "priority": "Evaluate teaching about the purpose of cholinesterase inhibitors.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q14",
@@ -3671,7 +3716,8 @@
    ],
    "clue": "Seizures are a feature of the severe stage.",
    "priority": "Anticipate stage-specific complications and put precautions in place.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q15",
@@ -3702,7 +3748,8 @@
    ],
    "clue": "The client has moderate disease and is restless at night in an unfamiliar place.",
    "priority": "Keep the environment consistent and supervised to prevent injury.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q16",
@@ -3727,7 +3774,8 @@
    ],
    "clue": "The client becomes upset during an ADL.",
    "priority": "Use simple requests and a calm approach during personal care.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-alzheimer-q17",
@@ -3752,7 +3800,8 @@
    ],
    "clue": "The client is frightened about the future after an early diagnosis.",
    "priority": "Encourage emotional expression and early planning.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q8",
@@ -3789,7 +3838,8 @@
    ],
    "clue": "Compare each finding with the cardinal and additional signs of PD.",
    "priority": "Recognize the hallmark and associated signs of Parkinson disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q9",
@@ -3814,7 +3864,8 @@
    ],
    "clue": "The client believes a normal MRI excludes Parkinson disease.",
    "priority": "Correct misunderstandings about how Parkinson disease is diagnosed.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q10",
@@ -3839,7 +3890,8 @@
    ],
    "clue": "One client has choking, fever and crackles.",
    "priority": "Aspiration pneumonia is a leading cause of death in PD and needs urgent assessment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q11",
@@ -3870,7 +3922,8 @@
    ],
    "clue": "The client has swallowing difficulty with choking at meals.",
    "priority": "Prevent aspiration in PD with swallowing therapy and soft, frequent meals.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q12",
@@ -3895,7 +3948,8 @@
    ],
    "clue": "The new drug is an anticholinergic.",
    "priority": "Know the action of each Parkinson medication class.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q13",
@@ -3920,7 +3974,8 @@
    ],
    "clue": "The client's tremor does not respond to medication.",
    "priority": "Give accurate information and coordinate with the provider about surgical options.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q14",
@@ -3945,7 +4000,8 @@
    ],
    "clue": "The tremor has spread from one side to both sides.",
    "priority": "Recognize the typical progression of Parkinson disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q15",
@@ -3982,7 +4038,8 @@
    ],
    "clue": "Some tasks are routine care and others require assessment, evaluation or teaching.",
    "priority": "Delegate routine mobility and nutrition support; keep assessment and teaching with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q16",
@@ -3998,25 +4055,25 @@
     "Amantadine",
     "Metoclopramide",
     "Carbidopa-levodopa",
-    "A dopamine agonist"
+    "Pyridostigmine"
    ],
    "correct": [
     0,
     2,
-    4,
-    5
+    4
    ],
    "rationales": [
     "Correct. Rasagiline is an MAO-B inhibitor that limits dopamine breakdown.",
-    "Incorrect. Haloperidol is a dopamine-depleting drug the book lists as a cause of secondary PD.",
+    "Incorrect. Haloperidol blocks dopamine; the book lists it as a drug that can trigger secondary (drug-induced) PD.",
     "Correct. Amantadine improves dopamine release to control tremor.",
-    "Incorrect. Metoclopramide is a dopamine-depleting drug that can trigger secondary PD.",
+    "Incorrect. Metoclopramide blocks dopamine and is listed as a drug that can trigger secondary (drug-induced) PD.",
     "Correct. Carbidopa-levodopa is the main treatment for tremor and rigidity.",
-    "Correct. Dopamine agonists are listed among other PD medications."
+    "Incorrect. Pyridostigmine is an anticholinesterase used for myasthenia gravis, not Parkinson disease."
    ],
    "clue": "Some listed drugs treat PD and others can cause it.",
    "priority": "Distinguish Parkinson treatments from drugs that cause secondary PD.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-parkinson-q17",
@@ -4041,7 +4098,8 @@
    ],
    "clue": "The drug's main targets are tremor and rigidity.",
    "priority": "Evaluate levodopa therapy by improvement in tremor and rigidity.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q8",
@@ -4078,7 +4136,8 @@
    ],
    "clue": "The client has ataxia and fatigue, both of which raise fall risk.",
    "priority": "Prevent falls in MS by managing fatigue and using assistive devices.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q9",
@@ -4112,38 +4171,40 @@
    ],
    "clue": "Several findings affect gait, balance or vision.",
    "priority": "Recognize MS findings that raise fall risk.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q10",
    "section": "neuro-ms",
-   "page": 144,
+   "page": 145,
    "type": "sata",
-   "clientNeed": "hpm",
-   "cjmm": "recognizeCues",
-   "stem": "A client with relapsing-remitting multiple sclerosis asks what can bring on a relapse. Which factors should the nurse include in the teaching? Select all that apply.",
+   "clientNeed": "rrp",
+   "cjmm": "takeAction",
+   "stem": "A young adult who is being evaluated for multiple sclerosis (MS) asks what the tests will show. Which statements by the nurse are accurate? Select all that apply.",
    "options": [
-    "Trauma",
-    "Doing range-of-motion exercises",
-    "Taking the prescribed interferon",
-    "Infections",
-    "Pregnancy"
+    "\"An MRI can show areas of damaged myelin in the brain and spinal cord.\"",
+    "\"A single blood test can confirm the diagnosis.\"",
+    "\"An MRI with gadolinium contrast can show which lesions are active.\"",
+    "\"The diagnosis is based on your symptoms and exam, supported by test results.\"",
+    "\"An MRI is usually normal in people with MS.\""
    ],
    "correct": [
     0,
-    3,
-    4
+    2,
+    3
    ],
    "rationales": [
-    "Correct. Trauma is listed as a trigger.",
-    "Incorrect. ROM exercises are part of MS physical therapy, not a trigger.",
-    "Incorrect. Interferons help prolong remission.",
-    "Correct. The book lists infections as triggers that can cause relapses.",
-    "Correct. Pregnancy is listed as a trigger."
+    "Correct. The book says MRI shows demyelinating lesions in the brain and spinal cord.",
+    "Incorrect. The book says diagnosis relies on clinical findings and supporting evidence; blood work such as a CBC is only a supporting test.",
+    "Correct. The book says MRI with gadolinium can show active lesions in the brain or spine.",
+    "Correct. The book says diagnosis relies on clinical findings and supporting evidence.",
+    "Incorrect. The book says MRI shows abnormalities in 90%-95% of clients with MS."
    ],
-   "clue": "The client wants to know relapse triggers.",
-   "priority": "Teach clients the triggers that can precipitate MS relapses.",
-   "batch": "v3"
+   "clue": "The client is asking what the diagnostic work-up for MS involves.",
+   "priority": "Give accurate teaching about MRI and the clinical basis of an MS diagnosis.",
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q11",
@@ -4181,7 +4242,8 @@
    ],
    "clue": "Each drug targets a different MS problem.",
    "priority": "Know the purpose of each medication used in MS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q12",
@@ -4206,7 +4268,8 @@
    ],
    "clue": "Baclofen is given for spasticity.",
    "priority": "Evaluate baclofen by a reduction in spasticity.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q13",
@@ -4231,7 +4294,8 @@
    ],
    "clue": "Only one task is routine care that follows an established plan.",
    "priority": "Delegate routine care; keep teaching, assessment and evaluation with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q14",
@@ -4256,7 +4320,8 @@
    ],
    "clue": "The family is in conflict over caregiving.",
    "priority": "Coordinate psychosocial resources such as family counseling for chronic illness.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q15",
@@ -4287,7 +4352,8 @@
    ],
    "clue": "The client has weakness and early stiffness.",
    "priority": "Maintain mobility and prevent contractures in MS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q16",
@@ -4312,7 +4378,8 @@
    ],
    "clue": "Fatigue is limiting the client's self-care.",
    "priority": "Manage fatigue in MS so the client can complete ADLs.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-ms-q17",
@@ -4320,7 +4387,7 @@
    "page": 145,
    "type": "mcq",
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "The adult child of a client with multiple sclerosis says, \"Dad laughs or cries suddenly for no reason. Is he losing his mind?\" Which response by the nurse is best?",
    "options": [
     "\"Yes, this means he has a psychiatric illness.\"",
@@ -4337,7 +4404,8 @@
    ],
    "clue": "The family is distressed by sudden emotional changes.",
    "priority": "Help families understand emotional lability in MS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q8",
@@ -4368,7 +4436,8 @@
    ],
    "clue": "Only some drugs on the list are used for ALS.",
    "priority": "Recognize the medications used to treat ALS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q9",
@@ -4400,7 +4469,8 @@
    ],
    "clue": "Bulbar symptoms affect speech and swallowing.",
    "priority": "Recognize bulbar findings that raise aspiration risk in ALS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q10",
@@ -4435,7 +4505,8 @@
    ],
    "clue": "Each finding threatens safety in a different way.",
    "priority": "Link ALS findings to the safety risk they create.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q11",
@@ -4460,7 +4531,8 @@
    ],
    "clue": "The plan targeted tripping and falls.",
    "priority": "Evaluate fall-prevention measures by the absence of falls.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q12",
@@ -4485,7 +4557,8 @@
    ],
    "clue": "Only one task follows an established plan without assessment or teaching.",
    "priority": "Delegate routine ADL support; keep assessment and teaching with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q13",
@@ -4499,7 +4572,7 @@
     "The client wants to keep doing as much as possible for as long as possible",
     "The client and family want help planning for the client's end-of-life wishes",
     "The client has increasing respiratory difficulty",
-    "The family asks how to plan care that respects the client's wishes as the disease progresses"
+    "The client has new trouble climbing stairs and wants to stay active"
    ],
    "columns": [
     "Rehabilitation",
@@ -4510,17 +4583,18 @@
     0,
     1,
     2,
-    1
+    0
    ],
    "rationales": [
     "Rehabilitation. The book says rehabilitation focuses on exercise to maintain function.",
     "Palliative care. The book says to collaborate with palliative care on patient and family wishes.",
     "Airway management with NIV. The book lists noninvasive ventilation, possibly followed by mechanical ventilation.",
-    "Palliative care. End-of-life planning with palliative care centers on the client's and family's wishes."
+    "Rehabilitation. The book says rehabilitation focuses on exercise to maintain function."
    ],
    "clue": "Each need matches a different part of the ALS collaborative plan.",
    "priority": "Coordinate the right team resource for each ALS care need.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q14",
@@ -4532,20 +4606,21 @@
    "stem": "A client with advanced amyotrophic lateral sclerosis (ALS) can communicate with a letter board. The family asks the nurse to let them decide about mechanical ventilation without involving the client. Which action by the nurse is most appropriate?",
    "options": [
     "Agree, because the client can no longer speak",
-    "Explain that the client's thinking is not affected and include the client in the decision",
+    "Explain that loss of speech does not mean loss of decision-making, and include the client in the decision",
     "Ask the provider to decide for the family",
     "Delay the discussion until the client can no longer communicate"
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. Loss of speech does not mean the client cannot decide.",
-    "Correct. The book states that cognitive function remains unaffected in ALS, so the nurse advocates for the client's role in decisions.",
+    "Incorrect. Loss of speech does not mean the client cannot decide; this client communicates with a letter board.",
+    "Correct. ALS mainly destroys motor neurons (p.146), and this client can still communicate; the nurse advocates for the client's right to take part in care decisions.",
     "Incorrect. The decision belongs to the client, not the provider or family.",
     "Incorrect. Waiting removes the client's chance to direct care."
    ],
-   "clue": "The client is alert and can communicate with a letter board.",
+   "clue": "The client can still communicate with a letter board.",
    "priority": "Advocate for the client's right to make care decisions.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q15",
@@ -4570,7 +4645,8 @@
    ],
    "clue": "The client has upper-extremity weakness that limits dressing.",
    "priority": "Support independence in ADLs with techniques and aids.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q16",
@@ -4595,7 +4671,8 @@
    ],
    "clue": "The client is describing the purpose of rehabilitation.",
    "priority": "Evaluate understanding of exercise to maintain function in ALS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-als-q17",
@@ -4607,20 +4684,21 @@
    "stem": "A client newly diagnosed with amyotrophic lateral sclerosis (ALS) asks, \"Will I lose my mind as my body gets weaker?\" Which response by the nurse is accurate and supportive?",
    "options": [
     "\"Yes, memory loss usually comes first.\"",
-    "\"ALS affects the muscles, but thinking usually stays clear. What worries you most?\"",
+    "\"ALS mainly affects muscle control, and most people keep clear thinking. What worries you most?\"",
     "\"Let's not talk about that today.\"",
     "\"It is too early to know anything about ALS.\""
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. The book states that cognitive function remains unaffected.",
-    "Correct. The book says sensory networks and cognitive functions remain unaffected; inviting the client to share worries offers support.",
+    "Incorrect. Memory loss is not the usual first sign; ALS begins with painless muscle weakness.",
+    "Correct. ALS mainly causes loss of motor neurons (p.146); most clients keep clear thinking, although some develop changes in thinking or behavior. Inviting the client to share worries offers support.",
     "Incorrect. This avoids the client's concern.",
-    "Incorrect. The book gives clear information about which functions are affected."
+    "Incorrect. The book gives clear information about which functions ALS affects."
    ],
    "clue": "The client fears losing cognitive function.",
    "priority": "Give accurate information and invite the client to express fears.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q8",
@@ -4645,7 +4723,8 @@
    ],
    "clue": "CSF protein is high while the lymphocyte count is under 20/mcL.",
    "priority": "Interpret CSF results in suspected GBS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q9",
@@ -4680,7 +4759,8 @@
    ],
    "clue": "Each intervention targets a different complication of immobility.",
    "priority": "Prevent the complications of immobility in GBS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q10",
@@ -4705,7 +4785,8 @@
    ],
    "clue": "The client is receiving plasmapheresis.",
    "priority": "Monitor closely during GBS treatments to detect complications early.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q11",
@@ -4714,7 +4795,7 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "recognizeCues",
-   "stem": "The nurse is assessing a client with Guillain-Barre syndrome. Which findings suggest facial nerve (CN VII) involvement and a need for swallowing precautions? Select all that apply.",
+   "stem": "The nurse is assessing a client with Guillain-Barre syndrome. Which findings suggest cranial nerve involvement and a need for swallowing precautions? Select all that apply.",
    "options": [
     "Facial droop",
     "Tingling in the feet",
@@ -4729,16 +4810,17 @@
     3
    ],
    "rationales": [
-    "Correct. The book lists facial droop as a sign of CN VII involvement.",
+    "Correct. Facial droop is a cranial nerve finding the book says to watch for; facial weakness also makes it harder to control food in the mouth.",
     "Incorrect. Tingling in the feet is a sensory symptom.",
-    "Correct. Dysphagia is listed under facial nerve involvement.",
-    "Correct. Trouble chewing is listed under facial nerve involvement.",
+    "Correct. Dysphagia is a listed cranial nerve finding and directly raises aspiration risk.",
+    "Correct. Trouble chewing is a listed cranial nerve finding that makes safe eating harder.",
     "Incorrect. Sweating and flushing are autonomic signs.",
     "Incorrect. Labile blood pressure is an autonomic sign."
    ],
-   "clue": "Some findings involve the face and swallowing; others are autonomic or sensory.",
+   "clue": "Some findings involve the face, chewing and swallowing; others are autonomic or sensory.",
    "priority": "Recognize cranial nerve involvement that raises aspiration risk in GBS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q12",
@@ -4763,7 +4845,8 @@
    ],
    "clue": "Only one task is routine care without assessment.",
    "priority": "Delegate routine repositioning; keep respiratory assessment and treatment monitoring with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q13",
@@ -4788,7 +4871,8 @@
    ],
    "clue": "One client shows red flags for respiratory collapse.",
    "priority": "Respiratory compromise in GBS takes priority.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q14",
@@ -4820,7 +4904,8 @@
    ],
    "clue": "Each GBS medication has a specific purpose.",
    "priority": "Match GBS medications to their purposes.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q15",
@@ -4845,7 +4930,8 @@
    ],
    "clue": "The client has urinary retention.",
    "priority": "Manage urinary retention in acute GBS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q16",
@@ -4859,18 +4945,19 @@
     "\"You should be fully recovered by now.\"",
     "\"Try not to think about it, and you will feel better.\"",
     "\"There's nothing more that can be done for you.\"",
-    "\"Recovery is slow and can take up to about 200 days. It's understandable to feel frustrated.\""
+    "\"Recovery is often slow and can take months. It's understandable to feel frustrated.\""
    ],
    "correct": 3,
    "rationales": [
     "Incorrect. This is inaccurate and adds to the client's frustration.",
     "Incorrect. This dismisses the client's feelings.",
     "Incorrect. This is inaccurate and removes hope.",
-    "Correct. The book says full recovery can take up to 200 days; acknowledging frustration provides emotional support."
+    "Correct. The book says full recovery can take up to 200 days (p.149); giving an honest time frame and acknowledging frustration provides emotional support."
    ],
    "clue": "The client is frustrated by slow recovery.",
    "priority": "Provide accurate information and emotional support for frustration in GBS.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-gbs-q17",
@@ -4885,7 +4972,7 @@
     "The client now has a strong, effective cough",
     "The client is newly using accessory muscles to breathe",
     "Weakness has spread from the arms to the trunk",
-    "Breathing is slow and even instead of shallow and rapid"
+    "Breathing is now even and unlabored instead of shallow and rapid"
    ],
    "columns": [
     "Improvement",
@@ -4903,11 +4990,12 @@
     "Improvement. Inability to cough is a red flag, so a strong cough is improvement.",
     "Worsening. Use of accessory muscles is a red flag for respiratory collapse.",
     "Worsening. Ascending weakness to the trunk shows progression.",
-    "Improvement. Shallow, rapid breathing is a red flag; even breathing is improvement."
+    "Improvement. Shallow, rapid breathing is a red flag; even, unlabored breathing shows improvement."
    ],
    "clue": "Compare each finding with the book's respiratory red flags and ascending pattern.",
    "priority": "Evaluate GBS response by respiratory status and progression of weakness.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q8",
@@ -4938,7 +5026,8 @@
    ],
    "clue": "Some findings involve bulbar muscles; others involve the eyes.",
    "priority": "Recognize bulbar weakness that raises aspiration risk in MG.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q9",
@@ -4972,7 +5061,8 @@
    ],
    "clue": "One order involves a drug class the book says worsens MG.",
    "priority": "Question medications that can worsen myasthenia gravis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q10",
@@ -4997,7 +5087,8 @@
    ],
    "clue": "Jaw drop and head bobbing appear when the client is fatigued.",
    "priority": "Prevent aspiration in MG by stopping activity and allowing rest.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q11",
@@ -5008,21 +5099,22 @@
    "cjmm": "prioritizeHypotheses",
    "stem": "A client with myasthenia gravis has sudden, severe generalized weakness. The nurse is preparing an SBAR report to the provider. Which information will best help the provider tell whether this is a myasthenic or a cholinergic crisis?",
    "options": [
-    "The client's favorite foods",
+    "Whether the client has ptosis and double vision",
     "Whether the client recently missed doses or took extra doses of pyridostigmine",
-    "The date of the client's last eye exam",
-    "How many visitors the client had today"
+    "The time of the client's last meal",
+    "The client's current pain rating"
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. Food preferences do not distinguish the crises.",
+    "Incorrect. Ptosis and diplopia are common MG eye findings and do not tell the two crises apart.",
     "Correct. The book says myasthenic crisis is due to undermedication and cholinergic crisis to overmedication.",
-    "Incorrect. An eye exam date does not distinguish the crises.",
-    "Incorrect. Visitors do not distinguish the crises."
+    "Incorrect. Meal timing matters for aspiration risk but does not distinguish the crises.",
+    "Incorrect. Pain is not a feature that separates myasthenic from cholinergic crisis."
    ],
    "clue": "The two crises have opposite causes related to medication.",
    "priority": "Include medication history in the SBAR report to help identify the type of crisis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q12",
@@ -5047,7 +5139,8 @@
    ],
    "clue": "Only one task is routine care without assessment, teaching or evaluation.",
    "priority": "Delegate routine meal support; keep assessment, teaching and evaluation with the nurse.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q13",
@@ -5081,7 +5174,8 @@
    ],
    "clue": "Crisis findings differ from expected daily symptom changes.",
    "priority": "Prioritize clients with signs of myasthenic or cholinergic crisis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q14",
@@ -5106,7 +5200,8 @@
    ],
    "clue": "The client plans two events that the book lists as exacerbating factors.",
    "priority": "Teach clients with MG to plan around known exacerbating factors.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q15",
@@ -5137,7 +5232,8 @@
    ],
    "clue": "The client links stress to worsening weakness.",
    "priority": "Support coping and stress reduction in MG.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q16",
@@ -5171,7 +5267,8 @@
    ],
    "clue": "Only some of the listed treatments are used in MG.",
    "priority": "Anticipate the medical and surgical treatments for MG.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-mg-q17",
@@ -5202,7 +5299,8 @@
    ],
    "clue": "The client is losing weight from chewing and swallowing weakness.",
    "priority": "Support nutrition in MG with rest, small frequent meals and monitoring.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-cranial-q6",
@@ -5239,7 +5337,8 @@
    ],
    "clue": "Each factor is linked to one of the two facial nerve disorders.",
    "priority": "Know the risk and trigger factors for Bell palsy and trigeminal neuralgia.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-cranial-q7",
@@ -5252,7 +5351,7 @@
    "options": [
     "\"This weakness means you had a stroke.\"",
     "\"Your face will stay paralyzed for the rest of your life.\"",
-    "\"Bell palsy often improves within about 3 weeks.\"",
+    "\"Bell palsy often begins to improve within about 3 weeks.\"",
     "\"Most people have a full or partial recovery.\"",
     "\"It is understandable to be upset about how your face looks.\""
    ],
@@ -5264,13 +5363,14 @@
    "rationales": [
     "Incorrect. Bell palsy affects the facial nerve (CN VII); it is not a stroke.",
     "Incorrect. This contradicts the book's prognosis.",
-    "Correct. The book says Bell palsy improves within 3 weeks.",
+    "Correct. The book says Bell palsy improves within 3 weeks; most clients begin to recover in that time, though full recovery can take longer.",
     "Correct. The book states the prognosis is usually full or partial recovery.",
     "Correct. Acknowledging the client's feelings about appearance is supportive."
    ],
    "clue": "The client is distressed about facial appearance and the future.",
    "priority": "Support body image with empathy and accurate prognosis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "neuro-cranial-q8",
@@ -5304,7 +5404,8 @@
    ],
    "clue": "Some findings come from the defect itself; others suggest hydrocephalus.",
    "priority": "Report signs of hydrocephalus in an infant with spina bifida.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [

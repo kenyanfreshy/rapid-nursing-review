@@ -1,0 +1,59 @@
+{
+  "chapter": "endo",
+  "reviewed": 88,
+  "ok": 78,
+  "fixed": 10,
+  "rewritten": 0,
+  "items": [
+    {
+      "id": "endo-hypothyroid-q7",
+      "status": "fixed",
+      "note": "cjmm was analyzeCues, but the task is choosing a therapeutic response to the daughter (p94: slowed mental functioning, impaired memory); relabeled takeAction."
+    },
+    {
+      "id": "endo-hyperthyroid-q6",
+      "status": "fixed",
+      "note": "cjmm was analyzeCues for a 'best response' communication item (p96: nervousness, anxiety as classic signs); relabeled takeAction."
+    },
+    {
+      "id": "endo-addison-q15",
+      "status": "fixed",
+      "note": "cjmm was analyzeCues for a 'most therapeutic response' item (p99: impotence, loss of body hair); relabeled takeAction."
+    },
+    {
+      "id": "endo-siadh-q12",
+      "status": "fixed",
+      "note": "cjmm was analyzeCues for a 'best response' to the spouse (p103: irritability as an early symptom); relabeled takeAction."
+    },
+    {
+      "id": "endo-hyperthyroid-q7",
+      "status": "fixed",
+      "note": "Distractor 'Iodine deficiency' was not clearly wrong: iodine deficiency is associated with toxic nodular goiter (hyperthyroidism) in older adults, so a student could defend selecting it. Replaced with 'A low-fat diet' and a rationale tied to the p96 risk factor list."
+    },
+    {
+      "id": "endo-addison-q12",
+      "status": "fixed",
+      "note": "Stem asked which clients are 'at risk' for Addison disease, but option 0 (autoimmune adrenal destruction) is the disease itself; reworded the stem to ask which conditions can cause primary adrenal insufficiency (p99 causes box). Option 5 rationale claimed radioactive iodine is linked to hypoparathyroidism, which is not standard teaching (rare); limited it to hypothyroidism (p94)."
+    },
+    {
+      "id": "endo-pheo-q7",
+      "status": "fixed",
+      "note": "p102 lists 'alpha- and beta-blockers' without sequence. Current practice is alpha-blockade first, beta-blocker only afterward (unopposed alpha stimulation can precipitate hypertensive crisis). Added this to the beta-blocker rationale so students don't learn they are interchangeable or simultaneous starts."
+    },
+    {
+      "id": "endo-siadh-q14",
+      "status": "fixed",
+      "note": "Rows (sodium rise within the 8-10 mEq/L limit, crackles, lessening confusion, seizure) duplicated endo-siadh-q15 and endo-siadh-q2 almost row for row. Rewrote the rows to evaluate fluid restriction with different p103 data: weight change, falling sodium, blood osmolality returning to 275-295, new confusion, resolved nausea. Moved page 104 to 103, which holds all the facts, and changed the time frame to 48 hours."
+    },
+    {
+      "id": "endo-acromegaly-q8",
+      "status": "fixed",
+      "note": "Option 3 said 'startle him' although the stem gives no sex; made it gender-neutral and client-centered (p106)."
+    },
+    {
+      "id": "endo-emergencies-q10",
+      "status": "fixed",
+      "note": "Keyed 'Obtain and record vital signs' was arguable: a client in active DKA on an insulin infusion is unstable, and NCLEX expects the RN to keep vital signs on unstable clients. Replaced it with 'Help the client change position in bed', which is clearly delegable. (Delegation itself is general scope-of-practice knowledge, not from p112.)"
+    }
+  ]
+}

@@ -363,7 +363,8 @@
    "type": "matrix",
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q14",
@@ -388,7 +389,8 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q15",
@@ -413,7 +415,8 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q16",
@@ -444,7 +447,8 @@
    "type": "matrix",
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q17",
@@ -454,27 +458,28 @@
     "Moist mucous membranes and a steady weight",
     "Urine output that matches fluid intake",
     "Clear lung sounds and normal skin turgor",
-    "New thirst, dry mucous membranes and poor skin turgor"
+    "New intense thirst and dry mucous membranes"
    ],
    "correct": 3,
    "rationales": [
     "Moist mucous membranes and a steady weight suggest adequate hydration.",
     "Balanced intake and output does not suggest dehydration.",
-    "Clear lungs and normal skin turgor do not suggest dehydration.",
-    "Correct. Thirst, dry mucous membranes and poor skin turgor are signs of dehydration, which the book says misused hypertonic fluids can cause."
+    "Clear lungs and normal skin turgor do not suggest dehydration or fluid overload.",
+    "Correct. A hypertonic solution pulls water out of the cells; new thirst and dry mucous membranes are signs of the dehydration the book says misused hypertonic fluids can cause. (The nurse also watches for fluid overload as water shifts into the vascular space.)"
    ],
-   "clue": "The book warns that hypertonic fluids can cause dehydration if misused.",
+   "clue": "The book warns that hypertonic fluids can cause dehydration if misused; thirst is an early sign.",
    "priority": "Evaluate clients on hypertonic fluids for signs of dehydration.",
    "page": 184,
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q18",
    "section": "fluids-main",
-   "stem": "A nurse is teaching a wellness class about electrolytes. Which statements are consistent with the book's cheat sheet? Select all that apply.",
+   "stem": "A nurse is teaching a wellness class about electrolytes. Which statements should the nurse include? Select all that apply.",
    "options": [
     "Vitamin D supplementation supports calcium management.",
     "Chloride helps balance fluids and supports digestion.",
@@ -500,7 +505,8 @@
    "type": "sata",
    "clientNeed": "hpm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q19",
@@ -525,7 +531,8 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q20",
@@ -550,7 +557,8 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q21",
@@ -575,7 +583,8 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q22",
@@ -608,7 +617,8 @@
    "type": "sata",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q23",
@@ -645,7 +655,8 @@
    "type": "matrix",
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q24",
@@ -676,7 +687,8 @@
    "type": "sata",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q25",
@@ -713,7 +725,8 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q26",
@@ -738,7 +751,8 @@
    "type": "mcq",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q27",
@@ -763,7 +777,8 @@
    "type": "mcq",
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "fluids-main-q28",
@@ -788,7 +803,8 @@
    "type": "mcq",
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [

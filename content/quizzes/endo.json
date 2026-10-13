@@ -2169,7 +2169,8 @@
    ],
    "clue": "An A1C of 9.1% is above the 8% mark for poor control.",
    "priority": "Use the A1C to evaluate long-term glycemic control and the need to revise the plan.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-dm-q8",
@@ -2194,7 +2195,8 @@
    ],
    "clue": "Thirst with a fruity breath odor signals a blood sugar emergency.",
    "priority": "See the client with signs of a blood sugar emergency before clients with stable teaching needs.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-dm-q9",
@@ -2231,7 +2233,8 @@
    ],
    "clue": "Onset pattern and body changes differ between the types.",
    "priority": "Distinguish type 1 from type 2 diabetes using history and physical findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-dm-q10",
@@ -2265,7 +2268,8 @@
    ],
    "clue": "New diagnosis of gestational diabetes.",
    "priority": "Teach the maternal and newborn risks of gestational diabetes.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-dm-q11",
@@ -2290,7 +2294,8 @@
    ],
    "clue": "The client has type 1 diabetes.",
    "priority": "Clients with type 1 diabetes need lifelong insulin therapy.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-dm-q12",
@@ -2324,7 +2329,8 @@
    ],
    "clue": "Type 2 diabetes managed with oral and other agents.",
    "priority": "Recognize the drug classes used to treat diabetes mellitus.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-dm-q13",
@@ -2358,7 +2364,8 @@
    ],
    "clue": "Statements dismissing numbness, tingling, or itching.",
    "priority": "Evaluate whether the client knows which diabetes symptoms to report.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q7",
@@ -2366,7 +2373,7 @@
    "type": "mcq",
    "page": 94,
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "The daughter of a client with untreated hypothyroidism says, 'Dad has become so forgetful and slow lately. I think he's getting dementia.' Which response by the nurse is most appropriate?",
    "options": [
     "These changes are a normal part of aging and are not related to his thyroid.",
@@ -2383,7 +2390,8 @@
    ],
    "clue": "Forgetfulness and slowness in a client with untreated hypothyroidism.",
    "priority": "Support the family by explaining cognitive changes linked to hypothyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q8",
@@ -2408,7 +2416,8 @@
    ],
    "clue": "The client feels cold when others are comfortable.",
    "priority": "Provide comfort measures for cold intolerance.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q9",
@@ -2442,7 +2451,8 @@
    ],
    "clue": "Compare each value with the normal TSH, T4, and T3 ranges.",
    "priority": "Use thyroid labs to evaluate whether replacement therapy has restored a euthyroid state.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q10",
@@ -2476,7 +2486,8 @@
    ],
    "clue": "Weight gain and constipation from slowed metabolism.",
    "priority": "Plan a low-calorie, high-protein, high-fiber diet.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q11",
@@ -2510,7 +2521,8 @@
    ],
    "clue": "Cardiac symptoms during thyroid hormone replacement.",
    "priority": "Prioritize cardiac symptoms during levothyroxine therapy over routine teaching needs.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q12",
@@ -2535,7 +2547,8 @@
    ],
    "clue": "The pituitary no longer stimulates the thyroid.",
    "priority": "Identify the level of the problem causing hypothyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypothyroid-q13",
@@ -2560,7 +2573,8 @@
    ],
    "clue": "Hypothyroid symptoms in a client taking lithium.",
    "priority": "Recognize medication-related hypothyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperthyroid-q6",
@@ -2568,7 +2582,7 @@
    "type": "mcq",
    "page": 96,
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "A client with newly diagnosed Graves disease says, 'I feel jittery and anxious all the time. I think I'm losing my mind.' Which response by the nurse is best?",
    "options": [
     "Everyone feels anxious sometimes, so try not to dwell on it.",
@@ -2585,7 +2599,8 @@
    ],
    "clue": "Anxiety and jitteriness in a client with Graves disease.",
    "priority": "Address anxiety by linking it to the disorder and offering support.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperthyroid-q7",
@@ -2600,7 +2615,7 @@
     "Male sex",
     "High iodine intake",
     "Female sex, especially ages 20-40",
-    "Iodine deficiency",
+    "A low-fat diet",
     "Hormone therapy"
    ],
    "correct": [
@@ -2614,12 +2629,13 @@
     "Incorrect. The book states hyperthyroidism is more common in women.",
     "Correct. The book lists high iodine intake as a risk factor.",
     "Correct. The book states it is more common in women, especially ages 20-40.",
-    "Incorrect. Iodine deficiency is listed as a cause of hypothyroidism, not hyperthyroidism.",
+    "Incorrect. Dietary fat is not a risk factor; the book lists tobacco use, high iodine intake, stress, hormone therapy, and female sex (ages 20-40).",
     "Correct. The book lists hormone therapy as a risk factor."
    ],
    "clue": "Risk factors for an overactive thyroid.",
    "priority": "Teach modifiable and nonmodifiable risk factors for hyperthyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperthyroid-q8",
@@ -2656,7 +2672,8 @@
    ],
    "clue": "Breathing difficulty, vision loss, or storm signs versus classic symptoms.",
    "priority": "Separate life-threatening complications from expected findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q9",
@@ -2681,7 +2698,8 @@
    ],
    "clue": "The normal cortisol range is given for 6-8 a.m.",
    "priority": "Time the cortisol specimen so it can be compared with the reference range.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q10",
@@ -2706,7 +2724,8 @@
    ],
    "clue": "Signs of dehydration in adrenal insufficiency.",
    "priority": "Support fluid replacement for a dehydrated client with Addison disease.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q11",
@@ -2731,7 +2750,8 @@
    ],
    "clue": "Tachycardia with falling blood pressure.",
    "priority": "Communicate the unstable finding first in SBAR.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q12",
@@ -2740,7 +2760,7 @@
    "page": 99,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is reviewing health histories. Which clients are at risk for primary adrenal insufficiency (Addison disease)? Select all that apply.",
+   "stem": "A nurse is reviewing health histories. Which conditions in these clients can cause primary adrenal insufficiency (Addison disease)? Select all that apply.",
    "options": [
     "A client with autoimmune destruction of the adrenal glands",
     "A client with tuberculosis",
@@ -2761,11 +2781,12 @@
     "Incorrect. The book lists pituitary disorders with ACTH deficiency as a secondary cause.",
     "Correct. The book lists adrenal hemorrhage as a primary cause.",
     "Correct. The book lists AIDS as a primary cause.",
-    "Incorrect. Radioactive iodine is linked to hypothyroidism and hypoparathyroidism, not adrenal insufficiency."
+    "Incorrect. Radioactive iodine treatment for Graves disease is a cause of hypothyroidism, not adrenal insufficiency."
    ],
    "clue": "Conditions that damage the adrenal glands themselves.",
    "priority": "Identify risk factors for primary adrenal insufficiency.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q13",
@@ -2803,7 +2824,8 @@
    ],
    "clue": "Each adrenal hormone has distinct effects.",
    "priority": "Link Addison findings to the hormone that is deficient.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q14",
@@ -2828,7 +2850,8 @@
    ],
    "clue": "Depression with worsening weakness and dizziness.",
    "priority": "Recognize emotional stress as a trigger for adrenal crisis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q15",
@@ -2836,7 +2859,7 @@
    "type": "mcq",
    "page": 99,
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "A male client with Addison disease tells the nurse he is embarrassed about impotence and loss of body hair and doesn't want his partner to know. Which response by the nurse is most therapeutic?",
    "options": [
     "These changes can come from your adrenal hormone deficiency. How are you feeling about them?",
@@ -2853,7 +2876,8 @@
    ],
    "clue": "Embarrassment about impotence and hair loss.",
    "priority": "Support body image concerns with accurate information and therapeutic communication.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q16",
@@ -2890,7 +2914,8 @@
    ],
    "clue": "Trends in potassium, sodium, glucose, and orthostatic blood pressure.",
    "priority": "Evaluate whether replacement is restoring fluids, electrolytes, and hormones.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q17",
@@ -2915,7 +2940,8 @@
    ],
    "clue": "Only routine measurement tasks can be delegated.",
    "priority": "Delegate routine data collection; keep assessment, teaching, and evaluation with the RN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q18",
@@ -2940,7 +2966,8 @@
    ],
    "clue": "Long-term steroid dose missed while NPO.",
    "priority": "Prevent adrenal insufficiency from sudden steroid withdrawal.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-addison-q19",
@@ -2965,7 +2992,8 @@
    ],
    "clue": "Bone loss plus weakness.",
    "priority": "Prevent falls and fractures in a client with bone loss.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-cushing-q6",
@@ -2999,7 +3027,8 @@
    ],
    "clue": "Fragile skin, easy bruising, and muscle wasting.",
    "priority": "Prevent skin injury and falls in Cushing syndrome.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-cushing-q7",
@@ -3033,7 +3062,8 @@
    ],
    "clue": "ACTH level and the planned surgery.",
    "priority": "Use ACTH results to locate the cause of cortisol excess.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-cushing-q8",
@@ -3058,7 +3088,8 @@
    ],
    "clue": "Both adrenal glands were removed.",
    "priority": "Evaluate understanding of lifelong steroid replacement.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q7",
@@ -3084,14 +3115,15 @@
    "rationales": [
     "Correct. The book lists alpha- and beta-blockers to control blood pressure before surgery.",
     "Incorrect. The book calls for expanding blood volume before surgery, not restricting fluids.",
-    "Correct. The book lists alpha- and beta-blockers before surgery.",
+    "Correct. The book lists alpha- and beta-blockers before surgery. A beta-blocker is started only after alpha-blockade is in place; giving it first leaves alpha stimulation unopposed and can cause a hypertensive crisis.",
     "Correct. The book lists IV fluids to expand blood volume before surgery.",
     "Incorrect. Levothyroxine treats hypothyroidism.",
     "Incorrect. Desmopressin treats central diabetes insipidus."
    ],
    "clue": "Preoperative care for a catecholamine-secreting tumor.",
    "priority": "Control blood pressure and expand volume before pheochromocytoma surgery.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q8",
@@ -3116,7 +3148,8 @@
    ],
    "clue": "A high-salt diet before pheochromocytoma surgery.",
    "priority": "Explain diet measures that expand blood volume before surgery.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q9",
@@ -3150,7 +3183,8 @@
    ],
    "clue": "Factors that provoke catecholamine release.",
    "priority": "Teach the client to avoid triggers of hypertensive crisis.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q10",
@@ -3175,7 +3209,8 @@
    ],
    "clue": "Episodic hypertension, headache, and sweating.",
    "priority": "Interpret the 24-hour urine test for catecholamine excess.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q11",
@@ -3200,7 +3235,8 @@
    ],
    "clue": "Family history of MEN syndrome.",
    "priority": "Teach about inherited risk and genetic testing.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q12",
@@ -3237,7 +3273,8 @@
    ],
    "clue": "Hypoglycemia, bleeding, and ileus after adrenal surgery.",
    "priority": "Prioritize postoperative complications over comfort requests.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-pheo-q13",
@@ -3262,7 +3299,8 @@
    ],
    "clue": "Blood pressure control and fewer spells.",
    "priority": "Evaluate preoperative blood pressure control.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q9",
@@ -3287,7 +3325,8 @@
    ],
    "clue": "Low sodium in a client receiving vincristine.",
    "priority": "Recognize medication-induced SIADH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q10",
@@ -3321,7 +3360,8 @@
    ],
    "clue": "CNS disorders, cancers, and certain drugs.",
    "priority": "Identify clients at risk for SIADH so sodium can be monitored.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q11",
@@ -3346,7 +3386,8 @@
    ],
    "clue": "Low serum sodium and osmolality with high urine sodium.",
    "priority": "Interpret laboratory findings of SIADH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q12",
@@ -3354,7 +3395,7 @@
    "type": "mcq",
    "page": 103,
    "clientNeed": "psych",
-   "cjmm": "analyzeCues",
+   "cjmm": "takeAction",
    "stem": "The spouse of a client with SIADH says, 'He's been so irritable and snapping at everyone. That's not like him.' The client's sodium has been falling. Which response by the nurse is best?",
    "options": [
     "He is probably just frustrated about being in the hospital.",
@@ -3371,7 +3412,8 @@
    ],
    "clue": "Personality change with a falling sodium.",
    "priority": "Support the family by explaining behavior changes caused by hyponatremia.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q13",
@@ -3396,21 +3438,23 @@
    ],
    "clue": "A fluid restriction of 600-800 mL per day.",
    "priority": "Plan intake within the SIADH fluid restriction.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q14",
    "section": "endo-siadh",
    "type": "matrix",
-   "page": 104,
+   "page": 103,
    "clientNeed": "pa",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with SIADH has been on a fluid restriction for 24 hours. For each finding, indicate whether it suggests treatment is effective or not effective.",
+   "stem": "A client with SIADH has been on a fluid restriction for 48 hours. For each finding, indicate whether it suggests treatment is effective or not effective.",
    "rows": [
-    "Serum sodium rose from 121 to 127 mEq/L",
-    "New crackles in the lung bases",
-    "Confusion has lessened",
-    "New seizure activity"
+    "Weight is down 1.2 kg since the restriction began",
+    "Serum sodium fell from 127 to 123 mEq/L",
+    "Blood osmolality rose from 262 to 279 mOsm/L",
+    "New confusion",
+    "Nausea has resolved"
    ],
    "columns": [
     "Effective",
@@ -3420,17 +3464,20 @@
     0,
     1,
     0,
-    1
+    1,
+    0
    ],
    "rationales": [
-    "Effective. The book's goal is to correct sodium slowly, by no more than 8-10 mEq/L in 24 hours; a 6 mEq/L rise meets this.",
-    "Not effective. The book says to monitor for pulmonary congestion, a sign of fluid excess.",
-    "Effective. The book says to monitor neurologic symptoms; less confusion shows improvement.",
-    "Not effective. Seizures signal critically low sodium."
+    "Effective. The book lists weight gain from water retention in SIADH; weight loss shows excess water is being removed.",
+    "Not effective. The book states a dropping serum sodium is the key sign of SIADH.",
+    "Effective. The book lists a normal blood osmolality of 275-295 mOsm/L and below 275 as hemodilution; 279 shows the dilution has corrected.",
+    "Not effective. The book lists confusion as a late symptom of falling sodium.",
+    "Effective. The book lists nausea as an early symptom; its resolution shows improvement."
    ],
-   "clue": "Slow sodium rise with clearer thinking.",
+   "clue": "Weight, sodium, osmolality, and symptom trends.",
    "priority": "Evaluate the response to SIADH treatment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q15",
@@ -3467,7 +3514,8 @@
    ],
    "clue": "Pulmonary or neurologic changes during hypertonic saline.",
    "priority": "Use hypertonic saline cautiously and report complications.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q16",
@@ -3492,7 +3540,8 @@
    ],
    "clue": "Active seizure with critically low sodium.",
    "priority": "Protect the airway and prevent injury during a seizure.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q17",
@@ -3523,7 +3572,8 @@
    ],
    "clue": "Neurologic changes and a sodium below 120 mEq/L.",
    "priority": "Recognize and report life-threatening changes in SIADH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q18",
@@ -3548,7 +3598,8 @@
    ],
    "clue": "Unrecorded fluid given by a visitor.",
    "priority": "Coordinate accurate I&O and include family in the fluid restriction plan.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-siadh-q19",
@@ -3573,7 +3624,8 @@
    ],
    "clue": "Low sodium, low urine output, and weight gain after a stroke.",
    "priority": "Identify SIADH as the most likely cause of the findings.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q7",
@@ -3604,7 +3656,8 @@
    ],
    "clue": "Causes in which the kidney resists ADH.",
    "priority": "Distinguish risk factors for renal DI from those for central DI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q8",
@@ -3629,7 +3682,8 @@
    ],
    "clue": "A 16 mEq/L drop in sodium within 24 hours.",
    "priority": "Correct hypernatremia gradually to prevent cerebral edema.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q9",
@@ -3654,7 +3708,8 @@
    ],
    "clue": "Sudden polyuria and lightheadedness after head trauma.",
    "priority": "See the client with new-onset DI and signs of dehydration first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q10",
@@ -3679,7 +3734,8 @@
    ],
    "clue": "Exhaustion and distress from nocturia.",
    "priority": "Support coping and offer counseling referral.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q11",
@@ -3716,7 +3772,8 @@
    ],
    "clue": "Central DI with a high sodium.",
    "priority": "Anticipate ADH replacement and hypotonic fluids for central DI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q12",
@@ -3753,7 +3810,8 @@
    ],
    "clue": "DI is 'dry inside'; SIADH is the opposite.",
    "priority": "Differentiate DI from SIADH.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-di-q13",
@@ -3778,7 +3836,8 @@
    ],
    "clue": "Unsafe swallowing in a client losing large volumes of water.",
    "priority": "Choose a safe route for fluid replacement in DI.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q7",
@@ -3803,7 +3862,8 @@
    ],
    "clue": "GH that does not suppress after glucose.",
    "priority": "Interpret diagnostic results for acromegaly.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q8",
@@ -3817,7 +3877,7 @@
     "Place needed items at the far left and right edges of the bedside table.",
     "Teach the client to turn the head to scan the surroundings, and keep walkways clear.",
     "Patch one eye to improve depth perception.",
-    "Approach the client from the side so as not to startle him."
+    "Approach the client from the side to avoid startling the client."
    ],
    "correct": 1,
    "rationales": [
@@ -3828,7 +3888,8 @@
    ],
    "clue": "Loss of the outer (temporal) visual fields.",
    "priority": "Prevent injury from visual field loss.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q9",
@@ -3862,7 +3923,8 @@
    ],
    "clue": "Excess GH raises cardiometabolic risk.",
    "priority": "Teach screening for complications of acromegaly.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q10",
@@ -3899,7 +3961,8 @@
    ],
    "clue": "Hypoglycemia, hyponatremia, and neurologic change after pituitary surgery.",
    "priority": "Prioritize postoperative complications over routine care requests.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q11",
@@ -3924,7 +3987,8 @@
    ],
    "clue": "Excess sweating with oily skin.",
    "priority": "Provide hygiene and comfort measures.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q12",
@@ -3949,7 +4013,8 @@
    ],
    "clue": "Body image distress and social withdrawal after surgery.",
    "priority": "Support long-term emotional adjustment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-acromegaly-q13",
@@ -3974,7 +4039,8 @@
    ],
    "clue": "The client does not understand the planned procedure.",
    "priority": "Advocate for informed consent.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q9",
@@ -4011,7 +4077,8 @@
    ],
    "clue": "Moderate calcium and vitamin D with good hydration.",
    "priority": "Teach the nonsurgical diet and activity plan.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q10",
@@ -4036,7 +4103,8 @@
    ],
    "clue": "Fragility fractures and bone pain.",
    "priority": "Prevent injury when moving a client with fragile bones.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q11",
@@ -4061,7 +4129,8 @@
    ],
    "clue": "Change in serum calcium after furosemide.",
    "priority": "Evaluate the response to calcium-lowering therapy.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q12",
@@ -4086,7 +4155,8 @@
    ],
    "clue": "Tingling and cramps after parathyroid surgery.",
    "priority": "Assess possible postoperative hypocalcemia first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q13",
@@ -4120,7 +4190,8 @@
    ],
    "clue": "Effects of excess PTH and high calcium.",
    "priority": "Teach the complications to watch for in hyperparathyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q14",
@@ -4145,7 +4216,8 @@
    ],
    "clue": "Low mood and poor concentration in hyperparathyroidism.",
    "priority": "Provide emotional support and coping strategies.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q15",
@@ -4170,7 +4242,8 @@
    ],
    "clue": "Promoting mobility is a routine task.",
    "priority": "Delegate routine activity; keep assessment, teaching, and evaluation with the RN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q16",
@@ -4207,7 +4280,8 @@
    ],
    "clue": "High calcium and PTH with low phosphorus.",
    "priority": "Interpret laboratory results for hyperparathyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q17",
@@ -4241,7 +4315,8 @@
    ],
    "clue": "Confusion and disorientation from severe hypercalcemia.",
    "priority": "Prevent injury in a confused client.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q18",
@@ -4266,7 +4341,8 @@
    ],
    "clue": "Calcium above 14 mg/dL with new confusion.",
    "priority": "Communicate the nurse's interpretation clearly in SBAR.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hyperpara-q19",
@@ -4291,7 +4367,8 @@
    ],
    "clue": "Bone pain after parathyroidectomy.",
    "priority": "Manage postoperative bone pain.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q7",
@@ -4316,7 +4393,8 @@
    ],
    "clue": "Tingling and a positive Chvostek sign after thyroid surgery.",
    "priority": "State the most likely problem in the SBAR Assessment.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q8",
@@ -4341,7 +4419,8 @@
    ],
    "clue": "Poor teeth and dry skin.",
    "priority": "Promote oral and skin care in chronic hypoparathyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q9",
@@ -4366,7 +4445,8 @@
    ],
    "clue": "Anxiety with perioral numbness after neck surgery.",
    "priority": "Consider a physiologic cause of new anxiety.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q10",
@@ -4397,7 +4477,8 @@
    ],
    "clue": "Muscle cramps and balance problems.",
    "priority": "Prevent falls in chronic hypoparathyroidism.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q11",
@@ -4434,7 +4515,8 @@
    ],
    "clue": "Signs of hypocalcemia after IV calcium.",
    "priority": "Evaluate the response to IV calcium.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q12",
@@ -4459,7 +4541,8 @@
    ],
    "clue": "Stable chronic disease versus acute hypocalcemia.",
    "priority": "Assign stable, predictable clients to the LPN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-hypopara-q13",
@@ -4490,7 +4573,8 @@
    ],
    "clue": "Seizures and airway signs.",
    "priority": "Teach the family when to get emergency help.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q7",
@@ -4524,7 +4608,8 @@
    ],
    "clue": "pH and bicarbonate still below the resolution thresholds.",
    "priority": "Evaluate DKA resolution using all of the criteria.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q8",
@@ -4549,7 +4634,8 @@
    ],
    "clue": "Glucose above 600 mg/dL with hypotension and stupor.",
    "priority": "See the client with signs of HHS first.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q9",
@@ -4574,7 +4660,8 @@
    ],
    "clue": "Hypotension and tachycardia from severe dehydration in HHS.",
    "priority": "Recommend aggressive fluid replacement in SBAR.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q10",
@@ -4587,7 +4674,7 @@
    "options": [
     "Measure and record urine output",
     "Assess the depth and pattern of respirations",
-    "Obtain and record vital signs",
+    "Help the client change position in bed",
     "Decide when to add dextrose to the IV fluids",
     "Provide mouth care",
     "Interpret the anion gap"
@@ -4600,14 +4687,15 @@
    "rationales": [
     "Correct. Measuring and recording output is within the scope of assistive personnel and supports fluid monitoring.",
     "Incorrect. Assessing for Kussmaul respirations is a nursing assessment.",
-    "Correct. Obtaining and recording vital signs on a client can be delegated; the nurse interprets them.",
+    "Correct. Repositioning is basic care within the scope of assistive personnel.",
     "Incorrect. Adding D5 when glucose falls below 200 mg/dL is a treatment decision.",
     "Correct. Mouth care for a dehydrated client is basic care that can be delegated.",
     "Incorrect. Interpreting lab results is the nurse's responsibility."
    ],
    "clue": "Routine measurement and hygiene tasks.",
    "priority": "Delegate routine tasks; keep assessment and treatment decisions with the RN.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q11",
@@ -4638,7 +4726,8 @@
    ],
    "clue": "Triggers of myxedema coma.",
    "priority": "Teach the client to avoid triggers of myxedema coma.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q12",
@@ -4669,7 +4758,8 @@
    ],
    "clue": "Stupor with risk of seizures.",
    "priority": "Prevent injury in a client with HHS and altered mental status.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   },
   {
    "id": "endo-emergencies-q13",
@@ -4694,7 +4784,8 @@
    ],
    "clue": "A family member distressed by delirium during thyroid storm.",
    "priority": "Support the family through acute cognitive changes.",
-   "batch": "v3"
+   "batch": "v3",
+   "reviewed": "v3"
   }
  ],
  "concerns": [
@@ -4789,6 +4880,18 @@
   {
    "page": 0,
    "issue": "blueprint (v3): Management of Care items are prioritization, SBAR, consent, and assignment items built on the book's clinical findings; delegation/assignment items (endo-addison, endo-hyperpara, endo-hypopara, endo-emergencies) use basic scope-of-practice knowledge that the book does not state."
+  },
+  {
+   "page": 110,
+   "issue": "Lists radioactive iodine (131I) treatment for Graves disease as a reversible cause of hypoparathyroidism. This is rare and not standard teaching; RAI mainly causes hypothyroidism. Verify or remove."
+  },
+  {
+   "page": 102,
+   "issue": "Preoperative pheochromocytoma care lists 'alpha- and beta-blockers' without order. Alpha-blockade must come first and beta-blockers only after it; starting a beta-blocker first can cause a hypertensive crisis. Add the sequence."
+  },
+  {
+   "page": 112,
+   "issue": "DKA resolution lists anion gap <=12, glucose <200, venous pH >7.3 and bicarbonate >=15 as if all are required. ADA criteria are glucose <200 plus two of the other three, and the 2024 consensus uses ketones <0.6 mmol/L with pH >=7.3 or bicarbonate >=18. Also, D5 is usually added at glucose <250, not <200. Verify against current guidance."
   }
  ]
 }

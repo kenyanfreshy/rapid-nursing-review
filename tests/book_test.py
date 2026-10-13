@@ -1,6 +1,7 @@
 # Book panel and book-structured quiz checks. Serve dist/ on 127.0.0.1:4173 first.
 from playwright.sync_api import sync_playwright
-import json,sys
+import json,sys,os
+PE_N=sum(1 for q in json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),'content/quizzes/resp.json')))['questions'] if q['id'].startswith('resp-pe-') and not q.get('retired'))
 U='http://127.0.0.1:4173/';K='rapid-nursing-review-v1';OUT=sys.argv[1] if len(sys.argv)>1 else '.'
 res=[]
 def check(n,ok,info=''): res.append(('PASS' if ok else 'FAIL',n,info))
@@ -23,7 +24,7 @@ with sync_playwright() as p:
     pg.screenshot(path=f'{OUT}/desktop-reader.png')
     # section quiz from panel
     pg.click('#book-panel [data-action=section-quiz]'); pg.wait_for_timeout(300)
-    s=get(pg)['session']; check('section quiz has all 10 PE book questions (pilot questions retired)',s and len(s['ids'])==10 and all(i.startswith('resp-pe-') for i in s['ids']),s and s['ids'])
+    s=get(pg)['session']; check('section quiz has every PE book question (pilot questions retired)',s and len(s['ids'])==PE_N and all(i.startswith('resp-pe-') for i in s['ids']),s and s['ids'])
     pg.click('[data-choice="0"]'); pg.click('[data-action=submit-answer]')
     pg.screenshot(path=f'{OUT}/desktop-quiz-rationale.png')
     q0=s['ids'][0]

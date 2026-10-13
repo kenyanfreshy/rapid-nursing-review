@@ -1,0 +1,54 @@
+{
+ "chapter": "cases-b",
+ "reviewed": 36,
+ "ok": 27,
+ "fixed": 9,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "ngn:book-siadh/s6",
+   "status": "fixed",
+   "note": "Option a (900 mL urine in 12 h) was arguably also a red flag: under 3% saline a sudden water diuresis signals overcorrection risk, so there were two defensible keys. Changed it to 600 mL/12 h (~50 mL/h). The keyed option said 'next morning' but also '24 hours'; reworded it to 'Na 131 this morning, up from 116 at 16:00 yesterday' and updated the rationale (p104: no more than 8–10 mEq/L in 24 h)."
+  },
+  {
+   "id": "ngn:book-adrenal-crisis/a2",
+   "status": "fixed",
+   "note": "The stem asked for a 'hormone deficit', but options c (excess ADH) and d (potassium loss from vomiting) were not deficits, so the stem itself cued them out. Changed the stem to 'hormone imbalance' and option d to 'Excess cortisol' (opposite Na/K pattern). Rationale updated; key unchanged (low aldosterone, p97)."
+  },
+  {
+   "id": "ngn:book-adrenal-crisis/a5",
+   "status": "fixed",
+   "note": "The EHR showed a glucose of 48 with lethargy and no dextrose treatment, yet the item asked what to do 'next', which a critical-care reader would answer 'treat the hypoglycemia'. The order 'NS or D5NS' was also vague. The orders now say a D5NS bolus (p111) plus 'treat glucose < 70 per hypoglycemia protocol' (no dose given), and the stem says the glucose has been treated. Key is unchanged (high-dose IV hydrocortisone, p111)."
+  },
+  {
+   "id": "ngn:book-adrenal-crisis/a6",
+   "status": "fixed",
+   "note": "Keyed 'improvement' finding Na 124→130 in 4 h is a 6 mEq/L rise in 4 h, so it is arguably too fast (risk of osmotic demyelination), and the row could be read either way. Changed to Na 127 and updated the rationale."
+  },
+  {
+   "id": "ngn:book-aki/k4",
+   "status": "fixed",
+   "note": "Keyed 'high-carbohydrate, low-protein diet' (p118) and the 'wrong' high-protein distractor rest on outdated advice: current KDIGO guidance says not to restrict protein in AKI. Replaced both: keyed 'Limit fluid intake as prescribed' (p118: sodium and fluid restriction based on status), and the distractor is now 'Suggest a salt substitute' (potassium chloride). Rationale rewritten. EHR orders also gained a 12-lead ECG, calcium gluconate and insulin with dextrose 'as prescribed' (p185), because K 6.4 with ectopy and only Kayexalate ordered is not safe."
+  },
+  {
+   "id": "ngn:book-icp/i1",
+   "status": "fixed",
+   "note": "GCS was inconsistent: 'opens eyes to voice' (E3), 'oriented to person only' (V4) and following commands (M6) total 13, not 12. Corrected to 13 in the EHR note and in option a. Also removed 'Dexamethasone IV' from the EHR orders: corticosteroids are contraindicated in TBI (CRASH trial, Brain Trauma Foundation), even though p133 lists them for ICP. No item keyed it."
+  },
+  {
+   "id": "ngn:book-myasthenic-crisis/m3",
+   "status": "fixed",
+   "note": "Distractor 'Hold all anticholinesterase medication' is arguably right in current practice (pyridostigmine is often held in an intubated crisis client to reduce secretions), and keyed 'Give the anticholinesterase dose' rested on p152's 'increase anticholinesterase', which is not the mainstay of crisis care. Keyed action is now 'Prepare for plasmapheresis as prescribed' (p152, and ordered in the EHR); the distractor is now 'extra pyridostigmine tablet by mouth' (unsafe, she cannot swallow). Rationale rewritten. Also: 'Bedside spirometry' relabeled 'Single-breath count'."
+  },
+  {
+   "id": "ngn:book-myasthenic-crisis/m4",
+   "status": "fixed",
+   "note": "The stem says 'the nurse reviews the admission orders', but the keyed cyclobenzaprine order was not in the EHR. Added 'Cyclobenzaprine as needed for neck muscle aches' to the Orders tab. Item unchanged (p151)."
+  },
+  {
+   "id": "ngn:book-sickle-cell/c5",
+   "status": "fixed",
+   "note": "Sequence o3 (reassess pain) → o4 (coach imagery) was not the only defensible order: distraction can be coached while waiting for the morphine to work. Replaced the steps with an unambiguous chain: oxygen → IV morphine → reassess pain, sedation and RR → next prescribed dose if pain is still severe (p159; orders say reassess after each dose). EHR: fever 38.3, SpO2 92%, RR 22 and WBC 15.4 would raise acute chest syndrome, so the triage note now says 'Lungs clear; denies chest pain or cough' and a chest x-ray is ordered."
+  }
+ ]
+}

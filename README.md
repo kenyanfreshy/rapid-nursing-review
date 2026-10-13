@@ -5,10 +5,10 @@ MSN, RN, CCRN-CMC, and expanded with the NurseBound NCLEX bank to cover every NC
 
 ## What's in it
 
-- **1,805 NCLEX-style questions** in all 19 NCLEX topic areas:
-  - **600 linked to the book.** Each one cites the exact page that proves the answer, is tagged with an NCLEX client need and a clinical-judgment step, and was checked against its page image by a second reviewer.
+- **2,500 NCLEX-style questions** in all 19 NCLEX topic areas:
+  - **1,295 linked to the book** (600 original + 695 added in v3). Each one cites the exact page that proves the answer, is tagged with an NCLEX client need and a clinical-judgment step, and was checked against its page image by a second reviewer. About 16% are matrix (NGN) items.
   - **1,205 from the NurseBound bank**, which covers Mental Health, Pediatrics, Maternal & Newborn, Ethics, Leadership and the rest of the test plan.
-- **Next Generation NCLEX:** select-all (+/− scoring), matrix and ordered-response items, plus **8 unfolding case studies**. Each case has a client chart and six items (single, multi, highlight, matrix, cloze, ordering and bowtie), one per step of the clinical-judgment model, scored with NGN partial-credit rules.
+- **Next Generation NCLEX:** select-all (+/− scoring), matrix and ordered-response items, plus **20 unfolding case studies** (8 from NurseBound and 12 built from the book, each item citing its book page). Each case has a client chart and six items (single, multi, highlight, matrix, cloze, ordering and bowtie), one per step of the clinical-judgment model, scored with NGN partial-credit rules.
 - **Blueprint match:** the bank's client-need mix falls inside every 2026 NCLEX-RN test plan range (NCSBN, effective April 1, 2026). The **75-question blueprint exam** samples to the official midpoints and reports results by category.
 - **Two ways to practice:**
   - **NCLEX topics:** a colorful topic picker (All / Unseen / Missed, with question counts, tutor or exam mode).
@@ -62,8 +62,8 @@ Keep question IDs stable: saved answers, bookmarks and history refer to them.
 
 ## Status and limits
 
-- The 600 book questions are labeled "awaiting author review" in the app until you approve them.
-- `content/BOOK_REVIEW_NOTES.md` lists possible book errata to check.
+- The 1,295 book questions are labeled "awaiting author review" in the app until you approve them.
+- `content/BOOK_REVIEW_NOTES.md` and `content/BOOK_CORRECTIONS_V3.md` list possible book errata to check.
 - NurseBound questions carry NurseBound's own review notes where it had them; items with a disputed answer key were not imported.
 - RevenueCat keys in `mobile/app.json` are placeholders until you create the RevenueCat app (see `mobile/PRICING.md`).
 - The mobile app hasn't been built here (the npm registry was blocked in this workspace). Build with EAS and test purchases with sandbox accounts before submitting.

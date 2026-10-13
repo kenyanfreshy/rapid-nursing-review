@@ -1,0 +1,54 @@
+{
+ "chapter": "gu",
+ "reviewed": 64,
+ "ok": 55,
+ "fixed": 9,
+ "rewritten": 0,
+ "items": [
+  {
+   "id": "gu-aki-q12",
+   "status": "fixed",
+   "note": "Key client had 'hyperkalemia' with seizure-like activity, built on the p.117 red-flag line 'especially hyperkalemia or hyponatremia'. Hyperkalemia does not cause seizures (it causes weakness/dysrhythmias). Changed the key option to a sharply falling serum sodium (hyponatremia, also on p.117) and updated rationale and clue."
+  },
+  {
+   "id": "gu-aki-q15",
+   "status": "fixed",
+   "note": "Keyed 'low protein' AKI diet (p.118) is outdated for clients on RRT, where protein is increased, making the 'extra protein' distractor arguable. Limited the stem to an oliguric client not receiving dialysis and updated the protein rationale."
+  },
+  {
+   "id": "gu-aki-q17",
+   "status": "fixed",
+   "note": "Matrix columns overlapped: elevated BUN ('kidneys unable to excrete waste') and elevated creatinine ('impaired filtration') could each fit either column. Replaced the BUN row with 'urine sodium below 20 mEq/L' -> prerenal cause (p.118), relabeled columns to Prerenal cause / Impaired filtration or reduced clearance / Tubular necrosis, and rewrote rationales."
+  },
+  {
+   "id": "gu-uti-q13",
+   "status": "fixed",
+   "note": "Keyed 'hypertension' as an expected finding of suspected ACUTE pyelonephritis; p.121 lists it, but hypertension is a chronic-pyelonephritis feature, not a standard acute finding. Replaced that option with 'fever with nausea and vomiting' (p.121 symptoms)."
+  },
+  {
+   "id": "gu-uti-q12",
+   "status": "fixed",
+   "note": "AGN distractor rationale said 'there is no recent strep infection', which the stem does not state. Reworded to 'nothing in the history points to a recent strep infection' (p.121-123)."
+  },
+  {
+   "id": "gu-calculi-q10",
+   "status": "fixed",
+   "note": "Row 'bladder distention with very little urine output' (keyed Report) conflicts with p.124, which lists bladder distention as an expected renal-calculi exam finding, so the row was arguable. Replaced with 'urine output drops sharply even though the client is drinking well' (obstruction, p.123-124)."
+  },
+  {
+   "id": "gu-prostate-q7",
+   "status": "fixed",
+   "note": "Column 'Lower testosterone in prostate cancer' keyed antiandrogens, copying p.127's wording; antiandrogens block androgen receptors rather than lower testosterone. Relabeled column 'Hormonal therapy for prostate cancer' and corrected both rationales."
+  },
+  {
+   "id": "gu-bph-q8",
+   "status": "fixed",
+   "note": "Stem used 'A 70-year-old man'; changed to 'a 70-year-old male client' per the client-wording rule (p.125 content unchanged)."
+  },
+  {
+   "id": "gu-prostate-q12",
+   "status": "fixed",
+   "note": "Stem began 'A gay man in his 60s'; reworded to 'A male client in his 60s who is gay' per the client-wording rule. Content and key (p.126 stigma/healthcare barriers) unchanged."
+  }
+ ]
+}
