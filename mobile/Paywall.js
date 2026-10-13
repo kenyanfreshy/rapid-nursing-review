@@ -157,7 +157,7 @@ function LinkText({ children, onPress, color = C.cyan, underline, size = 16 }) {
 export default function Paywall({ onClose, reason }) {
   const ins = useSafeAreaInsets();
   const { height } = useWindowDimensions();
-  const { isPro, membership, packages, buy, restore, manage, reload, storeAvailable, ready, error, errorDetail, devUnlock, setDevUnlock } = usePro();
+  const { isPro, membership, packages, buy, restore, manage, reload, storeAvailable, keyMissing, ready, error, errorDetail, devUnlock, setDevUnlock } = usePro();
   const trialFor = useTrials(packages);
   const [sel, setSel] = useState(null);
   const [busy, setBusy] = useState(false);
@@ -223,8 +223,8 @@ export default function Paywall({ onClose, reason }) {
   else if (isPro) plans = h(View, { style: [box, { alignItems: 'center' }] }, Row({ gap: 8 }, h(Icon, { name: 'badge', size: 20 }), T({ fontSize: 18, fontWeight: '800' }, "You're a Pro member")), T({ color: C.muted, fontSize: 15, textAlign: 'center' }, memberLine));
   else if (!ready) plans = h(PlanSkeleton);
   else if (!source.length) plans = h(View, { style: box },
-    Row({ gap: 8 }, h(Icon, { name: 'store', size: 18, color: C.gold }), T({ fontSize: 16, fontWeight: '700' }, storeAvailable ? "Plans Didn't Load" : 'Store Not Connected')),
-    T({ color: C.muted, fontSize: 13 }, storeAvailable ? (error || "We couldn't load plans from the store. Check your connection and try again.") : (Platform.OS === 'ios' ? 'Purchases work in the App Store version of the app.' : 'Purchases work in the Google Play version of the app.') + (__DEV__ ? ' Add your RevenueCat keys in app.json to test them.' : '')),
+    Row({ gap: 8 }, h(Icon, { name: 'store', size: 18, color: C.gold }), T({ fontSize: 16, fontWeight: '700' }, storeAvailable ? "Plans Didn't Load" : keyMissing ? 'Purchases Not Set Up Yet' : 'Store Not Connected')),
+    T({ color: C.muted, fontSize: 13 }, storeAvailable ? (error || "We couldn't load plans from the store. Check your connection and try again.") : keyMissing ? 'This build has no RevenueCat key, so it can\'t reach the store. Add the public key (appl_… / goog_…) to app.json and build again.' : (Platform.OS === 'ios' ? 'Purchases work in the App Store version of the app.' : 'Purchases work in the Google Play version of the app.') + (__DEV__ ? ' Add your RevenueCat keys in app.json to test them.' : '')),
     storeAvailable && errorDetail ? T({ color: C.faint, fontSize: 11 }, `Details: ${errorDetail}`, { selectable: true }) : null,
     storeAvailable ? h(LinkText, { onPress: reload }, 'Try Again') : null);
   else plans = h(View, { style: { gap: 10 } },

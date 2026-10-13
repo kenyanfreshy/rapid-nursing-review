@@ -60,6 +60,7 @@ export function ProProvider({ children }) {
   const [packages, setPackages] = useState([]);
   const [devUnlock, setDevUnlock] = useState(false);
   const [storeAvailable, setStoreAvailable] = useState(false);
+  const [keyMissing, setKeyMissing] = useState(false);   // build has no RevenueCat key yet (app.json placeholders)
   const [error, setError] = useState('');
   const [errorDetail, setErrorDetail] = useState('');
   const removeListener = useRef(null);
@@ -95,7 +96,7 @@ export function ProProvider({ children }) {
       // 2. Ask the store. Development builds can use RevenueCat's Test Store when app.json sets "useTestStore": true.
       const storeKey = Platform.OS === 'ios' ? extra.revenueCatAppleKey : extra.revenueCatGoogleKey;
       const key = __DEV__ && extra.useTestStore === true && extra.revenueCatTestKey ? extra.revenueCatTestKey : storeKey;
-      if (!Purchases || !key || /REPLACE_ME/.test(key)) { setReady(true); return; }
+      if (!Purchases || !key || /REPLACE_ME/.test(key)) { setKeyMissing(!!Purchases); setReady(true); return; }
       try {
         if (Purchases.setLogLevel && Purchases.LOG_LEVEL) Purchases.setLogLevel(__DEV__ ? Purchases.LOG_LEVEL.DEBUG : Purchases.LOG_LEVEL.WARN);
         Purchases.configure({ apiKey: key });
@@ -149,6 +150,6 @@ export function ProProvider({ children }) {
   }, [membership, storeAvailable]);
 
   const isPro = !!membership || (__DEV__ && devUnlock);
-  const value = { isPro, membership, ready, packages, buy, restore, manage, reload: loadOfferings, storeAvailable, error, errorDetail, devUnlock, setDevUnlock };
+  const value = { isPro, membership, ready, packages, buy, restore, manage, reload: loadOfferings, storeAvailable, keyMissing, error, errorDetail, devUnlock, setDevUnlock };
   return h(ProCtx.Provider, { value }, children);
 }
