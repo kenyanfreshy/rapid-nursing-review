@@ -29,9 +29,12 @@ const unmodule = src => src
   .replace(/^export const /gm, 'const ');
 
 let bookJs = unmodule(read('book.js')).replace(/const BOOK_ACCESS='(full|preview)';/, `const BOOK_ACCESS='${access}';`);
+const nclexJs = unmodule(read('nclex.js'));
 const dataJs = unmodule(read('data.js'));
-const appJs = unmodule(read('app.js'));
-const script = `(function(){\n'use strict';\n${bookJs}\n${dataJs}\nconst lessons=retiredLessons;\n${appJs}\n})();`;
+// The web preview's "try Pro" switch is never shipped in the app: Pro comes only from RevenueCat.
+const appJs = unmodule(read('app.js')).replace('const PREVIEW_UNLOCK = true;', 'const PREVIEW_UNLOCK = false;');
+if (!appJs.includes('const PREVIEW_UNLOCK = false;')) throw new Error('PREVIEW_UNLOCK flag not found in app.js');
+const script = `(function(){\n'use strict';\n${bookJs}\n${nclexJs}\n${dataJs}\nconst lessons=retiredLessons;\n${appJs}\n})();`;
 
 const html = read('index.html');
 const css = read('styles.css');

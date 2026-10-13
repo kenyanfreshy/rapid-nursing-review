@@ -7,7 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#f7f8f5",
-    "assetBundlePatterns": ["assets/**/*"],
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ],
     "ios": {
       "bundleIdentifier": "com.alexkorir.rapidnursingreview",
       "supportsTablet": true,
@@ -34,7 +36,18 @@
           "resizeMode": "contain",
           "backgroundColor": "#2f3337"
         }
-      ]
-    ]
+      ],
+      "expo-dev-client"
+    ],
+    "extra": {
+      "revenueCatAppleKey": "appl_REPLACE_ME",
+      "revenueCatGoogleKey": "goog_REPLACE_ME",
+      "revenueCatTestKey": "test_REPLACE_ME",
+      "useTestStore": false,
+      "entitlementId": "pro",
+      "privacyPolicyUrl": "https://github.com/kenyanfreshy/rapid-nursing-review/blob/main/docs/PRIVACY.md",
+      "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "supportEmail": "ak82korir@gmail.com"
+    }
   }
 }

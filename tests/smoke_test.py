@@ -8,13 +8,23 @@ def setls(pg,obj,raw=False): pg.evaluate("([k,v])=>{localStorage.clear();localSt
 get=lambda pg: pg.evaluate(f"JSON.parse(localStorage.getItem('{K}'))")
 res=[]
 def check(name,ok,info=''): res.append(('PASS' if ok else 'FAIL',name,info))
+def answer_any(pg):
+    """Answer the current question whatever its type (single, select-all, matrix or ordering)."""
+    m = pg.locator('#modal')
+    if m.locator('[data-action=pick-cell]').count():
+        for r in range(m.locator('table.matrix tbody tr').count()): m.locator(f'[data-action=pick-cell][data-row="{r}"][data-col="0"]').click()
+    elif m.locator('[data-action=pick-order]').count():
+        while m.locator('[data-action=pick-order]').count(): m.locator('[data-action=pick-order]').first.click()
+    else:
+        m.locator('[data-action=select-answer]').first.click()
+
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(); errs=[]; pg.on('pageerror',lambda e:errs.append(str(e)))
     pg.goto(U); pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(300)
     # 1 accuracy: quick session, pick A each (3/4 correct)
     pg.click('[data-action=quick]')
     for _ in range(4):
-        pg.click('[data-choice="0"]'); pg.reload(); pg.wait_for_timeout(250)
+        answer_any(pg); pg.reload(); pg.wait_for_timeout(250)
         if pg.is_visible('[data-action=resume]'): pg.click('[data-action=resume]')
         pg.click('[data-action=submit-answer]'); pg.click('[data-action=next]')
     st=get(pg); check('no duplicate attempts across reloads',len(st['attempts'])==4,len(st['attempts']))
@@ -52,7 +62,7 @@ with sync_playwright() as p:
     check('v1 data migrates with nothing lost',st['schema']==2 and st['name']=='Sam' and len(st['attempts'])==1 and st['readLessons']==['hands'] and st['quarantine']==[] and pg.locator('.storage-warning').count()==0)
     # 6 timed exam still works
     pg.evaluate("localStorage.clear()"); pg.goto(U+'#dashboard'); pg.reload(); pg.wait_for_timeout(300)
-    pg.click('[data-action=quick]'); pg.click('[data-choice="1"]'); pg.click('[data-action=submit-answer]')
+    pg.click('[data-action=quick]'); answer_any(pg); pg.click('[data-action=submit-answer]')
     check('tutor still reveals rationale',pg.locator('.rationale').count()==1)
     check('no page errors',not errs,errs)
     b.close()

@@ -6,7 +6,7 @@
 //
 // Written with React.createElement instead of JSX so it can be checked with `node --check`.
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, BackHandler, Linking, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, BackHandler, Linking, Modal, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { WebView } from 'react-native-webview';
@@ -16,6 +16,8 @@ import * as Sharing from 'expo-sharing';
 import * as SplashScreen from 'expo-splash-screen';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { WEB_FILES, WEB_VERSION } from './assets/web/manifest';
+import { ProProvider, usePro } from './pro';
+import Paywall from './Paywall';
 
 const h = React.createElement;
 const STORAGE_KEY = 'rapid-nursing-review-v1';
@@ -62,6 +64,8 @@ function Study() {
   const [progress, setProgress] = useState(0);
   const [ready, setReady] = useState(false);
   const [error, setError] = useState(null);
+  const [paywall, setPaywall] = useState(null);   // { reason } while the native paywall is open
+  const { isPro } = usePro();
 
   const load = useCallback(async () => {
     setError(null);
@@ -76,6 +80,11 @@ function Study() {
     }
   }, []);
   useEffect(() => { load(); }, [load]);
+
+  // Tell the study app whenever Pro status changes (purchase, restore, renewal, expiry).
+  useEffect(() => {
+    if (ready && webRef.current) webRef.current.injectJavaScript(`window.__rnrSetPro && window.__rnrSetPro(${isPro ? 'true' : 'false'});true;`);
+  }, [isPro, ready]);
 
   // Android back button: go back inside the app's own pages before leaving the app.
   useEffect(() => {
@@ -94,6 +103,8 @@ function Study() {
       clearTimeout(saveTimer.current);
       const data = msg.data;
       saveTimer.current = setTimeout(() => { AsyncStorage.setItem(STORAGE_KEY, data).catch(() => {}); }, 250);
+    } else if (msg.type === 'paywall') {
+      setPaywall({ reason: typeof msg.reason === 'string' ? msg.reason.slice(0, 160) : '' });
     } else if (msg.type === 'export' && typeof msg.data === 'string') {
       shareExport(msg.filename || 'rapid-nursing-review.json', msg.data).catch(() => {});
     }
@@ -121,7 +132,7 @@ function Study() {
   }
 
   // Runs before the page script: hands the web app its native copy of saved progress.
-  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};true;`;
+  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};window.__RNR_PRO__=${isPro ? 'true' : 'false'};true;`;
   return h(View, { style: [styles.fill, pad] },
     h(WebView, {
       ref: webRef,
@@ -143,11 +154,13 @@ function Study() {
       style: styles.fill,
       onContentProcessDidTerminate: () => webRef.current?.reload(),
       onRenderProcessGone: () => { webRef.current?.reload(); return true; },
-    }));
+    }),
+    h(Modal, { visible: !!paywall, animationType: 'slide', presentationStyle: 'fullScreen', onRequestClose: () => setPaywall(null) },
+      h(Paywall, { reason: paywall?.reason, onClose: () => setPaywall(null) })));
 }
 
 export default function App() {
-  return h(SafeAreaProvider, null, h(StatusBar, { style: 'dark' }), h(Study));
+  return h(SafeAreaProvider, null, h(ProProvider, null, h(StatusBar, { style: 'dark' }), h(Study)));
 }
 
 const styles = StyleSheet.create({

@@ -150,7 +150,7 @@ const missed = () => latestAttempts().filter(a=>!a.correct).map(a=>a.qid);
 // sata    option indexes ("select all")          +/− scoring like NCLEX extended multiple response, never below 0
 // matrix  one column index per row               1 point per row
 // order   option indexes in sequence             1 point per position
-const isArr = Array.isArray;
+function isArr(v) { return Array.isArray(v); }
 const LETTERS = 'ABCDEFGH';
 const TYPE_LABEL = { mcq: 'Single answer', sata: 'Select all that apply', matrix: 'Matrix', order: 'Ordered response' };
 const STEP_LABEL = { recognizeCues: 'Recognize cues', analyzeCues: 'Analyze cues', prioritizeHypotheses: 'Prioritize hypotheses', generateSolutions: 'Generate solutions', takeAction: 'Take action', evaluateOutcomes: 'Evaluate outcomes' };
@@ -174,7 +174,7 @@ function scoreQ(q, sel) {
   if (q.type === 'order') return [q.correct.filter((c, i) => s[i] === c).length, q.correct.length];
   return [0, 1];
 }
-const fullCredit = (q, sel) => { const [p, m] = scoreQ(q, sel); return p === m; };
+function fullCredit(q, sel) { const [p, m] = scoreQ(q, sel); return p === m; }
 function validSelection(q, v) {
   if (v == null) return true;
   const n = q.type === 'matrix' ? q.columns.length : (q.options || []).length;

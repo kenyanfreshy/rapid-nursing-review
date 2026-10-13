@@ -1,13 +1,24 @@
 # Rapid Nursing Review — study app
 
-A course-focused study app built on the book **Rapid Nursing Review: All Body Systems at a Glance** by Alex K. Korir, MSN, RN, CCRN-CMC.
+An NCLEX-RN study app built on the book **Rapid Nursing Review: All Body Systems at a Glance** by Alex K. Korir,
+MSN, RN, CCRN-CMC, and expanded with the NurseBound NCLEX bank to cover every NCLEX topic area.
 
 ## What's in it
 
-- **The book's structure is the app's structure.** 11 parts (NCLEX must-know content, nine body-system chapters and the fluid & electrolytes bonus) and 88 sections, each with its page range, a Read button and a Quiz button. This holds on the Practice page, The book page, the right-side panel, practice setup and the study plan.
-- **Right-side book panel** with Contents and Reader views: every page of the book, chapter colors from the book's own table of contents, search across the full text, page bookmarks, an enlarged page view, "mark section read", and the section's quiz one tap away. It's docked on wide screens and opens as an overlay on phones and tablets.
-- **276 questions**: 264 drafted from the book (3 per section) plus the 12 original pilot questions, which were placed in their matching book sections. Every book question explains each option, names the deciding clue and the nursing priority, and links to its page: "View page" shows it inline and "Open in the book" jumps the reader to it.
-- From earlier work: tutor and timed modes, autosave and resume, missed-question review, bookmarks, study plan, reports, JSON export, and validated saved data.
+- **1,805 NCLEX-style questions** in all 19 NCLEX topic areas:
+  - **600 linked to the book.** Each one cites the exact page that proves the answer, is tagged with an NCLEX client need and a clinical-judgment step, and was checked against its page image by a second reviewer.
+  - **1,205 from the NurseBound bank**, which covers Mental Health, Pediatrics, Maternal & Newborn, Ethics, Leadership and the rest of the test plan.
+- **Next Generation NCLEX:** select-all (+/− scoring), matrix and ordered-response items, plus **8 unfolding case studies**. Each case has a client chart and six items (single, multi, highlight, matrix, cloze, ordering and bowtie), one per step of the clinical-judgment model, scored with NGN partial-credit rules.
+- **Blueprint match:** the bank's client-need mix falls inside every 2026 NCLEX-RN test plan range (NCSBN, effective April 1, 2026). The **75-question blueprint exam** samples to the official midpoints and reports results by category.
+- **Two ways to practice:**
+  - **NCLEX topics:** a colorful topic picker (All / Unseen / Missed, with question counts, tutor or exam mode).
+  - **Book chapters:** 11 parts and 88 sections, each with Read and Quiz buttons.
+- **The book**, on a right-side panel: all 196 pages with search, bookmarks and enlarged pages. Every book question has "View page" and "Open in the book" links.
+- **Free and Pro:**
+  - **Free:** about 290 questions, 1 NGN case, tutor mode and the book's preview pages.
+  - **Pro:** everything, at $4.99/month, $49.99/year or $99.99 lifetime. It's sold through RevenueCat in the mobile app, with a paywall in NurseBound's design.
+- Exam and quiz screens are plain white; navigation and topics are color-coded.
+- From earlier work: autosave and resume, missed-question review, study plan, bookmarks, reports, JSON export, validated saved data, keyboard focus kept on answers.
 
 ## Run the web app
 
@@ -16,25 +27,43 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 # open http://127.0.0.1:4173/
 ```
 
+The web build is a preview: its paywall says purchases happen in the app and has a "Preview: unlock Pro" switch for
+testing. The mobile build removes that switch (`mobile/scripts/build-web.mjs`).
+
 ## Project layout
 
-- `dist/` — the web app (plain HTML, CSS and JavaScript modules; no build step). `book.js` is generated; `pages/` holds the 196 page images and the cover.
-- `content/` — the book's structure (`structure.py`), the quiz questions per chapter (`quizzes/*.json`), the extracted book text, `build_book_js.py` to regenerate `dist/book.js`, and **`BOOK_REVIEW_NOTES.md`**: possible errata found in the book.
-- `mobile/` — the Expo app for the App Store and Google Play, built with EAS. See `mobile/README.md`.
-- `tests/` — Playwright checks: `smoke_test.py` (core flows and saved-data handling), `book_test.py` (book panel and book structure), `mobile_bundle_test.py` (the offline mobile bundle).
+- `dist/` — the web app (plain HTML, CSS and JavaScript modules; no build step).
+  - `book.js` and `nclex.js` are generated.
+  - `pages/` holds the 196 page images and the cover.
+- `content/` — the question sources and the tools that build them:
+  - book structure (`structure.py`) and the book question bank (`quizzes/*.json`)
+  - specification (`QUESTION_SPEC.md`), NCLEX targets (`targets.json`) and validator (`validate_bank.py`)
+  - review logs (`verification/`)
+  - the NurseBound import (`import_nursebound.mjs`, `nclex/`) and the generators `build_book_js.py` and `build_nclex_js.py`
+  - `BOOK_REVIEW_NOTES.md` (possible book errata)
+- `mobile/` — the Expo app for the App Store and Google Play, built with EAS, with RevenueCat. Start with `mobile/README.md` and `mobile/PRICING.md`.
+- `docs/PRIVACY.md` — privacy policy for the store listings.
+- `tests/` — Playwright checks:
+  - `smoke_test.py` — core flows and saved data
+  - `book_test.py` — book panel and structure
+  - `nclex_test.py` — question types, NGN cases, free/Pro, paywall
+  - `mobile_bundle_test.py` — offline phone bundle and Pro bridge
 
 ## Editing content
 
-1. Edit `content/quizzes/<chapter>.json` (or `content/structure.py` for sections and page ranges).
-2. `python3 content/build_book_js.py`
-3. `cd mobile && npm run build:web` to update the phone app's bundle.
+```bash
+python3 content/validate_bank.py all          # check the book bank against the spec and the NCLEX targets
+python3 content/build_book_js.py              # regenerate dist/book.js
+node content/import_nursebound.mjs <path-to-usrn-pathway-app> && python3 content/build_nclex_js.py   # refresh the NCLEX bank
+cd mobile && npm run build:web                # update the phone app's bundle
+```
 
 Keep question IDs stable: saved answers, bookmarks and history refer to them.
 
 ## Status and limits
 
-- The 264 book questions were drafted from the book's pages and are labeled "awaiting author review" in the app. Have them reviewed before publishing.
-- `content/BOOK_REVIEW_NOTES.md` lists 145 possible issues logged while drafting questions (typos, numbering, internal contradictions, a few outdated items), plus a handful confirmed directly (the table of contents page numbers, duplicated pp. 58–59, the leftover draft on p. 98). Treat them as leads to check.
-- `BOOK_ACCESS` (in `dist/book.js`, or `npm run build:web:preview` for the phone app) switches between the full book and a preview. Check your KDP Select terms before shipping the full book.
-- Progress is stored on the device only: no accounts, sync or payments yet.
-- Google Fonts need a network connection; offline, the app falls back to system fonts.
+- The 600 book questions are labeled "awaiting author review" in the app until you approve them.
+- `content/BOOK_REVIEW_NOTES.md` lists possible book errata to check.
+- NurseBound questions carry NurseBound's own review notes where it had them; items with a disputed answer key were not imported.
+- RevenueCat keys in `mobile/app.json` are placeholders until you create the RevenueCat app (see `mobile/PRICING.md`).
+- The mobile app hasn't been built here (the npm registry was blocked in this workspace). Build with EAS and test purchases with sandbox accounts before submitting.
