@@ -65,7 +65,7 @@ const STORAGE='rapid-nursing-review-v1';
 const DISCLAIMER='NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN.';
 const legal=()=>`<section class="legal-box" aria-labelledby="disc-title"><h4 id="disc-title">${icon('shield')}Disclaimer</h4><p>${DISCLAIMER}</p><p>Rapid Nursing Review is for education and exam preparation only. It is not medical advice and does not guarantee exam results.</p></section>`;
 let storageOK=true, filter='all', setupMode='tutor', quizVisible=false, toastTimer, showAllDays=false;
-const freshState=()=>({schema:2,ui:'vivid',caseSession:null,caseHistory:[],previewPro:false,name:'Student',bookmarks:[],attempts:[],history:[],reports:[],readLessons:[],readSections:[],milestones:[],reminder:{on:false,time:'19:00',days:[1,2,3,4,5]},book:{open:null,page:1,tab:'contents',expanded:'nclex',marks:[]},plan:null,session:null,quarantine:[]});
+const freshState=()=>({schema:2,ui:'vivid',caseSession:null,caseHistory:[],previewPro:false,name:'Student',bookmarks:[],attempts:[],history:[],reports:[],readLessons:[],readSections:[],milestones:[],reminder:{on:false,time:'19:00',days:[1,2,3,4,5],title:'',notes:'',length:30},book:{open:null,page:1,tab:'contents',expanded:'nclex',marks:[]},plan:null,session:null,quarantine:[]});
 // ---- Saved-data loading, validation and migration ----------------------
 // SCHEMA 1: original prototype (no version field). SCHEMA 2: adds `schema`
 // and `quarantine`. Records that cannot be read safely are moved into
@@ -135,7 +135,7 @@ function normalizeState(saved){
   s.previewPro=saved.previewPro===true;
   s.ui=UI_THEMES.some(t=>t[0]===saved.ui)?saved.ui:'vivid';
   s.milestones=Array.isArray(saved.milestones)?[...new Set(saved.milestones.filter(isStr))]:[];
-  {const r=isObj(saved.reminder)?saved.reminder:{};s.reminder={on:r.on===true,time:isStr(r.time)&&/^([01]\d|2[0-3]):[0-5]\d$/.test(r.time)?r.time:'19:00',days:Array.isArray(r.days)?[...new Set(r.days.filter(d=>Number.isInteger(d)&&d>=0&&d<=6))].sort():[1,2,3,4,5]};}
+  {const r=isObj(saved.reminder)?saved.reminder:{};s.reminder={on:r.on===true,time:isStr(r.time)&&/^([01]\d|2[0-3]):[0-5]\d$/.test(r.time)?r.time:'19:00',days:Array.isArray(r.days)?[...new Set(r.days.filter(d=>Number.isInteger(d)&&d>=0&&d<=6))].sort():[1,2,3,4,5],title:isStr(r.title)?r.title.slice(0,80):'',notes:isStr(r.notes)?r.notes.slice(0,500):'',length:[15,20,30,45,60,90,120].includes(r.length)?r.length:30};}
   if(isDay(saved.lastOpen))s.lastOpen=saved.lastOpen;
   if(Number.isFinite(saved.lastWelcome))s.lastWelcome=saved.lastWelcome;
   s.caseHistory=keep(saved.caseHistory,h=>isObj(h)&&isStr(h.caseId)&&ngnCases.some(c=>c.id===h.caseId)&&isTime(h.finished)&&Number.isFinite(h.points)&&Number.isFinite(h.max)?h:null,'caseHistory');
@@ -406,6 +406,7 @@ function searchLibrary(term){term=term.toLowerCase().trim();const ss=sections.fi
 function showAbout(){modalShell(TAGLINE,'Rapid Nursing Review, the study app.',`<div style="display:flex;gap:16px;align-items:center;margin-bottom:16px"><img src="pages/cover.webp" alt="Book cover" style="width:72px;border-radius:4px;box-shadow:0 4px 14px #0003"><p class="about-copy" style="margin:0">This app follows <cite>Rapid Nursing Review: All Body Systems at a Glance</cite> by ${escape(book.author)}. Each chapter of the book is a course, and each section has its own reading pages and quiz.</p></div><ul class="about-list"><li><strong>${countsLine()}</strong>, each with a full rationale, a takeaway and its sources.</li><li>${courses.length} parts: NCLEX must-know content, nine body-system chapters and the fluid & electrolytes bonus.</li><li>${sections.length} sections with ${active.length} questions, each with a rationale for every option and a link to the book page.</li><li>The full book reader with search and page bookmarks, on the right side.</li><li>Saved sessions, bookmarks, question reports and an exam-date plan.</li></ul><div class="notice">The quiz questions were drafted from the book and are awaiting the author’s review. Scores are not a validated readiness assessment.</div><p class="about-copy">Progress is stored only on this device. There is no account sync, payment or live AI tutor yet. Reports stay on this device and can be exported for review.</p><p class="legal-links"><a href="https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md" target="_blank" rel="noopener noreferrer">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Terms of Use (EULA)</a> · <a href="mailto:alexkorirbook@gmail.com?subject=Rapid%20Nursing%20Review%20support" data-action="support-mail">Support</a></p>${legal()}<div class="modal-footer">${secondary('Open the book','toggle-book','','book')}${primary('Explore practice','practice')}</div>`);}
 // ---- Study reminder (Settings): a time (clock) and weekdays (calendar). The phone app schedules a local notification;
 // "Add to Calendar" saves a repeating calendar event; the Plan page shows it under Today's motivation. ----
+const REM_LENGTHS = [15, 20, 30, 45, 60, 90, 120], REM_TITLE = 'Study: Rapid Nursing Review';
 const WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], WD1 = ['S', 'M', 'T', 'W', 'T', 'F', 'S'], ICS_DAY = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
 const fmtTime = t => { const [h, m] = t.split(':').map(Number); return new Date(2000, 0, 1, h, m).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }); };
 function daysText(days) {
@@ -428,37 +429,70 @@ function reminderStatus() {
 function syncReminder() { try { native?.postMessage(JSON.stringify({ type: 'reminder', ...state.reminder, body: todaysMotivation() })); } catch {} }
 function reminderSettings() {
   const r = state.reminder;
-  return `<section class="reminder-card"><div class="rc-head"><span class="rc-icon">${icon('clock')}</span><div><p class="theme-eyebrow">Study reminder</p><p class="rc-sub">${r.on ? `${daysText(r.days)} at ${fmtTime(r.time)}` : 'Pick a time and days that fit your schedule.'}</p></div><label class="switch"><input type="checkbox" id="rem-on" ${r.on ? 'checked' : ''} aria-label="Study reminder on"><span></span></label></div>
+  return `<section class="reminder-card" id="study-reminder" tabindex="-1"><div class="rc-head"><span class="rc-icon">${icon('clock')}</span><div><p class="theme-eyebrow">Study reminder</p><p class="rc-sub">${r.on ? `${daysText(r.days)} at ${fmtTime(r.time)}` : 'Pick a time and days that fit your schedule.'}</p></div><label class="switch"><input type="checkbox" id="rem-on" ${r.on ? 'checked' : ''} aria-label="Study reminder on"><span></span></label></div>
   <div class="rc-row"><label class="rc-time">${icon('clock')}<span>Time</span><input type="time" id="rem-time" value="${r.time}" aria-label="Reminder time"></label></div>
   <div class="rc-days" role="group" aria-label="Reminder days">${WD1.map((l, i) => `<button class="rc-day${r.days.includes(i) ? ' on' : ''}" data-action="rem-day" data-day="${i}" aria-pressed="${r.days.includes(i)}" aria-label="${WD[i]}">${l}</button>`).join('')}</div>
-  <div class="rc-actions"><button class="secondary" data-action="rem-calendar">${icon('calendar')}Add to Calendar</button></div>
-  <p class="theme-note">${native ? 'You\'ll get a notification at this time on the days you pick.' : 'In the iPhone app this sends a notification. Add to Calendar works everywhere.'}</p></section>`;
+  <p class="theme-note">${native ? 'You\'ll get a notification at this time on the days you pick.' : 'In the iPhone app this sends a notification.'}</p>
+  <div class="rc-event"><p class="rc-label">${icon('calendar')}Your calendar event</p>
+  <label class="rc-field"><span>Title</span><input type="text" id="rem-title" maxlength="80" value="${escape(r.title)}" placeholder="${REM_TITLE}" autocomplete="off"></label>
+  <label class="rc-field"><span>Length</span><select id="rem-length">${REM_LENGTHS.map(n => `<option value="${n}" ${n === r.length ? 'selected' : ''}>${n < 60 ? `${n} minutes` : n === 60 ? '1 hour' : `${n / 60} hours`}</option>`).join('')}</select></label>
+  <label class="rc-field"><span>Notes</span><textarea id="rem-notes" rows="3" maxlength="500" placeholder="What will you study? e.g. Cardiac meds, 25 questions, review my missed items">${escape(r.notes)}</textarea></label>
+  <p class="rc-preview" id="rem-preview">${escape(calTitle())} · ${daysText(r.days.length ? r.days : [1, 2, 3, 4, 5])} at ${fmtTime(r.time)} · ${r.length} min</p>
+  <div class="rc-actions"><button class="primary" data-action="rem-calendar">${icon('calendar')}${native ? 'Add to My Calendar' : 'Apple / Outlook (.ics)'}</button><a class="secondary" id="rem-gcal" href="${googleCalUrl()}" target="_blank" rel="noopener noreferrer">${icon('calendar')}Google Calendar</a></div>
+  <p class="theme-note">${native ? 'Opens your iPhone calendar with these details filled in. You can still edit them, then choose which calendar to save to (iCloud, Gmail, Outlook).' : 'Download the .ics for Apple Calendar or Outlook, or open Google Calendar with these details filled in.'}</p></div></section>`;
+}
+function openReminderSettings() {
+  showSettings();
+  requestAnimationFrame(() => { const el = document.querySelector('#study-reminder'); if (!el) return;
+    el.scrollIntoView({ block: 'start', behavior: 'smooth' }); el.focus({ preventScroll: true });
+    el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1600); });
 }
 function reminderStrip() {
   const st = reminderStatus();
-  if (st.kind === 'off') return `<div class="rem-strip off">${icon('clock')}<span>Set a study reminder so you never miss a session.</span><button class="mini" data-action="settings">Set reminder</button></div>`;
+  if (st.kind === 'off') return `<div class="rem-strip off">${icon('clock')}<span>Set a study reminder so you never miss a session.</span><button class="mini" data-action="settings-reminder">Set reminder</button></div>`;
   if (st.kind === 'due') return `<div class="rem-strip due" role="status">${icon('bell')}<span><b>It's study time!</b> Your ${fmtTime(state.reminder.time)} session is ready.</span><button class="mini solid" data-action="quick">Start</button></div>`;
-  if (st.kind === 'done') return `<div class="rem-strip done">${icon('check')}<span>You studied today. Next reminder: ${(() => { const n = nextReminder(); return n ? `${WD[n.getDay()]} at ${fmtTime(state.reminder.time)}` : '—'; })()}</span><button class="mini" data-action="settings">Edit</button></div>`;
+  if (st.kind === 'done') return `<div class="rem-strip done">${icon('check')}<span>You studied today. Next reminder: ${(() => { const n = nextReminder(); return n ? `${WD[n.getDay()]} at ${fmtTime(state.reminder.time)}` : '—'; })()}</span><button class="mini" data-action="settings-reminder">Edit</button></div>`;
   const n = st.at, isToday = n && dayKey(n) === dayKey(), isTom = n && dayKey(n) === dayKey(addDays(new Date(), 1));
-  return `<div class="rem-strip">${icon('clock')}<span>Next study session: <b>${isToday ? 'today' : isTom ? 'tomorrow' : WD[n.getDay()]} at ${fmtTime(state.reminder.time)}</b> · ${daysText(state.reminder.days)}</span><button class="mini" data-action="settings">Edit</button></div>`;
+  return `<div class="rem-strip">${icon('clock')}<span>Next study session: <b>${isToday ? 'today' : isTom ? 'tomorrow' : WD[n.getDay()]} at ${fmtTime(state.reminder.time)}</b> · ${daysText(state.reminder.days)}</span><button class="mini" data-action="settings-reminder">Edit</button></div>`;
 }
+const calTitle = () => (state.reminder.title || '').trim() || REM_TITLE;
+const calNotes = () => [(state.reminder.notes || '').trim(), 'Open Rapid Nursing Review and do a focused study session. One more question today.'].filter(Boolean).join('\n\n');
+function calTimes() {
+  const r = state.reminder, [h, m] = r.time.split(':').map(Number), start = nextReminder({ ...r, on: true, days: r.days.length ? r.days : [1, 2, 3, 4, 5] }) || new Date();
+  start.setHours(h, m, 0, 0); return { start, end: new Date(start.getTime() + (r.length || 30) * 60000), days: r.days.length ? r.days : [1, 2, 3, 4, 5] };
+}
+const icsDate = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}T${String(d.getHours()).padStart(2, '0')}${String(d.getMinutes()).padStart(2, '0')}00`;
+const icsText = t => t.replace(/\\/g, '\\\\').replace(/;/g, '\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
 function calendarIcs() {
-  const r = state.reminder, [h, m] = r.time.split(':').map(Number), start = nextReminder({ ...r, on: true }) || new Date();
-  start.setHours(h, m, 0, 0); const end = new Date(start.getTime() + 30 * 60000);
-  const f = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}T${String(d.getHours()).padStart(2, '0')}${String(d.getMinutes()).padStart(2, '0')}00`;
-  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
+  const { start, end, days } = calTimes(), stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
   return ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Rapid Nursing Review//Study reminder//EN', 'CALSCALE:GREGORIAN', 'BEGIN:VEVENT',
-    `UID:rnr-study-${Date.now()}@rapidnursingreview`, `DTSTAMP:${stamp}`, `DTSTART:${f(start)}`, `DTEND:${f(end)}`,
-    `RRULE:FREQ=WEEKLY;BYDAY=${(r.days.length ? r.days : [1, 2, 3, 4, 5]).map(d => ICS_DAY[d]).join(',')}`,
-    'SUMMARY:Study: Rapid Nursing Review', 'DESCRIPTION:Open Rapid Nursing Review and do a focused study session. One more question today.',
+    `UID:rnr-study-${Date.now()}@rapidnursingreview`, `DTSTAMP:${stamp}`, `DTSTART:${icsDate(start)}`, `DTEND:${icsDate(end)}`,
+    `RRULE:FREQ=WEEKLY;BYDAY=${days.map(d => ICS_DAY[d]).join(',')}`,
+    `SUMMARY:${icsText(calTitle())}`, `DESCRIPTION:${icsText(calNotes())}`,
     'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Time to study', 'TRIGGER:PT0M', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+}
+function googleCalUrl() {
+  const { start, end, days } = calTimes(); let tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch {}
+  const q = new URLSearchParams({ action: 'TEMPLATE', text: calTitle(), details: calNotes(), dates: `${icsDate(start)}/${icsDate(end)}`, recur: `RRULE:FREQ=WEEKLY;BYDAY=${days.map(d => ICS_DAY[d]).join(',')}` });
+  if (tz) q.set('ctz', tz);
+  return `https://calendar.google.com/calendar/render?${q}`;
 }
 function addToCalendar() {
   const ics = calendarIcs();
-  if (native) { native.postMessage(JSON.stringify({ type: 'calendar', filename: 'rapid-nursing-review-study.ics', data: ics })); return; }
+  if (native) {
+    const { start, end, days } = calTimes(); let tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch {}
+    native.postMessage(JSON.stringify({ type: 'calendar', filename: 'rapid-nursing-review-study.ics', data: ics, event: { title: calTitle(), notes: calNotes(), start: start.toISOString(), end: end.toISOString(), days, timeZone: tz } }));
+    return;
+  }
   const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' })), a = document.createElement('a');
   a.href = url; a.download = 'rapid-nursing-review-study.ics'; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
-  toast('Calendar event saved. Open it to add it to your calendar.');
+  toast('Calendar event saved. Open it to add it to Apple Calendar or Outlook.');
+}
+window.__rnrCalendarResult = action => { if (action === 'saved') toast('Added to your calendar.'); else if (action === 'shared') toast('Choose Calendar to add your study event.'); };
+function refreshCalPreview() {
+  const r = state.reminder, p = document.querySelector('#rem-preview'), g = document.querySelector('#rem-gcal');
+  if (p) p.textContent = `${calTitle()} · ${daysText(r.days.length ? r.days : [1, 2, 3, 4, 5])} at ${fmtTime(r.time)} · ${r.length} min`;
+  if (g) g.href = googleCalUrl();
 }
 // ---- Share my progress: email, WhatsApp, X, or the phone's share sheet (Instagram, Facebook, Messages...) ----
 function progressMessage() {
@@ -781,6 +815,7 @@ document.addEventListener('click',e=>{const button=e.target.closest('[data-actio
  case 'search':showSearch();break;
  case 'about':showAbout();break;
  case 'settings':showSettings();break;
+ case 'settings-reminder':openReminderSettings();break;
  case 'export':exportData();break;
  case 'report':openReport(d.id);break;
  case 'reports':showReports();break;
@@ -823,8 +858,8 @@ document.addEventListener('click',e=>{const button=e.target.closest('[data-actio
  case 'dismiss-notice':loadNotice='';render();break;
  case 'reset':state=freshState();applyUi();loadNotice='';save();closeModal();toast('Your study space is ready for a fresh start.');break;
  }});
-document.addEventListener('change',e=>{if(e.target.id==='rem-on'){state.reminder.on=e.target.checked;save();syncReminder();showSettings();render();return;}if(e.target.id==='rem-time'&&/^\d\d:\d\d$/.test(e.target.value)){state.reminder.time=e.target.value;state.reminder.on=true;save();syncReminder();showSettings();render();return;}if(e.target.id==='pick-need'){pick.need=e.target.value;render();return;}if(e.target.id==='pick-count'){pick.count=Number(e.target.value);render();return;}if(e.target.dataset.ngnBlank){const b=e.target.dataset.ngnBlank,v=e.target.value;updateCase(a=>({...(a||{}),[b]:v||undefined}));return;}if(e.target.id==='practice-course')updateSetupTopics();if(e.target.id==='practice-topic')updateSetupCounts();if(e.target.id==='plan-course')updatePlanTopics();});
-document.addEventListener('input',e=>{if(e.target.id==='search-input')searchLibrary(e.target.value);if(e.target.id==='book-search'){bookQuery=e.target.value;const q=bookQuery.trim().toLowerCase();document.querySelector('#book-results').innerHTML=q.length>1?bookResults(q):tocList(latestMap());}});
+document.addEventListener('change',e=>{if(e.target.id==='rem-length'){const n=Number(e.target.value);if(REM_LENGTHS.includes(n)){state.reminder.length=n;save();refreshCalPreview();}return;}if(e.target.id==='rem-on'){state.reminder.on=e.target.checked;save();syncReminder();showSettings();render();return;}if(e.target.id==='rem-time'&&/^\d\d:\d\d$/.test(e.target.value)){state.reminder.time=e.target.value;state.reminder.on=true;save();syncReminder();showSettings();render();return;}if(e.target.id==='pick-need'){pick.need=e.target.value;render();return;}if(e.target.id==='pick-count'){pick.count=Number(e.target.value);render();return;}if(e.target.dataset.ngnBlank){const b=e.target.dataset.ngnBlank,v=e.target.value;updateCase(a=>({...(a||{}),[b]:v||undefined}));return;}if(e.target.id==='practice-course')updateSetupTopics();if(e.target.id==='practice-topic')updateSetupCounts();if(e.target.id==='plan-course')updatePlanTopics();});
+document.addEventListener('input',e=>{if(e.target.id==='rem-title'||e.target.id==='rem-notes'){state.reminder[e.target.id==='rem-title'?'title':'notes']=e.target.value.slice(0,e.target.id==='rem-title'?80:500);save();refreshCalPreview();return;}if(e.target.id==='search-input')searchLibrary(e.target.value);if(e.target.id==='book-search'){bookQuery=e.target.value;const q=bookQuery.trim().toLowerCase();document.querySelector('#book-results').innerHTML=q.length>1?bookResults(q):tocList(latestMap());}});
 document.addEventListener('keydown',e=>{if(e.target.id==='page-jump'&&e.key==='Enter'){e.preventDefault();document.querySelector('[data-action="jump-page"]').click();return;}const panel=document.querySelector('#book-panel');if(modal.open||document.querySelector('#page-viewer').open)return;if(e.key==='Escape'&&bookIsOpen()&&window.innerWidth<=1280){state.book.open=false;save();renderBookPanel();return;}if(state.book.tab==='reader'&&panel.contains(document.activeElement)&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)&&(e.key==='ArrowLeft'||e.key==='ArrowRight')){e.preventDefault();openBook(state.book.page+(e.key==='ArrowRight'?1:-1));}});
 document.querySelector('#page-viewer').addEventListener('click',e=>{if(e.target.id==='page-viewer')e.target.close();});
 document.addEventListener('submit',e=>{if(!['practice-form','plan-form','profile-form','report-form'].includes(e.target.id))return;e.preventDefault();const form=e.target,data=new FormData(form);if(form.id==='practice-form'){const available=setupQuestions(),n=Number(document.querySelector('#practice-count').value);const c=document.querySelector('#practice-course').value,t=document.querySelector('#practice-topic').value;if(setupMode==='exam'&&!isPro()){showPaywall('Timed exams are part of Pro.');return;}startSession(shuffle(available).slice(0,n).map(q=>q.id),setupMode,Number(document.querySelector('#practice-time').value),t!=='all'?`${t} practice`:c==='all'?'Mixed course practice':`${courseOf(c).name} practice`);}else if(form.id==='plan-form'){const topics=data.getAll('topics');if(!topics.length){toast('Choose at least one topic for your plan.');return;}const title=data.get('title').trim();if(!title){toast('Enter a name for your exam.');return;}const old=state.plan,date=data.get('date');const created=old&&old.created<=date?old.created:dayKey();state.plan={title,course:data.get('course'),date,minutes:Number(data.get('minutes')),topics,created,completed:(old?.completed||[]).filter(d=>d>=created&&d<=date)};save();closeModal();navigate('plan');toast(old?'Your study plan is updated. Checked-off days are kept.':'Your daily study plan is ready.');}else if(form.id==='profile-form'){const name=data.get('name').trim();if(!name){toast('Enter a name.');return;}state.name=name;save();closeModal();toast('Your study space is updated.');}else{state.reports.push({id:crypto.randomUUID(),qid:form.dataset.id,reason:data.get('reason'),details:data.get('details').trim(),created:new Date().toISOString(),status:'pending clinical review'});save();toast('Report saved locally. Export it from your profile.');if(state.session)showQuiz();else closeModal();}});

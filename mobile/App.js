@@ -73,6 +73,36 @@ async function scheduleReminder({ on, time, days, body }) {
   }
 }
 
+let Calendar = null;
+try { Calendar = require('expo-calendar'); } catch (e) { Calendar = null; }
+
+/** Open the iPhone's own "New Event" screen with the user's study event filled in (title, notes, time, weekly days, alert).
+ *  The user can edit anything there and pick which of their calendars (iCloud, Gmail, Outlook...) to save it to.
+ *  Falls back to the .ics share sheet if the calendar module isn't available. Returns 'saved', 'canceled' or 'shared'. */
+async function addCalendarEvent(ev, filename, ics) {
+  if (Calendar?.createEventInCalendarAsync && ev && typeof ev.title === 'string') {
+    const startDate = new Date(ev.start), endDate = new Date(ev.end);
+    if (!isNaN(startDate) && !isNaN(endDate)) {
+      const days = Array.isArray(ev.days) ? ev.days.filter((d) => Number.isInteger(d) && d >= 0 && d <= 6) : [];
+      const data = {
+        title: ev.title.slice(0, 80), notes: typeof ev.notes === 'string' ? ev.notes.slice(0, 800) : '', startDate, endDate,
+        timeZone: typeof ev.timeZone === 'string' && ev.timeZone ? ev.timeZone : undefined,
+        alarms: [{ relativeOffset: 0 }],
+        recurrenceRule: { frequency: 'weekly', ...(days.length ? { daysOfTheWeek: days.map((d) => ({ dayOfTheWeek: d + 1 })) } : {}) },   // 1 = Sunday
+      };
+      try { return (await Calendar.createEventInCalendarAsync(data))?.action || 'done'; }
+      catch (e) {
+        try {
+          const { status } = await Calendar.requestCalendarPermissionsAsync();
+          if (status === 'granted') return (await Calendar.createEventInCalendarAsync(data))?.action || 'done';
+        } catch (e2) {}
+      }
+    }
+  }
+  if (typeof ics === 'string') { await shareCalendar(filename, ics); return 'shared'; }
+  return 'canceled';
+}
+
 /** Save the repeating study event and open the share sheet, where "Add to Calendar" / Calendar is offered. */
 async function shareCalendar(filename, data) {
   const uri = `${FileSystem.cacheDirectory}${filename.replace(/[^\w.-]/g, '_')}`;
@@ -142,7 +172,9 @@ function Study() {
     } else if (msg.type === 'reminder') {
       scheduleReminder(msg).catch(() => {});
     } else if (msg.type === 'calendar' && typeof msg.data === 'string') {
-      shareCalendar(msg.filename || 'study-reminder.ics', msg.data).catch(() => {});
+      addCalendarEvent(msg.event, msg.filename || 'study-reminder.ics', msg.data)
+        .then((action) => webRef.current?.injectJavaScript(`window.__rnrCalendarResult && window.__rnrCalendarResult(${JSON.stringify(String(action))});true;`))
+        .catch(() => {});
     } else if (msg.type === 'mail' && typeof msg.to === 'string' && /^[^@\s]+@[^@\s]+$/.test(msg.to)) {
       Linking.openURL(`mailto:${msg.to}?subject=${encodeURIComponent(String(msg.subject || '').slice(0, 120))}`).catch(() => {});
     } else if (msg.type === 'share' && typeof msg.message === 'string') {

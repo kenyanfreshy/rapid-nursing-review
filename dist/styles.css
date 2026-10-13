@@ -961,3 +961,17 @@ html body #modal.paywall .legal-box{margin:12px 0 0}
 .tutor-more summary span{display:flex;align-items:center;gap:6px}
 .tutor-more summary span svg{width:15px;height:15px}
 .tutor-more .tutor-books{margin-top:6px}
+
+/* Study reminder: the calendar event the user types into */
+.rc-event{border-top:1px solid var(--rnr-line,#e1e5ef);padding-top:12px;display:grid;gap:10px}
+.rc-label{margin:0;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:700}.rc-label svg{width:15px;height:15px}
+.rc-field{display:grid;gap:4px;font-size:12px;font-weight:600;opacity:1}
+.rc-field input,.rc-field select,.rc-field textarea{font:inherit;font-size:16px;font-weight:400;padding:9px 11px;border-radius:12px;border:1px solid var(--rnr-line,#e1e5ef);background:var(--sunk,#eef1f8);color:inherit;color-scheme:inherit;width:100%;box-sizing:border-box;min-width:0}
+.rc-field textarea{resize:vertical;min-height:72px;line-height:1.4}
+.rc-preview{margin:0;font-size:12px;opacity:.8;overflow-wrap:anywhere}
+.rc-actions .primary,.rc-actions a.secondary{display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+
+.reminder-card{scroll-margin-top:12px}.reminder-card:focus{outline:none}
+.reminder-card.flash{animation:remFlash 1.6s ease-out}
+@keyframes remFlash{0%,40%{box-shadow:0 0 0 3px #f59e0b}100%{box-shadow:0 0 0 0 #f59e0b00}}
+@media (prefers-reduced-motion:reduce){.reminder-card.flash{animation:none;box-shadow:0 0 0 3px #f59e0b}}

@@ -39,6 +39,13 @@
       ],
       "expo-dev-client",
       [
+        "expo-calendar",
+        {
+          "calendarPermission": "Rapid Nursing Review adds your study sessions to your calendar when you ask it to.",
+          "remindersPermission": "Rapid Nursing Review does not use your reminders."
+        }
+      ],
+      [
         "expo-notifications",
         {
           "color": "#ea580c"
