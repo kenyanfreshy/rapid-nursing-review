@@ -1034,6 +1034,16 @@ button.pro-member:hover{filter:brightness(1.08)}
 .plan-row-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
 .plan-row-actions a.secondary{text-decoration:none}
 
+/* Book panel header: dark scrim so the title, author and credentials stay readable on every theme */
+html body .bp-head{background:linear-gradient(100deg,rgba(6,9,20,.82) 0%,rgba(6,9,20,.62) 55%,rgba(6,9,20,.35) 100%),var(--g-roadmap,linear-gradient(160deg,#0e7490,#0f766e))}
+html body .bp-head h2{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+html body .bp-head .bp-sub{margin-top:4px;font-size:12px;font-weight:600;color:#fde68a;opacity:1}
+html body .bp-head .bp-author{margin-top:6px;display:grid;gap:1px;font-size:12.5px;line-height:1.35;opacity:1}
+html body .bp-head .bp-name{color:#fff;font-weight:700}
+html body .bp-head .bp-creds{color:#fbbf24;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;font-weight:700;letter-spacing:.6px}
+html body .bp-head p:first-line{color:inherit}
+.bp-meta{min-width:0}
+
 </style>
   <style id="nb-theme">
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
@@ -1702,7 +1712,7 @@ function renderBookPanel(){
   if(!open){panel.innerHTML='';return;}
   const body=panel.querySelector('.bp-body'),sameTab=panel.dataset.tab===state.book.tab,scroll=body?body.scrollTop:0;
   panel.dataset.tab=state.book.tab;
-  panel.innerHTML=`<div class="bp-head"><img class="bp-cover" src="pages/cover.webp" alt="Cover of Rapid Nursing Review: All Body Systems at a Glance"><div><h2>Rapid Nursing Review</h2><p>All Body Systems at a Glance<br>${escape(book.author)}</p></div><button class="icon-button" data-action="close-book" aria-label="Close the book">${icon('close')}</button></div><div class="bp-tabs" role="tablist" aria-label="Book views">${[['contents','Contents'],['reader','Reader']].map(([id,l])=>`<button class="bp-tab" role="tab" aria-selected="${state.book.tab===id}" data-action="book-tab" data-tab="${id}">${l}</button>`).join('')}</div><div class="bp-body" tabindex="-1">${state.book.tab==='reader'?readerView():contentsView()}</div>`;
+  panel.innerHTML=`<div class="bp-head"><img class="bp-cover" src="pages/cover.webp" alt="Cover of Rapid Nursing Review: All Body Systems at a Glance"><div class="bp-meta"><h2>Rapid Nursing Review</h2><p class="bp-sub">All Body Systems at a Glance</p><p class="bp-author">${(([n,...c])=>`<span class="bp-name">${escape(n.trim())}</span>${c.length?`<span class="bp-creds">${escape(c.join(',').trim())}</span>`:''}`)(book.author.split(','))}</p></div><button class="icon-button" data-action="close-book" aria-label="Close the book">${icon('close')}</button></div><div class="bp-tabs" role="tablist" aria-label="Book views">${[['contents','Contents'],['reader','Reader']].map(([id,l])=>`<button class="bp-tab" role="tab" aria-selected="${state.book.tab===id}" data-action="book-tab" data-tab="${id}">${l}</button>`).join('')}</div><div class="bp-body" tabindex="-1">${state.book.tab==='reader'?readerView():contentsView()}</div>`;
   if(sameTab&&state.book.tab==='contents')panel.querySelector('.bp-body').scrollTop=scroll;
 }
 function contentsView(){
