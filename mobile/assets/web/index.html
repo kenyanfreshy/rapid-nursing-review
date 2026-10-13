@@ -949,6 +949,14 @@ html body .legal-box{margin:18px 0 6px;padding:14px 16px;border-radius:16px;bord
 html body .legal-box h4{display:flex;align-items:center;gap:7px;margin:0 0 6px;font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:13px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#f59e0b}
 html body .legal-box p{margin:4px 0 0;font-family:'Figtree','DM Sans',system-ui,sans-serif;font-size:12.5px;line-height:18px;color:inherit;opacity:.95}
 html body #modal.paywall .legal-box{margin:12px 0 0}
+/* Top bar: the book cover alone (no page title next to it) */
+#breadcrumb{display:none!important}
+/* Meet your tutor: books */
+.tutor-books{border-top:1px solid #ffffff1f;padding-top:10px;display:grid;gap:6px}
+.tb-title{margin:0;display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#fbbf24}
+.tb-title svg{width:14px;height:14px}
+.tutor-books ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:13px;line-height:18px;color:#fff}
+.tb-link{font-size:13px;font-weight:700;color:#fbbf24;text-decoration:none}
 
 </style>
   <style id="nb-theme">
@@ -2115,7 +2123,7 @@ window.addEventListener('hashchange',()=>{filter='all';document.querySelector('#
 setInterval(()=>{const s=state.session;if(!s||s.mode!=='exam')return;if(Date.now()>=s.deadline){finishSession(true);return;}const t=document.querySelector('#timer');if(t)t.textContent=timerText(s.deadline);},1000);
 
 // ---- Tutor, daily motivation, references and celebrations ----------------------------------------
-const TUTOR = { name: 'A. Korir', initials: 'AK', creds: [['MSN', 'Master of Science in Nursing: a graduate degree in nursing.'], ['RN', 'Registered Nurse.'], ['CCRN-CMC', 'Critical Care Registered Nurse certification (AACN) with the Cardiac Medicine subspecialty.']], bio: 'Author of Rapid Nursing Review: All Body Systems at a Glance and the creator of this app. Every book-linked question was written to help you think like a nurse, not just memorize facts.' };
+const TUTOR = { name: 'A. Korir', initials: 'AK', creds: [['MSN', 'Master of Science in Nursing: a graduate degree in nursing.'], ['RN', 'Registered Nurse.'], ['CCRN-CMC', 'Critical Care Registered Nurse certification (AACN) with the Cardiac Medicine subspecialty.']], bio: 'Nurse author and app developer: creator of Rapid Nursing Review and the VitalSync Health Tracker app. Every book-linked question here was written to help you think like a nurse, not just memorize facts.', books: [['Rapid Nursing Review: All Body Systems at a Glance', ''], ['Critical Care Certified: Crush the Adult-CCRN with Confidence', ''], ['The Confident Nurse: From Classroom to Code Blue', ''], ['Living Well with Diabetes: A Patient’s Guide to Understanding, Treating, and Managing Diabetes Naturally and Medically', '']], store: 'https://www.amazon.com/stores/Alex-K-Korir/author/B0FCCVTDG3' };
 // Original lines written for this app (no quotes attributed to real people).
 const MOTIVATION = [
   'You did not come this far to only come this far. One more question today.',
@@ -2188,7 +2196,7 @@ function sourcesBlock(q) {
 // Tutor card (dashboard) and the tutor intro shown at the start of a tutor session.
 let tutorCred = null;
 function tutorCard() {
-  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0]).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p>${TUTOR.bio}</p></section>`;
+  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0]).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p>${TUTOR.bio}</p><div class="tutor-books"><p class="tb-title">${icon('book')}Books by A. Korir</p><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></section>`;
 }
 function tutorIntro(s) {
   const topic = String(s.label || '').replace(/\s*practice$/i, '').replace(/^Mixed NCLEX$/i, 'a mix of NCLEX topics');

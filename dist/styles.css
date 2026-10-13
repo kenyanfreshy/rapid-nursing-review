@@ -939,3 +939,11 @@ html body .legal-box{margin:18px 0 6px;padding:14px 16px;border-radius:16px;bord
 html body .legal-box h4{display:flex;align-items:center;gap:7px;margin:0 0 6px;font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:13px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#f59e0b}
 html body .legal-box p{margin:4px 0 0;font-family:'Figtree','DM Sans',system-ui,sans-serif;font-size:12.5px;line-height:18px;color:inherit;opacity:.95}
 html body #modal.paywall .legal-box{margin:12px 0 0}
+/* Top bar: the book cover alone (no page title next to it) */
+#breadcrumb{display:none!important}
+/* Meet your tutor: books */
+.tutor-books{border-top:1px solid #ffffff1f;padding-top:10px;display:grid;gap:6px}
+.tb-title{margin:0;display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:#fbbf24}
+.tb-title svg{width:14px;height:14px}
+.tutor-books ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:13px;line-height:18px;color:#fff}
+.tb-link{font-size:13px;font-weight:700;color:#fbbf24;text-decoration:none}
