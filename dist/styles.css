@@ -1033,3 +1033,22 @@ html body .bp-head .bp-name{color:#fff;font-weight:700}
 html body .bp-head .bp-creds{color:#fbbf24;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;font-weight:700;letter-spacing:.6px}
 html body .bp-head p:first-line{color:inherit}
 .bp-meta{min-width:0}
+
+/* Phones and iPads: every dialog (plan, settings, practice, exams, paywall, about...) fills the screen edge to edge
+   instead of floating as a card. Content stays inside the safe areas; the header with the close button stays on top. */
+@media (max-width: 1366px), (pointer: coarse) {
+  html body dialog[open]{position:fixed;inset:0;width:100vw;max-width:none;height:100vh;height:100dvh;max-height:none;margin:0;border:0;border-radius:0;box-shadow:none;
+    padding:0 env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+  html body dialog::backdrop{background:var(--surface,#0b0f19)}
+  html body dialog .modal-header{position:sticky;top:0;z-index:5;padding-top:calc(env(safe-area-inset-top,0px) + 16px);background-color:var(--surface,#fcfdfb)}
+  html body #modal:not(.exam):not(.paywall) .modal-header{background:linear-gradient(90deg,#9b8ad6,#e0609a,#e2b72c,#55b6e0,#8cc63f,#f07f3c,#5cc7b8) top/100% 5px no-repeat,var(--surface,#fcfdfb)}
+  html body #modal.exam .modal-header{background:#fff}
+  html body #modal.paywall[open]{background:radial-gradient(120% 60% at 50% 0%,#1e1b4b 0%,#0b0f19 60%) #0b0f19!important}
+  html body #modal.paywall .modal-header{background:#0b0f19}
+  html body dialog .modal-header,html body dialog .modal-body{width:100%;max-width:none;margin:0;padding-left:max(21px,calc((100% - 820px) / 2));padding-right:max(21px,calc((100% - 820px) / 2))}
+  html body dialog#modal[open]{width:100vw!important;max-width:none!important;height:100dvh!important;max-height:none!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+  html body #modal.paywall[open]>*{max-width:560px;margin-left:auto;margin-right:auto}
+  html body #modal.paywall[open]>*,html body #modal.paywall[open] .modal-header{background-color:transparent!important;background-image:none!important}
+  html body dialog .modal-body{padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+  html body dialog .modal-footer{flex-wrap:wrap}
+}
