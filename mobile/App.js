@@ -6,7 +6,7 @@
 //
 // Written with React.createElement instead of JSX so it can be checked with `node --check`.
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, BackHandler, Linking, Modal, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, BackHandler, Linking, Modal, Platform, Pressable, Share, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { WebView } from 'react-native-webview';
@@ -45,6 +45,39 @@ async function prepareWebFiles(onProgress) {
     onProgress(done / entries.length);
   }
   await FileSystem.writeAsStringAsync(marker, WEB_VERSION);
+}
+
+// Study reminders: weekly local notifications at the time and days the student picks in Settings.
+let Notifications = null;
+try { Notifications = require('expo-notifications'); } catch (e) { Notifications = null; }
+if (Notifications) {
+  Notifications.setNotificationHandler({ handleNotification: async () => ({ shouldShowBanner: true, shouldShowList: true, shouldPlaySound: true, shouldSetBadge: false }) });
+}
+let lastReminder = '';
+async function scheduleReminder({ on, time, days, body }) {
+  if (!Notifications) return;
+  const key = JSON.stringify([on, time, days]);
+  if (key === lastReminder) return;                        // unchanged: keep the existing schedule
+  lastReminder = key;
+  await Notifications.cancelAllScheduledNotificationsAsync();
+  if (!on || !Array.isArray(days) || !days.length || !/^\d\d:\d\d$/.test(time || '')) return;
+  let perm = await Notifications.getPermissionsAsync();
+  if (!perm.granted && perm.canAskAgain !== false) perm = await Notifications.requestPermissionsAsync();
+  if (!perm.granted) return;
+  const [hour, minute] = time.split(':').map(Number);
+  for (const d of days) {
+    await Notifications.scheduleNotificationAsync({
+      content: { title: 'Time to study', body: (typeof body === 'string' && body) || 'Your Rapid Nursing Review session is ready. One more question today.' },
+      trigger: { type: Notifications.SchedulableTriggerInputTypes.WEEKLY, weekday: d + 1, hour, minute },   // weekday: 1 = Sunday
+    });
+  }
+}
+
+/** Save the repeating study event and open the share sheet, where "Add to Calendar" / Calendar is offered. */
+async function shareCalendar(filename, data) {
+  const uri = `${FileSystem.cacheDirectory}${filename.replace(/[^\w.-]/g, '_')}`;
+  await FileSystem.writeAsStringAsync(uri, data);
+  if (await Sharing.isAvailableAsync()) await Sharing.shareAsync(uri, { mimeType: 'text/calendar', dialogTitle: 'Add your study reminder to Calendar', UTI: 'com.apple.ical.ics' });
 }
 
 async function shareExport(filename, data) {
@@ -106,6 +139,16 @@ function Study() {
       saveTimer.current = setTimeout(() => { AsyncStorage.setItem(STORAGE_KEY, data).catch(() => {}); }, 250);
     } else if (msg.type === 'paywall') {
       setPaywall({ reason: typeof msg.reason === 'string' ? msg.reason.slice(0, 160) : '' });
+    } else if (msg.type === 'reminder') {
+      scheduleReminder(msg).catch(() => {});
+    } else if (msg.type === 'calendar' && typeof msg.data === 'string') {
+      shareCalendar(msg.filename || 'study-reminder.ics', msg.data).catch(() => {});
+    } else if (msg.type === 'mail' && typeof msg.to === 'string' && /^[^@\s]+@[^@\s]+$/.test(msg.to)) {
+      Linking.openURL(`mailto:${msg.to}?subject=${encodeURIComponent(String(msg.subject || '').slice(0, 120))}`).catch(() => {});
+    } else if (msg.type === 'share' && typeof msg.message === 'string') {
+      const text = msg.message.slice(0, 600), subject = typeof msg.subject === 'string' ? msg.subject.slice(0, 120) : 'My study progress';
+      if (msg.mode === 'email') Linking.openURL(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`).catch(() => Share.share({ message: text }).catch(() => {}));
+      else Share.share({ message: text }).catch(() => {});
     } else if (msg.type === 'ui') {
       setUi({ light: !!msg.light, bg: typeof msg.bg === 'string' && /^(#|rgb)/.test(msg.bg) ? msg.bg : COLORS.paper });
     } else if (msg.type === 'export' && typeof msg.data === 'string') {
@@ -115,7 +158,7 @@ function Study() {
 
   // Keep the app on its local files; open web links (sources, references) in the browser.
   const onShouldStart = useCallback(req => {
-    if (/^https?:/i.test(req.url)) { Linking.openURL(req.url).catch(() => {}); return false; }
+    if (/^(https?|mailto|tel|sms):/i.test(req.url)) { Linking.openURL(req.url).catch(() => {}); return false; }
     return true;
   }, []);
 

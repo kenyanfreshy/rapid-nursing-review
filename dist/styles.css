@@ -886,3 +886,51 @@ dialog{max-height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-ins
 .tutor-card .cred-note{color:#fde68a;opacity:1}
 html body #modal.exam .tutor-intro strong,html body #modal.exam .tutor-intro p{color:#ffffff}
 .legal-links{margin:12px 0 0;font-size:12.5px;text-align:center}.legal-links a{color:inherit;text-decoration:underline}
+
+/* ---- Disclaimer with a title ---- */
+.legal-box{margin:22px 0 8px;padding:14px 16px;border-radius:16px;border:1px solid #f59e0b80;background:color-mix(in srgb,#f59e0b 10%,var(--surface,#fff));text-align:left}
+.legal-box h4{display:flex;align-items:center;gap:7px;margin:0 0 6px;font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:#f59e0b;font-family:'JetBrains Mono',ui-monospace,monospace}
+.legal-box h4 svg{width:16px;height:16px;stroke-width:2}
+.legal-box p{margin:4px 0 0;font-size:12.5px;line-height:18px;color:var(--ink)}
+#modal .legal-box{background:#f59e0b14}
+#modal.exam .legal-box p,#modal.paywall .legal-box p{color:inherit}
+/* ---- Overview: motivation full width now that the tutor card lives in Settings ---- */
+.motivate-row.single{grid-template-columns:1fr}
+#modal .tutor-card{margin:0 0 14px}
+/* ---- Study reminder (Settings) ---- */
+.reminder-card,.share-card{border:1px solid var(--rnr-line,#e1e5ef);border-radius:20px;padding:14px;margin:14px 0;display:grid;gap:10px}
+html:not([data-ui="daylight"]) .reminder-card,html:not([data-ui="daylight"]) .share-card{--rnr-line:#232a44;--rnr-muted:#9aa3bd;background:#111527}
+.rc-head{display:flex;align-items:center;gap:10px}
+.rc-head>div{flex:1;min-width:0}.rc-head .theme-eyebrow{margin:0}
+.rc-sub{margin:2px 0 0;font-size:13px;color:var(--rnr-muted,#5b6478)}
+.rc-icon{width:40px;height:40px;border-radius:13px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#9333ea,#db2777);color:#fff;flex:none}
+.rc-icon svg{width:20px;height:20px;stroke-width:2}
+.switch{position:relative;width:50px;height:30px;flex:none}
+.switch input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer;z-index:1}
+.switch span{position:absolute;inset:0;border-radius:99px;background:#64748b66;transition:background .2s}
+.switch span:after{content:'';position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:#fff;transition:transform .2s;box-shadow:0 1px 3px #0004}
+.switch input:checked+span{background:#22c55e}.switch input:checked+span:after{transform:translateX(20px)}
+.switch input:focus-visible+span{outline:2px solid #93c5fd;outline-offset:2px}
+.rc-time{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600}
+.rc-time svg{width:16px;height:16px}
+.rc-time input{margin-left:auto;font:inherit;font-size:16px;padding:8px 10px;border-radius:12px;border:1px solid var(--rnr-line,#e1e5ef);background:var(--sunk,#eef1f8);color:inherit;color-scheme:inherit}
+.rc-days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.rc-day{height:38px;border-radius:12px;border:1px solid var(--rnr-line,#e1e5ef);font-weight:700;font-size:13px;color:inherit;background:transparent}
+.rc-day.on{background:linear-gradient(135deg,#9333ea,#db2777);border-color:transparent;color:#fff}
+.rc-actions{display:flex;gap:8px;flex-wrap:wrap}.rc-actions .secondary{display:inline-flex;align-items:center;gap:6px}.rc-actions svg{width:15px;height:15px}
+/* Plan: reminder under Today's motivation */
+.plan-motivate{display:grid;gap:10px;margin:0 0 18px}
+.rem-strip{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:16px;border:1px solid var(--line);background:var(--surface,#fff);font-size:13.5px;line-height:19px}
+.rem-strip>svg{width:18px;height:18px;flex:none;color:#c084fc;stroke-width:2}
+.rem-strip span{flex:1;min-width:0}
+.rem-strip.due{border-color:#f59e0b;background:color-mix(in srgb,#f59e0b 14%,var(--surface,#fff))}
+.rem-strip.due>svg{color:#f59e0b;animation:rem-ring 1.2s ease-in-out 3}
+.rem-strip.done>svg{color:#22c55e}
+@keyframes rem-ring{0%,100%{transform:rotate(0)}25%{transform:rotate(-14deg)}75%{transform:rotate(14deg)}}
+@media (prefers-reduced-motion:reduce){.rem-strip.due>svg{animation:none}}
+/* ---- Share my progress ---- */
+.share-preview{margin:0;font-size:13px;line-height:19px;color:var(--rnr-muted,#5b6478);font-style:italic}
+.share-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.share-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:10px 4px;border-radius:14px;font-size:12px;font-weight:700;color:#fff;text-decoration:none;min-width:0}
+.share-btn svg{width:20px;height:20px;stroke-width:2}.share-btn b{font-size:19px;line-height:20px}
+.share-btn.email{background:linear-gradient(135deg,#2563eb,#0891b2)}.share-btn.wa{background:#16a34a}.share-btn.x{background:#0f1419;border:1px solid #2f3336}.share-btn.more{background:linear-gradient(135deg,#ea580c,#db2777)}

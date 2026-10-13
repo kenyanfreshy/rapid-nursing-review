@@ -66,7 +66,7 @@ If this policy changes, the new version will be posted here with a new date.
 
 ## Contact
 
-Alex K. Korir · ak82korir@gmail.com
+Alex K. Korir · alexkorirbook@gmail.com
 
 ---
 

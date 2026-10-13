@@ -22,7 +22,7 @@ export const LINKS = {
   privacy: extra.privacyPolicyUrl || 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md',
   // iOS: Apple's Standard EULA. Android: our public Terms page (it links the Google Play Terms of Service).
   terms: Platform.OS === 'ios' ? (extra.termsUrl || 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/') : 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/TERMS.md',
-  support: extra.supportEmail || 'ak82korir@gmail.com',
+  support: extra.supportEmail || 'alexkorirbook@gmail.com',
   supportPage: 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/SUPPORT.md',
 };
 const STORE_NAME = Platform.OS === 'ios' ? 'App Store' : 'Google Play';
