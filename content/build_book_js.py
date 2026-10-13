@@ -15,10 +15,23 @@ import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from structure import CHAPTERS, BOOK  # noqa: E402
+from structure import CHAPTERS, BOOK, SECTION_PALETTE  # noqa: E402
 
 FIELDS = ('id', 'section', 'type', 'stem', 'correct', 'rationales', 'clue', 'priority', 'page', 'clientNeed', 'cjmm')
 TARGETS = json.load(open(os.path.join(HERE, 'targets.json'), encoding='utf-8'))
+
+
+def _hue(hex_color):
+    import colorsys
+    r, g, b = (int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    return colorsys.rgb_to_hls(r, g, b)[0]
+
+
+def section_color(chapter, i):
+    """Unique color per section within a chapter, starting from the palette hue closest to the chapter color."""
+    pal = SECTION_PALETTE[:-1]  # slate is used only if a chapter has 13 sections
+    start = min(range(len(pal)), key=lambda k: min(abs(_hue(pal[k]) - _hue(chapter['color'])), 1 - abs(_hue(pal[k]) - _hue(chapter['color']))))
+    return SECTION_PALETTE[-1] if i >= len(pal) else pal[(start + i) % len(pal)]
 
 
 def main():
@@ -64,7 +77,7 @@ def main():
 
     chapters = [dict(id=c['id'], num=c['num'], name=c['name'], short=c['short'], subtitle=c['subtitle'], color=c['color'],
                      tint=c['tint'], pages=c['pages'], opener=c['opener'],
-                     sections=[dict(id=s[0], title=s[1], start=s[2], end=s[3]) for s in c['sections']]) for c in CHAPTERS]
+                     sections=[dict(id=s[0], title=s[1], start=s[2], end=s[3], color=section_color(c, i)) for i, s in enumerate(c['sections'])]) for c in CHAPTERS]
     pages = open(os.path.join(HERE, 'book-text.txt'), encoding='utf-8').read().split('\f')
     text = [re.sub(r'\s+', ' ', p).strip() for p in pages[:BOOK['pages']]]
     preview = sorted(set(list(range(1, 15)) + [c['opener'] for c in CHAPTERS] + [c['sections'][0][2] for c in CHAPTERS] + [BOOK['about']]))

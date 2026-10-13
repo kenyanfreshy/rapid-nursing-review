@@ -237,3 +237,149 @@ table.matrix thead th,table.trend thead th{background:#fafafa;font-size:11px;fon
 .pw-links.small{font-size:12px}.pw-links.small a,.pw-links.small button{color:#a9b4c8;text-decoration:underline;font-weight:400}
 .pw-terms{font-size:11px;line-height:1.45;color:#a9b4c8;text-align:center}
 #modal.paywall::backdrop{background:#04060dcc}
+
+/* ===================================================================
+   Colorful theme, drawn from the book: the cover's charcoal, white and
+   yellow, plus the rainbow chapter colors of its table of contents.
+   Exam and quiz screens (#modal.exam) stay plain white.
+   =================================================================== */
+:root{--cover:#2b2f33;--cover2:#454a51;--yellow:#ffe500;--yellow2:#ffc531;--violet:#7c3aed;--pink:#db2777;--blue:#2563eb;--cyan:#06b6d4;--orange:#f97316;--rose:#f43f5e;--green:#16a34a;--lime:#84cc16;--fuchsia:#c026d3;--bg:#f6f7fb}
+body{background:linear-gradient(180deg,#f8f6ff 0%,#f6f7fb 220px,#f6f7fb 100%)}
+
+/* Brand: the book cover is the logo */
+.brand{gap:12px;padding:0 6px;font-size:inherit;letter-spacing:0}
+.brand-cover{width:46px;height:69px;object-fit:cover;border-radius:4px;box-shadow:0 6px 16px #0000003d,0 0 0 1px #00000014;flex-shrink:0}
+.brand-text{display:flex;flex-direction:column;line-height:1}
+.brand-title{font-family:Manrope,sans-serif;font-weight:800;font-size:13px;letter-spacing:.2px;color:var(--cover);text-transform:uppercase}
+.brand-title.big{font-size:25px;letter-spacing:-.5px;margin-top:2px}
+.brand .brand-sub{font-size:6.5px;letter-spacing:.9px;margin-top:6px;color:#b38f00;font-weight:700}
+.topbar-logo{display:none;width:26px;height:39px;object-fit:cover;border-radius:3px;box-shadow:0 2px 6px #0003}
+@media(max-width:850px){.topbar-logo{display:block}}
+
+/* Sidebar: solid color pill for the active tab */
+.sidebar{background:#fff}
+.nav-link{font-weight:550}
+.nav-link.active{background:var(--nc);color:#fff;box-shadow:0 6px 16px color-mix(in srgb,var(--nc) 35%,transparent)}
+.nav-link.active svg{color:#fff}
+.nav-link.active:after{background:#fff}
+.sidebar-note{background:linear-gradient(135deg,var(--yellow),var(--yellow2));border:0;color:var(--cover)}
+.sidebar-note p{color:#5b4a00}.sidebar-note .text-link,.little-spark{color:var(--cover)}
+.avatar{background:linear-gradient(135deg,var(--violet),var(--pink));color:#fff;box-shadow:none;border-color:#fff}
+
+/* Top bar */
+.topbar{background:#ffffffd9;backdrop-filter:blur(8px)}
+.book-toggle{background:var(--cover);border-color:var(--cover);color:var(--yellow)}
+.book-toggle[aria-expanded="true"]{background:var(--yellow);border-color:var(--yellow);color:var(--cover)}
+
+/* Headings */
+.eyebrow{background:linear-gradient(90deg,var(--violet),var(--pink),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent;width:fit-content}
+.feature-card .eyebrow,.free-banner .eyebrow{background:none;color:inherit;-webkit-background-clip:initial;background-clip:initial;opacity:.85}
+h1{color:var(--cover)}
+
+/* Buttons */
+.primary{background:linear-gradient(135deg,var(--violet),var(--pink));border:0;box-shadow:0 6px 18px #db27774d}
+.primary:hover{background:linear-gradient(135deg,#6d28d9,#be185d)}
+.primary.light{background:var(--yellow);color:var(--cover);box-shadow:0 6px 18px #ffe50059}
+.primary.light:hover{background:#fff176}
+.secondary{border-color:#e4e1f5}.secondary:hover{background:#f5f3ff}
+.text-link{color:var(--violet)}
+.mini.solid{background:var(--cc,var(--violet));border-color:var(--cc,var(--violet))}
+.mini.solid:hover{filter:brightness(.92);background:var(--cc,var(--violet))}
+
+/* Stat tiles: one color each */
+.stat{border:0;color:#fff;box-shadow:0 10px 24px #1f1a4014}
+.stat:nth-child(1){background:linear-gradient(135deg,var(--blue),var(--cyan))}
+.stat:nth-child(2){background:linear-gradient(135deg,var(--orange),var(--rose))}
+.stat:nth-child(3){background:linear-gradient(135deg,var(--green),var(--lime))}
+.stat:nth-child(4){background:linear-gradient(135deg,var(--violet),var(--fuchsia))}
+.stat .stat-top,.stat .stat-foot,.stat .stat-foot .positive{color:#ffffffd9}
+.stat .stat-icon{background:#ffffff2e;color:#fff}
+
+/* Hero: the cover's charcoal, white title and yellow accent */
+.focus-card{background:radial-gradient(ellipse at 85% 0%,#5b616a 0%,transparent 55%),linear-gradient(160deg,var(--cover2),var(--cover))}
+.focus-card h2{color:#fff}.focus-card p{color:#d5d9de}
+.focus-label{background:#ffe50024;border-color:#ffe50059;color:var(--yellow)}
+.orbital .star{color:var(--yellow)}.orbit-dot{background:var(--yellow)}.orbit-dot.second{background:#ffffff80}
+.orbital:before,.orbital:after,.orbit{border-color:#ffe5002e}
+.exam-card{background:linear-gradient(150deg,var(--yellow),var(--yellow2));border:0;color:var(--cover)}
+.exam-card p,.exam-top,.exam-count span{color:#5b4a00}
+.exam-card .secondary{background:var(--cover);color:#fff;border:0}
+.exam-card .secondary:hover{background:#1b1e21}
+
+/* Chapter cards and lists take their chapter color */
+.course-card{border:0;box-shadow:0 8px 22px #1f1a4012;border-top:6px solid var(--cc);background:linear-gradient(180deg,color-mix(in srgb,var(--cc) 10%,white),#fff 70%)}
+.course-bottom{background:color-mix(in srgb,var(--cc) 8%,white);border-top-color:color-mix(in srgb,var(--cc) 20%,white)}
+.course-bottom button{color:color-mix(in srgb,var(--cc) 75%,#111);font-weight:650}
+.chapter-head{padding:10px 14px;border-radius:12px;background:color-mix(in srgb,var(--cc) 12%,white)}
+.chapter-head h2{color:color-mix(in srgb,var(--cc) 60%,#111)}
+.chapter-list{border-color:color-mix(in srgb,var(--cc) 25%,white)}
+.chapter-list .sec-pages{background:color-mix(in srgb,var(--cc) 14%,white);color:color-mix(in srgb,var(--cc) 65%,#111)}
+.filter{border-color:color-mix(in srgb,var(--cc) 30%,white);color:color-mix(in srgb,var(--cc) 70%,#111)}
+.filter.active{background:var(--cc);border-color:var(--cc);color:#fff}
+
+/* Panels and the activity chart */
+.panel{border:0;box-shadow:0 8px 22px #1f1a4010}
+.chart .bar-col:nth-child(7n+1) .bar{background:#9b8ad6}.chart .bar-col:nth-child(7n+2) .bar{background:#e0609a}
+.chart .bar-col:nth-child(7n+3) .bar{background:#e2b72c}.chart .bar-col:nth-child(7n+4) .bar{background:#55b6e0}
+.chart .bar-col:nth-child(7n+5) .bar{background:#8cc63f}.chart .bar-col:nth-child(7n+6) .bar{background:#f07f3c}
+.chart .bar-col.today .bar{background:linear-gradient(180deg,var(--violet),var(--pink))}
+.subtle-pill{background:#f5f3ff;border-color:#e4e1f5;color:var(--violet)}
+.progress-fill{background:linear-gradient(90deg,var(--violet),var(--pink))}
+.course-card .progress-fill{background:var(--cc)}
+.need-row .progress-fill{background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.notice{background:#fff8cc;border-color:#ffe56b;color:#5b4a00}
+
+/* Book panel header in the cover's colors */
+.bp-head{background:linear-gradient(160deg,var(--cover2),var(--cover));border-bottom:0}
+.bp-head h2{color:#fff}.bp-head p{color:#d5d9de}
+.bp-head p:first-line{color:var(--yellow)}
+.bp-head .icon-button{color:#fff}.bp-head .icon-button:hover{background:#ffffff1f}
+.bp-cover{width:58px;height:87px}
+
+/* Dialogs that are not exams get a cheerful accent line */
+#modal:not(.exam):not(.paywall) .modal-header{background:linear-gradient(90deg,#9b8ad6,#e0609a,#e2b72c,#55b6e0,#8cc63f,#f07f3c,#5cc7b8) top/100% 5px no-repeat}
+.mode-option.active{border-color:var(--violet);box-shadow:0 0 0 1px var(--violet);background:#f5f3ff}
+.check-label input{accent-color:var(--violet)}
+.check-day.checked{background:var(--green);border-color:var(--green)}
+/* lists outside a chapter (e.g. "Re-read what you missed") use the brand violet */
+.panel .chapter-list{--cc:#7c3aed}
+.brand .brand-sub{white-space:nowrap;font-size:6px;letter-spacing:.6px}
+.toc-chapter[data-open="true"]{border-color:color-mix(in srgb,var(--cc) 40%,white);box-shadow:inset 4px 0 0 var(--cc)}
+.toc-chapter .sec-pages{background:color-mix(in srgb,var(--cc,#7c3aed) 14%,white);color:color-mix(in srgb,var(--cc,#7c3aed) 65%,#111)}
+/* Big logo: the cover's title block across the top of the sidebar */
+.brand{display:block;padding:0}
+.brand-logo{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 10px 24px #00000033,0 0 0 1px #0000000f}
+.brand:hover .brand-logo{box-shadow:0 12px 28px #00000047,0 0 0 1px #0000001a}
+.sidebar{padding-top:20px}
+.workspace-label{margin-top:26px}
+
+/* Paywall: no scroll bars. The feature strip stays inside the dialog, and spacing is tighter so it fits on one screen. */
+#modal.paywall{overflow-x:hidden;scrollbar-width:none;max-height:calc(100dvh - 24px)}
+#modal.paywall::-webkit-scrollbar{display:none}
+.pw{gap:10px;padding:18px 18px 14px;overflow:hidden}
+.pw-marquee{margin:0 -18px;overflow:hidden}
+@media(prefers-reduced-motion:reduce){.pw-marquee{overflow-x:auto;scrollbar-width:none}.pw-marquee::-webkit-scrollbar{display:none}}
+.pw-head h2{font-size:18px}
+.plan{padding:10px 12px}
+.plan-price strong{font-size:24px}
+.pw-cta{padding:11px 16px}
+.pw-terms{font-size:10.5px}
+.pw :focus-visible{outline-color:#22d3ee}
+
+/* Each section (disease) has its own color: left stripe, page chip and Quiz button */
+.section-row{box-shadow:inset 4px 0 0 var(--sc,transparent)}
+.section-row .sec-pages{background:color-mix(in srgb,var(--sc) 14%,white);color:color-mix(in srgb,var(--sc) 70%,#111)}
+.section-row h3{color:color-mix(in srgb,var(--sc) 55%,#111)}
+.section-row .mini.sec-quiz{background:var(--sc);border-color:var(--sc);color:#fff}
+.section-row .mini.sec-quiz:hover{background:var(--sc);filter:brightness(.9)}
+.section-row .mini:not(.solid){border-color:color-mix(in srgb,var(--sc) 35%,white);color:color-mix(in srgb,var(--sc) 70%,#111)}
+.section-row:hover{background:color-mix(in srgb,var(--sc) 5%,white)}
+.reader-section{border-left:4px solid var(--cc,#7c3aed)}
+
+/* Tagline: Learn. Test. Understand. evenly spaced, one color per word */
+.tagline{display:inline-grid;grid-template-columns:repeat(3,auto);column-gap:1.4em;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:.2px}
+.tagline span:nth-child(1){color:#2563eb}.tagline span:nth-child(2){color:#db2777}.tagline span:nth-child(3){color:#ea580c}
+.app-footer>.tagline{font-size:12px}
+.modal-header h2 .tagline{column-gap:.9em}
+@media(max-width:650px){.app-footer>.tagline{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;width:100%;font-size:13px}}
+.filter{background:color-mix(in srgb,var(--cc) 9%,white)}.filter:hover{background:color-mix(in srgb,var(--cc) 16%,white)}.filter.active{background:var(--cc)}

@@ -1,13 +1,14 @@
 # Book structure for Rapid Nursing Review: All Body Systems at a Glance.
 # Page numbers are the printed page numbers (they match the PDF page index).
-# Colors follow the book's own table of contents (page 13).
+# Chapter colors are organ-themed and unique per chapter (the book's printed TOC repeats yellow and green).
+# Each section also gets its own color from SECTION_PALETTE, unique within its chapter.
 CHAPTERS = [
- dict(id='nclex', num='NCLEX', name='NCLEX Must-Know Content', short='NCLEX Must-Know', color='#3a3f45', tint='#eceef0', pages=[4,12], opener=4,
+ dict(id='nclex', num='NCLEX', name='NCLEX Must-Know Content', short='NCLEX Must-Know', color='#374151', tint='#e7e8ea', pages=[4,12], opener=4,
   subtitle='Priorities, safety, labs, delegation and test strategy.', sections=[
   ('nclex-priorities','Priorities, safety & clinical judgment',4,6),
   ('nclex-highrisk','High-risk conditions, labs & medication safety',7,9),
   ('nclex-strategy','Delegation, communication & answer strategy',10,12)]),
- dict(id='resp', num='01', name='Respiratory System', short='Respiratory', color='#9b8ad6', tint='#efecfa', pages=[14,42], opener=14,
+ dict(id='resp', num='01', name='Respiratory System', short='Respiratory', color='#2563eb', tint='#e5ecfd', pages=[14,42], opener=14,
   subtitle='Critical and chronic respiratory conditions.', sections=[
   ('resp-ards','Acute respiratory distress syndrome (ARDS)',15,17),
   ('resp-pe','Pulmonary embolism',18,21),
@@ -21,7 +22,7 @@ CHAPTERS = [
   ('resp-pneumothorax','Pneumothorax',36,37),
   ('resp-tb','Tuberculosis (TB)',37,39),
   ('resp-cheat','Respiratory system cheat sheet',40,41)]),
- dict(id='cardio', num='02', name='Cardiovascular System', short='Cardiovascular', color='#e0609a', tint='#fbe9f1', pages=[43,63], opener=43,
+ dict(id='cardio', num='02', name='Cardiovascular System', short='Cardiovascular', color='#db2777', tint='#fbe5ef', pages=[43,63], opener=43,
   subtitle='Critical and chronic cardiac conditions.', sections=[
   ('cardio-basics','Basic cardiac concepts',44,44),
   ('cardio-tamponade','Cardiac tamponade',45,45),
@@ -33,7 +34,7 @@ CHAPTERS = [
   ('cardio-inflammatory','Infectious and inflammatory conditions',54,57),
   ('cardio-occlusion','Acute venous and arterial occlusion',58,60),
   ('cardio-postpci','Post-cardiac intervention complications',60,62)]),
- dict(id='gi', num='03', name='Gastrointestinal System', short='Gastrointestinal', color='#e2b72c', tint='#fbf4dc', pages=[64,90], opener=64,
+ dict(id='gi', num='03', name='Gastrointestinal System', short='Gastrointestinal', color='#ea580c', tint='#fcebe2', pages=[64,90], opener=64,
   subtitle='Common GI conditions.', sections=[
   ('gi-gerd','GERD',65,68),
   ('gi-pancreatitis','Pancreatitis',69,71),
@@ -45,7 +46,7 @@ CHAPTERS = [
   ('gi-uc','Ulcerative colitis',85,85),
   ('gi-diverticular','Diverticulosis and diverticulitis',86,87),
   ('gi-appendicitis','Appendicitis',88,89)]),
- dict(id='endo', num='04', name='Endocrine System', short='Endocrine', color='#55b6e0', tint='#e6f4fb', pages=[91,113], opener=91,
+ dict(id='endo', num='04', name='Endocrine System', short='Endocrine', color='#c026d3', tint='#f7e5fa', pages=[91,113], opener=91,
   subtitle='Common endocrine disorders and emergencies.', sections=[
   ('endo-dm','Diabetes mellitus',92,93),
   ('endo-hypothyroid','Hypothyroidism',94,95),
@@ -59,7 +60,7 @@ CHAPTERS = [
   ('endo-hyperpara','Hyperparathyroidism',107,109),
   ('endo-hypopara','Hypoparathyroidism',109,110),
   ('endo-emergencies','Endocrine emergencies',111,112)]),
- dict(id='gu', num='05', name='Genitourinary System', short='Genitourinary', color='#8cc63f', tint='#eef7e2', pages=[114,129], opener=114,
+ dict(id='gu', num='05', name='Genitourinary System', short='Genitourinary', color='#ca8a04', tint='#f9f1e1', pages=[114,129], opener=114,
   subtitle='Common genitourinary disorders.', sections=[
   ('gu-overview','Priority nursing actions',115,115),
   ('gu-aki','Acute kidney injury (AKI)',116,119),
@@ -70,7 +71,7 @@ CHAPTERS = [
   ('gu-bph','Benign prostatic hyperplasia (BPH)',125,126),
   ('gu-prostate','Prostate cancer',126,127),
   ('gu-incontinence','Urinary incontinence and retention',128,128)]),
- dict(id='neuro', num='06', name='Neurologic System', short='Neurologic', color='#5fb84a', tint='#e9f5e4', pages=[130,154], opener=130,
+ dict(id='neuro', num='06', name='Neurologic System', short='Neurologic', color='#7c3aed', tint='#efe7fd', pages=[130,154], opener=130,
   subtitle='Common neurologic disorders.', sections=[
   ('neuro-stroke','Stroke and TIA',131,132),
   ('neuro-icp','Increased intracranial pressure',132,133),
@@ -85,7 +86,7 @@ CHAPTERS = [
   ('neuro-gbs','Guillain-Barré syndrome',148,150),
   ('neuro-mg','Myasthenia gravis',150,152),
   ('neuro-cranial','Bell palsy, trigeminal neuralgia and related',153,153)]),
- dict(id='heme', num='07', name='Hematology / Immunology', short='Hematology / Immunology', color='#e6c02a', tint='#fbf5d9', pages=[155,176], opener=155,
+ dict(id='heme', num='07', name='Hematology / Immunology', short='Hematology / Immunology', color='#dc2626', tint='#fbe5e5', pages=[155,176], opener=155,
   subtitle='Common hematology and immunology disorders.', sections=[
   ('heme-ida','Iron deficiency anemia',156,157),
   ('heme-sickle','Sickle cell disease',157,159),
@@ -98,20 +99,24 @@ CHAPTERS = [
   ('heme-anaphylaxis','Immunity and anaphylaxis',169,171),
   ('heme-lupus','Lupus erythematosus',172,173),
   ('heme-ra','Rheumatoid arthritis',173,175)]),
- dict(id='integ', num='08', name='Integumentary System', short='Integumentary', color='#f07f3c', tint='#fdeee4', pages=[177,179], opener=177,
+ dict(id='integ', num='08', name='Integumentary System', short='Integumentary', color='#a0522d', tint='#f4eae6', pages=[177,179], opener=177,
   subtitle='Burns, pressure injuries, skin infections and wound care.', sections=[
   ('integ-burns','Burns',178,178),
   ('integ-pressure','Pressure injuries',178,179),
   ('integ-skin','Skin infections, skin cancer and wound care',179,179)]),
- dict(id='msk', num='09', name='Musculoskeletal System', short='Musculoskeletal', color='#5cc7b8', tint='#e4f6f3', pages=[180,183], opener=180,
+ dict(id='msk', num='09', name='Musculoskeletal System', short='Musculoskeletal', color='#16a34a', tint='#e3f4e9', pages=[180,183], opener=180,
   subtitle='Fractures, bone and joint disorders, spinal disorders.', sections=[
   ('msk-fractures','Fractures and compartment syndrome',181,181),
   ('msk-bone','Osteoporosis, osteoarthritis and gout',181,182),
   ('msk-osteomyelitis','Osteomyelitis, amputations and joint replacement',182,182),
   ('msk-spinal','Spinal disorders, sprains and strains',183,183)]),
- dict(id='fluids', num='Bonus', name='Fluid & Electrolytes', short='Fluid & Electrolytes', color='#b06fc4', tint='#f4eaf8', pages=[184,185], opener=184,
+ dict(id='fluids', num='Bonus', name='Fluid & Electrolytes', short='Fluid & Electrolytes', color='#0891b2', tint='#e1f2f6', pages=[184,185], opener=184,
   subtitle='Fluid compartments, movement and electrolyte imbalances.', sections=[
   ('fluids-main','Fluids and electrolytes cheat sheet',184,185)]),
 ]
 BOOK = dict(title='Rapid Nursing Review', subtitle='All Body Systems at a Glance',
             author='Alex K. Korir, MSN, RN, CCRN-CMC', pages=196, toc=13, references=[186,194], about=195)
+
+# Twelve clearly different hues. Sections take them in order, starting from the hue nearest their chapter's color,
+# so a chapter's first section matches the chapter and no two sections in a chapter share a color.
+SECTION_PALETTE = ['#dc2626', '#ea580c', '#d97706', '#65a30d', '#16a34a', '#0d9488', '#0891b2', '#2563eb', '#4f46e5', '#7c3aed', '#c026d3', '#db2777', '#475569']
