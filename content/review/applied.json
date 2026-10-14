@@ -1,0 +1,62 @@
+{
+ "fixes": [
+  {
+   "id": "nb:ccrnb-pharm-02",
+   "file": "nclex/bank.json",
+   "set": {
+    "options.2": "Administer propranolol",
+    "rationales.2": "Correct. Propranolol is a pure nonselective beta-blocker; in acute cocaine toxicity it can leave alpha-adrenergic stimulation unopposed, worsening coronary vasospasm and hypertension. Avoid it in the acute phase.",
+    "takeaway": "In acute cocaine toxicity use benzodiazepines and nitroglycerin; avoid pure beta-blockers such as propranolol because of unopposed alpha stimulation."
+   },
+   "source": "Gemini batch 28 (Pharmacology part 1)",
+   "note": "Beta-blockade with labetalol (alpha+beta) in cocaine toxicity is debated, so it should not decide the key. Distractor changed to propranolol, a pure nonselective beta-blocker that is clearly avoided."
+  },
+  {
+   "id": "nb:ccrnx-060",
+   "file": "nclex/bank.json",
+   "set": {
+    "stem": "The client was admitted to the intensive care unit after ingesting an unknown substance. He is hypertensive, tachycardic and flushed, with vertical nystagmus (\"flickering\" eyes), and then has a seizure. Which substance did the client most likely ingest?"
+   },
+   "source": "Gemini batch 28 (Pharmacology part 1)",
+   "note": "Direct question without \"Which of the following\"."
+  },
+  {
+   "id": "nb:ccrnx-081",
+   "file": "nclex/bank.json",
+   "set": {
+    "stem": "Which hemodynamic change is a direct effect of sodium nitroprusside?"
+   },
+   "source": "Gemini batch 28 (Pharmacology part 1)",
+   "note": "Sentence completion converted to a direct question."
+  },
+  {
+   "id": "nb:ccrnx-115",
+   "file": "nclex/bank.json",
+   "set": {
+    "stem": "Which treatment is indicated for inadequate heparin reversal?"
+   },
+   "source": "Gemini batch 28 (Pharmacology part 1)",
+   "note": "Direct question without \"Which of the following\"."
+  },
+  {
+   "id": "nb:ccrnx-124",
+   "file": "nclex/bank.json",
+   "set": {
+    "stem": "A client with a methamphetamine overdose is admitted. Which initial management should the nurse anticipate?"
+   },
+   "source": "Gemini batch 28 (Pharmacology part 1)",
+   "note": "Sentence completion converted to a direct question."
+  },
+  {
+   "id": "rnr:pharmacology-043",
+   "file": "nclex/v4/pharmacology.json",
+   "set": {
+    "rationales.3": "Correct. \"U\" is on The Joint Commission's do-not-use list because it can be read as 0 or 4, causing a tenfold insulin overdose; writing \"10U\" with no space between the number and the unit adds to the risk. The prescriber must clarify."
+   },
+   "source": "Gemini batch 28 (Pharmacology part 1)",
+   "note": "Rationale now also names the missing space between dose and unit."
+  }
+ ],
+ "patientToClient": 305,
+ "missingIds": []
+}

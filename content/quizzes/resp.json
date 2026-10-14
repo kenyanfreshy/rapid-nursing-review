@@ -1275,7 +1275,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book notes anxiety worsens asthma symptoms, especially in first-time patients, so calm support helps.",
+    "Correct. The book notes anxiety worsens asthma symptoms, especially in first-time clients, so calm support helps.",
     "Incorrect. Leaving a frightened client alone can increase anxiety, which the book says worsens symptoms.",
     "Incorrect. Dismissing the attack is false reassurance and does not ease the anxiety.",
     "Incorrect. Long questioning adds work of breathing; the book advises short yes/no communication."
@@ -1420,7 +1420,7 @@
     3
    ],
    "rationales": [
-    "Correct. The book says to always look over the patient before checking the ventilator.",
+    "Correct. The book says to always look over the client before checking the ventilator.",
     "Incorrect. The book says the client is assessed before the ventilator.",
     "Correct. The book says an Ambu bag should always be at the bedside.",
     "Correct. The book says suction should always be available at the bedside.",
@@ -3351,7 +3351,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists proper oral care, especially for high-risk patients, as a HAP prevention measure.",
+    "Correct. The book lists proper oral care, especially for high-risk clients, as a HAP prevention measure.",
     "Incorrect. The book lists head-of-bed elevation of 30 to 45 degrees, not lying flat, to prevent HAP.",
     "Incorrect. Waiting until the client can do it leaves a high-risk client without the oral care the book calls for.",
     "Incorrect. Rinsing only on request is not proper, regular oral care."
@@ -4179,7 +4179,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book states anxiety worsens asthma symptoms, especially in first-time patients, and lists anxiety among presenting symptoms.",
+    "Correct. The book states anxiety worsens asthma symptoms, especially in first-time clients, and lists anxiety among presenting symptoms.",
     "Incorrect. The book links anxiety to worse symptoms.",
     "Incorrect. Anxiety and restlessness are signs of an ongoing attack, not recovery.",
     "Incorrect. The book does not link anxiety to overuse of the rescue inhaler."
@@ -5371,7 +5371,7 @@
     "Incorrect. Stopping early contradicts the book's emphasis on adherence.",
     "Correct. The book calls for educating the client and family about treatment, complications and adherence; involving the spouse gives the client support.",
     "Incorrect. Skipping doses undermines treatment.",
-    "Incorrect. The book directs teaching to the patient and family."
+    "Incorrect. The book directs teaching to the client and family."
    ],
    "clue": "The client is worried about a long treatment and has family at home.",
    "priority": "Use family support to promote adherence and coping.",
