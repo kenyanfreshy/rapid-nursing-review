@@ -17,10 +17,16 @@ Apple's App Store.
 ## What stays on your device
 
 Your study data is stored only on your device: your answers and scores, study sessions, bookmarks, study plan, the color
-theme you pick, notes on questions you report, and the first name you choose to enter. It is not sent to us or anyone else.
+theme you pick, your study reminder settings, notes on questions you report, and the first name you choose to enter. It is not sent to us or anyone else.
 
 You can export a copy from **Settings → Export**, and you can delete it at any time with **Settings → Reset data** or by
 deleting the app.
+
+## Study reminders and calendar (optional)
+
+If you turn on a study reminder, the app asks for permission to send notifications and schedules them on your device; no
+reminder data leaves your device. If you tap **Add to My Calendar**, the app opens your device's own New Event screen with
+your study event filled in; you choose whether to save it and to which calendar. The app never reads your calendar.
 
 ## Purchases (Rapid Nursing Review Pro)
 
