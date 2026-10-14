@@ -7,7 +7,7 @@ APP
 - The app uses react-native-purchases (RevenueCat SDK) with the public Apple SDK key (appl_…). It shows its OWN custom paywall, built from the current offering's packages, so I need the offering and packages set up exactly as below. A RevenueCat Paywalls template is optional.
 
 PRODUCTS (App Store Connect → subscription group "Rapid Nursing Review Pro", plus one non-consumable)
-1. Monthly — auto-renewable subscription, 1 month, $9.99 USD
+1. Monthly — auto-renewable subscription, 1 month, $19.99 USD
    Product ID: com.alexkorir.rapidnursingreview.pro.monthly
    Display name: Pro Monthly
 2. 3-Month Pass (MOST POPULAR, pre-selected) — auto-renewable subscription, 3 months, $49.99 USD

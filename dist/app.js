@@ -235,7 +235,7 @@ function qWhere(q) { return q.source === 'book' || q.origin === 'pilot' ? `${cou
 // and the full book reader. PREVIEW_UNLOCK lets the web preview try Pro; the mobile build turns it off.
 const PREVIEW_UNLOCK = true;
 const FREE_PER_TOPIC = 10;
-const PRO_PRICES = { monthly: '$9.99', quarter: '$49.99', annual: '$89.99', lifetime: '$119.00' };
+const PRO_PRICES = { monthly: '$19.99', quarter: '$49.99', annual: '$89.99', lifetime: '$119.00' };
 // Every subscription starts with a 2-week free trial (an Apple introductory offer). Lifetime has no trial.
 const TRIAL = { words: '2 weeks', adj: '2-Week' };
 const freeIds = (() => {
@@ -785,10 +785,10 @@ function updatePaywallPlan() {
 }
 function showPaywall(reason = '') {
   if (native) { native.postMessage(JSON.stringify({ type: 'paywall', reason })); return; }
-  // Monthly $9.99 · 3-month pass $49.99 (most popular) · annual $89.99 · lifetime $119.00. Savings are against paying monthly.
-  const save12 = Math.round((1 - 89.99 / (9.99 * 12)) * 100);
+  // Monthly $19.99 · 3-month pass $49.99 (most popular) · annual $89.99 · lifetime $119.00. Savings are against paying monthly.
+  const save12 = Math.round((1 - 89.99 / (19.99 * 12)) * 100), save3 = Math.round((1 - 49.99 / (19.99 * 3)) * 100);
   const plans = [
-    { id: 'quarter', label: '3-MONTH PASS', badge: 'MOST POPULAR', price: PRO_PRICES.quarter, unit: '/3 mo', lines: [`${TRIAL.words} free`, 'A full 90-day NCLEX study plan'] },
+    { id: 'quarter', label: '3-MONTH PASS', badge: 'MOST POPULAR', price: PRO_PRICES.quarter, unit: '/3 mo', lines: [`${TRIAL.words} free`, 'A full 90-day NCLEX study plan'], saveText: `Save ~${save3}%` },
     { id: 'monthly', label: 'MONTHLY', price: PRO_PRICES.monthly, unit: '/mo', lines: [`${TRIAL.words} free`, 'Cancel anytime'] },
     { id: 'annual', label: 'ANNUAL · COMPLETE PASS', price: PRO_PRICES.annual, unit: '/yr', lines: [`${TRIAL.words} free`, '$7.50/mo · covers a delayed ATT or credentialing wait'], saveText: `Save ~${save12}%`, wide: true },
     { id: 'lifetime', label: 'LIFETIME ACCESS', badge: 'PAY ONCE', price: PRO_PRICES.lifetime, unit: '', lines: ['One payment · keep it as your bedside reference'], wide: true },

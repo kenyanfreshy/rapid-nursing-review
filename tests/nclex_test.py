@@ -112,7 +112,7 @@ with sync_playwright() as p:
     pg.click('#modal [data-action=close-modal]')
     pg.click('[data-action=pick-mode][data-mode=exam]'); pg.wait_for_timeout(200)
     check('free: exam mode opens paywall', pg.evaluate("document.querySelector('#modal').className") == 'paywall')
-    pg.click('#modal [data-action=pw-plan][data-id=monthly]'); check('paywall: plan switch updates button', '$9.99/month' in pg.inner_text('#modal .pw-cta'))
+    pg.click('#modal [data-action=pw-plan][data-id=monthly]'); check('paywall: plan switch updates button', '$19.99/month' in pg.inner_text('#modal .pw-cta'))
     check('paywall: 3-month pass is the default, most popular plan', '$49.99' in pg.inner_text('#modal .plan[data-id=quarter]') and 'MOST POPULAR' in pg.inner_text('#modal .plan[data-id=quarter]'))
     pg.click('#modal [data-action=close-modal]')
     pg.click('[data-action=start-pick]'); pg.wait_for_timeout(200)
