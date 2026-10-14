@@ -29,19 +29,19 @@
   {
    "id": "fluids-main-q2",
    "section": "fluids-main",
-   "stem": "A client with increased intracranial pressure has an order for an IV fluid. Which fluid type should the nurse question?",
+   "stem": "A client has increased intracranial pressure. Which proposed IV solution warrants clarification because it is hypotonic and may worsen cerebral edema?",
    "options": [
-    "A hypotonic solution",
-    "Normal saline",
-    "Lactated Ringer's",
-    "An isotonic solution"
+    "0.45% sodium chloride",
+    "0.9% sodium chloride",
+    "3% sodium chloride under a monitored treatment protocol",
+    "20% mannitol for a prescribed osmotherapy indication"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book says hypotonic fluids need caution in clients with increased intracranial pressure or burns.",
-    "The book lists normal saline as an isotonic fluid used for rehydration, with no ICP caution.",
-    "The book lists lactated Ringer's as an isotonic fluid used for rehydration, with no ICP caution.",
-    "The book describes isotonic fluids (270-300 mOsm/L) as used for rehydration, with no ICP caution."
+    "Correct. 0.45% saline is hypotonic and may increase brain water in this setting.",
+    "Incorrect. 0.9% saline is clinically isotonic; the actual volume and indication still require assessment.",
+    "Incorrect. 3% saline is hypertonic and may be selected to treat cerebral edema with close monitoring; it is not the hypotonic fluid asked about.",
+    "Incorrect. Mannitol is an osmotic agent used for selected elevated-ICP indications; monitor renal function, osmolality and fluid/electrolyte effects."
    ],
    "clue": "The client has increased intracranial pressure.",
    "priority": "Choosing safe IV fluids based on tonicity.",
@@ -49,24 +49,25 @@
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the actual solution and clinical indication; avoid hypotonic fluid when it may worsen cerebral edema."
   },
   {
    "id": "fluids-main-q3",
    "section": "fluids-main",
-   "stem": "A client's magnesium is low, and the monitor shows torsades de pointes. Which treatment should the nurse anticipate?",
+   "stem": "After emergency stabilization, a client has recurrent nonsustained torsades de pointes, a prolonged QT interval and hypomagnesemia. Which medication should the nurse anticipate to reduce recurrence?",
    "options": [
-    "Kayexalate",
-    "Normal saline IV",
-    "Sodium bicarbonate drip",
+    "Sodium polystyrene sulfonate orally",
+    "0.9% sodium chloride IV",
+    "Sodium bicarbonate IV",
     "Magnesium sulfate IV"
    ],
    "correct": 3,
    "rationales": [
-    "The book lists Kayexalate for hyperkalemia, not for low magnesium.",
-    "The book lists NS IV for high magnesium, not low magnesium.",
-    "The book lists sodium bicarbonate for low bicarbonate with pH below 7.1, not for hypomagnesemia.",
-    "Correct. The book links low magnesium to torsades de pointes and a prolonged QT, and lists IV magnesium sulfate for treatment."
+    "Incorrect. This potassium-binding medication does not treat torsades and is not emergency therapy for life-threatening hyperkalemia.",
+    "Incorrect. Saline may be indicated for volume depletion but does not correct the magnesium deficit or specifically prevent recurrent torsades.",
+    "Incorrect. Bicarbonate is used for selected indications, not routine treatment of prolonged-QT torsades.",
+    "Correct. IV magnesium is used for recurrent torsades associated with prolonged QT; other causes, potassium levels and QT-prolonging drugs also require evaluation."
    ],
    "clue": "Torsades de pointes with a low magnesium level.",
    "priority": "Correcting hypomagnesemia to treat a dangerous dysrhythmia.",
@@ -74,7 +75,8 @@
    "type": "mcq",
    "clientNeed": "pa",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Sustained polymorphic ventricular tachycardia requires immediate unsynchronized shock; magnesium addresses recurrent prolonged-QT torsades after stabilization."
   },
   {
    "id": "fluids-main-q4",
@@ -83,12 +85,12 @@
    "page": 185,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A nurse is reviewing ECG findings for several clients with electrolyte imbalances. For each ECG finding, indicate which electrolyte imbalance the book links it to.",
+   "stem": "Each row describes a different client. Identify the documented electrolyte abnormality that best explains the ECG finding. ECG appearance alone does not establish the cause.",
    "rows": [
-    "U wave with flat or inverted T waves",
-    "Tall peaked T waves with a wide QRS",
-    "Shortened QT interval",
-    "Torsades de pointes"
+    "Potassium 2.8 mEq/L with flattened T waves and prominent U waves; magnesium and calcium are normal",
+    "Potassium 6.8 mEq/L with peaked T waves and widening QRS; magnesium and calcium are normal",
+    "Elevated ionized calcium above the laboratory reference range with shortened QT; potassium and magnesium are normal",
+    "Magnesium 1.0 mg/dL with prolonged QT and recurrent nonsustained torsades; potassium and ionized calcium are normal"
    ],
    "columns": [
     "Potassium imbalance",
@@ -102,14 +104,15 @@
     2
    ],
    "rationales": [
-    "The book lists ST depression, flat or inverted T waves and a U wave under hypokalemia.",
-    "The book lists tall peaked T waves, wide QRS and PR prolongation under hyperkalemia.",
-    "The book lists a shortened QT under hypercalcemia.",
-    "The book lists torsades de pointes and a prolonged QT under hypomagnesemia."
+    "Hypokalemia can produce flattened T waves and U waves.",
+    "Hyperkalemia can produce peaked T waves and QRS widening and needs urgent treatment.",
+    "Hypercalcemia may shorten the QT interval.",
+    "This row supplies confirmed hypomagnesemia; torsades can also result from other electrolyte abnormalities and QT-prolonging medications."
    ],
    "clue": "Each ECG pattern is tied to a specific electrolyte in the cheat sheet.",
    "priority": "Linking ECG changes to the electrolyte imbalance that causes them.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Interpret ECG cues with measured electrolytes and medication history; torsades is not specific to magnesium deficiency."
   },
   {
    "id": "fluids-main-q5",
@@ -118,14 +121,14 @@
    "page": 185,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client has a potassium level well above 5.0 mEq/L and tall peaked T waves on the monitor. Which medications should the nurse anticipate for this client? Select all that apply.",
+   "stem": "An adult has potassium 6.8 mEq/L and new peaked T waves. The emergency team is present. Which prescribed medications should the nurse anticipate for immediate cardiac protection or temporary movement of potassium into cells? Select all that apply.",
    "options": [
     "Calcium gluconate IV",
-    "Magnesium sulfate IV",
-    "Albuterol nebulizer",
-    "Vitamin D supplement",
-    "Kayexalate",
-    "3% sodium chloride infusion"
+    "Magnesium sulfate IV for a normal magnesium level",
+    "High-dose nebulized albuterol as an adjunct",
+    "Vitamin D orally",
+    "Regular insulin IV with protocol-directed glucose administration and monitoring",
+    "3% sodium chloride IV"
    ],
    "correct": [
     0,
@@ -133,16 +136,17 @@
     4
    ],
    "rationales": [
-    "Correct. The book lists calcium gluconate first in hyperkalemia management.",
-    "Incorrect. The book lists magnesium sulfate IV for hypomagnesemia.",
-    "Correct. The book lists an albuterol nebulizer in hyperkalemia management.",
-    "Incorrect. The book lists vitamin D under calcium management, not hyperkalemia.",
-    "Correct. The book lists Kayexalate in hyperkalemia management.",
-    "Incorrect. The book lists 3% NaCl for hyponatremia."
+    "Correct. Calcium stabilizes the cardiac membrane but does not lower serum potassium.",
+    "Incorrect. Magnesium does not provide the required hyperkalemia membrane protection or intracellular shift when there is no magnesium indication.",
+    "Correct. Albuterol shifts potassium into cells and supplements other emergency measures; it is not reliable as sole therapy.",
+    "Incorrect. Vitamin D does not promptly treat hyperkalemic ECG changes.",
+    "Correct. Insulin shifts potassium into cells; glucose support and frequent glucose checks reduce hypoglycemia risk.",
+    "Incorrect. Hypertonic saline is not a standard treatment for hyperkalemic ECG changes."
    ],
    "clue": "High potassium with tall peaked T waves.",
    "priority": "Anticipating treatment of hyperkalemia.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Emergency hyperkalemia care combines membrane protection, intracellular shifting and a plan to remove potassium; sodium polystyrene sulfonate has delayed onset and is not emergency rescue therapy."
   },
   {
    "id": "fluids-main-q6",
@@ -201,23 +205,24 @@
    "page": 184,
    "clientNeed": "safety",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is preparing to hang an IV solution labeled with an osmolarity above 300 mOsm/L. Which consideration from the book applies to this solution?",
+   "stem": "A nurse is preparing a prescribed 3% sodium chloride infusion for severe symptomatic hyponatremia. Which consideration is most appropriate?",
    "options": [
-    "It is the routine choice for general rehydration",
-    "It replaces intracellular fluid losses",
-    "It is used cautiously because misuse can cause dehydration",
-    "It has the same tonicity as normal saline"
+    "Use it as the routine fluid for general volume replacement",
+    "Expect it to move water from extracellular fluid into cells",
+    "Monitor neurological status, serial sodium levels and signs of volume overload closely",
+    "Treat it as having the same effective tonicity as 0.9% saline"
    ],
    "correct": 2,
    "rationales": [
-    "The book names isotonic fluids, not hypertonic fluids, for rehydration.",
-    "The book says hypotonic fluids replace intracellular losses.",
-    "Correct. The book describes hypertonic (>300 mOsm/L) fluids as used cautiously for specific conditions and able to cause dehydration if misused.",
-    "Normal saline is listed as isotonic (270-300 mOsm/L), not hypertonic."
+    "Incorrect. 3% saline is reserved for specific indications rather than routine rehydration.",
+    "Incorrect. Hypertonic saline draws water toward the extracellular space; it does not act as hypotonic free-water replacement.",
+    "Correct. Treatment requires the prescribed protocol and close sodium monitoring to avoid excessive correction, as well as assessment for fluid overload.",
+    "Incorrect. 3% saline is hypertonic; 0.9% saline is clinically isotonic despite a calculated bag osmolarity around 308 mOsm/L."
    ],
    "clue": "An osmolarity above 300 mOsm/L means the solution is hypertonic.",
    "priority": "Safe use of hypertonic IV fluids.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the actual fluid formulation and indication; monitor sodium correction and cardiopulmonary tolerance during hypertonic saline therapy."
   },
   {
    "id": "fluids-main-q9",
@@ -257,23 +262,24 @@
    "page": 185,
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "stem": "A client is admitted with a sodium level outside the 135-145 mEq/L range. Which routine nursing measure from the book should the nurse include in the care plan?",
+   "stem": "An adult has hypernatremia from inadequate water intake. The team prescribes individualized water replacement and serial sodium checks. Which nursing measure supports safe care?",
    "options": [
-    "Monitor intake and output and adjust dietary sodium",
-    "Encourage a high-potassium diet",
-    "Restrict all oral fluids",
-    "Give a vitamin D supplement daily"
+    "Record all intake/output and monitor hydration/neurologic status against the replacement plan.",
+    "Increase dietary potassium solely to correct the sodium.",
+    "Withhold all oral water regardless of the prescription.",
+    "Give vitaminD solely to correct the sodium."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book's sodium management tips are to monitor intake and output and adjust dietary sodium.",
-    "The book links regulating dietary potassium to potassium management, not sodium.",
-    "Complete fluid restriction is not among the book's sodium management tips.",
-    "The book lists vitamin D under calcium management."
+    "Correct. Dysnatremia often reflects water balance; monitor the actual treatment plan rather than automatically altering dietary sodium.",
+    "Incorrect. Potassium intake does not replace the prescribed water correction.",
+    "Incorrect. Universal fluid withholding would oppose the stated plan.",
+    "Incorrect. VitaminD does not treat this water-deficit hypernatremia."
    ],
    "clue": "The imbalance involves sodium, which regulates fluid balance.",
    "priority": "Basic care measures for a sodium imbalance: intake and output and diet.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Specify the sodium disorder and cause; monitor fluid balance and the prescribed correction rather than applying a universal dietary rule."
   },
   {
    "id": "fluids-main-q11",
@@ -369,19 +375,19 @@
   {
    "id": "fluids-main-q14",
    "section": "fluids-main",
-   "stem": "A client's magnesium is 3.4 mg/dL, and the ECG shows a prolonged PR interval and a widened QRS. Which prescription should the nurse question before acting?",
+   "stem": "A client with kidney impairment has magnesium 3.4 mg/dL (laboratory range 1.7–2.2 mg/dL). Which new prescription needs clarification before administration?",
    "options": [
-    "Normal saline IV infusion",
-    "Monitor renal function",
-    "Magnesium sulfate IV",
-    "Dietary adjustment to reduce magnesium intake"
+    "A prescribed isotonic-fluid plan based on volume assessment.",
+    "Repeat renal function and magnesium monitoring.",
+    "Magnesium sulfate IV without a separate documented indication.",
+    "Review magnesium-containing medicines and supplements."
    ],
    "correct": 2,
    "rationales": [
-    "The book lists normal saline IV for high magnesium, so this fits.",
-    "The book lists monitoring renal function for magnesium imbalance, so this fits.",
-    "Correct. Magnesium sulfate IV is the book's treatment for low magnesium; giving it to a client with high magnesium would make the imbalance worse.",
-    "The book lists dietary adjustment for magnesium imbalance, so this fits."
+    "Incorrect. An individualized fluid plan may be appropriate after volume assessment; it is not automatically required for every elevated magnesium result.",
+    "Incorrect. Monitoring helps identify cause and trajectory.",
+    "Correct. Additional magnesium may worsen the elevated level; clarify the indication. Do not attribute major ECG abnormalities to this mild elevation without evaluating other causes.",
+    "Incorrect. Identify supplements/medicines that may contribute to accumulation."
    ],
    "clue": "The level is above 2.2 mg/dL and the ECG matches the book's hypermagnesemia changes.",
    "priority": "Question a prescription that would worsen the client's existing imbalance.",
@@ -390,7 +396,8 @@
    "clientNeed": "moc",
    "cjmm": "analyzeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Clarify additional magnesium when the level is elevated and evaluate severity clinically; mild elevation alone does not explain marked conduction abnormalities."
   },
   {
    "id": "fluids-main-q15",
@@ -589,27 +596,26 @@
   {
    "id": "fluids-main-q22",
    "section": "fluids-main",
-   "stem": "A client's bicarbonate is 13 mEq/L, and the arterial pH is 7.05. Which actions should the nurse anticipate based on the book? Select all that apply.",
+   "stem": "An adult with DKA has arterial pH 7.05, bicarbonate 13 mEq/L and potassium 6.2 mEq/L. The team is treating the cause under protocol. Which actions should the nurse anticipate? Select all that apply.",
    "options": [
-    "Prepare to give sodium bicarbonate",
-    "Monitor the client's ventilation",
-    "Watch the ECG for peaked T waves related to hyperkalemia",
-    "Give magnesium sulfate IV",
-    "Start a 3% sodium chloride infusion",
-    "Expect flat T waves from alkalosis"
+    "Give bicarbonate automatically because pH is below 7.1.",
+    "Assess ventilation and signs of fatigue or respiratory failure.",
+    "Monitor the ECG and initiate the prescribed acute potassium-safety response.",
+    "Give magnesium solely because bicarbonate is low.",
+    "Begin 3% saline solely because bicarbonate is low.",
+    "Treat the client as having alkalosis based on these values."
    ],
    "correct": [
-    0,
     1,
     2
    ],
    "rationales": [
-    "Correct. The book lists sodium bicarbonate tabs or drip for low bicarbonate when the pH is below 7.1.",
-    "Correct. The book says to monitor ventilation for bicarbonate imbalance.",
-    "Correct. The book links acidosis to peaked T waves secondary to hyperkalemia.",
-    "Magnesium sulfate IV is the book's treatment for low magnesium.",
-    "3% sodium chloride is the book's treatment for hyponatremia.",
-    "Flat T waves are linked to alkalosis, not acidosis."
+    "Incorrect. Bicarbonate is not routine at this DKA pH; current adult guidance considers it for more severe acidemia, typically pH<7.0, under an actual indication/order.",
+    "Correct. Ventilation compensates for metabolic acidosis; deterioration requires urgent assessment.",
+    "Correct. The supplied high potassium poses dysrhythmia risk; assess ECG and follow the prescribed stabilization/shift/removal plan.",
+    "Incorrect. Low bicarbonate alone does not establish magnesium deficiency.",
+    "Incorrect. Low bicarbonate alone does not establish a hypertonic-saline indication.",
+    "Incorrect. The low pH/bicarbonate indicate acidosis, not alkalosis."
    ],
    "clue": "Bicarbonate is below 22 mEq/L and the pH is below 7.1, the book's cutoff for giving sodium bicarbonate.",
    "priority": "Manage severe acidosis with bicarbonate replacement, ventilation monitoring and ECG watch for hyperkalemia.",
@@ -618,22 +624,23 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Treat acidosis by cause and evaluate respiratory/potassium danger; pH<7.1 is not a universal bicarbonate indication."
   },
   {
    "id": "fluids-main-q23",
    "section": "fluids-main",
-   "stem": "A nurse is preparing to care for clients with electrolyte imbalances. For each imbalance, indicate whether the book lists calcium gluconate as part of its management.",
+   "stem": "For each specified emergency indication, classify whether IV calcium gluconate may be appropriate under a monitored prescription.",
    "rows": [
-    "Hyperkalemia",
-    "Hypocalcemia",
-    "Severe hypermagnesemia",
-    "Hypomagnesemia",
-    "Hyponatremia"
+    "Hyperkalemia with dangerous ECG changes.",
+    "Symptomatic acute hypocalcemia with tetany.",
+    "Severe hypermagnesemia with cardiac/neuromuscular toxicity.",
+    "Isolated hypomagnesemia without hypocalcemia.",
+    "Isolated hypotonic hyponatremia without a calcium-related indication."
    ],
    "columns": [
-    "Listed",
-    "Not listed"
+    "Appropriate for the specified indication",
+    "Not the treatment for this isolated problem"
    ],
    "correct": [
     0,
@@ -643,11 +650,11 @@
     1
    ],
    "rationales": [
-    "Listed. The book lists calcium gluconate in hyperkalemia management.",
-    "Listed. The book lists IV calcium gluconate for hypocalcemia.",
-    "Listed. The book says to give calcium gluconate for severe high magnesium.",
-    "Not listed. Low magnesium is treated with magnesium sulfate IV.",
-    "Not listed. Low sodium is treated with 3% sodium chloride."
+    "Calcium stabilizes cardiac membranes; it does not remove potassium, so definitive potassium treatment also is needed.",
+    "IV calcium may replace calcium urgently with ECG monitoring.",
+    "Calcium may counter serious magnesium-related toxicity while elimination/support is arranged.",
+    "Magnesium replacement addresses the isolated low-magnesium problem.",
+    "Hyponatremia requires its own cause/symptom-directed sodium-water plan; calcium is not its isolated treatment."
    ],
    "clue": "Calcium gluconate appears under three different electrolytes in the cheat sheet.",
    "priority": "Know where calcium gluconate fits in electrolyte emergencies.",
@@ -656,30 +663,30 @@
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Calcium use depends on an actual indication and toxicity signs, not just the name of an electrolyte imbalance."
   },
   {
    "id": "fluids-main-q24",
    "section": "fluids-main",
-   "stem": "A client with fluid volume loss needs IV rehydration. Which solutions match the book's description of isotonic fluids used for rehydration? Select all that apply.",
+   "stem": "An adult with extracellular fluid volume depletion needs initial IV volume replacement. Which prescribed solutions are isotonic crystalloids appropriate for this purpose? Select all that apply.",
    "options": [
-    "Normal saline",
-    "A solution with an osmolarity above 300 mOsm/L",
+    "0.9% sodium chloride",
+    "3% sodium chloride",
     "Lactated Ringer's",
-    "A solution with an osmolarity below 270 mOsm/L",
-    "A solution with an osmolarity of 285 mOsm/L"
+    "0.45% sodium chloride",
+    "5% dextrose in water"
    ],
    "correct": [
     0,
-    2,
-    4
+    2
    ],
    "rationales": [
-    "Correct. The book names normal saline as an isotonic example.",
-    "Above 300 mOsm/L is hypertonic and is used cautiously.",
-    "Correct. The book names lactated Ringer's as an isotonic example.",
-    "Below 270 mOsm/L is hypotonic and is used to replace intracellular losses.",
-    "Correct. 285 mOsm/L falls within the book's isotonic range of 270-300 mOsm/L."
+    "Correct. 0.9% saline is clinically isotonic and expands extracellular volume; its labeled calculated osmolarity may be 308 mOsm/L.",
+    "Incorrect. 3% saline is hypertonic and requires a specific indication and close monitoring.",
+    "Correct. Lactated Ringer's is a balanced isotonic crystalloid used for extracellular volume replacement.",
+    "Incorrect. 0.45% saline is hypotonic and is not the initial fluid for intravascular volume resuscitation.",
+    "Incorrect. After glucose metabolism, this solution supplies free water and is unsuitable for initial volume resuscitation."
    ],
    "clue": "Isotonic fluids have an osmolarity of 270-300 mOsm/L and are used for rehydration.",
    "priority": "Choose an isotonic solution for routine rehydration.",
@@ -688,7 +695,8 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Choose fluid by formulation, effective tonicity and clinical purpose; a single bag osmolarity cutoff does not define suitability."
   },
   {
    "id": "fluids-main-q25",

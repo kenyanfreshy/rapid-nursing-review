@@ -129,19 +129,19 @@
   {
    "id": "nclex-highrisk-q3",
    "section": "nclex-highrisk",
-   "stem": "A client with increased intracranial pressure from cerebral edema needs IV fluids. Which type of fluid order should the nurse question?",
+   "stem": "A client with cerebral edema has a new 0.45% saline maintenance order. Which explanation best supports clarifying it under the neurocritical-care plan?",
    "options": [
-    "Normal saline for volume replacement",
-    "A hypotonic fluid for maintenance",
-    "Lactated Ringer's for volume replacement",
-    "An isotonic fluid given to restore circulating volume"
+    "The fluid has the same tonicity as 0.9% saline after infusion",
+    "Its lower tonicity can increase brain water and worsen cerebral edema",
+    "It routinely removes brain water through an osmotic effect",
+    "Its high potassium concentration can directly cause hyperkalemia"
    ],
    "correct": 1,
    "rationales": [
-    "The book lists NS as a volume replacement fluid and does not identify it as worsening cerebral edema.",
-    "Correct. The book states hypotonic fluids can worsen cerebral edema, which is dangerous with increased intracranial pressure.",
-    "LR is listed with NS as a volume replacement fluid, not as one that worsens cerebral edema.",
-    "The book's cerebral edema warning applies to hypotonic fluids; isotonic fluids such as NS and LR are listed for volume replacement."
+    "Incorrect. 0.45% saline is hypotonic relative to plasma; it is not equivalent to 0.9% saline.",
+    "Correct. A hypotonic maintenance solution requires neurocritical-specific review because free-water shifts can worsen cerebral edema.",
+    "Incorrect. OsmoticICP treatment uses a specifically selected hypertonic/osmotic plan, not this routine hypotonic solution.",
+    "Incorrect. Plain 0.45% saline contains no potassium; the concern is tonicity."
    ],
    "clue": "Increased intracranial pressure means cerebral edema is a risk.",
    "priority": "Choose fluids based on why they are used and their risks.",
@@ -149,21 +149,22 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "checked": true
+   "checked": true,
+   "takeaway": "Question the hypotonic maintenance order based on the actual cerebral-edema risk."
   },
   {
    "id": "nclex-strategy-q1",
    "section": "nclex-strategy",
-   "stem": "The RN is working with a UAP and an LPN. Which task is appropriate to delegate to the UAP?",
+   "stem": "The RN is working with a UAP and an LPN. Which task is appropriate to delegate to the UAP? Assume local law and policy permit routine vital-sign collection by a trained, competent UAP under RN supervision.",
    "options": [
-    "Teaching a stable client how to use an incentive spirometer",
+    "Providing initial teaching to a stable client how to use an incentive spirometer",
     "Giving oral medications to a client with a stable condition",
     "Taking vital signs on a stable client and reporting the results",
     "Evaluating whether a client's pain medication was effective"
    ],
    "correct": 2,
    "rationales": [
-    "Teaching must be done by the RN and is never delegated.",
+    "The RN retains initial assessment, education planning and initial teaching in this scenario. An LPN/LVN may reinforce established teaching within authorized scope and competence.",
     "Administering oral medications is listed as an LPN task, not a UAP task.",
     "Correct. The book lists taking vital signs on stable clients and reporting findings as UAP tasks.",
     "Evaluating outcomes is an RN responsibility that cannot be delegated."
@@ -194,7 +195,7 @@
     "Correct. The book says to include current vital signs, relevant labs, the nursing assessment and a clear recommendation."
    ],
    "clue": "The provider must act on the call, so the report must be complete.",
-   "priority": "Use complete SBAR communication for patient safety.",
+   "priority": "Use complete SBAR communication for client safety.",
    "page": 10,
    "type": "mcq",
    "clientNeed": "moc",
@@ -269,14 +270,14 @@
     "Give the medication because the client confirmed it is theirs",
     "Ask the roommate whether the medication belongs to the other client",
     "Check the bed assignment on the census sheet and give the medication",
-    "Verify the client's identity before giving the medication"
+    "Verify at least two approved client identifiers against the medication record"
    ],
    "correct": 3,
    "rationales": [
     "Incorrect. A client's statement alone does not replace identity verification before medications.",
     "Incorrect. Asking a roommate is not identity verification and breaches the client's privacy.",
     "Incorrect. A bed location is not verification of the client's identity.",
-    "Correct. The book lists verifying client identity before medications or procedures as a key safety principle."
+    "Correct. Match at least two approved client identifiers to the medication record before administration. A room or bed number is not an approved identifier."
    ],
    "clue": "A shared room and a client volunteering that the medication is theirs.",
    "priority": "Verify identity before every medication or procedure.",
@@ -339,23 +340,24 @@
    "page": 5,
    "clientNeed": "pa",
    "cjmm": "prioritizeHypotheses",
-   "stem": "A client has a low oxygen saturation and a low blood pressure. There is no sign of bleeding. Which problem should the nurse treat first?",
+   "stem": "An alert adult has an intact airway, a palpable pulse, SpO2 86% on room air and blood pressure 98/64 mm Hg without dizziness or other shock cues. Which action should the nurse begin promptly while obtaining assistance for continued assessment?",
    "options": [
-    "The low blood pressure, because circulation supports oxygen delivery",
-    "Both equally, by treating whichever is easier to correct",
-    "Neither, until the provider reviews the client's labs",
-    "The hypoxia, because breathing comes before circulation"
+    "Give a large fluid bolus before reassessing oxygenation",
+    "Wait to treat until the blood pressure falls below 90 mm Hg",
+    "Obtain laboratory results before providing support",
+    "Apply oxygen according to protocol and reassess respiratory status"
    ],
    "correct": 3,
    "rationales": [
-    "Incorrect. The book places hypotension after hypoxia unless hemorrhage is present, and no bleeding is described.",
-    "Incorrect. ABCs set a clear order; ease of correction does not set priority.",
-    "Incorrect. Waiting for a review delays care for a physiological threat.",
-    "Correct. The book states hypoxia is treated before hypotension unless hemorrhage is present."
+    "Incorrect. A large bolus is not justified by the supplied pressure alone and would delay severe hypoxemia treatment.",
+    "Incorrect. Marked hypoxemia requires prompt action even when the systolic pressure is above 90 mm Hg.",
+    "Incorrect. Laboratory assessment must not delay immediate oxygenation support.",
+    "Correct. The severe oxygen deficit is the clearest immediate threat in this scenario; continue circulation assessment and cause-directed treatment concurrently."
    ],
    "clue": "Hypoxia and hypotension together without hemorrhage.",
    "priority": "Follow ABC order: breathing before circulation unless hemorrhage.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the severity of actual cues to prioritize care; absence of hemorrhage does not make circulation unimportant."
   },
   {
    "id": "nclex-priorities-q9",
@@ -435,14 +437,14 @@
    "page": 5,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "stem": "A nurse is planning care for a client admitted with chest pain who is also anxious. Which priority decisions follow ABCs and Maslow's hierarchy? Select all that apply.",
+   "stem": "An anxious adult with chest pain has SpO2 86%, an intact airway, a palpable pulse and blood pressure 98/64 mm Hg. Which initial nursing actions are appropriate? Select all that apply.",
    "options": [
-    "Address the low oxygen saturation before the client's anxiety",
-    "Treat an abnormal lab value before a partial airway obstruction",
-    "Manage an airway problem before a breathing problem",
-    "Address the client's psychosocial needs before physiological needs",
-    "Treat hypotension before hypoxia when no hemorrhage is present",
-    "Address breathing problems before circulation issues"
+    "Provide oxygen according to the emergency protocol while reassessing breathing",
+    "Delay bedside care until all laboratory results return",
+    "Assess airway patency and respiratory effort promptly",
+    "Focus first on reassurance and postpone treatment of hypoxemia",
+    "Ignore the blood pressure because there is no visible bleeding",
+    "Activate assistance and arrange concurrent assessment of circulation and the cause of chest pain"
    ],
    "correct": [
     0,
@@ -450,16 +452,17 @@
     5
    ],
    "rationales": [
-    "Correct. The book states a client with chest pain and low oxygen saturation takes priority over pain or anxiety.",
-    "Incorrect. The book says to treat airway obstruction before an abnormal lab value.",
-    "Correct. Airway problems come first, then breathing.",
-    "Incorrect. Maslow's hierarchy places physiological needs before psychosocial needs.",
-    "Incorrect. The book treats hypoxia before hypotension unless hemorrhage is present.",
-    "Correct. Breathing problems come before circulation issues in the ABCs."
+    "Correct. Marked hypoxemia requires prompt support while the cause is evaluated.",
+    "Incorrect. Waiting for laboratory results delays treatment of an immediate physiological threat.",
+    "Correct. Airway and breathing assessment guides oxygenation support.",
+    "Incorrect. Reassurance can accompany care but cannot replace treatment of severe hypoxemia.",
+    "Incorrect. Circulation still requires assessment; absence of bleeding does not exclude serious shock or cardiac disease.",
+    "Correct. Team assistance allows oxygenation and circulation to be evaluated and supported concurrently."
    ],
    "clue": "Chest pain with anxiety in a client whose oxygenation may be compromised.",
    "priority": "Prioritize airway, breathing, circulation, then psychosocial needs.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Prioritize the actual physiological threats; cardiac arrest uses C-A-B, and unstable breathing and circulation may require simultaneous resuscitation."
   },
   {
    "id": "nclex-priorities-q12",
@@ -705,15 +708,15 @@
    "options": [
     "It is used to correct a high sodium level by adding free water",
     "It replaces blood loss after surgery",
-    "It provides hydration and some calories and prevents tissue breakdown",
+    "It provides water/sodium and limited dextrose calories that can reduce catabolism",
     "It is the fluid of choice for clients with swelling in the brain"
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. The book gives this purpose for D5W in hypernatremia, not for D5 1/2NS.",
+    "This does not directly answer why dextrose was included. After glucose metabolism,D 5 0.45% saline also supplies hypotonic water and can be selected for hypernatremia according to volume/electrolyte needs; free-water replacement is not exclusive toD 5 W.",
     "Incorrect. The book lists NS and LR for volume replacement.",
-    "Correct. The book states D5 1/2NS is used for hydration, provides calories and prevents catabolism (breakdown of body tissue).",
-    "Incorrect. The book does not describe D5 1/2NS for cerebral edema; it lists this fluid for hydration, calories and preventing catabolism."
+    "Correct for the limited-calorie role of dextrose: the fluid supplies water/sodium and modest calories that can reduce catabolism. It is not complete nutrition and cannot guarantee prevention of tissue loss.",
+    "Incorrect. The book does not describe D 5 1/2 NS for cerebral edema; it lists this fluid for hydration, calories and preventing catabolism."
    ],
    "clue": "Poor oral intake and a dextrose-containing maintenance fluid.",
    "priority": "Explain why a fluid is chosen, including its caloric role.",
@@ -760,18 +763,18 @@
    "page": 10,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "An RN is making assignments. Which client care task is most appropriate to assign to the LPN?",
+   "stem": "An RN is making assignments. Which client care task is most appropriate to assign to the LPN? Assume established wound care is permitted by local LPN/LVN scope and policy, and the nurse has demonstrated competence.",
    "options": [
     "Performing wound care for a stable client",
     "Assessing a newly unstable client with chest pain",
-    "Teaching a client how to use a new inhaler",
+    "Providing initial teaching on a newly prescribed inhaler",
     "Evaluating whether a client's plan of care is working"
    ],
    "correct": 0,
    "rationales": [
     "Correct. The book lists performing wound care as an LPN task, and the client is stable.",
     "Incorrect. The RN must assess and care for unstable clients.",
-    "Incorrect. Teaching is an RN responsibility that is never delegated.",
+    "Incorrect. The RN retains initial assessment and teaching planning in this scenario. An LPN/LVN may reinforce established education within authorized scope, policy and competence.",
     "Incorrect. Evaluating outcomes is an RN responsibility."
    ],
    "clue": "The client is stable and the task is within LPN scope.",
@@ -785,13 +788,13 @@
    "page": 10,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "An RN is working with a UAP and an LPN. For each task, indicate the team member who is the most appropriate to perform it.",
+   "stem": "An RN allocates care to a competent UAP and LPN/LVN. Local law and policy permit the routine tasks below. Choose the least licensed team member appropriate for each task while the RN retains oversight and clinical judgment.",
    "rows": [
-    "Taking vital signs on a stable client",
-    "Administering oral medications to a stable client",
-    "Assessing a client whose condition has become unstable",
-    "Teaching a client about a new diagnosis",
-    "Monitoring a stable client"
+    "Collect and report routine vital signs for an established stable client",
+    "Administer routine oral medication to an established stable client; medication administration is not authorized for this UAP",
+    "Assess a newly unstable client and formulate the response",
+    "Provide initial assessment and teaching planning for a new diagnosis",
+    "Perform authorized focused medication-response monitoring within an established stable plan, reporting changes to the RN"
    ],
    "columns": [
     "UAP",
@@ -806,15 +809,16 @@
     1
    ],
    "rationales": [
-    "The book lists taking vital signs on stable clients as a UAP task.",
-    "The book lists administering oral medications as an LPN task.",
-    "The RN must assess and care for unstable clients.",
-    "The RN must teach; teaching is never delegated.",
-    "The book lists monitoring stable clients as an LPN task."
+    "Routine measurements may be delegated with clear reporting parameters.",
+    "The LPN/LVN may give permitted medication within competence; this UAP is not authorized.",
+    "The RN retains assessment and judgment for instability.",
+    "The RN retains initial assessment and the education plan; authorized LPN/LVN reinforcement is different.",
+    "This specified licensed monitoring fits the LPN/LVN role; RNs also monitor clients, but the stem asks for the least licensed appropriate member."
    ],
    "clue": "Client stability and task complexity for each task.",
    "priority": "Delegate based on stability and complexity; keep assessment, teaching and judgment with the RN.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Task allocation requires scope, competence, stability and supervision; generic monitoring is not exclusive to one profession."
   },
   {
    "id": "nclex-strategy-q6",
@@ -834,7 +838,7 @@
    "rationales": [
     "Correct. The book lists assisting with hygiene and reporting findings as UAP tasks.",
     "Incorrect. Assessment and clinical judgment are never delegated.",
-    "Incorrect. Teaching is never delegated.",
+    "Incorrect. The UAP does not independently perform initial incision-care teaching or create the education plan. An LPN/LVN may reinforce established teaching within authorized scope and competence.",
     "Incorrect. Evaluating outcomes is an RN responsibility."
    ],
    "clue": "A stable client needs routine hygiene help.",
@@ -872,7 +876,7 @@
     "Incorrect. Leaving out a recommendation makes the communication incomplete."
    ],
    "clue": "A changing condition that the provider must act on.",
-   "priority": "Communicate completely using SBAR for patient safety.",
+   "priority": "Communicate completely using SBAR for client safety.",
    "checked": true
   },
   {
@@ -1222,24 +1226,25 @@
    "page": 4,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with weakness after a stroke is at risk for aspiration. The lunch tray has just arrived. Which action by the nurse best helps prevent aspiration?",
+   "stem": "A client with weakness after a stroke has completed a swallowing assessment and is cleared for the prescribed food texture and liquid consistency with assisted feeding. The lunch tray arrives. Which action best helps prevent aspiration?",
    "options": [
-    "Leave the tray within reach so the client can eat while lying flat",
-    "Help the client sit upright before setting up the meal",
-    "Encourage the client to eat quickly before the food gets cold",
-    "Turn off the call light so the client can eat without interruptions"
+    "Offer the meal while the client is lying flat",
+    "Assist the client to sit upright for the meal",
+    "Encourage rapid eating before the food cools",
+    "Keep the client reclined at 30 degrees throughout oral feeding"
    ],
    "correct": 1,
    "rationales": [
-    "Eating while lying flat raises the risk of food entering the airway.",
-    "Correct. Preventing aspiration is a key safety principle; sitting the client upright for the meal is a basic way to do this.",
-    "Eating quickly increases the chance of choking and aspiration.",
-    "The client needs a way to call for help during the meal; turning off the call light is unsafe."
+    "Incorrect. Supine oral feeding increases aspiration risk.",
+    "Correct. Upright positioning supports safer swallowing along with the individualized feeding plan.",
+    "Incorrect. Slow pacing and manageable bites are safer than rushing.",
+    "Incorrect. Thirty-degree reclining is less protective for oral feeding than the prescribed upright position."
    ],
    "clue": "Weakness and aspiration risk at mealtime.",
    "priority": "Prevent aspiration during meals.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Confirm the swallowing plan before oral intake, then use upright positioning and the prescribed texture, consistency and assistance."
   },
   {
    "id": "nclex-priorities-q21",
@@ -1599,17 +1604,17 @@
    "page": 8,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is reviewing morning results. For each result, indicate whether it requires action or needs no immediate action.",
+   "stem": "Classify these time-stamped results for currently assessed clients.",
    "rows": [
-    "ABG results showing acidosis",
-    "A blood glucose at an extreme low",
-    "A potassium level that is normal and matches prior results",
-    "ABG results showing alkalosis",
-    "A hemoglobin that has stayed the same for three days"
+    "NewABG pH 7.10,PaCO₂ 60 mmHg,HCO₃18 mEq/L with reduced consciousness",
+    "Glucose 35 mg/dL with diaphoresis/confusion",
+    "Potassium 4.1 mEq/L unchanged in a clinically stable client",
+    "NewABG pH 7.60,PaCO₂ 20 mmHg,HCO₃19 mEq/L with acute dyspnea",
+    "Hemoglobin 13.0 g/dL unchanged for 3 days, no bleeding/symptoms"
    ],
    "columns": [
-    "Requires action",
-    "No immediate action"
+    "Requires prompt action",
+    "No immediate change indicated"
    ],
    "correct": [
     0,
@@ -1619,16 +1624,17 @@
     1
    ],
    "rationales": [
-    "ABG changes indicating acidosis are listed as critical labs that require action.",
-    "Blood glucose extremes are critical labs that require action.",
-    "A normal, stable potassium is not a potassium abnormality.",
-    "ABG changes indicating alkalosis are listed as critical labs that require action.",
-    "A stable hemoglobin does not suggest bleeding; a falling one would."
+    "Severe new acidemia with altered consciousness needs urgent assessment/support.",
+    "Symptomatic severe hypoglycemia requires immediate treatment.",
+    "Normal stable potassium needs routine ongoing monitoring.",
+    "Severe new alkalemia with symptoms needs urgent cause/respiratory assessment.",
+    "An adequate stable hemoglobin without symptoms does not require an immediate change."
    ],
    "clue": "Which results are on the book's list of critical labs.",
    "priority": "Recognize critical labs that require action.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Magnitude, acuity, symptoms and actual values determine urgency; a stable dangerously low result can still be urgent."
   },
   {
    "id": "nclex-highrisk-q22",
@@ -1725,7 +1731,7 @@
    "correct": 3,
    "rationales": [
     "Deciding how serious a finding is requires assessment, which the RN keeps.",
-    "Teaching is an RN responsibility and is not delegated.",
+    "This new skin finding needs RN assessment and an individualized prevention/teaching plan. LPN/LVN reinforcement of established teaching may be permitted within scope; the UAP must not independently assess or create the plan.",
     "Treating a skin problem requires assessment and judgment the UAP does not hold.",
     "Correct. UAP can assist with hygiene and report findings; the RN then assesses."
    ],
@@ -1767,7 +1773,7 @@
    "page": 10,
    "clientNeed": "moc",
    "cjmm": "analyzeCues",
-   "stem": "An RN is reviewing tasks for the shift. For each task, indicate whether the RN may delegate it or must keep it.",
+   "stem": "An RN is reviewing tasks for the shift. For each task, indicate whether the RN may delegate it or must keep it. Assume the delegatee is competent and local law, policy and supervision requirements permit the specified routine UAP tasks and established wound care by the LPN/LVN.",
    "rows": [
     "Helping a stable client with morning hygiene",
     "Deciding whether a client's new symptom needs a call to the provider",
@@ -1796,7 +1802,8 @@
    "clue": "Task complexity and need for judgment in each item.",
    "priority": "Delegate based on stability and task complexity; keep assessment, teaching, evaluation and judgment.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "The RN retains assessment, initial teaching plans, evaluation and clinical judgment. Routine tasks and reinforcement may be assigned within local scope, policy and competence."
   },
   {
    "id": "nclex-strategy-q16",
@@ -1834,7 +1841,7 @@
    "stem": "For each situation, indicate which ethical or legal concept the nurse is applying.",
    "rows": [
     "A nurse declines to give test results to a caller who says she is the client's neighbor",
-    "A nurse confirms the client understands the procedure before witnessing the consent signature",
+    "A nurse checks apparent understanding and voluntariness, refers unanswered questions to the responsible provider and follows consent-witness policy",
     "A nurse notifies the required authority about suspected abuse as the law requires",
     "A nurse refuses to discuss a client's diagnosis with another client's visitor"
    ],
@@ -1851,7 +1858,7 @@
    ],
    "rationales": [
     "Protecting client information from people not involved in care is confidentiality.",
-    "Making sure the client understands before signing is part of informed consent.",
+    "Nursing assessment supports informed consent; the responsible procedural provider supplies the required risks, benefits and alternatives. Witnessing a signature alone does not certify that the complete disclosure occurred.",
     "Reporting suspected abuse as required by law is mandatory reporting.",
     "Keeping a client's diagnosis private from other people is confidentiality."
    ],
@@ -1869,7 +1876,7 @@
    "cjmm": "generateSolutions",
    "stem": "A nurse is caring for an alert, competent client who is scheduled for a procedure later today. Which actions reflect the nurse's ethical and legal responsibilities? Select all that apply.",
    "options": [
-    "Make sure the client understands the procedure before witnessing the consent signature",
+    "Check apparent understanding and voluntariness, refer unanswered questions to the responsible provider and follow consent-witness policy",
     "Ask a family member to sign the consent because it is faster",
     "Document care accurately and only after it has been done",
     "Share the client's diagnosis with the roommate who asks about it",
@@ -1882,11 +1889,11 @@
     4
    ],
    "rationales": [
-    "Correct. Informed consent is a key concept, and the client must understand what is being agreed to.",
+    "Correct. Assessing understanding supports consent; the responsible provider supplies the required disclosure. A witness signature alone does not certify the entire consent process.",
     "Incorrect. An alert, competent client makes the decision; having family sign ignores client autonomy.",
     "Correct. Documentation accuracy is a key concept.",
     "Incorrect. This breaks confidentiality.",
-    "Correct. Client autonomy is a key concept, and the book says to assess understanding.",
+    "Correct. client autonomy is a key concept, and the book says to assess understanding.",
     "Incorrect. Charting a medication before it is given makes the record inaccurate."
    ],
    "clue": "An alert, competent client before a procedure.",

@@ -173,7 +173,7 @@
    "id": "heme-sickle-q1",
    "section": "heme-sickle",
    "type": "mcq",
-   "stem": "A client with sickle cell disease is admitted in a vaso-occlusive crisis and rates pain 9 out of 10. Which nursing action is the priority?",
+   "stem": "A client with sickle cell disease is admitted in a vaso-occlusive crisis and rates pain 9 out of 10. Which nursing action is the priority? The client has documented SpO2 90% on room air and mild dehydration; prescribed oxygen and fluid therapy are being reassessed.",
    "options": [
     "Hold pain medication until all laboratory results have returned",
     "Restrict oral and IV fluids to reduce the workload on the heart",
@@ -185,14 +185,15 @@
     "Incorrect. The book stresses giving analgesia quickly, within 30 minutes, rather than delaying it.",
     "Incorrect. Hydration is part of crisis treatment, and dehydration is a listed sickling trigger.",
     "Incorrect. Intense exercise is listed as a hypoxemia trigger that can promote sickling.",
-    "Correct. The book lists analgesia within 30 minutes, oxygen, and hydration as treatment for vaso-occlusive crisis."
+    "Correct. Give analgesia promptly, oxygen for the documented hypoxemia and individualized hydration for dehydration; avoid fluid overload."
    ],
    "clue": "Severe pain during a vaso-occlusive crisis.",
    "priority": "Prompt pain management with oxygen and hydration in sickle cell crisis.",
    "page": 159,
    "clientNeed": "pa",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Prompt analgesia is central. Titrate oxygen for hypoxemia and fluids to volume status rather than routinely giving both to every crisis."
   },
   {
    "id": "heme-sickle-q2",
@@ -251,17 +252,17 @@
    "page": 158,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is reviewing the types of sickle cell crisis. For each finding, indicate the type of crisis it is most associated with.",
+   "stem": "Each row describes a different client with sickle cell disease. Identify the crisis most supported by the complete cue set.",
    "rows": [
-    "Pain and fever",
-    "Pale skin and tachycardia",
-    "Jaundice and dark urine",
-    "Lethargy"
+    "Severe typical limb and back pain after dehydration, without a sudden hemoglobin fall or splenic enlargement",
+    "Rapidly enlarging spleen, hemoglobin drop of more than 2 g/dL, reticulocytosis, pallor and tachycardia",
+    "Recent transfusion followed by hemoglobin falling below the pretransfusion value, jaundice, dark urine and increased hemolysis markers",
+    "New lethargy and hypotension with rapid splenic enlargement and a marked hemoglobin drop"
    ],
    "columns": [
-    "Vaso-occlusive crisis",
-    "Sequestration crisis",
-    "Hyperhemolytic crisis"
+    "Vaso-occlusive pain episode",
+    "Acute splenic sequestration",
+    "Post-transfusion hyperhemolysis"
    ],
    "correct": [
     0,
@@ -270,14 +271,15 @@
     1
    ],
    "rationales": [
-    "Vaso-occlusive. The book lists pain, fever, and fatigue for vaso-occlusive crisis.",
-    "Sequestration. The book lists pale skin and tachycardia with sequestration crisis.",
-    "Hyperhemolytic. The book lists jaundice and dark urine for hyperhemolytic crisis.",
-    "Sequestration. Lethargy is listed under sequestration crisis."
+    "The supplied pain pattern supports a vaso-occlusive episode; fever would still require infection evaluation.",
+    "Acute splenic enlargement with a sudden hemoglobin drop supports sequestration.",
+    "The transfusion timing and hemoglobin below the pretransfusion value support possible hyperhemolysis and require urgent hematology assessment.",
+    "Specific splenic and hematologic changes distinguish sequestration from other causes of lethargy or shock."
    ],
    "clue": "Each finding matches one crisis type in the book's sickle cell assessment graphic.",
    "priority": "Distinguishing types of sickle cell crisis by their presenting findings.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Nonspecific pallor, tachycardia or lethargy cannot identify a crisis alone; use spleen findings, hemoglobin trends and transfusion context."
   },
   {
    "id": "heme-sickle-q5",
@@ -458,7 +460,7 @@
    "correct": 0,
    "rationales": [
     "Correct. The book defines consolidation as the phase that eradicates remaining disease.",
-    "Incorrect. Intrathecal chemotherapy is described as CNS treatment, a separate phase.",
+    "Incorrect. Intrathecal therapy addresses CNS prophylaxis or treatment and may be integrated across multiple ALL phases; it is not the defining purpose of consolidation.",
     "Incorrect. The book identifies high-dose chemotherapy for remission as the induction phase.",
     "Incorrect. Low-dose chemotherapy over months describes the maintenance phase."
    ],
@@ -480,7 +482,7 @@
    "options": [
     "Decreased red blood cell count",
     "Decreased platelet count",
-    "Increased white blood cell count with blasts",
+    "An abnormal leukocyte count with immature blast cells",
     "Hemoglobin S on hemoglobin electrophoresis",
     "Fewer than 5% blast cells on bone marrow biopsy"
    ],
@@ -492,13 +494,14 @@
    "rationales": [
     "Correct. The book lists decreased RBCs on the CBC with differential.",
     "Correct. Decreased platelets are listed among the CBC findings.",
-    "Correct. The book lists increased WBCs with blasts, meaning immature white cells.",
+    "Correct. Acute leukemia can produce low, normal or high total WBC counts; abnormal immature cells and accompanying cytopenias warrant evaluation.",
     "Incorrect. Hemoglobin S on electrophoresis is a diagnostic finding for sickle cell disease, not leukemia.",
-    "Incorrect. The book states that fewer than 5% blast cells indicates remission, not active leukemia."
+    "Incorrect. A marrow blast count below 5% is not the expected untreated acute-leukemia finding in this presentation; disease-specific genetic criteria and the complete diagnostic assessment matter."
    ],
    "clue": "Pallor, fever, and bleeding gums in a child with suspected leukemia.",
    "priority": "Interpreting the CBC with differential and marrow findings for acute leukemia.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Leukemia may present with low, normal or high WBC counts; do not require leukocytosis."
   },
   {
    "id": "heme-leukemia-q5",
@@ -507,17 +510,17 @@
    "page": 161,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is reviewing key chemotherapy drugs for acute leukemia. For each drug, indicate whether the book lists it for acute myelogenous leukemia (AML) or acute lymphoblastic leukemia (ALL).",
+   "stem": "Classify the use of these drugs in conventional specified acute-leukemia regimens. This is not an exhaustive list, and actual treatment depends on disease biology and the protocol.",
    "rows": [
     "Anthracyclines",
     "Cytarabine",
     "Vincristine",
     "Asparaginase",
-    "Rituximab"
+    "Rituximab when selected for CD 20-positive B-cell ALL"
    ],
    "columns": [
-    "AML",
-    "ALL"
+    "Used in AML and ALL regimens",
+    "Used in conventional ALL regimens"
    ],
    "correct": [
     0,
@@ -527,15 +530,16 @@
     1
    ],
    "rationales": [
-    "AML. The book lists anthracyclines with cytarabine for AML.",
-    "AML. Cytarabine is paired with anthracyclines for AML.",
-    "ALL. Vincristine is listed with the ALL drugs.",
-    "ALL. Asparaginase is listed with the ALL drugs.",
-    "ALL. The book includes rituximab in the ALL regimen with steroids, vincristine, and asparaginase."
+    "Anthracyclines are components of regimens for both diseases.",
+    "Cytarabine is central to many AML regimens and also used in selected ALL regimens, including CNS-directed treatment.",
+    "Vincristine is a conventional ALL component rather than a standard AML-induction component.",
+    "Asparaginase is used in ALL protocols.",
+    "Rituximab is selected for an appropriate CD 20-positive B-cell context; it is not universal therapy for every ALL client."
    ],
    "clue": "The book lists separate key drug regimens for AML and ALL.",
    "priority": "Knowing which drugs belong to each leukemia treatment regimen.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Drugs are not always exclusive to one leukemia; specify the disease subtype, antigen and actual regimen."
   },
   {
    "id": "heme-leukemia-q6",
@@ -595,14 +599,14 @@
    "options": [
     "Provide oral care with a firm-bristled toothbrush",
     "Measure temperature by a route other than rectal",
-    "Give routine immunizations and medications by the IM route",
+    "Give an unnecessary IM medication without reviewing the bleeding-risk plan",
     "Use ibuprofen as needed to manage joint pain"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. The book directs the use of soft oral care tools to prevent bleeding.",
-    "Correct. The book says to avoid rectal temperatures, along with IM injections and rough suction.",
-    "Incorrect. The book says to avoid IM injections in clients with hemophilia.",
+    "Correct. Avoid rectal temperature measurement because mucosal trauma can cause bleeding.",
+    "Incorrect. Avoid unnecessary IM medication. Required IM vaccines may be given with the hematology/vaccine safety plan, including an appropriate fine needle, pressure and factor support when indicated.",
     "Incorrect. The book lists NSAIDs and aspirin as medications to avoid."
    ],
    "clue": "The child has an inherited clotting factor deficiency.",
@@ -700,7 +704,7 @@
    "page": 162,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with mild hemophilia A is being treated for a bleeding episode. For each medication, indicate whether it is indicated, not indicated, or contraindicated for this client.",
+   "stem": "An adult with mild hemophilia A has a minor bleeding episode and a documented adequate response to a desmopressin test dose. There are no contraindications. For each treatment, indicate whether it is an appropriate factor-directed option, not indicated for the factor deficiency, or contraindicated. The appropriate options are alternatives selected by the hematology plan, not necessarily simultaneous treatments.",
    "rows": [
     "Recombinant factor VIII",
     "Desmopressin",
@@ -726,7 +730,8 @@
    ],
    "clue": "Mild hemophilia A, which is a factor VIII deficiency.",
    "priority": "Choosing factor-specific therapy and avoiding drugs that worsen bleeding.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Desmopressin use depends on demonstrated response, indication and safety monitoring; hemophilia A requires factor VIII-directed treatment."
   },
   {
    "id": "heme-hemophilia-q6",
@@ -931,11 +936,11 @@
    "page": 163,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with DIC has a low fibrinogen level, a platelet count of 40,000/mm3, and a falling hemoglobin. Which blood product and purpose pairings are consistent with the plan of care? Select all that apply.",
+   "stem": "A client with DIC has active major bleeding, prolonged clotting times, low fibrinogen, platelets 40,000/mm3 and a falling hemoglobin. Which prescribed blood-product and purpose pairings are appropriate for these deficits? Select all that apply.",
    "options": [
     "Fresh frozen plasma to replace clotting factors",
     "Cryoprecipitate to replace fibrinogen",
-    "Platelets because the count is below 100,000/mm3",
+    "Platelets for active bleeding with a platelet count below 50,000/mm3",
     "Packed red blood cells to increase oxygen delivery",
     "Iron dextran to replace clotting factors",
     "Desmopressin to raise the fibrinogen level"
@@ -949,14 +954,15 @@
    "rationales": [
     "Correct. The book lists FFP to replace clotting factors.",
     "Correct. The book states cryoprecipitate is best for fibrinogen and factors VIII and XIII.",
-    "Correct. The book lists platelets if the count is below 100,000/mm3.",
+    "Correct. Active bleeding with platelets below 50,000/mm3 supports transfusion under the treatment protocol. Thresholds vary for specific procedures/sites; 100,000 is not a universal DIC trigger.",
     "Correct. PRBCs are listed to increase oxygen delivery.",
     "Incorrect. Iron dextran is parenteral iron for iron deficiency anemia, not a clotting factor product.",
     "Incorrect. Desmopressin is listed for mild hemophilia A, not for replacing fibrinogen in DIC."
    ],
    "clue": "Low fibrinogen, low platelets, and falling hemoglobin in DIC.",
    "priority": "Matching blood component therapy to each deficit in DIC.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Treat the cause of DIC and replace components according to bleeding, laboratory deficits and the clinical protocol, not a universal platelet threshold."
   },
   {
    "id": "heme-transfusion-q1",
@@ -964,14 +970,14 @@
    "type": "mcq",
    "stem": "Ten minutes into a unit of packed red blood cells, a client reports chills, back pain, and a sense of impending doom. What is the nurse's first action?",
    "options": [
-    "Stop the transfusion and keep the line open with normal saline",
+    "Stop blood; maintain IV access using saline and new tubing",
     "Send the client's urine to the lab while the unit finishes",
     "Slow the transfusion rate and recheck vital signs in 15 minutes",
     "Give an antipyretic and continue the transfusion as ordered"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists stopping the transfusion, starting normal saline, and monitoring ABCs as the first steps when a reaction occurs.",
+    "Correct. Stop the transfusion immediately, maintain IV access with saline through new tubing per protocol and assess/support ABCs. Do not flush the remaining implicated blood into the client; notify the treating team and blood bank.",
     "Incorrect. Samples are sent after the transfusion is stopped; the unit should not continue.",
     "Incorrect. The book states to stop the transfusion immediately, not slow it.",
     "Incorrect. Antipyretics are for mild reactions after stopping the transfusion; continuing could worsen a hemolytic reaction."
@@ -1042,7 +1048,7 @@
    "cjmm": "takeAction",
    "stem": "The nurse stops a unit of packed red blood cells after the client develops fever, chills, and back pain. Which additional actions should the nurse take? Select all that apply.",
    "options": [
-    "Infuse normal saline to keep the line open",
+    "Maintain IV access with normal saline through new tubing according to the reaction protocol",
     "Send the blood bag and tubing to the lab",
     "Send the client's blood and urine samples to the lab",
     "Discard the bag and tubing in a biohazard container",
@@ -1056,7 +1062,7 @@
     5
    ],
    "rationales": [
-    "Correct. The book says to stop the transfusion and start normal saline.",
+    "Correct. Use new tubing as directed by the reaction protocol; do not flush remaining implicated blood into the client.",
     "Correct. The blood bag and tubing are sent to the lab.",
     "Correct. The book directs sending the client's blood and urine samples to the lab.",
     "Incorrect. The bag and tubing must go to the lab for testing, not be thrown away.",
@@ -1074,16 +1080,16 @@
    "page": 165,
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "stem": "A client is 30 minutes into a blood transfusion. For each finding, indicate whether it is consistent with a transfusion reaction or not consistent with a reaction.",
+   "stem": "A client is receiving a blood transfusion. For each finding, identify whether it is a new warning sign of a possible reaction or, by itself, supplies no new reaction cue. Normal vital signs do not exclude a reaction when other symptoms are present.",
    "rows": [
     "New hives and facial swelling",
-    "Cloudy or red urine",
+    "New red/dark urine or documented hemoglobinuria",
     "New crackles with jugular vein distention",
     "Vital signs unchanged from the pre-transfusion values"
    ],
    "columns": [
-    "Consistent with a reaction",
-    "Not consistent with a reaction"
+    "New warning sign",
+    "No new cue by itself"
    ],
    "correct": [
     0,
@@ -1092,14 +1098,15 @@
     1
    ],
    "rationales": [
-    "Consistent. The book lists hives and facial or oral edema among the findings to monitor.",
-    "Consistent. Urine color that is cloudy or red is a listed finding.",
-    "Consistent. The book lists crackles and JVD as signs of fluid overload, and circulatory overload is a transfusion reaction.",
-    "Not consistent. Stable vital signs compared with baseline do not suggest a reaction, although monitoring continues."
+    "New hives or facial swelling warrants stopping the transfusion and assessing an allergic reaction, including airway symptoms.",
+    "New red/dark urine can indicate hemoglobinuria and possible hemolysis; cloudiness alone is nonspecific.",
+    "New crackles and JVD suggest circulatory overload and need urgent assessment.",
+    "Unchanged vital signs alone are not a new warning cue, but they do not exclude allergic or other reactions when symptoms exist."
    ],
    "clue": "Changes from baseline during an ongoing transfusion.",
    "priority": "Monitoring for early signs of a transfusion reaction.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Act on new symptoms and changes from baseline; normal vital signs alone do not rule out a reaction."
   },
   {
    "id": "heme-transfusion-q6",
@@ -1277,12 +1284,12 @@
    "page": 167,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with polycythemia reports intense itching and is at risk for clots. Which medications should the nurse anticipate as part of the treatment plan for polycythemia? Select all that apply.",
+   "stem": "A client with polycythemia vera has symptomatic pruritus, gout with hyperuricemia and documented hydroxyurea intolerance. There is no aspirin contraindication. Which prescribed medication-purpose pairings fit these defined indications? Select all that apply.",
    "options": [
-    "Aspirin",
-    "Allopurinol",
-    "Antihistamines",
-    "JAK inhibitors",
+    "Low-dose aspirin for thrombotic-risk reduction",
+    "Allopurinol for the gout/hyperuricemia indication",
+    "A trial of an antihistamine for pruritus",
+    "Ruxolitinib for the PV indication after hydroxyurea intolerance",
     "Iron dextran",
     "Desmopressin"
    ],
@@ -1293,16 +1300,17 @@
     3
    ],
    "rationales": [
-    "Correct. Aspirin is listed among the polycythemia medications.",
-    "Correct. Allopurinol is listed among polycythemia medications.",
-    "Correct. Antihistamines are listed and fit the nursing focus of managing itching.",
-    "Correct. JAK inhibitors are listed for polycythemia.",
-    "Incorrect. Iron dextran is parenteral iron for iron deficiency anemia; it would not be used to treat excess red cells.",
-    "Incorrect. Desmopressin is listed for mild hemophilia A, not polycythemia."
+    "Correct. Low-dose aspirin is used in PV when safe to reduce thrombotic risk.",
+    "Correct. Allopurinol addresses the specified urate-related indication, not PV itself.",
+    "Correct. An antihistamine may be tried for itch; response varies and persistent symptoms need reassessment.",
+    "Correct. The hydroxyurea intolerance supports the labeled PV indication for ruxolitinib.",
+    "Incorrect. Iron is not routine treatment for excess erythrocytes and requires a separate individualized indication.",
+    "Incorrect. Desmopressin does not treat PV."
    ],
    "clue": "Itching and clot risk in a client with polycythemia.",
    "priority": "Knowing the drug therapy used in polycythemia.",
-   "checked": true
+   "checked": true,
+   "takeaway": "A medication list needs disease-specific and complication-specific indications; not every polycythemia client needs these drugs."
   },
   {
    "id": "heme-polycythemia-q7",
@@ -1338,14 +1346,14 @@
     "This is an inherited disorder passed from the mother to her sons.",
     "This happens because the body is making too many platelets after infection.",
     "This form usually follows a viral illness in children and often resolves on its own.",
-    "This is the chronic form, which in children typically lasts longer than six months."
+    "This is the chronic form, which in children typically lasts longer than twelve months."
    ],
    "correct": 2,
    "rationales": [
     "Incorrect. ITP is described as an acquired immune disorder; mother-to-son inheritance describes hemophilia.",
     "Incorrect. The book states antibodies destroy platelets, leading to a low platelet count.",
     "Correct. The book describes acute ITP as mostly occurring in children, often after a viral infection, and usually self-resolving.",
-    "Incorrect. The book describes chronic ITP as more common in adults and typically not virus-related."
+    "Incorrect. This is newly diagnosed ITP; chronic ITP means duration over 12 months, while persistent ITP lasts 3–12 months."
    ],
    "clue": "ITP onset in a young child after a viral infection.",
    "priority": "Educating the family about the course of acute ITP.",
@@ -1383,26 +1391,27 @@
    "id": "heme-itp-q3",
    "section": "heme-itp",
    "type": "mcq",
-   "stem": "An adult with chronic ITP has a platelet count below 50,000/mm3 and has not responded to steroid therapy. Which treatment should the nurse anticipate teaching about?",
+   "stem": "An adult with primary ITP has persistent clinically important thrombocytopenia and bleeding after initial corticosteroid treatment. The hematologist recommends a thrombopoietic agent after discussing alternatives and client preferences. Which treatment should the nurse teach about?",
    "options": [
-    "Splenectomy",
+    "Romiplostim",
     "Regular phlebotomy",
     "Factor VIII replacement",
-    "Hydroxyurea therapy"
+    "Hydroxyurea"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book states adults are treated when platelets are under 50,000/mm3 with steroids, and splenectomy is considered if there is no response.",
-    "Incorrect. Phlebotomy is listed for polycythemia, not ITP.",
-    "Incorrect. Factor replacement treats hemophilia, not antibody-mediated platelet destruction.",
-    "Incorrect. Hydroxyurea is described for sickle cell disease and primary polycythemia, not ITP."
+    "Correct. Romiplostim is a thrombopoietin-receptor agonist that stimulates platelet production and is a supported subsequent-treatment option.",
+    "Incorrect. Phlebotomy does not treat immune platelet destruction.",
+    "Incorrect. Factor VIII does not correct ITP.",
+    "Incorrect. Hydroxyurea is not standard subsequent ITP treatment."
    ],
    "clue": "An adult with platelets under 50,000/mm3 who did not respond to steroids.",
    "priority": "Anticipating second-line management for adult ITP.",
    "page": 168,
    "clientNeed": "pa",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "ITP treatment depends on bleeding and individual factors. Current adult guidance supports thrombopoietic agents or selected rituximab after initial corticosteroid-based therapy; splenectomy is not automatic."
   },
   {
    "id": "heme-itp-q4",
@@ -1455,7 +1464,7 @@
     "Pad sharp furniture corners at home",
     "Teach the client to check the skin for new bruising",
     "Avoid aspirin and NSAIDs",
-    "Give vaccines by intramuscular injection in the clinic today",
+    "Give an unnecessary IM medication without checking the platelet count or bleeding-risk plan",
     "Shave with a straight-edge razor to keep the skin smooth"
    ],
    "correct": [
@@ -1469,7 +1478,7 @@
     "Correct. Padding furniture is a listed home safety measure.",
     "Correct. The book says to monitor for bruising and bleeding and to teach self-checks.",
     "Correct. Avoiding aspirin and NSAIDs is listed under home safety.",
-    "Incorrect. Injections are invasive procedures that the book advises avoiding.",
+    "Incorrect. An unnecessary IM medication can cause hematoma and requires review of current bleeding risk. Necessary IM vaccinations are not automatically prohibited; use the recommended vaccine route and individualized precautions.",
     "Incorrect. The book stresses preventing injury and teaching bleeding precautions; a straight-edge razor raises the risk of cuts and bleeding."
    ],
    "clue": "A client with chronically low platelets going home.",
@@ -1726,21 +1735,22 @@
     "Sunlight improves lupus rashes, so try to spend extra time in direct sun.",
     "Plan very strenuous hiking, since activity reduces lupus flares quickly.",
     "Stop all medications during the trip to avoid any reactions to the sun.",
-    "Use sunscreen, a hat, and long sleeves, and avoid photosensitizing drugs or foods."
+    "Use SPF 30+ sunscreen, protective clothing and shade; review medicines"
    ],
    "correct": 3,
    "rationales": [
     "Incorrect. The book lists UV radiation as a risk factor and photosensitivity as a symptom.",
     "Incorrect. The book advises balancing rest with activity and pacing activities.",
-    "Incorrect. The book says to avoid photosensitizing drugs, not to stop all prescribed therapy.",
-    "Correct. The book's skin protection guidance includes sunscreen, hats, long sleeves, and avoiding photosensitizing drugs and foods, and UV exposure is a listed risk factor."
+    "Incorrect. Do not independently stop prescribed therapy; ask the treating team to review photosensitivity risks.",
+    "Correct. UV protection and an individualized medication review reduce risk without unsupported food restrictions or independent medication discontinuation."
    ],
    "clue": "Planned sun exposure in a client with photosensitive SLE.",
    "priority": "Protecting the skin from UV exposure in lupus.",
    "page": 173,
    "clientNeed": "hpm",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use comprehensive UV protection and seek a medication review; do not independently stop prescriptions or restrict unspecified foods."
   },
   {
    "id": "heme-lupus-q3",
@@ -1976,7 +1986,7 @@
    "page": 174,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "The nurse reviews laboratory results for clients being evaluated for rheumatoid arthritis. For each result, indicate whether it is within normal limits or consistent with RA.",
+   "stem": "For this laboratory, anti-CCP below 20 units and rheumatoid factor below 20 IU/mL are within the reference range. Categorize each result as within the stated range or elevated and potentially supportive of RA in the appropriate clinical context. Neither positive nor negative results alone establish or exclude RA.",
    "rows": [
     "Anti-CCP antibodies 45 units",
     "Anti-CCP antibodies 8 units",
@@ -1994,14 +2004,15 @@
     1
    ],
    "rationales": [
-    "Consistent with RA. The book lists anti-CCP of 20 units or more in RA.",
-    "Within normal limits. The book lists normal anti-CCP as below 20 units.",
-    "Within normal limits. Normal rheumatoid factor is listed as below 20 IU/mL.",
-    "Consistent with RA. The book lists RF above 20 IU/mL in RA and positive above 80 IU/mL."
+    "Elevated. Anti-CCP 45 exceeds this assay's reference range and can support RA with compatible clinical findings.",
+    "Within the stated range. A value of 8 is below 20; a negative result does not exclude RA.",
+    "Within the stated range. RF 12 is below this laboratory's upper limit.",
+    "Elevated. RF 120 exceeds this laboratory's limit of 20. An additional universal threshold of 80 is not required to call the test positive."
    ],
    "clue": "Anti-CCP and rheumatoid factor values compared with the book's reference ranges.",
    "priority": "Interpreting antibody tests used to diagnose RA.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the actual assay reference intervals; interpret antibodies with history and examination."
   },
   {
    "id": "heme-ra-q6",
@@ -2271,7 +2282,7 @@
    "id": "heme-sickle-q9",
    "section": "heme-sickle",
    "type": "matrix",
-   "stem": "The nurse teaches the parents of a 2-month-old newly diagnosed with sickle cell disease. For each parent statement, indicate whether it shows understanding or a need for further teaching.",
+   "stem": "The nurse teaches the parents of a 2-month-old newly diagnosed with HbSS sickle cell anemia. For each parent statement, indicate whether it shows understanding or a need for further teaching.",
    "rows": [
     "\"Our baby has the disease because he inherited a sickle hemoglobin gene from each of us.\"",
     "\"He may not show symptoms until after about 6 months of age.\"",
@@ -2291,7 +2302,7 @@
     1
    ],
    "rationales": [
-    "Shows understanding. The book describes SCD as autosomal recessive, occurring when two HbS genes are inherited.",
+    "Shows understanding. This child has HbSS, with an HbS allele inherited from each parent. Other forms of sickle cell disease include HbSC and HbS/beta-thalassemia.",
     "Shows understanding. The book notes infants are typically asymptomatic until after 6 months.",
     "Needs further teaching. Lack of early symptoms is expected in infants; the book's management goals of preventing crises and reducing complications still apply.",
     "Shows understanding. The book lists dehydration as a factor that increases sickling risk.",
@@ -2303,13 +2314,14 @@
    "clientNeed": "hpm",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Specify the genotype when teaching inheritance; all sickle cell disease is not HbSS."
   },
   {
    "id": "heme-sickle-q10",
    "section": "heme-sickle",
    "type": "mcq",
-   "stem": "A charge nurse reviews the care of a client admitted 50 minutes ago in a vaso-occlusive crisis. Which finding requires the charge nurse to intervene?",
+   "stem": "A charge nurse reviews the care of a client admitted 50 minutes ago in a vaso-occlusive crisis. Which finding requires the charge nurse to intervene? The client has documented SpO2 90% on room air and mild dehydration; prescribed oxygen and fluid therapy are being reassessed.",
    "options": [
     "The client has not yet received the prescribed analgesic.",
     "The client is receiving supplemental oxygen.",
@@ -2319,7 +2331,7 @@
    "correct": 0,
    "rationales": [
     "Correct. The book calls for analgesia within 30 minutes in a vaso-occlusive crisis; a 50-minute delay needs correction.",
-    "Incorrect. Oxygen is part of the book's treatment for vaso-occlusive crisis.",
+    "Incorrect. Oxygen is indicated for the documented hypoxemia; it is not universal treatment when oxygenation is normal.",
     "Incorrect. Hydration is part of the book's treatment for vaso-occlusive crisis.",
     "Incorrect. The book supports non-drug strategies such as imagery used along with medication."
    ],
@@ -2329,7 +2341,8 @@
    "clientNeed": "moc",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Prompt analgesia is central. Titrate oxygen for hypoxemia and fluids to volume status rather than routinely giving both to every crisis."
   },
   {
    "id": "heme-sickle-q11",
@@ -2395,7 +2408,7 @@
    "id": "heme-sickle-q13",
    "section": "heme-sickle",
    "type": "matrix",
-   "stem": "A child with sickle cell disease is admitted with a sequestration crisis and has lethargy, pale skin, and tachycardia. For each intervention, indicate whether it is anticipated or not anticipated.",
+   "stem": "A child with acute splenic sequestration has a rapidly enlarging spleen, a marked hemoglobin fall, tachycardia, hypovolemic instability and SpO2 90%. The emergency team is present. Which interventions are anticipated?",
    "rows": [
     "IV fluids",
     "Blood transfusion",
@@ -2415,9 +2428,9 @@
     1
    ],
    "rationales": [
-    "Anticipated. The book lists IV fluids for sequestration and aplastic crises.",
-    "Anticipated. The book lists blood transfusions for sequestration and aplastic crises.",
-    "Anticipated. Oxygen is part of the book's treatment for sequestration and aplastic crises.",
+    "Anticipated. Prescribed cautious fluid support addresses the documented hypovolemia while urgent transfusion and reassessment proceed.",
+    "Anticipated. Urgent prescribed RBC transfusion restores oxygen-carrying capacity; avoid excessive hemoglobin rise as sequestered cells can re-enter circulation.",
+    "Anticipated. Oxygen treats this documented hypoxemia, not every normoxemic crisis.",
     "Not anticipated. The book calls for IV fluids; dehydration also increases sickling.",
     "Not anticipated. Transcranial Doppler screens for stroke risk and should not delay acute crisis treatment."
    ],
@@ -2604,14 +2617,14 @@
    "options": [
     "\"Another round of high-dose chemotherapy to bring about remission.\"",
     "\"Stopping all treatment, because finishing consolidation means you are cured.\"",
-    "\"Maintenance therapy, which uses lower-dose chemotherapy over months.\"",
+    "\"Maintenance therapy, which uses lower-dose chemotherapy for a prolonged protocol-defined period, commonly years.\"",
     "\"Regular phlebotomy to remove the abnormal cells.\""
    ],
    "correct": 2,
    "rationales": [
     "Incorrect. High-dose chemotherapy for remission describes induction, which the client has finished.",
     "Incorrect. The book lists a maintenance phase after consolidation.",
-    "Correct. The book lists maintenance as low-dose chemotherapy over months, following induction and consolidation.",
+    "Correct. ALL maintenance generally continues as part of a prolonged protocol, often approximately two to three years of overall therapy; the exact schedule depends on the regimen.",
     "Incorrect. Phlebotomy is a polycythemia treatment, not a leukemia treatment phase."
    ],
    "clue": "The client has finished induction and consolidation.",
@@ -2620,13 +2633,14 @@
    "clientNeed": "pharm",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "ALL maintenance is prolonged and protocol-specific; explain the actual schedule rather than implying a short course."
   },
   {
    "id": "heme-leukemia-q10",
    "section": "heme-leukemia",
    "type": "mcq",
-   "stem": "After induction therapy, a client's bone marrow aspiration shows fewer than 5% blast cells. How should the nurse interpret this result?",
+   "stem": "After AML induction therapy, a client has marrow blasts below 5%, no circulating blasts or extramedullary disease, neutrophils 1,200/µL and platelets 110,000/µL. How should the nurse interpret these findings?",
    "options": [
     "The leukemia has progressed.",
     "The result confirms a new diagnosis of acute leukemia.",
@@ -2637,8 +2651,8 @@
    "rationales": [
     "Incorrect. A low blast count after induction shows response, not progression.",
     "Incorrect. A high, not low, blast count supports the diagnosis of acute leukemia.",
-    "Incorrect. The book uses fewer than 5% blasts as the marker of remission.",
-    "Correct. The book states a bone marrow blast count below 5% indicates remission."
+    "Incorrect. Fewer than 5% marrow blasts is one morphologic criterion; blasts need not be zero.",
+    "Correct. The combined marrow, blood-recovery and disease-site findings meet conventional complete-remission criteria. Measurable residual disease assessment provides additional prognostic information."
    ],
    "clue": "Bone marrow blasts below 5% after induction.",
    "priority": "Evaluating response to induction chemotherapy.",
@@ -2646,7 +2660,8 @@
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Marrow blasts below 5% alone do not establish complete remission; assess blood recovery and absence of other disease."
   },
   {
    "id": "heme-leukemia-q11",
@@ -3166,7 +3181,7 @@
    "id": "heme-dic-q11",
    "section": "heme-dic",
    "type": "sata",
-   "stem": "A client who is 34 weeks pregnant develops DIC after an abruptio placentae. Which actions should the nurse anticipate? Select all that apply.",
+   "stem": "A client at 34 weeks of pregnancy develops DIC after placental abruption. Maternal SpO2 is 90% on room air, and urgent obstetric resuscitation is underway. Which actions should the nurse anticipate? Select all that apply.",
    "options": [
     "Insert a pulmonary artery catheter before the coagulopathy is corrected",
     "Monitor the fetus",
@@ -3183,8 +3198,8 @@
     "Incorrect. The book states a pulmonary artery catheter is inserted only after correcting coagulopathy.",
     "Correct. The book's guidance for DIC in pregnancy includes monitoring the fetus.",
     "Incorrect. The book calls for bedrest in DIC.",
-    "Correct. The book's guidance for DIC in pregnancy includes giving oxygen.",
-    "Correct. The book's guidance for DIC in pregnancy includes preparing for a possible C-section."
+    "Correct. Oxygen is indicated for this documented maternal hypoxemia; routine oxygen is not recommended solely for an abnormal fetal tracing when maternal oxygenation is normal.",
+    "Correct. Prepare for urgent delivery according to maternal/fetal status and the obstetric plan, while treating the underlying cause and coagulopathy."
    ],
    "clue": "DIC in a pregnant client after abruptio placentae.",
    "priority": "Anticipating maternal and fetal care in obstetric DIC.",
@@ -3261,7 +3276,7 @@
    "type": "sata",
    "stem": "The nurse is monitoring a client with DIC for internal bleeding and poor perfusion. Which assessments should the nurse include? Select all that apply.",
    "options": [
-    "Test grip strength",
+    "Perform routine grip-strength exercise training as the primary measure of bleeding volume",
     "Measure abdominal girth",
     "Check for new confusion",
     "Inspect the skin for a butterfly rash",
@@ -3275,7 +3290,7 @@
     5
    ],
    "rationales": [
-    "Incorrect. Grip strength is a rheumatoid arthritis assessment.",
+    "Incorrect. Exercise training does not measure bleeding volume. Neurological strength assessment can still be important when intracranial bleeding or neurological deterioration is suspected; it is not confined to rheumatoid arthritis.",
     "Correct. The book says to monitor abdominal girth for signs of internal bleeding.",
     "Correct. The book notes confusion may occur from blood loss and poor perfusion.",
     "Incorrect. A butterfly rash is a lupus finding.",
@@ -3383,7 +3398,7 @@
    "rationales": [
     "Incorrect. Slow infusion does not cause overload, and name confusion points to a different risk.",
     "Incorrect. An allergic rash is milder and not the main risk created by similar names.",
-    "Correct. The book states hemolytic reactions occur with ABO incompatibility, often from misidentification or name confusion, and most fatal reactions result from human error.",
+    "Correct. The book states hemolytic reactions occur with ABO incompatibility, often from misidentification or name confusion, and identification errors can cause fatal ABO-incompatible hemolysis. This does not mean that most overall transfusion fatalities are due to misidentification.",
     "Incorrect. A transfusion does not cause blood loss or iron deficiency."
    ],
    "clue": "Two clients with similar names both need blood.",
@@ -3450,31 +3465,32 @@
    "id": "heme-transfusion-q10",
    "section": "heme-transfusion",
    "type": "matrix",
-   "stem": "The nurse reviews the treatment plan for transfusion reactions. For each intervention, indicate whether it is a first-line treatment for a mild reaction or for a severe reaction.",
+   "stem": "The transfusion has been stopped and the client assessed. For each intervention, identify whether it fits isolated mild allergic urticaria, first-line anaphylaxis care, or is not routine first-line treatment for either.",
    "rows": [
-    "Antipyretics",
-    "Antihistamines",
-    "Epinephrine",
-    "Oxygen and airway management",
-    "Steroids"
+    "A prescribed antihistamine for isolated hives without airway or circulation symptoms",
+    "Prompt IM epinephrine for airway compromise and hypotension from anaphylaxis",
+    "Oxygen and airway support for anaphylaxis-related hypoxemia",
+    "Routine corticosteroids as the first treatment replacing epinephrine",
+    "An antipyretic for fever before evaluating hemolysis or infection"
    ],
    "columns": [
-    "Mild reaction",
-    "Severe reaction"
+    "Isolated mild allergic urticaria",
+    "Anaphylaxis first-line care",
+    "Neither as routine first-line care"
    ],
    "correct": [
     0,
-    0,
     1,
     1,
-    1
+    2,
+    2
    ],
    "rationales": [
-    "Mild reaction. The book says to treat mild reactions with antipyretics or antihistamines.",
-    "Mild reaction. The book lists antihistamines for mild reactions.",
-    "Severe reaction. The book lists epinephrine for severe reactions.",
-    "Severe reaction. The book lists oxygen and airway management for severe reactions.",
-    "Severe reaction. The book lists steroids for severe reactions."
+    "Antihistamines can relieve isolated allergic skin symptoms after assessment.",
+    "IM epinephrine is first-line anaphylaxis treatment and must not be delayed for adjuncts.",
+    "Support breathing and circulation while giving epinephrine and activating emergency care.",
+    "Steroids do not replace epinephrine and are not routine first-line anaphylaxis therapy.",
+    "Fever requires evaluation for serious transfusion causes before assuming a benign febrile reaction."
    ],
    "clue": "Transfusion reactions range from mild to severe.",
    "priority": "Matching interventions to transfusion reaction severity.",
@@ -3482,7 +3498,8 @@
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Identify the reaction type; hemolysis, TACO, TRALI and anaphylaxis need different management."
   },
   {
    "id": "heme-transfusion-q11",
@@ -3507,7 +3524,7 @@
     "Correct. The book's transfusion history includes allergies.",
     "Correct. The book's transfusion history includes prior transfusions.",
     "Incorrect. High altitude is a sickle cell trigger, not part of the transfusion history.",
-    "Correct. The book's transfusion history includes Raynaud syndrome; cold blood products can trigger vasospasm, so the nurse may need to use a blood warmer.",
+    "Correct. Heart disease increases the risk of transfusion-associated circulatory overload; assess volume status and use individualized volume, rate and monitoring precautions.",
     "Correct. The book's transfusion history includes Raynaud syndrome.",
     "Incorrect. A dental cleaning is not part of the book's transfusion history."
    ],
@@ -3636,7 +3653,7 @@
    "id": "heme-polycythemia-q10",
    "section": "heme-polycythemia",
    "type": "mcq",
-   "stem": "A client with secondary polycythemia due to COPD has had treatment to correct hypoxia but still has headaches and dizziness. Using SBAR, which recommendation should the nurse make to the provider?",
+   "stem": "A client with COPD-related secondary erythrocytosis has received treatment for hypoxia but has a hematocrit of 59% and specialist-assessed hyperviscosity symptoms. Using SBAR, which recommendation should the nurse make?",
    "options": [
     "\"Please consider phlebotomy, since symptoms persist after treating the cause.\"",
     "\"Please consider scheduling a splenectomy now.\"",
@@ -3645,7 +3662,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. For secondary polycythemia, the book says to treat the cause and use phlebotomy if symptoms persist.",
+    "Correct. Marked hematocrit elevation and documented hyperviscosity justify asking about selective venesection with an individualized target. Routine phlebotomy may impair oxygen delivery and is not indicated for nonspecific symptoms alone.",
     "Incorrect. The book mentions splenectomy for primary polycythemia if needed, not as the next step here.",
     "Incorrect. Correcting hypoxia treats the cause of secondary polycythemia; stopping oxygen would work against that.",
     "Incorrect. The book's nursing focus is to encourage fluids, not restrict them."
@@ -3656,7 +3673,8 @@
    "clientNeed": "moc",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Treat hypoxia first; selective venesection for marked elevation or hyperviscosity requires a specialist plan, not automatic normalization."
   },
   {
    "id": "heme-polycythemia-q11",
@@ -3697,16 +3715,16 @@
    "id": "heme-polycythemia-q12",
    "section": "heme-polycythemia",
    "type": "matrix",
-   "stem": "The nurse is reviewing treatment plans for clients with polycythemia. For each treatment, indicate the type of polycythemia it is used for.",
+   "stem": "Each row describes a defined treatment indication. Identify the disease context for the plan.",
    "rows": [
-    "Regular phlebotomy with hydroxyurea or JAK inhibitors",
-    "Correcting the underlying hypoxia",
-    "Pheresis, or splenectomy if needed",
-    "Phlebotomy only if symptoms persist after the cause is treated"
+    "Phlebotomy to the prescribed hematocrit target with low-dose aspirin when safe",
+    "Correction of hypoxia and evaluation of the underlying lung disease",
+    "Risk-directed cytoreduction with hydroxyurea or interferon",
+    "Selective venesection for confirmed hyperviscosity or marked hematocrit elevation, with a target that preserves oxygen delivery"
    ],
    "columns": [
-    "Primary polycythemia",
-    "Secondary polycythemia"
+    "Polycythemia vera",
+    "Secondary erythrocytosis from hypoxia"
    ],
    "correct": [
     0,
@@ -3715,10 +3733,10 @@
     1
    ],
    "rationales": [
-    "Primary polycythemia. The book lists regular phlebotomy, hydroxyurea, or JAK inhibitors for primary polycythemia.",
-    "Secondary polycythemia. The book says to treat the cause, such as hypoxia.",
-    "Primary polycythemia. The book lists pheresis or splenectomy if needed for primary polycythemia.",
-    "Secondary polycythemia. The book lists phlebotomy if symptoms persist for secondary polycythemia."
+    "PV treatment reduces thrombotic risk using the individualized plan.",
+    "Treating hypoxia addresses the cause of secondary erythrocytosis.",
+    "Cytoreduction is selected according to thrombotic risk and clinical factors; splenectomy is not routine PV treatment.",
+    "Venesection is selective, not a standard response to every elevated secondary hematocrit."
    ],
    "clue": "Treatment depends on the type of polycythemia.",
    "priority": "Matching treatment to the type of polycythemia.",
@@ -3726,23 +3744,24 @@
    "clientNeed": "pa",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Distinguish clonal PV therapy from treatment of compensatory secondary erythrocytosis."
   },
   {
    "id": "heme-polycythemia-q13",
    "section": "heme-polycythemia",
    "type": "mcq",
-   "stem": "A client with primary polycythemia continues to have symptoms despite regular phlebotomy. Which medication should the nurse anticipate being added?",
+   "stem": "An adult with polycythemia vera has an inadequate response to hydroxyurea despite an appropriate treatment trial. The hematologist selects ruxolitinib. Which medication class should the nurse teach about?",
    "options": [
     "Iron dextran",
-    "A JAK inhibitor",
+    "A JAK inhibitor, ruxolitinib",
     "Desmopressin",
     "Emicizumab"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. Iron dextran treats iron deficiency anemia, not excess red cells.",
-    "Correct. The book lists hydroxyurea or JAK inhibitors with phlebotomy for primary polycythemia.",
+    "Correct. Ruxolitinib is indicated for adults with PV who have an inadequate response to or intolerance of hydroxyurea; phlebotomy response alone is not the labeled criterion.",
     "Incorrect. Desmopressin is used for mild hemophilia A.",
     "Incorrect. Emicizumab is used to prevent bleeding in hemophilia."
    ],
@@ -3752,7 +3771,8 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "For PV, ruxolitinib requires the defined hydroxyurea-response or intolerance context."
   },
   {
    "id": "heme-polycythemia-q14",
@@ -3882,14 +3902,14 @@
    "type": "mcq",
    "stem": "A 6-year-old has sudden petechiae and bruising. Which history finding is most relevant to a possible diagnosis of acute ITP?",
    "options": [
-    "A live vaccine given 2 weeks ago",
+    "An MMR vaccine given 2 weeks ago",
     "A diet low in iron-rich foods",
     "Recent travel to a high-altitude area",
     "An older sibling with asthma"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book's ITP history includes a recent live vaccine, and acute ITP may occur after live vaccines.",
+    "Correct. A rare, usually temporary low platelet count has been associated with MMR vaccination. This does not imply that all live vaccines have the same association or establish causation in this child.",
     "Incorrect. A low-iron diet relates to iron deficiency anemia.",
     "Incorrect. High altitude is a sickling trigger in sickle cell disease.",
     "Incorrect. A sibling's asthma is not part of the ITP history."
@@ -3900,7 +3920,8 @@
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Include recent infections and specifically MMR vaccination in the history; the vaccine-associated platelet risk is rare."
   },
   {
    "id": "heme-itp-q8",
@@ -3917,7 +3938,7 @@
    "rationales": [
     "Incorrect. False reassurance dismisses the client's concern.",
     "Correct. The book's nursing focus includes emotional support along with teaching bleeding precautions.",
-    "Incorrect. Chronic ITP is more common in adults and lasts over six months.",
+    "Incorrect. Chronic ITP is more common in adults and is defined by duration over twelve months.",
     "Incorrect. Changing the subject avoids the client's feelings."
    ],
    "clue": "A client with chronic ITP expresses ongoing worry about bleeding.",
@@ -4045,31 +4066,32 @@
    "id": "heme-itp-q13",
    "section": "heme-itp",
    "type": "matrix",
-   "stem": "The nurse is reviewing the two forms of ITP. For each feature, indicate whether it describes acute ITP or chronic ITP.",
+   "stem": "Classify each client by the current duration terminology for immune thrombocytopenia (ITP), measured from diagnosis. Age, prior viral illness and associated autoimmune disease do not by themselves determine duration category.",
    "rows": [
-    "Occurs mostly in children",
-    "Lasts more than six months",
-    "Often follows a viral infection such as chickenpox",
-    "Associated with autoimmune disorders such as lupus",
-    "Usually resolves on its own"
+    "A child diagnosed two weeks ago after a viral illness",
+    "An adult with ITP lasting 18 months",
+    "A child with ITP lasting eight months",
+    "An adult with lupus and ITP diagnosed one month ago",
+    "A child with ongoing ITP lasting fourteen months"
    ],
    "columns": [
-    "Acute ITP",
+    "Newly diagnosed ITP",
+    "Persistent ITP",
     "Chronic ITP"
    ],
    "correct": [
     0,
+    2,
     1,
     0,
-    1,
-    0
+    2
    ],
    "rationales": [
-    "Acute ITP. The book states acute ITP occurs mostly in children.",
-    "Chronic ITP. The book states chronic ITP lasts over six months.",
-    "Acute ITP. The book states acute ITP often follows a viral infection.",
-    "Chronic ITP. The book links chronic ITP with autoimmune disorders such as lupus.",
-    "Acute ITP. The book states acute ITP is usually self-resolving."
+    "Less than three months is newly diagnosed.",
+    "More than twelve months is chronic.",
+    "Three to twelve months is persistent.",
+    "An associated autoimmune disorder does not override the duration definition.",
+    "More than twelve months is chronic regardless of age."
    ],
    "clue": "ITP occurs in two forms.",
    "priority": "Distinguishing acute from chronic ITP.",
@@ -4077,7 +4099,8 @@
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use duration: newly diagnosed under three months, persistent three to twelve months, chronic over twelve months."
   },
   {
    "id": "heme-anaphylaxis-q8",
@@ -4094,7 +4117,7 @@
    "rationales": [
     "Incorrect. Removing allergy identification increases the risk of re-exposure.",
     "Correct. The book's nursing priorities include medication label checks and informing providers of the allergy.",
-    "Incorrect. The book explains that re-exposure after sensitization causes the severe reaction.",
+    "Incorrect. The book explains that re-exposure can trigger a severe reaction; severity is not predictable for each exposure.",
     "Incorrect. Re-exposing a sensitized client to the allergen can trigger anaphylaxis."
    ],
    "clue": "A client with a known penicillin anaphylaxis is entering a new care setting.",
@@ -4173,7 +4196,7 @@
    "id": "heme-anaphylaxis-q11",
    "section": "heme-anaphylaxis",
    "type": "sata",
-   "stem": "A client was treated for a suspected anaphylactic reaction. The nurse knows the diagnosis is mainly clinical. Which tests may still be drawn? Select all that apply.",
+   "stem": "After emergency treatment and stabilization of suspected anaphylaxis, which laboratory tests or specimens may be obtained when clinically appropriate? Select all that apply.",
    "options": [
     "Serum tryptase",
     "Hemoglobin electrophoresis",
@@ -4187,11 +4210,11 @@
     4
    ],
    "rationales": [
-    "Correct. The book lists serum tryptase as a test.",
+    "Correct. Obtain acute serum tryptase as early as feasible, ideally within about two hours of onset, with a later baseline sample when indicated; testing must not delay epinephrine.",
     "Incorrect. Hemoglobin electrophoresis detects hemoglobin S in sickle cell disease.",
-    "Correct. The book lists plasma histamine as a test.",
+    "Correct. Plasma histamine may be obtained in selected settings, but its short detection window and collection requirements limit usefulness.",
     "Incorrect. Anti-CCP antibodies help diagnose rheumatoid arthritis.",
-    "Correct. The book lists urinary histamine metabolites as a test."
+    "Correct. Selected biochemical evaluation may include urinary histamine metabolites using the specified urine collection; this is not a blood draw."
    ],
    "clue": "Anaphylaxis is a clinical diagnosis, but some tests may be drawn.",
    "priority": "Recognizing the laboratory tests linked to anaphylaxis.",
@@ -4199,20 +4222,21 @@
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Anaphylaxis is a clinical diagnosis; obtain timed specimens only after immediate treatment has begun."
   },
   {
    "id": "heme-anaphylaxis-q12",
    "section": "heme-anaphylaxis",
    "type": "sata",
-   "stem": "A client arrives in the emergency department with hives, throat tightness, and wheezing after a wasp sting. Which actions should the nurse take? Select all that apply.",
+   "stem": "An awake adult develops hives, throat tightness and wheezing after a wasp sting. Which actions are appropriate for suspected anaphylaxis? Select all that apply.",
    "options": [
-    "Keep intubation equipment ready at the bedside",
-    "Wait for serum tryptase results before treating",
-    "Use an oral or nasal airway if needed",
-    "Begin CPR if circulation fails",
-    "Stop exposure to the allergen",
-    "Delay airway support until symptoms worsen"
+    "Activate emergency support and prepare for early advanced-airway assessment",
+    "Wait for serum tryptase before treatment",
+    "Administer protocol-directed IM epinephrine promptly",
+    "Begin CPR if the client becomes unresponsive with absent or abnormal breathing and no definite pulse within ten seconds",
+    "Stop ongoing allergen exposure when feasible without delaying treatment",
+    "Insert an oropharyngeal airway despite an intact gag reflex"
    ],
    "correct": [
     0,
@@ -4221,12 +4245,12 @@
     4
    ],
    "rationales": [
-    "Correct. The book's nursing priorities include keeping intubation equipment ready.",
-    "Incorrect. The book states anaphylaxis is a clinical diagnosis; treatment should not wait for lab results.",
-    "Correct. The book's nursing priorities include oral or nasal airways as needed.",
-    "Correct. The book's nursing priorities include beginning CPR if circulation fails.",
-    "Correct. The book's first priority includes stopping exposure to the allergen immediately.",
-    "Incorrect. The book makes airway, breathing, and circulation the first priority."
+    "Correct. Progressive airway edema requires prompt expert assessment and preparation.",
+    "Incorrect. Treatment cannot wait for laboratory confirmation.",
+    "Correct. IM epinephrine is first-line treatment.",
+    "Correct. This describes cardiac arrest requiring CPR; hypotension with a pulse alone is not a CPR indication.",
+    "Correct. Remove ongoing exposure when feasible, while epinephrine and emergency care proceed.",
+    "Incorrect. An oral airway can provoke gagging, vomiting and aspiration in this awake client; it does not treat progressive laryngeal edema."
    ],
    "clue": "Throat tightness and wheezing after a sting.",
    "priority": "Protecting the airway and preparing for deterioration in anaphylaxis.",
@@ -4234,7 +4258,8 @@
    "clientNeed": "safety",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Give IM epinephrine promptly and support ABCs; choose airway adjuncts according to consciousness and gag reflex."
   },
   {
    "id": "heme-anaphylaxis-q13",
@@ -4266,28 +4291,27 @@
    "id": "heme-anaphylaxis-q14",
    "section": "heme-anaphylaxis",
    "type": "sata",
-   "stem": "The nurse reviews medications used to treat anaphylaxis. Which medication and purpose pairings are accurate? Select all that apply.",
+   "stem": "Which medication-purpose pairings are appropriate in anaphylaxis, when selected for the stated indication? Select all that apply.",
    "options": [
-    "Albuterol to relieve bronchospasm",
-    "Diphenhydramine to raise blood pressure in shock",
-    "Corticosteroids to reduce inflammation and swelling",
-    "Dopamine to maintain blood pressure during shock",
+    "Nebulized albuterol as an adjunct for persistent bronchospasm after epinephrine",
+    "Diphenhydramine as the first-line treatment to reverse shock",
+    "Routine corticosteroids as immediate rescue for airway obstruction",
+    "A specialist-directed IV epinephrine infusion for refractory shock after repeated IM epinephrine and appropriate fluids",
     "Glucagon as first-line treatment for every client",
-    "Epinephrine as first-line treatment"
+    "IM epinephrine as first-line treatment"
    ],
    "correct": [
     0,
-    2,
     3,
     5
    ],
    "rationales": [
-    "Correct. The book lists albuterol to relieve bronchospasm and improve breathing.",
-    "Incorrect. The book lists diphenhydramine for skin and symptom relief; dopamine maintains blood pressure.",
-    "Correct. The book lists corticosteroids to reduce inflammation and swelling.",
-    "Correct. The book lists dopamine to maintain blood pressure during shock.",
-    "Incorrect. The book reserves glucagon for beta-blocked clients with cardiovascular collapse.",
-    "Correct. The book lists epinephrine as first-line treatment."
+    "Correct. Albuterol can relieve bronchospasm but does not replace epinephrine.",
+    "Incorrect. Antihistamines do not reverse airway obstruction or shock and must not delay epinephrine.",
+    "Incorrect. Corticosteroids have delayed effects and are not routine immediate anaphylaxis rescue; selected asthma or refractory indications are separate.",
+    "Correct. Refractory shock may require a monitored specialist-directed epinephrine infusion and continued reassessment.",
+    "Incorrect. Glucagon may be considered in selected beta-blocked refractory cardiovascular presentations, not universally first-line.",
+    "Correct. Prompt IM epinephrine is first-line anaphylaxis therapy."
    ],
    "clue": "Each anaphylaxis medication has a specific purpose.",
    "priority": "Knowing the purpose of each anaphylaxis medication.",
@@ -4295,7 +4319,8 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Separate first-line epinephrine from indication-specific adjuncts; steroids and antihistamines are not acute airway or shock rescue."
   },
   {
    "id": "heme-anaphylaxis-q15",
@@ -4304,7 +4329,7 @@
    "stem": "A client with severe anaphylaxis has received epinephrine, oxygen, and IV fluids. For each finding, indicate whether it shows improvement or worsening.",
    "rows": [
     "Urine output increasing to an adequate amount",
-    "Stridor no longer heard",
+    "Stridor resolves with improved air entry, normalizing oxygenation, reduced work of breathing and ability to speak",
     "Weak pulses with slow capillary refill",
     "Blood pressure falling further",
     "Hives and flushing fading"
@@ -4322,7 +4347,7 @@
    ],
    "rationales": [
     "Improvement. The book says to monitor urinary output for organ perfusion.",
-    "Improvement. The book lists stridor as an airway emergency sign; its resolution shows a response.",
+    "Improvement. The combined improvement in air movement, breathing and oxygenation supports a response. Disappearance of stridor alone can indicate inadequate airflow or complete obstruction.",
     "Worsening. The book lists weak pulses and slow capillary refill as cardiovascular signs of anaphylaxis.",
     "Worsening. Hypotension is a leading cause of death in anaphylaxis.",
     "Improvement. Hives and flushing are skin signs that fade as the reaction responds."
@@ -4350,7 +4375,7 @@
    "rationales": [
     "Correct. The book's nursing priorities include teaching allergen avoidance, early signs, and emergency action, which supports the parent's sense of control.",
     "Incorrect. This statement reflects ongoing fear rather than effective coping.",
-    "Incorrect. Re-exposure after sensitization causes severe reactions, so others caring for the child need to know.",
+    "Incorrect. Re-exposure can cause anaphylaxis, and future severity is unpredictable, so others caring for the child need to know.",
     "Incorrect. The book stresses early recognition and emergency action."
    ],
    "clue": "An anxious parent after a child's anaphylaxis.",
@@ -4779,28 +4804,28 @@
    "id": "heme-ra-q15",
    "section": "heme-ra",
    "type": "matrix",
-   "stem": "The nurse is planning care for clients with rheumatoid arthritis. For each nursing action, indicate whether it is a focus of the acute phase or the chronic phase.",
+   "stem": "For each RA-care action, identify whether it is specifically adjusted for an active painful flare or can be appropriate during both active and stable disease according to function and tolerance.",
    "rows": [
-    "Rest the inflamed joints",
-    "Promote gentle movement",
-    "Encourage independence in daily activities",
-    "Use assistive devices"
+    "Temporarily reduce loading of acutely inflamed painful joints while avoiding prolonged immobilization",
+    "Use gentle range-of-motion movement within tolerance",
+    "Support as much independence in daily activities as function permits",
+    "Use an appropriate assistive device when needed for safe function"
    ],
    "columns": [
-    "Acute phase",
-    "Chronic phase"
+    "Adjusted for an active flare",
+    "Appropriate in either phase"
    ],
    "correct": [
     0,
-    0,
+    1,
     1,
     1
    ],
    "rationales": [
-    "Acute phase. The book says to rest inflamed joints during the acute phase.",
-    "Acute phase. The book says to promote gentle movement during the acute phase.",
-    "Chronic phase. The book says to encourage independence during the chronic phase.",
-    "Chronic phase. The book says to use assistive devices during the chronic phase."
+    "Relative joint rest is adjusted to active inflammation; prolonged inactivity can worsen function.",
+    "Gentle movement can be useful in either phase with intensity adapted to pain and inflammation.",
+    "Independence is a goal throughout disease, not only in stable disease.",
+    "Assistive devices may be needed in either phase."
    ],
    "clue": "Care differs between acute and chronic phases of RA.",
    "priority": "Matching activity and rest measures to the phase of RA.",
@@ -4808,7 +4833,8 @@
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Individualize rest, movement and support; independence and assistive devices are not exclusive to one phase."
   },
   {
    "id": "heme-ra-q16",

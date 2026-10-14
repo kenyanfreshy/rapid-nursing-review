@@ -63,18 +63,19 @@
     "Lower the head of the bed flat during all meals",
     "Offer thin liquids through a straw to ease drinking",
     "Wait until the next shift to report the coughing",
-    "Assess swallowing and use thickened fluids for intake"
+    "Stop the unsafe oral trial and obtain swallowing assessment before further intake"
    ],
    "correct": 3,
    "rationales": [
-    "Incorrect. The book advises HOB 30 degrees for airway protection; lying flat raises aspiration risk.",
-    "Incorrect. Thin liquids are what the client is coughing on; the book calls for thickened fluids.",
-    "Incorrect. Coughing with fluids signals aspiration risk that needs prompt action, not delay.",
-    "Correct. The book lists assessing swallowing and thickening fluids to prevent aspiration after stroke."
+    "Flat positioning increases aspiration concern.",
+    "Do not repeat an unsafe thin-liquid trial with a straw without assessment.",
+    "Coughing during intake warrants prompt response.",
+    "Correct. Withhold unsafe intake and obtain a screen/specialist evaluation; use any textures/thickening only under the individualized plan. Thickening does not guarantee prevention."
    ],
    "clue": "The client coughs while drinking water.",
    "priority": "Prevent aspiration in a client with impaired swallowing.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Stop unsafe oral intake and assess swallowing rather than automatically prescribing thickened fluids."
   },
   {
    "id": "neuro-stroke-q4",
@@ -245,7 +246,7 @@
    "type": "sata",
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
-   "stem": "A client with a brain tumor is being monitored for increased intracranial pressure (ICP). Which findings should the nurse recognize as early signs of increased ICP? Select all that apply.",
+   "stem": "A client with a brain tumor is monitored for ICP-related deterioration. Which new findings require urgent neurologic evaluation? Select all that apply.",
    "options": [
     "New headache",
     "Decreased level of consciousness",
@@ -257,20 +258,23 @@
    "correct": [
     0,
     1,
+    2,
     3,
-    4
+    4,
+    5
    ],
    "rationales": [
-    "Correct. Headache is listed among the early signs of increased ICP.",
-    "Correct. The book lists decreased LOC as an early sign and calls a drop in LOC the first critical sign.",
-    "Incorrect. Bradycardia is part of Cushing's triad, which the book lists as a late sign.",
-    "Correct. Sluggish, unequal pupils are listed as an early pupillary change.",
-    "Correct. Nausea and vomiting, often projectile, are listed as early signs.",
-    "Incorrect. Posturing is listed with the late signs of increased ICP."
+    "New headache warrants evaluation in this risk context.",
+    "Declining consciousness is an important warning sign.",
+    "New bradycardia may reflect an ominous Cushing response and requires evaluation.",
+    "New pupil asymmetry/sluggishness can signal mass effect/herniation and requires immediate escalation.",
+    "New projectile emesis warrants urgent neurologic evaluation.",
+    "New posturing is severe neurologic deterioration requiring emergency action."
    ],
    "clue": "The nurse is watching for the earliest changes in a client at risk for increased ICP.",
    "priority": "Detect increased ICP early, before late signs such as Cushing's triad appear.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Do not force neurologic deterioration into an invariable early/late order; new focal or consciousness changes require escalation."
   },
   {
    "id": "neuro-icp-q5",
@@ -279,11 +283,11 @@
    "type": "matrix",
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "stem": "A client with a traumatic brain injury has increased intracranial pressure. For each nursing action, indicate whether it is indicated or contraindicated.",
+   "stem": "A TBI client with raised ICP has adequate BP and an explicit head-elevation/neutral-alignment plan consistent with spine orders. Classify these actions under that plan.",
    "rows": [
     "Raise the head of the bed to 30 degrees",
     "Keep the head midline in a neutral position",
-    "Place a pillow under the knees to flex the hips",
+    "Draw the knees toward the chest causing excessive hip flexion",
     "Limit each suctioning pass to 10-15 seconds or less",
     "Lay the bed flat to improve blood flow to the brain"
    ],
@@ -301,7 +305,7 @@
    "rationales": [
     "Indicated. The book says to elevate the HOB 30 degrees.",
     "Indicated. The book says to keep the head midline and neutral.",
-    "Contraindicated. The book says to avoid hip flexion because it can raise ICP.",
+    "Contraindicated. Excessive hip flexion can impair venous drainage; a simple knee-support pillow does not necessarily create that position. Follow ICP/perfusion/spine orders.",
     "Indicated. The book limits suctioning to 10-15 seconds or less.",
     "Contraindicated. The book specifies HOB 30 degrees, not flat."
    ],
@@ -366,7 +370,7 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client is in status epilepticus. After securing the airway, which medication should the nurse anticipate giving to stop the seizure?",
+   "stem": "A client is in convulsive status epilepticus. While the team supports airway/breathing and IV access is available, which ordered first-line medication should be given promptly?",
    "options": [
     "Oral gabapentin",
     "Phenytoin as the first drug",
@@ -376,7 +380,7 @@
    "correct": 2,
    "rationales": [
     "Incorrect. Gabapentin is a listed anticonvulsant, but oral dosing is not how the book stops active seizures.",
-    "Incorrect. The book lists phenytoin or fosphenytoin for maintenance, after seizures are stopped.",
+    "Incorrect as the initial drug here. Fosphenytoin/phenytoin may be used as next-line therapy after benzodiazepine treatment; do not delay first-line benzodiazepine while awaiting intubation.",
     "Correct. The book lists IV lorazepam or diazepam to stop seizures, with airway management as the priority.",
     "Incorrect. Vagal nerve stimulation is a surgical option for drug-resistant epilepsy, not emergency care."
    ],
@@ -450,16 +454,16 @@
    "type": "matrix",
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "stem": "The nurse reviews seizure descriptions using the 2017 classification. For each description, indicate the seizure type.",
+   "stem": "Using 2025 ILAE terminology, classify these established electroclinical seizures.",
    "rows": [
-    "Jerking of one hand starts on one side of the brain, and the client stays aware and can talk",
-    "Onset is on one side of the brain, and the client cannot respond or recall the event",
-    "A child stares blankly for a few seconds with a brief change in awareness",
-    "Tonic-clonic movements involve both sides of the brain from the start"
+    "Documented focal-onset hand jerking with preserved awareness/responsiveness",
+    "Documented focal onset with impaired awareness/responsiveness",
+    "EEG-confirmed generalized absence seizure with brief staring and impaired consciousness",
+    "EEG-confirmed generalized tonic-clonic seizure with bilateral onset"
    ],
    "columns": [
-    "Focal aware",
-    "Focal impaired awareness",
+    "Focal preserved consciousness",
+    "Focal impaired consciousness",
     "Generalized"
    ],
    "correct": [
@@ -469,14 +473,15 @@
     2
    ],
    "rationales": [
-    "Focal aware. One-sided onset with awareness intact is focal aware.",
-    "Focal impaired awareness. One-sided onset with impaired awareness fits this category.",
-    "Generalized. The book lists absence seizures (staring, brief awareness change) as generalized nonmotor seizures.",
-    "Generalized. Both sides at onset with tonic-clonic activity is a generalized motor seizure."
+    "Established focal onset and preserved consciousness determine the category.",
+    "Established focal onset and impaired consciousness determine the category.",
+    "EEG/electroclinical context establishes generalized absence; brief staring alone is insufficient.",
+    "The supplied established bilateral generalized onset supports this category."
    ],
    "clue": "Each description gives where the seizure begins and the level of awareness.",
    "priority": "Classify seizures by onset location and awareness to guide accurate documentation.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use current consciousness terminology and established onset; unexplained staring may require an unknown-onset classification."
   },
   {
    "id": "neuro-seizures-q6",
@@ -644,7 +649,7 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client is admitted with bacterial meningitis. Which interventions should the nurse include in the plan of care? Select all that apply.",
+   "stem": "A client has suspected meningococcal meningitis while etiology is being evaluated. Which actions should the nurse include? Select all that apply.",
    "options": [
     "Start droplet precautions right away",
     "Pad the side rails and keep the room quiet",
@@ -660,7 +665,7 @@
     4
    ],
    "rationales": [
-    "Correct. The book says to initiate droplet precautions immediately for bacterial meningitis.",
+    "Correct. Use empiric droplet precautions for suspected meningococcal disease; continue for the organism/therapy interval, typically until 24 hours of effective therapy. All bacterial etiologies do not require identical precautions.",
     "Correct. The book lists seizure precautions with padded rails and a quiet room.",
     "Correct. Frequent neuro checks are listed in nursing care.",
     "Incorrect. The book calls for a quiet room as part of seizure precautions.",
@@ -688,7 +693,7 @@
    "correct": 1,
    "rationales": [
     "Incorrect. Preparing for the procedure ignores signs that make it dangerous.",
-    "Correct. The book warns never to perform a lumbar puncture if increased ICP is suspected because of the risk of brain herniation; the nurse must report these signs first.",
+    "Correct. New pupillary/focal or mental-status changes may indicate mass effect/herniation risk. Defer the planned LP for urgent provider evaluation/imaging when indicated; do not delay needed antibiotics. Not every elevated ICP is an absolute LP prohibition.",
     "Incorrect. Sedation could mask further neurologic decline and does not address the risk.",
     "Incorrect. The book says droplet precautions start immediately for bacterial meningitis."
    ],
@@ -762,7 +767,7 @@
    "type": "mcq",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A client's CSF shows elevated protein and WBCs, normal glucose, and some red blood cells. Which condition is most consistent with these results?",
+   "stem": "A client has acute fever, altered mental status and temporal-lobe MRI abnormalities. CSF has elevated protein/WBCs, normal glucose and RBCs. Which diagnosis is supported while HSV-PCR and other investigations are pending?",
    "options": [
     "Bacterial meningitis",
     "HSV encephalitis",
@@ -772,7 +777,7 @@
    "correct": 1,
    "rationales": [
     "Incorrect. The book describes bacterial meningitis CSF as having low glucose and cloudy fluid.",
-    "Correct. The book lists raised protein and WBCs with normal glucose, and possible RBCs with HSV infection, for encephalitis.",
+    "Correct. The clinical/temporal findings support HSV encephalitis; CSF findings alone are not specific, and RBCs can occur with a traumatic tap. Confirmatory evaluation proceeds without delaying indicated antiviral therapy.",
     "Incorrect. Normal CSF has low protein; elevated protein and WBCs are abnormal.",
     "Incorrect. The book's MS diagnostics center on MRI showing demyelinating lesions, not this CSF pattern."
    ],
@@ -812,7 +817,7 @@
    "type": "sata",
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "stem": "A client is admitted with suspected viral encephalitis. Which findings does the nurse expect? Select all that apply.",
+   "stem": "A client has an acute viral encephalitis presentation. Which clinical findings commonly occur? Select all that apply.",
    "options": [
     "Fever and headache",
     "Low CSF glucose on lumbar puncture",
@@ -828,11 +833,11 @@
    ],
    "rationales": [
     "Correct. The book's assessment lists fever and headache.",
-    "Incorrect. The book says CSF glucose is normal in encephalitis.",
+    "Incorrect for this expected-pattern item. CSF glucose is often normal in viral encephalitis, but exceptions occur and low glucose requires differential assessment.",
     "Correct. Personality changes are listed on physical examination.",
     "Incorrect. The book lists rapid heart and breathing rates.",
     "Correct. Seizures are listed as an early sign.",
-    "Incorrect. The book says neurologic changes follow the first symptoms within 24-48 hours."
+    "Incorrect as the expected acute presentation. Neurologic change may evolve over hours/days; a fixed 24–48-hour interval is not universal."
    ],
    "clue": "The client has suspected viral encephalitis.",
    "priority": "Recognize the expected presentation of encephalitis.",
@@ -895,7 +900,7 @@
    "type": "mcq",
    "clientNeed": "pa",
    "cjmm": "takeAction",
-   "stem": "A client with a spinal cord injury suddenly develops severe hypertension, a pounding headache, sweating above the level of injury, and bradycardia. Which action should the nurse take?",
+   "stem": "A client with SCI atT 4 develops severe hypertension, headache, sweating above the lesion and bradycardia. The nurse has immediately sat the client upright and started frequent BP reassessment. Which next action should the nurse take?",
    "options": [
     "Document the findings and reassess in one hour",
     "Begin range-of-motion exercises on all limbs",
@@ -907,7 +912,7 @@
     "Incorrect. The book calls autonomic dysreflexia life-threatening; waiting delays removing the cause.",
     "Incorrect. ROM prevents contractures but does not address the cause of autonomic dysreflexia.",
     "Correct. These are signs of autonomic dysreflexia, and the book lists a full bladder as a common cause.",
-    "Incorrect. Extra fluids could add to bladder fullness, which is a listed trigger."
+    "Incorrect. Extra fluids could add to bladder fullness, which is a listed trigger. Autonomic dysreflexia requires immediate upright positioning, loosening constriction, frequent BP checks and rapid trigger assessment/removal, with urgent escalation and prescribed antihypertensive treatment if needed."
    ],
    "clue": "Severe hypertension, headache and sweating above the injury.",
    "priority": "Find and remove the cause of autonomic dysreflexia.",
@@ -970,35 +975,37 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is planning monitoring for one client with a traumatic brain injury (TBI) and another with a spinal cord injury (SCI). For each complication, indicate the injury the book links it to.",
+   "stem": "Classify these defined complication risks; some monitoring applies to both injuries.",
    "rows": [
-    "Increased intracranial pressure",
-    "Brain herniation",
-    "Autonomic dysreflexia",
-    "Respiratory failure with high injuries",
-    "Skin breakdown from pressure"
+    "Raised intracranial pressure from the brain injury",
+    "Brain herniation from traumatic intracranial mass effect",
+    "Autonomic dysreflexia with SCI at or aboveT 6",
+    "Respiratory failure from a high cervical cord lesion",
+    "Pressure injury risk with severe immobility"
    ],
    "columns": [
-    "TBI",
-    "SCI"
+    "TBI-related",
+    "SCI-related",
+    "Both"
    ],
    "correct": [
     0,
     0,
     1,
     1,
-    1
+    2
    ],
    "rationales": [
-    "TBI. The book lists increased ICP as a TBI complication.",
-    "TBI. Brain herniation is listed as a TBI complication.",
-    "SCI. The book lists autonomic dysreflexia as a life-threatening SCI complication.",
-    "SCI. Respiratory failure with high injuries is listed under SCI complications.",
-    "SCI. Skin breakdown (pressure ulcers) is listed under SCI complications."
+    "Intracranial injury can raise ICP.",
+    "Traumatic mass effect can cause brain herniation.",
+    "High cord injury predisposes to autonomic dysreflexia.",
+    "High cervical injury can impair respiratory-muscle control.",
+    "Immobilized clients with either injury can develop pressure injury."
    ],
    "clue": "Each client has a different type of neurologic injury.",
    "priority": "Anticipate injury-specific complications to focus monitoring.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Match defined mechanisms; immobility risks are not exclusive to SCI."
   },
   {
    "id": "neuro-tbi-q5",
@@ -1095,14 +1102,14 @@
    "options": [
     "Donepezil once daily",
     "A barbiturate for sleep",
-    "Memantine once daily",
+    "Memantine extended-release once daily",
     "Sertraline for depression"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. Donepezil is a listed cholinesterase inhibitor that improves early cognitive symptoms.",
     "Correct. The book advises avoiding barbiturates because they increase confusion in AD.",
-    "Incorrect. Memantine is listed as an NMDA antagonist that delays cognitive decline.",
+    "Incorrect. Extended-release memantine may be prescribed once daily for symptomatic treatment in moderate-to-severe Alzheimer disease; it does not guarantee delayed underlying disease progression.",
     "Incorrect. SSRIs such as sertraline are listed for depression and anxiety in AD."
    ],
    "clue": "The client has Alzheimer disease and confusion is a concern.",
@@ -1271,7 +1278,7 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with Parkinson disease has difficulty swallowing and is losing weight. Which nutrition plan should the nurse recommend?",
+   "stem": "A client with Parkinson disease has dysphagia and weight loss; a completed swallowing assessment supports prescribed soft foods and supplements at the specified liquid consistency. Which nutrition plan should the nurse recommend?",
    "options": [
     "Three large meals a day to reduce the number of meals",
     "Firm, dry foods that require extra chewing to strengthen",
@@ -1283,11 +1290,12 @@
     "Incorrect. The book advises small, frequent meals rather than large ones.",
     "Incorrect. The book recommends soft foods; swallowing difficulty raises aspiration risk.",
     "Correct. The book recommends small frequent meals, soft foods and supplemental shakes for PD.",
-    "Incorrect. Clear liquids alone would not meet nutritional needs, and the book recommends soft foods and shakes."
+    "Incorrect. Clear liquids alone would not meet nutritional needs, and the book recommends soft foods and shakes. Safety context: Offer oral intake only under the completed individualized swallowing plan. If new coughing/choking occurs, stop the unsafe trial and reassess. Soft foods, shakes or thickening do not guarantee aspiration prevention."
    ],
    "clue": "Swallowing difficulty with weight loss.",
    "priority": "Support nutrition while lowering aspiration risk.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the assessed texture/consistency and nutrition plan; promptly reassess new swallowing difficulty."
   },
   {
    "id": "neuro-parkinson-q3",
@@ -1354,8 +1362,8 @@
    "cjmm": "evaluateOutcomes",
    "stem": "The nurse reviews teaching about Parkinson disease medications. For each statement, indicate whether it is accurate or inaccurate.",
    "rows": [
-    "Carbidopa-levodopa is converted to dopamine and is the main drug for tremor and rigidity",
-    "Amantadine improves dopamine release to help control tremor",
+    "Levodopa converts to dopamine; carbidopa inhibits peripheral levodopa conversion",
+    "Amantadine can be used for levodopa-associated dyskinesia; its mechanism is not fully established",
     "MAO-B inhibitors such as rasagiline speed up the breakdown of dopamine",
     "Taking these medications every day can cure Parkinson disease"
    ],
@@ -1370,10 +1378,10 @@
     1
    ],
    "rationales": [
-    "Accurate. The book calls levodopa the main treatment for tremor and rigidity because it is converted to dopamine.",
-    "Accurate. The book says amantadine improves dopamine release to control tremor.",
-    "Inaccurate. The book says MAO-B inhibitors inhibit dopamine breakdown.",
-    "Inaccurate. The book states there is no cure; treatment focuses on symptom management."
+    "Accurate. The two components have different complementary functions.",
+    "Accurate. Selected formulations are used for dyskinesia; do not reduce the incompletely established mechanism to one dopamine-release claim.",
+    "Inaccurate. MAO-B inhibitors reduce dopamine breakdown.",
+    "Inaccurate. Symptom treatment does not cure Parkinson disease."
    ],
    "clue": "The statements describe how PD drugs work.",
    "priority": "Teach accurate information about dopamine-related drug therapy.",
@@ -1520,12 +1528,12 @@
    "type": "sata",
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "stem": "The nurse is reviewing the health history of a young adult being evaluated for multiple sclerosis. Which findings are risk factors for MS? Select all that apply.",
+   "stem": "Which history/exposure findings are associated with increased MS risk rather than establishing the diagnosis? Select all that apply.",
    "options": [
     "A sibling with multiple sclerosis",
     "Past Epstein-Barr virus infection",
     "A history of hypertension",
-    "Inflammatory bowel disease",
+    "Current cigarette smoking",
     "Low vitamin D levels",
     "Regular aerobic exercise"
    ],
@@ -1536,16 +1544,17 @@
     4
    ],
    "rationales": [
-    "Correct. The book says a family history of MS raises the risk 15 times.",
-    "Correct. Epstein-Barr virus infection is a listed risk factor.",
-    "Incorrect. Hypertension is not among the MS risk factors the book lists.",
-    "Correct. Autoimmune diseases including inflammatory bowel disease are listed.",
-    "Correct. Low vitamin D is a listed risk factor.",
-    "Incorrect. Regular exercise is not a listed MS risk factor."
+    "Correct. A first-degree relative increases susceptibility, but no single fixed familial multiplier applies universally.",
+    "Correct. EBV is strongly associated with MS susceptibility.",
+    "Hypertension is not the specific MS susceptibility association tested.",
+    "Correct. Smoking is a recognized modifiable risk association.",
+    "Correct. Low vitamin D/limited sunlight is associated with risk, but supplementation does not guarantee prevention.",
+    "Regular exercise is not a recognized causal MS risk in this item."
    ],
    "clue": "The history includes family, infectious and autoimmune factors.",
    "priority": "Identify MS risk factors during screening.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Risk associations guide counseling; they do not diagnose MS or guarantee prevention."
   },
   {
    "id": "neuro-ms-q5",
@@ -1614,23 +1623,24 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "A client with multiple sclerosis asks the nurse about stem cell therapy after reading about it online. Which action by the nurse is most appropriate?",
+   "stem": "A client with highly active relapsing MS despite disease-modifying treatment asks about autologous hematopoietic stem cell transplantation(AHSCT). What is the nurse’s best response?",
    "options": [
-    "Explain that it is considered experimental and arrange for the provider to discuss it",
+    "Arrange specialist discussion of selected AHSCT eligibility, benefits and substantial risks",
     "Tell the client it is the standard first treatment for MS",
     "Advise the client not to bring it up with the provider",
     "Reassure the client that it reliably induces remission"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists stem cell therapy as experimental; the nurse should give accurate information and involve the provider so the client can make an informed decision.",
-    "Incorrect. The book lists it as experimental, not standard care.",
-    "Incorrect. Discouraging the question does not support the client's right to informed choices.",
-    "Incorrect. The book does not describe it as a reliable treatment; immunomodulatory therapies are listed to induce remission."
+    "Correct. Selected highly active relapsing MS may be considered for AHSCT at experienced centers after careful eligibility/risk assessment. Distinguish it from unproven commercial stem-cell products.",
+    "It is not routine first-line therapy for all MS.",
+    "Support informed questions and shared decisions.",
+    "Do not guarantee remission or benefit."
    ],
    "clue": "The client asks about a treatment the book lists as experimental.",
    "priority": "Advocate for informed decision-making about treatment options.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Distinguish selected AHSCT from unproven products and refer for individualized expert assessment."
   },
   {
    "id": "neuro-als-q1",
@@ -1649,13 +1659,14 @@
    "correct": 0,
    "rationales": [
     "Correct. The book names respiratory failure as the leading cause of death in ALS and lists airway support as a priority.",
-    "Incorrect. The book states cognitive function remains unaffected in ALS.",
-    "Incorrect. The book states ALS causes no sensory loss.",
+    "Incorrect. ALS may include cognitive/behavioral impairment or frontotemporal dementia, but the displayed respiratory weakness is the immediate priority.",
+    "Incorrect. Sensation is typically relatively preserved in ALS; no new sensory deficit is described in this item.",
     "Incorrect. Communication is a priority, but airway and breathing come before it."
    ],
    "clue": "Shallow breathing and a weak cough.",
    "priority": "Airway and breathing support in ALS.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Prioritize breathing in respiratory weakness; assess ALS cognition/capacity individually."
   },
   {
    "id": "neuro-als-q2",
@@ -1700,12 +1711,13 @@
    "rationales": [
     "Incorrect. Carbidopa-levodopa treats Parkinson disease, not ALS dysphagia.",
     "Incorrect. Thin liquids increase choking risk and do not address weight loss.",
-    "Correct. The book lists percutaneous endoscopic gastrostomy (PEG) for nutrition in ALS.",
+    "Correct. Discuss individualized gastrostomy nutrition with the client/team in the context of dysphagia, weight loss and respiratory/procedural risk. PEG does not eliminate aspiration of secretions or reflux; continue precautions.",
     "Incorrect. Pyridostigmine is used for myasthenia gravis, not ALS."
    ],
    "clue": "Dysphagia, choking and weight loss.",
    "priority": "Maintain nutrition and reduce aspiration risk.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Gastrostomy supports nutrition but does not guarantee prevention of aspiration."
   },
   {
    "id": "neuro-als-q4",
@@ -1748,23 +1760,24 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "stem": "A client with advanced ALS can no longer speak. The nurse hears family members discussing the client's prognosis at the bedside as if the client cannot understand. Which action by the nurse is best?",
+   "stem": "A client with advanced ALS cannot speak but reliably demonstrates intact comprehension using an established communication device. Family discusses prognosis as though the client cannot understand. What should the nurse do?",
    "options": [
     "Ask the family to leave so the client can rest",
     "Tell the family that ALS also affects memory and understanding",
     "Ignore the conversation because the client cannot respond",
-    "Explain that the client's mind is alert and help the family include the client"
+    "Explain the demonstrated comprehension and support the client’s participation using the device"
    ],
    "correct": 3,
    "rationales": [
-    "Incorrect. Sending the family away does not address the issue or preserve dignity.",
-    "Incorrect. The book states cognition and sensation are not affected in ALS.",
-    "Incorrect. The client can understand; ignoring this fails to protect dignity.",
-    "Correct. The book says the body is weak but the mind is alert, and care should preserve dignity and communication."
+    "Removing family does not directly support the client’s participation.",
+    "ALS can affect cognition in some clients, but the supplied assessment demonstrates preserved comprehension here.",
+    "Inability to speak does not establish inability to understand or participate.",
+    "Correct. Use the demonstrated communication capacity and preferences to include the client."
    ],
    "clue": "The family talks as if the client cannot understand.",
    "priority": "Preserve dignity and communication for a client who is cognitively intact.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Assess comprehension individually; speech loss alone does not establish impaired cognition."
   },
   {
    "id": "neuro-als-q6",
@@ -1808,7 +1821,7 @@
    "type": "mcq",
    "clientNeed": "hpm",
    "cjmm": "generateSolutions",
-   "stem": "A client whose father had ALS asks what can be done to lower personal risk. Which ALS risk factor listed in the book can the nurse address through health teaching?",
+   "stem": "A client with a family history of ALS asks about risk and prevention. Which listed exposure is modifiable through counseling?",
    "options": [
     "Smoking",
     "Inherited genes",
@@ -1817,14 +1830,15 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Smoking is a listed ALS risk factor and is one the client can change.",
+    "Correct. Smoking is a modifiable exposure with broad health harms and a reported ALS association. Cessation does not guarantee ALS prevention; discuss familial/genetic risk separately.",
     "Incorrect. Genetic factors are listed but cannot be changed.",
     "Incorrect. Head trauma is listed, but a past injury cannot be undone.",
     "Incorrect. Military service is listed, but past service cannot be changed."
    ],
    "clue": "The client wants to know which risk factor can be changed.",
    "priority": "Teach about modifiable risk factors.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Address modifiable smoking exposure without promising prevention or changing inherited risk."
   },
   {
    "id": "neuro-gbs-q1",
@@ -2042,14 +2056,15 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book describes this as cholinergic crisis from overmedication, treated by holding the anticholinesterase and giving atropine.",
-    "Incorrect. More anticholinesterase would worsen a cholinergic crisis; the book says to increase it only in myasthenic crisis.",
+    "Correct. Extra doses with muscarinic signs raises toxicity concern. Hold further doses, urgently assess airway/ventilation and give ordered symptom-specific treatment. Atropine treats muscarinic effects, not respiratory-muscle paralysis.",
+    "Incorrect. More anticholinesterase would worsen a cholinergic crisis; severe weakness needs respiratory assessment and specialist-directed medication decisions, not automatic dose increase.",
     "Incorrect. The book says to avoid sedatives in MG because they may worsen respiratory depression.",
     "Incorrect. A crisis can cause severe respiratory distress and needs prompt treatment."
    ],
    "clue": "Extra doses followed by diarrhea and bradycardia.",
    "priority": "Distinguish cholinergic crisis and treat it correctly.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Medication history is important, but crisis assessment prioritizes breathing and multiple triggers; neurology directs anticholinesterase use, especially during intubation."
   },
   {
    "id": "neuro-mg-q2",
@@ -2108,35 +2123,37 @@
    "type": "matrix",
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "stem": "A client with myasthenia gravis is admitted in crisis. For each feature, indicate which crisis it matches.",
+   "stem": "Classify these defined MG-crisis findings/actions.",
    "rows": [
-    "Caused by undermedication",
-    "Weakness with diarrhea and bradycardia",
-    "Improves with the Tensilon test",
-    "Treated by holding the anticholinesterase and giving atropine",
-    "Severe weakness with dyspnea and cyanosis"
+    "Respiratory/bulbar weakness during infection without evidence of excess cholinesterase medication",
+    "Extra pyridostigmine doses followed by weakness, diarrhea and bradycardia",
+    "Urgent airway/ventilation assessment during severe weakness",
+    "Hold further anticholinesterase and prepare prescribed atropine for overdose-related muscarinic effects",
+    "Severe respiratory-muscle weakness requiring ventilatory support"
    ],
    "columns": [
-    "Myasthenic crisis",
-    "Cholinergic crisis"
+    "Supports myasthenic crisis",
+    "Supports cholinergic toxicity",
+    "Applies to either"
    ],
    "correct": [
     0,
     1,
-    0,
+    2,
     1,
-    0
+    2
    ],
    "rationales": [
-    "Myasthenic. The book lists undermedication as the cause of myasthenic crisis.",
-    "Cholinergic. Weakness with diarrhea and bradycardia are listed for cholinergic crisis.",
-    "Myasthenic. The book says myasthenic crisis shows a positive response to the Tensilon test.",
-    "Cholinergic. Treatment is to hold the anticholinesterase and give atropine.",
-    "Myasthenic. Severe weakness, dyspnea and cyanosis are listed for myasthenic crisis."
+    "Infection can trigger myasthenic crisis; it is not limited to undermedication.",
+    "Medication history plus muscarinic effects supports toxicity.",
+    "Both can compromise ventilation.",
+    "Atropine treats muscarinic manifestations, not all neuromuscular paralysis.",
+    "Respiratory compromise can occur in either; stabilize before etiologic testing."
    ],
    "clue": "Both crises cause weakness, so other features must be used to tell them apart.",
    "priority": "Differentiate myasthenic from cholinergic crisis to choose the right treatment.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Do not use routine edrophonium/Tensilon challenge as current crisis rescue or assume cyanosis uniquely identifies one crisis."
   },
   {
    "id": "neuro-mg-q5",
@@ -2235,17 +2252,17 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client reports sudden weakness on one side of the face with only mild discomfort that began after a recent viral illness. Stroke has been ruled out. Which treatment should the nurse anticipate?",
+   "stem": "A client has new unilateral peripheral facial weakness beginning 24 hours ago; stroke and other causes have been evaluated, and Bell palsy is diagnosed. Eyelid closure is incomplete. Which plan should the nurse anticipate?",
    "options": [
     "Carbamazepine and possible nerve surgery",
-    "Steroids, antivirals, and physical therapy",
+    "Prompt oral corticosteroid therapy and eye protection; consider adjunct antiviral after discussion",
     "Surgical shunt placement to drain CSF",
     "IV immunoglobulin or plasmapheresis"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. The book lists these treatments for trigeminal neuralgia.",
-    "Correct. The book lists these treatments for Bell palsy, which involves CN VII and is likely viral.",
+    "Correct. Appropriate corticosteroids within 72 hours and eye protection are key; antiviral addition is optional after assessment. Rehabilitation is individualized, particularly for persistent deficits.",
     "Incorrect. Shunt placement is the treatment for hydrocephalus.",
     "Incorrect. IVIG and plasmapheresis are the antibody-reducing treatments the book lists for Guillain-Barre syndrome, not Bell palsy."
    ],
@@ -2287,7 +2304,7 @@
    "cjmm": "recognizeCues",
    "stem": "The nurse is caring for an infant born with a myelomeningocele. Which finding should the nurse report as a possible sign of hydrocephalus?",
    "options": [
-    "Increasing head size with episodes of vomiting",
+    "Rapid head-circumference enlargement crossing growth percentiles with vomiting",
     "A strong suck and steady weight gain at feeds",
     "A head circumference that stays stable over time",
     "Regular voiding with normal bowel movements"
@@ -2476,7 +2493,7 @@
     "Correct. The book lists rt-PA (alteplase) for clot busting in ischemic stroke.",
     "Incorrect. Clopidogrel is an antiplatelet used for clot prevention; rt-PA is the clot-busting drug.",
     "Correct. Aspirin is listed among the antiplatelets used for clot prevention.",
-    "Incorrect. Warfarin is an anticoagulant for clot prevention; a hematoma is removed surgically per the book.",
+    "Incorrect. Warfarin prevents clot formation for selected indications; it does not shrink an acute hemorrhagic hematoma. Hemorrhagic-stroke treatment is individualized and may be medical or surgical; surgery is not universal.",
     "Correct. Apixaban is listed as an anticoagulant for clot prevention."
    ],
    "clue": "Each stroke drug has a distinct purpose: clot busting or clot prevention.",
@@ -2845,7 +2862,7 @@
     "Incorrect. Cholesterol is not a listed seizure trigger.",
     "Incorrect. This does not ask about seizure triggers.",
     "Incorrect. Breakfast foods are not a seizure trigger the book asks about.",
-    "Correct. The book lists lights, fatigue and dizziness as triggers or auras to ask about."
+    "Correct. Ask about provoking factors such as sleep deprivation and, in susceptible clients, flashing lights. An aura such as a stereotyped sensory sensation may itself be focal seizure activity rather than a trigger. Document both separately."
    ],
    "clue": "The nurse wants to identify triggers that come before seizures.",
    "priority": "Identify seizure triggers so the client can avoid them.",
@@ -3075,7 +3092,7 @@
    "type": "sata",
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "stem": "The nurse is assessing a client admitted with suspected acute meningitis. Which findings support this diagnosis? Select all that apply.",
+   "stem": "A client has suspected acute bacterial meningitis. Which findings support urgent investigation? Select all that apply.",
    "options": [
     "Nuchal rigidity",
     "Fever with severe headache",
@@ -3093,7 +3110,7 @@
     "Correct. Nuchal rigidity is a classic sign of meningitis.",
     "Correct. Headache and fever are classic signs of meningitis.",
     "Correct. This describes a positive Kernig sign.",
-    "Incorrect. Clear CSF with normal glucose and protein is the normal finding on p.136; meningitis causes cloudy CSF, low glucose and high protein.",
+    "This result does not support the typical bacterial pattern of elevated protein and often low glucose. Viral/early patterns differ; normal-looking fluid alone does not exclude disease. Clinical signs support investigation, not a confirmed etiology.",
     "Correct. Photophobia is listed among acute meningitis symptoms."
    ],
    "clue": "The client has signs of meningeal irritation.",
@@ -3134,24 +3151,25 @@
    "type": "mcq",
    "clientNeed": "hpm",
    "cjmm": "generateSolutions",
-   "stem": "A child is admitted with Haemophilus influenzae meningitis. The parent says the child's younger sibling has not received any vaccines. Which teaching should the nurse provide?",
+   "stem": "A child has confirmed invasive Hib meningitis. An unvaccinated 2-year-old sibling lives in the same household. Which teaching is most appropriate?",
    "options": [
-    "\"Vaccines are only needed after a child turns 5.\"",
-    "\"Meningitis cannot spread between children in the same home.\"",
-    "\"Bring the sibling's vaccinations up to date, because vaccines have reduced meningitis rates.\"",
-    "\"The sibling only needs a vaccine if a fever develops.\""
+    "Routine vaccination alone is sufficient after this exposure",
+    "Wait for the sibling to develop fever before seeking advice",
+    "Contact the provider/public-health team promptly for indicated household rifampin prophylaxis and catch-up vaccination",
+    "Give leftover antibiotics at home before contacting the team"
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. The book does not support delaying vaccination.",
-    "Incorrect. Bacterial meningitis requires droplet precautions because it can spread.",
-    "Correct. The book lists unvaccinated children as at risk for Haemophilus influenzae and stresses the importance of vaccination.",
-    "Incorrect. Vaccines are given to prevent infection, not after symptoms appear."
+    "Incorrect. Vaccination prevents future disease but does not replace indicated exposure prophylaxis.",
+    "Incorrect. Do not delay exposure assessment until symptoms occur.",
+    "Correct. The household includes a child under 4 years who is not fully vaccinated; evaluate indicated rifampin for household contacts and vaccination.",
+    "Incorrect. Unprescribed leftover drugs do not provide an appropriate prophylaxis plan."
    ],
    "clue": "The sibling is unvaccinated, and the book links unvaccinated children to Haemophilus influenzae meningitis.",
    "priority": "Health promotion: vaccination lowers meningitis risk.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Hib contact prophylaxis and catch-up vaccination have different purposes."
   },
   {
    "id": "neuro-meningitis-q10",
@@ -3250,34 +3268,34 @@
    "type": "matrix",
    "clientNeed": "hpm",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is reviewing exposure histories for several clients with suspected viral encephalitis. For each history, indicate the arbovirus the book associates with it.",
+   "stem": "Classify the transmission vector for each listed U.S. arbovirus; geography alone does not diagnose an individual infection.",
    "rows": [
-    "A child from a rural area in the Midwest",
-    "A client recently bitten by a tick",
-    "A client from New England with the deadliest form of arbovirus encephalitis",
-    "A child with mosquito bites after a summer in the rural Midwest"
+    "La Crosse virus",
+    "Powassan virus",
+    "Eastern equine encephalitis virus",
+    "West Nile virus"
    ],
    "columns": [
-    "La Crosse virus",
-    "Eastern equine encephalitis",
-    "Powassan virus"
+    "Mosquito-borne",
+    "Tick-borne"
    ],
    "correct": [
     0,
-    2,
     1,
+    0,
     0
    ],
    "rationales": [
-    "La Crosse virus. The book describes it as common in the Midwest in children in rural areas.",
-    "Powassan virus. The book lists Powassan as tick-borne.",
-    "Eastern equine encephalitis. The book calls EEE the deadliest form and places it in New England.",
-    "La Crosse virus. Rural Midwestern children are the group the book links to La Crosse virus."
+    "La Crosse transmission is mosquito-borne.",
+    "Powassan transmission is tick-borne.",
+    "EEE transmission is mosquito-borne.",
+    "West Nile transmission is mosquito-borne."
    ],
    "clue": "Age, region and type of insect exposure point to the likely virus.",
    "priority": "Use exposure history to identify encephalitis risk.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Exposure history guides testing; symptoms, laboratory assessment and epidemiology determine diagnosis."
   },
   {
    "id": "neuro-encephalitis-q8",
@@ -3286,11 +3304,11 @@
    "type": "sata",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client is admitted with HSV encephalitis, fever and signs of rising intracranial pressure. Which medications should the nurse anticipate? Select all that apply.",
+   "stem": "A client with HSV encephalitis has fever and clinically significant ICP elevation. The specialist prescribes antiviral therapy, fever treatment and monitored osmotherapy. Which medications correspond to this plan? Select all that apply.",
    "options": [
     "An antipyretic",
     "Pyridostigmine",
-    "A diuretic",
+    "The prescribed osmotic agent mannitol with perfusion/renal/osmolality monitoring",
     "Acyclovir",
     "Alteplase"
    ],
@@ -3302,8 +3320,8 @@
    "rationales": [
     "Correct. Antipyretics are listed as supportive medications for fever.",
     "Incorrect. Pyridostigmine is used for myasthenia gravis, not encephalitis.",
-    "Correct. Diuretics are listed as supportive medications if needed, such as for increased ICP.",
-    "Correct. Acyclovir is the first-line antiviral for encephalitis.",
+    "Correct. The specifically ordered osmotic therapy addresses this ICP problem; routine loop/thiazide diuresis is not interchangeable.",
+    "Correct. Acyclovir is first-line antiviral treatment for HSV encephalitis, not every encephalitis etiology.",
     "Incorrect. Alteplase is a clot-busting drug for ischemic stroke, not encephalitis."
    ],
    "clue": "The client needs antiviral therapy plus supportive care for fever and ICP.",
@@ -3518,18 +3536,18 @@
    "type": "matrix",
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is reviewing findings for several clients with Alzheimer disease. For each finding, indicate the stage it best matches.",
+   "stem": "Classify each stated functional pattern using mild/moderate/severe descriptive care needs; individual symptoms overlap.",
    "rows": [
-    "Gets lost and can no longer manage finances",
-    "New anxiety and emotional changes",
-    "Aphasia, apraxia and incontinence",
-    "Loss of impulse control with vulgar language",
-    "Immobility in a fetal position with contractures"
+    "Independent basic ADLs but needs help with finances/complex tasks",
+    "Independent eating/dressing but needs support for planning complex activities",
+    "Needs hands-on help with dressing and toileting and supervision for safety",
+    "Needs substantial help with daily care and cannot be left safely alone",
+    "Dependent for all ADLs with profound communication/mobility limitation"
    ],
    "columns": [
-    "Stage 2 (mild)",
-    "Stage 3 (moderate)",
-    "Stage 4 (severe)"
+    "Mild functional impairment",
+    "Moderate functional impairment",
+    "Severe functional impairment"
    ],
    "correct": [
     0,
@@ -3539,16 +3557,17 @@
     2
    ],
    "rationales": [
-    "Stage 2. Getting lost and poor finances are listed for the mild stage.",
-    "Stage 2. Anxiety and emotional changes are listed for the mild stage.",
-    "Stage 3. Aphasia, agnosia, apraxia and incontinence are listed for the moderate stage.",
-    "Stage 3. Impulse loss and vulgarity are moderate-stage features.",
-    "Stage 4. Immobility, fetal position and contractures are severe-stage features."
+    "Complex tasks become difficult before loss of basic ADLs.",
+    "Retained basic ADLs with impaired complex tasks fits the stated mild pattern.",
+    "Assistance/supervision needs fit the stated moderate pattern.",
+    "Substantial daily-care dependence fits the stated moderate pattern.",
+    "Total dependence and profound functional loss fits the stated severe pattern."
    ],
    "clue": "Each finding fits one stage of the book's staging table.",
    "priority": "Stage Alzheimer disease to anticipate care needs.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use descriptive function rather than unnamed numeric stages or one isolated symptom."
   },
   {
    "id": "neuro-alzheimer-q9",
@@ -3592,7 +3611,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Seizures occur in the severe stage, and a client who just had one needs immediate assessment of airway and injury.",
+    "Correct. A client who just had a seizure needs immediate airway, neurologic and injury assessment. Seizures are not confined to one Alzheimer stage.",
     "Incorrect. Misplacing items is expected and not urgent.",
     "Incorrect. Incontinence is expected in the moderate stage and needs care, but it is not the most urgent.",
     "Incorrect. Anxiety needs attention but is not life-threatening."
@@ -3635,7 +3654,7 @@
    "type": "matrix",
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is reviewing medications for clients with Alzheimer disease. For each medication, indicate the main target of therapy.",
+   "stem": "Match each medication to its stated therapeutic target. This is a purpose classification, not a recommendation for routine dementia prescribing.",
    "rows": [
     "Donepezil",
     "Memantine",
@@ -3656,16 +3675,17 @@
     1
    ],
    "rationales": [
-    "Cognitive symptoms. Donepezil, a cholinesterase inhibitor, improves early cognitive symptoms.",
-    "Cognitive symptoms. Memantine, an NMDA receptor antagonist, delays cognitive decline.",
-    "Depression or anxiety. Sertraline is an SSRI used to treat depression and anxiety.",
-    "Psychosis. Risperidone is an atypical antipsychotic used cautiously to manage psychosis.",
-    "Depression or anxiety. Oxazepam is an anxiolytic for short-term anxiety management."
+    "Donepezil provides symptomatic cognitive treatment; it is not a cure.",
+    "Memantine provides modest symptomatic benefit in moderate-to-severe disease, not guaranteed disease modification.",
+    "Sertraline may target depression/anxiety when indicated.",
+    "Risperidone targets selected psychosis/agitation after indication-specific assessment; antipsychotics carry increased-mortality warnings in dementia.",
+    "Oxazepam is an anxiolytic, not an antidepressant; benzodiazepines are generally avoided in older adults with dementia because of cognitive, delirium and fall risks."
    ],
    "clue": "Each drug class in the book has a different therapeutic target.",
    "priority": "Know the purpose of each medication used in Alzheimer disease.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Drug purpose differs from appropriateness; assess risks and use safer measures first."
   },
   {
    "id": "neuro-alzheimer-q13",
@@ -3700,24 +3720,25 @@
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client with severe (stage 4) Alzheimer disease is admitted to a long-term care facility. Based on the features of this stage, which safety measure should the nurse include in the plan of care?",
+   "stem": "A client with advanced Alzheimer disease and a documented seizure disorder is admitted after a recent generalized seizure. Which plan specifically addresses the recurrent-seizure risk?",
    "options": [
-    "Removing all side rails",
-    "Unsupervised walks outside",
-    "A bedside razor for self-shaving",
-    "Seizure precautions"
+    "Schedule assisted toileting to reduce incontinence episodes",
+    "Offer familiar foods with supervised mealtimes",
+    "Arrange supervised daytime mobility and nighttime rest",
+    "Maintain individualized seizure precautions and access to prescribed rescue treatment"
    ],
    "correct": 3,
    "rationales": [
-    "Incorrect. Removing side rails does not address the seizure risk; padded rails are part of seizure precautions.",
-    "Incorrect. The client is immobile and cannot safely walk unsupervised.",
-    "Incorrect. A client with no communication and immobility cannot safely shave alone.",
-    "Correct. The book lists seizures as a feature of the severe stage, so seizure precautions are indicated."
+    "Incorrect. Elimination support is useful but not seizure-specific.",
+    "Incorrect. Nutrition support is useful but not the targeted plan.",
+    "Incorrect. Routine mobility/rest is useful but does not address seizure rescue.",
+    "Correct. Seizure history supports this specific precaution/rescue plan; advanced dementia alone is insufficient."
    ],
    "clue": "Seizures are a feature of the severe stage.",
    "priority": "Anticipate stage-specific complications and put precautions in place.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Base seizure precautions on clinical history/risk rather than an unnamed numeric dementia stage."
   },
   {
    "id": "neuro-alzheimer-q15",
@@ -3758,24 +3779,25 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "stem": "A client with moderate Alzheimer disease becomes upset when the assistive personnel tries to give a bath. Which approach should the nurse recommend?",
+   "stem": "A client with moderate Alzheimer disease becomes distressed during bathing. Which approach best reduces cognitive load and supports cooperation?",
    "options": [
-    "Give several instructions at once so the bath is finished quickly",
-    "Use simple, one-step requests and stay calm",
-    "Firmly insist that the bath must happen now",
-    "Explain in detail why hygiene matters to health"
+    "Provide a detailed hygiene explanation before each task",
+    "Use a calm voice and one-step requests with time to respond",
+    "Ask the client to choose among several simultaneous tasks",
+    "Repeat all bathing steps rapidly until the client follows"
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. Multiple instructions add confusion; the book advises simple requests.",
-    "Correct. The book's basic care principles are simple requests, staying calm and avoiding confrontation.",
-    "Incorrect. The book advises avoiding confrontation.",
-    "Incorrect. Detailed explanations are hard for the client to process."
+    "Incorrect. Long explanations can exceed processing capacity.",
+    "Correct. Simple paced communication supports understanding and dignity; pause/reschedule if distress persists.",
+    "Incorrect. Multiple simultaneous choices can increase confusion.",
+    "Incorrect. Rapid repetition can increase distress and processing demands."
    ],
    "clue": "The client becomes upset during an ADL.",
    "priority": "Use simple requests and a calm approach during personal care.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Pace communication to the client’s current ability and consent."
   },
   {
    "id": "neuro-alzheimer-q17",
@@ -3900,7 +3922,7 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client with Parkinson disease coughs and chokes during meals. Which interventions should the nurse include to reduce the risk of aspiration? Select all that apply.",
+   "stem": "A client with Parkinson disease has dysphagia; a completed speech-language swallowing assessment supports the prescribed soft-food/liquid-consistency plan. Which interventions should the nurse include to reduce the risk of aspiration? Select all that apply.",
    "options": [
     "Give hard, dry foods to strengthen chewing",
     "Serve three large meals a day to reduce the number of meals",
@@ -3918,12 +3940,13 @@
     "Incorrect. The book recommends small, frequent meals, not large ones.",
     "Correct. Small, frequent meals of soft foods are listed as nutritional support.",
     "Correct. Supplemental shakes are listed as part of nutritional support.",
-    "Correct. The book lists speech and swallowing exercises to help with communication and eating."
+    "Correct. The book lists speech and swallowing exercises to help with communication and eating. Safety context: Offer oral intake only under the completed individualized swallowing plan. If new coughing/choking occurs, stop the unsafe trial and reassess. Soft foods, shakes or thickening do not guarantee aspiration prevention."
    ],
    "clue": "The client has swallowing difficulty with choking at meals.",
    "priority": "Prevent aspiration in PD with swallowing therapy and soft, frequent meals.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use the assessed texture/consistency and nutrition plan; promptly reassess new swallowing difficulty."
   },
   {
    "id": "neuro-parkinson-q12",
@@ -4065,9 +4088,9 @@
    "rationales": [
     "Correct. Rasagiline is an MAO-B inhibitor that limits dopamine breakdown.",
     "Incorrect. Haloperidol blocks dopamine; the book lists it as a drug that can trigger secondary (drug-induced) PD.",
-    "Correct. Amantadine improves dopamine release to control tremor.",
+    "Correct. Amantadine can treat selected motor symptoms and levodopa-associated dyskinesia; its mechanism is not fully established.",
     "Incorrect. Metoclopramide blocks dopamine and is listed as a drug that can trigger secondary (drug-induced) PD.",
-    "Correct. Carbidopa-levodopa is the main treatment for tremor and rigidity.",
+    "Correct. Levodopa converts centrally to dopamine; carbidopa inhibits peripheral conversion, improving delivery/tolerability.",
     "Incorrect. Pyridostigmine is an anticholinesterase used for myasthenia gravis, not Parkinson disease."
    ],
    "clue": "Some listed drugs treat PD and others can cause it.",
@@ -4218,8 +4241,8 @@
     "Baclofen",
     "Diazepam",
     "Oxybutynin",
-    "Interferon",
-    "Cyclophosphamide"
+    "Interferon beta",
+    "Cyclophosphamide in an explicitly selected specialist off-label/transplant-conditioning regimen"
    ],
    "columns": [
     "Treat spasticity",
@@ -4237,8 +4260,8 @@
     "Treat spasticity. The book lists baclofen for spasticity.",
     "Treat spasticity. Diazepam is listed with baclofen to treat spasticity.",
     "Treat bladder symptoms. Oxybutynin is listed for bladder symptoms.",
-    "Modify the disease course. Interferons modulate the immune response, prolong remission and slow progression.",
-    "Modify the disease course. Cyclophosphamide is listed to delay progression and reduce relapse frequency."
+    "Modify the disease course. Interferon beta is an MS disease-modifying therapy; response is individualized.",
+    "Modify the disease course. In the explicitly stated exceptional specialist context, cyclophosphamide is immune-directed therapy; it is not a routine approved first-line MS DMT."
    ],
    "clue": "Each drug targets a different MS problem.",
    "priority": "Know the purpose of each medication used in MS.",
@@ -4362,24 +4385,25 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with multiple sclerosis reports being too tired to finish morning care. Which plan should the nurse suggest?",
+   "stem": "MS-related fatigue limits morning self-care. Which plan best supports completing ADLs while conserving energy?",
    "options": [
-    "Do all care late at night",
-    "Skip hygiene care on most days",
-    "Space self-care tasks with rest periods in between",
-    "Complete all tasks quickly without breaks"
+    "Move all demanding tasks to the evening regardless of fatigue pattern",
+    "Complete the entire routine in one session before resting",
+    "Schedule important tasks during higher-energy periods with rest between activities",
+    "Add progressively longer uninterrupted tasks before changing the routine"
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. Moving care to late at night does not address fatigue.",
-    "Incorrect. Skipping hygiene neglects basic care.",
-    "Correct. The book lists managing fatigue as a focus of independent care; spacing tasks with rest helps conserve energy.",
-    "Incorrect. Rushing without breaks worsens fatigue."
+    "Incorrect. Timing should follow the individual energy pattern.",
+    "Incorrect. One prolonged session may exhaust the client.",
+    "Correct. Pacing and individualized scheduling support function.",
+    "Incorrect. Pushing uninterrupted exertion does not address current fatigue."
    ],
    "clue": "Fatigue is limiting the client's self-care.",
    "priority": "Manage fatigue in MS so the client can complete ADLs.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Individualize task timing and rest to function and energy."
   },
   {
    "id": "neuro-ms-q17",
@@ -4388,24 +4412,25 @@
    "type": "mcq",
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "stem": "The adult child of a client with multiple sclerosis says, \"Dad laughs or cries suddenly for no reason. Is he losing his mind?\" Which response by the nurse is best?",
+   "stem": "A client with MS has sudden involuntary laughing/crying that does not match the reported mood. What should the nurse explain to the family?",
    "options": [
-    "\"Yes, this means he has a psychiatric illness.\"",
-    "\"This is a side effect of the vitamin D he takes.\"",
-    "\"He is doing this on purpose to get attention.\"",
-    "\"Emotional lability, or sudden mood changes, is a common finding in MS. Let's talk about how it is affecting your family.\""
+    "The episodes establish a new psychiatric diagnosis",
+    "The episodes may reflect pseudobulbar affect and warrant assessment",
+    "The episodes show the client is intentionally avoiding conversation",
+    "The episodes confirm medication toxicity without further evaluation"
    ],
-   "correct": 3,
+   "correct": 1,
    "rationales": [
-    "Incorrect. This mislabels a common MS finding.",
-    "Incorrect. The book does not link emotional lability to vitamin D.",
-    "Incorrect. This blames the client for a symptom of the disease.",
-    "Correct. The book lists emotional lability as a common MS finding; explaining it and offering support helps the family cope."
+    "Incorrect. Mood/psychiatric and neurologic causes require assessment, not automatic diagnosis.",
+    "Correct. Involuntary emotional expression may be incongruent with mood; assess pseudobulbar affect and coexisting depression.",
+    "Incorrect. Do not assume intentional behavior.",
+    "Incorrect. Medication review matters but no toxicity is established."
    ],
    "clue": "The family is distressed by sudden emotional changes.",
    "priority": "Help families understand emotional lability in MS.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Distinguish emotional expression from mood and assess its effects."
   },
   {
    "id": "neuro-als-q8",
@@ -4567,11 +4592,11 @@
    "type": "matrix",
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "The nurse is coordinating care for a client with amyotrophic lateral sclerosis (ALS). For each need, indicate the part of the collaborative plan that best addresses it.",
+   "stem": "Match each explicitly stated need to the service’s primary focus in this collaborative ALS plan. Services may overlap.",
    "rows": [
     "The client wants to keep doing as much as possible for as long as possible",
     "The client and family want help planning for the client's end-of-life wishes",
-    "The client has increasing respiratory difficulty",
+    "The client has respiratory insufficiency and specialist assessment supports NIV eligibility",
     "The client has new trouble climbing stairs and wants to stay active"
    ],
    "columns": [
@@ -4588,7 +4613,7 @@
    "rationales": [
     "Rehabilitation. The book says rehabilitation focuses on exercise to maintain function.",
     "Palliative care. The book says to collaborate with palliative care on client and family wishes.",
-    "Airway management with NIV. The book lists noninvasive ventilation, possibly followed by mechanical ventilation.",
+    "Airway management with NIV. The displayed specialist assessment supports NIV; selection considers respiratory/bulbar function, secretion management and client preferences.",
     "Rehabilitation. The book says rehabilitation focuses on exercise to maintain function."
    ],
    "clue": "Each need matches a different part of the ALS collaborative plan.",
@@ -4629,24 +4654,25 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "stem": "A client with amyotrophic lateral sclerosis (ALS) has finger weakness and cramping and has trouble buttoning a shirt. Which action by the nurse best supports self-care?",
+   "stem": "A client with ALS has hand weakness but can participate in dressing. Which plan best supports the client’s goal of maintaining self-care?",
    "options": [
-    "Teach self-care techniques and provide aids for daily activities",
-    "Dress the client every morning to save time",
-    "Tell the client to wear the same shirt for several days",
-    "Restrict use of the hands to prevent cramping"
+    "Arrange occupational therapy and adaptive fasteners with rest breaks",
+    "Schedule full staff-assisted dressing despite retained ability",
+    "Focus only on hand-strengthening before offering adaptive devices",
+    "Postpone dressing adaptations until weakness becomes severe"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists teaching self-care techniques and providing aids and routines for ADLs.",
-    "Incorrect. Doing all care takes away the client's independence.",
-    "Incorrect. This neglects hygiene and does not solve the problem.",
-    "Incorrect. The book focuses on exercise to maintain function."
+    "Correct. Individualized aids and pacing preserve participation.",
+    "Incorrect. Routine complete assistance bypasses retained skills and the stated goal.",
+    "Incorrect. Adaptations can help now; strengthening alone does not address the task.",
+    "Incorrect. Early adaptation supports current function and planning."
    ],
    "clue": "The client has upper-extremity weakness that limits dressing.",
    "priority": "Support independence in ADLs with techniques and aids.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Match support to retained ability and the client’s goals."
   },
   {
    "id": "neuro-als-q16",
@@ -4769,24 +4795,25 @@
    "type": "mcq",
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "stem": "A client with Guillain-Barre syndrome is starting a plasmapheresis treatment. Which action by the nurse is most important during the treatment?",
+   "stem": "During plasma exchange for GBS, a client with unchanged adequate ventilation/BP develops perioral tingling and hand cramping. Which assessment has the highest immediate priority?",
    "options": [
-    "Leave the client alone to rest during the procedure",
-    "Encourage active exercise during the treatment",
-    "Monitor the client closely to detect complications",
-    "Hold all respiratory assessments until the treatment ends"
+    "Assess the vascular-access dressing for minor drainage",
+    "Measure lower-extremity strength for the rehabilitation record",
+    "Assess for citrate-related hypocalcemia and follow the procedure protocol",
+    "Review weight and cumulative fluid balance for the day"
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. The client needs close observation during treatment.",
-    "Incorrect. Active exercise is not appropriate for a client with flaccid weakness during a procedure.",
-    "Correct. The book calls for close monitoring during IVIG and plasmapheresis to detect complications.",
-    "Incorrect. Respiratory status needs continuous assessment in GBS."
+    "Incorrect. Access monitoring matters, but the new symptoms specifically suggest an electrolyte effect.",
+    "Incorrect. Strength assessment matters but does not address the new exchange-related symptoms.",
+    "Correct. Citrate can reduce ionized calcium; assess calcium/ECG and obtain protocol-directed treatment promptly. Continue respiratory/hemodynamic monitoring.",
+    "Incorrect. Volume monitoring matters but does not explain the specific new neuromuscular symptoms."
    ],
    "clue": "The client is receiving plasmapheresis.",
    "priority": "Monitor closely during GBS treatments to detect complications early.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Respond to new procedure-related symptoms while maintainingGBS respiratory surveillance."
   },
   {
    "id": "neuro-gbs-q11",
@@ -4952,7 +4979,7 @@
     "Incorrect. This is inaccurate and adds to the client's frustration.",
     "Incorrect. This dismisses the client's feelings.",
     "Incorrect. This is inaccurate and removes hope.",
-    "Correct. The book says full recovery can take up to 200 days (p.149); giving an honest time frame and acknowledging frustration provides emotional support."
+    "Correct. Recovery varies over weeks/months and may take years, with residual deficits in some clients. Acknowledge frustration, discuss the individualized rehabilitation plan and avoid promising complete recovery by a fixed deadline."
    ],
    "clue": "The client is frustrated by slow recovery.",
    "priority": "Provide accurate information and emotional support for frustration in GBS.",
@@ -5107,14 +5134,15 @@
    "correct": 1,
    "rationales": [
     "Incorrect. Ptosis and diplopia are common MG eye findings and do not tell the two crises apart.",
-    "Correct. The book says myasthenic crisis is due to undermedication and cholinergic crisis to overmedication.",
+    "Correct. Medication history helps assess toxicity or missed doses, but infection/other factors can precipitate myasthenic crisis. Assess breathing urgently and report the full clinical history.",
     "Incorrect. Meal timing matters for aspiration risk but does not distinguish the crises.",
     "Incorrect. Pain is not a feature that separates myasthenic from cholinergic crisis."
    ],
    "clue": "The two crises have opposite causes related to medication.",
    "priority": "Include medication history in the SBAR report to help identify the type of crisis.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Medication history is important, but crisis assessment prioritizes breathing and multiple triggers; neurology directs anticholinesterase use, especially during intubation."
   },
   {
    "id": "neuro-mg-q12",
@@ -5186,22 +5214,23 @@
    "cjmm": "generateSolutions",
    "stem": "A client with well-controlled myasthenia gravis plans to get a vaccine next week and to have elective surgery next month. Which teaching should the nurse provide?",
    "options": [
-    "\"Immunizations and surgery can both worsen MG symptoms, so plan them with your provider.\"",
+    "\"Plan surgery and recommended vaccines with the team, considering MG control and any immunosuppressive therapy.\"",
     "\"Neither one will affect your myasthenia gravis.\"",
     "\"Stop taking pyridostigmine the week before each one.\"",
     "\"Only surgery can affect MG; vaccines never do.\""
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists immunizations and surgical procedures among factors that exacerbate MG.",
-    "Incorrect. The book lists both as exacerbating factors.",
-    "Incorrect. Stopping pyridostigmine risks undermedication and myasthenic crisis.",
-    "Incorrect. The book lists immunizations as an exacerbating factor."
+    "Correct. Coordinate perioperative care and vaccination; recommended non-live vaccines support infection prevention. Live-vaccine restrictions depend on immunosuppression.",
+    "Planning matters because surgery/anesthesia and treatment status affect risk.",
+    "Do not stop prescribed therapy independently.",
+    "Vaccine choice/timing can matter with immunosuppression, but vaccines are not universally MG triggers."
    ],
    "clue": "The client plans two events that the book lists as exacerbating factors.",
    "priority": "Teach clients with MG to plan around known exacerbating factors.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Promote recommended vaccination and individualized surgical planning without implying routine vaccine avoidance."
   },
   {
    "id": "neuro-mg-q15",
@@ -5242,7 +5271,7 @@
    "type": "sata",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "The nurse is planning care for a client with generalized myasthenia gravis. Which treatments should the nurse anticipate? Select all that apply.",
+   "stem": "A 38-year-old with AChR-positive generalized MG has a thymoma and is an appropriate surgical candidate. Which treatments may be part of the individualized specialist plan, depending on current severity? Select all that apply.",
    "options": [
     "Prednisone",
     "Plasmapheresis",
@@ -5262,7 +5291,7 @@
     "Correct. Plasmapheresis is listed to help stabilize symptoms.",
     "Correct. Pyridostigmine is the anticholinesterase drug listed for MG.",
     "Incorrect. Carbidopa-levodopa is used in Parkinson disease.",
-    "Correct. Thymectomy is listed to help stabilize symptoms and improve long-term survival.",
+    "Correct. Thymoma and the specified candidacy support thymectomy evaluation. Selected AChR-positive generalized MG without thymoma may also benefit; this is not a universal survival guarantee. Plasma exchange is used for appropriate severe/perioperative indications rather than routinely for every stable client.",
     "Incorrect. Riluzole is used in ALS."
    ],
    "clue": "Only some of the listed treatments are used in MG.",
@@ -5309,13 +5338,13 @@
    "type": "matrix",
    "clientNeed": "hpm",
    "cjmm": "analyzeCues",
-   "stem": "The nurse reviews factors the book associates with Bell palsy and trigeminal neuralgia. For each factor, indicate which condition it is associated with.",
+   "stem": "Match these discriminating presentations to the more consistent facial-nerve disorder.",
    "rows": [
-    "Pregnancy",
-    "A recent viral infection",
-    "Older age",
-    "Attacks set off by wind or light touch",
-    "Emotional stress"
+    "Acute unilateral peripheral facial weakness involving forehead and mouth after other causes are excluded",
+    "Incomplete eye closure from new CNVII weakness",
+    "Brief recurrent electric-shock facial pain in a trigeminal distribution",
+    "Facial pain triggered by light touch or chewing with no facial paralysis",
+    "Reduced movement of one side of the face without recurrent shock-like pain"
    ],
    "columns": [
     "Bell palsy",
@@ -5329,16 +5358,17 @@
     0
    ],
    "rationales": [
-    "Bell palsy. Pregnancy is listed as an associated factor for Bell palsy.",
-    "Bell palsy. The book says Bell palsy is likely viral and lists viral infection as a factor.",
-    "Trigeminal neuralgia. The book calls trigeminal neuralgia age-related.",
-    "Trigeminal neuralgia. Attacks are triggered by light touch or wind.",
-    "Bell palsy. Stress is listed as an associated factor for Bell palsy."
+    "Peripheral CNVII weakness fits Bell palsy after evaluation.",
+    "Weak eye closure reflects CNVII motor dysfunction.",
+    "Paroxysmal trigeminal pain fits neuralgia.",
+    "Triggers and shock-like pain discriminate neuralgia.",
+    "Motor facial weakness fits peripheral facial palsy rather than pain-only neuralgia."
    ],
    "clue": "Each factor is linked to one of the two facial nerve disorders.",
    "priority": "Know the risk and trigger factors for Bell palsy and trigeminal neuralgia.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Risk associations overlap; use discriminating clinical evidence."
   },
   {
    "id": "neuro-cranial-q7",
@@ -5383,7 +5413,7 @@
    "rows": [
     "Paralysis of the legs",
     "Bowel and bladder dysfunction",
-    "Head circumference that is increasing",
+    "Rapid head-circumference enlargement crossing growth percentiles with a bulging fontanelle",
     "Repeated vomiting"
    ],
    "columns": [
@@ -5399,7 +5429,7 @@
    "rationales": [
     "Expected. Paralysis is listed as a symptom of spina bifida.",
     "Expected. Bowel and bladder dysfunction are listed spina bifida symptoms.",
-    "Report. An enlarging head is a sign of hydrocephalus, which spina bifida can lead to.",
+    "Report. This abnormal growth trend with a bulging fontanelle raises hydrocephalus concern; ordinary infant head growth alone is not abnormal.",
     "Report. Vomiting is a listed symptom of hydrocephalus and increased intracranial pressure."
    ],
    "clue": "Some findings come from the defect itself; others suggest hydrocephalus.",

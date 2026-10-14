@@ -60,6 +60,8 @@
     "step": "recognizeCues",
     "kind": "highlight",
     "stem": "Highlight the findings that are severe features of preeclampsia.",
+    "rationale": "Persistent severe BP, medication-unresponsive new headache, visual disturbance and the specified severe persistent otherwise-unexplained RUQ/epigastric pain are severe features. Proteinuria helps diagnosis but its quantity does not grade severity; edema and brisk reflexes are not formal severe-feature criteria. The displayed platelet/creatinine/transaminase values do not meet their respective severe-feature cutoffs. Reassess urgently rather than await further laboratory deterioration.",
+    "stepLabel": "Recognize Cues",
     "passage": [
      [
       "Headache 7/10 not relieved by acetaminophen",
@@ -76,7 +78,7 @@
       " · "
      ],
      [
-      "Pain under the right ribs and in the epigastric area",
+      "Severe persistent RUQ/epigastric pain unresponsive to treatment without another identified cause",
       "p3"
      ],
      [
@@ -127,9 +129,7 @@
      "p2",
      "p3",
      "p6"
-    ],
-    "rationale": "Persistent severe BP, medication-unresponsive new headache, visual disturbance and the specified severe persistent otherwise-unexplained RUQ/epigastric pain are severe features. Proteinuria helps diagnosis but its quantity does not grade severity; edema and brisk reflexes are not formal severe-feature criteria. The displayed platelet/creatinine/transaminase values do not meet their respective severe-feature cutoffs. Reassess urgently rather than await further laboratory deterioration.",
-    "stepLabel": "Recognize Cues"
+    ]
    },
    {
     "id": "m2",
@@ -572,6 +572,8 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each nursing action, mark whether it is indicated or not indicated for this newborn.",
+    "rationale": "Controlled warming, delaying bathing, immediate prescribed IV glucose and the ordered recheck are appropriate. In this symptomatic infant with possible seizures/tachypnea and weak suck, temporarily withhold oral feeding until clinically safe; infusion timing alone does not decide feeding safety. Avoid an unnecessary cold scale or calorie-free sterile water. Resume supported feeding when breathing and swallowing permit, alongside IV therapy.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -594,8 +596,8 @@
      ],
      [
       "r4",
-      "Hold all breastfeeding until the IV dextrose is running",
-      "Not indicated"
+      "Temporarily withhold oral feeding during possible seizures or compromised breathing/swallowing; do not delay IV glucose",
+      "Indicated"
      ],
      [
       "r5",
@@ -607,9 +609,7 @@
       "Give sterile water by bottle to encourage sucking",
       "Not indicated"
      ]
-    ],
-    "rationale": "Controlled warming, delaying bathing, immediate prescribed IV glucose and the ordered recheck are appropriate. In this symptomatic infant with possible seizures/tachypnea and weak suck, temporarily withhold oral feeding until clinically safe; infusion timing alone does not decide feeding safety. Avoid an unnecessary cold scale or calorie-free sterile water. Resume supported feeding when breathing and swallowing permit, alongside IV therapy.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "g5",
@@ -643,39 +643,39 @@
     "step": "evaluateOutcomes",
     "kind": "matrix",
     "stem": "One hour after treatment began: for each finding, mark whether it shows the treatment is effective or requires follow-up.",
+    "rationale": "Glucose 72 exceeds the displayed initial target; recovered temperature and safe effective feeding are favorable individual responses. Continue serial checks because one response does not prove lasting resolution. Infiltration requires stopping infusion at that site, assessing/treating tissue injury and promptly restoring glucose delivery through suitable access. Reattach/verify the skin-temperature probe and device function immediately; an off-skin probe can cause unsafe heat control.",
+    "stepLabel": "Evaluate Outcomes",
     "cols": [
      "Effective",
      "Requires follow-up"
     ],
     "rows": [
      [
-      "e1",
-      "Glucose 58 mg/dL 30 minutes after the bolus",
+      "r1",
+      "Glucose 72 mg/dL 30 minutes after the bolus",
       "Effective"
      ],
      [
-      "e2",
+      "r2",
       "Axillary temperature 36.8 °C (98.2 °F)",
       "Effective"
      ],
      [
-      "e3",
+      "r3",
       "No tremors; strong, rhythmic suck at the breast",
       "Effective"
      ],
      [
-      "e4",
+      "r4",
       "IV site puffy, cool and pale; pump shows a high-pressure alarm",
       "Requires follow-up"
      ],
      [
-      "e5",
+      "r5",
       "Radiant warmer skin probe found lying on the mattress, not on the skin",
       "Requires follow-up"
      ]
-    ],
-    "rationale": "Glucose 72 exceeds the displayed initial target; recovered temperature and safe effective feeding are favorable individual responses. Continue serial checks because one response does not prove lasting resolution. Infiltration requires stopping infusion at that site, assessing/treating tissue injury and promptly restoring glucose delivery through suitable access. Reattach/verify the skin-temperature probe and device function immediately; an off-skin probe can cause unsafe heat control.",
-    "stepLabel": "Evaluate Outcomes"
+    ]
    }
   ],
   "reviewed": "v4"
@@ -971,39 +971,39 @@
     "step": "evaluateOutcomes",
     "kind": "matrix",
     "stem": "After two boluses, the child is reassessed. For each finding, mark whether it shows improvement or requires follow-up.",
+    "rationale": "Lower HR, brisker refill, alertness/tears, urine production and tolerated ORS are favorable. Net diaper increase 48 g approximates 48 mL, about 2.2 mL/kg/h over 2 hours in this 11 kg child. Potassium 3.1 still needs prescribed replacement/reassessment; ongoing gastrointestinal loss and redistribution may contribute. Begin/adjust potassium-containing maintenance only after the supplied renal/output safety criteria, not solely because one diaper is wet.",
+    "stepLabel": "Evaluate Outcomes",
     "cols": [
      "Improved",
      "Requires follow-up"
     ],
     "rows": [
      [
-      "e1",
+      "r1",
       "HR 128; capillary refill 2 seconds",
       "Improved"
      ],
      [
-      "e2",
+      "r2",
       "Alert, reaching for a cup, cries with tears",
       "Improved"
      ],
      [
-      "e3",
-      "Wet diaper weighing 48 g (48 mL of urine)",
+      "r3",
+      "Diaper net weight increases 48 g from its dry weight over 2 hours (48 mL urine)",
       "Improved"
      ],
      [
-      "e4",
+      "r4",
       "Potassium 3.1 mEq/L on the repeat panel",
       "Requires follow-up"
      ],
      [
-      "e5",
+      "r5",
       "Sips oral rehydration solution 5 mL every 2 minutes without vomiting",
       "Improved"
      ]
-    ],
-    "rationale": "Lower HR, brisker refill, alertness/tears, urine production and tolerated ORS are favorable. Net diaper increase 48 g approximates 48 mL, about 2.2 mL/kg/h over 2 hours in this 11 kg child. Potassium 3.1 still needs prescribed replacement/reassessment; ongoing gastrointestinal loss and redistribution may contribute. Begin/adjust potassium-containing maintenance only after the supplied renal/output safety criteria, not solely because one diaper is wet.",
-    "stepLabel": "Evaluate Outcomes"
+    ]
    }
   ],
   "reviewed": "v4"

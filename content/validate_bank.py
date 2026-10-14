@@ -47,11 +47,11 @@ def check(cid, quiet=False):
             o = q.get('options', [])
             if len(o) not in (5, 6) or len(q.get('rationales', [])) != len(o): errs.append(f'{k}: sata needs 5-6 options and matching rationales')
             c = q.get('correct')
-            if not (isinstance(c, list) and 2 <= len(c) <= 4 and len(set(c)) == len(c) and all(isinstance(i, int) and 0 <= i < len(o) for i in c)): errs.append(f'{k}: sata correct must list 2-4 distinct option indexes')
+            if not (isinstance(c, list) and 2 <= len(c) <= len(o) and len(set(c)) == len(c) and all(isinstance(i, int) and 0 <= i < len(o) for i in c)): errs.append(f'{k}: sata correct must list 2 or more distinct option indexes')
             if not q.get('stem', '').rstrip().endswith('Select all that apply.'): errs.append(f'{k}: sata stem must end with "Select all that apply."')
         elif t == 'matrix':
             r, cols, c = q.get('rows', []), q.get('columns', []), q.get('correct')
-            if not (3 <= len(r) <= 5 and 2 <= len(cols) <= 3): errs.append(f'{k}: matrix needs 3-5 rows and 2-3 columns')
+            if not (3 <= len(r) <= 6 and 2 <= len(cols) <= 4): errs.append(f"{k}: matrix needs 3-6 rows and 2-4 columns")
             if not (isinstance(c, list) and len(c) == len(r) and all(isinstance(i, int) and 0 <= i < len(cols) for i in c)): errs.append(f'{k}: matrix correct needs one column index per row')
             if len(q.get('rationales', [])) != len(r): errs.append(f'{k}: matrix needs one rationale per row')
             if 'options' in q: errs.append(f'{k}: matrix must not have options')

@@ -193,33 +193,35 @@
     "step": "prioritizeHypotheses",
     "kind": "single",
     "stem": "About 36 hours after his last drink, the client is at highest immediate risk for which complication?",
+    "rationale": "Prior withdrawal seizure, current symptoms and 36-hour cessation make seizure prevention and close surveillance urgent. Withdrawal seizures and delirium are possible complications, not an inevitable serial progression. The displayed pattern does not establish hepatic encephalopathy, fat embolism or current opioid hypoventilation; assess alternative causes when the clinical course suggests them.",
+    "stepLabel": "Prioritize Hypotheses",
     "options": [
      [
       "a",
-      "Withdrawal seizures with progression to delirium tremens"
+      "Withdrawal seizures or alcohol-withdrawal delirium"
      ],
      [
       "b",
-      "Hepatic encephalopathy from alcohol-related liver disease"
+      "Hepatic encephalopathy from advanced liver failure"
      ],
      [
       "c",
-      "Fat embolism syndrome from the ankle fracture"
+      "Fat embolism causing pulmonary deterioration"
      ],
      [
       "d",
-      "Respiratory depression from the PRN oxycodone"
+      "Opioid-related respiratory depression during analgesia"
      ]
     ],
-    "answer": "a",
-    "rationale": "Prior withdrawal seizure, current symptoms and 36-hour cessation make seizure prevention and close surveillance urgent. Withdrawal seizures and delirium are possible complications, not an inevitable serial progression. The displayed pattern does not establish hepatic encephalopathy, fat embolism or current opioid hypoventilation; assess alternative causes when the clinical course suggests them.",
-    "stepLabel": "Prioritize Hypotheses"
+    "answer": "a"
    },
    {
     "id": "w4",
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each intervention, mark whether it is indicated or not indicated for this client now.",
+    "rationale": "Use seizure precautions, prescribed benzodiazepine treatment, calm reorientation and prompt thiamine. ASAM allows glucose/thiamine in either order or concurrently; never delay urgent glucose for thiamine. Do not apply restraints automatically; use assessed least-restrictive measures. The opioid order requires careful sedation/respiratory review rather than automatic omission of all withdrawal treatment. Hold unsafe sedating doses and escalate when respiratory compromise occurs.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -237,8 +239,8 @@
      ],
      [
       "r3",
-      "Start the dextrose 5% IV fluid before giving the first dose of thiamine",
-      "Not indicated"
+      "Give thiamine promptly and treat hypoglycemia without waiting for thiamine",
+      "Indicated"
      ],
      [
       "r4",
@@ -255,9 +257,7 @@
       "Hold all lorazepam doses because he also has an order for oxycodone",
       "Not indicated"
      ]
-    ],
-    "rationale": "Use seizure precautions, prescribed benzodiazepine treatment, calm reorientation and prompt thiamine. ASAM allows glucose/thiamine in either order or concurrently; never delay urgent glucose for thiamine. Do not apply restraints automatically; use assessed least-restrictive measures. The opioid order requires careful sedation/respiratory review rather than automatic omission of all withdrawal treatment. Hold unsafe sedating doses and escalate when respiratory compromise occurs.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "w5",
@@ -637,44 +637,44 @@
     "step": "evaluateOutcomes",
     "kind": "matrix",
     "stem": "Two days later her lithium level is 0.8 mEq/L and her creatinine is 0.9 mg/dL. Before discharge, the nurse reviews teaching. For each statement by the client, mark whether it shows understanding or needs more teaching.",
+    "rationale": "Steady fluid intake, extra fluid with heat or sweating, and calling the provider during vomiting or diarrhea prevent dehydration-related toxicity. Worsening tremor, confusion or an unsteady gait are early warning signs. Lithium levels are drawn as a trough, about 12 hours after the last dose. Naproxen is also an NSAID and raises lithium levels the same way. Sodium intake should stay normal and consistent; a low-salt diet causes the kidneys to keep more lithium.",
+    "stepLabel": "Evaluate Outcomes",
     "cols": [
      "Shows understanding",
      "Needs more teaching"
     ],
     "rows": [
      [
-      "e1",
-      "\"I'll drink 2 to 3 liters of fluid a day, and more when it's hot or I'm sweating.\"",
+      "r1",
+      "\"I'll follow my individualized fluid plan and avoid dehydration, especially during heat or illness.\"",
       "Shows understanding"
      ],
      [
-      "e2",
+      "r2",
       "\"If I get vomiting or diarrhea again, I'll call my provider about my lithium.\"",
       "Shows understanding"
      ],
      [
-      "e3",
+      "r3",
       "\"Next time my wrist hurts, I'll take naproxen instead of ibuprofen.\"",
       "Needs more teaching"
      ],
      [
-      "e4",
+      "r4",
       "\"I should cut back on salt as much as I can to protect my kidneys.\"",
       "Needs more teaching"
      ],
      [
-      "e5",
+      "r5",
       "\"If my hand shaking gets worse or I feel confused or unsteady, I'll get help right away.\"",
       "Shows understanding"
      ],
      [
-      "e6",
+      "r6",
       "\"I'll have my lithium level drawn about 12 hours after my last dose.\"",
       "Shows understanding"
      ]
-    ],
-    "rationale": "Steady fluid intake, extra fluid with heat or sweating, and calling the provider during vomiting or diarrhea prevent dehydration-related toxicity. Worsening tremor, confusion or an unsteady gait are early warning signs. Lithium levels are drawn as a trough, about 12 hours after the last dose. Naproxen is also an NSAID and raises lithium levels the same way. Sodium intake should stay normal and consistent; a low-salt diet causes the kidneys to keep more lithium.",
-    "stepLabel": "Evaluate Outcomes"
+    ]
    }
   ],
   "source": "rnr",
@@ -891,6 +891,8 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each intervention, mark whether it is indicated or not indicated right now.",
+    "rationale": "Stop opioid delivery, summon help, open the airway and immediately assist inadequate ventilation while administering prescribed naloxone. Postoperative small-dose titration seeks adequate breathing while limiting abrupt pain reversal, but 0.4 mg is not universally contraindicated for life-threatening overdose. Never withhold rescue while awaiting dilution. Sleeping/rechecking later or oxygen escalation alone does not treat this hypoventilation.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -913,7 +915,7 @@
      ],
      [
       "r4",
-      "Give naloxone 0.4 mg undiluted by rapid IV push",
+      "Withhold available naloxone and assisted ventilation until a custom dilution is ready",
       "Not indicated"
      ],
      [
@@ -926,46 +928,39 @@
       "Increase the nasal cannula to 6 L/min as the only intervention",
       "Not indicated"
      ]
-    ],
-    "rationale": "Stop opioid delivery, summon help, open the airway and immediately assist inadequate ventilation while administering prescribed naloxone. Postoperative small-dose titration seeks adequate breathing while limiting abrupt pain reversal, but 0.4 mg is not universally contraindicated for life-threatening overdose. Never withhold rescue while awaiting dilution. Sleeping/rechecking later or oxygen escalation alone does not treat this hypoventilation.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "o5",
     "step": "takeAction",
     "kind": "order",
     "stem": "Assisted ventilation and continuous monitoring are already underway. The prescribed titration is 0.04 mg IV with reassessment every 2 minutes. Stock naloxone is 0.4 mg/mL. Order the preparation/dose/reassessment actions; rescue continues throughout.",
+    "rationale": "0.4 mg in total 10 mL gives 0.04 mg/mL;1 mL supplies the ordered 0.04 mg dose. Follow each dose with the specified reassessment and conditional repeat/escalation. Ventilation/monitoring begin before and continue during titration. Naloxone can wear off before the opioid; continued observation and an individualized plan prevent missed recurrence. Do not postpone urgent available rescue for custom preparation.",
+    "stepLabel": "Take Action",
     "steps": [
      [
-      "s3",
-      "Wait 2 minutes, then reassess her respiratory rate and level of sedation"
+      "o1",
+      "Withdraw 1 mL of 0.4 mg/mL naloxone and add 9 mL saline for total 10 mL"
      ],
      [
-      "s1",
-      "Dilute naloxone 0.4 mg with 9 mL of 0.9% sodium chloride"
+      "o2",
+      "Give 1 mL of the resulting 0.04 mg/mL solution as prescribed"
      ],
      [
-      "s5",
-      "Keep monitoring respirations, sedation, SpO₂ and ETCO₂ closely for re-sedation"
+      "o3",
+      "Reassess ventilation and arousability after 2 minutes while maintaining support"
      ],
      [
-      "s2",
-      "Give 0.04 mg (1 mL) by slow IV push"
-     ],
-     [
-      "s4",
-      "Repeat 0.04 mg every 2 minutes until RR is 10 or more and she opens her eyes to voice"
+      "o4",
+      "Repeat the prescribed dose only if the response remains inadequate; escalate if needed"
      ]
     ],
     "answer": [
-     "s1",
-     "s2",
-     "s3",
-     "s4",
-     "s5"
-    ],
-    "rationale": "0.4 mg in total 10 mL gives 0.04 mg/mL;1 mL supplies the ordered 0.04 mg dose. Follow each dose with the specified reassessment and conditional repeat/escalation. Ventilation/monitoring begin before and continue during titration. Naloxone can wear off before the opioid; continued observation and an individualized plan prevent missed recurrence. Do not postpone urgent available rescue for custom preparation.",
-    "stepLabel": "Take Action"
+     "o1",
+     "o2",
+     "o3",
+     "o4"
+    ]
    },
    {
     "id": "o6",
@@ -1282,39 +1277,42 @@
    {
     "id": "x5",
     "step": "takeAction",
-    "kind": "order",
+    "kind": "multi",
     "stem": "The rapid response team has been activated. Which actions should proceed immediately during this anaphylactic emergency? Select all that apply.",
-    "steps": [
+    "rationale": "Remove the trigger and give IM epinephrine immediately while team members support oxygenation/airway and circulation concurrently. Do not impose an oxygen-before-fluid delay in simultaneous hypoxemia/shock. Antihistamine relieves skin symptoms but does not replace epinephrine or treat obstructed airway/shock. Standing risks collapse. Reassess for repeat epinephrine and escalation under protocol.",
+    "stepLabel": "Take Action",
+    "options": [
      [
-      "s4",
-      "Start the 0.9% sodium chloride bolus through new tubing"
+      "a",
+      "Stop cefazolin and avoid flushing residual drug into the client"
      ],
      [
-      "s2",
-      "Give epinephrine 0.5 mg IM into the anterolateral thigh"
+      "b",
+      "Give prescribed epinephrine 0.5 mg IM into the anterolateral thigh without delay"
      ],
      [
-      "s5",
-      "Give diphenhydramine IV as prescribed"
+      "c",
+      "Provide oxygen and expert airway support as needed"
      ],
      [
-      "s1",
-      "Stop the cefazolin infusion"
+      "d",
+      "Begin the prescribed reassessed isotonic-fluid bolus through appropriate new tubing"
      ],
      [
-      "s3",
-      "Apply oxygen by nonrebreather mask"
+      "e",
+      "Give diphenhydramine first and delay epinephrine until the hives improve"
+     ],
+     [
+      "f",
+      "Help the hypotensive client stand to reach the bathroom"
      ]
     ],
     "answer": [
-     "s1",
-     "s2",
-     "s3",
-     "s4",
-     "s5"
-    ],
-    "rationale": "Remove the trigger and give IM epinephrine immediately while team members support oxygenation/airway and circulation concurrently. Do not impose an oxygen-before-fluid delay in simultaneous hypoxemia/shock. Antihistamine relieves skin symptoms but does not replace epinephrine or treat obstructed airway/shock. Standing risks collapse. Reassess for repeat epinephrine and escalation under protocol.",
-    "stepLabel": "Take Action"
+     "a",
+     "b",
+     "c",
+     "d"
+    ]
    },
    {
     "id": "x6",
@@ -1528,6 +1526,8 @@
     "step": "prioritizeHypotheses",
     "kind": "multi",
     "stem": "Which displayed modifiable factors may contribute to the client’s delirium? Select all that apply.",
+    "rationale": "Anticholinergic diphenhydramine, unavailable sensory aids, inadequately treated pain and constipation/catheter burden are modifiable contributors. The supplied timeline establishes 12 hours since analgesia. Attempt self-report whenever reliable; use the local validated observational tool when it is not. The catheter adds tethering/infection concerns but does not establish retention when it drains. Assess other physiologic/medication causes concurrently. Safe mobility and prescribed thromboprophylaxis are not the displayed causative factors.",
+    "stepLabel": "Prioritize Hypotheses",
     "options": [
      [
       "a",
@@ -1539,7 +1539,7 @@
      ],
      [
       "c",
-      "Hip pain with a PAINAD score of 5 and no recent analgesia"
+      "Untreated hip pain with an observational score 5 when self-report is unreliable"
      ],
      [
       "d",
@@ -1559,15 +1559,15 @@
      "b",
      "c",
      "d"
-    ],
-    "rationale": "Anticholinergic diphenhydramine, unavailable sensory aids, inadequately treated pain and constipation/catheter burden are modifiable contributors. The supplied timeline establishes 12 hours since analgesia. Attempt self-report whenever reliable; use the local validated observational tool when it is not. The catheter adds tethering/infection concerns but does not establish retention when it drains. Assess other physiologic/medication causes concurrently. Safe mobility and prescribed thromboprophylaxis are not the displayed causative factors.",
-    "stepLabel": "Prioritize Hypotheses"
+    ]
    },
    {
     "id": "d4",
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each intervention, mark whether it is indicated or not indicated for this client.",
+    "rationale": "Restore sensory aids, use familiar support/reorientation, review catheter need and constipation, assess/treat pain appropriately and investigate reversible causes. Self-report remains preferred when feasible; use a suitable observational tool when unreliable. Preserve sleep with low nighttime noise/light and safe daytime activity. Do not apply automatic restraints to protect an IV; assessed least-restrictive measures come first.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -1590,7 +1590,7 @@
      ],
      [
       "r4",
-      "Assess pain with PAINAD, give analgesia as prescribed, and ask about scheduled acetaminophen",
+      "Attempt reliable pain self-report; otherwise use the protocol’s validated observational measure and give prescribed analgesia",
       "Indicated"
      ],
      [
@@ -1603,9 +1603,7 @@
       "Apply bilateral soft wrist restraints to protect her IV",
       "Not indicated"
      ]
-    ],
-    "rationale": "Restore sensory aids, use familiar support/reorientation, review catheter need and constipation, assess/treat pain appropriately and investigate reversible causes. Self-report remains preferred when feasible; use a suitable observational tool when unreliable. Preserve sleep with low nighttime noise/light and safe daytime activity. Do not apply automatic restraints to protect an IV; assessed least-restrictive measures come first.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "d5",
@@ -1639,39 +1637,39 @@
     "step": "evaluateOutcomes",
     "kind": "matrix",
     "stem": "Two days later, the nurse reviews the client's progress. For each finding, mark whether it shows improvement or requires follow-up.",
+    "rationale": "Recovered attention/orientation with negative CAM, sleep, normal elimination, assisted mobility and reliable low pain self-report are favorable findings. Prefer self-report when the client can provide it; an observational score is not interchangeable with a numerical self-report. Delirium can fluctuate, and renewed disorientation/unsafe attempts to rise at 20:00 require immediate safety measures, reassessment of reversible causes and provider follow-up.",
+    "stepLabel": "Evaluate Outcomes",
     "cols": [
      "Improving",
      "Requires follow-up"
     ],
     "rows": [
      [
-      "e1",
+      "r1",
       "10:00: oriented to person, place and time; CAM negative",
       "Improving"
      ],
      [
-      "e2",
+      "r2",
       "Slept about 5 hours last night with the room dark and quiet",
       "Improving"
      ],
      [
-      "e3",
+      "r3",
       "Catheter removed; voiding without difficulty; had a bowel movement yesterday",
       "Improving"
      ],
      [
-      "e4",
-      "Walked to the chair with a walker and one assist; PAINAD 1",
+      "r4",
+      "Walked to the chair with a walker and one assist; awake and reliably reports pain 1/10",
       "Improving"
      ],
      [
-      "e5",
+      "r5",
       "20:00: again does not know where she is and tries to get out of bed without calling",
       "Requires follow-up"
      ]
-    ],
-    "rationale": "Recovered attention/orientation with negative CAM, sleep, normal elimination, assisted mobility and reliable low pain self-report are favorable findings. Prefer self-report when the client can provide it; an observational score is not interchangeable with a numerical self-report. Delirium can fluctuate, and renewed disorientation/unsafe attempts to rise at 20:00 require immediate safety measures, reassessment of reversible causes and provider follow-up.",
-    "stepLabel": "Evaluate Outcomes"
+    ]
    }
   ],
   "source": "rnr",
