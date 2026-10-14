@@ -28,8 +28,8 @@
    ],
    "takeaway": "Unexpected findings that can progress to airway compromise, such as perioral tingling after thyroidectomy, outrank expected postoperative findings.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-testplan"
+    "v-c5fb05f22f",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -60,8 +60,8 @@
    ],
    "takeaway": "Tidaling in the water-seal chamber is expected; continuous bubbling in the water-seal chamber suggests an air leak.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-testplan"
+    "v-c5fb05f22f",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -92,7 +92,7 @@
    ],
    "takeaway": "Delegate routine care for stable clients with predictable outcomes; keep new problems and first-time activities that need assessment with the RN.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -107,7 +107,7 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "mcq",
-   "stem": "The RN is caring for a newly admitted client with community-acquired pneumonia who is stable on oxygen 2 L/min by nasal cannula. Which task should the RN assign to the licensed practical nurse (LPN)?",
+   "stem": "The RN is caring for a newly admitted client with community-acquired pneumonia who is stable on oxygen 2 L/min by nasal cannula. Applicable scope and facility policy allow LPN routine oral medications but require the RN to complete comprehensive admission assessment, initial individualized teaching, and evaluation of the first IV antibiotic dose. Which task should the RN assign to the licensed practical nurse (LPN)?",
    "options": [
     "Complete the client's admission nursing assessment",
     "Teach the client how to use a new incentive spirometer",
@@ -116,15 +116,14 @@
    ],
    "correct": 3,
    "rationales": [
-    "The initial (admission) assessment is an RN responsibility. The LPN can collect data that the RN then uses.",
-    "Initial teaching belongs to the RN. The LPN can reinforce teaching the RN has already given.",
-    "Evaluating a client's response to a new treatment requires RN judgment.",
-    "Correct. Giving routine oral medications to a stable client is within the LPN/LVN scope of practice."
+    "Incorrect in the stated policy. The RN performs the comprehensive admission assessment; an LPN may contribute focused data within applicable scope.",
+    "Incorrect in the stated policy. The RN provides this initial individualized teaching; LPN teaching roles vary by jurisdiction and may include participation or reinforcement.",
+    "Incorrect in the stated policy. The RN evaluates the first IV dose; an LPN may contribute observations within permitted scope.",
+    "Correct. The stated scope and policy permit the competent LPN to give these routine oral medications to this stable client."
    ],
-   "takeaway": "LPN/LVNs can give routine medications and reinforce teaching for stable clients; initial assessment, initial teaching and evaluation stay with the RN.",
+   "takeaway": "Assign licensed-nurse care according to the actual nurse practice act, competence, client stability, and facility policy; LPN teaching and assessment roles vary.",
    "refs": [
-    "ncsbn-delegation",
-    "ncsbn-testplan"
+    "v-199b53c482"
    ],
    "reviewed": "v4"
   },
@@ -155,7 +154,7 @@
    ],
    "takeaway": "Before delegating, the RN confirms the delegatee has been trained and is competent to perform the specific task (right person).",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -186,8 +185,8 @@
    ],
    "takeaway": "Avoid rectal temperatures, enemas and suppositories in clients with neutropenia because they can injure mucosa and cause infection.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-delegation"
+    "v-c5fb05f22f",
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -218,8 +217,8 @@
    ],
    "takeaway": "Assign float nurses stable clients whose care matches skills they already have; keep unstable or specialty-specific clients with unit staff.",
    "refs": [
-    "ncsbn-delegation",
-    "ncsbn-testplan"
+    "v-2448f4215e",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -250,8 +249,8 @@
    ],
    "takeaway": "Agency and float nurses need a unit resource person and a focused orientation to emergency equipment and unit procedures.",
    "refs": [
-    "ncsbn-delegation",
-    "ncsbn-testplan"
+    "v-2448f4215e",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -282,8 +281,8 @@
    ],
    "takeaway": "In SBAR, the Assessment is the nurse's own conclusion about the problem, given before the recommendation.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -314,8 +313,8 @@
    ],
    "takeaway": "Never use or act on a trailing zero (5.0 mg) or a missing leading zero (.5 mg); clarify with the prescriber because a tenfold error can result.",
    "refs": [
-    "tjc-npsg",
-    "ismp-highalert"
+    "v-8523418e3b",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -346,8 +345,8 @@
    ],
    "takeaway": "When a provider does not respond adequately to a client's deterioration, escalate through the chain of command (and activate the rapid response team when criteria are met).",
    "refs": [
-    "ncsbn-testplan",
-    "openstax-fund"
+    "v-9c755bad76",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -378,7 +377,7 @@
    ],
    "takeaway": "In START, a nonambulatory victim who cannot follow simple commands is tagged immediate (red), even with adequate breathing and perfusion.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -409,7 +408,7 @@
    ],
    "takeaway": "For stable ED clients, ESI levels 3 to 5 are set by the number of resources expected: two or more = 3, one = 4, none = 5.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -440,8 +439,8 @@
    ],
    "takeaway": "During a disaster, off-duty staff follow the facility's emergency operations plan rather than self-dispatching to the scene or hospital.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-testplan"
+    "v-c5fb05f22f",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -472,7 +471,7 @@
    ],
    "takeaway": "Transfer to a higher level of care when a client shows new hemodynamic instability, not when expected treatment responses are seen.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -503,8 +502,8 @@
    ],
    "takeaway": "Resolve interprofessional disagreements away from the client and focus on shared data and the client's goals.",
    "refs": [
-    "ncsbn-testplan",
-    "ana-ethics"
+    "v-2f532beded",
+    "v-42753f1d05"
    ],
    "reviewed": "v4"
   },
@@ -535,8 +534,8 @@
    ],
    "takeaway": "CAUTI prevention focuses on avoiding unnecessary catheters and removing them promptly; measuring catheter days and necessity reviews drives improvement.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-testplan"
+    "v-4b8799783c",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -567,8 +566,8 @@
    ],
    "takeaway": "Remove malfunctioning equipment from service, label it, keep the tubing and settings, notify biomedical engineering and file a safety report.",
    "refs": [
-    "openstax-fund",
-    "tjc-npsg"
+    "v-4b8799783c",
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -599,8 +598,8 @@
    ],
    "takeaway": "When planning time, an acute change in a client's condition comes before scheduled or routine tasks.",
    "refs": [
-    "ncsbn-testplan",
-    "openstax-fund"
+    "v-9c755bad76",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -631,8 +630,8 @@
    ],
    "takeaway": "Clients with pressure injuries and poor intake or weight loss need a nutrition referral, because protein and calories are essential for wound healing.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-ce230c94d5",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -663,8 +662,8 @@
    ],
    "takeaway": "Use the ABCs: a child with signs of respiratory distress and hypoxemia is seen before pain, fluid or discharge needs.",
    "refs": [
-    "medline-children",
-    "ncsbn-testplan"
+    "v-da1ec74f3c",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -695,8 +694,8 @@
    ],
    "takeaway": "Sudden neurologic changes such as facial droop are time-critical and come before chronic or expected problems.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-testplan"
+    "v-c5fb05f22f",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -727,7 +726,7 @@
    ],
    "takeaway": "When an assigned client becomes unstable, the RN assesses the client directly; the RN remains accountable for care given by the team.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -758,8 +757,8 @@
    ],
    "takeaway": "Give nurses in orientation stable clients with predictable outcomes; assign unstable or complex clients to experienced staff.",
    "refs": [
-    "ncsbn-delegation",
-    "ncsbn-testplan"
+    "v-2448f4215e",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -790,8 +789,8 @@
    ],
    "takeaway": "Bedside handoff lets both nurses see the client and verify infusions and equipment together, which reduces errors.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -822,8 +821,8 @@
    ],
    "takeaway": "Never give potassium chloride by IV push; question any prescription that is unsafe before acting.",
    "refs": [
-    "ismp-highalert",
-    "openstax-pharm"
+    "v-287f7b81ee",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -854,8 +853,8 @@
    ],
    "takeaway": "Take threats of violence seriously: keep a safe distance, avoid being alone with the person, and call security per policy.",
    "refs": [
-    "openstax-fund",
-    "openstax-psych"
+    "v-4b8799783c",
+    "v-97bf916e84"
    ],
    "reviewed": "v4"
   },
@@ -886,8 +885,8 @@
    ],
    "takeaway": "Evaluate a quality improvement change by comparing an outcome measure, such as falls per 1,000 client-days, with baseline over time.",
    "refs": [
-    "ncsbn-testplan",
-    "openstax-fund"
+    "v-9c755bad76",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -918,7 +917,7 @@
    ],
    "takeaway": "Collaboration, in which both parties shape a solution and plan follow-up, is the most effective way to resolve conflict.",
    "refs": [
-    "ncsbn-testplan"
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -949,8 +948,8 @@
    ],
    "takeaway": "When assisting ambulation, stand slightly behind the client on the weaker side and hold a gait belt secured around the waist.",
    "refs": [
-    "ncsbn-delegation",
-    "openstax-fund"
+    "v-2448f4215e",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -965,7 +964,7 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "sata",
-   "stem": "A client is 1 day after a total hip arthroplasty. Which tasks should the RN perform rather than delegate to the UAP? Select all that apply.",
+   "stem": "A client is 1 day after a posterior-approach total hip arthroplasty with an ordered abduction pillow and specific hip precautions. Which tasks should the RN perform rather than delegate to the UAP? Select all that apply.",
    "options": [
     "Help the client with a partial bed bath",
     "Keep the abduction pillow between the legs when turning",
@@ -989,7 +988,8 @@
    ],
    "takeaway": "Assessment, initial teaching and evaluation cannot be delegated to UAPs; routine, predictable care can.",
    "refs": [
-    "ncsbn-delegation"
+    "v-199b53c482",
+    "v-b7c6849c84"
    ],
    "reviewed": "v4"
   },
@@ -1029,7 +1029,7 @@
    ],
    "takeaway": "Safe delegation weighs client stability, delegatee competence, legal and policy limits, and the RN's ability to supervise.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -1069,8 +1069,8 @@
    ],
    "takeaway": "Before calling a provider, gather current vital signs, relevant labs, medications and allergies so the SBAR report is complete.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1109,8 +1109,8 @@
    ],
    "takeaway": "During disaster surge planning, stable clients with predictable recovery who could finish care at home are identified for early discharge; unstable clients and those on high-alert infusions stay.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-testplan"
+    "v-c5fb05f22f",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -1147,8 +1147,8 @@
    ],
    "takeaway": "Clarify prescriptions that are incomplete, use banned abbreviations, or conflict with the client's allergies before acting.",
    "refs": [
-    "tjc-npsg",
-    "ismp-highalert"
+    "v-8523418e3b",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -1185,8 +1185,8 @@
    ],
    "takeaway": "Case management targets high-risk clients: frequent readmissions, complex transitions, multiple chronic conditions and social barriers.",
    "refs": [
-    "ncsbn-testplan",
-    "openstax-fund"
+    "v-9c755bad76",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1225,8 +1225,8 @@
    ],
    "takeaway": "The RN supervises delegated care and intervenes for infection-control lapses, fall hazards and aspiration risks.",
    "refs": [
-    "ncsbn-delegation",
-    "openstax-fund"
+    "v-2448f4215e",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1265,8 +1265,8 @@
    ],
    "takeaway": "Nurses accept only assignments within their competence, speak up early, and accept the safe parts of an assignment rather than abandoning clients.",
    "refs": [
-    "ncsbn-testplan",
-    "ana-ethics"
+    "v-2f532beded",
+    "v-42753f1d05"
    ],
    "reviewed": "v4"
   },
@@ -1277,7 +1277,7 @@
    "batch": "v4",
    "topic": "Leadership & Delegation",
    "clientNeed": "moc",
-   "cjmm": "evaluateOutcomes",
+   "cjmm": "recognizeCues",
    "difficulty": 2,
    "level": "Apply",
    "type": "sata",
@@ -1306,8 +1306,8 @@
    ],
    "takeaway": "Nurse-sensitive indicators include falls with injury, hospital-acquired pressure injuries, CAUTI rates and nursing hours per client day.",
    "refs": [
-    "ncsbn-testplan",
-    "npiap"
+    "v-9c755bad76",
+    "v-ce230c94d5"
    ],
    "reviewed": "v4"
   },
@@ -1344,7 +1344,7 @@
    ],
    "takeaway": "Activate the rapid response team for acute changes in breathing, blood pressure, oxygenation or mental status before a client arrests.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1383,7 +1383,7 @@
    ],
    "takeaway": "In home care, aides can perform routine hygiene, mobility and measurements; assessment, sterile wound care and teaching stay with the RN.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -1423,8 +1423,8 @@
    ],
    "takeaway": "Match referrals to needs: PT for mobility, OT for daily living, SLP for swallowing and speech, social work for home support.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1468,8 +1468,8 @@
    ],
    "takeaway": "PT works on walking and strength, OT on daily-living skills and adaptive equipment, and SLP on swallowing and communication.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1484,7 +1484,7 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "matrix",
-   "stem": "An RN is leading a team with an LPN and a UAP on a medical unit. For each task, indicate the most appropriate team member.",
+   "stem": "An RN is leading a team with an LPN and a UAP on a medical unit. Applicable scope and facility policy permit the listed routine LPN medications/dressings and UAP specimen collection. Policy requires an RN for new-condition assessment and blood-transfusion initiation/first-15-minute assessment. For each task, indicate the most appropriate team member.",
    "rows": [
     "Collect a routine urine specimen from a stable client",
     "Change a sterile dressing on a healing surgical incision in a stable client",
@@ -1508,12 +1508,13 @@
     "Delegate to UAP: collecting a routine specimen from a stable client is a standard, predictable task.",
     "Assign to LPN: a sterile dressing change on a stable, healing wound is within LPN/LVN scope; the RN assesses any changes the LPN reports.",
     "RN must perform: new chest pain is a change in condition that requires RN assessment.",
-    "RN must perform: the first 15 minutes carry the highest risk of a transfusion reaction, so the RN assesses the client during this period.",
+    "RN must perform under the stated policy. The RN initiates and assesses during this early high-risk period; permitted LPN transfusion roles vary across jurisdictions/facilities.",
     "Assign to LPN: giving a scheduled subcutaneous medication to a stable client is within LPN/LVN scope."
    ],
-   "takeaway": "Match tasks to scope: UAPs do routine tasks for stable clients, LPNs give routine medications and treatments to stable clients, and RNs assess changes and monitor high-risk care.",
+   "takeaway": "Match tasks to state scope, policy, verified competence, and client risk. This facility requires RN assessment of new chest pain and transfusion initiation/early response.",
    "refs": [
-    "ncsbn-delegation"
+    "v-199b53c482",
+    "v-c0ad312fb2"
    ],
    "reviewed": "v4"
   },
@@ -1556,8 +1557,8 @@
    ],
    "takeaway": "The RN interprets data the UAP collects; low urine output and calf pain after joint replacement need prompt RN follow-up.",
    "refs": [
-    "ncsbn-delegation",
-    "openstax-medsurg"
+    "v-2448f4215e",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1598,7 +1599,7 @@
    ],
    "takeaway": "START: walking = green; RR over 30, poor perfusion or unable to follow commands = red; otherwise yellow.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1641,8 +1642,8 @@
    ],
    "takeaway": "When a dose seems unsafe, hold it, clarify with the prescriber, use pharmacy as a resource, and escalate if it is not resolved.",
    "refs": [
-    "ismp-highalert",
-    "ncsbn-testplan"
+    "v-287f7b81ee",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -1678,7 +1679,7 @@
    ],
    "takeaway": "For verbal or telephone prescriptions, write it down, read it back, get confirmation, then document.",
    "refs": [
-    "tjc-npsg"
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -1693,7 +1694,7 @@
    "difficulty": 3,
    "level": "Analyze",
    "type": "order",
-   "stem": "Smoke is entering one client's room on the nurse's unit, and the fire department orders horizontal evacuation. Place the clients in the order they should be moved.",
+   "stem": "Smoke is entering one client's room on the nurse's unit, and the fire department orders horizontal evacuation. The unit’s written evacuation plan directs rescue of anyone in immediate danger first, then ambulatory clients, then clients needing one-person/wheelchair assistance, then clients requiring several staff, while available teams work concurrently. For the plan’s priority groups, place the clients in the order they should be moved.",
    "options": [
     "Clients who can walk on their own with direction",
     "The client in the room where smoke is entering",
@@ -1709,13 +1710,12 @@
    "rationales": [
     "Second: ambulatory clients can be moved quickly with little staff help.",
     "First: clients in immediate danger are rescued before anyone else.",
-    "Last: bedbound clients need the most staff and time.",
+    "Fourth in the stated plan’s priority groups: bedbound clients require coordinated personnel/equipment. Begin arranging this assistance immediately; do not leave anyone in danger or assume a national fixed sequence.",
     "Third: these clients need some assistance to move."
    ],
-   "takeaway": "In an evacuation, move clients in immediate danger first, then ambulatory, then assisted, then bedbound clients.",
+   "takeaway": "Rescue those in immediate danger and follow the actual facility evacuation plan, hazards, and available personnel; arrange assisted movement concurrently.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-testplan"
+    "v-d54a2e4564"
    ],
    "reviewed": "v4"
   },
@@ -1751,8 +1751,8 @@
    ],
    "takeaway": "Prioritize airway, then breathing and circulation, then other acute physiologic problems, then comfort needs.",
    "refs": [
-    "ncsbn-testplan",
-    "openstax-fund"
+    "v-9c755bad76",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   }

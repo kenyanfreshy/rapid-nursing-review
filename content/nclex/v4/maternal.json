@@ -28,8 +28,8 @@
    ],
    "takeaway": "GBS-positive at term means IV antibiotics in labor, ideally 4 hours or more before birth; oral antibiotics before labor do not prevent newborn infection.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -60,8 +60,7 @@
    ],
    "takeaway": "Unsensitized Rh(D)-negative clients receive Rho(D) immune globulin at about 28 weeks and within 72 hours after birth of an Rh(D)-positive newborn.",
    "refs": [
-    "openstax-maternal",
-    "dailymed"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -83,7 +82,7 @@
     "A client with a negative antibody screen who fell and hit her abdomen at 30 weeks",
     "A client whose antibody screen shows she already has anti-D antibodies",
     "A client with a negative antibody screen who had a spontaneous pregnancy loss at 14 weeks",
-    "A client 24 hours after giving birth to an Rh(D)-positive newborn"
+    "An unsensitized client with a negative antibody screen 24 hours after giving birth to an Rh(D)-positive newborn"
    ],
    "correct": [
     0,
@@ -99,10 +98,10 @@
     "Correct. Pregnancy loss in the second trimester can expose the client to fetal Rh(D)-positive cells.",
     "Correct. Rho(D) immune globulin is given within 72 hours after birth of an Rh(D)-positive newborn."
    ],
-   "takeaway": "Give Rho(D) immune globulin to an unsensitized Rh(D)-negative client after any event that can mix fetal and maternal blood, not to a client who is already sensitized.",
+   "takeaway": "Use Rh(D) immune globulin for unsensitized Rh(D)-negative clients after indicated sensitizing events, including the 14-week loss here and an Rh-positive birth. For pregnancy loss/abortion before 12 weeks, follow current ACOG guidance and individualized discussion rather than an “any event” rule.",
    "refs": [
-    "openstax-maternal",
-    "dailymed"
+    "v-04919db8b0",
+    "v-a566b32d9f"
    ],
    "reviewed": "v4"
   },
@@ -133,8 +132,8 @@
    ],
    "takeaway": "An abnormal 1-hour glucose challenge is a screening result; the 3-hour 100-g oral glucose tolerance test confirms or rules out gestational diabetes.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -173,8 +172,8 @@
    ],
    "takeaway": "For a 3-hour glucose tolerance test: normal carbohydrate intake for 3 days, an overnight fast, drink the solution quickly, and stay seated without smoking during the test.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -205,8 +204,8 @@
    ],
    "takeaway": "Recommended pregnancy weight gain depends on prepregnancy BMI; normal BMI is 25 to 35 pounds (11 to 16 kg) for a single pregnancy.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -243,8 +242,8 @@
    ],
    "takeaway": "In pregnancy: no alcohol, caffeine under 200 mg a day, and 8 to 12 ounces a week of low-mercury fish while avoiding high-mercury fish.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -287,8 +286,8 @@
    ],
    "takeaway": "Nausea, urinary frequency and breast tenderness are normal early in pregnancy; fever, dysuria, bleeding and cramping are not.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -319,8 +318,8 @@
    ],
    "takeaway": "Teach daily fetal movement counts from about 28 weeks; fewer than 10 movements in 2 hours, or a clear decrease, needs prompt evaluation.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -351,8 +350,8 @@
    ],
    "takeaway": "Relieve a pregnancy leg cramp by straightening the leg and dorsiflexing the foot.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -392,8 +391,8 @@
    ],
    "takeaway": "Pregnancy discomforts: small meals for heartburn, fluids and fiber for constipation, leg elevation for varicosities, pelvic tilts for back pain; avoid mineral oil and baking soda.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -424,7 +423,7 @@
    ],
    "takeaway": "Supine hypotension in late pregnancy is relieved by turning the client to a lateral (usually left) position.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -455,7 +454,7 @@
    ],
    "takeaway": "Hyperemesis gravidarum: persistent vomiting with weight loss greater than 5%, ketonuria, dehydration and electrolyte imbalance.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -486,8 +485,8 @@
    ],
    "takeaway": "In gestational diabetes, check fasting and post-meal glucose daily, eat regular meals and snacks, and keep monitoring because insulin resistance rises as pregnancy advances.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -518,8 +517,8 @@
    ],
    "takeaway": "After gestational diabetes, screen with a glucose tolerance test at 4 to 12 weeks postpartum and every 1 to 3 years for life.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -559,7 +558,7 @@
    ],
    "takeaway": "Newborns of clients with poorly controlled diabetes: watch for hypoglycemia, hypocalcemia, polycythemia, jaundice, respiratory distress and birth injury.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -590,7 +589,7 @@
    ],
    "takeaway": "Gestational hypertension is new BP of 140/90 mm Hg or higher after 20 weeks without proteinuria or severe features; it can progress to preeclampsia, so monitoring continues.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -633,7 +632,7 @@
    ],
    "takeaway": "Preeclampsia severe features: BP 160/110 mm Hg or higher, platelets below 100,000/mm³, rising creatinine or liver enzymes, pulmonary edema, and new headache or visual changes; edema is not one.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -664,7 +663,7 @@
    ],
    "takeaway": "HELLP = Hemolysis, Elevated Liver enzymes, Low Platelets; epigastric or RUQ pain in preeclampsia should prompt these labs.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -704,9 +703,9 @@
    ],
    "takeaway": "Magnesium sulfate safety: monitor reflexes, respirations, urine output and level of consciousness, and keep calcium gluconate at the bedside.",
    "refs": [
-    "openstax-maternal",
-    "openstax-pharm",
-    "ismp-highalert"
+    "v-04a2419876",
+    "v-df1c5b2874",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -733,12 +732,11 @@
     "Correct. Magnesium sulfate is a high-alert medication. Premixed bags, a smart infusion pump and an independent double-check reduce the risk of a fatal overdose.",
     "Gravity infusions cannot reliably control the rate of a high-alert drug, and free-flow can cause overdose.",
     "Mixing from multiple vials increases the chance of a concentration error. Premixed products are safer.",
-    "Magnesium is given as a secondary infusion with a primary line, so the line can be kept open if the magnesium must be stopped."
+    "Incorrect. Visibility alone does not prevent a dosing error. Use an approved programmed continuous-infusion channel, standardized concentration, clear line identification, and appropriate carrier/access arrangements per product and facility protocol."
    ],
-   "takeaway": "Magnesium sulfate is high-alert: use premixed bags on a pump as a secondary line, with an independent double-check.",
+   "takeaway": "Magnesium sulfate is high-alert: standardized premixed concentration, programmed infusion pump, clear line identification, and independent check per policy. Follow the approved continuous-infusion configuration.",
    "refs": [
-    "ismp-highalert",
-    "openstax-maternal"
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -769,8 +767,8 @@
    ],
    "takeaway": "High-risk clients take aspirin 81 mg daily, started between 12 and 28 weeks (ideally before 16 weeks) and continued until birth, to reduce preeclampsia risk.",
    "refs": [
-    "openstax-maternal",
-    "dailymed"
+    "v-04a2419876",
+    "v-757e030753"
    ],
    "reviewed": "v4"
   },
@@ -801,8 +799,8 @@
    ],
    "takeaway": "Preeclampsia can occur or worsen up to 6 weeks postpartum; teach clients to seek care for severe headache, vision changes, dyspnea or RUQ pain.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -845,7 +843,7 @@
    ],
    "takeaway": "Previa = painless bright red bleeding with a soft uterus; abruption = painful, often dark bleeding with a rigid, tender uterus.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -876,7 +874,7 @@
    ],
    "takeaway": "Abruption with fetal bradycardia or late decelerations is an emergency: notify the provider immediately, position laterally, establish IV access and prepare for possible emergency birth.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -916,8 +914,8 @@
    ],
    "takeaway": "Preterm labor signs can be subtle: regular tightening, low backache, pelvic pressure, cramping and any change in vaginal discharge.",
    "refs": [
-    "openstax-maternal",
-    "medline-pregnancy"
+    "v-04a2419876",
+    "v-fde31c7b4a"
    ],
    "reviewed": "v4"
   },
@@ -948,9 +946,9 @@
    ],
    "takeaway": "Nifedipine for preterm labor: expect flushing and headache, but hold and report hypotension.",
    "refs": [
-    "openstax-pharm",
-    "openstax-maternal",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-04a2419876",
+    "v-220be0bc79"
    ],
    "reviewed": "v4"
   },
@@ -981,7 +979,7 @@
    ],
    "takeaway": "A negative fetal fibronectin is reassuring: preterm birth in the next 1 to 2 weeks is unlikely.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1020,7 +1018,7 @@
    ],
    "takeaway": "First stage = dilation (latent then active from about 6 cm), second = pushing and birth, third = placenta, fourth = 1 to 4 hours of recovery.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1051,7 +1049,7 @@
    ],
    "takeaway": "A reactive NST (at least two 15 x 15 accelerations in 20 minutes at 32 weeks or more) indicates good fetal oxygenation.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1094,7 +1092,7 @@
    ],
    "takeaway": "Moderate variability, accelerations and early decelerations are reassuring; recurrent late decelerations and absent variability need action.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1130,7 +1128,7 @@
    ],
    "takeaway": "Late decelerations on oxytocin: stop the oxytocin, reposition, give IV fluids and notify the provider.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1161,7 +1159,7 @@
    ],
    "takeaway": "Maternal fever plus fetal tachycardia and foul-smelling amniotic fluid suggests chorioamnionitis; prolonged rupture of membranes is a key risk.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1198,8 +1196,8 @@
    ],
    "takeaway": "Stop oxytocin for tachysystole (more than 5 contractions in 10 minutes) or a nonreassuring fetal heart rate tracing.",
    "refs": [
-    "openstax-maternal",
-    "ismp-highalert"
+    "v-04a2419876",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -1230,8 +1228,8 @@
    ],
    "takeaway": "Oxytocin is high-alert: give it by pump as a secondary infusion at the port closest to the client so it can be stopped instantly.",
    "refs": [
-    "ismp-highalert",
-    "openstax-maternal"
+    "v-287f7b81ee",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1271,7 +1269,7 @@
    ],
    "takeaway": "After an epidural: watch for hypotension, check the bladder, reposition side to side, keep the client in bed and monitor the fetus continuously.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1310,7 +1308,7 @@
    ],
    "takeaway": "Cord prolapse is most likely when membranes rupture before the presenting part fills the pelvis: polyhydramnios, breech or transverse lie, a preterm or small fetus, or a high station; check the fetal heart rate right after rupture.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1341,7 +1339,7 @@
    ],
    "takeaway": "Shoulder dystocia: McRoberts position plus suprapubic pressure; never fundal pressure.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1384,8 +1382,8 @@
    ],
    "takeaway": "After a cesarean, a firm fundus, moderate lochia and slow bowel return are expected; low urine output, tachycardia and hypotension point to bleeding.",
    "refs": [
-    "openstax-maternal",
-    "openstax-medsurg"
+    "v-04a2419876",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1424,7 +1422,7 @@
    ],
    "takeaway": "Fundal assessment: empty bladder, supine with knees flexed, support the lower segment, palpate, then measure from the umbilicus.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1464,7 +1462,7 @@
    ],
    "takeaway": "Postpartum hemorrhage risks include an overdistended uterus (multiples, macrosomia), prolonged or augmented labor and infection.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1495,7 +1493,7 @@
    ],
    "takeaway": "Bleeding with a firm fundus means look for a laceration; bleeding with a boggy fundus means atony.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1526,7 +1524,7 @@
    ],
    "takeaway": "Quantify blood loss by weighing: wet weight minus dry weight, with 1 g equal to about 1 mL.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1557,9 +1555,10 @@
    ],
    "takeaway": "Tranexamic acid for postpartum hemorrhage: 1 g IV over about 10 minutes, as early as possible and within 3 hours of birth.",
    "refs": [
-    "openstax-pharm",
-    "openstax-maternal",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-04a2419876",
+    "v-bdc7f35555",
+    "v-5bf20313d7"
    ],
    "reviewed": "v4"
   },
@@ -1590,9 +1589,10 @@
    ],
    "takeaway": "Give IV oxytocin only as a diluted infusion, never as an undiluted IV push.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-287f7b81ee",
+    "v-bdc7f35555",
+    "v-347195fdc7"
    ],
    "reviewed": "v4"
   },
@@ -1623,7 +1623,7 @@
    ],
    "takeaway": "Perineal care after birth: ice for the first 24 hours, then warm sitz baths; use the peri bottle and avoid douching.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1659,11 +1659,11 @@
     "Correct. Finishing the antibiotic prevents relapse and abscess formation.",
     "Correct. Ibuprofen is compatible with breastfeeding and reduces pain and inflammation.",
     "Correct. Lack of improvement or a hard, painful area can mean an abscess.",
-    "Binding is used to suppress lactation, not to treat mastitis, and can worsen inflammation."
+    "Incorrect. Tight binding can worsen discomfort and inflammation; use a comfortable supportive bra. Continue responsive feeding without excessive pumping or attempts to empty the breast."
    ],
-   "takeaway": "Mastitis: keep breastfeeding, finish the antibiotic, use ibuprofen and report a fever that does not improve or a hard, painful area.",
+   "takeaway": "Mastitis: continue responsive breastfeeding, take prescribed antibiotics, use compatible anti-inflammatory treatment, and report persistent/worsening symptoms. Avoid tight binding and excessive pumping.",
    "refs": [
-    "openstax-maternal"
+    "v-bef21e156c"
    ],
    "reviewed": "v4"
   },
@@ -1694,8 +1694,8 @@
    ],
    "takeaway": "Sudden dyspnea, chest pain, tachycardia and hypoxemia after birth suggest pulmonary embolism; oxygen and positioning come first, then rapid escalation.",
    "refs": [
-    "openstax-maternal",
-    "openstax-medsurg"
+    "v-04a2419876",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1739,8 +1739,8 @@
    ],
    "takeaway": "Blues are mild and gone by 2 weeks; depression lasts longer and impairs function; psychosis brings hallucinations or confusion and is an emergency.",
    "refs": [
-    "openstax-psych",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1771,8 +1771,8 @@
    ],
    "takeaway": "Normalize postpartum blues and teach clients to report symptoms lasting more than 2 weeks, hopelessness or thoughts of harm.",
    "refs": [
-    "openstax-psych",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1803,8 +1803,8 @@
    ],
    "takeaway": "Most first-trimester losses are caused by chromosomal problems; correct misplaced guilt and acknowledge the grief.",
    "refs": [
-    "openstax-psych",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1835,8 +1835,8 @@
    ],
    "takeaway": "After pregnancy loss or termination, respond without judgment: reflect feelings and use open-ended questions rather than giving opinions.",
    "refs": [
-    "openstax-psych",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1876,8 +1876,8 @@
    ],
    "takeaway": "Support perinatal loss by offering time with the baby, keepsakes, the baby's name and spiritual care, while letting the family choose.",
    "refs": [
-    "openstax-psych",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1908,9 +1908,9 @@
    ],
    "takeaway": "For parents in recovery, respond without judgment and involve them in comforting the newborn; medication for opioid use disorder is recommended in pregnancy.",
    "refs": [
-    "openstax-psych",
-    "samhsa",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-f0695bda5a",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1941,8 +1941,8 @@
    ],
    "takeaway": "Screen every pregnant client for intimate partner violence, and always do it in private.",
    "refs": [
-    "openstax-psych",
-    "openstax-maternal"
+    "v-97bf916e84",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -1981,7 +1981,7 @@
    ],
    "takeaway": "Feed newborns at early cues (rooting, hand-to-mouth, sucking motions), about 8 to 12 times a day; crying is a late cue.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2020,7 +2020,7 @@
    ],
    "takeaway": "Deep latch: tummy-to-tummy, nose to nipple, wait for a wide mouth, bring the baby to the breast, and break suction before removing.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2063,7 +2063,7 @@
    ],
    "takeaway": "Newborn norms: HR 110 to 160/min, RR 30 to 60/min, axillary temp 36.5 to 37.5 °C; jaundice before 24 hours is never normal.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2083,19 +2083,18 @@
     "\"This can be a sign of a nerve problem, so I'll notify the provider.\"",
     "\"This means your baby is ready to start walking early.\"",
     "\"This reflex should have disappeared before birth.\"",
-    "\"This is a normal newborn reflex that usually goes away by about 1 year.\""
+    "\"This is a normal newborn reflex that may persist until about 2 years.\""
    ],
    "correct": 3,
    "rationales": [
     "In a newborn this finding is normal and does not signal a nerve problem.",
     "The Babinski reflex is a primitive reflex and does not predict walking.",
     "The reflex is present at birth and expected throughout infancy.",
-    "Correct. A positive Babinski reflex is normal in newborns and usually disappears by about 12 months as the nervous system matures."
+    "Correct. A positive Babinski reflex is normal in newborns and may persist up to approximately age 2 as the nervous system matures."
    ],
-   "takeaway": "A positive Babinski reflex is normal in infants and usually fades by about 1 year; persistence beyond that needs evaluation.",
+   "takeaway": "An extensor plantar (Babinski) response can be normal until about 2 years. Persistent response after that age, asymmetry, or other neurologic abnormalities need evaluation.",
    "refs": [
-    "openstax-maternal",
-    "medline-children"
+    "v-0c5a4edfc3"
    ],
    "reviewed": "v4"
   },
@@ -2126,8 +2125,8 @@
    ],
    "takeaway": "Physiologic jaundice appears after 24 hours; frequent feeding (8 to 12 times a day) is the main measure, and water and sunlight are not treatments.",
    "refs": [
-    "openstax-maternal",
-    "medline-children"
+    "v-04a2419876",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2167,7 +2166,7 @@
    ],
    "takeaway": "Newborn hypoglycemia signs: jitteriness, poor feeding, hypothermia, lethargy, apnea or a high-pitched cry; check a heel-stick glucose and treat per protocol.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2207,7 +2206,7 @@
    ],
    "takeaway": "Prevent newborn heat loss by drying, skin-to-skin contact, a hat, warm surfaces, avoiding drafts and cold windows, and delaying the first bath.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2238,9 +2237,9 @@
    ],
    "takeaway": "Every newborn gets IM vitamin K at birth to prevent vitamin K deficiency bleeding, which can be life-threatening.",
    "refs": [
-    "openstax-pharm",
-    "openstax-maternal",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-04a2419876",
+    "v-0b7bb96f28"
    ],
    "reviewed": "v4"
   },
@@ -2271,8 +2270,8 @@
    ],
    "takeaway": "Newborn IM injections go in the vastus lateralis (anterolateral thigh), never the dorsogluteal site.",
    "refs": [
-    "cdc-immunization",
-    "openstax-maternal"
+    "v-830384339f",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2315,8 +2314,8 @@
    ],
    "takeaway": "Neonatal opioid withdrawal: high-pitched cry, tremors, sneezing, yawning, poor feeding and trouble sleeping or consoling; eating, sleeping and consoling well are reassuring.",
    "refs": [
-    "openstax-maternal",
-    "samhsa"
+    "v-04a2419876",
+    "v-f0695bda5a"
    ],
    "reviewed": "v4"
   },
@@ -2347,7 +2346,7 @@
    ],
    "takeaway": "Hypospadias is a contraindication to circumcision, because the foreskin may be needed for repair; confirm vitamin K was given before the procedure.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2387,8 +2386,8 @@
    ],
    "takeaway": "Car seats: rear-facing in the back seat as long as the seat allows, chest clip at armpit level, snug harness and no bulky coats.",
    "refs": [
-    "medline-children",
-    "openstax-maternal"
+    "v-da1ec74f3c",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2425,8 +2424,8 @@
    ],
    "takeaway": "Prevent infant abduction: match ID bands, release the newborn only to properly badged staff, transport in a bassinet and never leave the newborn unattended.",
    "refs": [
-    "tjc-npsg",
-    "openstax-maternal"
+    "v-8523418e3b",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2457,8 +2456,8 @@
    ],
    "takeaway": "Wear gloves when handling a newborn until the first bath removes blood and amniotic fluid.",
    "refs": [
-    "cdc-isolation",
-    "openstax-maternal"
+    "v-46dce47566",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2489,8 +2488,8 @@
    ],
    "takeaway": "First time out of bed after birth: dangle first, then walk with the client, especially after significant blood loss or regional anesthesia.",
    "refs": [
-    "openstax-maternal",
-    "openstax-fund"
+    "v-04a2419876",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -2521,7 +2520,7 @@
    ],
    "takeaway": "Active genital herpes lesions or prodromal symptoms at the onset of labor are an indication for cesarean birth.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2552,8 +2551,8 @@
    ],
    "takeaway": "Depot medroxyprogesterone: an injection every 13 weeks, irregular bleeding is common, bone density can drop, and fertility can be slow to return.",
    "refs": [
-    "openstax-maternal",
-    "openstax-pharm"
+    "v-04a2419876",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -2584,7 +2583,7 @@
    ],
    "takeaway": "The lactational amenorrhea method works only with exclusive breastfeeding, no menses and an infant under 6 months; when any condition ends, use another method.",
    "refs": [
-    "openstax-maternal"
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2620,8 +2619,8 @@
    ],
    "takeaway": "Prioritize the antepartum client with a threat to life (severe hypertension with symptoms) first, then active labor, then abnormal but stable findings, then teaching.",
    "refs": [
-    "openstax-maternal",
-    "ncsbn-testplan"
+    "v-04a2419876",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -2658,8 +2657,8 @@
    ],
    "takeaway": "Assign LPNs stable clients with predictable outcomes, routine medications, data collection and reinforcement of teaching; keep initial assessment and care planning with the RN.",
    "refs": [
-    "ncsbn-delegation",
-    "openstax-maternal"
+    "v-2448f4215e",
+    "v-04a2419876"
    ],
    "reviewed": "v4"
   },
@@ -2690,8 +2689,7 @@
    ],
    "takeaway": "The provider obtains informed consent; the nurse witnesses the signature and contacts the provider if the client still has questions.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe"
    ],
    "reviewed": "v4"
   },
@@ -2722,8 +2720,7 @@
    ],
    "takeaway": "Use qualified medical interpreters, not family members, for health teaching with clients who have limited English proficiency.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe"
    ],
    "reviewed": "v4"
   },
@@ -2754,8 +2751,7 @@
    ],
    "takeaway": "Respect a competent adult's refusal of blood products: document it, inform the team and plan alternatives in advance.",
    "refs": [
-    "ana-ethics",
-    "openstax-maternal"
+    "v-973aa1a2fe"
    ],
    "reviewed": "v4"
   },
@@ -2786,8 +2782,8 @@
    ],
    "takeaway": "Assign a float nurse the most stable client whose care matches the nurse's experience; keep high-acuity specialty clients with unit nurses.",
    "refs": [
-    "ncsbn-delegation",
-    "openstax-fund"
+    "v-2448f4215e",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -2818,8 +2814,7 @@
    ],
    "takeaway": "Share an adult client's health information only with people the client has authorized.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-c1e3cb09fb"
    ],
    "reviewed": "v4"
   }

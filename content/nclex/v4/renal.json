@@ -40,7 +40,7 @@
    ],
    "takeaway": "A thrill confirms a patent AV fistula and a fall in potassium is expected after dialysis; a cool, painful hand (steal syndrome) or symptomatic hypotension needs follow-up.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -71,7 +71,7 @@
    ],
    "takeaway": "Poor peritoneal dialysis outflow is usually from kinked tubing, constipation, or catheter position; check the tubing, ask about bowel movements, and reposition the client.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -86,7 +86,7 @@
    "type": "sata",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A client with type 2 diabetes and an estimated glomerular filtration rate (eGFR) of 26 mL/min/1.73 m² is scheduled for a CT angiogram with IV contrast. Which measures should the nurse anticipate to reduce the risk of contrast-associated kidney injury? Select all that apply.",
+   "stem": "A client with type 2 diabetes and an estimated glomerular filtration rate (eGFR) of 26 mL/min/1.73 m² is scheduled for a CT angiogram with IV contrast. The client has no fluid-overload or heart-failure contraindication to prescribed isotonic hydration. Which measures should the nurse anticipate for prevention and monitoring of contrast-associated kidney injury? Select all that apply.",
    "options": [
     "Restricting fluids the night before the scan",
     "Holding nephrotoxic drugs such as NSAIDs as prescribed",
@@ -103,12 +103,12 @@
     "Dehydration increases the risk of contrast-associated kidney injury.",
     "Correct. Avoiding other kidney-damaging drugs lowers the combined risk.",
     "Correct. Isotonic IV hydration is the main measure for preventing contrast-associated kidney injury in high-risk clients, such as those with an eGFR below 30.",
-    "Correct. Contrast-associated kidney injury usually shows as a rise in creatinine within 2 to 3 days.",
+    "Correct as monitoring, not prevention. Follow the ordered follow-up creatinine assessment in this high-risk client; detect an injury and compare with baseline.",
     "Diuretics can cause volume depletion and may increase the risk of kidney injury."
    ],
-   "takeaway": "Isotonic IV hydration, stopping nephrotoxic drugs, and checking creatinine afterward help prevent contrast-associated kidney injury in high-risk clients.",
+   "takeaway": "For high-risk eGFR <30, consider prescribed isotonic prophylaxis when not contraindicated and review nephrotoxic medications. Follow-up creatinine detects injury; it does not itself prevent it.",
    "refs": [
-    "openstax-medsurg"
+    "v-bfde2729ce"
    ],
    "reviewed": "v4"
   },
@@ -145,8 +145,8 @@
    ],
    "takeaway": "Teach transplant recipients to report fever, graft tenderness, decreased urine output, and sudden weight gain, and never to skip immunosuppressants.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -177,8 +177,8 @@
    ],
    "takeaway": "With continuous bladder irrigation, true urine output equals total drainage minus the irrigant infused.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -197,19 +197,19 @@
    "options": [
     "Give the prescribed oxybutynin for the bladder spasms.",
     "Encourage the client to try to void around the catheter.",
-    "Check the catheter for clots or kinks and irrigate it per protocol.",
+    "Pause continuous irrigation, check for kinks/clots, and restore drainage with gentle prescribed manual irrigation per protocol.",
     "Slow the bladder irrigation to reduce bladder distention."
    ],
    "correct": 2,
    "rationales": [
     "An antispasmodic may help later, but it does not relieve an obstructed catheter.",
     "Trying to void around the catheter increases spasms and can cause bleeding.",
-    "Correct. Spasms with slowed drainage and clots suggest an obstructed catheter; restoring patency treats the cause and prevents bladder distention.",
-    "Slowing the irrigation allows more clots to form; the rate is usually increased to keep the urine light pink."
+    "Correct. Poor outflow with spasms/clots suggests obstruction. Pause inflow while checking tubing and restoring patency per order/protocol; notify the provider for failed irrigation, resistance, or ongoing concern.",
+    "Incorrect as an incomplete response. Suspected obstruction requires pausing inflow and restoring outflow, not simply slowing or increasing continuous irrigation. Only titrate to the ordered urine-color goal after drainage is patent."
    ],
-   "takeaway": "Bladder spasms after TURP often come from clots blocking the catheter; restore patency first, then treat the spasms.",
+   "takeaway": "Poor CBI outflow: pause inflow, check kinks/clots, restore drainage with prescribed gentle irrigation, and escalate if unsuccessful. Do not increase flow against obstruction.",
    "refs": [
-    "openstax-medsurg"
+    "v-d8fde7e1e2"
    ],
    "reviewed": "v4"
   },
@@ -248,8 +248,8 @@
    ],
    "takeaway": "Indwelling catheters are appropriate only for clear indications such as retention, hourly output in critically ill clients, or end-of-life comfort; remove them promptly to prevent CAUTI.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -288,8 +288,8 @@
    ],
    "takeaway": "Collect catheter urine specimens from the cleaned sampling port with a sterile syringe; never open the closed drainage system or take urine from the bag, and unclamp the tubing afterward.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -328,7 +328,7 @@
    ],
    "takeaway": "In a CAPD exchange, mask and hand hygiene come first, then connect, drain, fill, and cap with a new sterile cap.",
    "refs": [
-    "openstax-medsurg"
+    "v-d74ec1ad2c"
    ],
    "reviewed": "v4"
   },
@@ -359,7 +359,7 @@
    ],
    "takeaway": "Fever, chills, flank pain, and costovertebral angle tenderness point to pyelonephritis; frequency, urgency, and dysuria alone suggest cystitis.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -377,20 +377,20 @@
    "stem": "The nurse is assessing residents in a long-term care facility. Which finding should the nurse recognize as a possible sign of a urinary tract infection in an older adult?",
    "options": [
     "Getting up once each night to urinate for many years",
-    "New confusion and incontinence in a resident who was previously oriented and continent",
+    "New dysuria and urinary frequency with an acute change in a previously stable resident",
     "Mild ankle swelling at the end of the day",
     "Dry, flaky skin on the lower legs"
    ],
    "correct": 1,
    "rationales": [
     "Long-standing single-episode nocturia is common with aging and is not a new change.",
-    "Correct. Older adults with a UTI often have no fever or dysuria; a sudden change in mental status or new incontinence may be the first sign.",
+    "Correct. New localizing urinary symptoms warrant assessment for symptomatic infection. Confusion, falls, or bacteriuria alone do not establish UTI; evaluate other causes and systemic signs before attributing symptoms or treating.",
     "Dependent ankle edema is not a sign of urinary infection.",
     "Dry skin is common with aging and unrelated to UTI."
    ],
-   "takeaway": "In older adults, a UTI may present only as new confusion, falls, or new incontinence rather than fever or dysuria.",
+   "takeaway": "Assess new localizing urinary/systemic signs. Isolated confusion or falls with bacteriuria should prompt evaluation for other causes, not automatic antibiotics for asymptomatic bacteriuria.",
    "refs": [
-    "openstax-medsurg"
+    "v-dd82fac2db"
    ],
    "reviewed": "v4"
   },
@@ -429,7 +429,7 @@
    ],
    "takeaway": "Dialysis disequilibrium (cerebral edema from rapid urea removal) causes headache, nausea, restlessness, and confusion, especially in first treatments with very high BUN.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -460,8 +460,8 @@
    ],
    "takeaway": "A client with urinary infection plus hypotension, tachycardia, tachypnea, and new confusion has urosepsis; poor perfusion takes priority.",
    "refs": [
-    "sepsis-2021",
-    "openstax-medsurg"
+    "v-42e3a3a98c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -492,7 +492,7 @@
    ],
    "takeaway": "After a kidney biopsy, new back or flank pain with tachycardia and a falling blood pressure signals hemorrhage and needs immediate action.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -507,7 +507,7 @@
    "type": "mcq",
    "difficulty": 3,
    "level": "Analyze",
-   "stem": "Two hours after a TURP with large-volume irrigation, a client becomes confused and nauseated. The blood pressure is 168/94 mm Hg, the heart rate is 54/min, and the serum sodium is 124 mEq/L. Which complication should the nurse suspect?",
+   "stem": "Two hours after monopolar TURP using electrolyte-free hypotonic operative irrigant with substantial suspected absorption, a client becomes confused and nauseated. The blood pressure is 168/94 mm Hg, the heart rate is 54/min, and the serum sodium is 124 mEq/L. Which complication should the nurse suspect?",
    "options": [
     "Hemorrhage from the prostate surgical site",
     "Urinary retention from an obstructed catheter",
@@ -518,12 +518,12 @@
    "rationales": [
     "Hemorrhage causes hypotension and tachycardia, not hypertension with low sodium.",
     "Retention would cause bladder distention and spasms, not hyponatremia.",
-    "Correct. Absorbed irrigation fluid causes fluid overload and dilutional hyponatremia, leading to confusion, nausea, hypertension, and bradycardia.",
-    "Opioid effects do not explain hyponatremia and hypertension."
+    "Correct. Absorption of this electrolyte-free hypotonic operative irrigant causes fluid overload and dilutional hyponatremia, leading to confusion, nausea, hypertension, and bradycardia.",
+    "Routine postoperative isotonic-saline CBI does not explain classic dilutional hyponatremic TUR syndrome. Opioid effects do not explain hyponatremia and hypertension."
    ],
    "takeaway": "TUR syndrome (dilutional hyponatremia and fluid overload from absorbed irrigant) causes confusion, nausea, hypertension, and bradycardia.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -554,8 +554,9 @@
    ],
    "takeaway": "Bethanechol (a cholinergic drug for nonobstructive urinary retention) is contraindicated with asthma, bradycardia, and mechanical urinary or bowel obstruction.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-f07c372506",
+    "v-c35d24be08"
    ],
    "reviewed": "v4"
   },
@@ -584,10 +585,9 @@
     "Adequate iron stores support a response to epoetin.",
     "Improved fatigue shows that therapy is working."
    ],
-   "takeaway": "Erythropoiesis-stimulating agents raise the risk of hypertension, clots, and stroke; report uncontrolled blood pressure or hemoglobin nearing 11 g/dL.",
+   "takeaway": "Epoetin alfa is contraindicated in uncontrolled hypertension. Use the lowest dose needed to reduce transfusions: dialysis CKD dose reduction/interruption when Hb approaches/exceeds 11 g/dL; nondialysis CKD when Hb exceeds 10 g/dL, per labeling and the prescribed plan.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-f3d800b96a"
    ],
    "reviewed": "v4"
   },
@@ -618,8 +618,8 @@
    ],
    "takeaway": "Children taking desmopressin for bedwetting limit fluids from 1 hour before to 8 hours after the dose and stop it during vomiting or diarrhea to prevent hyponatremia.",
    "refs": [
-    "dailymed",
-    "openstax-pharm"
+    "v-d64e5cf9a0",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -650,8 +650,8 @@
    ],
    "takeaway": "Mycophenolate requires effective contraception because it causes birth defects; clients also avoid live vaccines, separate it from antacids, and report signs of infection promptly.",
    "refs": [
-    "dailymed",
-    "openstax-pharm"
+    "v-88776d0b5f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -666,7 +666,7 @@
    "type": "matrix",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A client receiving hemodialysis three times a week asks about food choices. For each food, indicate whether the nurse should encourage it or recommend limiting it.",
+   "stem": "A client receiving hemodialysis three times a week has elevated potassium/phosphorus and a renal-dietitian plan limiting those nutrients and sodium while providing adequate protein. The client asks about food choices. For each food, indicate whether the nurse should encourage it or recommend limiting it.",
    "rows": [
     "Egg whites",
     "Cola soft drinks",
@@ -692,9 +692,9 @@
     "Processed foods are high in sodium and often contain phosphorus additives.",
     "Apples and berries are lower-potassium fruit choices."
    ],
-   "takeaway": "Hemodialysis diets emphasize high-quality protein while limiting potassium, phosphorus (including colas and additives), sodium, and fluid.",
+   "takeaway": "Use the renal dietitian’s individualized plan based on laboratory trends, nutrition, residual kidney function, and dialysis. The restrictions in this item are prescribed; they are not identical for every dialysis client.",
    "refs": [
-    "openstax-medsurg"
+    "v-b0bcbf128e"
    ],
    "reviewed": "v4"
   },
@@ -725,7 +725,7 @@
    ],
    "takeaway": "Clients on hemodialysis count ice chips as fluid and manage thirst with sugar-free candy, gum, and limiting sodium.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -765,7 +765,7 @@
    ],
    "takeaway": "Before dialysis, CKD diets use moderate protein and limit sodium, phosphorus, and often potassium; salt substitutes contain potassium.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -796,7 +796,7 @@
    ],
    "takeaway": "After TURP, temporary dribbling is common; pelvic floor exercises help, and clients keep fluids up while avoiding straining and heavy lifting.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -827,7 +827,7 @@
    ],
    "takeaway": "High fluid intake, normal dietary calcium, and limiting sodium help prevent calcium oxalate stones.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -842,32 +842,32 @@
    "type": "sata",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A 24-year-old client has had two episodes of cystitis this year. Which measures should the nurse teach to help prevent recurrence? Select all that apply.",
+   "stem": "A healthy, nonpregnant 24-year-old has three culture-confirmed episodes of uncomplicated cystitis in 12 months. Baseline water intake is less than 1.5 L/day and there is no fluid restriction. Which evidence-supported prevention options should the nurse discuss with the client and prescriber? Select all that apply.",
    "options": [
-    "Use scented douches to keep the area clean",
-    "Wipe from front to back after using the toilet",
-    "Take bubble baths to relax the pelvic muscles",
-    "Urinate soon after sexual intercourse",
-    "Avoid holding urine for long periods",
-    "Drink enough fluid to urinate regularly throughout the day"
+    "Increase water intake as individually discussed with the clinician because baseline intake is low",
+    "Consider cranberry as one prophylaxis option, acknowledging product variability and incomplete protection",
+    "Treat every positive surveillance urine culture with antibiotics even when entirely asymptomatic",
+    "Rely on wiping direction and immediate postcoital voiding as proven methods that prevent recurrence",
+    "Discuss individualized antibiotic prophylaxis if appropriate after reviewing risks, benefits, prior cultures, and alternatives",
+    "Start leftover antibiotics whenever urine has an odor, without assessment"
    ],
    "correct": [
+    0,
     1,
-    3,
-    4,
-    5
+    4
    ],
    "rationales": [
-    "Douches and scented products irritate tissue and disrupt normal flora.",
-    "Correct. Wiping front to back reduces movement of bowel bacteria toward the urethra.",
-    "Bubble baths can irritate the urethra and increase UTI risk.",
-    "Correct. Voiding after intercourse flushes bacteria from the urethra.",
-    "Correct. Urinary stasis allows bacteria to multiply.",
-    "Correct. Regular urine flow flushes bacteria from the bladder."
+    "Correct. Increased water intake may reduce recurrence in otherwise healthy women with low baseline intake; individualize and avoid excessive fluid or contradicting a restriction.",
+    "Correct. Current AUA guidance offers cranberry as a prophylaxis option; preparations differ and it is not a guarantee or treatment for acute infection.",
+    "Incorrect. Do not routinely screen for or treat asymptomatic bacteriuria in this healthy nonpregnant client.",
+    "Incorrect. These hygiene/voiding practices are not established effective recurrence prevention and should not substitute for evidence-supported options.",
+    "Correct. The prescriber may offer individualized prophylaxis after shared discussion of benefits, resistance/adverse effects, culture information, and alternatives.",
+    "Incorrect. Odor alone does not establish infection; leftover empiric treatment risks adverse effects and resistance."
    ],
-   "takeaway": "UTI prevention: void after intercourse, wipe front to back, keep fluids up, avoid holding urine, and avoid douches and bubble baths.",
+   "takeaway": "For recurrent uncomplicated cystitis, discuss low-intake hydration, cranberry as an option, and individualized prophylaxis when appropriate. Do not treat asymptomatic bacteriuria or promise prevention from wiping/postcoital voiding.",
    "refs": [
-    "openstax-medsurg"
+    "v-f13779e92c",
+    "v-1f6f92ed7e"
    ],
    "reviewed": "v4"
   }

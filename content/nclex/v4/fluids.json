@@ -22,13 +22,13 @@
    "rationales": [
     "Correct. Weight gain with a low sodium shows that excess water intake has diluted the sodium (exercise-associated hyponatremia).",
     "Excess sodium intake would raise, not lower, the serum sodium.",
-    "Dehydration would cause weight loss and a high sodium.",
+    "Hypernatremic dehydration would cause weight loss with high sodium. Fluid depletion can have low, normal, or high sodium depending on relative losses; this client’s weight gain and low sodium support excess water.",
     "Nothing suggests hyperglycemia, and the weight gain points to water excess."
    ],
    "correct": 0,
    "takeaway": "Weight gain plus a low sodium after heavy water intake points to dilutional hyponatremia.",
    "refs": [
-    "openstax-medsurg"
+    "v-829b2402b4"
    ],
    "reviewed": "v4"
   },
@@ -59,7 +59,7 @@
    "correct": 3,
    "takeaway": "Diabetes insipidus: high output of dilute urine (low specific gravity) with rising serum sodium.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -90,8 +90,8 @@
    "correct": 1,
    "takeaway": "Older adults who cannot drink on their own, especially with fever or tube feedings, are at high risk for hypernatremia.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -130,8 +130,8 @@
    ],
    "takeaway": "Confusion from hyponatremia calls for seizure and fall precautions with frequent neuro checks.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -146,23 +146,23 @@
    "type": "mcq",
    "difficulty": 3,
    "level": "Analyze",
-   "stem": "A client with a serum sodium of 162 mEq/L has received 0.45% sodium chloride at 200 mL/hr. Eight hours later the sodium is 148 mEq/L, and the client has a new headache, vomiting and confusion. What is the most likely cause of the new findings?",
+   "stem": "A client with sodium 108 mEq/L documented for 4 days and severe malnutrition receives treatment. Sodium rises to 126 mEq/L in 24 hours. After initial improvement, the client develops dysarthria, dysphagia, and bilateral weakness 3 days later. Which complication is the greatest concern?",
    "options": [
-    "Worsening hypernatremia from the IV fluid",
-    "Hypokalemia caused by the IV fluid",
-    "Hyperglycemia from dextrose in the IV fluid",
-    "Cerebral edema from lowering the sodium too quickly"
+    "Persistent untreated hyponatremia",
+    "Isolated hypokalemia unrelated to sodium correction",
+    "Hyperglycemia caused by dextrose",
+    "Osmotic demyelination syndrome following excessive correction of chronic hyponatremia"
    ],
    "rationales": [
-    "The sodium has fallen, not risen.",
-    "Hypokalemia causes weakness and dysrhythmias, not this pattern, and nothing suggests it.",
-    "0.45% sodium chloride contains no dextrose.",
-    "Correct. A drop of 14 mEq/L in 8 hours is too fast; water moves into brain cells and causes cerebral edema."
+    "Incorrect. Sodium has risen substantially; the delayed neurologic deterioration after improvement suggests a treatment-associated complication.",
+    "Incorrect. Hypokalemia can cause weakness and dysrhythmias, but does not explain this characteristic delayed course with dysarthria and dysphagia after excessive sodium correction.",
+    "Incorrect. No dextrose exposure or hyperglycemia is supplied.",
+    "Correct. Chronic severe hyponatremia and malnutrition increase osmotic demyelination risk. An 18 mEq/L increase in one day exceeds recommended correction limits. Delayed bulbar and motor findings require urgent evaluation; symptoms alone do not confirm the diagnosis."
    ],
    "correct": 3,
-   "takeaway": "Correct chronic sodium imbalances slowly; rapid correction of hypernatremia can cause cerebral edema.",
+   "takeaway": "Prevent excessive correction of chronic severe hyponatremia. Malnutrition increases osmotic demyelination risk; new delayed bulbar or motor findings require urgent assessment.",
    "refs": [
-    "openstax-medsurg"
+    "v-473b683ef2"
    ],
    "reviewed": "v4"
   },
@@ -202,8 +202,8 @@
    ],
    "takeaway": "3% saline: infusion pump, frequent sodium and neuro checks, and watch for fluid overload and overcorrection.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -234,8 +234,8 @@
    "correct": 1,
    "takeaway": "Desmopressin is working when urine output falls, specific gravity rises and sodium normalizes.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-d64e5cf9a0"
    ],
    "reviewed": "v4"
   },
@@ -272,8 +272,8 @@
    ],
    "takeaway": "Hyperkalemia risk: kidney failure, potassium-sparing drugs, ACE inhibitors, extra potassium intake and cell destruction.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -298,7 +298,7 @@
    "correct": 2,
    "takeaway": "Hypernatremia from water deficit: thirst, dry sticky mucous membranes and neurologic changes such as restlessness or confusion.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "options": [
     "Positive Trousseau sign and muscle cramps",
@@ -344,7 +344,7 @@
    ],
    "takeaway": "Hypokalemia slows all muscles: weakness, cramps, ileus, shallow breathing and dysrhythmias.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -375,8 +375,8 @@
    "correct": 0,
    "takeaway": "Confirm adequate urine output before giving potassium, especially IV.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -407,8 +407,8 @@
    ],
    "takeaway": "IV calcium: cardiac monitor, slow controlled rate, watch the IV site, and never mix with bicarbonate or give IM.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "options": [
     "Place the client on continuous cardiac monitoring.",
@@ -455,8 +455,7 @@
    ],
    "takeaway": "Severe hyperkalemia: monitor, protect the heart (calcium), shift (insulin, dextrose), remove, then recheck.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-4daa021532"
    ],
    "reviewed": "v4"
   },
@@ -487,7 +486,7 @@
    "correct": 3,
    "takeaway": "A hemolyzed specimen can falsely raise potassium; confirm with a redraw before treating a well client.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -518,8 +517,8 @@
    "correct": 2,
    "takeaway": "Never add potassium to a hanging IV bag and never give it IV push; use premixed solutions on a pump.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert"
+    "v-df1c5b2874",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -550,8 +549,8 @@
    "correct": 1,
    "takeaway": "High-potassium foods include potatoes, leafy greens, bananas, oranges, dried fruit and beans.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -582,7 +581,7 @@
    "correct": 0,
    "takeaway": "Massive transfusion can cause hypocalcemia because citrate binds calcium.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -625,7 +624,7 @@
    ],
    "takeaway": "Low calcium = excitable (tetany, stridor, long QT); high calcium = sluggish (weakness, constipation, stones).",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -661,8 +660,8 @@
    ],
    "takeaway": "Trousseau sign: inflate a BP cuff above systolic for up to 3 minutes and watch for carpal spasm.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -693,8 +692,8 @@
    "correct": 3,
    "takeaway": "Calcium replacement is working when tingling, spasms and positive Chvostek or Trousseau signs resolve.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -725,8 +724,8 @@
    "correct": 0,
    "takeaway": "Hypercalcemia: IV saline, bisphosphonates and calcitonin; avoid thiazides, which retain calcium.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -757,8 +756,8 @@
    "correct": 2,
    "takeaway": "Immobility causes hypercalcemia; mobility and fluids help prevent it.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -789,8 +788,8 @@
    "correct": 1,
    "takeaway": "Clients with kidney failure should avoid magnesium-containing laxatives and antacids; high magnesium causes lost reflexes and respiratory depression.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -830,7 +829,7 @@
    ],
    "takeaway": "Low magnesium = excitable (tremor, hyperreflexia, torsades); high magnesium = depressed (lethargy, hypotension, slow breathing).",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -870,8 +869,8 @@
    ],
    "takeaway": "During IV magnesium: monitor reflexes, respirations, blood pressure and urine output.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -902,8 +901,8 @@
    "correct": 3,
    "takeaway": "Phosphate binders are taken with meals; limit high-phosphorus foods such as dairy and dark colas.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-2a52c2b02e"
    ],
    "reviewed": "v4"
   },
@@ -934,7 +933,7 @@
    "correct": 1,
    "takeaway": "Respiratory alkalosis from anxiety is treated by reducing anxiety and slowing the breathing.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -978,7 +977,7 @@
    ],
    "takeaway": "Compensation: uncompensated = other value normal; partial = other value moving but pH abnormal; full = pH back in 7.35 to 7.45.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1009,7 +1008,7 @@
    "correct": 2,
    "takeaway": "Rapid breathing from hypoxemia (such as PE) causes respiratory alkalosis: high pH, low PaCO₂.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1040,7 +1039,7 @@
    "correct": 0,
    "takeaway": "Kidney failure causes metabolic acidosis; a falling PaCO₂ is the lungs' compensation.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1071,7 +1070,7 @@
    "correct": 3,
    "takeaway": "In DKA, improvement means rising pH and HCO₃⁻, with PaCO₂ returning toward normal.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1108,8 +1107,8 @@
    ],
    "takeaway": "Fluid volume deficit concentrates the blood and urine: high hematocrit, high BUN-to-creatinine ratio, high specific gravity.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1140,7 +1139,7 @@
    "correct": 2,
    "takeaway": "Monitor older adults and clients with heart failure closely during fluid boluses for crackles, dyspnea and falling SpO₂.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1165,8 +1164,8 @@
    "correct": 1,
    "takeaway": "Hyponatremia with fluid overload is dilutional: treat the extra water with diuretics and fluid restriction, not saline.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "options": [
     "Furosemide 40 mg IV twice daily",
@@ -1190,7 +1189,7 @@
    "stem": "For each client, indicate the type of IV solution the nurse should anticipate.",
    "rows": [
     "A client with burns over 30% of the body in the first hours after injury",
-    "A client with hypernatremia from water loss who cannot drink",
+    "A hemodynamically stable client with water-loss hypernatremia who cannot drink, after any intravascular volume deficit has been restored",
     "A client with a serum sodium of 112 mEq/L who is having a seizure",
     "A client with hypotension after 2 days of vomiting"
    ],
@@ -1207,14 +1206,13 @@
    ],
    "rationales": [
     "Isotonic. Burn resuscitation uses isotonic crystalloid, usually lactated Ringer's, to restore intravascular volume.",
-    "Hypotonic. Free water from a hypotonic solution corrects water-loss hypernatremia, given slowly.",
+    "Hypotonic. After circulation is restored, prescribed hypotonic fluid replaces the free-water deficit. Individualize the rate to duration, cause, serial sodium, and clinical response; unstable hypovolemia requires isotonic resuscitation first.",
     "Hypertonic. Severe symptomatic hyponatremia is treated with carefully controlled hypertonic saline.",
     "Isotonic. 0.9% sodium chloride or lactated Ringer's expands intravascular volume."
    ],
    "takeaway": "Isotonic fluids replace vascular volume; hypotonic fluids give free water to cells; hypertonic saline treats severe symptomatic hyponatremia.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-5eaa8c01e4"
    ],
    "reviewed": "v4"
   },
@@ -1245,8 +1243,8 @@
    "correct": 0,
    "takeaway": "Daily weights: same time, same scale, similar clothing, before breakfast after voiding; 1 kg is about 1 L of fluid.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-delegation"
+    "v-4b8799783c",
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -1275,9 +1273,9 @@
     "Correct. Much of calcium is bound to albumin, so low albumin lowers the total calcium; the ionized calcium shows the active level."
    ],
    "correct": 3,
-   "takeaway": "Low albumin falsely lowers total calcium; check ionized calcium before treating.",
+   "takeaway": "Low albumin lowers measured total calcium without necessarily lowering biologically active ionized calcium. Check ionized calcium and clinical findings before treating.",
    "refs": [
-    "openstax-medsurg"
+    "v-5eaa8c01e4"
    ],
    "reviewed": "v4"
   },
@@ -1317,7 +1315,7 @@
    ],
    "takeaway": "Early burn phase: capillary leak, hypovolemia, hemoconcentration, hyperkalemia and low urine output.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1342,7 +1340,7 @@
    "correct": 0,
    "takeaway": "Third spacing: weight gain and edema can occur alongside intravascular hypovolemia (hypotension, tachycardia, flat neck veins, low urine output).",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "options": [
     "Fluid has shifted into the interstitial space, leaving too little volume in the vessels",
@@ -1373,8 +1371,8 @@
    "correct": 2,
    "takeaway": "Fluid replacement is working when urine output is adequate and orthostatic symptoms resolve.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "options": [
     "Urine specific gravity of 1.034",
@@ -1420,8 +1418,8 @@
    ],
    "takeaway": "Older adults dehydrate easily: less thirst, less body water, weaker urine concentration, diuretics and cognitive impairment.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1457,8 +1455,8 @@
    ],
    "takeaway": "Orthostatic vital signs: supine rest, supine readings, stand with help, repeat within 1 to 3 minutes.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1483,8 +1481,8 @@
    "correct": 2,
    "takeaway": "Hypercalcemia from bone destruction means fragile bones and weakness: handle gently and prevent falls.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "options": [
     "Encourage the client to walk to the bathroom alone to build strength",
@@ -1530,8 +1528,8 @@
    ],
    "takeaway": "Prevent dehydration in older adults by offering preferred fluids on a schedule, keeping drinks in reach and tracking intake.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1571,8 +1569,8 @@
    ],
    "takeaway": "Fluid restriction comfort: oral care, sugar-free candy or gum, counted ice chips and fluids spread over the day.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   }

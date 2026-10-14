@@ -15,7 +15,7 @@
    "stem": "A client admitted yesterday for major depressive disorder sits alone in the dayroom. When the nurse approaches, the client looks down and says, \"I don't want to talk.\" Which response by the nurse is best?",
    "takeaway": "With a withdrawn client, offering self through brief, quiet presence builds trust without demanding conversation.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"That's all right. I'll sit here with you for a few minutes.\"",
@@ -46,7 +46,7 @@
    "stem": "A client with generalized anxiety disorder is talking with the nurse about stress at home. For each nurse statement, indicate whether it is therapeutic or nontherapeutic.",
    "takeaway": "Observations, broad openings and exploring are therapeutic; reassurance, \"why\" questions and advice block communication.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "rows": [
     "\"You seem tense. Tell me what's on your mind.\"",
@@ -89,8 +89,8 @@
    "stem": "During the final one-to-one session before discharge, a client says to the nurse, \"You've helped me so much. Can I have your phone number so we can keep in touch?\" Which response by the nurse is best?",
    "takeaway": "In the termination phase, keep the relationship professional and shift the client toward community supports.",
    "refs": [
-    "openstax-psych",
-    "ncsbn-boundaries"
+    "v-97bf916e84",
+    "v-2448f4215e"
    ],
    "options": [
     "\"Hospital rules don't allow it, or I would give it to you.\"",
@@ -121,8 +121,8 @@
    "stem": "A 52-year-old client with depression answers \"Yes\" when the nurse asks, \"Are you thinking about killing yourself?\" Which question should the nurse ask next?",
    "takeaway": "Once suicidal ideation is confirmed, ask directly about a plan, the means and intent to judge the level of risk.",
    "refs": [
-    "openstax-psych",
-    "lifeline-988"
+    "v-97bf916e84",
+    "v-9bd8458bd7"
    ],
    "options": [
     "\"Can you promise to tell me before you hurt yourself?\"",
@@ -153,8 +153,8 @@
    "stem": "A client on suicide precautions says, \"I'll sign a no-suicide contract if that gets me off precautions today.\" Which response by the nurse is best?",
    "takeaway": "No-suicide contracts do not prevent suicide; use ongoing risk assessment and a collaborative safety plan instead.",
    "refs": [
-    "openstax-psych",
-    "lifeline-988"
+    "v-97bf916e84",
+    "v-9bd8458bd7"
    ],
    "options": [
     "\"Good idea. I'll get the form so you can sign it now.\"",
@@ -185,8 +185,8 @@
    "stem": "A 19-year-old college student is being screened at the campus health center. For each finding, indicate whether it is a suicide risk factor or a protective factor.",
    "takeaway": "Prior attempts, recent losses and alcohol misuse raise suicide risk; engagement in care and social connection protect.",
    "refs": [
-    "openstax-psych",
-    "lifeline-988"
+    "v-97bf916e84",
+    "v-9bd8458bd7"
    ],
    "rows": [
     "Made a suicide attempt by overdose at age 16",
@@ -229,7 +229,7 @@
    "stem": "A 74-year-old client is brought to the clinic by her son, who says she has been \"forgetful\" for 2 months since moving into his home. The client speaks slowly, has lost weight, complains that her memory is poor and answers many questions with \"I don't know\" without trying. She is alert and oriented. Which explanation should the nurse consider first?",
    "takeaway": "In older adults, depression can look like dementia: watch for recent onset, memory complaints and \"I don't know\" answers.",
    "refs": [
-    "openstax-psych"
+    "v-88ff101f7b"
    ],
    "options": [
     "Depression presenting with cognitive symptoms",
@@ -241,7 +241,7 @@
    "rationales": [
     "Correct. Recent onset after a loss or major change, psychomotor slowing, weight loss, complaints about memory and \"I don't know\" answers point to depression with cognitive symptoms; a depression screen is warranted.",
     "People with early Alzheimer's disease usually try to answer, may cover up or minimize memory loss, and decline gradually over years.",
-    "Delirium causes fluctuating attention and level of consciousness; this client is alert and oriented.",
+    "Less likely from the supplied 2-month pattern without acute fluctuation or documented inattention. Alertness and orientation alone do not exclude delirium; assess attention, fluctuating course, and medical causes.",
     "Normal aging does not cause weight loss, slowing and a sudden change in function over 2 months."
    ],
    "reviewed": "v4"
@@ -260,7 +260,7 @@
    "stem": "A client with severe depression is scheduled for a first electroconvulsive therapy (ECT) treatment tomorrow morning. For each action, indicate whether it is indicated or not indicated.",
    "takeaway": "Before ECT: consent, NPO, honest teaching that anesthesia is used and that temporary confusion and memory loss are expected.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "rows": [
     "Confirm that a signed informed consent is in the record",
@@ -303,7 +303,7 @@
    "stem": "A client with schizophrenia who still hears voices despite taking medication asks the nurse for ways to cope when the voices get loud. Which strategies should the nurse suggest? Select all that apply.",
    "takeaway": "Teach active coping for persistent voices: humming, music, talking to someone and activity, plus steady medication use.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Hum or sing quietly to yourself",
@@ -343,7 +343,7 @@
    "stem": "A client with schizophrenia says to the nurse, \"I'm late, the gate, the plate, I hate to wait.\" The nurse should document this speech pattern as which finding?",
    "takeaway": "Clang associations link words by sound or rhyme rather than meaning and reflect disorganized thinking.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Neologism",
@@ -374,7 +374,7 @@
    "stem": "A client with a history of childhood trauma is admitted to a medical unit. Which nursing actions reflect trauma-informed care? Select all that apply.",
    "takeaway": "Trauma-informed care emphasizes safety, choice, control and transparency, and avoids retraumatizing the client.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Ask permission before touching the client",
@@ -414,7 +414,7 @@
    "stem": "A 22-year-old client in the emergency department after a sexual assault says, \"It's my fault. I shouldn't have walked home alone.\" Which response by the nurse is best?",
    "takeaway": "Respond to survivor self-blame by stating clearly that the assault is the perpetrator's responsibility.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"Let's not focus on that now. We need to finish collecting evidence.\"",
@@ -445,7 +445,7 @@
    "stem": "A 19-year-old client with anorexia nervosa says to the nurse before the morning weigh-in, \"I'll eat everything on my tray today if you skip my weigh-in.\" Which response by the nurse is best?",
    "takeaway": "With eating disorders, keep the treatment plan consistent and don't bargain, while offering support.",
    "refs": [
-    "openstax-psych"
+    "v-973aa1a2fe"
    ],
    "options": [
     "\"All right, as long as you finish every meal today.\"",
@@ -455,10 +455,10 @@
    ],
    "correct": 3,
    "rationales": [
-    "Bargaining away part of the plan rewards manipulation and undermines consistent treatment.",
+    "Skipping an agreed safety measure in response to distress undermines consistency; explore the fear and offer support instead.",
     "A \"why\" question puts the client on the defensive and avoids the limit that must be kept.",
     "Weight is a key measure of medical safety and progress in anorexia nervosa; this minimizes it.",
-    "Correct. Consistent limits that every staff member follows prevent manipulation of the plan, and the nurse offers support during an anxious moment."
+    "Correct. Maintaining the agreed treatment plan consistently supports safety and predictability; staying with the client acknowledges distress without attributing manipulative intent."
    ],
    "reviewed": "v4"
   },
@@ -476,8 +476,8 @@
    "stem": "The nurse is using motivational interviewing with a client who says, \"I know drinking is hurting my health, but it's the only way I can relax.\" Which techniques are consistent with this approach? Select all that apply.",
    "takeaway": "Motivational interviewing uses open questions, affirmations, reflections and change talk, not confrontation.",
    "refs": [
-    "openstax-psych",
-    "samhsa"
+    "v-97bf916e84",
+    "v-f0695bda5a"
    ],
    "options": [
     "Ask open-ended questions about the client's goals",
@@ -517,7 +517,7 @@
    "stem": "A client with alcohol use disorder tells the nurse, \"I only drink because my job is so stressful. Everyone in my office drinks after work.\" Which defense mechanism is the client using?",
    "takeaway": "Rationalization offers acceptable-sounding excuses for a behavior and is common in substance use disorders.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Rationalization",
@@ -548,8 +548,8 @@
    "stem": "The wife of a client with alcohol use disorder tells the nurse, \"When he's too hungover to work, I call his boss and say he has the flu. I'm so tired of covering for him.\" Which response by the nurse is most helpful?",
    "takeaway": "Covering for a person's substance use is enabling; refer family members to support groups such as Al-Anon.",
    "refs": [
-    "openstax-psych",
-    "samhsa"
+    "v-97bf916e84",
+    "v-f0695bda5a"
    ],
    "options": [
     "\"He needs to hit rock bottom before he will change.\"",
@@ -580,7 +580,7 @@
    "stem": "A client with obsessive-compulsive disorder asks the nurse, \"Why does my therapist want me to touch the trash can and then not wash my hands?\" Which response by the nurse is most accurate?",
    "takeaway": "Exposure and response prevention reduces OCD symptoms by facing the trigger without performing the ritual.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"It is a consequence for spending too much time washing.\"",
@@ -611,7 +611,7 @@
    "stem": "The nurse has taught a client with panic disorder about managing panic attacks. Which statements indicate that the teaching was effective? Select all that apply.",
    "takeaway": "Panic disorder teaching: breathing skills, attacks are time-limited, limit stimulants and avoid avoidance.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"I'll use slow breathing when I notice my heart starting to race.\"",
@@ -651,7 +651,7 @@
    "stem": "A client admitted in an acute manic episode 10 days ago has been receiving lithium. Which finding best indicates that the client's condition is improving?",
    "takeaway": "Improvement in mania shows as more sleep, calmer activity, completed meals and less grandiosity.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Has started three new art projects since yesterday",
@@ -682,7 +682,7 @@
    "stem": "An 84-year-old client with Alzheimer's disease in a memory care unit says, \"I need to go pick up my children from school.\" Her children are in their fifties. Which response by the nurse is best?",
    "takeaway": "In dementia, validate the emotion and redirect rather than arguing with or correcting mistaken beliefs.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"You're thinking about your children. Tell me about them.\"",
@@ -713,7 +713,7 @@
    "stem": "The nurse is teaching a family about cognitive changes in older adults. For each feature, indicate whether it is more typical of delirium or dementia.",
    "takeaway": "Delirium is acute, fluctuating and usually reversible; dementia is gradual, progressive, with intact alertness early.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "rows": [
     "Develops over hours to days",
@@ -756,7 +756,7 @@
    "stem": "The nurse is teaching the daughter of a client with moderate Alzheimer's disease how to manage care at home. Which suggestions should the nurse include? Select all that apply.",
    "takeaway": "Dementia caregiving: routine, simple steps, no arguing, good lighting and a stable environment.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Keep a consistent daily routine",
@@ -796,8 +796,8 @@
    "stem": "The parent of a 5-year-old asks the nurse how to talk to the child about the recent death of the child's grandmother. The child keeps asking when Grandma is coming back. Which advice by the nurse is best?",
    "takeaway": "Use simple, concrete, honest words such as \"died\" with young children, who often think death is reversible.",
    "refs": [
-    "openstax-psych",
-    "medline-children"
+    "v-97bf916e84",
+    "v-da1ec74f3c"
    ],
    "options": [
     "\"Keep your child away from the funeral to avoid upsetting them.\"",
@@ -828,7 +828,7 @@
    "stem": "A 58-year-old client's same-sex partner of 20 years died last month. The partner's family did not include the client in planning the funeral. The client tells the nurse, \"It's like I'm not even allowed to grieve.\" Which response by the nurse is best?",
    "takeaway": "Disenfranchised grief needs acknowledgment: validate the loss and invite the client to talk about the person who died.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"Next time, make sure you have legal papers in place.\"",
@@ -859,7 +859,7 @@
    "stem": "A 41-year-old client comes to a crisis clinic 3 days after her spouse unexpectedly asked for a divorce. She has not slept or eaten much and says, \"I can't function.\" Which goal is most appropriate for crisis intervention?",
    "takeaway": "The goal of crisis intervention is a return to at least the pre-crisis level of functioning.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "The client will gain insight into conflicts from her childhood.",
@@ -890,7 +890,8 @@
    "stem": "The nurse is orienting a new staff member to milieu therapy on an inpatient psychiatric unit. Which features describe a therapeutic milieu? Select all that apply.",
    "takeaway": "A therapeutic milieu is safe, structured and consistent, and gives clients a role and responsibility.",
    "refs": [
-    "openstax-psych"
+    "v-973aa1a2fe",
+    "v-edaa8a3d1b"
    ],
    "options": [
     "A consistent, structured daily schedule",
@@ -912,7 +913,7 @@
     "Excluding clients from decisions undermines autonomy, a key goal of the milieu.",
     "Correct. Physical safety is a basic element of the therapeutic environment.",
     "Correct. The milieu encourages accountability and practicing new behaviors.",
-    "Inconsistent rules allow manipulation and increase anxiety; limits must be consistent across staff."
+    "Incorrect. Inconsistent expectations reduce predictability and may increase distress; staff should apply clear, agreed expectations consistently and respectfully."
    ],
    "reviewed": "v4"
   },
@@ -930,7 +931,7 @@
    "stem": "A client with major depressive disorder has refused to attend any group sessions for 3 days and stays in bed. Which action by the nurse is best?",
    "takeaway": "With depression, offer concrete support to engage in activities rather than waiting for motivation to return.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Say, \"I'll walk with you to group and sit with you for the first part.\"",
@@ -961,7 +962,7 @@
    "stem": "A 24-year-old client with borderline personality disorder is in dialectical behavior therapy (DBT). Which statement by the client indicates progress?",
    "takeaway": "In DBT, progress means using skills such as distress tolerance in place of self-harm.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"I didn't cut, but I took a few extra sleeping pills to calm down.\"",
@@ -992,7 +993,7 @@
    "stem": "A client with paranoid personality disorder watches the staff closely and asks why the nurse is writing things down. Which approach by the nurse is best?",
    "takeaway": "With suspicious clients, be direct, honest, businesslike and consistent; avoid touch, humor and whispering.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Discuss the client's behavior quietly with other staff near the client.",
@@ -1023,7 +1024,7 @@
    "stem": "A client with dependent personality disorder asks the nurse every morning to decide which shirt to wear and which group to attend. Which response by the nurse is best?",
    "takeaway": "For dependent personality traits, guide the client to make their own decisions rather than deciding for them.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"Wear the blue shirt and go to the art group.\"",
@@ -1054,7 +1055,7 @@
    "stem": "The nurse is teaching the family of a client with schizophrenia about early warning signs of relapse. Which changes should the family report? Select all that apply.",
    "takeaway": "Teach families to watch for sleep changes, withdrawal, suspiciousness and missed medication as early relapse signs.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Sleeping much less than usual",
@@ -1094,7 +1095,7 @@
    "stem": "A client with illness anxiety disorder calls the clinic several times a week with new concerns about having cancer. Diagnostic tests have been normal. Which approach by the nurse is best?",
    "takeaway": "In illness anxiety, assess new symptoms briefly, then shift the focus to feelings and use scheduled contacts.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Briefly assess each new symptom, then schedule regular check-ins that focus on the client's feelings and stressors.",
@@ -1122,23 +1123,23 @@
    "difficulty": 3,
    "level": "Analyze",
    "type": "mcq",
-   "stem": "A 30-year-old client suddenly could not move her legs after witnessing a serious car crash. Neurologic tests show no structural cause, and she seems calm about the weakness. A diagnosis of functional neurological symptom (conversion) disorder is made. Which nursing approach is best?",
-   "takeaway": "Conversion symptoms are real and involuntary: avoid focusing on the symptom and help the client express feelings about the stressor.",
+   "stem": "A client develops leg weakness after witnessing a serious crash. A neurologist diagnoses functional neurologic disorder using positive functional examination signs, including Hoover’s sign, after assessing for other causes. Which nursing approach best supports recovery?",
+   "takeaway": "FND is diagnosed by positive clinical signs, not normal imaging alone. Validate symptoms and support multidisciplinary rehabilitation; do not presume anxiety is the sole cause.",
    "refs": [
-    "openstax-psych"
+    "v-1479f34184"
    ],
    "options": [
     "Keep the client on bed rest until the weakness resolves.",
     "Insist that the client walk to prove she is able to.",
-    "Focus on the client's feelings about the stressful event rather than on the leg weakness.",
+    "Acknowledge that symptoms are real, reinforce the positive explanation of the diagnosis, and support the multidisciplinary rehabilitation/coping plan.",
     "Tell the client there is nothing physically wrong with her legs."
    ],
    "correct": 2,
    "rationales": [
-    "Bed rest promotes deconditioning; activity is encouraged within the treatment plan.",
-    "Confrontation increases anxiety and is not therapeutic.",
-    "Correct. The symptom is real and not under voluntary control; helping the client express feelings about the stressor addresses the underlying anxiety.",
-    "Telling the client nothing is wrong is dismissive and inaccurate; the symptoms are genuine."
+    "Incorrect. Unnecessary bed rest contributes to deconditioning; support graded activity within the assessed rehabilitation plan.",
+    "Incorrect. Symptoms are involuntary; confrontation and forcing walking are unsafe and dismissive.",
+    "Correct. Explain the diagnosis using demonstrated positive signs and support individualized motor rehabilitation, education, and psychological care when indicated. A psychological stressor is not required.",
+    "Incorrect. Saying nothing is wrong invalidates real symptoms; distinguish functional signaling problems from structural damage without dismissing the client."
    ],
    "reviewed": "v4"
   },
@@ -1156,8 +1157,8 @@
    "stem": "A client with major depressive disorder has been in the hospital for 2 weeks. Which findings indicate improvement? Select all that apply.",
    "takeaway": "Depression is improving when self-care, appetite, social participation and future plans return.",
    "refs": [
-    "openstax-psych",
-    "lifeline-988"
+    "v-97bf916e84",
+    "v-9bd8458bd7"
    ],
    "options": [
     "Showers and dresses without prompting",
@@ -1197,7 +1198,7 @@
    "stem": "A 34-year-old veteran is being screened in a primary care clinic. Which findings are consistent with posttraumatic stress disorder (PTSD)? Select all that apply.",
    "takeaway": "PTSD symptoms cluster as intrusion, avoidance, negative mood and thinking, and hyperarousal.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Unwanted, intrusive memories of the event",
@@ -1237,7 +1238,7 @@
    "stem": "A client with depression and low self-esteem shows the nurse a drawing completed in art group and says, \"It's not very good.\" Which response by the nurse is best?",
    "takeaway": "Build self-esteem with genuine, specific feedback about real accomplishments, not exaggerated praise.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"Why do you think it isn't good?\"",
@@ -1268,7 +1269,7 @@
    "stem": "The nurse on an inpatient psychiatric unit is observing a client who was upset during a family visit. Which behaviors are early cues that the client may be escalating toward aggression? Select all that apply.",
    "takeaway": "Early escalation cues include pacing, clenched fists, a rising voice and staring; intervene early with de-escalation.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Pacing in the hallway",
@@ -1308,8 +1309,8 @@
    "stem": "During a routine clinic visit, a 45-year-old client tells the nurse, \"I've been thinking about ending my life.\" Place the nurse's actions in the order they should be performed.",
    "takeaway": "When a client discloses suicidal thoughts, stay with them, assess plan and means, get the provider involved, decide next steps, then document.",
    "refs": [
-    "openstax-psych",
-    "lifeline-988"
+    "v-97bf916e84",
+    "v-9bd8458bd7"
    ],
    "options": [
     "Work with the provider and client on next steps, such as an emergency evaluation or a safety plan with crisis resources like 988",
@@ -1345,7 +1346,7 @@
    "stem": "A client with adjustment disorder feels overwhelmed by unpaid bills after losing a job. The nurse is teaching the client a structured problem-solving approach. Place the steps in the order the client should use them.",
    "takeaway": "Structured problem solving: define the problem, brainstorm options, weigh them, act, then evaluate the result.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Choose the option that seems most workable and try it",
@@ -1384,7 +1385,7 @@
    "stem": "A 26-year-old client who was just diagnosed with bipolar I disorder says, \"I'll never have a normal life now.\" Which response by the nurse is best?",
    "takeaway": "Respond to distress about a new psychiatric diagnosis by acknowledging feelings and exploring specific concerns.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "\"Don't think that way. You'll be fine.\"",
@@ -1415,8 +1416,8 @@
    "stem": "A client who takes lithium for bipolar disorder comes to the clinic with vomiting, diarrhea, a coarse hand tremor and slurred speech. The serum lithium level drawn this morning is 2.1 mEq/L. Which action should the nurse take first?",
    "takeaway": "Lithium toxicity (GI upset, coarse tremor, confusion, level above about 1.5 mEq/L): hold the dose and notify the provider.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-481f0bf325"
    ],
    "options": [
     "Hold the next lithium dose and notify the provider immediately",
@@ -1447,8 +1448,9 @@
    "stem": "The nurse is teaching a client who is starting lithium therapy. Which instructions should the nurse include? Select all that apply.",
    "takeaway": "Lithium safety: steady sodium, 2-3 L fluid daily, avoid NSAIDs, report fluid loss and draw trough levels.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-481f0bf325",
+    "v-bac2576aa6"
    ],
    "options": [
     "Keep your salt intake consistent from day to day",
@@ -1488,8 +1490,8 @@
    "stem": "A 38-year-old client has taken clozapine for 6 months. The client tells the nurse, \"I haven't had a bowel movement in 4 days, and my stomach feels swollen.\" The abdomen is distended. Which action by the nurse is best?",
    "takeaway": "Clozapine can cause severe gastrointestinal hypomotility; report constipation with distension promptly.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-66251f4d55"
    ],
    "options": [
     "Advise the client to add more fiber and recheck in 2 days",
@@ -1520,8 +1522,8 @@
    "stem": "A client with schizophrenia started oral haloperidol 1 week ago. For each finding, indicate whether it is expected or requires follow-up.",
    "takeaway": "Dry mouth and mild sedation are expected with antipsychotics; fever with rigidity, dystonia and akathisia need follow-up.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-3006383969"
    ],
    "rows": [
     "Dry mouth",
@@ -1564,8 +1566,8 @@
    "stem": "The nurse is reviewing features of two drug-related emergencies seen in psychiatric clients. For each finding, indicate whether it is more typical of serotonin syndrome or neuroleptic malignant syndrome (NMS).",
    "takeaway": "Serotonin syndrome is rapid with clonus and hyperreflexia; NMS is slower with lead-pipe rigidity after antipsychotics.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-01924b1b23"
    ],
    "rows": [
     "Starts within hours of adding a second serotonergic drug",
@@ -1605,8 +1607,8 @@
    "stem": "A 46-year-old client is prescribed lorazepam for short-term management of severe anxiety. Which instructions should the nurse include? Select all that apply.",
    "takeaway": "Benzodiazepine safety: no alcohol or opioids, no driving until effects are known, fall precautions and no abrupt stopping.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-580a8ba3ea"
    ],
    "options": [
     "Avoid drinking alcohol while taking this medication",
@@ -1646,8 +1648,8 @@
    "stem": "A client who started phenelzine for depression lists foods they plan to eat this week. Which choices indicate a need for further teaching? Select all that apply.",
    "takeaway": "With MAOIs, avoid aged, cured, fermented and tap-brewed foods high in tyramine to prevent hypertensive crisis.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-1703570891"
    ],
    "options": [
     "Aged cheddar cheese",
@@ -1687,8 +1689,8 @@
    "stem": "A client in alcohol withdrawal has a prescription for lorazepam by symptom-triggered protocol: give a dose for a CIWA-Ar score of 10 or higher and reassess 1 hour after each dose. The client's score is now 16, with tremor, sweating and anxiety. Which action should the nurse take?",
    "takeaway": "In symptom-triggered alcohol withdrawal care, score the CIWA-Ar, give a benzodiazepine at the threshold and reassess.",
    "refs": [
-    "openstax-pharm",
-    "samhsa"
+    "v-df1c5b2874",
+    "v-f0695bda5a"
    ],
    "options": [
     "Apply wrist restraints to prevent injury from tremors",
@@ -1719,8 +1721,8 @@
    "stem": "A client with tobacco use disorder is starting a 21-mg nicotine patch. Place the steps the nurse teaches for daily patch application in the correct order.",
    "takeaway": "Nicotine patch: remove the old patch first, rotate to clean hairless skin, press firmly, then wash hands.",
    "refs": [
-    "dailymed",
-    "samhsa"
+    "v-66ec24f5eb",
+    "v-f0695bda5a"
    ],
    "options": [
     "Peel off the protective liner and press the patch firmly in place with the palm for about 10 seconds",
@@ -1754,10 +1756,9 @@
    "level": "Apply",
    "type": "mcq",
    "stem": "The nurse is teaching a client with opioid use disorder who is starting oral naltrexone. Which statement by the client indicates understanding?",
-   "takeaway": "Naltrexone requires an opioid-free period first, blocks opioid analgesia and raises overdose risk if opioids are used to override it.",
+   "takeaway": "Before naltrexone, confirm a prescriber-managed opioid-free transition based on the previous opioid; short-acting and methadone/buprenorphine intervals differ. Explain blocked analgesia and overdose risk.",
    "refs": [
-    "openstax-pharm",
-    "samhsa"
+    "v-f02bf1cdf2"
    ],
    "options": [
     "\"I can start this the day after my last dose of oxycodone.\"",
@@ -1767,7 +1768,7 @@
    ],
    "correct": 3,
    "rationales": [
-    "The client must be opioid-free for about 7 to 10 days first to avoid precipitated withdrawal.",
+    "Incorrect. The prescriber must confirm an appropriate opioid-free interval. A minimum of 7–10 days is usual after short-acting opioids; vulnerability to precipitated withdrawal may last up to 2 weeks after methadone or buprenorphine. Individualize transition and monitoring.",
     "This describes disulfiram; naltrexone does not cause a reaction with alcohol.",
     "Trying to overcome the blockade with large doses can cause fatal overdose, and tolerance is lost after stopping.",
     "Correct. Naltrexone blocks opioid receptors, so opioid analgesics may not relieve pain; clients should carry identification and tell all providers."
@@ -1788,8 +1789,8 @@
    "stem": "The nurse is visiting the home of a client with moderate Alzheimer's disease who lives with her spouse. Which safety measures should the nurse recommend? Select all that apply.",
    "takeaway": "Home safety in moderate dementia: door alarms, ID, locked medications and firearms, a disabled stove, no driving and no anticholinergic sleep aids.",
    "refs": [
-    "openstax-psych",
-    "ags-beers"
+    "v-97bf916e84",
+    "v-789b3c5ca0"
    ],
    "options": [
     "Install alarms or chimes on the doors that lead outside",
@@ -1827,13 +1828,12 @@
    "level": "Analyze",
    "type": "mcq",
    "stem": "The parent of a 15-year-old who is being discharged after a suicide attempt tells the nurse, \"We keep a handgun in a locked drawer in our bedroom.\" Which recommendation by the nurse is best?",
-   "takeaway": "After a suicide attempt, counsel families to remove firearms from the home and lock up medications.",
+   "takeaway": "During a suicide crisis, arrange temporary firearm storage that prevents access and follows local transfer/storage law; secure medications and other lethal means.",
    "refs": [
-    "openstax-psych",
-    "lifeline-988"
+    "v-5c6f3a4a35"
    ],
    "options": [
-    "\"The safest option is to store the gun outside your home for now, such as with a relative or at a secure storage site.\"",
+    "\"The safest option is to store the gun outside your home for now, with a legally permitted responsible custodian or approved secure facility under local transfer/storage requirements, where your teen cannot access it.\"",
     "\"A locked drawer is safe enough as long as your teen doesn't know where the key is.\"",
     "\"Unload the gun and keep the ammunition in the same drawer.\"",
     "\"Talk with your teen about gun safety rules before discharge.\""
@@ -1861,8 +1861,8 @@
    "stem": "A client on constant one-to-one observation for suicide risk asks to use the bathroom alone with the door closed. Which action by the nurse is best?",
    "takeaway": "Constant observation continues during toileting and hygiene; protect dignity without breaking observation.",
    "refs": [
-    "openstax-psych",
-    "tjc-npsg"
+    "v-97bf916e84",
+    "v-8523418e3b"
    ],
    "options": [
     "Allow the client to close the door and check back in 5 minutes",
@@ -1893,7 +1893,7 @@
    "stem": "The nurse needs to talk with an angry client who is standing in the client's room. Where should the nurse stand?",
    "takeaway": "With an angry client, stand at an angle at a safe distance and keep a clear exit for both of you.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Between the client and the bed, with the door closed for privacy",
@@ -1924,7 +1924,7 @@
    "stem": "A client with depression returns to the inpatient unit after a 4-hour pass with family and carries a shopping bag. Which action should the nurse take first?",
    "takeaway": "Check belongings after passes and visits so that items that could cause harm do not reach the unit.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Document that the client returned on time",
@@ -1955,7 +1955,7 @@
    "stem": "A client in an acute manic episode has slept about 2 hours in the past 3 nights, has lost 3 kg (6.6 lb), and dances in the hallway for hours. Which concern is the nurse's priority?",
    "takeaway": "In acute mania, physical safety comes first: exhaustion, poor nutrition and injury risk outrank psychosocial concerns.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Disturbed self-esteem related to grandiose thinking",
@@ -1986,7 +1986,7 @@
    "stem": "An 80-year-old client with Alzheimer's disease in a memory care unit tries to open the exit doors every afternoon. Which intervention is most appropriate?",
    "takeaway": "Manage wandering with supervised walking, safe spaces and alarms rather than restraints or sedation.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "options": [
     "Provide supervised walks in a safe, enclosed area and use door alarms",
@@ -2017,8 +2017,8 @@
    "stem": "The nurse is planning care to prevent delirium in a 79-year-old client admitted for pneumonia. Which interventions should the nurse include? Select all that apply.",
    "takeaway": "Prevent delirium in older adults with sensory aids, reorientation, day-night cues and early mobility; avoid restraints and anticholinergics.",
    "refs": [
-    "openstax-psych",
-    "openstax-medsurg"
+    "v-97bf916e84",
+    "v-c5fb05f22f"
    ],
    "options": [
     "Make sure the client wears glasses and hearing aids",
@@ -2058,8 +2058,8 @@
    "stem": "A client who voluntarily admitted herself to a psychiatric unit 4 days ago gives the nurse a written request to be discharged. Which action by the nurse is appropriate?",
    "takeaway": "A voluntary client may request discharge; notify the provider promptly so the client can be evaluated.",
    "refs": [
-    "openstax-psych",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-17727df367"
    ],
    "options": [
     "Have the client sign an against-medical-advice form and walk her out",
@@ -2070,7 +2070,7 @@
    "correct": 2,
    "rationales": [
     "The provider must be notified so the client can be evaluated for safety before discharge.",
-    "Only an authorized provider or court can begin involuntary commitment, and only if legal criteria are met.",
+    "Incorrect. A hold may be initiated only by a person authorized under applicable state law and only when legal criteria and required procedures are met; authorized roles can include designated crisis personnel or peace officers.",
     "Correct. A voluntary client may request discharge; the provider evaluates the client, and the client is released unless criteria for an involuntary hold are met.",
     "Holding a voluntary client without legal grounds can be false imprisonment."
    ],
@@ -2090,8 +2090,7 @@
    "stem": "A nursing student asks about the rights of a client who is admitted involuntarily to a psychiatric hospital. Which statements by the nurse are accurate? Select all that apply.",
    "takeaway": "Involuntary admission does not remove civil rights or legal competence; clients keep rights to counsel, refusal and privacy.",
    "refs": [
-    "openstax-psych",
-    "ana-ethics"
+    "v-973aa1a2fe"
    ],
    "options": [
     "\"The client can communicate with an attorney.\"",
@@ -2131,8 +2130,8 @@
    "stem": "The RN on an inpatient psychiatric unit is making assignments. Which task is appropriate to assign to a trained mental health technician?",
    "takeaway": "Delegate routine observation checks; keep assessment, teaching and evaluation with the RN.",
    "refs": [
-    "openstax-psych",
-    "ncsbn-delegation"
+    "v-97bf916e84",
+    "v-2448f4215e"
    ],
    "options": [
     "Evaluating whether a client in seclusion is ready to be released",
@@ -2163,8 +2162,7 @@
    "stem": "A client with bipolar disorder is admitted during a manic episode. The client has a psychiatric advance directive that names a health care agent and states a preference for one medication over another during a crisis. Which action by the nurse is appropriate?",
    "takeaway": "Psychiatric advance directives communicate a client's treatment preferences for a crisis and should be shared with the team.",
    "refs": [
-    "openstax-psych",
-    "ana-ethics"
+    "v-973aa1a2fe"
    ],
    "options": [
     "Disregard the directive because the client was ill when it was written",
@@ -2195,8 +2193,8 @@
    "stem": "A client with schizophrenia is being discharged after a 2-week hospital stay. Which action by the nurse is most likely to reduce the risk of readmission?",
    "takeaway": "Arrange timely outpatient follow-up with practical supports before psychiatric discharge to support continuity of care.",
    "refs": [
-    "openstax-psych",
-    "samhsa"
+    "v-97bf916e84",
+    "v-f0695bda5a"
    ],
    "options": [
     "Schedule an outpatient appointment within 7 days of discharge and confirm the client has transportation",
@@ -2227,8 +2225,8 @@
    "stem": "The nurse on a withdrawal management unit receives report on four clients. Which client should the nurse see first?",
    "takeaway": "Alcohol withdrawal delirium is a medical emergency and takes priority over other withdrawal syndromes.",
    "refs": [
-    "openstax-psych",
-    "samhsa"
+    "v-97bf916e84",
+    "v-f0695bda5a"
    ],
    "options": [
     "A client 2 days after stopping cocaine who has been sleeping most of the day",
@@ -2256,11 +2254,10 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "mcq",
-   "stem": "A caller who says she is the employer of a client on an inpatient substance use treatment unit asks the nurse whether the client has been admitted. The client has not signed a release of information. Which response by the nurse is correct?",
+   "stem": "A caller who says she is the employer of a client on a federally assisted inpatient substance use treatment program subject to 42 CFR Part 2 asks the nurse whether the client has been admitted. The client has not signed a release of information. Which response by the nurse is correct?",
    "takeaway": "Federal confidentiality rules for substance use disorder treatment (42 CFR Part 2) bar confirming or denying that a person is a client without written consent.",
    "refs": [
-    "openstax-psych",
-    "samhsa"
+    "v-32cc8ae0bc"
    ],
    "options": [
     "\"I can tell you the expected discharge date so you can plan the work schedule.\"",

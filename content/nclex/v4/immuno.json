@@ -36,7 +36,7 @@
    ],
    "takeaway": "N95 on: hand hygiene, cup it over nose and mouth, place both straps, mold the nosepiece, then do a user seal check every time.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -67,7 +67,7 @@
    ],
    "takeaway": "Norovirus in an incontinent client calls for contact precautions; the main route is hands and surfaces contaminated with stool or vomitus.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -98,7 +98,7 @@
    ],
    "takeaway": "Staff with fever and respiratory symptoms stay home and return only when they meet employee health criteria.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -141,8 +141,8 @@
    ],
    "takeaway": "Airborne isolation means negative pressure with the door closed and a fit-tested, seal-checked N95 for staff.",
    "refs": [
-    "cdc-isolation",
-    "cdc-tb"
+    "v-46dce47566",
+    "v-b17efb9a0b"
    ],
    "reviewed": "v4"
   },
@@ -173,7 +173,7 @@
    ],
    "takeaway": "For transport on contact precautions: contain and cover the infected site, remove used PPE, perform hand hygiene and alert the receiving area.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -212,8 +212,8 @@
    ],
    "takeaway": "Contact precautions: gown and gloves on entry, dedicated equipment, remove PPE before exiting and perform hand hygiene.",
    "refs": [
-    "cdc-isolation",
-    "cdc-handhygiene"
+    "v-46dce47566",
+    "v-6531563f37"
    ],
    "reviewed": "v4"
   },
@@ -253,7 +253,7 @@
    ],
    "takeaway": "Respiratory hygiene: masks for coughing clients, tissues with no-touch disposal, hand rub within reach and seating separation.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -278,13 +278,13 @@
    "correct": 3,
    "rationales": [
     "Hand rub before entering a room is correct practice.",
-    "Soap and water is preferred when C. difficile or another spore-forming pathogen is possible.",
+    "Appropriate. Soap and water is an acceptable method, particularly for visibly soiled hands or during a C. difficile outbreak. CDC generally prefers alcohol-based hand sanitizer for routine clinical care when hands are not visibly soiled; suspected C. difficile alone does not universally prohibit it.",
     "Rubbing until dry is correct technique.",
     "Correct. Artificial nails harbor bacteria and fungi and are not worn by staff caring for high-risk clients."
    ],
    "takeaway": "Staff caring for high-risk clients should keep natural nails short and avoid artificial nails.",
    "refs": [
-    "cdc-handhygiene"
+    "v-6531563f37"
    ],
    "reviewed": "v4"
   },
@@ -315,7 +315,7 @@
    ],
    "takeaway": "Repeated latex exposure, as in spina bifida with many surgeries and catheterizations, or in health care work, is the main risk factor for latex allergy.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -355,7 +355,7 @@
    ],
    "takeaway": "Latex allergy: label it, communicate it and keep every product near the client latex-free.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -395,7 +395,7 @@
    ],
    "takeaway": "For confirmed COVID-19 care, wear an N95 or higher respirator, eye protection, gown and gloves.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -426,7 +426,7 @@
    ],
    "takeaway": "A protective environment keeps out plants and flowers, keeps the door closed and limits contact with anyone who is ill.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -470,7 +470,7 @@
    ],
    "takeaway": "Match the route: skin and surfaces need contact, large droplets need droplet and droplet nuclei need airborne precautions.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -485,29 +485,28 @@
    "type": "order",
    "difficulty": 3,
    "level": "Analyze",
-   "stem": "A client arrives at the emergency department with a 3-week cough, night sweats and weight loss, and pulmonary tuberculosis is suspected. Place the nurse's actions in the correct order, starting with the first.",
+   "stem": "An emergency-department nurse identifies suspected infectious pulmonary TB while observing a coughing client from outside the room. The nurse will provide close care and escort the client to an available airborne infection isolation room. Order the following actions.",
    "options": [
-    "Put on a fit-tested N95 respirator before entering the room",
-    "Give the client a surgical mask to wear",
-    "Collect the prescribed sputum specimen for acid-fast bacilli",
-    "Move the client to an airborne infection isolation room and close the door"
+    "Don a fit-tested N95 or more protective respirator before approaching for close care",
+    "Provide the client a surgical mask for source control during transport",
+    "Collect the prescribed sputum specimen under airborne precautions in the isolation room",
+    "Escort the masked client to the airborne infection isolation room and close the door"
    ],
    "rationales": [
-    "Staff protect themselves with a respirator before entering for care.",
-    "Masking the client first contains respiratory particles right away, before anything else happens.",
-    "Diagnostic sputum collection follows once the client and staff are protected.",
-    "Placement in a negative-pressure room protects others in the department."
+    "First in this staged scenario: don respiratory protection before close contact or escort.",
+    "Second: mask the client for source control before transport; a surgical mask is not the staff’s airborne protection.",
+    "Fourth: collect diagnostic sputum only after source control, appropriate isolation, and staff protection are established.",
+    "Third: promptly place the client in an airborne infection isolation room and close the door; maintain precautions during evaluation."
    ],
    "correct": [
+    0,
     1,
     3,
-    0,
     2
    ],
-   "takeaway": "Suspected TB: mask the client, isolate in negative pressure, protect staff, then start the workup.",
+   "takeaway": "Suspected infectious TB: staff respiratory protection before exposure, client source control, prompt airborne isolation, then diagnostic collection under precautions.",
    "refs": [
-    "cdc-tb",
-    "cdc-isolation"
+    "v-26192c6db5"
    ],
    "reviewed": "v4"
   },
@@ -538,7 +537,7 @@
    ],
    "takeaway": "Health care workers check anti-HBs after the hepatitis B series; 10 mIU/mL or more means protected.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -569,7 +568,7 @@
    ],
    "takeaway": "Every adult should be screened for hepatitis C at least once, even without risk factors.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -600,7 +599,7 @@
    ],
    "takeaway": "Offer routine opt-out HIV testing at least once to everyone ages 13 to 64.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -640,8 +639,8 @@
    ],
    "takeaway": "Hepatitis B spreads through blood, sex and birth, not casual contact; susceptible household and sexual contacts should be tested and offered vaccination.",
    "refs": [
-    "openstax-medsurg",
-    "cdc-immunization"
+    "v-c5fb05f22f",
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -678,7 +677,7 @@
    ],
    "takeaway": "Among the vaccines on the adult schedule at age 50: a yearly injectable influenza vaccine, a Td/Tdap booster every 10 years and the two-dose recombinant zoster series.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -709,7 +708,7 @@
    ],
    "takeaway": "Adults need an influenza vaccine every year because circulating strains change and protection wanes.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -740,7 +739,7 @@
    ],
    "takeaway": "Undetectable equals untransmittable for sexual transmission, but only with ongoing ART adherence.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -780,7 +779,7 @@
    ],
    "takeaway": "Screen for latent TB in people with high exposure risk or high risk of progression, such as close contacts, congregate settings, high-prevalence countries and HIV.",
    "refs": [
-    "cdc-tb"
+    "v-b17efb9a0b"
    ],
    "reviewed": "v4"
   },
@@ -811,8 +810,8 @@
    ],
    "takeaway": "HIV PEP: start as soon as possible, within 72 hours, and complete 28 days.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -843,7 +842,7 @@
    ],
    "takeaway": "Consistent ART adherence prevents viral rebound and drug resistance.",
    "refs": [
-    "openstax-pharm"
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -874,8 +873,8 @@
    ],
    "takeaway": "Integrase inhibitors such as dolutegravir are bound by antacids and mineral supplements: separate the doses as directed.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-0383444947"
    ],
    "reviewed": "v4"
   },
@@ -906,8 +905,8 @@
    ],
    "takeaway": "Confirm a negative HLA-B*5701 screen before abacavir, and teach the client to stop it and seek care for symptoms of hypersensitivity.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-dabd71a8e5"
    ],
    "reviewed": "v4"
   },
@@ -944,8 +943,8 @@
    ],
    "takeaway": "After transplant: take immunosuppressants exactly as prescribed for life, avoid live vaccines and report fever early.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -976,8 +975,8 @@
    ],
    "takeaway": "Hydroxychloroquine requires routine eye examinations for retinal toxicity.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-28394e9f0d"
    ],
    "reviewed": "v4"
   },
@@ -1017,8 +1016,8 @@
    ],
    "takeaway": "IVIG: hydrate first, start slow and increase gradually, monitor closely with each rate change and stop for signs of anaphylaxis.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-c61800f28d"
    ],
    "reviewed": "v4"
   },
@@ -1033,7 +1032,7 @@
    "type": "mcq",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A client with HIV has a CD4 count of 160 cells/mm³ and is prescribed daily sulfamethoxazole-trimethoprim. The client asks why the antibiotic is needed when there is no infection. What is the nurse's best response?",
+   "stem": "A client with HIV has detectable HIV RNA, is not taking antiretroviral therapy, and has a CD4 count of 160 cells/mm³ and is prescribed daily sulfamethoxazole-trimethoprim. The client asks why the antibiotic is needed when there is no infection. What is the nurse's best response?",
    "options": [
     "\"It helps prevent Pneumocystis pneumonia, which is more likely when the CD4 count is below 200.\"",
     "\"It lowers your HIV viral load.\"",
@@ -1042,15 +1041,14 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Prophylaxis against Pneumocystis jirovecii pneumonia is started when the CD4 count falls below 200 cells/mm³.",
+    "Correct. This client’s CD4 of 160 with detectable HIV RNA and no ART supports primary PCP prophylaxis. Current NIH indications include CD4 <100 regardless of HIV RNA, or CD4 100–200 with detectable HIV RNA; clients not on ART or starting ART with CD4 <200 also need consideration under the guideline. TMP-SMX is preferred.",
     "Sulfamethoxazole-trimethoprim has no effect on HIV replication.",
     "There is no evidence of a urinary tract infection; the purpose is prophylaxis.",
     "The drug does not protect the kidneys and can affect kidney function."
    ],
-   "takeaway": "CD4 below 200 means risk of Pneumocystis pneumonia; sulfamethoxazole-trimethoprim is the usual prophylaxis.",
+   "takeaway": "Assess CD4, HIV RNA, and ART status together for PCP prophylaxis. CD4 <100 warrants prophylaxis regardless of viral load; at 100–200, detectable HIV RNA matters.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-9540b02e19"
    ],
    "reviewed": "v4"
   },
@@ -1081,7 +1079,7 @@
    ],
    "takeaway": "Viral load measures ART effectiveness; CD4 count shows immune status and opportunistic infection risk.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1112,7 +1110,7 @@
    ],
    "takeaway": "HIV screening starts with an antigen/antibody combination test; a reactive result is confirmed with further testing.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1127,7 +1125,7 @@
    "type": "matrix",
    "difficulty": 3,
    "level": "Analyze",
-   "stem": "The nurse is reviewing hepatitis B serology results for four clients. For each result, indicate the client's hepatitis B status.",
+   "stem": "The nurse is reviewing hepatitis B serology results for four clients. Client 3 has no documented complete vaccination series or prior vaccine response. For each result, indicate the client's hepatitis B status.",
    "rows": [
     "HBsAg positive, anti-HBc positive, anti-HBs negative",
     "HBsAg negative, anti-HBc negative, anti-HBs positive",
@@ -1148,13 +1146,12 @@
    "rationales": [
     "A positive surface antigen indicates current hepatitis B infection.",
     "Surface antibody alone, without core antibody, indicates immunity from vaccination.",
-    "All markers negative means the client has never been infected or vaccinated and should be offered the vaccine.",
+    "Susceptible in this context: all markers are negative and no complete vaccination/response is documented. Offer vaccination as indicated. Negative anti-HBs alone cannot prove never vaccinated because antibody can wane despite immune memory after a documented vaccine response.",
     "Core and surface antibodies without surface antigen indicate immunity from a past, resolved infection."
    ],
-   "takeaway": "HBsAg = infected; anti-HBs alone = vaccinated; anti-HBs plus anti-HBc = recovered; all negative = susceptible.",
+   "takeaway": "Interpret the HBV triple panel with vaccination history. All-negative markers suggest susceptibility when a completed vaccination/response is not documented; do not infer never vaccinated from serology alone.",
    "refs": [
-    "openstax-medsurg",
-    "cdc-immunization"
+    "v-92e386d097"
    ],
    "reviewed": "v4"
   },
@@ -1194,7 +1191,7 @@
    ],
    "takeaway": "In lupus, watch for proteinuria, edema, new hypertension and rising creatinine as signs of nephritis.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1233,8 +1230,8 @@
    ],
    "takeaway": "For an AFB sputum sample: rinse with water, breathe deeply, cough from deep in the chest, collect sterilely and seal.",
    "refs": [
-    "cdc-tb",
-    "openstax-fund"
+    "v-b17efb9a0b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1265,7 +1262,7 @@
    ],
    "takeaway": "Suspected infection plus tachycardia, tachypnea and new confusion is sepsis until proven otherwise.",
    "refs": [
-    "sepsis-2021"
+    "v-42e3a3a98c"
    ],
    "reviewed": "v4"
   },
@@ -1296,7 +1293,7 @@
    ],
    "takeaway": "After anaphylaxis, observe for a biphasic reaction even when symptoms resolve quickly.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1327,7 +1324,7 @@
    ],
    "takeaway": "Sun exposure is a common trigger of lupus flares; teach sun protection.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1358,7 +1355,7 @@
    ],
    "takeaway": "In advanced HIV, dry cough, fever and exertional desaturation suggest Pneumocystis pneumonia.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1398,7 +1395,7 @@
    ],
    "takeaway": "Report decreased urine output, rapid weight gain, graft tenderness or fever after kidney transplant; rejection is treatable when found early.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1416,7 +1413,7 @@
    "stem": "A client with HIV is on day 5 of IV sulfamethoxazole-trimethoprim for Pneumocystis jirovecii pneumonia. For each finding, indicate whether it shows improvement or no improvement.",
    "rows": [
     "Temperature 37.3°C (99.1°F), down from 39.0°C (102.2°F) on admission",
-    "SpO₂ 94% while walking in the hall, up from 86% on admission",
+    "SpO₂ during a comparable walk is 94%, up from 86% on admission, both measured on the same device at 2 L/min oxygen",
     "Respiratory rate 32/min with use of the neck muscles to breathe",
     "Client can now shower without stopping to rest",
     "Oxygen increased from 2 L/min to 5 L/min to keep SpO₂ at 92%"
@@ -1441,8 +1438,7 @@
    ],
    "takeaway": "In Pneumocystis pneumonia, judge response by fever, exertional oxygen saturation, work of breathing, oxygen needs and activity tolerance.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-9540b02e19"
    ],
    "reviewed": "v4"
   },
@@ -1473,8 +1469,8 @@
    ],
    "takeaway": "Active TB is reportable; public health handles contact tracing confidentially.",
    "refs": [
-    "cdc-tb",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-26192c6db5"
    ],
    "reviewed": "v4"
   },
@@ -1505,7 +1501,7 @@
    ],
    "takeaway": "Fever in a neutropenic client is a medical emergency that takes priority.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1536,8 +1532,8 @@
    ],
    "takeaway": "Only fit-tested staff enter airborne isolation rooms with an N95; reassign until fit testing is done.",
    "refs": [
-    "cdc-isolation",
-    "ncsbn-delegation"
+    "v-46dce47566",
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -1568,8 +1564,8 @@
    ],
    "takeaway": "Diagnosis is not a reason to refuse care; standard precautions prevent bloodborne transmission.",
    "refs": [
-    "ana-ethics",
-    "cdc-isolation"
+    "v-973aa1a2fe",
+    "v-57adb8386b"
    ],
    "reviewed": "v4"
   }

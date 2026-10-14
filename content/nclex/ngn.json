@@ -5,7 +5,7 @@
   "sub": "Flash pulmonary edema · Cardiac step-down",
   "clientNeed": "pa",
   "area": "Physiological Adaptation",
-  "profile": "68-year-old man with ischemic cardiomyopathy (ejection fraction 25%), admitted to the cardiac step-down unit.",
+  "profile": "68-year-old man with ischemic cardiomyopathy (ejection fraction 25%), admitted to cardiac step-down. At 06:30 he develops severe dyspnea: RR 32/min, accessory-muscle use, SpO₂ 84% on 2 L/min nasal oxygen, BP 188/104 mmHg, pink frothy sputum, crackles to the middle lung fields, and bilateral 3+ pitting leg edema. Admission potassium 4.1 mEq/L. Conventional troponin-I assay result 0.02 ng/mL; laboratory upper reference limit 0.04 ng/mL. This initial result does not exclude evolving acute coronary syndrome; ECG and serial testing are arranged. The provider has prescribed furosemide 40 mg IV and escalation of oxygen/noninvasive support under the acute pulmonary-edema protocol.",
   "ehr": {
    "Notes": [
     [
@@ -83,14 +83,14 @@
      "d",
      "e"
     ],
-    "rationale": "Pink frothy sputum, crackles rising to the middle lung fields, hypoxemia and tachypnea show fluid filling the alveoli. Severe hypertension raises afterload and drives this \"flash\" pulmonary edema, so it also needs treatment now. The temperature, troponin and potassium are within normal limits.",
+    "rationale": "Pink frothy sputum, expanding crackles, severe hypoxemia, tachypnea and marked hypertension require immediate respiratory/hemodynamic assessment and treatment. The temperature and potassium are within the displayed ranges. Troponin 0.02 is below this laboratory’s stated cutoff, but a single early value does not exclude myocardial injury; interpret it with ECG, symptoms and serial results.",
     "stepLabel": "Recognize Cues"
    },
    {
     "id": "h2",
     "step": "analyzeCues",
     "kind": "single",
-    "stem": "What is causing the client's pink, frothy sputum and low oxygen saturation?",
+    "stem": "Which mechanism most directly explains the pink frothy sputum and hypoxemia in this clinical presentation?",
     "options": [
      [
       "a",
@@ -110,7 +110,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "A failing left ventricle cannot empty. Pressure backs up into the pulmonary capillaries until fluid and red cells leak into the alveoli, which causes the pink froth and blocks oxygen exchange. No fever points away from pneumonia, a normal troponin argues against a new MI, and crackles with frothy sputum do not fit a PE.",
+    "rationale": "High left-sided filling pressure increases pulmonary capillary hydrostatic pressure and moves fluid into the interstitium/alveoli, impairing gas exchange. This pattern is most consistent with cardiogenic pulmonary edema. Pneumonia, myocardial infarction or pulmonary embolism can coexist or precipitate deterioration; lack of fever and a single below-cutoff troponin do not rule them out.",
     "stepLabel": "Analyze Cues"
    },
    {
@@ -182,7 +182,7 @@
       "Non-essential"
      ]
     ],
-    "rationale": "Diuresis and better oxygen support treat the cause and the hypoxemia. A fluid bolus adds volume to lungs that are already flooded. Lying flat with legs up increases venous return and worsens the edema. Daily weight matters for tracking, but standing a hypoxic client on a scale now is unsafe and can wait.",
+    "rationale": "Give the prescribed diuretic and escalate respiratory support for the displayed hypoxemia, with continuous monitoring. A routine crystalloid bolus and flat positioning can worsen pulmonary congestion in this hypertensive, fluid-overloaded client. Standing the severely hypoxemic client for a weight is unsafe right now; obtain a bed weight when feasible after stabilization. Essential weights do not take priority over rescue.",
     "stepLabel": "Generate Solutions"
    },
    {
@@ -257,6 +257,10 @@
     "rationale": "Breathing, oxygenation, lung sounds and blood pressure show a good response. Peripheral edema clears more slowly than lung fluid. The new low potassium is a common side effect of loop diuretics and raises the risk of dysrhythmias, so report it and expect replacement.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-2474126b10",
+   "v-9163294c36"
   ]
  },
  {
@@ -265,7 +269,7 @@
   "sub": "Catheter-associated urinary infection · Emergency department",
   "clientNeed": "pa",
   "area": "Physiological Adaptation",
-  "profile": "74-year-old woman sent from a skilled nursing facility with an indwelling urinary catheter and new confusion.",
+  "profile": "74-year-old woman,60 kg, transferred from skilled nursing with an indwelling urinary catheter, fever and new confusion. At 09:00 she responds only to painful stimuli; MAP 54 mmHg, temperature 39.2°C, lactate 4.2 mmol/L, capillary refill 4 seconds, warm/flushed skin and cloudy urine. Baseline creatinine 0.9 mg/dL; admission creatinine 1.7 mg/dL. Admission platelets 110,000/µL and WBC 19,600/µL. Urine output 10 mL in the preceding hour. Suspected catheter-associated infection is being evaluated. Emergency orders include prompt broad-spectrum IV antibiotics, blood cultures without delaying treatment, reassessed crystalloid resuscitation and norepinephrine titration to a prescribed MAP goal 65 mmHg. The team reassesses respiratory status, perfusion and fluid responsiveness throughout.",
   "ehr": {
    "Notes": [
     [
@@ -420,14 +424,14 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Hypotension (MAP 54), a lactate of 4.2 and new organ dysfunction (confusion, creatinine nearly double baseline) show sepsis with hypoperfusion that is progressing to septic shock, which carries the highest risk of death. Confusion here comes from poor brain perfusion, not from a new environment.",
+    "rationale": "Suspected infection, profound hypotension, elevated lactate and acute mental-status/renal changes require immediate resuscitation. Suspected sepsis with shock is the immediate working problem; formal septic-shock criteria include persistent vasopressor need and lactate elevation despite adequate volume resuscitation. Do not wait for diagnostic labels to support breathing/circulation and give timely prescribed treatment.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
     "id": "s4",
     "step": "generateSolutions",
     "kind": "order",
-    "stem": "The 30 mL/kg lactated Ringer's bolus has been started. Put the remaining hour-1 actions in order. Tap each in sequence; tap again to undo.",
+    "stem": "Initial crystalloid resuscitation has started and MAP remains 54 mmHg. For each action, mark whether it is indicated now. The emergency team can perform actions concurrently.",
     "steps": [
      [
       "o1",
@@ -447,14 +451,14 @@
      "o2",
      "o4"
     ],
-    "rationale": "The Surviving Sepsis hour-1 bundle: measure lactate (already done), start 30 mL/kg crystalloid for hypotension or lactate ≥ 4 (running now), draw blood cultures before antibiotics so the organism can still be identified, give broad-spectrum antibiotics without delay, and add a vasopressor if MAP stays under 65 after the fluid challenge.",
+    "rationale": "Profound hypotension may require vasopressors concurrently with fluids under the prescribed protocol. Obtain cultures as soon as feasible, ideally before antibiotics, without delaying time-sensitive treatment. Give antibiotics immediately, ideally within 1 hour in suspected septic shock. Do not delay norepinephrine solely for bolus completion or a central catheter; use an appropriate monitored peripheral site when ordered and reassess fluid benefit and adverse effects.",
     "stepLabel": "Generate Solutions"
    },
    {
     "id": "s5",
     "step": "takeAction",
     "kind": "single",
-    "stem": "The ordered 30 mL/kg (1,800 mL) of lactated Ringer's has infused. BP is now 82/46 mm Hg (MAP 58). Which action is the priority?",
+    "stem": "The ordered 30 mL/kg (1,800 mL) of lactated Ringer’s has infused. Norepinephrine was started during resuscitation and BP is now 82/46 mmHg (MAP 58). Which action is the priority?",
     "options": [
      [
       "a",
@@ -474,7 +478,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "The client has had the full fluid challenge and is still hypotensive, which is septic shock that needs a vasopressor. Norepinephrine is first-line; it is given through a central line when possible (a large, well-placed peripheral IV is acceptable for a short time, checked often for extravasation). More fluid without reassessment risks fluid overload, and waiting delays perfusion.",
+    "rationale": "Despite initial fluids and norepinephrine, perfusion pressure remains below the prescribed goal. Titrate the existing norepinephrine infusion per the order while monitoring perfusion, the IV site and fluid responsiveness. Additional fluids require reassessment; do not defer hemodynamic support for antipyretics or prolonged observation.",
     "stepLabel": "Take Action"
    },
    {
@@ -519,9 +523,12 @@
       "No change"
      ]
     ],
-    "rationale": "Lactate clearance, urine output above 0.5 mL/kg/h, a MAP at goal and better responsiveness show that tissue perfusion is improving. Falling platelets can signal developing coagulopathy (DIC), so report them. White cells take days to fall once antibiotics start.",
+    "rationale": "Compare findings with the displayed 09:00 baseline. Lactate has fallen, urine output has increased from 10 to 35 mL/h, MAP has reached the prescribed goal and responsiveness has improved. Platelets have fallen from 110,000 to 82,000/µL and require assessment for coagulopathy and other causes; this finding alone does not diagnose DIC. WBC 19,600/µL is unchanged and remains abnormal; assess the overall response rather than expecting immediate normalization.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-76951d8e37"
   ]
  },
  {
@@ -530,7 +537,7 @@
   "sub": "After tibial fracture surgery · Orthopedic unit",
   "clientNeed": "rrp",
   "area": "Reduction of Risk Potential",
-  "profile": "24-year-old man, 14 hours after open reduction and internal fixation (ORIF) of a closed right tibial shaft fracture.",
+  "profile": "24-year-old man,14 hours after ORIF of a closed right tibial shaft fracture. A circumferential dressing is tight over the swollen calf. Pain is 10/10 despite prescribed opioid therapy, with pain on passive toe extension, a tense calf and new tingling in the first web space. Right dorsalis-pedis pulse 1+; left 2+. The right foot remains warm. CK 1,150 U/L; temperature 37.2°C. Immediate orthopedic evaluation is requested; the team suspects acute compartment syndrome.",
   "ehr": {
    "Notes": [
     [
@@ -607,7 +614,7 @@
      "c",
      "d"
     ],
-    "rationale": "Pain out of proportion to the injury, pain on passive stretch, a tense compartment and new paresthesia are the earliest signs. The deep peroneal nerve supplies the first web space, so tingling there is an early nerve warning. A warm foot and a palpable pulse are often still present early and do not rule it out; a pulse weaker than the other side (+1 vs. +2) is a late sign. Report it, but it is not an early warning. A mildly raised CK is expected after bone surgery.",
+    "rationale": "Pain out of proportion, pain with passive stretch, a tense compartment and new paresthesia are concerning early compartment-syndrome cues. Pulses and warmth may remain present despite compromised capillary perfusion; neither excludes the condition. A weaker pulse still requires urgent reporting, but learners must not wait for pulse loss. CK is elevated and nonspecific after muscle injury/surgery; it does not provide reassurance or establish the diagnosis by itself.",
     "stepLabel": "Recognize Cues"
    },
    {
@@ -661,7 +668,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Within 4 to 6 hours, ischemia from high compartment pressure can cause permanent muscle and nerve damage, contracture or limb loss, and can trigger rhabdomyolysis. DVT does not cause pain on passive toe stretch with paresthesia. Fat embolism presents with breathing problems, confusion and petechiae. Infection usually appears later.",
+    "rationale": "Sustained compartment pressure reduces muscle/nerve perfusion and can cause irreversible damage within hours. The rate of injury varies with pressure and perfusion; do not wait for a fixed 4–6 hour deadline. Urgent specialist assessment and decompression when indicated are needed. DVT, fat embolism and infection have different usual patterns and remain part of assessment rather than absolute exclusions based on one finding.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
@@ -705,7 +712,7 @@
       "Contraindicated"
      ]
     ],
-    "rationale": "Raising the leg above the heart lowers arterial pressure into a compartment that is already squeezed, and ice constricts vessels. Both reduce blood flow and should be stopped even though they were ordered after surgery. Release anything tight, call the surgeon now, and keep the client NPO for an emergency fasciotomy. Medicating and waiting delays a time-critical diagnosis.",
+    "rationale": "Maintain the limb at heart level, avoid high elevation or ice when arterial perfusion is threatened, and release external constriction within the nurse’s role/protocol while obtaining immediate surgical assessment. Keep NPO for possible urgent surgery. Provide prescribed analgesia while continuing assessment; an additional dose followed by a one-hour delay is inappropriate. Do not delay surgical escalation to attempt comfort measures.",
     "stepLabel": "Generate Solutions"
    },
    {
@@ -775,6 +782,10 @@
     "rationale": "Returning sensation, soft compartments, controlled pain and a stronger pulse confirm the decompression worked. Tea-colored urine with a very high CK signals rhabdomyolysis from damaged muscle. Report it and expect aggressive IV fluids and close monitoring of kidney function and potassium.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-0bbfab003d",
+   "v-c5fb05f22f"
   ]
  },
  {
@@ -783,7 +794,7 @@
   "sub": "Post-op day 2, sigmoid colectomy · Surgical unit",
   "clientNeed": "pa",
   "area": "Physiological Adaptation",
-  "profile": "72-year-old client on post-op day 2 after a sigmoid colectomy.",
+  "profile": "72-year-old client,70 kg, postoperative day 2 after sigmoid colectomy. At 08:00: temperature 38.9°C, HR 118/min, BP 88/50 mmHg, lactate 4.1 mmol/L, urine 90 mL over 6 hours, and new confusion with orientation to self only. Baseline creatinine 0.9 mg/dL; current 1.7 mg/dL. Sodium 139 mEq/L, pain 3/10 and initial lungs clear. The surgical team is urgently evaluating a possible postoperative intra-abdominal infection, including anastomotic leak; the source is not yet established. Prescriptions call for prompt cultures and antibiotics, reassessed isotonic crystalloid resuscitation and vasopressors when indicated.",
   "ehr": {
    "Notes": [
     [
@@ -819,7 +830,7 @@
     "id": "n1",
     "step": "recognizeCues",
     "kind": "multi",
-    "stem": "Select all findings that require immediate follow-up.",
+    "stem": "Which findings require immediate follow-up? Select all that apply.",
     "options": [
      [
       "a",
@@ -902,7 +913,7 @@
       "answer": "acute kidney injury"
      }
     ],
-    "rationale": "Lactate ≥ 4 mmol/L or hypotension define sepsis with hypoperfusion and trigger the full fluid bolus. Creatinine near double baseline with oliguria points to AKI from poor perfusion. Anastomotic leak is a likely source after colectomy.",
+    "rationale": "The displayed suspected infection plus hypotension, elevated lactate, acute mental-status change and rising creatinine/oliguria supports suspected sepsis with hypoperfusion and AKI. Lactate or hypotension alone does not diagnose sepsis. Investigate the postoperative infection source urgently, including a possible leak, while also evaluating other causes of shock. Fluids are reassessed and individualized rather than given mechanically based on one laboratory cutoff.",
     "stepLabel": "Analyze Cues"
    },
    {
@@ -929,7 +940,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Persistent hypotension needing vasopressors after fluids defines septic shock, with the highest short-term mortality. The others are real post-op risks but not the most immediate threat.",
+    "rationale": "The client is at immediate risk of septic shock. The formal definition includes vasopressor need to maintain MAP 65 mmHg or greater and lactate above 2 mmol/L despite adequate volume resuscitation. Current deterioration requires treatment before all criteria are confirmed. Other postoperative complications remain possible but do not remove the need for urgent shock evaluation.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
@@ -973,14 +984,14 @@
       "Not indicated"
      ]
     ],
-    "rationale": "These follow the Surviving Sepsis hour-1 bundle. Diuretics in a hypoperfused client worsen the kidney injury. Age alone is not a reason to withhold resuscitation, though lungs are reassessed after each bolus.",
+    "rationale": "Prompt antibiotics, cultures when feasible without delay, reassessed crystalloid and ongoing perfusion evaluation are appropriate. SSC 2026 suggests at least 30 mL/kg in the first 3 hours for sepsis-induced hypoperfusion/septic shock, with individual assessment and repeated reassessment; vasopressors may start concurrently in profound instability. Low output alone does not justify a diuretic in hypoperfusion. Age alone does not prohibit fluids, but new congestion requires reassessment.",
     "stepLabel": "Generate Solutions"
    },
    {
     "id": "n5",
     "step": "takeAction",
     "kind": "multi",
-    "stem": "Select all actions the nurse should take now.",
+    "stem": "Which actions should the nurse take now? Select all that apply.",
     "options": [
      [
       "a",
@@ -1013,7 +1024,7 @@
      "c",
      "d"
     ],
-    "rationale": "Escalate now, follow the bundle order (cultures, then antibiotics), resuscitate, and watch closely. Ambulating a hypotensive, confused client risks a fall; treating the fever and waiting delays sepsis care.",
+    "rationale": "Activate immediate provider/rapid-response evaluation, obtain cultures promptly without delaying antibiotics, begin prescribed reassessed resuscitation and monitor frequently according to acuity. The team can perform these actions concurrently. Ambulation with shock/confusion risks injury; treating fever and waiting 4 hours delays essential rescue.",
     "stepLabel": "Take Action"
    },
    {
@@ -1056,6 +1067,9 @@
     "rationale": "Perfusion markers are improving. New crackles with falling SpO₂ suggest fluid overload: report it, slow fluids per order, and expect vasopressors if MAP falls. Mental status has not yet improved.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-76951d8e37"
   ]
  },
  {
@@ -1064,7 +1078,7 @@
   "sub": "Missed insulin doses · Emergency department",
   "clientNeed": "pharm",
   "area": "Pharmacological & Parenteral Therapies",
-  "profile": "19-year-old woman with type 1 diabetes, brought to the emergency department after 2 days of vomiting. She ran out of insulin 3 days ago.",
+  "profile": "19-year-old woman with type 1 diabetes,65 kg, brought to the emergency department after 2 days of vomiting; she ran out of insulin 3 days ago. At 10:00 she is dehydrated with deep rapid breathing, drowsiness (arouses to voice and is oriented to person/place but not date), and abdominal pain 6/10: glucose 486 mg/dL, potassium 5.4 mEq/L, venous pH 7.14, bicarbonate 9 mEq/L, beta-hydroxybutyrate 6.2 mmol/L and anion gap 26. Cardiac monitoring and frequent glucose/electrolyte/ketone reassessment are ordered. Urine output and renal function are assessed before potassium replacement; there is no known heart or kidney failure.",
   "ehr": {
    "Notes": [
     [
@@ -1322,7 +1336,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Glucose falls faster than ketones clear. Adding dextrose when glucose drops below 250 mg/dL lets the insulin keep running (the rate may be lowered per protocol) until the acidosis resolves, without causing hypoglycemia. Stopping insulin now would let ketones build up again. The switch to subcutaneous insulin waits until DKA has resolved and the client can eat, with the IV and subcutaneous doses overlapping by 1 to 2 hours. 50% dextrose is a treatment for hypoglycemia, which she does not have.",
+    "rationale": "At glucose below 250 mg/dL, add 5–10% dextrose to the prescribed fluid so insulin can continue clearing ketones without producing hypoglycemia; reduce the infusion rate as ordered by the protocol. Select fluid tonicity and potassium replacement using sodium/osmolality, volume status, renal function and serial potassium rather than automatically requiring 0.45% saline. The displayed acidosis is unresolved. Transition to subcutaneous treatment requires resolution and appropriate overlap;50% dextrose bolus is not indicated by glucose 244.",
     "stepLabel": "Take Action"
    },
    {
@@ -1423,6 +1437,9 @@
     "rationale": "The pH, bicarbonate, anion gap and ketones are all moving toward normal, and her mental status and pain have improved. DKA is not resolved until ketones are below 0.6 mmol/L (with venous pH 7.3 or higher or bicarbonate 18 mEq/L or higher), so insulin is still needed. Potassium has dropped below 3.5 mEq/L because insulin keeps moving it into the cells. Follow the order: hold the insulin infusion, notify the provider and expect faster potassium replacement. Insulin restarts once potassium is back above 3.5 mEq/L, because ketones must still be cleared.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-62434f88d7"
   ]
  },
  {
@@ -1431,7 +1448,7 @@
   "sub": "Uterine atony after vaginal birth · Labor and delivery",
   "clientNeed": "rrp",
   "area": "Reduction of Risk Potential",
-  "profile": "34-year-old, G4 P4, 45 minutes after the vaginal birth of a 4.3 kg (9 lb 8 oz) newborn after 22 hours of labor augmented with oxytocin. History of mild intermittent asthma.",
+  "profile": "34-year-old, G4P4,45 minutes after vaginal birth of a 4.3 kg newborn following 22 hours of labor augmented with oxytocin. History of mild intermittent asthma; no hypertension or preeclampsia. Admission hemoglobin 11.8 g/dL, platelets 210,000/µL and fibrinogen 400 mg/dL. Delivery note documents an apparently complete placenta; this does not completely exclude retained tissue. Flow sheet:15 minutes after birth HR 88, BP 118/72 mmHg, QBL 400 mL;30 minutes HR 108, BP 106/66, QBL 750 mL;45 minutes HR 122, BP 96/58, QBL 1,100 mL, boggy fundus 2 cm above the umbilicus, pad soaked in 10 minutes, dizziness/pale clammy skin. Temperature 37.6°C and SpO₂ 97% on room air. The obstetric hemorrhage team and medication protocol are available.",
   "ehr": {
    "Notes": [
     [
@@ -1553,7 +1570,7 @@
      "d",
      "e"
     ],
-    "rationale": "A boggy, high fundus and a pad soaked in minutes show active bleeding. Blood loss of 1,000 mL or more, a heart rate climbing every 15 minutes, a falling BP and dizziness with clammy skin show hypovolemia. A shock index (HR ÷ systolic BP) of 1.27 is well above the warning level of 0.9. A temperature up to 38 °C (100.4 °F) is common in the first 24 hours after birth, the SpO₂ is normal, and the admission platelet count is normal.",
+    "rationale": "The visible trend shows rapid ongoing blood loss, uterine bogginess, tachycardia, falling blood pressure and hypovolemic symptoms requiring immediate coordinated treatment. QBL 1,100 mL with clinical signs meets the hemorrhage definition. HR 122 divided by systolicBP 96 is 1.27, supporting concern in context; the shock index does not replace assessment. Temperature 37.6°C, displayed oxygenation and the admission platelet count do not independently indicate this acute deterioration.",
     "stepLabel": "Recognize Cues"
    },
    {
@@ -1580,7 +1597,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Atony causes most postpartum hemorrhages. A soft, boggy uterus cannot squeeze the open blood vessels at the placental site closed. A large baby and a long labor with oxytocin both overstretch and tire the uterus. The placenta was delivered intact. Bleeding from a laceration continues while the fundus is firm. The platelet count and fibrinogen were normal.",
+    "rationale": "Atony is most likely because the uterus is boggy and cannot adequately compress vessels at the placental site. Prolonged augmented labor and a large newborn increase atony risk. The apparently complete placenta and normal admission clotting findings make alternative causes less apparent but do not exclude retained tissue, laceration or evolving coagulopathy; the hemorrhage team assesses all causes while treating atony.",
     "stepLabel": "Analyze Cues"
    },
    {
@@ -1627,7 +1644,7 @@
     "id": "p4",
     "step": "generateSolutions",
     "kind": "matrix",
-    "stem": "The provider is on the way. For each medication in the hemorrhage protocol, mark whether it is indicated or contraindicated for this client.",
+    "stem": "Bleeding persists despite fundal massage and first-line oxytocin. For each additional medication, indicate whether it is appropriate under the obstetric hemorrhage protocol for this client, who has asthma and no hypertension or preeclampsia.",
     "cols": [
      "Indicated",
      "Contraindicated"
@@ -1664,14 +1681,14 @@
       "Contraindicated"
      ]
     ],
-    "rationale": "Oxytocin is first-line. Methylergonovine is avoided in hypertension and preeclampsia, but her BP is low, so it is safe. Carboprost can cause severe bronchospasm and is contraindicated with asthma. Tranexamic acid is added to uterotonics once a hemorrhage is diagnosed and works only when given within 3 hours of birth; she is 45 minutes postpartum. Misoprostol has no contraindication here. Undiluted oxytocin given by fast IV push can cause sudden hypotension and dysrhythmias, so it is given as an infusion or IM.",
+    "rationale": "Oxytocin infusion is first-line uterotonic therapy under the protocol. Methylergonovine 0.2 mg IM may be prescribed when hypertension/preeclampsia and other contraindications are absent; reassess rather than declaring any drug universally safe because blood pressure is low. Avoid carboprost in this client with asthma because of bronchospasm risk. Give prescribed TXA 1 g IV over 10 minutes promptly and within 3 hours of birth; the time limit is an evidence-based treatment recommendation, not a claim that the drug has no effect thereafter. Misoprostol has a specified protocol dose/route. Do not give the 10-unit undiluted rapid IV oxytocin bolus in this unstable client.",
     "stepLabel": "Generate Solutions"
    },
    {
     "id": "p5",
     "step": "takeAction",
     "kind": "multi",
-    "stem": "The provider has been paged. Select all actions the nurse should take now.",
+    "stem": "The provider has been paged. Which actions should the nurse take now? Select all that apply.",
     "options": [
      [
       "a",
@@ -1720,7 +1737,7 @@
     "id": "p6",
     "step": "evaluateOutcomes",
     "kind": "matrix",
-    "stem": "Forty-five minutes after treatment: for each finding, mark whether the client has improved, not changed, or declined.",
+    "stem": "Forty-five minutes after treatment, classify the trend of each individual finding as improved, unchanged or declined. A decreased hemoglobin value does not by itself prove ongoing bleeding.",
     "cols": [
      "Improved",
      "No change",
@@ -1761,6 +1778,10 @@
     "rationale": "A firm fundus, small pad weights and better vital signs show the bleeding is controlled. Oxygenation was normal before and is still normal. The hemoglobin drop is expected after this much blood loss and often falls further as fluids are given. Report it so the provider can decide about transfusion and iron, and keep assessing the fundus and bleeding.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-cc2b8eb897",
+   "v-1b4b4f4e73"
   ]
  },
  {
@@ -1769,7 +1790,7 @@
   "sub": "6-year-old child · Pediatric emergency department",
   "clientNeed": "pa",
   "area": "Physiological Adaptation",
-  "profile": "6-year-old boy (22 kg) with persistent asthma, brought by his father after 2 days of cold symptoms and 1 day of worsening cough and wheezing. He has used his albuterol inhaler 6 times since midnight.",
+  "profile": "6-year-old boy,22 kg, with persistent asthma, cold symptoms for 2 days and worsening wheeze/cough. He used albuterol 6 times since midnight; his inhaled controller ran out last month. At 09:00 he leans forward, speaks 2–3 words at a time, has marked retractions/nasal flaring, RR 44/min, SpO₂ 89% on room air and diffuse wheeze with diminished basal air entry. BP 104/64 mmHg, temperature 37.8°C. The pediatric team initiates the acute asthma protocol with supplemental oxygen titrated to a prescribed target 92–95%, bronchodilators and systemic corticosteroid. Venous gas at 09:00:pH 7.39, PCO₂ 39 mmHg.",
   "ehr": {
    "Notes": [
     [
@@ -1991,7 +2012,7 @@
     "id": "a4",
     "step": "generateSolutions",
     "kind": "matrix",
-    "stem": "At 09:10, after three albuterol–ipratropium treatments and oral dexamethasone, he still has severe retractions and an SpO₂ of 91% on 2 L. For each possible order, mark whether it is indicated or not indicated.",
+    "stem": "At 09:45, after three albuterol–ipratropium treatments and oral dexamethasone, he still has severe retractions and an SpO₂ of 91% on 2 L. For each possible order, mark whether it is indicated or not indicated.",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -2028,14 +2049,14 @@
       "Not indicated"
      ]
     ],
-    "rationale": "When the first hour of treatment fails, IV magnesium relaxes bronchial smooth muscle, continuous albuterol keeps the airways open, and oxygen is raised to the target range. Chest physiotherapy and mucolytics do not help in an acute attack and can trigger more bronchospasm. Agitation in a hypoxic child is a sign of poor oxygenation; sedation can suppress breathing and lead to respiratory arrest.",
+    "rationale": "Persistent severe distress after initial treatment warrants escalation under the pediatric protocol, including IV magnesium, continuous albuterol and oxygen titration. The prescribed 92–95% target follows GINA 2026 for this age; other U.S. pathways may use different targets, so follow the applicable order/pathway rather than treating one range as universal. Magnesium 50 mg/kg is 1,100 mg for 22 kg, below the pathway maximum 2 g. Percussion, routine mucolytics and lorazepam do not treat this severe exacerbation and can worsen ventilation or bronchospasm.",
     "stepLabel": "Generate Solutions"
    },
    {
     "id": "a5",
     "step": "takeAction",
     "kind": "single",
-    "stem": "Magnesium was given at 09:15 and continuous albuterol is running. A venous blood gas at 10:00 shows pH 7.24 and PCO₂ 58 mm Hg. Review the trend. Which action should the nurse take first?",
+    "stem": "Magnesium was infused from 09:50 to 10:10 and continuous albuterol is running. At 10:30 he is drowsy, has barely audible air entry, RR 22/min despite persistent retractions, and SpO₂ 88% despite increased oxygen support. Venous pH is 7.24 and PCO₂ 58 mmHg, compared with 7.39/39 at 09:00. Which action should the nurse take first? Potassium at 10:30 is 4.1 mEq/L.",
     "table": {
      "cols": [
       "Time",
@@ -2099,7 +2120,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "A falling respiratory rate, a silent chest, worsening SpO₂ on more oxygen, drowsiness and a rising PCO₂ with acidosis show that the child is tiring and heading into respiratory failure. He needs immediate help with ventilation and the team for advanced airway support. The wheeze is gone because air is not moving, not because he is better. Drowsiness here comes from CO₂ retention, and waiting an hour could lead to arrest.",
+    "rationale": "Drowsiness, reduced air entry, worsening oxygenation and a rising carbon-dioxide level with acidosis indicate ventilatory failure and fatigue. A lower respiratory rate in this deteriorating context is not recovery. Call the resuscitation/provider team immediately and support ventilation/oxygenation, with experienced pediatric airway care. Repeat testing or routine observation must not delay rescue.",
     "stepLabel": "Take Action"
    },
    {
@@ -2147,6 +2168,10 @@
     "rationale": "Better alertness, full sentences, a slower respiratory rate, less retraction and good SpO₂ on less oxygen show recovery. Hearing wheezes again after a silent chest means air is moving through the airways again, which is improvement. Frequent or continuous albuterol shifts potassium into the cells, so hypokalemia is a known side effect. Report it and expect replacement and cardiac monitoring.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-d2cbfd756b",
+   "v-2de4fa534f"
   ]
  },
  {
@@ -2155,7 +2180,7 @@
   "sub": "Thrombolysis window · Emergency department",
   "clientNeed": "moc",
   "area": "Management of Care",
-  "profile": "71-year-old man with hypertension and type 2 diabetes, brought by EMS at 10:20. His wife last saw him normal at 08:50 and found him at 09:30 slumped in his chair, unable to speak clearly. He takes no anticoagulants.",
+  "profile": "71-year-old man,80 kg, with hypertension and type 2 diabetes, brought by EMS at 10:20. Last known well 08:50; found 09:30 with right-sided weakness and aphasia. No anticoagulants. Initial BP 196/112 mmHg, irregularly irregular pulse 108/min, glucose 142 mg/dL, SpO₂ 95% on room air, temperature 36.9°C and NIHSS 10. The stroke team is activated and is arranging noncontrast head CT, CTA and urgent reperfusion-eligibility assessment.",
   "ehr": {
    "Notes": [
     [
@@ -2244,7 +2269,7 @@
     "id": "t2",
     "step": "analyzeCues",
     "kind": "cloze",
-    "stem": "Complete the sentences.",
+    "stem": "For this item, the team is evaluating the standard 4.5-hour IV-thrombolysis window measured from last known well. Complete the sentences.",
     "blanks": [
      {
       "id": "b1",
@@ -2277,14 +2302,14 @@
       "answer": "13:20"
      }
     ],
-    "rationale": "Motor pathways cross, so a left-hemisphere stroke weakens the right side, and the language centers are in the left hemisphere in most people. The eyes look toward the side of the lesion. When onset is not witnessed, the clock starts at the last time the client was seen normal, not when symptoms were found or when he arrived: 08:50 plus 4.5 hours is 13:20.",
+    "rationale": "The deficits support a left-hemisphere process, with language laterality assessed individually. Last known well 08:50 plus 4.5 hours is 13:20 for the standard window. Selected clients may qualify for additional imaging-based pathways; the calculation is not a universal prohibition on all treatment after that time. Eligibility and treatment proceed urgently, including evaluation for thrombectomy.",
     "stepLabel": "Analyze Cues"
    },
    {
     "id": "t3",
     "step": "prioritizeHypotheses",
     "kind": "single",
-    "stem": "The CT shows no bleeding. Which finding must be corrected before a thrombolytic can be given?",
+    "stem": "At 10:35 the noncontrast head CT shows no hemorrhage, and BP remains 196/112 mmHg. Which finding must be corrected before the prescribed IV thrombolytic can be given?",
     "options": [
      [
       "a",
@@ -2304,14 +2329,14 @@
      ]
     ],
     "answer": "a",
-    "rationale": "BP must be below 185/110 mm Hg before thrombolysis and kept below 180/105 mm Hg for 24 hours afterward, because high pressure raises the risk of bleeding into the brain. Atrial fibrillation is not a contraindication. Only a glucose below 50 mg/dL must be corrected first. There is no upper age limit for thrombolysis.",
+    "rationale": "BP 196/112 exceeds the pre-thrombolysis limit and must be brought below 185/110 mmHg under the stroke protocol; maintain below 180/105 mmHg during the next 24 hours. Glucose 142 is not hypoglycemia. Identify and treat hypoglycemia promptly when present; do not use an unnecessary universal 50 mg/dL cutoff in this item. Atrial fibrillation and age 71 alone do not exclude eligible IV thrombolysis.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
     "id": "t4",
     "step": "generateSolutions",
     "kind": "bowtie",
-    "stem": "Complete the diagram: the condition the client is most likely experiencing, 2 actions the nurse should take, and 2 parameters the nurse should monitor.",
+    "stem": "At 10:40 CTA shows a leftM 1 occlusion. The stroke team confirms eligibility for standard-window IV thrombolysis and activates thrombectomy evaluation. BP is 196/112 mmHg. IV labetalol and tenecteplase 0.25 mg/kg (20 mg for this 80 kg client; maximum 25 mg) are prescribed, with tenecteplase administered once BP is below 185/110 mmHg. Complete the diagram: select the condition, two actions and two monitoring parameters.",
     "condition": {
      "opts": [
       [
@@ -2389,14 +2414,14 @@
       "m2"
      ]
     },
-    "rationale": "The CT shows no blood, the glucose is normal and the deficits are still present, while the CT angiogram shows a blocked M1 artery: an ischemic stroke from a large-vessel occlusion, not a TIA. Lowering the BP just enough makes him eligible, and tenecteplase 0.25 mg/kg (maximum 25 mg) is an accepted choice for IV thrombolysis. Because an M1 occlusion is a large-vessel occlusion, he should also go on to thrombectomy without waiting to see whether the thrombolytic works. Aspirin and heparin are not given within 24 hours of thrombolysis, and he is NPO until a swallow screen. Dropping the BP to normal reduces blood flow to the brain tissue that can still be saved. Neuro checks and BP are the key checks for bleeding and worsening stroke.",
+    "rationale": "The displayed CTA documents leftM 1 occlusion and CT excludes hemorrhage, supporting acute ischemic stroke with large-vessel occlusion. Give the prescribed BP treatment and eligible tenecteplase dose without delaying thrombectomy evaluation. Avoid rapid normalization to 120/80 because of perfusion risk. Avoid immediate oral aspirin/heparin in the post-thrombolysis period; keep NPO until swallowing is screened. Monitor neurologic status and BP closely for deterioration.",
     "stepLabel": "Generate Solutions"
    },
    {
     "id": "t5",
     "step": "takeAction",
     "kind": "multi",
-    "stem": "Tenecteplase 20 mg IV was given at 11:00, and the client is waiting in the emergency department for the thrombectomy team. Review the flow sheet. At 12:00 the client reports a severe headache and has vomited once. Select all actions the nurse should take now.",
+    "stem": "BP was 178/100 mmHg before the prescribed tenecteplase 20 mg bolus at 11:00 and the thrombectomy team has been activated. At 12:00 the client develops severe headache and vomiting; BP rises to 192/110 mmHg and NIHSS worsens from 10 to 16. Which actions should the nurse take now? Select all that apply.",
     "table": {
      "cols": [
       "Time",
@@ -2486,7 +2511,7 @@
      "c",
      "d"
     ],
-    "rationale": "A new severe headache, vomiting, a BP surge and an NIHSS that jumps from 10 to 16 after thrombolysis mean brain hemorrhage until a CT proves otherwise. Notify the provider, get an emergency CT, send the labs needed to reverse a bleed, and bring the BP back under 180/105. Aspirin adds bleeding risk and is not given within 24 hours of thrombolysis. Neuro checks are due every 15 minutes in the first 2 hours, and any decline needs action now, not in 1 hour.",
+    "rationale": "New severe headache/vomiting, worsening neurologic deficits and hypertension after thrombolysis require immediate evaluation for hemorrhage or another complication. Notify the stroke provider, obtain urgent brain imaging and prescribed reversal-assessment labs, and treat BP under the protocol. The bolus has already been given and cannot simply be stopped. Do not give aspirin for the headache or wait for the next routine check. Continue close neurologic/hemodynamic assessment while the team responds.",
     "stepLabel": "Take Action"
    },
    {
@@ -2534,6 +2559,9 @@
     "rationale": "The lower NIHSS, stronger arm, better speech and a BP within the post-thrombolysis limit show a good response. The heart rhythm is unchanged, and he will need long-term stroke prevention for it, which the team will plan. A new firm swelling at the groin access site suggests a hematoma. Apply firm manual pressure just above the puncture site, check distal pulses and notify the provider; back or flank pain with falling BP would suggest a retroperitoneal bleed.",
     "stepLabel": "Evaluate Outcomes"
    }
+  ],
+  "refs": [
+   "v-54ad06df0e"
   ]
  }
 ]

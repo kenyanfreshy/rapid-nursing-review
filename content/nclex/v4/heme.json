@@ -28,8 +28,8 @@
    ],
    "takeaway": "Oral chemotherapy is still a hazardous drug at home: wear gloves, never crush or split tablets, keep them in the original container and never double a missed dose.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -55,13 +55,12 @@
    "rationales": [
     "Dextrose solutions can cause red blood cells to clump and hemolyze, so they are not used with blood.",
     "Lactated Ringer's contains calcium, which can start clotting of the citrated blood in the tubing.",
-    "Correct. Normal saline is the only solution that should run with red blood cells. It is isotonic and contains no glucose or calcium.",
+    "Correct. Normal saline is the routinely recommended compatible crystalloid among these options. It is isotonic and contains no glucose or calcium. Other fluids/products require demonstrated compatibility and approved transfusion-service policy.",
     "This solution contains dextrose, which can damage red blood cells in the line."
    ],
-   "takeaway": "Prime and flush blood tubing with 0.9% sodium chloride only; no dextrose, no lactated Ringer's, and no medications in the blood line.",
+   "takeaway": "Use 0.9% sodium chloride for routine priming/flushing of red-cell tubing; follow transfusion-service policy for other demonstrably compatible products or fluids. Do not add medications to the blood line.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c0ad312fb2"
    ],
    "reviewed": "v4"
   },
@@ -100,8 +99,8 @@
    ],
    "takeaway": "Starting blood: prescription, consent and IV access, then baseline vital signs, then pick up the unit, do the bedside two-person check and start slowly while staying with the client for 15 minutes.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -132,8 +131,8 @@
    ],
    "takeaway": "Doxorubicin is cardiotoxic: check a baseline ejection fraction and monitor for heart failure as the cumulative dose rises.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-832a7f4a51"
    ],
    "reviewed": "v4"
   },
@@ -164,8 +163,8 @@
    ],
    "takeaway": "Give prescribed antiemetic premedications before emetogenic chemotherapy starts; prevention works far better than treating nausea once it begins.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -206,8 +205,10 @@
    ],
    "takeaway": "Match the reversal agent to the drug: protamine for heparins, vitamin K plus 4-factor PCC for warfarin, idarucizumab for dabigatran.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-2ac4c7dc0a",
+    "v-353648f072",
+    "v-36192d3d03"
    ],
    "reviewed": "v4"
   },
@@ -246,8 +247,8 @@
    ],
    "takeaway": "Oral iron: take with vitamin C, apart from dairy and antacids, expect dark stools, prevent constipation, and finish the full course to refill stores.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -287,8 +288,8 @@
    ],
    "takeaway": "Neutropenia at home: hand hygiene, avoid sick contacts and litter boxes, no rectal temperatures, and treat a fever of 100.4 °F (38 °C) or higher as an emergency.",
    "refs": [
-    "openstax-medsurg",
-    "cdc-handhygiene"
+    "v-c5fb05f22f",
+    "v-6531563f37"
    ],
    "reviewed": "v4"
   },
@@ -327,7 +328,7 @@
    ],
    "takeaway": "Low platelets: soft toothbrush, electric razor, no NSAIDs or aspirin, nothing in the rectum, and report any signs of bleeding.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -358,8 +359,8 @@
    ],
    "takeaway": "Filgrastim works by raising neutrophils: evaluate it by the absolute neutrophil count, and expect bone pain as a common side effect.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-39f43e0383"
    ],
    "reviewed": "v4"
   },
@@ -390,8 +391,8 @@
    ],
    "takeaway": "Enoxaparin does not need routine aPTT checks, but monitor the platelet count for heparin-induced thrombocytopenia and watch for bleeding.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-6ed587da0a"
    ],
    "reviewed": "v4"
   },
@@ -422,8 +423,8 @@
    ],
    "takeaway": "Expect the white count nadir about 7 to 14 days after most myelosuppressive chemotherapy; teach fever and infection precautions for that window.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -463,8 +464,8 @@
    ],
    "takeaway": "During heparin-to-warfarin overlap, a low INR in the first days is expected; heparin continues until the INR is therapeutic for 24 hours, and any sign of bleeding needs follow-up.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -504,7 +505,7 @@
    ],
    "takeaway": "Hypercalcemia of malignancy slows everything down: confusion, weakness, constipation, polyuria and dehydration; IV fluids are the first treatment.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -535,7 +536,7 @@
    ],
    "takeaway": "With severe thrombocytopenia, a new headache or change in vision or mental status signals possible intracranial bleeding and is the top priority.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -566,7 +567,7 @@
    ],
    "takeaway": "In a client with cancer, new back pain plus leg weakness or bowel or bladder changes is spinal cord compression until proven otherwise: report it immediately.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -597,7 +598,7 @@
    ],
    "takeaway": "Superior vena cava syndrome: facial and neck swelling, distended neck veins and dyspnea; sit the client up, avoid upper-arm IVs and report it immediately.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -628,8 +629,8 @@
    ],
    "takeaway": "Denial is a normal early reaction to a cancer diagnosis; respond with acceptance and open-ended questions rather than arguing with it.",
    "refs": [
-    "openstax-psych",
-    "openstax-medsurg"
+    "v-97bf916e84",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -660,8 +661,8 @@
    ],
    "takeaway": "For chemotherapy-related hair loss, acknowledge the body-image concern and help the client plan a wig or head covering before the hair falls out.",
    "refs": [
-    "openstax-psych",
-    "openstax-medsurg"
+    "v-97bf916e84",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -701,7 +702,7 @@
    ],
    "takeaway": "With a frightened client, name the feeling, ask open questions, offer presence and accurate information, and explore support systems; avoid false reassurance.",
    "refs": [
-    "openstax-psych"
+    "v-97bf916e84"
    ],
    "reviewed": "v4"
   }

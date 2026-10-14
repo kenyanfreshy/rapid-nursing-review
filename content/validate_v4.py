@@ -49,7 +49,7 @@ def check_questions(topic, others):
         for f in ('stem', 'takeaway'):
             if not isinstance(q.get(f), str) or len(q[f].strip()) < 15: errs.append(f'{p}: missing {f}')
         refs = q.get('refs')
-        if not (isinstance(refs, list) and 1 <= len(refs) <= 3 and all(r in REFS for r in refs)): errs.append(f'{p}: refs must be 1-3 keys from content/nclex/refs.json')
+        if not (isinstance(refs, list) and 1 <= len(refs) <= 6 and all(r in REFS for r in refs)): errs.append(f'{p}: refs must be 1-6 keys from content/nclex/refs.json')
         ty = q.get('type'); r = q.get('rationales', []); c = q.get('correct')
         if ty == 'mcq':
             o = q.get('options', [])
@@ -111,7 +111,7 @@ def check_cases():
             if c.get('source') != 'rnr': e.append('source must be "rnr"')
             if c.get('clientNeed') not in CATS: e.append('bad clientNeed')
             refs = c.get('refs')
-            if not (isinstance(refs, list) and 1 <= len(refs) <= 3 and all(r in REFS for r in refs)): e.append('refs must be 1-3 keys from refs.json')
+            if not (isinstance(refs, list) and 1 <= len(refs) <= 6 and all(r in REFS for r in refs)): e.append('refs must be 1-6 keys from refs.json')
             ehr = c.get('ehr')
             if not (isinstance(ehr, dict) and len(ehr) >= 3 and all(isinstance(v, list) and v and all(len(r) == 2 for r in v) for v in ehr.values())): e.append('ehr needs >=3 tabs of [label, text] rows')
             items = c.get('items', [])

@@ -28,8 +28,8 @@
    ],
    "takeaway": "Perform a time-out immediately before any invasive procedure, including bedside procedures, to confirm the right client, procedure and site.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -60,7 +60,7 @@
    ],
    "takeaway": "Unidentified clients receive a unique temporary identifier so that two-identifier checks can still be done for blood and specimens.",
    "refs": [
-    "tjc-npsg"
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -91,7 +91,7 @@
    ],
    "takeaway": "After bed rest, have the client dangle at the bedside and check for dizziness before standing to prevent orthostatic falls.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -122,8 +122,8 @@
    ],
    "takeaway": "Try the least restrictive measures first, such as hiding tubes and lines, before considering restraints.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-testplan"
+    "v-4b8799783c",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -154,7 +154,7 @@
    ],
    "takeaway": "Use water-soluble lubricants, not petroleum-based products, on the skin and nares of clients receiving oxygen.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -185,7 +185,7 @@
    ],
    "takeaway": "Take equipment with frayed cords or damaged plugs out of service, label it and send it for repair.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -224,7 +224,7 @@
    ],
    "takeaway": "During a fire, keep doors closed, avoid elevators, and evacuate horizontally beyond fire doors first.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -267,8 +267,8 @@
    ],
    "takeaway": "Use surgical asepsis when entering sterile body areas (bladder, bloodstream, tissue); use medical asepsis for nonsterile areas such as the GI tract.",
    "refs": [
-    "openstax-fund",
-    "cdc-isolation"
+    "v-4b8799783c",
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -299,7 +299,7 @@
    ],
    "takeaway": "A catheter that touches the vagina or any nonsterile area is contaminated; insert a new sterile catheter.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -338,7 +338,7 @@
    ],
    "takeaway": "Use mechanical lift equipment for clients who cannot bear weight; body mechanics alone do not prevent staff injury.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -369,8 +369,8 @@
    ],
    "takeaway": "Before a transfusion, two qualified staff verify the client's identity and the blood unit together at the bedside.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -401,7 +401,7 @@
    ],
    "takeaway": "Apply alcohol-based hand rub to all hand surfaces and rub until dry; use soap and water when hands are visibly soiled.",
    "refs": [
-    "cdc-handhygiene"
+    "v-6531563f37"
    ],
    "reviewed": "v4"
   },
@@ -441,7 +441,7 @@
    ],
    "takeaway": "Previous falls, urgency, gait problems, assistive devices and attached tubing all raise fall risk.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -480,12 +480,12 @@
     "Not indicated: four raised rails are a restraint and raise the risk of injury from climbing over them.",
     "Indicated: these measures alert staff and reduce injury without restricting movement.",
     "Indicated: reorientation helps manage delirium.",
-    "Not indicated: benzodiazepines can worsen delirium in older adults, and giving a drug to control behavior is a chemical restraint."
+    "Not indicated: benzodiazepines can worsen delirium in older adults, and routine sedation for restlessness is not appropriate delirium treatment. A drug is a restraint when used to restrict movement or manage behavior and is not standard treatment or dosage for the condition."
    ],
-   "takeaway": "Alternatives to restraint include companionship, alarms, a low bed and reorientation; four side rails and sedating drugs are restraints.",
+   "takeaway": "Use companionship, reorientation, environmental safety, and observation. Sedating medication is not automatically a restraint; evaluate its purpose and whether it is standard treatment/dose.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-testplan"
+    "v-443e055e65",
+    "v-789b3c5ca0"
    ],
    "reviewed": "v4"
   },
@@ -516,7 +516,7 @@
    ],
    "takeaway": "Give enemas with the client in the left Sims' position so the solution follows the path of the colon.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -531,23 +531,23 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "mcq",
-   "stem": "During a cleansing enema, the client reports abdominal cramping and says, \"I need to stop.\" What should the nurse do first?",
+   "stem": "During a cleansing enema, the client reports abdominal cramping and says, “Stop now. I do not want to continue.” What should the nurse do first?",
    "options": [
     "Raise the container higher so the solution finishes faster",
     "Remove the tubing and end the procedure",
     "Pause the flow briefly and coach slow, deep breaths",
     "Tell the client to bear down to hold the solution"
    ],
-   "correct": 2,
+   "correct": 1,
    "rationales": [
-    "Raising the container increases flow and pressure, which worsens cramping.",
-    "Stopping right away may not be needed. Cramping usually eases when the flow is slowed.",
-    "Correct. Pausing or slowing the flow (clamping the tubing or lowering the container) and coaching slow, deep breathing relax the bowel and ease cramping, and the enema can often be finished.",
-    "Bearing down pushes the solution out."
+    "Incorrect. Raising the container increases pressure/flow and disregards the refusal.",
+    "Correct. Stop the flow, safely remove the tubing, and end the procedure as requested. Assess the discomfort, document the informed refusal, and notify the team as indicated.",
+    "Incorrect for this explicit refusal. Pausing/coaching can be appropriate for routine mild cramping when the client wishes to continue, but do not resume without agreement.",
+    "Incorrect. Bearing down does not address the refusal or the cause of cramping."
    ],
-   "takeaway": "If cramping occurs during an enema, slow or pause the flow and coach slow, deep breathing.",
+   "takeaway": "Honor an explicit request to stop care. Pause the flow and safely end the enema; reassess and resume only if the client subsequently agrees.",
    "refs": [
-    "openstax-fund"
+    "v-973aa1a2fe"
    ],
    "reviewed": "v4"
   },
@@ -578,7 +578,7 @@
    ],
    "takeaway": "Use open-ended questions to assess pain quality; intensity, onset and location are separate parts of the assessment.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -593,7 +593,7 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "sata",
-   "stem": "A client with dysphagia after a stroke has been cleared by speech-language pathology for a pureed diet with mildly thick liquids. Which actions should the nurse take during meals? Select all that apply.",
+   "stem": "A client with dysphagia after a stroke has been cleared by speech-language pathology for a pureed diet with mildly thick liquids and has specifically prescribed chin-down posture after evaluating this client’s swallowing. Which actions should the nurse take during meals? Select all that apply.",
    "options": [
     "Have the client tuck the chin when swallowing",
     "Seat the client fully upright, at or near 90 degrees",
@@ -609,17 +609,16 @@
     4
    ],
    "rationales": [
-    "Correct. A chin tuck helps protect the airway during the swallow.",
+    "Correct for this client. SLP assessed and prescribed chin-down posture; it is not suitable or effective for every dysphagia pattern. Follow the individualized swallowing plan.",
     "Correct. An upright position helps food move safely toward the esophagus.",
-    "Correct. Thin liquids move quickly and are more likely to be aspirated.",
+    "Correct for this prescribed plan. Provide the evaluated consistency; thickening is individualized and does not eliminate aspiration risk.",
     "Plain water is a thin liquid and is not part of this diet.",
     "Correct. Food left in the cheek can be aspirated later.",
     "The client should stay upright for 30 minutes or more after eating to reduce aspiration risk."
    ],
-   "takeaway": "Dysphagia precautions: sit upright, chin tuck, prescribed liquid thickness, check for pocketed food, and stay upright after meals.",
+   "takeaway": "Follow the evaluated swallowing plan: posture only if prescribed, upright feeding, prescribed consistency, pocketing checks, and continued upright positioning.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-14a136e14a"
    ],
    "reviewed": "v4"
   },
@@ -659,8 +658,8 @@
    ],
    "takeaway": "Immobility affects every system: watch for DVT, pressure injury, constipation and pulmonary complications.",
    "refs": [
-    "openstax-fund",
-    "npiap"
+    "v-4b8799783c",
+    "v-ce230c94d5"
    ],
    "reviewed": "v4"
   },
@@ -691,7 +690,7 @@
    ],
    "takeaway": "Apply cold to acute injuries with a cloth barrier for about 15 to 20 minutes at a time.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -730,8 +729,8 @@
    ],
    "takeaway": "With diabetic neuropathy: inspect daily, test water temperature, dry between toes, no soaking, no lotion between toes, never barefoot.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -762,8 +761,8 @@
    ],
    "takeaway": "For mucositis, use soft brushes or swabs and bland rinses; avoid alcohol mouthwash and lemon-glycerin swabs.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -806,8 +805,8 @@
    ],
    "takeaway": "Keep the urinary drainage system closed, the bag below the bladder and off the floor, and the catheter secured.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-delegation"
+    "v-4b8799783c",
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -847,7 +846,7 @@
    ],
    "takeaway": "Prevent constipation with fluids, fiber, activity and a regular toileting time after meals.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -890,7 +889,7 @@
    ],
    "takeaway": "Prevent pressure injury with 30-degree tilts, heels floated, head of bed at 30 degrees or lower and regular repositioning; avoid ring cushions.",
    "refs": [
-    "npiap"
+    "v-ce230c94d5"
    ],
    "reviewed": "v4"
   },
@@ -930,7 +929,7 @@
    ],
    "takeaway": "For bolus tube feeding: confirm tube position, keep the head of the bed up, flush before and after, and give room-temperature formula slowly.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -961,7 +960,7 @@
    ],
    "takeaway": "Support sleep in the hospital by keeping the client's usual bedtime routines before considering medication.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -992,8 +991,8 @@
    ],
    "takeaway": "For clients with dementia who resist bathing, adapt the method (such as a towel bath), keep the room warm and give simple step-by-step cues.",
    "refs": [
-    "openstax-fund",
-    "openstax-psych"
+    "v-4b8799783c",
+    "v-97bf916e84"
    ],
    "reviewed": "v4"
   },
@@ -1029,7 +1028,7 @@
    ],
    "takeaway": "For bed-to-chair transfers, place the chair on the client's stronger side, lock it, sit the client up, stand with a gait belt, then pivot.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1060,8 +1059,8 @@
    ],
    "takeaway": "Trendelenburg is used briefly for central line insertion; avoid it with increased intracranial pressure, breathing problems and tube feedings.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1092,8 +1091,8 @@
    ],
    "takeaway": "Reconcile all home medications, including over-the-counter drugs and supplements, at admission, transfer and discharge.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1111,21 +1110,20 @@
    "stem": "A client with a new prescription for an inhaled medication is about to be discharged and says, \"I don't have any way to pay for this medicine.\" What should the nurse do?",
    "options": [
     "Tell the client to buy it when they are able to afford it",
-    "Give the client the unit's supply of the inhaler to take home",
+    "Give unlabeled unit-stock medication to take home without an authorized pharmacy discharge process",
     "Notify the case manager or social worker before discharge",
     "Document the statement and complete the discharge as planned"
    ],
    "correct": 2,
    "rationales": [
     "Delaying a needed medication puts the client at risk of getting worse and being readmitted.",
-    "Unit stock cannot be sent home with clients.",
+    "Incorrect. Do not independently dispense unlabeled stock outside pharmacy and discharge policy. An approved labeled inhaler or meds-to-beds supply may be appropriate when arranged through authorized processes.",
     "Correct. The case manager or social worker can look for financial help or other options so the client can follow the treatment plan after discharge.",
     "Documenting without acting leaves a known barrier to safe discharge unaddressed."
    ],
    "takeaway": "Address barriers such as medication cost before discharge by involving case management or social work.",
    "refs": [
-    "openstax-fund",
-    "ncsbn-testplan"
+    "v-2866a43736"
    ],
    "reviewed": "v4"
   },
@@ -1156,8 +1154,7 @@
    ],
    "takeaway": "Consent must be obtained while the client is alert and able to understand; delay it if a sedating drug has just been given.",
    "refs": [
-    "ncsbn-testplan",
-    "ana-ethics"
+    "v-973aa1a2fe"
    ],
    "reviewed": "v4"
   },
@@ -1188,7 +1185,7 @@
    ],
    "takeaway": "Delegate hygiene for stable clients; keep hygiene care that includes assessment or involves unstable clients with the RN.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -1219,8 +1216,7 @@
    ],
    "takeaway": "Respect a client's right to refuse care and plan flexible times that meet both the client's wishes and care needs.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe"
    ],
    "reviewed": "v4"
   },
@@ -1259,7 +1255,7 @@
    ],
    "takeaway": "UAPs can perform routine mobility, hygiene and measurements; assessment, teaching and evaluation remain with the RN.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -1290,8 +1286,8 @@
    ],
    "takeaway": "After a stroke, a failed swallow screen makes aspiration risk the priority: keep the client NPO, including oral medications, until speech-language pathology evaluates.",
    "refs": [
-    "openstax-medsurg",
-    "ncsbn-testplan"
+    "v-c5fb05f22f",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -1322,7 +1318,7 @@
    ],
    "takeaway": "For limited health literacy, use plain language, limit content to key actions and confirm understanding.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1358,7 +1354,7 @@
    ],
    "takeaway": "Teach-back: assess, teach in plain language, have the client explain or show it back, then reteach and recheck as needed.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1398,7 +1394,7 @@
    ],
    "takeaway": "Oral health basics: fluoride toothpaste twice daily, daily cleaning between teeth, less sugar and regular dental visits.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1435,7 +1431,7 @@
    ],
    "takeaway": "Watch for hidden signs of limited health literacy, such as excuses to avoid reading, identifying pills by appearance and incomplete forms.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1466,8 +1462,8 @@
    ],
    "takeaway": "In suspected sepsis, draw two sets of blood cultures from separate sites before antibiotics, as long as this does not significantly delay treatment.",
    "refs": [
-    "sepsis-2021",
-    "openstax-fund"
+    "v-42e3a3a98c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1498,8 +1494,8 @@
    ],
    "takeaway": "Confirm initial placement of a blindly inserted feeding tube by x-ray before using it; auscultating injected air is unreliable.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1538,8 +1534,8 @@
    ],
    "takeaway": "Clean-catch urine: cleanse front to back, start the stream in the toilet, collect midstream, finish in the toilet, then cap and label.",
    "refs": [
-    "openstax-fund",
-    "tjc-npsg"
+    "v-4b8799783c",
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -1570,8 +1566,8 @@
    ],
    "takeaway": "For an irregular pulse, and before giving digoxin, count the apical pulse for a full 60 seconds.",
    "refs": [
-    "openstax-fund",
-    "openstax-pharm"
+    "v-4b8799783c",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   }
