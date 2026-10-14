@@ -842,7 +842,7 @@
     "Correct. The book's myxedema coma interventions include airway support, IV levothyroxine, and gradual warming.",
     "Incorrect. Cooling and antithyroid drugs are thyroid storm treatments in the book.",
     "Incorrect. The book lists high-dose hydrocortisone for Addisonian crisis.",
-    "Incorrect. The book specifies warming the patient gradually."
+    "Incorrect. The book specifies warming the client gradually."
    ],
    "clue": "Hypothermia, bradycardia, and altered mental status in hypothyroidism.",
    "priority": "Manage myxedema coma safely.",
@@ -951,9 +951,9 @@
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. Pressing on ignores visible distress; the book calls for emotional support, especially for newly diagnosed patients and families.",
+    "Incorrect. Pressing on ignores visible distress; the book calls for emotional support, especially for newly diagnosed clients and families.",
     "Incorrect. The book states type 1 DM requires insulin therapy and continuous glucose monitoring, so this reassurance is false.",
-    "Correct. The book's independent nursing care includes emotional support, especially for newly diagnosed patients and their families.",
+    "Correct. The book's independent nursing care includes emotional support, especially for newly diagnosed clients and their families.",
     "Incorrect. The book directs support to families as well as the client; excluding the parents removes that support."
    ],
    "clue": "Newly diagnosed client and family showing distress during teaching.",
@@ -2115,7 +2115,7 @@
     "Myxedema coma. The book lists IV thyroid hormone (levothyroxine).",
     "Addisonian crisis. The book lists high-dose IV hydrocortisone.",
     "Thyroid storm. Cooling measures treat the high fever of thyroid storm.",
-    "Myxedema coma. The book says to warm the patient gradually."
+    "Myxedema coma. The book says to warm the client gradually."
    ],
    "clue": "Hypermetabolic, hypometabolic, and adrenal emergencies need different treatment.",
    "priority": "Match each emergency to its priority intervention.",

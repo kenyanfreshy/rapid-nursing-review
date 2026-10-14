@@ -1278,7 +1278,7 @@
    "rationales": [
     "Concentrated potassium should not be kept in unit stock at all, even with a label.",
     "Premixed potassium solutions from pharmacy are used instead of unit vials.",
-    "Correct. Concentrated potassium should not be stocked on patient-care units; mistaking it for a flush can cause fatal cardiac arrest. Reporting allows the system problem to be fixed.",
+    "Correct. Concentrated potassium should not be stocked on client-care units; mistaking it for a flush can cause fatal cardiac arrest. Reporting allows the system problem to be fixed.",
     "Discarding without reporting hides a system problem that could recur."
    ],
    "correct": 2,
@@ -1525,7 +1525,7 @@
     "Assuming the meaning of a do-not-use abbreviation is unsafe.",
     "Guessing could cause a fatal insulin overdose.",
     "The nurse cannot change a prescription; only the prescriber can.",
-    "Correct. \"U\" is on The Joint Commission's do-not-use list because it can be read as 0 or 4, causing a tenfold insulin overdose; the prescriber must clarify."
+    "Correct. \"U\" is on The Joint Commission's do-not-use list because it can be read as 0 or 4, causing a tenfold insulin overdose; writing \"10U\" with no space between the number and the unit adds to the risk. The prescriber must clarify."
    ],
    "correct": 3,
    "takeaway": "Write \"units\" in full; clarify any prescription that uses a do-not-use abbreviation before giving the drug.",

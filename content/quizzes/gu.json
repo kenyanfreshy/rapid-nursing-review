@@ -289,7 +289,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book's nursing priorities include emotional support through frequent explanations and reassurance to the patient and family.",
+    "Correct. The book's nursing priorities include emotional support through frequent explanations and reassurance to the client and family.",
     "Wrong. Redirecting every question leaves the family without the support the book tells the nurse to give.",
     "Wrong. The book calls for supporting the family, not keeping them away.",
     "Wrong. Withholding explanations is the opposite of the frequent explanations the book recommends."
@@ -541,7 +541,7 @@
    "correct": 1,
    "rationales": [
     "Wrong. The book says mild cases can be managed as outpatients.",
-    "Correct. The book reserves hospitalization for severe cases and for pregnant or frail patients.",
+    "Correct. The book reserves hospitalization for severe cases and for pregnant or frail clients.",
     "Wrong. Tolerating fluids with mild illness fits the book's outpatient approach.",
     "Wrong. Mild disease is managed as an outpatient according to the book."
    ],
@@ -1697,7 +1697,7 @@
     "Wrong. The book states peritoneal dialysis is rarely used in AKI.",
     "Wrong. The book describes intermittent hemodialysis as fast, efficient fluid removal, which an unstable client may not tolerate.",
     "Wrong. The book offers an option designed for unstable clients, so therapy need not wait.",
-    "Correct. The book states CRRT is the renal replacement option for unstable patients."
+    "Correct. The book states CRRT is the renal replacement option for unstable clients."
    ],
    "clue": "The client needs renal replacement therapy but is hemodynamically unstable.",
    "priority": "Matching renal replacement therapy to the client's stability.",

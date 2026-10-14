@@ -13,11 +13,11 @@
    "Administer sublingual nitroglycerin and reassess pain in 5 minutes",
    "Notify the interventional cardiology team and prepare for emergent PCI",
    "Start an IV and draw additional labs for CBC and electrolytes",
-   "Monitor vital signs and place the patient on continuous ECG telemetry."
+   "Monitor vital signs and place the client on continuous ECG telemetry."
   ],
   "rationales": [
    "Nitroglycerin does not reopen the occluded artery and must be used cautiously in inferior MI because of possible RV involvement and preload-dependent hypotension.",
-   "This patient is showing signs of STEMI (ST elevation in II, III, aVF = inferior wall MI) with elevated troponin and classic chest pain. Time is myocardium; the gold standard is PCI within 90 minutes.",
+   "This client is showing signs of STEMI (ST elevation in II, III, aVF = inferior wall MI) with elevated troponin and classic chest pain. Time is myocardium; the gold standard is PCI within 90 minutes.",
    "IV access and labs are needed but are done in parallel and must not delay activation of the cath lab.",
    "Monitoring is supportive only; it does not address the occluded coronary artery, which needs reperfusion."
   ],
@@ -34,9 +34,9 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A 74-year-old patient undergoes a carotid endarterectomy (CEA) for 80% stenosis of the right carotid artery. Postoperatively, the nurse notes a hoarse voice, difficulty swallowing, and right facial droop. What is the priority nursing action?",
+  "stem": "A 74-year-old client undergoes a carotid endarterectomy (CEA) for 80% stenosis of the right carotid artery. Postoperatively, the nurse notes a hoarse voice, difficulty swallowing, and right facial droop. What is the priority nursing action?",
   "options": [
-   "Suction the patient's airway to prevent aspiration",
+   "Suction the client's airway to prevent aspiration",
    "Elevate the head of the bed to 90 degrees",
    "Notify the provider immediately due to possible cranial nerve injury",
    "Administer aspirin to improve perfusion"
@@ -60,7 +60,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient presents with chest pain, troponin elevation, and ST depression in leads V4–V6. What is the most likely diagnosis?",
+  "stem": "A client presents with chest pain, troponin elevation, and ST depression in leads V4–V6. What is the most likely diagnosis?",
   "options": [
    "STEMI",
    "NSTEMI",
@@ -86,7 +86,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient post-carotid endarterectomy suddenly develops unilateral weakness and slurred speech. What should the nurse suspect?",
+  "stem": "A client post-carotid endarterectomy suddenly develops unilateral weakness and slurred speech. What should the nurse suspect?",
   "options": [
    "Reperfusion injury",
    "Hemorrhagic stroke",
@@ -112,7 +112,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient reports tearing chest pain radiating to the back, with unequal BP in arms. What is the most likely condition?",
+  "stem": "A client reports tearing chest pain radiating to the back, with unequal BP in arms. What is the most likely condition?",
   "options": [
    "Aortic dissection",
    "STEMI",
@@ -143,7 +143,7 @@
    "Continue to monitor",
    "Increase IV fluids",
    "Notify the surgeon immediately",
-   "Reposition the patient"
+   "Reposition the client"
   ],
   "rationales": [
    "Watching drainage of this volume delays treatment of likely surgical bleeding and risks tamponade or shock.",
@@ -164,7 +164,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with acute pulmonary edema presents with pink frothy sputum, tachypnea, and hypoxemia. First-line treatment?",
+  "stem": "A client with acute pulmonary edema presents with pink frothy sputum, tachypnea, and hypoxemia. First-line treatment?",
   "options": [
    "IV antibiotics",
    "High-dose IV fluids",
@@ -216,7 +216,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Hypertrophic cardiomyopathy patients are at high risk for:",
+  "stem": "Hypertrophic cardiomyopathy clients are at high risk for:",
   "options": [
    "Aortic rupture",
    "Sudden cardiac death from ventricular arrhythmias",
@@ -242,7 +242,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with atrial fibrillation has a rapid ventricular response and unstable BP. What is a priority intervention?",
+  "stem": "A client with atrial fibrillation has a rapid ventricular response and unstable BP. What is a priority intervention?",
   "options": [
    "IV beta-blockers",
    "Synchronized cardioversion",
@@ -250,7 +250,7 @@
    "Administer adenosine"
   ],
   "rationales": [
-   "Beta-blockers can worsen hypotension in an unstable patient; they are for stable rate control.",
+   "Beta-blockers can worsen hypotension in an unstable client; they are for stable rate control.",
    "Unstable AFib = immediate synchronized cardioversion.",
    "Anticoagulation is important but does not correct instability; it should not delay cardioversion.",
    "Adenosine does not convert atrial fibrillation and is not indicated."
@@ -268,7 +268,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with acute decompensated HF presents with S3 gallop, dyspnea, and pulmonary rales. Which finding requires urgent intervention?",
+  "stem": "A client with acute decompensated HF presents with S3 gallop, dyspnea, and pulmonary rales. Which finding requires urgent intervention?",
   "options": [
    "BNP > 500",
    "EF 30%",
@@ -320,7 +320,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient presents with chest pain at rest, negative troponins, and transient ST depression. What is the diagnosis?",
+  "stem": "A client presents with chest pain at rest, negative troponins, and transient ST depression. What is the diagnosis?",
   "options": [
    "STEMI",
    "NSTEMI",
@@ -346,7 +346,7 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "A patient involved in a motor vehicle crash presents with hypotension, tachycardia, severe back pain, and rapidly expanding abdominal girth. Which finding is most concerning for aortic rupture?",
+  "stem": "A client involved in a motor vehicle crash presents with hypotension, tachycardia, severe back pain, and rapidly expanding abdominal girth. Which finding is most concerning for aortic rupture?",
   "options": [
    "Bruising on flanks (Grey Turner sign)",
    "Absent femoral pulses",
@@ -432,13 +432,13 @@
    "CPAP without backup rate"
   ],
   "rationales": [
-   "Intubation is for patients who fail or cannot tolerate NIV, or who cannot protect the airway; this patient is alert.",
+   "Intubation is for clients who fail or cannot tolerate NIV, or who cannot protect the airway; this client is alert.",
    "For acute hypercapnic respiratory failure (e.g., COPD exacerbation), NIV reduces intubation and mortality when there are no contraindications such as inability to protect the airway.",
    "This is not a treatment; high-flow nasal cannula is not contraindicated, though BiPAP is preferred for hypercapnia.",
    "CPAP alone gives no inspiratory pressure support and does little to clear CO₂."
   ],
   "correct": 1,
-  "takeaway": "Alert patients with acute hypercapnic acidosis (pH 7.25–7.35) should get a BiPAP trial first.",
+  "takeaway": "Alert clients with acute hypercapnic acidosis (pH 7.25–7.35) should get a BiPAP trial first.",
   "note": null
  },
  {
@@ -450,7 +450,7 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "Patient in severe asthma attack is tiring; ABG changes from PaCO₂ 30 to 40 despite ongoing distress. Best next step?",
+  "stem": "Client in severe asthma attack is tiring; ABG changes from PaCO₂ 30 to 40 despite ongoing distress. Best next step?",
   "options": [
    "Discharge if improved",
    "Continue only nebulized β-agonists",
@@ -476,7 +476,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Post-line placement, patient acutely deteriorates, unilateral absent breath sounds, hypotension, distended neck veins, tracheal deviation. Best immediate action?",
+  "stem": "Post-line placement, client acutely deteriorates, unilateral absent breath sounds, hypotension, distended neck veins, tracheal deviation. Best immediate action?",
   "options": [
    "Stat CXR, then chest tube",
    "Needle decompression → chest tube",
@@ -502,10 +502,10 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Minutes after a large thoracentesis, the patient suddenly develops pleuritic pain and dyspnea with decreased breath sounds on the tapped side. First action?",
+  "stem": "Minutes after a large thoracentesis, the client suddenly develops pleuritic pain and dyspnea with decreased breath sounds on the tapped side. First action?",
   "options": [
    "High-flow O₂ and notify provider—evaluate for pneumothorax",
-   "Lay the patient flat and give fluids",
+   "Lay the client flat and give fluids",
    "Start antibiotics for empyema",
    "Encourage IS only"
   ],
@@ -528,7 +528,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Despite continuous β-agonists, steroids, and ipratropium, the patient remains tight with poor airflow. Evidence-based next therapy?",
+  "stem": "Despite continuous β-agonists, steroids, and ipratropium, the client remains tight with poor airflow. Evidence-based next therapy?",
   "options": [
    "IV magnesium sulfate",
    "IV furosemide",
@@ -580,7 +580,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Within 2 hours of transfusion, the patient develops acute hypoxemia, bilateral infiltrates, normal left-sided pressures, and no fluid overload. Best immediate step?",
+  "stem": "Within 2 hours of transfusion, the client develops acute hypoxemia, bilateral infiltrates, normal left-sided pressures, and no fluid overload. Best immediate step?",
   "options": [
    "Stop transfusion; support oxygenation; notify blood bank",
    "Give a large diuretic dose",
@@ -632,7 +632,7 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "A pneumonia patient on HFNC FiO₂ 0.9 remains SpO₂ 84%, appears exhausted, and is intermittently confused. Best next step?",
+  "stem": "A pneumonia client on HFNC FiO₂ 0.9 remains SpO₂ 84%, appears exhausted, and is intermittently confused. Best next step?",
   "options": [
    "Continue HFNC and recheck in 2 hours",
    "Noninvasive ventilation trial",
@@ -640,7 +640,7 @@
    "Give diuretics first"
   ],
   "rationales": [
-   "Delaying intubation in a failing patient increases risk of arrest and mortality.",
+   "Delaying intubation in a failing client increases risk of arrest and mortality.",
    "NIV is unsafe with confusion and inability to protect the airway, and is unlikely to fix refractory hypoxemia.",
    "Persistent severe hypoxemia on maximal noninvasive support with fatigue and altered mental status = criteria for immediate airway control.",
    "There is no sign of volume overload; diuretics would delay definitive airway management."
@@ -658,7 +658,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient develops SOB, crackles, HTN, and JVD during a transfusion. What's the most likely cause?",
+  "stem": "A client develops SOB, crackles, HTN, and JVD during a transfusion. What's the most likely cause?",
   "options": [
    "TRALI",
    "TACO",
@@ -684,7 +684,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A cirrhotic patient presents with hematemesis, hypotension, and tachycardia. Which medication should the nurse anticipate administering first?",
+  "stem": "A cirrhotic client presents with hematemesis, hypotension, and tachycardia. Which medication should the nurse anticipate administering first?",
   "options": [
    "Pantoprazole",
    "Octreotide",
@@ -710,7 +710,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient is admitted with fever, hypotension, and altered mental status. Lactate is 5.1. Which order should the nurse prioritize?",
+  "stem": "A client is admitted with fever, hypotension, and altered mental status. Lactate is 5.1. Which order should the nurse prioritize?",
   "options": [
    "Start insulin infusion",
    "Administer 30 mL/kg normal saline",
@@ -736,11 +736,11 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "A patient presents with severe leg pain after a minor cut 2 days ago. The exam reveals swelling, skin discoloration, crepitus, and hypotension. Which is the nurse's priority action?",
+  "stem": "A client presents with severe leg pain after a minor cut 2 days ago. The exam reveals swelling, skin discoloration, crepitus, and hypotension. Which is the nurse's priority action?",
   "options": [
    "Administer PRN morphine",
    "Notify the surgical team immediately",
-   "Place the patient on NPO status",
+   "Place the client on NPO status",
    "Initiate physical therapy consult"
   ],
   "rationales": [
@@ -762,7 +762,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with DKA is admitted with a BG of 400 mg/dL and is receiving sliding scale insulin. What should the RN do next?",
+  "stem": "A client with DKA is admitted with a BG of 400 mg/dL and is receiving sliding scale insulin. What should the RN do next?",
   "options": [
    "Continue sliding scale insulin as ordered",
    "Administer long-acting insulin",
@@ -773,7 +773,7 @@
    "Subcutaneous sliding scale insulin is inadequate to close the anion gap in DKA.",
    "Long-acting insulin alone does not provide the titratable insulin needed to reverse ketoacidosis.",
    "DKA requires a continuous IV insulin infusion, not sliding scale subcutaneous insulin.",
-   "DKA patients are severely dehydrated and need aggressive IV fluids."
+   "DKA clients are severely dehydrated and need aggressive IV fluids."
   ],
   "correct": 2,
   "takeaway": "Moderate-to-severe DKA is treated with IV fluids, potassium replacement, and a continuous IV insulin infusion.",
@@ -788,7 +788,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A primary concern in caring for a patient with pancreatitis is monitoring fluid and electrolytes closely because:",
+  "stem": "A primary concern in caring for a client with pancreatitis is monitoring fluid and electrolytes closely because:",
   "options": [
    "Insensible losses increase with fever",
    "Plasma volume is lost as enzymes increase capillary permeability",
@@ -866,7 +866,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with adrenal crisis: BP 74/40, Na⁺ 125, K⁺ 6.0, glucose 56. The best treatment is:",
+  "stem": "A client with adrenal crisis: BP 74/40, Na⁺ 125, K⁺ 6.0, glucose 56. The best treatment is:",
   "options": [
    "Hydrocortisone, fluids, glucose",
    "Vasopressin infusion",
@@ -892,7 +892,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with a crush injury to the thigh is admitted. Labs show CK of 60,000 U/L, potassium 6.2 mEq/L, and dark brown urine. What is the nurse’s priority intervention?",
+  "stem": "A client with a crush injury to the thigh is admitted. Labs show CK of 60,000 U/L, potassium 6.2 mEq/L, and dark brown urine. What is the nurse’s priority intervention?",
   "options": [
    "Administer IV potassium chloride",
    "Prepare for fasciotomy",
@@ -900,7 +900,7 @@
    "Administer IV calcium gluconate"
   ],
   "rationales": [
-   "The patient is already hyperkalemic (6.2 mEq/L); giving potassium could precipitate a fatal dysrhythmia.",
+   "The client is already hyperkalemic (6.2 mEq/L); giving potassium could precipitate a fatal dysrhythmia.",
    "Fasciotomy treats compartment syndrome, which is not described here; the immediate threat is myoglobin-induced kidney injury.",
    "High CK and dark urine = rhabdomyolysis; the primary goal is to preserve renal function via hydration and flush myoglobin through the kidneys.",
    "Calcium stabilizes the myocardium if hyperkalemia causes ECG changes, but none are described; aggressive fluids address the underlying rhabdomyolysis."
@@ -918,12 +918,12 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with traumatic brain injury has an ICP of 24 mmHg and a MAP of 70 mmHg. Which action is most appropriate?",
+  "stem": "A client with traumatic brain injury has an ICP of 24 mmHg and a MAP of 70 mmHg. Which action is most appropriate?",
   "options": [
    "Elevate HOB to 15°",
    "Administer hypotonic saline",
    "Ensure CPP is ≥ 60 mmHg",
-   "Suction the patient vigorously"
+   "Suction the client vigorously"
   ],
   "rationales": [
    "Head of bed is usually kept at about 30° to promote venous drainage; lowering to 15° does not address the low CPP.",
@@ -944,9 +944,9 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A cirrhotic patient presents with confusion, asterixis, and elevated ammonia. Which action takes priority?",
+  "stem": "A cirrhotic client presents with confusion, asterixis, and elevated ammonia. Which action takes priority?",
   "options": [
-   "Restrain the patient to prevent injury",
+   "Restrain the client to prevent injury",
    "Administer IV glucose",
    "Prepare for intubation",
    "Administer lactulose"
@@ -954,7 +954,7 @@
   "rationales": [
    "Restraints do not treat the cause and can increase agitation and injury; they are a last resort.",
    "Glucose does not lower ammonia; hypoglycemia should be checked, but it is not the treatment for hepatic encephalopathy.",
-   "Intubation is reserved for airway protection in grade 3–4 encephalopathy; this patient is confused but has no stated airway compromise.",
+   "Intubation is reserved for airway protection in grade 3–4 encephalopathy; this client is confused but has no stated airway compromise.",
    "Lactulose reduces ammonia levels by enhancing GI excretion, improving mental status in hepatic encephalopathy (Vilstrup et al., 2014)."
   ],
   "correct": 3,
@@ -970,7 +970,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient is post-op day 1 from a right-sided craniotomy for subdural hematoma evacuation. Which finding should be reported immediately?",
+  "stem": "A client is post-op day 1 from a right-sided craniotomy for subdural hematoma evacuation. Which finding should be reported immediately?",
   "options": [
    "Headache relieved with analgesics",
    "Incision site oozing a small amount of blood",
@@ -996,7 +996,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient presents with head trauma, followed by a lucid period and then rapid deterioration. CT shows a lens-shaped bleed. What is the likely diagnosis?",
+  "stem": "A client presents with head trauma, followed by a lucid period and then rapid deterioration. CT shows a lens-shaped bleed. What is the likely diagnosis?",
   "options": [
    "Subdural hematoma",
    "Subarachnoid hemorrhage",
@@ -1022,7 +1022,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A 74-year-old patient on mechanical ventilation has become increasingly drowsy and inattentive over the past 12 hours. The nurse notes no agitation or restlessness. Which of the following is the most appropriate initial nursing action?",
+  "stem": "A 74-year-old client on mechanical ventilation has become increasingly drowsy and inattentive over the past 12 hours. The nurse notes no agitation or restlessness. Which of the following is the most appropriate initial nursing action?",
   "options": [
    "Administer PRN haloperidol",
    "Initiate CAM-ICU assessment",
@@ -1032,11 +1032,11 @@
   "rationales": [
    "Antipsychotics are not first-line and are not indicated for hypoactive delirium without severe agitation.",
    "Hypoactive delirium is common and often missed. Early screening with a validated tool (CAM-ICU) allows prompt intervention.",
-   "Deeper sedation worsens delirium and prolongs ventilation; the patient is already drowsy.",
-   "The patient is not agitated, and restraints increase delirium risk; they are not an assessment step."
+   "Deeper sedation worsens delirium and prolongs ventilation; the client is already drowsy.",
+   "The client is not agitated, and restraints increase delirium risk; they are not an assessment step."
   ],
   "correct": 1,
-  "takeaway": "Drowsy, inattentive ICU patients may have hypoactive delirium; screen with CAM-ICU before any drug or sedation change.",
+  "takeaway": "Drowsy, inattentive ICU clients may have hypoactive delirium; screen with CAM-ICU before any drug or sedation change.",
   "note": null
  },
  {
@@ -1048,7 +1048,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "An ICU patient recovering from ARDS reports persistent sadness, loss of interest, and poor appetite for the past month. The nurse’s priority is to:",
+  "stem": "An ICU client recovering from ARDS reports persistent sadness, loss of interest, and poor appetite for the past month. The nurse’s priority is to:",
   "options": [
    "Provide reassurance and encourage activity",
    "Screen for suicidal ideation",
@@ -1057,7 +1057,7 @@
   ],
   "rationales": [
    "Reassurance alone skips the safety assessment and may minimize a serious depressive episode.",
-   "Safety is the priority. Depression in ICU patients carries increased suicide risk; screening and immediate safety measures come before activity promotion or delayed referral.",
+   "Safety is the priority. Depression in ICU clients carries increased suicide risk; screening and immediate safety measures come before activity promotion or delayed referral.",
    "Delaying evaluation until discharge leaves a possible safety risk unaddressed now.",
    "Medication may be appropriate later, but assessing suicide risk comes first."
   ],
@@ -1074,18 +1074,18 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient is admitted after being found unresponsive with shallow respirations and pinpoint pupils. What is the priority intervention?",
+  "stem": "A client is admitted after being found unresponsive with shallow respirations and pinpoint pupils. What is the priority intervention?",
   "options": [
    "Administer naloxone IV",
    "Administer lorazepam IV",
    "Prepare for flumazenil administration",
-   "Encourage the patient to drink fluids"
+   "Encourage the client to drink fluids"
   ],
   "rationales": [
    "Classic triad of opioid overdose = pinpoint pupils, respiratory depression, ↓ LOC. Naloxone is the immediate reversal agent.",
    "Lorazepam is for alcohol- or stimulant-related agitation and would further depress respirations.",
    "Flumazenil reverses benzodiazepines, and pinpoint pupils point to opioids; it also carries a seizure risk.",
-   "The patient is unresponsive; oral fluids risk aspiration and do not treat overdose."
+   "The client is unresponsive; oral fluids risk aspiration and do not treat overdose."
   ],
   "correct": 0,
   "takeaway": "Pinpoint pupils + respiratory depression + ↓ LOC = opioid overdose; support ventilation and give naloxone, then watch for re-sedation.",
@@ -1100,21 +1100,21 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient presents with chest pain, severe hypertension, and agitation after cocaine use. Which intervention should the nurse avoid?",
+  "stem": "A client presents with chest pain, severe hypertension, and agitation after cocaine use. Which intervention should the nurse avoid?",
   "options": [
    "Administer benzodiazepines",
    "Administer nitroglycerin",
-   "Administer labetalol",
+   "Administer propranolol",
    "Provide a quiet, low-stimulation environment"
   ],
   "rationales": [
    "Benzodiazepines are first-line for cocaine toxicity; they reduce agitation, heart rate, and blood pressure.",
    "Nitroglycerin relieves coronary vasospasm and chest pain in cocaine toxicity and is appropriate.",
-   "Beta-blockers (like labetalol, propranolol) are avoided in acute cocaine toxicity due to unopposed alpha-adrenergic stimulation → worsening vasospasm.",
+   "Correct. Propranolol is a pure nonselective beta-blocker; in acute cocaine toxicity it can leave alpha-adrenergic stimulation unopposed, worsening coronary vasospasm and hypertension. Avoid it in the acute phase.",
    "A quiet environment reduces sympathetic stimulation and is appropriate."
   ],
   "correct": 2,
-  "takeaway": "In acute cocaine toxicity use benzodiazepines and nitroglycerin; avoid beta-blockers because of unopposed alpha stimulation.",
+  "takeaway": "In acute cocaine toxicity use benzodiazepines and nitroglycerin; avoid pure beta-blockers such as propranolol because of unopposed alpha stimulation.",
   "note": null
  },
  {
@@ -1126,7 +1126,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A 65-year-old patient with COPD presents with somnolence, PaO₂ 54 mmHg, PaCO₂ 60 mmHg, and pH 7.28. Which intervention is most appropriate?",
+  "stem": "A 65-year-old client with COPD presents with somnolence, PaO₂ 54 mmHg, PaCO₂ 60 mmHg, and pH 7.28. Which intervention is most appropriate?",
   "options": [
    "Administer sodium bicarbonate IV",
    "Increase oxygen to 100% with non-rebreather mask",
@@ -1137,7 +1137,7 @@
    "Bicarbonate does not fix hypoventilation; the acidosis is respiratory, so the solution is to improve ventilation.",
    "Too much O₂ in COPD can worsen CO₂ retention, and oxygen alone does not correct hypoventilation.",
    "Respiratory acidosis (↑CO₂, ↓pH) = hypoventilation. The solution is to improve ventilation with noninvasive or invasive support.",
-   "A somnolent patient cannot reliably follow coaching, and it will not reverse acute hypercapnic failure."
+   "A somnolent client cannot reliably follow coaching, and it will not reverse acute hypercapnic failure."
   ],
   "correct": 2,
   "takeaway": "Acute hypercapnic respiratory acidosis in COPD is treated by supporting ventilation (BiPAP, or intubation if obtunded), not bicarbonate.",
@@ -1152,7 +1152,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A post-op patient with prolonged NG suction has ABGs: pH 7.48, PaCO₂ 45, HCO₃⁻ 32. Which electrolyte abnormality is most likely present?",
+  "stem": "A post-op client with prolonged NG suction has ABGs: pH 7.48, PaCO₂ 45, HCO₃⁻ 32. Which electrolyte abnormality is most likely present?",
   "options": [
    "Hyperkalemia",
    "Hypokalemia",
@@ -1178,7 +1178,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with AKI has peaked T waves on ECG, K⁺ = 7.2 mEq/L. Which intervention should the nurse anticipate first?",
+  "stem": "A client with AKI has peaked T waves on ECG, K⁺ = 7.2 mEq/L. Which intervention should the nurse anticipate first?",
   "options": [
    "Administer IV calcium gluconate",
    "Give furosemide IV push",
@@ -1204,7 +1204,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A septic patient’s ABG shows: pH 7.30, PaCO₂ 37, HCO₃⁻ 18. What is the primary acid–base imbalance?",
+  "stem": "A septic client’s ABG shows: pH 7.30, PaCO₂ 37, HCO₃⁻ 18. What is the primary acid–base imbalance?",
   "options": [
    "Respiratory acidosis",
    "Metabolic acidosis",
@@ -1230,10 +1230,10 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A post-thyroidectomy patient develops twitching, stridor, and positive Chvostek’s sign. Which intervention is most urgent?",
+  "stem": "A post-thyroidectomy client develops twitching, stridor, and positive Chvostek’s sign. Which intervention is most urgent?",
   "options": [
    "Administer IV calcium gluconate",
-   "Place patient on seizure precautions",
+   "Place client on seizure precautions",
    "Restrict fluids and monitor I&O",
    "Encourage deep breathing and coughing"
   ],
@@ -1282,7 +1282,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient 2 days after Roux-en-Y gastric bypass has HR 128, fever 100.8°F, and severe abdominal pain. Which action is most important?",
+  "stem": "A client 2 days after Roux-en-Y gastric bypass has HR 128, fever 100.8°F, and severe abdominal pain. Which action is most important?",
   "options": [
    "Administer IV acetaminophen for fever",
    "Encourage ambulation to relieve gas pain",
@@ -1308,7 +1308,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient who had a gastric bypass reports dizziness, palpitations, and diarrhea 20 minutes after eating. Which dietary teaching is most appropriate?",
+  "stem": "A client who had a gastric bypass reports dizziness, palpitations, and diarrhea 20 minutes after eating. Which dietary teaching is most appropriate?",
   "options": [
    "Eat large high-carb meals",
    "Avoid protein and fat to prevent delayed emptying",
@@ -1360,7 +1360,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient presents after a tricyclic antidepressant (TCA) overdose. ECG shows QRS widening and ventricular dysrhythmias. Which treatment is most appropriate?",
+  "stem": "A client presents after a tricyclic antidepressant (TCA) overdose. ECG shows QRS widening and ventricular dysrhythmias. Which treatment is most appropriate?",
   "options": [
    "Administer naloxone IV",
    "Administer N-acetylcysteine IV",
@@ -1386,7 +1386,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A trauma patient is admitted with a core temperature of 32°C (89.6°F), bradycardia, hypotension, and coagulopathy. Which intervention is most appropriate?",
+  "stem": "A trauma client is admitted with a core temperature of 32°C (89.6°F), bradycardia, hypotension, and coagulopathy. Which intervention is most appropriate?",
   "options": [
    "Apply cooling blankets",
    "Administer dantrolene",
@@ -1412,21 +1412,21 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient with end-stage COPD, alert and oriented, refuses mechanical ventilation despite family insistence. What is the nurse’s best action?",
+  "stem": "A client with end-stage COPD, alert and oriented, refuses mechanical ventilation despite family insistence. What is the nurse’s best action?",
   "options": [
-   "Encourage the family to override the patient’s wishes",
-   "Respect the patient’s decision and notify the care team",
+   "Encourage the family to override the client’s wishes",
+   "Respect the client’s decision and notify the care team",
    "Begin noninvasive ventilation immediately",
    "Request an ethics consult to force treatment"
   ],
   "rationales": [
-   "Family cannot override a competent patient’s refusal of treatment.",
-   "Autonomy is a patient’s right to make decisions about their own care. Family cannot override a competent patient’s refusal.",
-   "Starting ventilation against a competent patient’s refusal violates autonomy and informed consent.",
-   "Ethics consultation supports decision-making; it cannot be used to force treatment on a competent patient."
+   "Family cannot override a competent client’s refusal of treatment.",
+   "Autonomy is a client’s right to make decisions about their own care. Family cannot override a competent client’s refusal.",
+   "Starting ventilation against a competent client’s refusal violates autonomy and informed consent.",
+   "Ethics consultation supports decision-making; it cannot be used to force treatment on a competent client."
   ],
   "correct": 1,
-  "takeaway": "A competent patient’s informed refusal is honored even when the family disagrees.",
+  "takeaway": "A competent client’s informed refusal is honored even when the family disagrees.",
   "note": null
  },
  {
@@ -1438,7 +1438,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient is ventilated with no chance of meaningful recovery. The family elects to withdraw life support. What is the nurse’s role?",
+  "stem": "A client is ventilated with no chance of meaningful recovery. The family elects to withdraw life support. What is the nurse’s role?",
   "options": [
    "Explain that withdrawing care is the same as euthanasia",
    "Ensure comfort-focused care is provided",
@@ -1447,9 +1447,9 @@
   ],
   "rationales": [
    "Withdrawal of life support is ethically and legally distinct from euthanasia; saying otherwise is inaccurate and harmful.",
-   "Withdrawal ≠ euthanasia. The nurse ensures comfort and dignity at the end of life, supporting both the patient and their family.",
+   "Withdrawal ≠ euthanasia. The nurse ensures comfort and dignity at the end of life, supporting both the client and their family.",
    "Withdrawal requires a provider order and a coordinated plan.",
-   "Conscientious objection requires a hand-off arranged in advance; declining does not meet the patient’s needs at this moment."
+   "Conscientious objection requires a hand-off arranged in advance; declining does not meet the client’s needs at this moment."
   ],
   "correct": 1,
   "takeaway": "Withdrawing life support is not euthanasia; the nurse’s focus is comfort, dignity, and family support.",
@@ -1464,7 +1464,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "During a mass casualty incident, one ventilator is available for three critically ill patients. Which ethical principle guides the allocation of this resource?",
+  "stem": "During a mass casualty incident, one ventilator is available for three critically ill clients. Which ethical principle guides the allocation of this resource?",
   "options": [
    "Autonomy",
    "Nonmaleficence",
@@ -1473,9 +1473,9 @@
   ],
   "rationales": [
    "Autonomy concerns an individual’s right to self-determination, not how scarce resources are distributed.",
-   "Nonmaleficence means avoiding harm; it does not decide fair distribution among patients.",
+   "Nonmaleficence means avoiding harm; it does not decide fair distribution among clients.",
    "Justice = fairness in distributing resources. Triage decisions are guided by justice.",
-   "Beneficence means doing good for an individual patient; allocation among several patients is a matter of justice."
+   "Beneficence means doing good for an individual client; allocation among several clients is a matter of justice."
   ],
   "correct": 2,
   "takeaway": "Allocation of scarce resources (triage) is guided by justice.",
@@ -1490,7 +1490,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A nurse is caring for a patient with multi-organ failure who is not responding to maximal therapy. The family insists on “doing everything” despite the patient’s prior wishes for comfort care only. The nurse feels increasingly anxious and morally conflicted. This scenario best describes:",
+  "stem": "A nurse is caring for a client with multi-organ failure who is not responding to maximal therapy. The family insists on “doing everything” despite the client’s prior wishes for comfort care only. The nurse feels increasingly anxious and morally conflicted. This scenario best describes:",
   "options": [
    "Burnout",
    "Compassion fatigue",
@@ -1524,7 +1524,7 @@
    "Call hospital administration anonymously"
   ],
   "rationales": [
-   "Refusing without a hand-off abandons the patient and skips available resources.",
+   "Refusing without a hand-off abandons the client and skips available resources.",
    "Transferring avoids the problem rather than addressing it.",
    "Open communication with leadership or ethics resources is the first step in addressing moral distress before escalation.",
    "Going straight to administration bypasses the chain of command and the ethics resources meant for this."
@@ -1542,7 +1542,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with advanced cancer has a do-not-resuscitate (DNR) order. During a rapid response event, the patient becomes pulseless. The physician orders CPR. What is the nurse’s best action?",
+  "stem": "A client with advanced cancer has a do-not-resuscitate (DNR) order. During a rapid response event, the client becomes pulseless. The physician orders CPR. What is the nurse’s best action?",
   "options": [
    "Begin CPR immediately",
    "Clarify the code status before initiating CPR",
@@ -1550,13 +1550,13 @@
    "Wait for the ethics committee to decide"
   ],
   "rationales": [
-   "Starting CPR without addressing the documented DNR could violate the patient’s expressed wishes.",
-   "Advocacy requires ensuring the patient’s expressed wishes (DNR) are honored, even during emergencies; the conflict must be resolved immediately.",
-   "Leaving abandons the patient and does not resolve the conflict.",
+   "Starting CPR without addressing the documented DNR could violate the client’s expressed wishes.",
+   "Advocacy requires ensuring the client’s expressed wishes (DNR) are honored, even during emergencies; the conflict must be resolved immediately.",
+   "Leaving abandons the client and does not resolve the conflict.",
    "An ethics committee cannot convene during an arrest; the question must be clarified on the spot."
   ],
   "correct": 1,
-  "takeaway": "When an order conflicts with a documented DNR, immediately clarify code status with the provider; the patient’s wishes guide care.",
+  "takeaway": "When an order conflicts with a documented DNR, immediately clarify code status with the provider; the client’s wishes guide care.",
   "note": null
  },
  {
@@ -1568,7 +1568,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A nurse is assigned to care for a patient on life support whose family wants aggressive care, though the patient’s advance directive states no extraordinary measures. Which principle should guide the nurse’s advocacy?",
+  "stem": "A nurse is assigned to care for a client on life support whose family wants aggressive care, though the client’s advance directive states no extraordinary measures. Which principle should guide the nurse’s advocacy?",
   "options": [
    "Beneficence",
    "Nonmaleficence",
@@ -1576,10 +1576,10 @@
    "Justice"
   ],
   "rationales": [
-   "Beneficence (doing good) matters, but here the decision rests on honoring the patient’s own stated wishes.",
-   "Avoiding harm is relevant, but the core issue is the patient’s right to self-determination.",
-   "Patient autonomy, the right to self-determination, takes precedence and requires honoring the patient’s advance directive.",
-   "Justice concerns fair distribution of resources, not whose wishes guide this patient’s care."
+   "Beneficence (doing good) matters, but here the decision rests on honoring the client’s own stated wishes.",
+   "Avoiding harm is relevant, but the core issue is the client’s right to self-determination.",
+   "Client autonomy, the right to self-determination, takes precedence and requires honoring the client’s advance directive.",
+   "Justice concerns fair distribution of resources, not whose wishes guide this client’s care."
   ],
   "correct": 2,
   "takeaway": "An advance directive is an expression of autonomy and takes precedence over family preference.",
@@ -1594,7 +1594,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient is declared brain-dead and is a registered organ donor. The family is distraught and requests withdrawal of all interventions without organ donation. What is the nurse’s best immediate action?",
+  "stem": "A client is declared brain-dead and is a registered organ donor. The family is distraught and requests withdrawal of all interventions without organ donation. What is the nurse’s best immediate action?",
   "options": [
    "Respect the family’s wishes and stop care",
    "Contact the organ procurement organization (OPO)",
@@ -1602,7 +1602,7 @@
    "Delay action until the ethics committee meets"
   ],
   "rationales": [
-   "Stopping support before OPO involvement could forfeit the patient’s documented donation decision.",
+   "Stopping support before OPO involvement could forfeit the client’s documented donation decision.",
    "Federal regulations require timely referral to the OPO, and only the OPO (or its trained requestors) approaches families about donation; the nurse notifies the OPO first.",
    "Extubating without an order or OPO involvement is inappropriate.",
    "Waiting delays the required OPO referral and may compromise organ viability."
@@ -1620,21 +1620,21 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A Muslim patient in the ICU is scheduled for surgery during Ramadan. The patient expresses concern about fasting. What is the most culturally sensitive nursing action?",
+  "stem": "A Muslim client in the ICU is scheduled for surgery during Ramadan. The client expresses concern about fasting. What is the most culturally sensitive nursing action?",
   "options": [
-   "Encourage the patient to break the fast for health reasons",
+   "Encourage the client to break the fast for health reasons",
    "Notify the dietary to hold meals until sundown",
-   "Offer IV fluids during fasting hours without discussing with the patient",
+   "Offer IV fluids during fasting hours without discussing with the client",
    "Explain that hospital policy overrides fasting practices"
   ],
   "rationales": [
-   "Pressuring the patient dismisses their religious practice; the decision should come from the patient.",
-   "Respecting fasting practices while ensuring health needs are met is a culturally sensitive approach. Always involve patient preference in care planning.",
-   "Acting without discussion ignores the patient’s preferences and consent.",
-   "This dismisses the patient’s beliefs and is not culturally sensitive."
+   "Pressuring the client dismisses their religious practice; the decision should come from the client.",
+   "Respecting fasting practices while ensuring health needs are met is a culturally sensitive approach. Always involve client preference in care planning.",
+   "Acting without discussion ignores the client’s preferences and consent.",
+   "This dismisses the client’s beliefs and is not culturally sensitive."
   ],
   "correct": 1,
-  "takeaway": "Accommodate religious practices such as fasting whenever safe, and plan care with the patient.",
+  "takeaway": "Accommodate religious practices such as fasting whenever safe, and plan care with the client.",
   "note": null
  },
  {
@@ -1646,12 +1646,12 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient with limited English proficiency is about to sign a surgical consent. What is the most appropriate nursing action?",
+  "stem": "A client with limited English proficiency is about to sign a surgical consent. What is the most appropriate nursing action?",
   "options": [
    "Ask a bilingual family member to translate",
    "Use a certified medical interpreter",
    "Simplify medical terms and repeat them",
-   "Proceed with consent since the patient nods in agreement"
+   "Proceed with consent since the client nods in agreement"
   ],
   "rationales": [
    "Family translators risk misinterpretation, omissions, and bias.",
@@ -1660,7 +1660,7 @@
    "Nodding does not show understanding; consent would not be informed."
   ],
   "correct": 1,
-  "takeaway": "Informed consent for a patient with limited English proficiency requires a certified medical interpreter, not family.",
+  "takeaway": "Informed consent for a client with limited English proficiency requires a certified medical interpreter, not family.",
   "note": null
  },
  {
@@ -1672,15 +1672,15 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A nurse notices their own frustration when caring for a patient whose cultural practices delay treatment. Which professional behavior demonstrates cultural sensitivity?",
+  "stem": "A nurse notices their own frustration when caring for a client whose cultural practices delay treatment. Which professional behavior demonstrates cultural sensitivity?",
   "options": [
    "Ignoring the practices to complete care quickly",
    "Asking another nurse to take over",
    "Reflecting on personal bias and adapting care respectfully",
-   "Explaining to the patient why cultural practices are unsafe"
+   "Explaining to the client why cultural practices are unsafe"
   ],
   "rationales": [
-   "Ignoring the patient’s practices disrespects them and can damage trust.",
+   "Ignoring the client’s practices disrespects them and can damage trust.",
    "Handing off avoids the nurse’s own bias rather than addressing it.",
    "Self-awareness and adaptation are key to cultural sensitivity and professional caring practice.",
    "Labeling the practices unsafe without assessment is judgmental and not culturally sensitive."
@@ -1698,7 +1698,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "An experienced ICU nurse feels emotionally drained and detached after multiple patient deaths. What is the nurse most likely experiencing?",
+  "stem": "An experienced ICU nurse feels emotionally drained and detached after multiple client deaths. What is the nurse most likely experiencing?",
   "options": [
    "Burnout",
    "Compassion fatigue",
@@ -1706,13 +1706,13 @@
    "Clinical depression"
   ],
   "rationales": [
-   "Burnout stems mainly from workload and the work environment rather than repeated exposure to patient suffering and death.",
-   "Compassion fatigue is secondary trauma from patient suffering, leading to emotional exhaustion and detachment.",
+   "Burnout stems mainly from workload and the work environment rather than repeated exposure to client suffering and death.",
+   "Compassion fatigue is secondary trauma from client suffering, leading to emotional exhaustion and detachment.",
    "Moral resilience is the ability to recover from ethical challenges, not a state of exhaustion.",
    "Depression is a clinical diagnosis requiring more criteria; this picture fits a work-related reaction to repeated loss."
   ],
   "correct": 1,
-  "takeaway": "Emotional exhaustion and detachment after repeated patient suffering or death = compassion fatigue.",
+  "takeaway": "Emotional exhaustion and detachment after repeated client suffering or death = compassion fatigue.",
   "note": null
  },
  {
@@ -1728,8 +1728,8 @@
   "options": [
    "Increasing overtime shifts to build resilience",
    "Participating in debriefing sessions after traumatic events",
-   "Suppressing emotional responses to patient loss",
-   "Avoiding emotionally challenging patient assignments"
+   "Suppressing emotional responses to client loss",
+   "Avoiding emotionally challenging client assignments"
   ],
   "rationales": [
    "More overtime increases exhaustion and risk of compassion fatigue.",
@@ -1755,7 +1755,7 @@
    "Recommend immediate transfer to another unit",
    "Provide peer and counseling support resources",
    "Suggest ignoring the feelings until they resolve",
-   "Encourage the nurse to take on fewer critical patients"
+   "Encourage the nurse to take on fewer critical clients"
   ],
   "rationales": [
    "Transfer may be considered later, but it is avoidance and does not provide support.",
@@ -1776,16 +1776,16 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient is being compassionately extubated. What is the nurse’s priority action?",
+  "stem": "A client is being compassionately extubated. What is the nurse’s priority action?",
   "options": [
    "Provide high-flow oxygen for comfort",
    "Administer opioid analgesics and anxiolytics as ordered",
    "Explain the process to the family after extubation",
-   "Withhold sedation to assess patient comfort"
+   "Withhold sedation to assess client comfort"
   ],
   "rationales": [
    "High-flow oxygen is not routinely needed for comfort and does not relieve air hunger the way opioids do.",
-   "Priority is patient comfort. Sedation and analgesia are essential before terminal extubation.",
+   "Priority is client comfort. Sedation and analgesia are essential before terminal extubation.",
    "The family should be prepared before extubation, not after.",
    "Withholding medication risks distress and air hunger."
   ],
@@ -1806,17 +1806,17 @@
   "options": [
    "Avoiding family involvement to prevent conflict",
    "Continuing all invasive procedures until death",
-   "Maintaining privacy, respect, and honoring patient wishes",
-   "Prioritizing nurse convenience over patient preference"
+   "Maintaining privacy, respect, and honoring client wishes",
+   "Prioritizing nurse convenience over client preference"
   ],
   "rationales": [
-   "Excluding the family removes support and disregards patient and family wishes.",
+   "Excluding the family removes support and disregards client and family wishes.",
    "Unnecessary invasive procedures cause suffering without benefit.",
    "Dignity is preserved by respecting wishes, avoiding unnecessary procedures, and maintaining privacy.",
-   "Care is centered on the patient, not on staff convenience."
+   "Care is centered on the client, not on staff convenience."
   ],
   "correct": 2,
-  "takeaway": "Dignity at end of life = privacy, respect, and honoring the patient’s wishes.",
+  "takeaway": "Dignity at end of life = privacy, respect, and honoring the client’s wishes.",
   "note": null
  },
  {
@@ -1832,14 +1832,14 @@
   "options": [
    "“We will monitor for pain, anxiety, and provide medications to keep them comfortable.”",
    "“It is natural to suffer at the end of life, but we minimize it when possible.”",
-   "“Most patients do not feel pain during the dying process.”",
+   "“Most clients do not feel pain during the dying process.”",
    "“Your loved one won’t need medications unless they ask.”"
   ],
   "rationales": [
    "Honest reassurance with active symptom management is key in end-of-life communication.",
    "This normalizes suffering and may increase family distress.",
-   "This is false reassurance; many dying patients need active symptom management.",
-   "Dying patients often cannot ask; comfort is assessed with behavioral cues and treated proactively."
+   "This is false reassurance; many dying clients need active symptom management.",
+   "Dying clients often cannot ask; comfort is assessed with behavioral cues and treated proactively."
   ],
   "correct": 0,
   "takeaway": "Reassure families honestly and describe active monitoring and treatment of pain and anxiety.",
@@ -1854,7 +1854,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A dying patient with advanced COPD is anxious and dyspneic. What is the best nursing intervention?",
+  "stem": "A dying client with advanced COPD is anxious and dyspneic. What is the best nursing intervention?",
   "options": [
    "Increase oxygen to maximum settings",
    "Administer opioids for dyspnea and anxiety relief",
@@ -1865,7 +1865,7 @@
    "Oxygen helps only if hypoxemic and does not relieve the sensation of dyspnea as well as opioids do.",
    "Opioids are evidence-based for relieving dyspnea and anxiety in end-of-life care, even in COPD. Comfort takes priority over concern for respiratory depression.",
    "Frequent suctioning is uncomfortable and does not relieve dyspnea without secretions.",
-   "Withholding leaves the patient suffering; appropriately titrated opioids are safe and indicated at end of life."
+   "Withholding leaves the client suffering; appropriately titrated opioids are safe and indicated at end of life."
   ],
   "correct": 1,
   "takeaway": "At end of life, opioids are first-line for dyspnea, even in COPD.",
@@ -1880,11 +1880,11 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "An 82-year-old ICU patient is receiving morphine for pain. Which consideration is most important for this age group?",
+  "stem": "An 82-year-old ICU client is receiving morphine for pain. Which consideration is most important for this age group?",
   "options": [
    "They require higher opioid doses due to tolerance",
    "Slower metabolism and renal clearance may increase toxicity",
-   "Elderly patients rarely experience opioid side effects",
+   "Elderly clients rarely experience opioid side effects",
    "Pain perception decreases significantly in older adults"
   ],
   "rationales": [
@@ -1906,7 +1906,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A nurse is caring for a 40-year-old patient recovering from an MI who is anxious about returning to work and supporting their family. Which nursing intervention best reflects age-appropriate care?",
+  "stem": "A nurse is caring for a 40-year-old client recovering from an MI who is anxious about returning to work and supporting their family. Which nursing intervention best reflects age-appropriate care?",
   "options": [
    "Focus care only on physiologic recovery",
    "Include psychosocial stressors in discharge planning",
@@ -1916,8 +1916,8 @@
   "rationales": [
    "Ignoring psychosocial stressors misses a key need of middle-aged adults and can affect recovery.",
    "Age-appropriate care encompasses both physiological recovery and psychosocial aspects, including employment and family support.",
-   "Delaying teaching leaves the patient unprepared for discharge; teaching should be adapted, not postponed.",
-   "Teaching limited to physical restrictions misses the work and family concerns the patient raised."
+   "Delaying teaching leaves the client unprepared for discharge; teaching should be adapted, not postponed.",
+   "Teaching limited to physical restrictions misses the work and family concerns the client raised."
   ],
   "correct": 1,
   "takeaway": "Care for middle-aged adults includes work, financial, and family-role stressors in discharge planning.",
@@ -1932,12 +1932,12 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A Spanish-speaking patient with limited English proficiency is scheduled for surgery. What is the nurse’s priority?",
+  "stem": "A Spanish-speaking client with limited English proficiency is scheduled for surgery. What is the nurse’s priority?",
   "options": [
    "Requesting a certified medical interpreter",
-   "Asking the patient’s child to interpret",
+   "Asking the client’s child to interpret",
    "Using hand gestures to explain",
-   "Proceeding since the patient nods “yes”"
+   "Proceeding since the client nods “yes”"
   ],
   "rationales": [
    "Professional interpreters ensure safe and ethical communication; family members are not always reliable or appropriate.",
@@ -1946,7 +1946,7 @@
    "Nodding does not show understanding."
   ],
   "correct": 0,
-  "takeaway": "Use certified medical interpreters, never children or untrained family, for patients with limited English proficiency.",
+  "takeaway": "Use certified medical interpreters, never children or untrained family, for clients with limited English proficiency.",
   "note": null
  },
  {
@@ -1958,18 +1958,18 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A Muslim female patient requests a female nurse for catheterization. Which nursing response is most culturally competent?",
+  "stem": "A Muslim female client requests a female nurse for catheterization. Which nursing response is most culturally competent?",
   "options": [
    "Explain that staffing does not allow accommodations",
    "Honor the request and assign a female nurse if possible",
-   "Educate the patient that gender preference is unnecessary",
-   "Delay the procedure until the patient accepts any nurse"
+   "Educate the client that gender preference is unnecessary",
+   "Delay the procedure until the client accepts any nurse"
   ],
   "rationales": [
    "Refusing without trying dismisses a reasonable cultural and religious request.",
    "Respecting cultural values about gender preferences demonstrates cultural competence and dignity in care.",
-   "This dismisses the patient’s values and is not culturally competent.",
-   "Delaying care to pressure the patient is coercive and may cause harm."
+   "This dismisses the client’s values and is not culturally competent.",
+   "Delaying care to pressure the client is coercive and may cause harm."
   ],
   "correct": 1,
   "takeaway": "Honor gender-of-caregiver requests whenever possible as part of culturally competent, dignified care.",
@@ -1984,11 +1984,11 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient’s cultural belief conflicts with a recommended treatment plan. Which action demonstrates cultural competence?",
+  "stem": "A client’s cultural belief conflicts with a recommended treatment plan. Which action demonstrates cultural competence?",
   "options": [
    "Ignore the belief and implement the treatment",
    "Negotiate a care plan that integrates cultural values with safe practice",
-   "Inform the patient that cultural beliefs are not medically valid",
+   "Inform the client that cultural beliefs are not medically valid",
    "Ask another nurse to take the assignment"
   ],
   "rationales": [
@@ -2012,10 +2012,10 @@
   "level": null,
   "stem": "Which example reflects a health inequity in critical care?",
   "options": [
-   "A rural patient develops ARDS",
-   "A patient is unable to access follow-up care due to a lack of insurance",
-   "A patient develops delirium after sedation",
-   "A patient experiences sepsis after surgery"
+   "A rural client develops ARDS",
+   "A client is unable to access follow-up care due to a lack of insurance",
+   "A client develops delirium after sedation",
+   "A client experiences sepsis after surgery"
   ],
   "rationales": [
    "Developing ARDS is a clinical event, not by itself an avoidable, unfair difference in care.",
@@ -2036,18 +2036,18 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient from a low-income background misses follow-up appointments due to lack of transportation. What is the most appropriate nursing action?",
+  "stem": "A client from a low-income background misses follow-up appointments due to lack of transportation. What is the most appropriate nursing action?",
   "options": [
    "Document noncompliance",
    "Refer to social services for transportation resources",
    "Discharge without further intervention",
-   "Advise the patient to borrow money for taxis"
+   "Advise the client to borrow money for taxis"
   ],
   "rationales": [
-   "Labeling the patient noncompliant ignores the real barrier.",
+   "Labeling the client noncompliant ignores the real barrier.",
    "Addressing social determinants (transportation) promotes equitable access and continuity of care.",
-   "Discharging without addressing the barrier leaves the patient at risk.",
-   "This is impractical and shifts the burden back to the patient."
+   "Discharging without addressing the barrier leaves the client at risk.",
+   "This is impractical and shifts the burden back to the client."
   ],
   "correct": 1,
   "takeaway": "Screen for social determinants of health and refer to social work or case management to remove barriers.",
@@ -2062,7 +2062,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "In the ICU, minority patients with sepsis show higher mortality rates compared to other groups. Which nursing role best addresses this inequity?",
+  "stem": "In the ICU, minority clients with sepsis show higher mortality rates compared to other groups. Which nursing role best addresses this inequity?",
   "options": [
    "Ignoring population-level differences",
    "Advocating for equitable access to evidence-based sepsis protocols",
@@ -2071,12 +2071,12 @@
   ],
   "rationales": [
    "Ignoring disparities allows them to continue.",
-   "The nurse advocates for fairness and justice, ensuring all patients receive guideline-based care regardless of their demographics.",
+   "The nurse advocates for fairness and justice, ensuring all clients receive guideline-based care regardless of their demographics.",
    "Attributing disparities to genetics ignores social and system causes and is inaccurate.",
    "Delaying evidence-based care worsens outcomes."
   ],
   "correct": 1,
-  "takeaway": "Nurses address disparities by advocating for consistent, guideline-based care for every patient (justice).",
+  "takeaway": "Nurses address disparities by advocating for consistent, guideline-based care for every client (justice).",
   "note": null
  },
  {
@@ -2088,16 +2088,16 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A hospital identifies language barriers delaying care for non-English-speaking patients. Which system-level nursing intervention is most appropriate?",
+  "stem": "A hospital identifies language barriers delaying care for non-English-speaking clients. Which system-level nursing intervention is most appropriate?",
   "options": [
    "Train staff to avoid using interpreters",
    "Establish interpreter services and multilingual resources",
    "Ask bilingual family members to routinely translate",
-   "Focus resources only on English-speaking patients"
+   "Focus resources only on English-speaking clients"
   ],
   "rationales": [
    "This would worsen communication and safety.",
-   "System-level action ensures equity and reduces delays in care for patients with language barriers.",
+   "System-level action ensures equity and reduces delays in care for clients with language barriers.",
    "Routine family interpretation is unreliable and inappropriate.",
    "This is discriminatory and violates justice."
   ],
@@ -2114,10 +2114,10 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient in the ICU is in septic shock. The family is overwhelmed and tearful. Which nursing action is most appropriate?",
+  "stem": "A client in the ICU is in septic shock. The family is overwhelmed and tearful. Which nursing action is most appropriate?",
   "options": [
    "Provide short, honest updates in simple language",
-   "Avoid updates until the patient stabilizes",
+   "Avoid updates until the client stabilizes",
    "Use medical terms so the family understands clinical accuracy",
    "Direct the family to the waiting room without explanation"
   ],
@@ -2145,13 +2145,13 @@
    "Refuse, as families may interfere with resuscitation",
    "Allow presence if safe and provide a staff member to support them",
    "Allow presence without explanation",
-   "Permit presence only if the patient previously requested it"
+   "Permit presence only if the client previously requested it"
   ],
   "rationales": [
    "Evidence shows family presence rarely interferes; AACN and AHA support offering it.",
    "Family presence during resuscitation is evidence-based and supported when safe, with a dedicated staff member for guidance.",
    "Families need a staff member to explain and support them during the code.",
-   "A prior patient request is not required for family presence."
+   "A prior client request is not required for family presence."
   ],
   "correct": 1,
   "takeaway": "Offer family presence during resuscitation when safe, with a dedicated staff support person.",
@@ -2192,21 +2192,21 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient’s spouse is struggling to understand discharge instructions. What is the best nursing strategy?",
+  "stem": "A client’s spouse is struggling to understand discharge instructions. What is the best nursing strategy?",
   "options": [
    "Repeat the instructions more loudly",
    "Use the “teach-back” method",
    "Provide a copy of the policy manual",
-   "Ask the patient’s neighbor to explain later."
+   "Ask the client’s neighbor to explain later."
   ],
   "rationales": [
    "Volume does not fix comprehension.",
    "Teach-back is best practice for assessing comprehension and ensuring clear understanding.",
-   "A policy manual is not patient education and is not at an appropriate literacy level.",
+   "A policy manual is not client education and is not at an appropriate literacy level.",
    "Shifting teaching to an untrained third party is unsafe and may breach privacy."
   ],
   "correct": 1,
-  "takeaway": "Use teach-back to confirm that patients and families understand instructions.",
+  "takeaway": "Use teach-back to confirm that clients and families understand instructions.",
   "note": null
  },
  {
@@ -2270,21 +2270,21 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A delirium-prone ICU patient is ready for discharge teaching. Which method is most effective?",
+  "stem": "A delirium-prone ICU client is ready for discharge teaching. Which method is most effective?",
   "options": [
    "One long teaching session covering all content",
    "Short, repeated teaching sessions with reinforcement",
-   "Providing the patient with a medical dictionary",
+   "Providing the client with a medical dictionary",
    "Postponing teaching until the day of discharge"
   ],
   "rationales": [
-   "Long sessions exceed the attention span of ICU patients.",
-   "ICU patients have limited capacity; repetition and reinforcement are most effective in this setting.",
-   "A dictionary does not teach and is not suited to the patient’s cognitive state.",
+   "Long sessions exceed the attention span of ICU clients.",
+   "ICU clients have limited capacity; repetition and reinforcement are most effective in this setting.",
+   "A dictionary does not teach and is not suited to the client’s cognitive state.",
    "Waiting compresses teaching into one rushed session."
   ],
   "correct": 1,
-  "takeaway": "Teach ICU patients in short, repeated sessions with reinforcement.",
+  "takeaway": "Teach ICU clients in short, repeated sessions with reinforcement.",
   "note": null
  },
  {
@@ -2296,18 +2296,18 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A nurse is teaching a patient about insulin self-injection. Which evaluation method is best?",
+  "stem": "A nurse is teaching a client about insulin self-injection. Which evaluation method is best?",
   "options": [
-   "Have the patient explain the steps verbally",
-   "Observe the patient demonstrate the injection",
+   "Have the client explain the steps verbally",
+   "Observe the client demonstrate the injection",
    "Provide a written quiz",
-   "Ask the family to confirm the patient understands"
+   "Ask the family to confirm the client understands"
   ],
   "rationales": [
    "Verbal explanation shows knowledge but not the ability to perform the skill.",
    "Return demonstration is the most reliable method for evaluating skill acquisition.",
    "A quiz tests knowledge, not psychomotor skill.",
-   "The family’s opinion does not directly evaluate the patient’s skill."
+   "The family’s opinion does not directly evaluate the client’s skill."
   ],
   "correct": 1,
   "takeaway": "Evaluate psychomotor skills, such as injections, by return demonstration.",
@@ -2322,7 +2322,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Which is the nurse’s priority when teaching ICU patients and families?",
+  "stem": "Which is the nurse’s priority when teaching ICU clients and families?",
   "options": [
    "Cover all possible information at once",
    "Adapt teaching to readiness, literacy level, and stress level",
@@ -2332,8 +2332,8 @@
   "rationales": [
    "Information overload reduces retention.",
    "Teaching must be individualized to readiness, literacy, and stress to be effective.",
-   "Policies are not the priority content for patient teaching.",
-   "Detailed lectures exceed what stressed patients and families can absorb."
+   "Policies are not the priority content for client teaching.",
+   "Detailed lectures exceed what stressed clients and families can absorb."
   ],
   "correct": 1,
   "takeaway": "Individualize ICU teaching to the learner’s readiness, literacy, and stress level.",
@@ -2348,7 +2348,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient’s family requests detailed information about central line care. Which approach is best?",
+  "stem": "A client’s family requests detailed information about central line care. Which approach is best?",
   "options": [
    "Provide a pamphlet and assume understanding",
    "Give clear instructions, demonstrate, and use teach-back",
@@ -2385,7 +2385,7 @@
    "Effective BiPAP improves ventilation in COPD exacerbation, so PaCO₂ falls and pH rises toward normal.",
    "Increasing accessory muscle use signals rising work of breathing and BiPAP failure.",
    "Persistent hypoxemia below 85% means oxygenation has not improved.",
-   "Worsening acidosis means CO₂ is still accumulating and the patient may need intubation."
+   "Worsening acidosis means CO₂ is still accumulating and the client may need intubation."
   ],
   "correct": 0,
   "takeaway": "Judge NIV success in hypercapnic COPD by a falling PaCO₂ and rising pH within 1–2 hours.",
@@ -2409,8 +2409,8 @@
   ],
   "rationales": [
    "Heparin is not used in acute ischemic stroke treatment and increases hemorrhage risk.",
-   "Antiplatelet therapy is not first-line ahead of thrombolysis in an eligible patient and is generally held for 24 hours after alteplase.",
-   "The patient meets criteria for thrombolysis within 4.5 hours of ischemic stroke onset, with a negative CT and BP below 185/110.",
+   "Antiplatelet therapy is not first-line ahead of thrombolysis in an eligible client and is generally held for 24 hours after alteplase.",
+   "The client meets criteria for thrombolysis within 4.5 hours of ischemic stroke onset, with a negative CT and BP below 185/110.",
    "The BP goal before thrombolysis is <185/110, not <120/80; aggressive lowering can extend the infarct."
   ],
   "correct": 2,
@@ -2457,7 +2457,7 @@
    "High-dose opioid",
    "Racemic epinephrine nebulizer",
    "Diuretic administration",
-   "Place the patient supine"
+   "Place the client supine"
   ],
   "rationales": [
    "Opioids depress respiration and do not treat airway edema.",
@@ -2487,7 +2487,7 @@
   ],
   "rationales": [
    "Diuretics do nothing for a tension pneumothorax and worsen hypotension.",
-   "Observation delays life-saving decompression while the patient is in obstructive shock.",
+   "Observation delays life-saving decompression while the client is in obstructive shock.",
    "Clinical tension pneumothorax (hypotension, absent breath sounds, tracheal shift) requires immediate needle decompression.",
    "Calling respiratory therapy alone delays the definitive intervention."
   ],
@@ -2541,7 +2541,7 @@
    "Febrile neutropenia is a medical emergency requiring immediate broad-spectrum antibiotics (within 60 minutes).",
    "There is no platelet count or bleeding described; platelets do not treat infection.",
    "Bacterial sepsis is the main threat; antivirals alone leave it untreated.",
-   "Heparin has no role and increases bleeding risk in a chemotherapy patient."
+   "Heparin has no role and increases bleeding risk in a chemotherapy client."
   ],
   "correct": 0,
   "takeaway": "Neutropenic fever: cultures then broad-spectrum antibiotics within 1 hour.",
@@ -2671,7 +2671,7 @@
    "Antipsychotic therapy with lead-pipe rigidity, hyperthermia, and autonomic instability indicates NMS.",
    "Serotonin syndrome features clonus and hyperreflexia and follows serotonergic drugs, not antipsychotics.",
    "Malignant hyperthermia occurs during or right after exposure to volatile anesthetics or succinylcholine, typically intraoperatively.",
-   "Alcohol withdrawal causes tremor and agitation but not this rigidity in a patient on antipsychotics."
+   "Alcohol withdrawal causes tremor and agitation but not this rigidity in a client on antipsychotics."
   ],
   "correct": 0,
   "takeaway": "NMS: antipsychotic + rigidity + hyperthermia + autonomic instability; stop the drug, cool, and give dantrolene or bromocriptine.",
@@ -2694,7 +2694,7 @@
    "Mixed acidosis"
   ],
   "rationales": [
-   "Respiratory acidosis requires a high PaCO₂; this patient is hyperventilating.",
+   "Respiratory acidosis requires a high PaCO₂; this client is hyperventilating.",
    "PE causes hypoxemia-driven hyperventilation, producing respiratory alkalosis (high pH, low PaCO₂).",
    "Metabolic acidosis would show a low pH and low HCO₃⁻, which this ABG does not.",
    "A mixed acidosis would have a low pH; this pH is alkalotic."
@@ -2847,11 +2847,11 @@
    "Racemic epinephrine and prepare for reintubation",
    "High-dose morphine",
    "Diuretic infusion",
-   "Place the patient supine"
+   "Place the client supine"
   ],
   "rationales": [
    "Post-extubation stridor from airway edema requires racemic epinephrine and readiness for reintubation.",
-   "Morphine depresses respiration in a patient already failing.",
+   "Morphine depresses respiration in a client already failing.",
    "Diuretics do not relieve laryngeal edema in time.",
    "Supine positioning worsens upper-airway obstruction."
   ],
@@ -2980,10 +2980,10 @@
    "Large-dose diuretics"
   ],
   "rationales": [
-   "Septic shock with suspected line infection requires cultures and antibiotics, along with 30 mL/kg fluid resuscitation (LR preferred over NS, with caution in dialysis or heart failure patients).",
+   "Septic shock with suspected line infection requires cultures and antibiotics, along with 30 mL/kg fluid resuscitation (LR preferred over NS, with caution in dialysis or heart failure clients).",
    "Bicarbonate does not treat the infection or restore perfusion.",
    "Beta-blockers worsen hypotension in septic shock.",
-   "Diuretics reduce intravascular volume in a patient already in shock."
+   "Diuretics reduce intravascular volume in a client already in shock."
   ],
   "correct": 0,
   "takeaway": "Septic shock: blood cultures then broad-spectrum antibiotics within 1 hour; remove an infected central line.",
@@ -3033,7 +3033,7 @@
   ],
   "rationales": [
    "DKA requires hyperglycemia and ketoacidosis, which are not present.",
-   "SIADH causes euvolemic hyponatremia; this patient has a clear diuretic cause with hypokalemia.",
+   "SIADH causes euvolemic hyponatremia; this client has a clear diuretic cause with hypokalemia.",
    "Diuretics cause hypovolemic hyponatremia with potassium loss.",
    "The sodium is 118, which is low, not high."
   ],
@@ -3154,7 +3154,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "The patient presented to the intensive care unit after ingesting an unknown substance. He is hypertensive, tachycardic, flushed, with vertical nystagmus/eye \"flickering,\" then seizure. Which of the following substances did the patient most likely ingest?",
+  "stem": "The client was admitted to the intensive care unit after ingesting an unknown substance. He is hypertensive, tachycardic and flushed, with vertical nystagmus (\"flickering\" eyes), and then has a seizure. Which substance did the client most likely ingest?",
   "options": [
    "PCP",
    "Heroin",
@@ -3188,7 +3188,7 @@
    "Oral sodium tablets only"
   ],
   "rationales": [
-   "A loop diuretic alone does not raise sodium fast enough in a seizing patient.",
+   "A loop diuretic alone does not raise sodium fast enough in a seizing client.",
    "Severe symptomatic hyponatremia requires cautious 3% saline, targeting a sodium rise of 4–6 mEq/L in 24 hours; check Na⁺ every 2–4 hours and use desmopressin plus D5W if overcorrecting.",
    "Insulin has no role in hyponatremia.",
    "Oral sodium tablets act too slowly for seizures."
@@ -3206,7 +3206,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Post-thrombolysis (alteplase) for ischemic stroke 45 minutes ago, the patient's BP is 196/110, NIHSS unchanged, and there were no bleeding signs. Best next step:",
+  "stem": "Post-thrombolysis (alteplase) for ischemic stroke 45 minutes ago, the client's BP is 196/110, NIHSS unchanged, and there were no bleeding signs. Best next step:",
   "options": [
    "Give labetalol IV and target BP per protocol",
    "Start heparin infusion",
@@ -3232,7 +3232,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A 78-year-old patient on anticoagulation therapy presents with a gradual onset of confusion and headache after a minor fall two weeks ago. CT scan reveals a crescent-shaped collection of blood along the brain surface. What is the most likely diagnosis?",
+  "stem": "A 78-year-old client on anticoagulation therapy presents with a gradual onset of confusion and headache after a minor fall two weeks ago. CT scan reveals a crescent-shaped collection of blood along the brain surface. What is the most likely diagnosis?",
   "options": [
    "Epidural hematoma",
    "Subarachnoid hemorrhage",
@@ -3242,7 +3242,7 @@
   "rationales": [
    "Epidural hematomas are lens-shaped (biconvex), arterial, and classically have a lucid interval followed by rapid decline.",
    "Subarachnoid hemorrhage causes a sudden, severe 'worst headache' rather than gradual onset over weeks.",
-   "Subdural hematomas result from venous bleeding, often in elderly or anticoagulated patients, with gradual onset and a crescent shape on CT.",
+   "Subdural hematomas result from venous bleeding, often in elderly or anticoagulated clients, with gradual onset and a crescent shape on CT.",
    "Intracerebral hemorrhage involves bleeding within brain tissue, not along its surface."
   ],
   "correct": 2,
@@ -3310,7 +3310,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Three days after admission from PACU, a patient becomes restless and attempts to climb out of bed and chew IV lines. The RN should assess:",
+  "stem": "Three days after admission from PACU, a client becomes restless and attempts to climb out of bed and chew IV lines. The RN should assess:",
   "options": [
    "Sleep deprivation",
    "Ability to carry on a coherent conversation",
@@ -3318,7 +3318,7 @@
    "Pain scale score"
   ],
   "rationales": [
-   "Sleep deprivation may contribute, but the first need is to assess the patient's mental status.",
+   "Sleep deprivation may contribute, but the first need is to assess the client's mental status.",
    "Agitation and mental status change are best assessed by orientation and coherence of speech, which screens for delirium.",
    "Glucose may be checked later, but assessing cognition identifies the problem first.",
    "Pain may contribute, but this behavior points to delirium, which needs a cognitive assessment."
@@ -3362,7 +3362,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A major goal for a patient 48 hours post valve replacement surgery is to:",
+  "stem": "A major goal for a client 48 hours post valve replacement surgery is to:",
   "options": [
    "Increase activity rapidly",
    "Prevent thrombus formation",
@@ -3373,7 +3373,7 @@
    "Activity is advanced gradually after cardiac surgery, not rapidly.",
    "Prosthetic valves are thrombogenic, so anticoagulation and thrombus prevention are early priorities.",
    "Hypertension stresses suture lines and is avoided.",
-   "Vigorous coughing strains the sternotomy; patients splint and cough gently."
+   "Vigorous coughing strains the sternotomy; clients splint and cough gently."
   ],
   "correct": 1,
   "takeaway": "Mechanical valves require lifelong anticoagulation (warfarin) because they are thrombogenic.",
@@ -3388,11 +3388,11 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Which nursing action might decrease a patient's self-esteem?",
+  "stem": "Which nursing action might decrease a client's self-esteem?",
   "options": [
    "Encouraging participation in ADLs",
    "Allowing choices in care",
-   "Requiring the patient to participate in all treatments",
+   "Requiring the client to participate in all treatments",
    "Providing reassurance about progress"
   ],
   "rationales": [
@@ -3402,7 +3402,7 @@
    "Realistic reassurance about progress supports self-esteem."
   ],
   "correct": 2,
-  "takeaway": "Giving patients choices and control protects self-esteem; forcing compliance undermines it.",
+  "takeaway": "Giving clients choices and control protects self-esteem; forcing compliance undermines it.",
   "note": null
  },
  {
@@ -3414,7 +3414,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with end-stage liver disease and Hepatitis C is declared brain dead. Parents decide to discontinue feeding and donate organs. The most appropriate nursing action is to:",
+  "stem": "A client with end-stage liver disease and Hepatitis C is declared brain dead. Parents decide to discontinue feeding and donate organs. The most appropriate nursing action is to:",
   "options": [
    "Begin withdrawal protocol immediately",
    "Provide spiritual counseling only",
@@ -3440,7 +3440,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A direct effect of sodium nitroprusside (Nipride) is:",
+  "stem": "Which hemodynamic change is a direct effect of sodium nitroprusside?",
   "options": [
    "Increase preload",
    "Decrease afterload",
@@ -3492,7 +3492,7 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "A TBI patient, ICP 26 mmHg, CPP 58, PaCO₂ 40, Na⁺ 141, sedated. Best immediate action to reduce ICP while preserving CPP:",
+  "stem": "A TBI client, ICP 26 mmHg, CPP 58, PaCO₂ 40, Na⁺ 141, sedated. Best immediate action to reduce ICP while preserving CPP:",
   "options": [
    "Lower head of bed to 10°",
    "Hyperventilate to PaCO₂ 25 for 6 hours",
@@ -3518,7 +3518,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient transferred out of the ICU says, \"Why can't I just stay? I don't feel strong enough.\" Which RN response is appropriate?",
+  "stem": "A client transferred out of the ICU says, \"Why can't I just stay? I don't feel strong enough.\" Which RN response is appropriate?",
   "options": [
    "\"You will be fine; don't worry.\"",
    "\"You sound concerned about leaving the ICU.\"",
@@ -3526,13 +3526,13 @@
    "\"Let's just focus on your recovery.\""
   ],
   "rationales": [
-   "False reassurance dismisses the patient's feelings.",
-   "Therapeutic communication reflects and acknowledges the patient's concern, inviting further discussion of transfer anxiety.",
-   "Deferring to the doctor avoids the patient's feelings.",
+   "False reassurance dismisses the client's feelings.",
+   "Therapeutic communication reflects and acknowledges the client's concern, inviting further discussion of transfer anxiety.",
+   "Deferring to the doctor avoids the client's feelings.",
    "Changing the subject blocks communication."
   ],
   "correct": 1,
-  "takeaway": "Transfer anxiety is common; reflect feelings and prepare the patient before ICU transfer.",
+  "takeaway": "Transfer anxiety is common; reflect feelings and prepare the client before ICU transfer.",
   "note": null
  },
  {
@@ -3596,7 +3596,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Six members of a trauma patient's family arrive asking questions. The most appropriate RN response is:",
+  "stem": "Six members of a trauma client's family arrive asking questions. The most appropriate RN response is:",
   "options": [
    "Provide each family member with detailed updates",
    "Ask the family to identify a spokesperson",
@@ -3622,7 +3622,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Which electrolyte abnormality should the RN anticipate in a patient with chronic alcoholism?",
+  "stem": "Which electrolyte abnormality should the RN anticipate in a client with chronic alcoholism?",
   "options": [
    "Hyperkalemia",
    "Hypercalcemia",
@@ -3648,7 +3648,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient's family expresses anxiety regarding monitor numbers and asks for clarification. The RN's most appropriate response is:",
+  "stem": "A client's family expresses anxiety regarding monitor numbers and asks for clarification. The RN's most appropriate response is:",
   "options": [
    "\"Those numbers are not important.\"",
    "\"Which number on the monitor concerns you?\"",
@@ -3674,7 +3674,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "The purpose of a bowel regimen in a patient with disseminated intravascular coagulation (DIC) is to decrease the risk of:",
+  "stem": "The purpose of a bowel regimen in a client with disseminated intravascular coagulation (DIC) is to decrease the risk of:",
   "options": [
    "Stroke",
    "Pulmonary embolism",
@@ -3684,7 +3684,7 @@
   "rationales": [
    "Stroke is not the specific risk prevented by a bowel regimen.",
    "Straining does not prevent PE.",
-   "A bowel regimen prevents straining (Valsalva), which raises ICP and bleeding risk in a coagulopathic patient.",
+   "A bowel regimen prevents straining (Valsalva), which raises ICP and bleeding risk in a coagulopathic client.",
    "Preventing constipation is the mechanism, but the clinical goal in DIC is preventing intracranial bleeding."
   ],
   "correct": 2,
@@ -3726,21 +3726,21 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A patient has been waiting for two months for a heart transplant. Family expresses hopelessness. The RN should:",
+  "stem": "A client has been waiting for two months for a heart transplant. Family expresses hopelessness. The RN should:",
   "options": [
    "Avoid the topic to reduce anxiety",
-   "Focus only on the patient's progress",
+   "Focus only on the client's progress",
    "Help maintain family integrity, crucial in the transplant process",
    "Tell them to trust the medical team"
   ],
   "rationales": [
    "Avoiding the topic leaves the family's distress unaddressed.",
-   "Focusing only on the patient ignores the family's coping needs.",
+   "Focusing only on the client ignores the family's coping needs.",
    "Family coping and support are crucial during the transplant waiting process.",
    "Telling them to trust the team dismisses their feelings."
   ],
   "correct": 2,
-  "takeaway": "Support family coping during long transplant waits; family integrity affects patient outcomes.",
+  "takeaway": "Support family coping during long transplant waits; family integrity affects client outcomes.",
   "note": null
  },
  {
@@ -3778,21 +3778,21 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Guidelines for using a translator when admitting a non-English speaking patient include:",
+  "stem": "Guidelines for using a translator when admitting a non-English speaking client include:",
   "options": [
-   "Standing next to the translator and as close to the patient as possible",
+   "Standing next to the translator and as close to the client as possible",
    "Speaking only to the translator",
    "Using family members whenever possible",
    "Speaking loudly and slowly"
   ],
   "rationales": [
-   "Positioning yourself near the translator and close to the patient supports direct communication and trust.",
-   "Speak to the patient, not to the interpreter.",
+   "Positioning yourself near the translator and close to the client supports direct communication and trust.",
+   "Speak to the client, not to the interpreter.",
    "Family members can misinterpret, filter, or breach privacy; use trained interpreters.",
    "Volume does not overcome a language barrier."
   ],
   "correct": 0,
-  "takeaway": "With an interpreter, face and speak directly to the patient; avoid using family as interpreters.",
+  "takeaway": "With an interpreter, face and speak directly to the client; avoid using family as interpreters.",
   "note": null
  },
  {
@@ -3804,7 +3804,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Which ABG results should the RN anticipate in a patient with a history of chronic alcoholism?",
+  "stem": "Which ABG results should the RN anticipate in a client with a history of chronic alcoholism?",
   "options": [
    "7.45 / 35 / 24",
    "7.30 / 48 / 26",
@@ -3908,7 +3908,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Kehr's sign in a patient with blunt abdominal trauma most likely indicates:",
+  "stem": "Kehr's sign in a client with blunt abdominal trauma most likely indicates:",
   "options": [
    "Splenic rupture",
    "Liver laceration",
@@ -3934,7 +3934,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "The most appropriate initial intervention for an unstable patient with second-degree AV heart block Type II is:",
+  "stem": "The most appropriate initial intervention for an unstable client with second-degree AV heart block Type II is:",
   "options": [
    "IV atropine",
    "Amiodarone bolus",
@@ -4012,7 +4012,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "An elderly patient in alcohol withdrawal is hallucinating about puppies biting his toes. The RN should:",
+  "stem": "An elderly client in alcohol withdrawal is hallucinating about puppies biting his toes. The RN should:",
   "options": [
    "Use reality orientation with concrete statements",
    "Apply restraints",
@@ -4038,7 +4038,7 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "A patient on heparin day 6 develops platelets 230k → 92k, new calf pain, INR 1.0, aPTT therapeutic, D-dimer ↑, fibrinogen normal. Best immediate step:",
+  "stem": "A client on heparin day 6 develops platelets 230k → 92k, new calf pain, INR 1.0, aPTT therapeutic, D-dimer ↑, fibrinogen normal. Best immediate step:",
   "options": [
    "Stop heparin and start argatroban",
    "Give a platelet transfusion",
@@ -4064,7 +4064,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Which of the following is the treatment of choice for inadequate heparin reversal?",
+  "stem": "Which treatment is indicated for inadequate heparin reversal?",
   "options": [
    "Vitamin K",
    "Protamine sulfate",
@@ -4090,7 +4090,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "During assessment of a patient with pancreatitis, the RN notes carpopedal spasm when inflating a BP cuff. This finding suggests:",
+  "stem": "During assessment of a client with pancreatitis, the RN notes carpopedal spasm when inflating a BP cuff. This finding suggests:",
   "options": [
    "Low serum sodium",
    "Low serum calcium",
@@ -4130,7 +4130,7 @@
    "This is false and leaves the family helpless."
   ],
   "correct": 2,
-  "takeaway": "Families of patients at risk of sudden cardiac death should be taught CPR and AED use.",
+  "takeaway": "Families of clients at risk of sudden cardiac death should be taught CPR and AED use.",
   "note": null
  },
  {
@@ -4142,7 +4142,7 @@
   "type": "mcq",
   "difficulty": 3,
   "level": null,
-  "stem": "A patient with a history of angina is 12 hours post–AAA repair and on a nitroprusside infusion for postoperative hypertension. The patient now reports new, severe back pain. The best immediate action is to:",
+  "stem": "A client with a history of angina is 12 hours post–AAA repair and on a nitroprusside infusion for postoperative hypertension. The client now reports new, severe back pain. The best immediate action is to:",
   "options": [
    "Give IV opioids and reassess in 30 minutes",
    "Obtain a stat lumbar spine X-ray",
@@ -4220,12 +4220,12 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with a methamphetamine overdose is admitted. Anticipated initial management includes:",
+  "stem": "A client with a methamphetamine overdose is admitted. Which initial management should the nurse anticipate?",
   "options": [
    "Beta-blockers and fluid restriction",
    "Volume repletion and active cooling",
    "Immediate intubation and paralysis in all cases",
-   "Sodium bicarbonate for all patients"
+   "Sodium bicarbonate for all clients"
   ],
   "rationales": [
    "Pure beta-blockers risk unopposed alpha stimulation, and fluid restriction worsens rhabdomyolysis and renal injury.",
@@ -4246,7 +4246,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with a femur fracture is found pulseless (no carotid pulse) and apneic. The ECG shows a narrow QRS at 130 bpm. The priority intervention is:",
+  "stem": "A client with a femur fracture is found pulseless (no carotid pulse) and apneic. The ECG shows a narrow QRS at 130 bpm. The priority intervention is:",
   "options": [
    "Atropine 1 mg IV",
    "Start chest compressions, give epinephrine, and infuse IV fluids",
@@ -4272,11 +4272,11 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "During transfer planning for a patient with a T5 spinal cord injury, the nurse should first:",
+  "stem": "During transfer planning for a client with a T5 spinal cord injury, the nurse should first:",
   "options": [
    "Use a two-person pivot transfer",
    "Consult with rehabilitation staff regarding transfer criteria and technique",
-   "Transfer the patient with a slider board independently",
+   "Transfer the client with a slider board independently",
    "Delay transfers until full sensation returns"
   ],
   "rationales": [
@@ -4324,17 +4324,17 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient in their 4th episode of heart failure says, \"I can't take it anymore. I wish I could end all of this.\" Priority action:",
+  "stem": "A client in their 4th episode of heart failure says, \"I can't take it anymore. I wish I could end all of this.\" Priority action:",
   "options": [
    "Encourage rest and reassess later",
-   "Explore the intent of the statement directly with the patient",
+   "Explore the intent of the statement directly with the client",
    "Call security for continuous observation",
    "Offer a sedative for sleep"
   ],
   "rationales": [
    "Delaying the assessment leaves a possible suicide risk unaddressed.",
    "A suicidal statement requires immediate, direct assessment of thoughts, plan, means, and timing, then safety measures (notify provider, remove hazards, 1:1 observation if needed, psych consult).",
-   "Security is only appropriate if the patient is dangerous or agitated.",
+   "Security is only appropriate if the client is dangerous or agitated.",
    "Sedatives can mask risk before it is assessed."
   ],
   "correct": 1,
@@ -4350,7 +4350,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A patient with heroin and alcohol abuse presents with cellulitis, BP 88/45, HR 124, RR 26, T 102°F; the arm is edematous and draining yellow exudate. Initial bundle should include:",
+  "stem": "A client with heroin and alcohol abuse presents with cellulitis, BP 88/45, HR 124, RR 26, T 102°F; the arm is edematous and draining yellow exudate. Initial bundle should include:",
   "options": [
    "IV steroids, diuretics, and vasodilators",
    "Blood cultures, broad-spectrum antibiotics, and rapid IV fluids",
@@ -4360,7 +4360,7 @@
   "rationales": [
    "Steroids, diuretics, and vasodilators worsen septic shock.",
    "The sepsis bundle calls for cultures first, broad-spectrum antibiotics, and rapid fluid resuscitation for hypotension, tachycardia, and fever.",
-   "A hypotensive septic patient needs IV antibiotics and admission.",
+   "A hypotensive septic client needs IV antibiotics and admission.",
    "Each hour of antibiotic delay in septic shock increases mortality."
   ],
   "correct": 1,
@@ -4376,7 +4376,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A blunt abdominal trauma patient develops acute left shoulder pain. What should the nurse suspect is the most likely cause?",
+  "stem": "A blunt abdominal trauma client develops acute left shoulder pain. What should the nurse suspect is the most likely cause?",
   "options": [
    "Diaphragmatic irritation",
    "Ruptured bladder",
@@ -4402,7 +4402,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "Post-MVC patient is cool, clammy, with chest/back pain, diminished left breath sounds, fractures of left ribs 5–7, and 25% left hemothorax on CXR. Best next step:",
+  "stem": "Post-MVC client is cool, clammy, with chest/back pain, diminished left breath sounds, fractures of left ribs 5–7, and 25% left hemothorax on CXR. Best next step:",
   "options": [
    "Immediate needle decompression",
    "Chest tube insertion, oxygen, and fluid bolus",
@@ -4412,7 +4412,7 @@
   "rationales": [
    "Needle decompression treats tension pneumothorax, not hemothorax.",
    "A symptomatic traumatic hemothorax requires a chest tube, oxygen, and volume resuscitation.",
-   "Observation is unsafe in a patient with signs of shock.",
+   "Observation is unsafe in a client with signs of shock.",
    "Steroids have no role in traumatic hemothorax."
   ],
   "correct": 1,
@@ -4480,7 +4480,7 @@
   "type": "mcq",
   "difficulty": 2,
   "level": null,
-  "stem": "A Jehovah's Witness patient has a H/H 6.5/18. The most appropriate intervention is to:",
+  "stem": "A Jehovah's Witness client has a H/H 6.5/18. The most appropriate intervention is to:",
   "options": [
    "Administer PRBCs",
    "Begin cell-salvage (autotransfusion) if acceptable",
@@ -4488,13 +4488,13 @@
    "Administer FFP"
   ],
   "rationales": [
-   "Allogeneic red cells are typically refused and must not be given against the patient's wishes.",
-   "Cell salvage, if acceptable to the patient, preserves beliefs and restores oxygen-carrying capacity; also confirm advance directives and use EPO, iron, and meticulous hemostasis.",
+   "Allogeneic red cells are typically refused and must not be given against the client's wishes.",
+   "Cell salvage, if acceptable to the client, preserves beliefs and restores oxygen-carrying capacity; also confirm advance directives and use EPO, iron, and meticulous hemostasis.",
    "Platelets are usually refused and do not treat anemia.",
    "FFP is usually refused and does not treat anemia."
   ],
   "correct": 1,
-  "takeaway": "Respect informed refusal of blood; offer acceptable alternatives (cell saver, EPO, IV iron) per the patient's directive.",
+  "takeaway": "Respect informed refusal of blood; offer acceptable alternatives (cell saver, EPO, IV iron) per the client's directive.",
   "note": null
  },
  {
@@ -4506,7 +4506,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "On examination of a patient with pulmonary consolidation, which findings are most likely?",
+  "stem": "On examination of a client with pulmonary consolidation, which findings are most likely?",
   "options": [
    "Diminished breath sounds and pleural rub",
    "Bronchial breath sounds with whispered pectoriloquy",
@@ -4534,7 +4534,7 @@
   "level": null,
   "stem": "Which bedside strategy best optimizes CPP without harming cerebral blood flow?",
   "options": [
-   "Turn the patient every hour regardless of ICP",
+   "Turn the client every hour regardless of ICP",
    "Keep MAP <65 mmHg to reduce pressure",
    "Maintain PaCO₂ <30 mmHg to reduce ICP",
    "Maintain a neutral head/neck position"
@@ -4558,7 +4558,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A non-English-speaking patient post–aortic valve replacement becomes increasingly restless and splints the chest with both hands. An effective way to communicate is:",
+  "stem": "A non-English-speaking client post–aortic valve replacement becomes increasingly restless and splints the chest with both hands. An effective way to communicate is:",
   "options": [
    "Speak loudly and slowly",
    "Use touch and clear gestures to convey messages",
@@ -4584,11 +4584,11 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "Multiple disciplines (RT, PT/OT, nursing) are teaching a patient at discharge, each on separate flow sheets. The best way to coordinate education is to:",
+  "stem": "Multiple disciplines (RT, PT/OT, nursing) are teaching a client at discharge, each on separate flow sheets. The best way to coordinate education is to:",
   "options": [
    "Keep separate sheets for accountability",
    "Designate one discipline to document for all",
-   "Document all patient teaching on the same shared flow sheet",
+   "Document all client teaching on the same shared flow sheet",
    "Delay documentation until discharge day"
   ],
   "rationales": [
@@ -8963,7 +8963,7 @@
    "A wide base of support improves stability, and keeping the load close reduces strain on the back.",
    "Bending at the waist strains the lower back; the nurse should bend at the hips and knees.",
    "Twisting while lifting is a common cause of back injury; the nurse should pivot the feet instead.",
-   "Safe patient handling requires lift devices or additional staff for dependent clients."
+   "Safe client handling requires lift devices or additional staff for dependent clients."
   ],
   "correct": 0,
   "takeaway": "Body mechanics: wide base, load close, bend knees not waist, pivot don't twist, and use lift devices for dependent clients.",
@@ -9355,7 +9355,7 @@
   "type": "mcq",
   "difficulty": 1,
   "level": null,
-  "stem": "A client is admitted to the hospital for elective knee surgery. Under the federal Patient Self-Determination Act, what is the nurse's responsibility regarding advance directives?",
+  "stem": "A client is admitted to the hospital for elective knee surgery. Under the federal Client Self-Determination Act, what is the nurse's responsibility regarding advance directives?",
   "options": [
    "Require the client to complete an advance directive before surgery.",
    "Tell the client that a do-not-resuscitate order is written automatically if there is no advance directive.",
@@ -27260,7 +27260,7 @@
    "\"If you have an advance directive, we can place a copy in your medical record.\""
   ],
   "rationales": [
-   "Correct. Under the Patient Self-Determination Act, facilities must tell adult clients about their right to make decisions about care, including refusing treatment.",
+   "Correct. Under the Client Self-Determination Act, facilities must tell adult clients about their right to make decisions about care, including refusing treatment.",
    "Correct. Facilities may not condition care or otherwise discriminate based on whether a client has an advance directive.",
    "Incorrect. Completing an advance directive is voluntary; it cannot be required for admission.",
    "Correct. While the client has decision-making capacity, the client makes his or her own decisions; the agent's authority usually begins when the client loses capacity (state law and the document itself set the details).",
@@ -28295,7 +28295,7 @@
    3,
    1
   ],
-  "takeaway": "I-PASS order: Illness severity, client (Patient) summary, Action list, Situation awareness and contingency planning, Synthesis by the receiver.",
+  "takeaway": "I-PASS order: Illness severity, client (Client) summary, Action list, Situation awareness and contingency planning, Synthesis by the receiver.",
   "note": null
  },
  {
@@ -30609,7 +30609,7 @@
    "Keep the head of the bed at 30 degrees and use a regular draw sheet with one caregiver."
   ],
   "rationales": [
-   "A flat bed removes the uphill pull, and a friction-reducing device used with two or more caregivers lowers the force on both staff and the client's skin; heavier clients may need a mechanical lift per safe patient handling policy.",
+   "A flat bed removes the uphill pull, and a friction-reducing device used with two or more caregivers lowers the force on both staff and the client's skin; heavier clients may need a mechanical lift per safe client handling policy.",
    "Pulling under the axillae (a drag lift) strains the caregiver's back and can injure the client's shoulders; it is unsafe.",
    "This client cannot assist, so relying on the client's effort is not realistic and leaves the nurse lifting most of the weight.",
    "Moving uphill against gravity with a single caregiver increases the load and the risk of injury."

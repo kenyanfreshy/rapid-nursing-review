@@ -1,0 +1,86 @@
+[
+ {
+  "id": "nb:ccrnb-pharm-02",
+  "verdict": "accepted",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Beta-blockade with labetalol (alpha+beta) in cocaine toxicity is debated, so it should not decide the key. Distractor changed to propranolol, a pure nonselective beta-blocker that is clearly avoided.",
+  "set": {
+   "options.2": "Administer propranolol",
+   "rationales.2": "Correct. Propranolol is a pure nonselective beta-blocker; in acute cocaine toxicity it can leave alpha-adrenergic stimulation unopposed, worsening coronary vasospasm and hypertension. Avoid it in the acute phase.",
+   "takeaway": "In acute cocaine toxicity use benzodiazepines and nitroglycerin; avoid pure beta-blockers such as propranolol because of unopposed alpha stimulation."
+  }
+ },
+ {
+  "id": "nb:ccrnx-060",
+  "verdict": "accepted",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Direct question without \"Which of the following\".",
+  "set": {
+   "stem": "The client was admitted to the intensive care unit after ingesting an unknown substance. He is hypertensive, tachycardic and flushed, with vertical nystagmus (\"flickering\" eyes), and then has a seizure. Which substance did the client most likely ingest?"
+  }
+ },
+ {
+  "id": "nb:ccrnx-081",
+  "verdict": "accepted",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Sentence completion converted to a direct question.",
+  "set": {
+   "stem": "Which hemodynamic change is a direct effect of sodium nitroprusside?"
+  }
+ },
+ {
+  "id": "nb:ccrnx-115",
+  "verdict": "accepted",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Direct question without \"Which of the following\".",
+  "set": {
+   "stem": "Which treatment is indicated for inadequate heparin reversal?"
+  }
+ },
+ {
+  "id": "nb:ccrnx-124",
+  "verdict": "accepted",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Sentence completion converted to a direct question.",
+  "set": {
+   "stem": "A client with a methamphetamine overdose is admitted. Which initial management should the nurse anticipate?"
+  }
+ },
+ {
+  "id": "rnr:pharmacology-043",
+  "verdict": "accepted",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Rationale now also names the missing space between dose and unit.",
+  "set": {
+   "rationales.3": "Correct. \"U\" is on The Joint Commission's do-not-use list because it can be read as 0 or 4, causing a tenfold insulin overdose; writing \"10U\" with no space between the number and the unit adds to the risk. The prescriber must clarify."
+  }
+ },
+ {
+  "id": "rnr:pharmacology-003",
+  "verdict": "rejected",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "The ISMP trailing-zero rule applies to medication doses, not to reported lab values; \"creatinine 1.0 mg/dL\" is standard lab reporting.",
+  "set": {}
+ },
+ {
+  "id": "rnr:pharmacology-012",
+  "verdict": "rejected",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "The item already cites DailyMed alongside OpenStax Pharmacology.",
+  "set": {}
+ },
+ {
+  "id": "rnr:pharmacology-027",
+  "verdict": "rejected",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "Option D, its rationale and the takeaway already say to repeat every 2 to 3 minutes in alternating nostrils.",
+  "set": {}
+ },
+ {
+  "id": "nb:nb26-card-040",
+  "verdict": "rejected",
+  "source": "Gemini batch 28 (Pharmacology part 1)",
+  "note": "The step already reads \"Push the adenosine rapidly over 1 to 2 seconds\"; no change needed.",
+  "set": {}
+ }
+]

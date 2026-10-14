@@ -65,7 +65,7 @@
    "rationales": [
     "Assessment-first applies to stable clients; an active seizure is an emergent exception.",
     "Reviewing the record delays care for an unstable client.",
-    "Correct. The book lists active seizures as an exception to assessment first: if the patient is unstable, act.",
+    "Correct. The book lists active seizures as an exception to assessment first: if the client is unstable, act.",
     "Leaving the client to call first delays immediate action that keeps the client safe."
    ],
    "clue": "The seizure is actively occurring.",
@@ -165,7 +165,7 @@
    "rationales": [
     "Teaching must be done by the RN and is never delegated.",
     "Administering oral medications is listed as an LPN task, not a UAP task.",
-    "Correct. The book lists taking vital signs on stable patients and reporting findings as UAP tasks.",
+    "Correct. The book lists taking vital signs on stable clients and reporting findings as UAP tasks.",
     "Evaluating outcomes is an RN responsibility that cannot be delegated."
    ],
    "clue": "The client is stable and the task is routine data collection.",
@@ -215,7 +215,7 @@
    "rationales": [
     "A handout and a yes or no question do not confirm learning the way return demonstration does.",
     "Correct. The book says effective teaching uses simple language and includes return demonstration.",
-    "The book states teaching is ineffective if the patient is unstable.",
+    "The book states teaching is ineffective if the client is unstable.",
     "Effective teaching uses simple language rather than technical terms."
    ],
    "clue": "The client must safely perform a new skill at home.",
@@ -247,7 +247,7 @@
     4
    ],
    "rationales": [
-    "Incorrect. The book says to verify patient identity before medications or procedures, regardless of familiarity.",
+    "Incorrect. The book says to verify client identity before medications or procedures, regardless of familiarity.",
     "Correct. Following infection control standards, including hand hygiene, PPE and isolation, is a listed key safety principle.",
     "Correct. Monitoring for medication side effects and adverse reactions is a listed key safety principle.",
     "Incorrect. The book says to act immediately on critical lab values, not defer them.",
@@ -276,7 +276,7 @@
     "Incorrect. A client's statement alone does not replace identity verification before medications.",
     "Incorrect. Asking a roommate is not identity verification and breaches the client's privacy.",
     "Incorrect. A bed location is not verification of the client's identity.",
-    "Correct. The book lists verifying patient identity before medications or procedures as a key safety principle."
+    "Correct. The book lists verifying client identity before medications or procedures as a key safety principle."
    ],
    "clue": "A shared room and a client volunteering that the medication is theirs.",
    "priority": "Verify identity before every medication or procedure.",
@@ -587,7 +587,7 @@
     "Incorrect. The book says to assess before giving medications.",
     "Correct. Opioids affect respiratory status, so assessing before the dose is critical.",
     "Correct. For medications affecting heart rate, blood pressure or respiratory status, the book says to record vital signs before and after.",
-    "Correct. Educating patients on side effects is a listed key medication principle.",
+    "Correct. Educating clients on side effects is a listed key medication principle.",
     "Incorrect. The book says medication questions focus on safety and monitoring, not memorizing drug lists."
    ],
    "clue": "Opioids are high-alert and can affect respiratory status.",
@@ -770,7 +770,7 @@
    "correct": 0,
    "rationales": [
     "Correct. The book lists performing wound care as an LPN task, and the client is stable.",
-    "Incorrect. The RN must assess and care for unstable patients.",
+    "Incorrect. The RN must assess and care for unstable clients.",
     "Incorrect. Teaching is an RN responsibility that is never delegated.",
     "Incorrect. Evaluating outcomes is an RN responsibility."
    ],
@@ -806,11 +806,11 @@
     1
    ],
    "rationales": [
-    "The book lists taking vital signs on stable patients as a UAP task.",
+    "The book lists taking vital signs on stable clients as a UAP task.",
     "The book lists administering oral medications as an LPN task.",
-    "The RN must assess and care for unstable patients.",
+    "The RN must assess and care for unstable clients.",
     "The RN must teach; teaching is never delegated.",
-    "The book lists monitoring stable patients as an LPN task."
+    "The book lists monitoring stable clients as an LPN task."
    ],
    "clue": "Client stability and task complexity for each task.",
    "priority": "Delegate based on stability and complexity; keep assessment, teaching and judgment with the RN.",
@@ -891,8 +891,8 @@
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. Insisting on the session ignores patient autonomy.",
-    "Correct. The book says that when a patient refuses care, the nurse assesses understanding and respects the decision.",
+    "Incorrect. Insisting on the session ignores client autonomy.",
+    "Correct. The book says that when a client refuses care, the nurse assesses understanding and respects the decision.",
     "Incorrect. Cancelling all future care goes beyond the client's decision and skips assessing understanding.",
     "Incorrect. The nurse should assess the client's understanding before simply documenting."
    ],
@@ -918,7 +918,7 @@
    "rationales": [
     "Incorrect. Teaching that ignores readiness to learn is unlikely to be effective.",
     "Incorrect. Leaving written materials does not address the client's readiness or confirm learning.",
-    "Correct. The book states effective teaching addresses patient readiness to learn.",
+    "Correct. The book states effective teaching addresses client readiness to learn.",
     "Incorrect. Teaching a family member instead does not address the client's own readiness to learn."
    ],
    "clue": "The client says they cannot take in information right now.",
@@ -949,8 +949,8 @@
     "Incorrect. The book says effective teaching uses simple language.",
     "Correct. Effective teaching uses simple language.",
     "Correct. Effective teaching includes return demonstration.",
-    "Incorrect. The book states teaching is ineffective if the patient is unstable.",
-    "Correct. Effective teaching addresses patient readiness to learn."
+    "Incorrect. The book states teaching is ineffective if the client is unstable.",
+    "Correct. Effective teaching addresses client readiness to learn."
    ],
    "clue": "A stable client must learn to manage a new condition at home.",
    "priority": "Use simple language, return demonstration and readiness to learn.",
@@ -1006,7 +1006,7 @@
     1
    ],
    "rationales": [
-    "The book says to choose airway over everything else and prioritize unstable patients.",
+    "The book says to choose airway over everything else and prioritize unstable clients.",
     "This delays care unnecessarily, which the book says to avoid.",
     "Changing a prescribed dose independently is outside nursing scope, which the book says to avoid.",
     "This uses absolute language like 'never', which the book says to avoid."
@@ -1288,7 +1288,7 @@
     4
    ],
    "rationales": [
-    "Correct. Verifying patient identity before medications or procedures is a key safety principle.",
+    "Correct. Verifying client identity before medications or procedures is a key safety principle.",
     "Incorrect. The book says to act immediately on critical lab values.",
     "Correct. Hand hygiene is part of following infection control standards.",
     "Incorrect. Identity must be verified before medications or procedures, even when the client seems familiar.",
@@ -1883,10 +1883,10 @@
    ],
    "rationales": [
     "Correct. Informed consent is a key concept, and the client must understand what is being agreed to.",
-    "Incorrect. An alert, competent client makes the decision; having family sign ignores patient autonomy.",
+    "Incorrect. An alert, competent client makes the decision; having family sign ignores client autonomy.",
     "Correct. Documentation accuracy is a key concept.",
     "Incorrect. This breaks confidentiality.",
-    "Correct. Patient autonomy is a key concept, and the book says to assess understanding.",
+    "Correct. Client autonomy is a key concept, and the book says to assess understanding.",
     "Incorrect. Charting a medication before it is given makes the record inaccurate."
    ],
    "clue": "An alert, competent client before a procedure.",

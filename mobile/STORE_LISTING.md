@@ -34,7 +34,7 @@ The free plan includes about 400 questions, one NGN case study, tutor mode and t
 
 RAPID NURSING REVIEW PRO
 Unlock everything: all questions, all case studies, timed and blueprint exams, and the complete book. Every subscription starts with a 2-week free trial.
-• Monthly: $9.99/month
+• Monthly: $19.99/month
 • 3-Month Pass: $49.99 every 3 months (most popular)
 • Annual · Complete Pass: $89.99/year
 • Lifetime Access: $119.00 one-time
