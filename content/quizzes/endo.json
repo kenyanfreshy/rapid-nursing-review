@@ -55,32 +55,33 @@
    "id": "endo-dm-q3",
    "section": "endo-dm",
    "type": "mcq",
-   "stem": "A client with diabetes mellitus becomes sweaty and confused shortly before lunch. What is the nurse's priority action?",
+   "stem": "Before lunch, a client with diabetes is sweaty and tremulous with mildly slowed responses. Bedside glucose is 48 mg/dL. The client is fully awake, follows directions and can swallow safely. What should the nurse do first?",
    "options": [
-    "Give a fast-acting source of glucose",
-    "Administer the scheduled dose of insulin",
-    "Encourage the client to drink plain water",
-    "Recheck the client's status after the meal"
+    "Give 15 g of fast-acting oral carbohydrate and recheck glucose in 15 minutes.",
+    "Give the scheduled insulin dose immediately.",
+    "Offer plain water and wait for symptom resolution.",
+    "Defer treatment until after the scheduled meal."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists sweating and confusion as signs of hypoglycemia, treated with fast glucose.",
-    "Incorrect. Insulin would lower glucose further when the signs point to hypoglycemia.",
-    "Incorrect. Fluids are listed for hyperglycemia (thirst, fruity breath), not for sweating and confusion.",
-    "Incorrect. Delaying treatment of hypoglycemia with altered mental status is unsafe."
+    "Correct. Confirmed hypoglycemia with safe swallowing calls for prompt measured oral carbohydrate and reassessment; repeat treatment under protocol if still low.",
+    "Incorrect. Insulin may worsen the current low glucose.",
+    "Incorrect. Water does not provide the needed glucose.",
+    "Incorrect. Waiting risks worsening neuroglycopenia. If swallowing is unsafe, use the prescribed IV dextrose/glucagon pathway."
    ],
    "clue": "Sweating and confusion in a client with diabetes.",
    "priority": "Recognize and promptly treat hypoglycemia.",
    "page": 93,
    "clientNeed": "pa",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Confirm glucose and choose a safe route; treat promptly and reassess."
   },
   {
    "id": "endo-hypothyroid-q1",
    "section": "endo-hypothyroid",
    "type": "mcq",
-   "stem": "A client's labs show TSH 9.2 mU/L and a decreased T4 level. How should the nurse interpret these results?",
+   "stem": "A client’s TSH is 9.2 mU/L (laboratory reference 0.4–4.2 mU/L), and freeT 4 is below the laboratory range. Which interpretation is most appropriate?",
    "options": [
     "They are consistent with hyperthyroidism.",
     "They show a normal, euthyroid pattern.",
@@ -91,7 +92,7 @@
    "rationales": [
     "Incorrect. The book lists hyperthyroidism as low TSH with elevated T4 and T3.",
     "Incorrect. The book's normal TSH range is 0.4-4.2 mU/L, so 9.2 is elevated.",
-    "Correct. The book states a TSH above 4.2 mU/L confirms primary hypothyroidism, with decreased T4 reflecting low hormone production.",
+    "Correct. Elevated TSH together with low freeT 4 is the overt primary-hypothyroid pattern. An elevated TSH alone with normal freeT 4 can be subclinical and is not interchangeable with this paired result.",
     "Incorrect. High TSH with low T4 is the expected hypothyroid pattern the book describes."
    ],
    "clue": "Elevated TSH with decreased T4.",
@@ -114,17 +115,18 @@
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. The book teaches taking levothyroxine on an empty stomach.",
-    "Incorrect. The book directs ongoing TSH monitoring until stable and then annually, implying continued therapy.",
-    "Correct. The book says to start levothyroxine low, adjust gradually, and monitor for these cardiac symptoms.",
-    "Incorrect. The book recommends a low-calorie, high-protein, high-fiber diet."
+    "Incorrect. Take levothyroxine consistently according to the prescribed empty-stomach or other validated administration schedule; food can affect absorption.",
+    "Incorrect. Do not stop prescribed replacement solely because symptoms improve.",
+    "Correct. Report cardiac warning symptoms promptly. Starting dose depends on age, weight, severity and cardiac risk; older/CAD clients generally require more cautious initiation, while selected healthy younger adults may receive full replacement.",
+    "Incorrect. Nutrition is individualized; automatic high-calorie intake is not thyroid replacement."
    ],
    "clue": "Starting thyroid hormone replacement, which is begun low and adjusted gradually.",
    "priority": "Safe medication teaching and cardiac monitoring during hormone replacement.",
    "page": 95,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Follow the individualized levothyroxine dose/administration plan and report cardiac symptoms; do not assume every client starts with the same low dose."
   },
   {
    "id": "endo-hypothyroid-q3",
@@ -134,12 +136,12 @@
    "options": [
     "Cold intolerance, weight gain, bradycardia, and constipation",
     "Heat intolerance, weight loss, tachycardia, and frequent stools",
-    "Moist salmon-colored skin, fine tremors, and exophthalmos",
+    "Warm, moist skin, fine tremors, and exophthalmos",
     "Polyuria with pale dilute urine, thirst, and weight loss"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists these findings and summarizes hypothyroidism as cold, slow, and fat.",
+    "Correct. Cold intolerance, slowed metabolic functions, possible weight gain, bradycardia and constipation fit hypothyroidism. Describe findings respectfully rather than labeling the client’s body.",
     "Incorrect. These match the hypermetabolic state of hyperthyroidism in the book.",
     "Incorrect. The book lists these as physical exam findings of hyperthyroidism.",
     "Incorrect. These are findings of diabetes insipidus in the book."
@@ -210,14 +212,14 @@
     "Dry, flaky skin with slowed reflexes",
     "Bronze skin with salt cravings",
     "Moon face with purple striae",
-    "Fine tremors with moist, salmon-colored skin"
+    "Fine tremors with warm, moist skin"
    ],
    "correct": 3,
    "rationales": [
     "Incorrect. The book lists these as hypothyroidism findings.",
     "Incorrect. The book associates these with adrenal insufficiency.",
     "Incorrect. The book lists these as classic signs of Cushing syndrome.",
-    "Correct. The book lists fine tremors and moist, salmon-colored skin as common exam findings in hyperthyroidism."
+    "Correct. The book lists fine tremors and warm, moist skin as common exam findings in hyperthyroidism."
    ],
    "clue": "Nervousness, heat intolerance, and weight loss with increased appetite.",
    "priority": "Recognize the hypermetabolic signs of hyperthyroidism.",
@@ -280,26 +282,27 @@
    "id": "endo-addison-q3",
    "section": "endo-addison",
    "type": "mcq",
-   "stem": "During an ACTH stimulation test, a client's cortisol rises only to 14 mcg/dL. How should the nurse interpret this result?",
+   "stem": "During a standard 250-mcg cosyntropin test, the 60-minute serum cortisol peak is 5 mcg/dL. The laboratory’s validated assay-specific adequate-response cutoff is 14.5 mcg/dL. How should the nurse interpret the result?",
    "options": [
-    "It supports a diagnosis of adrenal insufficiency.",
-    "It is a normal response to ACTH stimulation.",
-    "It indicates excess cortisol production.",
-    "It confirms primary hyperparathyroidism."
+    "It supports inadequate adrenal cortisol reserve and needs clinician interpretation.",
+    "It meets this laboratory’s adequate stimulation response.",
+    "It establishes cortisol-excess Cushing syndrome.",
+    "It confirms a parathyroid disorder."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book states cortisol normally rises above 20 mcg/dL and fails to rise in adrenal insufficiency.",
-    "Incorrect. A normal response in the book is a rise above 20 mcg/dL.",
-    "Incorrect. A blunted rise reflects deficient, not excessive, cortisol.",
-    "Incorrect. The ACTH stimulation test assesses adrenal, not parathyroid, function."
+    "Correct. The result is well below the supplied assay-specific threshold. Interpret with the clinical/endocrine evaluation.",
+    "Incorrect. Five does not meet the stated 14.5 threshold.",
+    "Incorrect. A low response does not establish cortisol excess.",
+    "Incorrect. This test assesses adrenal cortisol response, not parathyroid function."
    ],
    "clue": "Cortisol fails to rise above 20 mcg/dL after ACTH.",
    "priority": "Interpret adrenal function testing accurately.",
    "page": 99,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the cosyntropin dose, timing and laboratory assay cutoff; there is no universal 20 mcg/dL threshold."
   },
   {
    "id": "endo-cushing-q1",
@@ -307,24 +310,25 @@
    "type": "mcq",
    "stem": "A client is recovering from transsphenoidal surgery for a pituitary tumor causing Cushing syndrome. Which instruction should the nurse give?",
    "options": [
-    "Avoid sneezing, coughing, and blowing your nose.",
+    "Avoid nose blowing and straining; sneeze with the mouth open",
     "Blow your nose gently to clear any drainage.",
     "Cough deeply every hour to clear your lungs.",
     "Lie flat and still for the first full day."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book's postoperative care lists avoiding sneezing, coughing, and nose blowing.",
-    "Incorrect. The book says to avoid nose blowing and to watch for nasal drainage.",
-    "Incorrect. The book specifically says to avoid coughing after this surgery.",
-    "Incorrect. The book does not support this; its focus is airway, neuro checks, and nasal drainage."
+    "Correct. Protect the transsphenoidal site without encouraging breath-holding or suppressing an unavoidable sneeze against a closed mouth/nose.",
+    "Incorrect. Nose blowing may stress the surgical site; follow the surgeon’s nasal-care instructions.",
+    "Incorrect. Routine forceful coughing is not prescribed site-protective care; respiratory clearance needs an individualized plan.",
+    "Incorrect. Positioning and activity follow the surgical plan rather than mandatory flat immobility."
    ],
    "clue": "Transsphenoidal surgery through the nasal route.",
    "priority": "Protect the surgical site and prevent complications after pituitary surgery.",
    "page": 100,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "After transsphenoidal surgery, avoid straining/nose blowing and use mouth-open sneezing when unavoidable."
   },
   {
    "id": "endo-cushing-q2",
@@ -455,32 +459,33 @@
    "id": "endo-siadh-q1",
    "section": "endo-siadh",
    "type": "mcq",
-   "stem": "A client with SIADH has a critically low serum sodium and new confusion. Which nursing action is the priority?",
+   "stem": "An adult with severe symptomatic hyponatremia associated with SIADH has sodium 116 mEq/L and new confusion. While urgently notifying the treatment team and arranging protocol-based treatment, which listed nursing action protects the client now?",
    "options": [
-    "Encourage generous oral fluids",
-    "Elevate the head of bed to 90 degrees",
-    "Prepare for a dose of desmopressin",
-    "Initiate seizure precautions"
+    "Encourage unrestricted water intake.",
+    "Use position changes as the only treatment for the sodium disorder.",
+    "Give desmopressin routinely without a specific prescription or indication.",
+    "Initiate seizure and injury precautions with close airway/neurologic assessment."
    ],
    "correct": 3,
    "rationales": [
-    "Incorrect. SIADH causes water overload, and the book calls for fluid restriction.",
-    "Incorrect. The book positions the client with the head flat or slightly elevated.",
-    "Incorrect. Desmopressin is synthetic ADH for DI and would worsen water retention.",
-    "Correct. The book lists seizure precautions as a priority when sodium is critically low."
+    "Incorrect. Additional free water may worsen the hyponatremia.",
+    "Incorrect. Position for airway safety/clinical needs, but positioning alone does not correct symptomatic hyponatremia.",
+    "Incorrect. Desmopressin is not routine initial SIADH treatment; it may be specifically ordered by experts to prevent/control overcorrection in selected circumstances.",
+    "Correct. Severe neurologic hyponatremia requires immediate safety measures and urgent clinician-directed rescue, often hypertonic saline under protocol."
    ],
    "clue": "Critically low sodium with neurologic change.",
    "priority": "Protect the client from seizures caused by hyponatremia.",
    "page": 104,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Protect the airway and prevent injury while urgently treating symptomatic hyponatremia; no SIADH-specific flat-position rule applies."
   },
   {
    "id": "endo-siadh-q2",
    "section": "endo-siadh",
    "type": "mcq",
-   "stem": "A client with SIADH is receiving hypertonic saline. Which finding should the nurse report immediately?",
+   "stem": "An adult with symptomatic hyponatremia receives hypertonic saline under a plan limiting correction to 8 mEq/L per 24 hours. Which listed finding requires immediate escalation?",
    "options": [
     "Serum sodium rose 6 mEq/L over the past 24 hours",
     "Body weight decreased by 0.5 kg since yesterday",
@@ -489,17 +494,18 @@
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. This is within the book's safe limit of 8-10 mEq/L in 24 hours.",
-    "Incorrect. Modest weight loss fits the goal of reducing excess fluid.",
-    "Correct. The book limits correction to no more than 8-10 mEq/L in 24 hours to prevent osmotic demyelination syndrome.",
-    "Incorrect. Low urine output is a key SIADH sign, so a modest rise reflects improvement."
+    "Incorrect. A 6 mEq/L change over 24 hours has not exceeded this supplied limit, but still requires close trajectory/clinical monitoring.",
+    "Incorrect. An isolated 0.5 kg weight change does not outrank the known severe overcorrection in C; interpret volume status clinically.",
+    "Correct. A 15 mEq/L rise exceeds the ordered limit and requires immediate team notification and a controlled-correction response plan.",
+    "Incorrect. Even a new water diuresis can accelerate correction, so assess output and sodium closely; a slight isolated change is less decisive than the documented overshoot."
    ],
    "clue": "Sodium correcting faster than the book's 24-hour limit.",
    "priority": "Prevent osmotic demyelination by correcting hyponatremia slowly.",
    "page": 104,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "checked": true
+   "checked": true,
+   "takeaway": "Escalate correction beyond the ordered limit or a dangerous trajectory; monitor for water diuresis and individual risk."
   },
   {
    "id": "endo-siadh-q3",
@@ -567,14 +573,15 @@
     "Correct. The book describes desmopressin as synthetic ADH, which promotes water reabsorption and reduces water loss.",
     "Incorrect. Increasing dilute urine would mean DI is not controlled.",
     "Incorrect. Rising sodium signals worsening dehydration, which the book links to untreated DI.",
-    "Incorrect. The book flags blood osmolality above 320 as an emergency."
+    "Incorrect. Rising serum osmolality does not show restoration of water balance; interpret it with sodium, hydration, mental status and the trend. There is no stand-alone universal 320 mOsm/L emergency rule."
    ],
    "clue": "Synthetic ADH given for ADH deficiency.",
    "priority": "Evaluate response to ADH replacement.",
    "page": 105,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "checked": true
+   "checked": true,
+   "takeaway": "Evaluate desmopressin response through urine output/thirst and integrated sodium/volume monitoring; also watch for excessive water retention."
   },
   {
    "id": "endo-di-q3",
@@ -841,7 +848,7 @@
    "rationales": [
     "Correct. The book's myxedema coma interventions include airway support, IV levothyroxine, and gradual warming.",
     "Incorrect. Cooling and antithyroid drugs are thyroid storm treatments in the book.",
-    "Incorrect. The book lists high-dose hydrocortisone for Addisonian crisis.",
+    "Incorrect. Hydrocortisone alone does not replace thyroid hormone or airway/perfusion support. Empiric stress-dose glucocorticoid is also given before thyroid hormone in suspected myxedema coma until adrenal insufficiency is excluded.",
     "Incorrect. The book specifies warming the client gradually."
    ],
    "clue": "Hypothermia, bradycardia, and altered mental status in hypothyroidism.",
@@ -849,32 +856,34 @@
    "page": 111,
    "clientNeed": "pa",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Myxedema coma requires coordinated airway/perfusion support, IV thyroid hormone, empiric adrenal coverage when indicated and cautious warming."
   },
   {
    "id": "endo-emergencies-q2",
    "section": "endo-emergencies",
    "type": "mcq",
-   "stem": "A client with DKA on an insulin infusion now has a blood glucose of 190 mg/dL, but the anion gap is still elevated. What should the nurse anticipate?",
+   "stem": "An adult treated for DKA has glucose 240 mg/dL, beta-hydroxybutyrate 2.8 mmol/L, venous pH 7.26 and potassium 4.1 mEq/L. What should the nurse anticipate under the current protocol?",
    "options": [
-    "Stopping the insulin infusion since glucose is now normal",
-    "Giving an IV bolus of insulin to close the anion gap",
-    "Adding a D5 infusion while the insulin drip continues",
-    "Switching the IV fluid to hypertonic saline right away"
+    "Stop insulin because the glucose is below 250 mg/dL.",
+    "Give an extra insulin bolus solely to normalize the anion gap.",
+    "Add 5–10% dextrose to the prescribed fluid and continue protocol-adjusted insulin.",
+    "Replace the fluid with 3% saline without another indication."
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. The book's resolution criteria include anion gap, pH, and bicarbonate, not glucose alone.",
-    "Incorrect. The book's DKA regimen is regular insulin at 0.1 units/kg/hr, not a bolus.",
-    "Correct. The book says to add D5 when glucose falls below 200 mg/dL and continue until DKA resolves, including anion gap 12 or less.",
-    "Incorrect. The book uses NS resuscitation; hypertonic saline is listed for severe SIADH."
+    "Incorrect. Ketosis/acidosis persists; glucose improvement alone does not establish DKA resolution.",
+    "Incorrect. A new bolus solely for an anion-gap number is not the expected ongoing treatment plan.",
+    "Correct. Dextrose prevents hypoglycemia while insulin continues to resolve ketosis; reassess glucose, ketones, pH/bicarbonate and potassium under protocol.",
+    "Incorrect. Hypertonic saline is not routine ongoing DKA fluid treatment."
    ],
    "clue": "Glucose below 200 mg/dL but DKA not yet resolved.",
    "priority": "Continue insulin to clear ketoacidosis while preventing hypoglycemia.",
    "page": 112,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "checked": true
+   "checked": true,
+   "takeaway": "When glucose falls below 250, add dextrose and adjust insulin; resolution requires ketones<0.6 plus pH≥7.3 or bicarbonate≥18, not anion gap alone."
   },
   {
    "id": "endo-emergencies-q3",
@@ -908,32 +917,34 @@
    "page": 92,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is screening adults for diabetes risk at a community health fair. Which clients have a risk factor for diabetes mellitus? Select all that apply.",
+   "stem": "Which nonpregnant adults meet routine age-based or risk-based type 2 diabetes screening criteria? Select all that apply.",
    "options": [
-    "A 38-year-old client at desirable body weight, with a normal birth weight and no family history of diabetes",
-    "A 52-year-old client who reports no symptoms",
-    "A 30-year-old client whose father has type 2 diabetes",
-    "A 34-year-old client whose weight is 105% of desirable body weight",
-    "A 27-year-old client who was born with a low birth weight",
-    "A 40-year-old client whose weight is 130% of desirable body weight"
+    "A 38-year-old with BMI 22 kg/m² and no other known risk factors.",
+    "A 52-year-old without symptoms who has not been screened.",
+    "A 30-year-old with BMI 28 kg/m² and a parent with type 2 diabetes.",
+    "A 34-year-old with BMI 22 kg/m² and no additional known risk factors.",
+    "A 27-year-old with a history of gestational diabetes.",
+    "A 40-year-old with BMI 33 kg/m² who has not been screened."
    ],
    "correct": [
+    0,
     1,
     2,
     4,
     5
    ],
    "rationales": [
-    "Incorrect. This client has none of the risk factors the book lists (age over 45, family history of type 2 DM, low birth weight, weight over 120% of desirable).",
-    "Correct. The book lists age over 45 years as a risk factor, and absence of symptoms does not remove the risk.",
-    "Correct. A family history of type 2 DM is a listed risk factor.",
-    "Incorrect. The book's weight risk factor is more than 120% of desirable body weight; 105% does not meet it.",
-    "Correct. Low birth weight is a listed risk factor.",
-    "Correct. Weight greater than 120% of desirable body weight is a listed risk factor."
+    "Correct. Routine adult screening begins at age 35 regardless of the absence of other stated risks.",
+    "Correct. Age≥35 warrants routine screening even without symptoms.",
+    "Correct. Overweight plus a first-degree family history meets risk-based screening criteria.",
+    "Incorrect. This supplied history does not meet the stated routine age/risk criteria; reconsider if other risks/symptoms arise.",
+    "Correct. Previous gestational diabetes warrants ongoing screening.",
+    "Correct. Age≥35 and obesity support screening."
    ],
    "clue": "Age, family history, birth weight, and body weight relative to desirable weight.",
    "priority": "Identify clients with diabetes risk factors for early screening.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use current age and BMI-based risk criteria rather than percent of “desirable” weight."
   },
   {
    "id": "endo-dm-q5",
@@ -969,7 +980,7 @@
    "cjmm": "evaluateOutcomes",
    "stem": "A nurse is reviewing a teaching plan written for a client with type 2 diabetes mellitus. For each statement, indicate whether it is accurate or inaccurate teaching.",
    "rows": [
-    "A balanced diet of about 50% carbohydrate, 30% fat, and 20% protein is recommended.",
+    "My food plan should be individualized with the diabetes team according to my preferences, nutrition needs and metabolic goals.",
     "Calorie needs are the same for every adult with diabetes.",
     "Regular exercise improves insulin sensitivity and helps with weight loss.",
     "Type 2 diabetes is never treated with insulin."
@@ -985,7 +996,7 @@
     1
    ],
    "rationales": [
-    "Accurate. The book recommends a balanced intake of 50% carbohydrate, 30% fat, and 20% protein.",
+    "Accurate. No single macronutrient distribution is ideal for every client with diabetes. Individualize the pattern, energy needs, medication coordination and goals.",
     "Inaccurate. The book states caloric needs are based on age, weight, and activity.",
     "Accurate. The book states exercise improves insulin sensitivity and promotes weight loss.",
     "Inaccurate. The book says type 2 DM is managed with diet, exercise, oral antidiabetics, and sometimes insulin."
@@ -1060,7 +1071,7 @@
    "page": 95,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with hypothyroidism is starting levothyroxine. For each nursing action, indicate whether it is indicated or not indicated.",
+   "stem": "An older adult with coronary artery disease and primary hypothyroidism is beginning carefully prescribed levothyroxine replacement. Classify these actions.",
    "rows": [
     "Teach the client to take levothyroxine on an empty stomach.",
     "Monitor for palpitations, chest pain, and shortness of breath.",
@@ -1080,15 +1091,16 @@
     1
    ],
    "rationales": [
-    "Indicated. The book directs teaching levothyroxine use on an empty stomach.",
-    "Indicated. The book lists these cardiac symptoms for monitoring during replacement.",
-    "Not indicated. The book says to start levothyroxine low and adjust gradually.",
-    "Indicated. The book directs monitoring TSH until stable, then annually.",
-    "Not indicated. The book recommends a low-calorie, high-protein, high-fiber diet."
+    "Indicated. Consistent prescribed empty-stomach administration supports predictable absorption.",
+    "Indicated. Cardiac warning symptoms require assessment during replacement.",
+    "Not indicated. This older/CAD client needs cautious individualized dosing; an excessive dose for rapid correction may provoke cardiac complications. This is not a universal low-dose rule for every adult.",
+    "Indicated. Follow scheduled TSH monitoring after changes and during maintenance for primary disease.",
+    "Not indicated. A high-calorie diet solely to increase energy is not a replacement strategy; nutrition goals are individualized."
    ],
    "clue": "New thyroid hormone replacement started low and adjusted gradually.",
    "priority": "Safe administration and monitoring of levothyroxine.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Individualize levothyroxine initiation for age/cardiac risk and follow the monitoring plan."
   },
   {
    "id": "endo-hyperthyroid-q4",
@@ -1129,7 +1141,7 @@
     "Fine tremors",
     "Thick, dry, flaky skin",
     "A bruit over the thyroid gland",
-    "An enlarged or tender thyroid gland"
+    "A diffusely enlarged thyroid gland that is usually nontender"
    ],
    "correct": [
     1,
@@ -1141,9 +1153,9 @@
     "Incorrect. The book lists palpitations and, in thyroid storm, tachycardia; bradycardia fits hypothyroidism.",
     "Correct. Exophthalmos is a thyroid-specific exam finding in the book.",
     "Correct. Fine tremors are a common exam finding.",
-    "Incorrect. The book describes moist, salmon-colored skin in hyperthyroidism; dry, flaky skin fits hypothyroidism.",
+    "Incorrect. The book describes warm, moist skin in hyperthyroidism; dry, flaky skin fits hypothyroidism.",
     "Correct. A thyroid bruit is a listed thyroid-specific finding.",
-    "Correct. An enlarged or tender thyroid is a listed thyroid-specific finding."
+    "Correct. Graves disease commonly produces a diffuse, usually nontender goiter. Tenderness warrants evaluation for thyroiditis or another cause rather than being bundled as an expected Graves finding."
    ],
    "clue": "Hypermetabolic state from excess thyroid hormone in Graves disease.",
    "priority": "Recognize expected physical findings of hyperthyroidism.",
@@ -1219,7 +1231,7 @@
    "rows": [
     "Bronze pigmentation over the knuckles and elbows",
     "Bluish-black discoloration of the oral mucosa",
-    "Blood pressure that drops more than 15 mm Hg on standing",
+    "Dizziness with a sustained systolic BP fall of 24 mmHg within 3 minutes of standing.",
     "Weight gain with a rounded, full face",
     "Serum glucose above the normal range"
    ],
@@ -1237,7 +1249,7 @@
    "rationales": [
     "Expected. The book lists hyperpigmentation of knuckles, elbows, knees, and gums and bronze skin pigmentation.",
     "Expected. Bluish-black oral mucosa is a listed exam finding.",
-    "Expected. The book lists postural hypotension with a drop greater than 15 mm Hg.",
+    "Expected. Aldosterone/cortisol deficiency may contribute to volume depletion and orthostatic symptoms. The supplied 24 mmHg SBP fall meets the usual≥20 mmHg systolic criterion within 3 minutes; the diastolic criterion is≥10 mmHg.",
     "Unexpected. The book lists weight loss in adrenal insufficiency; weight gain and a full face suggest cortisol excess.",
     "Unexpected. The book lists hypoglycemia, not hyperglycemia, among the laboratory findings."
    ],
@@ -1277,7 +1289,7 @@
    "page": 99,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "stem": "A client with adrenal insufficiency reports dizziness when getting out of bed. The client's systolic blood pressure drops 20 mm Hg on standing. Which action should the nurse take?",
+   "stem": "A client with adrenal insufficiency reports dizziness when getting out of bed. The client's systolic blood pressure has a sustained fall of 20 mmHg within 3 minutes of standing. Which action should the nurse take?",
    "options": [
     "Instruct the client to rise slowly and call for help before getting up.",
     "Encourage the client to walk the hallway alone to build strength.",
@@ -1286,10 +1298,10 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists postural hypotension (drop greater than 15 mm Hg) and dizziness; slow position changes with assistance prevent falls.",
-    "Incorrect. Walking alone while orthostatic increases the risk of falling.",
-    "Incorrect. A drop of more than 15 mm Hg is the book's postural hypotension finding, not a normal response.",
-    "Incorrect. The book's collaborative care goal is to restore fluids; restricting them would worsen dehydration."
+    "Correct. The measured symptomatic SBP fall meets the usual orthostatic criterion; slow position changes and assistance reduce injury risk while the cause/treatment are assessed.",
+    "Incorrect. Unassisted walking while dizzy increases fall risk.",
+    "Incorrect. A sustained SBP fall≥20 mmHg or DBP fall≥10 mmHg within 3 minutes is not dismissed as normal.",
+    "Incorrect. Restricting fluid without another indication may worsen volume depletion; follow the individualized replacement plan."
    ],
    "clue": "Dizziness with a 20 mm Hg drop in systolic pressure on standing.",
    "priority": "Prevent falls related to postural hypotension.",
@@ -1333,17 +1345,17 @@
    "page": 100,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A nurse is reviewing diagnostic results for a client being evaluated for Cushing syndrome. For each result, indicate whether it is consistent or not consistent with Cushing syndrome.",
+   "stem": "A client has a valid 1-mg overnight dexamethasone suppression test without known interfering medication. The laboratory uses 1.8 mcg/dL as its screening cutoff. Classify findings as supporting possible cortisol excess or not supporting that interpretation on their own.",
    "rows": [
-    "Serum cortisol stays above 5 mcg/dL after an overnight dexamethasone suppression test",
-    "Serum potassium below the normal range",
-    "Arterial blood gas showing metabolic acidosis",
-    "Serum chloride above the normal range",
-    "Elevated 24-hour urine free cortisol"
+    "Morning cortisol 4.8 mcg/dL after dexamethasone.",
+    "Hypokalemia in a client with additional cortisol-excess features.",
+    "Metabolic acidosis without another cortisol-excess finding.",
+    "Morning cortisol suppressed to 1.0 mcg/dL after the valid test.",
+    "Repeated elevated 24-hour urine free cortisol using the laboratory reference."
    ],
    "columns": [
-    "Consistent",
-    "Not consistent"
+    "Supports possible cortisol excess",
+    "Does not support this interpretation alone"
    ],
    "correct": [
     0,
@@ -1353,15 +1365,16 @@
     0
    ],
    "rationales": [
-    "Consistent. The book states cortisol above 5 mcg/dL after dexamethasone means failure to suppress, indicating CS.",
-    "Consistent. Hypokalemia is a common finding.",
-    "Not consistent. The book lists metabolic alkalosis, not acidosis.",
-    "Not consistent. The book lists hypochloremia.",
-    "Consistent. Elevated 24-hour urine free cortisol reflects increased cortisol production."
+    "Failure to suppress below the supplied cutoff warrants further evaluation; it does not independently confirm Cushing syndrome.",
+    "Low potassium can accompany cortisol/mineralocorticoid excess, especially severe forms, but is not universal or diagnostic alone.",
+    "Metabolic alkalosis may accompany severe mineralocorticoid effects; isolated acidosis does not specifically support cortisol excess and needs its own evaluation.",
+    "This result meets suppression for the stated test; consider the full clinical picture and repeat evaluation when indicated.",
+    "Repeated valid urinary cortisol elevation supports further cortisol-excess evaluation."
    ],
    "clue": "Suspected cortisol excess.",
    "priority": "Interpret diagnostic findings for Cushing syndrome.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Interpret validated screening tests and the full clinical context; no single nonspecific electrolyte finding confirms or excludes Cushing syndrome."
   },
   {
    "id": "endo-pheo-q4",
@@ -1442,7 +1455,7 @@
     5
    ],
    "rationales": [
-    "Incorrect. The book says to avoid vigorous palpation because it can lead to hypertensive crisis.",
+    "Incorrect. Vigorous palpation can cause pain or injury at a fresh operative site and is not appropriate routine examination. Catecholamine-release precautions principally apply while an active secreting tumor is present.",
     "Correct. Intensive cardiac and respiratory monitoring is listed after surgery.",
     "Correct. The book says to watch for hypoglycemia after surgery.",
     "Incorrect. The book warns of hypovolemia after surgery.",
@@ -1460,14 +1473,14 @@
    "page": 102,
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is assessing a client with SIADH. Which findings should the nurse anticipate? Select all that apply.",
+   "stem": "Which findings fit typical euvolemic SIADH-associated hypotonic hyponatremia without another volume disorder? Select all that apply.",
    "options": [
-    "Low urine output",
-    "Weight gain",
-    "Large volumes of pale, dilute urine",
-    "New confusion",
-    "Serum sodium above normal",
-    "Intense thirst with signs of dehydration"
+    "Urine remains inappropriately concentrated despite low serum osmolality.",
+    "Clinical examination shows euvolemia without peripheral edema.",
+    "Large volumes of very dilute urine as the defining pattern.",
+    "New confusion in a client with severe low sodium.",
+    "Serum sodium above the reference range as the defining pattern.",
+    "Clear signs of hypovolemic dehydration as the defining SIADH phenotype."
    ],
    "correct": [
     0,
@@ -1475,16 +1488,17 @@
     3
    ],
    "rationales": [
-    "Correct. The book lists low urine output as a key sign.",
-    "Correct. Weight gain from water retention is a key sign.",
-    "Incorrect. Large volumes of dilute urine describe diabetes insipidus, the opposite of SIADH.",
-    "Correct. Confusion from low sodium is a key sign.",
-    "Incorrect. SIADH causes dilutional hyponatremia.",
-    "Incorrect. SIADH is fluid overload ('Soaked Inside'), not dehydration."
+    "Correct. Persistent concentration despite hypotonic blood reflects impaired appropriate water excretion.",
+    "Correct. SIADH is classically clinically euvolemic rather than overt edematous overload.",
+    "Incorrect. Large dilute polyuria suggests another water-balance process.",
+    "Correct. Severe hyponatremia can produce neurologic symptoms requiring urgent assessment.",
+    "Incorrect. The characteristic sodium disorder is hyponatremia.",
+    "Incorrect. Volume depletion prompts evaluation of other causes; do not label SIADH universally “soaked.”"
    ],
    "clue": "Excess ADH causing water retention and dilutional hyponatremia.",
    "priority": "Recognize the signs of water overload in SIADH.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Water retention is the mechanism; the usual clinical phenotype is euvolemic hypotonic hyponatremia with concentrated urine."
   },
   {
    "id": "endo-siadh-q5",
@@ -1493,13 +1507,13 @@
    "page": 104,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A nurse is planning independent nursing care for a client with SIADH who is on a fluid restriction. For each action, indicate whether it is indicated or not indicated.",
+   "stem": "A stable, alert client with SIADH follows an individualized fluid restriction and has no swallowing difficulty. Classify these nursing measures.",
    "rows": [
-    "Position the client with the head of the bed flat or slightly elevated",
-    "Offer hard candy or gum to ease thirst",
-    "Allow ice chips freely without recording them",
-    "Implement measures to prevent complications of immobility",
-    "Keep the client in high-Fowler position at all times"
+    "Position for airway safety, comfort and current cardiopulmonary/neurologic needs.",
+    "Offer suitable sugar-free hard candy or gum for dry-mouth comfort while swallowing is safe.",
+    "Allow unrestricted unrecorded ice chips.",
+    "Support safe activity and prevent complications of reduced mobility.",
+    "Provide unrestricted extra water whenever the client feels thirsty."
    ],
    "columns": [
     "Indicated",
@@ -1513,15 +1527,16 @@
     1
    ],
    "rationales": [
-    "Indicated. The book positions the client with the head flat or slightly elevated.",
-    "Indicated. Hard candy and gum are listed comfort measures.",
-    "Not indicated. The book directs counting ice chips as part of fluid management.",
-    "Indicated. The book lists preventing immobility complications.",
-    "Not indicated. The book specifies head flat or slightly elevated."
+    "Position follows the clinical assessment, not a universal flat-HOB SIADH rule.",
+    "These comfort measures are appropriate for this alert client without swallowing risk; provide oral care as needed.",
+    "Ice chips count toward the prescribed total fluid allowance.",
+    "Individualized mobility/safety supports comfort and function.",
+    "Unrestricted additional water violates the prescribed plan."
    ],
    "clue": "Fluid restriction with thirst and risk of immobility.",
    "priority": "Provide comfort and positioning while maintaining the fluid restriction.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Provide comfort and safe positioning while counting all fluid sources; reassess swallowing/mentation before oral comfort items."
   },
   {
    "id": "endo-siadh-q6",
@@ -1555,13 +1570,13 @@
    "page": 104,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A nurse is reviewing prescriptions for a client with SIADH and hyponatremia. For each prescription, indicate whether it is anticipated or not anticipated.",
+   "stem": "An adult with SIADH-associated sodium 116 mEq/L develops a seizure. Emergency airway/safety measures are underway. Classify the immediate treatment-plan actions.",
    "rows": [
-    "Fluid restriction of 600-800 mL per day",
-    "Tolvaptan, a vasopressin receptor antagonist",
-    "Desmopressin to reduce urine output",
-    "3% hypertonic saline, given cautiously, if fluid restriction fails",
-    "Oral fluid intake of at least 3 L per day"
+    "Prompt protocol-based 3% hypertonic saline with frequent sodium monitoring.",
+    "Tolvaptan as the immediate rescue treatment for the seizure.",
+    "Desmopressin routinely to reduce output without an expert controlled-correction order.",
+    "An individualized fluid plan after emergency stabilization and assessment.",
+    "Unrestricted oral fluid intake of at least 3 L/day."
    ],
    "columns": [
     "Anticipated",
@@ -1569,21 +1584,22 @@
    ],
    "correct": [
     0,
-    0,
+    1,
     1,
     0,
     1
    ],
    "rationales": [
-    "Anticipated. The book lists fluid restriction of 600-800 mL/day.",
-    "Anticipated. Vasopressin receptor antagonists (conivaptan, tolvaptan) are listed.",
-    "Not anticipated. Desmopressin is synthetic ADH used for central DI and would add to water retention.",
-    "Anticipated. The book uses 3%-4.5% hypertonic saline cautiously if fluid restriction fails.",
-    "Not anticipated. Extra fluid worsens the water overload; the book calls for restriction."
+    "Significant neurologic symptoms require prompt rescue; do not wait for fluid restriction to fail.",
+    "Tolvaptan is not the urgent neurologic-rescue drug. Eligible use requires hospital initiation, sodium monitoring and label-consistent fluid instructions; avoid restriction during its first 24 hours and avoid hypertonic-saline coadministration.",
+    "Desmopressin may be specifically ordered to control overcorrection; it is not an automatic initial SIADH drug.",
+    "Fluid instructions depend on current symptoms, therapy and volume/urine assessment rather than universal 600–800 mL limits.",
+    "Extra free water can worsen the acute disorder; swallowing may also be unsafe during seizures."
    ],
    "clue": "Water retention from excess ADH.",
    "priority": "Anticipate treatments that remove water or block ADH.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Separate severe symptomatic rescue from selected stable/refractory SIADH therapies and their specific monitoring/fluid rules."
   },
   {
    "id": "endo-siadh-q8",
@@ -1625,14 +1641,14 @@
    "page": 105,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A nurse is planning care for an older client with diabetes insipidus who has frequent nocturia and weak muscles. Which nursing actions should the nurse include? Select all that apply.",
+   "stem": "An older client has nephrogenic DI, nocturia and muscle weakness. The clinician prescribes an individualized fluid plan and low-sodium/low-solute diet. Which actions should the nurse include? Select all that apply.",
    "options": [
     "Keep a clear, safe path to the bathroom",
     "Encourage caffeinated drinks to keep up fluid intake",
     "Monitor intake, output, and urine specific gravity",
     "Restrict fluids to 600-800 mL per day",
     "Encourage the client to wear medical identification",
-    "Enforce salt restriction"
+    "Support the prescribed low-sodium/low-solute diet."
    ],
    "correct": [
     0,
@@ -1641,16 +1657,17 @@
     5
    ],
    "rationales": [
-    "Correct. The book lists ensuring safe, clear paths to the bathroom.",
-    "Incorrect. The book says to avoid caffeine.",
-    "Correct. Monitoring I&O and urine specific gravity is a listed nursing action.",
-    "Incorrect. This is the SIADH fluid restriction and would worsen dehydration in DI.",
-    "Correct. The book encourages medical ID use.",
-    "Correct. The book lists enforcing salt restriction."
+    "Correct. A clear path and assistance reduce falls during frequent bathroom trips.",
+    "Incorrect. Caffeine is not an appropriate substitute for the prescribed hydration plan.",
+    "Correct. Monitor output/concentration and fluid status alongside ordered laboratory data.",
+    "Incorrect. The stated fluid-restriction rule is not the prescribed DI plan and may worsen dehydration.",
+    "Correct. Medical identification communicates the condition during emergencies.",
+    "Correct. A prescribed low-solute strategy can reduce obligatory urine volume in nephrogenic DI; it should not be universally enforced for all DI."
    ],
    "clue": "Nocturia and muscle weakness raise fall risk in a client losing large urine volumes.",
    "priority": "Prevent injury and monitor fluid balance in DI.",
-   "checked": true
+   "checked": true,
+   "takeaway": "DI diet and fluid measures depend on subtype and prescription; prevent dehydration and nocturia-related falls."
   },
   {
    "id": "endo-di-q5",
@@ -1684,23 +1701,24 @@
    "page": 105,
    "clientNeed": "moc",
    "cjmm": "prioritizeHypotheses",
-   "stem": "A nurse is caring for four clients with diabetes insipidus. Which client should the nurse see first?",
+   "stem": "Which DI client needs immediate assessment?",
    "options": [
-    "A client whose blood osmolality is 325 mOsm/L",
-    "A client whose serum sodium is 146 mEq/L",
-    "A client whose urine specific gravity is 1.012",
-    "A client whose fasting blood glucose is 95 mg/dL"
+    "A client with sodium 160 mEq/L, worsening confusion and signs of volume depletion.",
+    "A client with sodium 146 mEq/L, unchanged alertness and stable vital signs.",
+    "A client with urine specific gravity 1.012 and stable sodium/output after treatment.",
+    "A client with fasting glucose 95 mg/dL and no new symptoms."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book identifies blood osmolality of 320 mOsm/L or higher as an emergency.",
-    "Incorrect. This is just above the normal range and less urgent than an emergency-level osmolality.",
-    "Incorrect. The book uses a urine specific gravity above 1.010 as the monitoring target, so this is reassuring.",
-    "Incorrect. This glucose is within the book's normal range of 70-100 mg/dL."
+    "Correct. Severe hypernatremia with neurologic/volume deterioration is an urgent integrated clinical problem.",
+    "Incorrect. Mild elevation requires follow-up but lacks the acute danger cues in A.",
+    "Incorrect. Interpret urine concentration with the stated stable sodium/output; a specific-gravity value alone is not a universal treatment target.",
+    "Incorrect. This stated glucose and absence of symptoms do not identify an acute DI emergency."
    ],
    "clue": "Blood osmolality above the emergency threshold.",
    "priority": "Prioritize the client with emergency-level hyperosmolality.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Prioritize neurologic deterioration, sodium trajectory and perfusion, not an isolated osmolality or urine-gravity cutoff."
   },
   {
    "id": "endo-acromegaly-q4",
@@ -1894,31 +1912,31 @@
    "page": 109,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with primary hyperparathyroidism and hypercalcemia is not a candidate for surgery. Which medications should the nurse anticipate? Select all that apply.",
+   "stem": "A client with primary hyperparathyroidism has persistent hypercalcemia and documented osteoporosis. Surgery is not currently feasible. There is no fluid overload. Which medications may be included in a clinician-directed nonsurgical plan? Select all that apply.",
    "options": [
-    "IV calcium gluconate",
-    "Furosemide",
-    "Cinacalcet",
-    "Desmopressin",
-    "A bisphosphonate",
-    "Levothyroxine"
+    "IV calcium gluconate as routine hypercalcemia treatment.",
+    "Furosemide solely to increase calcium excretion in this euvolemic client.",
+    "Cinacalcet to lower serum calcium when appropriate.",
+    "Desmopressin as a PTH-suppressing drug.",
+    "A bisphosphonate for the documented skeletal indication when appropriate.",
+    "Levothyroxine as a PTH-suppressing drug."
    ],
    "correct": [
-    1,
     2,
     4
    ],
    "rationales": [
-    "Incorrect. IV calcium treats acute hypocalcemia and would worsen hypercalcemia.",
-    "Correct. The book lists furosemide to promote calcium excretion.",
-    "Correct. Cinacalcet is listed if surgery is not possible.",
-    "Incorrect. Desmopressin is the book's treatment for central DI.",
-    "Correct. Bisphosphonates are listed if surgery is not possible.",
-    "Incorrect. Levothyroxine is thyroid hormone replacement for hypothyroidism."
+    "Incorrect. Routine calcium administration would not treat the stated high calcium.",
+    "Incorrect. A loop diuretic is not routine hypercalcemia treatment without overload and may worsen depletion.",
+    "Correct. Cinacalcet can lower calcium in selected nonsurgical PHPT management.",
+    "Incorrect. Desmopressin does not suppress PTH.",
+    "Correct. Antiresorptive therapy may improve bone density; do not equate every bone benefit with reliable sustained serum-calcium reduction.",
+    "Incorrect. Levothyroxine treats thyroid-hormone deficiency, not PTH excess."
    ],
    "clue": "Hypercalcemia managed without surgery.",
    "priority": "Anticipate drugs that lower calcium or PTH.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Match nonsurgical therapy to calcium and skeletal goals; do not automatically add loop diuresis."
   },
   {
    "id": "endo-hyperpara-q8",
@@ -1933,7 +1951,7 @@
     "Previous head or neck radiation",
     "Removal of the parathyroid glands during thyroid surgery",
     "Vitamin D deficiency",
-    "Laxative abuse",
+    "Documented chronic intestinal malabsorption causing calcium/vitaminD deficiency",
     "Radioactive iodine treatment for Graves disease"
    ],
    "correct": [
@@ -1947,8 +1965,8 @@
     "Correct. History of head or neck radiation is listed for primary hyperparathyroidism.",
     "Incorrect. Removal of the parathyroid glands causes hypoparathyroidism, not excess PTH.",
     "Correct. Vitamin D deficiency is a listed secondary cause.",
-    "Correct. Laxative abuse is a listed secondary cause.",
-    "Incorrect. The book lists radioactive iodine for Graves disease as a cause of hypoparathyroidism."
+    "Correct. Calcium/vitaminD deficiency from documented malabsorption can stimulate secondary PTH elevation.",
+    "Incorrect. Radioactive iodine primarily risks thyroid-hormone deficiency; it is not a standard primary-hyperparathyroidism risk factor. Do not describe routine hypoparathyroidism as its expected effect."
    ],
    "clue": "Conditions that stimulate or alter the parathyroid glands.",
    "priority": "Identify risk factors for hyperparathyroidism.",
@@ -1982,7 +2000,7 @@
     "Incorrect. The book teaches a high-calcium, low-phosphorus diet.",
     "Correct. ECG monitoring during the acute phase is listed.",
     "Correct. Fall prevention is part of the book's nursing focus.",
-    "Incorrect. Furosemide lowers calcium and is used for hyperparathyroidism; it would worsen hypocalcemia."
+    "Incorrect. Loop diuresis can increase calcium loss and worsen hypocalcemia or volume depletion. Do not describe it as routine hyperparathyroidism treatment; any overload indication requires a specific assessed plan."
    ],
    "clue": "Acute hypocalcemia with risk of airway obstruction, seizures, and dysrhythmias.",
    "priority": "Maintain safety during acute hypocalcemia.",
@@ -2072,16 +2090,17 @@
     4
    ],
    "rationales": [
-    "Correct. The book describes HHS as severe hyperglycemia without ketosis (no significant ketones), whereas DKA involves ketosis.",
-    "Incorrect. Fruity breath odor is listed as a DKA feature.",
-    "Correct. The book lists HHS glucose above 600 mg/dL, while DKA glucose is above 250 mg/dL but rarely over 600.",
-    "Incorrect. Kussmaul respirations are listed for DKA.",
-    "Correct. The book states HHS is more common in type 2 diabetes, while DKA is most common in type 1.",
-    "Incorrect. Metabolic acidosis (low pH, low HCO3) is listed for DKA."
+    "Correct. Absence of significant ketosis favors HHS; confirm with ketone and acid-base data.",
+    "Incorrect. Fruity breath may reflect ketone production and favors ketoacidosis.",
+    "Correct. Marked hyperglycemia supports HHS in the stated presentation, but does not independently exclude DKA or a mixed crisis.",
+    "Incorrect. Kussmaul respiration suggests metabolic-acidosis compensation.",
+    "Correct. HHS often occurs in type 2 diabetes; either crisis can occur in different diabetes types.",
+    "Incorrect. Significant acidosis favors DKA or a mixed crisis. Current DKA criteria allow glucose≥200 mg/dL or prior diabetes regardless of glucose, with ketosis/acidosis."
    ],
    "clue": "Glucose above 600 mg/dL without significant ketones in a client with type 2 diabetes.",
    "priority": "Differentiate HHS from DKA.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Distinguish HHS/DKA using ketones, acid-base status and osmolality; glucose level or diabetes type alone is insufficient."
   },
   {
    "id": "endo-emergencies-q5",
@@ -2090,36 +2109,38 @@
    "page": 111,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A nurse is reviewing priority interventions for clients with endocrine emergencies. For each intervention, indicate the emergency it is used to treat.",
+   "stem": "Classify the typical endocrine emergency use of these prescribed interventions. Select “More than one listed emergency” when the therapy has an established role in multiple columns.",
    "rows": [
-    "Propranolol",
-    "IV levothyroxine",
-    "High-dose IV hydrocortisone",
-    "Cooling blanket and acetaminophen",
-    "Gradual rewarming"
+    "Prescribed beta blockade for severe thyrotoxic tachycardia after hemodynamic assessment.",
+    "IV levothyroxine replacement.",
+    "Stress-dose IV hydrocortisone.",
+    "Cooling measures and acetaminophen for extreme thyrotoxic fever.",
+    "Cautious gradual warming for severe hypothyroid hypothermia."
    ],
    "columns": [
     "Thyroid storm",
     "Myxedema coma",
-    "Addisonian crisis"
+    "Adrenal crisis",
+    "More than one listed emergency"
    ],
    "correct": [
     0,
     1,
-    2,
+    3,
     0,
     1
    ],
    "rationales": [
-    "Thyroid storm. The book lists beta-blockers such as propranolol.",
-    "Myxedema coma. The book lists IV thyroid hormone (levothyroxine).",
-    "Addisonian crisis. The book lists high-dose IV hydrocortisone.",
-    "Thyroid storm. Cooling measures treat the high fever of thyroid storm.",
-    "Myxedema coma. The book says to warm the client gradually."
+    "Beta blockade can reduce thyrotoxic symptoms but requires cautious selection, especially with shock or heart failure.",
+    "IV thyroid hormone treats the severe deficiency in myxedema coma.",
+    "Hydrocortisone is essential in adrenal crisis and also has roles in myxedema coma and thyroid storm; it cannot be assigned uniquely to only one.",
+    "These measures address the hyperthermia of thyroid storm.",
+    "Cautious warming addresses myxedema-related hypothermia; avoid unmonitored aggressive warming."
    ],
    "clue": "Hypermetabolic, hypometabolic, and adrenal emergencies need different treatment.",
    "priority": "Match each emergency to its priority intervention.",
-   "checked": true
+   "checked": true,
+   "takeaway": "A therapy may apply to multiple emergencies; match indication and physiology rather than forcing exclusive drug categories."
   },
   {
    "id": "endo-emergencies-q6",
@@ -2153,7 +2174,7 @@
    "page": 93,
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with type 2 diabetes mellitus has followed a treatment plan for several months. Today's hemoglobin A1C is 9.1%. How should the nurse interpret this result?",
+   "stem": "A client with type 2 diabetes mellitus has followed a treatment plan for several months. The agreed individualized A1C goal is below 7%. Today's A1C is 9.1%. How should the nurse interpret this result?",
    "options": [
     "Blood glucose control over the past 2-3 months has been poor.",
     "The result is within the normal range for an adult.",
@@ -2162,15 +2183,16 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book states A1C reflects average blood glucose over 2-3 months and that a value above 8% indicates poor control.",
-    "Incorrect. The book lists a normal A1C of 4%-6%; 9.1% is well above that.",
-    "Incorrect. A1C reflects average glucose over 2-3 months, not a single reading.",
-    "Incorrect. A high A1C reflects elevated average glucose, not low glucose."
+    "Correct. A1C reflects average glycemia over roughly 2–3 months;9.1% is above this client’s stated goal and needs review of treatment, access, adherence and contributing factors.",
+    "Incorrect. This value exceeds the supplied goal. In people without diabetes, an A1C below 5.7% is generally in the non-diabetes range; diabetes treatment targets are individualized.",
+    "Incorrect. A1C is not a measurement of only this morning’s glucose.",
+    "Incorrect. A high average does not prove frequent hypoglycemia, although glucose variability and lows can coexist and should be assessed."
    ],
    "clue": "An A1C of 9.1% is above the 8% mark for poor control.",
    "priority": "Use the A1C to evaluate long-term glycemic control and the need to revise the plan.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Compare A1C with the individualized target and glucose pattern, not a universal 8% cutoff."
   },
   {
    "id": "endo-dm-q8",
@@ -2205,36 +2227,37 @@
    "page": 93,
    "clientNeed": "pa",
    "cjmm": "analyzeCues",
-   "stem": "A nurse is reviewing assessment data for clients with diabetes mellitus. For each finding, indicate whether it is more typical of type 1 or type 2 diabetes mellitus.",
+   "stem": "For these characteristic disease mechanisms, select the diabetes type most directly described. Clinical presentation can overlap, and diabetes type is not diagnosed from a foot ulcer or body appearance alone.",
    "rows": [
-    "Sudden onset of symptoms",
-    "Gradual onset of symptoms",
-    "Weight loss with muscle wasting",
-    "Fatty deposits on the face, neck, and abdomen",
-    "Cool skin with foot ulcers"
+    "Autoimmune beta-cell destruction with severe endogenous insulin deficiency.",
+    "Predominant insulin resistance with progressive beta-cell dysfunction.",
+    "Islet autoantibodies in a client requiring insulin from diagnosis.",
+    "Insulin resistance associated with excess adiposity and metabolic risk factors.",
+    "Absolute insulin deficiency requiring ongoing insulin replacement."
    ],
    "columns": [
-    "Type 1 DM",
-    "Type 2 DM"
+    "Type 1 diabetes",
+    "Type 2 diabetes"
    ],
    "correct": [
     0,
     1,
     0,
     1,
-    1
+    0
    ],
    "rationales": [
-    "Type 1. The book lists sudden onset for type 1 diabetes.",
-    "Type 2. The book lists gradual onset for type 2 diabetes.",
-    "Type 1. The book lists weight loss, muscle wasting, and poor turgor on the type 1 physical exam.",
-    "Type 2. The book lists fatty deposits of the face, neck, and abdomen on the type 2 physical exam.",
-    "Type 2. The book lists cool skin and foot ulcers on the type 2 physical exam."
+    "This is the characteristic autoimmune type 1 mechanism.",
+    "This describes the predominant type 2 mechanism.",
+    "The supplied autoimmune/insulin-deficiency context supports type 1.",
+    "These features support a typical insulin-resistant type 2 pattern without making appearance diagnostic.",
+    "Ongoing insulin replacement is essential when endogenous production is absent. Foot complications can occur in either type."
    ],
    "clue": "Onset pattern and body changes differ between the types.",
    "priority": "Distinguish type 1 from type 2 diabetes using history and physical findings.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use disease mechanism and diagnostic evidence; complications and appearance do not uniquely distinguish diabetes type."
   },
   {
    "id": "endo-dm-q10",
@@ -2426,16 +2449,16 @@
    "page": 94,
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
-   "stem": "A nurse is reviewing follow-up laboratory results for four clients taking levothyroxine for primary hypothyroidism. For each result, indicate whether it is within the normal range or still consistent with hypothyroidism.",
+   "stem": "Different clients taking levothyroxine for primary hypothyroidism have the results below. The laboratory ranges are TSH 0.4–4.2 mU/L and free T4 0.8–1.8 ng/dL. Classify each result relative to its supplied range; a single normal value alone does not prove overall control.",
    "rows": [
     "TSH 2.6 mU/L",
     "TSH 8.4 mU/L",
-    "T4 3.9 mcg/dL",
-    "T3 132 ng/dL"
+    "Free T4 0.5 ng/dL",
+    "Free T4 1.2 ng/dL"
    ],
    "columns": [
-    "Within normal range",
-    "Consistent with hypothyroidism"
+    "Within supplied range",
+    "Outside supplied range"
    ],
    "correct": [
     0,
@@ -2444,15 +2467,16 @@
     0
    ],
    "rationales": [
-    "Within normal range. The book lists a normal TSH of 0.4-4.2 mU/L.",
-    "Consistent with hypothyroidism. The book states a TSH above 4.2 mU/L indicates primary hypothyroidism.",
-    "Consistent with hypothyroidism. The book lists a normal T4 of 5.5-12.5 mcg/dL; a lower value means low hormone production.",
-    "Within normal range. The book lists a normal T3 of 70-204 ng/dL."
+    "This TSH is within the stated interval.",
+    "The elevated TSH may indicate underreplacement or another issue; assess timing, adherence, interactions and paired results.",
+    "Low free T4 needs review alongside TSH and clinical context.",
+    "This free T4 is within the stated interval, but the full assessment determines control. Normal total T3 alone is not a reliable replacement endpoint."
    ],
    "clue": "Compare each value with the normal TSH, T4, and T3 ranges.",
    "priority": "Use thyroid labs to evaluate whether replacement therapy has restored a euthyroid state.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use the actual TSH/freeT 4 ranges and clinical context rather than generic total-hormone ranges."
   },
   {
    "id": "endo-hypothyroid-q10",
@@ -2461,14 +2485,14 @@
    "page": 95,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with hypothyroidism has gained weight and reports constipation. Which dietary recommendations should the nurse include? Select all that apply.",
+   "stem": "A client with treated hypothyroidism has BMI 31 kg/m² and constipation. A dietitian recommends a modest individualized energy deficit, adequate protein and increased fiber; there is no protein/fluid restriction. Which teaching supports that plan? Select all that apply.",
    "options": [
-    "Choose high-fiber foods",
-    "Follow a high-calorie diet to boost energy",
-    "Choose a low-calorie diet",
-    "Include high-protein foods",
-    "Limit fiber to reduce abdominal distention",
-    "Expect calorie needs to be adjusted as metabolism improves"
+    "Choose suitable high-fiber foods and adequate prescribed fluids.",
+    "Increase calories solely to treat low energy without nutrition review.",
+    "Follow the individualized energy goal rather than a universal hypothyroidism diet.",
+    "Include the recommended amount of protein rather than an automatic high-protein regimen.",
+    "Avoid fiber solely because constipation is present.",
+    "Reassess energy needs as treatment, activity and weight change."
    ],
    "correct": [
     0,
@@ -2477,17 +2501,18 @@
     5
    ],
    "rationales": [
-    "Correct. The book recommends a high-fiber diet.",
-    "Incorrect. The book recommends a low-calorie diet for hypothyroidism.",
-    "Correct. The book recommends a low-calorie diet.",
-    "Correct. The book recommends a high-protein diet.",
-    "Incorrect. The book recommends high fiber, which also helps constipation.",
-    "Correct. The book states calories should be adjusted as metabolism improves."
+    "Correct. Fiber and appropriate fluids support constipation management.",
+    "Incorrect. Low energy requires clinical assessment, not automatic high-calorie intake.",
+    "Correct. Energy goals depend on nutrition status and the actual plan.",
+    "Correct. Adequate individualized protein meets needs without imposing excessive intake.",
+    "Incorrect. Unnecessary fiber avoidance can worsen constipation.",
+    "Correct. Metabolic and activity changes may require nutrition-plan adjustment."
    ],
    "clue": "Weight gain and constipation from slowed metabolism.",
    "priority": "Plan a low-calorie, high-protein, high-fiber diet.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use the assessed nutrition plan; hypothyroidism does not imply one calorie/protein prescription for everyone."
   },
   {
    "id": "endo-hypothyroid-q11",
@@ -2536,14 +2561,14 @@
     "Primary hypothyroidism",
     "Secondary hypothyroidism",
     "Tertiary hypothyroidism",
-    "Cretinism"
+    "Congenital hypothyroidism"
    ],
    "correct": 1,
    "rationales": [
     "Incorrect. Primary hypothyroidism is loss of thyroid tissue leading to low hormone production.",
     "Correct. The book defines secondary hypothyroidism as the pituitary gland failing to stimulate the thyroid.",
     "Incorrect. Tertiary hypothyroidism occurs when the hypothalamus fails to produce thyroid-releasing hormone.",
-    "Incorrect. Cretinism is the term the book uses for hypothyroidism in infants."
+    "Incorrect. Congenital hypothyroidism refers to thyroid-hormone deficiency present at birth; it does not describe this acquired pituitary cause. Use respectful current terminology."
    ],
    "clue": "The pituitary no longer stimulates the thyroid.",
    "priority": "Identify the level of the problem causing hypothyroidism.",
@@ -2609,14 +2634,14 @@
    "page": 96,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is reviewing risk factors for hyperthyroidism with a group of clients. Which factors should the nurse include? Select all that apply.",
+   "stem": "Which histories are associated with hyperthyroidism, thyrotoxicosis or complications of Graves disease and should be discussed during assessment? Select all that apply.",
    "options": [
-    "Tobacco use",
-    "Male sex",
-    "High iodine intake",
-    "Female sex, especially ages 20-40",
-    "A low-fat diet",
-    "Hormone therapy"
+    "Tobacco use in a client with Graves disease.",
+    "Male sex by itself as the higher-prevalence demographic group.",
+    "High-dose iodine exposure in a client with susceptible nodular thyroid disease.",
+    "Female sex as the higher-prevalence demographic group for Graves disease.",
+    "A low-fat eating pattern by itself.",
+    "Excess exogenous thyroid-hormone intake."
    ],
    "correct": [
     0,
@@ -2625,17 +2650,18 @@
     5
    ],
    "rationales": [
-    "Correct. The book lists tobacco use as a risk factor.",
-    "Incorrect. The book states hyperthyroidism is more common in women.",
-    "Correct. The book lists high iodine intake as a risk factor.",
-    "Correct. The book states it is more common in women, especially ages 20-40.",
-    "Incorrect. Dietary fat is not a risk factor; the book lists tobacco use, high iodine intake, stress, hormone therapy, and female sex (ages 20-40).",
-    "Correct. The book lists hormone therapy as a risk factor."
+    "Correct. Smoking is especially relevant to Graves orbitopathy risk; it is not a universal cause of all hyperthyroidism.",
+    "Incorrect. Graves disease is more prevalent in women; male sex alone is not the stated increased-prevalence feature.",
+    "Correct. Excess iodine can provoke thyroid dysfunction in susceptible individuals.",
+    "Correct. This demographic association can inform assessment but does not diagnose disease.",
+    "Incorrect. Dietary fat restriction alone is not an established hyperthyroidism cause.",
+    "Correct. Excess thyroid hormone can cause thyrotoxicosis; unspecified estrogen/testosterone therapy is not equivalent."
    ],
    "clue": "Risk factors for an overactive thyroid.",
    "priority": "Teach modifiable and nonmodifiable risk factors for hyperthyroidism.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Name the actual exposure and disease context; avoid calling all “hormone therapy” a cause."
   },
   {
    "id": "endo-hyperthyroid-q8",
@@ -2800,7 +2826,7 @@
     "Hypoglycemia",
     "Hyperkalemia",
     "Dehydration",
-    "Diminished secondary sex characteristics",
+    "Loss of axillary and pubic hair in a female client",
     "Poor stress tolerance"
    ],
    "columns": [
@@ -2819,7 +2845,7 @@
     "Cortisol. The book links low cortisol to fatigue, hypotension, and hypoglycemia.",
     "Aldosterone. The book links low aldosterone to hyponatremia, hyperkalemia, and dehydration.",
     "Aldosterone. The book states aldosterone deficiency causes dehydration and electrolyte imbalances.",
-    "Androgens. The book states loss of androgens can diminish secondary sex characteristics.",
+    "Adrenal androgen loss may reduce axillary/pubic hair and libido in women. Gonadal testosterone predominates in men, so a universal loss of secondary sex characteristics is inaccurate.",
     "Cortisol. The book states cortisol deficiency leads to poor stress tolerance and emotional changes."
    ],
    "clue": "Each adrenal hormone has distinct effects.",
@@ -2839,19 +2865,20 @@
     "The mood change is unrelated to Addison disease and can be addressed later.",
     "The weakness is most likely from too much physical activity.",
     "Grief is causing the client to develop Cushing syndrome.",
-    "Depression is a physiological stress that can trigger an adrenal crisis."
+    "New weakness and dizziness require assessment for worsening adrenal insufficiency and current replacement needs."
    ],
    "correct": 3,
    "rationales": [
-    "Incorrect. The book lists depression as a trigger, so it is relevant now.",
-    "Incorrect. Nothing suggests overexertion; weakness and dizziness are symptoms of adrenal insufficiency.",
-    "Incorrect. Cushing syndrome is cortisol excess, not a result of grief.",
-    "Correct. The book lists depression among the physiological stresses that trigger adrenal insufficiency, and new weakness and dizziness need assessment."
+    "Emotional concerns and worsening physical symptoms should both be assessed promptly.",
+    "No activity history establishes overexertion as the cause.",
+    "Grief does not itself cause cortisol-excess Cushing syndrome.",
+    "Assess BP, hydration, intake, medication adherence and relevant illness/stress; escalate suspected crisis. Bereavement alone does not establish a depressive disorder or a specific physiological trigger."
    ],
    "clue": "Depression with worsening weakness and dizziness.",
    "priority": "Recognize emotional stress as a trigger for adrenal crisis.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Do not diagnose depression from bereavement alone; evaluate worsening adrenal symptoms and support emotional needs."
   },
   {
    "id": "endo-addison-q15",
@@ -2860,24 +2887,25 @@
    "page": 99,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "stem": "A male client with Addison disease tells the nurse he is embarrassed about impotence and loss of body hair and doesn't want his partner to know. Which response by the nurse is most therapeutic?",
+   "stem": "A male client with Addison disease tells the nurse he is embarrassed about erectile dysfunction and loss of body hair and doesn't want his partner to know. Which response by the nurse is most therapeutic?",
    "options": [
-    "These changes can come from your adrenal hormone deficiency. How are you feeling about them?",
+    "These changes deserve evaluation. How have they affected you?",
     "Those changes are not related to your illness, so try not to worry.",
     "You should tell your partner right away; secrets hurt relationships.",
     "Let's focus on your blood pressure instead of these minor issues."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists impotence and loss of body hair in adrenal insufficiency; explaining this and inviting the client to talk supports coping.",
-    "Incorrect. The book links these changes to adrenal insufficiency.",
-    "Incorrect. This gives advice and dismisses the client's feelings.",
-    "Incorrect. This dismisses a concern that matters to the client."
+    "This acknowledges the concern and invites discussion without assuming its cause. Erectile dysfunction/body-hair changes in a man warrant assessment of gonadal, medication and other causes; adrenal androgen deficiency alone is not a sufficient explanation.",
+    "Dismissing the concern prevents needed evaluation and emotional support.",
+    "Pressuring disclosure overrides the client’s preferences; discuss support with permission.",
+    "These concerns matter to the client and should not be labeled minor."
    ],
    "clue": "Embarrassment about impotence and hair loss.",
    "priority": "Support body image concerns with accurate information and therapeutic communication.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use empathetic inquiry and assess sexual/hair changes individually rather than assuming a proven adrenal cause."
   },
   {
    "id": "endo-addison-q16",
@@ -2890,7 +2918,7 @@
    "rows": [
     "Serum potassium decreased from 6.0 to 4.6 mEq/L",
     "Serum sodium decreased from 130 to 126 mEq/L",
-    "Blood pressure now drops only 6 mm Hg on standing",
+    "Systolic BP now falls only 6 mm Hg within 3 minutes of standing; dizziness has resolved.",
     "Blood glucose decreased from 70 to 52 mg/dL",
     "Skin turgor has improved"
    ],
@@ -2908,7 +2936,7 @@
    "rationales": [
     "Improvement. The book lists hyperkalemia in adrenal insufficiency; a falling potassium shows a response.",
     "No improvement. The book lists hyponatremia; a further drop means the imbalance is worsening.",
-    "Improvement. The book lists postural hypotension (drop greater than 15 mm Hg); a 6 mm Hg drop shows improvement.",
+    "Improvement. Orthostatic hypotension is generally a sustained SBP fall≥20 mmHg or DBP fall≥10 mmHg within 3 minutes standing. The small SBP change with resolved symptoms supports improvement.",
     "No improvement. The book lists hypoglycemia; a further fall in glucose is worsening.",
     "Improvement. The book lists poor turgor as a dehydration sign; better turgor shows fluid restoration."
    ],
@@ -2976,7 +3004,7 @@
    "page": 97,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client whose Addison disease was diagnosed late has developed bone loss and reports weakness. Which nursing intervention best reduces the client's risk of injury?",
+   "stem": "A client with primary adrenal insufficiency has documented osteoporosis after years of glucocorticoid overreplacement. The dose is being adjusted by the treating team. The client reports weakness. Which action best reduces injury risk?",
    "options": [
     "Keep the client on strict bed rest.",
     "Encourage the client to walk alone to rebuild strength.",
@@ -2988,12 +3016,13 @@
     "Incorrect. Strict bed rest adds immobility risks and is not needed.",
     "Incorrect. Walking alone with weakness and bone loss increases fall risk.",
     "Incorrect. Restraints are not indicated and can cause injury.",
-    "Correct. The book lists bone loss as a complication of delayed diagnosis; with weakness, fall precautions and help with walking reduce fracture risk."
+    "Correct. Documented osteoporosis and weakness increase injury risk; assistance and fall precautions protect the client. Excess replacement or other causes, rather than a universal late-Addison mechanism, must be evaluated."
    ],
    "clue": "Bone loss plus weakness.",
    "priority": "Prevent falls and fractures in a client with bone loss.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Prevent falls in documented osteoporosis/weakness and investigate the cause; never stop essential adrenal replacement independently."
   },
   {
    "id": "endo-cushing-q6",
@@ -3037,16 +3066,16 @@
    "page": 100,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A nurse is reviewing data for clients with Cushing syndrome. For each finding, indicate whether it points to a pituitary source or an adrenal source of the cortisol excess.",
+   "stem": "Clients have confirmed endogenous cortisol excess and clinician-directed localization. Classify the following patterns as ACTH-dependent or ACTH-independent.",
    "rows": [
-    "Elevated ACTH level",
-    "Decreased ACTH level",
-    "Planned transsphenoidal adenectomy",
-    "Planned surgical removal of an adrenal tumor"
+    "Elevated ACTH in a client being evaluated for a pituitary or ectopic source.",
+    "Suppressed ACTH with a confirmed autonomous cortisol-secreting adrenal tumor.",
+    "Confirmed pituitary ACTH-producing adenoma with planned transsphenoidal surgery.",
+    "Confirmed autonomous adrenal cortisol-producing tumor with planned adrenalectomy."
    ],
    "columns": [
-    "Pituitary source",
-    "Adrenal source"
+    "ACTH-dependent cortisol excess",
+    "ACTH-independent cortisol excess"
    ],
    "correct": [
     0,
@@ -3055,15 +3084,16 @@
     1
    ],
    "rationales": [
-    "Pituitary source. The book states elevated ACTH indicates a pituitary tumor.",
-    "Adrenal source. The book states decreased ACTH indicates an adrenal tumor.",
-    "Pituitary source. The book lists transsphenoidal adenectomy for secondary (pituitary) Cushing syndrome.",
-    "Adrenal source. The book lists surgical removal for primary (adrenal tumor) Cushing syndrome."
+    "ACTH-dependent disease can arise from pituitary or ectopic ACTH; an elevated level alone does not locate the source.",
+    "Autonomous adrenal cortisol can suppress pituitary ACTH.",
+    "The supplied confirmed pituitary ACTH source is ACTH-dependent.",
+    "The supplied autonomous adrenal source is ACTH-independent."
    ],
    "clue": "ACTH level and the planned surgery.",
    "priority": "Use ACTH results to locate the cause of cortisol excess.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "ACTH classifies dependence; pituitary versus ectopic localization requires additional evaluation."
   },
   {
    "id": "endo-cushing-q8",
@@ -3370,24 +3400,25 @@
    "page": 103,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A client has a serum sodium of 118 mEq/L, blood osmolality of 262 mOsm/L, and urine sodium of 46 mEq/L. How should the nurse interpret these results?",
+   "stem": "A clinically euvolemic adult has sodium 118 mEq/L, serum osmolality 262 mOsm/kg, urine osmolality 480 mOsm/kg and urine sodium 46 mEq/L. Renal, adrenal and thyroid evaluation and medication/diuretic review exclude competing explanations. Which interpretation best fits?",
    "options": [
-    "They are consistent with diabetes insipidus and concentrated blood.",
-    "They show dehydration with high blood osmolality.",
-    "They are consistent with SIADH: dilution of the blood with sodium lost in the urine.",
-    "They are within normal limits."
+    "The data indicate typical untreated diabetes insipidus.",
+    "The data establish hypovolemic dehydration with hyperosmolar blood.",
+    "The combined findings are compatible with SIADH after the stated evaluation.",
+    "The sodium and osmolality are within reference ranges."
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. Diabetes insipidus causes high sodium and high blood osmolality.",
-    "Incorrect. Blood osmolality of 262 is low, showing hemodilution.",
-    "Correct. The book lists serum sodium below 120, blood osmolality below 275, and urine sodium above 40 as SIADH findings.",
-    "Incorrect. Each value is outside the normal range listed in the book."
+    "Incorrect. DI typically causes hypotonic polyuria and may produce high sodium without adequate water; it does not fit the concentrated urine/hypotonic blood pattern.",
+    "Incorrect. The supplied blood osmolality is low and clinical evaluation finds euvolemia.",
+    "Correct. Hypotonic hyponatremia with inappropriately concentrated urine and the supplied exclusions supports SIADH; three isolated values alone would not be sufficient.",
+    "Incorrect. These findings are abnormal and severe hyponatremia needs clinical assessment."
    ],
    "clue": "Low serum sodium and osmolality with high urine sodium.",
    "priority": "Interpret laboratory findings of SIADH.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "SIADH diagnosis requires volume status, urine concentration and exclusion of competing causes, not just serum sodium and urine sodium."
   },
   {
    "id": "endo-siadh-q12",
@@ -3422,7 +3453,7 @@
    "page": 104,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client with SIADH has a prescribed fluid restriction. Which 24-hour intake plan fits the treatment strategy for SIADH?",
+   "stem": "A stable adult with SIADH has a specifically prescribed total fluid limit of 700 mL per 24 hours. Which intake plan follows that prescription?",
    "options": [
     "700 mL total, with ice chips counted as intake",
     "700 mL of water plus unlimited ice chips",
@@ -3431,15 +3462,16 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists a fluid restriction of 600-800 mL per day and says to count ice chips.",
-    "Incorrect. Ice chips must be counted as fluid intake.",
-    "Incorrect. 1,500 mL exceeds the 600-800 mL restriction.",
-    "Incorrect. 2,000 mL exceeds the 600-800 mL restriction."
+    "Correct. The total remains within the stated 700 mL prescription, with ice chips and other fluid sources counted.",
+    "Incorrect. Unlimited ice chips add uncounted water beyond the total limit.",
+    "Incorrect.1500 mL exceeds this client’s prescribed limit.",
+    "Incorrect.2000 mL exceeds this client’s prescribed limit. SIADH limits are individualized;700 mL is supplied for this scenario, not a universal requirement."
    ],
    "clue": "A fluid restriction of 600-800 mL per day.",
    "priority": "Plan intake within the SIADH fluid restriction.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Count all fluid sources against the actual prescribed limit."
   },
   {
    "id": "endo-siadh-q14",
@@ -3486,7 +3518,7 @@
    "page": 104,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with severe hyponatremia from SIADH is receiving 3% hypertonic saline. For each finding, indicate whether the nurse should report it immediately or continue to monitor.",
+   "stem": "An adult at high risk for osmotic demyelination has severe SIADH-associated hyponatremia and receives 3% saline under protocol. The plan targets a 4–6 mEq/L rise and limits correction to 8 mEq/L in 24 hours, with frequent laboratory/clinical reassessment. Classify these findings.",
    "rows": [
     "Mental status is slowly clearing",
     "New crackles in both lung bases",
@@ -3506,16 +3538,17 @@
     0
    ],
    "rationales": [
-    "Continue to monitor. Improving mental status is the desired response.",
-    "Report immediately. The book says to monitor for pulmonary congestion with treatment.",
-    "Continue to monitor. A 4 mEq/L rise is within the book's limit of 8-10 mEq/L in 24 hours.",
-    "Report immediately. New dyspnea may signal pulmonary congestion.",
-    "Report immediately. The book says to monitor neurologic symptoms; seizures need urgent action."
+    "Continue close monitoring. Improving mental status is a favorable response but does not end sodium surveillance.",
+    "Report immediately. New crackles require assessment for pulmonary fluid/respiratory complications.",
+    "Continue close monitoring. A 4 mEq/L rise over 24 hours is within this stated plan; monitor ongoing sodium trajectory and urine output.",
+    "Report immediately. New dyspnea needs urgent assessment.",
+    "Report immediately and provide emergency care. New seizure activity requires immediate airway/safety assessment and treatment-team escalation."
    ],
    "clue": "Pulmonary or neurologic changes during hypertonic saline.",
    "priority": "Use hypertonic saline cautiously and report complications.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use the ordered risk-based correction limit and frequent sodium/urine-output monitoring; a rise below a generic ceiling is not automatically safe."
   },
   {
    "id": "endo-siadh-q16",
@@ -3666,24 +3699,25 @@
    "page": 105,
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with diabetes insipidus and hypernatremia is receiving IV fluids. The serum sodium was 162 mEq/L yesterday and is 146 mEq/L today. What is the nurse's priority concern?",
+   "stem": "A client with DI has hypernatremia of unknown duration. The prescribed plan limits the sodium fall to 10 mEq/L during the first 24 hours. It falls from 162 to 146 mEq/L over that period. What should the nurse do?",
    "options": [
-    "The sodium dropped faster than recommended, raising the risk of cerebral edema.",
-    "The sodium is now near normal, so the IV fluids can be stopped.",
-    "The sodium is falling too slowly, so the infusion should be increased.",
-    "The client is now at risk for seizures from low sodium."
+    "Notify the treating team that the fall exceeded the ordered limit and reassess neurologic/volume status.",
+    "Stop all fluids because the sodium is near the reference range.",
+    "Increase the infusion because the decline is too slow.",
+    "Treat the client for severe hyponatremia based on the 146 result."
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book says to lower sodium by no more than 10-12 mEq/L in 24 hours to prevent cerebral edema; this drop is 16 mEq/L.",
-    "Incorrect. The concern is the speed of correction; fluids are adjusted by the provider based on sodium levels.",
-    "Incorrect. The sodium is falling too fast, not too slowly.",
-    "Incorrect. A sodium of 146 mEq/L is not low."
+    "Correct. The 16 mEq/L decline exceeds this individualized order. Prompt reassessment and plan adjustment are appropriate; do not claim cerebral edema is inevitable in every adult corrected faster than a generic limit.",
+    "Incorrect. Abrupt independent cessation ignores ongoing DI and the individualized plan.",
+    "Incorrect. Increasing would further exceed the specified correction plan.",
+    "Incorrect. A sodium 146 is not severe hyponatremia."
    ],
    "clue": "A 16 mEq/L drop in sodium within 24 hours.",
    "priority": "Correct hypernatremia gradually to prevent cerebral edema.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use duration, symptoms and the prescribed correction target; monitor serial sodium and avoid unplanned rapid changes."
   },
   {
    "id": "endo-di-q9",
@@ -3900,7 +3934,7 @@
    "cjmm": "recognizeCues",
    "stem": "A nurse is teaching a client with acromegaly about long-term health risks. Which conditions does acromegaly increase the risk of? Select all that apply.",
    "options": [
-    "Gallstones",
+    "Obstructive sleep apnea",
     "Exophthalmos",
     "Heart disease",
     "Stroke",
@@ -3914,7 +3948,7 @@
     5
    ],
    "rationales": [
-    "Correct. The book lists gallstones.",
+    "Correct. Soft-tissue enlargement and other effects of excess growth hormone increase obstructive sleep-apnea risk. Gallstones are particularly a somatostatin-analog treatment risk, not a universal direct disease complication.",
     "Incorrect. Exophthalmos is a finding of Graves disease.",
     "Correct. The book lists heart disease.",
     "Correct. The book lists stroke.",
@@ -3924,7 +3958,8 @@
    "clue": "Excess GH raises cardiometabolic risk.",
    "priority": "Teach screening for complications of acromegaly.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Acromegaly warrants sleep-apnea and cardiometabolic assessment; distinguish disease complications from medication adverse effects."
   },
   {
    "id": "endo-acromegaly-q10",
@@ -4049,13 +4084,13 @@
    "page": 109,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A nurse is reviewing a nonsurgical care plan for a client with primary hyperparathyroidism. For each instruction, indicate whether it is accurate or inaccurate teaching.",
+   "stem": "A client with primary hyperparathyroidism is following a clinician-directed nonsurgical plan. Classify the teaching statements.",
    "rows": [
-    "Drink 2-3 L of fluid per day",
-    "Keep calcium and vitamin D intake moderate",
-    "Avoid all foods that contain calcium",
-    "Take high-dose vitamin D supplements to protect the bones",
-    "Stay as active as possible"
+    "“I will follow the fluid goal set after my kidney/heart status is assessed.”",
+    "“I will maintain recommended age-appropriate dietary calcium and discuss monitored vitaminD replacement if deficient.”",
+    "“I should avoid every calcium-containing food.”",
+    "“I will start high-dose vitaminD on my own without laboratory monitoring.”",
+    "“I will maintain safe activity as advised, considering my bone and fall risk.”"
    ],
    "columns": [
     "Accurate",
@@ -4069,16 +4104,17 @@
     0
    ],
    "rationales": [
-    "Accurate. The book lists hydration of 2-3 L per day.",
-    "Accurate. The book recommends moderate calcium and vitamin D intake.",
-    "Inaccurate. The book recommends moderate, not absent, calcium intake.",
-    "Inaccurate. The book recommends moderate vitamin D intake, not high doses.",
-    "Accurate. The book recommends promoting mobility to prevent fractures."
+    "Fluid needs vary; an automatic 2–3 L/day goal may be inappropriate with comorbid restrictions.",
+    "Normal dietary calcium is generally maintained, and vitaminD deficiency can be repleted with clinician monitoring.",
+    "Unnecessary total dietary calcium avoidance may be harmful.",
+    "Unsupervised high-dose supplementation can create risk; prescribed monitored repletion is different.",
+    "Safe individualized mobility supports function while accounting for osteoporosis/falls."
    ],
    "clue": "Moderate calcium and vitamin D with good hydration.",
    "priority": "Teach the nonsurgical diet and activity plan.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Maintain individualized hydration, normal dietary calcium and monitored vitaminD management; avoid blanket restriction or unsupervised supplements."
   },
   {
    "id": "endo-hyperpara-q10",
@@ -4113,24 +4149,25 @@
    "page": 109,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with hypercalcemia from hyperparathyroidism has received IV fluids and furosemide. Which finding best indicates the furosemide is having the intended effect?",
+   "stem": "A client with hypercalcemia from primary hyperparathyroidism has been rehydrated and now has pulmonary crackles and other findings of fluid overload. Furosemide is prescribed for the overload. Which finding best supports its intended effect?",
    "options": [
-    "Serum phosphorus has fallen further below normal.",
-    "The client reports worsening constipation.",
-    "Total serum calcium has decreased toward the normal range.",
-    "Total serum calcium has risen to 14.2 mg/dL."
+    "Serum phosphorus falls further below the reference range.",
+    "Constipation worsens despite treatment.",
+    "Congestion and dyspnea decrease with appropriate diuresis.",
+    "Serum calcium rises to 14.2 mg/dL."
    ],
    "correct": 2,
    "rationales": [
-    "Incorrect. Furosemide is given to lower calcium, not to change phosphorus.",
-    "Incorrect. Worsening constipation suggests continued hypercalcemia.",
-    "Correct. The book states furosemide promotes calcium excretion; a falling calcium shows the intended effect.",
-    "Incorrect. A rising calcium shows the treatment is not working."
+    "Incorrect. An isolated phosphorus fall is not the prescribed overload-treatment goal.",
+    "Incorrect. Worsening constipation is not evidence of successful diuresis.",
+    "Correct. Improving clinical congestion supports the stated indication; monitor electrolytes, BP and volume status. Furosemide is not routine calcium-lowering therapy for a dehydrated client.",
+    "Incorrect. Rising calcium does not establish successful treatment of either overload or hypercalcemia."
    ],
    "clue": "Change in serum calcium after furosemide.",
    "priority": "Evaluate the response to calcium-lowering therapy.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use loop diuresis for an actual assessed overload indication after rehydration, not as automatic hypercalcemia treatment."
   },
   {
    "id": "endo-hyperpara-q12",
@@ -4165,14 +4202,14 @@
    "page": 107,
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "stem": "A nurse is teaching a client with primary hyperparathyroidism about complications of the disorder. Which complications should the nurse include? Select all that apply.",
+   "stem": "Which established skeletal or renal complications should a client with primary hyperparathyroidism discuss with the care team? Select all that apply.",
    "options": [
-    "Osteoporosis and fractures",
-    "Cataracts",
-    "Kidney stones",
-    "Peptic ulcers",
-    "Pancreatitis",
-    "Tetany"
+    "Osteoporosis and fragility fractures.",
+    "Hypocalcemic tetany as a direct effect of untreated high calcium.",
+    "Kidney stones.",
+    "Renal-tissue calcium deposition (nephrocalcinosis).",
+    "Renal impairment associated with the disease’s renal complications.",
+    "Acute laryngospasm as the expected effect of elevated calcium."
    ],
    "correct": [
     0,
@@ -4181,17 +4218,18 @@
     4
    ],
    "rationales": [
-    "Correct. The book lists osteoporosis and fractures from bone demineralization.",
-    "Incorrect. Cataracts are a long-term complication of hypoparathyroidism.",
-    "Correct. The book lists renal stones.",
-    "Correct. The book lists peptic ulcers.",
-    "Correct. The book lists pancreatitis.",
-    "Incorrect. Tetany is a complication of low calcium (hypoparathyroidism)."
+    "Correct. Excess PTH may reduce bone density and increase fracture risk.",
+    "Incorrect. Tetany is associated with low calcium rather than a direct high-calcium effect.",
+    "Correct. Calcium-related stone risk is an established renal complication.",
+    "Correct. Calcium deposition can affect renal tissue.",
+    "Correct. Renal complications warrant kidney-function assessment and individualized management.",
+    "Incorrect. Laryngospasm is a severe hypocalcemia concern, not the expected elevated-calcium manifestation."
    ],
    "clue": "Effects of excess PTH and high calcium.",
    "priority": "Teach the complications to watch for in hyperparathyroidism.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Assess established skeletal and renal complications of primary hyperparathyroidism; evaluate gastrointestinal symptoms individually."
   },
   {
    "id": "endo-hyperpara-q14",
@@ -4252,7 +4290,7 @@
    "page": 108,
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A nurse is reviewing laboratory results for a client being evaluated for hyperparathyroidism. For each result, indicate whether it is consistent or not consistent with hyperparathyroidism.",
+   "stem": "A client is evaluated for typical hypercalcemic primary hyperparathyroidism, with preserved renal function and normal albumin. Lab references: total calcium 8.4–10.2 mg/dL, ionized calcium 4.5–5.3 mg/dL, phosphorus 2.5–4.5 mg/dL and PTH 15–65 pg/mL. Classify each result as supporting or not supporting the typical pattern by itself.",
    "rows": [
     "Serum phosphorus above normal",
     "Total serum calcium 11.6 mg/dL",
@@ -4261,8 +4299,8 @@
     "Serum PTH 112 pg/mL"
    ],
    "columns": [
-    "Consistent",
-    "Not consistent"
+    "Supports typical pattern",
+    "Does not support typical pattern by itself"
    ],
    "correct": [
     1,
@@ -4272,16 +4310,17 @@
     0
    ],
    "rationales": [
-    "Not consistent. The book states phosphorus is often low in hyperparathyroidism.",
-    "Consistent. The book lists total calcium above 10.5 mg/dL.",
-    "Not consistent. 8.0 mg/dL is below the normal range of 8.4-10.2 mg/dL.",
-    "Consistent. The book lists ionized calcium above 5.5 mg/dL.",
-    "Consistent. The book lists a normal PTH of 10-65 pg/mL and an elevated PTH in more than 90% of cases."
+    "High phosphorus is not the usual preserved-renal-function primary pattern; it can occur with CKD/secondary disease or another process. It does not alone exclude a diagnosis.",
+    "11.6 mg/dL exceeds the supplied total-calcium range and supports the hypercalcemic pattern.",
+    "8.0 mg/dL is below the supplied range and does not support the specified hypercalcemic pattern.",
+    "5.9 mg/dL exceeds the supplied ionized-calcium range.",
+    "112 pg/mL exceeds the supplied PTH range; interpret with calcium, renal function, vitaminD and the clinical evaluation."
    ],
    "clue": "High calcium and PTH with low phosphorus.",
    "priority": "Interpret laboratory results for hyperparathyroidism.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Specify primary versus secondary disease and use the actual laboratory ranges; interpret calcium/PTH together."
   },
   {
    "id": "endo-hyperpara-q17",
@@ -4583,33 +4622,34 @@
    "page": 112,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with DKA is receiving an insulin infusion. For each current finding, indicate whether it meets the book's criteria for DKA resolution.",
+   "stem": "These proposed laboratory results are from different adults receiving DKA treatment. For each result, state whether it meets the named biochemical component of resolution. No single component alone establishes full resolution.",
    "rows": [
-    "Venous pH 7.24",
-    "Anion gap 10 mEq/L",
-    "Bicarbonate 12 mEq/L",
-    "Plasma glucose 180 mg/dL"
+    "Venous-pH component: pH 7.24.",
+    "Ketone component: beta-hydroxybutyrate 0.4 mmol/L.",
+    "Bicarbonate component: bicarbonate 19 mEq/L.",
+    "Venous-pH component: pH 7.32."
    ],
    "columns": [
-    "Meets criterion",
-    "Does not meet criterion"
+    "Meets the named component",
+    "Does not meet the named component"
    ],
    "correct": [
     1,
     0,
-    1,
+    0,
     0
    ],
    "rationales": [
-    "Does not meet. The book requires a venous pH above 7.3.",
-    "Meets. The book requires an anion gap of 12 mEq/L or less.",
-    "Does not meet. The book requires bicarbonate of 15 mEq/L or more.",
-    "Meets. The book requires plasma glucose below 200 mg/dL."
+    "The pH component requires≥7.3.",
+    "The ketone component requires<0.6 mmol/L.",
+    "Bicarbonate≥18 may satisfy the acid-base component, together with ketone clearance.",
+    "This meets pH≥7.3, but ketone clearance must also be established. Anion gap alone is not the resolution criterion."
    ],
    "clue": "pH and bicarbonate still below the resolution thresholds.",
    "priority": "Evaluate DKA resolution using all of the criteria.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Adult DKA resolution: ketones<0.6 plus pH≥7.3 or bicarbonate≥18; glucose<200 is desirable but is not sufficient alone."
   },
   {
    "id": "endo-emergencies-q8",
@@ -4644,24 +4684,25 @@
    "page": 112,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "stem": "A client with HHS has a blood glucose of 780 mg/dL, heart rate 128/min, and blood pressure 82/48 mm Hg. The nurse calls the provider using SBAR. Which recommendation is most appropriate?",
+   "stem": "An 80-kg adult with HHS has glucose 780 mg/dL, HR 128/min and BP 82/48 mmHg. There is no known heart failure or advanced kidney disease; current assessment supports severe volume depletion. Which SBAR recommendation is appropriate?",
    "options": [
-    "Request a fluid restriction to prevent overload.",
-    "Request a normal saline bolus of 1-1.5 L within the first hour.",
-    "Request that fluids be held until insulin has lowered the glucose.",
-    "Request 3% hypertonic saline to raise the blood pressure."
+    "Restrict all fluid solely because glucose is high.",
+    "Begin prescribed isotonic fluid with frequent reassessment",
+    "Withhold resuscitation until insulin lowers the glucose.",
+    "Use 3% saline solely to treat this hypovolemia."
    ],
    "correct": 1,
    "rationales": [
-    "Incorrect. HHS causes severe dehydration, not overload.",
-    "Correct. The book lists aggressive fluid replacement with an NS bolus of 1-1.5 L within the first hour, noting clients are often depleted 8-12 L.",
-    "Incorrect. The book lists aggressive fluid replacement as a priority intervention.",
-    "Incorrect. The book lists normal saline, not hypertonic saline, for HHS."
+    "Incorrect. A universal restriction would worsen the identified volume deficit.",
+    "Correct. Isotonic saline or a balanced crystalloid may be used under the resuscitation plan; reassess BP, output, sodium/osmolality and overload risk rather than impose a fixed volume on every HHS client.",
+    "Incorrect. Waiting delays treatment of shock physiology.",
+    "Incorrect. Hypertonic saline is not the routine hypovolemic-resuscitation fluid for HHS."
    ],
    "clue": "Hypotension and tachycardia from severe dehydration in HHS.",
    "priority": "Recommend aggressive fluid replacement in SBAR.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Treat HHS volume depletion promptly with an individualized isotonic-fluid plan and serial reassessment."
   },
   {
    "id": "endo-emergencies-q10",
@@ -4670,7 +4711,7 @@
    "page": 112,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "A nurse is caring for a client with DKA who is receiving IV fluids and an insulin infusion. Which tasks can the nurse delegate to assistive personnel? Select all that apply.",
+   "stem": "An adult with DKA is receiving an insulin infusion. The RN has assessed the client and will remain responsible for close monitoring. Which routine tasks may trained assistive personnel perform with specific instructions and supervision? Select all that apply.",
    "options": [
     "Measure and record urine output",
     "Assess the depth and pattern of respirations",
@@ -4688,7 +4729,7 @@
     "Correct. Measuring and recording output is within the scope of assistive personnel and supports fluid monitoring.",
     "Incorrect. Assessing for Kussmaul respirations is a nursing assessment.",
     "Correct. Repositioning is basic care within the scope of assistive personnel.",
-    "Incorrect. Adding D5 when glucose falls below 200 mg/dL is a treatment decision.",
+    "Incorrect. Selecting/titrating IV fluids is a licensed clinical decision under the ordered protocol. Current adult DKA guidance adds 5–10% dextrose when glucose falls below 250 mg/dL while insulin continues at an adjusted rate.",
     "Correct. Mouth care for a dehydrated client is basic care that can be delegated.",
     "Incorrect. Interpreting lab results is the nurse's responsibility."
    ],

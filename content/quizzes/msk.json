@@ -83,14 +83,14 @@
    "options": [
     "Take it with milk at bedtime",
     "Lie down for 30 minutes afterward",
-    "Take it with water and stay upright",
+    "Take upon rising with 6–8 oz plain water, at least 30 minutes before food/drinks/other medicines; stay upright at least 30 minutes and until after first food",
     "Stop weight-bearing activity"
    ],
    "correct": 2,
    "rationales": [
     "The book specifies taking it with water and sitting upright, which bedtime dosing lying down does not allow.",
     "Lying down contradicts the book's instruction to sit upright after the dose.",
-    "Correct. The book states bisphosphonates such as alendronate are taken with water while sitting upright.",
+    "Correct. These instructions apply to the prescribed oral alendronate tablet, supporting absorption and reducing esophageal injury. Do not use mineral water, milk or juice; remain upright for the stated duration.",
     "The book recommends weight-bearing exercise as part of osteoporosis management."
    ],
    "clue": "The drug is a bisphosphonate.",
@@ -175,19 +175,19 @@
   {
    "id": "msk-osteomyelitis-q1",
    "section": "msk-osteomyelitis",
-   "stem": "A client with a diabetic foot ulcer has localized foot pain, swelling, warmth and fever. Osteomyelitis is diagnosed. Which treatment should the nurse anticipate?",
+   "stem": "A client with diabetic foot osteomyelitis has no bone resection yet. Which plan should the nurse anticipate?",
    "options": [
     "A short course of oral antibiotics",
-    "IV antibiotics for 4 to 6 weeks",
+    "Culture-directed systemic antibiotics, with route/duration selected for severity and bone-resection status",
     "Colchicine and NSAIDs",
     "Ice and compression only"
    ],
    "correct": 1,
    "rationales": [
-    "The book specifies long-term IV antibiotics, not a short oral course.",
-    "Correct. The book lists long-term IV antibiotics for 4-6 weeks, with surgical debridement and sepsis monitoring.",
-    "The book lists colchicine and NSAIDs as acute gout treatment, not osteomyelitis treatment.",
-    "Ice and compression are part of RICE for sprains and strains, not treatment for a bone infection."
+    "A short unspecified oral course is insufficient planning for confirmed bone infection.",
+    "Correct. Often 6 weeks are used without bone resection; route depends on severity and bioavailability. Appropriate oral regimens can be used. After minor amputation with positive bone margins, up to 3 weeks may be considered. Assess debridement and vascular needs.",
+    "These drugs treat gout inflammation, not the bone infection.",
+    "Symptom measures alone do not treat osteomyelitis."
    ],
    "clue": "A diabetic foot ulcer is a listed risk factor for osteomyelitis.",
    "priority": "Treating bone infection and watching for sepsis.",
@@ -195,7 +195,8 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Do not equate every osteomyelitis course with mandatory 4–6 weeks of IV therapy."
   },
   {
    "id": "msk-osteomyelitis-q2",
@@ -225,10 +226,10 @@
   {
    "id": "msk-osteomyelitis-q3",
    "section": "msk-osteomyelitis",
-   "stem": "A client is 1 day post total knee arthroplasty. Which interventions should the nurse expect in the plan of care? Select all that apply.",
+   "stem": "A client is postoperative day 1 after uncomplicated primary total knee arthroplasty. Which interventions should the nurse anticipate under the rehabilitation/VTE-prevention plan? Select all that apply.",
    "options": [
     "Strict bed rest until discharge",
-    "Continuous passive motion (CPM) machine",
+    "Prescribed active range-of-motion and rehabilitation exercises",
     "Early ambulation",
     "Holding DVT prophylaxis until the client walks",
     "Sequential compression devices (SCDs)"
@@ -240,7 +241,7 @@
    ],
    "rationales": [
     "Incorrect. The book calls for early ambulation and promoting mobility after joint replacement.",
-    "Correct. The book lists a CPM machine after TKA.",
+    "Correct. Active rehabilitation is appropriate; routine CPM is not recommended after uncomplicated primary TKA.",
     "Correct. The book lists early ambulation after TKA.",
     "Incorrect. The book lists DVT prophylaxis (heparin, SCDs) as routine post-op care, not something to delay.",
     "Correct. The book lists SCDs, with heparin, for post-op DVT prophylaxis."
@@ -281,14 +282,14 @@
   {
    "id": "msk-spinal-q2",
    "section": "msk-spinal",
-   "stem": "A client is treated for an ankle sprain. Which instructions are consistent with the book's treatment? Select all that apply.",
+   "stem": "A client has an acute ankle sprain. Which early comfort/protection instructions are appropriate while following the prescribed graded-mobility plan? Select all that apply.",
    "options": [
     "Apply ice for no more than 20 minutes at a time",
     "Keep ice on the ankle continuously for an hour",
     "Elevate the ankle",
     "Use heat instead of ice at first",
     "Wrap the ankle with a compression bandage",
-    "Keep walking on it to prevent stiffness"
+    "Continue unprotected full-weight walking despite increasing pain"
    ],
    "correct": [
     0,
@@ -296,12 +297,12 @@
     4
    ],
    "rationales": [
-    "Correct. The book's RICE treatment limits ice to 20 minutes maximum.",
-    "Incorrect. An hour exceeds the book's 20-minute maximum for ice.",
-    "Correct. Elevation is part of RICE.",
-    "Incorrect. The book lists ice, not heat, in RICE.",
-    "Correct. Compression is part of RICE.",
-    "Incorrect. The book lists rest and immobilization, not continued activity."
+    "Brief protected cooling up to 20 minutes can provide comfort; protect skin.",
+    "Prolonged direct ice risks skin injury.",
+    "Elevation may reduce swelling.",
+    "Initial heat can aggravate swelling.",
+    "Appropriate compression may support swelling control; assess circulation.",
+    "Do not push unprotected weight bearing through worsening pain. Use prescribed support and progressive weight bearing as tolerated; severe injury may require brief immobilization."
    ],
    "clue": "The injury is a sprain treated with RICE.",
    "priority": "Safe RICE treatment, including the 20-minute limit on ice.",
@@ -309,7 +310,8 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Protection and graded activity replace blanket prolonged rest; reassess severity and neurovascular status."
   },
   {
    "id": "msk-spinal-q3",
@@ -365,7 +367,7 @@
   {
    "id": "msk-fractures-q5",
    "section": "msk-fractures",
-   "stem": "A nurse assesses a client with a closed tibial fracture. For each finding, indicate whether the book lists it as a typical fracture sign or as a late sign.",
+   "stem": "Classify fracture findings as common local manifestations or an urgent neurovascular-compromise finding. A pulse deficit can occur immediately with arterial injury.",
    "rows": [
     "Crepitus at the fracture site",
     "Ecchymosis over the shin",
@@ -374,8 +376,8 @@
     "Loss of function of the leg"
    ],
    "columns": [
-    "Typical fracture sign",
-    "Late sign"
+    "Common local manifestation",
+    "Urgent neurovascular finding"
    ],
    "correct": [
     0,
@@ -385,11 +387,11 @@
     0
    ],
    "rationales": [
-    "The book lists crepitus among typical fracture signs.",
-    "The book lists ecchymosis among typical fracture signs.",
-    "The book labels diminished pulses as a late sign, so it calls for prompt follow-up.",
-    "The book lists deformity among typical fracture signs.",
-    "The book lists loss of function among typical fracture signs."
+    "Crepitus can accompany a fracture; do not provoke it by manipulation.",
+    "Ecchymosis is a common local manifestation.",
+    "Diminished distal pulses require immediate neurovascular/arterial evaluation; do not wait for a presumed late stage.",
+    "Deformity is a common local manifestation.",
+    "Loss of function is a common local manifestation."
    ],
    "clue": "The book marks diminished pulses as a late sign; the other findings are typical fracture signs.",
    "priority": "Recognize that diminished distal pulses are a late finding that needs prompt follow-up.",
@@ -398,7 +400,8 @@
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "A distal pulse deficit is urgent regardless of time since fracture."
   },
   {
    "id": "msk-fractures-q6",
@@ -576,31 +579,32 @@
   {
    "id": "msk-bone-q8",
    "section": "msk-bone",
-   "stem": "A client with hyperuricemia and urate crystal deposits in the joints is reviewing the treatment plan. For each item, indicate whether the book lists it for an acute attack or for chronic management.",
+   "stem": "Classify the stated purpose in this gout plan.",
    "rows": [
-    "Colchicine",
-    "Allopurinol",
-    "NSAIDs",
-    "Low-purine diet",
-    "Generous fluid intake"
+    "Prescribed flare-treatment colchicine regimen",
+    "Allopurinol titrated to the serum-urate target",
+    "Prescribed NSAID course for the current flare",
+    "Individualized dietary risk-factor counseling",
+    "Individualized hydration plan"
    ],
    "columns": [
-    "Acute attack",
-    "Chronic management"
+    "Treat current flare",
+    "Long-term urate reduction",
+    "Supportive prevention"
    ],
    "correct": [
     0,
     1,
     0,
-    1,
-    1
+    2,
+    2
    ],
    "rationales": [
-    "The book lists colchicine as acute treatment.",
-    "The book lists allopurinol for chronic management.",
-    "The book lists NSAIDs as acute treatment.",
-    "The book lists a low-purine diet for chronic management.",
-    "The book lists fluids for chronic management."
+    "Colchicine treats the current flare at this prescribed regimen; it may also be used for prophylaxis.",
+    "Allopurinol lowers urate over time rather than immediately relieving flare pain.",
+    "NSAIDs treat the current inflammatory flare; selected agents may also be used prophylactically.",
+    "Diet counseling complements rather than replaces urate-lowering therapy when indicated.",
+    "Hydration is individualized to comorbidity and orders."
    ],
    "clue": "The book separates acute treatment from chronic management for this condition.",
    "priority": "Know which treatments stop an acute attack and which prevent future attacks.",
@@ -609,7 +613,8 @@
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Colchicine/NSAIDs are not acute-only drugs; anti-inflammatory prophylaxis commonly accompanies starting urate-lowering therapy for 3–6 months."
   },
   {
    "id": "msk-bone-q9",
@@ -718,7 +723,7 @@
   {
    "id": "msk-osteomyelitis-q6",
    "section": "msk-osteomyelitis",
-   "stem": "A client is recovering from a hip joint replacement. Which hip precautions from the book should the nurse reinforce? Select all that apply.",
+   "stem": "A client has a posterior-approach hip replacement and explicit surgeon/PT orders for an abduction pillow, no leg crossing and no hip flexion beyond 90°. Which instructions follow this prescribed plan? Select all that apply.",
    "options": [
     "Keep an abduction pillow between the legs",
     "Avoid crossing the legs",
@@ -747,7 +752,8 @@
    "clientNeed": "safety",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Follow the stated posterior-approach precautions; approach and surgeon/PT plan determine restrictions rather than a universal hip-replacement rule."
   },
   {
    "id": "msk-osteomyelitis-q7",
@@ -798,7 +804,7 @@
     "Correct. The book lists physical therapy for a herniated disc.",
     "Reduction is listed for dislocation, where the bone is displaced from the joint.",
     "Correct. The book lists surgery with laminectomy or discectomy.",
-    "Bracing for a curve over 10 degrees is scoliosis treatment."
+    "A curve over 10° defines scoliosis, not an automatic bracing indication. In growing clients, bracing is commonly considered around 25–45° depending on progression risk. It is not the listed herniated-disc treatment."
    ],
    "clue": "Herniated disc care is separate from scoliosis and dislocation care.",
    "priority": "Know the conservative and surgical treatments for a herniated disc.",
@@ -840,7 +846,7 @@
    "section": "msk-spinal",
    "stem": "A nurse is precepting a new graduate who is caring for a client with suspected compartment syndrome of the lower leg. For each action by the new graduate, indicate whether it is appropriate or inappropriate.",
    "rows": [
-    "Raises the leg on two pillows to reduce swelling",
+    "Raises the affected leg well above heart level",
     "Applies an ice pack to the calf",
     "Notifies the provider immediately",
     "Assesses the leg for pain, pallor, paresthesia and pulses",
@@ -858,7 +864,7 @@
     0
    ],
    "rationales": [
-    "Inappropriate. The book's compartment syndrome graphic says not to elevate the limb, even though routine fracture care includes elevation.",
+    "Inappropriate. Keep the limb at heart level while arranging immediate assessment; above-heart elevation can compromise arterial perfusion and below-heart positioning can worsen swelling.",
     "Inappropriate. The book says not to apply cold.",
     "Appropriate. The book calls it a medical emergency, so the provider must be told right away.",
     "Appropriate. Assessing the 6 P's tracks the book's signs of compartment syndrome.",
@@ -871,7 +877,8 @@
    "clientNeed": "moc",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Suspected compartment syndrome requires urgent assessment/decompression; position at heart level and avoid ice or constriction."
   }
  ],
  "concerns": [

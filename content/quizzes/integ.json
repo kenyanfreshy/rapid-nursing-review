@@ -29,7 +29,7 @@
   {
    "id": "integ-burns-q2",
    "section": "integ-burns",
-   "stem": "A 70-kg adult has burns covering 40% TBSA. Using the Parkland formula as presented in the book, how much fluid should the nurse expect to infuse in the first 8 hours?",
+   "stem": "For a named historical Parkland-formula exercise only, use 4 mL/kg/% TBSA. A 70 kg adult has 40% TBSA deep burns. What is half the calculated 24-hour volume, allocated to the first 8 hours from injury?",
    "options": [
     "2,800 mL",
     "11,200 mL",
@@ -49,23 +49,24 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Historical formula calculation:4×70×40=11,200 mL; first half 5,600 mL from injury. Current ABA adult starting resuscitation for burns≥20% TBSA uses 2 mL/kg/% TBSA with individualized titration; do not use this historical exercise as the current default order."
   },
   {
    "id": "integ-burns-q3",
    "section": "integ-burns",
-   "stem": "The nurse assesses several burned areas on a client injured in a kitchen fire. For each finding, indicate the burn depth it matches.",
+   "stem": "Classify each burn by its deepest described tissue injury.",
    "correct": [
     0,
     1,
     2,
-    2
+    3
    ],
    "rationales": [
-    "The book's burn depth chart describes superficial (1st degree) burns as red, dry and painful.",
-    "The book describes partial-thickness (2nd degree) burns as blistered, moist and painful.",
-    "The book describes full-thickness (3rd/4th degree) burns as leathery and painless, involving fat or muscle.",
-    "A painless wound involving muscle fits the book's full-thickness (3rd/4th degree) description, which involves fat or muscle."
+    "Epidermal injury is superficial.",
+    "Partial dermal injury is partial thickness.",
+    "Destruction through the dermis is full-thickness skin injury.",
+    "Muscle involvement is deeper than full-thickness skin injury, often called fourth degree."
    ],
    "clue": "Color, moisture, blistering and the presence or absence of pain separate the burn depths.",
    "priority": "Accurate burn depth classification guides care.",
@@ -74,17 +75,19 @@
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
    "rows": [
-    "Red, dry, painful area on the forearm",
-    "Moist, painful area with blisters on the hand",
-    "Leathery, painless area extending into the fat",
-    "Painless wound with muscle involvement on the thigh"
+    "Red dry painful epidermal injury without blisters",
+    "Moist painful blister with partial dermal injury",
+    "Leathery insensate skin with destruction through the entire dermis",
+    "Burn extending through skin/subcutaneous tissue into muscle"
    ],
    "columns": [
-    "Superficial (1st degree)",
-    "Partial-thickness (2nd degree)",
-    "Full-thickness (3rd/4th degree)"
+    "Superficial skin burn",
+    "Partial-thickness skin burn",
+    "Full-thickness skin burn",
+    "Deep burn extending beyond skin"
    ],
-   "checked": true
+   "checked": true,
+   "takeaway": "Do not combine full-thickness skin burns with muscle/bone destruction."
   },
   {
    "id": "integ-pressure-q1",
@@ -139,7 +142,7 @@
   {
    "id": "integ-pressure-q3",
    "section": "integ-pressure",
-   "stem": "A client who is immobile, incontinent and has diabetes is at high risk for pressure injury. Which interventions should the nurse include in the plan of care? Select all that apply.",
+   "stem": "A client with a prescribed individualized 2-hour repositioning schedule who is immobile, incontinent and has diabetes is at high risk for pressure injury. Which interventions should the nurse include in the plan of care? Select all that apply.",
    "options": [
     "Reposition the client every 4 hours to allow uninterrupted rest",
     "Turn the client every 2 hours",
@@ -155,12 +158,12 @@
     5
    ],
    "rationales": [
-    "Incorrect. The book specifies turning every 2 hours, not every 4 hours.",
-    "Correct. The book lists turning every 2 hours as pressure injury nursing care.",
+    "Incorrect. The supplied plan specifies 2-hour repositioning; do not independently extend it to 4 hours.",
+    "Correct. Follow the supplied individualized 2-hour schedule and reassess skin response.",
     "Incorrect. The book lists dehydration as a risk factor and calls for adequate hydration.",
     "Correct. The book says to maintain clean, dry skin and use barrier creams, which matters for an incontinent client.",
     "Correct. The book calls for protein-rich nutrition and adequate hydration; malnutrition and dehydration are listed risk factors.",
-    "Correct. The book lists pressure-relieving devices with turning every 2 hours."
+    "Correct. Use the selected support surface with the individualized repositioning plan."
    ],
    "clue": "Immobility, incontinence and diabetes are all listed risk factors for pressure injury.",
    "priority": "Preventing pressure injuries through repositioning, skin care, nutrition and hydration.",
@@ -168,7 +171,8 @@
    "type": "sata",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Follow the prescribed repositioning plan; frequency depends on skin response, support surface, tolerance and goals. Support surfaces do not replace reassessment and individualized care."
   },
   {
    "id": "integ-skin-q1",
@@ -274,12 +278,12 @@
   {
    "id": "integ-burns-q5",
    "section": "integ-burns",
-   "stem": "A nurse is estimating the burned body surface area for several clients. For each client, indicate the assessment tool the book recommends.",
+   "stem": "Choose the tool that best fits the stated estimation purpose; either tool may have a role in adult care.",
    "rows": [
-    "A 4-year-old with scald burns to the chest",
-    "A 35-year-old with flame burns to both legs",
-    "A 7-year-old with burns from a campfire",
-    "A 60-year-old with chemical burns to both arms"
+    "Age-adjusted detailed TBSA estimate for a 4-year-old",
+    "Rapid approximate regional TBSA estimate for a 35-year-old",
+    "Age-adjusted detailed TBSA estimate for a 7-year-old",
+    "Rapid approximate regional TBSA estimate for a 60-year-old"
    ],
    "columns": [
     "Rule of Nines",
@@ -292,10 +296,10 @@
     0
    ],
    "rationales": [
-    "A 4-year-old is a child, so the book recommends the Lund and Browder chart.",
-    "The book recommends the Rule of Nines for adults.",
-    "A 7-year-old is still a child, so the Lund and Browder chart applies.",
-    "An older adult is an adult, so the Rule of Nines applies regardless of the burn type."
+    "Adjusts for childhood body proportions.",
+    "Provides a rapid adult approximation.",
+    "Adjusts for changing childhood proportions.",
+    "Provides a rapid adult approximation; Lund–Browder can also be used in adults."
    ],
    "clue": "The client's age (child or adult) decides which burn-size tool applies.",
    "priority": "Use the Rule of Nines for adults and the Lund and Browder chart for children.",
@@ -304,7 +308,8 @@
    "clientNeed": "rrp",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Purpose and age adjustment determine the best tool; Lund–Browder is not restricted to children."
   },
   {
    "id": "integ-burns-q6",
@@ -401,7 +406,7 @@
     "Intact skin over the heel with redness that does not blanch",
     "Shallow open ulcer with partial-thickness skin loss on the coccyx",
     "Wound on the hip completely covered by black eschar",
-    "Blister over the ischium from prolonged sitting",
+    "Serum-filled blister over the ischium with exposed viable dermis and no deep discoloration",
     "Wound bed on the sacrum covered with yellow slough"
    ],
    "columns": [
@@ -420,7 +425,7 @@
     "Non-blanchable erythema of intact skin is Stage I.",
     "Partial-thickness skin loss presenting as an open ulcer is Stage II.",
     "A wound covered with eschar cannot be staged, so the book classifies it as unstageable.",
-    "The book describes Stage II as partial-thickness loss presenting as a blister or open ulcer.",
+    "A serum-filled pressure blister with viable exposed dermis fits Stage 2. A blood-filled blister/deep maroon discoloration suggests deep tissue pressure injury and must not be automatically staged 2.",
     "A wound covered with slough is unstageable because the base cannot be seen."
    ],
    "clue": "Intact versus broken skin, depth of loss and whether the base can be seen decide the stage.",
@@ -435,7 +440,7 @@
   {
    "id": "integ-pressure-q6",
    "section": "integ-pressure",
-   "stem": "A nurse is caring for a bedbound client at high risk for pressure injury. Which task is appropriate to delegate to unlicensed assistive personnel (UAP)?",
+   "stem": "An individualized 2-hour repositioning schedule has been prescribed. A nurse is caring for a bedbound client at high risk for pressure injury. Which task is appropriate to delegate to unlicensed assistive personnel (UAP)?",
    "options": [
     "Turning and repositioning the client every 2 hours",
     "Staging a new area of skin breakdown on the sacrum",
@@ -444,7 +449,7 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Turning every 2 hours is a routine preventive measure from the book that UAP can carry out.",
+    "Correct. A competent UAP may implement the established 2-hour plan for a stable client and report concerns; the RN retains assessment.",
     "Staging a wound requires assessment, which is an RN responsibility.",
     "Choosing a pressure-relieving device is part of planning care and needs nursing judgment.",
     "Teaching about nutrition is a nursing responsibility and is not delegated to UAP."
@@ -456,7 +461,8 @@
    "clientNeed": "moc",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Follow the prescribed repositioning plan; frequency depends on skin response, support surface, tolerance and goals. Support surfaces do not replace reassessment and individualized care."
   },
   {
    "id": "integ-pressure-q7",
@@ -548,7 +554,7 @@
   {
    "id": "integ-pressure-q10",
    "section": "integ-pressure",
-   "stem": "After teaching, which statement by the caregiver of a client at risk for pressure injury shows understanding of how to prevent skin breakdown?",
+   "stem": "The client has a prescribed individualized 2-hour repositioning schedule. After teaching, which statement by the caregiver of a client at risk for pressure injury shows understanding of how to prevent skin breakdown?",
    "options": [
     "I'll let him stay in one position overnight so he can sleep.",
     "I'll limit his drinks so he isn't wet as often.",
@@ -557,7 +563,7 @@
    ],
    "correct": 2,
    "rationales": [
-    "Staying in one position overnight allows prolonged pressure; the book says to turn every 2 hours.",
+    "Staying in one position overnight allows prolonged pressure; the supplied plan specifies 2-hour repositioning.",
     "The book calls for adequate hydration, and dehydration is a risk factor.",
     "Correct. Turning every 2 hours and using barrier creams to keep skin clean and dry are in the book's nursing care.",
     "The book promotes protein-rich nutrition, so cutting back on protein raises risk."
@@ -569,7 +575,8 @@
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Follow the prescribed repositioning plan; frequency depends on skin response, support surface, tolerance and goals. Support surfaces do not replace reassessment and individualized care."
   },
   {
    "id": "integ-skin-q4",

@@ -145,6 +145,8 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each intervention, mark whether it is indicated, non-essential, or contraindicated right now.",
+    "rationale": "Give the prescribed diuretic and escalate respiratory support for the displayed hypoxemia, with continuous monitoring. A routine crystalloid bolus and flat positioning can worsen pulmonary congestion in this hypertensive, fluid-overloaded client. Standing the severely hypoxemic client for a weight is unsafe right now; obtain a bed weight when feasible after stabilization. Essential weights do not take priority over rescue.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Non-essential",
@@ -179,11 +181,9 @@
      [
       "r6",
       "Weigh the client on a standing scale now",
-      "Non-essential"
+      "Contraindicated"
      ]
-    ],
-    "rationale": "Give the prescribed diuretic and escalate respiratory support for the displayed hypoxemia, with continuous monitoring. A routine crystalloid bolus and flat positioning can worsen pulmonary congestion in this hypertensive, fluid-overloaded client. Standing the severely hypoxemic client for a weight is unsafe right now; obtain a bed weight when feasible after stabilization. Essential weights do not take priority over rescue.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "h5",
@@ -405,10 +405,12 @@
     "step": "prioritizeHypotheses",
     "kind": "single",
     "stem": "Which problem needs immediate resuscitation?",
+    "rationale": "Suspected infection, profound hypotension, elevated lactate and acute mental-status/renal changes require immediate resuscitation. Suspected sepsis with shock is the immediate working problem; formal septic-shock criteria include persistent vasopressor need and lactate elevation despite adequate volume resuscitation. Do not wait for diagnostic labels to support breathing/circulation and give timely prescribed treatment.",
+    "stepLabel": "Prioritize Hypotheses",
     "options": [
      [
       "a",
-      "Septic shock with tissue hypoperfusion"
+      "Suspected sepsis with shock and tissue hypoperfusion"
      ],
      [
       "b",
@@ -423,50 +425,57 @@
       "Delirium from a new environment"
      ]
     ],
-    "answer": "a",
-    "rationale": "Suspected infection, profound hypotension, elevated lactate and acute mental-status/renal changes require immediate resuscitation. Suspected sepsis with shock is the immediate working problem; formal septic-shock criteria include persistent vasopressor need and lactate elevation despite adequate volume resuscitation. Do not wait for diagnostic labels to support breathing/circulation and give timely prescribed treatment.",
-    "stepLabel": "Prioritize Hypotheses"
+    "answer": "a"
    },
    {
     "id": "s4",
     "step": "generateSolutions",
-    "kind": "order",
+    "kind": "matrix",
     "stem": "Initial crystalloid resuscitation has started and MAP remains 54 mmHg. For each action, mark whether it is indicated now. The emergency team can perform actions concurrently.",
-    "steps": [
-     [
-      "o1",
-      "Draw blood cultures × 2"
-     ],
-     [
-      "o2",
-      "Give the first dose of broad-spectrum IV antibiotics"
-     ],
-     [
-      "o4",
-      "Start norepinephrine if MAP stays below 65 mm Hg after the bolus"
-     ]
-    ],
-    "answer": [
-     "o1",
-     "o2",
-     "o4"
-    ],
     "rationale": "Profound hypotension may require vasopressors concurrently with fluids under the prescribed protocol. Obtain cultures as soon as feasible, ideally before antibiotics, without delaying time-sensitive treatment. Give antibiotics immediately, ideally within 1 hour in suspected septic shock. Do not delay norepinephrine solely for bolus completion or a central catheter; use an appropriate monitored peripheral site when ordered and reassess fluid benefit and adverse effects.",
-    "stepLabel": "Generate Solutions"
+    "stepLabel": "Generate Solutions",
+    "cols": [
+     "Indicated",
+     "Not indicated"
+    ],
+    "rows": [
+     [
+      "r1",
+      "Obtain ordered blood cultures promptly if this does not substantially delay antibiotics",
+      "Indicated"
+     ],
+     [
+      "r2",
+      "Give the first ordered broad-spectrum IV antibiotic dose promptly",
+      "Indicated"
+     ],
+     [
+      "r3",
+      "Begin ordered norepinephrine while continuing reassessed crystalloid resuscitation",
+      "Indicated"
+     ],
+     [
+      "r4",
+      "Wait for the entire bolus and central-line placement before starting norepinephrine",
+      "Not indicated"
+     ]
+    ]
    },
    {
     "id": "s5",
     "step": "takeAction",
     "kind": "single",
     "stem": "The ordered 30 mL/kg (1,800 mL) of lactated Ringer’s has infused. Norepinephrine was started during resuscitation and BP is now 82/46 mmHg (MAP 58). Which action is the priority?",
+    "rationale": "Despite initial fluids and norepinephrine, perfusion pressure remains below the prescribed goal. Titrate the existing norepinephrine infusion per the order while monitoring perfusion, the IV site and fluid responsiveness. Additional fluids require reassessment; do not defer hemodynamic support for antipyretics or prolonged observation.",
+    "stepLabel": "Take Action",
     "options": [
      [
       "a",
-      "Start and titrate the norepinephrine infusion to keep MAP ≥ 65 mm Hg"
+      "Titrate the prescribed norepinephrine infusion toward the ordered MAP goal of 65 mmHg"
      ],
      [
       "b",
-      "Give another 2 L fluid bolus before starting a vasopressor"
+      "Give another 2 L fluid bolus before adjusting the vasopressor"
      ],
      [
       "c",
@@ -477,9 +486,7 @@
       "Give acetaminophen to lower the fever, then reassess"
      ]
     ],
-    "answer": "a",
-    "rationale": "Despite initial fluids and norepinephrine, perfusion pressure remains below the prescribed goal. Titrate the existing norepinephrine infusion per the order while monitoring perfusion, the IV site and fluid responsiveness. Additional fluids require reassessment; do not defer hemodynamic support for antipyretics or prolonged observation.",
-    "stepLabel": "Take Action"
+    "answer": "a"
    },
    {
     "id": "s6",
@@ -948,6 +955,8 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each potential order, mark whether it is indicated or not indicated.",
+    "rationale": "Prompt antibiotics, cultures when feasible without delay, reassessed crystalloid and ongoing perfusion evaluation are appropriate. SSC 2026 suggests at least 30 mL/kg in the first 3 hours for sepsis-induced hypoperfusion/septic shock, with individual assessment and repeated reassessment; vasopressors may start concurrently in profound instability. Low output alone does not justify a diuretic in hypoperfusion. Age alone does not prohibit fluids, but new congestion requires reassessment.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -955,43 +964,43 @@
     "rows": [
      [
       "r1",
-      "Obtain blood cultures before antibiotics",
+      "Obtain ordered blood cultures promptly, ideally before antibiotics, without delaying their administration",
       "Indicated"
      ],
      [
       "r2",
-      "30 mL/kg IV crystalloid bolus",
+      "Begin the prescribed isotonic crystalloid resuscitation with frequent perfusion/respiratory reassessment",
       "Indicated"
      ],
      [
       "r3",
-      "Broad-spectrum antibiotics within 1 hour",
+      "Give prescribed broad-spectrum antibiotics immediately, ideally within 1 hour for suspected septic shock",
       "Indicated"
      ],
      [
       "r4",
-      "Repeat lactate within 2–4 hours",
+      "Reassess elevated lactate and the overall perfusion response under the protocol",
       "Indicated"
      ],
      [
       "r5",
-      "Furosemide 40 mg IV for low urine output",
+      "Give furosemide solely for low output despite ongoing hypoperfusion and no congestion",
       "Not indicated"
      ],
      [
       "r6",
-      "Hold IV fluids because of the client's age",
+      "Withhold all fluid resuscitation solely because the client is 72 years old",
       "Not indicated"
      ]
-    ],
-    "rationale": "Prompt antibiotics, cultures when feasible without delay, reassessed crystalloid and ongoing perfusion evaluation are appropriate. SSC 2026 suggests at least 30 mL/kg in the first 3 hours for sepsis-induced hypoperfusion/septic shock, with individual assessment and repeated reassessment; vasopressors may start concurrently in profound instability. Low output alone does not justify a diuretic in hypoperfusion. Age alone does not prohibit fluids, but new congestion requires reassessment.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "n5",
     "step": "takeAction",
     "kind": "multi",
     "stem": "Which actions should the nurse take now? Select all that apply.",
+    "rationale": "Activate immediate provider/rapid-response evaluation, obtain cultures promptly without delaying antibiotics, begin prescribed reassessed resuscitation and monitor frequently according to acuity. The team can perform these actions concurrently. Ambulation with shock/confusion risks injury; treating fever and waiting 4 hours delays essential rescue.",
+    "stepLabel": "Take Action",
     "options": [
      [
       "a",
@@ -999,7 +1008,7 @@
      ],
      [
       "b",
-      "Draw blood cultures before the first antibiotic dose"
+      "Obtain blood cultures promptly if doing so will not substantially delay the first antibiotic dose"
      ],
      [
       "c",
@@ -1023,9 +1032,7 @@
      "b",
      "c",
      "d"
-    ],
-    "rationale": "Activate immediate provider/rapid-response evaluation, obtain cultures promptly without delaying antibiotics, begin prescribed reassessed resuscitation and monitor frequently according to acuity. The team can perform these actions concurrently. Ambulation with shock/confusion risks injury; treating fever and waiting 4 hours delays essential rescue.",
-    "stepLabel": "Take Action"
+    ]
    },
    {
     "id": "n6",
@@ -1317,10 +1324,12 @@
     "step": "takeAction",
     "kind": "single",
     "stem": "At 14:00 the glucose is 244 mg/dL, pH 7.24, HCO₃⁻ 14 mEq/L, anion gap 18 and K⁺ 4.0 mEq/L. Which action should the nurse take?",
+    "rationale": "At glucose below 250 mg/dL, add 5–10% dextrose to the prescribed fluid so insulin can continue clearing ketones without producing hypoglycemia; reduce the infusion rate as ordered by the protocol. Select fluid tonicity and potassium replacement using sodium/osmolality, volume status, renal function and serial potassium rather than automatically requiring 0.45% saline. The displayed acidosis is unresolved. Transition to subcutaneous treatment requires resolution and appropriate overlap;50% dextrose bolus is not indicated by glucose 244.",
+    "stepLabel": "Take Action",
     "options": [
      [
       "a",
-      "Change the IV fluid to dextrose 5% in 0.45% sodium chloride with potassium and continue the insulin infusion"
+      "Add 5–10% dextrose to the prescribed IV fluid and continue insulin with rate/potassium adjustments under the DKA protocol"
      ],
      [
       "b",
@@ -1335,9 +1344,7 @@
       "Give 50% dextrose IV push"
      ]
     ],
-    "answer": "a",
-    "rationale": "At glucose below 250 mg/dL, add 5–10% dextrose to the prescribed fluid so insulin can continue clearing ketones without producing hypoglycemia; reduce the infusion rate as ordered by the protocol. Select fluid tonicity and potassium replacement using sodium/osmolality, volume status, renal function and serial potassium rather than automatically requiring 0.45% saline. The displayed acidosis is unresolved. Transition to subcutaneous treatment requires resolution and appropriate overlap;50% dextrose bolus is not indicated by glucose 244.",
-    "stepLabel": "Take Action"
+    "answer": "a"
    },
    {
     "id": "k6",
@@ -1645,6 +1652,8 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "Bleeding persists despite fundal massage and first-line oxytocin. For each additional medication, indicate whether it is appropriate under the obstetric hemorrhage protocol for this client, who has asthma and no hypertension or preeclampsia.",
+    "rationale": "Oxytocin infusion is first-line uterotonic therapy under the protocol. Methylergonovine 0.2 mg IM may be prescribed when hypertension/preeclampsia and other contraindications are absent; reassess rather than declaring any drug universally safe because blood pressure is low. Avoid carboprost in this client with asthma because of bronchospasm risk. Give prescribed TXA 1 g IV over 10 minutes promptly and within 3 hours of birth; the time limit is an evidence-based treatment recommendation, not a claim that the drug has no effect thereafter. Misoprostol has a specified protocol dose/route. Do not give the 10-unit undiluted rapid IV oxytocin bolus in this unstable client.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Contraindicated"
@@ -1672,7 +1681,7 @@
      ],
      [
       "r5",
-      "Misoprostol 800 mcg",
+      "Misoprostol 800 mcg sublingually as prescribed by the hemorrhage protocol",
       "Indicated"
      ],
      [
@@ -1680,9 +1689,7 @@
       "Oxytocin 10 units undiluted IV push",
       "Contraindicated"
      ]
-    ],
-    "rationale": "Oxytocin infusion is first-line uterotonic therapy under the protocol. Methylergonovine 0.2 mg IM may be prescribed when hypertension/preeclampsia and other contraindications are absent; reassess rather than declaring any drug universally safe because blood pressure is low. Avoid carboprost in this client with asthma because of bronchospasm risk. Give prescribed TXA 1 g IV over 10 minutes promptly and within 3 hours of birth; the time limit is an evidence-based treatment recommendation, not a claim that the drug has no effect thereafter. Misoprostol has a specified protocol dose/route. Do not give the 10-unit undiluted rapid IV oxytocin bolus in this unstable client.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "p5",
@@ -2013,6 +2020,8 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "At 09:45, after three albuterol–ipratropium treatments and oral dexamethasone, he still has severe retractions and an SpO₂ of 91% on 2 L. For each possible order, mark whether it is indicated or not indicated.",
+    "rationale": "Persistent severe distress after initial treatment warrants escalation under the pediatric protocol, including IV magnesium, continuous albuterol and oxygen titration. The prescribed 92–95% target follows GINA 2026 for this age; other U.S. pathways may use different targets, so follow the applicable order/pathway rather than treating one range as universal. Magnesium 50 mg/kg is 1,100 mg for 22 kg, below the pathway maximum 2 g. Percussion, routine mucolytics and lorazepam do not treat this severe exacerbation and can worsen ventilation or bronchospasm.",
+    "stepLabel": "Generate Solutions",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -2030,7 +2039,7 @@
      ],
      [
       "r3",
-      "Increase oxygen to keep SpO₂ 94–98%",
+      "Titrate oxygen to the prescribed SpO₂ target 92–95%",
       "Indicated"
      ],
      [
@@ -2048,9 +2057,7 @@
       "IV lorazepam for agitation",
       "Not indicated"
      ]
-    ],
-    "rationale": "Persistent severe distress after initial treatment warrants escalation under the pediatric protocol, including IV magnesium, continuous albuterol and oxygen titration. The prescribed 92–95% target follows GINA 2026 for this age; other U.S. pathways may use different targets, so follow the applicable order/pathway rather than treating one range as universal. Magnesium 50 mg/kg is 1,100 mg for 22 kg, below the pathway maximum 2 g. Percussion, routine mucolytics and lorazepam do not treat this severe exacerbation and can worsen ventilation or bronchospasm.",
-    "stepLabel": "Generate Solutions"
+    ]
    },
    {
     "id": "a5",
@@ -2128,6 +2135,8 @@
     "step": "evaluateOutcomes",
     "kind": "matrix",
     "stem": "Six hours after transfer to the pediatric ICU on high-flow nasal cannula and continuous albuterol: for each finding, mark whether the client has improved, not changed, or declined.",
+    "rationale": "Better alertness, full sentences, a slower respiratory rate, less retraction and good SpO₂ on less oxygen show recovery. Hearing wheezes again after a silent chest means air is moving through the airways again, which is improvement. Frequent or continuous albuterol shifts potassium into the cells, so hypokalemia is a known side effect. Report it and expect replacement and cardiac monitoring.",
+    "stepLabel": "Evaluate Outcomes",
     "cols": [
      "Improved",
      "No change",
@@ -2135,38 +2144,36 @@
     ],
     "rows": [
      [
-      "e1",
+      "r1",
       "Awake and asking for his tablet",
       "Improved"
      ],
      [
-      "e2",
+      "r2",
       "Speaks in full sentences",
       "Improved"
      ],
      [
-      "e3",
+      "r3",
       "RR 28 with mild subcostal retractions",
       "Improved"
      ],
      [
-      "e4",
+      "r4",
       "Expiratory wheezes now heard in all fields",
       "Improved"
      ],
      [
-      "e5",
+      "r5",
       "SpO₂ 95%; oxygen being weaned",
       "Improved"
      ],
      [
-      "e6",
-      "Potassium 3.0 mEq/L (was 4.1 mEq/L at 10:00)",
+      "r6",
+      "Potassium 3.0 mEq/L (was 4.1 mEq/L at 10:30)",
       "Declined"
      ]
-    ],
-    "rationale": "Better alertness, full sentences, a slower respiratory rate, less retraction and good SpO₂ on less oxygen show recovery. Hearing wheezes again after a silent chest means air is moving through the airways again, which is improvement. Frequent or continuous albuterol shifts potassium into the cells, so hypokalemia is a known side effect. Report it and expect replacement and cardiac monitoring.",
-    "stepLabel": "Evaluate Outcomes"
+    ]
    }
   ],
   "refs": [

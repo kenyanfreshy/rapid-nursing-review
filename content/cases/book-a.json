@@ -136,34 +136,34 @@
     "kind": "matrix",
     "page": 18,
     "stem": "For each finding, identify whether it increases this client’s risk for venous thromboembolism or does not independently establish an increased VTE risk in this case.",
+    "rationale": "Major orthopedic surgery and immobility are important VTE risks even when prophylaxis is provided. A remote stroke without residual paralysis does not supply the paralysis/immobility cue being tested; assess the actual history rather than assign a universal risk tier. Incision appearance does not determine venous clot risk. Atrial fibrillation primarily raises arterial embolic-stroke concerns and is not a substitute for assessing postoperative VTE risks.",
+    "reviewed": "v3",
     "cols": [
-     "Strong risk factor",
-     "Moderate risk factor"
+     "Increases VTE risk",
+     "Does not independently establish increased VTE risk"
     ],
     "rows": [
      [
       "r1",
-      "Right total hip replacement 2 days ago",
-      "Strong risk factor"
+      "Recent total hip replacement",
+      "Increases VTE risk"
      ],
      [
       "r2",
-      "Atrial fibrillation",
-      "Moderate risk factor"
+      "Reduced mobility since surgery",
+      "Increases VTE risk"
      ],
      [
       "r3",
-      "History of stroke",
-      "Moderate risk factor"
+      "Remote stroke without residual paralysis, considered by itself",
+      "Does not independently establish increased VTE risk"
      ],
      [
       "r4",
-      "Recent major surgery",
-      "Strong risk factor"
+      "Clean, dry hip incision",
+      "Does not independently establish increased VTE risk"
      ]
-    ],
-    "rationale": "Major orthopedic surgery and immobility are important VTE risks even when prophylaxis is provided. A remote stroke without residual paralysis does not supply the paralysis/immobility cue being tested; assess the actual history rather than assign a universal risk tier. Incision appearance does not determine venous clot risk. Atrial fibrillation primarily raises arterial embolic-stroke concerns and is not a substitute for assessing postoperative VTE risks.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "pe3",
@@ -214,6 +214,8 @@
     "kind": "matrix",
     "page": 19,
     "stem": "For each intervention, indicate whether it is anticipated or not anticipated for this client right now.",
+    "rationale": "CT pulmonary angiography assesses pulmonary arterial obstruction; leg venous ultrasound evaluates the calf findings. Give the specifically selected UFH regimen under the displayed aPTT protocol with bleeding monitoring. UFH is not mandatory for all symptomatic PE; eligible symptomatic clients may receive a DOAC, and disposition depends on severity and bleeding risk. Routine systemic thrombolysis is not justified by this stable BP, especially soon after major surgery. New hypoxemia and recent surgery require inpatient evaluation rather than immediate unassessed discharge.",
+    "reviewed": "v3",
     "cols": [
      "Anticipated",
      "Not anticipated"
@@ -226,7 +228,7 @@
      ],
      [
       "r2",
-      "CT scan of the chest",
+      "CT pulmonary angiography as ordered",
       "Anticipated"
      ],
      [
@@ -244,9 +246,7 @@
       "Discharge home today on an oral factor Xa inhibitor alone",
       "Not anticipated"
      ]
-    ],
-    "rationale": "CT pulmonary angiography assesses pulmonary arterial obstruction; leg venous ultrasound evaluates the calf findings. Give the specifically selected UFH regimen under the displayed aPTT protocol with bleeding monitoring. UFH is not mandatory for all symptomatic PE; eligible symptomatic clients may receive a DOAC, and disposition depends on severity and bleeding risk. Routine systemic thrombolysis is not justified by this stable BP, especially soon after major surgery. New hypoxemia and recent surgery require inpatient evaluation rather than immediate unassessed discharge.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "pe5",
@@ -255,6 +255,8 @@
     "kind": "multi",
     "page": 20,
     "stem": "The heparin infusion has been started. Which actions should the nurse include in the client's care? Select all that apply.",
+    "rationale": "Monitor for bleeding, limit unnecessary venipunctures, follow individualized hydration orders and prevent falls. Avoid calf massage and unnecessary IM injections in an anticoagulated client. Do not set a universal fluid minimum without considering cardiac/renal function and the prescribed plan.",
+    "reviewed": "v3",
     "options": [
      [
       "a",
@@ -274,7 +276,7 @@
      ],
      [
       "e",
-      "Encourage at least 2 L of fluid per day unless restricted"
+      "Follow the prescribed individualized hydration plan"
      ],
      [
       "f",
@@ -286,9 +288,7 @@
      "b",
      "e",
      "f"
-    ],
-    "rationale": "Monitor for bleeding, limit unnecessary venipunctures, follow individualized hydration orders and prevent falls. Avoid calf massage and unnecessary IM injections in an anticoagulated client. Do not set a universal fluid minimum without considering cardiac/renal function and the prescribed plan.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "pe6",
@@ -791,10 +791,12 @@
     "kind": "cloze",
     "page": 47,
     "stem": "Complete the sentence.",
+    "rationale": "II, III and aVF view the inferior wall; V4R supports right-ventricular involvement. The RCA is the most likely culprit here, but inferior-wall supply varies with coronary dominance and may involve the circumflex. LAD territory is typically anterior; the pulmonary artery does not supply coronary myocardium.",
+    "reviewed": "v3",
     "blanks": [
      {
       "id": "b1",
-      "pre": "ST elevation in leads II, III and aVF shows an",
+      "pre": "ST elevation in II, III and aVF identifies an",
       "opts": [
        "inferior wall MI",
        "anterior wall MI",
@@ -804,7 +806,7 @@
      },
      {
       "id": "b2",
-      "pre": "in the area supplied by the",
+      "pre": "The most likely culprit artery, especially with right-ventricular involvement, is the",
       "opts": [
        "right coronary artery",
        "left anterior descending artery",
@@ -814,17 +816,15 @@
      },
      {
       "id": "b3",
-      "pre": "and ST elevation in V4R means the infarct also involves the",
+      "pre": "ST elevation in V4R supports involvement of the",
       "opts": [
        "right ventricle",
-       "posterior wall",
+       "posterior wall only",
        "septum only"
       ],
       "answer": "right ventricle"
      }
-    ],
-    "rationale": "II, III and aVF view the inferior wall; V4R supports right-ventricular involvement. The RCA is the most likely culprit here, but inferior-wall supply varies with coronary dominance and may involve the circumflex. LAD territory is typically anterior; the pulmonary artery does not supply coronary myocardium.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "mi3",
@@ -936,39 +936,39 @@
     "kind": "matrix",
     "page": 47,
     "stem": "Review the findings recorded after PCI. For each one, indicate whether it is an expected sign of reperfusion or a complication the nurse must report now.",
+    "rationale": "Resolution of ischemic ST elevation, including right-sided elevation, and chest-pain relief support reperfusion. Troponin rise alone reflects myocardial injury and does not prove successful reperfusion. New flank/back pain with hypotension and falling hemoglobin suggests retroperitoneal hemorrhage; recurrent pain with new ST elevation suggests recurrent ischemia/stent thrombosis. Both complications require urgent evaluation.",
+    "reviewed": "v3",
     "cols": [
      "Expected sign of reperfusion",
      "Complication to report"
     ],
     "rows": [
      [
-      "e1",
+      "r1",
       "ST segments return to baseline",
       "Expected sign of reperfusion"
      ],
      [
-      "e2",
+      "r2",
       "Chest pain relieved",
       "Expected sign of reperfusion"
      ],
      [
-      "e3",
-      "Sudden rise in troponin right after the artery is opened",
+      "r3",
+      "Right-sided ST elevation resolves after PCI",
       "Expected sign of reperfusion"
      ],
      [
-      "e5",
+      "r4",
       "New back and flank pain with falling BP and hemoglobin",
       "Complication to report"
      ],
      [
-      "e6",
+      "r5",
       "Chest pain returns 8 hours later with new ST elevation",
       "Complication to report"
      ]
-    ],
-    "rationale": "Resolution of ischemic ST elevation, including right-sided elevation, and chest-pain relief support reperfusion. Troponin rise alone reflects myocardial injury and does not prove successful reperfusion. New flank/back pain with hypotension and falling hemoglobin suggests retroperitoneal hemorrhage; recurrent pain with new ST elevation suggests recurrent ischemia/stent thrombosis. Both complications require urgent evaluation.",
-    "reviewed": "v3"
+    ]
    }
   ],
   "refs": [
@@ -1141,6 +1141,8 @@
     "kind": "matrix",
     "page": 45,
     "stem": "For each intervention, indicate whether it is indicated or not indicated for this client now.",
+    "rationale": "Urgently involve the surgeon/resuscitation team and prepare definitive drainage, commonly surgical re-exploration for postoperative clot. Oxygen, emergency equipment and the specifically prescribed fluid/vasopressor support are bridges, not substitutes for drainage. Positive-pressure ventilation and induction can worsen filling and precipitate collapse; essential airway intervention requires expert coordinated hemodynamic support. Diuresis for the elevated CVP and waiting an hour are inappropriate in this obstructive shock.",
+    "reviewed": "v3",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -1158,12 +1160,12 @@
      ],
      [
       "r3",
-      "Give oxygen and be ready for intubation if needed",
+      "Give oxygen and prepare expert airway support if essential, coordinated with hemodynamic rescue",
       "Indicated"
      ],
      [
       "r4",
-      "Start the dopamine infusion with IV fluids as prescribed",
+      "Start the prescribed titrated norepinephrine and cautiously reassessed IV fluid as a bridge to drainage",
       "Indicated"
      ],
      [
@@ -1176,43 +1178,45 @@
       "Recheck vital signs in 1 hour before calling the surgeon",
       "Not indicated"
      ]
-    ],
-    "rationale": "Urgently involve the surgeon/resuscitation team and prepare definitive drainage, commonly surgical re-exploration for postoperative clot. Oxygen, emergency equipment and the specifically prescribed fluid/vasopressor support are bridges, not substitutes for drainage. Positive-pressure ventilation and induction can worsen filling and precipitate collapse; essential airway intervention requires expert coordinated hemodynamic support. Diuresis for the elevated CVP and waiting an hour are inappropriate in this obstructive shock.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "ct5",
     "step": "takeAction",
     "stepLabel": "Take Action",
-    "kind": "order",
+    "kind": "multi",
     "page": 45,
     "stem": "Which actions should the nurse take while the emergency team responds? Select all that apply.",
-    "steps": [
+    "rationale": "Calling for help, oxygenation, bedside monitoring and preparing drainage proceed concurrently as staff are available. The client has obstructive shock requiring urgent definitive relief; an imposed serial sequence must not delay rescue. Waiting for spontaneous improvement is unsafe.",
+    "reviewed": "v3",
+    "options": [
      [
-      "o1",
-      "Call for help: notify the surgeon and rapid response team"
+      "a",
+      "Immediately notify the cardiac surgeon and activate emergency assistance"
      ],
      [
-      "o2",
-      "Increase oxygen and prepare for intubation if needed"
+      "b",
+      "Support oxygenation under the emergency protocol"
      ],
      [
-      "o3",
-      "Stay with the client and monitor vital signs, mental status, ECG and SpO₂ while the team arrives"
+      "c",
+      "Stay with the client and continuously assess ECG, BP, SpO₂ and mental status"
      ],
      [
-      "o4",
-      "Prepare the client for pericardiocentesis or return to the OR once the surgeon decides"
+      "d",
+      "Prepare for urgent definitive drainage/re-exploration as directed"
+     ],
+     [
+      "e",
+      "Wait one hour to see whether the CVP normalizes"
      ]
     ],
     "answer": [
-     "o1",
-     "o2",
-     "o3",
-     "o4"
-    ],
-    "rationale": "Calling for help, oxygenation, bedside monitoring and preparing drainage proceed concurrently as staff are available. The client has obstructive shock requiring urgent definitive relief; an imposed serial sequence must not delay rescue. Waiting for spontaneous improvement is unsafe.",
-    "reviewed": "v3"
+     "a",
+     "b",
+     "c",
+     "d"
+    ]
    },
    {
     "id": "ct6",
@@ -1391,40 +1395,40 @@
     "kind": "cloze",
     "page": 70,
     "stem": "Complete the sentences about the client's lab results.",
+    "rationale": "Interpret lipase relative to the stated assay limit; compatible pain plus a value more than three times that limit supports the diagnosis. Fat necrosis can contribute to low calcium, and the ionized result confirms a physiologically low level. Stress-related insulin resistance and endocrine dysfunction can both raise glucose. LR contains no dextrose. Laboratory reference ranges are assay-specific; random inpatient glucose is not judged by a universal fasting cutoff.",
+    "reviewed": "v3",
     "blanks": [
      {
       "id": "b1",
-      "pre": "The lipase of 1,850 units/L is important because lipase is",
+      "pre": "Lipase 1,850 U/L with assay upper limit 60 supports pancreatitis because lipase is",
       "opts": [
-       "more specific to the pancreas than amylase",
-       "a marker of liver injury",
-       "raised by vomiting alone"
+       "more pancreas-specific than amylase",
+       "a liver-injury marker",
+       "elevated only by vomiting"
       ],
-      "answer": "more specific to the pancreas than amylase"
+      "answer": "more pancreas-specific than amylase"
      },
      {
       "id": "b2",
-      "pre": "The calcium of 7.4 mg/dL is low because",
+      "pre": "A mechanism contributing to hypocalcemia is",
       "opts": [
-       "fat necrosis binds free calcium",
-       "he is not drinking milk",
-       "the kidneys are wasting calcium"
+       "calcium binding during fat necrosis",
+       "insufficient milk intake over one day",
+       "obligatory renal calcium wasting"
       ],
-      "answer": "fat necrosis binds free calcium"
+      "answer": "calcium binding during fat necrosis"
      },
      {
       "id": "b3",
-      "pre": "and the glucose of 212 mg/dL is high because",
+      "pre": "Hyperglycemia may reflect",
       "opts": [
-       "injured beta cells release less insulin",
-       "he ate a large meal before admission",
-       "the IV fluid contains dextrose"
+       "stress-related insulin resistance and pancreatic endocrine dysfunction",
+       "a normal response requiring no reassessment",
+       "dextrose in lactated Ringer’s"
       ],
-      "answer": "injured beta cells release less insulin"
+      "answer": "stress-related insulin resistance and pancreatic endocrine dysfunction"
      }
-    ],
-    "rationale": "Interpret lipase relative to the stated assay limit; compatible pain plus a value more than three times that limit supports the diagnosis. Fat necrosis can contribute to low calcium, and the ionized result confirms a physiologically low level. Stress-related insulin resistance and endocrine dysfunction can both raise glucose. LR contains no dextrose. Laboratory reference ranges are assay-specific; random inpatient glucose is not judged by a universal fasting cutoff.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "pa3",
@@ -1462,10 +1466,12 @@
     "kind": "multi",
     "page": 71,
     "stem": "Which interventions should the nurse expect to be part of this client's initial plan of care? Select all that apply.",
+    "rationale": "Active emesis/feeding intolerance supports temporary withholding of oral intake, with repeated assessment for early oral/enteral nutrition. Give prescribed LR with frequent reassessment, replace documented electrolyte deficits and monitor glucose under the order. Routine prophylactic antibiotics are not indicated without infection; biliary etiology alone does not mandate them. A high-fat meal during active emesis is unsuitable. Routine fasting to suppress pancreatic secretion is outdated teaching.",
+    "reviewed": "v3",
     "options": [
      [
       "a",
-      "Keep the client NPO"
+      "Temporarily hold oral intake for active vomiting and reassess early nutrition as tolerated"
      ],
      [
       "b",
@@ -1473,7 +1479,7 @@
      ],
      [
       "c",
-      "Replace calcium, magnesium and potassium as prescribed"
+      "Replace the documented calcium, magnesium and potassium deficits as prescribed"
      ],
      [
       "d",
@@ -1493,9 +1499,7 @@
      "b",
      "c",
      "d"
-    ],
-    "rationale": "Active emesis/feeding intolerance supports temporary withholding of oral intake, with repeated assessment for early oral/enteral nutrition. Give prescribed LR with frequent reassessment, replace documented electrolyte deficits and monitor glucose under the order. Routine prophylactic antibiotics are not indicated without infection; biliary etiology alone does not mandate them. A high-fat meal during active emesis is unsuitable. Routine fasting to suppress pancreatic secretion is outdated teaching.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "pa5",
@@ -1714,27 +1718,27 @@
     "kind": "single",
     "page": 79,
     "stem": "A large volume of fluid is planned for removal during today's paracentesis. Which complication is the nurse most concerned about?",
+    "rationale": "Large-volume removal can contribute to circulatory dysfunction; monitor BP, symptoms, renal status and electrolytes and give prescribed albumin for the planned volume above 5 L. Shock is not an inevitable result of lowering abdominal pressure. Pulmonary edema, hepatitis acquisition and anesthetic-related swallowing effects are not the characteristic direct complications being tested.",
+    "reviewed": "v3",
     "options": [
      [
       "a",
-      "Hypovolemic shock"
+      "Post-paracentesis circulatory dysfunction or symptomatic hypotension"
      ],
      [
       "b",
-      "Fluid overload"
+      "New pulmonary edema from the removal itself"
      ],
      [
       "c",
-      "Hepatitis A infection"
+      "Acquisition of hepatitis A from the procedure"
      ],
      [
       "d",
-      "Loss of the gag reflex"
+      "Loss of protective swallowing reflexes from paracentesis"
      ]
     ],
-    "answer": "a",
-    "rationale": "Large-volume removal can contribute to circulatory dysfunction; monitor BP, symptoms, renal status and electrolytes and give prescribed albumin for the planned volume above 5 L. Shock is not an inevitable result of lowering abdominal pressure. Pulmonary edema, hepatitis acquisition and anesthetic-related swallowing effects are not the characteristic direct complications being tested.",
-    "reviewed": "v3"
+    "answer": "a"
    },
    {
     "id": "ci4",
@@ -1743,6 +1747,8 @@
     "kind": "matrix",
     "page": 80,
     "stem": "For each intervention, indicate whether it is indicated or not indicated in the client's plan of care.",
+    "rationale": "Monitor ascites/fluid/electrolytes, provide hepatitis A vaccination for the displayed nonimmune unvaccinated client and offer alcohol-cessation support. Encourage safe activity rather than routine strict bed rest. Cirrhosis-related INR alone is not a bleeding-risk test, and routine vitamin K does not correct impaired hepatic synthesis when no deficiency exists. Give vitamin K only for an appropriate individualized indication/order.",
+    "reviewed": "v3",
     "cols": [
      "Indicated",
      "Not indicated"
@@ -1755,8 +1761,8 @@
      ],
      [
       "r2",
-      "Give vitamin K as prescribed",
-      "Indicated"
+      "Request routine vitamin K solely to normalize the cirrhosis-related INR",
+      "Not indicated"
      ],
      [
       "r3",
@@ -1773,9 +1779,7 @@
       "Keep the client on strict bed rest",
       "Not indicated"
      ]
-    ],
-    "rationale": "Monitor ascites/fluid/electrolytes, provide hepatitis A vaccination for the displayed nonimmune unvaccinated client and offer alcohol-cessation support. Encourage safe activity rather than routine strict bed rest. Cirrhosis-related INR alone is not a bleeding-risk test, and routine vitamin K does not correct impaired hepatic synthesis when no deficiency exists. Give vitamin K only for an appropriate individualized indication/order.",
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "ci5",
@@ -1784,10 +1788,12 @@
     "kind": "single",
     "page": 79,
     "stem": "Before the EGD, a new order requests an NG tube for nausea alone. The indication, tube type and relationship to the planned procedure are unclear. Which action should the nurse take first?",
+    "rationale": "Clarify this unclear, nonurgent order and coordinate the tube/procedural plan, including relevant bleeding/banding history. Varices are not an absolute contraindication to every enteric tube, and INR 1.9 alone does not quantify bleeding risk in cirrhosis. Lubrication, routine vitamin K or another nurse does not resolve the unclear indication. A justified tube may be placed using the appropriate protocol after assessment.",
+    "reviewed": "v3",
     "options": [
      [
       "a",
-      "Hold the insertion and contact the provider about the risk of rupturing varices"
+      "Clarify the indication, tube plan and procedure timing with the provider before insertion"
      ],
      [
       "b",
@@ -1802,9 +1808,7 @@
       "Ask another nurse to insert the tube"
      ]
     ],
-    "answer": "a",
-    "rationale": "Clarify this unclear, nonurgent order and coordinate the tube/procedural plan, including relevant bleeding/banding history. Varices are not an absolute contraindication to every enteric tube, and INR 1.9 alone does not quantify bleeding risk in cirrhosis. Lubrication, routine vitamin K or another nurse does not resolve the unclear indication. A justified tube may be placed using the appropriate protocol after assessment.",
-    "reviewed": "v3"
+    "answer": "a"
    },
    {
     "id": "ci6",

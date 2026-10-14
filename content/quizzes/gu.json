@@ -4,7 +4,7 @@
   {
    "id": "gu-overview-q1",
    "section": "gu-overview",
-   "stem": "A client with end-stage kidney disease is scheduled for hemodialysis this morning. The medication record shows a routine oral antihypertensive due before the treatment. What should the nurse do?",
+   "stem": "A client with kidney failure has recurrent intradialytic hypotension. Today's written dialysis plan instructs the nurse to hold the scheduled oral antihypertensive until after treatment and reassess blood pressure then. What should the nurse do?",
    "options": [
     "Give the antihypertensive early so it peaks during dialysis",
     "Hold the antihypertensive until after dialysis is completed",
@@ -13,10 +13,10 @@
    ],
    "correct": 1,
    "rationales": [
-    "Wrong. Giving it before treatment adds to the risk of hypotension the book says to monitor for during hemodialysis.",
-    "Correct. The book lists holding antihypertensives before dialysis as a priority action because hypotension is a key risk during hemodialysis.",
-    "Wrong. The book directs holding the drug before dialysis, not pairing it with extra fluid.",
-    "Wrong. Nothing in the book supports changing the dose; the action stated is simply to hold it before dialysis."
+    "Incorrect. This would conflict with today's individualized dialysis plan.",
+    "Correct. Follow the explicit hold and reassessment order; timing is individualized to blood pressure, drug properties and dialysis tolerance.",
+    "Incorrect. An unprescribed fluid bolus and altered medication timing are not justified.",
+    "Incorrect. Do not independently double the dose."
    ],
    "clue": "The antihypertensive is due right before hemodialysis.",
    "priority": "Preventing hypotension during hemodialysis.",
@@ -24,7 +24,8 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Follow individualized medication timing and hold parameters; antihypertensives are not routinely withheld before every dialysis treatment."
   },
   {
    "id": "gu-overview-q2",
@@ -214,7 +215,7 @@
    "type": "matrix",
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "stem": "A client in the oliguric phase of AKI has hyperkalemia and metabolic acidosis. For each prescribed medication, indicate what it does according to the book.",
+   "stem": "For each medication listed, classify its pharmacologic purpose in the stated context. These categories do not imply that all medications are routine AKI therapy. Sodium bicarbonate is being considered for a defined metabolic-acidosis indication.",
    "rows": [
     "Sodium polystyrene sulfonate (Kayexalate)",
     "Sodium bicarbonate",
@@ -233,14 +234,15 @@
     2
    ],
    "rationales": [
-    "The book lists sodium polystyrene sulfonate to decrease serum potassium.",
-    "The book lists sodium bicarbonate to correct metabolic acidosis.",
-    "The book groups diphenhydramine with drugs used for itching, not for potassium or acid-base problems.",
-    "The book lists erythropoietin to stimulate red blood cell production, not to treat potassium or acidosis."
+    "Sodium polystyrene sulfonate binds potassium for removal but has delayed onset and gastrointestinal risks; it is not emergency rescue for life-threatening hyperkalemia.",
+    "Sodium bicarbonate may correct selected metabolic-acidosis presentations; its indication and sodium/volume burden require assessment.",
+    "Diphenhydramine does neither. It is not routine evidence-based treatment of uremic pruritus and has sedation/anticholinergic risks.",
+    "Erythropoietin does neither. It stimulates erythropoiesis for defined anemia indications and is not routine AKI treatment."
    ],
    "clue": "Hyperkalemia and metabolic acidosis in oliguric AKI.",
    "priority": "Matching each AKI medication to its purpose.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Know the mechanism without assuming routine indication or emergency suitability."
   },
   {
    "id": "gu-aki-q5",
@@ -417,13 +419,13 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "stem": "The nurse teaches a client being treated for a UTI how to recover and prevent another infection. Which statements show the client understood the teaching? Select all that apply.",
+   "stem": "A nonpregnant adult with recurrent lower UTIs uses a spermicide and usually drinks very little fluid. There is no fluid restriction. Which statements reflect appropriate teaching? Select all that apply.",
    "options": [
     "\"I should avoid pain relievers and warm compresses while I heal.\"",
     "\"I'll wipe from front to back after using the toilet.\"",
     "\"I can stop the antibiotic once the burning is gone.\"",
-    "\"I'll avoid wearing tight clothes for now.\"",
-    "\"I'll increase how much fluid I drink each day.\""
+    "\"I'll discuss avoiding spermicides and choosing an alternative contraceptive method.\"",
+    "\"I'll increase my low fluid intake according to the individualized hydration plan.\""
    ],
    "correct": [
     1,
@@ -431,15 +433,16 @@
     4
    ],
    "rationales": [
-    "Wrong. The book lists OTC pain relief and warm compresses as needed as part of UTI care.",
-    "Correct. Wiping front to back is a hygiene habit the book teaches.",
-    "Wrong. The book says to complete all antibiotics even if symptoms improve.",
-    "Correct. The book lists avoiding tight clothes as part of hygiene habits.",
-    "Correct. The book lists increasing fluids in UTI care."
+    "Incorrect. Appropriate prescribed or approved pain relief and warmth may relieve symptoms; assess contraindications.",
+    "Correct. Front-to-back wiping is reasonable hygiene advice, though it should not be presented as a proven guarantee against recurrence.",
+    "Incorrect. Complete the prescribed antibiotic course unless the treating team changes it.",
+    "Correct. Spermicide avoidance is an evidence-based counseling consideration for recurrent UTI.",
+    "Correct. Increased intake can help a low-intake client when no restriction applies; do not prescribe forced excessive fluids."
    ],
    "clue": "Client statements after UTI teaching.",
    "priority": "Evaluating teaching that prevents recurrent infection.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use documented prevention strategies and individualized hydration; clothing tightness should not decide the key."
   },
   {
    "id": "gu-uti-q5",
@@ -448,17 +451,17 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A client reports urinary burning and frequency. For each test result, indicate whether it is consistent with a UTI according to the book.",
+   "stem": "A client has urinary burning and frequency. Categorize each finding as supportive of urinary inflammation or bacteriuria, or insufficient by itself to establish or exclude symptomatic UTI. Findings must be interpreted with symptoms and culture when indicated.",
    "rows": [
-    "Leukocyte esterase dip test turns purple",
-    "Nitrites present on urinalysis",
-    "Urine is clear with no odor",
-    "Increased WBCs and RBCs on urinalysis",
-    "Leukocyte esterase dip test is negative"
+    "Positive leukocyte esterase on the actual dipstick's scale",
+    "Nitrites detected on urinalysis",
+    "Clear urine with no noticeable odor",
+    "Pyuria with microscopic hematuria",
+    "Negative leukocyte esterase as the only test result"
    ],
    "columns": [
-    "Consistent with UTI",
-    "Not consistent with UTI"
+    "Supportive finding",
+    "Insufficient alone"
    ],
    "correct": [
     0,
@@ -468,15 +471,16 @@
     1
    ],
    "rationales": [
-    "The book says a positive (purple) dip test means WBCs were detected, consistent with UTI.",
-    "The book lists nitrites among urinalysis findings in UTI.",
-    "The book lists cloudy urine and odor in UTI, so clear urine without odor does not support it.",
-    "The book lists increased WBCs and RBCs on urinalysis in UTI.",
-    "The book describes a positive dip test in UTI; a negative result does not show WBCs."
+    "Leukocyte esterase supports pyuria, which is not specific for bacterial infection.",
+    "Nitrites can support bacteriuria but do not independently establish symptomatic infection.",
+    "Normal appearance does not rule out UTI.",
+    "These findings can support inflammation in this symptomatic context but have other causes.",
+    "One negative dipstick result does not rule out a symptomatic infection."
    ],
    "clue": "Dip test and urinalysis results.",
    "priority": "Interpreting urine tests for UTI.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Interpret urinalysis with clinical symptoms; urine appearance or one negative dipstick cannot exclude UTI."
   },
   {
    "id": "gu-uti-q6",
@@ -506,19 +510,19 @@
   {
    "id": "gu-pyelo-q1",
    "section": "gu-pyelo",
-   "stem": "A client with pyelonephritis is being managed at home and asks how much fluid to drink each day. Which instruction matches the book?",
+   "stem": "A stable adult recovering at home from pyelonephritis has no heart failure or kidney impairment requiring restriction. The treating team prescribes a daily oral fluid goal of about 2 L, adjusted for losses and tolerance. Which instruction is appropriate?",
    "options": [
-    "Limit fluids to about 1,000 mL a day to rest the kidneys",
-    "Drink as much as possible, at least 6,000 mL a day",
-    "Drink only when thirsty and avoid tracking intake",
-    "Drink about 2,000 to 4,000 mL a day, not more than 4,000 mL"
+    "Restrict intake to 1 L regardless of the plan",
+    "Force at least 6 L daily",
+    "Ignore vomiting and take no action if fluids cannot be retained",
+    "Follow the prescribed goal, avoid forced fluid loading and report inability to maintain intake"
    ],
    "correct": 3,
    "rationales": [
-    "Wrong. The book calls for increased fluids, not restriction, in pyelonephritis.",
-    "Wrong. The book caps intake at 4,000 mL per day.",
-    "Wrong. The book gives a specific daily target rather than drinking only to thirst.",
-    "Correct. The book's nursing care for pyelonephritis sets fluids at 2,000 to 4,000 mL per day without going over 4,000 mL."
+    "Incorrect. An arbitrary restriction conflicts with the individualized plan.",
+    "Incorrect. Forced high-volume intake can be unsafe and is not necessary.",
+    "Incorrect. Persistent vomiting can prevent hydration and antibiotic treatment and needs reassessment.",
+    "Correct. The defined goal supports adequate hydration with monitoring; no universal 2–4 L range or 4 L cap applies to every client."
    ],
    "clue": "The client asks for a daily fluid amount.",
    "priority": "Adequate but safe hydration in pyelonephritis.",
@@ -526,7 +530,8 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use an individualized fluid plan and seek reassessment for vomiting or dehydration rather than force fluids."
   },
   {
    "id": "gu-pyelo-q2",
@@ -540,7 +545,7 @@
    ],
    "correct": 1,
    "rationales": [
-    "Wrong. The book says mild cases can be managed as outpatients.",
+    "Wrong. The book says mild cases can be managed as outclients.",
     "Correct. The book reserves hospitalization for severe cases and for pregnant or frail clients.",
     "Wrong. Tolerating fluids with mild illness fits the book's outpatient approach.",
     "Wrong. Mild disease is managed as an outpatient according to the book."
@@ -556,7 +561,7 @@
   {
    "id": "gu-pyelo-q3",
    "section": "gu-pyelo",
-   "stem": "A hospitalized client with pyelonephritis has trouble emptying the bladder completely. Which independent nursing action does the book recommend?",
+   "stem": "A hospitalized client with pyelonephritis is stable and has mild urinary hesitancy without acute retention. Bladder emptying is being monitored. Which independent measure can the nurse try while continuing assessment?",
    "options": [
     "Insert an indwelling catheter for continuous drainage",
     "Limit fluids so the bladder does not overfill",
@@ -566,7 +571,7 @@
    "correct": 2,
    "rationales": [
     "Wrong. The book's independent measure is promoting voiding, not placing an indwelling catheter.",
-    "Wrong. The book calls for 2,000 to 4,000 mL of fluid a day, not restriction.",
+    "Incorrect. Do not impose an arbitrary restriction; follow individualized hydration orders. Persistent inability to void requires assessment of retention rather than fluid manipulation.",
     "Correct. The book lists promoting complete bladder emptying with running water and privacy.",
     "Wrong. The book lists cool packs and sitz baths for comfort, and its voiding measures are privacy and running water."
    ],
@@ -576,7 +581,8 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Privacy and running water may assist mild hesitancy; persistent incomplete emptying requires residual-volume assessment and escalation."
   },
   {
    "id": "gu-pyelo-q4",
@@ -585,7 +591,7 @@
    "type": "sata",
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client is admitted with severe pyelonephritis, fever, nausea, and vomiting. Which medications does the nurse anticipate? Select all that apply.",
+   "stem": "A client is admitted with severe pyelonephritis, fever, nausea, and vomiting. Which medications does the nurse anticipate?  The client also has dysuria, adequate renal function and a prescription for no more than two days of phenazopyridine while receiving antibiotics. Select all that apply.",
    "options": [
     "An IV antibiotic such as ceftriaxone, changed to oral later",
     "An antiemetic for the nausea and vomiting",
@@ -602,12 +608,13 @@
     "Correct. The book lists antibiotics given IV then oral, with ceftriaxone as an example.",
     "Correct. The book lists antiemetics among supportive drugs for pyelonephritis.",
     "Wrong. The book does not list this drug for pyelonephritis; it is an AKI drug for high potassium.",
-    "Correct. The book lists urinary analgesics (Pyridium) as supportive drugs.",
+    "Correct. Phenazopyridine may relieve this documented dysuria for the prescribed short period; it does not treat infection or systemic flank pain and is contraindicated in renal insufficiency.",
     "Wrong. The book does not list oxybutynin for pyelonephritis; it is a tip for urge incontinence."
    ],
    "clue": "Severe pyelonephritis with fever and vomiting.",
    "priority": "Anticipating antibiotic and supportive drug therapy.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Treat infection and defined symptoms; phenazopyridine is short-term dysuria relief with renal-safety review, not systemic pyelonephritis treatment."
   },
   {
    "id": "gu-pyelo-q5",
@@ -621,7 +628,7 @@
     "\"I'll wipe from front to back after using the toilet.\"",
     "\"I'll wash my hands well, especially after the bathroom.\"",
     "\"Once I feel better, I can skip my follow-up visit.\"",
-    "\"I'll drink as much as I can, even more than 4 liters a day.\""
+    "\"I'll force large amounts of fluid regardless of my prescribed goal or symptoms.\""
    ],
    "columns": [
     "Understands",
@@ -637,7 +644,7 @@
     "The book teaches wiping front to back.",
     "The book includes handwashing in hygiene teaching.",
     "The book teaches follow-up care, so skipping it needs correction.",
-    "The book sets fluids at 2,000 to 4,000 mL a day and not over 4,000 mL."
+    "Forced intake regardless of the prescribed goal can be harmful. Hydration depends on losses, cardiac/renal status and tolerance; there is no universal four-liter cutoff."
    ],
    "clue": "Client statements about home care.",
    "priority": "Evaluating hygiene, hydration, and follow-up teaching.",
@@ -783,19 +790,19 @@
   {
    "id": "gu-calculi-q1",
    "section": "gu-calculi",
-   "stem": "A client with a 3 mm kidney stone is being sent home on conservative treatment. Which teaching point reflects the book?",
+   "stem": "A stable adult has an uncomplicated 3 mm distal ureteral stone, controlled pain, no infection and no high-grade obstruction. Conservative outpatient treatment is prescribed. Which teaching is appropriate?",
    "options": [
     "Limit fluids so the stone is not pushed into the ureter",
     "Plan for shockwave lithotripsy within the next week",
-    "Drink plenty of fluids and strain all urine to catch the stone",
+    "Maintain usual hydration, strain urine and follow return precautions",
     "Discard the urine since the stone will dissolve fully"
    ],
    "correct": 2,
    "rationales": [
-    "Wrong. The book encourages high fluid intake, not restriction, to help small stones pass.",
-    "Wrong. The book reserves ESWL and surgery for larger stones of about 7 to 8 mm or more.",
-    "Correct. The book's conservative care for small stones includes hydration and urine straining, since most stones under 4 mm pass on their own.",
-    "Wrong. The book says to strain urine to collect the stone."
+    "Incorrect. Unnecessary dehydration is not advised; maintain euvolemia.",
+    "Incorrect. Observation may be appropriate for this uncomplicated small distal stone; procedures are not determined by one universal size cutoff.",
+    "Correct. Collect the stone for analysis, follow up and seek prompt care for fever, uncontrolled pain, vomiting or reduced urine output. Forced fluid loading during colic can worsen discomfort with obstruction.",
+    "Incorrect. Straining may capture a passed stone; composition determines whether dissolution is possible."
    ],
    "clue": "A stone smaller than 4 mm managed conservatively.",
    "priority": "Helping a small stone pass and collecting it for analysis.",
@@ -803,7 +810,8 @@
    "type": "mcq",
    "clientNeed": "bcc",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Observation depends on size, location and safety factors; maintain usual hydration and give explicit follow-up and return precautions."
   },
   {
    "id": "gu-calculi-q2",
@@ -818,7 +826,7 @@
    "correct": 0,
    "rationales": [
     "Correct. The book states that a noncontrast helical CT detects the size, shape, and location of stones.",
-    "Wrong. The book notes KUB films identify radiopaque stones but not uric acid or cystine stones.",
+    "Incorrect. Uric acid stones are typically radiolucent on KUB. Cystine stones may be faintly radiopaque; a negative KUB does not exclude a stone.",
     "Wrong. These blood tests are listed as other tests, but they do not show a stone's size or location.",
     "Wrong. A 24-hour urine study looks at stone-forming substances, not stone size or location."
    ],
@@ -1089,19 +1097,19 @@
   {
    "id": "gu-prostate-q2",
    "section": "gu-prostate",
-   "stem": "While taking a history from a man being evaluated for prostate cancer, which question reflects an environmental risk factor the book lists?",
+   "stem": "While taking a prostate-cancer risk history, which question addresses an established familial risk factor?",
    "options": [
-    "Do you drink more than two cups of coffee each day?",
-    "Have you worked with batteries or been exposed to cadmium?",
-    "Have you had frequent urinary tract infections as a child?",
-    "Do you regularly eat a diet high in fresh vegetables?"
+    "Do you drink more than two cups of coffee daily?",
+    "Has a first-degree relative, such as your father or brother, had prostate cancer?",
+    "Did you have frequent childhood urinary infections?",
+    "Do you regularly eat fresh vegetables?"
    ],
    "correct": 1,
    "rationales": [
-    "Wrong. Caffeine is not among the prostate cancer risk factors the book lists.",
-    "Correct. The book lists cadmium exposure from cigarettes and batteries as an environmental risk factor and says to ask about it.",
-    "Wrong. Childhood UTIs are not a risk factor named in the book's prostate cancer section.",
-    "Wrong. The book lists a high-fat diet as a risk, not a vegetable-rich diet."
+    "Incorrect. Coffee intake is not the established familial risk asked about.",
+    "Correct. A first-degree family history is an established risk factor and informs shared screening decisions.",
+    "Incorrect. Childhood UTI history is not an established familial prostate-cancer risk.",
+    "Incorrect. This dietary habit does not identify familial risk."
    ],
    "clue": "Cadmium exposure through batteries.",
    "priority": "Collecting a risk-focused history.",
@@ -1109,7 +1117,8 @@
    "type": "mcq",
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
-   "checked": true
+   "checked": true,
+   "takeaway": "Ask about first-degree family history and relevant inherited mutations; debated occupational associations should not determine the key."
   },
   {
    "id": "gu-prostate-q3",
@@ -1123,10 +1132,10 @@
    ],
    "correct": 2,
    "rationales": [
-    "Wrong. The book notes prostate cancer is often asymptomatic at diagnosis, so waiting for symptoms is unsafe.",
-    "Wrong. Most cases occur over 65, but the book recommends discussions starting at 50 or earlier for high risk.",
-    "Correct. The book says screening discussions start at 50 for average-risk men and earlier for higher-risk men, noting higher rates in Black men and family history as a risk.",
-    "Wrong. Family history and being a Black man put him at higher risk, which calls for earlier discussion."
+    "Incorrect. Prostate cancer can be asymptomatic; screening discussions are risk-based rather than symptom-triggered.",
+    "Incorrect. Waiting until 65 is not the appropriate high-risk discussion strategy.",
+    "Correct. This client's ancestry and family history support earlier shared decision-making. Discuss PSA screening's potential benefits, false positives, overdiagnosis and subsequent testing. Recommendations for average-risk starting age vary.",
+    "Incorrect. This client has higher-risk features and should discuss screening now."
    ],
    "clue": "Black man with a father who had prostate cancer.",
    "priority": "Screening education for a high-risk client.",
@@ -1134,7 +1143,8 @@
    "type": "mcq",
    "clientNeed": "hpm",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use risk-based shared decision-making; a universal average-risk age of 50 is not the only accepted approach."
   },
   {
    "id": "gu-prostate-q4",
@@ -1152,14 +1162,15 @@
    ],
    "correct": 1,
    "rationales": [
-    "Wrong. Treating the fever hides a possible infection; the book says transplant is contraindicated if infection is present.",
-    "Correct. The book says to assess for signs of infection because transplant is contraindicated when infection is present, so the surgeon must know.",
-    "Wrong. Documenting alone does not stop a transplant the book says is contraindicated with infection.",
-    "Wrong. Dialysis may be needed within 24 hours, but it does not address the signs of infection."
+    "Incorrect. Giving an antipyretic and proceeding without evaluating new infection signs could expose the client to harm.",
+    "Correct. New fever and productive cough may indicate active uncontrolled infection and require urgent transplant-team assessment before surgery. Controlled chronic infections do not automatically exclude transplantation.",
+    "Incorrect. Documentation alone does not address the new safety concern.",
+    "Incorrect. Dialysis decisions do not replace evaluation of possible infection."
    ],
    "clue": "Fever and productive cough before transplant.",
    "priority": "Advocating for the client when a surgical contraindication is found.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Report new infection signs before transplant; distinguish active uncontrolled infection from selected controlled chronic infections."
   },
   {
    "id": "gu-prostate-q5",
@@ -1362,7 +1373,7 @@
    "type": "sata",
    "clientNeed": "bcc",
    "cjmm": "evaluateOutcomes",
-   "stem": "The nurse reinforces diet teaching with a client who has chronic kidney disease (CKD). Which statements show the client understands the restrictions? Select all that apply.",
+   "stem": "A client with advanced CKD has hyperkalemia, hyperphosphatemia and fluid retention. The team prescribes individualized fluid, potassium, phosphorus and sodium limits. Which statements show understanding of this plan? Select all that apply.",
    "options": [
     "\"I'll keep track of how much fluid I drink each day.\"",
     "\"I'll cut back on foods that are high in potassium.\"",
@@ -1378,17 +1389,18 @@
     5
    ],
    "rationales": [
-    "Correct. The book lists fluid restriction for CKD.",
-    "Correct. Potassium restriction is one of the CKD limits the book lists.",
-    "Wrong. The book lists sodium restriction for CKD, so adding salt freely shows a need for more teaching.",
-    "Correct. Phosphorus restriction is one of the CKD limits the book lists.",
-    "Wrong. The book stresses medication adherence for CKD, not taking drugs only when symptoms appear.",
-    "Correct. Sodium restriction is part of the CKD plan in the book."
+    "Correct. Tracking intake helps follow this prescribed fluid limit.",
+    "Correct. The defined hyperkalemia and plan justify potassium modifications; sources and substitutes should be reviewed with the dietitian.",
+    "Incorrect. Urine production does not justify unrestricted salt.",
+    "Correct. The prescribed phosphorus plan addresses the elevated level while preserving adequate nutrition.",
+    "Incorrect. Follow prescribed medication instructions rather than taking them only when swollen.",
+    "Correct. Sodium moderation is part of this plan."
    ],
    "clue": "The client has CKD and is learning the renal diet.",
    "priority": "Enforcing fluid, potassium, phosphorus and sodium limits and medication adherence in CKD.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Match CKD dietary restrictions to stage, laboratory findings, volume status and nutritional needs; they are not identical for every client."
   },
   {
    "id": "gu-overview-q8",
@@ -1397,7 +1409,7 @@
    "type": "matrix",
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client with end-stage kidney disease arrives for hemodialysis through an arteriovenous (AV) fistula. For each nursing action, indicate whether it is indicated or not indicated.",
+   "stem": "A client with end-stage kidney disease arrives for hemodialysis through an arteriovenous (AV) fistula. For each nursing action, indicate whether it is indicated or not indicated. This client has an explicit order to hold the scheduled antihypertensive until after dialysis because of recurrent intradialytic hypotension.",
    "rows": [
     "Palpate for a thrill and listen for a bruit over the fistula",
     "Give the scheduled oral antihypertensive just before the treatment starts",
@@ -1418,7 +1430,7 @@
    ],
    "rationales": [
     "Indicated. The book lists checking the AV fistula for bruit and thrill.",
-    "Not indicated. The book says to hold antihypertensives before dialysis.",
+    "Not indicated. Follow this explicit individualized hold order and reassess afterward; holding all antihypertensives before dialysis is not a universal rule.",
     "Indicated. The book lists monitoring for hypotension during hemodialysis.",
     "Indicated. The book lists monitoring for bleeding with hemodialysis.",
     "Not indicated. Warming dialysate is a peritoneal dialysis step; it does not apply to hemodialysis through a fistula."
@@ -1599,7 +1611,7 @@
    "type": "mcq",
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client with AKI has been receiving recombinant human erythropoietin. Which finding best shows the drug is having its intended effect?",
+   "stem": "A client with pre-existing CKD-related anemia has a justified ongoing recombinant erythropoietin prescription and develops superimposed AKI. Which finding reflects the drug's intended hematologic effect?",
    "options": [
     "A drop in serum potassium",
     "An improved red blood cell count",
@@ -1608,15 +1620,16 @@
    ],
    "correct": 1,
    "rationales": [
-    "Wrong. The book lists sodium polystyrene sulfonate, not erythropoietin, to lower potassium.",
-    "Correct. The book states erythropoietin is given to stimulate red blood cell production.",
-    "Wrong. Diuretics, not erythropoietin, are listed to promote urine output.",
-    "Wrong. The book lists diphenhydramine for itching."
+    "Incorrect. Erythropoietin does not lower potassium; hyperkalemia needs indication-specific treatment, and sodium polystyrene sulfonate is not emergency rescue.",
+    "Correct. Erythropoietin stimulates red-cell production; monitor hemoglobin response and safety according to the CKD-anemia plan. It is not routine treatment to improve AKI.",
+    "Incorrect. Erythropoietin does not directly increase urine output or recover renal filtration.",
+    "Incorrect. Erythropoietin is not treatment for pruritus."
    ],
    "clue": "The client is receiving recombinant human erythropoietin.",
    "priority": "Evaluating response to erythropoietin by its stated purpose.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "An ESA treats a defined anemia indication, not AKI itself; monitor hematologic response and safety."
   },
   {
    "id": "gu-aki-q14",
@@ -1651,11 +1664,11 @@
    "type": "sata",
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client in the oliguric phase of AKI who is not receiving dialysis is starting a diet plan. Which elements does the nurse expect, based on the book? Select all that apply.",
+   "stem": "A stable, noncatabolic adult with oliguric AKI is not receiving dialysis. Which elements fit an individualized dietitian-led plan? Select all that apply.",
    "options": [
     "Unlimited fluids to flush waste from the kidneys",
-    "Meals high in carbohydrate and low in protein",
-    "Extra protein to rebuild kidney tissue",
+    "Adequate energy and protein adjusted to nutritional status and catabolic needs",
+    "Severe protein restriction solely to avoid starting dialysis",
     "Sodium and fluid limits based on the client's status",
     "Potassium restriction as needed",
     "Potassium-rich foods with every meal"
@@ -1666,17 +1679,18 @@
     4
    ],
    "rationales": [
-    "Wrong. The book calls for fluid restriction based on status, not unlimited fluids.",
-    "Correct. The book lists a high-carbohydrate, low-protein diet for AKI.",
-    "Wrong. The book lists a low-protein diet for AKI; extra protein adds to waste buildup in a client who is not on dialysis.",
-    "Correct. The book says sodium and fluid are restricted based on the client's status.",
-    "Correct. The book lists potassium restriction as needed.",
-    "Wrong. Adding potassium works against the book's potassium restriction and its goal of preventing hyperkalemia."
+    "Incorrect. Unrestricted fluids may cause overload in oliguria.",
+    "Correct. Meet assessed energy and protein needs; the target differs with catabolism and dialysis.",
+    "Incorrect. Do not restrict protein solely to postpone dialysis; inadequate nutrition can worsen outcomes.",
+    "Correct. Sodium and fluid amounts depend on volume status, losses and the treatment plan.",
+    "Correct. Potassium restriction is based on levels and the clinical plan.",
+    "Incorrect. Automatically adding potassium-rich food is inappropriate when potassium handling is impaired."
    ],
    "clue": "A client with AKI needs dietary therapy.",
    "priority": "AKI diet: high carbohydrate, low protein, with sodium, fluid and potassium limits as needed.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Provide adequate individualized nutrition, with fluid and electrolyte limits based on actual status rather than a blanket low-protein diet."
   },
   {
    "id": "gu-aki-q16",
@@ -1715,7 +1729,7 @@
    "rows": [
     "Urine sodium below 20 mEq/L",
     "Elevated serum creatinine",
-    "24-hour urine creatinine decreased by 50%",
+    "Measured creatinine clearance decreases by 50% using a complete timed urine collection and paired plasma creatinine",
     "Muddy brown casts and tubular cells in the urine"
    ],
    "columns": [
@@ -1730,15 +1744,16 @@
     2
    ],
    "rationales": [
-    "Prerenal cause. The book gives a urine sodium below 20 mEq/L as the prerenal AKI value; the kidneys are holding on to sodium because blood flow is low.",
+    "A low urine sodium may support a prerenal pattern in the appropriate context, but diuretics and other clinical factors can alter interpretation; it is not definitive alone.",
     "Impaired filtration. The book states an elevated serum creatinine indicates impaired kidney filtration.",
-    "Reduced clearance. The book states a 50% decrease in 24-hour urine creatinine reflects reduced creatinine clearance (kidney damage).",
+    "Reduced clearance. Calculated clearance uses urinary creatinine concentration, urine volume and collection duration with paired plasma creatinine. A fall in urinary creatinine excretion alone does not prove reduced clearance.",
     "Tubular necrosis. The book states muddy brown casts and tubular cells suggest tubular necrosis."
    ],
    "clue": "Several abnormal AKI urine and blood results.",
    "priority": "Interpreting what each AKI diagnostic result means.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Interpret kidney tests in clinical context; clearance requires paired blood and timed urine data, not urinary excretion alone."
   },
   {
    "id": "gu-aki-q18",
@@ -1973,24 +1988,25 @@
    "type": "mcq",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "A client with a first episode of burning and frequency is started on antibiotics without a urine culture and asks whether a test was skipped. What should the nurse explain?",
+   "stem": "A nonpregnant adult woman has a first typical uncomplicated lower UTI, no systemic symptoms or urinary-tract abnormality and treatment under a local prescribing protocol. She asks why no urine culture was ordered. Which response is accurate?",
    "options": [
-    "A culture is always required before any UTI antibiotic can be given",
-    "The culture sample must have been lost and will need to be repeated",
-    "A culture is used only when the client has a high fever",
-    "A culture is often not needed to start treating a first lower UTI; follow-up testing checks the response"
+    "A culture is mandatory before every antibiotic dose",
+    "The sample must have been lost",
+    "Cultures are needed only when fever is high",
+    "Empiric treatment may fit this episode; return for persistent symptoms"
    ],
    "correct": 3,
    "rationales": [
-    "Wrong. The book states a culture is often not needed for initial lower UTI treatment.",
-    "Wrong. Nothing suggests a lost sample; starting treatment without a culture is common.",
-    "Wrong. The book does not tie culture to fever; it says follow-up testing checks the response.",
-    "Correct. The book states urine culture is often not needed for initial lower UTI treatment and that follow-up testing checks the response."
+    "Incorrect. Culture use depends on eligibility and clinical context.",
+    "Incorrect. There is no evidence of a lost sample.",
+    "Incorrect. Persistent symptoms, recurrence and other risks can justify culture without high fever.",
+    "Correct. Empiric treatment may be appropriate in this defined situation. Routine test-of-cure is not indicated after symptoms resolve in an asymptomatic nonpregnant client."
    ],
    "clue": "First lower UTI treated without a culture.",
    "priority": "Understanding when urine culture is used in UTI care.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Define uncomplicated eligibility; culture persistent or recurrent symptoms as indicated rather than routinely testing after clinical cure."
   },
   {
    "id": "gu-uti-q11",
@@ -2123,33 +2139,35 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "evaluateOutcomes",
-   "stem": "A client finished treatment for a lower UTI, and follow-up testing is done to check the response. For each finding, indicate whether it suggests the infection has resolved or is still present or advancing.",
+   "stem": "Each row describes a separate nonpregnant adult after treatment of a lower UTI. Classify the finding as symptom improvement, need for prompt reassessment, or insufficient alone to establish symptomatic infection.",
    "rows": [
-    "Burning and urgency have stopped",
-    "Nocturia and suprapubic fullness have gone away",
-    "Nitrites are still present on urinalysis",
-    "New flank pain with a low-grade fever"
+    "Burning and urgency resolve without new symptoms",
+    "Nocturia and suprapubic discomfort resolve",
+    "Nitrites are detected incidentally in urine while the client has no symptoms",
+    "New flank pain with fever"
    ],
    "columns": [
-    "Suggests resolved",
-    "Still present or advancing"
+    "Symptom improvement",
+    "Prompt reassessment",
+    "Insufficient alone"
    ],
    "correct": [
     0,
     0,
-    1,
+    2,
     1
    ],
    "rationales": [
-    "Suggests resolved. The book lists burning and urgency as UTI symptoms.",
-    "Suggests resolved. The book lists nocturia and suprapubic fullness as UTI symptoms.",
-    "Still present. The book lists nitrites on urinalysis as a UTI finding.",
-    "Still present or advancing. The book lists flank pain and low-grade fever as signs of advanced infection."
+    "Resolution supports clinical response.",
+    "Improvement supports the response, though symptoms are not all specific to UTI.",
+    "Nitrites alone do not establish symptomatic infection; routine test-of-cure is not recommended after asymptomatic clinical resolution in nonpregnant clients.",
+    "New fever and flank pain may indicate upper-tract infection and need prompt evaluation."
    ],
    "clue": "Follow-up testing after UTI treatment.",
    "priority": "Evaluating response to UTI treatment.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Evaluate symptoms and systemic cues; asymptomatic bacteriuria is different from persistent symptomatic infection."
   },
   {
    "id": "gu-uti-q16",
@@ -2248,7 +2266,7 @@
     "Wrong. Changing therapy is a provider decision, not an AP task.",
     "Wrong. Teaching is a nursing responsibility.",
     "Wrong. Evaluating pain relief is a nursing assessment.",
-    "Correct. Measuring and recording intake supports the book's 2,000-4,000 mL/day fluid goal and is routine work AP can do."
+    "Correct. Measuring and reporting intake supports the individualized prescribed hydration goal and is a routine permitted task for competent AP; the nurse interprets findings."
    ],
    "clue": "Tasks for a client with pyelonephritis must be matched to the right caregiver.",
    "priority": "Delegating routine measurement while keeping assessment and teaching with the nurse.",
@@ -2278,7 +2296,7 @@
    "rationales": [
     "Correct. The book lists cool packs for comfort.",
     "Correct. The book lists sitz baths for comfort.",
-    "Wrong. The book recommends 2,000-4,000 mL/day.",
+    "Incorrect. An arbitrary limit is inappropriate without an indication. Follow the individualized hydration goal and assess persistent incomplete emptying for retention.",
     "Correct. The book lists running water and privacy to promote complete bladder emptying.",
     "Wrong. The book promotes complete bladder emptying, not holding urine."
    ],
@@ -2320,16 +2338,16 @@
    "type": "matrix",
    "clientNeed": "rrp",
    "cjmm": "analyzeCues",
-   "stem": "The nurse reviews results for a client with suspected acute glomerulonephritis (AGN). For each result, indicate whether it is abnormal and consistent with AGN or within the normal range the book gives.",
+   "stem": "For this adult laboratory, measured creatinine clearance is normally 90–140 mL/min, serum creatinine 0.6–1.2 mg/dL and urine specific gravity 1.005–1.030. Categorize each result as outside the stated reference range or within it. Abnormal findings require interpretation and do not individually diagnose glomerulonephritis.",
    "rows": [
     "Creatinine clearance of about 50 mL/min",
-    "Urinalysis with RBCs, casts, and high protein",
-    "Increased urine specific gravity",
+    "Urinalysis with hematuria, RBC casts and substantial proteinuria",
+    "Urine specific gravity 1.035",
     "Serum creatinine of 0.9 mg/dL",
     "Creatinine clearance of 120 mL/min"
    ],
    "columns": [
-    "Abnormal, consistent with AGN",
+    "Outside stated reference range",
     "Within normal range"
    ],
    "correct": [
@@ -2340,16 +2358,17 @@
     1
    ],
    "rationales": [
-    "Abnormal. The book gives about 50 mL/min as a decreased clearance showing impaired filtering.",
-    "Abnormal. The book lists RBCs, casts and high protein as abnormal urinalysis findings.",
-    "Abnormal. The book lists increased specific gravity as abnormal in AGN.",
-    "Normal. The book gives 0.51-1.21 mg/dL as the normal serum creatinine range.",
-    "Normal. The book gives 100-140 mL/min as normal creatinine clearance."
+    "A clearance of 50 is below the supplied adult laboratory range and suggests reduced filtration in context.",
+    "RBC casts with hematuria and substantial proteinuria support a glomerular inflammatory pattern and need evaluation.",
+    "A value of 1.035 exceeds this stated range; concentrated urine is not specific for glomerulonephritis.",
+    "A creatinine of 0.9 is within this laboratory range, but trends and muscle mass still matter.",
+    "A clearance of 120 is within the supplied range; ranges vary with age and body size."
    ],
    "clue": "Laboratory values for suspected AGN.",
    "priority": "Interpreting AGN diagnostic results against the book's normal ranges.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Use the laboratory and client-specific reference ranges and interpret patterns rather than treating one abnormal value as diagnostic."
   },
   {
    "id": "gu-gn-q7",
@@ -2531,13 +2550,14 @@
    "rationales": [
     "Wrong. The book does not describe tamsulosin as dissolving stones.",
     "Wrong. The book lists antibiotics, not tamsulosin, for infection.",
-    "Correct. The book lists nifedipine or tamsulosin to relax the ureter as part of medical expulsive therapy.",
-    "Wrong. Hydration, not tamsulosin, is used to increase urine flow."
+    "Correct. Prescribed tamsulosin relaxes ureteral smooth muscle and is used off label in selected expulsive-therapy plans. Benefit depends on stone size and location; a 3 mm stone often passes without medication. Nifedipine is not a routine equivalent alternative.",
+    "Incorrect. Tamsulosin is not a diuretic; forced fluid loading is not recommended to flush an obstructing stone."
    ],
    "clue": "Tamsulosin is ordered for a small stone.",
    "priority": "Explaining the purpose of medical expulsive therapy.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Explain the prescribed mechanism and individualized off-label use; small stones may pass without expulsive therapy."
   },
   {
    "id": "gu-calculi-q7",
@@ -2555,15 +2575,16 @@
    ],
    "correct": 0,
    "rationales": [
-    "Correct. The book lists ESWL, ureteroscopy or surgical removal for larger stones (over 7-8 mm).",
-    "Wrong. The book says stones under 4 mm usually pass; a 10 mm stone needs a procedure.",
-    "Wrong. The book does not describe stones dissolving with bedrest, and immobility raises stone risk.",
-    "Wrong. A large stone with ongoing pain needs treatment."
+    "Correct. A symptomatic 10 mm stone warrants urologic procedural evaluation. Location, anatomy, composition, obstruction, infection and client preference determine the method.",
+    "Incorrect. Ongoing pain and this stone size make reassessment appropriate; passage probabilities are not determined by a universal cutoff alone.",
+    "Incorrect. Bedrest does not dissolve the stone.",
+    "Incorrect. Ongoing symptoms require follow-up and a treatment plan."
    ],
    "clue": "A 10 mm stone.",
    "priority": "Matching treatment to stone size.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Evaluate a symptomatic stone using size, location and clinical risk rather than a universal 7–8 mm procedure threshold."
   },
   {
    "id": "gu-calculi-q8",
@@ -2615,13 +2636,14 @@
     "Correct. The book lists dehydration (low urine volume) as a key cause.",
     "Correct. The book lists immobility as a cause of high calcium levels.",
     "Wrong. The book lists vitamin D excess as a cause of high calcium levels.",
-    "Correct. The book lists UTIs with alkaline urine as a cause.",
+    "Correct. Report UTI symptoms promptly for safety. Urease-associated infection stones are often struvite or carbonate apatite; most calcium oxalate stones have a metabolic prevention plan rather than this infection mechanism.",
     "Wrong. Concentrated, low-volume urine is a cause the book lists."
    ],
    "clue": "The client wants to prevent another calcium stone.",
    "priority": "Teaching that targets the book's causes of stone formation.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Base prevention on stone composition and metabolic assessment; adequate urine volume and prompt infection evaluation are useful safety measures."
   },
   {
    "id": "gu-calculi-q10",
@@ -2675,8 +2697,8 @@
    "correct": 2,
    "rationales": [
     "Wrong. The book calls for managing stone pain aggressively, not holding analgesia.",
-    "Wrong. The book encourages high fluid intake for stones.",
-    "Correct. The book says to manage stone pain aggressively and lists morphine and ketorolac; the evaluation shows the current plan is not working.",
+    "Incorrect. Fluids should maintain euvolemia and replace losses, not be forced to flush an obstructing stone. Fluid adjustment alone does not address persistent severe pain.",
+    "Correct. Request reassessment of analgesia and obstruction. NSAID or opioid selection depends on kidney function, bleeding risk and other contraindications; refractory pain may require procedural evaluation.",
     "Wrong. Uncontrolled severe pain needs treatment, not discharge."
    ],
    "clue": "Pain remains 9/10 after the analgesic.",
@@ -2746,7 +2768,7 @@
     "Abnormal. The book states decreased flow indicates urinary obstruction.",
     "Normal. The book gives a normal PSA as under 4 ng/mL.",
     "Normal. The book describes clear urine with no bacteria as normal.",
-    "Abnormal. The book lists bacteria, blood and protein as signs of infection.",
+    "Abnormal. These findings require evaluation with symptoms and appropriate culture or other testing. They do not by themselves prove symptomatic UTI; hematuria and proteinuria have other possible causes.",
     "Normal. The book gives over 200 mL and over 21 mL/sec as normal uroflowmetry."
    ],
    "clue": "Diagnostic results for suspected BPH.",
@@ -2766,8 +2788,8 @@
     "Tamsulosin",
     "Finasteride",
     "Dutasteride",
-    "Over-the-counter decongestant",
-    "Anticholinergic drug"
+    "Unreviewed OTC pseudoephedrine in a client with worsening retention",
+    "Unreviewed OTC diphenhydramine in a client with active urinary retention"
    ],
    "columns": [
     "Alpha-blocker",
@@ -2785,13 +2807,14 @@
     "The book lists tamsulosin as an alpha-blocker.",
     "The book lists finasteride as a 5-alpha reductase inhibitor.",
     "The book lists dutasteride as a 5-alpha reductase inhibitor.",
-    "The book says to avoid decongestants because they worsen BPH symptoms.",
-    "The book says to avoid anticholinergics because they worsen BPH symptoms."
+    "Sympathomimetic decongestants can worsen retention; this client should avoid unreviewed use and seek medication review.",
+    "This anticholinergic can worsen active retention. Selected clients with storage-predominant LUTS may receive prescribed antimuscarinic therapy after residual-volume and safety assessment; there is no blanket ban on every anticholinergic in BPH."
    ],
    "clue": "A medication list for a client with BPH.",
    "priority": "Knowing BPH drug classes and which drugs to avoid.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Review retention-provoking OTC products; selected prescribed antimuscarinics may be appropriate after individualized assessment."
   },
   {
    "id": "gu-bph-q8",
@@ -2826,7 +2849,7 @@
    "type": "mcq",
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "stem": "A client has returned from a transurethral resection of the prostate (TURP) with a urinary catheter. Which task can the nurse assign to assistive personnel?",
+   "stem": "A client has returned from a transurethral resection of the prostate (TURP) with a urinary catheter. Which task can the nurse assign to assistive personnel? The client is stable and no bladder irrigation is running.",
    "options": [
     "Decide whether a change in urine color means bleeding",
     "Assess the client for signs of shock",
@@ -2843,7 +2866,8 @@
    "clue": "Post-TURP care includes routine measurement and nursing judgments.",
    "priority": "Delegating routine output measurement while keeping assessment with the nurse.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Delegate permitted routine drainage measurement; with irrigation, record drainage and irrigant separately so the RN can calculate net urine output and interpret patency."
   },
   {
    "id": "gu-bph-q10",
@@ -3010,12 +3034,12 @@
    "type": "sata",
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
-   "stem": "The nurse checks how well the infection control plan is being followed for a client two days after a kidney transplant. Which findings show the plan is being followed? Select all that apply.",
+   "stem": "A client two days after kidney transplant has a prescribed unit plan for private-room placement, visitor symptom screening and hand hygiene. Which findings show the infection-prevention plan is being followed? Select all that apply.",
    "options": [
     "A friend with a mild cold is visiting to lift the client's spirits",
     "The client is in a private room",
     "The immunosuppressant was held because visitors were present",
-    "Visitors are limited to two family members",
+    "Visitors are screened for illness and perform required hand hygiene",
     "The prescribed antimicrobial was given on time",
     "The client shares a room with a client who has pneumonia"
    ],
@@ -3025,17 +3049,18 @@
     4
    ],
    "rationales": [
-    "Wrong. Exposure to infection is dangerous; the book states infection is a major cause of death after transplant.",
-    "Correct. The book lists a private room for infection control.",
-    "Wrong. The book stresses lifelong medication adherence; holding the drug risks rejection.",
-    "Correct. The book lists limiting visitors.",
-    "Correct. The book lists antimicrobials to prevent opportunistic infections.",
-    "Wrong. Rooming with an infected client breaks infection control."
+    "Incorrect. A visitor with respiratory symptoms should defer the visit according to the plan.",
+    "Correct. Private placement follows this client's stated unit plan; it is not a universal requirement in every transplant setting.",
+    "Incorrect. Do not hold immunosuppression because visitors are present; this can risk rejection.",
+    "Correct. Symptom screening and hand hygiene address infection transmission; a count of two visitors alone does not establish safety.",
+    "Correct. Give prescribed antimicrobial prophylaxis on schedule.",
+    "Incorrect. This placement conflicts with the stated plan and adds avoidable exposure."
    ],
    "clue": "An immunosuppressed client after kidney transplant.",
    "priority": "Evaluating infection control for an immunosuppressed transplant client.",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Follow the actual transplant placement and prevention policy, screen ill visitors and maintain prescribed medications."
   },
   {
    "id": "gu-prostate-q9",

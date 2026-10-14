@@ -14,12 +14,13 @@ What it leaves alone:
   * the items listed under "held" in the plan, with the reason.
 Every change is logged to content/review/import-log.json.
 """
-import json, os, re
+import json, os, re, sys
 from apply_review import files, items_of, to_client
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PLAN = os.path.join(HERE, 'review', 'import-plan.json')
-LOG = os.path.join(HERE, 'review', 'import-log.json')
+PLAN = os.path.join(HERE, 'review', sys.argv[1] if len(sys.argv) > 1 else 'import-plan.json')
+LOG = os.path.join(HERE, 'review', (sys.argv[1] if len(sys.argv) > 1 else 'import-plan.json').replace('plan', 'log'))
+KIND_KEYS = ('options', 'answer', 'cols', 'rows', 'steps', 'passage', 'blanks', 'condition', 'actions', 'params')
 REFS = os.path.join(HERE, 'nclex', 'refs.json')
 
 
@@ -38,10 +39,11 @@ def main():
     refs = {k: v for k, v in refs.items() if not k.startswith('v-')}
     refs.update(plan['refs'])
     want = {x['id']: x for x in plan['items']}
-    log, seen = [], set()
+    log, seen, used = [], set(), set()
     for path, load, save in files():
         data = load(); changed = False
         for q in items_of(data):
+            used.update(k for k in q.get('refs') or [] if isinstance(k, str))
             x = want.get(q.get('id'))
             if not x: continue
             seen.add(q['id']); st = x['set']; did = []
@@ -54,11 +56,16 @@ def main():
                     q.pop('rows', None); q.pop('columns', None)
                 if q.get('type') == 'mcq' and isinstance(q.get('correct'), list): q['correct'] = q['correct'][0]
             else:
+                for i, new in (st.get('replace') or {}).items():
+                    it = q['items'][int(i)]
+                    for k in KIND_KEYS: it.pop(k, None)
+                    it.update(new); did.append(f'items.{i}.answer')
                 for i, ch in st['items'].items():
                     it = q['items'][int(i)]
                     for k, v in ch.items(): it[k] = v; did.append(f'items.{i}.{k}')
                 if st.get('profile'): q['profile'] = st['profile']; did.append('profile')
                 if st.get('refs'): q['refs'] = st['refs']; did.append('refs')
+            used.update(st.get('refs') or [])
             # keep NCLEX wording on anything we wrote
             for k in ('stem', 'takeaway', 'clue', 'priority', 'profile'):
                 if isinstance(q.get(k), str): q[k] = to_client(q[k])[0]
@@ -70,11 +77,10 @@ def main():
         if changed: save(data)
     missing = sorted(set(want) - seen)
     if missing: raise SystemExit(f'{len(missing)} plan items not found, e.g. {missing[:5]}')
-    used = {k for x in plan['items'] for k in x['set'].get('refs', [])}
     refs = {k: v for k, v in refs.items() if not k.startswith('v-') or k in used}
     json.dump(refs, open(REFS, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump({'applied': log, 'held': plan['held']}, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    print(f"applied {len(log)} items, {len(used)} verified references, held {len(plan['held'])}")
+    print(f"applied {len(log)} items, {sum(k.startswith('v-') for k in refs)} verified references kept, held {len(plan['held'])}")
 
 
 if __name__ == '__main__':

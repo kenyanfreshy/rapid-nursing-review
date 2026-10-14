@@ -62,113 +62,98 @@
     "step": "recognizeCues",
     "kind": "highlight",
     "stem": "Tap the findings that specifically support symptomatic hypotonic hyponatremia with inappropriate antidiuresis in the displayed euvolemic client.",
+    "rationale": "The neurologic symptoms, hypotonic hyponatremia and inappropriately concentrated urine support SIADH after the displayed alternative-cause assessment. SIADH is typically clinically euvolemic. Hypertension, weight gain or low output alone are not diagnostic hallmark criteria; normal glucose helps exclude a hyperglycemia-related sodium explanation.",
+    "stepLabel": "Recognize Cues",
+    "page": 102,
+    "reviewed": "v3",
     "passage": [
      [
-      "Confused to time and place",
+      "New disorientation with sodium 118 mEq/L",
       "p1"
      ],
      [
       " · "
      ],
      [
-      "Lungs clear",
+      "Serum osmolality 252 mOsm/kg",
       "p2"
      ],
      [
       " · "
      ],
      [
-      "BP 158/92 mm Hg",
+      "Urine osmolality 480 mOsm/kg despite hypotonic plasma",
       "p3"
      ],
      [
       " · "
      ],
      [
-      "T 36.9 °C",
+      "BP 158/92 mmHg alone",
       "p4"
      ],
      [
       " · "
      ],
      [
-      "Weight 81.6 kg, up from 79.5 kg",
+      "Temperature 36.9°C",
       "p5"
      ],
      [
       " · "
      ],
      [
-      "Urine 180 mL in 8 hours",
-      "p6"
-     ],
-     [
-      " · "
-     ],
-     [
       "Glucose 104 mg/dL",
-      "p7"
-     ],
-     [
-      " · "
-     ],
-     [
-      "First chemotherapy cycle 2 weeks ago",
-      "p8"
+      "p6"
      ]
     ],
     "answer": [
      "p1",
-     "p3",
-     "p5",
-     "p6"
-    ],
-    "rationale": "The neurologic symptoms, hypotonic hyponatremia and inappropriately concentrated urine support SIADH after the displayed alternative-cause assessment. SIADH is typically clinically euvolemic. Hypertension, weight gain or low output alone are not diagnostic hallmark criteria; normal glucose helps exclude a hyperglycemia-related sodium explanation.",
-    "stepLabel": "Recognize Cues",
-    "page": 102,
-    "reviewed": "v3"
+     "p2",
+     "p3"
+    ]
    },
    {
     "id": "s2",
     "step": "analyzeCues",
     "kind": "cloze",
     "stem": "Complete the sentences.",
-    "blanks": [
-     {
-      "id": "b1",
-      "pre": "The serum osmolality of 252 mOsm/L shows",
-      "opts": [
-       "hemodilution from too much water in the blood",
-       "hemoconcentration from dehydration",
-       "a normal blood concentration"
-      ],
-      "answer": "hemodilution from too much water in the blood"
-     },
-     {
-      "id": "b2",
-      "pre": "while the urine osmolality of 480 mOsm/L shows",
-      "opts": [
-       "urine that is concentrated despite a low sodium",
-       "urine that is appropriately dilute",
-       "kidneys unable to concentrate urine"
-      ],
-      "answer": "urine that is concentrated despite a low sodium"
-     },
-     {
-      "id": "b3",
-      "pre": "and the urine sodium of 52 mEq/L reflects",
-      "opts": [
-       "high sodium loss in the urine",
-       "the kidneys holding on to sodium",
-       "a low dietary sodium intake"
-      ],
-      "answer": "high sodium loss in the urine"
-     }
-    ],
     "rationale": "Hypotonic plasma should suppress antidiuresis and allow dilute urine. Persistently concentrated urine and urine sodium above 30 mEq/L in the displayed euvolemic context are compatible with SIADH after excluding other causes. Urine sodium alone neither proves renal salt wasting nor establishes the diagnosis. Measured osmolality is expressed in mOsm/kg.",
     "stepLabel": "Analyze Cues",
     "page": 103,
-    "reviewed": "v3"
+    "reviewed": "v3",
+    "blanks": [
+     {
+      "id": "b1",
+      "pre": "Serum osmolality 252 mOsm/kg indicates",
+      "opts": [
+       "hypotonic plasma",
+       "hypertonic dehydration",
+       "normal plasma tonicity"
+      ],
+      "answer": "hypotonic plasma"
+     },
+     {
+      "id": "b2",
+      "pre": "Urine osmolality 480 mOsm/kg indicates",
+      "opts": [
+       "inappropriately concentrated urine in this hypotonic state",
+       "appropriate maximal dilution",
+       "complete inability to concentrate"
+      ],
+      "answer": "inappropriately concentrated urine in this hypotonic state"
+     },
+     {
+      "id": "b3",
+      "pre": "Urine sodium 52 mEq/L is",
+      "opts": [
+       "compatible with natriuresis in euvolemic SIADH",
+       "proof of hypovolemic renal salt wasting",
+       "proof of inadequate sodium intake"
+      ],
+      "answer": "compatible with natriuresis in euvolemic SIADH"
+     }
+    ]
    },
    {
     "id": "s3",
@@ -204,6 +189,10 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each nursing action, indicate whether it is indicated or contraindicated for this client.",
+    "rationale": "Count all fluids under the individualized 800 mL order and maintain seizure precautions. Oral care supports comfort without placing candy/gum in a confused client’s mouth before safety assessment. Unrestricted fluids worsen free-water retention. Follow the displayed protocol correction limit; a 17 mEq/L rise to 135 in 12 hours would be unsafe. The fluid limit is a specific order, not a universal SIADH volume.",
+    "stepLabel": "Generate Solutions",
+    "page": 104,
+    "reviewed": "v3",
     "cols": [
      "Indicated",
      "Contraindicated"
@@ -221,7 +210,7 @@
      ],
      [
       "r3",
-      "Offer hard candy or gum for thirst and dry mouth",
+      "Provide oral care for dry mouth while assessing alertness and swallowing safety",
       "Indicated"
      ],
      [
@@ -234,17 +223,17 @@
       "Aim to bring the sodium back to 135 mEq/L within 12 hours",
       "Contraindicated"
      ]
-    ],
-    "rationale": "Count all fluids under the individualized 800 mL order and maintain seizure precautions. Oral care supports comfort without placing candy/gum in a confused client’s mouth before safety assessment. Unrestricted fluids worsen free-water retention. Follow the displayed protocol correction limit; a 17 mEq/L rise to 135 in 12 hours would be unsafe. The fluid limit is a specific order, not a universal SIADH volume.",
-    "stepLabel": "Generate Solutions",
-    "page": 104,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "s5",
     "step": "takeAction",
     "kind": "multi",
     "stem": "At 16:00 the sodium is 116 mEq/L and the client is drowsier. The provider prescribes 3% hypertonic saline. Which actions should the nurse take? Select all that apply.",
+    "rationale": "Worsening drowsiness with sodium 116 requires prompt prescribed hypertonic treatment and close sodium/neurologic monitoring, not a prerequisite trial of failed restriction. Monitor respiratory status, maintain seizure precautions and position for airway/aspiration safety. Do not independently accelerate the infusion; follow the protocol correction limit and assess output for sudden aquaresis/overcorrection. Continue intake/output accounting and prescribed fluid management.",
+    "stepLabel": "Take Action",
+    "page": 104,
+    "reviewed": "v3",
     "options": [
      [
       "a",
@@ -260,7 +249,7 @@
      ],
      [
       "d",
-      "Keep the head of the bed flat or slightly elevated"
+      "Position the client for airway and aspiration safety according to clinical assessment"
      ],
      [
       "e",
@@ -280,11 +269,7 @@
      "c",
      "d",
      "f"
-    ],
-    "rationale": "Worsening drowsiness with sodium 116 requires prompt prescribed hypertonic treatment and close sodium/neurologic monitoring, not a prerequisite trial of failed restriction. Monitor respiratory status, maintain seizure precautions and position for airway/aspiration safety. Do not independently accelerate the infusion; follow the protocol correction limit and assess output for sudden aquaresis/overcorrection. Continue intake/output accounting and prescribed fluid management.",
-    "stepLabel": "Take Action",
-    "page": 104,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "s6",
@@ -816,6 +801,10 @@
     "step": "analyzeCues",
     "kind": "cloze",
     "stem": "Complete the sentences.",
+    "rationale": "The creatinine rise, granular casts and medication exposures support intrinsic tubular injury as the most likely pattern. Gentamicin/NSAIDs are plausible contributors; contrast timing establishes association rather than proving causation, and infection/other causes are assessed. The small bladder scan and no-hydronephrosis imaging reduce obstruction concern. He is currently oliguric; AKI may be nonoliguric and does not invariably follow three fixed phases.",
+    "stepLabel": "Analyze Cues",
+    "page": 116,
+    "reviewed": "v3",
     "blanks": [
      {
       "id": "b1",
@@ -829,7 +818,7 @@
      },
      {
       "id": "b2",
-      "pre": "caused by",
+      "pre": "most plausibly associated with",
       "opts": [
        "gentamicin, ibuprofen and contrast dye",
        "blood loss and hypovolemia",
@@ -847,11 +836,7 @@
       ],
       "answer": "oliguric phase"
      }
-    ],
-    "rationale": "The creatinine rise, granular casts and medication exposures support intrinsic tubular injury as the most likely pattern. Gentamicin/NSAIDs are plausible contributors; contrast timing establishes association rather than proving causation, and infection/other causes are assessed. The small bladder scan and no-hydronephrosis imaging reduce obstruction concern. He is currently oliguric; AKI may be nonoliguric and does not invariably follow three fixed phases.",
-    "stepLabel": "Analyze Cues",
-    "page": 116,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "k3",
@@ -1115,10 +1100,14 @@
     "step": "analyzeCues",
     "kind": "cloze",
     "stem": "Complete the sentences.",
+    "rationale": "A falling level of consciousness is a common early warning sign, but neurologic findings do not follow an invariable sequence. Cushing’s response—hypertension/widened pulse pressure, bradycardia and irregular respirations—is a late, ominous pattern. Any new pupil change, posturing or declining consciousness warrants urgent evaluation; do not wait for the complete triad.",
+    "stepLabel": "Analyze Cues",
+    "page": 133,
+    "reviewed": "v3",
     "blanks": [
      {
       "id": "b1",
-      "pre": "The first critical sign of worsening ICP is",
+      "pre": "A common early warning sign of worsening ICP is",
       "opts": [
        "a drop in level of consciousness",
        "fixed, dilated pupils",
@@ -1145,11 +1134,7 @@
       ],
       "answer": "bradycardia"
      }
-    ],
-    "rationale": "A falling level of consciousness is a common early warning sign, but neurologic findings do not follow an invariable sequence. Cushing’s response—hypertension/widened pulse pressure, bradycardia and irregular respirations—is a late, ominous pattern. Any new pupil change, posturing or declining consciousness warrants urgent evaluation; do not wait for the complete triad.",
-    "stepLabel": "Analyze Cues",
-    "page": 133,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "i3",
@@ -1243,6 +1228,10 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each nursing action, indicate whether it is indicated or contraindicated for this client.",
+    "rationale": "The ordered notification trigger is 20 mmHg; severe-TBI guidance uses sustained ICP above 22 mmHg as an initial treatment threshold interpreted with the clinical picture. This symptomatic 24 mmHg reading needs urgent action. Maintain head alignment/elevation and cerebral perfusion, avoid straining/hip flexion and perform only necessary brief suction under protocol. Bed-flat positioning is not ordered to treat this ICP rise.",
+    "stepLabel": "Generate Solutions",
+    "page": 133,
+    "reviewed": "v3",
     "cols": [
      "Indicated",
      "Contraindicated"
@@ -1270,7 +1259,7 @@
      ],
      [
       "r5",
-      "Trend ICP readings and report values above 20 mm Hg",
+      "Trend ICP and report values above the specifically ordered 20 mmHg notification trigger",
       "Indicated"
      ],
      [
@@ -1278,33 +1267,33 @@
       "Keep the bed flat to lower blood pressure in the head",
       "Contraindicated"
      ]
-    ],
-    "rationale": "The ordered notification trigger is 20 mmHg; severe-TBI guidance uses sustained ICP above 22 mmHg as an initial treatment threshold interpreted with the clinical picture. This symptomatic 24 mmHg reading needs urgent action. Maintain head alignment/elevation and cerebral perfusion, avoid straining/hip flexion and perform only necessary brief suction under protocol. Bed-flat positioning is not ordered to treat this ICP rise.",
-    "stepLabel": "Generate Solutions",
-    "page": 133,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "i5",
     "step": "takeAction",
     "kind": "order",
     "stem": "Emergency neurosurgical assistance has already been activated. The airway is patent and oxygenation is maintained. Which ordered bedside actions follow a logical intervention-and-reassessment sequence?",
+    "rationale": "The stem establishes that emergency escalation occurred. Confirm rescue essentials, correct the observed position while maintaining perfusion, give specifically prescribed osmotherapy after required safety assessment and assess its response. Continuous monitoring accompanies all steps; the item does not require withholding repeated assessments until the end.",
+    "stepLabel": "Take Action",
+    "page": 133,
+    "reviewed": "v3",
     "steps": [
      [
       "o1",
-      "Check the airway and oxygen saturation"
+      "Confirm current airway/oxygenation and hemodynamic status"
      ],
      [
       "o2",
-      "Raise the head of the bed to 30 degrees, center the head and remove the knee pillow"
+      "Correct the displayed flat/hip-flexed position under the prescribed perfusion plan"
      ],
      [
       "o3",
-      "Give the prescribed IV mannitol"
+      "Administer the prescribed IV mannitol after the required assessment"
      ],
      [
       "o4",
-      "Recheck level of consciousness, pupils and ICP"
+      "Reassess consciousness, pupils, ICP, BP and treatment response"
      ]
     ],
     "answer": [
@@ -1312,11 +1301,7 @@
      "o2",
      "o3",
      "o4"
-    ],
-    "rationale": "The stem establishes that emergency escalation occurred. Confirm rescue essentials, correct the observed position while maintaining perfusion, give specifically prescribed osmotherapy after required safety assessment and assess its response. Continuous monitoring accompanies all steps; the item does not require withholding repeated assessments until the end.",
-    "stepLabel": "Take Action",
-    "page": 133,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "i6",
@@ -1527,6 +1512,10 @@
     "step": "analyzeCues",
     "kind": "single",
     "stem": "Which explanation best fits the client's findings?",
+    "rationale": "Known MG with progressive respiratory/bulbar weakness during infection supports myasthenic crisis. Missed doses may contribute but are not its universal cause. Evaluate medication toxicity and other causes clinically; absence of diarrhea alone does not prove the diagnosis. Anxiety cannot account for the displayed respiratory-muscle failure/hypercapnia.",
+    "stepLabel": "Analyze Cues",
+    "page": 152,
+    "reviewed": "v3",
     "options": [
      [
       "a",
@@ -1534,7 +1523,7 @@
      ],
      [
       "b",
-      "Myasthenic crisis from too little pyridostigmine"
+      "Myasthenic crisis precipitated by infection and other exacerbating factors"
      ],
      [
       "c",
@@ -1545,11 +1534,7 @@
       "Anxiety-related hyperventilation"
      ]
     ],
-    "answer": "b",
-    "rationale": "Known MG with progressive respiratory/bulbar weakness during infection supports myasthenic crisis. Missed doses may contribute but are not its universal cause. Evaluate medication toxicity and other causes clinically; absence of diarrhea alone does not prove the diagnosis. Anxiety cannot account for the displayed respiratory-muscle failure/hypercapnia.",
-    "stepLabel": "Analyze Cues",
-    "page": 152,
-    "reviewed": "v3"
+    "answer": "b"
    },
    {
     "id": "m3",
@@ -1684,6 +1669,10 @@
     "step": "takeAction",
     "kind": "single",
     "stem": "While waiting for the anesthesia team, the client begins to gurgle and cannot clear her secretions. Her SpO₂ is 84%. Which action should the nurse take first?",
+    "rationale": "Sitting upright and immediately suctioning pooled oral/pharyngeal secretions addresses the displayed airway obstruction while expert ventilation/intubation support is mobilized. Give oxygen and assist ventilation as clinically necessary after clearing the airway. Oral medication risks aspiration; diagnostic testing must not delay airway rescue, and an anxiolytic can worsen ventilatory weakness.",
+    "stepLabel": "Take Action",
+    "page": 151,
+    "reviewed": "v3",
     "options": [
      [
       "a",
@@ -1695,24 +1684,24 @@
      ],
      [
       "c",
-      "Prepare her for a Tensilon (edrophonium) test"
+      "Wait for electrodiagnostic testing before addressing the airway"
      ],
      [
       "d",
       "Give the prescribed lorazepam to slow her breathing"
      ]
     ],
-    "answer": "b",
-    "rationale": "Sitting upright and immediately suctioning pooled oral/pharyngeal secretions addresses the displayed airway obstruction while expert ventilation/intubation support is mobilized. Give oxygen and assist ventilation as clinically necessary after clearing the airway. Oral medication risks aspiration; diagnostic testing must not delay airway rescue, and an anxiolytic can worsen ventilatory weakness.",
-    "stepLabel": "Take Action",
-    "page": 151,
-    "reviewed": "v3"
+    "answer": "b"
    },
    {
     "id": "m6",
     "step": "evaluateOutcomes",
     "kind": "matrix",
     "stem": "After intubation and plasma exchange, neurology restarts/titrates pyridostigmine as respiratory strength improves. Over 48 hours, which individual findings indicate improvement or need follow-up?",
+    "rationale": "Stronger grip/cough, adequate post-extubation oxygenation and a documented safe-swallowing plan are favorable. New diarrhea and HR 52 may reflect cholinergic adverse effects or another cause and require urgent prescriber/medication assessment; they alone do not prove full cholinergic crisis. Atropine treats selected muscarinic effects, not neuromuscular weakness. No cough with small sips alone cannot exclude silent aspiration.",
+    "stepLabel": "Evaluate Outcomes",
+    "page": 152,
+    "reviewed": "v3",
     "cols": [
      "Improvement",
      "Needs follow-up"
@@ -1740,14 +1729,10 @@
      ],
      [
       "r5",
-      "Swallows small sips without coughing",
+      "A formal swallowing assessment documents safe intake with the prescribed texture/strategy",
       "Improvement"
      ]
-    ],
-    "rationale": "Stronger grip/cough, adequate post-extubation oxygenation and a documented safe-swallowing plan are favorable. New diarrhea and HR 52 may reflect cholinergic adverse effects or another cause and require urgent prescriber/medication assessment; they alone do not prove full cholinergic crisis. Atropine treats selected muscarinic effects, not neuromuscular weakness. No cough with small sips alone cannot exclude silent aspiration.",
-    "stepLabel": "Evaluate Outcomes",
-    "page": 152,
-    "reviewed": "v3"
+    ]
    }
   ],
   "reviewed": "v3",
@@ -1932,46 +1917,46 @@
     "step": "generateSolutions",
     "kind": "matrix",
     "stem": "For each intervention, mark whether it is appropriate under this client’s prescribed acute pain plan or not appropriate under that plan.",
+    "rationale": "Provide prompt prescribed analgesia, individualized hydration, oxygen for hypoxemia and supportive nonpharmacologic measures. The institution’s 30-minute analgesia target is reasonable and should not be delayed for laboratory results. Do not substitute unprescribed aspirin for the individualized regimen. Therapeutic aspirin is not universally contraindicated in SCD because it inevitably causes acidosis; salicylate toxicity is a distinct risk. Evaluate fever and oxygenation urgently.",
+    "stepLabel": "Generate Solutions",
+    "page": 159,
+    "reviewed": "v3",
     "cols": [
-     "Indicated",
-     "Contraindicated"
+     "Appropriate under this plan",
+     "Not appropriate under this plan"
     ],
     "rows": [
      [
       "r1",
       "Give the prescribed IV analgesic within 30 minutes of arrival",
-      "Indicated"
+      "Appropriate under this plan"
      ],
      [
       "r2",
-      "Give aspirin for the fever and pain",
-      "Contraindicated"
+      "Substitute unprescribed aspirin for the ordered acute pain regimen",
+      "Not appropriate under this plan"
      ],
      [
       "r3",
       "Start the prescribed IV fluids",
-      "Indicated"
+      "Appropriate under this plan"
      ],
      [
       "r4",
       "Hold pain medication until the blood count results",
-      "Contraindicated"
+      "Not appropriate under this plan"
      ],
      [
       "r5",
       "Offer guided imagery and distraction along with medication",
-      "Indicated"
+      "Appropriate under this plan"
      ],
      [
       "r6",
       "Apply oxygen as prescribed",
-      "Indicated"
+      "Appropriate under this plan"
      ]
-    ],
-    "rationale": "Provide prompt prescribed analgesia, individualized hydration, oxygen for hypoxemia and supportive nonpharmacologic measures. The institution’s 30-minute analgesia target is reasonable and should not be delayed for laboratory results. Do not substitute unprescribed aspirin for the individualized regimen. Therapeutic aspirin is not universally contraindicated in SCD because it inevitably causes acidosis; salicylate toxicity is a distinct risk. Evaluate fever and oxygenation urgently.",
-    "stepLabel": "Generate Solutions",
-    "page": 159,
-    "reviewed": "v3"
+    ]
    },
    {
     "id": "c5",
@@ -2012,6 +1997,10 @@
     "step": "evaluateOutcomes",
     "kind": "multi",
     "stem": "Before discharge, the nurse reviews home care with the client. Which statements show the teaching was effective? Select all that apply.",
+    "rationale": "Consistent individualized hydration, trigger awareness and continued prescribed hydroxyurea support prevention. Follow the personal pain plan and discuss new OTC medicines with the team; drug risks depend on the medication and clinical context rather than a blanket aspirin/acidosis rule. Drinking only after pain begins and stopping preventive therapy when well undermine prevention. Include urgent follow-up for fever or respiratory symptoms in discharge teaching.",
+    "stepLabel": "Evaluate Outcomes",
+    "page": 159,
+    "reviewed": "v3",
     "options": [
      [
       "a",
@@ -2019,7 +2008,7 @@
      ],
      [
       "b",
-      "\"I can take aspirin at home if my joints start to hurt.\""
+      "\"I can add any over-the-counter pain medicine without checking my care plan.\""
      ],
      [
       "c",
@@ -2042,11 +2031,7 @@
      "a",
      "c",
      "e"
-    ],
-    "rationale": "Consistent individualized hydration, trigger awareness and continued prescribed hydroxyurea support prevention. Follow the personal pain plan and discuss new OTC medicines with the team; drug risks depend on the medication and clinical context rather than a blanket aspirin/acidosis rule. Drinking only after pain begins and stopping preventive therapy when well undermine prevention. Include urgent follow-up for fever or respiratory symptoms in discharge teaching.",
-    "stepLabel": "Evaluate Outcomes",
-    "page": 159,
-    "reviewed": "v3"
+    ]
    }
   ],
   "reviewed": "v3",

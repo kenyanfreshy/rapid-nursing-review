@@ -187,7 +187,7 @@
     "The book lists pulsus paradoxus, a drop of more than 10 mm Hg in BP during inspiration, as a sign of tamponade.",
     "The book lists a narrow pulse pressure, not a widening one, in tamponade.",
     "Tachycardia, not bradycardia, is listed among tamponade signs.",
-    "The book describes a widened mediastinum on chest x-ray in tamponade."
+    "Mediastinal width is not a reliable tamponade sign. Widening may suggest major vascular injury; a chronic large effusion may enlarge the cardiac silhouette. Suspected tamponade needs urgent echocardiographic/clinical assessment."
    ],
    "clue": "Blood pressure changes with the respiratory cycle.",
    "priority": "Identify pulsus paradoxus as a tamponade finding.",
@@ -228,14 +228,14 @@
    "page": 45,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "A client who had blunt chest trauma has a BP of 84/60 mm Hg, distended neck veins and muffled heart sounds. The client is awake and the nurse suspects cardiac tamponade. Which actions should the nurse include in the immediate plan? Select all that apply.",
+   "stem": "After blunt chest trauma, an awake client has BP 84/60 mmHg, JVD and muffled heart sounds. The team suspects tamponade. Which immediate actions are appropriate? Select all that apply.",
    "options": [
-    "Schedule an echocardiogram for the next routine opening",
-    "Administer oxygen and prepare for intubation if needed",
-    "Place the client flat with the head of the bed at 0 degrees",
-    "Prepare the client for pericardiocentesis or the OR",
-    "Monitor vital signs, mental status, ECG and SpO2",
-    "Wait for the next set of vital signs before notifying anyone"
+    "Wait for a routine echocardiography appointment.",
+    "Provide oxygen as needed and alert the airway team if breathing fails, with hemodynamic preparation.",
+    "Administer a diuretic without clarifying the order despite hypotension and suspected tamponade.",
+    "Prepare for urgent definitive drainage through the trauma/cardiac team.",
+    "Continuously reassess vital signs, mental status, ECG and oxygenation.",
+    "Wait for another routine vital-sign cycle before calling for help."
    ],
    "correct": [
     1,
@@ -243,16 +243,17 @@
     4
    ],
    "rationales": [
-    "The book calls tamponade a medical emergency needing urgent diagnosis and treatment, so a routine study is not appropriate.",
-    "The book lists giving oxygen and preparing for intubation if needed as a nursing priority.",
-    "The book directs HOB 30-45 degrees if the client is stable, not flat.",
-    "Preparing for pericardiocentesis or the OR is one of the book's nursing priorities.",
-    "The book lists monitoring VS, mental status, ECG and SpO2 as a priority.",
-    "The book's first priority is to call for help because tamponade is a true emergency."
+    "Incorrect. Tamponade with shock physiology is an emergency; a routine delay is unsafe.",
+    "Correct. Provide respiratory support according to need. Positive-pressure ventilation can precipitate collapse by reducing venous return; reserve it for necessity with expert hemodynamic preparation.",
+    "Incorrect. Reducing preload may worsen hypotension; clarify the order urgently. Positioning is individualized to perfusion and trauma precautions rather than a universal HOB angle.",
+    "Correct. Definitive drainage must be coordinated urgently; the method depends on trauma context and expertise.",
+    "Correct. Close monitoring detects deteriorating perfusion while definitive care is arranged.",
+    "Incorrect. Summon emergency help promptly rather than delaying escalation."
    ],
    "clue": "Beck's triad (hypotension, JVD, muffled heart sounds) after chest trauma.",
    "priority": "Plan emergency care for suspected cardiac tamponade.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Unstable tamponade needs urgent decompression and carefully coordinated perfusion/airway support."
   },
   {
    "id": "cardio-tamponade-q5",
@@ -386,23 +387,24 @@
    "page": 46,
    "clientNeed": "moc",
    "cjmm": "takeAction",
-   "stem": "A client arrives at a small rural hospital with STEMI. The hospital has no cardiac catheterization lab. Which plan of care does the nurse anticipate?",
+   "stem": "A nonpregnant adult presents to a rural hospital with STEMI symptoms that began 2 hours ago. The team estimates first-medical-contact-to-PCI time will exceed 120 minutes and confirms no fibrinolysis contraindications. Which reperfusion plan should the nurse anticipate?",
    "options": [
-    "Admit to telemetry and repeat the troponin in 6 hours",
-    "Give aspirin and schedule an elective PCI for next week",
-    "Manage as NSTEMI with early PCI only if the client is high risk",
-    "Give fibrinolytic therapy, then transfer the client for catheterization"
+    "Observe on telemetry and repeat troponin before selecting reperfusion.",
+    "Give aspirin and arrange elective PCI next week.",
+    "Treat as NSTEMI because a catheterization laboratory is unavailable.",
+    "Administer prescribed fibrinolysis promptly and arrange immediate transfer for PCI-capable care."
    ],
    "correct": 3,
    "rationales": [
-    "STEMI needs immediate reperfusion; observation and repeat labs delay it.",
-    "Delaying PCI contradicts the book's goal of restoring perfusion as soon as possible.",
-    "Early PCI for high-risk clients is the book's NSTEMI treatment, not STEMI.",
-    "The book states that if no cath lab is available, fibrinolytics are given and the client is then sent to a cath lab."
+    "Incorrect. STEMI reperfusion must not wait for serial biomarkers when the ECG and presentation establish the diagnosis.",
+    "Incorrect. Aspirin is important but does not replace timely reperfusion.",
+    "Incorrect. Availability of a catheterization laboratory does not change STEMI into NSTEMI.",
+    "Correct. With onset under 12 hours, excessive PCI delay and no contraindications, fibrinolysis followed by immediate transfer is an appropriate strategy."
    ],
    "clue": "STEMI in a facility without a cath lab.",
    "priority": "Coordinate reperfusion and transfer for STEMI.",
-   "checked": true
+   "checked": true,
+   "takeaway": "STEMI reperfusion choice depends on symptom timing, anticipated PCI delay and contraindications."
   },
   {
    "id": "cardio-acs-q6",
@@ -411,9 +413,9 @@
    "page": 47,
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
-   "stem": "The nurse reviews prescriptions for beta-blockers for several clients with acute coronary syndrome. For which clients should the nurse question the beta-blocker? Select all that apply.",
+   "stem": "The nurse reviews new metoprolol prescriptions for clients with ACS. Which prescriptions require clarification before administration? Select all that apply.",
    "options": [
-    "A client with chest pain who used cocaine 1 hour ago",
+    "A client with chest pain, agitation and hypertension during active cocaine intoxication",
     "A client 12 hours after MI with HR 84/min and BP 134/82 mm Hg",
     "A client with a PR interval of 0.28 seconds and no pacemaker",
     "A client with active bronchospasm from severe asthma",
@@ -427,7 +429,7 @@
     5
    ],
    "rationales": [
-    "The book says to avoid pure beta-blockers with acute cocaine effect because of the risk of unopposed alpha stimulation.",
+    "Active intoxication warrants clarification of a pure beta-blocker prescription and management under the acute stimulant/ACS protocol. A remote cocaine history alone does not establish a contraindication.",
     "The book recommends starting a beta-blocker within 24 hours after MI when there is no bradycardia or hypotension.",
     "The book lists AV block with a PR interval over 0.24 s and no pacer as a reason to avoid beta-blockers.",
     "Active bronchospasm from severe asthma or COPD is a listed reason to avoid beta-blockers.",
@@ -436,7 +438,8 @@
    ],
    "clue": "Each client is checked against the book's list of beta-blocker contraindications.",
    "priority": "Prevent harm by questioning contraindicated beta-blocker orders.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Clarify beta-blocker orders when current intoxication, significant conduction delay, active bronchospasm or acute decompensated heart failure creates a safety concern."
   },
   {
    "id": "cardio-acs-q7",
@@ -445,17 +448,17 @@
    "page": 48,
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
-   "stem": "A client with an inferior MI has ST elevation in V4R and a BP of 82/50 mm Hg. For each intervention, indicate whether it is indicated or contraindicated for this client.",
+   "stem": "An inferior MI involves the right ventricle. BP is 82/50 mm Hg, the lungs are clear, and the cardiology team identifies low preload. After an initial small fluid bolus with reassessment, cardiac output remains low. The team prescribes cautious further fluid assessment and dobutamine with concurrent vasopressor support if needed. Classify these actions for the current plan.",
    "rows": [
-    "IV fluid bolus",
-    "Dobutamine infusion",
-    "Sublingual nitroglycerin",
-    "IV furosemide",
-    "IV morphine for chest pain"
+    "Give a small prescribed isotonic fluid bolus and reassess perfusion and lung findings.",
+    "Administer prescribed dobutamine with close BP monitoring and hemodynamic support.",
+    "Give sublingual nitroglycerin while BP remains 82/50 mm Hg.",
+    "Give IV furosemide despite low preload and clear lungs.",
+    "Give IV morphine without clarifying the order despite persistent hypotension."
    ],
    "columns": [
-    "Indicated",
-    "Contraindicated"
+    "Appropriate for the current plan",
+    "Requires clarification"
    ],
    "correct": [
     0,
@@ -465,15 +468,16 @@
     1
    ],
    "rationales": [
-    "The book says to treat a right ventricular infarct with IV fluids.",
-    "Positive inotropes such as dobutamine are recommended for right ventricular infarct.",
-    "The book says to avoid nitrates in right ventricular infarct because they worsen already low preload.",
-    "The book says to avoid diuretics in right ventricular infarct for the same reason.",
-    "The book says to avoid morphine in right ventricular MI because it reduces preload."
+    "Cautious preload optimization may help RV infarction; avoid indiscriminate fluid loading.",
+    "Inotropic support may be used for persistent low output after preload assessment; dobutamine can lower BP, so it is not a stand-alone universal treatment for shock.",
+    "Nitrates can further reduce preload and BP in this hypotensive client.",
+    "Diuresis may worsen low preload when congestion is absent.",
+    "Morphine may worsen hypotension and requires individualized analgesia assessment."
    ],
    "clue": "ST elevation in V4R with hypotension signals right ventricular infarct.",
    "priority": "Support preload and avoid preload reducers in right ventricular MI.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Hypotensive RV infarction requires reassessed preload, perfusion support and urgent reperfusion; avoid automatic large fluid or drug rules."
   },
   {
    "id": "cardio-acs-q8",
@@ -494,7 +498,7 @@
     "The book warns of a vasovagal response during sheath removal and directs the nurse to manage pain and anxiety.",
     "The book says to hold nitrates (preload reducers) during sheath removal because of hypotension risk.",
     "Rushing ignores the client's fear and does not reduce the vasovagal risk the book describes.",
-    "The book calls for direct pressure for at least 20 minutes to stop bleeding."
+    "Compression is maintained until hemostasis according to the ordered access-site protocol; a fixed five-minute limit risks bleeding."
    ],
    "clue": "The client is frightened and in pain right before sheath removal.",
    "priority": "Manage anxiety and pain to reduce the vasovagal response.",
@@ -509,14 +513,14 @@
     "Progressive enlargement of the ventricles",
     "Sudden death from ventricular arrhythmias",
     "Blood stasis leading to thrombus formation",
-    "Death within 1-2 years from stiff ventricles"
+    "Recurrent pulmonary infection from impaired immunity"
    ],
    "correct": 1,
    "rationales": [
     "Enlarged ventricles describe dilated cardiomyopathy, not HCM.",
     "The book links HCM to sudden death in young athletes from ventricular arrhythmias due to asymmetric septal hypertrophy.",
     "Blood stasis is listed as a feature of dilated cardiomyopathy.",
-    "This prognosis is given for restrictive cardiomyopathy."
+    "Impaired immunity and recurrent infection are not defining consequences of hypertrophic cardiomyopathy. Cardiomyopathy prognosis varies by cause, stage and treatment; a universal one-to-two-year survival estimate is inappropriate."
    ],
    "clue": "A young athlete has asymmetric septal hypertrophy.",
    "priority": "Teach the sudden-death risk in HCM.",
@@ -621,7 +625,7 @@
     "Thickened ventricular walls with rapid contraction",
     "Stiff ventricles with preserved contraction",
     "Impaired relaxation and a risk of sudden death in young athletes",
-    "Least common type; many clients die within 1-2 years"
+    "Restrictive filling physiology with nondilated ventricles and no marked wall hypertrophy"
    ],
    "columns": [
     "Dilated",
@@ -640,11 +644,12 @@
     "Thickened walls and rapid contraction are characteristics of hypertrophic cardiomyopathy.",
     "Stiff ventricles, impaired filling and preserved contraction describe restrictive cardiomyopathy.",
     "The book lists impaired relaxation for HCM and links it to sudden death in young athletes.",
-    "The book calls restrictive cardiomyopathy the least common type with a poor 1-2 year prognosis."
+    "Restrictive physiology causes impaired ventricular filling; this row’s nondilated ventricles and absence of marked hypertrophy distinguish it from the other supplied patterns. Prognosis depends on the underlying cause and severity."
    ],
    "clue": "Wall size, contraction and filling patterns differ by type.",
    "priority": "Differentiate the three types of cardiomyopathy.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use ventricular geometry, wall thickness and filling physiology to distinguish cardiomyopathy patterns; do not use a fixed survival estimate."
   },
   {
    "id": "cardio-cardiomyopathy-q6",
@@ -725,26 +730,27 @@
    "id": "cardio-hf-q3",
    "section": "cardio-hf",
    "type": "mcq",
-   "stem": "A client with heart failure and low urine output is started on dopamine at 2 mcg/kg/min. The nurse understands the expected effect at this dose is which?",
+   "stem": "A client with heart failure and new oliguria has a proposed dopamine infusion at 2 mcg/kg/min specifically “to protect kidney function.” Which response by the nurse is most appropriate?",
    "options": [
-    "Alpha-receptor vasoconstriction",
-    "Mainly beta-1 cardiac stimulation",
-    "Renal vasodilation",
-    "Slowing of heart rate and lower BP"
+    "Begin it because low-dose dopamine reliably prevents kidney injury.",
+    "Explain that a higher dopamine dose is needed for kidney protection.",
+    "Clarify the indication and assess perfusion, congestion and other causes of oliguria.",
+    "Delay all oliguria assessment until the next routine laboratory panel."
    ],
    "correct": 2,
    "rationales": [
-    "Alpha-mediated vasoconstriction is listed for doses above 10 mcg/kg/min.",
-    "Beta-1 cardiac stimulation is listed for the 3-10 mcg/kg/min range.",
-    "The book states dopamine at 0.5-3 mcg/kg/min produces renal vasodilation.",
-    "This describes beta-blocker effects, not low-dose dopamine."
+    "Incorrect. Renal vasodilator effects have not established kidney-protective clinical benefit.",
+    "Incorrect. Increasing dopamine does not establish a kidney-protection indication and introduces other hemodynamic effects.",
+    "Correct. Low-dose dopamine should not be normalized as renal-protective therapy; clarify the plan and evaluate the cause of reduced output.",
+    "Incorrect. New oliguria needs timely clinical assessment."
    ],
    "clue": "The infusion rate is 2 mcg/kg/min.",
    "priority": "Match dopamine dose ranges to receptor effects.",
    "page": 52,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "checked": true
+   "checked": true,
+   "takeaway": "A receptor effect does not prove kidney protection; investigate oliguria and use an evidence-based individualized plan."
   },
   {
    "id": "cardio-hf-q4",
@@ -870,14 +876,14 @@
    "type": "mcq",
    "stem": "A client with severe pulmonary arterial hypertension is started on a continuous IV epoprostenol infusion. The family asks why this drug was chosen. Which response is accurate?",
    "options": [
-    "It has the most substantial survival benefit of the therapies",
+    "It dilates pulmonary arteries in the selected PAH treatment plan",
     "It mainly prevents clots in the pulmonary vessels",
     "It mainly removes excess fluid from the body",
     "It mainly opens the airways to ease breathing"
    ],
    "correct": 0,
    "rationales": [
-    "The book states IV epoprostenol has the most substantial survival benefit.",
+    "Epoprostenol is a prostacyclin-pathway therapy that reduces pulmonary vascular resistance; selected severe PAH clients may gain functional and survival benefit. Do not claim superiority over every modern therapy without a defined comparison.",
     "Clot prevention is the role of anticoagulants such as warfarin.",
     "Fluid removal is the role of diuretics such as furosemide.",
     "Bronchodilators such as albuterol are listed for breathing support."
@@ -896,14 +902,14 @@
    "stem": "A client's echocardiogram suggests pulmonary hypertension. Which test does the nurse anticipate to confirm the diagnosis?",
    "options": [
     "Thyroid-stimulating hormone level",
-    "Pulmonary artery catheter showing elevated pressures and PVR",
+    "Right-heart catheterization with hemodynamic measurements",
     "HIV antibody screening",
     "Pulmonary function testing"
    ],
    "correct": 1,
    "rationales": [
     "TSH is listed among tests to identify underlying causes, not to confirm the diagnosis.",
-    "The book states elevated pressures and PVR on pulmonary artery catheter confirm pulmonary hypertension.",
+    "Right-heart catheterization confirms elevated mean pulmonary artery pressure and helps classify PH using wedge pressure and PVR. Elevated PVR is part of precapillary classification, not a requirement for every PH subtype.",
     "HIV testing helps find an associated cause rather than confirm pressures.",
     "PFTs help evaluate lung-related causes but do not confirm pulmonary pressures."
    ],
@@ -1026,51 +1032,53 @@
    "id": "cardio-htn-q2",
    "section": "cardio-htn",
    "type": "mcq",
-   "stem": "A nurse is titrating IV nicardipine for a client in hypertensive emergency. What is the appropriate BP goal for the first hour?",
+   "stem": "A nonpregnant adult has hypertensive encephalopathy. Stroke and aortic dissection have been excluded. IV nicardipine is prescribed with an initial target of no more than a 25% reduction in mean arterial pressure during the first hour. Which action follows this plan?",
    "options": [
-    "Normalize BP to below 120/80 mm Hg",
-    "Lower BP by at least 50%",
-    "Hold any reduction for 24 hours",
-    "Lower BP by no more than 25%"
+    "Reduce BP immediately to below 120/80 mm Hg.",
+    "Reduce the starting mean arterial pressure by at least 50%.",
+    "Withhold the infusion for 24 hours.",
+    "Titrate cautiously without exceeding the prescribed first-hour MAP reduction."
    ],
    "correct": 3,
    "rationales": [
-    "Rapid normalization is not the book's goal; reduction should be rapid but cautious.",
-    "This exceeds the book's limit of 25% in the first hour.",
-    "The book calls for prompt IV reduction in emergency, not a delay.",
-    "The book's goal is to lower BP by no more than 25% within the first hour, then gradually over 24-48 hours."
+    "Incorrect. Immediate normalization may compromise organ perfusion.",
+    "Incorrect. A 50% fall exceeds the prescribed initial limit.",
+    "Incorrect. Acute organ injury requires prompt monitored treatment.",
+    "Correct. This respects the specified target while monitoring neurologic status and perfusion. Other hypertensive emergencies may require different targets."
    ],
    "clue": "The client is in the first hour of IV treatment.",
    "priority": "Avoid lowering BP too fast in hypertensive emergency.",
    "page": 54,
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
-   "checked": true
+   "checked": true,
+   "takeaway": "Use the diagnosis-specific ordered BP target; avoid abrupt normalization."
   },
   {
    "id": "cardio-htn-q3",
    "section": "cardio-htn",
    "type": "mcq",
-   "stem": "A client at the clinic has a BP of 186/122 mm Hg and a headache but no signs of organ damage. Which plan does the nurse anticipate?",
+   "stem": "A nonpregnant adult has repeat BP 186/122 mm Hg after proper measurement. Clinical evaluation finds no acute target-organ injury. Which plan should the nurse anticipate?",
    "options": [
-    "Gradual reduction over 24-48 hours with oral agents",
-    "ICU admission for IV sodium nitroprusside",
-    "Lower BP 25% within the first hour by IV",
-    "Immediate transfer for emergency surgery"
+    "Timely review of the oral regimen, adherence and follow-up, with gradual controlled reduction.",
+    "ICU admission solely for immediate IV BP normalization.",
+    "An IV infusion to lower MAP 25% within the hour regardless of findings.",
+    "Emergency surgery based only on the BP number."
    ],
    "correct": 0,
    "rationales": [
-    "Without target organ damage this is urgency, managed with oral agents over 24-48 hours in an outpatient or observation setting.",
-    "IV agents and admission are for hypertensive emergency with organ damage.",
-    "This first-hour goal applies to hypertensive emergency.",
-    "Nothing in the book supports surgery for uncomplicated severe hypertension."
+    "Correct. Severe hypertension without acute organ injury generally requires timely oral-treatment adjustment and follow-up rather than an automatic emergency infusion.",
+    "Incorrect. The number alone does not establish a hypertensive emergency.",
+    "Incorrect. First-hour IV targets apply to selected emergencies with acute organ injury.",
+    "Incorrect. A BP number alone does not identify a surgical indication."
    ],
    "clue": "Severe BP elevation without end-organ damage.",
    "priority": "Manage hypertensive urgency appropriately.",
    "page": 54,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Acute organ injury determines emergency treatment; otherwise arrange timely oral treatment and follow-up."
   },
   {
    "id": "cardio-htn-q4",
@@ -1079,16 +1087,16 @@
    "page": 54,
    "clientNeed": "moc",
    "cjmm": "generateSolutions",
-   "stem": "The nurse is triaging clients whose BP is at least 180/120 mm Hg. For each client, indicate the care setting the nurse anticipates.",
+   "stem": "After repeat BP measurement and clinical evaluation, classify the anticipated management for these nonpregnant adults with severe hypertension.",
    "rows": [
     "BP 188/122 mm Hg with headache and anxiety; exam otherwise normal",
     "BP 204/128 mm Hg with new acute kidney injury",
     "BP 196/126 mm Hg with papilledema",
-    "BP 184/121 mm Hg with mild shortness of breath and no end-organ findings",
+    "BP 184/121 mm Hg; dyspnea was evaluated, oxygenation is normal, and no acute cardiac or other organ injury is found",
     "BP 210/130 mm Hg with signs of acute heart failure"
    ],
    "columns": [
-    "Outpatient or observation with oral agents",
+    "Timely oral-regimen adjustment and follow-up",
     "Immediate hospitalization with IV agents"
    ],
    "correct": [
@@ -1099,15 +1107,16 @@
     1
    ],
    "rationales": [
-    "Headache and anxiety without end-organ damage is hypertensive urgency, managed outpatient or in observation with oral agents.",
-    "Acute kidney injury is target organ damage, so this is an emergency needing hospitalization and IV antihypertensives.",
-    "Papilledema is listed eye damage, making this a hypertensive emergency.",
-    "The book notes urgency may include shortness of breath but no end-organ damage.",
-    "Acute heart failure is listed heart damage, which defines hypertensive emergency."
+    "No acute organ injury is found after evaluation; arrange timely oral treatment adjustment and close follow-up.",
+    "New AKI is acute target-organ injury and requires monitored emergency management.",
+    "Papilledema in this severe presentation requires urgent assessment and monitored emergency management.",
+    "Dyspnea was evaluated rather than assumed benign; without acute injury the oral-treatment/follow-up pathway is appropriate.",
+    "Acute heart failure is target-organ injury and requires hospital treatment tailored to the emergency."
    ],
    "clue": "Target organ damage, not the BP number, separates emergency from urgency.",
    "priority": "Match level of care to hypertensive urgency or emergency.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Evaluate symptoms for acute organ injury; severe BP without injury does not require universal IV normalization or a fixed 24–48-hour normalization target."
   },
   {
    "id": "cardio-htn-q5",
@@ -1116,7 +1125,7 @@
    "page": 54,
    "clientNeed": "psych",
    "cjmm": "takeAction",
-   "stem": "A client at the clinic has a BP of 186/122 mm Hg, a headache and feels anxious. No signs of target organ damage are found. The client asks, \"Am I going to end up in intensive care?\" Which response by the nurse is best?",
+   "stem": "A client at the clinic has a BP of 186/122 mm Hg, a headache and feels anxious. Repeat measurement and clinical evaluation find no acute target-organ injury. The client asks, \"Am I going to end up in intensive care?\" Which response by the nurse is best?",
    "options": [
     "\"There is nothing to worry about; your blood pressure is fine.\"",
     "\"Yes, you will need IV medicine to bring your pressure down within the hour.\"",
@@ -1125,14 +1134,15 @@
    ],
    "correct": 2,
    "rationales": [
-    "This is false reassurance; the BP is severely elevated.",
-    "IV agents and a first-hour target apply to hypertensive emergency, not urgency.",
-    "This acknowledges the fear and accurately explains that urgency is managed with gradual oral reduction over 24-48 hours, usually as an outpatient or in observation.",
-    "The book lists anxiety as a possible symptom of urgency, not its cause."
+    "Severe BP elevation needs treatment and follow-up; dismissing it is false reassurance.",
+    "An immediate IV reduction is reserved for a clinically identified emergency, not the number alone.",
+    "Acknowledging concern and explaining timely oral-regimen adjustment, controlled reduction and follow-up is appropriate after evaluation excludes acute injury. There is no universal 24–48-hour normalization target.",
+    "Anxiety may coexist with hypertension; it does not establish the cause or eliminate the need for follow-up."
    ],
    "clue": "Severe BP without organ damage in a worried client.",
    "priority": "Acknowledge anxiety and give accurate information about hypertensive urgency.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Acknowledge concern and explain the evaluated treatment plan; distinguish severe hypertension without acute injury from hypertensive emergency."
   },
   {
    "id": "cardio-inflammatory-q1",
@@ -1141,23 +1151,24 @@
    "stem": "A client with a history of IV drug use has fever, a new murmur and splinter hemorrhages. Which diagnostic test should the nurse anticipate collecting first?",
    "options": [
     "Troponin level to confirm myocarditis",
-    "Blood cultures, 3-5 sets in 24 hours",
+    "Prompt blood-culture sets before antibiotics, when feasible",
     "Endomyocardial biopsy",
     "Ankle-brachial index"
    ],
    "correct": 1,
    "rationales": [
-    "Elevated troponin is emphasized for myocarditis, not endocarditis.",
-    "These findings suggest infective endocarditis; the book states blood cultures are the key finding.",
-    "Biopsy is listed for select myocarditis cases.",
-    "ABI is used to diagnose arterial occlusive disease."
+    "Troponin can identify myocardial injury but does not identify the bloodstream pathogen causing suspected endocarditis.",
+    "Fever, new murmur and embolic/vascular findings raise concern for IE. Obtain at least two, ideally three, adequately filled blood-culture sets promptly when feasible; do not delay urgent antibiotics in an unstable client.",
+    "Endomyocardial biopsy is not the first sampling test for this suspected infection.",
+    "ABI assesses limb arterial perfusion, not bloodstream infection."
    ],
    "clue": "IV drug use with fever, new murmur and splinter hemorrhages.",
    "priority": "Obtain blood cultures in suspected endocarditis.",
    "page": 56,
    "clientNeed": "rrp",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Obtain appropriate cultures promptly in suspected IE without creating a prolonged delay in urgent antibiotic treatment."
   },
   {
    "id": "cardio-inflammatory-q2",
@@ -1266,14 +1277,14 @@
    "page": 56,
    "clientNeed": "bcc",
    "cjmm": "generateSolutions",
-   "stem": "A client has dizziness when standing because of postural hypotension. Which first-line measures should the nurse include in the plan of care? Select all that apply.",
+   "stem": "An ambulatory client has symptomatic orthostatic hypotension. Assessment finds no heart failure, advanced kidney disease or fluid/sodium restriction. Which nonpharmacological measures should the nurse include? Select all that apply.",
    "options": [
-    "Start midodrine before trying other measures",
-    "Leg exercises",
-    "Restrict fluid intake to reduce swelling",
-    "Compression stockings or SCDs",
-    "Start fludrocortisone as the initial treatment",
-    "Encourage electrolyte-rich fluids to maintain hydration"
+    "Start midodrine independently before evaluating reversible causes.",
+    "Teach leg-muscle counterpressure exercises and gradual position changes.",
+    "Restrict fluids solely to treat orthostatic dizziness.",
+    "Use a prescribed waist-high compression garment or abdominal binder.",
+    "Start fludrocortisone independently as the first nursing action.",
+    "Maintain the individualized fluid plan and discuss appropriate salt intake with the clinician."
    ],
    "correct": [
     1,
@@ -1281,16 +1292,17 @@
     5
    ],
    "rationales": [
-    "The book says medications such as midodrine are started only if symptoms persist after non-drug measures.",
-    "The book lists leg exercises as first-line non-drug therapy.",
-    "The book calls for maintaining good hydration, not restricting fluids.",
-    "Compression stockings or SCDs are listed as first-line measures.",
-    "Fludrocortisone is a second-line option if symptoms persist.",
-    "The book recommends good hydration with electrolyte-rich fluids."
+    "Incorrect. Medication treatment requires a prescription and evaluation; it is not an independent first action.",
+    "Correct. Muscle counterpressure and slow position changes may reduce pooling and symptoms.",
+    "Incorrect. Fluid restriction without another indication can worsen volume depletion.",
+    "Correct. Appropriately prescribed compression can reduce venous pooling; hospital SCD devices are not interchangeable ambulatory therapy.",
+    "Incorrect. Fludrocortisone requires individualized assessment and monitoring.",
+    "Correct. Hydration and any salt increase depend on comorbidities and the prescribed plan; an electrolyte beverage is not mandatory."
    ],
    "clue": "The client has symptomatic postural hypotension with no treatment yet.",
    "priority": "Start with non-drug comfort and safety measures.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Treat orthostatic symptoms with individualized non-drug measures and fall prevention; account for fluid and sodium restrictions."
   },
   {
    "id": "cardio-inflammatory-q7",
@@ -1299,14 +1311,14 @@
    "page": 56,
    "clientNeed": "pa",
    "cjmm": "recognizeCues",
-   "stem": "A client with myocarditis is monitored for cardiogenic shock. Which findings meet the criteria for cardiogenic shock? Select all that apply.",
+   "stem": "A 70-kg client with myocarditis and suspected low-output heart failure is assessed for cardiogenic shock. Which findings support impaired perfusion and need prompt escalation? Select all that apply.",
    "options": [
-    "SBP of 84 mm Hg lasting 40 minutes",
-    "Warm, flushed extremities",
-    "Urine output of 20 mL/h",
-    "Lactate of 3.1 mmol/L",
-    "Urine output of 60 mL/h",
-    "SBP of 98 mm Hg that is stable"
+    "SBP 84 mm Hg sustained for 40 minutes.",
+    "Warm skin with brisk refill and no other new perfusion changes.",
+    "Urine output 20 mL/hour for the past 3 hours.",
+    "Lactate 3.1 mmol/L with worsening clinical perfusion.",
+    "Urine output 60 mL/hour with stable renal function.",
+    "SBP 98 mm Hg with stable mentation, output and other perfusion findings."
    ],
    "correct": [
     0,
@@ -1314,16 +1326,17 @@
     3
    ],
    "rationales": [
-    "The book defines cardiogenic shock as SBP below 90 mm Hg for at least 30 minutes.",
-    "The book lists cold, clammy skin and extremities, not warm skin.",
-    "Urine output under 30 mL/h is a listed sign of end-organ hypoperfusion.",
-    "A lactate above 2 mmol/L is a listed sign of hypoperfusion.",
-    "This urine output is above the book's 30 mL/h threshold.",
-    "An SBP of 98 mm Hg is above the book's cut-off of 90 mm Hg."
+    "Correct. Sustained hypotension with the cardiac context supports shock concern.",
+    "Incorrect. These isolated reassuring findings do not establish shock.",
+    "Correct. Output is about 0.29 mL/kg/hour and is concerning with other hypoperfusion cues.",
+    "Correct. Elevated lactate plus deteriorating perfusion supports shock concern, though lactate is not specific to one cause.",
+    "Incorrect. The stated output/trend is reassuring for this client.",
+    "Incorrect. A BP value alone neither proves nor excludes shock; the described stable integrated assessment is less concerning."
    ],
    "clue": "The book says to monitor for cardiogenic shock in myocarditis.",
    "priority": "Recognize the defining criteria of cardiogenic shock.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Diagnose shock from the combined hemodynamic and organ-perfusion assessment, not one isolated threshold."
   },
   {
    "id": "cardio-inflammatory-q8",
@@ -1332,18 +1345,18 @@
    "page": 57,
    "clientNeed": "pharm",
    "cjmm": "analyzeCues",
-   "stem": "The nurse is reviewing medication plans for clients with cardiac inflammatory conditions. For each medication, indicate the condition it is used to treat.",
+   "stem": "Three diagnosed clients have specialist-directed plans: Client A has culture-confirmed susceptible infective endocarditis; Client B has selected immune-mediated myocarditis with persistent low-output heart failure; Client C has recurrent pericarditis. Match each prescribed intervention to the stated plan.",
    "rows": [
-    "Penicillin G 2 million units IV every 4 hours",
-    "IVIG in select immune-mediated cases",
-    "Colchicine for recurrent episodes",
-    "Indomethacin for inflammation",
-    "Dobutamine for inotropic support"
+    "Pathogen- and valve-specific IV antibiotic therapy.",
+    "Specialist-selected IVIG for the documented immune-mediated condition.",
+    "Colchicine for recurrent pericardial inflammation.",
+    "An appropriate prescribed NSAID for pericardial inflammation.",
+    "Monitored inotropic support for persistent low cardiac output."
    ],
    "columns": [
-    "Infective endocarditis",
-    "Myocarditis",
-    "Pericarditis"
+    "Client A",
+    "Client B",
+    "Client C"
    ],
    "correct": [
     0,
@@ -1353,15 +1366,16 @@
     1
    ],
    "rationales": [
-    "The book lists penicillin G 2 million units IV q4h for infective endocarditis.",
-    "IVIG in select immune-mediated cases is listed for myocarditis.",
-    "Colchicine is listed for recurrent pericarditis.",
-    "Indomethacin is one of the NSAIDs listed for pericarditis.",
-    "Dobutamine for inotropic support is listed under myocarditis."
+    "IE antibiotic choice/dose depends on organism, susceptibility and valve context; an arbitrary penicillin regimen is not universal.",
+    "IVIG is specialist-selected for the specific immune-mediated case, not routine for all myocarditis.",
+    "Colchicine is used in selected pericarditis plans to reduce recurrence.",
+    "A prescribed NSAID may treat pericardial inflammation after contraindication assessment.",
+    "The myocarditis client has the explicitly supplied low-output indication; inotropes are not exclusive to myocarditis."
    ],
    "clue": "Each drug appears in one row of the treatment table.",
    "priority": "Match anti-infective and anti-inflammatory drugs to their condition.",
-   "checked": true
+   "checked": true,
+   "takeaway": "Match drugs to the supplied diagnosis, indication and prescription; a drug name alone does not uniquely identify a disease."
   },
   {
    "id": "cardio-inflammatory-q9",
@@ -1374,7 +1388,7 @@
    "rows": [
     "Sharp chest pain that is worse when lying flat",
     "Pericardial friction rub",
-    "ST elevation on the ECG",
+    "Previously evaluated diffuse ST elevation consistent with the established pericarditis diagnosis",
     "New JVD with a falling blood pressure",
     "SBP below 90 mm Hg with urine output under 30 mL/h"
    ],
@@ -1390,11 +1404,11 @@
     1
    ],
    "rationales": [
-    "The book lists sharp chest pain worse on inspiration or lying flat for pericarditis.",
-    "A friction rub is a hallmark the book lists for pericarditis.",
-    "The book pairs friction rub and ST elevation as pericarditis findings.",
-    "JVD and low BP signal effusion; the book says to always assess for tamponade in pericarditis.",
-    "These meet the book's cardiogenic shock criteria, which it says to monitor for in all three conditions."
+    "Positional pleuritic pain is compatible with the established pericarditis diagnosis.",
+    "A pericardial friction rub is a characteristic finding.",
+    "The previously evaluated diffuse pattern can fit pericarditis; new focal ischemic changes or unexplained pain require reassessment.",
+    "New JVD and falling BP may indicate tamponade and require urgent assessment.",
+    "Hypotension with oliguria signals hypoperfusion. In pericardial tamponade the shock mechanism is obstructive; urgent evaluation and definitive treatment are required."
    ],
    "clue": "Hemodynamic changes separate complications from expected pericarditis findings.",
    "priority": "Escalate signs of tamponade or shock in pericarditis.",
@@ -1429,7 +1443,7 @@
    "id": "cardio-occlusion-q2",
    "section": "cardio-occlusion",
    "type": "mcq",
-   "stem": "A client with a confirmed DVT has a contraindication to anticoagulation. Which intervention does the nurse anticipate?",
+   "stem": "A client has acute proximal lower-extremity DVT and active major bleeding that prevents anticoagulation. The team is considering temporary embolic protection. Which intervention should the nurse anticipate?",
    "options": [
     "Starting heparin despite the contraindication",
     "Placement of an IVC filter",
@@ -1438,17 +1452,18 @@
    ],
    "correct": 1,
    "rationales": [
-    "Anticoagulants are contraindicated in this client.",
-    "The book lists an IVC filter if anticoagulation is contraindicated.",
-    "Exercise therapy is listed for arterial occlusive disease.",
-    "Bypass is a treatment for arterial occlusive disease."
+    "Giving heparin despite active major bleeding would contradict the stated contraindication.",
+    "A retrievable IVC filter may be considered for acute proximal DVT when anticoagulation is absolutely contraindicated; reassess promptly and plan removal when anticoagulation becomes feasible.",
+    "An exercise program does not replace the needed acute VTE management.",
+    "Arterial bypass does not treat this proximal venous thrombus."
    ],
    "clue": "Anticoagulation is contraindicated in a DVT client.",
    "priority": "Select an alternative DVT treatment when anticoagulants cannot be used.",
    "page": 60,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "checked": true
+   "checked": true,
+   "takeaway": "Filter use is selective, generally for acute proximal VTE with an absolute anticoagulation contraindication, with a reassessment/removal plan."
   },
   {
    "id": "cardio-occlusion-q3",
@@ -1610,14 +1625,14 @@
    "page": 60,
    "clientNeed": "safety",
    "cjmm": "generateSolutions",
-   "stem": "A client is diagnosed with DVT. Which interventions does the nurse anticipate to treat it and prevent complications? Select all that apply.",
+   "stem": "A client has acute proximal DVT. Which elements may be included in an individualized treatment plan? Select all that apply.",
    "options": [
-    "Bypass surgery for revascularization",
-    "Anticoagulant such as heparin",
-    "Supervised exercise therapy",
-    "Compression stockings",
-    "Antiplatelet agents with statins as the main therapy",
-    "IVC filter if anticoagulation is contraindicated"
+    "Routine arterial bypass for every venous thrombus.",
+    "Therapeutic anticoagulation when not contraindicated.",
+    "An arterial claudication exercise program instead of anticoagulation.",
+    "Prescribed compression for bothersome edema/pain after assessment.",
+    "Antiplatelet/statin treatment as a substitute for DVT anticoagulation.",
+    "A retrievable IVC filter if active major bleeding absolutely prevents anticoagulation."
    ],
    "correct": [
     1,
@@ -1625,16 +1640,17 @@
     5
    ],
    "rationales": [
-    "Bypass surgery is listed for arterial occlusive disease.",
-    "The book lists anticoagulants such as heparin and warfarin for venous occlusion.",
-    "Exercise therapy is listed for arterial occlusive disease.",
-    "Compression stockings are listed for venous occlusion.",
-    "Antiplatelets and statins are listed for arterial disease.",
-    "The book lists an IVC filter if anticoagulation is contraindicated."
+    "Incorrect. Routine arterial bypass is not DVT treatment.",
+    "Correct. Anticoagulation limits clot extension and recurrent embolism.",
+    "Incorrect. An arterial exercise program is not a substitute for VTE treatment.",
+    "Correct. Compression may provide selected symptom relief; it is not routinely prescribed solely to prevent post-thrombotic syndrome.",
+    "Incorrect. These medicines may have other indications but do not replace therapeutic DVT anticoagulation.",
+    "Correct. This specified proximal-VTE/absolute-contraindication setting may warrant a temporary filter, with reassessment and removal planning."
    ],
    "clue": "The diagnosis is a venous thrombus.",
    "priority": "Anticipate DVT treatments that prevent clot extension and embolism.",
-   "checked": true
+   "checked": true,
+   "takeaway": "DVT treatment is individualized; distinguish symptom-directed compression from routine prevention claims."
   },
   {
    "id": "cardio-postpci-q1",
@@ -1643,14 +1659,14 @@
    "stem": "After a femoral PCI on heparin, a client has a growing groin hematoma, a falling hemoglobin and hypotension. Which reversal agent does the nurse anticipate?",
    "options": [
     "Vitamin K (phytonadione)",
-    "Andexanet alfa",
+    "Four-factor prothrombin complex concentrate",
     "Idarucizumab",
     "Protamine sulfate"
    ],
    "correct": 3,
    "rationales": [
     "Vitamin K reverses warfarin.",
-    "Andexanet alfa reverses apixaban and rivaroxaban.",
+    "Four-factor PCC has selected major-bleeding reversal uses under a prescribed protocol; protamine is the specific reversal agent for the heparin in this case. Andexanet is not an available routine U.S. alternative after the 2025 cessation of U.S. sales.",
     "Idarucizumab reverses dabigatran.",
     "The book pairs heparin reversal with protamine sulfate."
    ],
@@ -1665,26 +1681,27 @@
    "id": "cardio-postpci-q2",
    "section": "cardio-postpci",
    "type": "mcq",
-   "stem": "A client with reduced kidney function is scheduled for angiography. Which nursing action best helps prevent contrast-induced kidney injury?",
+   "stem": "A client with advanced CKD is scheduled for angiography. The team has assessed renal risk and current volume status. Which nursing action best follows an individualized kidney-risk reduction plan?",
    "options": [
-    "Ensure hydration before and after contrast exposure",
+    "Give indicated isotonic hydration and monitor for overload",
     "Restrict fluids for 24 hours after the procedure",
     "Request high-osmolar contrast agent",
     "Check renal function once weekly"
    ],
    "correct": 0,
    "rationales": [
-    "The book lists hydration before and after contrast as AKI prevention.",
-    "Fluid restriction contradicts the book's hydration guidance.",
-    "The book recommends low-osmolar or iso-osmolar contrast.",
-    "The book advises monitoring renal function daily."
+    "Hydration may be prescribed according to renal risk and volume status; it is not identical for every client with reduced kidney function. Monitor response and overload risk.",
+    "A universal 24-hour fluid restriction is not a kidney-protection plan and may worsen volume depletion.",
+    "High-osmolar contrast is not the preferred risk-reduction strategy.",
+    "Arrange renal monitoring according to the procedure/risk plan; a fixed once-weekly schedule may miss a clinically important change."
    ],
    "clue": "Contrast exposure in a client at renal risk.",
    "priority": "Prevent contrast-induced nephropathy.",
    "page": 61,
    "clientNeed": "safety",
    "cjmm": "takeAction",
-   "checked": true
+   "checked": true,
+   "takeaway": "Reduce kidney risk using the prescribed contrast/hydration plan and individualized volume assessment; do not assume every post-contrast AKI is caused by contrast."
   },
   {
    "id": "cardio-postpci-q3",
@@ -1783,7 +1800,7 @@
    ],
    "columns": [
     "Arrhythmia",
-    "Contrast-induced AKI",
+    "Acute kidney injury after the procedure",
     "Stent thrombosis"
    ],
    "correct": [
@@ -1794,7 +1811,7 @@
    ],
    "rationales": [
     "The book lists palpitations, syncope and ECG changes such as atrial fibrillation as arrhythmia signs.",
-    "Reduced urine output and elevated creatinine are the book's signs of contrast-induced AKI.",
+    "Oliguria and rising creatinine indicate concern for AKI after the procedure. Contrast association does not prove contrast causation; assess bleeding, perfusion, medications, obstruction and other causes.",
     "Recurrent chest pain and ischemic ECG changes are the signs of stent thrombosis or restenosis.",
     "PVCs are listed as an example ECG change with post-intervention arrhythmias."
    ],
@@ -2051,14 +2068,14 @@
    "id": "cardio-acs-q9",
    "section": "cardio-acs",
    "type": "sata",
-   "stem": "A client with STEMI has just had PCI to open the blocked artery. Which findings indicate reperfusion has occurred? Select all that apply.",
+   "stem": "After PCI for STEMI, which findings support successful reperfusion when considered together? Select all that apply.",
    "options": [
-    "Resolution of the ST-segment elevation",
-    "Relief of the client's chest pain",
-    "A sudden rise in CK-MB and troponin levels",
-    "Increasing ST elevation in the same leads",
-    "Chest pain that intensifies after the procedure",
-    "Troponin levels that stay flat after the vessel opens"
+    "ST-segment elevation substantially resolves.",
+    "The client’s ischemic chest pain resolves.",
+    "Angiography documents restored flow through the treated artery.",
+    "ST elevation increases with worsening chest pain.",
+    "The client develops new hemodynamic instability.",
+    "Troponin rises without any clinical, ECG or angiographic context."
    ],
    "correct": [
     0,
@@ -2066,12 +2083,12 @@
     2
    ],
    "rationales": [
-    "The book lists resolution of the ST segment as evidence of reperfusion after PCI.",
-    "Chest pain relief is listed as evidence of reperfusion.",
-    "A sudden elevation of CK-MB/troponin when the vessel opens is listed as evidence of reperfusion.",
-    "Worsening ST elevation suggests ongoing injury, not reperfusion.",
-    "Worsening pain suggests continued ischemia rather than restored flow.",
-    "The book describes a sudden elevation of biomarkers, not unchanged levels, with reperfusion."
+    "Correct. ST resolution supports improved myocardial perfusion.",
+    "Correct. Pain relief supports a favorable clinical response but is interpreted with objective data.",
+    "Correct. Restored angiographic flow directly supports opening of the treated vessel.",
+    "Incorrect. These findings raise concern for ongoing ischemia or a complication.",
+    "Incorrect. New instability requires urgent assessment rather than being treated as a reassuring response.",
+    "Incorrect. Biomarker elevation reflects myocardial injury and cannot independently prove successful reperfusion."
    ],
    "clue": "ST resolution, pain relief and a sudden biomarker rise follow successful reopening.",
    "priority": "Evaluate PCI by the signs of reperfusion.",
@@ -2079,7 +2096,8 @@
    "clientNeed": "pa",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Assess reperfusion using the clinical response, ECG and coronary-flow findings; troponin change alone is not proof."
   },
   {
    "id": "cardio-acs-q10",
@@ -2127,7 +2145,7 @@
     "Increase the nitroglycerin infusion",
     "Give a fluid bolus as prescribed",
     "Hold nitrates, which reduce preload",
-    "Apply direct pressure to the site for at least 20 minutes",
+    "Maintain prescribed access-site compression until hemostasis according to protocol",
     "Release pressure on the site to help raise the BP"
    ],
    "correct": [
@@ -2141,7 +2159,7 @@
     "Nitrates reduce preload and worsen hypotension; the book says to hold them.",
     "A fluid bolus is part of the book's response to vasovagal hypotension.",
     "The book says to hold nitrates (preload reducers) during this response.",
-    "Direct pressure for at least 20 minutes is still needed to stop bleeding at the site.",
+    "Compression is maintained until hemostasis using the access-site protocol and ordered device; duration depends on anticoagulation, sheath size and the client’s response.",
     "Releasing pressure risks bleeding; the book calls for pressure, a C-clamp or a FemoStop."
    ],
    "clue": "Bradycardia and hypotension during sheath removal signal a vasovagal response.",
@@ -2198,7 +2216,7 @@
    "rationales": [
     "The book says to treat agitation, hypertension and pain with benzodiazepines first.",
     "Nitrates are given first along with benzodiazepines.",
-    "Pure beta-blockers are avoided with acute cocaine effect because of the risk of unopposed alpha stimulation.",
+    "During active stimulant intoxication, clarify a pure beta-blocker order and follow the acute chest-pain protocol. Unopposed alpha activity is a concern rather than a proven universal outcome; combined alpha/beta agents may be considered by the treating clinician in selected circumstances.",
     "Calcium channel blockers are added if vasospasm is refractory.",
     "The book directs active treatment of pain and hypertension; delaying care is not appropriate."
    ],
@@ -2208,19 +2226,20 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Active stimulant intoxication requires prompt treatment of agitation, vasospasm and ACS; do not apply a blanket beta-blocker ban to every client with a cocaine history."
   },
   {
    "id": "cardio-acs-q14",
    "section": "cardio-acs",
    "type": "matrix",
-   "stem": "The nurse teaches a client being discharged after an MI about aspirin therapy. For each client statement, indicate whether it shows understanding or needs further teaching.",
+   "stem": "A client’s discharge plan after MI prescribes aspirin 81 mg daily, continued unless the cardiology team changes the plan. Which statements show understanding?",
    "rows": [
-    "\"I will keep taking aspirin indefinitely unless my provider tells me to stop.\"",
-    "\"My maintenance dose will be at least 81 mg a day.\"",
-    "\"I can keep taking ibuprofen for my knee pain along with the aspirin.\"",
-    "\"Aspirin helps keep my platelets from clumping into clots.\"",
-    "\"I can stop the aspirin once I finish cardiac rehab.\""
+    "“I will continue aspirin unless my prescribing team changes the plan.”",
+    "“I will take the prescribed 81 mg dose each day.”",
+    "“I can add ibuprofen for knee pain without checking with my team.”",
+    "“Aspirin reduces platelet aggregation.”",
+    "“I will stop aspirin when cardiac rehabilitation ends.”"
    ],
    "columns": [
     "Shows understanding",
@@ -2234,11 +2253,11 @@
     1
    ],
    "rationales": [
-    "The book says aspirin is used indefinitely after an MI unless contraindicated.",
-    "The book gives a maintenance dose of at least 81 mg daily.",
-    "The book says to discontinue NSAIDs for at least 6 weeks because they increase the risk of myocardial rupture.",
-    "Aspirin disables platelet aggregation to prevent clot formation.",
-    "Aspirin is continued indefinitely, not stopped after rehab."
+    "Follow the individualized antiplatelet plan; do not stop on your own.",
+    "Low-dose maintenance aspirin is prescribed here; larger doses should not be substituted independently.",
+    "Ibuprofen may interfere with aspirin and increase cardiovascular or bleeding risk; discuss safer pain treatment. There is no universal six-week point when NSAIDs become safe.",
+    "Aspirin irreversibly inhibits platelet activity, reducing arterial thrombosis risk.",
+    "Completing rehabilitation does not itself end the prescribed antiplatelet course."
    ],
    "clue": "Aspirin is lifelong after MI, and NSAIDs raise the risk of rupture.",
    "priority": "Evaluate the client's understanding of post-MI aspirin therapy.",
@@ -2246,7 +2265,8 @@
    "clientNeed": "pharm",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Follow the prescribed antiplatelet dose and duration; check before adding NSAIDs."
   },
   {
    "id": "cardio-acs-q15",
@@ -2391,7 +2411,7 @@
    ],
    "correct": 1,
    "rationales": [
-    "The book states many clients with restrictive cardiomyopathy die within 1-2 years, so this is false reassurance.",
+    "This promises a survival outcome that cannot be established from the diagnosis alone. Prognosis varies with cause, severity and treatment; acknowledge uncertainty and the client’s feelings.",
     "Acknowledging the feeling and inviting the client to talk supports coping with a poor prognosis.",
     "Changing the subject dismisses the client's concern.",
     "Deflecting the question closes off communication."
@@ -2555,7 +2575,7 @@
     "Elevated pulmonary capillary wedge pressure (PCWP)",
     "Hepatomegaly with right upper quadrant tenderness",
     "Positive hepatojugular reflux (HJR)",
-    "New restlessness and confusion",
+    "Pulmonary crackles with orthopnea",
     "Tricuspid regurgitation murmur"
    ],
    "columns": [
@@ -2573,7 +2593,7 @@
     "Elevated PCWP is listed among the signs of left-sided failure.",
     "RUQ tenderness and hepatomegaly are listed with right-sided failure.",
     "HJR is a sign of right-sided failure.",
-    "Restlessness and confusion are listed signs of left-sided failure.",
+    "Pulmonary congestion from elevated left-sided filling pressures produces crackles and orthopnea. Restlessness or confusion alone cannot reliably distinguish the side of heart failure.",
     "A tricuspid regurgitation murmur is listed with right-sided failure."
    ],
    "clue": "\"Left = Lungs\"; \"Right = peripheral edema + JVD\" and systemic congestion.",
@@ -2760,8 +2780,8 @@
     5
    ],
    "rationales": [
-    "Family history is a listed risk factor, and idiopathic PAH may be inherited.",
-    "The book lists stimulant abuse among the diseases associated with PAH.",
+    "Heritable PAH may occur in families; do not label a known inherited form idiopathic.",
+    "Methamphetamine exposure is associated with drug-related PAH.",
     "Lactose intolerance is not among the risk factors or associated diseases.",
     "Autoimmune diseases are a listed risk factor.",
     "A healed fracture is not linked to PAH in the book.",
@@ -2773,7 +2793,8 @@
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Assess family history, connective-tissue disease, HIV and relevant drug exposures when evaluating PAH risk."
   },
   {
    "id": "cardio-pah-q9",
@@ -2919,7 +2940,7 @@
    "id": "cardio-htn-q7",
    "section": "cardio-htn",
    "type": "mcq",
-   "stem": "A client in hypertensive emergency had a BP of 220/130 mm Hg when an IV nicardipine infusion was started. One hour later, which BP reading best reflects safe progress toward the treatment goal?",
+   "stem": "A nonpregnant adult with hypertensive encephalopathy starts IV nicardipine at BP 220/130 mm Hg. Stroke and aortic dissection are excluded. The first-hour order limits mean arterial pressure reduction to no more than 25%. Which reading best reflects substantial progress within that limit?",
    "options": [
     "170/104 mm Hg",
     "118/72 mm Hg",
@@ -2928,10 +2949,10 @@
    ],
    "correct": 0,
    "rationales": [
-    "A drop to 170/104 mm Hg lowers BP by less than 25%, matching the goal for the first hour.",
-    "This is far more than a 25% drop in the first hour.",
-    "This is still more than a 25% drop in the first hour.",
-    "The book calls for reducing BP rapidly but cautiously; almost no change is not progress."
+    "Correct. Starting MAP is about 160 mm Hg; this reading gives MAP about 126, a 21% decrease within the specified limit.",
+    "Incorrect. MAP about 87 represents approximately 45% reduction, exceeding the prescribed initial limit.",
+    "Incorrect. MAP about 104 represents approximately 35% reduction, exceeding the prescribed initial limit.",
+    "Incorrect. MAP about 157 is only a small change and does not show substantial progress toward this ordered target."
    ],
    "clue": "The starting BP was 220/130 mm Hg.",
    "priority": "Lower BP by no more than 25% in the first hour.",
@@ -2939,16 +2960,17 @@
    "clientNeed": "safety",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "MAP≈(SBP+2×DBP)/3. Apply the specified emergency-specific target and monitor organ perfusion."
   },
   {
    "id": "cardio-htn-q8",
    "section": "cardio-htn",
    "type": "matrix",
-   "stem": "A client treated for hypertensive urgency is going home on an oral antihypertensive. For each client statement, indicate whether it shows understanding or needs further teaching.",
+   "stem": "A client with severe hypertension but no acute target-organ injury is discharged with an adjusted oral regimen and a scheduled follow-up visit. Classify each statement.",
    "rows": [
-    "\"My blood pressure will be brought down gradually over a day or two.\"",
-    "\"Urgency means my pressure was very high but my organs were not damaged.\"",
+    "\"I will follow my adjusted oral regimen and attend the scheduled follow-up.\"",
+    "\"My pressure was severely elevated, but the evaluation found no acute organ injury.\"",
     "\"I should get emergency care if I have chest pain, vision changes or confusion.\"",
     "\"Since I didn't need to stay in the hospital, my blood pressure wasn't serious.\"",
     "\"The goal is to get my pressure back to normal within the first hour.\""
@@ -2965,11 +2987,11 @@
     1
    ],
    "rationales": [
-    "Urgency is managed with gradual reduction over 24-48 hours using oral agents.",
-    "\"U\" for urgency means uncomplicated: no acute target organ damage.",
-    "Chest pain, vision changes and confusion can signal heart, eye and brain damage, which would make it an emergency.",
-    "BP of at least 180/120 mm Hg is severely elevated even when managed as an outpatient.",
-    "Rapid reduction is not the goal; even in an emergency, BP is lowered by no more than 25% in the first hour."
+    "Take the prescribed oral treatment and return for timely reassessment; there is no universal one-to-two-day normalization requirement.",
+    "Acute target-organ injury, rather than the BP number alone, distinguishes hypertensive emergency.",
+    "New chest pain, vision change or confusion requires urgent evaluation for acute injury.",
+    "Severe hypertension still requires treatment and follow-up even when hospitalization is unnecessary.",
+    "Immediate normalization may impair perfusion; targets depend on the clinical diagnosis and prescribed plan."
    ],
    "clue": "Urgency is severe hypertension without organ damage, treated gradually.",
    "priority": "Evaluate the client's understanding of urgency and when to seek emergency care.",
@@ -2977,7 +2999,8 @@
    "clientNeed": "hpm",
    "cjmm": "evaluateOutcomes",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Severe hypertension without acute injury needs timely treatment and follow-up; seek emergency care for new danger symptoms."
   },
   {
    "id": "cardio-inflammatory-q10",
@@ -3044,14 +3067,14 @@
    "id": "cardio-inflammatory-q12",
    "section": "cardio-inflammatory",
    "type": "sata",
-   "stem": "The nurse is identifying clients at increased risk for infective endocarditis. Which conditions in a client's history increase the risk? Select all that apply.",
+   "stem": "Which histories warrant increased attention to infective endocarditis risk, rather than automatically qualifying for dental prophylaxis? Select all that apply.",
    "options": [
-    "Prosthetic heart valve",
-    "Well-controlled hypothyroidism",
-    "Marfan syndrome",
-    "Mitral valve prolapse",
-    "Seasonal allergic rhinitis",
-    "Congenital heart defect"
+    "A prosthetic heart valve.",
+    "Well-controlled hypothyroidism without structural heart disease.",
+    "Marfan syndrome with significant valve regurgitation.",
+    "Mitral valve prolapse with regurgitation.",
+    "Seasonal allergic rhinitis without structural heart disease.",
+    "Unrepaired cyanotic congenital heart disease."
    ],
    "correct": [
     0,
@@ -3060,12 +3083,12 @@
     5
    ],
    "rationales": [
-    "Prosthetic valves are a listed risk condition.",
-    "Hypothyroidism is not among the listed risk conditions.",
-    "Marfan syndrome is a listed risk condition.",
-    "Mitral valve prolapse is a listed risk condition.",
-    "Allergic rhinitis is not a listed risk condition.",
-    "Congenital heart defects are a listed risk condition."
+    "Correct. Prosthetic valve material is an established high-risk substrate.",
+    "Incorrect. This history alone does not identify a cardiac IE risk substrate.",
+    "Correct. The actual abnormal valve lesion, not the Marfan label alone, is relevant.",
+    "Correct. Valve regurgitation provides a structural substrate; this is distinct from prophylaxis eligibility.",
+    "Incorrect. Allergic rhinitis alone does not establish a cardiac IE substrate.",
+    "Correct. This congenital cardiac lesion increases IE risk."
    ],
    "clue": "Endocarditis usually affects damaged or artificial valves.",
    "priority": "Recognize the structural heart conditions that raise endocarditis risk.",
@@ -3073,7 +3096,8 @@
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Identify the actual cardiac lesion; risk assessment and antibiotic-prophylaxis eligibility are different questions."
   },
   {
    "id": "cardio-inflammatory-q13",
@@ -3108,7 +3132,7 @@
    "stem": "The nurse reviews assessment and diagnostic findings for three clients. For each finding, indicate the condition it most strongly suggests.",
    "rows": [
     "Persistent bacteremia on blood cultures",
-    "Troponin I above 0.15 ng/mL after a recent viral illness",
+    "Troponin above the laboratory assay-specific 99th-percentile upper reference limit after a recent viral illness",
     "Friction rub with sharp chest pain that worsens on inspiration",
     "Osler nodes and splinter hemorrhages",
     "AV block with ST-T abnormalities and a history of toxic exposure"
@@ -3127,7 +3151,7 @@
    ],
    "rationales": [
     "Blood cultures are the key finding for endocarditis, and persistent bacteremia is its abnormal result.",
-    "The book lists troponin I above 0.15 ng/mL and a history of viral illness for myocarditis.",
+    "Myocardial injury after a viral illness raises concern for myocarditis among these choices. Interpret troponin using the specific assay’s upper reference limit and the full clinical picture; it does not independently establish the cause.",
     "Friction rub and sharp chest pain worse on inspiration are pericarditis findings.",
     "Osler nodes and splinter hemorrhages are listed IE assessment findings.",
     "ST-T abnormalities, AV blocks and toxic exposure are listed for myocarditis."
@@ -3208,19 +3232,19 @@
    "id": "cardio-inflammatory-q17",
    "section": "cardio-inflammatory",
    "type": "mcq",
-   "stem": "A client with myocarditis has prescriptions for an ACE inhibitor, a beta-blocker, a diuretic and digoxin. Which medication does the treatment plan say to use with caution?",
+   "stem": "A client with active myocarditis has ventricular ectopy and potassium 3.0 mEq/L. The team reviews the medication list. Which medicine especially warrants clarification because hypokalemia increases toxicity and arrhythmia risk from its narrow therapeutic margin?",
    "options": [
     "Digoxin",
-    "The ACE inhibitor",
-    "The beta-blocker",
-    "The diuretic"
+    "Lisinopril",
+    "Metoprolol",
+    "Furosemide"
    ],
    "correct": 0,
    "rationales": [
-    "The book lists digitalis \"with caution\" in myocarditis treatment.",
-    "ACE inhibitors are listed without a caution.",
-    "Beta-blockers are listed without a caution.",
-    "Diuretics are listed without a caution."
+    "Correct. Low potassium increases vulnerability to digoxin-related arrhythmias; clarify the order and correct the underlying risk under the treatment plan.",
+    "Incorrect. Lisinopril requires BP, renal and potassium assessment, but does not have the specified digoxin-toxicity mechanism.",
+    "Incorrect. Metoprolol requires HR, BP and clinical assessment, but does not have the specified narrow-margin hypokalemia mechanism.",
+    "Incorrect. Furosemide can worsen potassium loss and also needs review, but the described narrow-therapeutic-margin toxicity risk identifies digoxin."
    ],
    "clue": "Only one drug in the myocarditis plan carries a caution.",
    "priority": "Recognize which myocarditis drug needs extra caution.",
@@ -3228,7 +3252,8 @@
    "clientNeed": "safety",
    "cjmm": "analyzeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "All cardiac medicines need safety assessment; hypokalemia is a particular digoxin-toxicity risk."
   },
   {
    "id": "cardio-inflammatory-q18",
@@ -3239,14 +3264,14 @@
     "Explain the surgical risks and have the client sign the form",
     "Notify the surgeon so the procedure can be explained before consent is obtained",
     "Have a family member sign, since the surgery is necessary",
-    "Continue the preparation, since infected prosthetic valves must be replaced"
+    "Continue the preparation, without confirming informed consent"
    ],
    "correct": 1,
    "rationales": [
     "Explaining surgical risks to obtain consent is the surgeon's responsibility.",
     "The surgeon who performs the procedure explains it and obtains informed consent; the nurse advocates by notifying the surgeon.",
     "A capable adult client gives their own consent.",
-    "Valve replacement is indicated for prosthetic valve infection, but surgery cannot proceed without informed consent."
+    "In this scheduled procedure, the client needs an informed-consent discussion. Surgery for prosthetic-valve infection is individualized by valve dysfunction, uncontrolled infection and complications; it is not inevitable for every infection."
    ],
    "clue": "The client cannot explain the planned surgery.",
    "priority": "Ensure informed consent before an indicated procedure.",
@@ -3272,7 +3297,7 @@
     "Clean technique raises the risk of introducing bacteria into the line.",
     "Keeping lines in longer than needed increases infection risk.",
     "The book lists IV catheters and prosthetic valves as sources of nosocomial endocarditis; aseptic line care reduces bacteremia.",
-    "The book reserves prophylactic antibiotics for invasive procedures such as dental, GU and GI work, not routine dressing changes."
+    "Routine catheter dressing changes do not call for IE-prophylaxis antibiotics. Qualifying dental procedures may warrant prophylaxis in selected highest-risk cardiac clients; routine GI/GU procedures do not warrant IE prophylaxis in the absence of active infection."
    ],
    "clue": "The client has an IV catheter and a prosthetic valve, both nosocomial sources.",
    "priority": "Prevent catheter-related bacteremia in high-risk clients.",
@@ -3390,14 +3415,14 @@
    "id": "cardio-occlusion-q10",
    "section": "cardio-occlusion",
    "type": "sata",
-   "stem": "The nurse is assessing clients for risk of deep vein thrombosis (DVT). Which factors increase the risk? Select all that apply.",
+   "stem": "Which histories are established major DVT risk factors? Select all that apply.",
    "options": [
-    "Active cancer",
-    "Hyperlipidemia",
-    "Pregnancy",
-    "Inherited clotting disorder",
-    "Recent surgery",
-    "Diabetes"
+    "Active cancer.",
+    "Seasonal allergic rhinitis without immobility.",
+    "Pregnancy.",
+    "A documented inherited thrombophilia.",
+    "Recent major surgery with reduced mobility.",
+    "A remote healed wrist fracture with normal activity."
    ],
    "correct": [
     0,
@@ -3406,12 +3431,12 @@
     4
    ],
    "rationales": [
-    "Cancer is a listed risk factor for venous occlusion.",
-    "Hyperlipidemia is listed as a risk factor for arterial occlusive disease, not DVT.",
-    "Pregnancy is a listed DVT risk factor.",
-    "Inherited clotting disorders are a listed DVT risk factor.",
-    "Surgery is a listed DVT risk factor.",
-    "Diabetes is listed as a risk factor for arterial disease, not DVT."
+    "Correct. Active malignancy increases VTE risk.",
+    "Incorrect. This isolated history is not a major VTE risk factor.",
+    "Correct. Pregnancy increases venous stasis and coagulation tendency.",
+    "Correct. A thrombophilia can increase venous thrombosis risk.",
+    "Correct. Surgery and reduced mobility promote thrombosis.",
+    "Incorrect. This remote healed injury with normal mobility does not establish increased current VTE risk."
    ],
    "clue": "The book separates arterial and venous risk factors.",
    "priority": "Identify clients at risk for venous thrombosis.",
@@ -3419,7 +3444,8 @@
    "clientNeed": "hpm",
    "cjmm": "recognizeCues",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Venous and arterial risk factors can overlap; use actual current VTE risk factors rather than mutually exclusive lists."
   },
   {
    "id": "cardio-occlusion-q11",
@@ -3503,19 +3529,19 @@
    "id": "cardio-occlusion-q14",
    "section": "cardio-occlusion",
    "type": "mcq",
-   "stem": "The nurse reviews treatment plans for clients with vascular occlusion. For which client is thrombolytic therapy most likely to be part of the plan?",
+   "stem": "Which DVT presentation most strongly warrants urgent specialist evaluation for clot-removal/reperfusion therapy, including thrombolysis when eligible?",
    "options": [
-    "A client with a DVT for whom anticoagulation is contraindicated",
-    "A client with claudication from PAOD",
-    "A client with a severe DVT",
-    "A client with an uncomplicated DVT who is responding to heparin"
+    "Isolated distal calf DVT with active major bleeding.",
+    "Stable arterial claudication without venous thrombosis.",
+    "Iliofemoral DVT with limb-threatening swelling/cyanosis and acceptable bleeding risk",
+    "Uncomplicated DVT improving on therapeutic anticoagulation."
    ],
    "correct": 2,
    "rationales": [
-    "When anticoagulation is contraindicated, the book lists an IVC filter.",
-    "PAOD is treated with antiplatelets, statins, exercise and revascularization, not thrombolytics.",
-    "The book lists thrombolytic therapy for venous occlusion in severe cases.",
-    "An uncomplicated DVT improving on anticoagulation does not call for thrombolysis."
+    "Incorrect. Active major bleeding makes thrombolysis hazardous; distal DVT requires individualized management.",
+    "Incorrect. This is not an acute venous clot-removal indication.",
+    "Correct. Limb-threatening phlegmasia requires urgent vascular intervention; modality depends on eligibility and expertise.",
+    "Incorrect. Most uncomplicated DVT is managed with anticoagulation rather than routine thrombolysis."
    ],
    "clue": "Thrombolysis is reserved for severe venous occlusion.",
    "priority": "Match the DVT treatment to the severity of the case.",
@@ -3523,7 +3549,8 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Do not equate vague “severe DVT” with automatic thrombolysis; evaluate limb threat and bleeding risk."
   },
   {
    "id": "cardio-occlusion-q15",
@@ -3593,19 +3620,19 @@
    "id": "cardio-occlusion-q17",
    "section": "cardio-occlusion",
    "type": "mcq",
-   "stem": "A client with PAOD and a toe ulcer says, \"I just know I'm going to lose my leg like my uncle did.\" Which response by the nurse is best?",
+   "stem": "A client with peripheral artery disease and a toe ulcer says, “I’m afraid I will lose my leg like my uncle did.” Which response is most therapeutic?",
    "options": [
-    "\"That sounds frightening. Most people with PAOD keep their legs; let's talk about protecting yours.\"",
-    "\"You're right to expect it; with a toe ulcer, an amputation is very likely now.\"",
-    "\"Don't worry about that at all; amputation never happens with PAOD anymore.\"",
-    "\"Let's not talk about amputation right now; it will only upset you more.\""
+    "“That is frightening. Let’s review your individual limb-care plan.”",
+    "“A toe ulcer means amputation is inevitable.”",
+    "“Amputation never happens when someone takes the medication.”",
+    "“Discussing that possibility will only make you more upset.”"
    ],
    "correct": 0,
    "rationales": [
-    "The book gives amputation as about 10% of PAOD cases over 10 years, so most clients keep their legs; acknowledging fear and giving accurate, hopeful information supports coping.",
-    "This overstates the risk and increases fear.",
-    "Amputation is a listed complication, so this is false reassurance.",
-    "Avoiding the topic blocks the client from expressing fear."
+    "Correct. This acknowledges fear while supporting individualized perfusion/wound evaluation and timely vascular care; population claudication estimates cannot determine this client’s prognosis.",
+    "Incorrect. An ulcer needs urgent evaluation but does not establish an inevitable outcome.",
+    "Incorrect. This promises an outcome that treatment cannot guarantee.",
+    "Incorrect. Avoiding the topic blocks the client’s expression of concern."
    ],
    "clue": "The client fears amputation.",
    "priority": "Respond to fear with empathy and accurate information.",
@@ -3613,7 +3640,8 @@
    "clientNeed": "psych",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "A toe ulcer changes risk assessment; use individualized vascular evaluation and empathetic discussion instead of generic numerical reassurance."
   },
   {
    "id": "cardio-occlusion-q18",
@@ -3645,17 +3673,17 @@
    "id": "cardio-postpci-q9",
    "section": "cardio-postpci",
    "type": "matrix",
-   "stem": "Several clients have bleeding at a vascular access site after a cardiac procedure. For each anticoagulant, indicate the reversal agent the nurse anticipates.",
+   "stem": "Adult clients in a U.S. hospital have uncontrolled life-threatening bleeding while taking the listed anticoagulants. The current prescriber-approved protocol uses protamine for UFH,4-factor PCC plus IV vitaminK for major warfarin bleeding, and 4-factor PCC for eligible factor Xa-inhibitor bleeding when the team determines reversal is needed. Match the protocol plan to each anticoagulant.",
    "rows": [
-    "Warfarin (Coumadin)",
-    "Apixaban (Eliquis)",
-    "Heparin",
-    "Rivaroxaban (Xarelto)"
+    "Warfarin.",
+    "Apixaban.",
+    "Unfractionated heparin.",
+    "Rivaroxaban."
    ],
    "columns": [
     "Protamine sulfate",
-    "Vitamin K (phytonadione)",
-    "Andexanet alfa"
+    "Four-factor PCC plus IV vitamin K",
+    "Prescribed four-factor PCC under factor-Xa bleeding protocol"
    ],
    "correct": [
     1,
@@ -3664,10 +3692,10 @@
     2
    ],
    "rationales": [
-    "The book pairs warfarin with vitamin K (phytonadione).",
-    "Apixaban is reversed with andexanet alfa.",
-    "Heparin is reversed with protamine sulfate.",
-    "Rivaroxaban is reversed with andexanet alfa."
+    "Major warfarin bleeding requires rapid factor replacement plus IV vitaminK under this protocol; vitaminK alone is not the rapid-rescue plan.",
+    "Follow the specified factor Xa major-bleeding protocol; PCC use is prescriber-directed and is not a drug-specific approved antidote. Andexanet U.S. sales ended after December 22,2025 following the FDA unfavorable risk-benefit assessment.",
+    "Protamine neutralizes UFH; dose and monitoring depend on recent heparin exposure and the prescription.",
+    "Rivaroxaban follows the stated factor Xa bleeding protocol; assess timing, renal function, bleeding severity and thrombosis risk."
    ],
    "clue": "Each anticoagulant has a specific reversal agent.",
    "priority": "Match the reversal agent to the anticoagulant causing the bleeding.",
@@ -3675,7 +3703,8 @@
    "clientNeed": "pharm",
    "cjmm": "generateSolutions",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Reversal depends on severity, anticoagulant and the current prescribed protocol; minor bleeding does not automatically require reversal."
   },
   {
    "id": "cardio-postpci-q10",
@@ -3692,7 +3721,7 @@
    "rationales": [
     "Hemoglobin is monitored, but controlling the bleeding comes first.",
     "Surgery is reserved for bleeding that persists despite other measures.",
-    "Direct, firm pressure for at least 20-30 minutes is the immediate bedside action to control access-site bleeding.",
+    "Apply immediate firm access-site compression, summon help/escalate as appropriate, and continue until hemostasis according to the ordered protocol. Duration varies with bleeding, anticoagulation and the closure/compression device.",
     "Reversal is given \"if needed\" and takes time to obtain; pressure can be applied right away."
    ],
    "clue": "An enlarging hematoma at the access site.",
@@ -3737,7 +3766,7 @@
    "options": [
     "Immediate neurologic evaluation",
     "A CT scan",
-    "Anticoagulation chosen according to the stroke's cause and timing",
+    "Rapid evaluation for eligible reperfusion treatment and procedural bleeding risk",
     "Starting anticoagulation right away, before any imaging",
     "Rehabilitation therapy as recovery allows",
     "Holding neurologic checks until the client has rested for an hour"
@@ -3749,12 +3778,12 @@
     4
    ],
    "rationales": [
-    "The book lists immediate neuro evaluation for stroke or TIA after a procedure.",
-    "A CT scan is part of the immediate management.",
-    "The book says anticoagulation is based on stroke etiology and timing.",
-    "Anticoagulation depends on the stroke's cause and timing, which imaging helps determine.",
-    "Rehabilitation therapy is a listed part of management.",
-    "Delaying assessment wastes time in a possible stroke."
+    "New focal deficits require immediate neurologic evaluation and stroke-team activation.",
+    "Urgent brain imaging distinguishes hemorrhage and supports reperfusion planning.",
+    "The team assesses IV thrombolysis/thrombectomy eligibility using imaging, timing and contraindications, including recent procedural bleeding risk. Immediate anticoagulation is not routine acute-stroke treatment.",
+    "Starting anticoagulation before assessing the cause and brain imaging may cause harm.",
+    "Rehabilitation is coordinated after acute stabilization as recovery allows.",
+    "Delaying assessment loses time for possible reperfusion."
    ],
    "clue": "Slurred speech and hemiparesis after a procedure suggest embolic stroke.",
    "priority": "Act quickly on new neurologic deficits after a cardiac procedure.",
@@ -3762,7 +3791,8 @@
    "clientNeed": "rrp",
    "cjmm": "takeAction",
    "batch": "v3",
-   "reviewed": "v3"
+   "reviewed": "v3",
+   "takeaway": "Activate the stroke pathway promptly; imaging and reperfusion eligibility precede routine anticoagulation assumptions."
   },
   {
    "id": "cardio-postpci-q13",
