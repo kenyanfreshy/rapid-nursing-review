@@ -5,7 +5,7 @@ pages=['dashboard','practice','book','plan','progress','bookmarks']
 with sync_playwright() as p:
     b=p.chromium.launch(); bad=[]
     for w,h,mob in [(375,812,True),(440,956,True),(820,1180,True),(1280,800,False),(1440,900,False)]:
-        for ui in ('vivid','daylight'):
+        for ui in ('vivid','midnight'):
             pg=b.new_page(viewport={'width':w,'height':h},is_mobile=mob,has_touch=mob)
             pg.goto(U); pg.evaluate(f"localStorage.clear();localStorage.setItem('rapid-nursing-review-v1',JSON.stringify({{attempts:[],bookmarks:[],history:[],ui:'{ui}'}}))"); pg.reload(); pg.wait_for_timeout(400)
             for r in pages:

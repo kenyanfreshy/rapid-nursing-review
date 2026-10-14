@@ -32,16 +32,16 @@ with sync_playwright() as p:
     pg.click('#top-initials'); pg.wait_for_timeout(200)
     check('settings shows four color choices', pg.locator('#modal .ui-swatch').count() == 4)
     pg.screenshot(path=f'{OUT}/ui-settings.png')
-    for ui, label in [('ocean', 'Ocean'), ('sunrise', 'Sunrise'), ('daylight', 'Daylight'), ('vivid', 'Vivid')]:
+    for ui, label in [('ocean', 'Ocean'), ('sunrise', 'Sunrise'), ('midnight', 'Midnight'), ('vivid', 'Vivid')]:
         pg.click(f'#modal [data-action=set-ui][data-ui={ui}]'); pg.wait_for_timeout(150)
         check(f'{label}: applied and marked', pg.evaluate("document.documentElement.dataset.ui") == ui and pg.get_attribute(f'#modal [data-ui={ui}]', 'aria-checked') == 'true')
-    pg.click('#modal [data-action=set-ui][data-ui=daylight]'); pg.wait_for_timeout(150)
-    check('Daylight switches to the light theme', bg(pg) != 'rgb(8, 11, 22)' and pg.evaluate("document.getElementById('nb-theme').disabled") is True, bg(pg))
+    pg.click('#modal [data-action=set-ui][data-ui=midnight]'); pg.wait_for_timeout(150)
+    check('Midnight uses the deeper night background', bg(pg) == 'rgb(3, 5, 12)' and pg.evaluate("document.getElementById('nb-theme').disabled") is False, bg(pg))
     pg.click('#modal [data-action=close-modal]'); pg.reload(); pg.wait_for_timeout(500)
-    check('theme choice survives reload', pg.evaluate("document.documentElement.dataset.ui") == 'daylight')
-    pg.goto(U + '#practice'); pg.wait_for_timeout(300); pg.screenshot(path=f'{OUT}/ui-daylight.png')
+    check('theme choice survives reload', pg.evaluate("document.documentElement.dataset.ui") == 'midnight')
+    pg.goto(U + '#practice'); pg.wait_for_timeout(300); pg.screenshot(path=f'{OUT}/ui-midnight.png')
     # exams stay white in every theme
-    for ui in ('daylight', 'ocean'):
+    for ui in ('midnight', 'ocean'):
         pg.evaluate(f"s=JSON.parse(localStorage.getItem('rapid-nursing-review-v1'));s.ui='{ui}';localStorage.setItem('rapid-nursing-review-v1',JSON.stringify(s))"); pg.reload(); pg.wait_for_timeout(400)
         pg.click('main [data-action=quick]'); pg.wait_for_timeout(200)
         check(f'{ui}: exam screen is white', pg.evaluate("getComputedStyle(document.querySelector('#modal')).backgroundColor") == 'rgb(255, 255, 255)')
