@@ -1,18 +1,18 @@
 # Privacy Policy — Rapid Nursing Review
 
-*Last updated: October 13, 2026*
+*Last updated: October 14, 2026*
 
 Rapid Nursing Review ("the app") is a study app for nursing students preparing for the NCLEX-RN. It is based on the book
 *Rapid Nursing Review: All Body Systems at a Glance* by Alex K. Korir, MSN, RN, CCRN-CMC ("we", "us"). This policy explains
-what the app does with information. It applies to the Rapid Nursing Review app for iPhone and iPad, distributed through
-Apple's App Store.
+what the app does with information. It applies to the Rapid Nursing Review app for iPhone and iPad (Apple's App Store) and for
+Android phones and tablets (Google Play).
 
 ## The short version
 
 - No account and no sign-up.
 - Your study data stays on your device.
 - No advertising, no tracking and no selling of data.
-- Purchases are handled by Apple; we never see your payment details.
+- Purchases are handled by Apple or Google; we never see your payment details.
 
 ## What stays on your device
 
@@ -24,12 +24,13 @@ deleting the app.
 
 ## Purchases (Rapid Nursing Review Pro)
 
-If you buy Rapid Nursing Review Pro, the payment is handled by Apple through the App Store under Apple's terms. We never
-receive your name, email address, Apple ID or payment details.
+If you buy Rapid Nursing Review Pro, the payment is handled by Apple through the App Store, or by Google through
+Google Play, under that store's terms. We never receive your name, email address, Apple ID, Google account or payment
+details.
 
 To check whether you have Pro and to restore purchases, the app uses **RevenueCat**, a subscription service. RevenueCat
 receives an anonymous app user ID created on your device, your purchase history for this app, and basic technical
-information (such as the app version, device model, iOS version and App Store country). It uses this only to provide,
+information (such as the app version, device model, operating system version and store country). It uses this only to provide,
 verify and restore your purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ## What we don't do
@@ -38,6 +39,12 @@ verify and restore your purchases. RevenueCat's privacy policy: https://www.reve
 - We don't use analytics that identify you.
 - We don't sell, rent or share your personal information.
 - We don't collect your location, contacts, photos, microphone, camera or health data.
+
+## Study reminders and calendar
+
+If you turn on study reminders, the app asks your permission to show notifications and schedules them on your device.
+If you add your exam date to your calendar, the event is created by your device's calendar after you confirm it.
+Neither is sent to us.
 
 ## Links to other websites
 
@@ -52,7 +59,7 @@ information from children.
 ## Your choices and rights
 
 Because we don't hold your study data, you control it on your device: export it, reset it or delete the app. For anything
-related to your purchase records, you can contact us (below) or Apple directly. Depending on where you live (for
+related to your purchase records, you can contact us (below), Apple or Google directly. Depending on where you live (for
 example the EEA, the UK or California), you may have rights to access or delete personal information; contact us and we
 will help.
 

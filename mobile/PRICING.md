@@ -64,7 +64,7 @@ The free and Pro rules live in one place: the "Free vs Pro" block near the top o
 
 1. Create the app with package `com.alexkorir.rapidnursingreview`.
 2. **Monetize → Products → Subscriptions:** create `rnr_pro` with three base plans: `quarterly` (auto-renewing, 3 months,
-   $49.99), `monthly` (auto-renewing, 1 month, $9.99) and `annual` (auto-renewing, 1 year, $89.99). Activate all three.
+   $49.99), `monthly` (auto-renewing, 1 month, $19.99) and `annual` (auto-renewing, 1 year, $89.99). Activate all three.
 3. **In-app products:** `rnr_pro_lifetime` at $119.00. Activate it.
 4. **Data safety:** purchase history and an app user ID are collected for app functionality (by Google Play billing and
    RevenueCat), not shared, not used for ads.

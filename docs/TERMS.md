@@ -1,6 +1,6 @@
 # Terms of Use — Rapid Nursing Review
 
-*Last updated: October 13, 2026*
+*Last updated: October 14, 2026*
 
 ## License agreement
 
@@ -23,6 +23,19 @@ Pro is offered as Monthly ($19.99/month), a 3-Month Pass ($49.99 every 3 months)
 - Lifetime Access is a one-time purchase with no renewal.
 - Use **Restore Purchases** in the app to restore Pro on a new iPhone or iPad signed in to the same Apple ID.
 - Refunds are handled by Apple under its policies (reportaproblem.apple.com).
+
+## Google Play (Android)
+
+On Android, the app is distributed through Google Play and your use of it is also subject to the Google Play Terms of
+Service: https://play.google.com/about/play-terms/
+
+- The same Pro plans and 2-week free trial apply (one trial per Google account for eligible new subscribers).
+- Payment is charged to your Google Play account when you confirm the purchase (for a free trial, when the trial ends).
+- Subscriptions renew automatically unless canceled before the end of the current period. Manage or cancel them in the
+  Google Play app (profile icon → Payments & subscriptions → Subscriptions). Canceling stops future renewals; Pro stays on
+  until the end of the period you paid for.
+- Use **Restore Purchases** in the app to restore Pro on a new Android device signed in to the same Google account.
+- Refunds are handled by Google under the Google Play refund policies.
 
 ## Educational content
 
