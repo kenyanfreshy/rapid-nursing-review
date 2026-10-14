@@ -28,8 +28,9 @@
    ],
    "takeaway": "On the Braden Scale (6-23), the lower the score, the higher the pressure injury risk; 18 or below means the client is at risk.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-d958321b0f",
+    "v-753e16bd6b",
+    "v-3bc7bfd4f9"
    ],
    "reviewed": "v4"
   },
@@ -68,8 +69,8 @@
    ],
    "takeaway": "Manage moisture by cleansing gently after every incontinence episode, using a barrier product and keeping layers under the client to a minimum.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-e8af4c0d77",
+    "v-3bc7bfd4f9"
    ],
    "reviewed": "v4"
   },
@@ -84,7 +85,7 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "mcq",
-   "stem": "A client with a thoracic spinal cord injury uses a wheelchair and has full use of the arms. When should the nurse teach the client to perform pressure-relief weight shifts while sitting?",
+   "stem": "A client with a thoracic spinal cord injury uses a wheelchair and has full use of the arms. The rehabilitation team has prescribed a pressure-relief weight shift at least every 15 minutes while seated. When should the nurse teach the client to perform pressure-relief weight shifts while sitting?",
    "options": [
     "Every 2 hours, the same as turning in bed",
     "Every 15 minutes while up in the chair",
@@ -94,14 +95,13 @@
    "correct": 1,
    "rationales": [
     "A 2-hour interval is a starting point for turning in bed; sitting concentrates pressure, so weight shifts are needed much more often.",
-    "Correct. Seated clients put high pressure on a small area (the ischial tuberosities). Clients who can shift their own weight are taught to do so frequently, about every 15 minutes (lifting, leaning forward or leaning side to side).",
+    "Correct. Seated clients put high pressure on a small area (the ischial tuberosities). This client’s individualized plan specifies at least every 15 minutes, using the safe maneuver taught by rehabilitation; method, duration, and interval are individualized.",
     "This client has impaired sensation below the injury and may not feel discomfort until damage has occurred.",
     "A pressure-redistribution cushion helps, but it does not replace frequent weight shifts, and hourly shifts are too infrequent for a client who can do them independently."
    ],
-   "takeaway": "Clients who sit for long periods and can move themselves should shift their weight about every 15 minutes; sensation loss means pain cannot be the cue.",
+   "takeaway": "Use an individualized seating and pressure-relief plan. Follow this client’s prescribed 15-minute interval; impaired sensation makes pain an unreliable cue.",
    "refs": [
-    "npiap",
-    "openstax-medsurg"
+    "v-598bacdece"
    ],
    "reviewed": "v4"
   },
@@ -132,8 +132,7 @@
    ],
    "takeaway": "Wound healing depends on enough protein, calories and fluids; involve the dietitian early when intake is poor or weight is dropping.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-b1223f04ea"
    ],
    "reviewed": "v4"
   },
@@ -164,8 +163,7 @@
    ],
    "takeaway": "Keep linen and pads under the client to a minimum on a pressure-redistribution surface; layers defeat its pressure and moisture control.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-3bc7bfd4f9"
    ],
    "reviewed": "v4"
   },
@@ -206,7 +204,7 @@
    ],
    "takeaway": "If slough or eschar hides the wound base, document 'unstageable'; serum-filled blisters are stage 2, blood-filled blisters suggest deep tissue injury.",
    "refs": [
-    "npiap"
+    "v-ce230c94d5"
    ],
    "reviewed": "v4"
   },
@@ -233,11 +231,11 @@
     "Correct. Exposed or directly palpable fascia, muscle, tendon, ligament, cartilage or bone defines a stage 4 pressure injury.",
     "Visible fat is typical of a stage 3 injury; it does not reach the deeper structures that define stage 4.",
     "Undermining and tunneling can occur in both stage 3 and stage 4 injuries, so they do not decide the stage.",
-    "Some slough may be present in stage 3 or 4; only slough that hides the whole base makes an injury unstageable."
+    "Slough can be present in stage 3 or 4. If slough or eschar obscures the full extent/depth so staging cannot be determined, the injury is unstageable; coverage of the entire base is not required. Visible bone in this item establishes stage 4."
    ],
    "takeaway": "Stage 4 = full-thickness loss with exposed fascia, muscle, tendon, cartilage or bone; visible fat alone is stage 3.",
    "refs": [
-    "npiap"
+    "v-ce230c94d5"
    ],
    "reviewed": "v4"
   },
@@ -268,8 +266,8 @@
    ],
    "takeaway": "In darkly pigmented skin, find stage 1 injury by changes in temperature, firmness, edema and pain, not by redness alone.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-ce230c94d5",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -300,7 +298,7 @@
    ],
    "takeaway": "Never reverse-stage a pressure injury; document it as a 'healing stage X' injury until it closes.",
    "refs": [
-    "npiap"
+    "v-ce230c94d5"
    ],
    "reviewed": "v4"
   },
@@ -340,8 +338,8 @@
    ],
    "takeaway": "Healthy granulation is beefy red and moist; pale, dry tissue, new odor or rolled, stalled edges mean the wound needs follow-up.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -372,8 +370,8 @@
    ],
    "takeaway": "A palpable healing ridge by about postoperative day 5-9 is expected; if it is absent, suspect delayed healing and dehiscence risk.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -412,8 +410,8 @@
    ],
    "takeaway": "Surgical site infection usually appears 3-7 days after surgery as purulent drainage, spreading redness and warmth, increasing pain and fever.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -446,13 +444,14 @@
     "Correct. Obesity increases tension on the incision and is linked with poor blood supply to adipose tissue, raising the risk of dehiscence.",
     "Young age and not smoking are not risk factors; smoking would increase risk.",
     "Correct. Corticosteroids suppress inflammation and collagen formation, which slows wound healing.",
-    "Correct. Low albumin reflects poor protein status, which impairs collagen formation and wound strength.",
+    "Correct as a risk marker. Low albumin is associated with adverse wound outcomes but also reflects inflammation, illness, and fluid distribution. It cannot diagnose low protein intake or malnutrition alone; assess intake, weight trend, muscle/fat loss, and clinical context.",
     "Early walking helps prevent complications and does not raise the risk of dehiscence.",
     "Small laparoscopic incisions carry a much lower risk of dehiscence than a large open incision."
    ],
-   "takeaway": "Obesity, malnutrition (low albumin), corticosteroids, diabetes, infection and straining or coughing all raise the risk of wound dehiscence.",
+   "takeaway": "Obesity, corticosteroid exposure, poor nutrition, and illness-related risk markers can increase dehiscence risk. Low albumin alone does not diagnose malnutrition.",
    "refs": [
-    "openstax-medsurg"
+    "v-45b03746ad",
+    "v-d50da16037"
    ],
    "reviewed": "v4"
   },
@@ -467,7 +466,7 @@
    "difficulty": 3,
    "level": "Analyze",
    "type": "matrix",
-   "stem": "A client has negative pressure wound therapy (NPWT) on a stage 4 sacral pressure injury. For each action, indicate whether it is indicated or not indicated.",
+   "stem": "A client has prescribed continuous negative pressure wound therapy (NPWT) on a stage 4 sacral pressure injury. For each action, indicate whether it is indicated or not indicated.",
    "rows": [
     "Stop the therapy, apply pressure and notify the provider if bright red blood quickly fills the tubing and canister",
     "Leave the foam dressing in place after the pump has been turned off for 3 hours",
@@ -495,8 +494,7 @@
    ],
    "takeaway": "NPWT must stay on with an airtight seal; if it is off for more than about 2 hours, replace the dressing per protocol, and stop therapy and notify the provider for active bleeding.",
    "refs": [
-    "openstax-medsurg",
-    "npiap"
+    "v-b8b43030e2"
    ],
    "reviewed": "v4"
   },
@@ -527,8 +525,8 @@
    ],
    "takeaway": "Circumferential full-thickness burns can cut off circulation; check distal pulses, capillary refill and sensation and report changes for possible escharotomy.",
    "refs": [
-    "openstax-medsurg",
-    "aba-abls"
+    "v-c5fb05f22f",
+    "v-ab21370fe5"
    ],
    "reviewed": "v4"
   },
@@ -569,7 +567,7 @@
    ],
    "takeaway": "Burn depth: superficial = red and painful; partial thickness = blisters or mottled, painful; full thickness = leathery, white or charred and painless.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -600,8 +598,8 @@
    ],
    "takeaway": "Suspect carbon monoxide poisoning after closed-space fires; SpO₂ can be falsely normal, so give 100% oxygen and check carboxyhemoglobin.",
    "refs": [
-    "openstax-medsurg",
-    "aba-abls"
+    "v-c5fb05f22f",
+    "v-ab21370fe5"
    ],
    "reviewed": "v4"
   },
@@ -616,7 +614,7 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "mcq",
-   "stem": "A client sustained major burns at 0800 and arrives at the burn center at 1000. The provider calculates the fluid resuscitation volume for the first 24 hours. By what time should the first half of the calculated volume be infused?",
+   "stem": "A client is an adult with burns over 30% TBSA and sustained the injury at 0800 and arrives at the burn center at 1000. The provider uses a protocol starting at 2 mL/kg/% TBSA for the initial 24-hour estimate, with half allocated to the first 8 hours and ongoing titration. For the calculation’s time anchor only, By what time should the first half of the calculated volume be infused?",
    "options": [
     "1800",
     "2000",
@@ -627,13 +625,12 @@
    "rationales": [
     "1800 is 8 hours after arrival; the clock starts at the time of injury, which delays needed fluid by 2 hours.",
     "2000 is 12 hours after injury; this would under-resuscitate the client during the period of greatest fluid loss.",
-    "Correct. Burn formulas plan half of the first 24-hour volume for the first 8 hours, timed from the moment of the burn, not from arrival. 0800 plus 8 hours is 1600, so the remaining fluid must be given faster to catch up. The formula only sets the starting rate; the rate is then titrated hourly to urine output.",
+    "Correct. Burn formulas plan half of the first 24-hour volume for the first 8 hours, timed from the moment of the burn, not from arrival. 0800 plus 8 hours is 1600, all prearrival fluid must be subtracted when estimating the remaining initial allocation. This is a starting estimate, not an automatic catch-up bolus; titrate to perfusion and urine output while reassessing for overload.",
     "0800 the next day marks the end of the full 24-hour period, not the first half."
    ],
-   "takeaway": "Burn resuscitation timing starts at the time of injury: half of the 24-hour volume in the first 8 hours, titrated to urine output.",
+   "takeaway": "Anchor burn-fluid calculations to injury time, include all prearrival fluid, and titrate the starting estimate to clinical response. Adult ≥20% TBSA ABA guidance starts at 2 mL/kg/% TBSA.",
    "refs": [
-    "openstax-medsurg",
-    "aba-abls"
+    "v-ab21370fe5"
    ],
    "reviewed": "v4"
   },
@@ -673,8 +670,8 @@
    ],
    "takeaway": "In the first burn day, generalized edema and a high hematocrit are expected; low urine output or new airway signs need immediate follow-up.",
    "refs": [
-    "openstax-medsurg",
-    "aba-abls"
+    "v-c5fb05f22f",
+    "v-ab21370fe5"
    ],
    "reviewed": "v4"
   },
@@ -711,8 +708,8 @@
    ],
    "takeaway": "Burn clients lose their skin barrier: use strict hand hygiene, barrier precautions, dedicated equipment, and keep plants, flowers and sick visitors away.",
    "refs": [
-    "openstax-medsurg",
-    "cdc-isolation"
+    "v-c5fb05f22f",
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -743,7 +740,7 @@
    ],
    "takeaway": "Major burns are hypermetabolic: start enteral nutrition early with high calories and protein.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -774,7 +771,7 @@
    ],
    "takeaway": "Burn positioning works against the position of comfort: keep anterior neck burns in slight extension, with no pillows under the head.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -805,8 +802,8 @@
    ],
    "takeaway": "Support body-image changes after burns by acknowledging feelings and using open-ended questions, not false reassurance.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-psych"
+    "v-c5fb05f22f",
+    "v-97bf916e84"
    ],
    "reviewed": "v4"
   },
@@ -837,8 +834,8 @@
    ],
    "takeaway": "In the emergent phase of a major burn, give opioids IV; IM, subcutaneous and oral absorption are unreliable.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-pharm"
+    "v-c5fb05f22f",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -849,7 +846,7 @@
    "batch": "v4",
    "topic": "Integumentary",
    "clientNeed": "pa",
-   "cjmm": "prioritizeHypotheses",
+   "cjmm": "takeAction",
    "difficulty": 3,
    "level": "Analyze",
    "type": "order",
@@ -877,8 +874,8 @@
    ],
    "takeaway": "Burn emergency care: stop the burning, then airway, breathing, circulation, then estimate TBSA to guide fluids.",
    "refs": [
-    "openstax-medsurg",
-    "aba-abls"
+    "v-c5fb05f22f",
+    "v-ab21370fe5"
    ],
    "reviewed": "v4"
   },
@@ -917,7 +914,7 @@
    ],
    "takeaway": "Premedicate before burn wound care, then use aseptic technique: remove, cleanse and assess, then apply topical agent and dressing.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -948,8 +945,8 @@
    ],
    "takeaway": "After about 48-72 hours, burn edema fluid returns to the circulation: expect diuresis and watch for fluid overload and hypokalemia.",
    "refs": [
-    "openstax-medsurg",
-    "aba-abls"
+    "v-c5fb05f22f",
+    "v-ab21370fe5"
    ],
    "reviewed": "v4"
   },
@@ -986,7 +983,7 @@
    ],
    "takeaway": "For cellulitis, mark the border of redness, elevate the limb and watch for spread, streaking or fever that signals worsening infection.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1025,7 +1022,7 @@
    ],
    "takeaway": "Prevent recurrent cellulitis by keeping skin intact: treat athlete's foot, moisturize cracks and inspect the skin daily.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1056,8 +1053,8 @@
    ],
    "takeaway": "Start antivirals for herpes zoster as early as possible, ideally within 72 hours of rash onset, and finish the full course.",
    "refs": [
-    "openstax-medsurg",
-    "dailymed"
+    "v-c5fb05f22f",
+    "v-711b1e2fcf"
    ],
    "reviewed": "v4"
   },
@@ -1088,8 +1085,8 @@
    ],
    "takeaway": "A person with shingles can give chickenpox to nonimmune contacts until the blisters crust: cover the rash and avoid pregnant, newborn and immunocompromised contacts.",
    "refs": [
-    "cdc-isolation",
-    "openstax-medsurg"
+    "v-46dce47566",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1106,21 +1103,21 @@
    "type": "mcq",
    "stem": "A client with a normal immune system is admitted with localized herpes zoster on the chest. The lesions are covered with a dressing. Which staff member should the charge nurse avoid assigning to this client?",
    "options": [
-    "A nurse who had chickenpox as a child",
+    "A nurse who has a provider-verified history of chickenpox",
     "A nurse who received 2 doses of varicella vaccine",
     "A pregnant nurse who has never had chickenpox or the varicella vaccine",
-    "A nurse who had shingles 2 years ago"
+    "A nurse who has a provider-verified history of shingles 2 years ago"
    ],
    "correct": 2,
    "rationales": [
-    "A history of chickenpox is evidence of immunity, so this nurse can safely provide care using standard precautions.",
+    "A provider-verified history of chickenpox is evidence of immunity, so this nurse can safely provide care using standard precautions.",
     "Two doses of varicella vaccine provide evidence of immunity.",
     "Correct. Varicella-zoster virus from the lesions can cause chickenpox in a person who is not immune, and varicella in pregnancy can harm the pregnant person and the fetus. Staff without evidence of immunity should not care for this client when immune staff are available.",
-    "A past episode of shingles means the nurse has already been infected with the virus and is immune to primary varicella."
+    "A provider-verified past episode of shingles means the nurse has already been infected with the virus and is immune to primary varicella."
    ],
    "takeaway": "Localized zoster in an immunocompetent client needs standard precautions with lesions covered; assign only staff with evidence of varicella immunity.",
    "refs": [
-    "cdc-isolation"
+    "v-98c84da2c3"
    ],
    "reviewed": "v4"
   },
@@ -1157,7 +1154,7 @@
    ],
    "takeaway": "Scabies and lice need contact precautions until 24 hours after effective treatment is started.",
    "refs": [
-    "cdc-isolation"
+    "v-46dce47566"
    ],
    "reviewed": "v4"
   },
@@ -1188,8 +1185,8 @@
    ],
    "takeaway": "Clients with neuropathy cannot sense heat injury: avoid heating pads on numb areas and test water with a thermometer or the elbow.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1220,7 +1217,7 @@
    ],
    "takeaway": "Head lice are a nuisance, not a disease risk: children can return to school after starting treatment, and no-nit policies are discouraged.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1260,7 +1257,7 @@
    ],
    "takeaway": "Melanoma risk rises with UV exposure (sunburns, tanning beds), many or atypical moles, fair skin and a family history.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1300,7 +1297,7 @@
    ],
    "takeaway": "Sun safety: broad-spectrum SPF 30+, reapply every 2 hours, seek shade at midday, wear protective clothing, and avoid tanning beds.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1331,7 +1328,7 @@
    ],
    "takeaway": "Teach a monthly head-to-toe skin self-exam, including the scalp, soles and between the toes, and report any new or changing lesion.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1363,7 +1360,7 @@
    ],
    "rationales": [
     "Correct. Moisturized skin is more flexible and less likely to tear.",
-    "Pulling on the arms causes shear and friction that tear fragile skin; support the client under the arms or use a gait belt instead.",
+    "Pulling on the arms causes shear and friction that tear fragile skin; assess transfer ability and use suitable transfer equipment, staff assistance, and a gait/transfer belt when appropriate. Avoid pulling on the arms or lifting under the axillae.",
     "Correct. Bumping into hard edges is a common cause of skin tears.",
     "Correct. Clothing gives a protective layer over thin skin.",
     "Hot water and deodorant soaps dry the skin and make it more fragile.",
@@ -1371,8 +1368,8 @@
    ],
    "takeaway": "Prevent skin tears in older adults by moisturizing, padding hard edges, covering the limbs and avoiding pulling or friction on the skin.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-753e16bd6b",
+    "v-e8af4c0d77"
    ],
    "reviewed": "v4"
   },
@@ -1411,7 +1408,7 @@
    ],
    "takeaway": "Skin tear care: control bleeding, cleanse gently, realign the flap, use a nonadherent dressing and mark the removal direction.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1451,8 +1448,8 @@
    ],
    "takeaway": "Oral methotrexate for psoriasis is taken once WEEKLY; teach no alcohol, contraception and regular blood count and liver monitoring.",
    "refs": [
-    "dailymed",
-    "ismp-highalert"
+    "v-5d30b898c2",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -1483,8 +1480,8 @@
    ],
    "takeaway": "Before starting a TNF inhibitor such as adalimumab, confirm TB screening and check for active infection.",
    "refs": [
-    "dailymed",
-    "openstax-pharm"
+    "v-2ea4675ad5",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1515,8 +1512,8 @@
    ],
    "takeaway": "Oral terbinafine for toenail fungus is taken for the full 12 weeks; teach that improvement is slow and to report signs of liver injury or taste changes.",
    "refs": [
-    "dailymed",
-    "openstax-pharm"
+    "v-f213a0e3e7",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1556,8 +1553,8 @@
    ],
    "takeaway": "Eczema care centers on moisture: short lukewarm baths, emollient right after, soft cotton clothing and short nails to limit scratch damage.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1588,8 +1585,8 @@
    ],
    "takeaway": "Visible skin disease can cause stigma, withdrawal and depression; explore feelings with open-ended, nonjudgmental responses.",
    "refs": [
-    "openstax-psych",
-    "openstax-medsurg"
+    "v-97bf916e84",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1620,8 +1617,7 @@
    ],
    "takeaway": "At the end of life, individualize repositioning to the client's comfort and goals of care rather than following a fixed turning schedule.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-753e16bd6b"
    ],
    "reviewed": "v4"
   },
@@ -1652,8 +1648,7 @@
    ],
    "takeaway": "Match the dressing to the drainage: alginate or foam for heavy exudate, hydrogel for dry wounds, film or hydrocolloid for light drainage.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-b8b43030e2"
    ],
    "reviewed": "v4"
   },
@@ -1684,8 +1679,7 @@
    ],
    "takeaway": "Clean, granulating wounds need a moist, protected environment; wet-to-dry gauze removes healthy tissue and should be questioned.",
    "refs": [
-    "npiap",
-    "openstax-fund"
+    "v-b8b43030e2"
    ],
    "reviewed": "v4"
   },
@@ -1716,7 +1710,7 @@
    ],
    "takeaway": "For older adults with dry skin: warm (not hot) water, mild cleanser, gentle patting and emollient on damp skin.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1747,7 +1741,8 @@
    ],
    "takeaway": "Medical devices such as oxygen tubing cause pressure injuries; pad contact points and inspect under devices regularly.",
    "refs": [
-    "npiap"
+    "v-e8af4c0d77",
+    "v-753e16bd6b"
    ],
    "reviewed": "v4"
   }

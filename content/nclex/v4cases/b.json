@@ -5,7 +5,7 @@
   "sub": "Post-op day 1, ankle ORIF · Orthopedic unit",
   "clientNeed": "psych",
   "area": "Psychosocial Integrity",
-  "profile": "52-year-old man admitted after a fall at home, now post-op day 1 after open reduction and internal fixation (ORIF) of a right ankle fracture. On admission he reported drinking \"a few beers on weekends.\"",
+  "profile": "52-year-old man, postoperative day 1 after ankle ORIF following a fall. He initially reported weekend drinking; with consent, partner clarifies daily heavy drinking and last drink 36 hours before current assessment, plus a documented prior withdrawal seizure. Now restless/diaphoretic with hand tremor, visual/tactile hallucinations, HR 118/min, BP 166/98 mmHg, SpO₂ 96% on room air; incision clean, pedal pulse 2+, pain 4/10. At initial assessment he remains oriented and can answer CIWA-Ar questions reliably; score 18, magnesium 1.3 mg/dL, MCV 104 fL, AST 96 U/L, ALT 40 U/L. Prescribed symptom-triggered lorazepam, prompt thiamine, magnesium replacement and seizure/respiratory precautions. If delirium prevents reliable responses, use the facility’s appropriate observational assessment rather than CIWA-Ar. Treat any hypoglycemia promptly without waiting for thiamine.",
   "ehr": {
    "Notes": [
     [
@@ -185,7 +185,7 @@
       "answer": "long-term heavy alcohol use"
      }
     ],
-    "rationale": "Tremor, sweating, tachycardia, hypertension and hallucinations about 36 hours after the last drink fit alcohol withdrawal. On the CIWA-Ar, scores of about 8–10 or more usually trigger medication, and a score of 18 is well into the range where seizure and delirium tremens risk is high (cutoffs for \"severe\" vary by protocol, from above 15 to above 20). Oxycodone causes sedation and slow breathing, not agitation. Fat embolism usually follows long-bone or pelvic fractures and causes low oxygen and petechiae. Low magnesium makes nerve cells more excitable and raises seizure risk. Large red cells (high MCV) and an AST:ALT ratio above 2 are classic signs of chronic heavy drinking; blood loss and iron deficiency make red cells normal-sized or small.",
+    "rationale": "Timing and collateral history support withdrawal. CIWA-Ar 18 is moderate by ASAM and warrants protocol-directed treatment in a reliably communicative client; it does not independently classify severe withdrawal. Hypomagnesemia raises concern and needs replacement. Macrocytosis and AST-predominant elevation can support the history but are nonspecific and not proof of alcohol use. If delirium compromises self-report, use an appropriate observational scale.",
     "stepLabel": "Analyze Cues"
    },
    {
@@ -212,7 +212,7 @@
      ]
     ],
     "answer": "a",
-    "rationale": "Withdrawal seizures usually occur 6–48 hours after the last drink, and delirium tremens usually appears at 48–96 hours, so at 36 hours he is in the seizure window and approaching the delirium tremens window. A past withdrawal seizure (\"shaking fit\"), a severe CIWA-Ar score and low magnesium all add to his risk. Hepatic encephalopathy causes drowsiness and asterixis rather than tremor, sweating and a racing pulse. Fat embolism is mainly a risk after long-bone fractures and would cause hypoxemia. He is agitated and breathing fast, which is the opposite of opioid-induced respiratory depression.",
+    "rationale": "Prior withdrawal seizure, current symptoms and 36-hour cessation make seizure prevention and close surveillance urgent. Withdrawal seizures and delirium are possible complications, not an inevitable serial progression. The displayed pattern does not establish hepatic encephalopathy, fat embolism or current opioid hypoventilation; assess alternative causes when the clinical course suggests them.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
@@ -256,7 +256,7 @@
       "Not indicated"
      ]
     ],
-    "rationale": "Seizure precautions are needed because he is in the peak seizure window. Benzodiazepines given by symptom-triggered CIWA-Ar dosing are first-line treatment and prevent seizures and delirium tremens. Thiamine is given before (or with) dextrose because glucose metabolism uses up thiamine and can trigger Wernicke encephalopathy in a thiamine-deficient client. A calm, well-lit room reduces frightening misperceptions of shadows, and frequent reorientation helps. Restraints increase agitation and injury and are a last resort only when less restrictive measures fail. Lorazepam should not be withheld because of the opioid order; instead the nurse monitors sedation and respirations closely and spaces PRN doses safely.",
+    "rationale": "Use seizure precautions, prescribed benzodiazepine treatment, calm reorientation and prompt thiamine. ASAM allows glucose/thiamine in either order or concurrently; never delay urgent glucose for thiamine. Do not apply restraints automatically; use assessed least-restrictive measures. The opioid order requires careful sedation/respiratory review rather than automatic omission of all withdrawal treatment. Hold unsafe sedating doses and escalate when respiratory compromise occurs.",
     "stepLabel": "Generate Solutions"
    },
    {
@@ -339,16 +339,14 @@
       "Requires follow-up"
      ]
     ],
-    "rationale": "A falling CIWA-Ar score, settling vital signs, no further seizures and a normal magnesium show withdrawal is being controlled. Difficulty waking with a slowing respiratory rate after an opioid on top of a benzodiazepine signals oversedation: the nurse holds further sedating doses, stimulates and monitors the client closely (SpO₂, respirations), and notifies the provider.",
+    "rationale": "Lower reliable CIWA scores/vital signs, no recurrent seizures and corrected magnesium are favorable. Difficulty arousing with RR 10 after combined sedatives requires immediate airway/ventilation assessment, withholding further sedatives and calling for help. Support ventilation and give cause-appropriate ordered reversal when indicated; monitoring/notification alone must not delay rescue. Continue withdrawal surveillance using an appropriate assessment tool.",
     "stepLabel": "Evaluate Outcomes"
    }
   ],
   "source": "rnr",
   "topic": "Mental Health",
   "refs": [
-   "openstax-psych",
-   "openstax-pharm",
-   "openstax-medsurg"
+   "v-dc35fb9b14"
   ],
   "reviewed": "v4"
  },
@@ -358,7 +356,7 @@
   "sub": "Dehydration and a new NSAID · Emergency department",
   "clientNeed": "pharm",
   "area": "Pharmacological & Parenteral Therapies",
-  "profile": "34-year-old woman with bipolar I disorder, stable on lithium carbonate for 3 years, brought to the emergency department by her partner.",
+  "profile": "34-year-old woman with bipolarI disorder taking lithium carbonate for 3 years. Partner reports prescribed dosing without extra doses and steady mood. Recent vomiting/diarrhea, poor intake and ibuprofen use for wrist pain. Baseline creatinine 0.8 mg/dL, now 1.6 mg/dL; lithium 2.4 mEq/L, glucose 96 mg/dL, TSH within lab range. Coarse tremor, twitching, slurred speech, orientation to person only and ataxic gait; BP 98/60 mmHg, HR 112/min, SpO₂ 97%. ECG shows flattened T waves. Hold lithium/NSAIDs, give prescribed reassessed isotonic fluid and monitor neurologic/cardiac/renal status. Urgent toxicology/poison-center and nephrology consultation evaluate significant confusion, renal dysfunction, serial levels and dialysis indications; hydration alone is not assumed sufficient.",
   "ehr": {
    "Notes": [
     [
@@ -448,7 +446,7 @@
      "d",
      "g"
     ],
-    "rationale": "The lithium level is double the top of the therapeutic range. A coarse tremor, muscle twitching, slurred speech, confusion and an unsteady gait are signs of moderate toxicity affecting the nervous system. The creatinine has doubled from her baseline, which means her kidneys are clearing lithium more slowly. Low blood pressure with a fast heart rate shows volume depletion. A stable mood, normal glucose and normal oxygen saturation do not need urgent action.",
+    "rationale": "Elevated lithium with neurologic findings, creatinine doubling and abnormal hemodynamics needs urgent toxicity/renal/volume assessment. Severity depends on symptoms, chronicity and renal clearance, not level alone. The displayed stable mood, glucose and saturation do not remove the toxicity emergency; significant confusion requires specialist consideration of extracorporeal treatment.",
     "stepLabel": "Recognize Cues"
    },
    {
@@ -560,7 +558,7 @@
       "m2"
      ]
     },
-    "rationale": "A high lithium level with coarse tremor, twitching, slurred speech, confusion and ataxia after dehydration is lithium toxicity. Neuroleptic malignant syndrome follows antipsychotic use and causes high fever and rigidity. Serotonin syndrome follows serotonergic drugs and causes hyperthermia, agitation and clonus. Her mood is stable, so this is not mania. Stopping lithium and giving isotonic saline restore volume and sodium so the kidneys can excrete lithium. Restricting fluids, continuing lithium or adding an antipsychotic would make things worse. Serial lithium levels with renal function show whether the drug is clearing, and neurologic checks show whether toxicity is improving or progressing toward seizures.",
+    "rationale": "Hold lithium and give the prescribed carefully reassessed isotonic fluid while urgently involving toxicology/nephrology. Monitor serial lithium/renal results and neurologic course; significant confusion and impaired clearance require dialysis consideration under EXTRIP rather than hydration-only management. Fluid restriction/another lithium dose is inappropriate here; a nonspecific antipsychotic request does not correct the toxic exposure.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
@@ -682,9 +680,8 @@
   "source": "rnr",
   "topic": "Mental Health",
   "refs": [
-   "openstax-psych",
-   "openstax-pharm",
-   "dailymed"
+   "v-06be3de46d",
+   "v-04189785b2"
   ],
   "reviewed": "v4"
  },
@@ -694,7 +691,7 @@
   "sub": "Post-op night 1, open colectomy · Surgical unit",
   "clientNeed": "pharm",
   "area": "Pharmacological & Parenteral Therapies",
-  "profile": "71-year-old woman with obstructive sleep apnea (uses CPAP at home) and a BMI of 36, post-op night 1 after an open right hemicolectomy. She took no opioids before surgery. Her CPAP machine was not brought to the hospital.",
+  "profile": "71-year-old woman with OSA/homeCPAP and BMI 36, opioid-naive before open hemicolectomy, postoperative night 1. HomeCPAP unavailable. MAR/PCA:hydromorphone 0.2 mg demand dose,10-minute lockout, no basal infusion; diphenhydramine 25 mg given at 01:30. Daughter reports pressing the PCA during sleep at 02:00–03:30; ondansetron was ordered but not administered. At 03:40 responds only to firm stimulation, RR 6/shallow with pauses 15 seconds, pupils 2 mm/equal, SpO₂ 86% on 2 L/min, ETCO₂ 62 mmHg, palpable pulse 68/min, BP 118/70, temperature 36.8°C, glucose 118 mg/dL, dry dressing. Stop PCA, activate resuscitation assistance, continuously monitor and immediately assist ventilation. Prescribed postoperative naloxone titration 0.04 mg IV with reassessment every 2 minutes/repeat as needed to adequate ventilation and arousability; stocked 0.4 mg/mL solution. Preparation must not delay ventilation or available reversal.",
   "ehr": {
    "Notes": [
     [
@@ -859,7 +856,7 @@
       "answer": "PCA doses her daughter gave while she slept"
      }
     ],
-    "rationale": "Deep sedation, slow breathing and pinpoint pupils after many opioid doses fit opioid-induced respiratory depression. Bleeding would cause a fast heart rate and low blood pressure, not bradypnea with a slow pulse, and a stroke would usually cause one-sided findings. A rising ETCO₂ shows CO₂ building up from too little breathing; supplemental oxygen can keep SpO₂ looking acceptable for a while even as hypoventilation worsens. PCA is safe only because a sleepy client stops pressing the button. When a family member presses it (\"PCA by proxy\"), that safety check is lost. The lockout limits dosing, and ondansetron was not given.",
+    "rationale": "The supplied MAR/family report identifies opioid plus sedating-antihistamine exposure and PCA by proxy in an OSA/opioid-naive client. Rising ETCO₂ reflects inadequate ventilation; oxygen alone cannot remove retainedCO₂. Only the capable client may press a self-administered PCA button. Safety also depends on selection, settings and monitoring; a lockout does not make family administration safe. Other causes remain assessed clinically rather than excluded by one finding.",
     "stepLabel": "Analyze Cues"
    },
    {
@@ -930,14 +927,14 @@
       "Not indicated"
      ]
     ],
-    "rationale": "Stopping the opioid source, calling for help and supporting her airway and breathing come first. Naloxone should be diluted and titrated in small doses for a post-op client; a full dose given all at once can reverse all pain relief and cause severe pain, a surge in blood pressure and heart rate, vomiting and, rarely, pulmonary edema. Leaving her to sleep risks respiratory arrest. More oxygen alone may raise the SpO₂ but does not fix the hypoventilation that is causing CO₂ to build up.",
+    "rationale": "Stop opioid delivery, summon help, open the airway and immediately assist inadequate ventilation while administering prescribed naloxone. Postoperative small-dose titration seeks adequate breathing while limiting abrupt pain reversal, but 0.4 mg is not universally contraindicated for life-threatening overdose. Never withhold rescue while awaiting dilution. Sleeping/rechecking later or oxygen escalation alone does not treat this hypoventilation.",
     "stepLabel": "Generate Solutions"
    },
    {
     "id": "o5",
     "step": "takeAction",
     "kind": "order",
-    "stem": "The PCA has been stopped, the rapid response team is on the way, and her airway is open. Put the nurse's naloxone actions in order. Tap each in sequence; tap again to undo.",
+    "stem": "Assisted ventilation and continuous monitoring are already underway. The prescribed titration is 0.04 mg IV with reassessment every 2 minutes. Stock naloxone is 0.4 mg/mL. Order the preparation/dose/reassessment actions; rescue continues throughout.",
     "steps": [
      [
       "s3",
@@ -967,7 +964,7 @@
      "s4",
      "s5"
     ],
-    "rationale": "Diluting 0.4 mg to 10 mL makes 0.04 mg/mL so small doses can be given. Each dose is followed by a 2-minute reassessment, and doses are repeated only until breathing is adequate and she is arousable, which reverses sedation while keeping some pain relief. Naloxone lasts about 30–90 minutes, often less than hydromorphone, so the client must be watched closely afterward for sedation and slow breathing to return.",
+    "rationale": "0.4 mg in total 10 mL gives 0.04 mg/mL;1 mL supplies the ordered 0.04 mg dose. Follow each dose with the specified reassessment and conditional repeat/escalation. Ventilation/monitoring begin before and continue during titration. Naloxone can wear off before the opioid; continued observation and an individualized plan prevent missed recurrence. Do not postpone urgent available rescue for custom preparation.",
     "stepLabel": "Take Action"
    },
    {
@@ -1006,16 +1003,15 @@
       "Requires follow-up"
      ]
     ],
-    "rationale": "Normal breathing, easy arousal, normal oxygenation and a normal ETCO₂ with tolerable pain show the naloxone was titrated well. The daughter needs teaching that only the client may press the PCA button. At 05:20 the sedation and slow breathing have returned because the naloxone is wearing off before the hydromorphone; the nurse stimulates her, notifies the provider and follows the protocol for repeat naloxone doses, and the provider may revise the pain plan (for example, adding non-opioid analgesics).",
+    "rationale": "Improved ventilation/arousability, oxygenation/ETCO₂ and manageable pain are favorable. PCA-by-proxy teaching is required. Recurrent POSS 3 with RR 9 needs immediate respiratory assessment, continued opioid withholding, emergency assistance and ventilation/repeat naloxone under protocol when indicated; it is not a routine later follow-up. Reassess the opioid/OSA monitoring and analgesia plan before any restart.",
     "stepLabel": "Evaluate Outcomes"
    }
   ],
   "source": "rnr",
   "topic": "Pharmacology",
   "refs": [
-   "ismp-highalert",
-   "aha-resuscitation",
-   "openstax-pharm"
+   "v-6b61f293a8",
+   "v-51a493b7bf"
   ],
   "reviewed": "v4"
  },
@@ -1025,7 +1021,7 @@
   "sub": "First dose of cefazolin · Medical unit",
   "clientNeed": "pa",
   "area": "Physiological Adaptation",
-  "profile": "45-year-old man admitted this morning with cellulitis of the left lower leg. No known drug allergies. He is receiving his first dose of IV cefazolin.",
+  "profile": "45-year-old man admitted with left-leg cellulitis, no known drug allergies. At 10:00 pre-infusion assessment:BP 124/78 mmHg, HR 90/min, SpO₂ 97% on room air, temperature 38.0°C, WBC 14,200/µL, leg red/warm/swollen; normal voice and no hives/wheezing. First cefazolin infusion begins 10:05. At 10:12 new hoarse voice/throat tightness, lip swelling/generalized hives, expiratory wheezes, BP 84/48, HR 124/min and SpO₂ 89%. Emergency anaphylaxis orders include immediate trigger cessation, IM epinephrine 0.5 mg of 1 mg/mL solution into anterolateral thigh, repeat assessment/dosing per protocol, oxygen/airway support and reassessed isotonic-fluid bolus through suitable new tubing. The resuscitation team performs these actions concurrently; antihistamine is adjunctive after immediate rescue.",
   "ehr": {
    "Notes": [
     [
@@ -1151,7 +1147,7 @@
       "answer": "bronchospasm"
      }
     ],
-    "rationale": "Anaphylaxis is a sudden, IgE-mediated reaction in which mast cells and basophils release histamine and other mediators. Vasodilation and capillary leak cause hypotension and swelling, and smooth muscle contraction in the airways causes bronchospasm. It is not a dose-related toxic effect or a bacterial toxin: sepsis does not explain hives, lip swelling and wheezing appearing within minutes of a new drug. Fluid overload and heart damage would cause crackles and edema, not hives and capillary leak, and an effusion or embolism would not cause wheezing with airway swelling.",
+    "rationale": "Anaphylaxis involves mast-cell/basophil mediator release through IgE or non-IgE pathways. Vasodilation/capillary leak causes hypotension and swelling; bronchospasm/airway edema impairs breathing. The abrupt multi-system pattern after cefazolin supports anaphylaxis rather than isolated dose toxicity or cellulitis-related fever. Mechanism is not proven solely from this clinical presentation.",
     "stepLabel": "Analyze Cues"
    },
    {
@@ -1287,7 +1283,7 @@
     "id": "x5",
     "step": "takeAction",
     "kind": "order",
-    "stem": "The nurse has called the rapid response team. Put the nurse's actions in priority order. Tap each in sequence; tap again to undo.",
+    "stem": "The rapid response team has been activated. Which actions should proceed immediately during this anaphylactic emergency? Select all that apply.",
     "steps": [
      [
       "s4",
@@ -1317,7 +1313,7 @@
      "s4",
      "s5"
     ],
-    "rationale": "Current anaphylaxis guidance (AHA and allergy societies) is to remove the trigger and give IM epinephrine without delay. Stopping the infusion takes seconds and prevents more drug from entering. IM epinephrine into the anterolateral thigh comes next because it is the only drug that treats airway swelling, bronchospasm and shock together, and delayed epinephrine is linked to deaths. High-flow oxygen then treats hypoxemia (breathing before circulation). A rapid isotonic fluid bolus through new tubing replaces the volume lost to vasodilation and capillary leak. Antihistamines are adjuncts for hives and itching only and come after the life-saving steps.",
+    "rationale": "Remove the trigger and give IM epinephrine immediately while team members support oxygenation/airway and circulation concurrently. Do not impose an oxygen-before-fluid delay in simultaneous hypoxemia/shock. Antihistamine relieves skin symptoms but does not replace epinephrine or treat obstructed airway/shock. Standing risks collapse. Reassess for repeat epinephrine and escalation under protocol.",
     "stepLabel": "Take Action"
    },
    {
@@ -1363,9 +1359,7 @@
   "source": "rnr",
   "topic": "Immunology & Infectious Disease",
   "refs": [
-   "aha-resuscitation",
-   "openstax-medsurg",
-   "openstax-pharm"
+   "v-6e2b764916"
   ],
   "reviewed": "v4"
  },
@@ -1375,7 +1369,7 @@
   "sub": "Post-op day 2, hemiarthroplasty · Orthopedic unit",
   "clientNeed": "safety",
   "area": "Safety & Infection Control",
-  "profile": "82-year-old woman, post-op day 2 after a left hip hemiarthroplasty for a femoral neck fracture. She lives alone and walks with a cane. Her daughter says she was \"sharp as a tack\" before the fall. She wears glasses and two hearing aids.",
+  "profile": "82-year-old woman, postoperative day 2 after left hip hemiarthroplasty. Lives alone, walks with a cane and has no diagnosed dementia; wears glasses/hearing aids. At 16:00 yesterday she was oriented to person/place/time, attentive and CAM negative. At 02:00 now pulls at IV/tries to climb out of bed, oriented only to person, cannot maintain attention or name months backward, fluctuates between drowsiness/agitation, and says she must feed chickens (daughter confirms she owns no chickens). Glasses/hearing aids are in a drawer; diphenhydramine was given for sleep. Last analgesic 14:00 yesterday; self-report is currently unreliable, so local protocol uses a validated observational pain measure (recorded score 5). No stool 4 days; Foley drains without documented retention. Temperature 37.4°C, SpO₂ 94% on room air, incision dry, pulses 2+. Provider evaluates acute delirium and reversible causes; lorazepam has been ordered by phone without a withdrawal indication.",
   "ehr": {
    "Notes": [
     [
@@ -1533,7 +1527,7 @@
     "id": "d3",
     "step": "prioritizeHypotheses",
     "kind": "multi",
-    "stem": "Which factors are most likely contributing to the client's delirium? Select all that apply.",
+    "stem": "Which displayed modifiable factors may contribute to the client’s delirium? Select all that apply.",
     "options": [
      [
       "a",
@@ -1566,7 +1560,7 @@
      "c",
      "d"
     ],
-    "rationale": "Anticholinergic drugs such as diphenhydramine are a leading drug cause of delirium in older adults and are on the list of medications to avoid in this age group. Missing glasses and hearing aids cut her off from her surroundings. Untreated pain is a strong trigger; she has not had analgesia in 12 hours and may not be able to ask for it. Constipation and an indwelling catheter (urinary retention, infection risk, restricted movement) are common contributors. Weight-bearing helps prevent delirium by promoting early mobility, and enoxaparin is not linked to delirium.",
+    "rationale": "Anticholinergic diphenhydramine, unavailable sensory aids, inadequately treated pain and constipation/catheter burden are modifiable contributors. The supplied timeline establishes 12 hours since analgesia. Attempt self-report whenever reliable; use the local validated observational tool when it is not. The catheter adds tethering/infection concerns but does not establish retention when it drains. Assess other physiologic/medication causes concurrently. Safe mobility and prescribed thromboprophylaxis are not the displayed causative factors.",
     "stepLabel": "Prioritize Hypotheses"
    },
    {
@@ -1610,7 +1604,7 @@
       "Not indicated"
      ]
     ],
-    "rationale": "Delirium is managed first by finding and fixing causes and by nonpharmacologic measures: sensory aids, familiar people and objects, frequent reorientation, treating pain (regular acetaminophen reduces the need for opioids), and removing tethers such as catheters as soon as possible. Constant light and noise at night disrupt sleep, which worsens delirium; the room should be bright by day and dark and quiet at night. Restraints increase agitation, injury and the length of delirium; less restrictive options (a sitter, family, covering or removing the IV if not needed) are tried first.",
+    "rationale": "Restore sensory aids, use familiar support/reorientation, review catheter need and constipation, assess/treat pain appropriately and investigate reversible causes. Self-report remains preferred when feasible; use a suitable observational tool when unreliable. Preserve sleep with low nighttime noise/light and safe daytime activity. Do not apply automatic restraints to protect an IV; assessed least-restrictive measures come first.",
     "stepLabel": "Generate Solutions"
    },
    {
@@ -1676,16 +1670,15 @@
       "Requires follow-up"
      ]
     ],
-    "rationale": "Normal orientation with a negative CAM, better sleep, normal elimination, early mobility and controlled pain show the plan is working. Delirium can fluctuate and often worsens in the evening, and it may take days to weeks to fully clear. New confusion at 20:00 means delirium has not resolved: the nurse keeps fall precautions in place, reorients her, checks for new causes (such as pain, infection or medications), and reports the change.",
+    "rationale": "Recovered attention/orientation with negative CAM, sleep, normal elimination, assisted mobility and reliable low pain self-report are favorable findings. Prefer self-report when the client can provide it; an observational score is not interchangeable with a numerical self-report. Delirium can fluctuate, and renewed disorientation/unsafe attempts to rise at 20:00 require immediate safety measures, reassessment of reversible causes and provider follow-up.",
     "stepLabel": "Evaluate Outcomes"
    }
   ],
   "source": "rnr",
   "topic": "Fundamentals & Safety",
   "refs": [
-   "ags-beers",
-   "openstax-fund",
-   "openstax-medsurg"
+   "v-789b3c5ca0",
+   "v-7949952278"
   ],
   "reviewed": "v4"
  }

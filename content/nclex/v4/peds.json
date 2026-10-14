@@ -14,22 +14,21 @@
    "level": "Apply",
    "stem": "At a well-child visit, the nurse assesses a healthy 9-month-old. Which finding should the nurse expect at this age?",
    "options": [
-    "Sits steadily without support and crawls",
+    "Sits without support and gets into a sitting position independently",
     "Walks alone across the room without holding on",
     "Says several words and points to named body parts",
     "Stacks a tower of six small blocks"
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Most infants sit without support by about 6 to 8 months and crawl and pull to stand around 9 months.",
+    "Correct. The CDC 9-month checklist includes sitting without support and getting into a sitting position. Crawling patterns/timing vary and crawling is not a required checklist milestone.",
     "Independent walking usually appears between 12 and 15 months, so it is not expected at 9 months.",
     "Using several words and pointing to body parts are typical of about 15 to 18 months.",
     "A six-block tower is a fine-motor skill of about 2 years."
    ],
-   "takeaway": "By 9 months infants sit steadily and crawl; independent walking usually comes at 12 to 15 months.",
+   "takeaway": "At 9 months, expect sitting without support and getting into a sitting position. Assess development using a validated screen; absence of crawling alone is not a CDC milestone failure.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-36c6ca62d6"
    ],
    "reviewed": "v4"
   },
@@ -68,8 +67,8 @@
    ],
    "takeaway": "Toddlers use two-word phrases and engage in parallel play; tricycles and rule-based games come in the preschool years.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -100,8 +99,8 @@
    ],
    "takeaway": "Separation anxiety in toddlers moves from protest to despair to detachment; quiet withdrawal is despair, not adjustment.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -132,8 +131,8 @@
    ],
    "takeaway": "Preschoolers fear bodily mutilation; a bandage over a puncture site is a simple, effective reassurance.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -164,7 +163,7 @@
    ],
    "takeaway": "Infants younger than 8 months in their first RSV season need an RSV monoclonal antibody unless the mother was vaccinated at least 14 days before birth; second-season doses are only for high-risk children 8 to 19 months old.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -195,7 +194,7 @@
    ],
    "takeaway": "Immunosuppressed children must not receive live vaccines, but they should receive inactivated vaccines such as the influenza injection.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -234,7 +233,7 @@
    ],
    "takeaway": "Interrupted vaccine series are never restarted, and live injected vaccines are given the same day or at least 28 days apart.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -277,7 +276,7 @@
    ],
    "takeaway": "Hold vaccines for a severe allergic reaction to a prior dose or for live vaccines in immunosuppressed children; mild illness, egg allergy, and a pregnant household member are not reasons to delay.",
    "refs": [
-    "cdc-immunization"
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -308,8 +307,8 @@
    ],
    "takeaway": "Anaphylaxis after a vaccine is treated first with IM epinephrine in the thigh; antihistamines are only add-on therapy.",
    "refs": [
-    "cdc-immunization",
-    "medline-children"
+    "v-830384339f",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -344,16 +343,16 @@
     0
    ],
    "rationales": [
-    "An awake school-age child normally has a heart rate of roughly 75 to 120/min; 52/min is bradycardia and needs assessment.",
+    "An awake, calm school-age child with heart rate 52/min needs assessment for clinically significant bradycardia; verify measurement, symptoms, and baseline. Normal ranges vary by reference and context.",
     "These values are within the normal range for an awake infant.",
     "These values are within the normal range for a calm toddler or preschooler.",
-    "A resting infant normally breathes about 30 to 53 times per minute; 68/min is tachypnea and needs assessment.",
+    "Respiratory rate 68/min is high for a sleeping 4-month-old and warrants assessment of effort, oxygenation, fever, and illness.",
     "These values are normal for an adolescent at rest."
    ],
    "takeaway": "Pediatric heart and respiratory rates fall with age; know the normal ranges so bradycardia in a school-age child or tachypnea in a resting infant is recognized.",
    "refs": [
-    "aha-resuscitation",
-    "medline-children"
+    "v-527791177d",
+    "v-51a493b7bf"
    ],
    "reviewed": "v4"
   },
@@ -384,8 +383,8 @@
    ],
    "takeaway": "FLACC scores face, legs, activity, cry, and consolability from 0 to 2 each (0 to 10) for children who cannot self-report; 7 or more indicates severe pain.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -416,8 +415,8 @@
    ],
    "takeaway": "Severe dehydration with signs of shock needs a 20 mL/kg isotonic crystalloid bolus and reassessment; potassium is added only after urine output is confirmed.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -448,7 +447,7 @@
    ],
    "takeaway": "After rehydration, children with gastroenteritis should resume their usual age-appropriate diet; a restrictive BRAT diet is no longer recommended.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -479,8 +478,8 @@
    ],
    "takeaway": "Persistent vomiting in pyloric stenosis causes hypochloremic, hypokalemic metabolic alkalosis, which is corrected before surgery.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -511,8 +510,8 @@
    ],
    "takeaway": "After intussusception reduction, a normal stool is reassuring, while returning colicky pain, vomiting, or currant-jelly stool can signal recurrence.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -543,8 +542,8 @@
    ],
    "takeaway": "Delayed passage of meconium beyond 24 to 48 hours is a classic early sign of Hirschsprung disease.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -575,7 +574,7 @@
    ],
    "takeaway": "Infants with cleft lip and palate feed best upright with a specialized bottle, frequent burping, and feedings of about 30 minutes.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -590,10 +589,10 @@
    "type": "matrix",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A 3-month-old is recovering after surgical repair of a cleft lip. For each action, indicate whether it is indicated or not indicated to protect the repair.",
+   "stem": "A 3-month-old is recovering after surgical repair of a cleft lip. For this repair, the surgeon orders elbow immobilizers with supervised skin/range-of-motion checks, no pacifier until cleared, and prescribed gentle suture-line cleaning. Routine sleep positioning remains supine. For each action, indicate whether it is indicated or not indicated to protect the repair.",
    "rows": [
     "Use elbow immobilizers, removing them one at a time to check the skin and allow movement",
-    "Position the infant on the back or side rather than on the abdomen",
+    "Place the infant supine for routine sleep on a firm, flat surface",
     "Offer a pacifier to soothe crying",
     "Clean the suture line gently after feedings as prescribed"
    ],
@@ -609,13 +608,13 @@
    ],
    "rationales": [
     "Elbow immobilizers keep the infant's hands away from the suture line; releasing one at a time protects the repair while allowing skin checks and range of motion.",
-    "Lying on the abdomen lets the infant rub the face on the bedding and disrupt the suture line.",
-    "Sucking on a pacifier puts tension on the lip repair and is avoided until healing.",
+    "Indicated. Supine positioning on a firm, flat surface is the routine safe-sleep position; side positioning is not routinely recommended. Use individualized monitored recovery positioning only under a specific medical order.",
+    "Not indicated under this client’s specific repair-protection order. Pacifier restrictions differ by surgeon/procedure; follow the cleft team’s plan.",
     "Gentle cleaning removes formula and crusts that could lead to infection and scarring."
    ],
-   "takeaway": "After cleft lip repair, protect the suture line with elbow immobilizers, back or side positioning, and gentle cleaning; avoid pacifiers and anything that rubs the lip.",
+   "takeaway": "Follow the surgeon’s individualized lip-repair protection orders. Use supine routine sleep; do not generalize pacifier or immobilizer restrictions to every repair.",
    "refs": [
-    "medline-children"
+    "v-e86eac7cba"
    ],
    "reviewed": "v4"
   },
@@ -630,7 +629,7 @@
    "type": "mcq",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A 12-month-old is going home after cleft palate repair. Which statement by the parent indicates a need for further teaching?",
+   "stem": "A 12-month-old is going home after cleft palate repair. For the next 2 weeks, this surgeon orders liquids by wide-rimmed open cup, soft/blended foods, and no straws, utensils in the mouth, or hard objects until cleared. Which statement by the parent indicates a need for further teaching?",
    "options": [
     "\"I'll give fluids from a wide-rimmed open cup.\"",
     "\"I'll let her drink juice through a straw so she doesn't have to suck hard on a bottle.\"",
@@ -639,14 +638,14 @@
    ],
    "correct": 1,
    "rationales": [
-    "An open cup is the recommended way to give fluids after palate repair.",
+    "Correct understanding of this specific surgeon’s ordered technique. Feeding devices/restrictions differ among repairs and teams.",
     "Correct. This needs correction: straws can poke the palate repair and create suction on the suture line.",
     "Keeping utensils and hard objects out of the mouth protects the palate while it heals.",
-    "Soft foods are recommended while the palate heals."
+    "Correct understanding of this client’s ordered soft/blended diet until the surgeon clears progression."
    ],
-   "takeaway": "After cleft palate repair, keep straws, utensils, pacifiers, and hard objects out of the mouth; use an open cup and soft foods.",
+   "takeaway": "Follow the cleft team’s prescribed feeding device, texture, and duration of restrictions; do not assume every repair uses the same protocol.",
    "refs": [
-    "medline-children"
+    "v-a45d5a2096"
    ],
    "reviewed": "v4"
   },
@@ -689,8 +688,8 @@
    ],
    "takeaway": "Bronchiolitis care is supportive (oxygen when SpO₂ stays below 90% and fluids when oral intake is inadequate); routine steroids, antibiotics, and chest x-rays are not recommended.",
    "refs": [
-    "aap-bronchiolitis",
-    "medline-children"
+    "v-f33547bb2b",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -729,7 +728,7 @@
    ],
    "takeaway": "For bulb suctioning, use saline first, compress the bulb before inserting it, release inside the nostril, and empty it away from the infant.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -772,7 +771,7 @@
    ],
    "takeaway": "Croup is gradual, viral, with a barking cough; epiglottitis is sudden, bacterial, with high fever, drooling, and tripod positioning, and needs immediate airway support.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -803,7 +802,7 @@
    ],
    "takeaway": "Asthma action plan zones: green 80% to 100% of personal best, yellow 50% to 79% (quick-relief medicine and follow the plan), red below 50% (get help now).",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -834,8 +833,8 @@
    ],
    "takeaway": "Give the bronchodilator before an inhaled corticosteroid, and rinse the mouth after the steroid to prevent thrush.",
    "refs": [
-    "openstax-pharm",
-    "medline-children"
+    "v-df1c5b2874",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -874,8 +873,9 @@
    ],
    "takeaway": "In cystic fibrosis, give the bronchodilator before hypertonic saline, never mix dornase alfa with other nebulized drugs, follow with airway clearance, and give fat-soluble vitamins with food and enzymes.",
    "refs": [
-    "dailymed",
-    "medline-children"
+    "v-83b2f0b294",
+    "v-e5fd8e1119",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -914,7 +914,7 @@
    ],
    "takeaway": "Avoiding smoke exposure and bottle propping and keeping vaccines current lower the risk of recurrent otitis media.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -956,8 +956,8 @@
    ],
    "takeaway": "For ear drops in children younger than 3, warm the drops, position affected ear up, and pull the pinna down and back.",
    "refs": [
-    "openstax-pharm",
-    "openstax-fund"
+    "v-df1c5b2874",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -988,7 +988,7 @@
    ],
    "takeaway": "Before tonsillectomy, screen for bleeding risk such as easy bruising, a family bleeding disorder, or aspirin use, because hemorrhage is the main postoperative danger.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1028,7 +1028,7 @@
    ],
    "takeaway": "After tonsillectomy, cool fluids and soft foods keep the child hydrated and protect the surgical site; avoid red or brown colors, citrus, and rough foods.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1068,7 +1068,7 @@
    ],
    "takeaway": "Infant heart failure appears as tachypnea, sweating and fatigue with feedings, and poor weight gain rather than the dependent edema seen in adults.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1099,7 +1099,7 @@
    ],
    "takeaway": "Squatting and the knee-chest position raise systemic vascular resistance, reducing the right-to-left shunt in tetralogy of Fallot and improving oxygenation.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1142,7 +1142,7 @@
    ],
    "takeaway": "After pediatric cardiac catheterization, check the site for bleeding and the affected leg's pulses, color, and temperature, and keep the leg straight.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1181,7 +1181,7 @@
    ],
    "takeaway": "Infant toys should support sensorimotor play and be too large to swallow; avoid small objects, latex balloons, and wheeled walkers.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1212,9 +1212,9 @@
    ],
    "takeaway": "After IVIG, live vaccines such as MMR and varicella are delayed about 11 months; children on aspirin need flu vaccination and prompt reporting of flu or chickenpox exposure.",
    "refs": [
-    "openstax-pharm",
-    "medline-children",
-    "cdc-immunization"
+    "v-df1c5b2874",
+    "v-da1ec74f3c",
+    "v-830384339f"
    ],
    "reviewed": "v4"
   },
@@ -1233,20 +1233,19 @@
    "options": [
     "\"If I miss a dose by more than 4 hours, I'll give two doses together next time.\"",
     "\"I'll mix the medicine into a full bottle of formula so it's easier to give.\"",
-    "\"If my baby vomits after a dose, I won't repeat it, and I'll give the next dose at the usual time.\"",
+    "\"If my baby vomits after a dose, I won't repeat it; I'll call the clinician for advice about vomiting and the next dose.\"",
     "\"Vomiting and poor feeding are expected side effects that don't need to be reported.\""
    ],
    "correct": 2,
    "rationales": [
     "Doubling a dose of a narrow-therapeutic-range drug can cause toxicity.",
     "If the infant does not finish the bottle, the full dose is not received.",
-    "Correct. Repeating a dose after vomiting risks toxicity because the amount absorbed is unknown; the next dose is given on schedule.",
+    "Correct. Do not repeat a vomited dose because the absorbed amount is unknown. Vomiting or poor intake can be a toxicity cue; contact the clinician, particularly for recurrent symptoms, and follow individualized next-dose guidance.",
     "Vomiting, poor feeding, and a slow heart rate can be signs of digoxin toxicity and should be reported."
    ],
-   "takeaway": "Give pediatric digoxin at regular times, never double or repeat a dose, and report vomiting, poor feeding, or slow heart rate as possible toxicity.",
+   "takeaway": "Never double or repeat a vomited digoxin dose. Report vomiting, poor intake, or slow heart rate and obtain clinical guidance rather than automatically continuing despite possible toxicity.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-902e6941e5"
    ],
    "reviewed": "v4"
   },
@@ -1277,8 +1276,8 @@
    ],
    "takeaway": "Completing the full antibiotic course for group A streptococcal pharyngitis is the key to preventing acute rheumatic fever.",
    "refs": [
-    "medline-children",
-    "openstax-pharm"
+    "v-da1ec74f3c",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1309,8 +1308,8 @@
    ],
    "takeaway": "Headache, decreasing level of consciousness, and bradycardia during DKA treatment in a child signal cerebral edema.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1350,7 +1349,7 @@
    ],
    "takeaway": "During illness, children with type 1 diabetes keep taking basal insulin, check glucose and ketones often, keep fluids up, and call for persistent vomiting or moderate to large ketones.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1381,7 +1380,7 @@
    ],
    "takeaway": "In adolescents, the need for peer acceptance often undermines chronic illness care; address it with discreet routines and peer support rather than repeating basic teaching.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1412,8 +1411,8 @@
    ],
    "takeaway": "During any seizure, turn the child to the side, protect from injury, time it, and never restrain the child or put anything in the mouth.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1444,7 +1443,7 @@
    ],
    "takeaway": "Stop swaddling as soon as an infant shows signs of rolling, and keep placing the infant on the back for every sleep until 1 year of age.",
    "refs": [
-    "aap-safesleep"
+    "v-e86eac7cba"
    ],
    "reviewed": "v4"
   },
@@ -1475,8 +1474,8 @@
    ],
    "takeaway": "A rapidly spreading nonblanching petechial or purpuric rash in a child with meningitis suggests meningococcemia and DIC; notify the provider immediately.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1516,7 +1515,7 @@
    ],
    "takeaway": "In infants, increased ICP shows as a bulging fontanel, rapid head growth, sunsetting eyes, and a high-pitched cry.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1547,8 +1546,8 @@
    ],
    "takeaway": "In a child with a shunt, headache, vomiting, and lethargy point to shunt malfunction until proven otherwise.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1584,8 +1583,8 @@
    ],
    "takeaway": "SBAR (Situation, Background, Assessment, Recommendation) gives providers urgent information in a clear, predictable order.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1600,9 +1599,9 @@
    "type": "sata",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A 5-year-old with spastic cerebral palsy has trouble chewing and swallowing and is losing weight. Which feeding measures should the nurse recommend? Select all that apply.",
+   "stem": "A 5-year-old with spastic cerebral palsy has trouble chewing and swallowing and is losing weight. The swallowing team has prescribed supported upright head/trunk positioning, small soft bites, and a specified liquid consistency after evaluation. Which feeding measures should the nurse recommend? Select all that apply.",
    "options": [
-    "Seat the child upright with the head slightly flexed forward",
+    "Seat the child upright with head and trunk positioned as prescribed by the swallowing team",
     "Tilt the child's head back so food slides to the back of the throat",
     "Offer sips of water with each bite to wash the food down",
     "Offer small bites and allow time to chew and swallow each one",
@@ -1616,16 +1615,16 @@
     5
    ],
    "rationales": [
-    "Correct. An upright position with a slight chin tuck helps protect the airway during swallowing.",
+    "Correct. Use the individually evaluated head/trunk posture; chin flexion is not a universal safe swallowing maneuver.",
     "Tilting the head back opens the airway to food and increases aspiration risk.",
     "Thin liquids are the hardest to control and are easily aspirated.",
     "Correct. Small, unhurried bites reduce the risk of choking and aspiration.",
-    "Correct. Thickened liquids are often easier to control than thin liquids when swallowing is impaired.",
+    "Correct. Use the evaluated liquid consistency and monitor tolerance; no consistency eliminates aspiration risk for every child.",
     "Correct. Spasticity and the effort of eating increase energy needs, and soft foods are easier to manage."
    ],
-   "takeaway": "Children with cerebral palsy often need extra calories and are at risk for aspiration; feed upright with the chin slightly tucked, using small bites and recommended textures.",
+   "takeaway": "Use the individualized swallowing/nutrition plan: prescribed posture, bite size/pacing, evaluated texture/consistency, and nutrition support.",
    "refs": [
-    "medline-children"
+    "v-14a136e14a"
    ],
    "reviewed": "v4"
   },
@@ -1656,7 +1655,7 @@
    ],
    "takeaway": "Every newborn with Down syndrome needs an echocardiogram because congenital heart defects are common; routine neck x-rays are not recommended without symptoms.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1687,7 +1686,7 @@
    ],
    "takeaway": "Splenic sequestration causes a rapidly enlarging spleen, severe anemia, and shock in young children with sickle cell disease; it is an emergency.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1702,12 +1701,12 @@
    "type": "sata",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A 10-year-old with sickle cell disease is admitted with a vaso-occlusive pain crisis in the knees and lower back. Which comfort measures should the nurse include along with prescribed analgesics? Select all that apply.",
+   "stem": "A 10-year-old with sickle cell disease is admitted with a vaso-occlusive pain crisis in the knees and lower back. The child is euvolemic without heart or renal failure, and the team has prescribed a total fluid plan that adjusts IV fluid to oral intake. Which comfort measures should the nurse include along with prescribed analgesics? Select all that apply.",
    "options": [
     "Apply warm compresses to painful joints",
-    "Encourage oral fluids as tolerated along with prescribed IV fluids",
+    "Encourage oral fluids as tolerated within the prescribed total fluid plan and reassess intake/output and volume status",
     "Apply ice packs to the painful joints for 20 minutes",
-    "Limit fluids to prevent fluid overload",
+    "Restrict all oral fluids despite euvolemia and the prescribed hydration plan",
     "Support painful joints with pillows in a position of comfort",
     "Use distraction such as video games, music, or guided imagery"
    ],
@@ -1719,15 +1718,15 @@
    ],
    "rationales": [
     "Correct. Warmth promotes vasodilation and comfort.",
-    "Correct. Hydration reduces blood viscosity and sickling.",
+    "Correct. Maintain euvolemia using the prescribed total oral/IV plan. If unable to drink, euvolemic clients generally receive no more than maintenance IV fluid; avoid excess fluid and unnecessary boluses.",
     "Cold causes vasoconstriction, which increases sickling and pain.",
-    "Fluid restriction worsens sickling; hydration is a main treatment.",
+    "Incorrect in this context. Unnecessary blanket restriction conflicts with the assessed plan. Overload, cardiac/renal disease, or other complications may require an individualized restriction; monitor rather than giving fluids indiscriminately.",
     "Correct. Positioning and support reduce pain.",
     "Correct. Distraction is an effective nonpharmacologic pain measure for school-age children."
    ],
-   "takeaway": "In vaso-occlusive crisis, use warmth (never cold), hydration, positioning, and distraction alongside scheduled analgesia.",
+   "takeaway": "Provide analgesia and comfort measures while maintaining euvolemia. Account for both oral and IV intake; avoid routine aggressive hydration and reassess for overload.",
    "refs": [
-    "medline-children"
+    "v-7b50a03546"
    ],
    "reviewed": "v4"
   },
@@ -1758,8 +1757,8 @@
    ],
    "takeaway": "Hydroxyurea raises fetal hemoglobin and MCV as expected, but bone marrow suppression, such as a low neutrophil count, must be reported.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-2c8990e68b"
    ],
    "reviewed": "v4"
   },
@@ -1802,8 +1801,8 @@
    ],
    "takeaway": "Tumor lysis syndrome causes hyperkalemia, hyperuricemia, hyperphosphatemia, and hypocalcemia, usually within 12 to 72 hours of starting chemotherapy.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1834,8 +1833,8 @@
    ],
    "takeaway": "Parent guilt is common after a child's cancer diagnosis; acknowledge it, normalize it, and give accurate information as part of family-centered care.",
    "refs": [
-    "medline-children",
-    "openstax-psych"
+    "v-da1ec74f3c",
+    "v-97bf916e84"
    ],
    "reviewed": "v4"
   },
@@ -1872,7 +1871,7 @@
    ],
    "takeaway": "With a suspected Wilms tumor, avoid palpating or putting pressure on the abdomen because rupture can spread cancer cells; monitor blood pressure.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -1903,8 +1902,8 @@
    ],
    "takeaway": "Pain out of proportion to the injury and pain with passive stretch are early signs of compartment syndrome; notify the provider immediately.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1935,8 +1934,8 @@
    ],
    "takeaway": "Salter-Harris fractures involve the growth plate; follow-up monitors for growth disturbance such as limb-length difference or angular deformity.",
    "refs": [
-    "medline-children",
-    "openstax-medsurg"
+    "v-da1ec74f3c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1975,8 +1974,8 @@
    ],
    "takeaway": "Cast care: elevate, check circulation often, keep it dry, and never put objects inside the cast.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -2007,7 +2006,7 @@
    ],
    "takeaway": "In the forward-bend (Adams) test, a rib or flank hump suggests structural scoliosis and needs referral.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2038,8 +2037,8 @@
    ],
    "takeaway": "Adolescents focus on body image and peer acceptance; acknowledge feelings and problem-solve to support adherence.",
    "refs": [
-    "medline-children",
-    "openstax-psych"
+    "v-da1ec74f3c",
+    "v-97bf916e84"
    ],
    "reviewed": "v4"
   },
@@ -2082,8 +2081,8 @@
    ],
    "takeaway": "Bruises in non-mobile infants, bruises on the ear, neck, or torso, patterned marks, and fractures in infants who cannot walk are red flags for maltreatment.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -2114,8 +2113,8 @@
    ],
    "takeaway": "Mandated reporters must report reasonable suspicion of child maltreatment; proof is not required, and the duty cannot be handed off.",
    "refs": [
-    "ana-ethics",
-    "medline-children"
+    "v-2f532beded",
+    "v-c1e3cb09fb"
    ],
    "reviewed": "v4"
   },
@@ -2155,7 +2154,7 @@
    ],
    "takeaway": "Lead exposure comes mainly from old paint dust (homes built before 1978), take-home work dust, some imported pottery and products, and old pipes.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2172,21 +2171,21 @@
    "level": "Apply",
    "stem": "A parent calls the pediatric clinic and says a 2-year-old swallowed a coin-sized button battery about 15 minutes ago. The child is breathing comfortably and playing. What should the nurse tell the parent?",
    "options": [
-    "\"Take your child to the emergency department now for an x-ray, even though your child seems fine.\"",
+    "\"Go to the emergency department now. If your child can swallow, give 10 mL of honey every 10 minutes for up to 6 doses while traveling; do not delay transport.\"",
     "\"Make your child vomit to bring up the battery.\"",
     "\"Watch the stools for the next few days to see if the battery passes.\"",
     "\"Give a large glass of milk and call back if symptoms start.\""
    ],
    "correct": 0,
    "rationales": [
-    "Correct. A button battery lodged in the esophagus can burn through tissue within hours, so emergency imaging is needed even without symptoms.",
+    "Correct. Emergency imaging/removal assessment is urgent even without symptoms. Honey mitigation applies to a child at least 12 months old with suspected lithium coin-cell ingestion within 12 hours who can swallow. This 2-year-old’s recent ingestion fits those criteria; give 10 mL every 10 minutes for at most 6 doses en route without delaying care. Honey does not replace removal.",
     "Inducing vomiting is not recommended and can cause more injury.",
     "Waiting could allow serious esophageal injury before the battery is located.",
     "Waiting for symptoms delays treatment; injury can occur before any symptoms appear."
    ],
-   "takeaway": "A swallowed button battery needs emergency evaluation and x-ray right away, even without symptoms; do not induce vomiting.",
+   "takeaway": "Suspected button battery ingestion requires immediate emergency evaluation. If ≥12 months old, ≤12 hours since ingestion, and able to swallow, give prescribed-algorithm honey doses en route without delaying transport.",
    "refs": [
-    "medline-children"
+    "v-27ccdf586f"
    ],
    "reviewed": "v4"
   },
@@ -2217,7 +2216,7 @@
    ],
    "takeaway": "For a possible ingestion in an alert child, call Poison Control (1-800-222-1222) right away with the container; call 911 if the child is unresponsive, seizing, or not breathing.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2256,8 +2255,8 @@
    ],
    "takeaway": "Hospitalized toddlers need fully raised crib rails or a crib top, two-identifier checks, and no latex balloons or small objects.",
    "refs": [
-    "tjc-npsg",
-    "medline-children"
+    "v-8523418e3b",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2288,8 +2287,8 @@
    ],
    "takeaway": "Pediatric doses depend on an accurate measured weight recorded in kilograms only, which prevents twofold pound-kilogram dosing errors.",
    "refs": [
-    "ismp-highalert",
-    "tjc-npsg"
+    "v-287f7b81ee",
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -2320,8 +2319,8 @@
    ],
    "takeaway": "Calculate the safe range for every pediatric dose; if the order is outside it, hold and clarify with the prescriber, and never change the dose yourself.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert"
+    "v-df1c5b2874",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -2352,8 +2351,8 @@
    ],
    "takeaway": "Measure children's liquid medicines in milliliters with an oral syringe or the device that comes with the medicine, never kitchen spoons.",
    "refs": [
-    "ismp-highalert",
-    "medline-children"
+    "v-287f7b81ee",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2384,7 +2383,7 @@
    ],
    "takeaway": "School-age children need a belt-positioning booster in the back seat until the seat belt fits, usually at about 4 ft 9 in tall, between 8 and 12 years.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2423,7 +2422,7 @@
    ],
    "takeaway": "Cow's milk should not replace breast milk or formula before 12 months, honey is avoided before 12 months, and solids are spoon-fed, never added to a bottle.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2463,7 +2462,7 @@
    ],
    "takeaway": "Reduce toddler separation anxiety with familiar objects, home routines, honest goodbyes, and play; never sneak away.",
    "refs": [
-    "medline-children"
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2503,8 +2502,8 @@
    ],
    "takeaway": "Prepare school-age children with concrete explanations, hands-on equipment, and choices; never promise a procedure won't hurt.",
    "refs": [
-    "medline-children",
-    "openstax-fund"
+    "v-da1ec74f3c",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -2521,22 +2520,22 @@
    "level": "Apply",
    "stem": "During a well-adolescent visit, a 15-year-old asks to speak with the nurse alone and says, \"Can you promise not to tell my parents what I'm about to say?\" Which response is best?",
    "options": [
-    "\"I'll keep what you share private unless your safety or someone else's is at risk.\"",
+    "\"I’ll protect your privacy within the limits of law. Before you share, let’s discuss required reports and possible parent, record, or billing access.\"",
     "\"Yes, I promise everything you tell me stays between us.\"",
     "\"No. Because you're a minor, your parents have a right to know everything about your health.\"",
     "\"I can't talk with you alone. Let's wait until your parent comes back.\""
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Adolescents should be offered confidential time, with the limits explained up front: safety concerns such as abuse or risk of harm must be shared.",
+    "Correct. Offer private time and explain applicable confidentiality limits before disclosure, including safety/mandated reports and possible guardian, portal, and billing access. Protections differ by state and service.",
     "An unconditional promise may have to be broken if the teen discloses abuse or a risk of harm.",
     "Adolescents have a right to confidential care in many areas; this response discourages honest disclosure.",
     "Private time with adolescents is recommended; refusing it blocks important disclosures."
    ],
-   "takeaway": "Offer adolescents confidential time but explain its limits first: risk of harm to self or others or abuse must be shared.",
+   "takeaway": "Explain adolescent confidentiality limits before disclosure and review applicable consent, records/portal, and billing protections; do not promise confidentiality limited only by safety.",
    "refs": [
-    "medline-children",
-    "ana-ethics"
+    "v-c1e3cb09fb",
+    "v-3de2aeda4f"
    ],
    "reviewed": "v4"
   },
@@ -2567,8 +2566,8 @@
    ],
    "takeaway": "Stridor at rest with retractions signals significant upper airway obstruction and takes priority over stable pain, comfort, or glucose concerns.",
    "refs": [
-    "ncsbn-testplan",
-    "medline-children"
+    "v-9c755bad76",
+    "v-da1ec74f3c"
    ],
    "reviewed": "v4"
   },
@@ -2599,7 +2598,7 @@
    ],
    "takeaway": "UAPs can measure and record data such as diaper weights; assessment, teaching, and judgment remain with the RN.",
    "refs": [
-    "ncsbn-delegation"
+    "v-2448f4215e"
    ],
    "reviewed": "v4"
   },
@@ -2614,7 +2613,7 @@
    "type": "order",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "In a hospital playroom, a nurse finds a 10-month-old who is limp and not responding. Place the nurse's actions in the correct order.",
+   "stem": "In a hospital playroom, a nurse finds a 10-month-old who is limp and not responding. The nurse is the sole rescuer performing CPR until help arrives, can activate the in-hospital response without leaving, and detects no normal breathing and no definite brachial pulse within 10 seconds. Place the nurse’s actions in the correct order.",
    "options": [
     "Give 2 breaths after every 30 compressions",
     "Shout for help and activate the emergency response system",
@@ -2633,13 +2632,12 @@
     "Fifth: a single rescuer uses a 30:2 compression-to-ventilation ratio for infants.",
     "Second: call for help and resources, such as a code team and defibrillator, as soon as unresponsiveness is confirmed.",
     "Third: decide whether CPR is needed, spending no more than 10 seconds.",
-    "Fourth: start high-quality compressions if there is no pulse or the infant is not breathing normally.",
+    "Fourth here: start high-quality compressions for absent pulse with no normal breathing. An apneic infant with a pulse needs rescue ventilation; bradycardia <60/min with poor perfusion requires compressions only when it persists despite adequate oxygenation and ventilation.",
     "First: confirm that the infant is unresponsive."
    ],
-   "takeaway": "Infant CPR: check responsiveness, call for help, check breathing and brachial pulse within 10 seconds, then begin compressions at 100 to 120/min.",
+   "takeaway": "For this single-rescuer pulseless infant, activate help, assess within 10 seconds, then CPR at 100–120 compressions/min and 30:2. Apnea with a pulse calls for ventilation, not automatic compressions.",
    "refs": [
-    "aha-resuscitation",
-    "medline-children"
+    "v-527791177d"
    ],
    "reviewed": "v4"
   }

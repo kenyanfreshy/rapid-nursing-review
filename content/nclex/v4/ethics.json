@@ -12,17 +12,17 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "matrix",
-   "stem": "A nurse in an outpatient clinic is reviewing which minors can consent to their own care. For each situation, indicate whether the minor may consent or whether parent or guardian consent is needed.",
-   "takeaway": "Emancipated minors (by court order, marriage or military service) and minors seeking certain services, such as STI care, can consent; otherwise a parent or guardian consents.",
+   "stem": "A nurse in a California outpatient clinic reviews consent authority. Each client understands the proposed care and is deciding voluntarily; no emergency exception applies. For each situation, indicate whether the minor may consent independently or parent or guardian consent is needed.",
+   "takeaway": "Minor-consent and emancipation rules depend on the jurisdiction, service, and legal status. This item applies California law; verify applicable law in practice.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-80bf798d0f"
    ],
    "rows": [
     "A 16-year-old who requests testing and treatment for a sexually transmitted infection",
-    "A 15-year-old who wants elective cosmetic surgery on the nose",
+    "An unemancipated 15-year-old who wants elective cosmetic surgery on the nose",
     "A 17-year-old on active duty in the U.S. military who needs knee surgery",
-    "A 14-year-old who is scheduled for a tonsillectomy"
+    "An unemancipated 14-year-old who is scheduled for a tonsillectomy"
    ],
    "columns": [
     "Minor may consent",
@@ -35,10 +35,10 @@
     1
    ],
    "rationales": [
-    "Minor may consent: every U.S. state allows minors to consent to testing and treatment for sexually transmitted infections; the few states that set a minimum age set it below 16.",
-    "Parent or guardian consent needed: elective procedures for an unemancipated minor require parental consent.",
-    "Minor may consent: minors on active military duty are treated as emancipated and may consent to their own care.",
-    "Parent or guardian consent needed: routine surgery for an unemancipated minor requires parental consent."
+    "Minor may consent: California permits clients age 12 or older to consent to diagnosis and treatment of an STI under Family Code § 6926.",
+    "Parent or guardian consent needed: this client is explicitly unemancipated and elective cosmetic surgery is outside the specified minor-consent exceptions.",
+    "Minor may consent: active military service establishes emancipation in California; an emancipated minor may consent to medical care.",
+    "Parent or guardian consent needed: routine nonemergency surgery for this explicitly unemancipated client requires the authorized adult’s consent; include the minor in decisions and obtain assent as appropriate."
    ],
    "reviewed": "v4"
   },
@@ -56,8 +56,8 @@
    "stem": "A 78-year-old client admitted with pneumonia has a do-not-resuscitate (DNR) and do-not-intubate (DNI) order but has asked for all other treatment. For each action, indicate whether it is consistent or not consistent with the client's orders.",
    "takeaway": "DNR and DNI orders limit only CPR and intubation; all other wanted care continues.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-e0276c72d8"
    ],
    "rows": [
     "Give IV antibiotics for the pneumonia",
@@ -100,7 +100,9 @@
    "stem": "The nurse is reviewing ethical principles with nursing students. For each nursing action, indicate the principle it best demonstrates.",
    "takeaway": "Autonomy is self-determination, beneficence is doing good, and justice is fair distribution of care.",
    "refs": [
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-2f532beded",
+    "v-e0276c72d8"
    ],
    "rows": [
     "Honoring an alert client's decision to stop dialysis",
@@ -138,22 +140,23 @@
    "difficulty": 2,
    "level": "Apply",
    "type": "matrix",
-   "stem": "A nurse educator is evaluating new nurses' understanding of professional boundaries using actions they describe from practice. For each action, indicate whether it is within professional boundaries or a boundary violation.",
-   "takeaway": "Professional boundaries keep the relationship focused on the client's needs; personal, secret or financial ties are violations.",
+   "stem": "A nurse educator evaluates professional conduct. Agency policy permits modest thank-you cards and brief therapeutic self-disclosure, but prohibits personal social and financial relationships with current clients. For each action, indicate whether it is appropriate professional conduct or requires intervention.",
+   "takeaway": "Evaluate purpose, client benefit, safety, policy, and exploitation risk. A boundary crossing is not automatically a violation; therapeutic self-disclosure and irrelevant private information require context.",
    "refs": [
-    "ncsbn-boundaries",
-    "ana-ethics"
+    "v-1b899ce61b",
+    "v-c1e3cb09fb",
+    "v-42753f1d05"
    ],
    "rows": [
-    "Accepting a handmade thank-you card from a client at discharge",
-    "Giving a client a personal cell phone number to text after discharge",
-    "Sharing a brief, relevant personal experience to support a client, then refocusing on the client",
-    "Agreeing to keep a client's secret from the rest of the care team",
-    "Lending money to a client who cannot afford a prescription"
+    "Accepting a handmade thank-you card at discharge when agency policy permits",
+    "Giving a current client a personal number for an ongoing social relationship outside the care plan, contrary to agency policy",
+    "Sharing a brief, relevant personal experience for the client’s benefit, then refocusing on the client",
+    "Promising not to tell authorized treating clinicians about a client’s plan to attempt suicide",
+    "Lending personal money to a current client instead of arranging approved prescription-assistance services"
    ],
    "columns": [
-    "Within professional boundaries",
-    "Boundary violation"
+    "Appropriate professional conduct",
+    "Requires intervention"
    ],
    "correct": [
     0,
@@ -163,11 +166,11 @@
     1
    ],
    "rationales": [
-    "Within boundaries: a small, personal token of thanks is generally acceptable within agency policy.",
-    "Boundary violation: personal contact outside the professional role creates a social relationship.",
-    "Within boundaries: brief self-disclosure used for the client's benefit, followed by refocusing on the client, is acceptable.",
-    "Boundary violation: secrets from the team can harm the client and blur the nurse's role.",
-    "Boundary violation: a financial relationship with a client meets the nurse's or client's personal needs outside the therapeutic role; social services can help instead."
+    "Appropriate: a modest card is permitted by the stated policy and does not establish a personal relationship.",
+    "Requires intervention: the explicit social relationship violates policy and shifts the relationship outside the therapeutic role.",
+    "Appropriate: purposeful, brief self-disclosure can support the client when it does not shift focus to the nurse.",
+    "Requires intervention: a suicide plan is material safety information. The nurse must take protective action and share necessary information with authorized treating clinicians; irrelevant private information need not be shared broadly.",
+    "Requires intervention: personal lending creates a financial relationship. Use approved assistance resources instead."
    ],
    "reviewed": "v4"
   },
@@ -185,8 +188,8 @@
    "stem": "During a central venous catheter insertion at the bedside, the nurse sees that the provider is not using a full-body sterile drape. Using the CUS method of speaking up, place the nurse's actions in the order they should occur.",
    "takeaway": "Speak up with CUS (Concerned, Uncomfortable, Safety issue) and escalate through the chain of command if the risk is not corrected.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-db2d16cb34",
+    "v-d820a97c6e"
    ],
    "options": [
     "Say, \"This is a safety issue. We need to stop until a full sterile drape is in place.\"",
@@ -222,8 +225,8 @@
    "stem": "A client who speaks Vietnamese and has limited English proficiency is scheduled for surgery. Place the steps of the informed consent process in the correct order.",
    "takeaway": "Informed consent: qualified interpreter, provider explanation, confirmed understanding, client signature, then nurse witness.",
    "refs": [
-    "openstax-fund",
-    "tjc-npsg"
+    "v-4b8799783c",
+    "v-8523418e3b"
    ],
    "options": [
     "The client explains the procedure back in their own words and has questions answered",
@@ -262,8 +265,8 @@
    "stem": "Near the end of the shift, a coworker asks the nurse to co-sign in the electronic record a hydromorphone waste that the coworker says was done 2 hours earlier. The nurse did not see the waste. Which response by the nurse is best?",
    "takeaway": "Co-sign only what you personally witnessed; an unwitnessed controlled-substance waste is reported according to policy.",
    "refs": [
-    "ana-ethics",
-    "ismp-highalert"
+    "v-2f532beded",
+    "v-0cb11fa496"
    ],
    "options": [
     "\"I'll co-sign it since I trust you, but please find me next time.\"",
@@ -294,8 +297,8 @@
    "stem": "The nurse is using a qualified medical interpreter to complete an admission assessment. Which actions by the nurse are appropriate? Select all that apply.",
    "takeaway": "With interpreters: speak to the client, use short segments, require complete interpretation, allow time and document the interpreter.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-0289c3f99f"
    ],
    "options": [
     "Speak directly to the client rather than to the interpreter",
@@ -335,8 +338,8 @@
    "stem": "A nurse educator is reviewing the state nurse practice act with new graduates. Which actions are grounds for disciplinary action by a board of nursing? Select all that apply.",
    "takeaway": "Boards of nursing discipline unlicensed practice, falsified records, drug diversion and sexual boundary violations; speaking up and practicing within competence are expected duties.",
    "refs": [
-    "ncsbn-testplan",
-    "ncsbn-boundaries"
+    "v-9c755bad76",
+    "v-2448f4215e"
    ],
    "options": [
     "Working as an RN after the nursing license has expired",
@@ -376,8 +379,8 @@
    "stem": "A nurse manager is concerned that a nurse may be diverting opioids. Which findings support this concern? Select all that apply.",
    "takeaway": "Diversion signs include unwitnessed wastes, poor pain relief for the nurse's clients, volunteering to give opioids and unexplained absences.",
    "refs": [
-    "ana-ethics",
-    "ncsbn-testplan"
+    "v-2f532beded",
+    "v-deb62ea28f"
    ],
    "options": [
     "Frequent opioid wastes with no witness documented",
@@ -417,8 +420,7 @@
    "stem": "A nurse wants to practice cultural humility when caring for clients from different backgrounds. Which actions reflect this approach? Select all that apply.",
    "takeaway": "Cultural humility means asking rather than assuming, reflecting on your own biases and adapting care to each person.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe"
    ],
    "options": [
     "Ask the client what they think caused their illness",
@@ -458,8 +460,8 @@
    "stem": "The family of a client with advanced heart failure asks the nurse about palliative care. Which statements by the nurse are accurate? Select all that apply.",
    "takeaway": "Palliative care relieves symptoms at any stage of serious illness and can go alongside curative treatment; hospice is for end of life.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-35b64ee222"
    ],
    "options": [
     "\"Palliative care can be given at the same time as treatment aimed at your illness.\"",
@@ -499,8 +501,8 @@
    "stem": "A nurse educator is evaluating new nurses' understanding of professional accountability as described in the ANA Code of Ethics. Which statements indicate correct understanding? Select all that apply.",
    "takeaway": "Nurses are accountable for their own actions, must keep competence current, care for themselves and speak up about unsafe practice.",
    "refs": [
-    "ana-ethics",
-    "ncsbn-testplan"
+    "v-2f532beded",
+    "v-42753f1d05"
    ],
    "options": [
     "\"I'm responsible for my own nursing actions, even when I'm carrying out a provider's order.\"",
@@ -538,15 +540,15 @@
    "level": "Analyze",
    "type": "sata",
    "stem": "The nurse is preparing to witness consent forms for several clients. Which situations should the nurse report to the provider because the consent may not be valid? Select all that apply.",
-   "takeaway": "Valid consent requires capacity, legal authority and a voluntary decision based on understanding.",
+   "takeaway": "Check decision-specific capacity, the actual legal instrument and applicable law, understanding, and freedom from coercion. Family preference alone does not establish coercion.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-06e35f45a1"
    ],
    "options": [
-    "An adult client who has a court-appointed guardian for health care decisions plans to sign the form himself",
-    "A 16-year-old who is not emancipated plans to sign for elective surgery",
-    "A client says, \"I'm only signing because my wife wants me to.\"",
+    "An adult client whose court order transfers this procedure’s consent authority to a guardian because the client lacks decision-making capacity plans to sign independently",
+    "An unemancipated 16-year-old plans to sign independently for elective surgery when applicable state law requires parental consent",
+    "A client says, \"My wife threatened to abandon me if I refuse, so I am afraid to say no.\"",
     "A client used a qualified interpreter and correctly explained the procedure back",
     "A client asked the surgeon a question about recovery and was given a clear answer"
    ],
@@ -556,11 +558,11 @@
     2
    ],
    "rationales": [
-    "Correct. When a court has appointed a guardian for health care decisions, the guardian gives legal consent; the client is still included in the discussion.",
-    "Correct. An unemancipated minor generally cannot consent to elective surgery; a parent or guardian must consent.",
-    "Correct. Consent must be voluntary; signing under pressure from another person calls this into question.",
-    "Using a qualified interpreter and confirming understanding supports valid consent.",
-    "Asking questions and receiving answers is part of a valid consent process."
+    "Correct. This specific court order assigns authority for the proposed procedure to the guardian; do not infer that every guardianship removes every decision-making right. Include the client to the extent possible.",
+    "Correct. The stem specifies applicable law requiring parental consent for this unemancipated minor’s elective surgery.",
+    "Correct. An explicit threat raises a concern about coercion and invalid voluntary consent; discuss privately and notify the provider.",
+    "Incorrect. Qualified interpretation and accurate explanation support understanding.",
+    "Incorrect. Answered questions support the informed-consent process."
    ],
    "reviewed": "v4"
   },
@@ -578,8 +580,9 @@
    "stem": "An alert, oriented client refuses a prescribed blood transfusion after hearing the risks of refusing. Which information should the nurse document? Select all that apply.",
    "takeaway": "Document an informed refusal with the client's words, the teaching given, provider notification and any required form.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-443e055e65",
+    "v-47cc6071ea"
    ],
    "options": [
     "The client's own words explaining the refusal",
@@ -619,7 +622,7 @@
    "stem": "A nurse who is angry with a coworker tells several visitors in the hospital cafeteria that the coworker \"comes to work high and steals clients' pain pills.\" The statement is false. Which legal wrong has the nurse committed?",
    "takeaway": "Defamation is a false statement shared with others that harms someone's reputation: slander if spoken, libel if written.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Defamation",
@@ -650,8 +653,8 @@
    "stem": "An unconscious adult client with internal bleeding after a car crash needs emergency surgery. No family can be reached, and there is no advance directive. Which action is appropriate?",
    "takeaway": "In a true emergency with no available surrogate, implied consent allows lifesaving treatment; document the emergency.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-06e35f45a1"
    ],
    "options": [
     "Obtain a court order before surgery",
@@ -682,8 +685,8 @@
    "stem": "A well-known musician is admitted to the cardiac unit. A nurse on the orthopedic unit tells a coworker, \"I just looked at her chart to see why she's here.\" Which action should the coworker take?",
    "takeaway": "Accessing a record without a work-related need violates privacy and must be reported, even if nothing is shared.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-c1e3cb09fb",
+    "v-5a94f20a5d"
    ],
    "options": [
     "Ignore it because the nurse is a hospital employee",
@@ -714,8 +717,8 @@
    "stem": "Two weeks after discharge, a former client sends a nurse a friend request on a social media site. Which action by the nurse is appropriate?",
    "takeaway": "Decline social media connections with clients and former clients to keep professional boundaries.",
    "refs": [
-    "ncsbn-boundaries",
-    "ana-ethics"
+    "v-1b899ce61b",
+    "v-c1e3cb09fb"
    ],
    "options": [
     "Accept the request because the client is no longer in the nurse's care",
@@ -746,8 +749,8 @@
    "stem": "A client admitted with pneumonia tells the nurse she wants her partner of 12 years, a woman, to visit and to be her support person. The client's parents ask the nurse to keep the partner out because \"she isn't family.\" The client is alert and has decision-making capacity. Which action by the nurse is best?",
    "takeaway": "A client with capacity chooses visitors and a support person; visitation may not be limited because of sexual orientation or relationship type.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-443e055e65"
    ],
    "options": [
     "Ask the parents and the partner to agree on a visiting schedule first",
@@ -778,8 +781,8 @@
    "stem": "A nurse tells the charge nurse, \"I don't want to take the client in room 12. He has HIV, and I'm afraid of catching it.\" Which response by the charge nurse is best?",
    "takeaway": "Nurses may not refuse care because of a client's diagnosis; standard precautions protect against bloodborne pathogens such as HIV.",
    "refs": [
-    "ana-ethics",
-    "cdc-isolation"
+    "v-973aa1a2fe",
+    "v-57adb8386b"
    ],
    "options": [
     "\"Standard precautions protect you, and he deserves the same care as any client.\"",
@@ -810,7 +813,7 @@
    "stem": "A nurse gave a client 10 times the prescribed dose of a medication. The error was found right away, the client was monitored closely, and no harm occurred. The client later files a malpractice lawsuit. Which element of malpractice is most likely missing?",
    "takeaway": "Malpractice requires duty, breach, causation and damages; without harm there are no damages.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Foreseeability",
@@ -841,8 +844,8 @@
    "stem": "A 70-year-old client who had surgery yesterday is disoriented, mistakes the nurse for her sister and drifts in and out of sleep. She is scheduled to sign consent for an elective procedure today. Which action by the nurse is best?",
    "takeaway": "Capacity is assessed at the time of consent; report new confusion and delay elective consent.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-06e35f45a1"
    ],
    "options": [
     "Have the client sign while she is awake, because she was alert yesterday",
@@ -873,7 +876,8 @@
    "stem": "A discharge planning nurse's sister owns a home health agency. A client needs home health services after discharge. Which action by the nurse is appropriate?",
    "takeaway": "Manage conflicts of interest by disclosing them and giving clients unbiased choices.",
    "refs": [
-    "ana-ethics"
+    "v-2f532beded",
+    "v-42753f1d05"
    ],
    "options": [
     "Give the client a list of qualified agencies and disclose the family relationship",
@@ -904,8 +908,8 @@
    "stem": "A hospice client with lung cancer has severe breathlessness. The nurse gives the prescribed morphine titrated to relieve dyspnea, knowing it may cause some sedation. Which ethical principle supports this action?",
    "takeaway": "Double effect supports titrating opioids to relieve suffering at end of life even if sedation is a foreseen effect.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-f1d2809f46"
    ],
    "options": [
     "Utilitarianism",
@@ -936,8 +940,8 @@
    "stem": "A client with a living will that refuses mechanical ventilation is now alert and oriented. She tells the nurse, \"I've changed my mind. If I can't breathe, I want to be put on a ventilator.\" Which action should the nurse take?",
    "takeaway": "A client with capacity may change or revoke an advance directive at any time; current wishes guide care.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-e0276c72d8"
    ],
    "options": [
     "Wait until the client has been discharged to discuss it",
@@ -968,7 +972,7 @@
    "stem": "A surgeon is running late and asks the nurse to explain the risks of the client's surgery and have the client sign the consent form. Which response by the nurse is best?",
    "takeaway": "The provider explains the procedure and obtains informed consent; the nurse witnesses the signature.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "\"I'll explain the risks using the hospital's handout and get the signature.\"",
@@ -999,7 +1003,7 @@
    "stem": "A 9-year-old needs urgent surgery for a fractured arm. The child's mother is traveling and can be reached only by phone. Which action should the nurse take to obtain consent?",
    "takeaway": "When a parent can't be present, telephone consent is witnessed by two licensed staff and documented per policy.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Have two licensed staff members listen to the mother's verbal consent and sign as witnesses, per policy",
@@ -1030,8 +1034,8 @@
    "stem": "An 81-year-old client who now lacks capacity needs a decision about a feeding tube. Her son has a durable power of attorney for finances and says, \"I handle all of Mom's affairs, so I'll decide.\" Which response by the nurse is best?",
    "takeaway": "A financial power of attorney does not grant authority to make health care decisions.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-4a0cd8de19"
    ],
    "options": [
     "\"Only a judge can make this decision.\"",
@@ -1062,7 +1066,7 @@
    "stem": "An alert client refused an indwelling urinary catheter. The nurse inserts it anyway because the client \"needs accurate output.\" Which legal wrong has the nurse most likely committed?",
    "takeaway": "Performing a procedure a competent client has refused is battery.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Defamation",
@@ -1093,7 +1097,7 @@
    "stem": "An alert, oriented client tells the nurse he wants to leave the hospital against medical advice. Which action by the nurse could be considered false imprisonment?",
    "takeaway": "Restricting a competent client's freedom to leave without legal authority is false imprisonment.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Explaining the risks of leaving before treatment is complete",
@@ -1124,7 +1128,7 @@
    "stem": "A client on a ventilator has no advance directive. His three adult children disagree with each other and with the team about continuing life support. Several family meetings have not resolved the conflict. Which action should the nurse take next?",
    "takeaway": "Request an ethics consultation when conflict about care continues after good-faith family meetings.",
    "refs": [
-    "ana-ethics"
+    "v-2f532beded"
    ],
    "options": [
     "Request an ethics consultation",
@@ -1155,8 +1159,8 @@
    "stem": "Which action by a nurse is most likely to be considered client abandonment?",
    "takeaway": "Abandonment is leaving clients after accepting responsibility without handing off care.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-2f532beded",
+    "v-17727df367"
    ],
    "options": [
     "Going on a scheduled break after handing off clients to another RN",
@@ -1187,7 +1191,7 @@
    "stem": "A provider prescribes a normal saline injection as a placebo for a client's pain and tells the nurse not to tell the client what it is. Which action by the nurse is best?",
    "takeaway": "Deceptive placebo use violates truth-telling and consent; question the order and advocate for pain relief.",
    "refs": [
-    "ana-ethics"
+    "v-973aa1a2fe"
    ],
    "options": [
     "Ask the client's family whether they agree with the plan",
@@ -1218,7 +1222,8 @@
    "stem": "A client enrolled in a clinical drug trial tells the nurse, \"I want to quit the study, but I'm afraid they'll stop treating me.\" Which response by the nurse is accurate?",
    "takeaway": "Research participation is voluntary, and clients may withdraw at any time without losing standard care.",
    "refs": [
-    "ana-ethics"
+    "v-973aa1a2fe",
+    "v-ff527ac80f"
    ],
    "options": [
     "\"You signed a contract, so you need to finish the study.\"",
@@ -1249,8 +1254,8 @@
    "stem": "While the nurse is giving morning medications, the client says, \"That white pill is new. I've never taken it before.\" Which action should the nurse take?",
    "takeaway": "When a client questions a medication, stop and verify it before giving it.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "options": [
     "Explain that the pharmacy often switches to a different brand",
@@ -1281,8 +1286,8 @@
    "stem": "A provider writes a prescription for \"soft wrist restraints PRN for agitation\" for a client who keeps pulling at an IV line. Which action by the nurse is appropriate?",
    "takeaway": "Restraint orders must be specific and time-limited; PRN or standing restraint orders are not allowed.",
    "refs": [
-    "openstax-fund",
-    "tjc-npsg"
+    "v-4b8799783c",
+    "v-8523418e3b"
    ],
    "options": [
     "Ask the client's family to sign consent for the restraints",
@@ -1311,17 +1316,18 @@
    "level": "Apply",
    "type": "sata",
    "stem": "A client is in soft wrist restraints to protect an endotracheal tube after less restrictive measures failed. Which actions should the nurse take? Select all that apply.",
-   "takeaway": "Restrained clients need regular checks, basic care, quick-release ties to the frame and ongoing reassessment for removal.",
+   "takeaway": "Use the least restrictive effective intervention; monitor safety, provide care by appropriate routes, follow device instructions, and discontinue restraint as soon as safe.",
    "refs": [
-    "openstax-fund"
+    "v-443e055e65",
+    "v-17727df367"
    ],
    "options": [
     "Check circulation, sensation and skin at the restraint sites per policy",
-    "Offer fluids and toileting at regular intervals",
+    "Provide prescribed hydration by the ordered enteral or IV route and meet elimination needs",
     "Tie the restraints to the side rails",
     "Assess whether the restraints are still needed and try alternatives",
     "Fasten the restraints so that no fingers fit underneath",
-    "Secure the restraints with a quick-release knot to the bed frame"
+    "Use the manufacturer-designated bed-frame attachment and quick-release method"
    ],
    "correct": [
     0,
@@ -1331,11 +1337,11 @@
    ],
    "rationales": [
     "Correct. Regular checks detect circulation problems and skin injury.",
-    "Correct. Basic needs such as hydration and toileting must still be met.",
+    "Correct. An intubated client’s hydration and elimination needs remain essential. Use the prescribed enteral or IV route; do not offer oral fluids to an intubated client.",
     "Tying to side rails can cause injury when the rail is lowered.",
     "Correct. Restraints are removed as soon as they are no longer needed.",
-    "Restraints should allow about two fingers' space to avoid impairing circulation.",
-    "Correct. A quick-release knot on the frame allows rapid removal in an emergency."
+    "Incorrect. Excessive tightness can impair circulation. Follow device instructions for fit and reassess skin and neurovascular status.",
+    "Correct. Follow manufacturer instructions for attachment and rapid release; do not attach to moving side rails."
    ],
    "reviewed": "v4"
   },
@@ -1353,8 +1359,8 @@
    "stem": "During downtime, the nurse is reviewing handwritten prescriptions. Which prescriptions should the nurse clarify with the prescriber because they contain error-prone abbreviations or dose expressions? Select all that apply.",
    "takeaway": "Clarify prescriptions with do-not-use abbreviations: U, IU, QD, QOD, MS/MSO4/MgSO4, trailing zeros and missing leading zeros.",
    "refs": [
-    "tjc-npsg",
-    "ismp-highalert"
+    "v-8523418e3b",
+    "v-287f7b81ee"
    ],
    "options": [
     "Regular insulin 6 U subcutaneously before breakfast",
@@ -1394,8 +1400,8 @@
    "stem": "During a bedside procedure, the nurse finds two syringes of clear fluid on the sterile field. Neither syringe is labeled, and the person who drew them up has left the room. Which action should the nurse take?",
    "takeaway": "Label every medication and solution on and off the sterile field; discard anything unlabeled.",
    "refs": [
-    "tjc-npsg",
-    "ismp-highalert"
+    "v-8523418e3b",
+    "v-287f7b81ee"
    ],
    "options": [
     "Discard both syringes and prepare new, labeled ones",
@@ -1426,8 +1432,8 @@
    "stem": "The charge nurse notices four safety concerns while making rounds. Which concern should the charge nurse address first?",
    "takeaway": "Address actual, immediate risk of physical harm before privacy, documentation or supply problems.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "options": [
     "A computer at the nurses' station is left logged in to a client's record",
@@ -1456,20 +1462,20 @@
    "level": "Analyze",
    "type": "mcq",
    "stem": "A 34-year-old client has been declared brain dead after a head injury. His wife says, \"His heart is still beating on the monitor. He's still alive, isn't he?\" Which response by the nurse is best?",
-   "takeaway": "Explain brain death honestly and gently: it is death, even though the ventilator keeps the heart beating.",
+   "takeaway": "Death by neurologic criteria is death. Explain permanent loss of brain-as-a-whole function, including the brainstem, while supporting the family.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-cce8f6def7"
    ],
    "options": [
-    "\"Brain death means all brain function has stopped permanently, and that is death. The ventilator is keeping oxygen flowing, so his heart beats for now.\"",
+    "\"Brain death means function of the brain as a whole, including the brainstem, has been permanently lost, and that is death. The ventilator supplies oxygen, so the heart may continue beating.\"",
     "\"He is in a deep coma, and there's still a small chance he could wake up.\"",
     "\"Don't look at the monitor. It will only upset you.\"",
     "\"You should ask the doctor about that.\""
    ],
    "correct": 0,
    "rationales": [
-    "Correct. Honest, gentle explanation helps the family understand that brain death is legal death, even though the heart is beating with ventilator support.",
+    "Correct. Death by neurologic criteria is permanent loss of function of the brain as a whole, including the brainstem, established by coma, absent brainstem reflexes, and apnea after prerequisites and confounders are addressed. Some neuroendocrine function can persist. Honest, gentle explanation clarifies why oxygenated circulation may continue after death.",
     "This is inaccurate and creates false hope; brain death is irreversible.",
     "This avoids the question and dismisses the wife's need to understand.",
     "The nurse can answer this question and support the family; deflecting leaves the wife without help."
@@ -1490,7 +1496,7 @@
    "stem": "A client has just died on a medical unit, and the family is at the bedside. Which actions by the nurse support the family? Select all that apply.",
    "takeaway": "After a death, give the family time, honor rituals, offer participation and explain next steps.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Offer the family private time with the body",
@@ -1530,7 +1536,7 @@
    "stem": "A provider has just told a 61-year-old client that his cancer has spread to the liver and left the room. The client stares at the wall in silence. Which action by the nurse is best?",
    "takeaway": "After bad news, offer presence and acknowledgment before giving more information.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "options": [
     "Explain the options for chemotherapy in detail",
@@ -1561,8 +1567,8 @@
    "stem": "The daughter of a client with end-stage dementia has agreed to a do-not-resuscitate order, which matches what her mother said she wanted. The daughter tells the nurse, \"I feel like I'm killing my mother.\" Which response by the nurse is best?",
    "takeaway": "Help surrogates with guilt by reframing their decision as honoring the client's wishes.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-e0276c72d8"
    ],
    "options": [
     "\"Many families make this decision every day.\"",

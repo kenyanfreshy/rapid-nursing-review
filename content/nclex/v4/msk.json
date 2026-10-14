@@ -40,7 +40,7 @@
    ],
    "takeaway": "Do not wait for pulselessness or paralysis: escalating pain, pain on passive stretch and paresthesia are the early warnings of compartment syndrome.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -71,7 +71,7 @@
    ],
    "takeaway": "When compartment syndrome is suspected, release any constriction, keep the limb at heart level and notify the provider immediately.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -102,7 +102,7 @@
    ],
    "takeaway": "Stabilizing a long-bone fracture early and handling it gently is the main nursing measure to prevent fat embolism syndrome.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -133,7 +133,7 @@
    ],
    "takeaway": "A shortened, externally rotated leg after a fall in an older adult is a hip fracture until proven otherwise.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -164,7 +164,7 @@
    ],
    "takeaway": "New confusion after orthopedic surgery is a change in condition: assess oxygenation and vital signs before treating it as delirium.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -204,8 +204,8 @@
    ],
    "takeaway": "After a posterior-approach hip replacement, adaptive equipment helps the client avoid hip flexion past 90 degrees, adduction and internal rotation.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -236,7 +236,7 @@
    ],
    "takeaway": "A pop, sudden pain, leg shortening and rotation after hip arthroplasty mean dislocation: immobilize, assess neurovascular status and call the surgeon.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -251,7 +251,7 @@
    "type": "mcq",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "A client is using a continuous passive motion (CPM) machine after a total knee arthroplasty. Which action by the nurse is correct?",
+   "stem": "A client has an individualized prescription for a continuous passive motion (CPM) machine with verified device settings after a total knee arthroplasty. The device manufacturer specifies knee-hinge alignment. Which action by the nurse is correct?",
    "options": [
     "Position the leg so the knee joint lines up with the hinge of the machine",
     "Increase the flexion setting each hour as the client tolerates",
@@ -265,9 +265,9 @@
     "The CPM is used in bed and is turned off for meals and transfers; it is not used while the client sits in a chair.",
     "A pillow under the knee promotes a flexion contracture; the knee should rest in extension between sessions."
    ],
-   "takeaway": "With a CPM device, align the knee with the hinge, follow the prescribed settings and avoid pillows under the knee between sessions.",
+   "takeaway": "CPM is not routinely recommended after uncomplicated knee replacement. When individually prescribed, follow device alignment instructions, ordered settings, and the rehabilitation plan.",
    "refs": [
-    "openstax-medsurg"
+    "v-359cf13b41"
    ],
    "reviewed": "v4"
   },
@@ -304,7 +304,7 @@
    ],
    "takeaway": "After knee replacement, work toward full extension and quadriceps strength: no pillow under the knee, cold therapy, ankle pumps and quad sets.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -335,8 +335,8 @@
    ],
    "takeaway": "Cyclobenzaprine is a short-term, sedating muscle relaxant: no alcohol or other CNS depressants and no driving until the effect is known.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-e6dda736a1"
    ],
    "reviewed": "v4"
   },
@@ -376,7 +376,7 @@
    ],
    "takeaway": "Prevent VTE after orthopedic surgery with early mobility, leg exercises, mechanical compression, hydration and prescribed anticoagulants; never massage calves.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -407,7 +407,7 @@
    ],
    "takeaway": "Any new or worsening motor or sensory deficit after spinal surgery is an emergency to report at once.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -438,8 +438,8 @@
    ],
    "takeaway": "Raloxifene raises the risk of blood clots: teach the client to report leg or chest symptoms and to avoid prolonged immobility.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-f66b17ead2"
    ],
    "reviewed": "v4"
   },
@@ -454,7 +454,7 @@
    "type": "sata",
    "difficulty": 3,
    "level": "Analyze",
-   "stem": "A client has taken an oral bisphosphonate for osteoporosis for several years. Which findings should the nurse instruct the client to report? Select all that apply.",
+   "stem": "A client has taken an oral bisphosphonate for osteoporosis for several years. Which findings suggest a serious adverse effect of the bisphosphonate that the nurse should teach the client to report promptly? Select all that apply.",
    "options": [
     "New pain or burning when swallowing",
     "Jaw pain or a sore in the mouth that does not heal",
@@ -472,12 +472,11 @@
     "Correct. Jaw pain or exposed bone can indicate osteonecrosis of the jaw.",
     "Correct. New thigh or groin pain can precede an atypical femur fracture with long-term use.",
     "Mild, brief GI upset is a common minor effect; the client can be taught to take the dose correctly.",
-    "Bisphosphonates do not change urine color; this finding is not linked to the drug."
+    "Not a characteristic serious bisphosphonate adverse effect. New dark urine may still warrant assessment for another cause; this item does not advise ignoring it."
    ],
    "takeaway": "Teach clients on long-term bisphosphonates to report swallowing pain, jaw problems and new thigh or groin pain.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-fb5aa5ce00"
    ],
    "reviewed": "v4"
   },
@@ -516,8 +515,8 @@
    ],
    "takeaway": "Dairy foods, canned fish with bones and calcium-fortified beverages are the most reliable food sources of calcium.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -560,7 +559,7 @@
    ],
    "takeaway": "Rheumatoid arthritis is systemic, symmetric and inflammatory with long morning stiffness; osteoarthritis is degenerative pain that worsens with use.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -591,7 +590,7 @@
    ],
    "takeaway": "Joint protection in rheumatoid arthritis: use the largest joints available, avoid tight pinch grips and use adaptive aids.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -622,7 +621,7 @@
    ],
    "takeaway": "For knee osteoarthritis, weight loss and regular low-impact exercise are first-line self-management.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -653,7 +652,7 @@
    ],
    "takeaway": "During acute gout, rest and elevate the joint, use a bed cradle and apply cold as prescribed.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -684,8 +683,8 @@
    ],
    "takeaway": "GI symptoms, especially diarrhea, are the first signs of colchicine toxicity.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-d22f5cfc78"
    ],
    "reviewed": "v4"
   },
@@ -725,7 +724,7 @@
    ],
    "takeaway": "To reduce carpal tunnel strain: neutral wrists, keyboard at elbow height, a light grip, frequent breaks and varied tasks.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -756,7 +755,7 @@
    ],
    "takeaway": "Wrap a residual limb distal to proximal in a figure-eight, never circular, and rewrap several times daily.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -787,7 +786,7 @@
    ],
    "takeaway": "A residual limb keeps shrinking for months: a loose socket and redness that does not fade mean the fit must be adjusted before the skin breaks down.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -818,7 +817,7 @@
    ],
    "takeaway": "Active hemorrhage from a residual limb: apply direct pressure first, then escalate.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -857,7 +856,7 @@
    ],
    "takeaway": "Walker sequence: move the walker, set all legs down, step with the weak leg, then the strong leg.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -888,7 +887,7 @@
    ],
    "takeaway": "On stairs: up with the good leg, down with the cane and the affected leg.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -928,7 +927,7 @@
    ],
    "takeaway": "Home fall prevention: clear tripping hazards, add grab bars and lighting, keep items in reach and wear nonskid shoes.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -971,7 +970,7 @@
    ],
    "takeaway": "Prevent falls with alarms, safe footwear, medication review and supervised mobility, not restraints or enforced bed rest.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1002,7 +1001,7 @@
    ],
    "takeaway": "Falling CRP and ESR, along with resolving pain and fever, show that osteomyelitis is responding to therapy.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1042,7 +1041,7 @@
    ],
    "takeaway": "Constant bone pain, fever and local warmth or drainage after an open fracture should prompt evaluation for osteomyelitis.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1073,8 +1072,8 @@
    ],
    "takeaway": "For low back pain, sleep side-lying with knees bent or supine with the knees supported on a firm surface.",
    "refs": [
-    "openstax-medsurg",
-    "openstax-fund"
+    "v-c5fb05f22f",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1105,7 +1104,7 @@
    ],
    "takeaway": "Saddle numbness, bladder or bowel changes, or leg weakness with back pain are red flags that need emergency evaluation.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1142,7 +1141,7 @@
    ],
    "takeaway": "Effective traction needs free-hanging weights, unobstructed ropes, correct alignment and counter-traction; skeletal traction is never interrupted without an order.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1185,7 +1184,7 @@
    ],
    "takeaway": "At pin sites, a little clear drainage is expected; purulent drainage, spreading redness or a loose pin needs follow-up.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1216,7 +1215,7 @@
    ],
    "takeaway": "Odor, drainage or a warm spot on a cast suggests infection or pressure injury underneath and must be reported.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1247,7 +1246,7 @@
    ],
    "takeaway": "Protect the skin at cast edges by petaling with tape or moleskin; never put objects or lotion under a cast.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1286,7 +1285,7 @@
    ],
    "takeaway": "Safe lifting: wide base close to the load, squat, hold the load close, lift with the legs and pivot with the feet instead of twisting.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1326,7 +1325,7 @@
    ],
    "takeaway": "Open fracture: sterile cover, splint as found, check distal neurovascular status and tetanus status; never reduce the bone.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1357,9 +1356,9 @@
    ],
    "takeaway": "Methotrexate for rheumatoid arthritis is a once-weekly high-alert drug; confirm the weekly schedule at every teaching session.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-287f7b81ee",
+    "v-5d30b898c2"
    ],
    "reviewed": "v4"
   },
@@ -1390,7 +1389,7 @@
    ],
    "takeaway": "Screen all women 65 and older for osteoporosis with DXA, and younger postmenopausal women at increased risk.",
    "refs": [
-    "openstax-medsurg"
+    "v-dd85e847d1"
    ],
    "reviewed": "v4"
   },
@@ -1429,7 +1428,7 @@
    ],
    "takeaway": "To stand with a walker, push up from the chair's armrests, not the walker, then grasp the grips and check balance before walking.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1468,7 +1467,7 @@
    ],
    "takeaway": "Safe heat therapy: barrier, low setting, 20 to 30 minutes, never while sleeping, never lying on the pad and no topical rubs underneath.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1499,7 +1498,7 @@
    ],
    "takeaway": "Phantom sensation puts new amputees at risk of falling when they try to stand on the missing limb; teach them to call for help.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1530,7 +1529,7 @@
    ],
    "takeaway": "Fall risk accumulates: age, prior falls, sedating drugs, urgency or nocturia and lower-limb surgery together signal the highest risk.",
    "refs": [
-    "openstax-fund"
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1561,7 +1560,7 @@
    ],
    "takeaway": "Never use an external fixator frame as a handle; support the limb itself when moving it.",
    "refs": [
-    "openstax-medsurg"
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   }

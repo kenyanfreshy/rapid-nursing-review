@@ -28,8 +28,9 @@
    "correct": 0,
    "takeaway": "Hypokalemia from diuretics makes digoxin toxicity more likely, so check potassium whenever a client on digoxin has GI or visual changes.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-66fd6869d9",
+    "v-6138848c8f"
    ],
    "reviewed": "v4"
   },
@@ -54,8 +55,9 @@
    "correct": 1,
    "takeaway": "First-dose hypotension is most likely when an ACE inhibitor is started in a client already taking a diuretic; monitor blood pressure and prevent falls.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-6138848c8f",
+    "v-ab2547ff84"
    ],
    "options": [
     "Encourage bananas and orange juice with each meal",
@@ -101,8 +103,9 @@
    ],
    "takeaway": "An ACE inhibitor plus a potassium-sparing diuretic can cause hyperkalemia; monitor potassium and kidney function.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-ab2547ff84",
+    "v-63623c959f"
    ],
    "reviewed": "v4"
   },
@@ -133,8 +136,9 @@
    "correct": 0,
    "takeaway": "Nonselective beta blockers such as propranolol can cause bronchospasm; question them for clients with asthma.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-8204c2a983",
+    "v-83b2f0b294"
    ],
    "reviewed": "v4"
   },
@@ -173,8 +177,8 @@
    ],
    "takeaway": "Before a beta blocker, check apical pulse and blood pressure; hold for bradycardia, symptomatic hypotension or new bronchospasm.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-2509e32fbd"
    ],
    "reviewed": "v4"
   },
@@ -214,8 +218,8 @@
    ],
    "takeaway": "Loop diuretics: morning dosing, daily weights, slow position changes, and watch for hypokalemia.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-6138848c8f"
    ],
    "reviewed": "v4"
   },
@@ -246,8 +250,8 @@
    "correct": 3,
    "takeaway": "Clients on spironolactone should avoid potassium-based salt substitutes and potassium supplements unless prescribed.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-63623c959f"
    ],
    "reviewed": "v4"
   },
@@ -278,8 +282,10 @@
    "correct": 0,
    "takeaway": "Warfarin is reversed with vitamin K (plus 4-factor PCC for major bleeding); protamine is for heparin.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-ed7690db8d",
+    "v-e457d9c5c7",
+    "v-2ac4c7dc0a"
    ],
    "reviewed": "v4"
   },
@@ -304,8 +310,8 @@
    "correct": 3,
    "takeaway": "After neuraxial anesthesia, a client on enoxaparin with new back pain, leg weakness or numbness may have a spinal hematoma; report it immediately.",
    "refs": [
-    "dailymed",
-    "openstax-pharm"
+    "v-6ed587da0a",
+    "v-df1c5b2874"
    ],
    "options": [
     "Reposition the client and reassess leg sensation in 1 hour",
@@ -326,13 +332,13 @@
    "type": "order",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "The nurse is teaching a client how to give insulin with a prefilled insulin pen. Place the steps in the correct order.",
+   "stem": "The nurse is teaching a client how to give insulin with a prefilled insulin pen with a prescribed short 4-mm pen needle. The client has verified the insulin, dose, and label. The flow-test dose and hold time will follow this device’s instructions. Place the steps in the correct order.",
    "options": [
     "Dial the prescribed dose.",
     "Press the button fully and keep the needle in place for the count in the pen's instructions.",
     "Wipe the pen's rubber seal with alcohol and attach a new pen needle.",
     "Insert the needle at a 90-degree angle into clean skin of the abdomen.",
-    "Dial 2 units and press the button with the needle pointing up to prime the pen."
+    "Perform the manufacturer-specified safety/flow test with the needle pointing up and confirm insulin appears."
    ],
    "correct": [
     2,
@@ -346,12 +352,11 @@
     "Last: holding the needle in place after pressing the button keeps insulin from leaking out.",
     "First: a new needle on a clean seal prevents contamination.",
     "Fourth: a 90-degree angle with a short pen needle reaches subcutaneous tissue.",
-    "Second: priming removes air and confirms insulin flows, so the full dose is given."
+    "Second: the device-specific flow test removes air and confirms insulin flow. Do not assume every pen uses a 2-unit test."
    ],
-   "takeaway": "Insulin pen: new needle, prime 2 units, dial the dose, inject, then hold before removing the needle.",
+   "takeaway": "Verify insulin/product and dose; attach a new needle, perform the device-specific flow test, dial the dose, inject with the taught technique, and hold for the manufacturer-specified time.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-917d1b3378"
    ],
    "reviewed": "v4"
   },
@@ -391,8 +396,9 @@
    ],
    "takeaway": "Warfarin teaching: regular INR checks, bleeding precautions, no NSAIDs or new supplements without checking, and report bleeding.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-ed7690db8d",
+    "v-bac2576aa6"
    ],
    "reviewed": "v4"
   },
@@ -431,8 +437,10 @@
    ],
    "takeaway": "Grapefruit inhibits intestinal CYP3A4 and can raise levels of drugs such as simvastatin, felodipine and amiodarone.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-a48de86397",
+    "v-547e72c30e",
+    "v-156f3c721d"
    ],
    "reviewed": "v4"
   },
@@ -456,15 +464,15 @@
    ],
    "rationales": [
     "Glargine is a long-acting basal insulin given only subcutaneously.",
-    "Correct. Regular insulin is the insulin used for continuous IV infusions.",
+    "Correct. Regular insulin is commonly used in IV DKA protocols and is the only appropriate listed formulation. Some specified rapid-acting U-100 products also permit IV use under their labeling; do not infer that regular is the only insulin ever given IV.",
     "NPH is an intermediate-acting suspension and must never be given IV.",
     "Detemir is a long-acting basal insulin given only subcutaneously."
    ],
    "correct": 1,
-   "takeaway": "Regular insulin is the insulin used for IV infusions; cloudy and long-acting insulins are subcutaneous only.",
+   "takeaway": "Regular insulin is the appropriate listed IV DKA choice. Route depends on the exact product/formulation; basal insulin and NPH must not be substituted in this infusion.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert"
+    "v-62434f88d7",
+    "v-623b4ae8e1"
    ],
    "reviewed": "v4"
   },
@@ -495,8 +503,8 @@
    "correct": 2,
    "takeaway": "NPH insulin peaks 4 to 12 hours after injection; watch for hypoglycemia in the afternoon after a morning dose.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-6115382b70"
    ],
    "reviewed": "v4"
   },
@@ -536,8 +544,9 @@
    ],
    "takeaway": "Rapid-acting insulin is matched to meals; basal insulin such as glargine is not mixed and not skipped without guidance.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-ca5a87128b",
+    "v-6115382b70"
    ],
    "reviewed": "v4"
   },
@@ -552,7 +561,7 @@
    "type": "order",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "The nurse is giving a compatible IV push medication through a client's peripheral saline lock. Place the steps in the correct order.",
+   "stem": "The nurse is giving a compatible IV push medication through a client's peripheral saline lock. The nurse disinfects the needleless connector and lets it dry before every syringe access. Place these core steps in the correct order.",
    "correct": [
     1,
     3,
@@ -561,19 +570,18 @@
    ],
    "rationales": [
     "Third: the drug is given at the recommended rate, because pushing many IV drugs too fast can cause serious adverse effects.",
-    "First: scrubbing the connector and letting it dry prevents bacteria from entering the line.",
-    "Last: the final flush clears the drug from the catheter at the same rate, so the remaining dose is not pushed in as a bolus.",
+    "First before the initial patency-flush access; repeat connector antisepsis and drying before each subsequent syringe access to reduce contamination.",
+    "Last after connector antisepsis: flush the catheter dead-space containing residual medication at the prescribed drug rate. The final flush clears the drug from the catheter at the same rate, so the remaining dose is not pushed in as a bolus.",
     "Second: a saline flush with no resistance, swelling or pain confirms the catheter is in the vein before the drug is given."
    ],
-   "takeaway": "IV push through a saline lock: scrub the hub, flush to check patency, push the drug at the recommended rate, then flush at the same rate.",
+   "takeaway": "Disinfect/dry the connector before every access; confirm patency, give IV push at the recommended rate, and flush residual drug at that rate according to protocol.",
    "refs": [
-    "openstax-fund",
-    "openstax-pharm"
+    "v-da386ff0bd"
    ],
    "options": [
-    "Inject the medication at the rate recommended in the drug reference, timing it with a watch.",
+    "Disinfect the connector, allow drying, then inject the medication at the rate recommended in the drug reference, timing it with a watch.",
     "Scrub the needleless connector with an antiseptic pad and let it dry.",
-    "Flush with 0.9% sodium chloride at the same rate as the medication was given.",
+    "Disinfect the connector, allow drying, then flush with 0.9% sodium chloride at the same rate as the medication was given.",
     "Flush with 0.9% sodium chloride to confirm the catheter is patent, watching the site for swelling or pain."
    ],
    "reviewed": "v4"
@@ -605,8 +613,8 @@
    "correct": 0,
    "takeaway": "Metformin is restarted after contrast only when kidney function is confirmed stable, to prevent lactic acidosis.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-547e72c30e"
    ],
    "reviewed": "v4"
   },
@@ -637,8 +645,8 @@
    "correct": 1,
    "takeaway": "Sulfonylureas cause hypoglycemia when clients are not eating; expect them to be held while NPO.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-8ed54df2ba"
    ],
    "reviewed": "v4"
   },
@@ -658,13 +666,13 @@
     "Sucralfate works best on an empty stomach, before food enters, so after-meal dosing is not recommended.",
     "Antacids should be separated from sucralfate by about 30 minutes because they interfere with how it binds to the ulcer.",
     "Correct. Sucralfate forms a protective barrier over the ulcer and works best on an empty stomach, 1 hour before meals and at bedtime.",
-    "Sucralfate binds many drugs, including levothyroxine, in the gut; other drugs are separated from it by about 2 hours."
+    "Sucralfate binds many drugs, including levothyroxine, in the gut; separate levothyroxine by at least 4 hours per product/pharmacist instructions and monitor TSH. Other drug-specific intervals may differ."
    ],
    "correct": 2,
-   "takeaway": "Sucralfate: take on an empty stomach (1 hour before meals and at bedtime), separate antacids by 30 minutes and other drugs by about 2 hours.",
+   "takeaway": "Take prescribed sucralfate on an empty stomach. Separate antacids by at least 30 minutes and levothyroxine by at least 4 hours; confirm other drug-specific intervals with the pharmacist.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-e4c96d0321",
+    "v-b4c7179ec2"
    ],
    "options": [
     "\"I'll take the sucralfate right after each meal so it coats my stomach.\"",
@@ -710,8 +718,8 @@
    ],
    "takeaway": "Long-term corticosteroids: morning dose with food, infection watch, bone protection, ID card, never stop abruptly.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -751,8 +759,8 @@
    ],
    "takeaway": "Levothyroxine overdose looks like hyperthyroidism: tachycardia, insomnia, weight loss and heat intolerance.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-b4c7179ec2"
    ],
    "reviewed": "v4"
   },
@@ -783,8 +791,8 @@
    "correct": 3,
    "takeaway": "Separate levothyroxine from calcium, iron and antacids by about 4 hours; a rising TSH can signal poor absorption.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-b4c7179ec2"
    ],
    "reviewed": "v4"
   },
@@ -815,8 +823,8 @@
    "correct": 0,
    "takeaway": "Aminoglycosides can injure the kidneys and inner ear; trend creatinine and report a rise promptly.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-f6a0dee2d4"
    ],
    "reviewed": "v4"
   },
@@ -847,8 +855,8 @@
    ],
    "takeaway": "Prevent wrong-route errors: enteral-only syringes, labeled doses, and tracing every line to its source before connecting.",
    "refs": [
-    "openstax-fund",
-    "openstax-pharm"
+    "v-4b8799783c",
+    "v-df1c5b2874"
    ],
    "options": [
     "Draw up the dose in an enteral (oral) syringe that cannot connect to IV ports.",
@@ -887,8 +895,8 @@
    "correct": 2,
    "takeaway": "Suspected anaphylaxis during an infusion: stop the drug first, then epinephrine IM and airway support.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -913,8 +921,8 @@
    "correct": 1,
    "takeaway": "Opioid itching without hives, wheezing or hypotension is a common side effect, not an allergy; report it for treatment.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "options": [
     "An anaphylactic reaction that needs epinephrine",
@@ -945,8 +953,8 @@
    "correct": 3,
    "takeaway": "Home naloxone: give it when overdose is suspected, call 911, and repeat in the other nostril every 2 to 3 minutes if there is no response.",
    "refs": [
-    "dailymed",
-    "openstax-pharm"
+    "v-46e6f44535",
+    "v-df1c5b2874"
    ],
    "options": [
     "Wait to give the spray until the client has completely stopped breathing",
@@ -989,8 +997,8 @@
    ],
    "takeaway": "Acetaminophen: count every source, respect the daily maximum, and tell the provider about regular alcohol use.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-c35d24be08"
    ],
    "reviewed": "v4"
   },
@@ -1030,8 +1038,10 @@
    ],
    "takeaway": "NSAID GI-bleed risk rises with older age, prior ulcer, anticoagulants and corticosteroids.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-bac2576aa6",
+    "v-ed7690db8d",
+    "v-c35d24be08"
    ],
    "reviewed": "v4"
   },
@@ -1062,8 +1072,8 @@
    "correct": 0,
    "takeaway": "Phenytoin causes gingival hyperplasia; teach careful oral hygiene and regular dental care.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-d8d32746c6"
    ],
    "reviewed": "v4"
   },
@@ -1094,8 +1104,9 @@
    "correct": 3,
    "takeaway": "Phenytoin therapeutic range is about 10 to 20 mcg/mL; low levels with seizures prompt an adherence check.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-d8d32746c6",
+    "v-2fe8fd1a7f"
    ],
    "reviewed": "v4"
   },
@@ -1135,8 +1146,8 @@
    ],
    "takeaway": "Antiepileptic teaching: never stop abruptly, report mood changes, follow driving rules and wear medical ID.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-8254a807a5"
    ],
    "reviewed": "v4"
   },
@@ -1175,9 +1186,9 @@
    ],
    "takeaway": "Anticholinergic drugs (diphenhydramine, oxybutynin, tricyclics) are a common, reversible cause of confusion and falls in older adults.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg",
-    "ags-beers"
+    "v-df1c5b2874",
+    "v-c5fb05f22f",
+    "v-789b3c5ca0"
    ],
    "reviewed": "v4"
   },
@@ -1220,8 +1231,8 @@
    ],
    "takeaway": "Anticholinergic effects: dry mouth, retention, constipation, blurred vision, tachycardia and confusion.",
    "refs": [
-    "openstax-pharm",
-    "ags-beers"
+    "v-df1c5b2874",
+    "v-789b3c5ca0"
    ],
    "reviewed": "v4"
   },
@@ -1252,8 +1263,8 @@
    "correct": 1,
    "takeaway": "High-alert IV infusions such as insulin need independent double-checks and smart-pump drug libraries.",
    "refs": [
-    "ismp-highalert",
-    "openstax-pharm"
+    "v-287f7b81ee",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1284,8 +1295,8 @@
    "correct": 2,
    "takeaway": "Concentrated potassium chloride vials do not belong in unit stock; remove them and report the event.",
    "refs": [
-    "ismp-highalert",
-    "tjc-npsg"
+    "v-287f7b81ee",
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -1324,8 +1335,8 @@
    ],
    "takeaway": "Use at least two client-specific identifiers (such as name and date of birth), never a room number.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1356,8 +1367,8 @@
    "correct": 0,
    "takeaway": "Compare the drug name on the label to the prescription every time; look-alike names cause serious errors.",
    "refs": [
-    "ismp-highalert",
-    "tjc-npsg"
+    "v-287f7b81ee",
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -1388,8 +1399,8 @@
    "correct": 1,
    "takeaway": "Dispose of unused opioids promptly, preferably through a drug take-back site.",
    "refs": [
-    "openstax-pharm",
-    "openstax-fund"
+    "v-df1c5b2874",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1429,8 +1440,8 @@
    ],
    "takeaway": "Medication reconciliation compares a complete list (prescription, OTC, supplements, non-oral forms, last dose) at every transition.",
    "refs": [
-    "tjc-npsg",
-    "openstax-fund"
+    "v-8523418e3b",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1455,8 +1466,7 @@
    "correct": 2,
    "takeaway": "Only cosign a controlled-substance waste you personally watched; report an unwitnessed waste through facility policy.",
    "refs": [
-    "openstax-fund",
-    "ana-ethics"
+    "v-2f532beded"
    ],
    "options": [
     "Cosign, because the colleague is experienced and trustworthy",
@@ -1498,8 +1508,8 @@
    ],
    "takeaway": "After a medication error: assess the client, notify the provider, treat and monitor, then report the event.",
    "refs": [
-    "openstax-fund",
-    "tjc-npsg"
+    "v-4b8799783c",
+    "v-8523418e3b"
    ],
    "reviewed": "v4"
   },
@@ -1530,8 +1540,8 @@
    "correct": 3,
    "takeaway": "Write \"units\" in full; clarify any prescription that uses a do-not-use abbreviation before giving the drug.",
    "refs": [
-    "tjc-npsg",
-    "ismp-highalert"
+    "v-8523418e3b",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -1550,14 +1560,15 @@
    "rationales": [
     "Correct. A client must give voluntary, documented informed consent before receiving an investigational drug; the nurse confirms it and follows the study protocol.",
     "A client who has decision-making capacity decides about research participation; family agreement is not required.",
-    "An investigational drug, by definition, is not yet approved for this use.",
+    "Incorrect. Full FDA approval for the studied use is not a prerequisite for authorized investigational use; approved drugs may also be studied in research. Verify study consent, eligibility, protocol, and required regulatory authorization.",
     "Study eligibility is set by the protocol, not by a universal rule that every approved treatment be tried first."
    ],
    "correct": 0,
    "takeaway": "Before giving an investigational drug, confirm documented informed consent and follow the study protocol.",
    "refs": [
-    "ana-ethics",
-    "openstax-fund"
+    "v-973aa1a2fe",
+    "v-58ec50379f",
+    "v-5bfa5346fd"
    ],
    "options": [
     "A signed informed consent for the study is in the client's record",
@@ -1594,8 +1605,8 @@
    "correct": 2,
    "takeaway": "UAP can measure and record (such as I&O); assessment, teaching and evaluation stay with the RN.",
    "refs": [
-    "ncsbn-delegation",
-    "openstax-fund"
+    "v-2448f4215e",
+    "v-4b8799783c"
    ],
    "reviewed": "v4"
   },
@@ -1626,8 +1637,8 @@
    "correct": 1,
    "takeaway": "Signs of bleeding with tachycardia in a client on an anticoagulant take priority over routine medication tasks.",
    "refs": [
-    "ismp-highalert",
-    "ncsbn-testplan"
+    "v-287f7b81ee",
+    "v-9c755bad76"
    ],
    "reviewed": "v4"
   },
@@ -1658,8 +1669,8 @@
    "correct": 3,
    "takeaway": "Discharge reconciliation looks for duplicate drug classes; clarify any duplication with the prescriber.",
    "refs": [
-    "tjc-npsg",
-    "openstax-pharm"
+    "v-8523418e3b",
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1684,8 +1695,8 @@
    "correct": 0,
    "takeaway": "The intended effect of a statin is a lower LDL cholesterol; rising liver enzymes or CK with muscle pain are adverse effects to report.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-e3281aa033"
    ],
    "options": [
     "LDL cholesterol decreased from 162 to 88 mg/dL",
@@ -1722,7 +1733,7 @@
    "correct": 1,
    "takeaway": "Weight-based doses use kilograms; convert pounds first (lb ÷ 2.2) to avoid overdosing.",
    "refs": [
-    "openstax-pharm"
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1753,7 +1764,7 @@
    "correct": 2,
    "takeaway": "Pump rate (mL/hr) = volume (mL) ÷ time (hr); convert minutes to hours first.",
    "refs": [
-    "openstax-pharm"
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1784,8 +1795,8 @@
    "correct": 2,
    "takeaway": "Find the concentration first (units per mL), then divide the hourly dose by it to get mL/hr.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert"
+    "v-df1c5b2874",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -1816,7 +1827,7 @@
    "correct": 3,
    "takeaway": "Convert to the same unit before calculating: 1 mg = 1,000 mcg.",
    "refs": [
-    "openstax-pharm"
+    "v-df1c5b2874"
    ],
    "reviewed": "v4"
   },
@@ -1847,8 +1858,8 @@
    "correct": 3,
    "takeaway": "Heparin is a high-alert drug: check the vial concentration carefully, because several strengths look alike.",
    "refs": [
-    "openstax-pharm",
-    "ismp-highalert"
+    "v-df1c5b2874",
+    "v-287f7b81ee"
    ],
    "reviewed": "v4"
   },
@@ -1889,8 +1900,8 @@
    ],
    "takeaway": "Infiltration = non-vesicant leaking (cool, pale); extravasation = vesicant leaking (pain, blisters); phlebitis = inflamed vein (red, warm, cordlike).",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1905,18 +1916,17 @@
    "type": "mcq",
    "difficulty": 2,
    "level": "Apply",
-   "stem": "The nurse is applying a new nitroglycerin transdermal patch for a client with stable angina. Which action is correct?",
+   "stem": "The nurse is applying a new nitroglycerin transdermal patch for a client with stable angina. The prescribed schedule includes 12 hours on and 12 hours off. Which action is correct?",
    "rationales": [
     "Using the same site irritates the skin; sites are rotated.",
-    "Correct. Removing the old patch prevents a double dose and hypotension, and rotating to clean, hairless skin gives even absorption and limits irritation.",
+    "Correct. Confirm the prescribed patch-free interval has been completed before a new application; a daily nitrate-free interval commonly 10–12 hours limits tolerance. Removing the old patch prevents a double dose and hypotension, and rotating to clean, hairless skin gives even absorption and limits irritation.",
     "Cutting a patch changes the dose and may damage the delivery system; headache is reported, not self-treated by changing the dose.",
     "The nurse wears gloves so the drug is not absorbed through the nurse's own skin."
    ],
    "correct": 1,
-   "takeaway": "Nitroglycerin patch: wear gloves, remove the old patch, rotate to clean hairless skin, and never cut the patch.",
+   "takeaway": "Follow the ordered on/off schedule and nitrate-free interval (commonly 10–12 hours); remove old patches, rotate clean sites, and follow product handling instructions.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-eb18e7b88f"
    ],
    "options": [
     "Place the new patch over the site of the old patch to keep absorption steady",
@@ -1962,8 +1972,8 @@
    ],
    "takeaway": "PN safety: dedicated lumen on a pump, glucose checks, daily weights, infection watch, and no catch-up rates.",
    "refs": [
-    "openstax-fund",
-    "openstax-medsurg"
+    "v-4b8799783c",
+    "v-c5fb05f22f"
    ],
    "reviewed": "v4"
   },
@@ -1995,8 +2005,8 @@
    ],
    "takeaway": "Eye medications: drops before ointment, press on the tear duct after drops, and wait about 5 minutes between medications.",
    "refs": [
-    "openstax-fund",
-    "openstax-pharm"
+    "v-4b8799783c",
+    "v-df1c5b2874"
    ],
    "options": [
     "Wait at least 5 minutes before giving the second medication.",
@@ -2028,8 +2038,8 @@
    "correct": 2,
    "takeaway": "Headache, vomiting or drowsiness after a fall in a client on an anticoagulant suggests intracranial bleeding until proven otherwise.",
    "refs": [
-    "openstax-pharm",
-    "openstax-medsurg"
+    "v-df1c5b2874",
+    "v-c5fb05f22f"
    ],
    "options": [
     "Migraine headache triggered by the stress of the fall",
@@ -2078,8 +2088,8 @@
    ],
    "takeaway": "Before digoxin: count the apical pulse for a full minute, look for toxicity signs, and review potassium and digoxin levels.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-66fd6869d9"
    ],
    "reviewed": "v4"
   },
@@ -2119,8 +2129,10 @@
    ],
    "takeaway": "Heparin: aPTT or anti-Xa, reversed with protamine. Warfarin: INR, reversed with vitamin K. For VTE, heparin overlaps warfarin for at least 5 days and until the INR is therapeutic.",
    "refs": [
-    "openstax-pharm",
-    "dailymed"
+    "v-df1c5b2874",
+    "v-36192d3d03",
+    "v-ed7690db8d",
+    "v-e457d9c5c7"
    ],
    "reviewed": "v4"
   }
