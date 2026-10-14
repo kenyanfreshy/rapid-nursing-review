@@ -1308,6 +1308,11 @@ html[data-ui="sunrise"] body{background:linear-gradient(160deg,#45201a 0%,#2a152
   .sidebar{box-shadow:10px 0 40px #000c}
 }
 
+/* Midnight (from NurseBound): the Vivid colors on a deeper, always-dark night background */
+html[data-ui="midnight"]{--bg:#03050c;--surface:#0b0f1d;--sunk:#070a15;--line:#1b2238}
+html[data-ui="midnight"] body{background:radial-gradient(1200px 520px at 50% -10%,#141a3a 0%,transparent 60%) fixed,var(--bg)}
+html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05070fe6}
+
 </style>
 </head>
 <body>
@@ -1477,8 +1482,8 @@ const freshState=()=>({schema:2,ui:'vivid',caseSession:null,caseHistory:[],previ
 // `quarantine` instead of being deleted, so they stay in the JSON export.
 const SCHEMA=2;
 // App color themes. Vivid, Ocean and Sunrise are NurseBound's palettes (dark); Daylight is the bright light theme.
-const UI_THEMES=[['vivid','Vivid',[['#0891b2','#10b981'],['#ea580c','#e11d48'],['#9333ea','#db2777'],['#059669','#0284c7']],1],['ocean','Ocean',[['#0e7490','#0891b2'],['#0f766e','#0284c7'],['#4338ca','#0369a1'],['#047857','#0e7490']],1],['sunrise','Sunrise',[['#d97706','#ea580c'],['#dc2626','#ea580c'],['#be185d','#9333ea'],['#b45309','#dc2626']],1],['daylight','Daylight',[['#0891b2','#10b981'],['#ea580c','#e11d48'],['#9333ea','#db2777'],['#059669','#0284c7']],0]];
-function applyUi(){const ui=state.ui||'vivid',light=ui==='daylight';document.documentElement.dataset.ui=ui;const el=document.getElementById('nb-theme');if(el){el.disabled=light;if(el.sheet)el.sheet.disabled=light;}document.querySelector('meta[name=theme-color]')?.setAttribute('content',light?'#ffffff':'#080b16');;try{const bg=getComputedStyle(document.documentElement).backgroundColor;window.ReactNativeWebView?.postMessage(JSON.stringify({type:'ui',light,bg}));}catch{}}
+const UI_THEMES=[['vivid','Vivid',[['#0891b2','#10b981'],['#ea580c','#e11d48'],['#9333ea','#db2777'],['#059669','#0284c7']],1],['ocean','Ocean',[['#0e7490','#0891b2'],['#0f766e','#0284c7'],['#4338ca','#0369a1'],['#047857','#0e7490']],1],['sunrise','Sunrise',[['#d97706','#ea580c'],['#dc2626','#ea580c'],['#be185d','#9333ea'],['#b45309','#dc2626']],1],['midnight','Midnight',[['#0891b2','#10b981'],['#ea580c','#e11d48'],['#9333ea','#db2777'],['#059669','#0284c7']],1]];   // the four NurseBound themes; Midnight = Vivid colors on a deeper, always-dark background
+function applyUi(){const ui=state.ui||'vivid',light=ui==='daylight';document.documentElement.dataset.ui=ui;const el=document.getElementById('nb-theme');if(el){el.disabled=light;if(el.sheet)el.sheet.disabled=light;}document.querySelector('meta[name=theme-color]')?.setAttribute('content',light?'#ffffff':ui==='midnight'?'#03050c':'#080b16');;try{const bg=getComputedStyle(document.documentElement).backgroundColor;window.ReactNativeWebView?.postMessage(JSON.stringify({type:'ui',light,bg}));}catch{}}
 const isObj=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
 const isStr=v=>typeof v==='string';
 const isDay=v=>isStr(v)&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&!isNaN(parseDay(v));
@@ -1555,7 +1560,7 @@ function normalizeState(saved){
   const b=isObj(saved.book)?saved.book:{};
   s.book={open:typeof b.open==='boolean'?b.open:null,page:Number.isInteger(b.page)&&b.page>=1&&b.page<=book.pages?b.page:1,tab:b.tab==='reader'?'reader':'contents',expanded:isStr(b.expanded)&&courseOf(b.expanded)?b.expanded:'nclex',marks:Array.isArray(b.marks)?[...new Set(b.marks.filter(p=>Number.isInteger(p)&&p>=1&&p<=book.pages))]:[]};
   s.previewPro=saved.previewPro===true;
-  s.ui=UI_THEMES.some(t=>t[0]===saved.ui)?saved.ui:'vivid';
+  s.ui=UI_THEMES.some(t=>t[0]===saved.ui)?saved.ui:saved.ui==='daylight'?'midnight':'vivid';
   s.milestones=Array.isArray(saved.milestones)?[...new Set(saved.milestones.filter(isStr))]:[];
   {const r=isObj(saved.reminder)?saved.reminder:{};s.reminder={on:r.on===true,time:isStr(r.time)&&/^([01]\d|2[0-3]):[0-5]\d$/.test(r.time)?r.time:'19:00',days:Array.isArray(r.days)?[...new Set(r.days.filter(d=>Number.isInteger(d)&&d>=0&&d<=6))].sort():[1,2,3,4,5],title:isStr(r.title)?r.title.slice(0,80):'',notes:isStr(r.notes)?r.notes.slice(0,500):'',length:[15,20,30,45,60,90,120].includes(r.length)?r.length:30};}
   if(isDay(saved.lastOpen))s.lastOpen=saved.lastOpen;
