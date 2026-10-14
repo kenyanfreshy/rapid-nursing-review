@@ -54,6 +54,7 @@ if (Notifications) {
   Notifications.setNotificationHandler({ handleNotification: async () => ({ shouldShowBanner: true, shouldShowList: true, shouldPlaySound: true, shouldSetBadge: false }) });
 }
 let lastReminder = '';
+const REMINDER_CHANNEL = 'study-reminders';
 async function scheduleReminder({ on, time, days, body }) {
   if (!Notifications) return;
   const key = JSON.stringify([on, time, days]);
@@ -61,6 +62,9 @@ async function scheduleReminder({ on, time, days, body }) {
   lastReminder = key;
   await Notifications.cancelAllScheduledNotificationsAsync();
   if (!on || !Array.isArray(days) || !days.length || !/^\d\d:\d\d$/.test(time || '')) return;
+  if (Platform.OS === 'android') {
+    await Notifications.setNotificationChannelAsync(REMINDER_CHANNEL, { name: 'Study reminders', importance: Notifications.AndroidImportance.HIGH, sound: 'default', vibrationPattern: [0, 250], lightColor: '#ea580c' });
+  }
   let perm = await Notifications.getPermissionsAsync();
   if (!perm.granted && perm.canAskAgain !== false) perm = await Notifications.requestPermissionsAsync();
   if (!perm.granted) return;
@@ -68,7 +72,7 @@ async function scheduleReminder({ on, time, days, body }) {
   for (const d of days) {
     await Notifications.scheduleNotificationAsync({
       content: { title: 'Time to study', body: (typeof body === 'string' && body) || 'Your Rapid Nursing Review session is ready. One more question today.' },
-      trigger: { type: Notifications.SchedulableTriggerInputTypes.WEEKLY, weekday: d + 1, hour, minute },   // weekday: 1 = Sunday
+      trigger: { type: Notifications.SchedulableTriggerInputTypes.WEEKLY, weekday: d + 1, hour, minute, ...(Platform.OS === 'android' ? { channelId: REMINDER_CHANNEL } : {}) },   // weekday: 1 = Sunday
     });
   }
 }
@@ -76,7 +80,7 @@ async function scheduleReminder({ on, time, days, body }) {
 let Calendar = null;
 try { Calendar = require('expo-calendar'); } catch (e) { Calendar = null; }
 
-/** Open the iPhone's own "New Event" screen with the user's study event filled in (title, notes, time, weekly days, alert).
+/** Open the phone's own "New Event" screen with the user's study event filled in (title, notes, time, weekly days, alert).
  *  The user can edit anything there and pick which of their calendars (iCloud, Gmail, Outlook...) to save it to.
  *  Falls back to the .ics share sheet if the calendar module isn't available. Returns 'saved', 'canceled' or 'shared'. */
 async function addCalendarEvent(ev, filename, ics) {
@@ -210,7 +214,7 @@ function Study() {
   }
 
   // Runs before the page script: hands the web app its native copy of saved progress.
-  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};window.__RNR_PRO__=${isPro ? 'true' : 'false'};true;`;
+  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};window.__RNR_PRO__=${isPro ? 'true' : 'false'};window.__RNR_PLATFORM__=${JSON.stringify(Platform.OS)};true;`;
   // Edge to edge: the page fills the whole screen, under the status bar and home indicator, so its colors follow the
   // phone's rounded corners. The page pads its own top bar and tab bar with env(safe-area-inset-*).
   return h(View, { style: [styles.fill, { backgroundColor: ui.bg }] },

@@ -1594,6 +1594,7 @@ let state=freshState(), loadNotice='';
 })();
 // In the mobile app (window.ReactNativeWebView), every save is also mirrored to native storage.
 const native=window.ReactNativeWebView;
+const PLATFORM=window.__RNR_PLATFORM__||(native?'ios':'web'), ANDROID=PLATFORM==='android';   // set by the Android/iOS shell
 function save(){const json=JSON.stringify(state);try{native?.postMessage(JSON.stringify({type:'save',data:json}));}catch{}try{localStorage.setItem(STORAGE,json);return true;}catch{if(native)return true;storageOK=false;toast('Storage is unavailable. Export your progress before leaving.');return false;}}
 const main=document.querySelector('#main'), modal=document.querySelector('#modal');
 const latestAttempts = () => Object.values(state.attempts.reduce((all,a)=>(all[a.qid]=a,all),{}));
@@ -1879,14 +1880,14 @@ function reminderSettings() {
   return `<section class="reminder-card" id="study-reminder" tabindex="-1"><div class="rc-head"><span class="rc-icon">${icon('clock')}</span><div><p class="theme-eyebrow">Study reminder</p><p class="rc-sub">${r.on ? `${daysText(r.days)} at ${fmtTime(r.time)}` : 'Pick a time and days that fit your schedule.'}</p></div><label class="switch"><input type="checkbox" id="rem-on" ${r.on ? 'checked' : ''} aria-label="Study reminder on"><span></span></label></div>
   <div class="rc-row"><label class="rc-time">${icon('clock')}<span>Time</span><input type="time" id="rem-time" value="${r.time}" aria-label="Reminder time"></label></div>
   <div class="rc-days" role="group" aria-label="Reminder days">${WD1.map((l, i) => `<button class="rc-day${r.days.includes(i) ? ' on' : ''}" data-action="rem-day" data-day="${i}" aria-pressed="${r.days.includes(i)}" aria-label="${WD[i]}">${l}</button>`).join('')}</div>
-  <p class="theme-note">${native ? 'You\'ll get a notification at this time on the days you pick.' : 'In the iPhone app this sends a notification.'}</p>
+  <p class="theme-note">${native ? 'You\'ll get a notification at this time on the days you pick.' : 'In the phone app this sends a notification.'}</p>
   <div class="rc-event"><p class="rc-label">${icon('calendar')}Your calendar event</p>
   <label class="rc-field"><span>Title</span><input type="text" id="rem-title" maxlength="80" value="${escape(r.title)}" placeholder="${REM_TITLE}" autocomplete="off"></label>
   <label class="rc-field"><span>Length</span><select id="rem-length">${REM_LENGTHS.map(n => `<option value="${n}" ${n === r.length ? 'selected' : ''}>${n < 60 ? `${n} minutes` : n === 60 ? '1 hour' : `${n / 60} hours`}</option>`).join('')}</select></label>
   <label class="rc-field"><span>Notes</span><textarea id="rem-notes" rows="3" maxlength="500" placeholder="What will you study? e.g. Cardiac meds, 25 questions, review my missed items">${escape(r.notes)}</textarea></label>
   <p class="rc-preview" id="rem-preview">${escape(calTitle())} · ${daysText(r.days.length ? r.days : [1, 2, 3, 4, 5])} at ${fmtTime(r.time)} · ${r.length} min</p>
-  <div class="rc-actions"><button class="primary" data-action="rem-calendar">${icon('calendar')}${native ? 'Add to My Calendar' : 'Add to Calendar (.ics)'}</button></div>
-  <p class="theme-note">${native ? 'Opens your iPhone calendar with these details filled in. You can still edit them, then choose which calendar to save to (iCloud, Outlook or another account on your device).' : 'Download the .ics file and open it to add the event to Apple Calendar or Outlook.'}</p></div></section>`;
+  <div class="rc-actions"><button class="primary" data-action="rem-calendar">${icon('calendar')}${native ? 'Add to My Calendar' : 'Add to Calendar (.ics)'}</button>${ANDROID || !native ? `<a class="secondary" id="rem-gcal" href="${googleCalUrl()}" target="_blank" rel="noopener noreferrer">${icon('calendar')}Google Calendar</a>` : ''}</div>
+  <p class="theme-note">${native ? (ANDROID ? 'Opens your phone\'s calendar with these details filled in. You can still edit them, then choose which calendar to save to (Google, Outlook or another account on your phone). Or open Google Calendar directly.' : 'Opens your iPhone calendar with these details filled in. You can still edit them, then choose which calendar to save to (iCloud, Outlook or another account on your device).') : 'Download the .ics file for Apple Calendar or Outlook, or open Google Calendar with these details filled in.'}</p></div></section>`;
 }
 function openReminderSettings() { openSettingsAt('#study-reminder'); }
 function openSettingsAt(sel) {
@@ -1919,6 +1920,12 @@ function calendarIcs() {
     `SUMMARY:${icsText(calTitle())}`, `DESCRIPTION:${icsText(calNotes())}`,
     'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Time to study', 'TRIGGER:PT0M', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
 }
+function googleCalUrl() {
+  const { start, end, days } = calTimes(); let tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch {}
+  const q = new URLSearchParams({ action: 'TEMPLATE', text: calTitle(), details: calNotes(), dates: `${icsDate(start)}/${icsDate(end)}`, recur: `RRULE:FREQ=WEEKLY;BYDAY=${days.map(d => ICS_DAY[d]).join(',')}` });
+  if (tz) q.set('ctz', tz);
+  return `https://calendar.google.com/calendar/render?${q}`;
+}
 function addToCalendar() {
   const ics = calendarIcs();
   if (native) {
@@ -1932,8 +1939,9 @@ function addToCalendar() {
 }
 window.__rnrCalendarResult = action => { if (action === 'saved') toast('Added to your calendar.'); else if (action === 'shared') toast('Choose Calendar to add your study event.'); };
 function refreshCalPreview() {
-  const r = state.reminder, p = document.querySelector('#rem-preview');
+  const r = state.reminder, p = document.querySelector('#rem-preview'), g = document.querySelector('#rem-gcal');
   if (p) p.textContent = `${calTitle()} · ${daysText(r.days.length ? r.days : [1, 2, 3, 4, 5])} at ${fmtTime(r.time)} · ${r.length} min`;
+  if (g) g.href = googleCalUrl();
 }
 // ---- Share my progress: email, WhatsApp, X, or the phone's share sheet (Instagram, Facebook, Messages...) ----
 function progressMessage() {
@@ -2202,7 +2210,7 @@ function showPaywall(reason = '') {
   const features = [[`All ${N.fmt(N.total)} NCLEX-style questions`, 'check'], [`${N.fmt(N.ngn)} NGN-format items`, 'layers'], [`${N.cases} NGN case studies`, 'spark'], ['NCLEX blueprint exam', 'target'], ['Timed exam mode', 'clock'], ['The complete book', 'book'], ['Answers linked to the book', 'bookmark']];
   modal.className = 'paywall';
   const prev = document.activeElement;
-  modal.innerHTML = `<div class="pw"><button class="pw-close" data-action="close-modal" aria-label="Close">${icon('close')}</button><div class="pw-head"><img src="pages/cover.webp" alt="" class="pw-icon"><div><p class="pw-eyebrow">RAPID NURSING REVIEW PRO</p><h2 id="modal-title">Prepare to Pass the NCLEX-RN on Your First Attempt</h2></div></div>${reason ? `<p class="pw-reason">${escape(reason)}</p>` : ''}<div class="pw-marquee" aria-label="Pro includes: ${features.map(f => f[0]).join(', ')}"><div class="pw-track">${[0, 1].map(k => `<div class="pw-chips" ${k ? 'aria-hidden="true"' : ''}>${features.map(([t, ic]) => `<span class="pw-chip">${icon(ic)}${t}</span>`).join('')}</div>`).join('')}</div></div><div class="pw-plans" role="radiogroup" aria-label="Plans"><div class="pw-row">${card(plans[0])}${card(plans[1])}</div>${card(plans[2])}${card(plans[3])}</div><button class="pw-cta" data-action="pw-buy"><strong>${per ? `Start ${TRIAL.adj} Free Trial` : 'Unlock Pro Access'}</strong><span>${per ? `${TRIAL.words} free, then ${chosen.price}/${per} · cancel anytime` : `${chosen.price} once · no subscription`}</span></button><div class="pw-links"><button data-action="pw-restore">Restore Purchases</button><span>·</span><button data-action="pw-manage">Manage Subscription</button></div><p class="pw-terms">${per ? `${TRIAL.words} free, then ${chosen.price}/${per}, renewing automatically. Cancel at least 24 hours before the trial ends and you won't be charged. ` : ''}Payment is charged to your Apple ID account at confirmation of purchase (for a free trial, when the trial ends). Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Cancel anytime in your account settings. Lifetime access is a one-time purchase. Rapid Nursing Review is for education only; it is not medical advice.</p>${legal()}<p class="pw-terms">U.S. prices shown. In the app, the App Store shows the price for your country.</p><div class="pw-links small"><a href="https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md" target="_blank" rel="noopener noreferrer">Privacy Policy</a><span>·</span><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Terms of Use (EULA)</a></div>${PREVIEW_UNLOCK ? `<div class="pw-links small"><button data-action="pw-preview">${state.previewPro ? 'Preview: lock Pro again' : 'Preview: unlock Pro on this device'}</button></div>` : ''}</div>`;
+  modal.innerHTML = `<div class="pw"><button class="pw-close" data-action="close-modal" aria-label="Close">${icon('close')}</button><div class="pw-head"><img src="pages/cover.webp" alt="" class="pw-icon"><div><p class="pw-eyebrow">RAPID NURSING REVIEW PRO</p><h2 id="modal-title">Prepare to Pass the NCLEX-RN on Your First Attempt</h2></div></div>${reason ? `<p class="pw-reason">${escape(reason)}</p>` : ''}<div class="pw-marquee" aria-label="Pro includes: ${features.map(f => f[0]).join(', ')}"><div class="pw-track">${[0, 1].map(k => `<div class="pw-chips" ${k ? 'aria-hidden="true"' : ''}>${features.map(([t, ic]) => `<span class="pw-chip">${icon(ic)}${t}</span>`).join('')}</div>`).join('')}</div></div><div class="pw-plans" role="radiogroup" aria-label="Plans"><div class="pw-row">${card(plans[0])}${card(plans[1])}</div>${card(plans[2])}${card(plans[3])}</div><button class="pw-cta" data-action="pw-buy"><strong>${per ? `Start ${TRIAL.adj} Free Trial` : 'Unlock Pro Access'}</strong><span>${per ? `${TRIAL.words} free, then ${chosen.price}/${per} · cancel anytime` : `${chosen.price} once · no subscription`}</span></button><div class="pw-links"><button data-action="pw-restore">Restore Purchases</button><span>·</span><button data-action="pw-manage">Manage Subscription</button></div><p class="pw-terms">${per ? `${TRIAL.words} free, then ${chosen.price}/${per}, renewing automatically. Cancel at least 24 hours before the trial ends and you won't be charged. ` : ''}Payment is charged to your Apple ID or Google Play account account at confirmation of purchase (for a free trial, when the trial ends). Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Cancel anytime in your account settings. Lifetime access is a one-time purchase. Rapid Nursing Review is for education only; it is not medical advice.</p>${legal()}<p class="pw-terms">U.S. prices shown. In the app, the App Store or Google Play shows the price for your country.</p><div class="pw-links small"><a href="https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md" target="_blank" rel="noopener noreferrer">Privacy Policy</a><span>·</span><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Terms of Use (EULA)</a></div>${PREVIEW_UNLOCK ? `<div class="pw-links small"><button data-action="pw-preview">${state.previewPro ? 'Preview: lock Pro again' : 'Preview: unlock Pro on this device'}</button></div>` : ''}</div>`;
   if (!modal.open) modal.showModal();
   const again = prev?.dataset?.action ? modal.querySelector(`[data-action="${prev.dataset.action}"]${prev.dataset.id ? `[data-id="${prev.dataset.id}"]` : ''}`) : null;
   (again || modal.querySelector('.plan.on'))?.focus();
@@ -2287,8 +2295,8 @@ document.addEventListener('click',e=>{const button=e.target.closest('[data-actio
  case 'case-next':{const cs=state.caseSession,c=caseOf(cs.caseId);if(cs.index>=c.items.length-1)finishCase();else{cs.index++;save();showCase();}break;}
  case 'paywall':showPaywall(d.reason==='all'?'':d.reason||'');break;
  case 'pw-plan':paywallPlan=d.id;updatePaywallPlan();break;
- case 'pw-buy':toast('Subscriptions are purchased in the Rapid Nursing Review app for iPhone and iPad.');break;
- case 'pw-restore':case 'pw-manage':toast('Restore and manage your plan in the iPhone or iPad app.');break;
+ case 'pw-buy':toast('Subscriptions are purchased in the Rapid Nursing Review app for iPhone, iPad and Android.');break;
+ case 'pw-restore':case 'pw-manage':toast('Restore and manage your plan in the iPhone, iPad or Android app.');break;
  case 'pw-preview':state.previewPro=!state.previewPro;save();closeModal();toast(state.previewPro?'Preview: Pro is unlocked on this device.':'Preview: back to the free plan.');break;
  case 'rem-day':{const n=Number(d.day),r=state.reminder;r.days=r.days.includes(n)?r.days.filter(x=>x!==n):[...r.days,n].sort();if(r.days.length&&!r.on)r.on=true;save();syncReminder();showSettings();document.querySelector(`[data-action="rem-day"][data-day="${n}"]`)?.focus();render();break;}
  case 'rem-calendar':addToCalendar();break;
