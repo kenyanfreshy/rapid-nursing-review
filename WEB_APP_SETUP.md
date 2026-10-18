@@ -27,7 +27,8 @@ Addresses:
 - Only public values go in the app: the RevenueCat `appl_…` key (already there), and the Supabase project URL and
   **publishable** key.
 - `build/webapp-private/` holds the question bank and book pages. It's git-ignored. Upload it only to Supabase Storage.
-- The app repo stays **private**. Only the website files (no questions, no book pages) go to the public repo.
+- The app repo stays **private**. The website is published from its own branch, **`gh-pages`**, which holds only the
+  website files (no questions, no book pages). Never point GitHub Pages at `main`: `main` contains the book pages.
 
 ---
 
@@ -37,14 +38,14 @@ Addresses:
 1. Supabase: create the project, run the SQL, set up Apple sign-in and the URLs.
 2. Apple Developer: App ID capability, Services ID, Sign in with Apple key.
 3. RevenueCat: copy the secret key (only into Terminal, step C).
-4. GitHub: turn on Pages for the website repo.
+4. GitHub: turn on Pages for the `gh-pages` branch of the app repo (needs GitHub Pro; see section 5).
 5. Cloudflare: already done (DNS only for `@` and `www`).
 6. App Store Connect: version 1.1.0 text, privacy labels and review notes (`mobile/APP_STORE_1.1.md`).
 
 **Claude does:**
 - All code, tests and builds (branch `web-sync`).
 - Putting your Supabase URL and publishable key into `dist/config.js`, then rebuilding the phone and web bundles.
-- Publishing the website files to the `site` branch of `kenyanfreshy/rapid-nursing-review-public`.
+- Publishing the website files to the `gh-pages` branch of `kenyanfreshy/rapid-nursing-review` (website only).
 
 ---
 
@@ -171,14 +172,20 @@ npx supabase storage ls ss:///book/rnr/pages/ --experimental | head -3
 Claude:
 - puts the two public values in `dist/config.js` and sets `appleSignIn: true` once Block D is done
 - rebuilds `mobile/assets/web` (marker `RNR-WEB-BUILD sync-v1`) and the web app
-- publishes the website to the `site` branch of `kenyanfreshy/rapid-nursing-review-public`
+- publishes the website to the `gh-pages` branch of `kenyanfreshy/rapid-nursing-review`
 
-## 5. GitHub Pages (website repo, in the browser)
+## 5. GitHub Pages (app repo, in the browser)
 
-1. github.com/kenyanfreshy/rapid-nursing-review-public → **Settings → Pages**
+GitHub Pages on a **private** repo needs a paid GitHub plan (GitHub Pro, about $4/month). The website itself is still
+public, which is what you want for the landing page, the policies and the sign-in page.
+
+1. github.com/kenyanfreshy/rapid-nursing-review → **Settings → Pages**
    - Source: **Deploy from a branch**
-   - Branch: **site**, folder **/ (root)**
+   - Branch: **gh-pages**, folder **/ (root)**. Never pick `main`: it contains the book pages.
    - Save.
+
+   If GitHub shows "Upgrade or make this repository public", the account needs GitHub Pro first. Don't make the repo
+   public.
 2. **Custom domain:** `nclexrapidnursingreview.com`, then Save. Wait for the DNS check to turn green, then tick
    **Enforce HTTPS**. That can take up to an hour.
 3. Recommended: go to your profile → **Settings → Pages → Add a domain** and verify `nclexrapidnursingreview.com` with
@@ -187,6 +194,7 @@ Claude:
    - Open `https://nclexrapidnursingreview.com/app/` in Safari. It shows the **Sign in with Apple** card.
    - Sign in with a sandbox or real subscriber Apple ID, then check that the app opens and that the book reader shows
      watermarked pages.
+5. The old policy links in the live app (`rapid-nursing-review-public/…/PRIVACY.md`) keep working; that repo is untouched.
 
 ## 6. iPhone build 1.1.0
 
