@@ -40,4 +40,4 @@ App is not sponsored or endorsed by NCSBN.
 
 ## Contact
 
-Alex K. Korir · alexkorirbook@gmail.com
+Alex K. Korir · alexkorirbooks@gmail.com

@@ -79,4 +79,4 @@ PERMISSIONS (both optional, asked only when the user turns the feature on):
 
 CONTENT: The app is for education and exam preparation only and is not medical advice; this is stated in a Disclaimer shown in Settings, About and on the paywall. NCLEX® is a registered trademark of NCSBN; the app states it is not sponsored or endorsed by NCSBN.
 
-Contact: Alex Korir, alexkorirbook@gmail.com
+Contact: Alex Korir, alexkorirbooks@gmail.com

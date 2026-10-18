@@ -1066,3 +1066,19 @@ html body .bp-head p:first-line{color:inherit}
 /* Related book section under a question's APA references */
 .nb-sources .nb-ref.related{margin-top:10px;padding-top:10px;border-top:1px dashed var(--x-line,#e1e5ef)}
 .nb-sources .nb-tiny.strong{font-weight:700;letter-spacing:.3px;text-transform:uppercase;font-size:10.5px;margin:0 0 4px}
+/* Sync and web access (optional Sign in with Apple) */
+.sync-card .sync-copy{margin:0;font-size:13px;line-height:1.45;color:var(--rnr-muted,#5b6478)}
+.sync-card .sync-copy b{color:inherit;font-weight:700}
+.apple-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:46px;border:0;border-radius:12px;background:#000;color:#fff;font-weight:600;font-size:16px;cursor:pointer;padding:0 16px}
+.apple-btn:disabled{opacity:.6;cursor:default}
+.apple-btn:focus-visible{outline:3px solid #60a5fa;outline-offset:2px}
+.sync-kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;font-size:13px}
+.sync-kv dt{color:var(--rnr-muted,#5b6478);font-weight:600}.sync-kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.sync-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sync-row .text-link{margin-left:auto}
+.sync-err{margin:0;padding:8px 10px;border-radius:10px;background:#fee2e2;color:#991b1b;font-size:13px}
+.danger-btn{background:#b91c1c!important;border-color:#b91c1c!important;color:#fff!important}
+.danger-btn:disabled{opacity:.5}
+/* Web app: protected book pages are drawn on a canvas */
+canvas.rnr-page{display:block;width:100%;height:auto;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.rnr-page-wait{display:flex;align-items:center;justify-content:center;min-height:240px;color:var(--rnr-muted,#5b6478);font-size:13px;text-align:center;padding:16px}

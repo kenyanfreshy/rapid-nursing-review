@@ -231,3 +231,5 @@ html[data-ui="sunrise"] body{background:linear-gradient(160deg,#45201a 0%,#2a152
 html[data-ui="midnight"]{--bg:#03050c;--surface:#0b0f1d;--sunk:#070a15;--line:#1b2238}
 html[data-ui="midnight"] body{background:radial-gradient(1200px 520px at 50% -10%,#141a3a 0%,transparent 60%) fixed,var(--bg)}
 html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05070fe6}
+.sync-err{background:#3b1220;color:#fecaca}
+.apple-btn{background:#fff;color:#000}

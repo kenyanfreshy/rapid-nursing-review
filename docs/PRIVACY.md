@@ -72,7 +72,7 @@ If this policy changes, the new version will be posted here with a new date.
 
 ## Contact
 
-Alex K. Korir · alexkorirbook@gmail.com
+Alex K. Korir · alexkorirbooks@gmail.com
 
 ---
 

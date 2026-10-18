@@ -1,6 +1,6 @@
 # Support — Rapid Nursing Review
 
-Email: **alexkorirbook@gmail.com** (we usually reply within 2 business days)
+Email: **alexkorirbooks@gmail.com** (we usually reply within 2 business days)
 
 ## Common questions
 
