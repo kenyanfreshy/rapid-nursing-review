@@ -136,7 +136,7 @@ node backend/apple-secret.mjs YOUR_TEAM_ID YOUR_KEY_ID ~/Downloads/AuthKey_YOUR_
 shown on screen.
 
 Then in Supabase, go to **Authentication → Sign In / Providers → Apple → Enable**:
-- **Client IDs:** `com.alexkorir.rapidnursingreview,com.alexkorir.rnr.web`
+- **Client IDs:** `com.alexkorir.rnr.web,com.alexkorir.rapidnursingreview` (web ID first: Supabase sends the first one to Apple on the website)
 - **Secret Key (for OAuth):** paste with ⌘V
 - Save.
 
@@ -264,5 +264,5 @@ Errors on the web name the step that failed:
 | "We couldn't find an active … subscription" | On the iPhone: Restore Purchases, then Sign in with Apple in Settings with the same Apple ID. |
 | Sign-in goes to `localhost:3000` | Step 1.5, the URL Configuration. |
 | "Sign-in started in another tab or browser" | Start and finish sign-in in the same tab, and don't use Private Browsing for the first sign-in. |
-| "Sign-in didn't finish: …" | Check the Services ID return URL, and that both Client IDs are in Supabase's Apple provider. |
+| "Sign-in didn't finish: …" | Check the Services ID return URL, that both Client IDs are in Supabase's Apple provider with com.alexkorir.rnr.web first, and that the Secret Key was made with the Sign in with Apple key (not an App Store Connect key). |
 | "Page not found. Were the book pages uploaded…" | Repeat Block F. |
