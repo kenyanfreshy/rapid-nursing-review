@@ -6,7 +6,8 @@
 //   SHA-256 nonce) and hands back the identity token, exchanged here at
 //   /auth/v1/token?grant_type=id_token. The shell then calls Purchases.logIn(<user id>) so the
 //   RevenueCat subscription is attached to the account.
-// Web: Supabase's Apple OAuth redirect; tokens come back in the URL fragment.
+// Web: Supabase's Apple OAuth redirect with PKCE: only this browser, which made the code verifier,
+//   can exchange the returned ?code= for a session (tokens put in a link by someone else are ignored).
 // Nobody has to sign in: without an account everything stays on the device, as before.
 import { RNR_CONFIG } from './config.js';
 import { mergeState, syncable } from './sync.js';
@@ -48,7 +49,8 @@ export const Account = (() => {
     : path.includes('/storage/') ? 'the question bank'
     : path.includes('/auth/') ? 'sign-in'
     : path.includes('save_progress') || path.includes('/progress') ? 'progress sync'
-    : path.includes('delete_account') ? 'account deletion'
+    : path.includes('delete-account') ? 'account deletion'
+    : path.includes('reset_progress') ? 'resetting synced progress'
     : 'the server';
 
   async function call(path, init = {}) {
@@ -112,30 +114,62 @@ export const Account = (() => {
       saveSession(fromAuth(b));
       return true;
     }
+    const verifier = randomString(64);
+    try { sessionStorage.setItem(PKCE_KEY, verifier); } catch { throw new Error('This browser blocks storage, so sign-in can’t finish. Allow site data for this page and try again.'); }
+    const challenge = await sha256url(verifier);
     const back = location.origin + location.pathname;
-    location.href = `${base()}/auth/v1/authorize?provider=apple&redirect_to=${encodeURIComponent(back)}`;
+    location.href = `${base()}/auth/v1/authorize?provider=apple&redirect_to=${encodeURIComponent(back)}&code_challenge=${challenge}&code_challenge_method=s256`;
     return false;
   }
+  const PKCE_KEY = 'rnr.pkce.v1';
+  function randomString(n) {
+    const a = new Uint8Array(n); crypto.getRandomValues(a);
+    return Array.from(a, b => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~'[b % 66]).join('');
+  }
+  async function sha256url(text) {
+    const d = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text)));
+    let b = ''; for (const x of d) b += String.fromCharCode(x);
+    return btoa(b).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  // Back from Apple: exchange ?code= with the verifier this browser kept. Tokens in the URL fragment
+  // are never accepted (that would let a crafted link sign someone into another account).
   async function consumeAuthRedirect() {
-    const h = new URLSearchParams(location.hash.replace(/^#/, ''));
-    if (h.get('error_description') || h.get('error')) {
-      history.replaceState(null, '', location.pathname + location.search);
-      throw new Error(`Sign-in didn't finish: ${h.get('error_description') || h.get('error')}`);
-    }
-    const at = h.get('access_token'), rt = h.get('refresh_token');
-    if (!at || !rt) return false;
-    history.replaceState(null, '', location.pathname + location.search);
-    const user = await call('/auth/v1/user', { headers: { Authorization: `Bearer ${at}` } });
-    saveSession(fromAuth({ access_token: at, refresh_token: rt, expires_in: Number(h.get('expires_in') || 3600), user }));
+    const q = new URLSearchParams(location.search), h = new URLSearchParams(location.hash.replace(/^#/, ''));
+    const clean = () => history.replaceState(null, '', location.pathname);
+    const errText = q.get('error_description') || q.get('error') || h.get('error_description') || h.get('error');
+    if (errText) { clean(); throw new Error(`Sign-in didn't finish: ${errText}`); }
+    if (h.get('access_token')) clean();          // ignore implicit-flow tokens in links
+    const code = q.get('code');
+    if (!code) return false;
+    let verifier = null;
+    try { verifier = sessionStorage.getItem(PKCE_KEY); sessionStorage.removeItem(PKCE_KEY); } catch {}
+    clean();
+    if (!verifier) throw new Error('Sign-in started in another tab or browser. Tap Sign in with Apple again here.');
+    const b = await call('/auth/v1/token?grant_type=pkce', { method: 'POST', body: JSON.stringify({ auth_code: code, code_verifier: verifier }) });
+    saveSession(fromAuth(b));
     return true;
   }
   async function signOut() {
     try { await call('/auth/v1/logout', { method: 'POST', auth: true }); } catch {}
     saveSession(null);
   }
+  // Deletes the account on the server (Edge Function `delete-account`, Auth admin API). On the iPhone,
+  // Apple is asked once more for an authorization code so the server can revoke the Sign in with Apple
+  // token too. Cancelling that sheet cancels the deletion.
   async function deleteAccount() {
-    await call('/rest/v1/rpc/delete_account', { method: 'POST', auth: true, body: '{}' });
+    let appleAuthorizationCode = null;
+    if (bridge()) {
+      const r = await nativeApple();
+      if (!r?.ok) { if (r?.cancelled) { const e = new Error('Deletion cancelled.'); e.cancelled = true; throw e; } }
+      else appleAuthorizationCode = r.authorizationCode || null;
+    }
+    await call('/functions/v1/delete-account', { method: 'POST', auth: true, body: JSON.stringify({ appleAuthorizationCode }) });
     saveSession(null);
+  }
+  // "Reset data" while signed in: clear the synced copy too, so the next sync doesn't bring it back.
+  async function resetSynced() {
+    if (!status.session) return;
+    await call('/rest/v1/rpc/reset_progress', { method: 'POST', auth: true, body: '{}' });
   }
 
   // ---- Web: Pro check and private content ----
@@ -195,7 +229,7 @@ export const Account = (() => {
 
   return {
     configured, enabled, isWeb, onChange, get status() { return status; },
-    signInWithApple, consumeAuthRedirect, signOut, deleteAccount,
+    signInWithApple, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
     checkWebAccess, privateJson, bookPage, syncNow, sendReports,
     webAppUrl: () => cfg().webAppUrl, supportEmail: () => cfg().supportEmail,
   };

@@ -1,7 +1,8 @@
 # Web app (build/webapp) with a mocked Supabase: sign-in gate, subscription check, private question
 # bank, protected book pages, sync, reports, sign out and account deletion. No real server is used.
 #   node scripts/build-webapp.mjs && python3 tests/webapp_test.py
-import json, os, re, subprocess, sys, threading, time, functools, http.server, socketserver
+import json, os, re, sys, threading, functools, http.server, socketserver, hashlib, base64
+from urllib.parse import unquote, parse_qs, urlparse
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,7 +34,8 @@ content = open(os.path.join(PRIV, 'content/content.json'), 'rb').read()
 class Mock:
     def __init__(self, active=True, remote=None, conflict_once=False):
         self.active, self.remote, self.version, self.conflict_once = active, remote, (1 if remote else 0), conflict_once
-        self.calls, self.saved, self.reports, self.deleted, self.pages = [], [], [], False, []
+        self.calls, self.saved, self.reports, self.deleted, self.pages, self.resets = [], [], [], False, [], 0
+        self.challenge = None
     def route(self, route):
         req = route.request; url = req.url; path = url[len(SB):]; auth = req.headers.get('authorization', '')
         self.calls.append(f'{req.method} {path.split("?")[0]}')
@@ -41,9 +43,15 @@ class Mock:
         if req.method == 'OPTIONS': return route.fulfill(status=200, headers={**hdr, 'Access-Control-Allow-Headers': '*', 'Access-Control-Allow-Methods': '*'})
         signed = auth == 'Bearer AT1'
         if path.startswith('/auth/v1/authorize'):
-            back = re.search(r'redirect_to=([^&]+)', path).group(1)
-            from urllib.parse import unquote
-            return route.fulfill(status=302, headers={'Location': unquote(back) + '#access_token=AT1&refresh_token=RT1&expires_in=3600&token_type=bearer'})
+            q = parse_qs(urlparse(url).query)
+            self.challenge = (q.get('code_challenge') or [None])[0]
+            if q.get('code_challenge_method') != ['s256'] or not self.challenge: return route.fulfill(status=400, headers=hdr, body='{"error":"pkce required"}')
+            return route.fulfill(status=302, headers={'Location': q['redirect_to'][0] + '?code=AUTHCODE1'})
+        if path.startswith('/auth/v1/token?grant_type=pkce'):
+            b = json.loads(req.post_data)
+            ok = b.get('auth_code') == 'AUTHCODE1' and base64.urlsafe_b64encode(hashlib.sha256(b.get('code_verifier', '').encode()).digest()).rstrip(b'=').decode() == self.challenge
+            if not ok: return route.fulfill(status=400, headers=hdr, body=json.dumps({'error_description': 'bad verifier'}))
+            return route.fulfill(status=200, headers=hdr, body=json.dumps({'access_token': 'AT1', 'refresh_token': 'RT1', 'expires_in': 3600, 'user': USER}))
         if path.startswith('/auth/v1/user'): return route.fulfill(status=200 if signed else 401, headers=hdr, body=json.dumps(USER))
         if path.startswith('/auth/v1/logout'): return route.fulfill(status=204, headers=hdr, body='')
         if not signed: return route.fulfill(status=401, headers=hdr, body=json.dumps({'message': 'JWT missing'}))
@@ -68,8 +76,10 @@ class Mock:
             return route.fulfill(status=200, headers=hdr, body=json.dumps(self.version))
         if path.startswith('/rest/v1/issue_reports'):
             self.reports += json.loads(req.post_data); return route.fulfill(status=201, headers=hdr, body='')
-        if path.startswith('/rest/v1/rpc/delete_account'):
-            self.deleted = True; return route.fulfill(status=204, headers=hdr, body='')
+        if path.startswith('/functions/v1/delete-account'):
+            self.deleted = True; return route.fulfill(status=200, headers=hdr, body='{"deleted":true,"appleRevoked":false}')
+        if path.startswith('/rest/v1/rpc/reset_progress'):
+            self.resets += 1; self.remote = None; self.version = 0; return route.fulfill(status=204, headers=hdr, body='')
         return route.fulfill(status=404, headers=hdr, body=json.dumps({'message': 'unmocked ' + path}))
 
 CONFIG = "window.__RNR_CONFIG__={supabaseUrl:'%s',supabaseKey:'sb_publishable_test',appleSignIn:true};" % SB
@@ -97,6 +107,12 @@ with sync_playwright() as p:
     pg.goto(APP); pg.wait_for_timeout(500)
     check("isn't connected to its server" in pg.inner_text('#rnr-gate'), 'unconfigured build says it is not connected')
     check(not m.calls, 'unconfigured build makes no server calls'); ctx.close()
+
+    # A link carrying someone else's tokens in the fragment must not sign the visitor in.
+    m = Mock(); ctx, pg, errs, _ = page_for(b, m)
+    pg.goto(APP + '#access_token=AT1&refresh_token=RT1&expires_in=3600&token_type=bearer'); pg.wait_for_selector('#wg-apple', timeout=10000)
+    check(pg.evaluate("localStorage.getItem('rnr.session.v1')") is None and '#access_token' not in pg.url, 'tokens in a crafted link are ignored (PKCE only)')
+    ctx.close()
 
     # Subscriber: sign in → subscription check → question bank → the app.
     m = Mock(remote={'attempts': [{'id': 'phone:cardio-basics-q1', 'session': 'phone', 'qid': 'cardio-basics-q1', 'selected': 0, 'correct': True, 'score': 1, 'day': '2026-10-16', 'at': '2026-10-16T17:00:00.000Z'}],
@@ -146,6 +162,13 @@ with sync_playwright() as p:
     pg.evaluate("""(()=>{const s=JSON.parse(localStorage.getItem('rapid-nursing-review-v1'));s.reports.push({id:'rep-1',qid:'cardio-basics-q1',reason:'Typo',details:'S4 spelled wrong',created:new Date().toISOString(),status:'saved'});localStorage.setItem('rapid-nursing-review-v1',JSON.stringify(s));})()""")
     pg.reload(); app_ready(pg); pg.wait_for_timeout(1500)
     check(any(r.get('id') == 'rep-1' for r in m.reports), 'question report sent to the review queue', m.reports)
+
+    # Reset while signed in clears the synced copy too, so the old progress doesn't come back.
+    pg.evaluate("document.querySelector('[data-action=settings]').click()"); pg.wait_for_selector('#sync-card')
+    pg.evaluate("document.querySelector('[data-action=confirm-reset]').click()"); pg.wait_for_selector('#modal [data-action=reset]')
+    pg.click('#modal [data-action=reset]'); pg.wait_for_timeout(5500)
+    st = pg.evaluate("JSON.parse(localStorage.getItem('rapid-nursing-review-v1'))")
+    check(m.resets == 1 and not st['attempts'] and not st['bookmarks'], 'reset while signed in clears the synced copy and stays reset', (m.resets, len(st['attempts'])))
 
     # Delete account: needs DELETE typed, then the server deletes it and the gate comes back.
     pg.evaluate("document.querySelector('[data-action=settings]').click()"); pg.wait_for_selector('#sync-card')

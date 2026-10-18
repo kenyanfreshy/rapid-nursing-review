@@ -129,7 +129,7 @@ async function appleSignIn() {
     const hashed = await Crypto.digestStringAsync(Crypto.CryptoDigestAlgorithm.SHA256, rawNonce);
     const cred = await Apple.signInAsync({ requestedScopes: [Apple.AppleAuthenticationScope.FULL_NAME, Apple.AppleAuthenticationScope.EMAIL], nonce: hashed });
     if (!cred.identityToken) return { ok: false, error: 'Apple did not return a sign-in token. Try again.' };
-    return { ok: true, identityToken: cred.identityToken, rawNonce, givenName: cred.fullName?.givenName || null };
+    return { ok: true, identityToken: cred.identityToken, rawNonce, authorizationCode: cred.authorizationCode || null, givenName: cred.fullName?.givenName || null };
   } catch (e) {
     return { ok: false, cancelled: e?.code === 'ERR_REQUEST_CANCELED', error: String(e?.message || e) };
   }

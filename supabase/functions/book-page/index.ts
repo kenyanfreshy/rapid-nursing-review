@@ -23,8 +23,8 @@ Deno.serve(async (req) => {
   try {
     return await handle(req);
   } catch (e) {
-    console.error(e);
-    return err(`Book page: server error (${(e as Error)?.message || e})`, 500);
+    console.error("book-page", e);
+    return err("Book page: server error. Try again in a minute.", 500);
   }
 });
 
@@ -35,20 +35,18 @@ async function handle(req: Request): Promise<Response> {
   const { data: who } = await admin.auth.getUser(jwt);
   const uid = who?.user?.id;
   if (!uid) return err("Please sign in again.", 401);
-  const { data: pro, error: proErr } = await admin.rpc("has_pro", { uid });
-  if (proErr) return err(`Book page: couldn't check access (${proErr.message}).`, 500);
+  const { data: pro, error: proErr } = await admin.rpc("has_pro_for", { uid });
+  if (proErr) { console.error("has_pro_for", proErr); return err("Book page: couldn't check access. Did you run backend/supabase.sql?", 500); }
   if (!pro) return err("Rapid Nursing Review Pro is needed to read the book. Reload the page to check your subscription again.", 403);
 
   const page = Number(new URL(req.url).searchParams.get("page"));
   if (!Number.isInteger(page) || page < 1 || page > PAGES) return err("Bad request.", 400);
 
-  const now = Date.now();
-  const hourAgo = new Date(now - 3600e3).toISOString(), dayAgo = new Date(now - 86400e3).toISOString();
+  // Count and record in one locked step (claim_book_read), so parallel requests can't pass the limit.
   const maxH = Number(Deno.env.get("BOOK_MAX_HOUR") ?? 120), maxD = Number(Deno.env.get("BOOK_MAX_DAY") ?? 400);
-  const { count: inHour } = await admin.from("book_reads").select("id", { count: "exact", head: true }).eq("user_id", uid).gte("at", hourAgo);
-  const { count: inDay } = await admin.from("book_reads").select("id", { count: "exact", head: true }).eq("user_id", uid).gte("at", dayAgo);
-  if ((inHour ?? 0) >= maxH || (inDay ?? 0) >= maxD) return err("You've opened a lot of pages in a short time. Reading will continue shortly.", 429);
-  await admin.from("book_reads").insert({ user_id: uid, page });
+  const { data: ok, error: limErr } = await admin.rpc("claim_book_read", { p_uid: uid, p_page: page, p_max_hour: maxH, p_max_day: maxD });
+  if (limErr) { console.error("claim_book_read", limErr); return err("Book page: couldn't check reading limits. Try again shortly.", 500); }
+  if (!ok) return err("You've opened a lot of pages in a short time. Reading will continue shortly.", 429);
 
   const name = `rnr/pages/p${String(page).padStart(3, "0")}.webp`;
   const { data, error } = await admin.storage.from("book").download(name);

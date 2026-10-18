@@ -1600,7 +1600,8 @@ const { mergeState, syncable, LOCAL_ONLY } = (() => {
 //   SHA-256 nonce) and hands back the identity token, exchanged here at
 //   /auth/v1/token?grant_type=id_token. The shell then calls Purchases.logIn(<user id>) so the
 //   RevenueCat subscription is attached to the account.
-// Web: Supabase's Apple OAuth redirect; tokens come back in the URL fragment.
+// Web: Supabase's Apple OAuth redirect with PKCE: only this browser, which made the code verifier,
+//   can exchange the returned ?code= for a session (tokens put in a link by someone else are ignored).
 // Nobody has to sign in: without an account everything stays on the device, as before.
 
 const Account = (() => {
@@ -1640,7 +1641,8 @@ const Account = (() => {
     : path.includes('/storage/') ? 'the question bank'
     : path.includes('/auth/') ? 'sign-in'
     : path.includes('save_progress') || path.includes('/progress') ? 'progress sync'
-    : path.includes('delete_account') ? 'account deletion'
+    : path.includes('delete-account') ? 'account deletion'
+    : path.includes('reset_progress') ? 'resetting synced progress'
     : 'the server';
 
   async function call(path, init = {}) {
@@ -1704,30 +1706,62 @@ const Account = (() => {
       saveSession(fromAuth(b));
       return true;
     }
+    const verifier = randomString(64);
+    try { sessionStorage.setItem(PKCE_KEY, verifier); } catch { throw new Error('This browser blocks storage, so sign-in can’t finish. Allow site data for this page and try again.'); }
+    const challenge = await sha256url(verifier);
     const back = location.origin + location.pathname;
-    location.href = `${base()}/auth/v1/authorize?provider=apple&redirect_to=${encodeURIComponent(back)}`;
+    location.href = `${base()}/auth/v1/authorize?provider=apple&redirect_to=${encodeURIComponent(back)}&code_challenge=${challenge}&code_challenge_method=s256`;
     return false;
   }
+  const PKCE_KEY = 'rnr.pkce.v1';
+  function randomString(n) {
+    const a = new Uint8Array(n); crypto.getRandomValues(a);
+    return Array.from(a, b => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~'[b % 66]).join('');
+  }
+  async function sha256url(text) {
+    const d = new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text)));
+    let b = ''; for (const x of d) b += String.fromCharCode(x);
+    return btoa(b).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  // Back from Apple: exchange ?code= with the verifier this browser kept. Tokens in the URL fragment
+  // are never accepted (that would let a crafted link sign someone into another account).
   async function consumeAuthRedirect() {
-    const h = new URLSearchParams(location.hash.replace(/^#/, ''));
-    if (h.get('error_description') || h.get('error')) {
-      history.replaceState(null, '', location.pathname + location.search);
-      throw new Error(`Sign-in didn't finish: ${h.get('error_description') || h.get('error')}`);
-    }
-    const at = h.get('access_token'), rt = h.get('refresh_token');
-    if (!at || !rt) return false;
-    history.replaceState(null, '', location.pathname + location.search);
-    const user = await call('/auth/v1/user', { headers: { Authorization: `Bearer ${at}` } });
-    saveSession(fromAuth({ access_token: at, refresh_token: rt, expires_in: Number(h.get('expires_in') || 3600), user }));
+    const q = new URLSearchParams(location.search), h = new URLSearchParams(location.hash.replace(/^#/, ''));
+    const clean = () => history.replaceState(null, '', location.pathname);
+    const errText = q.get('error_description') || q.get('error') || h.get('error_description') || h.get('error');
+    if (errText) { clean(); throw new Error(`Sign-in didn't finish: ${errText}`); }
+    if (h.get('access_token')) clean();          // ignore implicit-flow tokens in links
+    const code = q.get('code');
+    if (!code) return false;
+    let verifier = null;
+    try { verifier = sessionStorage.getItem(PKCE_KEY); sessionStorage.removeItem(PKCE_KEY); } catch {}
+    clean();
+    if (!verifier) throw new Error('Sign-in started in another tab or browser. Tap Sign in with Apple again here.');
+    const b = await call('/auth/v1/token?grant_type=pkce', { method: 'POST', body: JSON.stringify({ auth_code: code, code_verifier: verifier }) });
+    saveSession(fromAuth(b));
     return true;
   }
   async function signOut() {
     try { await call('/auth/v1/logout', { method: 'POST', auth: true }); } catch {}
     saveSession(null);
   }
+  // Deletes the account on the server (Edge Function `delete-account`, Auth admin API). On the iPhone,
+  // Apple is asked once more for an authorization code so the server can revoke the Sign in with Apple
+  // token too. Cancelling that sheet cancels the deletion.
   async function deleteAccount() {
-    await call('/rest/v1/rpc/delete_account', { method: 'POST', auth: true, body: '{}' });
+    let appleAuthorizationCode = null;
+    if (bridge()) {
+      const r = await nativeApple();
+      if (!r?.ok) { if (r?.cancelled) { const e = new Error('Deletion cancelled.'); e.cancelled = true; throw e; } }
+      else appleAuthorizationCode = r.authorizationCode || null;
+    }
+    await call('/functions/v1/delete-account', { method: 'POST', auth: true, body: JSON.stringify({ appleAuthorizationCode }) });
     saveSession(null);
+  }
+  // "Reset data" while signed in: clear the synced copy too, so the next sync doesn't bring it back.
+  async function resetSynced() {
+    if (!status.session) return;
+    await call('/rest/v1/rpc/reset_progress', { method: 'POST', auth: true, body: '{}' });
   }
 
   // ---- Web: Pro check and private content ----
@@ -1787,7 +1821,7 @@ const Account = (() => {
 
   return {
     configured, enabled, isWeb, onChange, get status() { return status; },
-    signInWithApple, consumeAuthRedirect, signOut, deleteAccount,
+    signInWithApple, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
     checkWebAccess, privateJson, bookPage, syncNow, sendReports,
     webAppUrl: () => cfg().webAppUrl, supportEmail: () => cfg().supportEmail,
   };
@@ -2023,7 +2057,7 @@ async function accountAction(action){
   if(action==='acct-sync'){acctErr='';return runSync().then(refreshAccountCard);}
   if(action==='acct-signout')return run(async()=>{await Account.signOut();toast('Signed out. Your progress stays on this device.');if(Account.isWeb())location.reload();});
   if(action==='acct-delete'){acctErr='';showDeleteAccount();return;}
-  if(action==='acct-delete-confirm'){if(document.querySelector('#del-confirm')?.value.trim()!=='DELETE')return;await run(async()=>{await Account.deleteAccount();closeModal();toast('Your account was deleted.');if(Account.isWeb())location.reload();});if(acctErr)showDeleteAccount();}
+  if(action==='acct-delete-confirm'){if(document.querySelector('#del-confirm')?.value.trim()!=='DELETE')return;await run(async()=>{try{await Account.deleteAccount();}catch(err){if(err.cancelled){acctErr='';return;}throw err;}closeModal();toast('Your account was deleted.');if(Account.isWeb())location.reload();});if(acctErr)showDeleteAccount();}
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-action^="acct-"]');if(b){e.preventDefault();accountAction(b.dataset.action);}});
 const main=document.querySelector('#main'), modal=document.querySelector('#modal');
@@ -2272,7 +2306,7 @@ function updatePlanTopics(selected){
 
 function showSearch(){modalShell('Find your next connection.','Search book sections, pages and practice questions.',`<input id="search-input" type="search" placeholder="Try “warfarin” or “DKA”" aria-label="Search the book and questions" autocomplete="off"><div id="search-results" class="search-results" aria-live="polite"></div>`);searchLibrary('');document.querySelector('#search-input').focus();}
 function searchLibrary(term){term=term.toLowerCase().trim();const ss=sections.filter(s=>`${s.title} ${courseOf(s.course).name}`.toLowerCase().includes(term));const pages=term.length>2?pageText.map((t,i)=>i+1).filter(p=>readerAllows(p)&&pageText[p-1].toLowerCase().includes(term)):[];const qs=term.length>1?active.filter(q=>`${q.stem} ${q.topic}`.toLowerCase().includes(term)):[];document.querySelector('#search-results').innerHTML=ss.slice(0,6).map(s=>{const c=courseOf(s.course);return `<button class="search-item" data-action="read-section" data-id="${s.id}">${chapterNum(c)}<span><strong>${escape(s.title)}</strong><p>${c.name} · ${pageRange(s)} · ${sectionQs(s.id).length} questions</p></span></button>`;}).join('')+(pages.length?`<button class="search-item" data-action="book-search" data-q="${escape(term)}"><span class="sec-pages">${pages.length} pp.</span><span><strong>Search inside the book</strong><p>${pages.length} page${pages.length===1?'':'s'} mention “${escape(term)}”</p></span></button>`:'')+qs.slice(0,6).map(q=>`<button class="search-item" data-action="single" data-id="${q.id}"><span class="toc-num" style="background:${topicOf(q.nclexTopic)?.color||'#3a3f45'}">${allowedQ(q)?'Q':'🔒'}</span><span><strong>${escape(qWhere(q))}</strong><p>${escape(q.stem)}</p></span></button>`).join('')+(!ss.length&&!qs.length&&!pages.length?'<p class="dialog-note">No matches. Try a body system, a condition or a drug name.</p>':'');}
-function showAbout(){modalShell(TAGLINE,'Rapid Nursing Review, the study app.',`<div style="display:flex;gap:16px;align-items:center;margin-bottom:16px"><img src="pages/cover.webp" alt="Book cover" style="width:72px;border-radius:4px;box-shadow:0 4px 14px #0003"><p class="about-copy" style="margin:0">This app follows <cite>Rapid Nursing Review: All Body Systems at a Glance</cite> by ${escape(book.author)}. Each chapter of the book is a course, and each section has its own reading pages and quiz.</p></div><ul class="about-list"><li><strong>${countsLine()}</strong>, each with a full rationale, a takeaway and its sources.</li><li>${courses.length} parts: NCLEX must-know content, nine body-system chapters and the fluid & electrolytes bonus.</li><li>${sections.length} sections with ${active.length} questions, each with a rationale for every option and a link to the book page.</li><li>The full book reader with search and page bookmarks, on the right side.</li><li>Saved sessions, bookmarks, question reports and an exam-date plan.</li></ul><div class="notice">The quiz questions are written from the book and reviewed by the author. Scores are not a validated readiness assessment.</div><p class="about-copy">Progress is stored only on this device. There is no account sync, payment or live AI tutor yet. Reports stay on this device and can be exported for review.</p><p class="legal-links"><a href="https://nclexrapidnursingreview.com/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Terms of Use (EULA)</a> · <a href="mailto:alexkorirbooks@gmail.com?subject=Rapid%20Nursing%20Review%20support" data-action="support-mail">Support</a></p>${legal()}<div class="modal-footer">${secondary('Open the book','toggle-book','','book')}${primary('Explore practice','practice')}</div>`);}
+function showAbout(){modalShell(TAGLINE,'Rapid Nursing Review, the study app.',`<div style="display:flex;gap:16px;align-items:center;margin-bottom:16px"><img src="pages/cover.webp" alt="Book cover" style="width:72px;border-radius:4px;box-shadow:0 4px 14px #0003"><p class="about-copy" style="margin:0">This app follows <cite>Rapid Nursing Review: All Body Systems at a Glance</cite> by ${escape(book.author)}. Each chapter of the book is a course, and each section has its own reading pages and quiz.</p></div><ul class="about-list"><li><strong>${countsLine()}</strong>, each with a full rationale, a takeaway and its sources.</li><li>${courses.length} parts: NCLEX must-know content, nine body-system chapters and the fluid & electrolytes bonus.</li><li>${sections.length} sections with ${active.length} questions, each with a rationale for every option and a link to the book page.</li><li>The full book reader with search and page bookmarks, on the right side.</li><li>Saved sessions, bookmarks, question reports and an exam-date plan.</li></ul><div class="notice">The quiz questions are written from the book and reviewed by the author. Scores are not a validated readiness assessment.</div><p class="about-copy">${Account.status.session?'Your progress is saved on this device and syncs with your account. Question reports you file are sent to the author for review.':'Progress is stored on this device. Signing in is optional (Settings → Sync and web access); without it, progress and question reports stay on this device and can be exported.'}</p><p class="legal-links"><a href="https://nclexrapidnursingreview.com/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Terms of Use (EULA)</a> · <a href="mailto:alexkorirbooks@gmail.com?subject=Rapid%20Nursing%20Review%20support" data-action="support-mail">Support</a></p>${legal()}<div class="modal-footer">${secondary('Open the book','toggle-book','','book')}${primary('Explore practice','practice')}</div>`);}
 // ---- Study reminder (Settings): a time (clock) and weekdays (calendar). The phone app schedules a local notification;
 // "Add to Calendar" saves a repeating calendar event; the Plan page shows it under Today's motivation. ----
 const REM_LENGTHS = [15, 20, 30, 45, 60, 90, 120], REM_TITLE = 'Study: Rapid Nursing Review';
@@ -2395,7 +2429,7 @@ function shareProgress(mode) {
 }
 function showSettings(){modalShell('Your study space.','A few personal touches and your saved data.',`${accountCard()}${tutorCard()}<form id="profile-form"><label class="field">What should we call you?<input name="name" value="${escape(state.name)}" maxlength="30" required></label><div class="modal-footer"><button type="submit" class="primary">Save name ${icon('check')}</button></div></form><section class="theme-card"><p class="theme-eyebrow">Theme</p><div class="ui-swatches" role="radiogroup" aria-label="App colors">${UI_THEMES.map(([id,label,strips,dark])=>`<button class="ui-swatch${dark?' is-dark':''}" role="radio" aria-checked="${state.ui===id}" aria-label="${label} theme" data-action="set-ui" data-ui="${id}"><span class="sw-strips">${strips.map(([a,b])=>`<span style="background:linear-gradient(90deg,${a},${b})"></span>`).join('')}</span><span class="sw-name"><span>${label}</span>${state.ui===id?`<span class="sw-check">${icon('check')}</span>`:''}</span></button>`).join('')}</div><p class="theme-note">Exams always stay white.</p></section>${reminderSettings()}${shareCard()}${refsCard()}<div class="setting-row plan-row" id="your-plan" tabindex="-1"><div><strong>Your plan</strong><p>${isPro()?(window.__RNR_PRO__?'Rapid Nursing Review Pro':'Pro (web preview)'):'Free plan'}</p></div><div class="plan-row-actions">${secondary('See Pro plans','paywall','','crown')}${isPro()&&window.__RNR_PRO__?'<a class="secondary" href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Manage subscription</a>':''}</div></div><div class="setting-row"><div><strong>Your progress belongs to you.</strong><p>Export answers, sessions, reports, and your plan.</p></div>${secondary('Export','export','','download')}</div><div class="setting-row"><div><strong>Question reports</strong><p>${state.reports.length} saved · ${Account.status.session?`${state.reports.filter(r=>r.status==='sent').length} sent to the author for review`:'Sign in with Apple to send them to the author'}</p></div>${secondary('View','reports')}</div><div class="setting-row"><div><strong>About Rapid Nursing Review</strong><p>What's inside, sources and the book.</p></div>${secondary('About','about')}</div><div class="setting-row"><div><strong>Start fresh</strong><p>Reset study data on this device.</p></div><button class="text-link danger" data-action="confirm-reset">Reset data</button></div>${legal()}`);}
 function exportData(){const payload=JSON.stringify({app:'Rapid Nursing Review',exported:new Date().toISOString(),...state},null,2);if(native){native.postMessage(JSON.stringify({type:'export',filename:`rapid-nursing-review-${dayKey()}.json`,data:payload}));return;}const blob=new Blob([payload],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`rapid-nursing-review-${dayKey()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Your progress export is ready.');}
-function openReport(id){const q=qOf(id);if(!q)return;quizVisible=false;modalShell('Help make this question better.','This report will be saved locally for clinical review.',`<p class="about-copy">${q.stem}</p><form id="report-form" data-id="${id}"><label class="field">What needs a closer look?<select name="reason"><option>Answer or rationale concern</option><option>Unclear wording</option><option>Reference concern</option><option>Other feedback</option></select></label><label class="field spacer">Details<textarea name="details" placeholder="Describe the concern so a reviewer can check it." required maxlength="1500"></textarea></label><p class="dialog-note">Reports are not transmitted. Export them from your profile to share with a clinical reviewer.</p><div class="modal-footer">${state.session?secondary('Back to question','resume'):secondary('Cancel','close-modal')}<button type="submit" class="primary">Save report ${icon('flag')}</button></div></form>`);}
+function openReport(id){const q=qOf(id);if(!q)return;quizVisible=false;modalShell('Help make this question better.',(Account.status.session?'This report goes to the author for review.':'This report will be saved on this device for review.'),`<p class="about-copy">${q.stem}</p><form id="report-form" data-id="${id}"><label class="field">What needs a closer look?<select name="reason"><option>Answer or rationale concern</option><option>Unclear wording</option><option>Reference concern</option><option>Other feedback</option></select></label><label class="field spacer">Details<textarea name="details" placeholder="Describe the concern so a reviewer can check it." required maxlength="1500"></textarea></label><p class="dialog-note">${Account.status.session?'Reports are sent to the author for review with your account.':'Reports stay on this device. Sign in with Apple in Settings to send them to the author, or export them from your profile.'}</p><div class="modal-footer">${state.session?secondary('Back to question','resume'):secondary('Cancel','close-modal')}<button type="submit" class="primary">Save report ${icon('flag')}</button></div></form>`);}
 function showReports(){modalShell('Your saved question reports.',`${state.reports.length} reports · Stored on this device`,`${state.reports.length?state.reports.slice().reverse().map(r=>`<article class="bookmark-card"><span class="tag">${qOf(r.qid)?.topic||'Question'}</span><h3>${escape(r.reason)}</h3><p class="about-copy">${escape(r.details)}</p><small>${readableDate(new Date(r.created))} · Saved on this device</small></article>`).join(''):'<p class="about-copy">No reports yet. Use “Report question” during practice to record a concern.</p>'}<div class="modal-footer">${secondary('Export reports & progress','export','','download')}</div>`);}
 function quick(){const picks=[],seen=new Set();for(const q of shuffle(active.filter(allowedQ))){if(!seen.has(q.nclexTopic)){seen.add(q.nclexTopic);picks.push(q.id);}if(picks.length===4)break;}startSession(picks,'tutor',10,'Quick mixed practice');}
 function toggleBookmark(id){if(!qOf(id))return;state.bookmarks=state.bookmarks.includes(id)?state.bookmarks.filter(x=>x!==id):[...state.bookmarks,id];save();if(quizVisible&&state.session)showQuiz();else render();toast(state.bookmarks.includes(id)?'Question saved to your bookmarks.':'Bookmark removed.');}
@@ -2732,7 +2766,7 @@ document.addEventListener('click',e=>{const button=e.target.closest('[data-actio
  case 'set-ui':state.ui=d.ui;save();applyUi();showSettings();render();document.querySelector(`[data-action="set-ui"][data-ui="${d.ui}"]`)?.focus();break;
  case 'open-more':{const sb=document.querySelector('#sidebar'),open=sb.classList.toggle('open');document.querySelector('#menu').setAttribute('aria-expanded',String(open));render();if(open)sb.querySelector('.nav-link')?.focus();break;}
  case 'dismiss-notice':loadNotice='';render();break;
- case 'reset':state=freshState();applyUi();loadNotice='';save();closeModal();toast('Your study space is ready for a fresh start.');break;
+ case 'reset':{const signed=Account.enabled()&&Account.status.session;const finish=()=>{state=freshState();applyUi();loadNotice='';editSnap=snapEdits(state);save();closeModal();toast(signed?'Fresh start, here and in your account.':'Your study space is ready for a fresh start.');};if(signed){Account.resetSynced().then(finish,err=>toast(`Couldn’t reset your synced progress: ${err.message}`));}else finish();break;}
  }});
 document.addEventListener('change',e=>{if(e.target.id==='rem-length'){const n=Number(e.target.value);if(REM_LENGTHS.includes(n)){state.reminder.length=n;save();refreshCalPreview();}return;}if(e.target.id==='rem-on'){state.reminder.on=e.target.checked;save();syncReminder();showSettings();render();return;}if(e.target.id==='rem-time'&&/^\d\d:\d\d$/.test(e.target.value)){state.reminder.time=e.target.value;state.reminder.on=true;save();syncReminder();showSettings();render();return;}if(e.target.id==='pick-need'){pick.need=e.target.value;render();return;}if(e.target.id==='pick-count'){pick.count=Number(e.target.value);render();return;}if(e.target.dataset.ngnBlank){const b=e.target.dataset.ngnBlank,v=e.target.value;updateCase(a=>({...(a||{}),[b]:v||undefined}));return;}if(e.target.id==='practice-course')updateSetupTopics();if(e.target.id==='practice-topic')updateSetupCounts();if(e.target.name==='courses'&&e.target.closest('#plan-courses'))updatePlanTopics();});
 document.addEventListener('input',e=>{if(e.target.id==='rem-title'||e.target.id==='rem-notes'){state.reminder[e.target.id==='rem-title'?'title':'notes']=e.target.value.slice(0,e.target.id==='rem-title'?80:500);save();refreshCalPreview();return;}if(e.target.id==='search-input')searchLibrary(e.target.value);if(e.target.id==='book-search'){bookQuery=e.target.value;const q=bookQuery.trim().toLowerCase();document.querySelector('#book-results').innerHTML=q.length>1?bookResults(q):tocList(latestMap());}});
@@ -2916,7 +2950,7 @@ document.addEventListener('click', e => { const b = e.target.closest('[data-acti
 applyUi();render();welcome();syncReminder();
 // Book pages on the phone: while a page is on screen, the app asks iOS/Android to block screenshots
 // and screen recording (expo-screen-capture in mobile/App.js). Everywhere else they work as usual.
-if(native){let bookShown=false,bvTimer=null;const checkBook=()=>{const on=!!document.querySelector('#book-panel:not([hidden]) img[src*="pages/p"], #page-viewer[open] img[src*="pages/p"], .inline-page img[src*="pages/p"]');if(on!==bookShown){bookShown=on;try{native.postMessage(JSON.stringify({type:'book-visible',on}));}catch{}}};new MutationObserver(()=>{clearTimeout(bvTimer);bvTimer=setTimeout(checkBook,60);}).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','open','src']});}
+if(native){let bookShown=false,bvTimer=null;const checkBook=()=>{const on=!!document.querySelector('#book-panel:not([hidden]) img[src*="pages/p"], #page-viewer[open] img[src*="pages/p"], .inline-page img[src*="pages/p"]');if(on!==bookShown){bookShown=on;try{native.postMessage(JSON.stringify({type:'book-visible',on}));}catch{}}};new MutationObserver(()=>{clearTimeout(bvTimer);bvTimer=setTimeout(checkBook,60);}).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','open','src']});checkBook();}
 // Sync on launch, when the app comes back to the foreground, and when the connection returns.
 if(Account.enabled()&&Account.status.session)runSync();
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')scheduleSync(300);else if(Account.status.session)runSync();});

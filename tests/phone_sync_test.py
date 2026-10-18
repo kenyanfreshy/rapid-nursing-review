@@ -12,7 +12,7 @@ def check(cond, name, extra=''):
     results.append(bool(cond)); print(('PASS ' if cond else 'FAIL ') + name + ('' if cond else f'  {extra}'))
 BRIDGE = "window.__msgs=[];window.ReactNativeWebView={postMessage:m=>window.__msgs.push(JSON.parse(m))};"
 CONFIG = "window.__RNR_CONFIG__={supabaseUrl:'%s',supabaseKey:'sb_publishable_test',appleSignIn:true};" % SB
-calls, saved, tokens = [], [], []
+calls, saved, tokens, deletes = [], [], [], []
 def route(r):
     path = r.request.url[len(SB):]; calls.append(f'{r.request.method} {path.split("?")[0]}')
     h = {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}
@@ -25,6 +25,8 @@ def route(r):
     if path.startswith('/rest/v1/rpc/save_progress'):
         saved.append(json.loads(r.request.post_data)); return r.fulfill(status=200, headers=h, body=str(len(saved)))
     if path.startswith('/auth/v1/logout'): return r.fulfill(status=204, headers=h, body='')
+    if path.startswith('/functions/v1/delete-account'):
+        deletes.append(json.loads(r.request.post_data)); return r.fulfill(status=200, headers=h, body='{"deleted":true,"appleRevoked":true}')
     return r.fulfill(status=404, headers=h, body='{}')
 
 with sync_playwright() as p:
@@ -78,6 +80,20 @@ with sync_playwright() as p:
     pg.click('#book-panel [data-action=close-book]'); pg.wait_for_timeout(300)
     bv = [m for m in pg.evaluate('window.__msgs') if m['type'] == 'book-visible']
     check(bv and bv[-1]['on'] is False, 'book closed → screenshot protection off', bv)
+
+    # Delete account on the phone: Apple is asked again, and its authorization code goes to the server for revocation.
+    pg.click('#top-initials'); pg.wait_for_selector('#sync-card'); pg.click('[data-action="acct-delete"]'); pg.fill('#del-confirm', 'DELETE')
+    pg.click('[data-action="acct-delete-confirm"]'); pg.wait_for_timeout(200)
+    pg.evaluate("window.__rnrAppleResult({ok:false,cancelled:true})"); pg.wait_for_timeout(300)
+    check(not deletes and pg.query_selector('#del-confirm'), 'cancelling the Apple sheet cancels the deletion')
+    pg.fill('#del-confirm', 'DELETE'); pg.click('[data-action="acct-delete-confirm"]'); pg.wait_for_timeout(200)
+    pg.evaluate("window.__rnrAppleResult({ok:true,identityToken:'t',rawNonce:'n',authorizationCode:'apple-code-1'})"); pg.wait_for_timeout(600)
+    check(deletes and deletes[0].get('appleAuthorizationCode') == 'apple-code-1', 'deletion sends the Apple code for token revocation', deletes)
+    check(pg.evaluate("localStorage.getItem('rnr.session.v1')") is None, 'signed out after deletion')
+    # Sign in again for the sign-out check.
+    pg.click('#top-initials'); pg.wait_for_selector('[data-action="acct-signin"]'); pg.click('[data-action="acct-signin"]'); pg.wait_for_timeout(200)
+    pg.evaluate("window.__rnrAppleResult({ok:true,identityToken:'eyJ.apple.token',rawNonce:'raw-nonce-123'})"); pg.wait_for_selector('#sync-card [data-action="acct-signout"]', timeout=5000)
+    pg.click('[data-action=close-modal]')
 
     # Sign out keeps local progress.
     pg.click('#top-initials'); pg.wait_for_selector('#sync-card'); pg.click('[data-action="acct-signout"]'); pg.wait_for_timeout(400)

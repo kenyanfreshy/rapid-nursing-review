@@ -26,9 +26,10 @@ Deno.serve(async (req) => {
   try {
     return await handle(req);
   } catch (e) {
-    console.error(e);
+    console.error("entitlement", e);
     // Always answer with CORS headers so the browser shows this message, not "Load failed".
-    return json({ error: `Subscription check: server error (${(e as Error)?.message || e})` }, 500);
+    // Details stay in the function logs (Supabase → Edge Functions → entitlement → Logs).
+    return json({ error: "Subscription check: server error. Try again in a minute." }, 500);
   }
 });
 
@@ -41,6 +42,16 @@ async function handle(req: Request): Promise<Response> {
   const { data: who, error } = await admin.auth.getUser(jwt);
   if (error || !who?.user) return json({ error: "Please sign in again." }, 401);
   const uid = who.user.id;
+
+  // Recently confirmed: answer from the mirror without calling RevenueCat again.
+  const { data: cached } = await admin.from("pro_access").select("product_id, expires_at, checked_at").eq("user_id", uid).maybeSingle();
+  if (cached && Date.now() - Date.parse(cached.checked_at) < 60_000 && (!cached.expires_at || Date.parse(cached.expires_at) > Date.now())) {
+    return json({ active: true, productId: cached.product_id, expiresAt: cached.expires_at ? Date.parse(cached.expires_at) : null, store: null });
+  }
+  // At most ENTITLEMENT_MAX_HOUR checks per account per hour (default 30).
+  const { data: allowed, error: limErr } = await admin.rpc("claim_entitlement_check", { p_uid: uid, p_max_hour: Number(Deno.env.get("ENTITLEMENT_MAX_HOUR") ?? 30) });
+  if (limErr) { console.error("claim_entitlement_check", limErr); return json({ error: "Subscription check: server setup incomplete. Did you run backend/supabase.sql?" }, 500); }
+  if (!allowed) return json({ error: "Too many subscription checks in a short time. Try again in a few minutes." }, 429);
 
   const ent = (Deno.env.get("RC_ENTITLEMENT") ?? "pro").trim() || "pro";
   const rcKey = (Deno.env.get("RC_SECRET_KEY") ?? "").trim();
@@ -56,7 +67,8 @@ async function handle(req: Request): Promise<Response> {
       signal: AbortSignal.timeout(15000),
     });
   } catch (e) {
-    return json({ error: `Couldn't reach RevenueCat for the subscription check. Try again in a minute. (${(e as Error)?.message || e})` }, 502);
+    console.error("revenuecat fetch", e);
+    return json({ error: "Couldn't reach RevenueCat for the subscription check. Try again in a minute." }, 502);
   }
   if (rc.status === 401 || rc.status === 403) return json({ error: "Server setup: RevenueCat rejected RC_SECRET_KEY. Check it's the secret key of the Rapid Nursing Review project." }, 500);
   if (!rc.ok) return json({ error: `Subscription check failed (RevenueCat ${rc.status}). Try again in a minute.` }, 502);
@@ -75,7 +87,7 @@ async function handle(req: Request): Promise<Response> {
       expires_at: until ? new Date(until).toISOString() : null,
       checked_at: new Date().toISOString(),
     });
-    if (upErr) return json({ error: `Subscription check: couldn't record access (${upErr.message}). Did you run backend/supabase.sql?` }, 500);
+    if (upErr) { console.error("pro_access upsert", upErr); return json({ error: "Subscription check: couldn't record access. Did you run backend/supabase.sql?" }, 500); }
   } else {
     await admin.from("pro_access").delete().eq("user_id", uid);
   }

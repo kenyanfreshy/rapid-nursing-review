@@ -140,18 +140,28 @@ Then in Supabase, go to **Authentication → Sign In / Providers → Apple → E
 - **Secret Key (for OAuth):** paste with ⌘V
 - Save.
 
+**Same block, second part:** these let the account-deletion function revoke the Apple sign-in token, which Apple asks for.
+The `.p8` text goes straight from the file into Supabase; it is never shown on screen.
+```bash
+cd ~/Documents/"Rapid Nursing Review App"/rnr-web-sync
+npx supabase secrets set APPLE_TEAM_ID=YOUR_TEAM_ID APPLE_KEY_ID=YOUR_KEY_ID APPLE_PRIVATE_KEY="$(cat ~/Downloads/AuthKey_YOUR_KEY_ID.p8)"
+npx supabase secrets list
+```
+**Success:** the list also shows `APPLE_TEAM_ID`, `APPLE_KEY_ID` and `APPLE_PRIVATE_KEY`.
+
 Then move the `.p8` file out of Downloads into a safe folder (not the repo).
 
 **Set a calendar reminder for 5 months from today** to run Block D again. Apple's secret expires after 180 days; when it
 does, web sign-in stops until you renew it. The iPhone sign-in isn't affected.
 
-### Block E: deploy the two server functions
+### Block E: deploy the three server functions
 ```bash
 cd ~/Documents/"Rapid Nursing Review App"/rnr-web-sync
 npx supabase functions deploy entitlement --no-verify-jwt
 npx supabase functions deploy book-page --no-verify-jwt
+npx supabase functions deploy delete-account --no-verify-jwt
 ```
-**Success:** "Deployed Functions … entitlement" and "… book-page". The `--no-verify-jwt` flag is required: the functions
+**Success:** "Deployed Functions …" for `entitlement`, `book-page` and `delete-account`. The `--no-verify-jwt` flag is required: the functions
 check sign-in themselves, and without the flag the browser only shows "Load failed".
 
 ### Block F: build the web app and upload the private files
@@ -253,5 +263,6 @@ Errors on the web name the step that failed:
 | "Server setup: RC_SECRET_KEY is missing or has extra characters" | Repeat Block C with the full `sk_` key. |
 | "We couldn't find an active … subscription" | On the iPhone: Restore Purchases, then Sign in with Apple in Settings with the same Apple ID. |
 | Sign-in goes to `localhost:3000` | Step 1.5, the URL Configuration. |
+| "Sign-in started in another tab or browser" | Start and finish sign-in in the same tab, and don't use Private Browsing for the first sign-in. |
 | "Sign-in didn't finish: …" | Check the Services ID return URL, and that both Client IDs are in Supabase's Apple provider. |
 | "Page not found. Were the book pages uploaded…" | Repeat Block F. |

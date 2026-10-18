@@ -65,19 +65,25 @@ drop policy if exists "own reports: insert" on public.issue_reports;
 drop policy if exists "own reports: read" on public.issue_reports;
 create policy "own reports: insert" on public.issue_reports for insert with check (auth.uid() = user_id);
 create policy "own reports: read" on public.issue_reports for select using (auth.uid() = user_id);
+-- (Column grants at the bottom: learners can set only id, question_id, reason, details, created_at; never status.)
 
 -- ===================== Account deletion (in-app, required by Apple 5.1.1(v)) =====================
--- Deletes the sign-in account; progress, Pro access and book-read logs cascade;
--- reports are kept with user_id set to null.
-create or replace function public.delete_account()
+-- Done by the `delete-account` Edge Function with the Auth admin API (auth.admin.deleteUser), which also
+-- revokes the Sign in with Apple token when the iPhone provides an authorization code. Progress, Pro
+-- access and logs cascade; reports are kept with user_id set to null. (An older SQL version of this
+-- function deleted from auth.users directly; it is removed.)
+drop function if exists public.delete_account();
+
+-- "Reset data" while signed in: also clear the synced copy, so the reset isn't undone by the next sync.
+create or replace function public.reset_progress()
 returns void
-language plpgsql security definer set search_path = public, auth as $$
+language plpgsql security definer set search_path = public as $$
 begin
   if auth.uid() is null then raise exception 'not signed in' using errcode = '28000'; end if;
-  delete from auth.users where id = auth.uid();
+  delete from progress where user_id = auth.uid();
 end $$;
-revoke all on function public.delete_account() from public, anon;
-grant execute on function public.delete_account() to authenticated;
+revoke all on function public.reset_progress() from public, anon;
+grant execute on function public.reset_progress() to authenticated;
 
 -- ===================== Pro access (web) =====================
 -- Mirrored from RevenueCat by the `entitlement` Edge Function (service role only).
@@ -92,12 +98,25 @@ alter table public.pro_access enable row level security;
 drop policy if exists "own access: read" on public.pro_access;
 create policy "own access: read" on public.pro_access for select using (auth.uid() = user_id);
 
-create or replace function public.has_pro(uid uuid) returns boolean
+-- Access counts only while it is current AND was confirmed with RevenueCat in the last 24 hours, so a
+-- refund or revoked purchase stops working within a day even for someone who never reloads the gate.
+drop function if exists public.has_pro(uuid);
+create or replace function public.has_pro() returns boolean
 language sql stable security definer set search_path = public as $$
-  select exists (select 1 from pro_access where user_id = uid and (expires_at is null or expires_at > now()));
+  select exists (select 1 from pro_access where user_id = auth.uid()
+                 and (expires_at is null or expires_at > now()) and checked_at > now() - interval '24 hours');
 $$;
-revoke all on function public.has_pro(uuid) from public, anon;
-grant execute on function public.has_pro(uuid) to authenticated;
+revoke all on function public.has_pro() from public, anon;
+grant execute on function public.has_pro() to authenticated;
+
+-- Same check for the Edge Functions (service role only; a user can't probe other accounts).
+create or replace function public.has_pro_for(uid uuid) returns boolean
+language sql stable security definer set search_path = public as $$
+  select exists (select 1 from pro_access where user_id = uid
+                 and (expires_at is null or expires_at > now()) and checked_at > now() - interval '24 hours');
+$$;
+revoke all on function public.has_pro_for(uuid) from public, anon, authenticated;
+grant execute on function public.has_pro_for(uuid) to service_role;
 
 -- ===================== Private storage =====================
 -- `content`: content.json (both question banks). Readable only by a signed-in Pro account.
@@ -107,7 +126,7 @@ insert into storage.buckets (id, name, public) values ('content', 'content', fal
 insert into storage.buckets (id, name, public) values ('book', 'book', false) on conflict (id) do nothing;
 drop policy if exists "pro can read content" on storage.objects;
 create policy "pro can read content" on storage.objects for select to authenticated
-  using (bucket_id = 'content' and name = 'content.json' and public.has_pro(auth.uid()));
+  using (bucket_id = 'content' and name = 'content.json' and public.has_pro());
 
 -- Book page reads, for per-account limits (see supabase/functions/book-page).
 create table if not exists public.book_reads (
@@ -119,13 +138,54 @@ create table if not exists public.book_reads (
 create index if not exists book_reads_user_at on public.book_reads (user_id, at desc);
 alter table public.book_reads enable row level security;   -- no policies: service role only
 
+-- Count and record a page view in one step, under a per-account lock, so parallel requests
+-- can't slip past the limit. Returns false when the hourly or daily limit is reached.
+create or replace function public.claim_book_read(p_uid uuid, p_page integer, p_max_hour integer, p_max_day integer)
+returns boolean
+language plpgsql security definer set search_path = public as $$
+declare h integer; d integer;
+begin
+  perform pg_advisory_xact_lock(hashtext('book:' || p_uid::text));
+  select count(*) filter (where at > now() - interval '1 hour'), count(*) into h, d
+    from book_reads where user_id = p_uid and at > now() - interval '1 day';
+  if h >= p_max_hour or d >= p_max_day then return false; end if;
+  insert into book_reads(user_id, page) values (p_uid, p_page);
+  return true;
+end $$;
+revoke all on function public.claim_book_read(uuid, integer, integer, integer) from public, anon, authenticated;
+grant execute on function public.claim_book_read(uuid, integer, integer, integer) to service_role;
+
+-- Subscription checks, so one account can't hammer RevenueCat through the `entitlement` function.
+create table if not exists public.entitlement_checks (
+  id      bigserial primary key,
+  user_id uuid not null references auth.users(id) on delete cascade,
+  at      timestamptz not null default now()
+);
+create index if not exists entitlement_checks_user_at on public.entitlement_checks (user_id, at desc);
+alter table public.entitlement_checks enable row level security;   -- no policies: service role only
+create or replace function public.claim_entitlement_check(p_uid uuid, p_max_hour integer)
+returns boolean
+language plpgsql security definer set search_path = public as $$
+declare h integer;
+begin
+  perform pg_advisory_xact_lock(hashtext('ent:' || p_uid::text));
+  select count(*) into h from entitlement_checks where user_id = p_uid and at > now() - interval '1 hour';
+  if h >= p_max_hour then return false; end if;
+  insert into entitlement_checks(user_id) values (p_uid);
+  delete from entitlement_checks where user_id = p_uid and at < now() - interval '1 day';
+  return true;
+end $$;
+revoke all on function public.claim_entitlement_check(uuid, integer) from public, anon, authenticated;
+grant execute on function public.claim_entitlement_check(uuid, integer) to service_role;
+
 -- ===================== Explicit Data API privileges =====================
 -- Needed because "Automatically expose new tables" is off. RLS above still decides which rows.
-grant usage on schema public to anon, authenticated;
-revoke all on public.progress, public.issue_reports, public.pro_access, public.book_reads from anon;
+grant usage on schema public to anon, authenticated, service_role;
+revoke all on public.progress, public.issue_reports, public.pro_access, public.book_reads, public.entitlement_checks from anon, authenticated;
 grant select on public.progress to authenticated;
-grant select, insert on public.issue_reports to authenticated;
+grant select on public.issue_reports to authenticated;
+grant insert (id, question_id, reason, details, created_at) on public.issue_reports to authenticated;
 grant select on public.pro_access to authenticated;
-revoke all on public.book_reads from authenticated;
-grant usage, select on sequence public.book_reads_id_seq to service_role;
-grant all on public.progress, public.issue_reports, public.pro_access, public.book_reads to service_role;
+grant all on public.progress, public.issue_reports, public.pro_access, public.book_reads, public.entitlement_checks to service_role;
+grant usage, select on all sequences in schema public to service_role;
+grant execute on function public.save_progress(jsonb, integer), public.reset_progress() to service_role;

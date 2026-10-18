@@ -36,10 +36,15 @@ const content = {
   book: book.book, clientNeeds: book.clientNeeds, chapters: book.chapters, bookQuestions: book.bookQuestions,
   nclexTopics: nclex.nclexTopics, nclexBank: nclex.nclexBank, ngnCases: nclex.ngnCases, nclexRefs: nclex.nclexRefs,
 };
+// The 12 retired pilot questions live in data.js; on the web they move into the private file too.
+const dataSrc = read('dist/data.js');
+const pilotMatch = /const pilotQuestions = (\[[\s\S]*?\n\]);/.exec(dataSrc);
+if (!pilotMatch) throw new Error('pilotQuestions not found in dist/data.js; update build-webapp.mjs');
+content.pilotQuestions = (await import('node:vm')).runInNewContext(`(${pilotMatch[1]})`);
 for (const [k, v] of Object.entries(content)) if (v == null) throw new Error(`content.json: ${k} is missing`);
 
 // ---- the app bundle (public, no content) ----
-const CONTENT_NAMES = Object.keys(content).filter(k => k !== 'BOOK_ACCESS');
+const CONTENT_NAMES = Object.keys(content).filter(k => k !== 'BOOK_ACCESS' && k !== 'pilotQuestions');
 let appJs = unmodule(read('dist/app.js')).replace('const PREVIEW_UNLOCK = true;', 'const PREVIEW_UNLOCK = false;');
 if (!appJs.includes('const PREVIEW_UNLOCK = false;')) throw new Error('PREVIEW_UNLOCK flag not found in app.js');
 const appBundle = `window.__RNR_WEB__=true;
@@ -47,7 +52,7 @@ const appBundle = `window.__RNR_WEB__=true;
 'use strict';
 const {${CONTENT_NAMES.join(',')},pageText}=window.__RNR_CONTENT__;
 const BOOK_ACCESS='full';
-${noModules('data.js', unmodule(read('dist/data.js')))}
+${noModules('data.js', unmodule(dataSrc.replace(pilotMatch[0], 'const pilotQuestions = window.__RNR_CONTENT__.pilotQuestions || [];')))}
 const lessons=retiredLessons;
 ${noModules('config.js', unmodule(read('dist/config.js')))}
 ${noModules('sync.js', unmodule(read('dist/sync.js')))}
@@ -55,7 +60,7 @@ ${noModules('sync.js', unmodule(read('dist/sync.js')))}
 const Account=window.__RNR_ACCOUNT__;
 ${noModules('app.js', appJs)}
 })();`;
-for (const leak of ['"stem":', 'bookQuestions=[', 'nclexBank=[']) if (appBundle.includes(leak)) throw new Error(`app bundle contains content (${leak})`);
+for (const leak of ['"stem":', "stem:'", 'stem:"', 'bookQuestions=[', 'nclexBank=[']) if (appBundle.includes(leak)) throw new Error(`app bundle contains content (${leak})`);
 const appName = `app.${crypto.createHash('sha256').update(appBundle).digest('hex').slice(0, 10)}.js`;
 
 // ---- the gate (inline in index.html) ----

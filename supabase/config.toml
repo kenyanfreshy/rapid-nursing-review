@@ -9,3 +9,6 @@ verify_jwt = false
 
 [functions.book-page]
 verify_jwt = false
+
+[functions.delete-account]
+verify_jwt = false
