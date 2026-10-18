@@ -1,6 +1,7 @@
 # Loads mobile/assets/web/index.html from file:// (as the WebView does) with a fake native bridge.
 from playwright.sync_api import sync_playwright
 import json,os
+OPEN_FOLD = "document.querySelectorAll('.pf-more').forEach(d=>d.open=true)"  # the four practice modes sit in a fold
 U='file://'+os.path.abspath('mobile/assets/web/index.html')
 res=[]
 def check(n,ok,info=''): res.append(('PASS' if ok else 'FAIL',n,info))
@@ -34,15 +35,15 @@ with sync_playwright() as p:
     pg.click('#modal [data-action=close-modal]') if pg.evaluate("document.querySelector('#modal').open") else None
     pg.goto(pg.url.split('#')[0] + '#practice'); pg.wait_for_timeout(300)
     check('free plan in the app (no preview unlock)', pg.locator('.free-banner').count() == 1 and pg.locator('[data-action=pw-preview]').count() == 0)
-    pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(200)
+    pg.evaluate(OPEN_FOLD); pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(200)
     pw=[m for m in pg.evaluate('window.__msgs') if m['type']=='paywall']
     check('locked item opens the native paywall', len(pw) == 1 and 'blueprint' in pw[0]['reason'] and not pg.evaluate("document.querySelector('#modal').open"))
     pg.evaluate('window.__rnrSetPro(true)'); pg.wait_for_timeout(300)
     check('native purchase unlocks Pro', pg.locator('.free-banner').count() == 0)
-    pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(300)
+    pg.evaluate(OPEN_FOLD); pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(300)
     check('unfinished quiz is offered first', 'session in progress' in pg.inner_text('#modal'))
     pg.click('#modal [data-action=finish]'); pg.wait_for_timeout(200); pg.click('#modal [data-action=close-modal]')
-    pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(300)
+    pg.evaluate(OPEN_FOLD); pg.click('[data-action=start-blueprint]'); pg.wait_for_timeout(300)
     check('blueprint exam starts after purchase', pg.evaluate("document.querySelector('#modal').open") and 'Question 1 of 75' in pg.inner_text('#modal'))
     check('no horizontal scroll on phone',pg.evaluate('document.documentElement.scrollWidth<=window.innerWidth'))
     pg.screenshot(path=os.environ.get('SHOT','/tmp/m.png'))
