@@ -16,7 +16,8 @@
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       },
-      "usesAppleSignIn": true
+      "usesAppleSignIn": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6822172335"
     },
     "android": {
       "package": "com.alexkorir.rapidnursingreview",

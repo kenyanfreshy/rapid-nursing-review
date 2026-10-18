@@ -26,9 +26,9 @@ export const RATING_CONFIG = {
   PROMPT_DELAY_MS: 2500, // let the results screen and any celebration show first
 };
 
-// App Store numeric Apple ID (App Store Connect → App Information → Apple ID). Empty until the app is live;
-// the "Rate" button then falls back to the native sheet or the store page.
-export const APP_STORE_ID = '';
+// App Store numeric Apple ID (App Store Connect → App Information → Apple ID).
+// The "Rate the app" button opens its Write a Review page; without an ID it falls back to the native sheet.
+export const APP_STORE_ID = '6822172335';
 export const PLAY_PACKAGE = 'com.alexkorir.rapidnursingreview';
 
 export const PROVIDERS = {

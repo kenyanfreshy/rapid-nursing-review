@@ -53,9 +53,10 @@ const quick = { kind: 'session', correct: 3, total: 4, points: 3, max: 4 };
 { const h = make({ platform: 'android' }); await h.svc.init(); h.adv(3); await h.svc.onSessionComplete(weak); await h.svc.onSessionComplete(weak);
   const r = await h.svc.onSessionComplete(good); check(!r.prompted && r.reason === 'platform-off', 'Android stays off until enabled', r); }
 { const h = make(); const w = await h.svc.openWriteReview();
-  check(w === 'native-sheet' && h.calls.review === 1, 'Rate button without an App Store ID → native sheet', w);
-  const h2 = make({ available: false }); const w2 = await h2.svc.openWriteReview();
-  check(w2 === 'store-url' && h2.calls.urls[0].includes('apps.apple.com'), 'native sheet unavailable → store page', w2); }
+  check(w === 'store-page' && h.calls.urls[0] === 'https://apps.apple.com/app/id6822172335?action=write-review' && h.calls.review === 0, 'Rate button opens the Write a Review page', [w, h.calls]);
+  const h2 = make(); const linkFails = { openURL: async () => { throw new Error('no'); } };
+  const svc2 = createRatingService({ storage: { getItem: async () => null, setItem: async () => {}, removeItem: async () => {} }, platform: 'ios', review: { isAvailableAsync: async () => true, requestReview: async () => { h2.calls.review++; } }, linking: linkFails });
+  const w2 = await svc2.openWriteReview(); check(w2 === 'native-sheet' && h2.calls.review === 1, 'link fails → native sheet', w2); }
 { const h = make(); h.mem.set('rnr.rating.v1', '{not json'); const r = await h.svc.onSessionComplete(good);
   check(r && r.prompted === false, 'corrupt saved data is ignored', r); }
 check(RATING_CONFIG.MAX_PER_YEAR === 3 && RATING_CONFIG.PASS_SCORE === 0.75, 'defaults: 75% pass, 3 per year');

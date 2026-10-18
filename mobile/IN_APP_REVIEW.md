@@ -48,8 +48,8 @@ allows only Apple's own prompt for unprompted rating requests, and custom prompt
    ```bash
    npx expo install expo-store-review
    ```
-2. When the app is live, put its numeric Apple ID (App Store Connect → App Information → **Apple ID**) in
-   `APP_STORE_ID` in `mobile/rating/nclexRatingService.js`. Until then, **Rate the app** uses the native sheet.
+2. The numeric Apple ID (6822172335, App Store Connect → App Information → **Apple ID**) is set in
+   `APP_STORE_ID` in `mobile/rating/nclexRatingService.js`, so **Rate the app** opens the Write a Review page.
 3. Build as usual (`eas build`). The module is native, so a new build is needed; an over-the-air update isn't enough.
 
 ## Testing on iOS

@@ -13,8 +13,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const DOMAIN = 'nclexrapidnursingreview.com';
-// Replace with the app's own App Store link once it is live (App Store Connect → App Information → Apple ID).
-const APP_STORE_URL = process.env.APP_STORE_URL || 'https://apps.apple.com/us/developer/alex-korir/id1823396358';
+// The app's App Store listing (Apple ID 6822172335).
+const APP_STORE_URL = process.env.APP_STORE_URL || 'https://apps.apple.com/app/id6822172335';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'build', 'site');
 const webapp = path.join(root, 'build', 'webapp');
