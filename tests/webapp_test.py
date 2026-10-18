@@ -104,6 +104,7 @@ with sync_playwright() as p:
 
     # Not connected to a server yet (REPLACE_ME config): clear message, nothing requested.
     m = Mock(); ctx, pg, errs, _ = page_for(b, m, config=False)
+    ctx.add_init_script("window.__RNR_CONFIG__={supabaseUrl:'https://REPLACE_ME.supabase.co',supabaseKey:'REPLACE_ME'};")
     pg.goto(APP); pg.wait_for_timeout(500)
     check("isn't connected to its server" in pg.inner_text('#rnr-gate'), 'unconfigured build says it is not connected')
     check(not m.calls, 'unconfigured build makes no server calls'); ctx.close()

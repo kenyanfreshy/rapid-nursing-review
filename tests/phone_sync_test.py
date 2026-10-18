@@ -33,11 +33,11 @@ with sync_playwright() as p:
     b = p.chromium.launch(); errs = []
     # 1. Shipped config (REPLACE_ME / appleSignIn false): no card, no network, app unchanged.
     ctx = b.new_context(viewport={'width': 390, 'height': 844}, is_mobile=True, has_touch=True)
-    ctx.add_init_script(BRIDGE); ctx.route(SB + '/**', route)
+    ctx.add_init_script(BRIDGE + "window.__RNR_CONFIG__={appleSignIn:false};"); ctx.route(SB + '/**', route); ctx.route('https://*.supabase.co/**', route)
     pg = ctx.new_page(); pg.on('pageerror', lambda e: errs.append(str(e)))
     net = []; pg.on('request', lambda r: net.append(r.url) if 'supabase' in r.url else None)
     pg.goto(U); pg.wait_for_timeout(600); pg.click('#top-initials'); pg.wait_for_timeout(300)
-    check(not pg.query_selector('#sync-card'), 'without backend settings the sign-in card is hidden')
+    check(not pg.query_selector('#sync-card'), 'with appleSignIn off (until the Apple provider is live) the card is hidden')
     check(not net, 'no server requests without an account', net[:3])
     ctx.close()
 

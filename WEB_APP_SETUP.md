@@ -56,7 +56,7 @@ Addresses:
 2. **Project Settings → Data API:** confirm "Automatically expose new tables" is **off** (the SQL grants access
    explicitly).
 3. **SQL Editor → New query:** paste all of `backend/supabase.sql` and click **Run**. Success: "Success. No rows returned".
-4. **Project Settings → API Keys:** copy the **Project URL** (`https://<ref>.supabase.co`) and the **Publishable key**
+4. **Project Settings → API Keys:** copy the **Project URL** (`https://komibrrtxrmytkkfhrvy.supabase.co`) and the **Publishable key**
    (`sb_publishable_…`) and send both to Claude. They're public by design. **Never** send the secret key.
 5. **Authentication → URL Configuration:**
    - Site URL: `https://nclexrapidnursingreview.com/app/`
@@ -73,8 +73,8 @@ Addresses:
    - Identifier: `com.alexkorir.rnr.web`
    - Register it, open it, tick **Sign in with Apple** and click **Configure**:
      - Primary App ID: `com.alexkorir.rapidnursingreview`
-     - Domains: `<ref>.supabase.co`
-     - Return URLs: `https://<ref>.supabase.co/auth/v1/callback`
+     - Domains: `komibrrtxrmytkkfhrvy.supabase.co`
+     - Return URLs: `https://komibrrtxrmytkkfhrvy.supabase.co/auth/v1/callback`
    - Save, Continue, Save.
 3. **Keys → +:**
    - Name: `RNR Sign in with Apple`
@@ -107,9 +107,9 @@ cd ~/Documents/"Rapid Nursing Review App"/rnr-web-sync && git pull
 ```bash
 cd ~/Documents/"Rapid Nursing Review App"/rnr-web-sync
 npx supabase login
-npx supabase link --project-ref YOUR_PROJECT_REF
+npx supabase link --project-ref komibrrtxrmytkkfhrvy
 ```
-Replace `YOUR_PROJECT_REF` with the `<ref>` part of your Project URL.
+(`komibrrtxrmytkkfhrvy` is your Rapid Nursing Review project.)
 
 **Success:** "Finished supabase link." It may ask for the database password from step 1.1.
 
@@ -221,12 +221,12 @@ grep -c "expo-apple-authentication\|expo-crypto\|expo-screen-capture" package.js
 cd ~/Documents/"Rapid Nursing Review App"/rnr-web-sync/mobile
 node scripts/build-web.mjs
 grep -c "RNR-WEB-BUILD sync-v1" assets/web/index.html
-grep -c "REPLACE_ME" assets/web/index.html
+grep -c "komibrrtxrmytkkfhrvy" assets/web/index.html
 npx eas project:info
 ```
 **Success:**
 - The first `grep` prints `1`.
-- The second prints `0`. If it doesn't, Claude hasn't put the Supabase values in yet; stop.
+- The second prints `1` or more (your Supabase project is in the bundle). If it prints `0`, stop.
 - `project:info` shows **@ronnykip/rapid-nursing-review** with ID **ffa76c48-2211-4a0f-b275-c9631d8cc0b7**.
 
 If EAS offers to create a new project, answer **No** and stop.
