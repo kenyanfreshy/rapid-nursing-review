@@ -18,6 +18,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { WEB_FILES, WEB_VERSION } from './assets/web/manifest';
 import { ProProvider, usePro } from './pro';
 import Paywall from './Paywall';
+import { rating } from './rating';
 
 const h = React.createElement;
 const STORAGE_KEY = 'rapid-nursing-review-v1';
@@ -170,6 +171,7 @@ function Study() {
     }
   }, []);
   useEffect(() => { load(); }, [load]);
+  useEffect(() => { rating.init().catch(() => {}); }, []);
 
   // Tell the study app whenever Pro status changes (purchase, restore, renewal, expiry).
   useEffect(() => {
@@ -226,6 +228,12 @@ function Study() {
     } else if (msg.type === 'account') {
       // Signed in: attach purchases to the account id in RevenueCat (signed out: nothing to undo).
       if (typeof msg.userId === 'string' && /^[0-9a-f-]{36}$/i.test(msg.userId)) linkAccount(msg.userId);
+    } else if (msg.type === 'session-complete') {
+      // A session or NGN case just finished: maybe ask for an App Store rating (rules in rating/nclexRatingService.js).
+      const r = { kind: msg.kind === 'case' ? 'case' : 'session', correct: Number(msg.correct) || 0, total: Number(msg.total) || 0, points: Number(msg.points), max: Number(msg.max) };
+      setTimeout(() => { rating.onSessionComplete(r).catch(() => {}); }, rating.config.PROMPT_DELAY_MS);
+    } else if (msg.type === 'rate-app') {
+      rating.openWriteReview().catch(() => {});
     } else if (msg.type === 'export' && typeof msg.data === 'string') {
       shareExport(msg.filename || 'rapid-nursing-review.json', msg.data).catch(() => {});
     }
@@ -253,7 +261,7 @@ function Study() {
   }
 
   // Runs before the page script: hands the web app its native copy of saved progress.
-  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};window.__RNR_PRO__=${isPro ? 'true' : 'false'};true;`;
+  const boot = `window.__RNR_SAVED__=${JSON.stringify(saved ?? null)};window.__RNR_PRO__=${isPro ? 'true' : 'false'};window.__RNR_OS__=${JSON.stringify(Platform.OS)};true;`;
   // Edge to edge: the page fills the whole screen, under the status bar and home indicator, so its colors follow the
   // phone's rounded corners. The page pads its own top bar and tab bar with env(safe-area-inset-*).
   return h(View, { style: [styles.fill, { backgroundColor: ui.bg }] },
