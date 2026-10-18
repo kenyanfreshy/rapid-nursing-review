@@ -1,6 +1,6 @@
 # Terms of Use — Rapid Nursing Review
 
-*Last updated: October 13, 2026*
+*Last updated: October 18, 2026*
 
 ## License agreement
 
@@ -23,6 +23,14 @@ Pro is offered as Monthly ($19.99/month), a 3-Month Pass ($49.99 every 3 months)
 - Lifetime Access is a one-time purchase with no renewal.
 - Use **Restore Purchases** in the app to restore Pro on a new iPhone or iPad signed in to the same Apple ID.
 - Refunds are handled by Apple under its policies (reportaproblem.apple.com).
+
+## Web app and optional account
+
+Pro subscribers can also use the web app at nclexrapidnursingreview.com/app after signing in with Apple in the iPhone app
+(Settings → Sync and web access). The web app is part of your Pro subscription and doesn't sell anything; it works while
+your subscription is active. The account is personal: please don't share it. To protect the book, the number of book
+pages that can be opened per hour and per day is limited, and pages shown on the web are marked with your account. You
+can delete the account at any time in Settings.
 
 ## Educational content
 
