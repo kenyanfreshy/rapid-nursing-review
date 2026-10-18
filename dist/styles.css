@@ -1083,3 +1083,43 @@ html body .bp-head p:first-line{color:inherit}
 canvas.rnr-page{display:block;width:100%;height:auto;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
 .rnr-page-wait{display:flex;align-items:center;justify-content:center;min-height:240px;color:var(--rnr-muted,#5b6478);font-size:13px;text-align:center;padding:16px}
 body.rnr-shield canvas.rnr-page{filter:blur(22px) brightness(.85)}
+
+/* Laptop windows (sidebar layout on short screens): the profile / Settings button stays visible.
+   The sidebar scrolls if it still doesn't fit, and gets tighter (then drops the practice card) as the window gets shorter. */
+@media (min-width:1100px){.sidebar{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none}.sidebar::-webkit-scrollbar{display:none}}
+@media (min-width:1100px) and (max-height:900px){
+  .workspace-label{margin:16px 13px 10px}
+  nav{gap:3px}.nav-link{padding:10px 14px}
+  .sidebar-note{margin-top:16px;padding:14px 14px}.sidebar-note h3{margin:6px 0}.sidebar-note .text-link{margin-top:8px}
+  .sidebar-bottom{padding-top:10px}.support-link{padding:8px 12px}.profile{padding-top:12px}
+}
+@media (min-width:1100px) and (max-height:760px){.sidebar-note{display:none}}
+
+/* Footer: Learn. Test. Understand. on its own line, three equal columns, centred, at every size. */
+.app-footer{flex-direction:column;align-items:center;text-align:center;gap:8px}
+.app-footer>.tagline{display:grid;grid-template-columns:repeat(3,1fr);width:100%;max-width:520px;text-align:center;font-size:15px}
+@media(max-width:650px){.app-footer>.tagline{max-width:none;font-size:13px}}
+
+/* Practice: the four modes are compact rows (icon, title, Start). The chevron opens the description; open cards are remembered. */
+.test-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+.test-card{padding:12px 12px 12px 14px!important;gap:0!important}
+.test-card .tc-row{display:flex;align-items:center;gap:12px;min-width:0}
+.test-card .tc-title{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+.test-card .tc-eyebrow{padding-top:0!important;font-size:10px!important;letter-spacing:1.6px!important}
+.test-card .tc-pro{color:#d97706}
+.test-card h3{font-size:16px!important;line-height:1.2}
+.test-card .icon-tile{width:38px;height:38px;flex-shrink:0}
+.test-card .primary.tc-start{width:auto!important;padding:9px 14px!important;font-size:13px!important;flex-shrink:0;gap:7px}
+.test-card .primary.tc-start svg{width:14px;height:14px}
+.tc-more{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;flex-shrink:0;color:var(--muted,#6b6880)}
+.tc-more svg{width:16px;height:16px;transform:rotate(90deg);transition:transform .2s}
+.test-card.open .tc-more svg{transform:rotate(-90deg)}
+.test-card .tc-body{display:none;flex-direction:column;gap:8px;padding:12px 2px 2px}
+.test-card.open .tc-body{display:flex}
+.test-card .tc-body p{font-size:13px!important;margin:0}
+.test-card .case-pills{display:flex!important}
+.more-cases>summary{cursor:pointer;font-size:12.5px;font-weight:700;color:var(--muted,#6b6880);padding:6px 0;list-style:none;display:flex;align-items:center;gap:6px}
+.more-cases>summary::-webkit-details-marker{display:none}
+.more-cases>summary:before{content:'▸';transition:transform .2s}.more-cases[open]>summary:before{transform:rotate(90deg)}
+.case-choose .more-cases>summary{margin:10px 0 4px;font-size:13px}
+@media (max-width:700px){.test-grid{grid-template-columns:1fr!important}}

@@ -211,10 +211,10 @@ public, which is what you want for the landing page, the policies and the sign-i
 ### Block G: add the native modules (once)
 ```bash
 cd ~/Documents/"Rapid Nursing Review App"/rnr-web-sync/mobile
-npx expo install expo-apple-authentication expo-crypto expo-screen-capture
-grep -c "expo-apple-authentication\|expo-crypto\|expo-screen-capture" package.json
+npx expo install expo-apple-authentication expo-crypto expo-screen-capture expo-store-review
+grep -c "expo-apple-authentication\|expo-crypto\|expo-screen-capture\|expo-store-review" package.json
 ```
-**Success:** the last line prints `3`.
+**Success:** the last line prints `4`.
 
 ### Block H: check before you build
 ```bash
