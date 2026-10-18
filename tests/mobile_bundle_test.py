@@ -1,7 +1,7 @@
 # Loads mobile/assets/web/index.html from file:// (as the WebView does) with a fake native bridge.
 from playwright.sync_api import sync_playwright
 import json,os
-OPEN_FOLD = "document.querySelectorAll('.pf-more').forEach(d=>d.open=true)"  # the four practice modes sit in a fold
+OPEN_FOLD = "document.querySelectorAll('details.more-cases').forEach(d=>d.open=true)"  # cases after the first are folded
 U='file://'+os.path.abspath('mobile/assets/web/index.html')
 res=[]
 def check(n,ok,info=''): res.append(('PASS' if ok else 'FAIL',n,info))

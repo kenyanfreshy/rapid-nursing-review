@@ -9,7 +9,7 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else '.'
 bank = json.load(open(os.path.join(ROOT, 'content/nclex/bank.json')))
 cases = json.load(open(os.path.join(ROOT, 'content/nclex/ngn.json')))
 import glob
-OPEN_FOLD = "document.querySelectorAll('.pf-more').forEach(d=>d.open=true)"  # the four practice modes sit in a fold
+OPEN_FOLD = "document.querySelectorAll('details.more-cases').forEach(d=>d.open=true)"  # cases after the first are folded
 book_cases = [c for f in sorted(glob.glob(os.path.join(ROOT, 'content/cases/*.json'))) + sorted(glob.glob(os.path.join(ROOT, 'content/nclex/v4cases/*.json'))) for c in json.load(open(f))]
 book = {q['id']: q for f in os.listdir(os.path.join(ROOT, 'content/quizzes')) for q in json.load(open(os.path.join(ROOT, 'content/quizzes', f)))['questions']}
 res = []
@@ -74,7 +74,7 @@ with sync_playwright() as p:
     # 3. All 8 NGN cases, every item kind, answered correctly = full marks
     for c in cases + book_cases:
         fresh(pg); pg.goto(U + '#practice'); pg.wait_for_timeout(300)
-        pg.evaluate(OPEN_FOLD); pg.click('main [data-action=choose-case]'); pg.click(f'#modal [data-action=start-case][data-id="{c["id"]}"]'); pg.wait_for_timeout(200)
+        pg.evaluate(OPEN_FOLD); pg.click('main [data-action=choose-case]'); pg.evaluate(OPEN_FOLD); pg.click(f'#modal [data-action=start-case][data-id="{c["id"]}"]'); pg.wait_for_timeout(200)
         for it in c['items']:
             k = it['kind']
             if k == 'single': pg.click(f'#modal [data-action=ngn-pick][data-v="{it["answer"]}"]')
@@ -98,7 +98,7 @@ with sync_playwright() as p:
 
     # 4. NGN case survives reload mid-case; EHR tabs switch
     fresh(pg); pg.goto(U + '#practice'); pg.wait_for_timeout(300); c = cases[0]
-    pg.evaluate(OPEN_FOLD); pg.click('main [data-action=choose-case]'); pg.click(f'#modal [data-action=start-case][data-id="{c["id"]}"]'); pg.click(f'#modal [data-action=ngn-pick][data-v="{c["items"][0]["answer"][0]}"]')
+    pg.evaluate(OPEN_FOLD); pg.click('main [data-action=choose-case]'); pg.evaluate(OPEN_FOLD); pg.click(f'#modal [data-action=start-case][data-id="{c["id"]}"]'); pg.click(f'#modal [data-action=ngn-pick][data-v="{c["items"][0]["answer"][0]}"]')
     tabs = list(c['ehr'].keys()); pg.click(f'#modal [data-action=case-tab][data-tab="{tabs[1]}"]')
     check('EHR tab switches', tabs[1] in pg.inner_text('#modal .ehr-tabs [aria-selected=true]'))
     pg.screenshot(path=f'{OUT}/ngn-case.png')
@@ -108,7 +108,7 @@ with sync_playwright() as p:
     # 5. Free plan gating
     fresh(pg, pro=False); pg.goto(U + '#practice'); pg.wait_for_timeout(300)
     check('free: banner and lock icons shown', pg.locator('.free-banner').count() == 1 and pg.locator('.case-pill .lock').count() == len(cases) + len(book_cases) - 1)
-    pg.evaluate(OPEN_FOLD); pg.click('main [data-action=choose-case]'); pg.click(f'#modal [data-action=start-case][data-id="{cases[1]["id"]}"]'); pg.wait_for_timeout(200)
+    pg.evaluate(OPEN_FOLD); pg.click('main [data-action=choose-case]'); pg.evaluate(OPEN_FOLD); pg.click(f'#modal [data-action=start-case][data-id="{cases[1]["id"]}"]'); pg.wait_for_timeout(200)
     check('free: locked case opens paywall', pg.evaluate("document.querySelector('#modal').className") == 'paywall')
     pg.click('#modal [data-action=close-modal]')
     pg.click('[data-action=pick-mode][data-mode=exam]'); pg.wait_for_timeout(200)

@@ -2,7 +2,7 @@
 # Serve dist/ on 127.0.0.1:4173 first.
 from playwright.sync_api import sync_playwright
 import sys
-OPEN_FOLD = "document.querySelectorAll('.pf-more').forEach(d=>d.open=true)"  # the four practice modes sit in a fold
+OPEN_FOLD = "document.querySelectorAll('details.more-cases').forEach(d=>d.open=true)"  # cases after the first are folded
 U = 'http://127.0.0.1:4173/'; OUT = sys.argv[1] if len(sys.argv) > 1 else '.'
 res = []
 def check(n, ok, info=''): res.append(('PASS' if ok else 'FAIL', n, info))
