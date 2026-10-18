@@ -6,7 +6,7 @@
 //
 // Written with React.createElement instead of JSX so it can be checked with `node --check`.
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, BackHandler, Linking, Modal, Platform, Pressable, Share, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, AppState, BackHandler, Linking, Modal, Platform, Pressable, Share, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { WebView } from 'react-native-webview';
@@ -118,6 +118,32 @@ async function shareExport(filename, data) {
   }
 }
 
+// Sign in with Apple, iOS only. A random nonce is hashed with SHA-256 for Apple; the raw value goes to
+// Supabase with the identity token so Supabase can check it. Returns a plain object for the web layer.
+async function appleSignIn() {
+  try {
+    const Apple = require('expo-apple-authentication');
+    const Crypto = require('expo-crypto');
+    if (Platform.OS !== 'ios' || !(await Apple.isAvailableAsync())) return { ok: false, error: 'Sign in with Apple is not available on this device.' };
+    const rawNonce = Crypto.randomUUID() + Crypto.randomUUID();
+    const hashed = await Crypto.digestStringAsync(Crypto.CryptoDigestAlgorithm.SHA256, rawNonce);
+    const cred = await Apple.signInAsync({ requestedScopes: [Apple.AppleAuthenticationScope.FULL_NAME, Apple.AppleAuthenticationScope.EMAIL], nonce: hashed });
+    if (!cred.identityToken) return { ok: false, error: 'Apple did not return a sign-in token. Try again.' };
+    return { ok: true, identityToken: cred.identityToken, rawNonce, givenName: cred.fullName?.givenName || null };
+  } catch (e) {
+    return { ok: false, cancelled: e?.code === 'ERR_REQUEST_CANCELED', error: String(e?.message || e) };
+  }
+}
+
+// Screenshot and screen-recording protection for the book pages only (expo-screen-capture).
+// iOS 13+: screenshots and recordings of the app come out blank; Android: FLAG_SECURE.
+let ScreenCapture = null;
+try { ScreenCapture = require('expo-screen-capture'); } catch (e) { ScreenCapture = null; }
+function setBookProtection(on) {
+  if (!ScreenCapture) return;
+  (on ? ScreenCapture.preventScreenCaptureAsync('book') : ScreenCapture.allowScreenCaptureAsync('book')).catch(() => {});
+}
+
 function Study() {
   const insets = useSafeAreaInsets();
   const webRef = useRef(null);
@@ -129,7 +155,7 @@ function Study() {
   const [error, setError] = useState(null);
   const [paywall, setPaywall] = useState(null);   // { reason } while the native paywall is open
   const [ui, setUi] = useState({ light: false, bg: COLORS.paper });   // page theme: status bar text and edge color
-  const { isPro } = usePro();
+  const { isPro, linkAccount } = usePro();
 
   const load = useCallback(async () => {
     setError(null);
@@ -149,6 +175,14 @@ function Study() {
   useEffect(() => {
     if (ready && webRef.current) webRef.current.injectJavaScript(`window.__rnrSetPro && window.__rnrSetPro(${isPro ? 'true' : 'false'});true;`);
   }, [isPro, ready]);
+
+  // Back in the foreground: let the study app sync progress if the learner signed in.
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', st => {
+      if (st === 'active' && ready) webRef.current?.injectJavaScript('window.__rnrResume && window.__rnrResume();true;');
+    });
+    return () => sub.remove();
+  }, [ready]);
 
   // Android back button: go back inside the app's own pages before leaving the app.
   useEffect(() => {
@@ -183,10 +217,19 @@ function Study() {
       else Share.share({ message: text }).catch(() => {});
     } else if (msg.type === 'ui') {
       setUi({ light: !!msg.light, bg: typeof msg.bg === 'string' && /^(#|rgb)/.test(msg.bg) ? msg.bg : COLORS.paper });
+    } else if (msg.type === 'book-visible') {
+      // A book page is on screen: block screenshots (iOS 13+, Android) and screen recording / mirroring.
+      setBookProtection(!!msg.on);
+    } else if (msg.type === 'apple-signin') {
+      // Sign in with Apple (iOS). The web layer exchanges the identity token with Supabase.
+      appleSignIn().then(r => webRef.current?.injectJavaScript(`window.__rnrAppleResult && window.__rnrAppleResult(${JSON.stringify(r)});true;`));
+    } else if (msg.type === 'account') {
+      // Signed in: attach purchases to the account id in RevenueCat (signed out: nothing to undo).
+      if (typeof msg.userId === 'string' && /^[0-9a-f-]{36}$/i.test(msg.userId)) linkAccount(msg.userId);
     } else if (msg.type === 'export' && typeof msg.data === 'string') {
       shareExport(msg.filename || 'rapid-nursing-review.json', msg.data).catch(() => {});
     }
-  }, []);
+  }, [linkAccount]);
 
   // Keep the app on its local files; open web links (sources, references) in the browser.
   const onShouldStart = useCallback(req => {

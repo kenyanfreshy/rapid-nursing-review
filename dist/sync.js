@@ -52,9 +52,12 @@ export const { mergeState, syncable, LOCAL_ONLY } = (() => {
   const attemptTime = a => time(a.at) || time(a.day);
 
   // "Edited last" with a stable tie-break so both orders give the same answer.
-  function newer(aVal, aAt, bVal, bAt) {
+  // With no edit times (progress saved before sync existed), a real value beats the default.
+  function newer(aVal, aAt, bVal, bAt, isDefault = () => false) {
     const ta = time(aAt), tb = time(bAt);
     if (ta !== tb) return ta > tb ? 'a' : 'b';
+    const da = aVal == null || isDefault(aVal), db = bVal == null || isDefault(bVal);
+    if (da !== db) return da ? 'b' : 'a';
     return sortStr(JSON.stringify(aVal ?? null), JSON.stringify(bVal ?? null)) >= 0 ? 'a' : 'b';
   }
 
@@ -106,8 +109,8 @@ export const { mergeState, syncable, LOCAL_ONLY } = (() => {
       const t = time(eL[k]) >= time(eR[k]) ? eL[k] : eR[k];
       if (t) edited[k] = t;
     }
-    const nameW = newer(L.name, eL.name, R.name, eR.name);
-    const remW = newer(L.reminder, eL.reminder, R.reminder, eR.reminder);
+    const nameW = newer(L.name, eL.name, R.name, eR.name, n => !String(n).trim() || n === 'Student');
+    const remW = newer(L.reminder, eL.reminder, R.reminder, eR.reminder, r => !r.on && !r.title && !r.notes);
 
     const attempts = unionBy(L.attempts, R.attempts, attemptKey)
       .sort((x, y) => attemptTime(x) - attemptTime(y) || sortStr(attemptKey(x), attemptKey(y)));

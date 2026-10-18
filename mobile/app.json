@@ -2,7 +2,7 @@
   "expo": {
     "name": "Rapid Nursing Review",
     "slug": "rapid-nursing-review",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,8 @@
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "usesAppleSignIn": true
     },
     "android": {
       "package": "com.alexkorir.rapidnursingreview",
@@ -50,7 +51,8 @@
         {
           "color": "#ea580c"
         }
-      ]
+      ],
+      "expo-apple-authentication"
     ],
     "extra": {
       "revenueCatAppleKey": "appl_dqAdVaIDuMHXlNAGZCgUdAfFXXY",
@@ -58,7 +60,7 @@
       "revenueCatTestKey": "test_REPLACE_ME",
       "useTestStore": false,
       "entitlementId": "pro",
-      "privacyPolicyUrl": "https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md",
+      "privacyPolicyUrl": "https://nclexrapidnursingreview.com/privacy.html",
       "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
       "supportEmail": "alexkorirbooks@gmail.com",
       "eas": {

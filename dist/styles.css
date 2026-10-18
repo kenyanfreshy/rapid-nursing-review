@@ -1082,3 +1082,4 @@ html body .bp-head p:first-line{color:inherit}
 /* Web app: protected book pages are drawn on a canvas */
 canvas.rnr-page{display:block;width:100%;height:auto;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
 .rnr-page-wait{display:flex;align-items:center;justify-content:center;min-height:240px;color:var(--rnr-muted,#5b6478);font-size:13px;text-align:center;padding:16px}
+body.rnr-shield canvas.rnr-page{filter:blur(22px) brightness(.85)}

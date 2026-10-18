@@ -9,6 +9,6 @@ export const RNR_CONFIG = {
   supabaseUrl: 'https://REPLACE_ME.supabase.co',
   supabaseKey: 'REPLACE_ME',
   appleSignIn: false,
-  webAppUrl: 'https://rapidnursingreview.com/app/',
+  webAppUrl: 'https://nclexrapidnursingreview.com/app/',
   supportEmail: 'alexkorirbooks@gmail.com',
 };

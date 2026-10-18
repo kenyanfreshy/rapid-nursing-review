@@ -1,0 +1,17 @@
+/* Web app sign-in gate (shown before the app loads; the app shell stays hidden until then) */
+body.gate-on > :not(#rnr-gate):not(script):not(dialog){display:none!important}
+#rnr-gate{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 16px;background:radial-gradient(1200px 600px at 50% -10%,#1b2140,#080b16 60%);color:#eef1fa;font-family:'DM Sans',system-ui,-apple-system,sans-serif}
+.wg-card{width:100%;max-width:440px;background:#111527;border:1px solid #232a44;border-radius:24px;padding:28px 24px;display:grid;gap:14px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.wg-cover{width:96px;height:auto;margin:0 auto;border-radius:6px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.wg-card h1{margin:4px 0 0;font-size:26px;letter-spacing:-.02em}
+.wg-sub{margin:0;color:#9aa3bd;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.wg-card p{margin:0;line-height:1.5}
+.wg-help,.wg-fine{color:#9aa3bd;font-size:13px}
+.wg-fine{font-size:12px}.wg-fine a{color:#9aa3bd}
+.wg-err{background:#3b1220;color:#fecaca;border-radius:12px;padding:10px 12px;font-size:14px;text-align:left}
+.wg-wait{color:#cbd2e6;padding:18px 0}
+.wg-steps{text-align:left;margin:0;padding-left:20px;display:grid;gap:6px;color:#cbd2e6;font-size:14px}
+.wg-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+#rnr-gate .apple-btn{background:#fff;color:#000}
+#rnr-gate .btn{min-height:44px;padding:0 18px;border-radius:12px;border:0;background:#22d3ee;color:#04121a;font-weight:700;cursor:pointer}
+#rnr-gate .btn.secondary{background:transparent;color:#eef1fa;border:1px solid #39415f}

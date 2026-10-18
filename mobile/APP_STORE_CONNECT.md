@@ -37,7 +37,7 @@ Unlock everything: all 3,200 questions, all 30 case studies, timed and blueprint
 Eligible new subscribers get a 2-week free trial. Prices are in U.S. dollars and may vary by country. Payment is charged to your Apple ID at confirmation of purchase (for a free trial, when the trial ends). Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple ID account settings.
 
 Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md
+Privacy Policy: https://nclexrapidnursingreview.com/privacy.html
 
 Rapid Nursing Review is for education and exam preparation only. It is not medical advice and does not guarantee exam results.
 
@@ -47,7 +47,7 @@ NCLEX® is a registered trademark of the National Council of State Boards of Nur
 nurse,student,exam,test prep,qbank,question bank,med surg,pharmacology,pediatrics,maternity,next gen
 
 ## Support URL
-https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/SUPPORT.md
+https://nclexrapidnursingreview.com/support.html
 
 ## Marketing URL (optional)
 https://www.amazon.com/stores/Alex-K-Korir/author/B0FCCVTDG3

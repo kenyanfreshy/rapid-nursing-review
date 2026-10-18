@@ -19,11 +19,11 @@ const extra = (Constants.expoConfig && Constants.expoConfig.extra) || {};
 export const ENTITLEMENT = extra.entitlementId || 'pro';
 export const ANDROID_PACKAGE = (Constants.expoConfig && Constants.expoConfig.android && Constants.expoConfig.android.package) || 'com.alexkorir.rapidnursingreview';
 export const LINKS = {
-  privacy: extra.privacyPolicyUrl || 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md',
+  privacy: extra.privacyPolicyUrl || 'https://nclexrapidnursingreview.com/privacy.html',
   // iOS: Apple's Standard EULA. Android: our public Terms page (it links the Google Play Terms of Service).
-  terms: Platform.OS === 'ios' ? (extra.termsUrl || 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/') : 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/TERMS.md',
+  terms: Platform.OS === 'ios' ? (extra.termsUrl || 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/') : 'https://nclexrapidnursingreview.com/terms.html',
   support: extra.supportEmail || 'alexkorirbooks@gmail.com',
-  supportPage: 'https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/SUPPORT.md',
+  supportPage: 'https://nclexrapidnursingreview.com/support.html',
 };
 const STORE_NAME = Platform.OS === 'ios' ? 'App Store' : 'Google Play';
 
@@ -66,6 +66,8 @@ export function ProProvider({ children }) {
   const [error, setError] = useState('');
   const [errorDetail, setErrorDetail] = useState('');
   const removeListener = useRef(null);
+  const configured = useRef(false);
+  const pendingUser = useRef(undefined);   // account id waiting for RevenueCat to finish configuring
 
   const apply = info => {
     const m = readMembership(info);
@@ -107,12 +109,30 @@ export function ProProvider({ children }) {
         Purchases.addCustomerInfoUpdateListener(listener);
         removeListener.current = () => { try { Purchases.removeCustomerInfoUpdateListener(listener); } catch (e) {} };
         apply(await Purchases.getCustomerInfo());
+        configured.current = true;
+        if (pendingUser.current !== undefined) { const u = pendingUser.current; pendingUser.current = undefined; linkAccount(u); }
       } catch (e) { setError("Couldn't reach the store. Check your connection and try again."); }
       await loadOfferings();
       setReady(true);
     })();
     return () => { if (removeListener.current) removeListener.current(); };
   }, []);
+
+  // Sign in with Apple (Settings → Sync and web access) gives the learner a Supabase account id.
+  // Purchases.logIn(<that id>) attaches this phone's purchases to it in RevenueCat, so the web app's
+  // server check (supabase/functions/entitlement) finds the subscription. RevenueCat moves purchases
+  // made before sign-in onto the account. Signing out does NOT log out of RevenueCat: the learner keeps
+  // Pro on this phone, and buying never needs an account.
+  async function linkAccount(userId) {
+    if (!Purchases || !userId || typeof userId !== 'string') return;
+    if (!configured.current) { pendingUser.current = userId; return; }
+    try {
+      const current = await Purchases.getAppUserID();
+      if (current === userId) return;
+      const { customerInfo } = await Purchases.logIn(userId);
+      apply(customerInfo);
+    } catch (e) {}
+  }
 
   const restoreInner = async () => {
     const info = await Purchases.restorePurchases(); apply(info);
@@ -152,6 +172,6 @@ export function ProProvider({ children }) {
   }, [membership, storeAvailable]);
 
   const isPro = !!membership || (__DEV__ && devUnlock);
-  const value = { isPro, membership, ready, packages, buy, restore, manage, reload: loadOfferings, storeAvailable, keyMissing, error, errorDetail, devUnlock, setDevUnlock };
+  const value = { isPro, membership, ready, packages, buy, restore, manage, linkAccount, reload: loadOfferings, storeAvailable, keyMissing, error, errorDetail, devUnlock, setDevUnlock };
   return h(ProCtx.Provider, { value }, children);
 }

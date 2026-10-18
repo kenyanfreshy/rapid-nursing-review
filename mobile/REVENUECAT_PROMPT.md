@@ -39,7 +39,7 @@ PAYWALL COPY (if you also build a RevenueCat paywall)
 - Features: All 3,200 NCLEX-style questions · 982 NGN-format items · 30 NGN case studies · NCLEX blueprint exam · Timed exam mode · The complete book · Answers linked to the book
 - Plan lines: 3-Month Pass "A full 90-day NCLEX study plan"; Monthly "Cancel anytime"; Annual "$7.50/mo · covers a delayed ATT or credentialing wait" (Save ~25%); Lifetime "One payment · keep it as your bedside reference"
 - Button: Unlock Pro Access
-- Links: Restore Purchases · Privacy Policy (https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md) · Terms of Use (Apple standard EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+- Links: Restore Purchases · Privacy Policy (https://nclexrapidnursingreview.com/privacy.html) · Terms of Use (Apple standard EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 APPLE CONNECTION — please check and tell me what's missing
 - App Store Connect In-App Purchase key (.p8, Key ID, Issuer ID) uploaded to RevenueCat
