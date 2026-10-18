@@ -5,6 +5,7 @@
 // Output: build/site/  → copy everything to the root of the website repo (kenyanfreshy/rapid-nursing-review-public)
 //   index.html                landing page
 //   privacy.html terms.html support.html   from docs/*.md (the .md copies stay for old links)
+//   quiz/                     the free NCLEX challenge (from the marketing bot) + the "Get the app" prompt
 //   app/                      the web app (build/webapp: sign-in gate + app code, NO questions or book pages)
 //   CNAME, .nojekyll          GitHub Pages settings
 import fs from 'node:fs';
@@ -55,7 +56,7 @@ const page = (title, body, desc = 'Rapid Nursing Review: NCLEX-RN practice quest
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="icon" type="image/png" href="/app/favicon.png"><link rel="apple-touch-icon" href="/app/apple-touch-icon.png">
 <style>${CSS}</style></head><body>
-<header class="site"><div class="in"><img src="/app/pages/logo.webp" alt=""><a href="/">Rapid Nursing Review</a><nav><a href="/app/">Web app</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a></nav></div></header>
+<header class="site"><div class="in"><img src="/app/pages/logo.webp" alt=""><a href="/">Rapid Nursing Review</a><nav><a href="/quiz/">Free quiz</a><a href="/app/">Web app</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a></nav></div></header>
 <main>${body}
 <footer>© ${new Date().getFullYear()} Alex K. Korir · <a href="mailto:alexkorirbooks@gmail.com">alexkorirbooks@gmail.com</a> · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a><br>NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN.</footer></main></body></html>\n`;
 
@@ -66,10 +67,30 @@ fs.cpSync(webapp, path.join(out, 'app'), { recursive: true });
 const landing = `<section class="hero"><img src="/app/pages/cover.webp" alt="Rapid Nursing Review: All Body Systems at a Glance, book cover" width="150" height="225">
 <div><h1>Prepare to pass the NCLEX-RN on your first try</h1>
 <p>3,200 NCLEX-style questions with a rationale for every answer, 30 Next Generation NCLEX case studies, a daily study plan and the complete book <em>Rapid Nursing Review: All Body Systems at a Glance</em> by Alex K. Korir, MSN, RN, CCRN-CMC.</p>
-<div class="btns"><a class="btn" href="${APP_STORE_URL}">Get it on the App Store</a><a class="btn alt" href="/app/">Open the web app (Pro)</a></div></div></section>
+<div class="btns"><a class="btn" href="${APP_STORE_URL}">Get it on the App Store</a><a class="btn alt" href="/quiz/">Try the free NCLEX challenge</a><a class="btn alt" href="/app/">Open the web app (Pro)</a></div></div></section>
 <div class="feat"><div><b>Book-linked rationales</b>Missed one? Open the exact textbook page.</div><div><b>Next Generation NCLEX</b>Bow-tie, matrix, select-all and cloze items in unfolding cases.</div><div><b>Study plan</b>Built to your exam date, with reminders and streaks.</div><div><b>iPhone and computer</b>Pro subscribers sign in with Apple and continue on any computer.</div></div>
 <h2>Using the web app</h2><p>The web app is for Rapid Nursing Review Pro subscribers. Subscribe in the iPhone app, then open <strong>Settings → Sync and web access</strong> and tap <strong>Sign in with Apple</strong>. On your computer, go to <a href="/app/">${DOMAIN}/app</a> and sign in with the same Apple ID. Your progress follows you.</p>`;
 fs.writeFileSync(path.join(out, 'index.html'), page('Rapid Nursing Review · NCLEX-RN review app', landing));
+// ---- /quiz/: the free NCLEX challenge, moved from rapidnursingreview.netlify.app ----
+{
+  let q = fs.readFileSync(path.join(root, 'web', 'quiz', 'challenge-original.html'), 'utf8');
+  const must = (cond, what) => { if (!cond) throw new Error(`quiz: ${what} not found in web/quiz/challenge-original.html; update build-site.mjs`); };
+  q = q.replace(/<!--\s*This site is hosted on Netlify[\s\S]*?-->\s*/, '').replace(/<script[^>]*\/\.netlify\/scripts\/[^>]*><\/script>/g, '');
+  must(q.includes('(0,Ap.jsx)(qc,{})'), 'the render call');
+  const props = { appStoreUrl: APP_STORE_URL, privacyUrl: `https://${DOMAIN}/privacy.html`, launchWaitlist: false };
+  q = q.replace('(0,Ap.jsx)(qc,{})', () => `(0,Ap.jsx)(qc,${JSON.stringify(props)})`);
+  q = q.split('https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md').join(`https://${DOMAIN}/privacy.html`);
+  must(q.includes('<title>NCLEX Challenge Quiz</title>'), 'the title');
+  q = q.replace('<title>NCLEX Challenge Quiz</title>', `<title>Free NCLEX-RN Challenge · Rapid Nursing Review</title><meta name="description" content="3 timed NCLEX-RN questions from the 3,200-question Rapid Nursing Review bank, with instant rationales. Free, no sign-up."><link rel="icon" type="image/png" href="/app/favicon.png"><link rel="apple-touch-icon" href="/app/apple-touch-icon.png"><link rel="canonical" href="https://${DOMAIN}/quiz/">`);
+  const prompt = fs.readFileSync(path.join(root, 'web', 'quiz', 'app-prompt.js'), 'utf8');
+  must(q.lastIndexOf('</body>') > 0, '</body>');
+  const at = q.lastIndexOf('</body>');
+  q = q.slice(0, at) + `<script>window.__RNR_APP_STORE__=${JSON.stringify(APP_STORE_URL)};</script>\n<script>\n${prompt}\n</script>\n` + q.slice(at);
+  if (/netlify/i.test(q.replace(/rapidnursingreview\.netlify\.app/g, ''))) console.warn('quiz: page still mentions netlify');
+  fs.mkdirSync(path.join(out, 'quiz'), { recursive: true });
+  fs.writeFileSync(path.join(out, 'quiz', 'index.html'), q);
+}
+
 for (const [name, title] of [['PRIVACY', 'Privacy Policy'], ['TERMS', 'Terms of Use'], ['SUPPORT', 'Support']]) {
   const src = fs.readFileSync(path.join(root, 'docs', `${name}.md`), 'utf8');
   fs.writeFileSync(path.join(out, `${name.toLowerCase()}.html`), page(`${title} · Rapid Nursing Review`, md(src)));
