@@ -1,18 +1,18 @@
 # Privacy Policy — Rapid Nursing Review
 
-*Last updated: October 18, 2026*
+*Last updated: October 19, 2026*
 
 Rapid Nursing Review ("the app") is a study app for nursing students preparing for the NCLEX-RN. It is based on the book
 *Rapid Nursing Review: All Body Systems at a Glance* by Alex K. Korir, MSN, RN, CCRN-CMC ("we", "us"). This policy explains
-what the app does with information. It applies to the Rapid Nursing Review app for iPhone and iPad, distributed through
-Apple's App Store, and to the Rapid Nursing Review web app at nclexrapidnursingreview.com/app for Pro subscribers.
+what the app does with information. It applies to the Rapid Nursing Review app for iPhone and iPad (Apple's App Store) and for
+Android phones and tablets (Google Play), and to the Rapid Nursing Review web app at nclexrapidnursingreview.com/app for Pro subscribers.
 
 ## The short version
 
 - No account is needed. Without one, your study data stays on your device.
 - Signing in with Apple is optional. It syncs your progress between your iPhone and the web app.
 - No advertising, no tracking and no selling of data.
-- Purchases are handled by Apple; we never see your payment details.
+- Purchases are handled by Apple or Google; we never see your payment details.
 
 ## What stays on your device
 
@@ -53,16 +53,18 @@ and we don't sell or share it.
 
 If you turn on a study reminder, the app asks for permission to send notifications and schedules them on your device; no
 reminder data leaves your device. If you tap **Add to My Calendar**, the app opens your device's own New Event screen with
-your study event filled in; you choose whether to save it and to which calendar. The app never reads your calendar.
+your study event filled in; you choose whether to save it and to which calendar. The app never reads your calendar. On
+Android you can also open Google Calendar with the event filled in; Google's privacy policy applies there.
 
 ## Purchases (Rapid Nursing Review Pro)
 
-If you buy Rapid Nursing Review Pro, the payment is handled by Apple through the App Store under Apple's terms. We never
-receive your name, email address, Apple ID or payment details.
+If you buy Rapid Nursing Review Pro, the payment is handled by Apple through the App Store, or by Google through
+Google Play, under that store's terms. We never receive your name, email address, Apple ID, Google account or payment
+details.
 
 To check whether you have Pro and to restore purchases, the app uses **RevenueCat**, a subscription service. RevenueCat
 receives an anonymous app user ID created on your device (or, if you sign in with Apple, your account ID), your purchase history for this app, and basic technical
-information (such as the app version, device model, iOS version and App Store country). It uses this only to provide,
+information (such as the app version, device model, operating system version and store country). It uses this only to provide,
 verify and restore your purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ## What we don't do
@@ -71,8 +73,8 @@ verify and restore your purchases. RevenueCat's privacy policy: https://www.reve
 - We don't use analytics that identify you.
 - We don't sell, rent or share your personal information.
 - We don't collect your location, contacts, photos, microphone, camera or health data.
-- On the iPhone, screenshots and screen recordings are turned off only while a book page is on screen, to protect the
-  book. The app doesn't see or keep anything about this.
+- On iPhone and Android, screenshots and screen recordings are turned off only while a book page is on screen, to protect
+  the book. The app doesn't see or keep anything about this.
 
 ## Links to other websites
 
@@ -88,7 +90,7 @@ information from children.
 
 Without an account we don't hold your study data: you control it on your device (export it, reset it or delete the app).
 With an account, you can delete it and everything synced with it from Settings at any time. For anything
-related to your purchase records, you can contact us (below) or Apple directly. Depending on where you live (for
+related to your purchase records, you can contact us (below), Apple or Google directly. Depending on where you live (for
 example the EEA, the UK or California), you may have rights to access or delete personal information; contact us and we
 will help.
 
