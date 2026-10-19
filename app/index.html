@@ -1395,7 +1395,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
 </style>
 </head>
 <body class="gate-on">
-<!-- RNR-WEBAPP-BUILD 2026-10-18 app.501088cf4c.js -->
+<!-- RNR-WEBAPP-BUILD 2026-10-19 app.501088cf4c.js -->
 <div id="rnr-gate" role="main"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <aside class="sidebar" id="sidebar">
@@ -1605,7 +1605,8 @@ const Account = (() => {
   const isWeb = () => !!window.__RNR_WEB__;
   const bridge = () => window.ReactNativeWebView;
   // The card shows on the phone only once the Apple provider is live (config.appleSignIn).
-  const enabled = () => configured() && (isWeb() || cfg().appleSignIn === true);
+  // Sign in with Apple is iPhone-only in the app: on Android the card stays hidden until Google sign-in is added.
+  const enabled = () => configured() && (isWeb() || (cfg().appleSignIn === true && (window.__RNR_OS__ || 'ios') === 'ios'));
   const base = () => cfg().supabaseUrl.replace(/\/$/, '');
 
   const SESSION_KEY = 'rnr.session.v1', SYNCED_KEY = 'rnr.lastSynced.v1';
