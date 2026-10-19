@@ -21,7 +21,8 @@ export const Account = (() => {
   const isWeb = () => !!window.__RNR_WEB__;
   const bridge = () => window.ReactNativeWebView;
   // The card shows on the phone only once the Apple provider is live (config.appleSignIn).
-  const enabled = () => configured() && (isWeb() || cfg().appleSignIn === true);
+  // Sign in with Apple is iPhone-only in the app: on Android the card stays hidden until Google sign-in is added.
+  const enabled = () => configured() && (isWeb() || (cfg().appleSignIn === true && (window.__RNR_OS__ || 'ios') === 'ios'));
   const base = () => cfg().supabaseUrl.replace(/\/$/, '');
 
   const SESSION_KEY = 'rnr.session.v1', SYNCED_KEY = 'rnr.lastSynced.v1';
