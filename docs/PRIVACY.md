@@ -1,6 +1,6 @@
 # Privacy Policy — Rapid Nursing Review
 
-*Last updated: October 18, 2026*
+*Last updated: October 19, 2026*
 
 Rapid Nursing Review ("the app") is a study app for nursing students preparing for the NCLEX-RN. It is based on the book
 *Rapid Nursing Review: All Body Systems at a Glance* by Alex K. Korir, MSN, RN, CCRN-CMC ("we", "us"). This policy explains
@@ -53,7 +53,8 @@ and we don't sell or share it.
 
 If you turn on a study reminder, the app asks for permission to send notifications and schedules them on your device; no
 reminder data leaves your device. If you tap **Add to My Calendar**, the app opens your device's own New Event screen with
-your study event filled in; you choose whether to save it and to which calendar. The app never reads your calendar.
+your study event filled in; you choose whether to save it and to which calendar. The app never reads your calendar. On
+Android you can also open Google Calendar with the event filled in; Google's privacy policy applies there.
 
 ## Purchases (Rapid Nursing Review Pro)
 
@@ -72,14 +73,8 @@ verify and restore your purchases. RevenueCat's privacy policy: https://www.reve
 - We don't use analytics that identify you.
 - We don't sell, rent or share your personal information.
 - We don't collect your location, contacts, photos, microphone, camera or health data.
-- On the iPhone, screenshots and screen recordings are turned off only while a book page is on screen, to protect the
-  book. The app doesn't see or keep anything about this.
-
-## Study reminders and calendar
-
-If you turn on study reminders, the app asks your permission to show notifications and schedules them on your device.
-If you add your exam date to your calendar, the event is created by your device's calendar after you confirm it.
-Neither is sent to us.
+- On iPhone and Android, screenshots and screen recordings are turned off only while a book page is on screen, to protect
+  the book. The app doesn't see or keep anything about this.
 
 ## Links to other websites
 

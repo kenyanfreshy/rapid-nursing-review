@@ -1,6 +1,6 @@
 # Terms of Use — Rapid Nursing Review
 
-*Last updated: October 18, 2026*
+*Last updated: October 19, 2026*
 
 ## License agreement
 
