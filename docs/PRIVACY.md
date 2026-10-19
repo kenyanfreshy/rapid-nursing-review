@@ -10,7 +10,8 @@ Android phones and tablets (Google Play), and to the Rapid Nursing Review web ap
 ## The short version
 
 - No account is needed. Without one, your study data stays on your device.
-- Signing in with Apple is optional. It syncs your progress between your iPhone and the web app.
+- Signing in with Apple is optional (iPhone and iPad). It syncs your progress between your iPhone and the web app.
+- On Android there is no account: everything stays on your phone.
 - No advertising, no tracking and no selling of data.
 - Purchases are handled by Apple or Google; we never see your payment details.
 
@@ -36,14 +37,14 @@ If you sign in:
 - **Where:** with **Supabase**, our database and sign-in provider (servers in the United States). Each account can read
   and change only its own data. Supabase's privacy policy: https://supabase.com/privacy
 - **Subscription check:** the app links your purchases in RevenueCat to your account ID, so the web app can confirm
-  that you have Rapid Nursing Review Pro. The web app never sells anything; Pro is bought only in the iPhone app.
+  that you have Rapid Nursing Review Pro. The web app never sells anything; Pro is bought only in the app, through the App Store or Google Play.
 - **The book on the web:** to protect the author's work, the server records which book pages each account opens and
   when, and limits how many pages can be opened per hour and per day. Pages shown on the web carry your account
   name or email as a watermark.
 - **Delete your account** at any time in **Settings → Sync and web access → Delete account**, in the iPhone app or on
   the web. This permanently deletes the account, your synced progress, your Pro-access record and your book-page log.
   Question reports are kept without any link to you so content fixes still happen. Deleting the account doesn't
-  cancel an App Store subscription; cancel that in your Apple ID settings. Signing out keeps your progress on the
+  cancel an App Store or Google Play subscription; cancel it in your Apple ID settings or the Google Play app. Signing out keeps your progress on the
   device and stops syncing.
 
 We use this information only to provide sync, the web app and support. We don't use it for advertising or tracking,
@@ -66,6 +67,15 @@ To check whether you have Pro and to restore purchases, the app uses **RevenueCa
 receives an anonymous app user ID created on your device (or, if you sign in with Apple, your account ID), your purchase history for this app, and basic technical
 information (such as the app version, device model, operating system version and store country). It uses this only to provide,
 verify and restore your purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
+
+## Android (Google Play)
+
+The Android app works without an account; sign-in and sync are not available on Android yet, so your study data stays on
+your phone. When you buy Pro on Android, Google handles the payment through Google Play under Google's terms and privacy
+policy (https://policies.google.com/privacy); we receive only what RevenueCat needs to confirm the purchase, as described
+above. The Android app doesn't use the advertising ID, and it doesn't ask for access to your photos, files, camera,
+microphone, contacts or calendar. To delete the study data on an Android phone, use Settings → Reset data or uninstall
+the app. Subscriptions are managed and canceled in the Google Play app (profile icon → Payments & subscriptions).
 
 ## What we don't do
 
@@ -106,7 +116,3 @@ If this policy changes, the new version will be posted here with a new date.
 
 Alex K. Korir · alexkorirbooks@gmail.com
 
----
-
-NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review
-App is not sponsored or endorsed by NCSBN.
