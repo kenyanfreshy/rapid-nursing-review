@@ -1,0 +1,14 @@
+# Edge Function settings for the Rapid Nursing Review Supabase project.
+# Both functions verify the user's JWT themselves (admin.auth.getUser). The gateway's own
+# JWT check is turned off because it rejects Apple-session tokens ("Load failed" in the browser).
+# Deploy commands also pass --no-verify-jwt, so this holds even if this file is ignored.
+project_id = "rapid-nursing-review"
+
+[functions.entitlement]
+verify_jwt = false
+
+[functions.book-page]
+verify_jwt = false
+
+[functions.delete-account]
+verify_jwt = false

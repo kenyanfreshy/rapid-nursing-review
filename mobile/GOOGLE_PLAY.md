@@ -25,10 +25,10 @@ npx eas-cli@latest build --platform android --profile production
 ## 3. App content (Policy → App content)
 | Section | Answer |
 |---|---|
-| Privacy policy | https://github.com/kenyanfreshy/rapid-nursing-review-public/blob/main/PRIVACY.md (first copy the updated `docs/PRIVACY.md` into the public repo) |
+| Privacy policy | https://nclexrapidnursingreview.com/privacy.html |
 | App access | **All functionality is available without any access restrictions.** There is no login. Pro is an in-app purchase, which Google reviewers test themselves. |
 | Ads | **No, my app does not contain ads** |
-| Content rating | Email: alexkorirbook@gmail.com · Category: **Reference, News, or Educational**. Violence, sexuality, profanity, gambling: **No**. Drugs, alcohol or tobacco: answer **Yes** only if the questionnaire asks about *references* to them. The questions mention medications, alcohol withdrawal and overdose in a clinical teaching context, with no use shown and nothing that encourages it. Users interact or share content: **No**. Shares location: **No**. Digital purchases: **Yes**. |
+| Content rating | Email: alexkorirbooks@gmail.com · Category: **Reference, News, or Educational**. Violence, sexuality, profanity, gambling: **No**. Drugs, alcohol or tobacco: answer **Yes** only if the questionnaire asks about *references* to them. The questions mention medications, alcohol withdrawal and overdose in a clinical teaching context, with no use shown and nothing that encourages it. Users interact or share content: **No**. Shares location: **No**. Digital purchases: **Yes**. |
 | Target audience | **18 and over** only. "Appeal to children": **No**. |
 | News app | **No** |
 | Government app | **No** |
@@ -40,7 +40,7 @@ npx eas-cli@latest build --platform android --profile production
 ## 4. Data safety
 - Does your app collect or share any of the required user data types? **Yes**
 - Is all user data encrypted in transit? **Yes**
-- Do you provide a way for users to request that their data is deleted? **Yes**, by email to alexkorirbook@gmail.com. Study data can also be deleted in the app (Settings → Reset data).
+- Do you provide a way for users to request that their data is deleted? **Yes**, by email to alexkorirbooks@gmail.com. Study data can also be deleted in the app (Settings → Reset data).
 - Account creation: **My app does not allow users to create an account**
 
 | Data type | Collected | Shared | Optional? | Purpose |
@@ -59,7 +59,7 @@ RevenueCat and Google Play Billing act as service providers, which Google doesn'
 - Feature graphic: `Google Play Assets/feature-graphic-1024x500.png`
 - Phone screenshots: `Google Play Assets/phone/` (8 images, 1080×2160)
 - 7-inch tablet screenshots: `Google Play Assets/tablet-7in/` · 10-inch tablet screenshots: `Google Play Assets/tablet-10in/`
-- **Store settings:** category **Education**; tags: Education, Test preparation; contact email alexkorirbook@gmail.com; website https://www.amazon.com/stores/Alex-K-Korir/author/B0FCCVTDG3
+- **Store settings:** category **Education**; tags: Education, Test preparation; contact email alexkorirbooks@gmail.com; website https://www.amazon.com/stores/Alex-K-Korir/author/B0FCCVTDG3
 
 ## 6. Products (Monetize with Play → Products), available once the first build is uploaded
 **Subscriptions → Create subscription:** product ID `rnr_pro`, name "Rapid Nursing Review Pro". Add three base plans, set the U.S. price, let Google convert the other countries, then activate:

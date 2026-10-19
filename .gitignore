@@ -9,4 +9,10 @@ __pycache__/
 
 # test screenshots
 /*.png
+
+# web app build output (build/webapp-private holds the question bank and book pages: never commit it)
+/build/
+
+# Supabase CLI cache (machine-specific)
+supabase/.temp/
 mobile/google-play-service-account.json

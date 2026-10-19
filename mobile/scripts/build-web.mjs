@@ -34,7 +34,14 @@ const dataJs = unmodule(read('data.js'));
 // The web preview's "try Pro" switch is never shipped in the app: Pro comes only from RevenueCat.
 const appJs = unmodule(read('app.js')).replace('const PREVIEW_UNLOCK = true;', 'const PREVIEW_UNLOCK = false;');
 if (!appJs.includes('const PREVIEW_UNLOCK = false;')) throw new Error('PREVIEW_UNLOCK flag not found in app.js');
-const script = `(function(){\n'use strict';\n${bookJs}\n${nclexJs}\n${dataJs}\nconst lessons=retiredLessons;\n${appJs}\n})();`;
+// Sync and web access: public config, the progress merge and the account module (see dist/account.js).
+const configJs = unmodule(read('config.js'));
+const syncJs = unmodule(read('sync.js'));
+const accountJs = unmodule(read('account.js'));
+for (const [n, src] of [['config.js', configJs], ['sync.js', syncJs], ['account.js', accountJs]]) if (/^\s*(import|export)\s/m.test(src)) throw new Error(`${n} still has an import/export line after unmodule`);
+// WEB_BUILD_MARKER: grep for this in mobile/assets/web/index.html before `eas build` to be sure the bundle is current.
+const marker = `RNR-WEB-BUILD sync-v1 ${new Date().toISOString().slice(0, 10)}`;
+const script = `(function(){\n'use strict';\nwindow.__RNR_BUILD__=${JSON.stringify(marker)};\n${bookJs}\n${nclexJs}\n${dataJs}\nconst lessons=retiredLessons;\n${configJs}\n${syncJs}\n${accountJs}\n${appJs}\n})();`;
 
 const html = read('index.html');
 const css = read('styles.css');
@@ -78,3 +85,4 @@ ${files.map(f => `  '${f}': require('./${f}'),`).join('\n')}
 `);
 const size = files.reduce((n, f) => n + fs.statSync(path.join(out, f)).size, 0);
 console.log(`Built assets/web: ${files.length} files, ${(size / 1e6).toFixed(1)} MB, book access: ${access}, version ${version}`);
+console.log(`Marker: ${marker}  (check: grep -c "RNR-WEB-BUILD sync-v1" assets/web/index.html  → 1)`);

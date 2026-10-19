@@ -2,6 +2,7 @@
 # Serve dist/ on 127.0.0.1:4173 first.
 from playwright.sync_api import sync_playwright
 import sys
+OPEN_FOLD = "document.querySelectorAll('details.more-cases').forEach(d=>d.open=true)"  # cases after the first are folded
 U = 'http://127.0.0.1:4173/'; OUT = sys.argv[1] if len(sys.argv) > 1 else '.'
 res = []
 def check(n, ok, info=''): res.append(('PASS' if ok else 'FAIL', n, info))
@@ -43,7 +44,7 @@ with sync_playwright() as p:
     # exams stay white in every theme
     for ui in ('midnight', 'ocean'):
         pg.evaluate(f"s=JSON.parse(localStorage.getItem('rapid-nursing-review-v1'));s.ui='{ui}';localStorage.setItem('rapid-nursing-review-v1',JSON.stringify(s))"); pg.reload(); pg.wait_for_timeout(400)
-        pg.click('main [data-action=quick]'); pg.wait_for_timeout(200)
+        pg.evaluate(OPEN_FOLD); pg.click('main [data-action=quick]'); pg.wait_for_timeout(200)
         check(f'{ui}: exam screen is white', pg.evaluate("getComputedStyle(document.querySelector('#modal')).backgroundColor") == 'rgb(255, 255, 255)')
         pg.click('#modal [data-action=close-modal]'); pg.evaluate("s=JSON.parse(localStorage.getItem('rapid-nursing-review-v1'));s.session=null;localStorage.setItem('rapid-nursing-review-v1',JSON.stringify(s))")
     pg.reload(); pg.wait_for_timeout(300); pg.goto(U + '#practice'); pg.wait_for_timeout(300); pg.screenshot(path=f'{OUT}/ui-ocean.png')
