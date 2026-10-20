@@ -183,11 +183,13 @@ export default function Paywall({ onClose, reason }) {
 
   const purchase = async () => {
     if (!chosen || busy) return; setBusy(true); setMsg('');
-    const r = await buy(chosen); setBusy(false);
+    let r;
+    try { r = await buy(chosen); } catch (e) { r = { ok: false, message: `The purchase didn't go through. You haven't been charged. (${(e && (e.code || e.message)) || 'unknown error'})` }; }
+    setBusy(false);
     if (r.ok) setWelcome(trial ? `Your ${trial.words} free trial has started and all of Pro is unlocked.` : 'All of Pro is unlocked: every question, case study, exam and page of the book.');
     else if (!r.cancelled) setMsg(r.message);
   };
-  const doRestore = async () => { setBusy(true); setMsg(''); const r = await restore(); setBusy(false); if (r.ok) setWelcome('Your Pro membership is restored.'); else setMsg(r.message); };
+  const doRestore = async () => { setBusy(true); setMsg(''); let r; try { r = await restore(); } catch (e) { r = { ok: false, message: 'Couldn\'t restore right now. Please try again.' }; } setBusy(false); if (r.ok) setWelcome('Your Pro membership is restored.'); else setMsg(r.message); };
   const open = url => { if (url && !/REPLACE_ME/.test(url)) Linking.openURL(url).catch(() => {}); };
 
   const cardFor = (p, wide) => {
