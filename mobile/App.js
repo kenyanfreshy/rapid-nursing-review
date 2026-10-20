@@ -140,6 +140,24 @@ async function appleSignIn() {
 // iOS 13+: screenshots and recordings of the app come out blank; Android: FLAG_SECURE.
 let ScreenCapture = null;
 try { ScreenCapture = require('expo-screen-capture'); } catch (e) { ScreenCapture = null; }
+// If the paywall ever throws while drawing (for example on store data we didn't expect), show a short message with
+// the error instead of letting the whole app close, and keep the details so they can be reported.
+class PaywallGuard extends React.Component {
+  constructor(props) { super(props); this.state = { err: null }; }
+  static getDerivedStateFromError(err) { return { err }; }
+  componentDidCatch(err, info) { try { console.error('Paywall error', err, info && info.componentStack); } catch (e) {} }
+  render() {
+    if (!this.state.err) return this.props.children;
+    const msg = String((this.state.err && (this.state.err.message || this.state.err)) || 'Unknown error').slice(0, 300);
+    return h(View, { style: { flex: 1, backgroundColor: '#0B0F19', padding: 24, justifyContent: 'center', gap: 14 } },
+      h(Text, { style: { color: '#F1F5F9', fontSize: 20, fontWeight: '800' } }, 'The plans screen hit a problem'),
+      h(Text, { style: { color: '#A9B4C8', fontSize: 15, lineHeight: 21 } }, 'Nothing was charged. Close this and try again. If it keeps happening, email alexkorirbooks@gmail.com with the details below.'),
+      h(Text, { selectable: true, style: { color: '#7C879C', fontSize: 12 } }, `Details: ${msg}`),
+      h(Pressable, { onPress: this.props.onClose, accessibilityRole: 'button', style: { marginTop: 8, borderRadius: 16, paddingVertical: 14, alignItems: 'center', backgroundColor: '#22D3EE' } },
+        h(Text, { style: { color: '#04131A', fontSize: 17, fontWeight: '800' } }, 'Close')));
+  }
+}
+
 function setBookProtection(on) {
   if (!ScreenCapture) return;
   (on ? ScreenCapture.preventScreenCaptureAsync('book') : ScreenCapture.allowScreenCaptureAsync('book')).catch(() => {});
@@ -290,7 +308,7 @@ function Study() {
       onRenderProcessGone: () => { webRef.current?.reload(); return true; },
     }),
     h(Modal, { visible: !!paywall, animationType: 'slide', presentationStyle: 'fullScreen', onRequestClose: () => setPaywall(null) },
-      h(Paywall, { reason: paywall?.reason, onClose: () => setPaywall(null) })));
+      h(PaywallGuard, { onClose: () => setPaywall(null) }, h(Paywall, { reason: paywall?.reason, onClose: () => setPaywall(null) }))));
 }
 
 export default function App() {
