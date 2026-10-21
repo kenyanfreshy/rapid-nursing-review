@@ -44,10 +44,20 @@ nav .links a.btn{color:#fff;padding:9px 16px;font-size:14px;white-space:nowrap}
 /* hero */
 .hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(900px 650px at 0% 0%,rgba(234,88,12,.42),transparent 60%),radial-gradient(800px 600px at 100% 80%,rgba(124,58,237,.45),transparent 60%),linear-gradient(180deg,var(--night),var(--night2))}
 .hero:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:48px 48px}
-.hero .ecg{position:absolute;left:0;right:0;bottom:0;height:70px;opacity:.35;pointer-events:none}
-.hero .ecg path{fill:none;stroke:#2dd4bf;stroke-width:2;stroke-dasharray:1400;stroke-dashoffset:1400;animation:ecg 6s linear infinite}
-@keyframes ecg{to{stroke-dashoffset:0}}
-.hero-grid{position:relative;display:grid;grid-template-columns:1.12fr .88fr;gap:44px;align-items:center;padding-top:64px;padding-bottom:36px}
+.hero .ecg{position:absolute;left:0;right:0;bottom:6px;height:96px;overflow:hidden;pointer-events:none;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.ecg-track{position:absolute;top:0;left:0;width:200%;height:100%;animation:ecg-run 14s linear infinite}
+@keyframes ecg-run{to{transform:translateX(-50%)}}
+.ecg path{fill:none;stroke-linejoin:round;stroke-linecap:round}
+.ecg-main{stroke-width:2.6;opacity:.85}
+.ecg-faint{stroke:#2dd4bf;stroke-width:9;opacity:.08}
+.ecg-scan{position:absolute;top:0;bottom:0;left:0;width:18%;background:linear-gradient(90deg,transparent,rgba(45,212,191,.14) 70%,rgba(167,139,250,.34) 94%,transparent);-webkit-mask-image:linear-gradient(180deg,transparent,#000 35%,#000 65%,transparent);mask-image:linear-gradient(180deg,transparent,#000 35%,#000 65%,transparent);mix-blend-mode:screen;animation:ecg-scan 3.2s ease-in-out infinite}
+@keyframes ecg-scan{0%{transform:translateX(-30%)}100%{transform:translateX(480%)}}
+.ecg-bpm{position:absolute;right:max(20px,calc((100% - 1160px)/2 + 20px));top:4px;display:flex;align-items:center;gap:7px;font:700 11px "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#99f6e4;background:rgba(8,11,22,.6);border:1px solid rgba(45,212,191,.35);border-radius:99px;padding:5px 11px}
+.ecg-bpm b{color:#fff;font-size:13px}
+.ecg-bpm i{width:8px;height:8px;border-radius:50%;background:#f43f5e;box-shadow:0 0 10px #f43f5e;animation:ecg-beat .83s ease-in-out infinite}
+@keyframes ecg-beat{0%,100%{transform:scale(.8);opacity:.7}15%{transform:scale(1.35);opacity:1}}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.12fr .88fr;gap:44px;align-items:center;padding-top:64px;padding-bottom:110px}
 .hero .eyebrow{color:var(--teal);border-color:rgba(94,234,212,.5)}
 .hero h1{font-size:clamp(40px,5.8vw,72px);margin-top:22px}
 .hero h1 .nw{white-space:nowrap;background:none;color:#fff;-webkit-background-clip:initial;background-clip:initial}
@@ -89,10 +99,10 @@ nav .links a.btn{color:#fff;padding:9px 16px;font-size:14px;white-space:nowrap}
 .showcase{border-radius:28px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08)}
 
 /* screenshot gallery */
-.gallery-wrap{position:relative}
-.gallery{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 20px 24px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.gallery-wrap{position:relative;border-radius:26px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);padding:22px 0 18px}
+.gallery{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 22px;padding:6px 22px 18px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent);mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent);scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .gallery::-webkit-scrollbar{display:none}
-.shot{flex:0 0 auto;width:min(270px,70vw);scroll-snap-align:center;margin:0}
+.shot{flex:0 0 auto;width:min(240px,62vw);scroll-snap-align:start;margin:0}
 .shot img{width:100%;height:auto;aspect-ratio:1290/2796;object-fit:cover;border-radius:26px;box-shadow:0 18px 40px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.08);background:#111527}
 .shot figcaption{margin-top:12px;font-weight:700;font-size:15px;color:#e8ecff;text-align:center}
 .gal-btns{display:flex;gap:10px;justify-content:center;margin-top:8px}
@@ -129,7 +139,7 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
 
 @media(max-width:980px){.hero-grid{grid-template-columns:1fr;padding-top:44px}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.quiz{grid-template-columns:1fr}}
 @media(max-width:560px){.stats{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}.lead{font-size:18px}.sec{padding:60px 0}}
-@media(prefers-reduced-motion:reduce){.hero .ecg path{animation:none;stroke-dashoffset:0}.feat{transition:none}.feat:hover{transform:none}html{scroll-behavior:auto}}
+@media(prefers-reduced-motion:reduce){.ecg-track,.ecg-scan,.ecg-bpm i{animation:none}.ecg-scan{display:none}.feat{transition:none}.feat:hover{transform:none}html{scroll-behavior:auto}}
 
 /* mission-control progress ring (example) */
 #progress{padding-top:12px;padding-bottom:0}
@@ -181,7 +191,18 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
 </div></nav>
 
 <header class="hero" id="top">
-  <svg class="ecg" viewBox="0 0 1400 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60 H260 l18 -10 l14 22 l18 -12 H520 l14 -22 l14 -48 l16 86 l14 -34 H860 l12 -18 l14 18 H1100 l18 -10 l14 22 l18 -12 H1400"/></svg>
+  <div class="ecg" aria-hidden="true">
+    <svg class="ecg-track" viewBox="0 0 3200 90" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="ecg-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".35" stop-color="#22d3ee"/><stop offset=".65" stop-color="#a78bfa"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+        <filter id="ecg-glow" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
+      <path class="ecg-faint" d="M0 60 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124"/>
+      <path class="ecg-main" d="M0 60 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124" stroke="url(#ecg-g)" filter="url(#ecg-glow)"/>
+    </svg>
+    <span class="ecg-scan"></span>
+    <span class="ecg-bpm"><i></i><b>72</b> BPM · steady</span>
+  </div>
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow">NCLEX-RN® Prep · iPhone, iPad &amp; web</span>
@@ -242,7 +263,7 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
     <h2>Built to make every study session count.</h2>
     <p class="sub">The same app on your iPhone, your iPad and your computer. Swipe through the screens.</p>
   </div>
-  <div class="gallery-wrap">
+  <div class="wrap"><div class="gallery-wrap">
     <div class="gallery" id="gallery" tabindex="0" aria-label="App screenshots">
       <figure class="shot"><img src="assets/shots/rnr-iphone-01-walk-in-ready.webp" alt="Home screen: your streak, accuracy and today's practice" loading="lazy" width="1290" height="2796"><figcaption>Walk in ready</figcaption></figure>
       <figure class="shot"><img src="assets/shots/rnr-iphone-02-next-gen-cases.webp" alt="Next Generation NCLEX unfolding case study" loading="lazy" width="1290" height="2796"><figcaption>Next Gen NCLEX cases</figcaption></figure>
@@ -256,7 +277,7 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
       <figure class="shot"><img src="assets/shots/rnr-iphone-10-study-on-any-computer.webp" alt="Study on any computer" loading="lazy" width="1290" height="2796"><figcaption>Study on any computer</figcaption></figure>
     </div>
     <div class="gal-btns"><button type="button" data-dir="-1" aria-label="Previous screenshots">‹</button><button type="button" data-dir="1" aria-label="Next screenshots">›</button></div>
-  </div>
+  </div></div>
   <div class="wrap" style="margin-top:56px">
     <div class="showcase"><img src="assets/ipad-hero.webp" alt="Rapid Nursing Review on iPad: your whole study desk" loading="lazy" width="1600" height="1200"></div>
   </div>
