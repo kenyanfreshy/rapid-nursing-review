@@ -115,11 +115,21 @@ export const Account = (() => {
       saveSession(fromAuth(b));
       return true;
     }
+    return webOAuth('apple');
+  }
+  // ---- Sign in with Google (web) ----
+  // Same Supabase PKCE redirect as Apple. The Android app's own Google sign-in goes through the native bridge.
+  async function signInWithGoogle() {
+    if (bridge()) throw new Error('Sign in with Google is available on the web app at nclexrapidnursingreview.com/app.');
+    return webOAuth('google');
+  }
+  async function webOAuth(provider) {
     const verifier = randomString(64);
     try { sessionStorage.setItem(PKCE_KEY, verifier); } catch { throw new Error('This browser blocks storage, so sign-in can’t finish. Allow site data for this page and try again.'); }
     const challenge = await sha256url(verifier);
-    const back = location.origin + location.pathname;
-    location.href = `${base()}/auth/v1/authorize?provider=apple&redirect_to=${encodeURIComponent(back)}&code_challenge=${challenge}&code_challenge_method=s256`;
+    // Sign-ins started on the home page finish in the web app at /app/.
+    const back = window.__RNR_AUTH_BACK__ || location.origin + location.pathname;
+    location.href = `${base()}/auth/v1/authorize?provider=${provider}&redirect_to=${encodeURIComponent(back)}&code_challenge=${challenge}&code_challenge_method=s256`;
     return false;
   }
   const PKCE_KEY = 'rnr.pkce.v1';
@@ -230,7 +240,7 @@ export const Account = (() => {
 
   return {
     configured, enabled, isWeb, onChange, get status() { return status; },
-    signInWithApple, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
+    signInWithApple, signInWithGoogle, googleEnabled: () => configured() && cfg().googleSignIn === true, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
     checkWebAccess, privateJson, bookPage, syncNow, sendReports,
     webAppUrl: () => cfg().webAppUrl, supportEmail: () => cfg().supportEmail,
   };

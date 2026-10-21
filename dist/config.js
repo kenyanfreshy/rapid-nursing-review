@@ -10,6 +10,7 @@ export const RNR_CONFIG = {
   supabaseUrl: 'https://komibrrtxrmytkkfhrvy.supabase.co',
   supabaseKey: 'sb_publishable_hxMAbQEMhxgB8L4Va7imQw_wSgW8W2x',
   appleSignIn: true,
+  googleSignIn: true,
   webAppUrl: 'https://nclexrapidnursingreview.com/app/',
   supportEmail: 'alexkorirbooks@gmail.com',
 };

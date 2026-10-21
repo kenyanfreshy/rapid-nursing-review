@@ -3,7 +3,7 @@
 //   node scripts/build-webapp.mjs && node scripts/build-site.mjs
 //
 // Output: build/site/  → copy everything to the root of the website repo (kenyanfreshy/rapid-nursing-review-public)
-//   index.html                landing page
+//   index.html                landing page (web/landing/index.html + web/landing/assets)
 //   privacy.html terms.html support.html   from docs/*.md (the .md copies stay for old links)
 //   quiz/                     the free NCLEX challenge (from the marketing bot) + the "Get the app" prompt
 //   app/                      the web app (build/webapp: sign-in gate + app code, NO questions or book pages)
@@ -70,7 +70,14 @@ const landing = `<section class="hero"><img src="/app/pages/cover.webp" alt="Rap
 <div class="btns"><a class="btn" href="${APP_STORE_URL}">Get it on the App Store</a><a class="btn alt" href="/quiz/">Try the free NCLEX challenge</a><a class="btn alt" href="/app/">Open the web app (Pro)</a></div></div></section>
 <div class="feat"><div><b>Book-linked rationales</b>Missed one? Open the exact textbook page.</div><div><b>Next Generation NCLEX</b>Bow-tie, matrix, select-all and cloze items in unfolding cases.</div><div><b>Study plan</b>Built to your exam date, with reminders and streaks.</div><div><b>iPhone and computer</b>Pro subscribers sign in with Apple and continue on any computer.</div></div>
 <h2>Using the web app</h2><p>The web app is for Rapid Nursing Review Pro subscribers. Subscribe in the iPhone app, then open <strong>Settings → Sync and web access</strong> and tap <strong>Sign in with Apple</strong>. On your computer, go to <a href="/app/">${DOMAIN}/app</a> and sign in with the same Apple ID. Your progress follows you.</p>`;
-fs.writeFileSync(path.join(out, 'index.html'), page('Rapid Nursing Review · NCLEX-RN review app', landing));
+// Home page: the premium landing page in web/landing (screenshots, progress ring, Apple and Google sign-in).
+// Its sign-in buttons open /app/?signin=apple|google, which the web app's gate starts right away.
+// (The simple page above stays as a fallback if web/landing is missing.)
+const landingDir = path.join(root, 'web', 'landing');
+if (fs.existsSync(path.join(landingDir, 'index.html'))) {
+  fs.writeFileSync(path.join(out, 'index.html'), fs.readFileSync(path.join(landingDir, 'index.html'), 'utf8').split('https://apps.apple.com/app/id6822172335').join(APP_STORE_URL));
+  fs.cpSync(path.join(landingDir, 'assets'), path.join(out, 'assets'), { recursive: true });
+} else fs.writeFileSync(path.join(out, 'index.html'), page('Rapid Nursing Review · NCLEX-RN review app', landing));
 // ---- /quiz/: the free NCLEX challenge, moved from rapidnursingreview.netlify.app ----
 {
   let q = fs.readFileSync(path.join(root, 'web', 'quiz', 'challenge-original.html'), 'utf8');

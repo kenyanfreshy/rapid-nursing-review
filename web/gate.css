@@ -15,3 +15,8 @@ body.gate-on > :not(#rnr-gate):not(script):not(dialog){display:none!important}
 #rnr-gate .apple-btn{background:#fff;color:#000}
 #rnr-gate .btn{min-height:44px;padding:0 18px;border-radius:12px;border:0;background:#22d3ee;color:#04121a;font-weight:700;cursor:pointer}
 #rnr-gate .btn.secondary{background:transparent;color:#eef1fa;border:1px solid #39415f}
+
+.wg-buttons{display:grid;gap:10px}
+#rnr-gate .apple-btn,#rnr-gate .google-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:48px;border-radius:12px;cursor:pointer;font:600 17px -apple-system,"SF Pro Text",system-ui,sans-serif}
+#rnr-gate .apple-btn{border:0}
+#rnr-gate .google-btn{background:#131314;color:#e3e3e3;border:1px solid #8e918f;font:500 16px Roboto,"Google Sans",system-ui,sans-serif}
