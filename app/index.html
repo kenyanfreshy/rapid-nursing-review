@@ -1136,6 +1136,47 @@ body.rnr-shield canvas.rnr-page{filter:blur(22px) brightness(.85)}
 .case-choose .more-cases>summary{margin:10px 0 4px;font-size:13px}
 @media (max-width:700px){.test-grid{grid-template-columns:1fr!important}}
 
+/* ---------- Mission-control progress ring (overview), same design as Critical Care Certified ---------- */
+.pr-card{position:relative;overflow:hidden;isolation:isolate;display:grid;grid-template-columns:240px 1fr;gap:24px;align-items:center;padding:22px 26px;margin-bottom:24px;border-radius:24px;color:#e8ecff;
+  background:radial-gradient(420px 260px at 18% 30%,#22d3ee2e,transparent 70%),radial-gradient(420px 300px at 100% 100%,#a855f733,transparent 70%),linear-gradient(160deg,#0b1030,#070a1e);
+  border:1px solid #ffffff1f;box-shadow:0 18px 50px #0006,inset 0 1px 0 #ffffff14}
+.pr-grid{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.5;background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:28px 28px;
+  -webkit-mask-image:radial-gradient(circle at 25% 50%,#000 0%,transparent 75%);mask-image:radial-gradient(circle at 25% 50%,#000 0%,transparent 75%)}
+.pr-ring{position:relative;width:240px;aspect-ratio:1}
+.pr-ring svg{width:100%;height:100%;overflow:visible}
+.pr-track{fill:none;stroke:#ffffff12}
+.pr-arc{fill:none;stroke-linecap:round;animation:pr-draw 1.4s cubic-bezier(.2,.8,.2,1) both;animation-delay:var(--delay)}
+@keyframes pr-draw{from{stroke-dasharray:0 var(--len)}}
+.pr-dot{fill:#fff;filter:drop-shadow(0 0 6px #fff)}
+.pr-ticks line{stroke:#9fb4ff55;stroke-width:1.2}
+.pr-orbit{fill:none;stroke:#7dd3fc66;stroke-width:1;stroke-dasharray:2 6;transform-origin:110px 110px;animation:pr-spin 18s linear infinite}
+@keyframes pr-spin{to{transform:rotate(360deg)}}
+.pr-center{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+.pr-score{font:800 40px/1 'Bricolage Grotesque',system-ui,sans-serif;background:linear-gradient(180deg,#fff,#a5f3fc);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pr-score small{font-size:18px}
+.pr-label{font:700 10px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.2em;text-transform:uppercase;color:#93c5fd;margin-top:4px}
+.pr-side{min-width:0;display:grid;gap:10px}
+.pr-eyebrow{margin:0;font:700 11px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.22em;text-transform:uppercase;color:#5eead4}
+.pr-side h2{margin:0;font-family:'Bricolage Grotesque',system-ui,sans-serif;font-size:24px;color:#fff}
+.pr-legend{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.pr-legend li{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:14px;background:#ffffff0a;border:1px solid #ffffff14}
+.pr-legend i{flex:none;width:10px;height:10px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor}
+.pr-legend span{flex:1;min-width:0;display:grid}
+.pr-legend strong{font-size:14px;color:#fff}
+.pr-legend small{font-size:12px;color:#aab4d4}
+.pr-legend b{font:800 18px 'Bricolage Grotesque',system-ui,sans-serif;color:#fff}
+.pr-c1{color:#67e8f9}.pr-c2{color:#fbbf24}.pr-c3{color:#34d399}
+.pr-streak{display:flex;align-items:center;gap:8px;font-size:13.5px;color:#cbd5ff}
+.pr-flame{display:grid;place-items:center;width:28px;height:28px;border-radius:9px;color:#fff;background:linear-gradient(135deg,#f59e0b,#e11d48);box-shadow:0 0 14px #f59e0b66}
+.pr-flame svg{width:16px;height:16px}
+.pr-streak strong{color:#fde68a;font-size:16px}
+.pr-line{margin:0;font-size:14px;color:#dbe2ff}
+.pr-go{justify-self:start;display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;padding:11px 18px;border-radius:14px;font-weight:800;font-size:14.5px;color:#061018;background:linear-gradient(90deg,#22d3ee,#a78bfa);box-shadow:0 0 0 1px #ffffff40 inset,0 10px 28px #22d3ee55}
+.pr-go svg{width:16px;height:16px}
+.pr-go:hover{transform:translateY(-1px);box-shadow:0 0 0 1px #ffffff60 inset,0 14px 34px #a78bfa66}
+@media(max-width:620px){.pr-card{grid-template-columns:1fr;justify-items:center;padding:20px}.pr-ring{width:min(240px,72vw)}.pr-side{width:100%}}
+@media(prefers-reduced-motion:reduce){.pr-arc,.pr-orbit{animation:none}}
+
 /* Web app sign-in gate (shown before the app loads; the app shell stays hidden until then) */
 body.gate-on > :not(#rnr-gate):not(script):not(dialog){display:none!important}
 #rnr-gate{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 16px;background:radial-gradient(1200px 600px at 50% -10%,#1b2140,#080b16 60%);color:#eef1fa;font-family:'DM Sans',system-ui,-apple-system,sans-serif}
@@ -1153,6 +1194,11 @@ body.gate-on > :not(#rnr-gate):not(script):not(dialog){display:none!important}
 #rnr-gate .apple-btn{background:#fff;color:#000}
 #rnr-gate .btn{min-height:44px;padding:0 18px;border-radius:12px;border:0;background:#22d3ee;color:#04121a;font-weight:700;cursor:pointer}
 #rnr-gate .btn.secondary{background:transparent;color:#eef1fa;border:1px solid #39415f}
+
+.wg-buttons{display:grid;gap:10px}
+#rnr-gate .apple-btn,#rnr-gate .google-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:48px;border-radius:12px;cursor:pointer;font:600 17px -apple-system,"SF Pro Text",system-ui,sans-serif}
+#rnr-gate .apple-btn{border:0}
+#rnr-gate .google-btn{background:#131314;color:#e3e3e3;border:1px solid #8e918f;font:500 16px Roboto,"Google Sans",system-ui,sans-serif}
 
 </style>
   <style id="nb-theme">
@@ -1395,7 +1441,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
 </style>
 </head>
 <body class="gate-on">
-<!-- RNR-WEBAPP-BUILD 2026-10-19 app.501088cf4c.js -->
+<!-- RNR-WEBAPP-BUILD 2026-10-21 app.6e15e98c96.js -->
 <div id="rnr-gate" role="main"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <aside class="sidebar" id="sidebar">
@@ -1416,7 +1462,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
   <dialog id="page-viewer" class="page-viewer" aria-label="Book page"></dialog>
   <dialog id="modal" aria-labelledby="modal-title"></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script>window.__RNR_APP_JS__="app.501088cf4c.js";</script>
+  <script>window.__RNR_APP_JS__="app.6e15e98c96.js";</script>
 <script>
 (function(){
 'use strict';
@@ -1432,6 +1478,7 @@ const RNR_CONFIG = {
   supabaseUrl: 'https://komibrrtxrmytkkfhrvy.supabase.co',
   supabaseKey: 'sb_publishable_hxMAbQEMhxgB8L4Va7imQw_wSgW8W2x',
   appleSignIn: true,
+  googleSignIn: true,
   webAppUrl: 'https://nclexrapidnursingreview.com/app/',
   supportEmail: 'alexkorirbooks@gmail.com',
 };
@@ -1699,11 +1746,21 @@ const Account = (() => {
       saveSession(fromAuth(b));
       return true;
     }
+    return webOAuth('apple');
+  }
+  // ---- Sign in with Google (web) ----
+  // Same Supabase PKCE redirect as Apple. The Android app's own Google sign-in goes through the native bridge.
+  async function signInWithGoogle() {
+    if (bridge()) throw new Error('Sign in with Google is available on the web app at nclexrapidnursingreview.com/app.');
+    return webOAuth('google');
+  }
+  async function webOAuth(provider) {
     const verifier = randomString(64);
     try { sessionStorage.setItem(PKCE_KEY, verifier); } catch { throw new Error('This browser blocks storage, so sign-in can’t finish. Allow site data for this page and try again.'); }
     const challenge = await sha256url(verifier);
-    const back = location.origin + location.pathname;
-    location.href = `${base()}/auth/v1/authorize?provider=apple&redirect_to=${encodeURIComponent(back)}&code_challenge=${challenge}&code_challenge_method=s256`;
+    // Sign-ins started on the home page finish in the web app at /app/.
+    const back = window.__RNR_AUTH_BACK__ || location.origin + location.pathname;
+    location.href = `${base()}/auth/v1/authorize?provider=${provider}&redirect_to=${encodeURIComponent(back)}&code_challenge=${challenge}&code_challenge_method=s256`;
     return false;
   }
   const PKCE_KEY = 'rnr.pkce.v1';
@@ -1814,7 +1871,7 @@ const Account = (() => {
 
   return {
     configured, enabled, isWeb, onChange, get status() { return status; },
-    signInWithApple, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
+    signInWithApple, signInWithGoogle, googleEnabled: () => configured() && cfg().googleSignIn === true, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
     checkWebAccess, privateJson, bookPage, syncNow, sendReports,
     webAppUrl: () => cfg().webAppUrl, supportEmail: () => cfg().supportEmail,
   };
@@ -1933,13 +1990,15 @@ const WebReader = (() => {
 })();
 
 // Web app entry (https://nclexrapidnursingreview.com/app/). The public page holds no questions and
-// no book: it signs the learner in with Apple, asks the server (entitlement → RevenueCat) whether
-// that account has an active Rapid Nursing Review Pro subscription bought in the iPhone app, then
+// no book: it signs the learner in with Apple or Google, asks the server (entitlement → RevenueCat) whether
+// that account has an active Rapid Nursing Review Pro subscription bought in the app, then
 // downloads the question bank from private storage and starts the same app the phone runs.
 // No purchase happens here and there are no links to outside payment.
 
 const Gate = (() => {
   const APPLE = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M16.37 12.8c-.02-2.1 1.72-3.12 1.8-3.17-.98-1.43-2.5-1.63-3.04-1.65-1.29-.13-2.52.76-3.18.76-.66 0-1.67-.74-2.75-.72-1.41.02-2.72.82-3.45 2.09-1.47 2.55-.38 6.33 1.06 8.4.7 1.01 1.54 2.15 2.63 2.11 1.06-.04 1.46-.68 2.73-.68 1.28 0 1.64.68 2.75.66 1.14-.02 1.86-1.03 2.55-2.05.8-1.17 1.13-2.31 1.15-2.37-.03-.01-2.21-.85-2.25-3.38zM14.3 6.62c.58-.71.98-1.69.87-2.67-.84.03-1.86.56-2.46 1.27-.54.62-1.01 1.62-.89 2.58.94.07 1.9-.48 2.48-1.18z"/></svg>';
+  const GOOGLE = '<svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>';
+  const googleOn = () => !!Account.googleEnabled?.();
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const el = () => document.getElementById('rnr-gate');
 
@@ -1950,16 +2009,20 @@ const Gate = (() => {
       <p class="wg-fine">NCLEX® is a registered trademark of NCSBN, which does not sponsor or endorse this app.</p></div>`;
   }
   function signInScreen(err) {
-    screen(`<p>For Rapid Nursing Review Pro subscribers. Sign in with the same Apple ID you use in the iPhone app and pick up where you left off.</p>
+    screen(`<p>For Rapid Nursing Review Pro subscribers. Sign in with the same account you use in the app (<b>Apple</b> or <b>Google</b>) and pick up where you left off.</p>
       ${err ? `<p class="wg-err" role="alert">${esc(err)}</p>` : ''}
+      <div class="wg-buttons">
+      ${googleOn() ? `<button class="google-btn" id="wg-google" type="button">${GOOGLE}<span>Sign in with Google</span></button>` : ''}
       <button class="apple-btn" id="wg-apple" type="button">${APPLE}<span>Sign in with Apple</span></button>
-      <p class="wg-help">First time? In the iPhone app, open <b>Settings → Sync and web access</b> and tap <b>Sign in with Apple</b> once. That links your subscription and progress to your Apple ID.</p>`);
+      </div>
+      <p class="wg-help">First time? In the app, open <b>Settings → Sync and web access</b> and sign in once. That links your subscription and progress to your account.</p>`);
     document.getElementById('wg-apple').onclick = () => Account.signInWithApple().catch(e => signInScreen(e.message));
+    const g = document.getElementById('wg-google'); if (g) g.onclick = () => Account.signInWithGoogle().catch(e => signInScreen(e.message));
   }
   function noAccessScreen() {
-    screen(`<p class="wg-err" role="alert">We couldn't find an active Rapid Nursing Review Pro subscription for this Apple ID.</p>
-      <ol class="wg-steps"><li>On your iPhone, open Rapid Nursing Review and subscribe, or tap Restore Purchases.</li>
-      <li>In the app, open <b>Settings → Sync and web access</b> and tap <b>Sign in with Apple</b> with this same Apple ID.</li>
+    screen(`<p class="wg-err" role="alert">We couldn't find an active Rapid Nursing Review Pro subscription for this account.</p>
+      <ol class="wg-steps"><li>On your phone, open Rapid Nursing Review and subscribe, or tap Restore Purchases.</li>
+      <li>In the app, open <b>Settings → Sync and web access</b> and sign in with this same account.</li>
       <li>Come back here and tap Check again.</li></ol>
       <div class="wg-row"><button class="btn" id="wg-again" type="button">Check again</button><button class="btn secondary" id="wg-out" type="button">Sign out</button></div>`);
     document.getElementById('wg-again').onclick = () => start();
@@ -1994,7 +2057,16 @@ const Gate = (() => {
     wait('Checking your subscription…');
     try {
       await Account.consumeAuthRedirect();
-      if (!Account.status.session) return signInScreen();
+      if (!Account.status.session) {
+        // Home page buttons link here as /app/?signin=apple or ?signin=google: start that sign-in right away.
+        const want = new URLSearchParams(location.search).get('signin');
+        if (want === 'apple' || (want === 'google' && googleOn())) {
+          history.replaceState(null, '', location.pathname);
+          wait(`Opening Sign in with ${want === 'apple' ? 'Apple' : 'Google'}…`);
+          return (want === 'apple' ? Account.signInWithApple() : Account.signInWithGoogle()).catch(e => signInScreen(e.message));
+        }
+        return signInScreen();
+      }
       const access = await Account.checkWebAccess();
       if (!access?.active) return noAccessScreen();
       wait('Loading your questions…');
