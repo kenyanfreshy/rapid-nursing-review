@@ -61,4 +61,4 @@ App is not sponsored or endorsed by NCSBN.
 
 ## Contact
 
-Alex K. Korir · alexkorirbooks@gmail.com
+Alex K. Korir · Questions or requests: use the Support page, https://nclexrapidnursingreview.com/support.html

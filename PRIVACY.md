@@ -114,5 +114,5 @@ If this policy changes, the new version will be posted here with a new date.
 
 ## Contact
 
-Alex K. Korir · alexkorirbooks@gmail.com
+Alex K. Korir · Questions or requests: use the Support page, https://nclexrapidnursingreview.com/support.html
 

@@ -1441,7 +1441,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
 </style>
 </head>
 <body class="gate-on">
-<!-- RNR-WEBAPP-BUILD 2026-10-21 app.6e15e98c96.js -->
+<!-- RNR-WEBAPP-BUILD 2026-10-21 app.4559b52d0d.js -->
 <div id="rnr-gate" role="main"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <aside class="sidebar" id="sidebar">
@@ -1462,7 +1462,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
   <dialog id="page-viewer" class="page-viewer" aria-label="Book page"></dialog>
   <dialog id="modal" aria-labelledby="modal-title"></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script>window.__RNR_APP_JS__="app.6e15e98c96.js";</script>
+  <script>window.__RNR_APP_JS__="app.4559b52d0d.js";</script>
 <script>
 (function(){
 'use strict';
@@ -1480,7 +1480,6 @@ const RNR_CONFIG = {
   appleSignIn: true,
   googleSignIn: true,
   webAppUrl: 'https://nclexrapidnursingreview.com/app/',
-  supportEmail: 'alexkorirbooks@gmail.com',
 };
 
 // Conflict-safe merge of two copies of a learner's progress: this device's copy and the
@@ -1873,7 +1872,7 @@ const Account = (() => {
     configured, enabled, isWeb, onChange, get status() { return status; },
     signInWithApple, signInWithGoogle, googleEnabled: () => configured() && cfg().googleSignIn === true, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
     checkWebAccess, privateJson, bookPage, syncNow, sendReports,
-    webAppUrl: () => cfg().webAppUrl, supportEmail: () => cfg().supportEmail,
+    webAppUrl: () => cfg().webAppUrl,
   };
 })();
 
@@ -2005,7 +2004,7 @@ const Gate = (() => {
   function screen(inner) {
     el().innerHTML = `<div class="wg-card"><img class="wg-cover" src="pages/cover.webp" alt="Rapid Nursing Review: All Body Systems at a Glance, book cover" width="96" height="144">
       <h1>Rapid Nursing Review</h1><p class="wg-sub">NCLEX-RN® Review · Web</p>${inner}
-      <p class="wg-fine"><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a> · <a href="../support.html">Support</a> · <a href="mailto:alexkorirbooks@gmail.com">alexkorirbooks@gmail.com</a></p>
+      <p class="wg-fine"><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a> · <a href="../support.html">Support</a></p>
       <p class="wg-fine">NCLEX® is a registered trademark of NCSBN, which does not sponsor or endorse this app.</p></div>`;
   }
   function signInScreen(err) {
