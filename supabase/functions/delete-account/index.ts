@@ -75,6 +75,6 @@ async function handle(req: Request): Promise<Response> {
   }
 
   const { error } = await admin.auth.admin.deleteUser(uid);
-  if (error) { console.error("deleteUser", error); return json({ error: "Account deletion failed on the server. Try again, or email alexkorirbooks@gmail.com." }, 500); }
+  if (error) { console.error("deleteUser", error); return json({ error: "Account deletion failed on the server. Try again, or contact Support at nclexrapidnursingreview.com/support.html." }, 500); }
   return json({ deleted: true, appleRevoked });
 }

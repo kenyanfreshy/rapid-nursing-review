@@ -232,6 +232,6 @@ export const Account = (() => {
     configured, enabled, isWeb, onChange, get status() { return status; },
     signInWithApple, consumeAuthRedirect, signOut, deleteAccount, resetSynced,
     checkWebAccess, privateJson, bookPage, syncNow, sendReports,
-    webAppUrl: () => cfg().webAppUrl, supportEmail: () => cfg().supportEmail,
+    webAppUrl: () => cfg().webAppUrl,
   };
 })();
