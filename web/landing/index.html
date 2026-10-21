@@ -55,6 +55,7 @@ nav .links a.btn{color:#fff;padding:9px 16px;font-size:14px;white-space:nowrap}
 @keyframes ecg-scan{0%{transform:translateX(-30%)}100%{transform:translateX(480%)}}
 .ecg-bpm{position:absolute;right:14px;top:4px;display:flex;align-items:center;gap:7px;font:700 11px "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#99f6e4;background:rgba(8,11,22,.6);border:1px solid rgba(45,212,191,.35);border-radius:99px;padding:5px 11px}
 .ecg-bpm b{color:#fff;font-size:13px}
+.ecg-bpm em{font-style:normal}
 .ecg-bpm i{width:8px;height:8px;border-radius:50%;background:#f43f5e;box-shadow:0 0 10px #f43f5e;animation:ecg-beat .83s ease-in-out infinite}
 @keyframes ecg-beat{0%,100%{transform:scale(.8);opacity:.7}15%{transform:scale(1.35);opacity:1}}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.12fr .88fr;gap:44px;align-items:center;padding-top:64px;padding-bottom:110px}
@@ -199,7 +200,7 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
       <path class="ecg-main" d="M0 60 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124 h124 l14 -6 l12 6 h22 l8 10 l12 -62 l14 84 l10 -32 h26 l16 -14 l18 14 h124" stroke="url(#ecg-g)" filter="url(#ecg-glow)"/>
     </svg>
     <span class="ecg-scan"></span>
-    <span class="ecg-bpm"><i></i><b>72</b> BPM · steady</span>
+    <span class="ecg-bpm" data-ready="rnr"><i></i><b>—</b> <em>NCLEX readiness</em></span>
   </div>
   <div class="wrap hero-grid">
     <div>
@@ -329,6 +330,18 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
   document.querySelectorAll('.gal-btns button').forEach(function(b){
     b.addEventListener('click',function(){ g.scrollBy({left:(+b.dataset.dir)*Math.min(600,g.clientWidth*0.8),behavior:'smooth'}); });
   });
+})();
+</script>
+<script>
+(function(){var el=document.querySelector('[data-ready]');if(!el)return;var k=el.getAttribute('data-ready'),p=null,n=0;
+try{
+if(k==='rnr'){var s=JSON.parse(localStorage.getItem('rapid-nursing-review-v1')||'null');var m={};((s&&s.attempts)||[]).forEach(function(a){if(a&&a.qid)m[a.qid]=!!a.correct});var v=Object.keys(m).map(function(q){return m[q]});n=v.length;if(n)p=v.filter(Boolean).length/n;}
+if(k==='nb'){var r=JSON.parse(localStorage.getItem('nb.readiness')||'null');if(r&&r.pct!=null){p=r.pct;n=r.answered||0}}
+if(k==='ccrn'){var u=JSON.parse(localStorage.getItem('nca.user.v2')||'null');var t=u&&u.tracks&&u.profile&&u.tracks[u.profile.activeTrack];var A=(t&&t.attempts)||{},c=0;Object.keys(A).forEach(function(q){var l=A[q]&&A[q][A[q].length-1];if(l){n++;if(l.correct)c++}});if(n)p=c/n;}
+}catch(e){}
+var b=el.querySelector('b'),lab=el.querySelector('em'),dot=el.querySelector('i');
+if(p!=null&&n>0){b.textContent=Math.round(p*100)+'%';var col=p>=.75?'#34d399':p>=.6?'#fbbf24':'#f43f5e';dot.style.background=col;dot.style.boxShadow='0 0 10px '+col;el.title='Your readiness: accuracy on your latest answers ('+n+' questions on this device)';}
+else{lab.textContent+=' · sign in';el.title='Sign in to see your readiness';}
 })();
 </script>
 </body>
