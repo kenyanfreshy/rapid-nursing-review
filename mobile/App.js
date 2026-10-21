@@ -151,7 +151,7 @@ class PaywallGuard extends React.Component {
     const msg = String((this.state.err && (this.state.err.message || this.state.err)) || 'Unknown error').slice(0, 300);
     return h(View, { style: { flex: 1, backgroundColor: '#0B0F19', padding: 24, justifyContent: 'center', gap: 14 } },
       h(Text, { style: { color: '#F1F5F9', fontSize: 20, fontWeight: '800' } }, 'The plans screen hit a problem'),
-      h(Text, { style: { color: '#A9B4C8', fontSize: 15, lineHeight: 21 } }, 'Nothing was charged. Close this and try again. If it keeps happening, email alexkorirbooks@gmail.com with the details below.'),
+      h(Text, { style: { color: '#A9B4C8', fontSize: 15, lineHeight: 21 } }, 'Nothing was charged. Close this and try again. If it keeps happening, contact us through Support at nclexrapidnursingreview.com/support.html with the details below.'),
       h(Text, { selectable: true, style: { color: '#7C879C', fontSize: 12 } }, `Details: ${msg}`),
       h(Pressable, { onPress: this.props.onClose, accessibilityRole: 'button', style: { marginTop: 8, borderRadius: 16, paddingVertical: 14, alignItems: 'center', backgroundColor: '#22D3EE' } },
         h(Text, { style: { color: '#04131A', fontSize: 17, fontWeight: '800' } }, 'Close')));

@@ -12,5 +12,4 @@ export const RNR_CONFIG = {
   appleSignIn: true,
   googleSignIn: true,
   webAppUrl: 'https://nclexrapidnursingreview.com/app/',
-  supportEmail: 'alexkorirbooks@gmail.com',
 };

@@ -191,7 +191,7 @@ with sync_playwright() as p:
     m = Mock(active=False); ctx, pg, errs, _ = page_for(b, m)
     sign_in(pg); pg.wait_for_selector('#wg-again', timeout=10000)
     txt = pg.inner_text('#rnr-gate')
-    check("couldn't find an active" in txt and 'Sign in with Apple' in txt, 'non-subscriber sees how to subscribe in the iPhone app')
+    check("couldn't find an active" in txt and 'Settings → Sync and web access' in txt and 'Restore Purchases' in txt, 'non-subscriber sees how to subscribe and link the account in the app')
     check(not any('content.json' in c for c in m.calls), 'non-subscriber never requests the question bank')
     check(not re.search(r'\$\d|buy|purchase now|subscribe now', txt, re.I), 'no prices or buy buttons on the web')
     pg.click('#wg-out'); pg.wait_for_selector('#wg-apple')

@@ -58,7 +58,7 @@ const page = (title, body, desc = 'Rapid Nursing Review: NCLEX-RN practice quest
 <style>${CSS}</style></head><body>
 <header class="site"><div class="in"><img src="/app/pages/logo.webp" alt=""><a href="/">Rapid Nursing Review</a><nav><a href="/quiz/">Free quiz</a><a href="/app/">Web app</a><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a></nav></div></header>
 <main>${body}
-<footer>© ${new Date().getFullYear()} Alex K. Korir · <a href="mailto:alexkorirbooks@gmail.com">alexkorirbooks@gmail.com</a> · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a><br>NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN.</footer></main></body></html>\n`;
+<footer>© ${new Date().getFullYear()} Alex K. Korir · <a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a><br>NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc. (NCSBN). Rapid Nursing Review App is not sponsored or endorsed by NCSBN.</footer></main></body></html>\n`;
 
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });

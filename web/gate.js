@@ -15,7 +15,7 @@ export const Gate = (() => {
   function screen(inner) {
     el().innerHTML = `<div class="wg-card"><img class="wg-cover" src="pages/cover.webp" alt="Rapid Nursing Review: All Body Systems at a Glance, book cover" width="96" height="144">
       <h1>Rapid Nursing Review</h1><p class="wg-sub">NCLEX-RN® Review · Web</p>${inner}
-      <p class="wg-fine"><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a> · <a href="../support.html">Support</a> · <a href="mailto:alexkorirbooks@gmail.com">alexkorirbooks@gmail.com</a></p>
+      <p class="wg-fine"><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a> · <a href="../support.html">Support</a></p>
       <p class="wg-fine">NCLEX® is a registered trademark of NCSBN, which does not sponsor or endorse this app.</p></div>`;
   }
   function signInScreen(err) {

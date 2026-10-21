@@ -22,7 +22,6 @@ export const LINKS = {
   privacy: extra.privacyPolicyUrl || 'https://nclexrapidnursingreview.com/privacy.html',
   // iOS: Apple's Standard EULA. Android: our public Terms page (it links the Google Play Terms of Service).
   terms: Platform.OS === 'ios' ? (extra.termsUrl || 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/') : 'https://nclexrapidnursingreview.com/terms.html',
-  support: extra.supportEmail || 'alexkorirbooks@gmail.com',
   supportPage: 'https://nclexrapidnursingreview.com/support.html',
 };
 const STORE_NAME = Platform.OS === 'ios' ? 'App Store' : 'Google Play';
