@@ -127,10 +127,10 @@ nav .links a.btn{color:#fff;padding:9px 16px;font-size:14px;white-space:nowrap}
 .center{text-align:center}
 
 /* quiz banner */
-.quiz{display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center;border-radius:26px;padding:30px;color:#fff;background:linear-gradient(120deg,#ea580c,#e11d48 55%,#9333ea)}
+.quiz{display:grid;grid-template-columns:1fr minmax(0,520px);gap:28px;align-items:center;border-radius:28px;padding:30px 32px;color:#fff;background:radial-gradient(500px 260px at 0% 0%,rgba(234,88,12,.35),transparent 70%),radial-gradient(500px 300px at 100% 100%,rgba(147,51,234,.4),transparent 70%),linear-gradient(160deg,#0b1030,#070a1e);border:1px solid #ffffff1f;box-shadow:0 30px 80px rgba(8,11,22,.35)}
 .quiz h2{font-size:clamp(26px,3vw,36px);margin:0}
 .quiz p{margin:8px 0 0;color:rgba(255,255,255,.9)}
-.quiz .btn{background:#fff;color:#0d1324}
+.quiz .quiz-cta{max-width:none}
 
 footer{background:var(--night);color:rgba(226,232,255,.75);padding:44px 0;text-align:center;font-size:14.5px}
 footer .logo{justify-content:center;margin-bottom:12px}
@@ -171,7 +171,7 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
 .quiz-cta:hover{transform:translateY(-2px);box-shadow:0 0 0 1.5px rgba(255,255,255,.5) inset,0 22px 50px rgba(225,29,72,.5)}
 .qa-avatar{flex:none;width:64px;height:64px;border-radius:50%;box-shadow:0 0 0 3px rgba(255,255,255,.7),0 8px 20px rgba(0,0,0,.3)}
 .qa-text{flex:1;min-width:0;display:grid;gap:2px}
-.qa-tag{justify-self:start;font:700 10.5px "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;background:rgba(0,0,0,.22);padding:4px 9px;border-radius:99px}
+.qa-tag{justify-self:start;white-space:nowrap;font:700 10.5px "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;background:rgba(0,0,0,.22);padding:4px 9px;border-radius:99px}
 .qa-text b{font:800 22px/1.15 "Bricolage Grotesque",sans-serif}
 .qa-text small{font-size:14px;opacity:.92}
 .qa-go{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#fff;color:#e11d48;font-size:22px;font-weight:800}
@@ -180,7 +180,7 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
 .btn.store:hover{transform:translateY(-2px)}
 .btn.store.apple{background:linear-gradient(135deg,#2563eb,#7c3aed);color:#fff}
 .btn.store.play{background:linear-gradient(135deg,#059669,#0891b2);color:#fff}
-@media(max-width:560px){.cta.stores{gap:10px}.btn.store{padding:10px 10px;gap:8px}.btn.store b{font-size:16px}.qa-text b{font-size:19px}.qa-avatar{width:54px;height:54px}.qa-go{width:38px;height:38px}}
+@media(max-width:560px){.quiz{padding:22px 18px}.quiz-cta{gap:12px;padding:12px 14px 12px 12px}.qa-tag{font-size:9.5px;letter-spacing:.1em}.cta.stores{gap:10px}.btn.store{padding:10px 10px;gap:8px}.btn.store b{font-size:16px}.qa-text b{font-size:19px}.qa-avatar{width:54px;height:54px}.qa-go{width:38px;height:38px}}
 @media(prefers-reduced-motion:reduce){.quiz-cta:before{animation:none}.quiz-cta,.btn.store{transition:none}}
 </style>
 </head>
@@ -314,7 +314,11 @@ footer .fine{max-width:720px;margin:12px auto 0;color:rgba(226,232,255,.55);font
 <section class="sec"><div class="wrap">
   <div class="quiz">
     <div><h2>Not sure where you stand?</h2><p>Take the free NCLEX challenge. No account, no download, just a quick read on how ready you are.</p></div>
-    <a class="btn" href="quiz/">Try the free NCLEX challenge →</a>
+    <a class="quiz-cta bottom" href="quiz/">
+        <svg class="qa-avatar" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="qa-bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#f59e0b"/></linearGradient></defs><circle cx="32" cy="32" r="32" fill="url(#qa-bg2)"/><path d="M14 64c0-11 8-19 18-19s18 8 18 19z" fill="#0e7490"/><path d="M26 45l6 7 6-7" fill="#e0f2fe"/><circle cx="32" cy="29" r="10" fill="#8d5a3b"/><path d="M21.5 28c0-7 4.7-11.5 10.5-11.5S42.5 21 42.5 28c-2-3-5.5-5-10.5-5s-8.5 2-10.5 5z" fill="#1f2937"/><circle cx="32" cy="15.5" r="4.5" fill="#1f2937"/><rect x="18" y="47" width="28" height="15" rx="2.5" fill="#1e293b"/><rect x="20.5" y="49.5" width="23" height="10" rx="1.5" fill="#38bdf8"/><path d="M26.5 54.5l3 3 6-6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 40l7-7 2.5 2.5-7 7-3.5 1z" fill="#f43f5e"/></svg>
+        <span class="qa-text"><span class="qa-tag">★ Free · no sign-up</span><b>Try the free NCLEX challenge</b><small>3 timed NCLEX-RN questions with instant rationales</small></span>
+        <span class="qa-go" aria-hidden="true">→</span>
+      </a>
   </div>
 </div></section>
 
