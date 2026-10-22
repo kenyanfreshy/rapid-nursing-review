@@ -1086,6 +1086,21 @@ html body .bp-head p:first-line{color:inherit}
 .cheer .cheer-extra{padding:8px 10px;border-radius:10px;font-size:13px;background:#ffffff26}
 .cheer.low .cheer-extra{background:color-mix(in srgb,#a855f7 12%,transparent)}
 
+/* Meet your tutor: "Knowledge Empowered By" free Harvard courses (app.js coursesFold) */
+.tc-courses{display:grid;gap:8px;padding-top:6px}
+.tc-c-head{display:flex;gap:10px;align-items:flex-start}
+.tc-c-head p{margin:0;flex:1;font-size:13px;line-height:19px;color:#cbd5f5}
+.tc-share{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:10px;border:1px solid #fbbf2466;background:#fbbf2426;color:#fbbf24;font-weight:700;font-size:12px;cursor:pointer}
+.tc-share svg{width:14px;height:14px}
+.tc-course{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid #ffffff1a;text-decoration:none;color:#fff}
+.tc-course:first-of-type{border-top:0}
+.tc-course i{font-style:normal;color:#a78bfa;font-size:12px;margin-top:2px}
+.tc-course span{flex:1;display:grid;gap:2px}.tc-course b{font-size:13.5px}.tc-course small{color:#4ade80;font-size:12px}
+.tc-course em,.tc-support em{font-style:normal;color:#4ade80;font-weight:700}
+.tc-tag{margin:2px 0 0;font-size:13px;font-style:italic;color:#94a3c8}
+.tc-support{display:flex;align-items:center;gap:12px;padding:12px;border-radius:14px;border:1px solid #4ade8059;background:#10b9811a;text-decoration:none;color:#fff}
+.tc-support span{display:grid;gap:2px;flex:1}.tc-support .tc-globe{flex:none;font-size:22px}.tc-support b{font-size:13.5px}.tc-support small{color:#4ade80;font-size:12px}
+
 </style>
   <style id="nb-theme">
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
@@ -2418,7 +2433,7 @@ function refsBlock(q, note) {
 // Tutor card (dashboard) and the tutor intro shown at the start of a tutor session.
 let tutorCred = null;
 function tutorCard() {
-  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0].replace('-', '\u2011')).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p class="tutor-bio">${TUTOR.bio}</p><details class="tutor-more"><summary><span>${icon('book')}Books by A. Korir</span></summary><div class="tutor-books"><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></details></section>`;
+  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0].replace('-', '\u2011')).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p class="tutor-bio">${TUTOR.bio}</p><details class="tutor-more"><summary><span>${icon('book')}Books by A. Korir</span></summary><div class="tutor-books"><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></details>${coursesFold()}</section>`;
 }
 function tutorIntro(s) {
   // Name the real topics in the session ("Cardiovascular & Respiratory", "Pediatrics, Maternal & Newborn and 2 more"), never a count like "2-topic".
@@ -2433,6 +2448,24 @@ function motivationCard() {
   const personal = st >= 2 ? `${st}-day streak. Don’t break the chain today.` : days != null && days >= 0 ? `${days} day${days === 1 ? '' : 's'} until ${escape(p.title)}. You’ve got this.` : 'Start a streak today. Ten questions is enough.';
   return `<section class="motivation-card"><div class="mc-top">${icon('sun')}<span>Today’s motivation</span></div><p class="mc-quote">“${todaysMotivation()}”</p><p class="mc-personal">${icon('flame')}${personal}</p></section>`;
 }
+
+// "Knowledge Empowered By": free Harvard courses (Harvard Online Learning, pll.harvard.edu) with a share button.
+const COURSES = [
+  ["CS50's Introduction to Computer Science", 'Harvard University (edX / OpenCourseWare)', 'https://pll.harvard.edu/course/cs50-introduction-computer-science'],
+  ["CS50's Introduction to Programming with Python", 'Harvard University', 'https://pll.harvard.edu/course/cs50s-introduction-programming-python'],
+  ["CS50's Introduction to Artificial Intelligence with Python", 'Harvard University', 'https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python'],
+];
+const FREE_CATALOG = 'https://pll.harvard.edu/catalog/free';
+const coursesText = () => `Free, world-class courses from Harvard University:\n${COURSES.map(c => `• ${c[0]}: ${c[2]}`).join('\n')}\nMore free courses: ${FREE_CATALOG}`;
+function coursesFold() {
+  return `<details class="tutor-more courses"><summary><span>${icon('grad')}Knowledge Empowered By</span></summary><div class="tc-courses"><div class="tc-c-head"><p>Continuous learning through free, world-class courses, including:</p><button class="tc-share" data-action="share-courses" aria-label="Share these free courses">${icon('share')}<span>Share</span></button></div>${COURSES.map(c => `<a class="tc-course" href="${c[2]}" target="_blank" rel="noopener noreferrer"><i>▸</i><span><b>${escape(c[0])}</b><small>${escape(c[1])}</small></span><em>↗</em></a>`).join('')}<p class="tc-tag">Free, open-access education: proof that world-class knowledge has no price barrier.</p><a class="tc-support" href="${FREE_CATALOG}" target="_blank" rel="noopener noreferrer"><span class="tc-globe">🌍</span><span><b>Support Open Education</b><small>Explore more free courses at pll.harvard.edu</small></span><em>↗</em></a></div></details>`;
+}
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-action=share-courses]'); if (!b) return; e.preventDefault();
+  const text = coursesText();
+  try { if (navigator.share) { await navigator.share({ title: 'Free Harvard courses', text }); return; } } catch (err) { if (err && err.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(text); const s = b.querySelector('span'); if (s) { s.textContent = 'Copied'; setTimeout(() => { s.textContent = 'Share'; }, 2500); } } catch {}
+});
 
 // ---- Encouragement and celebration copy (same library as NurseBound) -------------------------------------
 // Under 60%: encouragement. 80%+: a high-score banner. 100%: perfect. 90%+ on a full-length (75+ question) exam:
