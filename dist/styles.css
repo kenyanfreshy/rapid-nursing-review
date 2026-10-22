@@ -1242,3 +1242,26 @@ body.exam-focus{overflow:hidden}
 html:not([data-ui="daylight"]) .ts-opt[aria-checked="true"]{border-color:#93C5FD;background:#93c5fd1f}
 html[data-text="large"] main,html[data-text="large"] #modal .modal-body,html[data-text="large"] #modal .modal-header,html[data-text="large"] .bp-body{zoom:1.15}
 html[data-text="xl"] main,html[data-text="xl"] #modal .modal-body,html[data-text="xl"] #modal .modal-header,html[data-text="xl"] .bp-body{zoom:1.3}
+/* Results banner: encouragement under 60%, celebration at 80%+ (app.js resultCheer) */
+.cheer{margin:14px 0 6px;padding:14px 16px;border-radius:16px;display:grid;gap:6px;text-align:left}
+.cheer strong{font-size:16px}
+.cheer p{margin:0;font-size:14px;line-height:21px}
+.cheer.low{background:color-mix(in srgb,#f472b6 12%,var(--surface,#fff));border:1px solid #f0abfc80;color:var(--ink,inherit)}
+.cheer.win{background:linear-gradient(135deg,#059669,#0891b2 55%,#7c3aed);color:#fff}
+.cheer .cheer-extra{padding:8px 10px;border-radius:10px;font-size:13px;background:#ffffff26}
+.cheer.low .cheer-extra{background:color-mix(in srgb,#a855f7 12%,transparent)}
+
+/* Meet your tutor: "Knowledge Empowered By" free Harvard courses (app.js coursesFold) */
+.tc-courses{display:grid;gap:8px;padding-top:6px}
+.tc-c-head{display:flex;gap:10px;align-items:flex-start}
+.tc-c-head p{margin:0;flex:1;font-size:13px;line-height:19px;color:#cbd5f5}
+.tc-share{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:10px;border:1px solid #fbbf2466;background:#fbbf2426;color:#fbbf24;font-weight:700;font-size:12px;cursor:pointer}
+.tc-share svg{width:14px;height:14px}
+.tc-course{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid #ffffff1a;text-decoration:none;color:#fff}
+.tc-course:first-of-type{border-top:0}
+.tc-course i{font-style:normal;color:#a78bfa;font-size:12px;margin-top:2px}
+.tc-course span{flex:1;display:grid;gap:2px}.tc-course b{font-size:13.5px}.tc-course small{color:#4ade80;font-size:12px}
+.tc-course em,.tc-support em{font-style:normal;color:#4ade80;font-weight:700}
+.tc-tag{margin:2px 0 0;font-size:13px;font-style:italic;color:#94a3c8}
+.tc-support{display:flex;align-items:center;gap:12px;padding:12px;border-radius:14px;border:1px solid #4ade8059;background:#10b9811a;text-decoration:none;color:#fff}
+.tc-support span{display:grid;gap:2px;flex:1}.tc-support .tc-globe{flex:none;font-size:22px}.tc-support b{font-size:13.5px}.tc-support small{color:#4ade80;font-size:12px}

@@ -764,14 +764,16 @@ function finishSession(expired = false) {
   state.history.push(h); state.session = null; quizVisible = false; save(); render(); showResults(h);
   try { native?.postMessage(JSON.stringify({ type: 'session-complete', kind: 'session', correct: t.full, total: h.ids.length, points: t.pts, max: t.max })); } catch {}
   const pct = t.max ? t.pts / t.max : 0;
-  if (h.ids.length >= 5 && pct >= 0.8) celebrate({ eyebrow: 'Session complete', title: pct === 1 ? 'Perfect session!' : 'Strong session!', body: `${firstName() ? firstName() + ', you' : 'You'} scored ${Math.round(pct * 100)}% on ${h.ids.length} questions. That is exam-ready thinking.`, icon: 'trophy', colors: ['#ea580c', '#e11d48'] });
+  // Confetti pop-up for a perfect score (5+ questions) or 90%+ on a full-length exam; same words as the results banner.
+  const big = h.ids.length >= 5 && (pct === 1 || (h.ids.length >= 75 && pct >= 0.9));
+  if (big && h._cheer) celebrate({ eyebrow: 'Milestone', title: h._cheer.title, body: `${firstName() ? firstName() + ', ' : ''}${h._cheer.msg}`, icon: 'trophy', colors: pct === 1 ? ['#f59e0b', '#e11d48'] : ['#059669', '#7c3aed'] });
   checkMilestones();
 }
 function showResults(h) {
   const upsell = isPro() ? '' : proGate('Keep the momentum', `You’ve answered ${new Set(state.attempts.map(a => a.qid)).size} of ${freeIds.size} free questions. Pro unlocks all ${active.length.toLocaleString()}, timed exams, the blueprint exam and every NGN case.`, 'all');
   const t = sessionTotals(h), notAnswered = h.ids.filter(id => !h.answers[id]?.submitted).length;
   const needRows = Object.entries(t.needs).sort((a, b) => b[1].total - a[1].total).map(([k, v]) => `<div class="need-row"><span>${escape(needName(k))}</span><span>${v.right}/${v.total}</span><div class="progress-track"><div class="progress-fill" style="width:${v.right / v.total * 100}%"></div></div></div>`).join('');
-  modalShell(h.expired ? 'Time’s up. Let’s learn from it.' : 'Every question moved you forward.', `${escape(h.label)} · ${h.mode === 'exam' ? 'Timed exam' : 'Tutor mode'}`, `<div class="result-score">${Math.round(t.full / h.count * 100)}<span style="font-size:30px">%</span></div><p class="result-label">${t.full} of ${h.count} fully correct · ${t.pts} of ${t.max} points${notAnswered ? ` · ${notAnswered} unanswered (no credit)` : ''}</p>${h.ids.length >= 10 ? `<h3 class="need-title">By NCLEX client need</h3><div class="need-list">${needRows}</div>` : ''}${h.ids.map(id => { const q = qOf(id), a = h.answers[id], ok = a?.submitted && fullCredit(q, a.selected); return `<div class="result-item"><span class="${ok ? 'ok' : 'redo'}">${ok ? '✓' : '↻'}</span><span>${escape(q.topic)}${!a?.submitted ? ' · Unanswered' : ''}</span><button data-action="review-answer" data-id="${id}" data-history="${h.id}">See explanation →</button></div>`; }).join('')}<p class="dialog-note">Partial credit follows NCLEX scoring rules for select-all, matrix and ordered items. This is a practice score, not a prediction of your NCLEX result.</p>${upsell}<div class="modal-footer">${secondary('See my progress', 'progress')}${primary('Practice again', 'practice')}</div>`, 'exam');
+  modalShell(h.expired ? 'Time’s up. Let’s learn from it.' : 'Every question moved you forward.', `${escape(h.label)} · ${h.mode === 'exam' ? 'Timed exam' : 'Tutor mode'}`, `<div class="result-score">${Math.round(t.full / h.count * 100)}<span style="font-size:30px">%</span></div><p class="result-label">${t.full} of ${h.count} fully correct · ${t.pts} of ${t.max} points${notAnswered ? ` · ${notAnswered} unanswered (no credit)` : ''}</p>${resultCheer(h, t)}${h.ids.length >= 10 ? `<h3 class="need-title">By NCLEX client need</h3><div class="need-list">${needRows}</div>` : ''}${h.ids.map(id => { const q = qOf(id), a = h.answers[id], ok = a?.submitted && fullCredit(q, a.selected); return `<div class="result-item"><span class="${ok ? 'ok' : 'redo'}">${ok ? '✓' : '↻'}</span><span>${escape(q.topic)}${!a?.submitted ? ' · Unanswered' : ''}</span><button data-action="review-answer" data-id="${id}" data-history="${h.id}">See explanation →</button></div>`; }).join('')}<p class="dialog-note">Partial credit follows NCLEX scoring rules for select-all, matrix and ordered items. This is a practice score, not a prediction of your NCLEX result.</p>${upsell}<div class="modal-footer">${secondary('See my progress', 'progress')}${primary('Practice again', 'practice')}</div>`, 'exam');
 }
 function showReview(id, historyId) {
   const h = state.history.find(x => x.id === historyId), q = qOf(id); if (!q || !h) return;
@@ -1114,7 +1116,7 @@ function refsBlock(q, note) {
 // Tutor card (dashboard) and the tutor intro shown at the start of a tutor session.
 let tutorCred = null;
 function tutorCard() {
-  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0].replace('-', '\u2011')).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p class="tutor-bio">${TUTOR.bio}</p><details class="tutor-more"><summary><span>${icon('book')}Books by A. Korir</span></summary><div class="tutor-books"><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></details></section>`;
+  return `<section class="tutor-card"><span class="tc-eyebrow">Meet your tutor</span><div class="tutor-row"><img class="tutor-avatar photo" src="pages/tutor.webp" alt="Photo of ${TUTOR.name}" width="58" height="58"><div><h3>${TUTOR.name}, ${TUTOR.creds.map(c => c[0].replace('-', '\u2011')).join(', ')}</h3><div class="cred-row">${TUTOR.creds.map(([c]) => `<button class="cred${tutorCred === c ? ' on' : ''}" data-action="tutor-cred" data-id="${c}" aria-expanded="${tutorCred === c}">${c}</button>`).join('')}</div></div></div>${tutorCred ? `<p class="cred-note">${TUTOR.creds.find(c => c[0] === tutorCred)[1]}</p>` : ''}<p class="tutor-bio">${TUTOR.bio}</p><details class="tutor-more"><summary><span>${icon('book')}Books by A. Korir</span></summary><div class="tutor-books"><ul>${TUTOR.books.map(([t]) => `<li><i>${escape(t)}</i></li>`).join('')}</ul><a class="tb-link" href="${TUTOR.store}" target="_blank" rel="noopener noreferrer">See all books on Amazon ↗</a></div></details>${coursesFold()}</section>`;
 }
 function tutorIntro(s) {
   // Name the real topics in the session ("Cardiovascular & Respiratory", "Pediatrics, Maternal & Newborn and 2 more"), never a count like "2-topic".
@@ -1128,6 +1130,74 @@ function motivationCard() {
   const st = streak(), p = state.plan, days = p ? dayDistance(new Date(), parseDay(p.date)) : null;
   const personal = st >= 2 ? `${st}-day streak. Don’t break the chain today.` : days != null && days >= 0 ? `${days} day${days === 1 ? '' : 's'} until ${escape(p.title)}. You’ve got this.` : 'Start a streak today. Ten questions is enough.';
   return `<section class="motivation-card"><div class="mc-top">${icon('sun')}<span>Today’s motivation</span></div><p class="mc-quote">“${todaysMotivation()}”</p><p class="mc-personal">${icon('flame')}${personal}</p></section>`;
+}
+
+// "Knowledge Empowered By": free Harvard courses (Harvard Online Learning, pll.harvard.edu) with a share button.
+const COURSES = [
+  ["CS50's Introduction to Computer Science", 'Harvard University (edX / OpenCourseWare)', 'https://pll.harvard.edu/course/cs50-introduction-computer-science'],
+  ["CS50's Introduction to Programming with Python", 'Harvard University', 'https://pll.harvard.edu/course/cs50s-introduction-programming-python'],
+  ["CS50's Introduction to Artificial Intelligence with Python", 'Harvard University', 'https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python'],
+];
+const FREE_CATALOG = 'https://pll.harvard.edu/catalog/free';
+const coursesText = () => `Free, world-class courses from Harvard University:\n${COURSES.map(c => `• ${c[0]}: ${c[2]}`).join('\n')}\nMore free courses: ${FREE_CATALOG}`;
+function coursesFold() {
+  return `<details class="tutor-more courses"><summary><span>${icon('grad')}Knowledge Empowered By</span></summary><div class="tc-courses"><div class="tc-c-head"><p>Continuous learning through free, world-class courses, including:</p><button class="tc-share" data-action="share-courses" aria-label="Share these free courses">${icon('share')}<span>Share</span></button></div>${COURSES.map(c => `<a class="tc-course" href="${c[2]}" target="_blank" rel="noopener noreferrer"><i>▸</i><span><b>${escape(c[0])}</b><small>${escape(c[1])}</small></span><em>↗</em></a>`).join('')}<p class="tc-tag">Free, open-access education: proof that world-class knowledge has no price barrier.</p><a class="tc-support" href="${FREE_CATALOG}" target="_blank" rel="noopener noreferrer"><span class="tc-globe">🌍</span><span><b>Support Open Education</b><small>Explore more free courses at pll.harvard.edu</small></span><em>↗</em></a></div></details>`;
+}
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-action=share-courses]'); if (!b) return; e.preventDefault();
+  const text = coursesText();
+  try { if (navigator.share) { await navigator.share({ title: 'Free Harvard courses', text }); return; } } catch (err) { if (err && err.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(text); const s = b.querySelector('span'); if (s) { s.textContent = 'Copied'; setTimeout(() => { s.textContent = 'Share'; }, 2500); } } catch {}
+});
+
+// ---- Encouragement and celebration copy (same library as NurseBound) -------------------------------------
+// Under 60%: encouragement. 80%+: a high-score banner. 100%: perfect. 90%+ on a full-length (75+ question) exam:
+// a major-milestone pop-up. Edit these lists to change any wording.
+const CHEER = {
+  low: ["Ten questions, ten lessons. A low score here just shows you what to study next. Review the rationales and try another set.",
+    "A rough quiz is a vital sign, not a diagnosis. You've found what needs attention. Take a breath and work through the rationales.",
+    "Missing it here keeps it from happening on exam day. Read each rationale slowly. Your next set will feel different.",
+    "Not your score yet, and that's fine. Mistakes made here can't hurt a patient. Review what you missed and try one more round.",
+    "Clinical judgment is built one wrong answer at a time. You just added to yours. Check the rationales, then keep going.",
+    "Every missed question is a lesson learned before it counts. Nursing isn't about getting everything right the first time; it's about learning, adapting and growing."],
+  lowExam: ["Take a moment for yourself; you're doing heavy work. This test measures your current knowledge, not your capability as a future nurse. Every wrong answer you dissect today is clinical judgment you'll carry into your actual exam. Rest up, read your rationales, and remember why you started.",
+    "You just finished a full exam, and that takes stamina. This score is a snapshot of today, not a ceiling. Rest tonight, then go through the rationales one section at a time.",
+    "Disappointed is allowed. Done is not. Every rationale you study now turns into a right answer on test day.",
+    "This test measured where you are, not who you'll become. Plenty of nurses who passed the NCLEX failed a practice exam first. Rest, review and rebuild."],
+  weak: ["{category} is tough for almost everyone. That's why it's on the NCLEX. Focus here for a few days and watch it change.",
+    "You've triaged your studying: {category} needs attention first. A focused 10-question set today is a great start.",
+    "{category} isn't your weak spot. It's your next strength in progress.",
+    "Think of {category} like a patient who needs closer monitoring. Check on it daily. Ten questions a day adds up fast."],
+  high: ["Boom! 💥 You crushed that quiz. Your hard work is paying off. Keep that momentum going! 🩺",
+    "Clinical judgment on point! 👏 You're building the exact knowledge you need to pass the NCLEX with confidence.",
+    "That's how a safe nurse thinks. You read the stem, found the clue and chose the right action. Keep going!",
+    "Strong work! Every question you get right here is one less you'll second-guess on exam day.",
+    "You're not guessing anymore. You're reasoning. That's the clinical judgment the NCLEX is looking for.",
+    "Proud of you! 🩺 You're turning hours of studying into real confidence at the bedside."],
+  perfect: ["100%! Absolute perfection! 🎯 You completely mastered this topic today.",
+    "Flawless performance! 💯 You answered every question correctly. Your future patients are going to be in excellent hands.",
+    "Perfect score! You didn't just memorize this topic. You own it.",
+    "Clean sweep! 🧹 Your clinical reasoning was spot on from the first question to the last.",
+    "Perfect! Somewhere in your future, a patient is safer because of the work you just did."],
+  exam: ["You just passed a full-length practice exam with flying colors! Scores like this don't happen by luck. They come from every early morning, late night and rationale you've reviewed. You're turning preparation into clinical intuition. Keep pushing, future nurse!",
+    "90%+ on a full exam. Read that again. You have the knowledge, the stamina and the judgment. You're ready for what's next.",
+    "You didn't just pass a practice exam. You showed yourself you're ready to care for real patients. So proud of you. 💙"],
+  mastery: "Mastery unlocked in {category}! 🎯 What used to be a hard topic is now one of your strengths.",
+};
+const cheerPick = list => list[Math.floor(Math.random() * list.length)];
+/** The banner shown at the top of a session's results (encouragement or celebration), or ''. */
+function resultCheer(h, t) {
+  const pct = t.max ? t.pts / t.max : 0, full = h.ids.length >= 75;
+  const needs = Object.entries(t.needs || {}).filter(([, v]) => v.total >= 3).map(([k, v]) => [needName(k), v.right / v.total]);
+  const worst = needs.filter(n => n[1] < 0.6).sort((a, b) => a[1] - b[1])[0], best = needs.filter(n => n[1] >= 0.9).sort((a, b) => b[1] - a[1])[0];
+  let kind, title, msg, extra = '';
+  if (pct < 0.6) { kind = 'low'; title = full ? 'You’re doing heavy work' : 'Keep going, future nurse'; msg = cheerPick(full ? CHEER.lowExam : CHEER.low); if (worst) extra = cheerPick(CHEER.weak).split('{category}').join(worst[0]); }
+  else if (pct === 1 && h.ids.length >= 5) { kind = 'win'; title = '100% Mastery Unlocked! 🏆'; msg = cheerPick(CHEER.perfect); }
+  else if (full && pct >= 0.9) { kind = 'win'; title = 'Major Milestone Reached! 🎓'; msg = cheerPick(CHEER.exam); }
+  else if (pct >= 0.8) { kind = 'win'; title = 'Clinical judgment on point! 👏'; msg = cheerPick(CHEER.high); if (best) extra = CHEER.mastery.split('{category}').join(best[0]); }
+  else return '';
+  h._cheer = { kind, title, msg };
+  return `<div class="cheer ${kind}" role="status"><strong>${escape(title)}</strong><p>${escape(msg)}</p>${extra ? `<p class="cheer-extra">${escape(extra)}</p>` : ''}</div>`;
 }
 
 // ---- Celebrations (confetti) ---------------------------------------------------------------------
@@ -1164,10 +1234,12 @@ const MILESTONES = [
   ['q1000', s => s.total >= 1000, '1,000 questions!', 'A thousand questions. You are exam-ready material.', 'crown', ['#0e7490', '#4f46e5']],
   ['q2500', s => s.total >= 2500, '2,500 questions!', 'Two and a half thousand. Unstoppable.', 'crown', ['#ca8a04', '#ea580c']],
   ['q3200', s => s.total >= 3200, '3,200 questions!', 'You practiced the whole bank. Legendary.', 'crown', ['#ca8a04', '#ea580c']],
-  ['s3', () => streak() >= 3, '3-day streak', 'Three days in a row. A habit is forming.', 'flame', ['#ea580c', '#db2777']],
-  ['s7', () => streak() >= 7, '7-day streak!', 'A full week of showing up. That is a nurse’s discipline.', 'flame', ['#dc2626', '#ea580c']],
-  ['s14', () => streak() >= 14, '14-day streak!', 'Two weeks strong. Nothing can stop this momentum.', 'flame', ['#9333ea', '#e11d48']],
-  ['s30', () => streak() >= 30, '30-day streak!', 'A whole month. You are unstoppable.', 'crown', ['#059669', '#0284c7']],
+  ['s3', () => streak() >= 3, '3-day streak 🔥', 'Small, steady doses work, for your patients and for your studying.', 'flame', ['#ea580c', '#db2777']],
+  ['s7', () => streak() >= 7, '7 days in a row! 🔥', 'Discipline is what bridges the gap between nursing student and licensed nurse. Keep the streak alive!', 'flame', ['#dc2626', '#ea580c']],
+  ['s14', () => streak() >= 14, '14 days straight!', 'You’re not just studying. You’re becoming the nurse who shows up, every shift.', 'flame', ['#9333ea', '#e11d48']],
+  ['s30', () => streak() >= 30, '30 Days of Dedication! 🗓️', 'A whole month of consistent study. You’re building habits that will serve you throughout your nursing career.', 'crown', ['#059669', '#0284c7']],
+  ['s50', () => streak() >= 50, '50-day streak! 🏅', 'That’s elite-level dedication. Future employers want exactly this kind of nurse.', 'crown', ['#ca8a04', '#ea580c']],
+  ['s100', () => streak() >= 100, '100-day streak! 🏆', 'One hundred days of choosing your dream. Future RN, we salute you.', 'crown', ['#be185d', '#9333ea']],
   ['a10', () => state.attempts.filter(a => a.correct).length >= 10, '10 correct answers', 'Ten times you connected the clues. Keep it up.', 'check', ['#15803d', '#0d9488']],
   ['a100', () => state.attempts.filter(a => a.correct).length >= 100, '100 correct answers!', 'One hundred right answers. Confidence earned.', 'trophy', ['#15803d', '#0284c7']],
 ];
