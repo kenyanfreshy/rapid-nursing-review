@@ -75,7 +75,7 @@ function useTrials(packages) {
     const intro = pkg && pkg.product && pkg.product.introPrice;
     if (!intro || pkg.packageType === 'LIFETIME' || !eligible[pkg.product.identifier]) return null;
     const L = trialLength(intro);
-    return { free: !intro.price, length: L.adj, words: L.words, priceString: intro.priceString };
+    return { free: !intro.price, adj: L.adj, length: L.adj, words: L.words, priceString: intro.priceString };
   };
 }
 
