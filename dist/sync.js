@@ -22,7 +22,7 @@
 // joins all files into one script.
 export const { mergeState, syncable, LOCAL_ONLY } = (() => {
   // Fields that stay on each device.
-  const LOCAL_ONLY = ['ui', 'previewPro', 'quarantine', 'lastWelcome'];
+  const LOCAL_ONLY = ['ui', 'textSize', 'previewPro', 'quarantine', 'lastWelcome'];
 
   const arr = v => (Array.isArray(v) ? v : []);
   const obj = v => (v && typeof v === 'object' && !Array.isArray(v) ? v : null);
