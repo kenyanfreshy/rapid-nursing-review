@@ -1066,3 +1066,12 @@ html body .bp-head p:first-line{color:inherit}
 /* Related book section under a question's APA references */
 .nb-sources .nb-ref.related{margin-top:10px;padding-top:10px;border-top:1px dashed var(--x-line,#e1e5ef)}
 .nb-sources .nb-tiny.strong{font-weight:700;letter-spacing:.3px;text-transform:uppercase;font-size:10.5px;margin:0 0 4px}
+
+/* Results banner: encouragement under 60%, celebration at 80%+ (app.js resultCheer) */
+.cheer{margin:14px 0 6px;padding:14px 16px;border-radius:16px;display:grid;gap:6px;text-align:left}
+.cheer strong{font-size:16px}
+.cheer p{margin:0;font-size:14px;line-height:21px}
+.cheer.low{background:color-mix(in srgb,#f472b6 12%,var(--surface,#fff));border:1px solid #f0abfc80;color:var(--ink,inherit)}
+.cheer.win{background:linear-gradient(135deg,#059669,#0891b2 55%,#7c3aed);color:#fff}
+.cheer .cheer-extra{padding:8px 10px;border-radius:10px;font-size:13px;background:#ffffff26}
+.cheer.low .cheer-extra{background:color-mix(in srgb,#a855f7 12%,transparent)}
