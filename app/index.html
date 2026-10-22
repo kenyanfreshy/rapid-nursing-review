@@ -1278,6 +1278,18 @@ html[data-text="xl"] main,html[data-text="xl"] #modal .modal-body,html[data-text
 .tc-support{display:flex;align-items:center;gap:12px;padding:12px;border-radius:14px;border:1px solid #4ade8059;background:#10b9811a;text-decoration:none;color:#fff}
 .tc-support span{display:grid;gap:2px;flex:1}.tc-support .tc-globe{flex:none;font-size:22px}.tc-support b{font-size:13.5px}.tc-support small{color:#4ade80;font-size:12px}
 
+/* Meet your author (NurseBound design): why, apps with icons, books with covers (app.js akFolds) */
+.ak-why{display:grid;gap:8px;padding-top:6px}.ak-why p{margin:0;font-size:13px;line-height:19px;color:#fff;opacity:.92}
+.ak-list{display:grid;gap:8px;padding-top:6px}
+.ak-row{display:flex;gap:12px;align-items:center;padding:8px 10px;border-radius:14px;background:#ffffff0d;border:1px solid #ffffff1a;text-decoration:none;color:#fff}
+.ak-row.here{border-color:#fbbf2480}
+.ak-ic{flex:none;width:44px;height:44px;border-radius:11px;object-fit:cover}
+.ak-cover{flex:none;width:46px;height:69px;border-radius:4px;object-fit:cover}
+.ak-txt{flex:1;display:grid;gap:3px;min-width:0}.ak-txt b{font-size:13.5px;line-height:18px}.ak-txt small{font-size:12px;line-height:16px;color:#cbd5f5}
+.ak-row.book .ak-txt b{font-weight:500}.ak-txt small.ak-amz{color:#fbbf24;font-weight:700}
+.ak-here{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:99px;background:#fbbf24;color:#1a1204;font-style:normal;font-size:10px;font-weight:700;vertical-align:1px}
+.ak-go{font-style:normal;color:#fbbf24;font-weight:700}
+
 /* Web app sign-in gate (shown before the app loads; the app shell stays hidden until then) */
 body.gate-on > :not(#rnr-gate):not(script):not(dialog){display:none!important}
 #rnr-gate{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 16px;background:radial-gradient(1200px 600px at 50% -10%,#1b2140,#080b16 60%);color:#eef1fa;font-family:'DM Sans',system-ui,-apple-system,sans-serif}
@@ -1542,7 +1554,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
 </style>
 </head>
 <body class="gate-on">
-<!-- RNR-WEBAPP-BUILD 2026-10-22 app.def7de0310.js -->
+<!-- RNR-WEBAPP-BUILD 2026-10-22 app.c6ef11b975.js -->
 <div id="rnr-gate" role="main"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <aside class="sidebar" id="sidebar">
@@ -1563,7 +1575,7 @@ html[data-ui="midnight"] .topbar,html[data-ui="midnight"] .tabbar{background:#05
   <dialog id="page-viewer" class="page-viewer" aria-label="Book page"></dialog>
   <dialog id="modal" aria-labelledby="modal-title"></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script>window.__RNR_APP_JS__="app.def7de0310.js";</script>
+  <script>window.__RNR_APP_JS__="app.c6ef11b975.js";</script>
 <script>
 (function(){
 'use strict';
