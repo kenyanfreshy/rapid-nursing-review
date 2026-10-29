@@ -38,6 +38,22 @@ function confirmedRegistry(platform) {
     expected: { ...registry.expected, [platform]: { fingerprint: fingerprint(key), source: "TEST FIXTURE (not real evidence)", confirmed: true } } }));
   return p;
 }
+// The repo's registry is now confirmed from the RevenueCat dashboard, so the "stops" checks use a copy of it with
+// every identity marked unconfirmed, and a copy of app.json with one key turned back into a placeholder.
+function unconfirmedRegistry(appJson = resolve(dirname(registryPath), registry.appJson)) {
+  const dir = mkdtempSync(join(tmpdir(), "rc-unc-")), p = join(dir, "revenuecat-keys.json");
+  const expected = Object.fromEntries(Object.entries(registry.expected).map(([k, v]) => [k, v && { ...v, confirmed: false }]));
+  writeFileSync(p, JSON.stringify({ ...registry, appJson, expected }));
+  return p;
+}
+function placeholderRegistry(platform) {
+  const appJsonPath = resolve(dirname(registryPath), registry.appJson), app = JSON.parse(readFileSync(appJsonPath, "utf8"));
+  app.expo.extra[platform === "ios" ? "revenueCatAppleKey" : "revenueCatGoogleKey"] = platform === "ios" ? "appl_xxxxxxxxxx" : "goog_xxxxxxxxxx";
+  const dir = mkdtempSync(join(tmpdir(), "rc-ph-")); writeFileSync(join(dir, "app.json"), JSON.stringify(app));
+  const p = join(dir, "revenuecat-keys.json"); writeFileSync(p, JSON.stringify({ ...registry, appJson: join(dir, "app.json") }));
+  return p;
+}
+const UNC = unconfirmedRegistry();
 const run = (args, env, sb) => spawnSync(NPM, args, { cwd: PKG_DIR, encoding: "utf8", env: { ...process.env, ...env, PATH: `${sb.bin}:${process.env.PATH}` } });
 const scripts = JSON.parse(readFileSync(join(PKG_DIR, "package.json"), "utf8")).scripts;
 
@@ -45,10 +61,10 @@ for (const platform of Object.values(PLATFORMS).filter(Boolean)) {
   const script = `build:${platform}`;
   if (!scripts[script]) { check(`${script} script exists`, false, "missing"); continue; }
   check(`${script} runs the release check before eas build`, /check-release\.mjs --platform \w+ --production &&/.test(scripts[script]) && scripts[script].indexOf("check-release") < scripts[script].indexOf("eas build"));
-  let sb = sandbox(); let r = run(["run", "-s", script], {}, sb);
-  check(`${script}: with the repo's real registry the check fails and eas build is NEVER called`, r.status !== 0 && !/eas build/.test(sb.calls()), (r.stdout + r.stderr).slice(-300));
-  r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "production", EAS_BUILD_PLATFORM: platform }, sandbox());
-  check(`EAS hook (profile production, ${platform}): exits non-zero with the repo's real registry`, r.status !== 0, r.stdout.slice(-200));
+  let sb = sandbox(); let r = run(["run", "-s", script], { RC_KEY_REGISTRY: UNC }, sb);
+  check(`${script}: with identity unconfirmed the check fails and eas build is NEVER called`, r.status !== 0 && !/eas build/.test(sb.calls()), (r.stdout + r.stderr).slice(-300));
+  r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "production", EAS_BUILD_PLATFORM: platform, RC_KEY_REGISTRY: UNC }, sandbox());
+  check(`EAS hook (profile production, ${platform}): exits non-zero with identity unconfirmed`, r.status !== 0, r.stdout.slice(-200));
 }
 
 // Positive controls: the same paths pass only when a fingerprint is marked confirmed (a test fixture here).
@@ -60,9 +76,9 @@ for (const platform of Object.values(PLATFORMS).filter(Boolean)) {
   check(`control: build:${p} with a confirmed fingerprint reaches "eas build --platform ${p} --profile production"`, r.status === 0 && sb.calls().includes(`eas build --platform ${p} --profile production`), (r.stdout + r.stderr).slice(-300));
   r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "production", EAS_BUILD_PLATFORM: p, RC_KEY_REGISTRY: reg }, sandbox());
   check(`control: EAS hook (production, ${p}) passes with a confirmed fingerprint`, r.status === 0, r.stdout.slice(-200));
-  r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "store-2026", EAS_BUILD_PLATFORM: p }, sandbox());
+  r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "store-2026", EAS_BUILD_PLATFORM: p, RC_KEY_REGISTRY: UNC }, sandbox());
   check("unknown/renamed EAS profile is treated as production (fails closed)", r.status !== 0);
-  r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "preview", EAS_BUILD_PLATFORM: p }, sandbox());
+  r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "preview", EAS_BUILD_PLATFORM: p, RC_KEY_REGISTRY: UNC }, sandbox());
   check("preview profile: warns but doesn't stop internal test builds", r.status === 0 && /warning/.test(r.stdout));
 }
 // Web bundle: a stale committed bundle stops the store build unless the owner explicitly accepts it.
@@ -76,9 +92,14 @@ for (const platform of Object.values(PLATFORMS).filter(Boolean)) {
   else check(`current web bundle: build:${p} reaches eas build`, r.status === 0 && /eas build/.test(sb.calls()));
 }
 if (PLATFORMS.missingKey) {
-  const p = PLATFORMS.missingKey, reg = confirmedRegistry(PLATFORMS.good);
+  const p = PLATFORMS.missingKey, reg = placeholderRegistry(p);
   const r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "production", EAS_BUILD_PLATFORM: p, RC_KEY_REGISTRY: reg }, sandbox());
   check(`missing/placeholder ${p} key stops the production build even with other identities confirmed`, r.status !== 0 && /placeholder/.test(r.stdout));
+}
+// The repo's real registry: every listed platform's identity is confirmed, so the key check passes on its own.
+for (const p of registry.platforms) {
+  const r = spawnSync(process.execPath, [CHECK, "--platform", p, "--production"], { cwd: dirname(CHECK), encoding: "utf8", env: { ...process.env, RC_KEY_REGISTRY: "" } });
+  check(`real registry: ${p} key check passes with dashboard-confirmed identity`, r.status === 0 && /verified: matches/.test(r.stdout), (r.stdout + r.stderr).slice(-300));
 }
 console.log(`\n${pass}/${pass + fail} checks passed`);
 process.exit(fail ? 1 : 0);
