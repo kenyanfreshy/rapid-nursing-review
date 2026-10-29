@@ -8,22 +8,31 @@
   "expected": {
     "ios": {
       "fingerprint": "b33e69b62c775138",
-      "source": "fingerprint of the key committed in mobile/app.json",
-      "note": "Recorded so a changed key is caught. NOT evidence of which RevenueCat project it belongs to (Rico reported a separate 'Rapid Nursing Review Android' project that holds CCRN identifiers).",
-      "confirmed": false,
+      "source": "RevenueCat dashboard, project Rapid Nursing Review (projb45e9e7d), app app1e77b8ddf6, public SDK key apikeybec3650f9f",
+      "projectId": "projb45e9e7d",
+      "appId": "app1e77b8ddf6",
+      "keyId": "apikeybec3650f9f",
+      "confirmed": true,
       "evidence": {
-        "report": "2026-10-29: Rico's written report lists entitlements and product IDs for this app but no key fingerprints.",
-        "dashboard": null
+        "report": "Rico, direct read-only RevenueCat check 2026-10-29T09:43Z (computed from the full key in a sandbox; matches)",
+        "dashboard": "2026-10-29T10:15Z: re-read by Claude from the owner's signed-in dashboard (internal api_keys endpoint, read-only); SHA-256 computed in the page, key not displayed; matches",
+        "recomputedFromBranch": "fingerprint of the key in this branch's app config equals the dashboard key"
       }
     }
   },
   "otherApps": {
     "NurseBound": [
-      "1ad243e6faae208a"
+      "1ad243e6faae208a",
+      "511581e4a1cea92b"
     ],
     "Critical Care Certified (CCRN Adult)": [
       "8503dc9c6795c8f3",
       "5ade312c9765efdc"
+    ],
+    "Duplicate project 'Rapid Nursing Review Android' (proj1c00c7cc) - must never ship": [
+      "e4910fd993e5f0b7",
+      "dc532d00840fdb5b",
+      "4d9b43c5061262a1"
     ]
   },
   "entitlement": {
@@ -31,5 +40,6 @@
     "expected": [
       "pro"
     ]
-  }
+  },
+  "otherAppsNote": "Fingerprints of other projects' public keys, re-read from the RevenueCat dashboard 2026-10-29 (Rico 09:43Z, Claude 10:15Z). Test Store keys are rejected by prefix."
 }
