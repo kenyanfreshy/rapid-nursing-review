@@ -2,8 +2,8 @@
 //
 // The iPhone app calls Purchases.logIn(<Supabase user id>) after Sign in with Apple, so a
 // subscription bought in the app is attached to that id in RevenueCat. This function asks
-// RevenueCat with the SECRET key (kept only in Supabase secrets), mirrors the answer into
-// public.pro_access (which unlocks the private question bank and the book-page function),
+// RevenueCat with the SECRET key (kept only in Supabase secrets), records the answer in
+// public.pro_access (in the order RevenueCat was asked; see record_pro_check in backend/supabase.sql) (which unlocks the private question bank and the book-page function),
 // and returns { active, productId, expiresAt, store }.
 //
 // Deploy (the function checks the JWT itself; the gateway check would reject Apple sessions):
@@ -60,6 +60,8 @@ async function handle(req: Request): Promise<Response> {
     return json({ error: "Server setup: RC_SECRET_KEY is missing or has extra characters. Set it again with the full RevenueCat secret key (starts with sk_)." }, 500);
   }
 
+  // When RevenueCat is asked: answers are stored in this order, so a slow older answer can't undo a newer one.
+  const startedAt = new Date().toISOString();
   let rc: Response;
   try {
     rc = await fetch(`https://api.revenuecat.com/v1/subscribers/${encodeURIComponent(uid)}`, {
@@ -80,17 +82,14 @@ async function handle(req: Request): Promise<Response> {
   const until = grace && expires ? Math.max(grace, expires) : expires;
   const active = !!e && (until === null || until > Date.now());
 
-  if (active) {
-    const { error: upErr } = await admin.from("pro_access").upsert({
-      user_id: uid,
-      product_id: e.product_identifier ?? null,
-      expires_at: until ? new Date(until).toISOString() : null,
-      checked_at: new Date().toISOString(),
-    });
-    if (upErr) { console.error("pro_access upsert", upErr); return json({ error: "Subscription check: couldn't record access. Did you run backend/supabase.sql?" }, 500); }
-  } else {
-    await admin.from("pro_access").delete().eq("user_id", uid);
-  }
+  const { error: upErr } = await admin.rpc("record_pro_check", {
+    p_uid: uid,
+    p_checked_at: startedAt,
+    p_active: active,
+    p_product_id: active ? (e.product_identifier ?? null) : null,
+    p_expires_at: active && until ? new Date(until).toISOString() : null,
+  });
+  if (upErr) { console.error("record_pro_check", upErr); return json({ error: "Subscription check: couldn't record access. Did you run backend/supabase.sql?" }, 500); }
   const store = e ? (body.subscriber.subscriptions?.[e.product_identifier]?.store ?? (body.subscriber.non_subscriptions ? "app_store" : null)) : null;
   return json({ active, productId: e?.product_identifier ?? null, expiresAt: until, store });
 }

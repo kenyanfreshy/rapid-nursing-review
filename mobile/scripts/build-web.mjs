@@ -17,7 +17,8 @@ import { fileURLToPath } from 'node:url';
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
 const dist = path.resolve(root, '..', 'dist');
-const out = path.join(root, 'assets', 'web');
+// WEB_OUT: build somewhere else (scripts/verify-web-bundle.mjs builds into a temp folder to compare).
+const out = process.env.WEB_OUT ? path.resolve(process.env.WEB_OUT) : path.join(root, 'assets', 'web');
 const access = process.env.BOOK_ACCESS === 'preview' ? 'preview' : 'full';
 
 const read = f => fs.readFileSync(path.join(dist, f), 'utf8');

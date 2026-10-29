@@ -1,6 +1,6 @@
 // Proves the release check actually STOPS release builds (not just prints). Run from the repo root:
 //   node tests/release_enforcement_test.mjs
-// `eas` (and the inner `npm run build:web` where a build script has one) are replaced by recording stubs on
+// `eas` (and an inner `npm run build:web`, if a build script has one) are replaced by recording stubs on
 // PATH, so nothing is built or uploaded. What this can't prove: that EAS's servers abort a build when the
 // eas-build-pre-install hook exits non-zero (Expo's docs don't state it); only an EAS build can show that.
 import { execFileSync, spawnSync } from "node:child_process";
@@ -54,7 +54,9 @@ for (const platform of Object.values(PLATFORMS).filter(Boolean)) {
 // Positive controls: the same paths pass only when a fingerprint is marked confirmed (a test fixture here).
 {
   const p = PLATFORMS.good, reg = confirmedRegistry(p);
-  let sb = sandbox(); let r = run(["run", "-s", `build:${p}`], { RC_KEY_REGISTRY: reg }, sb);
+  // The web-bundle check runs after the RevenueCat check; accept the committed bundle here so the control
+  // isolates the RevenueCat check (the bundle check has its own test below).
+  let sb = sandbox(); let r = run(["run", "-s", `build:${p}`], { RC_KEY_REGISTRY: reg, RNR_ACCEPT_STALE_WEB_BUNDLE: "1" }, sb);
   check(`control: build:${p} with a confirmed fingerprint reaches "eas build --platform ${p} --profile production"`, r.status === 0 && sb.calls().includes(`eas build --platform ${p} --profile production`), (r.stdout + r.stderr).slice(-300));
   r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "production", EAS_BUILD_PLATFORM: p, RC_KEY_REGISTRY: reg }, sandbox());
   check(`control: EAS hook (production, ${p}) passes with a confirmed fingerprint`, r.status === 0, r.stdout.slice(-200));
@@ -62,6 +64,16 @@ for (const platform of Object.values(PLATFORMS).filter(Boolean)) {
   check("unknown/renamed EAS profile is treated as production (fails closed)", r.status !== 0);
   r = run(["run", "-s", "eas-build-pre-install"], { EAS_BUILD_PROFILE: "preview", EAS_BUILD_PLATFORM: p }, sandbox());
   check("preview profile: warns but doesn't stop internal test builds", r.status === 0 && /warning/.test(r.stdout));
+}
+// Web bundle: a stale committed bundle stops the store build unless the owner explicitly accepts it.
+{
+  const p = PLATFORMS.good, reg = confirmedRegistry(p), script = scripts[`build:${p}`];
+  check(`build:${p} verifies the committed web bundle (does not silently regenerate it) before eas build`,
+    /verify-web-bundle\.mjs &&/.test(script) && !/npm run build:web/.test(script) && script.indexOf("verify-web-bundle") < script.indexOf("eas build"));
+  const stale = spawnSync(process.execPath, [join(PKG_DIR, "scripts/verify-web-bundle.mjs")], { cwd: PKG_DIR, encoding: "utf8" }).status !== 0;
+  let sb = sandbox(); const r = run(["run", "-s", `build:${p}`], { RC_KEY_REGISTRY: reg }, sb);
+  if (stale) check(`stale web bundle: build:${p} stops before eas build without the owner's decision`, r.status !== 0 && !/eas build/.test(sb.calls()));
+  else check(`current web bundle: build:${p} reaches eas build`, r.status === 0 && /eas build/.test(sb.calls()));
 }
 if (PLATFORMS.missingKey) {
   const p = PLATFORMS.missingKey, reg = confirmedRegistry(PLATFORMS.good);
