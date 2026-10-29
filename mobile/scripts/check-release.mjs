@@ -86,6 +86,24 @@ export function checkPlatform(platform, extra, registry, registryName = "the key
   return { errors, warnings, identity };
 }
 
+/**
+ * Google Play plan changes: the replacement mode the app passes (PLAY_REPLACEMENT_MODE in its purchase code) is a
+ * billing policy. It must match the registry's playReplacementMode.mode, and a production build needs the owner's
+ * approval recorded there (approved: true). Preview builds only warn, so internal device tests can run first.
+ */
+export function checkPlayReplacement(registry, registryDir, opts = {}) {
+  const errors = [], warnings = [];
+  const pol = registry.playReplacementMode;
+  if (!pol) { (opts.production ? errors : warnings).push("no playReplacementMode in the key registry: Google Play plan-change billing has no recorded approval"); return { errors, warnings }; }
+  let src = "";
+  try { src = readFileSync(resolve(registryDir, pol.source || ""), "utf8"); } catch { errors.push(`can't read ${pol.source} to check the Google Play replacement mode`); return { errors, warnings }; }
+  const m = src.match(/PLAY_REPLACEMENT_MODE\s*=\s*["']([A-Z_]+)["']/);
+  if (!m) errors.push(`${pol.source} defines no PLAY_REPLACEMENT_MODE`);
+  else if (m[1] !== pol.mode) errors.push(`${pol.source} passes Google Play replacement mode ${m[1]}, but the registry records ${pol.mode}`);
+  if (pol.approved !== true) (opts.production ? errors : warnings).push(`Google Play replacement mode ${pol.mode} is pending owner approval (billing policy for plan changes); record it as playReplacementMode.approved: true once approved`);
+  return { errors, warnings };
+}
+
 function main() {
   const args = process.argv.slice(2);
   if (!existsSync(REGISTRY)) { console.error(`check-release: ${REGISTRY} not found`); process.exit(1); }
@@ -108,10 +126,11 @@ function main() {
   let failed = false;
   for (const p of platforms) {
     const { errors, warnings, identity } = checkPlatform(p, extra, registry, relative(process.cwd(), REGISTRY), { requireConfirmed });
+    if (p === "android") { const r = checkPlayReplacement(registry, dirname(REGISTRY), { production }); errors.push(...r.errors); warnings.push(...r.warnings); }
     for (const w of warnings) console.log(`warning [${p}]: ${w}`);
     for (const e of errors) console.log(`${profile === "preview" ? "warning" : "ERROR"} [${p}]: ${e}`);
     if (errors.length && profile !== "preview") failed = true;
-    if (!errors.length) console.log(`ok [${p}]: no blocking problems (key present, ${p} key format, not Test Store, not another app's known key, entitlement id) for ${registry.app}. Project identity: ${identity}.`);
+    if (!errors.length) console.log(`ok [${p}]: no blocking problems (key present, ${p} key format, not Test Store, not another app's known key, entitlement id) for ${registry.app}. Project identity: ${identity}.${p === "android" ? ` Play replacement mode: ${(registry.playReplacementMode || {}).mode || "none"} (${(registry.playReplacementMode || {}).approved === true ? "approved" : "pending approval"}).` : ""}`);
   }
   if (failed) { console.log("\nRelease check failed. Fix the problems above before building for the store."); process.exit(1); }
 }
