@@ -8,7 +8,7 @@ import React, { createContext, useCallback, useContext, useEffect, useRef, useSt
 import { Linking, Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
-import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified } from './membership';
+import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified, planChangeFor, productChangeInfoFor, alreadyActiveMessage, REPLACEMENT_NOT_FOUND_MESSAGE } from './membership';
 
 let Purchases = null, ERR = {};
 try { const m = require('react-native-purchases'); Purchases = m.default; ERR = m.PURCHASES_ERROR_CODE || {}; } catch (e) { Purchases = null; }
@@ -167,10 +167,26 @@ export function ProProvider({ children }) {
     if (!Purchases || !storeAvailable) return { ok: false, message: `Purchases need the ${STORE_NAME} version of the app.` };
     // What was in effect when the user tapped buy, so a failed attempt can't be mistaken for success
     // (e.g. a subscriber whose lifetime purchase fails still has Pro).
-    const before = lastInfo.current, startedAt = Date.now();
+    let before = lastInfo.current;
+    const startedAt = Date.now();
+    // Google Play: a subscription purchase must name the plan it replaces (rnr_pro's other base plans are
+    // refused as already owned). Read the current state first and never start a second subscription for someone
+    // who already has Pro. The lifetime pass is a one-time product: never a replacement, and buying it leaves a
+    // running subscription untouched (membership.overlap tells the learner).
+    let change = null;
+    if (Platform.OS === 'android') {
+      let current;
+      try { const ticket = gate.ticket(); current = await Purchases.getCustomerInfo(); apply(current, ticket); }
+      catch (_) { return { ok: false, message: 'We couldn\'t check your current Google Play subscription, so nothing was bought. Check your connection and try again.' }; }
+      before = current;
+      const plan = planChangeFor(current, pkg, { entitlementId: ENTITLEMENT });
+      if (plan.kind === 'same-plan' || plan.kind === 'entitled') return { ok: false, alreadyActive: true, membership: readMembership(current), message: alreadyActiveMessage(plan) };
+      change = productChangeInfoFor(plan);
+    }
     const verified = info => purchaseVerified(info, pkg, { entitlementId: ENTITLEMENT, startedAt, before });
     try {
-      const { customerInfo } = await Purchases.purchasePackage(pkg);
+      // Third argument: productChangeInfo (the second, upgradeInfo, is deprecated). null = a new purchase.
+      const { customerInfo } = await Purchases.purchasePackage(pkg, null, change);
       apply(customerInfo);
       if (verified(customerInfo)) return { ok: true, membership: readMembership(customerInfo) };
       return { ok: false, message: `${STORE_NAME} accepted the purchase, but it isn't confirmed yet. It usually appears within a minute; tap Restore Purchases if it doesn't.` };
@@ -186,6 +202,8 @@ export function ProProvider({ children }) {
         return { ok: false, message: `${STORE_NAME} says you already own this plan, but it isn't showing on this account yet. Tap Restore Purchases, or check you're signed in with the account you bought it on.` };
       }
       if (c.kind === 'not-allowed') return { ok: false, message: c.message };
+      // Replacing a plan bought with another Google account: RevenueCat finds no purchase to replace and nothing is charged.
+      if (change && e && e.code != null && e.code === ERR.PURCHASE_INVALID_ERROR) return { ok: false, message: REPLACEMENT_NOT_FOUND_MESSAGE };
       // Store or network trouble, an unavailable product, unknown errors: the payment may or may not have
       // happened. Re-read CustomerInfo before saying anything, and never claim that no charge happened.
       try {

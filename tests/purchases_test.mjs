@@ -176,5 +176,41 @@ check("Paywall.js: lifetime owners with a running subscription are told it may s
 const proSrc = rf("mobile/pro.js", "utf8");
 check("pro.js: sign-ins are serialized and stale ones dropped", /linkQueue\.current = linkQueue\.current\.then/.test(proSrc) && /if \(!stale\(\)\) apply\(customerInfo\)/.test(proSrc));
 
+// ---------- Google Play plan changes (Android purchase path in mobile/pro.js) ----------
+// rnr_pro has one Play subscription with several base plans: another base plan must be bought as a replacement
+// (oldProductIdentifier = "rnr_pro", no base plan) or Google Play refuses it as already owned.
+{
+  const sub = (id, plan, o = {}) => ({ productIdentifier: id, productPlanIdentifier: plan, store: "PLAY_STORE", isActive: true, willRenew: true, expiresDate: iso(now + 20 * DAY), refundedAt: null, ...o });
+  const pc = (subs, active) => ({ entitlements: { active: active || { pro: { identifier: "pro", isActive: true, willRenew: true, periodType: "NORMAL", productIdentifier: subs[0] ? `${subs[0].productIdentifier}:${subs[0].productPlanIdentifier}` : "x", expirationDate: iso(now + 20 * DAY), store: subs[0] ? subs[0].store : "PLAY_STORE" } } },
+    activeSubscriptions: subs.map((x) => x.store === "PLAY_STORE" && x.productPlanIdentifier ? `${x.productIdentifier}:${x.productPlanIdentifier}` : x.productIdentifier), allExpirationDates: {},
+    subscriptionsByProductIdentifier: Object.fromEntries(subs.map((x) => [x.productIdentifier, x])), nonSubscriptionTransactions: [] });
+  const subPkg = (plan) => ({ packageType: "CUSTOM", product: { identifier: `rnr_pro:${plan}`, productCategory: "SUBSCRIPTION" } });
+  const lifePkg = { packageType: "LIFETIME", product: { identifier: "rnr_pro_lifetime", productCategory: "NON_SUBSCRIPTION" } };
+  const plan = (i, pkg) => M.planChangeFor(i, pkg, { entitlementId: "pro", now });
+  const r = plan(pc([sub("rnr_pro", "monthly")]), subPkg("annual"));
+  check("plan change: other base plan → replace rnr_pro (id without base plan)", r.kind === "replace" && r.oldProductIdentifier === "rnr_pro" && r.from === "rnr_pro:monthly");
+  const ci = M.productChangeInfoFor(r);
+  check("plan change: productChangeInfo names the old id and an explicit mode", ci && ci.oldProductIdentifier === "rnr_pro" && ci.replacementMode === "WITH_TIME_PRORATION" && M.PLAY_REPLACEMENT_MODE === "WITH_TIME_PRORATION");
+  check("plan change: canceled-but-active plan is replaced too", plan(pc([sub("rnr_pro", "monthly", { willRenew: false })]), subPkg("annual")).kind === "replace");
+  check("plan change: same base plan already active → not bought again", plan(pc([sub("rnr_pro", "monthly")]), subPkg("monthly")).kind === "same-plan");
+  check("plan change: base plan unknown with the same id → treated as the same plan (no charge)", plan(pc([sub("rnr_pro", null)]), subPkg("annual")).kind === "same-plan");
+  check("plan change: nothing active → plain new purchase, no change info", plan(pc([], {}), subPkg("monthly")).kind === "new" && M.productChangeInfoFor(plan(pc([], {}), subPkg("monthly"))) === null);
+  check("plan change: lifetime while subscribed is a separate one-time purchase, never a replacement", plan(pc([sub("rnr_pro", "monthly")]), lifePkg).kind === "new");
+  const life = { entitlements: { active: { pro: { identifier: "pro", isActive: true, willRenew: false, periodType: "NORMAL", productIdentifier: "rnr_pro_lifetime", expirationDate: null, store: "PLAY_STORE" } } }, activeSubscriptions: [], allExpirationDates: {}, nonSubscriptionTransactions: [{ productIdentifier: "rnr_pro_lifetime" }] };
+  const lr = plan(life, subPkg("monthly"));
+  check("plan change: lifetime owner tapping a subscription → nothing bought", lr.kind === "entitled" && /already have Pro/.test(M.alreadyActiveMessage(lr)));
+  const apple = plan(pc([sub("com.alexkorir.rapidnursingreview.pro.monthly", null, { store: "APP_STORE" })]), subPkg("annual"));
+  check("plan change: App Store subscription is not a Play plan → no second subscription", apple.kind === "entitled" && /through the App Store/.test(M.alreadyActiveMessage(apple)));
+  check("plan change: refunded or inactive entries are ignored", plan(pc([sub("rnr_pro", "monthly", { refundedAt: iso(now - DAY) })], {}), subPkg("annual")).kind === "new" && plan(pc([sub("rnr_pro", "monthly", { isActive: false })], {}), subPkg("annual")).kind === "new");
+  const old = { entitlements: { active: { pro: { identifier: "pro", isActive: true, willRenew: true, periodType: "NORMAL", productIdentifier: "rnr_pro:monthly", expirationDate: iso(now + 9 * DAY), store: "PLAY_STORE" } } }, activeSubscriptions: ["rnr_pro:monthly"], allExpirationDates: { "rnr_pro:monthly": iso(now + 9 * DAY) }, nonSubscriptionTransactions: [] };
+  check("plan change: older SDK shape (no subscriptionsByProductIdentifier) still finds the Play plan", plan(old, subPkg("annual")).kind === "replace");
+  check("plan change: same-plan message says nothing was bought", /nothing was bought/.test(M.alreadyActiveMessage({ kind: "same-plan" })));
+  const ps = readFileSync("mobile/pro.js", "utf8");
+  check("pro.js: Android purchase reads current state, then passes productChangeInfo as the 3rd argument",
+    /if \(Platform\.OS === ["']android["']\)/.test(ps) && /planChangeFor\(current, pkg/.test(ps) && /Purchases\.purchasePackage\(pkg, null, change\)/.test(ps) && !/purchasePackage\(pkg\)/.test(ps));
+  check("pro.js: same plan / already entitled / unreadable state return before any purchase",
+    ps.indexOf("plan.kind === \"same-plan\" || plan.kind === \"entitled\"".replace(/"/g, ps.includes("'same-plan'") ? "'" : '"')) > 0 && ps.indexOf("so nothing was bought") < ps.indexOf("purchasePackage(pkg, null, change)"));
+}
+
 console.log(`\n${pass}/${pass + fail} checks passed`);
 process.exit(fail ? 1 : 0);

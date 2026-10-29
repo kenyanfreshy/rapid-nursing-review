@@ -164,3 +164,78 @@ export function purchaseVerified(info, pkg, { entitlementId = "pro", now = Date.
   if (before && planInEffect(before, pkg, { entitlementId, now })) return false;   // can't attribute it to this attempt
   return planInEffect(info, pkg, { entitlementId, now, startedAt });
 }
+
+// ---------- Google Play plan changes (Android only) ----------
+// Google Play has no subscription groups. Buying a different subscription product while one is active starts a
+// second, separately billed subscription; buying another base plan of the same subscription is refused as already
+// owned. A purchase replaces the current plan only when it names that plan's subscription id
+// (react-native-purchases purchasePackage(pkg, null, { oldProductIdentifier, replacementMode }); the id is
+// without ":basePlan", which purchases-android 10.26 strips with a warning). Checked against
+// react-native-purchases 10.12.2 / 10.13.0 (RNPurchasesModule.getUpgradeInfo reads oldProductIdentifier +
+// replacementMode) and purchases-android 10.26.0 (replaceOldPurchaseWithNewProduct). The App Store needs none of
+// this: StoreKit switches plans within one subscription group by itself.
+
+/**
+ * Mode passed with every replacement: the new plan starts at once and the unused time of the old plan is credited
+ * (Play's IMMEDIATE_WITH_TIME_PRORATION). It works for upgrades and downgrades alike; CHARGE_PRORATED_PRICE is
+ * upgrade-only and DEFERRED leaves the old plan in effect, which purchaseVerified() would not confirm. Stated
+ * explicitly because the SDK's documented default differs between its own comments (WITHOUT_PRORATION in the
+ * enum and in purchases-android's builder).
+ */
+export const PLAY_REPLACEMENT_MODE = "WITH_TIME_PRORATION";
+
+const STORE_LABELS = { APP_STORE: "the App Store", MAC_APP_STORE: "the Mac App Store", PLAY_STORE: "Google Play", STRIPE: "the web", RC_BILLING: "the web", PROMOTIONAL: "a promotional grant", AMAZON: "the Amazon Appstore" };
+
+/** Unexpired Google Play subscriptions in `info`, the one that renews first, then the latest-expiring. */
+export function playSubscriptions(info, { entitlementId, now = Date.now() } = {}) {
+  const by = info && info.subscriptionsByProductIdentifier && typeof info.subscriptionsByProductIdentifier === "object" ? info.subscriptionsByProductIdentifier : null;
+  const ent = pickEntitlement(info, entitlementId);
+  return activeSubscriptions(info, now).map((s) => {
+    const sub = by ? (by[s.productId] || by[baseId(s.productId)] || null) : null;
+    // Store: the SDK's answer; else the entitlement's when it reports this product; else a Play-style "id:basePlan".
+    const store = s.store || (ent && ent.productIdentifier && baseId(ent.productIdentifier) === baseId(s.productId) ? ent.store : null) || (String(s.productId).includes(":") ? "PLAY_STORE" : null);
+    const plan = String(s.productId).includes(":") ? String(s.productId).split(":")[1] : (sub && sub.productPlanIdentifier) || null;
+    return { ...s, store, plan };
+  }).filter((s) => s.store === "PLAY_STORE")
+    .sort((a, b) => (b.willRenew === true) - (a.willRenew === true) || (Date.parse(b.expires || "") || 0) - (Date.parse(a.expires || "") || 0));
+}
+
+/**
+ * What buying `pkg` on Google Play should do, from CustomerInfo read just before the purchase:
+ *   { kind: "new" }                                   nothing to replace (one-time products such as the lifetime pass always)
+ *   { kind: "same-plan", productId }                  that plan is already active on Google Play: don't buy it again
+ *   { kind: "replace", oldProductIdentifier, from }   another Google Play plan is active: the purchase must replace it
+ *   { kind: "entitled", store }                       Pro is already active without a Google Play subscription (App Store,
+ *                                                     lifetime pass, promotional): a subscription would be a second charge
+ * Buying the lifetime pass while subscribed stays allowed and never cancels the subscription (see readMembership().overlap).
+ */
+export function planChangeFor(info, pkg, { entitlementId, now = Date.now() } = {}) {
+  if (!pkg || !pkg.product || pkg.packageType === "LIFETIME" || pkg.product.productCategory === "NON_SUBSCRIPTION") return { kind: "new" };
+  const want = String(pkg.product.identifier || "");
+  const cur = playSubscriptions(info, { entitlementId, now })[0];
+  if (!cur) {
+    const m = readMembership(info, { entitlementId, now });
+    if (!m) return { kind: "new" };
+    const ent = pickEntitlement(info, entitlementId);
+    return { kind: "entitled", store: (ent && ent.store) || null };
+  }
+  const wantPlan = want.includes(":") ? want.split(":")[1] : null;
+  // Same subscription id: the same plan unless both base plans are known and differ.
+  if (baseId(cur.productId) === baseId(want) && (cur.plan === null || wantPlan === null || cur.plan === wantPlan)) return { kind: "same-plan", productId: cur.productId };
+  return { kind: "replace", oldProductIdentifier: baseId(cur.productId), from: cur.productId };
+}
+
+/** The productChangeInfo argument for purchasePackage (third parameter), or null for a new purchase. */
+export function productChangeInfoFor(plan, mode = PLAY_REPLACEMENT_MODE) {
+  return plan && plan.kind === "replace" ? { oldProductIdentifier: plan.oldProductIdentifier, replacementMode: mode } : null;
+}
+
+/** Shown when the purchase is not started because the customer already has access ("same-plan" / "entitled"). */
+export function alreadyActiveMessage(plan) {
+  if (plan && plan.kind === "same-plan") return "You already have this plan on Google Play, so nothing was bought. It's active on this account now.";
+  const where = plan && plan.store && STORE_LABELS[plan.store];
+  return `You already have Pro on this account${where ? ` through ${where}` : ""}, so nothing was bought.`;
+}
+
+/** A replacement Google Play couldn't match to a purchase on this Google account (RevenueCat PURCHASE_INVALID_ERROR). */
+export const REPLACEMENT_NOT_FOUND_MESSAGE = "Google Play couldn't find your current subscription on this Google account, so nothing was bought. If you subscribed with a different Google account, switch to it in the Play Store and try again.";
