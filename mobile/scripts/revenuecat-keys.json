@@ -10,7 +10,11 @@
       "fingerprint": "a0965dd4f31d34ac",
       "source": "fingerprint of the key committed in mobile/app.json",
       "note": "Recorded so a changed key is caught. NOT evidence of which RevenueCat project it belongs to (Rico reported a separate 'Rapid Nursing Review Android' project that holds CCRN identifiers).",
-      "confirmed": false
+      "confirmed": false,
+      "evidence": {
+        "report": "2026-10-29: Rico's written report lists entitlements and product IDs for this app but no key fingerprints.",
+        "dashboard": null
+      }
     }
   },
   "otherApps": {
