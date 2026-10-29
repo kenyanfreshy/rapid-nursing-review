@@ -8,11 +8,14 @@ import React, { createContext, useCallback, useContext, useEffect, useRef, useSt
 import { Linking, Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
+import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified } from './membership';
 
 let Purchases = null, ERR = {};
 try { const m = require('react-native-purchases'); Purchases = m.default; ERR = m.PURCHASES_ERROR_CODE || {}; } catch (e) { Purchases = null; }
 
 const h = React.createElement;
+// RevenueCat is configured once per app process (a remounted provider must not configure it again).
+let configuredOnce = false;
 // Last known membership, so a paying member who opens the app offline isn't locked out.
 const CACHE_KEY = 'rnr.pro.v1';
 const extra = (Constants.expoConfig && Constants.expoConfig.extra) || {};
@@ -40,19 +43,9 @@ export const PRO_FEATURES = [
 const ProCtx = createContext({ isPro: false, ready: false, packages: [], storeAvailable: false, membership: null });
 export const usePro = () => useContext(ProCtx);
 
-/** The facts the paywall shows about a membership, from RevenueCat's CustomerInfo. */
+/** The facts the paywall shows about a membership, from RevenueCat's CustomerInfo (logic in ./membership.js). */
 function readMembership(info) {
-  const active = (info && info.entitlements && info.entitlements.active) || {};
-  const ent = active[ENTITLEMENT] || active.pro || Object.values(active)[0];
-  if (!ent) return null;
-  return {
-    productId: ent.productIdentifier || '',
-    expires: ent.expirationDate || null,         // null = lifetime
-    willRenew: !!ent.willRenew,
-    trial: ent.periodType === 'TRIAL',
-    lifetime: !ent.expirationDate,
-    manageUrl: (info && info.managementURL) || null,
-  };
+  return readFrom(info, { entitlementId: ENTITLEMENT });
 }
 
 export function ProProvider({ children }) {
@@ -67,11 +60,20 @@ export function ProProvider({ children }) {
   const removeListener = useRef(null);
   const configured = useRef(false);
   const pendingUser = useRef(undefined);   // account id waiting for RevenueCat to finish configuring
+  const gate = useRef(createResponseGate()).current;
+  const lastInfo = useRef(null);           // latest CustomerInfo applied (pre-purchase snapshot)
+  const linkQueue = useRef(Promise.resolve());
+  const linkGen = useRef(0);
 
-  const apply = info => {
+  // `ticket` is taken when a request starts; a late answer to an older request (e.g. the startup read
+  // finishing after a purchase or sign-in) is dropped instead of overwriting newer state.
+  const apply = (info, ticket = gate.ticket()) => {
+    if (!info || !gate.accept(ticket)) return false;
+    lastInfo.current = info;
     const m = readMembership(info);
     setMembership(m);
     AsyncStorage.setItem(CACHE_KEY, JSON.stringify(m)).catch(() => {});
+    return true;
   };
 
   const loadOfferings = useCallback(async () => {
@@ -90,6 +92,7 @@ export function ProProvider({ children }) {
   }, []);
 
   useEffect(() => {
+    let unmounted = false;
     (async () => {
       // 1. Last known status straight away (offline-safe). Expired cached subscriptions don't count.
       try {
@@ -97,24 +100,38 @@ export function ProProvider({ children }) {
         if (c && (c.lifetime || (c.expires && new Date(c.expires) > new Date()))) setMembership(c);
       } catch (e) {}
       // 2. Ask the store. Development builds can use RevenueCat's Test Store when app.json sets "useTestStore": true.
-      const storeKey = Platform.OS === 'ios' ? extra.revenueCatAppleKey : extra.revenueCatGoogleKey;
-      const key = __DEV__ && extra.useTestStore === true && extra.revenueCatTestKey ? extra.revenueCatTestKey : storeKey;
-      if (!Purchases || !key || /REPLACE_ME/.test(key)) { setKeyMissing(!!Purchases); setReady(true); return; }
+      // A missing, Test Store or other-platform key leaves the store disconnected rather than misconfigured.
+      const { key, problem } = chooseKey({ os: Platform.OS, dev: __DEV__, extra });
+      if (!Purchases || !key) {
+        if (problem && problem !== 'missing') setErrorDetail(__DEV__ ? `RevenueCat key rejected: ${problem}` : '');
+        if (!unmounted) { setKeyMissing(!!Purchases); setReady(true); }
+        return;
+      }
       try {
-        if (Purchases.setLogLevel && Purchases.LOG_LEVEL) Purchases.setLogLevel(__DEV__ ? Purchases.LOG_LEVEL.DEBUG : Purchases.LOG_LEVEL.WARN);
-        Purchases.configure({ apiKey: key });
+        if (!configuredOnce) {
+          if (Purchases.setLogLevel && Purchases.LOG_LEVEL) Purchases.setLogLevel(__DEV__ ? Purchases.LOG_LEVEL.DEBUG : Purchases.LOG_LEVEL.WARN);
+          Purchases.configure({ apiKey: key });
+          configuredOnce = true;
+        }
+        if (unmounted) return;
         setStoreAvailable(true);
         const listener = info => apply(info);   // renewals, expiries, refunds, Ask to Buy approvals
         Purchases.addCustomerInfoUpdateListener(listener);
         removeListener.current = () => { try { Purchases.removeCustomerInfoUpdateListener(listener); } catch (e) {} };
-        apply(await Purchases.getCustomerInfo());
+        const ticket = gate.ticket();
+        const first = await Purchases.getCustomerInfo();
+        if (unmounted) return;
+        apply(first, ticket);
         configured.current = true;
         if (pendingUser.current !== undefined) { const u = pendingUser.current; pendingUser.current = undefined; linkAccount(u); }
-      } catch (e) { setError("Couldn't reach the store. Check your connection and try again."); }
+      } catch (e) { if (!unmounted) setError("Couldn't reach the store. Check your connection and try again."); }
+      if (unmounted) return;
       await loadOfferings();
-      setReady(true);
+      if (!unmounted) setReady(true);
     })();
-    return () => { if (removeListener.current) removeListener.current(); };
+    // Cleanup can run before the async setup finishes: `unmounted` stops state updates, and the listener is
+    // removed here or, if setup hasn't reached it yet, never added.
+    return () => { unmounted = true; if (removeListener.current) removeListener.current(); };
   }, []);
 
   // Sign in with Apple (Settings → Sync and web access) gives the learner a Supabase account id.
@@ -122,37 +139,63 @@ export function ProProvider({ children }) {
   // server check (supabase/functions/entitlement) finds the subscription. RevenueCat moves purchases
   // made before sign-in onto the account. Signing out does NOT log out of RevenueCat: the learner keeps
   // Pro on this phone, and buying never needs an account.
-  async function linkAccount(userId) {
-    if (!Purchases || !userId || typeof userId !== 'string') return;
-    if (!configured.current) { pendingUser.current = userId; return; }
-    try {
-      const current = await Purchases.getAppUserID();
-      if (current === userId) return;
-      const { customerInfo } = await Purchases.logIn(userId);
-      apply(customerInfo);
-    } catch (e) {}
+  // Sign-ins run one at a time, in order; one replaced by a newer sign-in stops and its result is never shown.
+  function linkAccount(userId) {
+    if (!Purchases || !userId || typeof userId !== 'string') return Promise.resolve();
+    if (!configured.current) { pendingUser.current = userId; return Promise.resolve(); }
+    const gen = ++linkGen.current;
+    const stale = () => gen !== linkGen.current;
+    linkQueue.current = linkQueue.current.then(async () => {
+      if (stale()) return;
+      try {
+        const current = await Purchases.getAppUserID();
+        if (stale() || current === userId) return;
+        const { customerInfo } = await Purchases.logIn(userId);
+        if (!stale()) apply(customerInfo);
+      } catch (e) {}
+    });
+    return linkQueue.current;
   }
 
   const restoreInner = async () => {
-    const info = await Purchases.restorePurchases(); apply(info);
+    const info = await Purchases.restorePurchases(); apply(info);   // restore's answer is the newest state
     const active = !!readMembership(info);
     return { ok: active, message: active ? 'Your Pro membership is restored.' : 'We didn\'t find a Pro purchase on this ' + (Platform.OS === 'ios' ? 'Apple ID.' : 'Google account.') };
   };
 
   const buy = useCallback(async pkg => {
     if (!Purchases || !storeAvailable) return { ok: false, message: `Purchases need the ${STORE_NAME} version of the app.` };
+    // What was in effect when the user tapped buy, so a failed attempt can't be mistaken for success
+    // (e.g. a subscriber whose lifetime purchase fails still has Pro).
+    const before = lastInfo.current, startedAt = Date.now();
+    const verified = info => purchaseVerified(info, pkg, { entitlementId: ENTITLEMENT, startedAt, before });
     try {
       const { customerInfo } = await Purchases.purchasePackage(pkg);
       apply(customerInfo);
-      const m = readMembership(customerInfo);
-      return m ? { ok: true, membership: m } : { ok: false, message: 'The purchase went through, but Pro hasn\'t unlocked yet. Tap Restore Purchases in a moment.' };
+      if (verified(customerInfo)) return { ok: true, membership: readMembership(customerInfo) };
+      return { ok: false, message: `${STORE_NAME} accepted the purchase, but it isn't confirmed yet. It usually appears within a minute; tap Restore Purchases if it doesn't.` };
     } catch (e) {
-      if (e && (e.userCancelled || e.code === ERR.PURCHASE_CANCELLED_ERROR)) return { ok: false, cancelled: true };
-      if (e && e.code === ERR.PAYMENT_PENDING_ERROR) return { ok: false, pending: true, message: 'Your purchase is waiting for approval (for example, Ask to Buy or a pending payment). Pro unlocks automatically once it\'s approved.' };
-      if (e && e.code === ERR.PRODUCT_ALREADY_PURCHASED_ERROR) return restoreInner();
-      if (e && e.code === ERR.STORE_PROBLEM_ERROR) return { ok: false, message: 'The store is having a problem. You haven\'t been charged. Please try again later.' };
-      if (e && e.code === ERR.PURCHASE_NOT_ALLOWED_ERROR) return { ok: false, message: 'Purchases aren\'t allowed on this device or account. Check Screen Time or your parental settings.' };
-      return { ok: false, message: 'The purchase didn\'t go through. You haven\'t been charged. Please try again.' };
+      const c = classifyPurchaseError(e, ERR);
+      if (c.kind === 'cancelled') return { ok: false, cancelled: true };
+      if (c.kind === 'pending') return { ok: false, pending: true, message: c.message };
+      if (c.kind === 'already-owned') {
+        try {
+          const restored = await Purchases.restorePurchases(); apply(restored);
+          if (purchaseVerified(restored, pkg, { entitlementId: ENTITLEMENT })) return { ok: true, membership: readMembership(restored), message: 'You already own this plan; it\'s restored on this account.' };
+        } catch (_) { /* fall through */ }
+        return { ok: false, message: `${STORE_NAME} says you already own this plan, but it isn't showing on this account yet. Tap Restore Purchases, or check you're signed in with the account you bought it on.` };
+      }
+      if (c.kind === 'not-allowed') return { ok: false, message: c.message };
+      // Store or network trouble, an unavailable product, unknown errors: the payment may or may not have
+      // happened. Re-read CustomerInfo before saying anything, and never claim that no charge happened.
+      try {
+        const ticket = gate.ticket();
+        const latest = await Purchases.getCustomerInfo();
+        apply(latest, ticket);
+        if (verified(latest)) return { ok: true, membership: readMembership(latest) };
+      } catch (_) { /* still unknown */ }
+      if (c.kind === 'not-available') return { ok: false, message: `This plan isn't available from ${STORE_NAME} right now. Please pick another plan, or tap Restore Purchases if you were charged.` };
+      return { ok: false, message: uncertainPurchaseMessage(STORE_NAME) };
     }
   }, [storeAvailable]);
 
@@ -171,6 +214,8 @@ export function ProProvider({ children }) {
   }, [membership, storeAvailable]);
 
   const isPro = !!membership || (__DEV__ && devUnlock);
-  const value = { isPro, membership, ready, packages, buy, restore, manage, linkAccount, reload: loadOfferings, storeAvailable, keyMissing, error, errorDetail, devUnlock, setDevUnlock };
+  /** Apply CustomerInfo another part of the app got from RevenueCat. */
+  const ingest = useCallback(info => { if (info) apply(info); }, []);
+  const value = { isPro, membership, ingest, ready, packages, buy, restore, manage, linkAccount, reload: loadOfferings, storeAvailable, keyMissing, error, errorDetail, devUnlock, setDevUnlock };
   return h(ProCtx.Provider, { value }, children);
 }
