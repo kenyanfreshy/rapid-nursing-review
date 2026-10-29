@@ -98,8 +98,10 @@ alter table public.pro_access enable row level security;
 drop policy if exists "own access: read" on public.pro_access;
 create policy "own access: read" on public.pro_access for select using (auth.uid() = user_id);
 
--- Access counts only while it is current AND was confirmed with RevenueCat in the last 24 hours, so a
--- refund or revoked purchase stops working within a day even for someone who never reloads the gate.
+-- Access counts only while it is current AND RevenueCat confirmed it in the last 24 hours. Only a positive
+-- RevenueCat answer (via record_pro_check) sets checked_at; cached answers, failed checks and rate-limited checks
+-- never do. So after a refund, web access ends at the next real check, or at the latest 24 hours after the last
+-- positive answer RevenueCat gave (which may itself come after the refund if RevenueCat hasn't processed it yet).
 drop function if exists public.has_pro(uuid);
 create or replace function public.has_pro() returns boolean
 language sql stable security definer set search_path = public as $$
@@ -117,6 +119,27 @@ language sql stable security definer set search_path = public as $$
 $$;
 revoke all on function public.has_pro_for(uuid) from public, anon, authenticated;
 grant execute on function public.has_pro_for(uuid) to service_role;
+
+-- Record one RevenueCat answer, ordered by when RevenueCat was asked (p_checked_at = time the request STARTED).
+-- An answer only replaces the stored one if it was asked later, so a slow "active" answer can't undo a newer
+-- refund. An inactive answer is kept as a row that has already expired (expires_at = p_checked_at) instead of
+-- being deleted, so its time still orders later answers. Returns true if this answer was stored.
+create or replace function public.record_pro_check(p_uid uuid, p_checked_at timestamptz, p_active boolean,
+                                                   p_product_id text, p_expires_at timestamptz)
+returns boolean
+language plpgsql security definer set search_path = public as $$
+declare n integer;
+begin
+  insert into pro_access as pa (user_id, product_id, expires_at, checked_at)
+  values (p_uid, case when p_active then p_product_id end, case when p_active then p_expires_at else p_checked_at end, p_checked_at)
+  on conflict (user_id) do update
+    set product_id = excluded.product_id, expires_at = excluded.expires_at, checked_at = excluded.checked_at
+    where pa.checked_at < excluded.checked_at;
+  get diagnostics n = row_count;
+  return n > 0;
+end $$;
+revoke all on function public.record_pro_check(uuid, timestamptz, boolean, text, timestamptz) from public, anon, authenticated;
+grant execute on function public.record_pro_check(uuid, timestamptz, boolean, text, timestamptz) to service_role;
 
 -- ===================== Private storage =====================
 -- `content`: content.json (both question banks). Readable only by a signed-in Pro account.
