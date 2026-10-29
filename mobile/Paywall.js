@@ -184,9 +184,11 @@ export default function Paywall({ onClose, reason }) {
   const purchase = async () => {
     if (!chosen || busy) return; setBusy(true); setMsg('');
     let r;
-    try { r = await buy(chosen); } catch (e) { r = { ok: false, message: `The purchase didn't go through. You haven't been charged. (${(e && (e.code || e.message)) || 'unknown error'})` }; }
+    // An exception here means the outcome is unknown, so never claim that no charge happened.
+    try { r = await buy(chosen); } catch (e) { r = { ok: false, message: `We couldn't confirm this purchase. If you were charged, Pro unlocks automatically once the store confirms it, or tap Restore Purchases. (${(e && (e.code || e.message)) || 'unknown error'})` }; }
     setBusy(false);
-    if (r.ok) setWelcome(trial ? `Your ${trial.words} free trial has started and all of Pro is unlocked.` : 'All of Pro is unlocked: every question, case study, exam and page of the book.');
+    // The trial message follows what the store actually started (RevenueCat's periodType), not the offer shown.
+    if (r.ok) setWelcome(r.membership && r.membership.trial ? `Your free trial has started${r.membership.expires ? ` (until ${isoDay(r.membership.expires)})` : ''} and all of Pro is unlocked.` : 'All of Pro is unlocked: every question, case study, exam and page of the book.');
     else if (!r.cancelled) setMsg(r.message);
   };
   const doRestore = async () => { setBusy(true); setMsg(''); let r; try { r = await restore(); } catch (e) { r = { ok: false, message: 'Couldn\'t restore right now. Please try again.' }; } setBusy(false); if (r.ok) setWelcome('Your Pro membership is restored.'); else setMsg(r.message); };
@@ -214,7 +216,13 @@ export default function Paywall({ onClose, reason }) {
 
   let memberLine = 'All of Pro is unlocked.';
   if (isPro && membership) {
-    if (membership.lifetime) memberLine = 'All-access pass · yours to keep, with no renewals.';
+    if (membership.lifetime) {
+      memberLine = 'All-access pass · yours to keep, with no renewals.';
+      // Buying the pass doesn't cancel a subscription; say so when one is still running.
+      const o = membership.overlap;
+      if (o && o.willRenew === false) memberLine += ` You also have a subscription that's canceled${o.expires ? ` and ends on ${isoDay(o.expires)}` : ''}.`;
+      else if (o) memberLine += ` You also have a subscription that ${o.willRenew ? 'is still set to renew' : 'may still renew'}. Your pass already includes everything, so you can cancel it under Manage Subscription.`;
+    }
     else if (membership.trial && membership.willRenew) memberLine = `Free trial until ${isoDay(membership.expires)}, then it renews unless you cancel at least 24 hours before it ends.`;
     else if (membership.trial) memberLine = `Free trial until ${isoDay(membership.expires)}. You've canceled, so you won't be charged.`;
     else if (membership.willRenew) memberLine = `Renews on ${isoDay(membership.expires)}.`;

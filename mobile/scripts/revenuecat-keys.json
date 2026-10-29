@@ -1,0 +1,31 @@
+{
+  "_about": "Release check registry for scripts/check-release.mjs. Values are SHA-256 fingerprints (first 16 hex characters) of RevenueCat PUBLIC SDK keys, never the keys themselves. Set confirmed:true only after reading the key in the RevenueCat dashboard (Rapid Nursing Review project). 'otherApps' = keys of other apps' projects, which must never ship here.",
+  "app": "Rapid Nursing Review",
+  "appJson": "../app.json",
+  "platforms": [
+    "ios"
+  ],
+  "expected": {
+    "ios": {
+      "fingerprint": "b33e69b62c775138",
+      "source": "fingerprint of the key committed in mobile/app.json",
+      "note": "Recorded so a changed key is caught. NOT evidence of which RevenueCat project it belongs to (Rico reported a separate 'Rapid Nursing Review Android' project that holds CCRN identifiers).",
+      "confirmed": false
+    }
+  },
+  "otherApps": {
+    "NurseBound": [
+      "1ad243e6faae208a"
+    ],
+    "Critical Care Certified (CCRN Adult)": [
+      "8503dc9c6795c8f3",
+      "5ade312c9765efdc"
+    ]
+  },
+  "entitlement": {
+    "field": "entitlementId",
+    "expected": [
+      "pro"
+    ]
+  }
+}
