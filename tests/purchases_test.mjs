@@ -206,10 +206,51 @@ check("pro.js: sign-ins are serialized and stale ones dropped", /linkQueue\.curr
   check("plan change: older SDK shape (no subscriptionsByProductIdentifier) still finds the Play plan", plan(old, subPkg("annual")).kind === "replace");
   check("plan change: same-plan message says nothing was bought", /nothing was bought/.test(M.alreadyActiveMessage({ kind: "same-plan" })));
   const ps = readFileSync("mobile/pro.js", "utf8");
-  check("pro.js: Android purchase reads current state, then passes productChangeInfo as the 3rd argument",
-    /if \(Platform\.OS === ["']android["']\)/.test(ps) && /planChangeFor\(current, pkg/.test(ps) && /Purchases\.purchasePackage\(pkg, null, change\)/.test(ps) && !/purchasePackage\(pkg\)/.test(ps));
-  check("pro.js: same plan / already entitled / unreadable state return before any purchase",
-    ps.indexOf("plan.kind === \"same-plan\" || plan.kind === \"entitled\"".replace(/"/g, ps.includes("'same-plan'") ? "'" : '"')) > 0 && ps.indexOf("so nothing was bought") < ps.indexOf("purchasePackage(pkg, null, change)"));
+  check("pro.js: Android purchase goes through checkBeforePlayPurchase, then passes productChangeInfo as the 3rd argument",
+    /if \(Platform\.OS === ["']android["']\)/.test(ps) && /checkBeforePlayPurchase\(Purchases, pkg/.test(ps) && /Purchases\.purchasePackage\(pkg, null, change\)/.test(ps) && !/purchasePackage\(pkg\)/.test(ps));
+  check("pro.js: identity re-checked right before purchasePackage; nothing bought when the check says no",
+    ps.indexOf("!pre.stillCurrent()") > 0 && ps.indexOf("!pre.stillCurrent()") < ps.indexOf("purchasePackage(pkg, null, change)") && ps.indexOf("if (!pre.proceed) return") < ps.indexOf("purchasePackage(pkg, null, change)"));
+}
+
+// ---------- ownership check before a Google Play purchase (checkBeforePlayPurchase) ----------
+{
+  const sub = (id, plan, o = {}) => ({ productIdentifier: id, productPlanIdentifier: plan, store: "PLAY_STORE", isActive: true, willRenew: true, expiresDate: iso(now + 20 * DAY), refundedAt: null, ...o });
+  const pcI = (subs) => ({ entitlements: { active: subs.length ? { pro: { identifier: "pro", isActive: true, willRenew: true, periodType: "NORMAL", productIdentifier: `${subs[0].productIdentifier}:${subs[0].productPlanIdentifier}`, expirationDate: iso(now + 20 * DAY), store: "PLAY_STORE" } } : {} },
+    activeSubscriptions: subs.map((x) => `${x.productIdentifier}:${x.productPlanIdentifier}`), allExpirationDates: {}, subscriptionsByProductIdentifier: Object.fromEntries(subs.map((x) => [x.productIdentifier, x])), nonSubscriptionTransactions: [] });
+  const subPkg = (plan) => ({ packageType: "CUSTOM", product: { identifier: `rnr_pro:${plan}`, productCategory: "SUBSCRIPTION" } });
+  const stub = (o = {}) => { const order = []; return { order,
+    getAppUserID: async () => { order.push("id"); return o.ids ? o.ids.shift() : "user-a"; },
+    invalidateCustomerInfoCache: async () => { order.push("invalidate"); },
+    getCustomerInfo: async () => { order.push("info"); if (o.during) o.during(); if (o.fail) throw new Error("offline"); return o.info; } }; };
+  const run = (P, plan, identity) => M.checkBeforePlayPurchase(P, subPkg(plan), { entitlementId: "pro", identity: identity || M.createIdentityTracker(), now });
+
+  let P = stub({ info: pcI([sub("rnr_pro", "monthly")]) });
+  let r = await run(P, "annual");
+  check("ownership check: cache cleared before the read, user read before and after", P.order.join(">") === "id>invalidate>info>id");
+  check("ownership check: replace the signed-in customer's own plan", r.proceed && r.change && r.change.oldProductIdentifier === "rnr_pro" && r.stillCurrent() === true);
+  r = await run(stub({ fail: true }), "annual");
+  check("ownership check: unreadable → nothing bought, no state returned", !r.proceed && r.reason === "unreadable" && !r.info && /nothing was bought/.test(r.message));
+  const busyT = M.createIdentityTracker(); const end = busyT.begin();
+  P = stub({ info: pcI([sub("rnr_pro", "monthly")]) }); r = await run(P, "annual", busyT);
+  check("ownership check: sign-in queued or running → nothing read, nothing bought", !r.proceed && r.reason === "identity-changing" && P.order.length === 0);
+  end();
+  const t = M.createIdentityTracker(); let endLate;
+  r = await run(stub({ info: pcI([sub("rnr_pro", "monthly")]), during: () => { endLate = t.begin(); } }), "annual", t);
+  check("ownership check: sign-in starting during the read → abandoned, the read is not used", !r.proceed && r.reason === "identity-changed" && !r.info);
+  endLate();
+  r = await run(stub({ info: pcI([sub("rnr_pro", "monthly")]), ids: ["user-a", "user-b"] }), "annual");
+  check("ownership check: RevenueCat user changed between reads → abandoned", !r.proceed && r.reason === "identity-changed" && !r.info);
+  const t2 = M.createIdentityTracker();
+  r = await run(stub({ info: pcI([sub("rnr_pro", "monthly")]) }), "annual", t2);
+  const e2 = t2.begin();
+  check("ownership check: sign-in after the check → stillCurrent() false (purchase must not start)", r.proceed && r.stillCurrent() === false);
+  e2(); check("ownership check: a finished sign-in still invalidates the earlier check", r.stillCurrent() === false);
+  r = await run(stub({ info: pcI([]) }), "monthly");
+  check("ownership check: new customer without a subscription → plain purchase, no change info", r.proceed && r.change === null);
+  r = await run(stub({ info: pcI([sub("rnr_pro", "monthly")]) }), "monthly");
+  check("ownership check: same plan → nothing bought, current state returned to show", !r.proceed && r.reason === "same-plan" && !!r.info);
+  const acc = readFileSync("mobile/pro.js", "utf8");
+  check("sign-in code marks every RevenueCat identity change for the purchase check", /purchaseIdentity\.begin\(\)/.test(acc) && /finally \{ done\(\); \}/.test(acc));
 }
 
 console.log(`\n${pass}/${pass + fail} checks passed`);

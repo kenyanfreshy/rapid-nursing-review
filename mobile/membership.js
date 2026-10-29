@@ -239,3 +239,52 @@ export function alreadyActiveMessage(plan) {
 
 /** A replacement Google Play couldn't match to a purchase on this Google account (RevenueCat PURCHASE_INVALID_ERROR). */
 export const REPLACEMENT_NOT_FOUND_MESSAGE = "Google Play couldn't find your current subscription on this Google account, so nothing was bought. If you subscribed with a different Google account, switch to it in the Play Store and try again.";
+
+// ---------- Ownership check before a Google Play purchase ----------
+// The plan to replace must come from THIS customer's current state:
+//  - fresh: getCustomerInfo() serves a cached answer for up to 5 minutes in the foreground (purchases-android
+//    10.26 CustomerInfoHelper CACHED_OR_FETCHED, CACHE_REFRESH_PERIOD_IN_FOREGROUND); invalidateCustomerInfoCache()
+//    first forces a fetch, and a failed fetch stops the purchase;
+//  - same customer: no purchase while a sign-in / sign-out is queued or running, or when the RevenueCat app user
+//    changed during the check. Google Play itself only finds an old purchase on the device's current Google account
+//    (findPurchaseInPurchaseHistory), so a replacement can never reach a subscription bought with another Google account.
+
+/** Counts sign-in / sign-out changes. begin() when a change is queued; call the returned end() when it is finished. */
+export function createIdentityTracker() {
+  let epoch = 0, busy = 0;
+  return {
+    begin() { epoch++; busy++; let done = false; return () => { if (!done) { done = true; busy--; epoch++; } }; },
+    epoch: () => epoch,
+    busy: () => busy > 0,
+  };
+}
+/** Shared by the sign-in code and buy(). */
+export const purchaseIdentity = createIdentityTracker();
+
+export const ACCOUNT_CHANGING_MESSAGE = "Your account is switching right now, so nothing was bought. Wait a moment and try again.";
+export const OWNERSHIP_UNREADABLE_MESSAGE = "We couldn't check your current Google Play subscription, so nothing was bought. Check your connection and try again.";
+
+/**
+ * Runs before every Google Play purchase. `P` is react-native-purchases' default export.
+ * Returns { proceed: true, info, plan, change, stillCurrent } or { proceed: false, reason, message, info? }.
+ *   reason: "identity-changing" | "identity-changed" | "unreadable" | "same-plan" | "entitled"
+ * `info` is returned only when it belongs to the signed-in customer (safe to show). Call stillCurrent() right before
+ * purchasePackage: false means an account change started in between, and the purchase must not start.
+ */
+export async function checkBeforePlayPurchase(P, pkg, { entitlementId, identity = purchaseIdentity, now } = {}) {
+  if (identity.busy()) return { proceed: false, reason: "identity-changing", message: ACCOUNT_CHANGING_MESSAGE };
+  const start = identity.epoch();
+  const stillCurrent = () => !identity.busy() && identity.epoch() === start;
+  let info;
+  try {
+    const who = await P.getAppUserID();
+    if (typeof P.invalidateCustomerInfoCache === "function") await P.invalidateCustomerInfoCache();
+    info = await P.getCustomerInfo();
+    if (!info || (await P.getAppUserID()) !== who || !stillCurrent()) return { proceed: false, reason: "identity-changed", message: ACCOUNT_CHANGING_MESSAGE };
+  } catch (_) {
+    return { proceed: false, reason: "unreadable", message: OWNERSHIP_UNREADABLE_MESSAGE };
+  }
+  const plan = planChangeFor(info, pkg, { entitlementId, now: now == null ? Date.now() : now });
+  if (plan.kind === "same-plan" || plan.kind === "entitled") return { proceed: false, reason: plan.kind, info, plan, message: alreadyActiveMessage(plan) };
+  return { proceed: true, info, plan, change: productChangeInfoFor(plan), stillCurrent };
+}

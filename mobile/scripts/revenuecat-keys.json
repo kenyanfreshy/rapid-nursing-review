@@ -41,5 +41,11 @@
       "pro"
     ]
   },
-  "otherAppsNote": "Fingerprints of other projects' public keys, re-read from the RevenueCat dashboard 2026-10-29 (Rico 09:43Z, Claude 10:15Z). Test Store keys are rejected by prefix."
+  "otherAppsNote": "Fingerprints of other projects' public keys, re-read from the RevenueCat dashboard 2026-10-29 (Rico 09:43Z, Claude 10:15Z). Test Store keys are rejected by prefix.",
+  "playReplacementMode": {
+    "mode": "WITH_TIME_PRORATION",
+    "approved": false,
+    "source": "../membership.js",
+    "note": "Proposed by the 2026-10-29 audit, NOT approved. New plan starts immediately; unused time of the old plan is credited by moving the next charge date (Google Play WITH_TIME_PRORATION). Alternatives: WITHOUT_PRORATION (RevenueCat's default; immediate, new price from the old renewal date), CHARGE_PRORATED_PRICE (upgrades only; charges the difference now), CHARGE_FULL_PRICE, DEFERRED (change at renewal). Set approved: true only with the owner's written choice; change mode here and PLAY_REPLACEMENT_MODE in code together."
+  }
 }

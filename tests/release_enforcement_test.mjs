@@ -19,6 +19,9 @@ const { fingerprint } = await import(CHECK);
 const registryPath = join(dirname(CHECK), "revenuecat-keys.json");
 const registry = JSON.parse(readFileSync(registryPath, "utf8"));
 const extra = JSON.parse(readFileSync(resolve(dirname(registryPath), registry.appJson), "utf8")).expo.extra;
+// Key-check fixtures: the replacement-mode approval is tested on its own (below), so here it is marked approved
+// (TEST FIXTURE, not the owner's approval) and its source path made absolute for the temp folder.
+const PRM_FIXTURE = registry.playReplacementMode && { ...registry.playReplacementMode, approved: true, source: resolve(dirname(registryPath), registry.playReplacementMode.source) };
 const NPM = execFileSync("sh", ["-c", "command -v npm"]).toString().trim();
 
 let pass = 0, fail = 0;
@@ -34,7 +37,7 @@ function sandbox() {
 function confirmedRegistry(platform) {
   const key = platform === "ios" ? extra.revenueCatAppleKey : extra.revenueCatGoogleKey;
   const dir = mkdtempSync(join(tmpdir(), "rc-reg-")), p = join(dir, "revenuecat-keys.json");
-  writeFileSync(p, JSON.stringify({ ...registry, appJson: resolve(dirname(registryPath), registry.appJson),
+  writeFileSync(p, JSON.stringify({ ...registry, appJson: resolve(dirname(registryPath), registry.appJson), playReplacementMode: PRM_FIXTURE,
     expected: { ...registry.expected, [platform]: { fingerprint: fingerprint(key), source: "TEST FIXTURE (not real evidence)", confirmed: true } } }));
   return p;
 }
@@ -99,7 +102,29 @@ if (PLATFORMS.missingKey) {
 // The repo's real registry: every listed platform's identity is confirmed, so the key check passes on its own.
 for (const p of registry.platforms) {
   const r = spawnSync(process.execPath, [CHECK, "--platform", p, "--production"], { cwd: dirname(CHECK), encoding: "utf8", env: { ...process.env, RC_KEY_REGISTRY: "" } });
-  check(`real registry: ${p} key check passes with dashboard-confirmed identity`, r.status === 0 && /verified: matches/.test(r.stdout), (r.stdout + r.stderr).slice(-300));
+  if (p === "android") {
+    // Keys pass; the only stop is the Google Play replacement mode awaiting the owner's approval.
+    const errs = (r.stdout.match(/^ERROR \[android\]: .*/gm) || []);
+    check("real registry: android key check passes with dashboard-confirmed identity", /verified: matches/.test(r.stdout + r.stderr) || errs.every((e) => /replacement mode/.test(e)), (r.stdout + r.stderr).slice(-300));
+    check("real registry: android production build stops only on the unapproved Play replacement mode", r.status === 1 && errs.length === 1 && /pending owner approval/.test(errs[0]), (r.stdout + r.stderr).slice(-400));
+  } else check(`real registry: ${p} key check passes with dashboard-confirmed identity`, r.status === 0 && /verified: matches/.test(r.stdout), (r.stdout + r.stderr).slice(-300));
+}
+
+// ---- Google Play replacement mode: a billing policy, approved by the owner before production ----
+{
+  const { checkPlayReplacement } = await import(CHECK);
+  const regDir = dirname(registryPath), pol = registry.playReplacementMode || {};
+  check("Play replacement mode recorded as proposed, not approved", pol.mode === "WITH_TIME_PRORATION" && pol.approved === false);
+  let r = checkPlayReplacement(registry, regDir, { production: true });
+  check("production: unapproved mode is an error", r.errors.length === 1 && /pending owner approval/.test(r.errors[0]));
+  r = checkPlayReplacement(registry, regDir, { production: false });
+  check("preview: unapproved mode only warns (internal tests can run)", r.errors.length === 0 && r.warnings.length === 1);
+  r = checkPlayReplacement({ ...registry, playReplacementMode: { ...pol, approved: true } }, regDir, { production: true });
+  check("production: approved mode that matches the code passes", r.errors.length === 0);
+  r = checkPlayReplacement({ ...registry, playReplacementMode: { ...pol, mode: "DEFERRED", approved: true } }, regDir, { production: true });
+  check("code and registry disagree on the mode: error even when approved", r.errors.length === 1 && /passes Google Play replacement mode WITH_TIME_PRORATION, but the registry records DEFERRED/.test(r.errors[0]));
+  r = checkPlayReplacement({ ...registry, playReplacementMode: undefined }, regDir, { production: true });
+  check("production: no recorded mode is an error", r.errors.length === 1);
 }
 console.log(`\n${pass}/${pass + fail} checks passed`);
 process.exit(fail ? 1 : 0);

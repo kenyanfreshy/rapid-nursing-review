@@ -8,7 +8,7 @@ import React, { createContext, useCallback, useContext, useEffect, useRef, useSt
 import { Linking, Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
-import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified, planChangeFor, productChangeInfoFor, alreadyActiveMessage, REPLACEMENT_NOT_FOUND_MESSAGE } from './membership';
+import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified, REPLACEMENT_NOT_FOUND_MESSAGE, checkBeforePlayPurchase, ACCOUNT_CHANGING_MESSAGE, purchaseIdentity } from './membership';
 
 let Purchases = null, ERR = {};
 try { const m = require('react-native-purchases'); Purchases = m.default; ERR = m.PURCHASES_ERROR_CODE || {}; } catch (e) { Purchases = null; }
@@ -145,14 +145,15 @@ export function ProProvider({ children }) {
     if (!configured.current) { pendingUser.current = userId; return Promise.resolve(); }
     const gen = ++linkGen.current;
     const stale = () => gen !== linkGen.current;
+    const done = purchaseIdentity.begin();   // Google Play purchases wait until this change has finished
     linkQueue.current = linkQueue.current.then(async () => {
-      if (stale()) return;
       try {
+        if (stale()) return;
         const current = await Purchases.getAppUserID();
         if (stale() || current === userId) return;
         const { customerInfo } = await Purchases.logIn(userId);
         if (!stale()) apply(customerInfo);
-      } catch (e) {}
+      } catch (e) {} finally { done(); }
     });
     return linkQueue.current;
   }
@@ -173,17 +174,19 @@ export function ProProvider({ children }) {
     // refused as already owned). Read the current state first and never start a second subscription for someone
     // who already has Pro. The lifetime pass is a one-time product: never a replacement, and buying it leaves a
     // running subscription untouched (membership.overlap tells the learner).
-    let change = null;
+    let change = null, pre = null;
     if (Platform.OS === 'android') {
-      let current;
-      try { const ticket = gate.ticket(); current = await Purchases.getCustomerInfo(); apply(current, ticket); }
-      catch (_) { return { ok: false, message: 'We couldn\'t check your current Google Play subscription, so nothing was bought. Check your connection and try again.' }; }
-      before = current;
-      const plan = planChangeFor(current, pkg, { entitlementId: ENTITLEMENT });
-      if (plan.kind === 'same-plan' || plan.kind === 'entitled') return { ok: false, alreadyActive: true, membership: readMembership(current), message: alreadyActiveMessage(plan) };
-      change = productChangeInfoFor(plan);
+      // Fresh state of THIS customer, never during an account switch (checkBeforePlayPurchase in membership.js).
+      const ticket = gate.ticket();
+      pre = await checkBeforePlayPurchase(Purchases, pkg, { entitlementId: ENTITLEMENT });
+      if (pre.info) { apply(pre.info, ticket); before = pre.info; }
+      if (!pre.proceed) return pre.reason === 'same-plan' || pre.reason === 'entitled'
+        ? { ok: false, alreadyActive: true, membership: readMembership(pre.info), message: pre.message }
+        : { ok: false, message: pre.message };
+      change = pre.change;
     }
     const verified = info => purchaseVerified(info, pkg, { entitlementId: ENTITLEMENT, startedAt, before });
+    if (pre && !pre.stillCurrent()) return { ok: false, message: ACCOUNT_CHANGING_MESSAGE };   // a sign-in started after the check
     try {
       // Third argument: productChangeInfo (the second, upgradeInfo, is deprecated). null = a new purchase.
       const { customerInfo } = await Purchases.purchasePackage(pkg, null, change);
