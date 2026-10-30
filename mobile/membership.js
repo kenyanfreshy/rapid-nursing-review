@@ -166,23 +166,16 @@ export function purchaseVerified(info, pkg, { entitlementId = "pro", now = Date.
 }
 
 // ---------- Google Play plan changes (Android only) ----------
-// Google Play has no subscription groups. Buying a different subscription product while one is active starts a
-// second, separately billed subscription; buying another base plan of the same subscription is refused as already
-// owned. A purchase replaces the current plan only when it names that plan's subscription id
-// (react-native-purchases purchasePackage(pkg, null, { oldProductIdentifier, replacementMode }); the id is
-// without ":basePlan", which purchases-android 10.26 strips with a warning). Checked against
-// react-native-purchases 10.12.2 / 10.13.0 (RNPurchasesModule.getUpgradeInfo reads oldProductIdentifier +
-// replacementMode) and purchases-android 10.26.0 (replaceOldPurchaseWithNewProduct). The App Store needs none of
-// this: StoreKit switches plans within one subscription group by itself.
+// This app sells ONE Play subscription with several base plans. Google Play Billing ("Resubscribe or switch plans
+// within the same subscription", developer.android.com/google/play/billing/subs): a switch between base plans of the
+// same subscription can be a regular purchase with no SubscriptionUpdateParams; Play then applies the default set in
+// Play Console (Charge immediately = CHARGE_FULL_PRICE, or Charge at the next billing date = WITHOUT_PRORATION).
+// Only those two modes are valid for such a switch: WITH_TIME_PRORATION (or any other) makes the purchase fail with an
+// error. So a base-plan switch passes NO productChangeInfo and the billing terms are the Play Console setting's.
+// The App Store needs none of this: StoreKit switches plans within one subscription group by itself.
 
-/**
- * Mode passed with every replacement: the new plan starts at once and the unused time of the old plan is credited
- * (Play's IMMEDIATE_WITH_TIME_PRORATION). It works for upgrades and downgrades alike; CHARGE_PRORATED_PRICE is
- * upgrade-only and DEFERRED leaves the old plan in effect, which purchaseVerified() would not confirm. Stated
- * explicitly because the SDK's documented default differs between its own comments (WITHOUT_PRORATION in the
- * enum and in purchases-android's builder).
- */
-export const PLAY_REPLACEMENT_MODE = "WITH_TIME_PRORATION";
+/** Recorded in the release registry (playReplacementMode.mode): base-plan switches use the Play Console default. */
+export const PLAY_REPLACEMENT_MODE = "PLAY_CONSOLE_DEFAULT";
 
 const STORE_LABELS = { APP_STORE: "the App Store", MAC_APP_STORE: "the Mac App Store", PLAY_STORE: "Google Play", STRIPE: "the web", RC_BILLING: "the web", PROMOTIONAL: "a promotional grant", AMAZON: "the Amazon Appstore" };
 
@@ -202,12 +195,15 @@ export function playSubscriptions(info, { entitlementId, now = Date.now() } = {}
 
 /**
  * What buying `pkg` on Google Play should do, from CustomerInfo read just before the purchase:
- *   { kind: "new" }                                   nothing to replace (one-time products such as the lifetime pass always)
- *   { kind: "same-plan", productId }                  that plan is already active on Google Play: don't buy it again
- *   { kind: "replace", oldProductIdentifier, from }   another Google Play plan is active: the purchase must replace it
- *   { kind: "entitled", store }                       Pro is already active without a Google Play subscription (App Store,
- *                                                     lifetime pass, promotional): a subscription would be a second charge
- * Buying the lifetime pass while subscribed stays allowed and never cancels the subscription (see readMembership().overlap).
+ *   { kind: "new" }                               nothing active on Google Play (one-time products such as the lifetime
+ *                                                 pass always: they never replace and never cancel a subscription)
+ *   { kind: "same-plan", productId }              that base plan is already active on Google Play: don't buy it again
+ *   { kind: "switch-base-plan", from }            another base plan of the same subscription is active: a regular purchase;
+ *                                                 Google Play replaces it under the Play Console default
+ *   { kind: "other-subscription", from }          a different Play subscription is active (none exists in this catalog):
+ *                                                 not bought, because replacing it needs a mode nobody has approved
+ *   { kind: "entitled", store }                   Pro is already active without a Google Play subscription (App Store,
+ *                                                 lifetime pass, promotional): a subscription would be a second charge
  */
 export function planChangeFor(info, pkg, { entitlementId, now = Date.now() } = {}) {
   if (!pkg || !pkg.product || pkg.packageType === "LIFETIME" || pkg.product.productCategory === "NON_SUBSCRIPTION") return { kind: "new" };
@@ -220,24 +216,26 @@ export function planChangeFor(info, pkg, { entitlementId, now = Date.now() } = {
     return { kind: "entitled", store: (ent && ent.store) || null };
   }
   const wantPlan = want.includes(":") ? want.split(":")[1] : null;
+  if (baseId(cur.productId) !== baseId(want)) return { kind: "other-subscription", from: cur.productId };
   // Same subscription id: the same plan unless both base plans are known and differ.
-  if (baseId(cur.productId) === baseId(want) && (cur.plan === null || wantPlan === null || cur.plan === wantPlan)) return { kind: "same-plan", productId: cur.productId };
-  return { kind: "replace", oldProductIdentifier: baseId(cur.productId), from: cur.productId };
+  if (cur.plan === null || wantPlan === null || cur.plan === wantPlan) return { kind: "same-plan", productId: cur.productId };
+  return { kind: "switch-base-plan", from: cur.productId };
 }
 
-/** The productChangeInfo argument for purchasePackage (third parameter), or null for a new purchase. */
-export function productChangeInfoFor(plan, mode = PLAY_REPLACEMENT_MODE) {
-  return plan && plan.kind === "replace" ? { oldProductIdentifier: plan.oldProductIdentifier, replacementMode: mode } : null;
+/** The productChangeInfo argument for purchasePackage (third parameter). Always null here: see the note above. */
+export function productChangeInfoFor(_plan) {
+  return null;
 }
 
 /** Shown when the purchase is not started because the customer already has access ("same-plan" / "entitled"). */
 export function alreadyActiveMessage(plan) {
+  if (plan && plan.kind === "other-subscription") return "You have a different Google Play subscription for this app, so nothing was bought. Change or cancel it in Google Play first.";
   if (plan && plan.kind === "same-plan") return "You already have this plan on Google Play, so nothing was bought. It's active on this account now.";
   const where = plan && plan.store && STORE_LABELS[plan.store];
   return `You already have Pro on this account${where ? ` through ${where}` : ""}, so nothing was bought.`;
 }
 
-/** A replacement Google Play couldn't match to a purchase on this Google account (RevenueCat PURCHASE_INVALID_ERROR). */
+/** Kept for pro.js: only reachable if a replacement is ever passed (RevenueCat PURCHASE_INVALID_ERROR). */
 export const REPLACEMENT_NOT_FOUND_MESSAGE = "Google Play couldn't find your current subscription on this Google account, so nothing was bought. If you subscribed with a different Google account, switch to it in the Play Store and try again.";
 
 // ---------- Ownership check before a Google Play purchase ----------
@@ -249,15 +247,36 @@ export const REPLACEMENT_NOT_FOUND_MESSAGE = "Google Play couldn't find your cur
 //    changed during the check. Google Play itself only finds an old purchase on the device's current Google account
 //    (findPurchaseInPurchaseHistory), so a replacement can never reach a subscription bought with another Google account.
 
-/** Counts sign-in / sign-out changes. begin() when a change is queued; call the returned end() when it is finished. */
+/**
+ * Coordinates RevenueCat identity changes (sign-in / sign-out) with Google Play purchases, both ways:
+ *  - begin() when an identity change is queued, call the returned end() when it is finished; a purchase never starts
+ *    while one is pending (busy) and is abandoned if one starts during its ownership check (epoch moves);
+ *  - startPurchase() when a purchase begins (before its ownership check), call the returned release() when the store
+ *    has answered; an identity change waits (whenNoPurchase) until no purchase is running, so a sign-in can never land
+ *    between the check and the store's answer: the purchase belongs to the account that started it.
+ */
 export function createIdentityTracker() {
-  let epoch = 0, busy = 0;
+  let epoch = 0, busy = 0, purchases = 0, waiters = [];
   return {
     begin() { epoch++; busy++; let done = false; return () => { if (!done) { done = true; busy--; epoch++; } }; },
     epoch: () => epoch,
     busy: () => busy > 0,
+    startPurchase() {
+      purchases++; let done = false;
+      return () => { if (done) return; done = true; purchases--; if (!purchases) { const w = waiters; waiters = []; w.forEach((f) => f()); } };
+    },
+    purchasing: () => purchases > 0,
+    whenNoPurchase: () => (purchases ? new Promise((r) => waiters.push(r)) : Promise.resolve()),
   };
 }
+
+/** Runs one queued identity change: waits for running purchases, then skips it if a newer change replaced it. */
+export async function runIdentityChange(identity, stale, change) {
+  await identity.whenNoPurchase();
+  if (stale()) return undefined;
+  return change();
+}
+
 /** Shared by the sign-in code and buy(). */
 export const purchaseIdentity = createIdentityTracker();
 
@@ -285,6 +304,6 @@ export async function checkBeforePlayPurchase(P, pkg, { entitlementId, identity 
     return { proceed: false, reason: "unreadable", message: OWNERSHIP_UNREADABLE_MESSAGE };
   }
   const plan = planChangeFor(info, pkg, { entitlementId, now: now == null ? Date.now() : now });
-  if (plan.kind === "same-plan" || plan.kind === "entitled") return { proceed: false, reason: plan.kind, info, plan, message: alreadyActiveMessage(plan) };
+  if (plan.kind === "same-plan" || plan.kind === "entitled" || plan.kind === "other-subscription") return { proceed: false, reason: plan.kind, info, plan, message: alreadyActiveMessage(plan) };
   return { proceed: true, info, plan, change: productChangeInfoFor(plan), stillCurrent };
 }

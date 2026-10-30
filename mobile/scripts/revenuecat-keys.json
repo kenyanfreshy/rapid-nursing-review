@@ -43,9 +43,10 @@
   },
   "otherAppsNote": "Fingerprints of other projects' public keys, re-read from the RevenueCat dashboard 2026-10-29 (Rico 09:43Z, Claude 10:15Z). Test Store keys are rejected by prefix.",
   "playReplacementMode": {
-    "mode": "WITH_TIME_PRORATION",
+    "mode": "PLAY_CONSOLE_DEFAULT",
     "approved": false,
     "source": "../membership.js",
-    "note": "Proposed by the 2026-10-29 audit, NOT approved. New plan starts immediately; unused time of the old plan is credited by moving the next charge date (Google Play WITH_TIME_PRORATION). Alternatives: WITHOUT_PRORATION (RevenueCat's default; immediate, new price from the old renewal date), CHARGE_PRORATED_PRICE (upgrades only; charges the difference now), CHARGE_FULL_PRICE, DEFERRED (change at renewal). Set approved: true only with the owner's written choice; change mode here and PLAY_REPLACEMENT_MODE in code together."
+    "note": "This app has one Play subscription; plan changes are base-plan switches within it. Google Play allows only CHARGE_FULL_PRICE or WITHOUT_PRORATION for those (any other mode fails), and a regular purchase applies the Play Console default (Charge immediately / Charge at the next billing date). The app passes no replacement mode, so the billing terms are that Play Console setting. NOT approved: read the setting in Play Console and record the owner's acceptance (approved: true, consoleDefault: ...).",
+    "consoleDefault": null
   }
 }

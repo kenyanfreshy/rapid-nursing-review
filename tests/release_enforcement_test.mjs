@@ -114,7 +114,8 @@ for (const p of registry.platforms) {
 {
   const { checkPlayReplacement } = await import(CHECK);
   const regDir = dirname(registryPath), pol = registry.playReplacementMode || {};
-  check("Play replacement mode recorded as proposed, not approved", pol.mode === "WITH_TIME_PRORATION" && pol.approved === false);
+  const codeMode = (/PLAY_REPLACEMENT_MODE\s*=\s*["']([A-Z_]+)["']/.exec(readFileSync(resolve(regDir, pol.source), "utf8")) || [])[1];
+  check(`Play replacement mode ${pol.mode} recorded, matches the code, not approved`, !!pol.mode && codeMode === pol.mode && pol.approved === false);
   let r = checkPlayReplacement(registry, regDir, { production: true });
   check("production: unapproved mode is an error", r.errors.length === 1 && /pending owner approval/.test(r.errors[0]));
   r = checkPlayReplacement(registry, regDir, { production: false });
@@ -122,7 +123,7 @@ for (const p of registry.platforms) {
   r = checkPlayReplacement({ ...registry, playReplacementMode: { ...pol, approved: true } }, regDir, { production: true });
   check("production: approved mode that matches the code passes", r.errors.length === 0);
   r = checkPlayReplacement({ ...registry, playReplacementMode: { ...pol, mode: "DEFERRED", approved: true } }, regDir, { production: true });
-  check("code and registry disagree on the mode: error even when approved", r.errors.length === 1 && /passes Google Play replacement mode WITH_TIME_PRORATION, but the registry records DEFERRED/.test(r.errors[0]));
+  check("code and registry disagree on the mode: error even when approved", r.errors.length === 1 && new RegExp(`passes Google Play replacement mode ${pol.mode}, but the registry records DEFERRED`).test(r.errors[0]));
   r = checkPlayReplacement({ ...registry, playReplacementMode: undefined }, regDir, { production: true });
   check("production: no recorded mode is an error", r.errors.length === 1);
 }
