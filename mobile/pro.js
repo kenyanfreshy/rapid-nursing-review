@@ -8,7 +8,7 @@ import React, { createContext, useCallback, useContext, useEffect, useRef, useSt
 import { Linking, Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
-import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified, REPLACEMENT_NOT_FOUND_MESSAGE, checkBeforePlayPurchase, ACCOUNT_CHANGING_MESSAGE, purchaseIdentity } from './membership';
+import { readMembership as readFrom, createResponseGate, chooseKey, classifyPurchaseError, uncertainPurchaseMessage, purchaseVerified, REPLACEMENT_NOT_FOUND_MESSAGE, checkBeforePlayPurchase, ACCOUNT_CHANGING_MESSAGE, purchaseIdentity, runIdentityChange } from './membership';
 
 let Purchases = null, ERR = {};
 try { const m = require('react-native-purchases'); Purchases = m.default; ERR = m.PURCHASES_ERROR_CODE || {}; } catch (e) { Purchases = null; }
@@ -149,10 +149,13 @@ export function ProProvider({ children }) {
     linkQueue.current = linkQueue.current.then(async () => {
       try {
         if (stale()) return;
-        const current = await Purchases.getAppUserID();
-        if (stale() || current === userId) return;
-        const { customerInfo } = await Purchases.logIn(userId);
-        if (!stale()) apply(customerInfo);
+        // Waits for a Google Play purchase that is still running: it belongs to the account that started it.
+        await runIdentityChange(purchaseIdentity, stale, async () => {
+          const current = await Purchases.getAppUserID();
+          if (stale() || current === userId) return;
+          const { customerInfo } = await Purchases.logIn(userId);
+          if (!stale()) apply(customerInfo);
+        });
       } catch (e) {} finally { done(); }
     });
     return linkQueue.current;
@@ -164,7 +167,7 @@ export function ProProvider({ children }) {
     return { ok: active, message: active ? 'Your Pro membership is restored.' : 'We didn\'t find a Pro purchase on this ' + (Platform.OS === 'ios' ? 'Apple ID.' : 'Google account.') };
   };
 
-  const buy = useCallback(async pkg => {
+  const buyInner = async (pkg) => {
     if (!Purchases || !storeAvailable) return { ok: false, message: `Purchases need the ${STORE_NAME} version of the app.` };
     // What was in effect when the user tapped buy, so a failed attempt can't be mistaken for success
     // (e.g. a subscriber whose lifetime purchase fails still has Pro).
@@ -218,6 +221,12 @@ export function ProProvider({ children }) {
       if (c.kind === 'not-available') return { ok: false, message: `This plan isn't available from ${STORE_NAME} right now. Please pick another plan, or tap Restore Purchases if you were charged.` };
       return { ok: false, message: uncertainPurchaseMessage(STORE_NAME) };
     }
+  };
+  // Android: holds the purchase lock from the ownership check until the store answers, so a sign-in / sign-out
+  // waits (runIdentityChange) instead of landing in between.
+  const buy = useCallback(async (pkg) => {
+    const release = Platform.OS === 'android' && Purchases ? purchaseIdentity.startPurchase() : null;
+    try { return await buyInner(pkg); } finally { if (release) release(); }
   }, [storeAvailable]);
 
   const restore = useCallback(async () => {

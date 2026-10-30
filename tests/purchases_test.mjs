@@ -188,10 +188,10 @@ check("pro.js: sign-ins are serialized and stale ones dropped", /linkQueue\.curr
   const lifePkg = { packageType: "LIFETIME", product: { identifier: "rnr_pro_lifetime", productCategory: "NON_SUBSCRIPTION" } };
   const plan = (i, pkg) => M.planChangeFor(i, pkg, { entitlementId: "pro", now });
   const r = plan(pc([sub("rnr_pro", "monthly")]), subPkg("annual"));
-  check("plan change: other base plan → replace rnr_pro (id without base plan)", r.kind === "replace" && r.oldProductIdentifier === "rnr_pro" && r.from === "rnr_pro:monthly");
+  check("plan change: other base plan of rnr_pro → regular purchase; Play applies the Play Console default", r.kind === "switch-base-plan" && r.from === "rnr_pro:monthly" && M.productChangeInfoFor(r) === null);
   const ci = M.productChangeInfoFor(r);
-  check("plan change: productChangeInfo names the old id and an explicit mode", ci && ci.oldProductIdentifier === "rnr_pro" && ci.replacementMode === "WITH_TIME_PRORATION" && M.PLAY_REPLACEMENT_MODE === "WITH_TIME_PRORATION");
-  check("plan change: canceled-but-active plan is replaced too", plan(pc([sub("rnr_pro", "monthly", { willRenew: false })]), subPkg("annual")).kind === "replace");
+  check("plan change: no replacement mode is ever passed (WITH_TIME_PRORATION would fail for a same-subscription switch)", ci === null && M.PLAY_REPLACEMENT_MODE === "PLAY_CONSOLE_DEFAULT");
+  check("plan change: canceled-but-active plan is switched too", plan(pc([sub("rnr_pro", "monthly", { willRenew: false })]), subPkg("annual")).kind === "switch-base-plan");
   check("plan change: same base plan already active → not bought again", plan(pc([sub("rnr_pro", "monthly")]), subPkg("monthly")).kind === "same-plan");
   check("plan change: base plan unknown with the same id → treated as the same plan (no charge)", plan(pc([sub("rnr_pro", null)]), subPkg("annual")).kind === "same-plan");
   check("plan change: nothing active → plain new purchase, no change info", plan(pc([], {}), subPkg("monthly")).kind === "new" && M.productChangeInfoFor(plan(pc([], {}), subPkg("monthly"))) === null);
@@ -203,7 +203,9 @@ check("pro.js: sign-ins are serialized and stale ones dropped", /linkQueue\.curr
   check("plan change: App Store subscription is not a Play plan → no second subscription", apple.kind === "entitled" && /through the App Store/.test(M.alreadyActiveMessage(apple)));
   check("plan change: refunded or inactive entries are ignored", plan(pc([sub("rnr_pro", "monthly", { refundedAt: iso(now - DAY) })], {}), subPkg("annual")).kind === "new" && plan(pc([sub("rnr_pro", "monthly", { isActive: false })], {}), subPkg("annual")).kind === "new");
   const old = { entitlements: { active: { pro: { identifier: "pro", isActive: true, willRenew: true, periodType: "NORMAL", productIdentifier: "rnr_pro:monthly", expirationDate: iso(now + 9 * DAY), store: "PLAY_STORE" } } }, activeSubscriptions: ["rnr_pro:monthly"], allExpirationDates: { "rnr_pro:monthly": iso(now + 9 * DAY) }, nonSubscriptionTransactions: [] };
-  check("plan change: older SDK shape (no subscriptionsByProductIdentifier) still finds the Play plan", plan(old, subPkg("annual")).kind === "replace");
+  check("plan change: older SDK shape (no subscriptionsByProductIdentifier) still finds the Play plan", plan(old, subPkg("annual")).kind === "switch-base-plan");
+  const other = plan(pc([sub("legacy_sub", "x")]), subPkg("annual"));
+  check("plan change: a different Play subscription is never replaced without an approved mode → nothing bought", other.kind === "other-subscription" && /nothing was bought/.test(M.alreadyActiveMessage(other)));
   check("plan change: same-plan message says nothing was bought", /nothing was bought/.test(M.alreadyActiveMessage({ kind: "same-plan" })));
   const ps = readFileSync("mobile/pro.js", "utf8");
   check("pro.js: Android purchase goes through checkBeforePlayPurchase, then passes productChangeInfo as the 3rd argument",
@@ -227,7 +229,7 @@ check("pro.js: sign-ins are serialized and stale ones dropped", /linkQueue\.curr
   let P = stub({ info: pcI([sub("rnr_pro", "monthly")]) });
   let r = await run(P, "annual");
   check("ownership check: cache cleared before the read, user read before and after", P.order.join(">") === "id>invalidate>info>id");
-  check("ownership check: replace the signed-in customer's own plan", r.proceed && r.change && r.change.oldProductIdentifier === "rnr_pro" && r.stillCurrent() === true);
+  check("ownership check: the signed-in customer's own base plan is switched by a regular purchase", r.proceed && r.change === null && r.plan.kind === "switch-base-plan" && r.plan.from === "rnr_pro:monthly" && r.stillCurrent() === true);
   r = await run(stub({ fail: true }), "annual");
   check("ownership check: unreadable → nothing bought, no state returned", !r.proceed && r.reason === "unreadable" && !r.info && /nothing was bought/.test(r.message));
   const busyT = M.createIdentityTracker(); const end = busyT.begin();
@@ -251,6 +253,43 @@ check("pro.js: sign-ins are serialized and stale ones dropped", /linkQueue\.curr
   check("ownership check: same plan → nothing bought, current state returned to show", !r.proceed && r.reason === "same-plan" && !!r.info);
   const acc = readFileSync("mobile/pro.js", "utf8");
   check("sign-in code marks every RevenueCat identity change for the purchase check", /purchaseIdentity\.begin\(\)/.test(acc) && /finally \{ done\(\); \}/.test(acc));
+}
+
+// ---------- purchases and identity changes never overlap (regression: sign-in landing during a Play purchase) ----------
+{
+  const tick = () => new Promise((r) => setTimeout(r, 5));
+  const sub = (id, plan) => ({ productIdentifier: id, productPlanIdentifier: plan, store: "PLAY_STORE", isActive: true, willRenew: true, expiresDate: iso(now + 20 * DAY), refundedAt: null });
+  const infoWith = (subs) => ({ entitlements: { active: subs.length ? { pro: { identifier: "pro", isActive: true, willRenew: true, periodType: "NORMAL", productIdentifier: `${subs[0].productIdentifier}:${subs[0].productPlanIdentifier}`, expirationDate: iso(now + 20 * DAY), store: "PLAY_STORE" } } : {} },
+    activeSubscriptions: subs.map((x) => `${x.productIdentifier}:${x.productPlanIdentifier}`), allExpirationDates: {}, subscriptionsByProductIdentifier: Object.fromEntries(subs.map((x) => [x.productIdentifier, x])), nonSubscriptionTransactions: [] });
+  const pkgFor = (plan) => ({ packageType: "CUSTOM", product: { identifier: `rnr_pro:${plan}`, productCategory: "SUBSCRIPTION" } });
+  const order = [];
+  const P = { appUser: "user-a", getAppUserID: async () => P.appUser, invalidateCustomerInfoCache: async () => {}, getCustomerInfo: async () => infoWith([sub("rnr_pro", "monthly")]),
+    purchasePackage: () => { order.push("purchase:" + P.appUser); return new Promise((r) => { P.finish = r; }); }, logIn: async (u) => { order.push("logIn:" + u); P.appUser = u; } };
+  const T = M.createIdentityTracker();
+  // What pro.js buy() does on Android: lock, ownership check, store purchase, release.
+  const buy = async (pkg) => { const release = T.startPurchase(); try { const pre = await M.checkBeforePlayPurchase(P, pkg, { entitlementId: "pro", identity: T, now }); if (!pre.proceed || !pre.stillCurrent()) return pre; await P.purchasePackage(pkg, null, pre.change); order.push("purchase-answered"); return pre; } finally { release(); } };
+  // What the sign-in code does: mark the change, wait for purchases, then switch.
+  const signIn = (u) => { const end = T.begin(); return M.runIdentityChange(T, () => false, () => P.logIn(u)).finally(end); };
+
+  const buying = buy(pkgFor("annual")); await tick();
+  const switching = signIn("user-b"); await tick();
+  check("lock: sign-in requested while the Play sheet is open does not run yet", order.join(",") === "purchase:user-a" && T.purchasing() && T.busy());
+  P.finish({}); await buying; await switching;
+  check("lock: sign-in runs only after the store answered; the purchase stayed with the account that started it", order.join(",") === "purchase:user-a,purchase-answered,logIn:user-b" && !T.purchasing() && !T.busy());
+
+  order.length = 0; P.appUser = "user-a";
+  const s2 = signIn("user-c"); const b2 = await buy(pkgFor("annual")); await s2;
+  check("lock: purchase tapped while a sign-in is pending buys nothing; the sign-in still completes", b2.proceed === false && b2.reason === "identity-changing" && order.join(",") === "logIn:user-c");
+
+  order.length = 0; let replaced = false; const T2 = M.createIdentityTracker(); const rel = T2.startPurchase();
+  const e1 = T2.begin(); const older = M.runIdentityChange(T2, () => replaced, () => P.logIn("old")).finally(e1);
+  replaced = true; rel(); await older;
+  check("lock: an identity change replaced while it waited is skipped", order.length === 0);
+
+  const ps = readFileSync("mobile/pro.js", "utf8"), acc = readFileSync("mobile/pro.js", "utf8");
+  check("pro.js: buy() holds purchaseIdentity.startPurchase() around the whole purchase", /const release = Platform\.OS === ["']android["'] && Purchases \? purchaseIdentity\.startPurchase\(\) : null;\s*try \{ return await buyInner\(pkg\); \} finally \{ if \(release\) release\(\); \}/.test(ps));
+  const i = acc.indexOf("runIdentityChange(purchaseIdentity, stale"), j = acc.indexOf("Purchases.logIn(", i);
+  check("sign-in code: RevenueCat logIn / logOut run inside runIdentityChange (after purchases)", i > 0 && j > i && (acc.indexOf("Purchases.logOut(") === -1 || acc.indexOf("Purchases.logOut(") > i));
 }
 
 console.log(`\n${pass}/${pass + fail} checks passed`);
