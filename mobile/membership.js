@@ -177,7 +177,8 @@ export function purchaseVerified(info, pkg, { entitlementId = "pro", now = Date.
 /** Recorded in the release registry (playReplacementMode.mode): base-plan switches use the Play Console default. */
 export const PLAY_REPLACEMENT_MODE = "PLAY_CONSOLE_DEFAULT";
 
-const STORE_LABELS = { APP_STORE: "the App Store", MAC_APP_STORE: "the Mac App Store", PLAY_STORE: "Google Play", STRIPE: "the web", RC_BILLING: "the web", PROMOTIONAL: "a promotional grant", AMAZON: "the Amazon Appstore" };
+// Messages here ship in every build, iOS included, so they name no store (App Review Guideline 2.3.10).
+const STORE_LABELS = { APP_STORE: "the App Store", MAC_APP_STORE: "the Mac App Store", STRIPE: "the web", RC_BILLING: "the web", PROMOTIONAL: "a promotional grant", AMAZON: "the Amazon Appstore" };
 
 /** Unexpired Google Play subscriptions in `info`, the one that renews first, then the latest-expiring. */
 export function playSubscriptions(info, { entitlementId, now = Date.now() } = {}) {
@@ -229,14 +230,14 @@ export function productChangeInfoFor(_plan) {
 
 /** Shown when the purchase is not started because the customer already has access ("same-plan" / "entitled"). */
 export function alreadyActiveMessage(plan) {
-  if (plan && plan.kind === "other-subscription") return "You have a different Google Play subscription for this app, so nothing was bought. Change or cancel it in Google Play first.";
-  if (plan && plan.kind === "same-plan") return "You already have this plan on Google Play, so nothing was bought. It's active on this account now.";
+  if (plan && plan.kind === "other-subscription") return "You have a different subscription for this app, so nothing was bought. Change or cancel it in your store account first.";
+  if (plan && plan.kind === "same-plan") return "You already have this plan, so nothing was bought. It's active on this account now.";
   const where = plan && plan.store && STORE_LABELS[plan.store];
   return `You already have Pro on this account${where ? ` through ${where}` : ""}, so nothing was bought.`;
 }
 
 /** Kept for pro.js: only reachable if a replacement is ever passed (RevenueCat PURCHASE_INVALID_ERROR). */
-export const REPLACEMENT_NOT_FOUND_MESSAGE = "Google Play couldn't find your current subscription on this Google account, so nothing was bought. If you subscribed with a different Google account, switch to it in the Play Store and try again.";
+export const REPLACEMENT_NOT_FOUND_MESSAGE = "The store couldn't find your current subscription on this account, so nothing was bought. If you subscribed with a different store account, switch to it and try again.";
 
 // ---------- Ownership check before a Google Play purchase ----------
 // The plan to replace must come from THIS customer's current state:
@@ -281,7 +282,7 @@ export async function runIdentityChange(identity, stale, change) {
 export const purchaseIdentity = createIdentityTracker();
 
 export const ACCOUNT_CHANGING_MESSAGE = "Your account is switching right now, so nothing was bought. Wait a moment and try again.";
-export const OWNERSHIP_UNREADABLE_MESSAGE = "We couldn't check your current Google Play subscription, so nothing was bought. Check your connection and try again.";
+export const OWNERSHIP_UNREADABLE_MESSAGE = "We couldn't check your current subscription, so nothing was bought. Check your connection and try again.";
 
 /**
  * Runs before every Google Play purchase. `P` is react-native-purchases' default export.

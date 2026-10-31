@@ -36,10 +36,9 @@ export const PROVIDERS = {
     enabled: true,
     writeReviewUrl: () => (APP_STORE_ID ? `https://apps.apple.com/app/id${APP_STORE_ID}?action=write-review` : ''),
   },
-  android: {
-    enabled: false, // turn on for the Google Play launch; expo-store-review uses Play In-App Review there
-    writeReviewUrl: () => `https://play.google.com/store/apps/details?id=${PLAY_PACKAGE}&showAllReviews=true`,
-  },
+  // iOS line: no Android provider here, so this binary names no other store (App Review Guideline 2.3.10).
+  // The Android line (android-play) configures it for the Google Play launch.
+  android: { enabled: false, writeReviewUrl: () => '' },
 };
 
 const KEY = 'rnr.rating.v1';

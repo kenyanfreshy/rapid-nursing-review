@@ -32,6 +32,9 @@ function sandbox() {
   writeFileSync(join(bin, "eas"), `#!/bin/sh\necho "eas $*" >> "${log}"\n`); chmodSync(join(bin, "eas"), 0o755);
   // Inner "npm run build:web" → recorded and skipped; anything else → the real npm.
   writeFileSync(join(bin, "npm"), `#!/bin/sh\nif [ "$1 $2" = "run build:web" ]; then echo "npm $*" >> "${log}"; exit 0; fi\nexec "${NPM}" "$@"\n`); chmodSync(join(bin, "npm"), 0o755);
+  // The iOS wording check needs the app's installed Expo toolchain (not here): recorded and skipped; anything else → real node.
+  // tools/ios-wording-check.mjs itself is exercised on a machine with node_modules (npm run check:ios-wording).
+  writeFileSync(join(bin, "node"), `#!/bin/sh\ncase "$1" in *ios-wording-check.mjs) echo "ios-wording-check" >> "${log}"; exit 0;; esac\nexec "${process.execPath}" "$@"\n`); chmodSync(join(bin, "node"), 0o755);
   return { bin, log, calls: () => (existsSync(log) ? readFileSync(log, "utf8") : "") };
 }
 function confirmedRegistry(platform) {
@@ -127,5 +130,11 @@ for (const p of registry.platforms) {
   r = checkPlayReplacement({ ...registry, playReplacementMode: undefined }, regDir, { production: true });
   check("production: no recorded mode is an error", r.errors.length === 1);
 }
+// build:ios runs the iOS wording check (App Review Guideline 2.3.10) after the release check and before eas build.
+{
+  const pj = JSON.parse(readFileSync(join(PKG_DIR, "package.json"), "utf8"));
+  check("build:ios runs ios-wording-check before eas build", /check-release\.mjs --platform ios --production && .*ios-wording-check\.mjs && eas build --platform ios/.test(pj.scripts["build:ios"] || ""));
+}
+
 console.log(`\n${pass}/${pass + fail} checks passed`);
 process.exit(fail ? 1 : 0);

@@ -120,7 +120,7 @@ export const Account = (() => {
   // ---- Sign in with Google (web) ----
   // Same Supabase PKCE redirect as Apple. The Android app's own Google sign-in goes through the native bridge.
   async function signInWithGoogle() {
-    if (bridge()) throw new Error('Sign in with Google is available on the web app at nclexrapidnursingreview.com/app.');
+    if (bridge()) throw new Error('This sign-in is available on the web app at nclexrapidnursingreview.com/app.');   // store-neutral: shipped inside the iOS app (Guideline 2.3.10)
     return webOAuth('google');
   }
   async function webOAuth(provider) {

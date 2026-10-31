@@ -12,7 +12,8 @@
     "doctor": "npx expo-doctor",
     "check:release": "node scripts/check-release.mjs",
     "eas-build-pre-install": "node scripts/check-release.mjs",
-    "build:ios": "node scripts/check-release.mjs --platform ios --production && node scripts/verify-web-bundle.mjs && eas build --platform ios --profile production"
+    "build:ios": "node scripts/check-release.mjs --platform ios --production && node scripts/verify-web-bundle.mjs && node scripts/ios-wording-check.mjs && eas build --platform ios --profile production",
+    "check:ios-wording": "node scripts/ios-wording-check.mjs"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
