@@ -4,7 +4,7 @@
 //
 // Output: build/site/  → copy everything to the root of the website repo (kenyanfreshy/rapid-nursing-review-public)
 //   index.html                landing page (web/landing/index.html + web/landing/assets)
-//   privacy.html terms.html support.html   from docs/*.md (the .md copies stay for old links)
+//   privacy.html terms.html support.html delete-account.html   from docs/*.md (the .md copies stay for old links)
 //   quiz/                     the free NCLEX challenge (from the marketing bot) + the "Get the app" prompt
 //   app/                      the web app (build/webapp: sign-in gate + app code, NO questions or book pages)
 //   CNAME, .nojekyll          GitHub Pages settings
@@ -98,9 +98,9 @@ if (fs.existsSync(path.join(landingDir, 'index.html'))) {
   fs.writeFileSync(path.join(out, 'quiz', 'index.html'), q);
 }
 
-for (const [name, title] of [['PRIVACY', 'Privacy Policy'], ['TERMS', 'Terms of Use'], ['SUPPORT', 'Support']]) {
+for (const [name, title] of [['PRIVACY', 'Privacy Policy'], ['TERMS', 'Terms of Use'], ['SUPPORT', 'Support'], ['DELETE_ACCOUNT', 'Delete your account']]) {
   const src = fs.readFileSync(path.join(root, 'docs', `${name}.md`), 'utf8');
-  fs.writeFileSync(path.join(out, `${name.toLowerCase()}.html`), page(`${title} · Rapid Nursing Review`, md(src)));
+  fs.writeFileSync(path.join(out, `${name.toLowerCase().replace('_', '-')}.html`), page(`${title} · Rapid Nursing Review`, md(src)));
   fs.writeFileSync(path.join(out, `${name}.md`), src.replace(/\]\((privacy|terms|support)\.html\)/g, (_, n) => `](${n.toUpperCase()}.md)`));
 }
 fs.writeFileSync(path.join(out, 'CNAME'), DOMAIN + '\n');

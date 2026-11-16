@@ -26,7 +26,7 @@ Settings → Sync and web access using the same Apple ID as on the web, and tap 
 Without an account, progress stays on the device where you study.
 
 **Delete your account:** Settings → Sync and web access → Delete account (in the app or on the web). This deletes the
-account and the progress synced with it; it doesn't cancel an App Store or Google Play subscription.
+account and the progress synced with it; it doesn't cancel an App Store or Google Play subscription. Step-by-step instructions, including how to ask by email: [Delete your account](delete-account.html).
 
 **Delete the data on this device:** Settings → Reset data, or delete the app.
 
